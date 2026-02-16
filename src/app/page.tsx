@@ -519,7 +519,7 @@ export default function Home() {
               className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
                 tab === "browse"
                   ? "bg-[#222] text-white"
-                  : "bg-[#111] text-[#555] hover:text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
               }`}
             >
               Browse
@@ -529,7 +529,7 @@ export default function Home() {
               className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
                 tab === "setlists"
                   ? "bg-[#222] text-white"
-                  : "bg-[#111] text-[#555] hover:text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
               }`}
             >
               Setlists
