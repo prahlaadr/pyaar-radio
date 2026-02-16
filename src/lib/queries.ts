@@ -30,12 +30,77 @@ export function buildArtistQuery(filters: ArtistFilters): string {
   }
 
   if (filters.search) {
-    conditions.push(`artist ILIKE '%${filters.search.replace(/'/g, "''")}%'`);
+    const s = filters.search.replace(/'/g, "''");
+    conditions.push(`(artist ILIKE '%${s}%' OR aliases ILIKE '%${s}%')`);
   }
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
   return `SELECT * FROM artists ${where} ORDER BY channel, artist`;
+}
+
+export function buildTrackSearchQuery(search: string): string {
+  const s = search.replace(/'/g, "''");
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId
+    FROM masterlist
+    WHERE "Track Name" ILIKE '%${s}%'
+      OR "Artist Name(s)" ILIKE '%${s}%'
+    ORDER BY TRY_CAST(Popularity AS INT) DESC
+    LIMIT 50
+  `;
+}
+
+export function buildTrackLookupQuery(trackName: string, artistName: string): string {
+  const t = trackName.replace(/'/g, "''");
+  const a = artistName.replace(/'/g, "''");
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId
+    FROM masterlist
+    WHERE "Track Name" ILIKE '${t}'
+      AND "Artist Name(s)" ILIKE '%${a}%'
+    LIMIT 1
+  `;
+}
+
+export function buildBatchTrackLookupQuery(pairs: { track: string; artist: string }[]): string {
+  const conditions = pairs.map(({ track, artist }) => {
+    const t = track.replace(/'/g, "''");
+    const a = artist.replace(/'/g, "''");
+    return `("Track Name" ILIKE '${t}' AND "Artist Name(s)" ILIKE '%${a}%')`;
+  });
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId
+    FROM masterlist
+    WHERE ${conditions.join(" OR ")}
+  `;
 }
 
 export function buildTracksQuery(artistName: string, aliases: string[]): string {

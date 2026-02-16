@@ -2,12 +2,13 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { query } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery } from "@/lib/queries";
 import type { Artist, Track, SetlistTrack, ArtistFilters } from "@/lib/types";
 import { FilterPanel } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
 import { SetlistPanel } from "@/components/setlist";
+import { ImportModal } from "@/components/import-modal";
 
 const DEFAULT_FILTERS: ArtistFilters = {
   channels: [],
@@ -27,7 +28,9 @@ export default function Home() {
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [tracks, setTracks] = useState<Track[]>([]);
   const [tracksLoading, setTracksLoading] = useState(false);
+  const [searchTracks, setSearchTracks] = useState<Track[]>([]);
   const [setlist, setSetlist] = useState<SetlistTrack[]>([]);
+  const [importOpen, setImportOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -66,6 +69,38 @@ export default function Home() {
           bpmHigh: Number(r.bpm_high) || 0,
         }))
       );
+
+      // Also search tracks when there's a search term
+      if (filters.search && filters.search.length >= 2) {
+        const trackSql = buildTrackSearchQuery(filters.search);
+        const trackRows = await query<{
+          trackName: string;
+          artistNames: string;
+          albumName: string;
+          genres: string | null;
+          tempo: number | null;
+          duration: string;
+          key: number | null;
+          popularity: number | null;
+          videoId: string;
+        }>(trackSql);
+        setSearchTracks(
+          trackRows.map((r) => ({
+            trackName: r.trackName,
+            artistNames: r.artistNames,
+            albumName: r.albumName || "",
+            genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+            tempo: Number(r.tempo) || 0,
+            duration: r.duration || "",
+            key: Number(r.key) || 0,
+            popularity: Number(r.popularity) || 0,
+            videoId: r.videoId || "",
+          }))
+        );
+      } else {
+        setSearchTracks([]);
+      }
+
       setLoading(false);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Failed to load data");
@@ -140,6 +175,82 @@ export default function Home() {
     });
   }, []);
 
+  const handleImport = useCallback(async (lines: { track: string; artist: string }[]) => {
+    // Try to match against masterlist for metadata
+    try {
+      const sql = buildBatchTrackLookupQuery(lines);
+      const rows = await query<{
+        trackName: string;
+        artistNames: string;
+        albumName: string;
+        genres: string | null;
+        tempo: number | null;
+        duration: string;
+        key: number | null;
+        popularity: number | null;
+        videoId: string;
+      }>(sql);
+
+      // Build lookup map: lowercase track name -> row
+      const lookup = new Map<string, typeof rows[0]>();
+      for (const r of rows) {
+        lookup.set(r.trackName.toLowerCase(), r);
+      }
+
+      const newTracks: SetlistTrack[] = lines.map((line, i) => {
+        const match = lookup.get(line.track.toLowerCase());
+        const id = `${line.track}-${line.artist}-${Date.now()}-${i}`;
+        if (match) {
+          return {
+            trackName: match.trackName,
+            artistNames: match.artistNames,
+            albumName: match.albumName || "",
+            genres: match.genres ? match.genres.split(",").map((g) => g.trim()) : [],
+            tempo: Number(match.tempo) || 0,
+            duration: match.duration || "",
+            key: Number(match.key) || 0,
+            popularity: Number(match.popularity) || 0,
+            videoId: match.videoId || "",
+            id,
+            position: i,
+          };
+        }
+        // No match — use raw input
+        return {
+          trackName: line.track,
+          artistNames: line.artist,
+          albumName: "",
+          genres: [],
+          tempo: 0,
+          duration: "",
+          key: 0,
+          popularity: 0,
+          videoId: "",
+          id,
+          position: i,
+        };
+      });
+
+      setSetlist(newTracks);
+    } catch {
+      // Fallback: just add without metadata
+      const newTracks: SetlistTrack[] = lines.map((line, i) => ({
+        trackName: line.track,
+        artistNames: line.artist,
+        albumName: "",
+        genres: [],
+        tempo: 0,
+        duration: "",
+        key: 0,
+        popularity: 0,
+        videoId: "",
+        id: `${line.track}-${line.artist}-${Date.now()}-${i}`,
+        position: i,
+      }));
+      setSetlist(newTracks);
+    }
+  }, []);
+
   if (error) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-black">
@@ -180,7 +291,64 @@ export default function Home() {
             onAddToSetlist={addToSetlist}
           />
         ) : (
-          <ArtistList artists={artists} onSelect={handleSelectArtist} />
+          <div className="flex-1 overflow-y-auto flex flex-col">
+            {searchTracks.length > 0 && (
+              <>
+                <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
+                  <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                    Tracks ({searchTracks.length})
+                  </span>
+                </div>
+                <div className="border-b border-[#222]">
+                  {searchTracks.slice(0, 15).map((track, i) => (
+                    <div
+                      key={`${track.trackName}-${i}`}
+                      className="px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 group"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs truncate text-[#ccc] group-hover:text-white transition-colors">
+                          {track.trackName}
+                        </div>
+                        <div className="text-[10px] text-[#444] truncate">
+                          {track.artistNames.split(";")[0]}
+                        </div>
+                      </div>
+                      <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                        {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+                      </span>
+                      <span className="text-[10px] text-[#333]">
+                        {track.duration || "—"}
+                      </span>
+                      <button
+                        onClick={() => addToSetlist(track)}
+                        className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
+                        title="Add to setlist"
+                      >
+                        +
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+            {artists.length > 0 && (
+              <>
+                {searchTracks.length > 0 && (
+                  <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
+                    <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                      Artists ({artists.length})
+                    </span>
+                  </div>
+                )}
+                <ArtistList artists={artists} onSelect={handleSelectArtist} />
+              </>
+            )}
+            {searchTracks.length === 0 && artists.length === 0 && (
+              <div className="flex-1 flex items-center justify-center">
+                <p className="text-[#444] text-xs uppercase tracking-widest">No results</p>
+              </div>
+            )}
+          </div>
         )}
       </div>
 
@@ -191,6 +359,12 @@ export default function Home() {
           onRemove={removeFromSetlist}
           onMove={moveTrack}
           onClear={() => setSetlist([])}
+          onImport={() => setImportOpen(true)}
+        />
+        <ImportModal
+          open={importOpen}
+          onClose={() => setImportOpen(false)}
+          onImport={handleImport}
         />
       </div>
     </div>

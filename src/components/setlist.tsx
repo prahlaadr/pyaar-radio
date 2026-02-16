@@ -1,10 +1,20 @@
 import type { SetlistTrack } from "@/lib/types";
 
+const CAMELOT: Record<number, string> = {
+  0: "8B", 1: "3B", 2: "10B", 3: "5B", 4: "12B", 5: "7B",
+  6: "2B", 7: "9B", 8: "4B", 9: "11B", 10: "6B", 11: "1B",
+};
+
+function formatKey(key: number): string {
+  return CAMELOT[key] || "—";
+}
+
 interface Props {
   tracks: SetlistTrack[];
   onRemove: (id: string) => void;
   onMove: (index: number, direction: "up" | "down") => void;
   onClear: () => void;
+  onImport: () => void;
 }
 
 function formatTotalDuration(tracks: SetlistTrack[]): string {
@@ -41,7 +51,7 @@ function exportCSV(tracks: SetlistTrack[]) {
   URL.revokeObjectURL(url);
 }
 
-export function SetlistPanel({ tracks, onRemove, onMove, onClear }: Props) {
+export function SetlistPanel({ tracks, onRemove, onMove, onClear, onImport }: Props) {
   return (
     <div className="flex flex-col h-screen">
       <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
@@ -51,22 +61,30 @@ export function SetlistPanel({ tracks, onRemove, onMove, onClear }: Props) {
             {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
           </span>
         </div>
-        {tracks.length > 0 && (
-          <div className="flex gap-2">
-            <button
-              onClick={() => exportCSV(tracks)}
-              className="px-3 py-1 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
-            >
-              Export
-            </button>
-            <button
-              onClick={onClear}
-              className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
-            >
-              Clear
-            </button>
-          </div>
-        )}
+        <div className="flex gap-2">
+          <button
+            onClick={onImport}
+            className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+          >
+            Import
+          </button>
+          {tracks.length > 0 && (
+            <>
+              <button
+                onClick={() => exportCSV(tracks)}
+                className="px-3 py-1 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
+              >
+                Export
+              </button>
+              <button
+                onClick={onClear}
+                className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
+              >
+                Clear
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
       {tracks.length === 0 ? (
@@ -91,11 +109,14 @@ export function SetlistPanel({ tracks, onRemove, onMove, onClear }: Props) {
                   {track.artistNames.split(";")[0]}
                 </div>
               </div>
-              <span className="text-[10px] text-[#555] tabular-nums font-mono">
+              <span className="text-[10px] text-[#555] tabular-nums font-mono w-8 text-right">
                 {track.tempo > 0 ? Math.round(track.tempo) : "—"}
               </span>
+              <span className="text-[10px] text-[#444] tabular-nums font-mono w-6 text-right">
+                {track.key > 0 ? formatKey(track.key) : "—"}
+              </span>
               <span className="text-[10px] text-[#333] w-10 text-right">
-                {track.duration}
+                {track.duration || "—"}
               </span>
               <div className="flex flex-col opacity-0 group-hover:opacity-100 transition-opacity">
                 <button
