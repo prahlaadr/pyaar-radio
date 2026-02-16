@@ -1,58 +1,48 @@
-# Pyaar Setlist — DJ Set Planning Tool
+# Pyaar Radio
 
-Private web interface for planning DJ sets using the Pyaar Radio crate data.
+Private DJ set planning tool and music library version control.
 
 ## What It Does
 
-A web UI to browse your curated artist/track library with the same filters you use in DuckDB, plus a setlist builder for planning sets.
-
-## Data Source
-
-Two CSVs from the Pyaar Radio Crate (`~/Documents/Projects/12-pyaar-radio-crate/Pyaar Radio/_data/`):
-- **artists.csv** — 170+ curated artists with channel, vibes, samay, desi, BPM (built from Obsidian frontmatter)
-- **masterlist.csv** — 40K+ tracks with genres, tempo, key, duration (synced from YT Music/Spotify)
-
-DuckDB-WASM runs queries entirely in the browser — no backend needed. CSVs ship as static assets.
-
-## Planned Features
-
-### Phase 1 — Browse + Filter
-- Artist browser: filter by channel (Rave/Rap/Soul), vibes, samay, desi, BPM range
-- Track browser: search by artist, genre, tempo range
-- Join view: curated artists enriched with their masterlist tracks
-- Same query patterns as the existing DuckDB CLI, but as UI controls
-
-### Phase 2 — Setlist Builder
-- Drag tracks into a setlist sequence
-- BPM flow visualization (see energy arc across the set)
-- Key compatibility hints (Camelot wheel)
-- Set duration tracking
-
-### Phase 3 — Save + Share
-- Save/load setlists locally (localStorage or JSON export)
-- Shareable read-only links
-- Print/export setlist as PDF or markdown
+- **Browse** 170+ curated artists filtered by channel (Rave/Rap/Soul), vibes, samay, desi, BPM range
+- **Drill into tracks** — 40K+ tracks with BPM, key, duration, genres
+- **Build setlists** — add tracks, reorder, remove, track total duration
+- **Export CSV** — download setlist for use in DJ software
+- **Version your library** — every update to your masterlist is tracked in git
 
 ## Stack
 
-- Next.js 15 + React 19 + TypeScript + Tailwind
-- DuckDB-WASM (browser-side queries, no backend)
-- Deploy to Vercel with password protection
-- Data: static CSVs copied/symlinked from the crate
+- Next.js 16 + React 19 + TypeScript + Tailwind
+- DuckDB-WASM (browser-side SQL queries, no backend)
+- NTS Radio-themed UI (black/red/minimal)
+- Vercel deployment with auto-deploy on push
 
-## Relationship to Pyaar Radio Crate
+## Data
 
+Two CSVs from the Pyaar Radio Crate (`~/Documents/Projects/12-pyaar-radio-crate/Pyaar Radio/_data/`):
+
+- **artists.csv** — curated artists with channel, vibes, samay, desi, BPM range
+- **masterlist.csv** — all tracks with tempo, key, duration, genres, popularity
+
+CSVs are committed to the repo for version control. DuckDB-WASM queries them in the browser.
+
+## Development
+
+```bash
+bun install
+bun run dev
 ```
-Obsidian vault (12-pyaar-radio-crate/)
-  → build_index.py → artists.csv
-  → masterlist.csv (symlink)
-        ↓
-  Copy/deploy CSVs
-        ↓
-Pyaar Setlist (01-web-apps/pyaar-setlist/)
-  → Next.js app
-  → DuckDB-WASM queries CSVs in browser
-  → UI for browsing, filtering, setlist planning
-```
 
-The crate remains the source of truth. This app is the read-only consumer.
+The build script (`scripts/copy-data.sh`) copies fresh CSVs from the Obsidian vault if available, otherwise uses the committed versions.
+
+## Updating Your Library
+
+1. Update your crate in Obsidian (add artists, process playlists)
+2. `bash scripts/copy-data.sh` to pull latest CSVs
+3. `git add public/data/ && git commit -m "update library" && git push`
+
+Vercel auto-deploys on push to `main`.
+
+## Live
+
+https://pyaar-radio.vercel.app
