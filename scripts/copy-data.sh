@@ -7,7 +7,7 @@ OUT_DIR="$PROJECT_DIR/public/data"
 DUCKDB_DIST="$PROJECT_DIR/node_modules/@duckdb/duckdb-wasm/dist"
 
 # Copy CSVs from Obsidian vault (local dev only — skip if already present)
-DATA_DIR="${PYAAR_DATA_DIR:-$HOME/Documents/Projects/12-pyaar-radio-crate/Pyaar Radio/_data}"
+DATA_DIR="${PYAAR_DATA_DIR:-$HOME/Documents/Projects/12-pyaar-vault/Pyaar Vault/_data}"
 if [ -f "$DATA_DIR/artists.csv" ]; then
   mkdir -p "$OUT_DIR"
   cp "$DATA_DIR/artists.csv" "$OUT_DIR/artists.csv"
