@@ -13,7 +13,7 @@ declare global {
           width: string;
           videoId?: string;
           playerVars?: Record<string, number | string>;
-          events?: Record<string, (e: { data: number }) => void>;
+          events?: Record<string, (e: YTEvent) => void>;
         }
       ) => YTPlayer;
       PlayerState: { PLAYING: number; PAUSED: number; ENDED: number; BUFFERING: number };
@@ -22,9 +22,13 @@ declare global {
   }
 }
 
+interface YTEvent {
+  data: number;
+  target: YTPlayer;
+}
+
 interface YTPlayer {
   loadVideoById: (videoId: string) => void;
-  loadPlaylist: (config: { listType: string; list: string }) => void;
   playVideo: () => void;
   pauseVideo: () => void;
   seekTo: (seconds: number, allowSeekAhead: boolean) => void;
@@ -62,6 +66,32 @@ function ensureAPI(cb: () => void) {
   }
 }
 
+// In-memory cache: "track - artist" → videoId
+const searchCache = new Map<string, string>();
+
+async function searchVideoId(trackName: string, artistName: string): Promise<string | null> {
+  const artist = artistName.split(";")[0].trim();
+  const q = `${trackName} ${artist}`;
+  const cacheKey = q.toLowerCase();
+
+  if (searchCache.has(cacheKey)) {
+    return searchCache.get(cacheKey)!;
+  }
+
+  try {
+    const res = await fetch(`/api/search-yt?q=${encodeURIComponent(q)}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (data.videoId) {
+      searchCache.set(cacheKey, data.videoId);
+      return data.videoId;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
@@ -71,12 +101,14 @@ function formatTime(seconds: number): string {
 export function YouTubePlayer({ track, onClose }: Props) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const currentTrackKey = useRef<string | null>(null);
+  const currentVideoId = useRef<string | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [searching, setSearching] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const startTracking = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
@@ -99,68 +131,88 @@ export function YouTubePlayer({ track, onClose }: Props) {
     }
   }, []);
 
-  const loadTrack = useCallback((t: Track) => {
-    const key = `${t.trackName}-${t.artistNames}`;
-    if (key === currentTrackKey.current && playerRef.current) {
+  const onStateChange = useCallback((e: YTEvent) => {
+    const state = e.data;
+    setPlaying(
+      state === window.YT.PlayerState.PLAYING ||
+      state === window.YT.PlayerState.BUFFERING
+    );
+    if (state === window.YT.PlayerState.PLAYING) {
+      startTracking();
+    } else if (
+      state === window.YT.PlayerState.PAUSED ||
+      state === window.YT.PlayerState.ENDED
+    ) {
+      stopTracking();
+    }
+  }, [startTracking, stopTracking]);
+
+  const playVideoId = useCallback((vid: string) => {
+    // Same video — just resume
+    if (vid === currentVideoId.current && playerRef.current) {
       playerRef.current.playVideo();
       return;
     }
-    currentTrackKey.current = key;
+
+    currentVideoId.current = vid;
     setCurrentTime(0);
     setDuration(0);
     setPlaying(true);
+    setError(null);
 
-    const onStateChange = (e: { data: number }) => {
-      const state = e.data;
-      setPlaying(state === window.YT.PlayerState.PLAYING || state === window.YT.PlayerState.BUFFERING);
-      if (state === window.YT.PlayerState.PLAYING) {
-        startTracking();
-      } else if (state === window.YT.PlayerState.PAUSED || state === window.YT.PlayerState.ENDED) {
-        stopTracking();
-      }
-    };
-
+    // Player already exists — load new video
     if (playerRef.current) {
-      if (t.videoId) {
-        playerRef.current.loadVideoById(t.videoId);
-      } else {
-        const q = `${t.trackName} ${t.artistNames.split(";")[0]}`;
-        playerRef.current.loadPlaylist({ listType: "search", list: q });
-      }
+      playerRef.current.loadVideoById(vid);
       return;
     }
 
+    // Create player
     ensureAPI(() => {
       if (!containerRef.current) return;
-      if (t.videoId) {
-        playerRef.current = new window.YT.Player(containerRef.current, {
-          height: "0",
-          width: "0",
-          videoId: t.videoId,
-          playerVars: { autoplay: 1, controls: 0, modestbranding: 1 },
-          events: { onStateChange },
-        });
-      } else {
-        const q = `${t.trackName} ${t.artistNames.split(";")[0]}`;
-        playerRef.current = new window.YT.Player(containerRef.current, {
-          height: "0",
-          width: "0",
-          playerVars: { autoplay: 1, controls: 0, modestbranding: 1 },
-          events: {
-            onReady: () => {
-              playerRef.current?.loadPlaylist({ listType: "search", list: q });
-            },
-            onStateChange,
-          },
-        });
-      }
+      playerRef.current = new window.YT.Player(containerRef.current, {
+        height: "200",
+        width: "200",
+        videoId: vid,
+        playerVars: {
+          autoplay: 1,
+          controls: 0,
+          modestbranding: 1,
+          playsinline: 1,
+          origin: window.location.origin,
+        },
+        events: {
+          onStateChange: onStateChange,
+        },
+      });
     });
-  }, [startTracking, stopTracking]);
+  }, [onStateChange]);
+
+  const playTrack = useCallback(async (t: Track) => {
+    setError(null);
+
+    // If track already has a videoId, use it directly
+    if (t.videoId) {
+      playVideoId(t.videoId);
+      return;
+    }
+
+    // Search for video via Piped API
+    setSearching(true);
+    const vid = await searchVideoId(t.trackName, t.artistNames);
+    setSearching(false);
+
+    if (vid) {
+      playVideoId(vid);
+    } else {
+      setError("Not found");
+      setPlaying(false);
+    }
+  }, [playVideoId]);
 
   useEffect(() => {
     if (!track) return;
-    loadTrack(track);
-  }, [track, loadTrack]);
+    playTrack(track);
+  }, [track, playTrack]);
 
   useEffect(() => {
     return () => {
@@ -173,7 +225,9 @@ export function YouTubePlayer({ track, onClose }: Props) {
   const handleClose = () => {
     stopTracking();
     playerRef.current?.pauseVideo();
-    currentTrackKey.current = null;
+    currentVideoId.current = null;
+    setError(null);
+    setSearching(false);
     onClose();
   };
 
@@ -203,7 +257,7 @@ export function YouTubePlayer({ track, onClose }: Props) {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-[#0a0a0a] border-t border-[#222] z-40">
-      {/* Progress bar — clickable to scrub */}
+      {/* Progress bar */}
       <div
         className="h-1 bg-[#111] cursor-pointer group"
         onClick={handleSeek}
@@ -217,12 +271,20 @@ export function YouTubePlayer({ track, onClose }: Props) {
       </div>
 
       <div className="h-9 flex items-center px-5 gap-3">
-        <button
-          onClick={handlePlayPause}
-          className="text-white hover:text-red-500 transition-colors text-xs w-4 text-center shrink-0"
-        >
-          {playing ? "\u275A\u275A" : "\u25B6"}
-        </button>
+        {searching ? (
+          <div className="w-4 flex justify-center shrink-0">
+            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+          </div>
+        ) : error ? (
+          <span className="text-[10px] text-[#555] uppercase tracking-wider shrink-0">{error}</span>
+        ) : (
+          <button
+            onClick={handlePlayPause}
+            className="text-white hover:text-red-500 transition-colors text-xs w-4 text-center shrink-0"
+          >
+            {playing ? "\u275A\u275A" : "\u25B6"}
+          </button>
+        )}
         <span className="text-[10px] text-[#555] tabular-nums font-mono w-[70px] shrink-0">
           {formatTime(currentTime)} / {duration > 0 ? formatTime(duration) : "—:——"}
         </span>
@@ -239,8 +301,18 @@ export function YouTubePlayer({ track, onClose }: Props) {
         </button>
       </div>
 
-      {/* Hidden YouTube iframe container */}
-      <div className="absolute w-0 h-0 overflow-hidden">
+      {/* YouTube iframe — offscreen but large enough for YT to allow playback */}
+      <div
+        style={{
+          position: "absolute",
+          left: "-9999px",
+          top: 0,
+          width: "200px",
+          height: "200px",
+          overflow: "hidden",
+          pointerEvents: "none",
+        }}
+      >
         <div ref={containerRef} />
       </div>
     </div>

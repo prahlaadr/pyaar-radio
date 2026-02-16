@@ -38,11 +38,11 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
           <table className="w-full text-sm">
             <thead className="text-[10px] text-[#555] uppercase tracking-wider border-b border-[#222] sticky top-0 bg-black">
               <tr>
-                <th className="text-left px-5 py-2 font-normal">Track</th>
+                <th className="px-2 py-2 w-6"></th>
+                <th className="text-left px-2 py-2 font-normal">Track</th>
                 <th className="text-right px-3 py-2 font-normal w-14">BPM</th>
                 <th className="text-right px-3 py-2 font-normal w-12">Key</th>
                 <th className="text-right px-3 py-2 font-normal w-14">Dur</th>
-                <th className="px-1 py-2 w-6"></th>
                 <th className="px-3 py-2 w-8"></th>
               </tr>
             </thead>
@@ -53,40 +53,40 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                   className="border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer"
                   onDoubleClick={() => onAddToSetlist(track)}
                 >
-                  <td className="px-5 py-1.5">
-                    <div className="truncate max-w-md text-[#ccc] group-hover:text-white transition-colors">
-                      {track.trackName}
-                    </div>
-                    {track.genres.length > 0 && (
-                      <div className="text-[10px] text-[#333] truncate max-w-md">
-                        {track.genres.join(", ")}
-                      </div>
-                    )}
-                  </td>
-                  <td className="text-right px-3 py-1.5 text-[#666] tabular-nums text-xs">
-                    {track.tempo > 0 ? Math.round(track.tempo) : "—"}
-                  </td>
-                  <td className="text-right px-3 py-1.5 text-[#444] tabular-nums text-xs">
-                    {track.key || "—"}
-                  </td>
-                  <td className="text-right px-3 py-1.5 text-[#444] text-xs">
-                    {track.duration || "—"}
-                  </td>
-                  <td className="px-1 py-1.5">
+                  <td className="px-2 py-1.5">
                     {onPlay && (
                       <button
                         onClick={() => onPlay(track)}
-                        className="text-[#333] hover:text-white transition-colors text-[10px]"
+                        className="text-[#666] hover:text-white transition-colors text-[10px]"
                         title="Preview"
                       >
                         &#9654;
                       </button>
                     )}
                   </td>
+                  <td className="px-2 py-1.5">
+                    <div className="truncate max-w-md text-[#ccc] group-hover:text-white transition-colors">
+                      {track.trackName}
+                    </div>
+                    {track.genres.length > 0 && (
+                      <div className="text-[10px] text-[#666] truncate max-w-md">
+                        {track.genres.join(", ")}
+                      </div>
+                    )}
+                  </td>
+                  <td className="text-right px-3 py-1.5 text-[#aaa] tabular-nums text-xs">
+                    {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+                  </td>
+                  <td className="text-right px-3 py-1.5 text-[#888] tabular-nums text-xs">
+                    {track.key || "—"}
+                  </td>
+                  <td className="text-right px-3 py-1.5 text-[#888] text-xs">
+                    {track.duration || "—"}
+                  </td>
                   <td className="px-3 py-1.5">
                     <button
                       onClick={() => onAddToSetlist(track)}
-                      className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
+                      className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold"
                       title="Add to setlist"
                     >
                       +

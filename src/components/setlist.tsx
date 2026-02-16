@@ -178,22 +178,22 @@ export function SetlistPanel({
               className="px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer"
               onDoubleClick={() => onRemove(track.id)}
             >
-              <span className="text-[10px] text-[#333] w-5 text-right tabular-nums font-mono">
+              <span className="text-[10px] text-[#555] w-5 text-right tabular-nums font-mono">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div className="flex-1 min-w-0">
                 <div className="text-xs truncate text-[#ccc]">{track.trackName}</div>
-                <div className="text-[10px] text-[#444] truncate">
+                <div className="text-[10px] text-[#888] truncate">
                   {track.artistNames.split(";")[0]}
                 </div>
               </div>
-              <span className="text-[10px] text-[#555] tabular-nums font-mono w-8 text-right">
+              <span className="text-[10px] text-[#aaa] tabular-nums font-mono w-8 text-right">
                 {track.tempo > 0 ? Math.round(track.tempo) : "—"}
               </span>
-              <span className="text-[10px] text-[#444] tabular-nums font-mono w-6 text-right">
+              <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
                 {track.key > 0 ? formatKey(track.key) : "—"}
               </span>
-              <span className="text-[10px] text-[#333] w-10 text-right">
+              <span className="text-[10px] text-[#777] w-10 text-right">
                 {track.duration || "—"}
               </span>
               <div className="flex flex-col opacity-0 group-hover:opacity-100 transition-opacity">

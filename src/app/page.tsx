@@ -323,11 +323,24 @@ export default function Home() {
   }, [setlistId, setlistName, setlist, savedSetlists]);
 
   const handleNew = useCallback(() => {
+    const name = prompt("Setlist name:");
+    if (!name) return;
+
     const id = `setlist-${Date.now()}`;
     setSetlist([]);
-    setSetlistName(null);
+    setSetlistName(name);
     setSetlistId(id);
-  }, []);
+
+    const updated: SavedSetlists = {
+      active: id,
+      setlists: {
+        ...savedSetlists.setlists,
+        [id]: { name, tracks: [] },
+      },
+    };
+    setSavedSetlists(updated);
+    saveSavedSetlists(updated);
+  }, [savedSetlists]);
 
   const handleLoadBrowser = useCallback((id: string) => {
     const entry = savedSetlists.setlists[id];
@@ -496,7 +509,10 @@ export default function Home() {
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 border-r border-[#222] flex flex-col">
         <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
-          <h1 className="text-sm font-bold uppercase tracking-[0.2em]">Pyaar Radio</h1>
+          <h1
+            className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors"
+            onClick={() => { handleSelectArtist(null); setTab("browse"); }}
+          >Pyaar Radio</h1>
           <div className="flex gap-1">
             <button
               onClick={() => setTab("browse")}
@@ -603,7 +619,7 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <FilterPanel filters={filters} onChange={setFilters} />
+            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} />
 
             {loading ? (
               <div className="flex-1 flex items-center justify-center">

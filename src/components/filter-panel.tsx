@@ -10,9 +10,10 @@ const VIBES = [
 interface Props {
   filters: ArtistFilters;
   onChange: (filters: ArtistFilters) => void;
+  artistCount?: number;
 }
 
-export function FilterPanel({ filters, onChange }: Props) {
+export function FilterPanel({ filters, onChange, artistCount }: Props) {
   const toggle = (key: keyof ArtistFilters, value: string) => {
     if (key === "channels") {
       const channels = filters.channels.includes(value)
@@ -39,7 +40,7 @@ export function FilterPanel({ filters, onChange }: Props) {
         placeholder="SEARCH..."
         value={filters.search}
         onChange={(e) => onChange({ ...filters, search: e.target.value })}
-        className="w-full px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#444] focus:outline-none focus:border-red-500 transition-colors"
+        className="w-full px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none focus:border-red-500 transition-colors"
       />
 
       {/* Channels */}
@@ -51,7 +52,7 @@ export function FilterPanel({ filters, onChange }: Props) {
             className={`px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors ${
               filters.channels.includes(ch)
                 ? "bg-white text-black"
-                : "bg-[#111] text-[#666] hover:text-white"
+                : "bg-[#111] text-[#888] hover:text-white"
             }`}
           >
             {ch}
@@ -68,7 +69,7 @@ export function FilterPanel({ filters, onChange }: Props) {
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
               filters.samay === s
                 ? "bg-white text-black"
-                : "bg-[#111] text-[#555] hover:text-white"
+                : "bg-[#111] text-[#888] hover:text-white"
             }`}
           >
             {s}
@@ -80,7 +81,7 @@ export function FilterPanel({ filters, onChange }: Props) {
           className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
             filters.desi === "Desi"
               ? "bg-red-600 text-white"
-              : "bg-[#111] text-[#555] hover:text-white"
+              : "bg-[#111] text-[#888] hover:text-white"
           }`}
         >
           Desi
@@ -96,7 +97,7 @@ export function FilterPanel({ filters, onChange }: Props) {
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
               filters.vibes.includes(v)
                 ? "bg-red-600 text-white"
-                : "bg-[#0a0a0a] text-[#444] hover:text-[#999]"
+                : "bg-[#0a0a0a] text-[#777] hover:text-[#bbb]"
             }`}
           >
             {v}
@@ -105,7 +106,7 @@ export function FilterPanel({ filters, onChange }: Props) {
       </div>
 
       {/* BPM Range */}
-      <div className="flex items-center gap-2 text-[10px] text-[#555] uppercase tracking-wider">
+      <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
         <span>BPM</span>
         <input
           type="number"
@@ -123,6 +124,13 @@ export function FilterPanel({ filters, onChange }: Props) {
           className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
         />
       </div>
+
+      {/* Artist count */}
+      {artistCount !== undefined && (
+        <div className="text-[10px] text-[#666] uppercase tracking-wider">
+          {artistCount} artist{artistCount !== 1 ? "s" : ""}
+        </div>
+      )}
     </div>
   );
 }

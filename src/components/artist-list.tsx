@@ -26,7 +26,7 @@ export function ArtistList({ artists, onSelect }: Props) {
             <span className="text-sm font-medium group-hover:text-red-500 transition-colors">
               {artist.artist}
             </span>
-            <span className="text-[10px] text-[#555] uppercase tracking-wider">
+            <span className="text-[10px] text-[#888] uppercase tracking-wider">
               {artist.channel}
             </span>
             {artist.desi === "Desi" && (
@@ -34,18 +34,18 @@ export function ArtistList({ artists, onSelect }: Props) {
                 Desi
               </span>
             )}
-            <span className="text-[10px] text-[#333] ml-auto tabular-nums">
+            <span className="text-[10px] text-[#777] ml-auto tabular-nums">
               {artist.bpmLow}&ndash;{artist.bpmHigh}
             </span>
           </div>
           <div className="flex gap-2 mt-0.5">
             {artist.vibes.map((v) => (
-              <span key={v} className="text-[10px] text-[#444]">
+              <span key={v} className="text-[10px] text-[#888]">
                 {v}
               </span>
             ))}
-            <span className="text-[10px] text-[#333]">&middot;</span>
-            <span className="text-[10px] text-[#333]">{artist.samay}</span>
+            <span className="text-[10px] text-[#555]">&middot;</span>
+            <span className="text-[10px] text-[#777]">{artist.samay}</span>
           </div>
         </button>
       ))}
