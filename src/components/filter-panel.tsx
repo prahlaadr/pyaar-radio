@@ -5,6 +5,7 @@ const SAMAY = ["Day", "Night", "Day/Night"] as const;
 const VIBES = [
   "Groove", "Soulful", "Rowdy", "Nodders", "Rave", "Psych",
   "Bass", "Percussive", "Club", "Future Beats", "Pop", "Lo-Fi", "Dark", "Global",
+  "Trap", "Boom Bap", "UKG",
 ] as const;
 
 interface Props {
