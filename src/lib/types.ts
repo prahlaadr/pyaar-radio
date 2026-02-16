@@ -32,6 +32,18 @@ export interface Setlist {
   tracks: SetlistTrack[];
 }
 
+export interface SavedSetlists {
+  active: string | null;
+  setlists: Record<string, { name: string; tracks: SetlistTrack[] }>;
+}
+
+export interface SetlistManifestEntry {
+  id: string;
+  name: string;
+  file: string;
+  trackCount: number;
+}
+
 export interface ArtistFilters {
   channels: string[];
   samay: string | null;

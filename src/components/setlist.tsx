@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { SetlistTrack } from "@/lib/types";
 
 const CAMELOT: Record<number, string> = {
@@ -11,10 +12,15 @@ function formatKey(key: number): string {
 
 interface Props {
   tracks: SetlistTrack[];
+  setlistName: string | null;
   onRemove: (id: string) => void;
   onMove: (index: number, direction: "up" | "down") => void;
   onClear: () => void;
   onImport: () => void;
+  onOpen: () => void;
+  onSave: () => void;
+  onNew: () => void;
+  onRename: (name: string) => void;
 }
 
 function formatTotalDuration(tracks: SetlistTrack[]): string {
@@ -34,51 +40,122 @@ function formatTotalDuration(tracks: SetlistTrack[]): string {
   return `${mins}m`;
 }
 
-function exportCSV(tracks: SetlistTrack[]) {
+function exportCSV(tracks: SetlistTrack[], name: string | null) {
   const header = "Position,Track Name,Artist,BPM,Key,Duration";
   const rows = tracks.map((t, i) => {
-    const name = `"${t.trackName.replace(/"/g, '""')}"`;
+    const trackName = `"${t.trackName.replace(/"/g, '""')}"`;
     const artist = `"${t.artistNames.replace(/"/g, '""')}"`;
-    return `${i + 1},${name},${artist},${t.tempo > 0 ? Math.round(t.tempo) : ""},${t.key || ""},${t.duration}`;
+    return `${i + 1},${trackName},${artist},${t.tempo > 0 ? Math.round(t.tempo) : ""},${t.key || ""},${t.duration}`;
   });
   const csv = [header, ...rows].join("\n");
   const blob = new Blob([csv], { type: "text/csv" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `setlist-${new Date().toISOString().slice(0, 10)}.csv`;
+  const slug = name ? name.replace(/\s+/g, "-").toLowerCase() : `setlist-${new Date().toISOString().slice(0, 10)}`;
+  a.download = `${slug}.csv`;
   a.click();
   URL.revokeObjectURL(url);
 }
 
-export function SetlistPanel({ tracks, onRemove, onMove, onClear, onImport }: Props) {
+export function SetlistPanel({
+  tracks,
+  setlistName,
+  onRemove,
+  onMove,
+  onClear,
+  onImport,
+  onOpen,
+  onSave,
+  onNew,
+  onRename,
+}: Props) {
+  const [editing, setEditing] = useState(false);
+  const [editValue, setEditValue] = useState("");
+
+  const startRename = () => {
+    setEditValue(setlistName || "");
+    setEditing(true);
+  };
+
+  const commitRename = () => {
+    const trimmed = editValue.trim();
+    if (trimmed && trimmed !== setlistName) {
+      onRename(trimmed);
+    }
+    setEditing(false);
+  };
+
   return (
     <div className="flex flex-col h-screen">
-      <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
-        <div>
-          <h2 className="text-sm font-bold uppercase tracking-[0.2em]">Set</h2>
+      <div className="px-5 py-3 border-b border-[#222]">
+        <div className="flex items-center justify-between mb-1">
+          {editing ? (
+            <input
+              autoFocus
+              value={editValue}
+              onChange={(e) => setEditValue(e.target.value)}
+              onBlur={commitRename}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") commitRename();
+                if (e.key === "Escape") setEditing(false);
+              }}
+              className="text-sm font-bold uppercase tracking-[0.2em] bg-transparent border-b border-red-500 outline-none text-white w-full"
+            />
+          ) : (
+            <h2
+              className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors truncate"
+              onClick={startRename}
+              title={setlistName ? "Click to rename" : "Untitled setlist"}
+            >
+              {setlistName || "Set"}
+            </h2>
+          )}
+        </div>
+        <div className="flex items-center justify-between">
           <span className="text-[10px] text-[#555] uppercase tracking-wider">
             {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
           </span>
+          <div className="flex gap-1.5">
+            <button
+              onClick={onOpen}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+            >
+              Open
+            </button>
+            <button
+              onClick={onNew}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+            >
+              New
+            </button>
+            <button
+              onClick={onSave}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+              title="Save to browser"
+            >
+              Save
+            </button>
+          </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-1.5 mt-1.5">
           <button
             onClick={onImport}
-            className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+            className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
           >
             Import
           </button>
           {tracks.length > 0 && (
             <>
               <button
-                onClick={() => exportCSV(tracks)}
-                className="px-3 py-1 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
+                onClick={() => exportCSV(tracks, setlistName)}
+                className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
               >
                 Export
               </button>
               <button
                 onClick={onClear}
-                className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
+                className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
               >
                 Clear
               </button>

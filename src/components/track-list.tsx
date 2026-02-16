@@ -6,9 +6,10 @@ interface Props {
   loading: boolean;
   onBack: () => void;
   onAddToSetlist: (track: Track) => void;
+  onPlay?: (track: Track) => void;
 }
 
-export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist }: Props) {
+export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay }: Props) {
   return (
     <div className="flex-1 overflow-y-auto flex flex-col">
       <div className="px-5 py-2 border-b border-[#222] flex items-center gap-3">
@@ -41,6 +42,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist }: P
                 <th className="text-right px-3 py-2 font-normal w-14">BPM</th>
                 <th className="text-right px-3 py-2 font-normal w-12">Key</th>
                 <th className="text-right px-3 py-2 font-normal w-14">Dur</th>
+                <th className="px-1 py-2 w-6"></th>
                 <th className="px-3 py-2 w-8"></th>
               </tr>
             </thead>
@@ -69,6 +71,17 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist }: P
                   </td>
                   <td className="text-right px-3 py-1.5 text-[#444] text-xs">
                     {track.duration || "—"}
+                  </td>
+                  <td className="px-1 py-1.5">
+                    {onPlay && (
+                      <button
+                        onClick={() => onPlay(track)}
+                        className="text-[#333] hover:text-white transition-colors text-[10px]"
+                        title="Preview"
+                      >
+                        &#9654;
+                      </button>
+                    )}
                   </td>
                   <td className="px-3 py-1.5">
                     <button

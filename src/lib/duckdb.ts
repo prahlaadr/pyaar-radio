@@ -60,3 +60,66 @@ export async function query<T = Record<string, unknown>>(
   const result = await c.query(sql);
   return result.toArray().map((row) => row.toJSON() as T);
 }
+
+export async function fetchSetlistManifest(): Promise<
+  { id: string; name: string; file: string; trackCount: number }[]
+> {
+  try {
+    const resp = await fetch("/data/setlists.json");
+    if (!resp.ok) return [];
+    return await resp.json();
+  } catch {
+    return [];
+  }
+}
+
+export async function fetchSetlistCSV(
+  file: string
+): Promise<{ track: string; artist: string; bpm: string; key: string; duration: string }[]> {
+  const resp = await fetch(`/data/${file}`);
+  if (!resp.ok) throw new Error(`Failed to fetch ${file}`);
+  const text = await resp.text();
+  const lines = text.trim().split("\n");
+  if (lines.length < 2) return [];
+
+  // Skip header row, parse CSV
+  const results: { track: string; artist: string; bpm: string; key: string; duration: string }[] = [];
+  for (let i = 1; i < lines.length; i++) {
+    const cols = parseCSVLine(lines[i]);
+    // Position,Track Name,Artist,BPM,Key,Duration
+    if (cols.length >= 3) {
+      results.push({
+        track: cols[1] || "",
+        artist: cols[2] || "",
+        bpm: cols[3] || "",
+        key: cols[4] || "",
+        duration: cols[5] || "",
+      });
+    }
+  }
+  return results;
+}
+
+function parseCSVLine(line: string): string[] {
+  const result: string[] = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === "," && !inQuotes) {
+      result.push(current);
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  result.push(current);
+  return result;
+}
