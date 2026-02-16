@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { ArtistFilters } from "@/lib/types";
 
 const CHANNELS = ["Rave", "Rap", "Soul"] as const;
@@ -15,6 +16,8 @@ interface Props {
 }
 
 export function FilterPanel({ filters, onChange, artistCount }: Props) {
+  const [expanded, setExpanded] = useState(false);
+
   const toggle = (key: keyof ArtistFilters, value: string) => {
     if (key === "channels") {
       const channels = filters.channels.includes(value)
@@ -33,105 +36,124 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
     }
   };
 
+  const activeFilterCount =
+    filters.channels.length +
+    filters.vibes.length +
+    (filters.samay ? 1 : 0) +
+    (filters.desi ? 1 : 0) +
+    (filters.bpmMin > 0 ? 1 : 0) +
+    (filters.bpmMax < 300 ? 1 : 0);
+
   return (
     <div className="px-5 py-3 border-b border-[#222] space-y-3">
-      {/* Search */}
-      <input
-        type="text"
-        placeholder="SEARCH..."
-        value={filters.search}
-        onChange={(e) => onChange({ ...filters, search: e.target.value })}
-        className="w-full px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none focus:border-red-500 transition-colors"
-      />
-
-      {/* Channels */}
-      <div className="flex gap-1">
-        {CHANNELS.map((ch) => (
-          <button
-            key={ch}
-            onClick={() => toggle("channels", ch)}
-            className={`px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors ${
-              filters.channels.includes(ch)
-                ? "bg-white text-black"
-                : "bg-[#111] text-[#888] hover:text-white"
-            }`}
-          >
-            {ch}
-          </button>
-        ))}
-      </div>
-
-      {/* Samay + Desi */}
-      <div className="flex gap-1 flex-wrap">
-        {SAMAY.map((s) => (
-          <button
-            key={s}
-            onClick={() => toggle("samay", s)}
-            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-              filters.samay === s
-                ? "bg-white text-black"
-                : "bg-[#111] text-[#888] hover:text-white"
-            }`}
-          >
-            {s}
-          </button>
-        ))}
-        <div className="w-px bg-[#333] mx-1" />
+      {/* Search — always visible */}
+      <div className="flex gap-2 items-center">
+        <input
+          type="text"
+          placeholder="SEARCH..."
+          value={filters.search}
+          onChange={(e) => onChange({ ...filters, search: e.target.value })}
+          className="flex-1 px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none focus:border-red-500 transition-colors"
+        />
         <button
-          onClick={() => toggle("desi", "Desi")}
-          className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-            filters.desi === "Desi"
-              ? "bg-red-600 text-white"
-              : "bg-[#111] text-[#888] hover:text-white"
-          }`}
+          onClick={() => setExpanded(!expanded)}
+          className="md:hidden px-2 py-1.5 bg-[#111] border border-[#333] text-[10px] uppercase tracking-wider text-[#888] hover:text-white transition-colors shrink-0"
         >
-          Desi
+          Filters{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
         </button>
       </div>
 
-      {/* Vibes */}
-      <div className="flex gap-1 flex-wrap">
-        {VIBES.map((v) => (
+      {/* Filter body — always visible on desktop, toggle on mobile */}
+      <div className={`space-y-3 ${expanded ? "" : "hidden md:block"}`}>
+        {/* Channels */}
+        <div className="flex gap-1">
+          {CHANNELS.map((ch) => (
+            <button
+              key={ch}
+              onClick={() => toggle("channels", ch)}
+              className={`px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors ${
+                filters.channels.includes(ch)
+                  ? "bg-white text-black"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+            >
+              {ch}
+            </button>
+          ))}
+        </div>
+
+        {/* Samay + Desi */}
+        <div className="flex gap-1 flex-wrap">
+          {SAMAY.map((s) => (
+            <button
+              key={s}
+              onClick={() => toggle("samay", s)}
+              className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                filters.samay === s
+                  ? "bg-white text-black"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+            >
+              {s}
+            </button>
+          ))}
+          <div className="w-px bg-[#333] mx-1" />
           <button
-            key={v}
-            onClick={() => toggle("vibes", v)}
+            onClick={() => toggle("desi", "Desi")}
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-              filters.vibes.includes(v)
+              filters.desi === "Desi"
                 ? "bg-red-600 text-white"
-                : "bg-[#0a0a0a] text-[#777] hover:text-[#bbb]"
+                : "bg-[#111] text-[#888] hover:text-white"
             }`}
           >
-            {v}
+            Desi
           </button>
-        ))}
-      </div>
-
-      {/* BPM Range */}
-      <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
-        <span>BPM</span>
-        <input
-          type="number"
-          value={filters.bpmMin || ""}
-          onChange={(e) => onChange({ ...filters, bpmMin: Number(e.target.value) || 0 })}
-          placeholder="min"
-          className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
-        />
-        <span>&mdash;</span>
-        <input
-          type="number"
-          value={filters.bpmMax < 300 ? filters.bpmMax : ""}
-          onChange={(e) => onChange({ ...filters, bpmMax: Number(e.target.value) || 300 })}
-          placeholder="max"
-          className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
-        />
-      </div>
-
-      {/* Artist count */}
-      {artistCount !== undefined && (
-        <div className="text-[10px] text-[#666] uppercase tracking-wider">
-          {artistCount} artist{artistCount !== 1 ? "s" : ""}
         </div>
-      )}
+
+        {/* Vibes */}
+        <div className="flex gap-1 flex-wrap">
+          {VIBES.map((v) => (
+            <button
+              key={v}
+              onClick={() => toggle("vibes", v)}
+              className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                filters.vibes.includes(v)
+                  ? "bg-red-600 text-white"
+                  : "bg-[#0a0a0a] text-[#777] hover:text-[#bbb]"
+              }`}
+            >
+              {v}
+            </button>
+          ))}
+        </div>
+
+        {/* BPM Range */}
+        <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
+          <span>BPM</span>
+          <input
+            type="number"
+            value={filters.bpmMin || ""}
+            onChange={(e) => onChange({ ...filters, bpmMin: Number(e.target.value) || 0 })}
+            placeholder="min"
+            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
+          />
+          <span>&mdash;</span>
+          <input
+            type="number"
+            value={filters.bpmMax < 300 ? filters.bpmMax : ""}
+            onChange={(e) => onChange({ ...filters, bpmMax: Number(e.target.value) || 300 })}
+            placeholder="max"
+            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
+          />
+        </div>
+
+        {/* Artist count */}
+        {artistCount !== undefined && (
+          <div className="text-[10px] text-[#666] uppercase tracking-wider">
+            {artistCount} artist{artistCount !== 1 ? "s" : ""}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

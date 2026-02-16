@@ -68,6 +68,7 @@ export default function Home() {
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
+  const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
 
   // Load saved setlists from localStorage on mount
   useEffect(() => {
@@ -507,7 +508,7 @@ export default function Home() {
   return (
     <div className={`flex min-h-screen bg-black ${nowPlaying ? "pb-10" : ""}`}>
       {/* Left: Browse / Setlists */}
-      <div className="flex-1 min-w-0 border-r border-[#222] flex flex-col">
+      <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col">
         <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
           <h1
             className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors"
@@ -650,7 +651,7 @@ export default function Home() {
                       {searchTracks.slice(0, 15).map((track, i) => (
                         <div
                           key={`${track.trackName}-${i}`}
-                          className="px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 group cursor-pointer"
+                          className="px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer"
                           onDoubleClick={() => addToSetlist(track)}
                         >
                           <div className="flex-1 min-w-0">
@@ -664,7 +665,7 @@ export default function Home() {
                           <span className="text-[10px] text-[#555] tabular-nums font-mono">
                             {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                           </span>
-                          <span className="text-[10px] text-[#333]">
+                          <span className="text-[10px] text-[#333] hidden sm:inline">
                             {track.duration || "—"}
                           </span>
                           <button
@@ -709,8 +710,8 @@ export default function Home() {
         )}
       </div>
 
-      {/* Right: Setlist */}
-      <div className="w-[380px] shrink-0 flex flex-col bg-black">
+      {/* Right: Setlist — desktop */}
+      <div className="hidden md:flex w-[380px] shrink-0 flex-col bg-black">
         <SetlistPanel
           tracks={setlist}
           setlistName={setlistName}
@@ -723,13 +724,55 @@ export default function Home() {
           onNew={handleNew}
           onRename={handleRename}
         />
-        <ImportModal
-          open={importOpen}
-          onClose={() => setImportOpen(false)}
-          onImport={handleImport}
-        />
-
       </div>
+
+      {/* Mobile: setlist toggle button */}
+      <button
+        onClick={() => setMobileSetlistOpen(true)}
+        className="md:hidden fixed bottom-12 right-4 z-30 bg-red-600 hover:bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors"
+        style={{ bottom: nowPlaying ? "3.5rem" : "1rem" }}
+      >
+        <span className="text-lg font-bold">{setlist.length || "+"}</span>
+      </button>
+
+      {/* Mobile: setlist drawer */}
+      {mobileSetlistOpen && (
+        <div className="md:hidden fixed inset-0 z-50 flex flex-col">
+          <div className="flex-shrink-0 bg-black/80 h-16" onClick={() => setMobileSetlistOpen(false)} />
+          <div className="flex-1 bg-black border-t border-[#222] flex flex-col overflow-hidden">
+            <div className="flex items-center justify-between px-4 py-2 border-b border-[#222]">
+              <span className="text-[10px] text-[#888] uppercase tracking-wider">Setlist</span>
+              <button
+                onClick={() => setMobileSetlistOpen(false)}
+                className="text-[#888] hover:text-white text-lg"
+              >
+                &times;
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto">
+              <SetlistPanel
+                tracks={setlist}
+                setlistName={setlistName}
+                onRemove={removeFromSetlist}
+                onMove={moveTrack}
+                onClear={() => setSetlist([])}
+                onImport={() => setImportOpen(true)}
+                onOpen={() => { setTab("setlists"); setMobileSetlistOpen(false); }}
+                onSave={handleSave}
+                onNew={handleNew}
+                onRename={handleRename}
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
+      <ImportModal
+        open={importOpen}
+        onClose={() => setImportOpen(false)}
+        onImport={handleImport}
+      />
+
       <YouTubePlayer track={nowPlaying} onClose={() => setNowPlaying(null)} />
     </div>
   );

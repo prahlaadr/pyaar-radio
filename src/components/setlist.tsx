@@ -87,7 +87,7 @@ export function SetlistPanel({
   };
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-full md:h-screen">
       <div className="px-5 py-3 border-b border-[#222]">
         <div className="flex items-center justify-between mb-1">
           {editing ? (

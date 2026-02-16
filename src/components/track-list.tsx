@@ -41,8 +41,8 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                 <th className="px-2 py-2 w-6"></th>
                 <th className="text-left px-2 py-2 font-normal">Track</th>
                 <th className="text-right px-3 py-2 font-normal w-14">BPM</th>
-                <th className="text-right px-3 py-2 font-normal w-12">Key</th>
-                <th className="text-right px-3 py-2 font-normal w-14">Dur</th>
+                <th className="text-right px-3 py-2 font-normal w-12 hidden sm:table-cell">Key</th>
+                <th className="text-right px-3 py-2 font-normal w-14 hidden sm:table-cell">Dur</th>
                 <th className="px-3 py-2 w-8"></th>
               </tr>
             </thead>
@@ -65,11 +65,11 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     )}
                   </td>
                   <td className="px-2 py-1.5">
-                    <div className="truncate max-w-md text-[#ccc] group-hover:text-white transition-colors">
+                    <div className="truncate max-w-[50vw] md:max-w-md text-[#ccc] group-hover:text-white transition-colors">
                       {track.trackName}
                     </div>
                     {track.genres.length > 0 && (
-                      <div className="text-[10px] text-[#666] truncate max-w-md">
+                      <div className="text-[10px] text-[#666] truncate max-w-[50vw] md:max-w-md">
                         {track.genres.join(", ")}
                       </div>
                     )}
@@ -77,10 +77,10 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                   <td className="text-right px-3 py-1.5 text-[#aaa] tabular-nums text-xs">
                     {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                   </td>
-                  <td className="text-right px-3 py-1.5 text-[#888] tabular-nums text-xs">
+                  <td className="text-right px-3 py-1.5 text-[#888] tabular-nums text-xs hidden sm:table-cell">
                     {track.key || "—"}
                   </td>
-                  <td className="text-right px-3 py-1.5 text-[#888] text-xs">
+                  <td className="text-right px-3 py-1.5 text-[#888] text-xs hidden sm:table-cell">
                     {track.duration || "—"}
                   </td>
                   <td className="px-3 py-1.5">

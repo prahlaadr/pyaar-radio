@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pyaar Setlist",
+  title: "Pyaar Deck",
   description: "DJ set planning tool",
 };
 

@@ -270,7 +270,7 @@ export function YouTubePlayer({ track, onClose }: Props) {
         </div>
       </div>
 
-      <div className="h-9 flex items-center px-5 gap-3">
+      <div className="h-9 flex items-center px-3 md:px-5 gap-2 md:gap-3">
         {searching ? (
           <div className="w-4 flex justify-center shrink-0">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
@@ -285,13 +285,13 @@ export function YouTubePlayer({ track, onClose }: Props) {
             {playing ? "\u275A\u275A" : "\u25B6"}
           </button>
         )}
-        <span className="text-[10px] text-[#555] tabular-nums font-mono w-[70px] shrink-0">
+        <span className="text-[10px] text-[#555] tabular-nums font-mono hidden sm:inline w-[70px] shrink-0">
           {formatTime(currentTime)} / {duration > 0 ? formatTime(duration) : "—:——"}
         </span>
         <div className="flex-1 min-w-0 flex items-center gap-2">
           <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
-          <span className="text-[10px] text-[#444]">&mdash;</span>
-          <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
+          <span className="text-[10px] text-[#444] hidden sm:inline">&mdash;</span>
+          <span className="text-[10px] text-[#666] truncate hidden sm:inline">{track.artistNames.split(";")[0]}</span>
         </div>
         <button
           onClick={handleClose}
