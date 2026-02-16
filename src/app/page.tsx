@@ -303,7 +303,8 @@ export default function Home() {
                   {searchTracks.slice(0, 15).map((track, i) => (
                     <div
                       key={`${track.trackName}-${i}`}
-                      className="px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 group"
+                      className="px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 group cursor-pointer"
+                      onDoubleClick={() => addToSetlist(track)}
                     >
                       <div className="flex-1 min-w-0">
                         <div className="text-xs truncate text-[#ccc] group-hover:text-white transition-colors">

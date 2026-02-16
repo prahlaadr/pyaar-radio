@@ -98,7 +98,8 @@ export function SetlistPanel({ tracks, onRemove, onMove, onClear, onImport }: Pr
           {tracks.map((track, i) => (
             <div
               key={track.id}
-              className="px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a]"
+              className="px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer"
+              onDoubleClick={() => onRemove(track.id)}
             >
               <span className="text-[10px] text-[#333] w-5 text-right tabular-nums font-mono">
                 {String(i + 1).padStart(2, "0")}

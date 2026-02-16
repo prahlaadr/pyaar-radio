@@ -48,7 +48,8 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist }: P
               {tracks.map((track, i) => (
                 <tr
                   key={`${track.trackName}-${i}`}
-                  className="border-b border-[#111] hover:bg-[#0a0a0a] group"
+                  className="border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer"
+                  onDoubleClick={() => onAddToSetlist(track)}
                 >
                   <td className="px-5 py-1.5">
                     <div className="truncate max-w-md text-[#ccc] group-hover:text-white transition-colors">
