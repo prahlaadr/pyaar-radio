@@ -3,7 +3,7 @@ import type { ArtistFilters } from "@/lib/types";
 const CHANNELS = ["Rave", "Rap", "Soul"] as const;
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 const VIBES = [
-  "Groove", "Soulful", "Hometown", "Rowdy", "Nodders", "Rave", "Psych",
+  "Groove", "Soulful", "Rowdy", "Nodders", "Rave", "Psych",
   "Bass", "Percussive", "Club", "Future Beats", "Pop", "Lo-Fi", "Dark", "Global",
 ] as const;
 
