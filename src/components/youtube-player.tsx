@@ -115,9 +115,17 @@ function formatTime(seconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-function buildYouTubeSearchURL(trackName: string, artistName: string): string {
+function openYouTubeSearch(trackName: string, artistName: string) {
   const artist = artistName.split(";")[0].trim();
-  return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${trackName} ${artist}`)}`;
+  const q = encodeURIComponent(`${trackName} ${artist}`);
+  // Try YouTube app deep link first, fall back to web
+  const appUrl = `youtube://www.youtube.com/results?search_query=${q}`;
+  const webUrl = `https://www.youtube.com/results?search_query=${q}`;
+  const w = window.open(appUrl, "_self");
+  // If app URL didn't work (desktop or no app), open web after short delay
+  setTimeout(() => {
+    if (!w || w.closed) window.open(webUrl, "_blank");
+  }, 500);
 }
 
 export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }: Props) {
@@ -323,15 +331,13 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
           </div>
         ) : error ? (
-          <a
-            href={buildYouTubeSearchURL(track.trackName, track.artistNames)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => openYouTubeSearch(track.trackName, track.artistNames)}
             className="text-[10px] text-red-500 hover:text-red-400 uppercase tracking-wider shrink-0 underline"
-            title="Open YouTube search"
+            title="Search in YouTube app"
           >
             Open YT
-          </a>
+          </button>
         ) : (
           <button
             onClick={handlePlayPause}
