@@ -52,5 +52,6 @@ export interface ArtistFilters {
   tags: string[];
   bpmMin: number;
   bpmMax: number;
+  halfTime: boolean;
   search: string;
 }

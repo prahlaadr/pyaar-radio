@@ -21,12 +21,20 @@ export function buildArtistQuery(filters: ArtistFilters): string {
     conditions.push(`(${vibeConds.join(" AND ")})`);
   }
 
-  if (filters.bpmMin > 0) {
-    conditions.push(`bpm_high >= ${filters.bpmMin}`);
-  }
-
-  if (filters.bpmMax < 300) {
-    conditions.push(`bpm_low <= ${filters.bpmMax}`);
+  if (filters.bpmMin > 0 || filters.bpmMax < 300) {
+    const min = filters.bpmMin > 0 ? filters.bpmMin : 0;
+    const max = filters.bpmMax < 300 ? filters.bpmMax : 999;
+    if (filters.halfTime) {
+      // Match original range OR double OR half
+      const halfMin = Math.round(min / 2);
+      const halfMax = Math.round(max / 2);
+      const doubleMin = min * 2;
+      const doubleMax = max * 2;
+      conditions.push(`((bpm_high >= ${min} AND bpm_low <= ${max}) OR (bpm_high >= ${halfMin} AND bpm_low <= ${halfMax}) OR (bpm_high >= ${doubleMin} AND bpm_low <= ${doubleMax}))`);
+    } else {
+      if (filters.bpmMin > 0) conditions.push(`bpm_high >= ${min}`);
+      if (filters.bpmMax < 300) conditions.push(`bpm_low <= ${max}`);
+    }
   }
 
   if (filters.search) {

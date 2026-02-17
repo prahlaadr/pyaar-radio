@@ -147,6 +147,19 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
             placeholder="max"
             className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white appearance-none"
           />
+          {(filters.bpmMin > 0 || filters.bpmMax < 300) && (
+            <button
+              onClick={() => onChange({ ...filters, halfTime: !filters.halfTime })}
+              className={`px-2 py-0.5 transition-colors ${
+                filters.halfTime
+                  ? "bg-red-600 text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+              title="Also match double/half BPM (e.g. 70 ↔ 140)"
+            >
+              &times;2
+            </button>
+          )}
         </div>
 
         {/* Artist count */}

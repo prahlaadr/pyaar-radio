@@ -1,6 +1,9 @@
-import { useRef, useCallback, useState } from "react";
+import { useRef, useCallback, useState, useMemo } from "react";
 import type { Artist, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
+
+type SortCol = "track" | "bpm" | "key" | "dur" | null;
+type SortDir = "asc" | "desc";
 
 interface Props {
   artist: Artist;
@@ -17,6 +20,39 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
   const touchStart = useRef<{ x: number; y: number; index: number } | null>(null);
   const [swipeState, setSwipeState] = useState<{ index: number; dx: number } | null>(null);
   const [swipeFlash, setSwipeFlash] = useState<{ index: number; action: "add" | "play" } | null>(null);
+  const [sortCol, setSortCol] = useState<SortCol>(null);
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
+
+  const toggleSort = useCallback((col: SortCol) => {
+    if (sortCol === col) {
+      if (sortDir === "asc") setSortDir("desc");
+      else { setSortCol(null); setSortDir("asc"); }
+    } else {
+      setSortCol(col);
+      setSortDir(col === "track" ? "asc" : "desc");
+    }
+  }, [sortCol, sortDir]);
+
+  const sortedTracks = useMemo(() => {
+    if (!sortCol) return tracks;
+    const sorted = [...tracks].sort((a, b) => {
+      switch (sortCol) {
+        case "track": return a.trackName.localeCompare(b.trackName);
+        case "bpm": return (a.tempo || 0) - (b.tempo || 0);
+        case "key": return (a.key || 0) - (b.key || 0);
+        case "dur": {
+          const parseDur = (d: string) => {
+            if (!d) return 0;
+            const parts = d.split(":");
+            return parts.length === 2 ? +parts[0] * 60 + +parts[1] : 0;
+          };
+          return parseDur(a.duration) - parseDur(b.duration);
+        }
+        default: return 0;
+      }
+    });
+    return sortDir === "desc" ? sorted.reverse() : sorted;
+  }, [tracks, sortCol, sortDir]);
 
   const handleTouchStart = useCallback((e: React.TouchEvent, index: number) => {
     const touch = e.touches[0];
@@ -95,15 +131,23 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
             <thead className="text-[10px] text-[#555] uppercase tracking-wider border-b border-[#222] sticky top-0 bg-black">
               <tr>
                 <th className="px-2 py-2 w-6"></th>
-                <th className="text-left px-2 py-2 font-normal">Track</th>
-                <th className="text-right px-3 py-2 font-normal w-14">BPM</th>
-                <th className="text-right px-3 py-2 font-normal w-12 hidden sm:table-cell">Key</th>
-                <th className="text-right px-3 py-2 font-normal w-14 hidden sm:table-cell">Dur</th>
+                <th className="text-left px-2 py-2 font-normal cursor-pointer hover:text-white transition-colors select-none" onClick={() => toggleSort("track")}>
+                  Track{sortCol === "track" ? (sortDir === "asc" ? " ↑" : " ↓") : ""}
+                </th>
+                <th className="text-right px-3 py-2 font-normal w-14 cursor-pointer hover:text-white transition-colors select-none" onClick={() => toggleSort("bpm")}>
+                  BPM{sortCol === "bpm" ? (sortDir === "asc" ? " ↑" : " ↓") : ""}
+                </th>
+                <th className="text-right px-3 py-2 font-normal w-12 hidden sm:table-cell cursor-pointer hover:text-white transition-colors select-none" onClick={() => toggleSort("key")}>
+                  Key{sortCol === "key" ? (sortDir === "asc" ? " ↑" : " ↓") : ""}
+                </th>
+                <th className="text-right px-3 py-2 font-normal w-14 hidden sm:table-cell cursor-pointer hover:text-white transition-colors select-none" onClick={() => toggleSort("dur")}>
+                  Dur{sortCol === "dur" ? (sortDir === "asc" ? " ↑" : " ↓") : ""}
+                </th>
                 <th className="px-3 py-2 w-8"></th>
               </tr>
             </thead>
             <tbody>
-              {tracks.map((track, i) => (
+              {sortedTracks.map((track, i) => (
                 <tr
                   key={`${track.trackName}-${i}`}
                   className={`border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer transition-colors ${

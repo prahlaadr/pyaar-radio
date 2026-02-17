@@ -22,6 +22,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   tags: [],
   bpmMin: 0,
   bpmMax: 300,
+  halfTime: false,
   search: "",
 };
 
