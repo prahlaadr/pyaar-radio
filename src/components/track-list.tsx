@@ -1,3 +1,4 @@
+import { useRef, useCallback } from "react";
 import type { Artist, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 
@@ -12,6 +13,25 @@ interface Props {
 }
 
 export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay, nowPlaying }: Props) {
+  const tapTimers = useRef<Map<number, ReturnType<typeof setTimeout>>>(new Map());
+
+  const handleRowClick = useCallback((track: Track, index: number) => {
+    if (typeof window === "undefined") return;
+    if (!window.matchMedia("(hover: none)").matches) return;
+    const existing = tapTimers.current.get(index);
+    if (existing) {
+      clearTimeout(existing);
+      tapTimers.current.delete(index);
+      onAddToSetlist(track);
+    } else {
+      const timer = setTimeout(() => {
+        tapTimers.current.delete(index);
+        onPlay?.(track);
+      }, 300);
+      tapTimers.current.set(index, timer);
+    }
+  }, [onAddToSetlist, onPlay]);
+
   return (
     <div className="flex-1 overflow-y-auto flex flex-col">
       <div className="px-5 py-2 border-b border-[#222] flex items-center gap-3">
@@ -53,6 +73,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                 <tr
                   key={`${track.trackName}-${i}`}
                   className="border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer"
+                  onClick={() => handleRowClick(track, i)}
                   onDoubleClick={() => onAddToSetlist(track)}
                 >
                   <td className="px-2 py-1.5">
