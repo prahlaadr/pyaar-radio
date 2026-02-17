@@ -891,10 +891,14 @@ export default function Home() {
                       </span>
                     </div>
                     <div className="border-b border-[#222]">
-                      {searchTracks.slice(0, 15).map((track, i) => (
+                      {searchTracks.slice(0, 15).map((track, i) => {
+                        const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+                        return (
                         <div
                           key={`${track.trackName}-${i}`}
-                          className="px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer"
+                          className={`px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
+                            isPlaying ? "bg-red-950/40" : ""
+                          }`}
                           onDoubleClick={() => addToSetlist(track)}
                         >
                           <button
@@ -905,7 +909,9 @@ export default function Home() {
                             &#9654;
                           </button>
                           <div className="flex-1 min-w-0">
-                            <div className="text-xs truncate text-[#ccc] group-hover:text-white transition-colors">
+                            <div className={`text-xs truncate transition-colors ${
+                              isPlaying ? "text-red-400" : "text-[#ccc] group-hover:text-white"
+                            }`}>
                               {track.trackName}
                             </div>
                             <div className="text-[10px] text-[#444] truncate">
@@ -926,7 +932,8 @@ export default function Home() {
                             +
                           </button>
                         </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </>
                 )}

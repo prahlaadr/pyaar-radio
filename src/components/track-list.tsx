@@ -165,12 +165,14 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
               {rowVirtualizer.getVirtualItems().map((virtualRow) => {
                 const i = virtualRow.index;
                 const track = sortedTracks[i];
+                const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
                 return (
                   <tr
                     key={`${track.trackName}-${i}`}
                     data-index={i}
                     ref={rowVirtualizer.measureElement}
                     className={`border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer transition-colors ${
+                      isPlaying ? "bg-red-950/40" :
                       swipeFlash?.index === i ? (swipeFlash.action === "add" ? "bg-green-900/30" : "bg-blue-900/30") : ""
                     }`}
                     style={swipeState?.index === i ? { transform: `translateX(${Math.max(-60, Math.min(60, swipeState.dx))}px)` } : undefined}
@@ -192,7 +194,9 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                       )}
                     </td>
                     <td className="px-2 py-1.5">
-                      <div className="truncate max-w-[50vw] md:max-w-md text-[#ccc] group-hover:text-white transition-colors">
+                      <div className={`truncate max-w-[50vw] md:max-w-md transition-colors ${
+                        isPlaying ? "text-red-400" : "text-[#ccc] group-hover:text-white"
+                      }`}>
                         {track.trackName}
                       </div>
                       {track.genres.length > 0 && (
