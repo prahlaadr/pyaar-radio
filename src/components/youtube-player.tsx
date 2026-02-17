@@ -36,6 +36,8 @@ interface YTPlayer {
   getPlayerState: () => number;
   getCurrentTime: () => number;
   getDuration: () => number;
+  setVolume: (volume: number) => void;
+  getVolume: () => number;
 }
 
 interface Props {
@@ -97,6 +99,16 @@ async function searchVideoId(trackName: string, artistName: string): Promise<str
   }
 }
 
+const VOLUME_KEY = "pyaar-volume";
+
+function getStoredVolume(): number {
+  try {
+    const v = localStorage.getItem(VOLUME_KEY);
+    if (v !== null) return Number(v);
+  } catch {}
+  return 80;
+}
+
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
@@ -117,6 +129,22 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
   const [searching, setSearching] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [justAdded, setJustAdded] = useState(false);
+  const [volume, setVolume] = useState(80);
+  const volumeInitRef = useRef(false);
+
+  // Load stored volume on mount
+  useEffect(() => {
+    if (!volumeInitRef.current) {
+      volumeInitRef.current = true;
+      setVolume(getStoredVolume());
+    }
+  }, []);
+
+  const handleVolumeChange = useCallback((newVolume: number) => {
+    setVolume(newVolume);
+    try { localStorage.setItem(VOLUME_KEY, String(newVolume)); } catch {}
+    try { playerRef.current?.setVolume(newVolume); } catch {}
+  }, []);
 
   const startTracking = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
@@ -147,6 +175,7 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
     );
     if (state === window.YT.PlayerState.PLAYING) {
       startTracking();
+      try { e.target.setVolume(getStoredVolume()); } catch {}
     } else if (state === window.YT.PlayerState.ENDED) {
       stopTracking();
       onEndedRef.current?.();
@@ -296,6 +325,15 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
         <span className="text-[10px] text-[#555] tabular-nums font-mono hidden sm:inline w-[70px] shrink-0">
           {formatTime(currentTime)} / {duration > 0 ? formatTime(duration) : "—:——"}
         </span>
+        <input
+          type="range"
+          min={0}
+          max={100}
+          value={volume}
+          onChange={(e) => handleVolumeChange(Number(e.target.value))}
+          className="hidden sm:block w-16 h-1 accent-red-600 shrink-0 cursor-pointer"
+          title={`Volume: ${volume}%`}
+        />
         <div className="flex-1 min-w-0 flex items-center gap-2">
           <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
           <span className="text-[10px] text-[#444] hidden sm:inline">&mdash;</span>
