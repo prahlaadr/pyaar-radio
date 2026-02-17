@@ -692,7 +692,7 @@ export default function Home() {
   }
 
   return (
-    <div className={`flex min-h-screen bg-black ${nowPlaying ? "pb-10" : ""}`}>
+    <div className={`flex min-h-screen bg-black ${nowPlaying ? "pb-16 md:pb-10" : ""}`}>
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col">
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
