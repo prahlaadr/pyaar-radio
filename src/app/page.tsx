@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
 import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
+import { getCompatibleKeys } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
 import { FilterPanel } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
@@ -284,19 +285,37 @@ export default function Home() {
   const playRandom = useCallback(async () => {
     if (artists.length === 0) return;
 
+    type TrackRow = {
+      trackName: string; artistNames: string; albumName: string;
+      genres: string | null; tempo: number | null; duration: string;
+      key: number | null; popularity: number | null; videoId: string;
+    };
+
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
     const currentBPM = nowPlaying?.tempo || 0;
+    const currentKey = nowPlaying?.key;
+    const compatKeys = currentKey != null && currentKey >= 0 ? getCompatibleKeys(currentKey) : undefined;
 
-    // BPM-aware selection: try ±10, ±20, ±30, then fully random
     if (currentBPM > 0) {
+      // Priority 1: BPM match + key match
+      if (compatKeys) {
+        for (const range of [10, 20, 30]) {
+          try {
+            const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, compatKeys);
+            const rows = await query<TrackRow>(sql);
+            if (rows.length > 0) {
+              setNowPlaying(rowToTrack(rows[0]));
+              return;
+            }
+          } catch {}
+        }
+      }
+
+      // Priority 2: BPM match only
       for (const range of [10, 20, 30]) {
         try {
           const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range);
-          const rows = await query<{
-            trackName: string; artistNames: string; albumName: string;
-            genres: string | null; tempo: number | null; duration: string;
-            key: number | null; popularity: number | null; videoId: string;
-          }>(sql);
+          const rows = await query<TrackRow>(sql);
           if (rows.length > 0) {
             setNowPlaying(rowToTrack(rows[0]));
             return;
@@ -305,15 +324,11 @@ export default function Home() {
       }
     }
 
-    // Fallback: fully random from a random artist
+    // Priority 3: fully random from a random artist
     const randomArtist = artists[Math.floor(Math.random() * artists.length)];
     try {
       const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
-      const rows = await query<{
-        trackName: string; artistNames: string; albumName: string;
-        genres: string | null; tempo: number | null; duration: string;
-        key: number | null; popularity: number | null; videoId: string;
-      }>(sql);
+      const rows = await query<TrackRow>(sql);
       if (rows.length === 0) return;
       const randomTrack = rows[Math.floor(Math.random() * rows.length)];
       setNowPlaying(rowToTrack(randomTrack));
