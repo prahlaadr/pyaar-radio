@@ -45,6 +45,7 @@ interface Props {
   onToggleRadio?: () => void;
   onEnded?: () => void;
   onShuffle?: () => void;
+  onAddToSetlist?: (track: Track) => void;
 }
 
 let apiLoaded = false;
@@ -102,7 +103,7 @@ function formatTime(seconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle }: Props) {
+export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }: Props) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const currentVideoId = useRef<string | null>(null);
@@ -115,6 +116,7 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
   const [duration, setDuration] = useState(0);
   const [searching, setSearching] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [justAdded, setJustAdded] = useState(false);
 
   const startTracking = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
@@ -299,6 +301,19 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
           <span className="text-[10px] text-[#444] hidden sm:inline">&mdash;</span>
           <span className="text-[10px] text-[#666] truncate hidden sm:inline">{track.artistNames.split(";")[0]}</span>
         </div>
+        {onAddToSetlist && track && (
+          <button
+            onClick={() => {
+              onAddToSetlist(track);
+              setJustAdded(true);
+              setTimeout(() => setJustAdded(false), 1000);
+            }}
+            className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
+            title="Add to setlist"
+          >
+            {justAdded ? "✓" : "+"}
+          </button>
+        )}
         {onShuffle && (
           <button
             onClick={onShuffle}

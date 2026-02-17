@@ -829,6 +829,7 @@ export default function Home() {
         onToggleRadio={() => setRadioMode((r) => !r)}
         onEnded={handleRadioNext}
         onShuffle={playRandom}
+        onAddToSetlist={addToSetlist}
       />
     </div>
   );
