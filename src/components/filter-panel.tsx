@@ -131,19 +131,21 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
         <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
           <span>BPM</span>
           <input
-            type="number"
+            type="text"
+            inputMode="numeric"
             value={filters.bpmMin || ""}
-            onChange={(e) => onChange({ ...filters, bpmMin: Number(e.target.value) || 0 })}
+            onChange={(e) => onChange({ ...filters, bpmMin: Number(e.target.value.replace(/\D/g, "")) || 0 })}
             placeholder="min"
-            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
+            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white appearance-none"
           />
           <span>&mdash;</span>
           <input
-            type="number"
+            type="text"
+            inputMode="numeric"
             value={filters.bpmMax < 300 ? filters.bpmMax : ""}
-            onChange={(e) => onChange({ ...filters, bpmMax: Number(e.target.value) || 300 })}
+            onChange={(e) => onChange({ ...filters, bpmMax: Number(e.target.value.replace(/\D/g, "")) || 300 })}
             placeholder="max"
-            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white"
+            className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white appearance-none"
           />
         </div>
 
