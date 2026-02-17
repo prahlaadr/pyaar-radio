@@ -161,14 +161,14 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
             </button>
           )}
         </div>
-
-        {/* Artist count */}
-        {artistCount !== undefined && (
-          <div className="text-[10px] text-[#666] uppercase tracking-wider">
-            {artistCount} artist{artistCount !== 1 ? "s" : ""}
-          </div>
-        )}
       </div>
+
+      {/* Artist count — always visible */}
+      {artistCount !== undefined && (
+        <div className="text-[10px] text-[#666] uppercase tracking-wider">
+          {artistCount} artist{artistCount !== 1 ? "s" : ""}
+        </div>
+      )}
     </div>
   );
 }
