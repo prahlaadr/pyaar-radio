@@ -123,6 +123,11 @@ export default function Home() {
     }
   }, [setlist, setlistName]);
 
+  // --- B4: Track play counts in localStorage ---
+  useEffect(() => {
+    if (nowPlaying) incrementPlayCount(nowPlaying);
+  }, [nowPlaying]);
+
   const fetchArtists = useCallback(async () => {
     try {
       const sql = buildArtistQuery(filters);
