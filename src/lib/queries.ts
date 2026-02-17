@@ -37,10 +37,7 @@ export function buildArtistQuery(filters: ArtistFilters): string {
     }
   }
 
-  if (filters.search) {
-    const s = filters.search.replace(/'/g, "''");
-    conditions.push(`(artist ILIKE '%${s}%' OR aliases ILIKE '%${s}%')`);
-  }
+  // Search is handled client-side by Fuse.js for fuzzy matching
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
@@ -116,10 +113,9 @@ export interface RadioArtist {
   aliases: string[];
 }
 
-export function buildBPMAwareRandomQuery(
+export function buildScoredRandomQuery(
   artists: RadioArtist[],
   currentBPM: number,
-  bpmRange: number,
   compatibleKeys?: number[],
   excludeTrackKeys?: string[],
 ): string {
@@ -131,17 +127,7 @@ export function buildBPMAwareRandomQuery(
     }).join(" OR ");
   }).map((c) => `(${c})`).join(" OR ");
 
-  const bpmLow = currentBPM - bpmRange;
-  const bpmHigh = currentBPM + bpmRange;
-
-  const conditions = [
-    `(${artistConditions})`,
-    `TRY_CAST(Tempo AS FLOAT) BETWEEN ${bpmLow} AND ${bpmHigh}`,
-  ];
-
-  if (compatibleKeys && compatibleKeys.length > 0) {
-    conditions.push(`TRY_CAST(Key AS INT) IN (${compatibleKeys.join(",")})`);
-  }
+  const conditions = [`(${artistConditions})`];
 
   if (excludeTrackKeys && excludeTrackKeys.length > 0) {
     const excludeConds = excludeTrackKeys.map((k) => {
@@ -150,6 +136,15 @@ export function buildBPMAwareRandomQuery(
     });
     conditions.push(`(LOWER("Track Name") || ':::' || LOWER("Artist Name(s)")) NOT IN (${excludeConds.join(",")})`);
   }
+
+  // Score: BPM proximity (0-30 pts) + key compatibility (0-20 pts) + randomness
+  const bpmScore = currentBPM > 0
+    ? `GREATEST(0, 30 - ABS(COALESCE(TRY_CAST(Tempo AS FLOAT), 0) - ${currentBPM}))`
+    : "0";
+
+  const keyScore = compatibleKeys && compatibleKeys.length > 0
+    ? `CASE WHEN TRY_CAST(Key AS INT) IN (${compatibleKeys.join(",")}) THEN 20 ELSE 0 END`
+    : "0";
 
   return `
     SELECT
@@ -164,7 +159,7 @@ export function buildBPMAwareRandomQuery(
       "Video ID" as videoId
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
-    ORDER BY RANDOM()
+    ORDER BY (${bpmScore} + ${keyScore} + RANDOM() * 15) DESC
     LIMIT 1
   `;
 }

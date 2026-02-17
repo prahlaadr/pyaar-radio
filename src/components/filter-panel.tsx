@@ -5,7 +5,7 @@ const CHANNELS = ["Rave", "Rap", "Soul"] as const;
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 const VIBES = [
   "Groove", "Soulful", "Rowdy", "Nodders", "Rave", "Psych",
-  "Bass", "Percussive", "Club", "Future Beats", "Pop", "Lo-Fi", "Dark",
+  "Bass", "Percussive", "Club", "Future Beats", "Pop", "Dark",
   "Trap", "Boom Bap", "UKG",
 ] as const;
 

@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
@@ -11,7 +11,9 @@ import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
 import { SetlistPanel } from "@/components/setlist";
 import { ImportModal } from "@/components/import-modal";
-import { YouTubePlayer } from "@/components/youtube-player";
+import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
+import Fuse from "fuse.js";
+import hotkeys from "hotkeys-js";
 
 
 const DEFAULT_FILTERS: ArtistFilters = {
@@ -78,7 +80,7 @@ function saveSavedSetlists(data: SavedSetlists) {
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [artists, setArtists] = useState<Artist[]>([]);
+  const [allArtists, setAllArtists] = useState<Artist[]>([]);
   const [filters, setFilters] = useState<ArtistFilters>(DEFAULT_FILTERS);
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [tracks, setTracks] = useState<Track[]>([]);
@@ -96,6 +98,54 @@ export default function Home() {
   const [radioMode, setRadioMode] = useState(false);
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
+  const playerRef = useRef<YouTubePlayerHandle | null>(null);
+  const playRandomRef = useRef<(() => void) | null>(null);
+
+  // Fuse.js: fuzzy search on artist list (client-side)
+  const fuseIndex = useMemo(
+    () =>
+      new Fuse(allArtists, {
+        keys: [
+          { name: "artist", weight: 2 },
+          { name: "aliases", weight: 1 },
+        ],
+        threshold: 0.3,
+        useExtendedSearch: true,
+      }),
+    [allArtists]
+  );
+
+  const artists = useMemo(() => {
+    if (!filters.search || filters.search.length < 2) return allArtists;
+    return fuseIndex.search(filters.search).map((r) => r.item);
+  }, [allArtists, filters.search, fuseIndex]);
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    hotkeys.filter = () => true; // allow hotkeys even in inputs (we check manually)
+    hotkeys("space", (e) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      e.preventDefault();
+      playerRef.current?.toggle();
+    });
+    hotkeys("n", (e) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      e.preventDefault();
+      playRandomRef.current?.();
+    });
+    hotkeys("escape", () => {
+      setNowPlaying(null);
+      setRadioMode(false);
+    });
+    return () => {
+      hotkeys.unbind("space");
+      hotkeys.unbind("n");
+      hotkeys.unbind("escape");
+    };
+  }, []);
+
   // Load saved setlists from localStorage on mount
   useEffect(() => {
     const saved = loadSavedSetlists();
@@ -144,9 +194,15 @@ export default function Home() {
     });
   }, [nowPlaying]);
 
+  // Structured filters (excluding search) for DuckDB artist query
+  const structuralFilters = useMemo(() => ({
+    ...filters,
+    search: "", // search handled by Fuse.js client-side
+  }), [filters.channels, filters.samay, filters.desi, filters.vibes, filters.bpmMin, filters.bpmMax, filters.halfTime, filters.tags]);
+
   const fetchArtists = useCallback(async () => {
     try {
-      const sql = buildArtistQuery(filters);
+      const sql = buildArtistQuery(structuralFilters);
       const rows = await query<{
         artist: string;
         aliases: string | null;
@@ -158,7 +214,7 @@ export default function Home() {
         bpm_high: number;
       }>(sql);
 
-      setArtists(
+      setAllArtists(
         rows.map((r) => ({
           artist: r.artist,
           aliases: r.aliases ? r.aliases.split("|") : [],
@@ -171,8 +227,27 @@ export default function Home() {
         }))
       );
 
-      if (filters.search && filters.search.length >= 2) {
-        const trackSql = buildTrackSearchQuery(filters.search);
+      setLoading(false);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Failed to load data");
+      setLoading(false);
+    }
+  }, [structuralFilters]);
+
+  useEffect(() => {
+    fetchArtists();
+  }, [fetchArtists]);
+
+  // Track search via DuckDB (separate from artist search)
+  useEffect(() => {
+    if (!filters.search || filters.search.length < 2) {
+      setSearchTracks([]);
+      return;
+    }
+    const searchText = filters.search;
+    (async () => {
+      try {
+        const trackSql = buildTrackSearchQuery(searchText);
         const trackRows = await query<{
           trackName: string;
           artistNames: string;
@@ -197,20 +272,11 @@ export default function Home() {
             videoId: r.videoId || "",
           }))
         );
-      } else {
+      } catch {
         setSearchTracks([]);
       }
-
-      setLoading(false);
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Failed to load data");
-      setLoading(false);
-    }
-  }, [filters]);
-
-  useEffect(() => {
-    fetchArtists();
-  }, [fetchArtists]);
+    })();
+  }, [filters.search]);
 
   const handleSelectArtist = useCallback(async (artist: Artist | null) => {
     setSelectedArtist(artist);
@@ -313,48 +379,17 @@ export default function Home() {
       (t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`
     );
 
-    if (currentBPM > 0) {
-      // Priority 1: BPM match + key match
-      if (compatKeys) {
-        for (const range of [10, 20, 30]) {
-          try {
-            const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, compatKeys, excludeKeys);
-            const rows = await query<TrackRow>(sql);
-            if (rows.length > 0) {
-              setNowPlaying(rowToTrack(rows[0]));
-              return;
-            }
-          } catch {}
-        }
-      }
-
-      // Priority 2: BPM match only
-      for (const range of [10, 20, 30]) {
-        try {
-          const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, undefined, excludeKeys);
-          const rows = await query<TrackRow>(sql);
-          if (rows.length > 0) {
-            setNowPlaying(rowToTrack(rows[0]));
-            return;
-          }
-        } catch {}
-      }
-    }
-
-    // Priority 3: fully random from a random artist (exclude recent)
-    const randomArtist = artists[Math.floor(Math.random() * artists.length)];
     try {
-      const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
+      const sql = buildScoredRandomQuery(radioArtists, currentBPM, compatKeys, excludeKeys);
       const rows = await query<TrackRow>(sql);
-      if (rows.length === 0) return;
-      const filtered = rows.filter(
-        (r) => !excludeKeys.includes(`${r.trackName.toLowerCase()}:::${r.artistNames.toLowerCase()}`)
-      );
-      const pool = filtered.length > 0 ? filtered : rows;
-      const randomTrack = pool[Math.floor(Math.random() * pool.length)];
-      setNowPlaying(rowToTrack(randomTrack));
+      if (rows.length > 0) {
+        setNowPlaying(rowToTrack(rows[0]));
+      }
     } catch {}
   }, [artists, nowPlaying, recentlyPlayed, rowToTrack]);
+
+  // Keep ref in sync for hotkeys
+  playRandomRef.current = playRandom;
 
   const handleRadioNext = useCallback(() => {
     if (radioMode) playRandom();
@@ -795,6 +830,13 @@ export default function Home() {
                           className="px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer"
                           onDoubleClick={() => addToSetlist(track)}
                         >
+                          <button
+                            onClick={() => setNowPlaying(track)}
+                            className="text-[#555] hover:text-white transition-colors text-[10px]"
+                            title="Preview"
+                          >
+                            &#9654;
+                          </button>
                           <div className="flex-1 min-w-0">
                             <div className="text-xs truncate text-[#ccc] group-hover:text-white transition-colors">
                               {track.trackName}
@@ -809,13 +851,6 @@ export default function Home() {
                           <span className="text-[10px] text-[#333] hidden sm:inline">
                             {track.duration || "—"}
                           </span>
-                          <button
-                            onClick={() => setNowPlaying(track)}
-                            className="text-[#333] hover:text-white transition-colors text-[10px]"
-                            title="Preview"
-                          >
-                            &#9654;
-                          </button>
                           <button
                             onClick={() => addToSetlist(track)}
                             className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
@@ -957,6 +992,7 @@ export default function Home() {
       />
 
       <YouTubePlayer
+        ref={playerRef}
         track={nowPlaying}
         onClose={() => { setNowPlaying(null); setRadioMode(false); }}
         radioMode={radioMode}

@@ -1,7 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useImperativeHandle, forwardRef } from "react";
 import type { Track } from "@/lib/types";
+
+export interface YouTubePlayerHandle {
+  toggle: () => void;
+}
 
 declare global {
   interface Window {
@@ -128,7 +132,7 @@ function openYouTubeSearch(trackName: string, artistName: string) {
   }, 500);
 }
 
-export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }: Props) {
+export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }, ref) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const currentVideoId = useRef<string | null>(null);
@@ -144,6 +148,15 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
   const [justAdded, setJustAdded] = useState(false);
   const [volume, setVolume] = useState(80);
   const volumeInitRef = useRef(false);
+
+  useImperativeHandle(ref, () => ({
+    toggle: () => {
+      const p = playerRef.current;
+      if (!p) return;
+      if (playing) p.pauseVideo();
+      else p.playVideo();
+    },
+  }), [playing]);
 
   // Load stored volume on mount
   useEffect(() => {
@@ -407,4 +420,4 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
       </div>
     </div>
   );
-}
+});

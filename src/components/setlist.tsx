@@ -1,6 +1,23 @@
-import React, { useState, useRef, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import type { SetlistTrack, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
+import {
+  DndContext,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  TouchSensor,
+  useSensor,
+  useSensors,
+  type DragEndEvent,
+} from "@dnd-kit/core";
+import {
+  SortableContext,
+  sortableKeyboardCoordinates,
+  useSortable,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
 interface Props {
   tracks: SetlistTrack[];
@@ -61,6 +78,106 @@ function exportCSV(tracks: SetlistTrack[], name: string | null) {
   URL.revokeObjectURL(url);
 }
 
+function SortableTrack({
+  track,
+  index,
+  isPlaying,
+  onRemove,
+}: {
+  track: SetlistTrack;
+  index: number;
+  isPlaying: boolean;
+  onRemove: (id: string) => void;
+}) {
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({ id: track.id });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] transition-all ${
+        isPlaying ? "border-l-2 border-l-red-500" : ""
+      } ${isDragging ? "opacity-30 bg-[#111]" : ""}`}
+      onDoubleClick={() => onRemove(track.id)}
+    >
+      <span
+        {...attributes}
+        {...listeners}
+        className="text-[10px] text-[#333] group-hover:text-[#555] w-5 text-right tabular-nums font-mono select-none cursor-grab active:cursor-grabbing touch-none"
+      >
+        {String(index + 1).padStart(2, "0")}
+      </span>
+      <div className="flex-1 min-w-0">
+        <div className="text-xs truncate text-[#ccc]">{track.trackName}</div>
+        <div className="text-[10px] text-[#888] truncate">
+          {track.artistNames.split(";")[0]}
+        </div>
+      </div>
+      <span className="text-[10px] text-[#aaa] tabular-nums font-mono w-8 text-right">
+        {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+      </span>
+      <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
+        {track.key > 0 ? pitchToCamelot(track.key) : "—"}
+      </span>
+      <span className="text-[10px] text-[#777] w-10 text-right">
+        {track.duration || "—"}
+      </span>
+      <button
+        onClick={() => onRemove(track.id)}
+        className="text-[#222] hover:text-red-500 opacity-0 group-hover:opacity-100 transition-all text-xs"
+      >
+        &times;
+      </button>
+    </div>
+  );
+}
+
+function TransitionIndicator({
+  track,
+  next,
+}: {
+  track: SetlistTrack;
+  next: SetlistTrack;
+}) {
+  const bpmDelta = track.tempo > 0 && next.tempo > 0 ? Math.round(next.tempo - track.tempo) : null;
+  const keyCompat = track.key > 0 && next.key > 0 ? getKeyCompatibility(track.key, next.key) : null;
+  const bpmColor = bpmDelta !== null
+    ? Math.abs(bpmDelta) <= 5 ? "text-green-500" : Math.abs(bpmDelta) <= 15 ? "text-yellow-500" : "text-red-500"
+    : "text-[#333]";
+  const keyDot = keyCompat === "perfect" || keyCompat === "harmonic"
+    ? "bg-green-500"
+    : keyCompat === "energy"
+    ? "bg-yellow-500"
+    : keyCompat === "incompatible"
+    ? "bg-red-500"
+    : null;
+
+  return (
+    <div className="flex items-center justify-center gap-2 py-0.5 border-b border-[#0a0a0a]">
+      <div className="w-px h-2 bg-[#222]" />
+      {bpmDelta !== null && (
+        <span className={`text-[9px] tabular-nums font-mono ${bpmColor}`}>
+          {bpmDelta > 0 ? `+${bpmDelta}` : bpmDelta}
+        </span>
+      )}
+      {keyDot && <span className={`w-1.5 h-1.5 rounded-full ${keyDot}`} />}
+      <div className="w-px h-2 bg-[#222]" />
+    </div>
+  );
+}
+
 export function SetlistPanel({
   tracks,
   setlistName,
@@ -76,36 +193,23 @@ export function SetlistPanel({
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
-  const [dragIndex, setDragIndex] = useState<number | null>(null);
-  const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
   const bpmStats = getBPMStats(tracks);
 
-  const handleDragStart = useCallback((e: React.DragEvent, index: number) => {
-    setDragIndex(index);
-    e.dataTransfer.effectAllowed = "move";
-    e.dataTransfer.setData("text/plain", String(index));
-  }, []);
+  const sensors = useSensors(
+    useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
+    useSensor(TouchSensor, { activationConstraint: { delay: 150, tolerance: 5 } }),
+    useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }),
+  );
 
-  const handleDragOver = useCallback((e: React.DragEvent, index: number) => {
-    e.preventDefault();
-    e.dataTransfer.dropEffect = "move";
-    setDragOverIndex(index);
-  }, []);
-
-  const handleDrop = useCallback((e: React.DragEvent, toIndex: number) => {
-    e.preventDefault();
-    const fromIndex = dragIndex;
-    setDragIndex(null);
-    setDragOverIndex(null);
-    if (fromIndex !== null && fromIndex !== toIndex) {
+  const handleDragEnd = useCallback((event: DragEndEvent) => {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+    const fromIndex = tracks.findIndex((t) => t.id === active.id);
+    const toIndex = tracks.findIndex((t) => t.id === over.id);
+    if (fromIndex !== -1 && toIndex !== -1) {
       onReorder(fromIndex, toIndex);
     }
-  }, [dragIndex, onReorder]);
-
-  const handleDragEnd = useCallback(() => {
-    setDragIndex(null);
-    setDragOverIndex(null);
-  }, []);
+  }, [tracks, onReorder]);
 
   const startRename = () => {
     setEditValue(setlistName || "");
@@ -209,76 +313,33 @@ export function SetlistPanel({
         </div>
       ) : (
         <div className="flex-1 overflow-y-auto">
-          {tracks.map((track, i) => {
-            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
-            return (<React.Fragment key={track.id}>
-            <div
-              draggable
-              onDragStart={(e) => handleDragStart(e, i)}
-              onDragOver={(e) => handleDragOver(e, i)}
-              onDrop={(e) => handleDrop(e, i)}
-              onDragEnd={handleDragEnd}
-              className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-grab active:cursor-grabbing transition-all ${
-                isPlaying ? "border-l-2 border-l-red-500" : ""
-              } ${dragIndex === i ? "opacity-30" : ""} ${
-                dragOverIndex === i && dragIndex !== i ? "border-t-2 border-t-red-500" : ""
-              }`}
-              onDoubleClick={() => onRemove(track.id)}
+          <DndContext
+            sensors={sensors}
+            collisionDetection={closestCenter}
+            onDragEnd={handleDragEnd}
+          >
+            <SortableContext
+              items={tracks.map((t) => t.id)}
+              strategy={verticalListSortingStrategy}
             >
-              <span className="text-[10px] text-[#333] group-hover:text-[#555] w-5 text-right tabular-nums font-mono select-none">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <div className="flex-1 min-w-0">
-                <div className="text-xs truncate text-[#ccc]">{track.trackName}</div>
-                <div className="text-[10px] text-[#888] truncate">
-                  {track.artistNames.split(";")[0]}
-                </div>
-              </div>
-              <span className="text-[10px] text-[#aaa] tabular-nums font-mono w-8 text-right">
-                {track.tempo > 0 ? Math.round(track.tempo) : "—"}
-              </span>
-              <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
-                {track.key > 0 ? pitchToCamelot(track.key) : "—"}
-              </span>
-              <span className="text-[10px] text-[#777] w-10 text-right">
-                {track.duration || "—"}
-              </span>
-              <button
-                onClick={() => onRemove(track.id)}
-                className="text-[#222] hover:text-red-500 opacity-0 group-hover:opacity-100 transition-all text-xs"
-              >
-                &times;
-              </button>
-            </div>
-            {i < tracks.length - 1 && (() => {
-              const next = tracks[i + 1];
-              const bpmDelta = track.tempo > 0 && next.tempo > 0 ? Math.round(next.tempo - track.tempo) : null;
-              const keyCompat = track.key > 0 && next.key > 0 ? getKeyCompatibility(track.key, next.key) : null;
-              const bpmColor = bpmDelta !== null
-                ? Math.abs(bpmDelta) <= 5 ? "text-green-500" : Math.abs(bpmDelta) <= 15 ? "text-yellow-500" : "text-red-500"
-                : "text-[#333]";
-              const keyDot = keyCompat === "perfect" || keyCompat === "harmonic"
-                ? "bg-green-500"
-                : keyCompat === "energy"
-                ? "bg-yellow-500"
-                : keyCompat === "incompatible"
-                ? "bg-red-500"
-                : null;
-              return (
-                <div className="flex items-center justify-center gap-2 py-0.5 border-b border-[#0a0a0a]">
-                  <div className="w-px h-2 bg-[#222]" />
-                  {bpmDelta !== null && (
-                    <span className={`text-[9px] tabular-nums font-mono ${bpmColor}`}>
-                      {bpmDelta > 0 ? `+${bpmDelta}` : bpmDelta}
-                    </span>
-                  )}
-                  {keyDot && <span className={`w-1.5 h-1.5 rounded-full ${keyDot}`} />}
-                  <div className="w-px h-2 bg-[#222]" />
-                </div>
-              );
-            })()}
-            </React.Fragment>);
-          })}
+              {tracks.map((track, i) => {
+                const isPlaying = !!(nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames);
+                return (
+                  <React.Fragment key={track.id}>
+                    <SortableTrack
+                      track={track}
+                      index={i}
+                      isPlaying={isPlaying}
+                      onRemove={onRemove}
+                    />
+                    {i < tracks.length - 1 && (
+                      <TransitionIndicator track={track} next={tracks[i + 1]} />
+                    )}
+                  </React.Fragment>
+                );
+              })}
+            </SortableContext>
+          </DndContext>
         </div>
       )}
     </div>
