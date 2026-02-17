@@ -13,10 +13,9 @@ interface Props {
   filters: ArtistFilters;
   onChange: (filters: ArtistFilters) => void;
   artistCount?: number;
-  availableTags?: string[];
 }
 
-export function FilterPanel({ filters, onChange, artistCount, availableTags }: Props) {
+export function FilterPanel({ filters, onChange, artistCount }: Props) {
   const [expanded, setExpanded] = useState(false);
 
   const toggle = (key: keyof ArtistFilters, value: string) => {
@@ -34,18 +33,12 @@ export function FilterPanel({ filters, onChange, artistCount, availableTags }: P
       onChange({ ...filters, samay: filters.samay === value ? null : value });
     } else if (key === "desi") {
       onChange({ ...filters, desi: filters.desi === value ? null : value });
-    } else if (key === "tags") {
-      const tags = filters.tags.includes(value)
-        ? filters.tags.filter((t) => t !== value)
-        : [...filters.tags, value];
-      onChange({ ...filters, tags });
     }
   };
 
   const activeFilterCount =
     filters.channels.length +
     filters.vibes.length +
-    filters.tags.length +
     (filters.samay ? 1 : 0) +
     (filters.desi ? 1 : 0) +
     (filters.bpmMin > 0 ? 1 : 0) +
@@ -133,28 +126,6 @@ export function FilterPanel({ filters, onChange, artistCount, availableTags }: P
             </button>
           ))}
         </div>
-
-        {/* Tags (masterlist playlist tags) */}
-        {availableTags && availableTags.length > 0 && (
-          <div>
-            <div className="text-[10px] text-[#555] uppercase tracking-wider mb-1">Tags</div>
-            <div className="flex gap-1 flex-wrap">
-              {availableTags.map((tag) => (
-                <button
-                  key={tag}
-                  onClick={() => toggle("tags", tag)}
-                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-                    filters.tags.includes(tag)
-                      ? "bg-red-600 text-white"
-                      : "bg-[#0a0a0a] text-[#777] hover:text-[#bbb]"
-                  }`}
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
 
         {/* BPM Range */}
         <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">

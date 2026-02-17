@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery, buildTagRadioQuery, buildAvailableTagsQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
@@ -95,15 +95,6 @@ export default function Home() {
   const [radioMode, setRadioMode] = useState(false);
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
-  const [availableTags, setAvailableTags] = useState<string[]>([]);
-
-  // Load available tags from masterlist on mount
-  useEffect(() => {
-    query<{ tag: string }>(buildAvailableTagsQuery())
-      .then((rows) => setAvailableTags(rows.map((r) => r.tag).filter(Boolean)))
-      .catch(() => {});
-  }, []);
-
   // Load saved setlists from localStorage on mount
   useEffect(() => {
     const saved = loadSavedSetlists();
@@ -350,23 +341,7 @@ export default function Home() {
       }
     }
 
-    // Priority 3: tag-based radio (when tags are selected, draw from full masterlist)
-    if (filters.tags.length > 0) {
-      try {
-        const sql = buildTagRadioQuery(filters.tags);
-        const rows = await query<TrackRow>(sql);
-        if (rows.length > 0) {
-          const filtered = rows.filter(
-            (r) => !excludeKeys.includes(`${r.trackName.toLowerCase()}:::${r.artistNames.toLowerCase()}`)
-          );
-          const pick = filtered.length > 0 ? filtered[0] : rows[0];
-          setNowPlaying(rowToTrack(pick));
-          return;
-        }
-      } catch {}
-    }
-
-    // Priority 4: fully random from a random artist (exclude recent)
+    // Priority 3: fully random from a random artist (exclude recent)
     const randomArtist = artists[Math.floor(Math.random() * artists.length)];
     try {
       const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
@@ -379,7 +354,7 @@ export default function Home() {
       const randomTrack = pool[Math.floor(Math.random() * pool.length)];
       setNowPlaying(rowToTrack(randomTrack));
     } catch {}
-  }, [artists, nowPlaying, recentlyPlayed, filters.tags, rowToTrack]);
+  }, [artists, nowPlaying, recentlyPlayed, rowToTrack]);
 
   const handleRadioNext = useCallback(() => {
     if (radioMode) playRandom();
@@ -785,7 +760,7 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} availableTags={availableTags} />
+            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} />
 
             {loading ? (
               <div className="flex-1 flex items-center justify-center">
