@@ -696,10 +696,15 @@ export default function Home() {
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col">
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
-          <h1
-            className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors shrink-0"
-            onClick={() => { handleSelectArtist(null); setTab("browse"); }}
-          >Pyaar Radio</h1>
+          <div className="shrink-0">
+            <h1
+              className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors"
+              onClick={() => { handleSelectArtist(null); setTab("browse"); }}
+            >Pyaar Radio</h1>
+            {radioMode && (
+              <p className="text-[10px] text-[#888] uppercase tracking-wider">Auto-playing shuffled tracks</p>
+            )}
+          </div>
           <button
             onClick={() => { playRandom(); setRadioMode(true); }}
             disabled={artists.length === 0}
