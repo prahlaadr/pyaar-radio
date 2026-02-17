@@ -756,6 +756,7 @@ export default function Home() {
                 onBack={() => handleSelectArtist(null)}
                 onAddToSetlist={addToSetlist}
                 onPlay={setNowPlaying}
+                nowPlaying={nowPlaying}
               />
             ) : (
               <div className="flex-1 overflow-y-auto flex flex-col">
@@ -834,6 +835,7 @@ export default function Home() {
         <SetlistPanel
           tracks={setlist}
           setlistName={setlistName}
+          nowPlaying={nowPlaying}
           onRemove={removeFromSetlist}
           onMove={moveTrack}
           onClear={() => setSetlist([])}
@@ -872,6 +874,7 @@ export default function Home() {
               <SetlistPanel
                 tracks={setlist}
                 setlistName={setlistName}
+                nowPlaying={nowPlaying}
                 onRemove={removeFromSetlist}
                 onMove={moveTrack}
                 onClear={() => setSetlist([])}

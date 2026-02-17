@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { SetlistTrack } from "@/lib/types";
+import type { SetlistTrack, Track } from "@/lib/types";
 
 const CAMELOT: Record<number, string> = {
   0: "8B", 1: "3B", 2: "10B", 3: "5B", 4: "12B", 5: "7B",
@@ -13,6 +13,7 @@ function formatKey(key: number): string {
 interface Props {
   tracks: SetlistTrack[];
   setlistName: string | null;
+  nowPlaying?: Track | null;
   onRemove: (id: string) => void;
   onMove: (index: number, direction: "up" | "down") => void;
   onClear: () => void;
@@ -21,6 +22,16 @@ interface Props {
   onSave: () => void;
   onNew: () => void;
   onRename: (name: string) => void;
+}
+
+function getBPMStats(tracks: SetlistTrack[]): { min: number; max: number; avg: number } | null {
+  const bpms = tracks.map((t) => t.tempo).filter((b) => b > 0);
+  if (bpms.length === 0) return null;
+  return {
+    min: Math.round(Math.min(...bpms)),
+    max: Math.round(Math.max(...bpms)),
+    avg: Math.round(bpms.reduce((a, b) => a + b, 0) / bpms.length),
+  };
 }
 
 function formatTotalDuration(tracks: SetlistTrack[]): string {
@@ -61,6 +72,7 @@ function exportCSV(tracks: SetlistTrack[], name: string | null) {
 export function SetlistPanel({
   tracks,
   setlistName,
+  nowPlaying,
   onRemove,
   onMove,
   onClear,
@@ -72,6 +84,7 @@ export function SetlistPanel({
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
+  const bpmStats = getBPMStats(tracks);
 
   const startRename = () => {
     setEditValue(setlistName || "");
@@ -115,6 +128,9 @@ export function SetlistPanel({
         <div className="flex items-center justify-between">
           <span className="text-[10px] text-[#555] uppercase tracking-wider">
             {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
+            {bpmStats && (
+              <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}–${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
+            )}
           </span>
           <div className="flex gap-1.5">
             <button
@@ -172,10 +188,12 @@ export function SetlistPanel({
         </div>
       ) : (
         <div className="flex-1 overflow-y-auto">
-          {tracks.map((track, i) => (
+          {tracks.map((track, i) => {
+            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+            return (
             <div
               key={track.id}
-              className="px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer"
+              className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer ${isPlaying ? "border-l-2 border-l-red-500" : ""}`}
               onDoubleClick={() => onRemove(track.id)}
             >
               <span className="text-[10px] text-[#555] w-5 text-right tabular-nums font-mono">
@@ -219,7 +237,8 @@ export function SetlistPanel({
                 &times;
               </button>
             </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
