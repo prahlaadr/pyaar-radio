@@ -333,20 +333,23 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         </div>
       </div>
 
-      <div className="flex items-center px-3 md:px-5 py-2.5 md:py-1.5 gap-3 md:gap-3">
-        {/* YouTube thumbnail — visible, small, in the player bar */}
-        <div className="w-12 h-10 md:h-9 shrink-0 overflow-hidden rounded-sm bg-[#111] relative">
-          <div ref={containerRef} className="absolute inset-0" />
-        </div>
+      {/* Hidden YouTube iframe container — shared between layouts */}
+      <div className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none">
+        <div ref={containerRef} className="w-full h-full" />
+      </div>
 
+      {/* === Desktop: single row === */}
+      <div className="hidden md:flex items-center px-5 py-1.5 gap-3">
+        {/* Thumbnail placeholder */}
+        <div className="w-12 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
         {searching ? (
-          <div className="w-8 flex justify-center shrink-0">
-            <div className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse" />
+          <div className="w-4 flex justify-center shrink-0">
+            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
           </div>
         ) : error ? (
           <button
             onClick={() => openYouTubeSearch(track.trackName, track.artistNames)}
-            className="text-xs text-red-500 hover:text-red-400 uppercase tracking-wider shrink-0 underline min-h-[44px] flex items-center"
+            className="text-[10px] text-red-500 hover:text-red-400 uppercase tracking-wider shrink-0 underline"
             title="Search in YouTube app"
           >
             Open YT
@@ -354,12 +357,12 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         ) : (
           <button
             onClick={handlePlayPause}
-            className="text-white hover:text-red-500 transition-colors text-base md:text-sm w-8 md:w-5 text-center shrink-0 min-h-[44px] md:min-h-0 flex items-center justify-center"
+            className="text-white hover:text-red-500 transition-colors text-sm w-5 text-center shrink-0"
           >
             {playing ? "\u275A\u275A" : "\u25B6"}
           </button>
         )}
-        <span className="text-[10px] text-[#555] tabular-nums font-mono hidden sm:inline w-[70px] shrink-0">
+        <span className="text-[10px] text-[#555] tabular-nums font-mono w-[70px] shrink-0">
           {formatTime(currentTime)} / {duration > 0 ? formatTime(duration) : "—:——"}
         </span>
         <input
@@ -368,54 +371,117 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           max={100}
           value={volume}
           onChange={(e) => handleVolumeChange(Number(e.target.value))}
-          className="hidden sm:block w-16 h-1 accent-red-600 shrink-0 cursor-pointer"
+          className="w-16 h-1 accent-red-600 shrink-0 cursor-pointer"
           title={`Volume: ${volume}%`}
         />
-        <div className="flex-1 min-w-0">
-          <div className="text-sm md:text-xs text-[#ccc] truncate">{track.trackName}</div>
-          <div className="text-xs md:text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</div>
+        <div className="flex-1 min-w-0 flex items-center gap-2">
+          <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
+          <span className="text-[10px] text-[#444]">&mdash;</span>
+          <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
         </div>
         {onAddToSetlist && track && (
           <button
-            onClick={() => {
-              onAddToSetlist(track);
-              setJustAdded(true);
-              setTimeout(() => setJustAdded(false), 1000);
-            }}
-            className="text-[#666] hover:text-red-500 transition-colors text-lg md:text-sm font-bold shrink-0 min-w-[44px] min-h-[44px] md:min-w-0 md:min-h-0 flex items-center justify-center"
+            onClick={() => { onAddToSetlist(track); setJustAdded(true); setTimeout(() => setJustAdded(false), 1000); }}
+            className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
             title="Add to setlist"
           >
             {justAdded ? "\u2713" : "+"}
           </button>
         )}
         {onShuffle && (
-          <button
-            onClick={onShuffle}
-            className="text-[#666] hover:text-white transition-colors text-base md:text-[10px] shrink-0 min-w-[44px] min-h-[44px] md:min-w-0 md:min-h-0 flex items-center justify-center"
-            title="Shuffle — play random track"
-          >
+          <button onClick={onShuffle} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Shuffle">
             &#8645;
           </button>
         )}
         {onToggleRadio && (
           <button
             onClick={onToggleRadio}
-            className={`text-xs md:text-[10px] uppercase tracking-wider px-2.5 py-1.5 md:px-1.5 md:py-0.5 transition-colors shrink-0 min-h-[44px] md:min-h-0 flex items-center ${
-              radioMode
-                ? "bg-red-600 text-white"
-                : "text-[#666] hover:text-white"
+            className={`text-[10px] uppercase tracking-wider px-1.5 py-0.5 transition-colors shrink-0 ${
+              radioMode ? "bg-red-600 text-white" : "text-[#666] hover:text-white"
             }`}
-            title={radioMode ? "Radio mode on — auto-plays next" : "Radio mode off"}
           >
             Radio
           </button>
         )}
-        <button
-          onClick={handleClose}
-          className="text-[#444] hover:text-white transition-colors text-lg md:text-xs shrink-0 min-w-[44px] min-h-[44px] md:min-w-0 md:min-h-0 flex items-center justify-center"
-        >
-          &times;
-        </button>
+        <button onClick={handleClose} className="text-[#444] hover:text-white transition-colors text-xs shrink-0">&times;</button>
+      </div>
+
+      {/* === Mobile: two rows — song info top, controls bottom === */}
+      <div className="md:hidden">
+        {/* Row 1: thumbnail + song info */}
+        <div className="flex items-center px-3 pt-2 pb-1 gap-3">
+          <div className="w-10 h-10 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
+          <div className="flex-1 min-w-0">
+            <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
+            <div className="text-xs text-[#666] truncate">{track.artistNames.split(";")[0]}</div>
+          </div>
+        </div>
+
+        {/* Row 2: controls */}
+        <div className="flex items-center justify-between px-3 pb-2 pt-1">
+          {/* Left: play/pause + shuffle */}
+          <div className="flex items-center gap-1">
+            {searching ? (
+              <div className="w-11 h-11 flex items-center justify-center">
+                <div className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse" />
+              </div>
+            ) : error ? (
+              <button
+                onClick={() => openYouTubeSearch(track.trackName, track.artistNames)}
+                className="text-xs text-red-500 hover:text-red-400 uppercase tracking-wider underline h-11 flex items-center px-2"
+              >
+                Open YT
+              </button>
+            ) : (
+              <button
+                onClick={handlePlayPause}
+                className="text-white hover:text-red-500 transition-colors text-lg w-11 h-11 flex items-center justify-center"
+              >
+                {playing ? "\u275A\u275A" : "\u25B6"}
+              </button>
+            )}
+            {onShuffle && (
+              <button
+                onClick={onShuffle}
+                className="text-[#666] hover:text-white transition-colors text-lg w-11 h-11 flex items-center justify-center"
+                title="Shuffle"
+              >
+                &#8645;
+              </button>
+            )}
+          </div>
+
+          {/* Center: radio */}
+          {onToggleRadio && (
+            <button
+              onClick={onToggleRadio}
+              className={`text-xs uppercase tracking-wider px-4 py-2 transition-colors rounded-sm ${
+                radioMode ? "bg-red-600 text-white" : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+            >
+              Radio
+            </button>
+          )}
+
+          {/* Right: add + close */}
+          <div className="flex items-center gap-1">
+            {onAddToSetlist && track && (
+              <button
+                onClick={() => { onAddToSetlist(track); setJustAdded(true); setTimeout(() => setJustAdded(false), 1000); }}
+                className="text-[#666] hover:text-red-500 transition-colors text-xl font-bold w-11 h-11 flex items-center justify-center"
+                title="Add to setlist"
+              >
+                {justAdded ? "\u2713" : "+"}
+              </button>
+            )}
+            <button
+              onClick={handleClose}
+              className="text-[#444] hover:text-white transition-colors text-xl w-11 h-11 flex items-center justify-center"
+            >
+              &times;
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
