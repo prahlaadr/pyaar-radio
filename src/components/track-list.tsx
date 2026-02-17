@@ -1,4 +1,4 @@
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useState } from "react";
 import type { Artist, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 
@@ -14,6 +14,40 @@ interface Props {
 
 export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay, nowPlaying }: Props) {
   const tapTimers = useRef<Map<number, ReturnType<typeof setTimeout>>>(new Map());
+  const touchStart = useRef<{ x: number; y: number; index: number } | null>(null);
+  const [swipeState, setSwipeState] = useState<{ index: number; dx: number } | null>(null);
+  const [swipeFlash, setSwipeFlash] = useState<{ index: number; action: "add" | "play" } | null>(null);
+
+  const handleTouchStart = useCallback((e: React.TouchEvent, index: number) => {
+    const touch = e.touches[0];
+    touchStart.current = { x: touch.clientX, y: touch.clientY, index };
+    setSwipeState(null);
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent, index: number) => {
+    if (!touchStart.current || touchStart.current.index !== index) return;
+    const touch = e.touches[0];
+    const dx = touch.clientX - touchStart.current.x;
+    const dy = touch.clientY - touchStart.current.y;
+    if (Math.abs(dy) > Math.abs(dx)) { touchStart.current = null; setSwipeState(null); return; }
+    if (Math.abs(dx) > 10) setSwipeState({ index, dx });
+  }, []);
+
+  const handleTouchEnd = useCallback((track: Track, index: number) => {
+    if (!swipeState || swipeState.index !== index) { touchStart.current = null; setSwipeState(null); return; }
+    const dx = swipeState.dx;
+    setSwipeState(null);
+    touchStart.current = null;
+    if (dx > 50) {
+      onAddToSetlist(track);
+      setSwipeFlash({ index, action: "add" });
+      setTimeout(() => setSwipeFlash(null), 400);
+    } else if (dx < -50) {
+      onPlay?.(track);
+      setSwipeFlash({ index, action: "play" });
+      setTimeout(() => setSwipeFlash(null), 400);
+    }
+  }, [swipeState, onAddToSetlist, onPlay]);
 
   const handleRowClick = useCallback((track: Track, index: number) => {
     if (typeof window === "undefined") return;
@@ -72,9 +106,15 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
               {tracks.map((track, i) => (
                 <tr
                   key={`${track.trackName}-${i}`}
-                  className="border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer"
+                  className={`border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer transition-colors ${
+                    swipeFlash?.index === i ? (swipeFlash.action === "add" ? "bg-green-900/30" : "bg-blue-900/30") : ""
+                  }`}
+                  style={swipeState?.index === i ? { transform: `translateX(${Math.max(-60, Math.min(60, swipeState.dx))}px)` } : undefined}
                   onClick={() => handleRowClick(track, i)}
                   onDoubleClick={() => onAddToSetlist(track)}
+                  onTouchStart={(e) => handleTouchStart(e, i)}
+                  onTouchMove={(e) => handleTouchMove(e, i)}
+                  onTouchEnd={() => handleTouchEnd(track, i)}
                 >
                   <td className="px-2 py-1.5">
                     {onPlay && (
