@@ -41,6 +41,10 @@ interface YTPlayer {
 interface Props {
   track: Track | null;
   onClose: () => void;
+  radioMode?: boolean;
+  onToggleRadio?: () => void;
+  onEnded?: () => void;
+  onShuffle?: () => void;
 }
 
 let apiLoaded = false;
@@ -98,11 +102,13 @@ function formatTime(seconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-export function YouTubePlayer({ track, onClose }: Props) {
+export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle }: Props) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const currentVideoId = useRef<string | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const onEndedRef = useRef(onEnded);
+  onEndedRef.current = onEnded;
 
   const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -139,10 +145,10 @@ export function YouTubePlayer({ track, onClose }: Props) {
     );
     if (state === window.YT.PlayerState.PLAYING) {
       startTracking();
-    } else if (
-      state === window.YT.PlayerState.PAUSED ||
-      state === window.YT.PlayerState.ENDED
-    ) {
+    } else if (state === window.YT.PlayerState.ENDED) {
+      stopTracking();
+      onEndedRef.current?.();
+    } else if (state === window.YT.PlayerState.PAUSED) {
       stopTracking();
     }
   }, [startTracking, stopTracking]);
@@ -293,6 +299,28 @@ export function YouTubePlayer({ track, onClose }: Props) {
           <span className="text-[10px] text-[#444] hidden sm:inline">&mdash;</span>
           <span className="text-[10px] text-[#666] truncate hidden sm:inline">{track.artistNames.split(";")[0]}</span>
         </div>
+        {onShuffle && (
+          <button
+            onClick={onShuffle}
+            className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0"
+            title="Shuffle — play random track"
+          >
+            &#8645;
+          </button>
+        )}
+        {onToggleRadio && (
+          <button
+            onClick={onToggleRadio}
+            className={`text-[10px] uppercase tracking-wider px-1.5 py-0.5 transition-colors shrink-0 ${
+              radioMode
+                ? "bg-red-600 text-white"
+                : "text-[#666] hover:text-white"
+            }`}
+            title={radioMode ? "Radio mode on — auto-plays next" : "Radio mode off"}
+          >
+            Radio
+          </button>
+        )}
         <button
           onClick={handleClose}
           className="text-[#444] hover:text-white transition-colors text-xs shrink-0"

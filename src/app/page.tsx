@@ -69,6 +69,7 @@ export default function Home() {
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
+  const [radioMode, setRadioMode] = useState(false);
 
   // Load saved setlists from localStorage on mount
   useEffect(() => {
@@ -231,6 +232,42 @@ export default function Home() {
       return next.map((t, i) => ({ ...t, position: i }));
     });
   }, []);
+
+  const playRandom = useCallback(async () => {
+    if (artists.length === 0) return;
+    const randomArtist = artists[Math.floor(Math.random() * artists.length)];
+    try {
+      const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
+      const rows = await query<{
+        trackName: string;
+        artistNames: string;
+        albumName: string;
+        genres: string | null;
+        tempo: number | null;
+        duration: string;
+        key: number | null;
+        popularity: number | null;
+        videoId: string;
+      }>(sql);
+      if (rows.length === 0) return;
+      const randomTrack = rows[Math.floor(Math.random() * rows.length)];
+      setNowPlaying({
+        trackName: randomTrack.trackName,
+        artistNames: randomTrack.artistNames,
+        albumName: randomTrack.albumName || "",
+        genres: randomTrack.genres ? randomTrack.genres.split(",").map((g) => g.trim()) : [],
+        tempo: Number(randomTrack.tempo) || 0,
+        duration: randomTrack.duration || "",
+        key: Number(randomTrack.key) || 0,
+        popularity: Number(randomTrack.popularity) || 0,
+        videoId: randomTrack.videoId || "",
+      });
+    } catch {}
+  }, [artists]);
+
+  const handleRadioNext = useCallback(() => {
+    if (radioMode) playRandom();
+  }, [radioMode, playRandom]);
 
   const handleImport = useCallback(async (lines: { track: string; artist: string }[]) => {
     try {
@@ -509,11 +546,23 @@ export default function Home() {
     <div className={`flex min-h-screen bg-black ${nowPlaying ? "pb-10" : ""}`}>
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col">
-        <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
+        <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
           <h1
-            className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors"
+            className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors shrink-0"
             onClick={() => { handleSelectArtist(null); setTab("browse"); }}
           >Pyaar Radio</h1>
+          <button
+            onClick={() => { playRandom(); setRadioMode(true); }}
+            disabled={artists.length === 0}
+            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
+              radioMode
+                ? "bg-red-600 text-white"
+                : "bg-[#111] text-[#888] hover:text-white disabled:text-[#333]"
+            }`}
+            title="Shuffle play from filtered artists"
+          >
+            Radio
+          </button>
           <div className="flex gap-1">
             <button
               onClick={() => setTab("browse")}
@@ -773,7 +822,14 @@ export default function Home() {
         onImport={handleImport}
       />
 
-      <YouTubePlayer track={nowPlaying} onClose={() => setNowPlaying(null)} />
+      <YouTubePlayer
+        track={nowPlaying}
+        onClose={() => { setNowPlaying(null); setRadioMode(false); }}
+        radioMode={radioMode}
+        onToggleRadio={() => setRadioMode((r) => !r)}
+        onEnded={handleRadioNext}
+        onShuffle={playRandom}
+      />
     </div>
   );
 }
