@@ -115,6 +115,11 @@ function formatTime(seconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
+function buildYouTubeSearchURL(trackName: string, artistName: string): string {
+  const artist = artistName.split(";")[0].trim();
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${trackName} ${artist}`)}`;
+}
+
 export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }: Props) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -207,8 +212,8 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
     ensureAPI(() => {
       if (!containerRef.current) return;
       playerRef.current = new window.YT.Player(containerRef.current, {
-        height: "200",
-        width: "200",
+        height: "36",
+        width: "48",
         videoId: vid,
         playerVars: {
           autoplay: 1,
@@ -233,7 +238,7 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
       return;
     }
 
-    // Search for video via Piped API
+    // Search for video via YouTube innertube API
     setSearching(true);
     const vid = await searchVideoId(t.trackName, t.artistNames);
     setSearching(false);
@@ -308,12 +313,25 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
       </div>
 
       <div className="h-9 flex items-center px-3 md:px-5 gap-2 md:gap-3">
+        {/* YouTube thumbnail — visible, small, in the player bar */}
+        <div className="w-12 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111] relative">
+          <div ref={containerRef} className="absolute inset-0" />
+        </div>
+
         {searching ? (
           <div className="w-4 flex justify-center shrink-0">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
           </div>
         ) : error ? (
-          <span className="text-[10px] text-[#555] uppercase tracking-wider shrink-0">{error}</span>
+          <a
+            href={buildYouTubeSearchURL(track.trackName, track.artistNames)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-red-500 hover:text-red-400 uppercase tracking-wider shrink-0 underline"
+            title="Open YouTube search"
+          >
+            Open YT
+          </a>
         ) : (
           <button
             onClick={handlePlayPause}
@@ -349,7 +367,7 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
             className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
             title="Add to setlist"
           >
-            {justAdded ? "✓" : "+"}
+            {justAdded ? "\u2713" : "+"}
           </button>
         )}
         {onShuffle && (
@@ -380,21 +398,6 @@ export function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnde
         >
           &times;
         </button>
-      </div>
-
-      {/* YouTube iframe — offscreen but large enough for YT to allow playback */}
-      <div
-        style={{
-          position: "absolute",
-          left: "-9999px",
-          top: 0,
-          width: "200px",
-          height: "200px",
-          overflow: "hidden",
-          pointerEvents: "none",
-        }}
-      >
-        <div ref={containerRef} />
       </div>
     </div>
   );
