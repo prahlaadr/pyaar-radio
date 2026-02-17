@@ -265,12 +265,11 @@ export default function Home() {
     );
   }, []);
 
-  const moveTrack = useCallback((index: number, direction: "up" | "down") => {
+  const reorderTrack = useCallback((fromIndex: number, toIndex: number) => {
     setSetlist((prev) => {
       const next = [...prev];
-      const targetIndex = direction === "up" ? index - 1 : index + 1;
-      if (targetIndex < 0 || targetIndex >= next.length) return prev;
-      [next[index], next[targetIndex]] = [next[targetIndex], next[index]];
+      const [moved] = next.splice(fromIndex, 1);
+      next.splice(toIndex, 0, moved);
       return next.map((t, i) => ({ ...t, position: i }));
     });
   }, []);
@@ -859,7 +858,7 @@ export default function Home() {
           setlistName={setlistName}
           nowPlaying={nowPlaying}
           onRemove={removeFromSetlist}
-          onMove={moveTrack}
+          onReorder={reorderTrack}
           onClear={() => setSetlist([])}
           onImport={() => setImportOpen(true)}
           onOpen={() => setTab("setlists")}
@@ -938,7 +937,7 @@ export default function Home() {
                 setlistName={setlistName}
                 nowPlaying={nowPlaying}
                 onRemove={removeFromSetlist}
-                onMove={moveTrack}
+                onReorder={reorderTrack}
                 onClear={() => setSetlist([])}
                 onImport={() => setImportOpen(true)}
                 onOpen={() => { setTab("setlists"); setMobileSetlistOpen(false); }}

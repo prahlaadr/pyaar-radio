@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import type { SetlistTrack, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 
@@ -7,7 +7,7 @@ interface Props {
   setlistName: string | null;
   nowPlaying?: Track | null;
   onRemove: (id: string) => void;
-  onMove: (index: number, direction: "up" | "down") => void;
+  onReorder: (fromIndex: number, toIndex: number) => void;
   onClear: () => void;
   onImport: () => void;
   onOpen: () => void;
@@ -66,7 +66,7 @@ export function SetlistPanel({
   setlistName,
   nowPlaying,
   onRemove,
-  onMove,
+  onReorder,
   onClear,
   onImport,
   onOpen,
@@ -76,7 +76,36 @@ export function SetlistPanel({
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
+  const [dragIndex, setDragIndex] = useState<number | null>(null);
+  const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
   const bpmStats = getBPMStats(tracks);
+
+  const handleDragStart = useCallback((e: React.DragEvent, index: number) => {
+    setDragIndex(index);
+    e.dataTransfer.effectAllowed = "move";
+    e.dataTransfer.setData("text/plain", String(index));
+  }, []);
+
+  const handleDragOver = useCallback((e: React.DragEvent, index: number) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+    setDragOverIndex(index);
+  }, []);
+
+  const handleDrop = useCallback((e: React.DragEvent, toIndex: number) => {
+    e.preventDefault();
+    const fromIndex = dragIndex;
+    setDragIndex(null);
+    setDragOverIndex(null);
+    if (fromIndex !== null && fromIndex !== toIndex) {
+      onReorder(fromIndex, toIndex);
+    }
+  }, [dragIndex, onReorder]);
+
+  const handleDragEnd = useCallback(() => {
+    setDragIndex(null);
+    setDragOverIndex(null);
+  }, []);
 
   const startRename = () => {
     setEditValue(setlistName || "");
@@ -184,10 +213,19 @@ export function SetlistPanel({
             const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
             return (<React.Fragment key={track.id}>
             <div
-              className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer ${isPlaying ? "border-l-2 border-l-red-500" : ""}`}
+              draggable
+              onDragStart={(e) => handleDragStart(e, i)}
+              onDragOver={(e) => handleDragOver(e, i)}
+              onDrop={(e) => handleDrop(e, i)}
+              onDragEnd={handleDragEnd}
+              className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-grab active:cursor-grabbing transition-all ${
+                isPlaying ? "border-l-2 border-l-red-500" : ""
+              } ${dragIndex === i ? "opacity-30" : ""} ${
+                dragOverIndex === i && dragIndex !== i ? "border-t-2 border-t-red-500" : ""
+              }`}
               onDoubleClick={() => onRemove(track.id)}
             >
-              <span className="text-[10px] text-[#555] w-5 text-right tabular-nums font-mono">
+              <span className="text-[10px] text-[#333] group-hover:text-[#555] w-5 text-right tabular-nums font-mono select-none">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div className="flex-1 min-w-0">
@@ -205,22 +243,6 @@ export function SetlistPanel({
               <span className="text-[10px] text-[#777] w-10 text-right">
                 {track.duration || "—"}
               </span>
-              <div className="flex flex-col opacity-0 group-hover:opacity-100 transition-opacity">
-                <button
-                  onClick={() => onMove(i, "up")}
-                  disabled={i === 0}
-                  className="text-[#444] hover:text-white text-[10px] disabled:text-[#1a1a1a] leading-none"
-                >
-                  &#9650;
-                </button>
-                <button
-                  onClick={() => onMove(i, "down")}
-                  disabled={i === tracks.length - 1}
-                  className="text-[#444] hover:text-white text-[10px] disabled:text-[#1a1a1a] leading-none"
-                >
-                  &#9660;
-                </button>
-              </div>
               <button
                 onClick={() => onRemove(track.id)}
                 className="text-[#222] hover:text-red-500 opacity-0 group-hover:opacity-100 transition-all text-xs"
