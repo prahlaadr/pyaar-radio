@@ -161,6 +161,37 @@ export function buildBPMAwareRandomQuery(
   `;
 }
 
+export function buildAvailableTagsQuery(): string {
+  return `
+    SELECT DISTINCT unnest(string_split(Tags, '|')) as tag
+    FROM masterlist WHERE Tags <> '' AND Tags IS NOT NULL
+    ORDER BY tag
+  `;
+}
+
+export function buildTagRadioQuery(tags: string[]): string {
+  const tagConds = tags.map((t) => {
+    const escaped = t.replace(/'/g, "''");
+    return `Tags ILIKE '%${escaped}%'`;
+  });
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId
+    FROM masterlist
+    WHERE ${tagConds.join(" OR ")}
+    ORDER BY RANDOM()
+    LIMIT 1
+  `;
+}
+
 export function buildTracksQuery(artistName: string, aliases: string[]): string {
   const allNames = [artistName, ...aliases];
   const conditions = allNames.map((name) => {

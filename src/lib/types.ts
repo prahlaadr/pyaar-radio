@@ -49,6 +49,7 @@ export interface ArtistFilters {
   samay: string | null;
   desi: string | null;
   vibes: string[];
+  tags: string[];
   bpmMin: number;
   bpmMax: number;
   search: string;

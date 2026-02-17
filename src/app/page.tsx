@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery, buildTagRadioQuery, buildAvailableTagsQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
@@ -19,6 +19,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   samay: null,
   desi: null,
   vibes: [],
+  tags: [],
   bpmMin: 0,
   bpmMax: 300,
   search: "",
@@ -92,6 +93,16 @@ export default function Home() {
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
   const [radioMode, setRadioMode] = useState(false);
+  const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
+  const [recentExpanded, setRecentExpanded] = useState(false);
+  const [availableTags, setAvailableTags] = useState<string[]>([]);
+
+  // Load available tags from masterlist on mount
+  useEffect(() => {
+    query<{ tag: string }>(buildAvailableTagsQuery())
+      .then((rows) => setAvailableTags(rows.map((r) => r.tag).filter(Boolean)))
+      .catch(() => {});
+  }, []);
 
   // Load saved setlists from localStorage on mount
   useEffect(() => {
@@ -127,6 +138,18 @@ export default function Home() {
   // --- B4: Track play counts in localStorage ---
   useEffect(() => {
     if (nowPlaying) incrementPlayCount(nowPlaying);
+  }, [nowPlaying]);
+
+  // Track recently played (last 20)
+  useEffect(() => {
+    if (!nowPlaying) return;
+    setRecentlyPlayed((prev) => {
+      const isDupe = prev.some(
+        (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+      );
+      if (isDupe) return prev;
+      return [nowPlaying, ...prev].slice(0, 20);
+    });
   }, [nowPlaying]);
 
   const fetchArtists = useCallback(async () => {
@@ -295,13 +318,16 @@ export default function Home() {
     const currentBPM = nowPlaying?.tempo || 0;
     const currentKey = nowPlaying?.key;
     const compatKeys = currentKey != null && currentKey >= 0 ? getCompatibleKeys(currentKey) : undefined;
+    const excludeKeys = recentlyPlayed.map(
+      (t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`
+    );
 
     if (currentBPM > 0) {
       // Priority 1: BPM match + key match
       if (compatKeys) {
         for (const range of [10, 20, 30]) {
           try {
-            const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, compatKeys);
+            const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, compatKeys, excludeKeys);
             const rows = await query<TrackRow>(sql);
             if (rows.length > 0) {
               setNowPlaying(rowToTrack(rows[0]));
@@ -314,7 +340,7 @@ export default function Home() {
       // Priority 2: BPM match only
       for (const range of [10, 20, 30]) {
         try {
-          const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range);
+          const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range, undefined, excludeKeys);
           const rows = await query<TrackRow>(sql);
           if (rows.length > 0) {
             setNowPlaying(rowToTrack(rows[0]));
@@ -324,16 +350,36 @@ export default function Home() {
       }
     }
 
-    // Priority 3: fully random from a random artist
+    // Priority 3: tag-based radio (when tags are selected, draw from full masterlist)
+    if (filters.tags.length > 0) {
+      try {
+        const sql = buildTagRadioQuery(filters.tags);
+        const rows = await query<TrackRow>(sql);
+        if (rows.length > 0) {
+          const filtered = rows.filter(
+            (r) => !excludeKeys.includes(`${r.trackName.toLowerCase()}:::${r.artistNames.toLowerCase()}`)
+          );
+          const pick = filtered.length > 0 ? filtered[0] : rows[0];
+          setNowPlaying(rowToTrack(pick));
+          return;
+        }
+      } catch {}
+    }
+
+    // Priority 4: fully random from a random artist (exclude recent)
     const randomArtist = artists[Math.floor(Math.random() * artists.length)];
     try {
       const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
       const rows = await query<TrackRow>(sql);
       if (rows.length === 0) return;
-      const randomTrack = rows[Math.floor(Math.random() * rows.length)];
+      const filtered = rows.filter(
+        (r) => !excludeKeys.includes(`${r.trackName.toLowerCase()}:::${r.artistNames.toLowerCase()}`)
+      );
+      const pool = filtered.length > 0 ? filtered : rows;
+      const randomTrack = pool[Math.floor(Math.random() * pool.length)];
       setNowPlaying(rowToTrack(randomTrack));
     } catch {}
-  }, [artists, nowPlaying, rowToTrack]);
+  }, [artists, nowPlaying, recentlyPlayed, filters.tags, rowToTrack]);
 
   const handleRadioNext = useCallback(() => {
     if (radioMode) playRandom();
@@ -739,7 +785,7 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} />
+            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} availableTags={availableTags} />
 
             {loading ? (
               <div className="flex-1 flex items-center justify-center">
@@ -845,6 +891,46 @@ export default function Home() {
           onNew={handleNew}
           onRename={handleRename}
         />
+        {recentlyPlayed.length > 0 && (
+          <div className="border-t border-[#222]">
+            <button
+              onClick={() => setRecentExpanded((v) => !v)}
+              className="w-full px-4 py-1.5 flex items-center justify-between text-[10px] text-[#555] uppercase tracking-wider hover:text-[#888] transition-colors"
+            >
+              <span>Recently Played ({recentlyPlayed.length})</span>
+              <span>{recentExpanded ? "−" : "+"}</span>
+            </button>
+            {recentExpanded && (
+              <div className="max-h-48 overflow-y-auto">
+                {recentlyPlayed.map((track, i) => (
+                  <div
+                    key={`recent-${track.trackName}-${i}`}
+                    className="px-4 py-1 border-t border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 group"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <div className="text-[11px] text-[#888] truncate group-hover:text-[#ccc] transition-colors">
+                        {track.trackName}
+                      </div>
+                      <div className="text-[10px] text-[#444] truncate">
+                        {track.artistNames.split(";")[0]}
+                      </div>
+                    </div>
+                    <span className="text-[10px] text-[#444] tabular-nums font-mono shrink-0">
+                      {track.tempo > 0 ? Math.round(track.tempo) : ""}
+                    </span>
+                    <button
+                      onClick={() => addToSetlist(track)}
+                      className="text-[#444] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
+                      title="Add to setlist"
+                    >
+                      +
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Mobile: setlist toggle button */}
