@@ -1,4 +1,5 @@
 import type { Artist, Track } from "@/lib/types";
+import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 
 interface Props {
   artist: Artist;
@@ -7,9 +8,10 @@ interface Props {
   onBack: () => void;
   onAddToSetlist: (track: Track) => void;
   onPlay?: (track: Track) => void;
+  nowPlaying?: Track | null;
 }
 
-export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay }: Props) {
+export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay, nowPlaying }: Props) {
   return (
     <div className="flex-1 overflow-y-auto flex flex-col">
       <div className="px-5 py-2 border-b border-[#222] flex items-center gap-3">
@@ -78,7 +80,17 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                   </td>
                   <td className="text-right px-3 py-1.5 text-[#888] tabular-nums text-xs hidden sm:table-cell">
-                    {track.key || "—"}
+                    <span className="inline-flex items-center gap-1 justify-end">
+                      {nowPlaying && track.key > 0 && nowPlaying.key > 0 && (() => {
+                        const compat = getKeyCompatibility(nowPlaying.key, track.key);
+                        if (compat === "perfect" || compat === "harmonic")
+                          return <span className="w-1.5 h-1.5 rounded-full bg-green-500 shrink-0" />;
+                        if (compat === "energy")
+                          return <span className="w-1.5 h-1.5 rounded-full bg-yellow-500 shrink-0" />;
+                        return null;
+                      })()}
+                      {track.key > 0 ? pitchToCamelot(track.key) : "—"}
+                    </span>
                   </td>
                   <td className="text-right px-3 py-1.5 text-[#888] text-xs hidden sm:table-cell">
                     {track.duration || "—"}
