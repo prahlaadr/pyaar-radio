@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildBPMAwareRandomQuery } from "@/lib/queries";
+import type { RadioArtist } from "@/lib/queries";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
 import { FilterPanel } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
@@ -23,6 +24,26 @@ const DEFAULT_FILTERS: ArtistFilters = {
 };
 
 const STORAGE_KEY = "pyaar-setlists";
+const PLAY_COUNTS_KEY = "pyaar-play-counts";
+
+interface PlayCounts {
+  tracks: Record<string, number>;
+  artists: Record<string, number>;
+}
+
+function incrementPlayCount(track: Track) {
+  try {
+    const raw = localStorage.getItem(PLAY_COUNTS_KEY);
+    const counts: PlayCounts = raw ? JSON.parse(raw) : { tracks: {}, artists: {} };
+    const trackKey = `${track.trackName}:::${track.artistNames}`;
+    counts.tracks[trackKey] = (counts.tracks[trackKey] || 0) + 1;
+    const primaryArtist = track.artistNames.split(";")[0].trim();
+    if (primaryArtist) {
+      counts.artists[primaryArtist] = (counts.artists[primaryArtist] || 0) + 1;
+    }
+    localStorage.setItem(PLAY_COUNTS_KEY, JSON.stringify(counts));
+  } catch {}
+}
 
 function loadSavedSetlists(): SavedSetlists {
   try {
@@ -233,37 +254,66 @@ export default function Home() {
     });
   }, []);
 
+  const rowToTrack = useCallback((r: {
+    trackName: string;
+    artistNames: string;
+    albumName: string;
+    genres: string | null;
+    tempo: number | null;
+    duration: string;
+    key: number | null;
+    popularity: number | null;
+    videoId: string;
+  }): Track => ({
+    trackName: r.trackName,
+    artistNames: r.artistNames,
+    albumName: r.albumName || "",
+    genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+    tempo: Number(r.tempo) || 0,
+    duration: r.duration || "",
+    key: Number(r.key) || 0,
+    popularity: Number(r.popularity) || 0,
+    videoId: r.videoId || "",
+  }), []);
+
   const playRandom = useCallback(async () => {
     if (artists.length === 0) return;
+
+    const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
+    const currentBPM = nowPlaying?.tempo || 0;
+
+    // BPM-aware selection: try ±10, ±20, ±30, then fully random
+    if (currentBPM > 0) {
+      for (const range of [10, 20, 30]) {
+        try {
+          const sql = buildBPMAwareRandomQuery(radioArtists, currentBPM, range);
+          const rows = await query<{
+            trackName: string; artistNames: string; albumName: string;
+            genres: string | null; tempo: number | null; duration: string;
+            key: number | null; popularity: number | null; videoId: string;
+          }>(sql);
+          if (rows.length > 0) {
+            setNowPlaying(rowToTrack(rows[0]));
+            return;
+          }
+        } catch {}
+      }
+    }
+
+    // Fallback: fully random from a random artist
     const randomArtist = artists[Math.floor(Math.random() * artists.length)];
     try {
       const sql = buildTracksQuery(randomArtist.artist, randomArtist.aliases);
       const rows = await query<{
-        trackName: string;
-        artistNames: string;
-        albumName: string;
-        genres: string | null;
-        tempo: number | null;
-        duration: string;
-        key: number | null;
-        popularity: number | null;
-        videoId: string;
+        trackName: string; artistNames: string; albumName: string;
+        genres: string | null; tempo: number | null; duration: string;
+        key: number | null; popularity: number | null; videoId: string;
       }>(sql);
       if (rows.length === 0) return;
       const randomTrack = rows[Math.floor(Math.random() * rows.length)];
-      setNowPlaying({
-        trackName: randomTrack.trackName,
-        artistNames: randomTrack.artistNames,
-        albumName: randomTrack.albumName || "",
-        genres: randomTrack.genres ? randomTrack.genres.split(",").map((g) => g.trim()) : [],
-        tempo: Number(randomTrack.tempo) || 0,
-        duration: randomTrack.duration || "",
-        key: Number(randomTrack.key) || 0,
-        popularity: Number(randomTrack.popularity) || 0,
-        videoId: randomTrack.videoId || "",
-      });
+      setNowPlaying(rowToTrack(randomTrack));
     } catch {}
-  }, [artists]);
+  }, [artists, nowPlaying, rowToTrack]);
 
   const handleRadioNext = useCallback(() => {
     if (radioMode) playRandom();

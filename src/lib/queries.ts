@@ -103,6 +103,64 @@ export function buildBatchTrackLookupQuery(pairs: { track: string; artist: strin
   `;
 }
 
+export interface RadioArtist {
+  artist: string;
+  aliases: string[];
+}
+
+export function buildBPMAwareRandomQuery(
+  artists: RadioArtist[],
+  currentBPM: number,
+  bpmRange: number,
+  compatibleKeys?: number[],
+  excludeTrackKeys?: string[],
+): string {
+  const artistConditions = artists.map((a) => {
+    const allNames = [a.artist, ...a.aliases];
+    return allNames.map((name) => {
+      const escaped = name.replace(/'/g, "''");
+      return `LOWER(TRIM(split_part("Artist Name(s)", ';', 1))) = LOWER('${escaped}') OR "Artist Name(s)" ILIKE '%${escaped}%'`;
+    }).join(" OR ");
+  }).map((c) => `(${c})`).join(" OR ");
+
+  const bpmLow = currentBPM - bpmRange;
+  const bpmHigh = currentBPM + bpmRange;
+
+  const conditions = [
+    `(${artistConditions})`,
+    `TRY_CAST(Tempo AS FLOAT) BETWEEN ${bpmLow} AND ${bpmHigh}`,
+  ];
+
+  if (compatibleKeys && compatibleKeys.length > 0) {
+    conditions.push(`TRY_CAST(Key AS INT) IN (${compatibleKeys.join(",")})`);
+  }
+
+  if (excludeTrackKeys && excludeTrackKeys.length > 0) {
+    const excludeConds = excludeTrackKeys.map((k) => {
+      const escaped = k.replace(/'/g, "''");
+      return `'${escaped}'`;
+    });
+    conditions.push(`(LOWER("Track Name") || ':::' || LOWER("Artist Name(s)")) NOT IN (${excludeConds.join(",")})`);
+  }
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId
+    FROM masterlist
+    WHERE ${conditions.join(" AND ")}
+    ORDER BY RANDOM()
+    LIMIT 1
+  `;
+}
+
 export function buildTracksQuery(artistName: string, aliases: string[]): string {
   const allNames = [artistName, ...aliases];
   const conditions = allNames.map((name) => {
