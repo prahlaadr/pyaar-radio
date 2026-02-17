@@ -98,8 +98,31 @@ export default function Home() {
   const [radioMode, setRadioMode] = useState(false);
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
+  const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
   const playerRef = useRef<YouTubePlayerHandle | null>(null);
   const playRandomRef = useRef<(() => void) | null>(null);
+
+  // Pick 5 random featured artists on first load
+  const featuredInitialized = useRef(false);
+  useEffect(() => {
+    if (featuredInitialized.current || allArtists.length === 0) return;
+    featuredInitialized.current = true;
+    const shuffled = [...allArtists].sort(() => Math.random() - 0.5);
+    setFeaturedArtists(shuffled.slice(0, 5));
+  }, [allArtists]);
+
+  // Are filters pristine? (no search, no filters applied)
+  const filtersActive = useMemo(() => {
+    return (
+      filters.search.length > 0 ||
+      filters.channels.length > 0 ||
+      filters.vibes.length > 0 ||
+      filters.samay !== null ||
+      filters.desi !== null ||
+      filters.bpmMin > 0 ||
+      filters.bpmMax < 300
+    );
+  }, [filters]);
 
   // Fuse.js: fuzzy search on artist list (client-side)
   const fuseIndex = useMemo(
@@ -816,6 +839,50 @@ export default function Home() {
               />
             ) : (
               <div className="flex-1 overflow-y-auto flex flex-col">
+                {/* Featured artists — visible only on cold start */}
+                {!filtersActive && featuredArtists.length > 0 && (
+                  <div className="border-b border-[#222]">
+                    <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
+                      <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                        Discover
+                      </span>
+                    </div>
+                    {featuredArtists.map((artist) => (
+                      <button
+                        key={artist.artist}
+                        onClick={() => handleSelectArtist(artist)}
+                        className="w-full text-left px-5 py-3 hover:bg-[#111] border-b border-[#151515] transition-colors group"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium group-hover:text-red-500 transition-colors">
+                            {artist.artist}
+                          </span>
+                          <span className="text-[10px] text-[#888] uppercase tracking-wider">
+                            {artist.channel}
+                          </span>
+                          {artist.desi === "Desi" && (
+                            <span className="text-[10px] text-red-600 uppercase tracking-wider">
+                              Desi
+                            </span>
+                          )}
+                          <span className="text-[10px] text-[#777] ml-auto tabular-nums">
+                            {artist.bpmLow}&ndash;{artist.bpmHigh}
+                          </span>
+                        </div>
+                        <div className="flex gap-2 mt-0.5">
+                          {artist.vibes.map((v) => (
+                            <span key={v} className="text-[10px] text-[#888]">
+                              {v}
+                            </span>
+                          ))}
+                          <span className="text-[10px] text-[#555]">&middot;</span>
+                          <span className="text-[10px] text-[#777]">{artist.samay}</span>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                )}
+
                 {searchTracks.length > 0 && (
                   <>
                     <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
@@ -865,10 +932,10 @@ export default function Home() {
                 )}
                 {artists.length > 0 && (
                   <>
-                    {searchTracks.length > 0 && (
+                    {(searchTracks.length > 0 || (!filtersActive && featuredArtists.length > 0)) && (
                       <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
                         <span className="text-[10px] text-[#555] uppercase tracking-wider">
-                          Artists ({artists.length})
+                          {searchTracks.length > 0 ? `Artists (${artists.length})` : "All Artists"}
                         </span>
                       </div>
                     )}
