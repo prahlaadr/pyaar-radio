@@ -1,14 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import type { SetlistTrack, Track } from "@/lib/types";
-
-const CAMELOT: Record<number, string> = {
-  0: "8B", 1: "3B", 2: "10B", 3: "5B", 4: "12B", 5: "7B",
-  6: "2B", 7: "9B", 8: "4B", 9: "11B", 10: "6B", 11: "1B",
-};
-
-function formatKey(key: number): string {
-  return CAMELOT[key] || "—";
-}
+import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 
 interface Props {
   tracks: SetlistTrack[];
@@ -190,9 +182,8 @@ export function SetlistPanel({
         <div className="flex-1 overflow-y-auto">
           {tracks.map((track, i) => {
             const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
-            return (
+            return (<React.Fragment key={track.id}>
             <div
-              key={track.id}
               className={`px-4 py-2 border-b border-[#111] flex items-center gap-2 group hover:bg-[#0a0a0a] cursor-pointer ${isPlaying ? "border-l-2 border-l-red-500" : ""}`}
               onDoubleClick={() => onRemove(track.id)}
             >
@@ -209,7 +200,7 @@ export function SetlistPanel({
                 {track.tempo > 0 ? Math.round(track.tempo) : "—"}
               </span>
               <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
-                {track.key > 0 ? formatKey(track.key) : "—"}
+                {track.key > 0 ? pitchToCamelot(track.key) : "—"}
               </span>
               <span className="text-[10px] text-[#777] w-10 text-right">
                 {track.duration || "—"}
@@ -237,7 +228,34 @@ export function SetlistPanel({
                 &times;
               </button>
             </div>
-            );
+            {i < tracks.length - 1 && (() => {
+              const next = tracks[i + 1];
+              const bpmDelta = track.tempo > 0 && next.tempo > 0 ? Math.round(next.tempo - track.tempo) : null;
+              const keyCompat = track.key > 0 && next.key > 0 ? getKeyCompatibility(track.key, next.key) : null;
+              const bpmColor = bpmDelta !== null
+                ? Math.abs(bpmDelta) <= 5 ? "text-green-500" : Math.abs(bpmDelta) <= 15 ? "text-yellow-500" : "text-red-500"
+                : "text-[#333]";
+              const keyDot = keyCompat === "perfect" || keyCompat === "harmonic"
+                ? "bg-green-500"
+                : keyCompat === "energy"
+                ? "bg-yellow-500"
+                : keyCompat === "incompatible"
+                ? "bg-red-500"
+                : null;
+              return (
+                <div className="flex items-center justify-center gap-2 py-0.5 border-b border-[#0a0a0a]">
+                  <div className="w-px h-2 bg-[#222]" />
+                  {bpmDelta !== null && (
+                    <span className={`text-[9px] tabular-nums font-mono ${bpmColor}`}>
+                      {bpmDelta > 0 ? `+${bpmDelta}` : bpmDelta}
+                    </span>
+                  )}
+                  {keyDot && <span className={`w-1.5 h-1.5 rounded-full ${keyDot}`} />}
+                  <div className="w-px h-2 bg-[#222]" />
+                </div>
+              );
+            })()}
+            </React.Fragment>);
           })}
         </div>
       )}
