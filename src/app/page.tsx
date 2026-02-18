@@ -974,10 +974,20 @@ export default function Home() {
                 {/* Featured artists — visible only on cold start */}
                 {!filtersActive && featuredArtists.length > 0 && (
                   <div className="border-b border-[#222]">
-                    <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
+                    <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
                       <span className="text-[10px] text-[#555] uppercase tracking-wider">
                         Discover
                       </span>
+                      <button
+                        onClick={() => {
+                          const shuffled = [...allArtists].sort(() => Math.random() - 0.5);
+                          setFeaturedArtists(shuffled.slice(0, 5));
+                        }}
+                        className="text-[10px] text-[#444] hover:text-white uppercase tracking-wider transition-colors"
+                        title="Shuffle"
+                      >
+                        &#8635;
+                      </button>
                     </div>
                     {featuredArtists.map((artist) => (
                       <button
