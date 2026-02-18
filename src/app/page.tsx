@@ -430,54 +430,85 @@ export default function Home() {
     soundcloudId: r.soundcloudId || "",
   }), []);
 
-  const playRandom = useCallback(async () => {
-    // Tamil mode: pick random from current tamilTracks
+  type TrackRow = {
+    trackName: string; artistNames: string; albumName: string;
+    genres: string | null; tempo: number | null; duration: string;
+    key: number | null; popularity: number | null; videoId: string;
+    soundcloudId: string | null;
+  };
+
+  const recentExcludeKeys = useMemo(() =>
+    recentlyPlayed.map((t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`),
+    [recentlyPlayed]
+  );
+
+  // Pure random — no BPM/key scoring, just surprise me
+  const playNext = useCallback(async () => {
     if (tamilMode) {
       if (tamilTracks.length === 0) return;
-      const recentKeys = new Set(
-        recentlyPlayed.map((t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
-      );
+      const recentSet = new Set(recentExcludeKeys);
       const candidates = tamilTracks.filter(
-        (t) => !recentKeys.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+        (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
       );
       const pool = candidates.length > 0 ? candidates : tamilTracks;
-      const pick = pool[Math.floor(Math.random() * pool.length)];
-      setNowPlaying(pick);
+      setNowPlaying(pool[Math.floor(Math.random() * pool.length)]);
       return;
     }
 
     if (artists.length === 0) return;
+    const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
 
-    type TrackRow = {
-      trackName: string; artistNames: string; albumName: string;
-      genres: string | null; tempo: number | null; duration: string;
-      key: number | null; popularity: number | null; videoId: string;
-      soundcloudId: string | null;
-    };
+    try {
+      const sql = buildScoredRandomQuery(radioArtists, 0, undefined, recentExcludeKeys);
+      const rows = await query<TrackRow>(sql);
+      if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
+    } catch {}
+  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks]);
 
+  // Radio next — BPM proximity + key compatibility scoring
+  const playRadio = useCallback(async () => {
+    if (tamilMode) {
+      if (tamilTracks.length === 0) return;
+      const currentBPM = nowPlaying?.tempo || 0;
+      const recentSet = new Set(recentExcludeKeys);
+      const candidates = tamilTracks.filter(
+        (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+      );
+      const pool = candidates.length > 0 ? candidates : tamilTracks;
+
+      if (currentBPM > 0) {
+        // Score by BPM proximity + randomness
+        const scored = pool.map((t) => ({
+          track: t,
+          score: Math.max(0, 30 - Math.abs((t.tempo || 0) - currentBPM)) + Math.random() * 15,
+        }));
+        scored.sort((a, b) => b.score - a.score);
+        setNowPlaying(scored[0].track);
+      } else {
+        setNowPlaying(pool[Math.floor(Math.random() * pool.length)]);
+      }
+      return;
+    }
+
+    if (artists.length === 0) return;
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
     const currentBPM = nowPlaying?.tempo || 0;
     const currentKey = nowPlaying?.key;
     const compatKeys = currentKey != null && currentKey >= 0 ? getCompatibleKeys(currentKey) : undefined;
-    const excludeKeys = recentlyPlayed.map(
-      (t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`
-    );
 
     try {
-      const sql = buildScoredRandomQuery(radioArtists, currentBPM, compatKeys, excludeKeys);
+      const sql = buildScoredRandomQuery(radioArtists, currentBPM, compatKeys, recentExcludeKeys);
       const rows = await query<TrackRow>(sql);
-      if (rows.length > 0) {
-        setNowPlaying(rowToTrack(rows[0]));
-      }
+      if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, nowPlaying, recentlyPlayed, rowToTrack, tamilMode, tamilTracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks]);
 
-  // Keep ref in sync for hotkeys
-  playRandomRef.current = playRandom;
+  // Keep ref in sync for hotkeys — next uses radio when radio is on
+  playRandomRef.current = radioMode ? playRadio : playNext;
 
   const handleRadioNext = useCallback(() => {
-    if (radioMode) playRandom();
-  }, [radioMode, playRandom]);
+    if (radioMode) playRadio();
+  }, [radioMode, playRadio]);
 
   const handleImport = useCallback(async (lines: { track: string; artist: string }[]) => {
     try {
@@ -770,7 +801,7 @@ export default function Home() {
             onClick={() => { handleSelectArtist(null); setTab("browse"); }}
           >Pyaar Radio</h1>
           <button
-            onClick={() => { playRandom(); setRadioMode(true); }}
+            onClick={() => { playRadio(); setRadioMode(true); }}
             disabled={artists.length === 0}
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
               radioMode
@@ -1214,7 +1245,7 @@ export default function Home() {
         radioMode={radioMode}
         onToggleRadio={() => setRadioMode((r) => !r)}
         onEnded={handleRadioNext}
-        onShuffle={playRandom}
+        onShuffle={radioMode ? playRadio : playNext}
         onPrev={recentlyPlayed.length > 1 ? () => {
           const idx = recentlyPlayed.findIndex(
             (t) => t.trackName === nowPlaying?.trackName && t.artistNames === nowPlaying?.artistNames
