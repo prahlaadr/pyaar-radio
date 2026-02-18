@@ -1215,6 +1215,13 @@ export default function Home() {
         onToggleRadio={() => setRadioMode((r) => !r)}
         onEnded={handleRadioNext}
         onShuffle={playRandom}
+        onPrev={recentlyPlayed.length > 1 ? () => {
+          const idx = recentlyPlayed.findIndex(
+            (t) => t.trackName === nowPlaying?.trackName && t.artistNames === nowPlaying?.artistNames
+          );
+          const prev = recentlyPlayed[idx + 1] || recentlyPlayed[1];
+          if (prev) setNowPlaying(prev);
+        } : undefined}
         onAddToSetlist={addToSetlist}
       />
     </div>

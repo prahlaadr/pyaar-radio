@@ -75,6 +75,7 @@ interface Props {
   onToggleRadio?: () => void;
   onEnded?: () => void;
   onShuffle?: () => void;
+  onPrev?: () => void;
   onAddToSetlist?: (track: Track) => void;
 }
 
@@ -203,7 +204,7 @@ function openYouTubeSearch(trackName: string, artistName: string) {
   }, 500);
 }
 
-export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }, ref) {
+export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onPrev, onAddToSetlist }, ref) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const scIframeRef = useRef<HTMLIFrameElement>(null);
@@ -514,6 +515,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       <div className="hidden md:flex items-center px-5 py-1.5 gap-3">
         {/* Thumbnail placeholder */}
         <div className="w-12 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
+        {onPrev && (
+          <button onClick={onPrev} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Previous">
+            &#9664;&#9664;
+          </button>
+        )}
         {searching ? (
           <div className="w-4 flex justify-center shrink-0">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
@@ -532,6 +538,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             className="text-white hover:text-red-500 transition-colors text-sm w-5 text-center shrink-0"
           >
             {playing ? "\u275A\u275A" : "\u25B6"}
+          </button>
+        )}
+        {onShuffle && (
+          <button onClick={onShuffle} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Next">
+            &#9654;&#9654;
           </button>
         )}
         <span className="text-[10px] text-[#555] tabular-nums font-mono w-[70px] shrink-0">
@@ -559,11 +570,6 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             title="Add to setlist"
           >
             {justAdded ? "\u2713" : "+"}
-          </button>
-        )}
-        {onShuffle && (
-          <button onClick={onShuffle} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Shuffle">
-            &#8645;
           </button>
         )}
         {onToggleRadio && (
@@ -595,8 +601,17 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
         {/* Row 2: controls */}
         <div className="flex items-center justify-between px-3 pb-2 pt-1">
-          {/* Left: play/pause + shuffle */}
+          {/* Left: prev + play/pause + next */}
           <div className="flex items-center gap-1">
+            {onPrev && (
+              <button
+                onClick={onPrev}
+                className="text-[#666] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
+                title="Previous"
+              >
+                &#9664;&#9664;
+              </button>
+            )}
             {searching ? (
               <div className="w-11 h-11 flex items-center justify-center">
                 <div className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse" />
@@ -619,10 +634,10 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             {onShuffle && (
               <button
                 onClick={onShuffle}
-                className="text-[#666] hover:text-white transition-colors text-lg w-11 h-11 flex items-center justify-center"
-                title="Shuffle"
+                className="text-[#666] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
+                title="Next"
               >
-                &#8645;
+                &#9654;&#9654;
               </button>
             )}
           </div>
