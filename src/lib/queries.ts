@@ -200,6 +200,37 @@ export function buildTagRadioQuery(tags: string[]): string {
   `;
 }
 
+export function buildTamilQuery(search: string, bpmMin: number, bpmMax: number): string {
+  const conditions: string[] = [];
+
+  if (search) {
+    const s = search.replace(/'/g, "''");
+    conditions.push(`("Track Name" ILIKE '%${s}%' OR Artist ILIKE '%${s}%' OR Album ILIKE '%${s}%')`);
+  }
+
+  if (bpmMin > 0) {
+    conditions.push(`TRY_CAST(Tempo AS FLOAT) >= ${bpmMin}`);
+  }
+  if (bpmMax < 300) {
+    conditions.push(`TRY_CAST(Tempo AS FLOAT) <= ${bpmMax}`);
+  }
+
+  const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      Artist as artistNames,
+      Album as albumName,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      "Video ID" as videoId
+    FROM tamil
+    ${where}
+    ORDER BY Artist, "Track Name"
+  `;
+}
+
 export function buildTracksQuery(artistName: string, aliases: string[]): string {
   const allNames = [artistName, ...aliases];
   const conditions = allNames.map((name) => {

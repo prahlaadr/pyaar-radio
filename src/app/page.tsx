@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
@@ -96,6 +96,11 @@ export default function Home() {
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
   const [radioMode, setRadioMode] = useState(false);
+  const [tamilMode, setTamilMode] = useState(false);
+  const [tamilTracks, setTamilTracks] = useState<Track[]>([]);
+  const [tamilSearch, setTamilSearch] = useState("");
+  const [tamilBpmMin, setTamilBpmMin] = useState(0);
+  const [tamilBpmMax, setTamilBpmMax] = useState(300);
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
@@ -302,6 +307,40 @@ export default function Home() {
       }
     })();
   }, [filters.search]);
+
+  // Tamil mode: query tamil table
+  useEffect(() => {
+    if (!tamilMode) return;
+    (async () => {
+      try {
+        const sql = buildTamilQuery(tamilSearch, tamilBpmMin, tamilBpmMax);
+        const rows = await query<{
+          trackName: string;
+          artistNames: string;
+          albumName: string;
+          tempo: number | null;
+          duration: string;
+          videoId: string;
+        }>(sql);
+        setTamilTracks(
+          rows.map((r) => ({
+            trackName: r.trackName || "",
+            artistNames: r.artistNames || "",
+            albumName: r.albumName || "",
+            genres: [],
+            tempo: Number(r.tempo) || 0,
+            duration: r.duration || "",
+            key: 0,
+            popularity: 0,
+            videoId: r.videoId || "",
+            soundcloudId: "",
+          }))
+        );
+      } catch {
+        setTamilTracks([]);
+      }
+    })();
+  }, [tamilMode, tamilSearch, tamilBpmMin, tamilBpmMax]);
 
   const handleSelectArtist = useCallback(async (artist: Artist | null) => {
     setSelectedArtist(artist);
@@ -833,7 +872,19 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <FilterPanel filters={filters} onChange={setFilters} artistCount={artists.length} />
+            <FilterPanel
+              filters={filters}
+              onChange={setFilters}
+              artistCount={artists.length}
+              tamilMode={tamilMode}
+              onTamilToggle={() => setTamilMode((v) => !v)}
+              tamilSearch={tamilSearch}
+              onTamilSearchChange={setTamilSearch}
+              tamilBpmMin={tamilBpmMin}
+              tamilBpmMax={tamilBpmMax}
+              onTamilBpmChange={(min, max) => { setTamilBpmMin(min); setTamilBpmMax(max); }}
+              tamilTrackCount={tamilTracks.length}
+            />
 
             {loading ? (
               <div className="flex-1 flex items-center justify-center">
@@ -841,6 +892,57 @@ export default function Home() {
                   <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse mx-auto mb-3" />
                   <p className="text-[#666] text-xs uppercase tracking-widest">Loading</p>
                 </div>
+              </div>
+            ) : tamilMode ? (
+              <div className="flex-1 overflow-y-auto">
+                {tamilTracks.length === 0 ? (
+                  <div className="flex-1 flex items-center justify-center py-20">
+                    <p className="text-[#444] text-xs uppercase tracking-widest">
+                      {tamilSearch ? "No results" : "No Tamil tracks loaded"}
+                    </p>
+                  </div>
+                ) : (
+                  tamilTracks.map((track, i) => {
+                    const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+                    return (
+                      <div
+                        key={`tamil-${track.trackName}-${i}`}
+                        className={`px-3 md:px-5 py-2 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
+                          isPlaying ? "bg-amber-950/30" : ""
+                        }`}
+                        onDoubleClick={() => addToSetlist(track)}
+                      >
+                        <button
+                          onClick={() => setNowPlaying(track)}
+                          className="text-[#555] hover:text-amber-400 transition-colors text-[10px]"
+                          title="Play"
+                        >
+                          &#9654;
+                        </button>
+                        <div className="flex-1 min-w-0">
+                          <div className={`text-xs truncate transition-colors ${
+                            isPlaying ? "text-amber-400" : "text-[#ccc] group-hover:text-white"
+                          }`}>
+                            {track.trackName}
+                          </div>
+                          <div className="text-[10px] text-[#555] truncate">
+                            {track.artistNames}{track.albumName ? ` · ${track.albumName}` : ""}
+                          </div>
+                        </div>
+                        <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                          {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+                        </span>
+                        <button
+                          onClick={() => addToSetlist(track)}
+                          className="text-[#333] hover:text-amber-500 transition-colors text-sm font-bold"
+                          title="Add to setlist"
+                        >
+                          +
+                        </button>
+                      </div>
+                    );
+                  })
+                )}
               </div>
             ) : selectedArtist ? (
               <TrackList

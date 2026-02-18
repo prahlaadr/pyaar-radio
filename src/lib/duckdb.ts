@@ -24,16 +24,19 @@ async function init() {
   await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
 
   // Fetch and register CSVs
-  const [artistsResp, masterlistResp] = await Promise.all([
+  const [artistsResp, masterlistResp, tamilResp] = await Promise.all([
     fetch("/data/artists.csv"),
     fetch("/data/masterlist.csv"),
+    fetch("/data/tamil.csv"),
   ]);
 
   const artistsBuf = new Uint8Array(await artistsResp.arrayBuffer());
   const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
+  const tamilBuf = new Uint8Array(await tamilResp.arrayBuffer());
 
   await db.registerFileBuffer("artists.csv", artistsBuf);
   await db.registerFileBuffer("masterlist.csv", masterlistBuf);
+  await db.registerFileBuffer("tamil.csv", tamilBuf);
 
   conn = await db.connect();
 
@@ -42,6 +45,9 @@ async function init() {
   `);
   await conn.query(`
     CREATE TABLE masterlist AS SELECT * FROM read_csv_auto('masterlist.csv', all_varchar=true)
+  `);
+  await conn.query(`
+    CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)
   `);
 }
 
