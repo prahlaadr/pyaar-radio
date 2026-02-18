@@ -470,68 +470,72 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
   const progressBarRef = useRef<HTMLDivElement>(null);
   const [scrubbing, setScrubbing] = useState(false);
+  const durationRef = useRef(duration);
+  durationRef.current = duration;
 
-  const seekToFraction = useCallback((clientX: number) => {
-    if (duration <= 0 || !progressBarRef.current) return;
+  const calcSeekTime = (clientX: number): number | null => {
+    const d = durationRef.current;
+    if (d <= 0 || !progressBarRef.current) return null;
     const rect = progressBarRef.current.getBoundingClientRect();
     const fraction = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
-    const seekTime = fraction * duration;
-    setCurrentTime(seekTime);
-    return seekTime;
-  }, [duration]);
+    return fraction * d;
+  };
 
-  const commitSeek = useCallback((seekTime: number) => {
+  const commitSeek = (seekTime: number) => {
     if (activeSource.current === "soundcloud") {
       scWidgetRef.current?.seekTo(seekTime * 1000);
     } else {
       playerRef.current?.seekTo(seekTime, true);
     }
-  }, []);
+  };
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
-    const seekTime = seekToFraction(e.clientX);
-    if (seekTime != null) commitSeek(seekTime);
+    if (scrubbing) return; // handled by mouseup
+    const t = calcSeekTime(e.clientX);
+    if (t != null) { setCurrentTime(t); commitSeek(t); }
   };
 
   // Mouse drag scrubbing
-  const handleMouseDown = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
-    if (duration <= 0) return;
+  const handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    if (durationRef.current <= 0) return;
     setScrubbing(true);
-    seekToFraction(e.clientX);
+    const t = calcSeekTime(e.clientX);
+    if (t != null) setCurrentTime(t);
 
-    const handleMouseMove = (ev: MouseEvent) => {
-      seekToFraction(ev.clientX);
+    const onMove = (ev: MouseEvent) => {
+      const t = calcSeekTime(ev.clientX);
+      if (t != null) setCurrentTime(t);
     };
-    const handleMouseUp = (ev: MouseEvent) => {
+    const onUp = (ev: MouseEvent) => {
       setScrubbing(false);
-      const seekTime = seekToFraction(ev.clientX);
-      if (seekTime != null) commitSeek(seekTime);
-      window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("mouseup", handleMouseUp);
+      const t = calcSeekTime(ev.clientX);
+      if (t != null) { setCurrentTime(t); commitSeek(t); }
+      window.removeEventListener("mousemove", onMove);
+      window.removeEventListener("mouseup", onUp);
     };
-    window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("mouseup", handleMouseUp);
-  }, [duration, seekToFraction, commitSeek]);
+    window.addEventListener("mousemove", onMove);
+    window.addEventListener("mouseup", onUp);
+  };
 
   // Touch drag scrubbing
-  const handleTouchStart = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
-    if (duration <= 0) return;
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    if (durationRef.current <= 0) return;
     setScrubbing(true);
-    seekToFraction(e.touches[0].clientX);
-  }, [duration, seekToFraction]);
+    const t = calcSeekTime(e.touches[0].clientX);
+    if (t != null) setCurrentTime(t);
+  };
 
-  const handleTouchMove = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
-    if (!scrubbing) return;
-    seekToFraction(e.touches[0].clientX);
-  }, [scrubbing, seekToFraction]);
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    const t = calcSeekTime(e.touches[0].clientX);
+    if (t != null) setCurrentTime(t);
+  };
 
-  const handleTouchEnd = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
-    if (!scrubbing) return;
+  const handleTouchEnd = (e: React.TouchEvent<HTMLDivElement>) => {
     setScrubbing(false);
-    const touch = e.changedTouches[0];
-    const seekTime = seekToFraction(touch.clientX);
-    if (seekTime != null) commitSeek(seekTime);
-  }, [scrubbing, seekToFraction, commitSeek]);
+    const t = calcSeekTime(e.changedTouches[0].clientX);
+    if (t != null) { setCurrentTime(t); commitSeek(t); }
+  };
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
 
