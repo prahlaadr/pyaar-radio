@@ -124,16 +124,17 @@ function ensureSCAPI(cb: () => void) {
   }
 }
 
-// In-memory cache: "track - artist" → videoId
-const searchCache = new Map<string, string>();
+// In-memory cache: "track - artist" → videoId or soundcloudId
+const ytSearchCache = new Map<string, string>();
+const scSearchCache = new Map<string, string>();
 
 async function searchVideoId(trackName: string, artistName: string): Promise<string | null> {
   const artist = artistName.split(";")[0].trim();
   const q = `${trackName} ${artist}`;
   const cacheKey = q.toLowerCase();
 
-  if (searchCache.has(cacheKey)) {
-    return searchCache.get(cacheKey)!;
+  if (ytSearchCache.has(cacheKey)) {
+    return ytSearchCache.get(cacheKey)!;
   }
 
   try {
@@ -141,8 +142,31 @@ async function searchVideoId(trackName: string, artistName: string): Promise<str
     if (!res.ok) return null;
     const data = await res.json();
     if (data.videoId) {
-      searchCache.set(cacheKey, data.videoId);
+      ytSearchCache.set(cacheKey, data.videoId);
       return data.videoId;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+async function searchSoundCloudId(trackName: string, artistName: string): Promise<string | null> {
+  const artist = artistName.split(";")[0].trim();
+  const q = `${trackName} ${artist}`;
+  const cacheKey = q.toLowerCase();
+
+  if (scSearchCache.has(cacheKey)) {
+    return scSearchCache.get(cacheKey)!;
+  }
+
+  try {
+    const res = await fetch(`/api/search-sc?q=${encodeURIComponent(q)}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (data.soundcloudId) {
+      scSearchCache.set(cacheKey, data.soundcloudId);
+      return data.soundcloudId;
     }
     return null;
   } catch {
@@ -197,6 +221,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const [error, setError] = useState<string | null>(null);
   const [justAdded, setJustAdded] = useState(false);
   const [volume, setVolume] = useState(80);
+  const [isSC, setIsSC] = useState(false);
   const volumeInitRef = useRef(false);
 
   useImperativeHandle(ref, () => ({
@@ -285,6 +310,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setDuration(0);
     setPlaying(true);
     setError(null);
+    setIsSC(false);
 
     // Player already exists — load new video
     if (playerRef.current) {
@@ -328,6 +354,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setDuration(0);
     setPlaying(true);
     setError(null);
+    setIsSC(true);
 
     ensureSCAPI(() => {
       if (!scIframeRef.current) return;
@@ -360,7 +387,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const playTrack = useCallback(async (t: Track) => {
     setError(null);
 
-    // If track already has a videoId, use it directly
+    // 1. Track has a videoId → YouTube
     if (t.videoId) {
       stopSoundCloud();
       activeSource.current = "youtube";
@@ -368,18 +395,31 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       return;
     }
 
-    // Search for video via YouTube innertube API
+    // 2. Search YouTube
     setSearching(true);
     const vid = await searchVideoId(t.trackName, t.artistNames);
-    setSearching(false);
 
     if (vid) {
+      setSearching(false);
       stopSoundCloud();
       activeSource.current = "youtube";
       playVideoId(vid);
-    } else if (t.soundcloudId) {
-      // Fallback to SoundCloud
+      return;
+    }
+
+    // 3. Known SoundCloud ID → play directly
+    if (t.soundcloudId) {
+      setSearching(false);
       playSoundCloud(t.soundcloudId);
+      return;
+    }
+
+    // 4. Search SoundCloud as final fallback
+    const scId = await searchSoundCloudId(t.trackName, t.artistNames);
+    setSearching(false);
+
+    if (scId) {
+      playSoundCloud(scId);
     } else {
       setError("Not found");
       setPlaying(false);
@@ -450,7 +490,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         onClick={handleSeek}
       >
         <div
-          className="h-full bg-red-600 group-hover:bg-red-500 transition-colors relative"
+          className={`h-full transition-colors relative ${isSC ? "bg-orange-500 group-hover:bg-orange-400" : "bg-red-600 group-hover:bg-red-500"}`}
           style={{ width: `${progress}%` }}
         >
           <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-white opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -510,6 +550,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
           <span className="text-[10px] text-[#444]">&mdash;</span>
           <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
+          {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider shrink-0">SC</span>}
         </div>
         {onAddToSetlist && track && (
           <button
@@ -545,7 +586,10 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <div className="w-10 h-10 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
           <div className="flex-1 min-w-0">
             <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
-            <div className="text-xs text-[#666] truncate">{track.artistNames.split(";")[0]}</div>
+            <div className="text-xs text-[#666] truncate flex items-center gap-1">
+              {track.artistNames.split(";")[0]}
+              {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
+            </div>
           </div>
         </div>
 
