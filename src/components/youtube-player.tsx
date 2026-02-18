@@ -468,33 +468,90 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     }
   };
 
-  const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (duration <= 0) return;
-    const rect = e.currentTarget.getBoundingClientRect();
-    const fraction = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+  const progressBarRef = useRef<HTMLDivElement>(null);
+  const [scrubbing, setScrubbing] = useState(false);
+
+  const seekToFraction = useCallback((clientX: number) => {
+    if (duration <= 0 || !progressBarRef.current) return;
+    const rect = progressBarRef.current.getBoundingClientRect();
+    const fraction = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
     const seekTime = fraction * duration;
+    setCurrentTime(seekTime);
+    return seekTime;
+  }, [duration]);
+
+  const commitSeek = useCallback((seekTime: number) => {
     if (activeSource.current === "soundcloud") {
       scWidgetRef.current?.seekTo(seekTime * 1000);
     } else {
       playerRef.current?.seekTo(seekTime, true);
     }
-    setCurrentTime(seekTime);
+  }, []);
+
+  const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
+    const seekTime = seekToFraction(e.clientX);
+    if (seekTime != null) commitSeek(seekTime);
   };
+
+  // Mouse drag scrubbing
+  const handleMouseDown = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    if (duration <= 0) return;
+    setScrubbing(true);
+    seekToFraction(e.clientX);
+
+    const handleMouseMove = (ev: MouseEvent) => {
+      seekToFraction(ev.clientX);
+    };
+    const handleMouseUp = (ev: MouseEvent) => {
+      setScrubbing(false);
+      const seekTime = seekToFraction(ev.clientX);
+      if (seekTime != null) commitSeek(seekTime);
+      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mouseup", handleMouseUp);
+    };
+    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mouseup", handleMouseUp);
+  }, [duration, seekToFraction, commitSeek]);
+
+  // Touch drag scrubbing
+  const handleTouchStart = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
+    if (duration <= 0) return;
+    setScrubbing(true);
+    seekToFraction(e.touches[0].clientX);
+  }, [duration, seekToFraction]);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
+    if (!scrubbing) return;
+    seekToFraction(e.touches[0].clientX);
+  }, [scrubbing, seekToFraction]);
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent<HTMLDivElement>) => {
+    if (!scrubbing) return;
+    setScrubbing(false);
+    const touch = e.changedTouches[0];
+    const seekTime = seekToFraction(touch.clientX);
+    if (seekTime != null) commitSeek(seekTime);
+  }, [scrubbing, seekToFraction, commitSeek]);
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-[#0a0a0a] border-t border-[#222] z-40">
-      {/* Progress bar — taller touch target on mobile */}
+      {/* Progress bar — taller touch target on mobile, draggable */}
       <div
-        className="h-2 md:h-1 bg-[#111] cursor-pointer group"
+        ref={progressBarRef}
+        className={`h-3 md:h-1.5 bg-[#111] cursor-pointer group ${scrubbing ? "h-4 md:h-2" : ""}`}
         onClick={handleSeek}
+        onMouseDown={handleMouseDown}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
       >
         <div
-          className={`h-full transition-colors relative ${isSC ? "bg-orange-500 group-hover:bg-orange-400" : "bg-red-600 group-hover:bg-red-500"}`}
+          className={`h-full relative ${scrubbing ? "" : "transition-colors"} ${isSC ? "bg-orange-500 group-hover:bg-orange-400" : "bg-red-600 group-hover:bg-red-500"}`}
           style={{ width: `${progress}%` }}
         >
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-white opacity-0 group-hover:opacity-100 transition-opacity" />
+          <div className={`absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-white transition-opacity ${scrubbing ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`} />
         </div>
       </div>
 
