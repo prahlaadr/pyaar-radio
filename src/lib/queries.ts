@@ -236,7 +236,7 @@ export function buildTracksQuery(artistName: string, aliases: string[]): string 
   const conditions = allNames.map((name) => {
     const escaped = name.replace(/'/g, "''");
     return `LOWER(TRIM(split_part("Artist Name(s)", ';', 1))) = LOWER('${escaped}')
-      OR "Artist Name(s)" ILIKE '%${escaped}%'`;
+      OR ';' || LOWER("Artist Name(s)") || ';' LIKE '%;${escaped.toLowerCase()};%'`;
   });
 
   return `
