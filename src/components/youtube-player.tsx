@@ -7,6 +7,29 @@ export interface YouTubePlayerHandle {
   toggle: () => void;
 }
 
+interface SCWidget {
+  bind: (event: string, cb: (data?: Record<string, number>) => void) => void;
+  unbind: (event: string) => void;
+  play: () => void;
+  pause: () => void;
+  seekTo: (ms: number) => void;
+  setVolume: (vol: number) => void;
+  getDuration: (cb: (ms: number) => void) => void;
+  getPosition: (cb: (ms: number) => void) => void;
+  isPaused: (cb: (paused: boolean) => void) => void;
+}
+
+interface SCWidgetAPI {
+  (iframe: HTMLIFrameElement): SCWidget;
+  Events: {
+    PLAY: string;
+    PAUSE: string;
+    FINISH: string;
+    PLAY_PROGRESS: string;
+    READY: string;
+  };
+}
+
 declare global {
   interface Window {
     YT: {
@@ -23,6 +46,7 @@ declare global {
       PlayerState: { PLAYING: number; PAUSED: number; ENDED: number; BUFFERING: number };
     };
     onYouTubeIframeAPIReady: () => void;
+    SC: { Widget: SCWidgetAPI };
   }
 }
 
@@ -74,6 +98,29 @@ function ensureAPI(cb: () => void) {
       for (const fn of readyCallbacks) fn();
       readyCallbacks.length = 0;
     };
+  }
+}
+
+let scApiLoaded = false;
+let scApiReady = false;
+const scReadyCallbacks: (() => void)[] = [];
+
+function ensureSCAPI(cb: () => void) {
+  if (scApiReady) {
+    cb();
+    return;
+  }
+  scReadyCallbacks.push(cb);
+  if (!scApiLoaded) {
+    scApiLoaded = true;
+    const tag = document.createElement("script");
+    tag.src = "https://w.soundcloud.com/player/api.js";
+    tag.onload = () => {
+      scApiReady = true;
+      for (const fn of scReadyCallbacks) fn();
+      scReadyCallbacks.length = 0;
+    };
+    document.head.appendChild(tag);
   }
 }
 
@@ -135,6 +182,9 @@ function openYouTubeSearch(trackName: string, artistName: string) {
 export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onAddToSetlist }, ref) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const scIframeRef = useRef<HTMLIFrameElement>(null);
+  const scWidgetRef = useRef<SCWidget | null>(null);
+  const activeSource = useRef<"youtube" | "soundcloud" | null>(null);
   const currentVideoId = useRef<string | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const onEndedRef = useRef(onEnded);
@@ -151,10 +201,17 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
   useImperativeHandle(ref, () => ({
     toggle: () => {
-      const p = playerRef.current;
-      if (!p) return;
-      if (playing) p.pauseVideo();
-      else p.playVideo();
+      if (activeSource.current === "soundcloud") {
+        const w = scWidgetRef.current;
+        if (!w) return;
+        if (playing) w.pause();
+        else w.play();
+      } else {
+        const p = playerRef.current;
+        if (!p) return;
+        if (playing) p.pauseVideo();
+        else p.playVideo();
+      }
     },
   }), [playing]);
 
@@ -169,11 +226,17 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const handleVolumeChange = useCallback((newVolume: number) => {
     setVolume(newVolume);
     try { localStorage.setItem(VOLUME_KEY, String(newVolume)); } catch {}
-    try { playerRef.current?.setVolume(newVolume); } catch {}
+    if (activeSource.current === "soundcloud") {
+      try { scWidgetRef.current?.setVolume(newVolume / 100); } catch {}
+    } else {
+      try { playerRef.current?.setVolume(newVolume); } catch {}
+    }
   }, []);
 
   const startTracking = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
+    // SC tracks time via PLAY_PROGRESS events — no polling needed
+    if (activeSource.current === "soundcloud") return;
     intervalRef.current = setInterval(() => {
       const p = playerRef.current;
       if (!p) return;
@@ -250,11 +313,57 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     });
   }, [onStateChange]);
 
+  const stopSoundCloud = useCallback(() => {
+    try { scWidgetRef.current?.pause(); } catch {}
+    if (scIframeRef.current) scIframeRef.current.src = "";
+    scWidgetRef.current = null;
+  }, []);
+
+  const playSoundCloud = useCallback((scId: string) => {
+    // Pause YouTube if active
+    try { playerRef.current?.pauseVideo(); } catch {}
+    activeSource.current = "soundcloud";
+    currentVideoId.current = null;
+    setCurrentTime(0);
+    setDuration(0);
+    setPlaying(true);
+    setError(null);
+
+    ensureSCAPI(() => {
+      if (!scIframeRef.current) return;
+      const url = `https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F${scId}&auto_play=true&show_artwork=false&color=ff0000`;
+      scIframeRef.current.src = url;
+
+      const widget = window.SC.Widget(scIframeRef.current);
+      scWidgetRef.current = widget;
+
+      widget.bind(window.SC.Widget.Events.READY, () => {
+        widget.setVolume(getStoredVolume() / 100);
+        widget.getDuration((ms) => setDuration(ms / 1000));
+      });
+      widget.bind(window.SC.Widget.Events.PLAY, () => setPlaying(true));
+      widget.bind(window.SC.Widget.Events.PAUSE, () => setPlaying(false));
+      widget.bind(window.SC.Widget.Events.FINISH, () => {
+        stopTracking();
+        onEndedRef.current?.();
+      });
+      widget.bind(window.SC.Widget.Events.PLAY_PROGRESS, (data) => {
+        if (data?.currentPosition != null) {
+          setCurrentTime(data.currentPosition / 1000);
+        }
+      });
+    });
+
+    startTracking();
+  }, [startTracking, stopTracking]);
+
   const playTrack = useCallback(async (t: Track) => {
     setError(null);
 
     // If track already has a videoId, use it directly
     if (t.videoId) {
+      stopSoundCloud();
+      activeSource.current = "youtube";
       playVideoId(t.videoId);
       return;
     }
@@ -265,12 +374,17 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setSearching(false);
 
     if (vid) {
+      stopSoundCloud();
+      activeSource.current = "youtube";
       playVideoId(vid);
+    } else if (t.soundcloudId) {
+      // Fallback to SoundCloud
+      playSoundCloud(t.soundcloudId);
     } else {
       setError("Not found");
       setPlaying(false);
     }
-  }, [playVideoId]);
+  }, [playVideoId, playSoundCloud, stopSoundCloud]);
 
   useEffect(() => {
     if (!track) return;
@@ -282,12 +396,15 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       stopTracking();
       playerRef.current?.destroy();
       playerRef.current = null;
+      stopSoundCloud();
     };
-  }, [stopTracking]);
+  }, [stopTracking, stopSoundCloud]);
 
   const handleClose = () => {
     stopTracking();
     playerRef.current?.pauseVideo();
+    stopSoundCloud();
+    activeSource.current = null;
     currentVideoId.current = null;
     setError(null);
     setSearching(false);
@@ -297,22 +414,29 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   if (!track) return null;
 
   const handlePlayPause = () => {
-    const p = playerRef.current;
-    if (!p) return;
-    if (playing) {
-      p.pauseVideo();
+    if (activeSource.current === "soundcloud") {
+      const w = scWidgetRef.current;
+      if (!w) return;
+      if (playing) w.pause();
+      else w.play();
     } else {
-      p.playVideo();
+      const p = playerRef.current;
+      if (!p) return;
+      if (playing) p.pauseVideo();
+      else p.playVideo();
     }
   };
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
-    const p = playerRef.current;
-    if (!p || duration <= 0) return;
+    if (duration <= 0) return;
     const rect = e.currentTarget.getBoundingClientRect();
     const fraction = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
     const seekTime = fraction * duration;
-    p.seekTo(seekTime, true);
+    if (activeSource.current === "soundcloud") {
+      scWidgetRef.current?.seekTo(seekTime * 1000);
+    } else {
+      playerRef.current?.seekTo(seekTime, true);
+    }
     setCurrentTime(seekTime);
   };
 
@@ -337,6 +461,14 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       <div className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none">
         <div ref={containerRef} className="w-full h-full" />
       </div>
+      {/* Hidden SoundCloud widget iframe */}
+      <iframe
+        ref={scIframeRef}
+        id="sc-widget"
+        src=""
+        className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
+        allow="autoplay"
+      />
 
       {/* === Desktop: single row === */}
       <div className="hidden md:flex items-center px-5 py-1.5 gap-3">

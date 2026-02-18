@@ -281,6 +281,7 @@ export default function Home() {
           key: number | null;
           popularity: number | null;
           videoId: string;
+          soundcloudId: string | null;
         }>(trackSql);
         setSearchTracks(
           trackRows.map((r) => ({
@@ -293,6 +294,7 @@ export default function Home() {
             key: Number(r.key) || 0,
             popularity: Number(r.popularity) || 0,
             videoId: r.videoId || "",
+            soundcloudId: r.soundcloudId || "",
           }))
         );
       } catch {
@@ -320,6 +322,7 @@ export default function Home() {
         key: number | null;
         popularity: number | null;
         videoId: string;
+        soundcloudId: string | null;
       }>(sql);
 
       setTracks(
@@ -333,6 +336,7 @@ export default function Home() {
           key: Number(r.key) || 0,
           popularity: Number(r.popularity) || 0,
           videoId: r.videoId || "",
+          soundcloudId: r.soundcloudId || "",
         }))
       );
     } catch {
@@ -373,6 +377,7 @@ export default function Home() {
     key: number | null;
     popularity: number | null;
     videoId: string;
+    soundcloudId: string | null;
   }): Track => ({
     trackName: r.trackName,
     artistNames: r.artistNames,
@@ -383,6 +388,7 @@ export default function Home() {
     key: Number(r.key) || 0,
     popularity: Number(r.popularity) || 0,
     videoId: r.videoId || "",
+    soundcloudId: r.soundcloudId || "",
   }), []);
 
   const playRandom = useCallback(async () => {
@@ -392,6 +398,7 @@ export default function Home() {
       trackName: string; artistNames: string; albumName: string;
       genres: string | null; tempo: number | null; duration: string;
       key: number | null; popularity: number | null; videoId: string;
+      soundcloudId: string | null;
     };
 
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
@@ -431,6 +438,7 @@ export default function Home() {
         key: number | null;
         popularity: number | null;
         videoId: string;
+        soundcloudId: string | null;
       }>(sql);
 
       const lookup = new Map<string, typeof rows[0]>();
@@ -452,6 +460,7 @@ export default function Home() {
             key: Number(match.key) || 0,
             popularity: Number(match.popularity) || 0,
             videoId: match.videoId || "",
+            soundcloudId: match.soundcloudId || "",
             id,
             position: i,
           };
@@ -466,6 +475,7 @@ export default function Home() {
           key: 0,
           popularity: 0,
           videoId: "",
+          soundcloudId: "",
           id,
           position: i,
         };
@@ -483,6 +493,7 @@ export default function Home() {
         key: 0,
         popularity: 0,
         videoId: "",
+        soundcloudId: "",
         id: `${line.track}-${line.artist}-${Date.now()}-${i}`,
         position: i,
       }));
@@ -562,6 +573,7 @@ export default function Home() {
             key: number | null;
             popularity: number | null;
             videoId: string;
+            soundcloudId: string | null;
           }>(sql);
 
           const lookup = new Map<string, typeof rows[0]>();
@@ -583,6 +595,7 @@ export default function Home() {
                 key: Number(match.key) || 0,
                 popularity: Number(match.popularity) || 0,
                 videoId: match.videoId || "",
+                soundcloudId: match.soundcloudId || "",
                 id,
                 position: i,
               };
@@ -598,6 +611,7 @@ export default function Home() {
               key: csvRow.key ? Number(csvRow.key) : 0,
               popularity: 0,
               videoId: "",
+          soundcloudId: "",
               id,
               position: i,
             };
@@ -614,6 +628,7 @@ export default function Home() {
             key: csvRow.key ? Number(csvRow.key) : 0,
             popularity: 0,
             videoId: "",
+          soundcloudId: "",
             id: `vault-${entry.id}-${i}`,
             position: i,
           }));

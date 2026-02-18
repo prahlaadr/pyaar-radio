@@ -56,7 +56,8 @@ export function buildTrackSearchQuery(search: string): string {
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE "Track Name" ILIKE '%${s}%'
       OR "Artist Name(s)" ILIKE '%${s}%'
@@ -78,7 +79,8 @@ export function buildTrackLookupQuery(trackName: string, artistName: string): st
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE "Track Name" ILIKE '${t}'
       AND "Artist Name(s)" ILIKE '%${a}%'
@@ -102,7 +104,8 @@ export function buildBatchTrackLookupQuery(pairs: { track: string; artist: strin
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE ${conditions.join(" OR ")}
   `;
@@ -156,7 +159,8 @@ export function buildScoredRandomQuery(
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
     ORDER BY (${bpmScore} + ${keyScore} + RANDOM() * 15) DESC
@@ -187,7 +191,8 @@ export function buildTagRadioQuery(tags: string[]): string {
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE ${tagConds.join(" OR ")}
     ORDER BY RANDOM()
@@ -213,7 +218,8 @@ export function buildTracksQuery(artistName: string, aliases: string[]): string 
       Duration as duration,
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
-      "Video ID" as videoId
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
     FROM masterlist
     WHERE ${conditions.map((c) => `(${c})`).join(" OR ")}
     ORDER BY TRY_CAST(Tempo AS FLOAT) DESC

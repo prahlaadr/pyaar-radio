@@ -19,6 +19,7 @@ export interface Track {
   key: number;
   popularity: number;
   videoId: string;
+  soundcloudId: string;
 }
 
 export interface SetlistTrack extends Track {
