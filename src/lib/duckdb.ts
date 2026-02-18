@@ -24,19 +24,27 @@ async function init() {
   await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
 
   // Fetch and register CSVs
-  const [artistsResp, masterlistResp, tamilResp] = await Promise.all([
+  const [artistsResp, masterlistResp] = await Promise.all([
     fetch("/data/artists.csv"),
     fetch("/data/masterlist.csv"),
-    fetch("/data/tamil.csv"),
   ]);
 
   const artistsBuf = new Uint8Array(await artistsResp.arrayBuffer());
   const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
-  const tamilBuf = new Uint8Array(await tamilResp.arrayBuffer());
 
   await db.registerFileBuffer("artists.csv", artistsBuf);
   await db.registerFileBuffer("masterlist.csv", masterlistBuf);
-  await db.registerFileBuffer("tamil.csv", tamilBuf);
+
+  // Tamil CSV — non-blocking so failures don't break the main app
+  try {
+    const tamilResp = await fetch("/data/tamil.csv");
+    if (tamilResp.ok) {
+      const tamilBuf = new Uint8Array(await tamilResp.arrayBuffer());
+      await db.registerFileBuffer("tamil.csv", tamilBuf);
+    }
+  } catch {
+    console.warn("Failed to fetch tamil.csv");
+  }
 
   conn = await db.connect();
 
@@ -46,9 +54,17 @@ async function init() {
   await conn.query(`
     CREATE TABLE masterlist AS SELECT * FROM read_csv_auto('masterlist.csv', all_varchar=true)
   `);
-  await conn.query(`
-    CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)
-  `);
+  try {
+    await conn.query(`
+      CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)
+    `);
+  } catch (e) {
+    console.warn("Failed to load tamil.csv:", e);
+    await conn.query(`CREATE TABLE tamil (
+      "Track Name" VARCHAR, "Artist" VARCHAR, "Album" VARCHAR,
+      "Tempo" VARCHAR, "Duration" VARCHAR, "Video ID" VARCHAR
+    )`);
+  }
 }
 
 export async function getConnection(): Promise<duckdb.AsyncDuckDBConnection> {
