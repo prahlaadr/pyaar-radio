@@ -41,7 +41,14 @@ export function buildArtistQuery(filters: ArtistFilters): string {
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
-  return `SELECT * FROM artists ${where} ORDER BY channel, artist`;
+  let orderBy = "ORDER BY channel, artist";
+  if (filters.bpmSort === "desc") {
+    orderBy = "ORDER BY bpm_high DESC";
+  } else if (filters.bpmSort === "asc") {
+    orderBy = "ORDER BY bpm_low ASC";
+  }
+
+  return `SELECT * FROM artists ${where} ${orderBy}`;
 }
 
 export function buildTrackSearchQuery(search: string): string {

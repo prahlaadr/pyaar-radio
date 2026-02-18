@@ -26,6 +26,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   bpmMax: 300,
   halfTime: false,
   search: "",
+  bpmSort: null,
 };
 
 const STORAGE_KEY = "pyaar-setlists";
@@ -221,7 +222,7 @@ export default function Home() {
   const structuralFilters = useMemo(() => ({
     ...filters,
     search: "", // search handled by Fuse.js client-side
-  }), [filters.channels, filters.samay, filters.desi, filters.vibes, filters.bpmMin, filters.bpmMax, filters.halfTime, filters.tags]);
+  }), [filters.channels, filters.samay, filters.desi, filters.vibes, filters.bpmMin, filters.bpmMax, filters.halfTime, filters.tags, filters.bpmSort]);
 
   const fetchArtists = useCallback(async () => {
     try {
