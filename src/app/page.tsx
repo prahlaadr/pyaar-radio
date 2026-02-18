@@ -431,6 +431,21 @@ export default function Home() {
   }), []);
 
   const playRandom = useCallback(async () => {
+    // Tamil mode: pick random from current tamilTracks
+    if (tamilMode) {
+      if (tamilTracks.length === 0) return;
+      const recentKeys = new Set(
+        recentlyPlayed.map((t) => `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+      );
+      const candidates = tamilTracks.filter(
+        (t) => !recentKeys.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+      );
+      const pool = candidates.length > 0 ? candidates : tamilTracks;
+      const pick = pool[Math.floor(Math.random() * pool.length)];
+      setNowPlaying(pick);
+      return;
+    }
+
     if (artists.length === 0) return;
 
     type TrackRow = {
@@ -455,7 +470,7 @@ export default function Home() {
         setNowPlaying(rowToTrack(rows[0]));
       }
     } catch {}
-  }, [artists, nowPlaying, recentlyPlayed, rowToTrack]);
+  }, [artists, nowPlaying, recentlyPlayed, rowToTrack, tamilMode, tamilTracks]);
 
   // Keep ref in sync for hotkeys
   playRandomRef.current = playRandom;
