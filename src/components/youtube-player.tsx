@@ -224,6 +224,10 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const [volume, setVolume] = useState(80);
   const [isSC, setIsSC] = useState(false);
   const volumeInitRef = useRef(false);
+  const progressBarRef = useRef<HTMLDivElement>(null);
+  const [scrubbing, setScrubbing] = useState(false);
+  const durationRef = useRef(duration);
+  durationRef.current = duration;
 
   useImperativeHandle(ref, () => ({
     toggle: () => {
@@ -451,11 +455,6 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setSearching(false);
     onClose();
   };
-
-  const progressBarRef = useRef<HTMLDivElement>(null);
-  const [scrubbing, setScrubbing] = useState(false);
-  const durationRef = useRef(duration);
-  durationRef.current = duration;
 
   if (!track) return null;
 
