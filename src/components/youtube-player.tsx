@@ -452,6 +452,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     onClose();
   };
 
+  const progressBarRef = useRef<HTMLDivElement>(null);
+  const [scrubbing, setScrubbing] = useState(false);
+  const durationRef = useRef(duration);
+  durationRef.current = duration;
+
   if (!track) return null;
 
   const handlePlayPause = () => {
@@ -467,11 +472,6 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       else p.playVideo();
     }
   };
-
-  const progressBarRef = useRef<HTMLDivElement>(null);
-  const [scrubbing, setScrubbing] = useState(false);
-  const durationRef = useRef(duration);
-  durationRef.current = duration;
 
   const calcSeekTime = (clientX: number): number | null => {
     const d = durationRef.current;
