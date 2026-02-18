@@ -54,5 +54,4 @@ export interface ArtistFilters {
   bpmMax: number;
   halfTime: boolean;
   search: string;
-  bpmSort: "asc" | "desc" | null;
 }

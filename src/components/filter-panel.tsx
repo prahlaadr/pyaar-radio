@@ -42,8 +42,7 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
     (filters.samay ? 1 : 0) +
     (filters.desi ? 1 : 0) +
     (filters.bpmMin > 0 ? 1 : 0) +
-    (filters.bpmMax < 300 ? 1 : 0) +
-    (filters.bpmSort ? 1 : 0);
+    (filters.bpmMax < 300 ? 1 : 0);
 
   return (
     <div className="px-5 py-3 border-b border-[#222] space-y-3">
@@ -161,20 +160,6 @@ export function FilterPanel({ filters, onChange, artistCount }: Props) {
               &times;2
             </button>
           )}
-          <button
-            onClick={() => {
-              const next = filters.bpmSort === null ? "desc" : filters.bpmSort === "desc" ? "asc" : null;
-              onChange({ ...filters, bpmSort: next });
-            }}
-            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-              filters.bpmSort
-                ? "bg-red-600 text-white"
-                : "bg-[#111] text-[#888] hover:text-white"
-            }`}
-            title="Sort artists by BPM"
-          >
-            {filters.bpmSort === "desc" ? "BPM \u2193" : filters.bpmSort === "asc" ? "BPM \u2191" : "Sort"}
-          </button>
         </div>
       </div>
 

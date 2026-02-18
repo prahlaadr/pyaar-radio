@@ -27,7 +27,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
 
   const toggleSort = useCallback((col: SortCol) => {
     if (sortCol === col) {
-      if (sortDir === "asc") setSortDir("desc");
+      if (sortDir === "desc") setSortDir("asc");
       else { setSortCol(null); setSortDir("asc"); }
     } else {
       setSortCol(col);
