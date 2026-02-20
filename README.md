@@ -168,7 +168,7 @@ bun run build        # Production build
 
 **Runtime:** Bun (not npm)
 
-**Deploy:** Auto-deploys on push to `deck-independent` branch via Vercel.
+**Deploy:** Auto-deploys on push to `main` via Vercel.
 
 ### Updating Your Library
 

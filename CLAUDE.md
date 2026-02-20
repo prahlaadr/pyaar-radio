@@ -2,7 +2,7 @@
 
 DJ music library and setlist tool. **GitHub is the source of truth** — no Obsidian vault needed.
 
-**Live:** [pyaar-radio.vercel.app](https://pyaar-radio.vercel.app) | **Branch:** `deck-independent` | **Vercel:** auto-deploys on push
+**Live:** [pyaar-radio.vercel.app](https://pyaar-radio.vercel.app) | **Branch:** `main` | **Vercel:** auto-deploys on push
 
 ## Quick Reference — What to Do When User Says...
 
@@ -15,7 +15,7 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 | "Add BPM/key" | Edit `Tempo` and `Key` columns in `masterlist.csv` |
 | "Sync from YT Music" | Run `.venv/bin/python3.13 sync_masterlist.py --yes` in `~/Documents/Projects/03-music-audio/pyaar-crate/` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-crate (see below) |
-| "Deploy" | Just push to `deck-independent` — Vercel auto-deploys |
+| "Deploy" | Just push to `main` — Vercel auto-deploys |
 
 ## Data Files
 

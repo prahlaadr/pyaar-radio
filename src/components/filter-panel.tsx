@@ -174,7 +174,7 @@ export function FilterPanel({
               Tamil
             </button>
             <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1">
-              &larr; back to vault
+              &larr; back to all
             </span>
           </div>
         )}

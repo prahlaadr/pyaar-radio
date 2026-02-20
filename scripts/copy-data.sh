@@ -6,8 +6,8 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 OUT_DIR="$PROJECT_DIR/public/data"
 DUCKDB_DIST="$PROJECT_DIR/node_modules/@duckdb/duckdb-wasm/dist"
 
-# Copy CSVs from Obsidian vault (local dev only — skip if already present)
-DATA_DIR="${PYAAR_DATA_DIR:-$HOME/Documents/Projects/12-pyaar-vault/Pyaar Vault/_data}"
+# Copy CSVs from data source (local dev only — skip if already present)
+DATA_DIR="${PYAAR_DATA_DIR:-$PROJECT_DIR/public/data}"
 if [ -f "$DATA_DIR/artists.csv" ]; then
   mkdir -p "$OUT_DIR"
   cp "$DATA_DIR/artists.csv" "$OUT_DIR/artists.csv"
@@ -47,7 +47,7 @@ if [ -f "$DATA_DIR/artists.csv" ]; then
     echo "No setlists found, empty manifest written"
   fi
 
-  echo "CSVs copied from vault"
+  echo "CSVs copied from data source"
 elif [ -f "$OUT_DIR/artists.csv" ]; then
   echo "CSVs already in public/data (CI/deploy)"
 else
