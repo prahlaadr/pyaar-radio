@@ -704,6 +704,35 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, [nowPlaying, radioMode, prefetchNext]);
 
+  // --- Lock screen / MediaSession controls ---
+  const playNextRef = useRef(playNext);
+  const playRadioRef = useRef(playRadio);
+  playNextRef.current = playNext;
+  playRadioRef.current = playRadio;
+
+  useEffect(() => {
+    if (!("mediaSession" in navigator) || !nowPlaying) return;
+    const artist = nowPlaying.artistNames.split(";")[0].trim();
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: nowPlaying.trackName,
+      artist,
+      album: nowPlaying.albumName || undefined,
+    });
+    navigator.mediaSession.setActionHandler("play", () => playerRef.current?.toggle());
+    navigator.mediaSession.setActionHandler("pause", () => playerRef.current?.toggle());
+    navigator.mediaSession.setActionHandler("nexttrack", () => {
+      if (radioMode) playRadioRef.current();
+      else playNextRef.current();
+    });
+    navigator.mediaSession.setActionHandler("previoustrack", () => {
+      const idx = recentlyPlayed.findIndex(
+        (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+      );
+      const prev = recentlyPlayed[idx + 1] || recentlyPlayed[1];
+      if (prev) setNowPlaying(prev);
+    });
+  }, [nowPlaying, radioMode, recentlyPlayed]);
+
   const handleImport = useCallback(async (lines: { track: string; artist: string }[]) => {
     try {
       const sql = buildBatchTrackLookupQuery(lines);
