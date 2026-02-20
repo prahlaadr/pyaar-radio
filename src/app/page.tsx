@@ -16,6 +16,10 @@ import Fuse from "fuse.js";
 import hotkeys from "hotkeys-js";
 
 
+export function slugify(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "").trim();
+}
+
 const DEFAULT_FILTERS: ArtistFilters = {
   channels: [],
   samay: null,
@@ -57,7 +61,12 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const q = p.get("q");
   if (q) filters.search = q;
 
-  const artist = p.get("artist");
+  // Support both ?artist=Name and /artist/slug
+  let artist = p.get("artist");
+  if (!artist) {
+    const match = window.location.pathname.match(/^\/artist\/([^/]+)/);
+    if (match) artist = decodeURIComponent(match[1]);
+  }
   const tab = p.get("tab") as "browse" | "setlists" | null;
 
   return { filters, artist, tab };
@@ -75,11 +84,11 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   }
   if (filters.halfTime) p.set("x2", "1");
   if (filters.search) p.set("q", filters.search);
-  if (artistName) p.set("artist", artistName);
   if (tab === "setlists") p.set("tab", "setlists");
 
+  const basePath = artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
-  return str ? `?${str}` : window.location.pathname;
+  return str ? `${basePath}?${str}` : basePath;
 }
 
 const STORAGE_KEY = "pyaar-setlists";
@@ -180,7 +189,7 @@ export default function Home() {
     const name = pendingArtist.current;
     pendingArtist.current = null;
     const match = allArtists.find(
-      (a) => a.artist.toLowerCase() === name.toLowerCase()
+      (a) => a.artist.toLowerCase() === name.toLowerCase() || slugify(a.artist) === name.toLowerCase()
     );
     if (match) {
       setSelectedArtist(match);
