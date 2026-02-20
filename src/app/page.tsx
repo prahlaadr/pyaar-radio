@@ -162,6 +162,8 @@ export default function Home() {
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
   const [radioMode, setRadioMode] = useState(false);
+  const [setlistMode, setSetlistMode] = useState(false);
+  const setlistIndexRef = useRef(-1);
   const [tamilMode, setTamilMode] = useState(false);
   const [tamilTracks, setTamilTracks] = useState<Track[]>([]);
   const [tamilSearch, setTamilSearch] = useState("");
@@ -678,12 +680,33 @@ export default function Home() {
     } catch {}
   }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks]);
 
-  // Keep ref in sync for hotkeys — next uses radio when radio is on
-  playRandomRef.current = radioMode ? playRadio : playNext;
+  // --- Setlist playback ---
+  const playFromSetlist = useCallback((track: SetlistTrack, index: number) => {
+    setSetlistMode(true);
+    setRadioMode(false);
+    setlistIndexRef.current = index;
+    setNowPlaying(track);
+  }, []);
 
-  const handleRadioNext = useCallback(() => {
-    if (radioMode) playRadio();
-  }, [radioMode, playRadio]);
+  const playNextInSetlist = useCallback(() => {
+    const nextIndex = setlistIndexRef.current + 1;
+    if (nextIndex < setlist.length) {
+      setlistIndexRef.current = nextIndex;
+      setNowPlaying(setlist[nextIndex]);
+    } else {
+      // End of setlist — stop
+      setSetlistMode(false);
+      setlistIndexRef.current = -1;
+    }
+  }, [setlist]);
+
+  // Keep ref in sync for hotkeys — next uses setlist/radio/random
+  playRandomRef.current = setlistMode ? playNextInSetlist : radioMode ? playRadio : playNext;
+
+  const handleAutoNext = useCallback(() => {
+    if (setlistMode) playNextInSetlist();
+    else if (radioMode) playRadio();
+  }, [setlistMode, playNextInSetlist, radioMode, playRadio]);
 
   // --- Prefetch next track in background ---
   const resolveVideoId = useCallback(async (trackName: string, artistNames: string): Promise<string | null> => {
@@ -1082,7 +1105,7 @@ export default function Home() {
             onClick={() => { handleSelectArtist(null); setTab("browse"); }}
           >Pyaar Radio</h1>
           <button
-            onClick={() => { playRadio(); setRadioMode(true); }}
+            onClick={() => { playRadio(); setRadioMode(true); setSetlistMode(false); }}
             disabled={artists.length === 0}
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
               radioMode
@@ -1240,7 +1263,7 @@ export default function Home() {
                         onDoubleClick={() => addToSetlist(track)}
                       >
                         <button
-                          onClick={() => setNowPlaying(track)}
+                          onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
                           className="text-[#555] hover:text-amber-400 transition-colors text-[10px]"
                           title="Play"
                         >
@@ -1278,7 +1301,7 @@ export default function Home() {
                 loading={tracksLoading}
                 onBack={() => handleSelectArtist(null)}
                 onAddToSetlist={addToSetlist}
-                onPlay={setNowPlaying}
+                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
                 nowPlaying={nowPlaying}
               />
             ) : (
@@ -1356,7 +1379,7 @@ export default function Home() {
                           onDoubleClick={() => addToSetlist(track)}
                         >
                           <button
-                            onClick={() => setNowPlaying(track)}
+                            onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
                             className="text-[#555] hover:text-white transition-colors text-[10px]"
                             title="Preview"
                           >
@@ -1429,6 +1452,7 @@ export default function Home() {
           onNew={handleNew}
           onRename={handleRename}
           onAutoSort={handleAutoSort}
+          onPlay={playFromSetlist}
         />
         {recentlyPlayed.length > 0 && (
           <div className="border-t border-[#222]">
@@ -1509,6 +1533,7 @@ export default function Home() {
                 onNew={handleNew}
                 onRename={handleRename}
                 onAutoSort={handleAutoSort}
+                onPlay={playFromSetlist}
               />
             </div>
           </div>
@@ -1524,12 +1549,21 @@ export default function Home() {
       <YouTubePlayer
         ref={playerRef}
         track={nowPlaying}
-        onClose={() => { setNowPlaying(null); setRadioMode(false); }}
-        radioMode={radioMode}
-        onToggleRadio={() => setRadioMode((r) => !r)}
-        onEnded={handleRadioNext}
-        onShuffle={radioMode ? playRadio : playNext}
-        onPrev={recentlyPlayed.length > 1 ? () => {
+        onClose={() => { setNowPlaying(null); setRadioMode(false); setSetlistMode(false); }}
+        radioMode={radioMode || setlistMode}
+        onToggleRadio={() => {
+          if (setlistMode) { setSetlistMode(false); setRadioMode(true); }
+          else setRadioMode((r) => !r);
+        }}
+        onEnded={handleAutoNext}
+        onShuffle={setlistMode ? playNextInSetlist : radioMode ? playRadio : playNext}
+        onPrev={setlistMode ? () => {
+          const prevIndex = setlistIndexRef.current - 1;
+          if (prevIndex >= 0) {
+            setlistIndexRef.current = prevIndex;
+            setNowPlaying(setlist[prevIndex]);
+          }
+        } : recentlyPlayed.length > 1 ? () => {
           const idx = recentlyPlayed.findIndex(
             (t) => t.trackName === nowPlaying?.trackName && t.artistNames === nowPlaying?.artistNames
           );

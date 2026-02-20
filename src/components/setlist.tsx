@@ -32,6 +32,7 @@ interface Props {
   onNew: () => void;
   onRename: (name: string) => void;
   onAutoSort?: () => void;
+  onPlay?: (track: SetlistTrack, index: number) => void;
 }
 
 function getBPMStats(tracks: SetlistTrack[]): { min: number; max: number; avg: number } | null {
@@ -84,11 +85,13 @@ function SortableTrack({
   index,
   isPlaying,
   onRemove,
+  onPlay,
 }: {
   track: SetlistTrack;
   index: number;
   isPlaying: boolean;
   onRemove: (id: string) => void;
+  onPlay?: () => void;
 }) {
   const {
     attributes,
@@ -120,6 +123,15 @@ function SortableTrack({
       >
         {String(index + 1).padStart(2, "0")}
       </span>
+      {onPlay && (
+        <button
+          onClick={onPlay}
+          className={`text-[10px] transition-colors ${isPlaying ? "text-red-400" : "text-[#555] hover:text-white"}`}
+          title="Play"
+        >
+          &#9654;
+        </button>
+      )}
       <div className="flex-1 min-w-0">
         <div className="text-xs truncate text-[#ccc]">{track.trackName}</div>
         <div className="text-[10px] text-[#888] truncate">
@@ -192,6 +204,7 @@ export function SetlistPanel({
   onNew,
   onRename,
   onAutoSort,
+  onPlay,
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
@@ -342,6 +355,7 @@ export function SetlistPanel({
                       index={i}
                       isPlaying={isPlaying}
                       onRemove={onRemove}
+                      onPlay={onPlay ? () => onPlay(track, i) : undefined}
                     />
                     {i < tracks.length - 1 && (
                       <TransitionIndicator track={track} next={tracks[i + 1]} />
