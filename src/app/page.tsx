@@ -30,8 +30,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -66,11 +66,12 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
     if (match) artist = decodeURIComponent(match[1]);
   }
   const tab = p.get("tab") as "browse" | "setlists" | null;
+  const track = p.get("t");
 
-  return { filters, artist, tab };
+  return { filters, artist, tab, track };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists"): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null): string {
   const p = new URLSearchParams();
 
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
@@ -83,6 +84,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (filters.halfTime) p.set("x2", "1");
   if (filters.search) p.set("q", filters.search);
   if (tab === "setlists") p.set("tab", "setlists");
+  if (trackVideoId) p.set("t", trackVideoId);
 
   const basePath = artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
@@ -154,6 +156,7 @@ export default function Home() {
   const [importOpen, setImportOpen] = useState(false);
   const [tab, setTab] = useState<"browse" | "setlists">(urlInit.current.tab || "browse");
   const pendingArtist = useRef<string | null>(urlInit.current.artist);
+  const pendingTrack = useRef<string | null>(urlInit.current.track);
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
@@ -214,11 +217,52 @@ export default function Home() {
     }
   }, [allArtists]);
 
+  // Resolve track from URL param (?t=videoId) once data is ready
+  useEffect(() => {
+    if (!pendingTrack.current || loading) return;
+    const videoId = pendingTrack.current;
+    pendingTrack.current = null;
+    const sql = `
+      SELECT
+        "Track Name" as trackName,
+        "Artist Name(s)" as artistNames,
+        "Album Name" as albumName,
+        Genres as genres,
+        TRY_CAST(Tempo AS FLOAT) as tempo,
+        Duration as duration,
+        TRY_CAST(Key AS INT) as key,
+        TRY_CAST(Popularity AS INT) as popularity,
+        "Video ID" as videoId,
+        "Soundcloud ID" as soundcloudId
+      FROM masterlist
+      WHERE "Video ID" = '${videoId.replace(/'/g, "''")}'
+      LIMIT 1
+    `;
+    query<{
+      trackName: string; artistNames: string; albumName: string;
+      genres: string | null; tempo: number | null; duration: string;
+      key: number | null; popularity: number | null; videoId: string;
+      soundcloudId: string | null;
+    }>(sql).then((rows) => {
+      if (rows.length > 0) {
+        const r = rows[0];
+        setNowPlaying({
+          trackName: r.trackName, artistNames: r.artistNames,
+          albumName: r.albumName || "",
+          genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+          tempo: Number(r.tempo) || 0, duration: r.duration || "",
+          key: Number(r.key) || 0, popularity: Number(r.popularity) || 0,
+          videoId: r.videoId || "", soundcloudId: r.soundcloudId || "",
+        });
+      }
+    }).catch(() => {});
+  }, [loading]);
+
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab]);
+  }, [filters, selectedArtist, tab, nowPlaying]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
