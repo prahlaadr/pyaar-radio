@@ -28,6 +28,60 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null };
+  const p = new URLSearchParams(window.location.search);
+  const filters: Partial<ArtistFilters> = {};
+
+  const channel = p.get("channel");
+  if (channel) filters.channels = channel.split(",").filter(Boolean) as ArtistFilters["channels"];
+
+  const samay = p.get("samay");
+  if (samay) filters.samay = samay as ArtistFilters["samay"];
+
+  const desi = p.get("desi");
+  if (desi) filters.desi = desi as ArtistFilters["desi"];
+
+  const vibe = p.get("vibe");
+  if (vibe) filters.vibes = vibe.split(",").filter(Boolean);
+
+  const bpm = p.get("bpm");
+  if (bpm) {
+    const parts = bpm.split("-");
+    filters.bpmMin = Number(parts[0]) || 0;
+    filters.bpmMax = parts.length > 1 ? Number(parts[1]) || 300 : Number(parts[0]) || 300;
+  }
+
+  if (p.get("x2") === "1") filters.halfTime = true;
+
+  const q = p.get("q");
+  if (q) filters.search = q;
+
+  const artist = p.get("artist");
+  const tab = p.get("tab") as "browse" | "setlists" | null;
+
+  return { filters, artist, tab };
+}
+
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists"): string {
+  const p = new URLSearchParams();
+
+  if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
+  if (filters.samay) p.set("samay", filters.samay);
+  if (filters.desi) p.set("desi", filters.desi);
+  if (filters.vibes.length > 0) p.set("vibe", filters.vibes.join(","));
+  if (filters.bpmMin > 0 || filters.bpmMax < 300) {
+    p.set("bpm", filters.bpmMin === filters.bpmMax ? `${filters.bpmMin}` : `${filters.bpmMin}-${filters.bpmMax}`);
+  }
+  if (filters.halfTime) p.set("x2", "1");
+  if (filters.search) p.set("q", filters.search);
+  if (artistName) p.set("artist", artistName);
+  if (tab === "setlists") p.set("tab", "setlists");
+
+  const str = p.toString();
+  return str ? `?${str}` : window.location.pathname;
+}
+
 const STORAGE_KEY = "pyaar-setlists";
 const PLAY_COUNTS_KEY = "pyaar-play-counts";
 
@@ -78,10 +132,11 @@ function saveSavedSetlists(data: SavedSetlists) {
 }
 
 export default function Home() {
+  const urlInit = useRef(parseUrlParams());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [allArtists, setAllArtists] = useState<Artist[]>([]);
-  const [filters, setFilters] = useState<ArtistFilters>(DEFAULT_FILTERS);
+  const [filters, setFilters] = useState<ArtistFilters>({ ...DEFAULT_FILTERS, ...urlInit.current.filters });
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [tracks, setTracks] = useState<Track[]>([]);
   const [tracksLoading, setTracksLoading] = useState(false);
@@ -90,7 +145,8 @@ export default function Home() {
   const [setlistName, setSetlistName] = useState<string | null>(null);
   const [setlistId, setSetlistId] = useState<string | null>(null);
   const [importOpen, setImportOpen] = useState(false);
-  const [tab, setTab] = useState<"browse" | "setlists">("browse");
+  const [tab, setTab] = useState<"browse" | "setlists">(urlInit.current.tab || "browse");
+  const pendingArtist = useRef<string | null>(urlInit.current.artist);
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
@@ -115,6 +171,45 @@ export default function Home() {
     const shuffled = [...allArtists].sort(() => Math.random() - 0.5);
     setFeaturedArtists(shuffled.slice(0, 5));
   }, [allArtists]);
+
+  // Resolve artist from URL param once artists are loaded
+  useEffect(() => {
+    if (!pendingArtist.current || allArtists.length === 0) return;
+    const name = pendingArtist.current;
+    pendingArtist.current = null;
+    const match = allArtists.find(
+      (a) => a.artist.toLowerCase() === name.toLowerCase()
+    );
+    if (match) {
+      setSelectedArtist(match);
+      // fetchTracks will be called by the BPM effect or we trigger it here
+      const { bpmMin, bpmMax, halfTime } = filters;
+      const sql = buildTracksQuery(match.artist, match.aliases, bpmMin, bpmMax, halfTime);
+      setTracksLoading(true);
+      query<{
+        trackName: string; artistNames: string; albumName: string;
+        genres: string | null; tempo: number | null; duration: string;
+        key: number | null; popularity: number | null; videoId: string;
+        soundcloudId: string | null;
+      }>(sql).then((rows) => {
+        setTracks(rows.map((r) => ({
+          trackName: r.trackName, artistNames: r.artistNames,
+          albumName: r.albumName || "",
+          genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+          tempo: Number(r.tempo) || 0, duration: r.duration || "",
+          key: Number(r.key) || 0, popularity: Number(r.popularity) || 0,
+          videoId: r.videoId || "", soundcloudId: r.soundcloudId || "",
+        })));
+        setTracksLoading(false);
+      }).catch(() => { setTracks([]); setTracksLoading(false); });
+    }
+  }, [allArtists]);
+
+  // Sync state → URL (replaceState, no navigation)
+  useEffect(() => {
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab);
+    window.history.replaceState(null, "", url);
+  }, [filters, selectedArtist, tab]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
@@ -342,15 +437,10 @@ export default function Home() {
     })();
   }, [tamilMode, tamilSearch, tamilBpmMin, tamilBpmMax]);
 
-  const handleSelectArtist = useCallback(async (artist: Artist | null) => {
-    setSelectedArtist(artist);
-    if (!artist) {
-      setTracks([]);
-      return;
-    }
+  const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
     try {
-      const sql = buildTracksQuery(artist.artist, artist.aliases);
+      const sql = buildTracksQuery(artist.artist, artist.aliases, bpmMin, bpmMax, halfTime);
       const rows = await query<{
         trackName: string;
         artistNames: string;
@@ -383,6 +473,22 @@ export default function Home() {
     }
     setTracksLoading(false);
   }, []);
+
+  const handleSelectArtist = useCallback(async (artist: Artist | null) => {
+    setSelectedArtist(artist);
+    if (!artist) {
+      setTracks([]);
+      return;
+    }
+    fetchTracks(artist, filters.bpmMin, filters.bpmMax, filters.halfTime);
+  }, [fetchTracks, filters.bpmMin, filters.bpmMax, filters.halfTime]);
+
+  // Re-fetch tracks when BPM filters change while viewing an artist
+  useEffect(() => {
+    if (selectedArtist) {
+      fetchTracks(selectedArtist, filters.bpmMin, filters.bpmMax, filters.halfTime);
+    }
+  }, [filters.bpmMin, filters.bpmMax, filters.halfTime]);
 
   const addToSetlist = useCallback((track: Track) => {
     setSetlist((prev) => {

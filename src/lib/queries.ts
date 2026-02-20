@@ -231,13 +231,37 @@ export function buildTamilQuery(search: string, bpmMin: number, bpmMax: number):
   `;
 }
 
-export function buildTracksQuery(artistName: string, aliases: string[]): string {
+export function buildTracksQuery(
+  artistName: string,
+  aliases: string[],
+  bpmMin = 0,
+  bpmMax = 300,
+  halfTime = false,
+): string {
   const allNames = [artistName, ...aliases];
-  const conditions = allNames.map((name) => {
+  const artistConds = allNames.map((name) => {
     const escaped = name.replace(/'/g, "''");
     return `LOWER(TRIM(split_part("Artist Name(s)", ';', 1))) = LOWER('${escaped}')
       OR ';' || LOWER("Artist Name(s)") || ';' LIKE '%;${escaped.toLowerCase()};%'`;
   });
+
+  const conditions = [`(${artistConds.map((c) => `(${c})`).join(" OR ")})`];
+
+  if (bpmMin > 0 || bpmMax < 300) {
+    const min = bpmMin > 0 ? bpmMin : 0;
+    const max = bpmMax < 300 ? bpmMax : 999;
+    const tempo = "TRY_CAST(Tempo AS FLOAT)";
+    if (halfTime) {
+      const halfMin = Math.round(min / 2);
+      const halfMax = Math.round(max / 2);
+      const doubleMin = min * 2;
+      const doubleMax = max * 2;
+      conditions.push(`(${tempo} IS NOT NULL AND ((${tempo} >= ${min} AND ${tempo} <= ${max}) OR (${tempo} >= ${halfMin} AND ${tempo} <= ${halfMax}) OR (${tempo} >= ${doubleMin} AND ${tempo} <= ${doubleMax})))`);
+    } else {
+      if (bpmMin > 0) conditions.push(`${tempo} >= ${min}`);
+      if (bpmMax < 300) conditions.push(`${tempo} <= ${max}`);
+    }
+  }
 
   return `
     SELECT
@@ -252,7 +276,7 @@ export function buildTracksQuery(artistName: string, aliases: string[]): string 
       "Video ID" as videoId,
       "Soundcloud ID" as soundcloudId
     FROM masterlist
-    WHERE ${conditions.map((c) => `(${c})`).join(" OR ")}
+    WHERE ${conditions.join(" AND ")}
     ORDER BY TRY_CAST(Tempo AS FLOAT) DESC
   `;
 }
