@@ -68,3 +68,50 @@ export function getKeyCompatibility(keyA: number, keyB: number): KeyCompatibilit
 
   return "incompatible";
 }
+
+/**
+ * Score a transition between two tracks for setlist sorting.
+ * Higher score = smoother transition.
+ * BPM: 0-30 points (linear proximity, 1 point per BPM closer)
+ * Key: 0/10/20 points (incompatible/energy/harmonic+perfect)
+ */
+export function scoreTransition(
+  fromKey: number, fromTempo: number,
+  toKey: number, toTempo: number,
+): number {
+  const bpmScore = fromTempo > 0 && toTempo > 0
+    ? Math.max(0, 30 - Math.abs(toTempo - fromTempo))
+    : 0;
+  let keyScore = 0;
+  if (fromKey > 0 && toKey > 0) {
+    const compat = getKeyCompatibility(fromKey, toKey);
+    if (compat === "perfect" || compat === "harmonic") keyScore = 20;
+    else if (compat === "energy") keyScore = 10;
+  }
+  return bpmScore + keyScore;
+}
+
+/**
+ * Sort setlist tracks for optimal harmonic flow.
+ * Greedy nearest-neighbor: keeps first track as anchor,
+ * then always picks the unplaced track with the best transition.
+ */
+export function sortByHarmonicFlow<T extends { key: number; tempo: number }>(tracks: T[]): T[] {
+  if (tracks.length < 3) return tracks;
+  const remaining = new Set(tracks.keys());
+  const sorted: T[] = [tracks[0]];
+  remaining.delete(0);
+
+  for (let i = 1; i < tracks.length; i++) {
+    const prev = sorted[i - 1];
+    let bestIdx = -1;
+    let bestScore = -1;
+    for (const idx of remaining) {
+      const score = scoreTransition(prev.key, prev.tempo, tracks[idx].key, tracks[idx].tempo);
+      if (score > bestScore) { bestScore = score; bestIdx = idx; }
+    }
+    sorted.push(tracks[bestIdx]);
+    remaining.delete(bestIdx);
+  }
+  return sorted;
+}

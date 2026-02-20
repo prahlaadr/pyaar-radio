@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
 import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
-import { getCompatibleKeys } from "@/lib/camelot";
+import { getCompatibleKeys, sortByHarmonicFlow } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
 import { FilterPanel } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
@@ -997,6 +997,13 @@ export default function Home() {
     }
   }, [setlistId, savedSetlists]);
 
+  const handleAutoSort = useCallback(() => {
+    setSetlist((prev) => {
+      const sorted = sortByHarmonicFlow(prev);
+      return sorted.map((t, i) => ({ ...t, position: i }));
+    });
+  }, []);
+
   const browserSetlistsList = Object.entries(savedSetlists.setlists).map(([id, data]) => ({
     id,
     name: data.name,
@@ -1370,6 +1377,7 @@ export default function Home() {
           onSave={handleSave}
           onNew={handleNew}
           onRename={handleRename}
+          onAutoSort={handleAutoSort}
         />
         {recentlyPlayed.length > 0 && (
           <div className="border-t border-[#222]">
@@ -1449,6 +1457,7 @@ export default function Home() {
                 onSave={handleSave}
                 onNew={handleNew}
                 onRename={handleRename}
+                onAutoSort={handleAutoSort}
               />
             </div>
           </div>

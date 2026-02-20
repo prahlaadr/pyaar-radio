@@ -31,6 +31,7 @@ interface Props {
   onSave: () => void;
   onNew: () => void;
   onRename: (name: string) => void;
+  onAutoSort?: () => void;
 }
 
 function getBPMStats(tracks: SetlistTrack[]): { min: number; max: number; avg: number } | null {
@@ -190,6 +191,7 @@ export function SetlistPanel({
   onSave,
   onNew,
   onRename,
+  onAutoSort,
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
@@ -286,6 +288,15 @@ export function SetlistPanel({
           >
             Import
           </button>
+          {onAutoSort && tracks.length >= 3 && (
+            <button
+              onClick={onAutoSort}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+              title="Sort by harmonic flow (BPM + key)"
+            >
+              Sort
+            </button>
+          )}
           {tracks.length > 0 && (
             <>
               <button
