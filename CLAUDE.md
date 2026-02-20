@@ -16,6 +16,17 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 | "Sync from YT Music" | Run `.venv/bin/python3.13 sync_masterlist.py --yes` in `~/Documents/Projects/03-music-audio/pyaar-crate/` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-crate (see below) |
 | "Deploy" | Just push to `main` — Vercel auto-deploys |
+| "Here's an export" / CSV of songs | **Only add tracks whose artist is already in `artists.csv`**. Match artist names (+ aliases) against the export. Ignore everything else. Set `Source` to the platform (SoundCloud, Tamil, etc.) |
+| "Add this artist and their songs" | First add to `artists.csv`, then pull matching tracks from any provided export into `masterlist.csv` |
+
+### Import Rule
+
+**`artists.csv` is the gatekeeper.** When importing tracks from any source (SoundCloud export, Bandcamp, manual list):
+1. Match against artists already in `artists.csv` (check aliases too)
+2. Only add tracks for matched artists to `masterlist.csv`
+3. New artists must be added to `artists.csv` FIRST before their tracks can enter
+4. Always set the `Source` column (`SoundCloud`, `Tamil`, `YT Music`, etc.)
+5. Never bulk-import unmatched tracks — the masterlist is curated, not a dump
 
 ## Data Files
 
