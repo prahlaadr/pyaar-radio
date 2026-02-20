@@ -126,7 +126,7 @@ export function buildScoredRandomQuery(
     const allNames = [a.artist, ...a.aliases];
     return allNames.map((name) => {
       const escaped = name.replace(/'/g, "''");
-      return `LOWER(TRIM(split_part("Artist Name(s)", ';', 1))) = LOWER('${escaped}') OR "Artist Name(s)" ILIKE '%${escaped}%'`;
+      return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
     }).join(" OR ");
   }).map((c) => `(${c})`).join(" OR ");
 
@@ -241,8 +241,10 @@ export function buildTracksQuery(
   const allNames = [artistName, ...aliases];
   const artistConds = allNames.map((name) => {
     const escaped = name.replace(/'/g, "''");
-    return `LOWER(TRIM(split_part("Artist Name(s)", ';', 1))) = LOWER('${escaped}')
-      OR ';' || LOWER("Artist Name(s)") || ';' LIKE '%;${escaped.toLowerCase()};%'`;
+    return `"Artist Name(s)" ILIKE '${escaped}'
+      OR "Artist Name(s)" ILIKE '${escaped};%'
+      OR "Artist Name(s)" ILIKE '%;${escaped}'
+      OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
   });
 
   const conditions = [`(${artistConds.map((c) => `(${c})`).join(" OR ")})`];
