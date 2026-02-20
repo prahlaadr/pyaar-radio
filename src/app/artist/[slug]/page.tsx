@@ -1,1 +1,4 @@
-export { default } from "../../page";
+"use client";
+
+import Home from "../../page";
+export default Home;
