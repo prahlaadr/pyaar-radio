@@ -11,10 +11,10 @@ DJ setlist planning tool. Browse a curated artist/track library, filter by chann
 ## Features
 
 ### Browse & Filter
-- **203 curated artists** from the Pyaar Radio Obsidian vault
-- Filter by channel (Rave/Rap/Soul), samay (Day/Night), desi, vibes (17 tags), BPM range
+- Curated artists from the Pyaar Radio Obsidian vault
+- Filter by channel (Rave/Rap/Soul), samay (Day/Night), desi, vibes (15 tags), BPM range
 - **Tag filters** pull from all 40K masterlist tracks (YT Music playlist tags)
-- Full-text search across artists and tracks
+- **Fuzzy search** across artists and tracks (fuse.js)
 
 ### Radio Mode
 - Shuffle play from filtered artists
@@ -30,10 +30,11 @@ DJ setlist planning tool. Browse a curated artist/track library, filter by chann
 - Quick-add to setlist from player bar
 
 ### Setlist Builder
-- Reorder, import from CSV/text, export to CSV
+- **Drag-and-drop reorder** (dnd-kit), import from CSV/text, export to CSV
 - **Transition preview**: BPM delta + Camelot key compatibility between adjacent tracks
 - BPM range/average in header, currently playing track highlighted
 - Multiple named setlists with localStorage persistence
+- **Keyboard shortcuts** (hotkeys-js): space to play/pause, n for next, escape to close
 
 ### Mobile
 - Responsive layout with collapsible filters and bottom-sheet setlist
@@ -48,7 +49,7 @@ DJ setlist planning tool. Browse a curated artist/track library, filter by chann
 
 ```
 Vault (_data/artists.csv)     Crate (masterlist.csv)
-203 curated artists            40K+ tracks
+Curated artists                40K+ tracks
          |                              |
          +------ copy-data.sh ---------+
                       |
@@ -70,12 +71,14 @@ src/
 │   ├── login/page.tsx        # Password login
 │   └── api/
 │       ├── login/route.ts    # Auth API
-│       └── search-yt/route.ts # YouTube search proxy
+│       ├── search-yt/route.ts # YouTube search proxy
+│       └── search-sc/route.ts # SoundCloud search proxy
 ├── components/
 │   ├── filter-panel.tsx      # Channel/samay/vibe/tag/BPM filters
-│   ├── artist-list.tsx       # Scrollable artist list
+│   ├── artist-list.tsx       # Scrollable artist list (virtualized)
 │   ├── track-list.tsx        # Track table with key compatibility
 │   ├── setlist.tsx           # Setlist sidebar with transitions
+│   ├── setlist-picker.tsx    # Setlist name/switch UI
 │   ├── youtube-player.tsx    # Fixed bottom player bar
 │   └── import-modal.tsx      # Import setlist from text/CSV
 ├── lib/
@@ -101,7 +104,7 @@ src/
 | Channels | Rave, Rap, Soul |
 | Samay | Day, Night, Day/Night |
 | Desi | Desi, Non-Desi |
-| Vibes (17) | Groove, Soulful, Rowdy, Nodders, Rave, Psych, Bass, Percussive, Club, Future Beats, Pop, Lo-Fi, Dark, Global, Trap, Boom Bap, UKG |
+| Vibes (15) | Groove, Soulful, Rowdy, Nodders, Rave, Psych, Bass, Percussive, Club, Future Beats, Pop, Dark, Trap, Boom Bap, UKG |
 
 ---
 
