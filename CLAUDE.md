@@ -34,6 +34,7 @@ Auto-synced from YT Music daily at 3AM. **Safe-to-edit columns:**
 | Instrumentalness | number | From Spotify hydration |
 | Tags | pipe-separated | YT Music playlist names, e.g. `Chill\|Late Night` |
 | Soundcloud ID | number | SoundCloud track ID for SC-only tracks |
+| Source | text | Provenance: `YT Music`, `SoundCloud`, or `Tamil` |
 
 **Do NOT edit:** Track Name, Artist Name(s), Album Name, Liked, Playlist 1-5, Playlist Count, Video ID — these are overwritten by daily sync.
 

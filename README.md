@@ -157,6 +157,7 @@ DuckDB WASM queries them in the browser. No server-side database.
 | Genres, Tempo, Key, Popularity, Release Date, Instrumentalness | No | Yes |
 | Tags | No | Yes (pipe-separated) |
 | Soundcloud ID | No | Yes |
+| Source | No | Yes (`YT Music`, `SoundCloud`, `Tamil`) |
 
 ## Development
 
