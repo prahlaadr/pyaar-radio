@@ -5,6 +5,8 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 
 type SortCol = "track" | "bpm" | "key" | "dur" | null;
 type SortDir = "asc" | "desc";
+type ViewMode = "all" | "albums";
+type ListItem = { type: "track"; track: Track } | { type: "album"; albumName: string; count: number };
 
 interface Props {
   artist: Artist;
@@ -23,6 +25,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
   const [swipeFlash, setSwipeFlash] = useState<{ index: number; action: "add" | "play" } | null>(null);
   const [sortCol, setSortCol] = useState<SortCol>(null);
   const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const [viewMode, setViewMode] = useState<ViewMode>("all");
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const toggleSort = useCallback((col: SortCol) => {
@@ -56,10 +59,31 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
     return sortDir === "desc" ? sorted.reverse() : sorted;
   }, [tracks, sortCol, sortDir]);
 
+  const listItems = useMemo<ListItem[]>(() => {
+    if (viewMode === "all") {
+      return sortedTracks.map((track) => ({ type: "track" as const, track }));
+    }
+    const albumMap = new Map<string, Track[]>();
+    for (const track of sortedTracks) {
+      const key = track.albumName || "Unknown Album";
+      const arr = albumMap.get(key);
+      if (arr) arr.push(track);
+      else albumMap.set(key, [track]);
+    }
+    const items: ListItem[] = [];
+    for (const [albumName, albumTracks] of albumMap) {
+      items.push({ type: "album", albumName, count: albumTracks.length });
+      for (const track of albumTracks) {
+        items.push({ type: "track", track });
+      }
+    }
+    return items;
+  }, [sortedTracks, viewMode]);
+
   const rowVirtualizer = useVirtualizer({
-    count: sortedTracks.length,
+    count: listItems.length,
     getScrollElement: () => scrollRef.current,
-    estimateSize: () => 52,
+    estimateSize: (index) => listItems[index]?.type === "album" ? 36 : 52,
     overscan: 10,
   });
 
@@ -124,6 +148,20 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
         <span className="text-[10px] text-[#555] uppercase">
           {tracks.length} tracks
         </span>
+        <div className="ml-auto flex gap-1 text-[10px] uppercase tracking-wider">
+          <button
+            onClick={() => setViewMode("all")}
+            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "all" ? "bg-[#222] text-white" : "text-[#555] hover:text-white"}`}
+          >
+            All
+          </button>
+          <button
+            onClick={() => setViewMode("albums")}
+            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "albums" ? "bg-[#222] text-white" : "text-[#555] hover:text-white"}`}
+          >
+            Albums
+          </button>
+        </div>
       </div>
 
       {loading ? (
@@ -164,7 +202,23 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
               )}
               {rowVirtualizer.getVirtualItems().map((virtualRow) => {
                 const i = virtualRow.index;
-                const track = sortedTracks[i];
+                const item = listItems[i];
+                if (item.type === "album") {
+                  return (
+                    <tr
+                      key={`album-${item.albumName}`}
+                      data-index={i}
+                      ref={rowVirtualizer.measureElement}
+                      className="border-b border-[#222] bg-[#0a0a0a]"
+                    >
+                      <td colSpan={6} className="px-2 py-2">
+                        <span className="text-[10px] text-[#888] uppercase tracking-wider">{item.albumName}</span>
+                        <span className="text-[10px] text-[#444] ml-2">{item.count}</span>
+                      </td>
+                    </tr>
+                  );
+                }
+                const track = item.track;
                 const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
                 return (
                   <tr
