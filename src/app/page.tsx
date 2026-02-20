@@ -162,6 +162,8 @@ export default function Home() {
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
   const playerRef = useRef<YouTubePlayerHandle | null>(null);
   const playRandomRef = useRef<(() => void) | null>(null);
+  const prefetchRef = useRef<{ track: Track; forRadio: boolean } | null>(null);
+  const prefetchAbortRef = useRef<AbortController | null>(null);
 
   // Pick 5 random featured artists on first load
   const featuredInitialized = useRef(false);
@@ -550,6 +552,14 @@ export default function Home() {
 
   // Pure random — no BPM/key scoring, just surprise me
   const playNext = useCallback(async () => {
+    // Use prefetched track if available and matches mode
+    const pf = prefetchRef.current;
+    if (pf && !pf.forRadio) {
+      prefetchRef.current = null;
+      setNowPlaying(pf.track);
+      return;
+    }
+
     if (tamilMode) {
       if (tamilTracks.length === 0) return;
       const recentSet = new Set(recentExcludeKeys);
@@ -573,6 +583,14 @@ export default function Home() {
 
   // Radio next — BPM proximity + key compatibility scoring
   const playRadio = useCallback(async () => {
+    // Use prefetched track if available and matches mode
+    const pf = prefetchRef.current;
+    if (pf && pf.forRadio) {
+      prefetchRef.current = null;
+      setNowPlaying(pf.track);
+      return;
+    }
+
     if (tamilMode) {
       if (tamilTracks.length === 0) return;
       const currentBPM = nowPlaying?.tempo || 0;
@@ -615,6 +633,76 @@ export default function Home() {
   const handleRadioNext = useCallback(() => {
     if (radioMode) playRadio();
   }, [radioMode, playRadio]);
+
+  // --- Prefetch next track in background ---
+  const resolveVideoId = useCallback(async (trackName: string, artistNames: string): Promise<string | null> => {
+    const artist = artistNames.split(";")[0].trim();
+    const q = `${trackName} ${artist}`;
+    try {
+      const res = await fetch(`/api/search-yt?q=${encodeURIComponent(q)}`);
+      if (!res.ok) return null;
+      const data = await res.json();
+      return data.videoId || null;
+    } catch { return null; }
+  }, []);
+
+  const prefetchNext = useCallback(async (forRadio: boolean) => {
+    prefetchAbortRef.current?.abort();
+    const abort = new AbortController();
+    prefetchAbortRef.current = abort;
+
+    try {
+      let nextTrack: Track | null = null;
+
+      if (tamilMode) {
+        if (tamilTracks.length === 0) return;
+        const recentSet = new Set(recentExcludeKeys);
+        const candidates = tamilTracks.filter(
+          (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+        );
+        const pool = candidates.length > 0 ? candidates : tamilTracks;
+        if (forRadio && nowPlaying?.tempo) {
+          const scored = pool.map((t) => ({
+            track: t,
+            score: Math.max(0, 30 - Math.abs((t.tempo || 0) - (nowPlaying?.tempo || 0))) + Math.random() * 15,
+          }));
+          scored.sort((a, b) => b.score - a.score);
+          nextTrack = scored[0].track;
+        } else {
+          nextTrack = pool[Math.floor(Math.random() * pool.length)];
+        }
+      } else {
+        if (artists.length === 0) return;
+        const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
+        const currentBPM = forRadio ? (nowPlaying?.tempo || 0) : 0;
+        const currentKey = forRadio ? nowPlaying?.key : undefined;
+        const compatKeys = currentKey != null && currentKey >= 0 ? getCompatibleKeys(currentKey) : undefined;
+        const sql = buildScoredRandomQuery(radioArtists, currentBPM, compatKeys, recentExcludeKeys);
+        const rows = await query<TrackRow>(sql);
+        if (rows.length > 0) nextTrack = rowToTrack(rows[0]);
+      }
+
+      if (abort.signal.aborted || !nextTrack) return;
+
+      // Pre-resolve videoId if missing
+      if (!nextTrack.videoId) {
+        const vid = await resolveVideoId(nextTrack.trackName, nextTrack.artistNames);
+        if (abort.signal.aborted) return;
+        if (vid) nextTrack = { ...nextTrack, videoId: vid };
+      }
+
+      if (!abort.signal.aborted) {
+        prefetchRef.current = { track: nextTrack, forRadio };
+      }
+    } catch {}
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, resolveVideoId]);
+
+  // Trigger prefetch when song starts playing
+  useEffect(() => {
+    if (!nowPlaying) return;
+    const timer = setTimeout(() => prefetchNext(radioMode), 1000);
+    return () => clearTimeout(timer);
+  }, [nowPlaying, radioMode, prefetchNext]);
 
   const handleImport = useCallback(async (lines: { track: string; artist: string }[]) => {
     try {
