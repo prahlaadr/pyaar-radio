@@ -52,7 +52,7 @@ async function init() {
     CREATE TABLE artists AS SELECT * FROM read_csv('artists.csv', delim=',', header=true, auto_detect=false, columns={'artist':'VARCHAR','aliases':'VARCHAR','channel':'VARCHAR','samay':'VARCHAR','desi':'VARCHAR','vibes':'VARCHAR','bpm_low':'INT','bpm_high':'INT'})
   `);
   await conn.query(`
-    CREATE TABLE masterlist AS SELECT * FROM read_csv_auto('masterlist.csv', all_varchar=true)
+    CREATE TABLE masterlist AS SELECT * FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false)
   `);
   try {
     await conn.query(`
