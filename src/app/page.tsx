@@ -750,6 +750,11 @@ export default function Home() {
       return;
     }
 
+    if (browseView === "tracks" && filteredTracks.length > 0) {
+      pickRandomFromPool(filteredTracks);
+      return;
+    }
+
     if (artists.length === 0) return;
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
 
@@ -758,7 +763,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool]);
+  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool, browseView, filteredTracks]);
 
   // Radio next — BPM proximity + key compatibility scoring
   const playRadio = useCallback(async () => {
@@ -801,6 +806,11 @@ export default function Home() {
       return;
     }
 
+    if (browseView === "tracks" && filteredTracks.length > 0) {
+      pickBpmScored(filteredTracks);
+      return;
+    }
+
     if (artists.length === 0) return;
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
     const currentBPM = nowPlaying?.tempo || 0;
@@ -812,7 +822,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, browseView, filteredTracks]);
 
   // Autoplay from URL param (?autoplay=1) — one-shot on first load
   useEffect(() => {
@@ -894,6 +904,8 @@ export default function Home() {
         nextTrack = pickFromPool(tamilTracks);
       } else if (sectionMode === "downtempo" || sectionMode === "ambient") {
         nextTrack = pickFromPool(sectionTracks);
+      } else if (browseView === "tracks" && filteredTracks.length > 0) {
+        nextTrack = pickFromPool(filteredTracks);
       } else {
         if (artists.length === 0) return;
         const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
@@ -918,7 +930,7 @@ export default function Home() {
         prefetchRef.current = { track: nextTrack, forRadio };
       }
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, resolveVideoId]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, resolveVideoId, browseView, filteredTracks]);
 
   // Trigger prefetch when song starts playing
   useEffect(() => {
