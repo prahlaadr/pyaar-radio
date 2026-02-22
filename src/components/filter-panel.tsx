@@ -9,6 +9,8 @@ const VIBES = [
   "Trap", "Boom Bap", "UKG",
 ] as const;
 
+export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient";
+
 interface Props {
   filters: ArtistFilters;
   onChange: (filters: ArtistFilters) => void;
@@ -21,7 +23,21 @@ interface Props {
   tamilBpmMax?: number;
   onTamilBpmChange?: (min: number, max: number) => void;
   tamilTrackCount?: number;
+  sectionMode?: SectionMode;
+  onSectionToggle?: (section: SectionMode) => void;
+  sectionSearch?: string;
+  onSectionSearchChange?: (search: string) => void;
+  sectionBpmMin?: number;
+  sectionBpmMax?: number;
+  onSectionBpmChange?: (min: number, max: number) => void;
+  sectionTrackCount?: number;
 }
+
+const SECTION_STYLES: Record<string, { hover: string; active: string; text: string; border: string }> = {
+  tamil: { hover: "hover:text-amber-400", active: "bg-amber-600 text-white", text: "text-amber-400", border: "focus:border-amber-500" },
+  downtempo: { hover: "hover:text-cyan-400", active: "bg-cyan-600 text-white", text: "text-cyan-400", border: "focus:border-cyan-500" },
+  ambient: { hover: "hover:text-purple-400", active: "bg-purple-600 text-white", text: "text-purple-400", border: "focus:border-purple-500" },
+};
 
 export function FilterPanel({
   filters, onChange, artistCount,
@@ -29,6 +45,10 @@ export function FilterPanel({
   tamilSearch, onTamilSearchChange,
   tamilBpmMin = 0, tamilBpmMax = 300, onTamilBpmChange,
   tamilTrackCount,
+  sectionMode = "browse", onSectionToggle,
+  sectionSearch, onSectionSearchChange,
+  sectionBpmMin = 0, sectionBpmMax = 300, onSectionBpmChange,
+  sectionTrackCount,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
 
@@ -65,19 +85,28 @@ export function FilterPanel({
         <input
           type="text"
           placeholder="SEARCH..."
-          value={tamilMode ? (tamilSearch ?? "") : filters.search}
+          value={
+            tamilMode ? (tamilSearch ?? "") :
+            (sectionMode === "downtempo" || sectionMode === "ambient") ? (sectionSearch ?? "") :
+            filters.search
+          }
           onChange={(e) => {
             if (tamilMode && onTamilSearchChange) {
               onTamilSearchChange(e.target.value);
+            } else if ((sectionMode === "downtempo" || sectionMode === "ambient") && onSectionSearchChange) {
+              onSectionSearchChange(e.target.value);
             } else {
               onChange({ ...filters, search: e.target.value });
             }
           }}
           className={`flex-1 px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none transition-colors ${
-            tamilMode ? "focus:border-amber-500" : "focus:border-red-500"
+            tamilMode ? "focus:border-amber-500" :
+            sectionMode === "downtempo" ? "focus:border-cyan-500" :
+            sectionMode === "ambient" ? "focus:border-purple-500" :
+            "focus:border-red-500"
           }`}
         />
-        {!tamilMode && (
+        {!tamilMode && sectionMode === "browse" && (
           <button
             onClick={() => setExpanded(!expanded)}
             className="md:hidden px-2 py-1.5 bg-[#111] border border-[#333] text-[10px] uppercase tracking-wider text-[#888] hover:text-white transition-colors shrink-0"
@@ -88,8 +117,8 @@ export function FilterPanel({
       </div>
 
       {/* Filter body — always visible on desktop, toggle on mobile */}
-      <div className={`space-y-3 ${tamilMode ? "" : expanded ? "" : "hidden md:block"}`}>
-        {!tamilMode && (
+      <div className={`space-y-3 ${(tamilMode || sectionMode !== "browse") ? "" : expanded ? "" : "hidden md:block"}`}>
+        {!tamilMode && sectionMode === "browse" && (
           <>
             {/* Channels */}
             <div className="flex gap-1">
@@ -143,6 +172,22 @@ export function FilterPanel({
                   Tamil
                 </button>
               )}
+              {onSectionToggle && (
+                <>
+                  <button
+                    onClick={() => onSectionToggle("downtempo")}
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-cyan-400"
+                  >
+                    Downtempo
+                  </button>
+                  <button
+                    onClick={() => onSectionToggle("ambient")}
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-purple-400"
+                  >
+                    Ambient
+                  </button>
+                </>
+              )}
             </div>
 
             {/* Vibes */}
@@ -179,17 +224,38 @@ export function FilterPanel({
           </div>
         )}
 
-        {/* BPM Range — shown in both modes */}
+        {/* Section mode header (Downtempo / Ambient) */}
+        {(sectionMode === "downtempo" || sectionMode === "ambient") && onSectionToggle && (
+          <div className="flex gap-1 flex-wrap items-center">
+            <button
+              onClick={() => onSectionToggle("browse")}
+              className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${SECTION_STYLES[sectionMode].active}`}
+            >
+              {sectionMode}
+            </button>
+            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1">
+              &larr; back to all
+            </span>
+          </div>
+        )}
+
+        {/* BPM Range — shown in all modes */}
         <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
           <span>BPM</span>
           <input
             type="text"
             inputMode="numeric"
-            value={tamilMode ? (tamilBpmMin || "") : (filters.bpmMin || "")}
+            value={
+              tamilMode ? (tamilBpmMin || "") :
+              (sectionMode === "downtempo" || sectionMode === "ambient") ? (sectionBpmMin || "") :
+              (filters.bpmMin || "")
+            }
             onChange={(e) => {
               const val = Number(e.target.value.replace(/\D/g, "")) || 0;
               if (tamilMode && onTamilBpmChange) {
                 onTamilBpmChange(val, tamilBpmMax);
+              } else if ((sectionMode === "downtempo" || sectionMode === "ambient") && onSectionBpmChange) {
+                onSectionBpmChange(val, sectionBpmMax);
               } else {
                 onChange({ ...filters, bpmMin: val });
               }
@@ -201,11 +267,17 @@ export function FilterPanel({
           <input
             type="text"
             inputMode="numeric"
-            value={tamilMode ? (tamilBpmMax < 300 ? tamilBpmMax : "") : (filters.bpmMax < 300 ? filters.bpmMax : "")}
+            value={
+              tamilMode ? (tamilBpmMax < 300 ? tamilBpmMax : "") :
+              (sectionMode === "downtempo" || sectionMode === "ambient") ? (sectionBpmMax < 300 ? sectionBpmMax : "") :
+              (filters.bpmMax < 300 ? filters.bpmMax : "")
+            }
             onChange={(e) => {
               const val = Number(e.target.value.replace(/\D/g, "")) || 300;
               if (tamilMode && onTamilBpmChange) {
                 onTamilBpmChange(tamilBpmMin, val);
+              } else if ((sectionMode === "downtempo" || sectionMode === "ambient") && onSectionBpmChange) {
+                onSectionBpmChange(sectionBpmMin, val);
               } else {
                 onChange({ ...filters, bpmMax: val });
               }
@@ -213,7 +285,7 @@ export function FilterPanel({
             placeholder="max"
             className="w-14 px-2 py-0.5 bg-[#111] border border-[#333] text-xs text-white appearance-none"
           />
-          {!tamilMode && (filters.bpmMin > 0 || filters.bpmMax < 300) && (
+          {!tamilMode && sectionMode === "browse" && (filters.bpmMin > 0 || filters.bpmMax < 300) && (
             <button
               onClick={() => onChange({ ...filters, halfTime: !filters.halfTime })}
               className={`px-2 py-0.5 transition-colors ${
@@ -234,6 +306,14 @@ export function FilterPanel({
         tamilTrackCount !== undefined && (
           <div className="text-[10px] text-amber-600/70 uppercase tracking-wider">
             {tamilTrackCount} track{tamilTrackCount !== 1 ? "s" : ""}
+          </div>
+        )
+      ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
+        sectionTrackCount !== undefined && (
+          <div className={`text-[10px] uppercase tracking-wider ${
+            sectionMode === "downtempo" ? "text-cyan-600/70" : "text-purple-600/70"
+          }`}>
+            {sectionTrackCount} track{sectionTrackCount !== 1 ? "s" : ""}
           </div>
         )
       ) : (

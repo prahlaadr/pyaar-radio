@@ -2,11 +2,11 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
-import { FilterPanel } from "@/components/filter-panel";
+import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
 import { SetlistPanel } from "@/components/setlist";
@@ -169,6 +169,11 @@ export default function Home() {
   const [tamilSearch, setTamilSearch] = useState("");
   const [tamilBpmMin, setTamilBpmMin] = useState(0);
   const [tamilBpmMax, setTamilBpmMax] = useState(300);
+  const [sectionMode, setSectionMode] = useState<SectionMode>("browse");
+  const [sectionTracks, setSectionTracks] = useState<Track[]>([]);
+  const [sectionSearch, setSectionSearch] = useState("");
+  const [sectionBpmMin, setSectionBpmMin] = useState(0);
+  const [sectionBpmMax, setSectionBpmMax] = useState(300);
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
@@ -492,6 +497,48 @@ export default function Home() {
     })();
   }, [tamilMode, tamilSearch, tamilBpmMin, tamilBpmMax]);
 
+  // Section mode (Downtempo / Ambient): query masterlist by tag
+  useEffect(() => {
+    if (sectionMode !== "downtempo" && sectionMode !== "ambient") {
+      setSectionTracks([]);
+      return;
+    }
+    const tag = sectionMode === "downtempo" ? "Downtempo" : "Ambient";
+    (async () => {
+      try {
+        const sql = buildTagSectionQuery(tag, sectionSearch, sectionBpmMin, sectionBpmMax);
+        const rows = await query<{
+          trackName: string;
+          artistNames: string;
+          albumName: string;
+          genres: string | null;
+          tempo: number | null;
+          duration: string;
+          key: number | null;
+          popularity: number | null;
+          videoId: string;
+          soundcloudId: string | null;
+        }>(sql);
+        setSectionTracks(
+          rows.map((r) => ({
+            trackName: r.trackName || "",
+            artistNames: r.artistNames || "",
+            albumName: r.albumName || "",
+            genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+            tempo: Number(r.tempo) || 0,
+            duration: r.duration || "",
+            key: Number(r.key) || 0,
+            popularity: Number(r.popularity) || 0,
+            videoId: r.videoId || "",
+            soundcloudId: r.soundcloudId || "",
+          }))
+        );
+      } catch {
+        setSectionTracks([]);
+      }
+    })();
+  }, [sectionMode, sectionSearch, sectionBpmMin, sectionBpmMax]);
+
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
     try {
@@ -603,6 +650,17 @@ export default function Home() {
     [recentlyPlayed]
   );
 
+  // Helper: pick random from a track pool, avoiding recents
+  const pickRandomFromPool = useCallback((pool: Track[]) => {
+    if (pool.length === 0) return;
+    const recentSet = new Set(recentExcludeKeys);
+    const candidates = pool.filter(
+      (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
+    );
+    const finalPool = candidates.length > 0 ? candidates : pool;
+    setNowPlaying(finalPool[Math.floor(Math.random() * finalPool.length)]);
+  }, [recentExcludeKeys]);
+
   // Pure random — no BPM/key scoring, just surprise me
   const playNext = useCallback(async () => {
     // Use prefetched track if available and matches mode
@@ -614,13 +672,12 @@ export default function Home() {
     }
 
     if (tamilMode) {
-      if (tamilTracks.length === 0) return;
-      const recentSet = new Set(recentExcludeKeys);
-      const candidates = tamilTracks.filter(
-        (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
-      );
-      const pool = candidates.length > 0 ? candidates : tamilTracks;
-      setNowPlaying(pool[Math.floor(Math.random() * pool.length)]);
+      pickRandomFromPool(tamilTracks);
+      return;
+    }
+
+    if (sectionMode === "downtempo" || sectionMode === "ambient") {
+      pickRandomFromPool(sectionTracks);
       return;
     }
 
@@ -632,7 +689,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks]);
+  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool]);
 
   // Radio next — BPM proximity + key compatibility scoring
   const playRadio = useCallback(async () => {
@@ -644,26 +701,34 @@ export default function Home() {
       return;
     }
 
-    if (tamilMode) {
-      if (tamilTracks.length === 0) return;
-      const currentBPM = nowPlaying?.tempo || 0;
+    // Helper: pick from pool with BPM scoring
+    const pickBpmScored = (pool: Track[]) => {
+      if (pool.length === 0) return;
       const recentSet = new Set(recentExcludeKeys);
-      const candidates = tamilTracks.filter(
+      const candidates = pool.filter(
         (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
       );
-      const pool = candidates.length > 0 ? candidates : tamilTracks;
-
+      const finalPool = candidates.length > 0 ? candidates : pool;
+      const currentBPM = nowPlaying?.tempo || 0;
       if (currentBPM > 0) {
-        // Score by BPM proximity + randomness
-        const scored = pool.map((t) => ({
+        const scored = finalPool.map((t) => ({
           track: t,
           score: Math.max(0, 30 - Math.abs((t.tempo || 0) - currentBPM)) + Math.random() * 15,
         }));
         scored.sort((a, b) => b.score - a.score);
         setNowPlaying(scored[0].track);
       } else {
-        setNowPlaying(pool[Math.floor(Math.random() * pool.length)]);
+        setNowPlaying(finalPool[Math.floor(Math.random() * finalPool.length)]);
       }
+    };
+
+    if (tamilMode) {
+      pickBpmScored(tamilTracks);
+      return;
+    }
+
+    if (sectionMode === "downtempo" || sectionMode === "ambient") {
+      pickBpmScored(sectionTracks);
       return;
     }
 
@@ -678,7 +743,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks]);
 
   // --- Setlist playback ---
   const playFromSetlist = useCallback((track: SetlistTrack, index: number) => {
@@ -728,23 +793,29 @@ export default function Home() {
     try {
       let nextTrack: Track | null = null;
 
-      if (tamilMode) {
-        if (tamilTracks.length === 0) return;
+      // Pick from section/tamil pool or from artist radio
+      const pickFromPool = (pool: Track[]): Track | null => {
+        if (pool.length === 0) return null;
         const recentSet = new Set(recentExcludeKeys);
-        const candidates = tamilTracks.filter(
+        const candidates = pool.filter(
           (t) => !recentSet.has(`${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`)
         );
-        const pool = candidates.length > 0 ? candidates : tamilTracks;
+        const finalPool = candidates.length > 0 ? candidates : pool;
         if (forRadio && nowPlaying?.tempo) {
-          const scored = pool.map((t) => ({
+          const scored = finalPool.map((t) => ({
             track: t,
             score: Math.max(0, 30 - Math.abs((t.tempo || 0) - (nowPlaying?.tempo || 0))) + Math.random() * 15,
           }));
           scored.sort((a, b) => b.score - a.score);
-          nextTrack = scored[0].track;
-        } else {
-          nextTrack = pool[Math.floor(Math.random() * pool.length)];
+          return scored[0].track;
         }
+        return finalPool[Math.floor(Math.random() * finalPool.length)];
+      };
+
+      if (tamilMode) {
+        nextTrack = pickFromPool(tamilTracks);
+      } else if (sectionMode === "downtempo" || sectionMode === "ambient") {
+        nextTrack = pickFromPool(sectionTracks);
       } else {
         if (artists.length === 0) return;
         const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
@@ -769,7 +840,7 @@ export default function Home() {
         prefetchRef.current = { track: nextTrack, forRadio };
       }
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, resolveVideoId]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, resolveVideoId]);
 
   // Trigger prefetch when song starts playing
   useEffect(() => {
@@ -1227,13 +1298,31 @@ export default function Home() {
               onChange={setFilters}
               artistCount={artists.length}
               tamilMode={tamilMode}
-              onTamilToggle={() => setTamilMode((v) => !v)}
+              onTamilToggle={() => { setTamilMode((v) => !v); setSectionMode("browse"); }}
               tamilSearch={tamilSearch}
               onTamilSearchChange={setTamilSearch}
               tamilBpmMin={tamilBpmMin}
               tamilBpmMax={tamilBpmMax}
               onTamilBpmChange={(min, max) => { setTamilBpmMin(min); setTamilBpmMax(max); }}
               tamilTrackCount={tamilTracks.length}
+              sectionMode={sectionMode}
+              onSectionToggle={(section) => {
+                if (section === "browse") {
+                  setSectionMode("browse");
+                } else {
+                  setSectionMode(section);
+                  setTamilMode(false);
+                  setSectionSearch("");
+                  setSectionBpmMin(0);
+                  setSectionBpmMax(300);
+                }
+              }}
+              sectionSearch={sectionSearch}
+              onSectionSearchChange={setSectionSearch}
+              sectionBpmMin={sectionBpmMin}
+              sectionBpmMax={sectionBpmMax}
+              onSectionBpmChange={(min, max) => { setSectionBpmMin(min); setSectionBpmMax(max); }}
+              sectionTrackCount={sectionTracks.length}
             />
 
             {loading ? (
@@ -1285,6 +1374,69 @@ export default function Home() {
                         <button
                           onClick={() => addToSetlist(track)}
                           className="text-[#333] hover:text-amber-500 transition-colors text-sm font-bold"
+                          title="Add to setlist"
+                        >
+                          +
+                        </button>
+                      </div>
+                    );
+                  })
+                )}
+              </div>
+            ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
+              <div className="flex-1 overflow-y-auto">
+                {sectionTracks.length === 0 ? (
+                  <div className="flex-1 flex items-center justify-center py-20">
+                    <p className="text-[#444] text-xs uppercase tracking-widest">
+                      {sectionSearch ? "No results" : `No ${sectionMode} tracks tagged yet`}
+                    </p>
+                  </div>
+                ) : (
+                  sectionTracks.map((track, i) => {
+                    const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+                    const accentColor = sectionMode === "downtempo" ? "cyan" : "purple";
+                    return (
+                      <div
+                        key={`${sectionMode}-${track.trackName}-${i}`}
+                        className={`px-3 md:px-5 py-2 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
+                          isPlaying ? (sectionMode === "downtempo" ? "bg-cyan-950/30" : "bg-purple-950/30") : ""
+                        }`}
+                        onDoubleClick={() => addToSetlist(track)}
+                      >
+                        <button
+                          onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
+                          className={`text-[#555] transition-colors text-[10px] ${
+                            sectionMode === "downtempo" ? "hover:text-cyan-400" : "hover:text-purple-400"
+                          }`}
+                          title="Play"
+                        >
+                          &#9654;
+                        </button>
+                        <div className="flex-1 min-w-0">
+                          <div className={`text-xs truncate transition-colors ${
+                            isPlaying
+                              ? (accentColor === "cyan" ? "text-cyan-400" : "text-purple-400")
+                              : "text-[#ccc] group-hover:text-white"
+                          }`}>
+                            {track.trackName}
+                          </div>
+                          <div className="text-[10px] text-[#555] truncate">
+                            {track.artistNames.split(";")[0]}{track.albumName ? ` · ${track.albumName}` : ""}
+                          </div>
+                        </div>
+                        {track.genres && track.genres.length > 0 && (
+                          <span className="text-[10px] text-[#333] hidden sm:inline truncate max-w-24">
+                            {track.genres[0]}
+                          </span>
+                        )}
+                        <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                          {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+                        </span>
+                        <button
+                          onClick={() => addToSetlist(track)}
+                          className={`text-[#333] transition-colors text-sm font-bold ${
+                            sectionMode === "downtempo" ? "hover:text-cyan-500" : "hover:text-purple-500"
+                          }`}
                           title="Add to setlist"
                         >
                           +

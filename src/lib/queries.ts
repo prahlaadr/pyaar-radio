@@ -200,6 +200,43 @@ export function buildTagRadioQuery(tags: string[]): string {
   `;
 }
 
+export function buildTagSectionQuery(tag: string, search: string, bpmMin: number, bpmMax: number): string {
+  const conditions: string[] = [];
+  const escapedTag = tag.replace(/'/g, "''");
+  conditions.push(`Tags ILIKE '%${escapedTag}%'`);
+
+  if (search) {
+    const s = search.replace(/'/g, "''");
+    conditions.push(`("Track Name" ILIKE '%${s}%' OR "Artist Name(s)" ILIKE '%${s}%' OR "Album Name" ILIKE '%${s}%')`);
+  }
+
+  if (bpmMin > 0) {
+    conditions.push(`TRY_CAST(Tempo AS FLOAT) >= ${bpmMin}`);
+  }
+  if (bpmMax < 300) {
+    conditions.push(`TRY_CAST(Tempo AS FLOAT) <= ${bpmMax}`);
+  }
+
+  const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId
+    FROM masterlist
+    ${where}
+    ORDER BY "Artist Name(s)", "Track Name"
+  `;
+}
+
 export function buildTamilQuery(search: string, bpmMin: number, bpmMax: number): string {
   const conditions: string[] = [];
 
