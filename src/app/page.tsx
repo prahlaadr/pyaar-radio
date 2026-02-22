@@ -30,8 +30,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -68,13 +68,13 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const tab = p.get("tab") as "browse" | "setlists" | null;
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
+  const tamil = window.location.pathname === "/tamil";
 
-  return { filters, artist, tab, track, autoplay };
+  return { filters, artist, tab, track, autoplay, tamil };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean): string {
   const p = new URLSearchParams();
-
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
   if (filters.samay) p.set("samay", filters.samay);
   if (filters.desi) p.set("desi", filters.desi);
@@ -87,7 +87,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (tab === "setlists") p.set("tab", "setlists");
   if (trackVideoId) p.set("t", trackVideoId);
 
-  const basePath = artistName ? `/artist/${slugify(artistName)}` : "/";
+  const basePath = tamil ? "/tamil" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
   return str ? `${basePath}?${str}` : basePath;
 }
@@ -167,7 +167,7 @@ export default function Home() {
   const [radioMode, setRadioMode] = useState(false);
   const [setlistMode, setSetlistMode] = useState(false);
   const setlistIndexRef = useRef(-1);
-  const [tamilMode, setTamilMode] = useState(false);
+  const [tamilMode, setTamilMode] = useState(urlInit.current.tamil);
   const [tamilTracks, setTamilTracks] = useState<Track[]>([]);
   const [tamilSearch, setTamilSearch] = useState("");
   const [tamilBpmMin, setTamilBpmMin] = useState(0);
@@ -273,17 +273,17 @@ export default function Home() {
   }, [loading]);
 
   const buildShareUrl = useCallback(() => {
-    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab);
+    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode);
     const base = window.location.origin;
     const sep = params.includes("?") ? "&" : "?";
     return `${base}${params}${sep}autoplay=1`;
-  }, [filters, selectedArtist, tab]);
+  }, [filters, selectedArtist, tab, tamilMode]);
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab, nowPlaying]);
+  }, [filters, selectedArtist, tab, nowPlaying, tamilMode]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
