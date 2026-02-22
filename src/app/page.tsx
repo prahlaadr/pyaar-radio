@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery, buildFilteredTracksQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
@@ -30,8 +30,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; view: "artists" | "tracks" } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, view: "artists" };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -69,11 +69,12 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
   const tamil = window.location.pathname === "/tamil";
+  const view = p.get("view") === "tracks" ? "tracks" as const : "artists" as const;
 
-  return { filters, artist, tab, track, autoplay, tamil };
+  return { filters, artist, tab, track, autoplay, tamil, view };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks"): string {
   const p = new URLSearchParams();
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
   if (filters.samay) p.set("samay", filters.samay);
@@ -86,6 +87,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (filters.search) p.set("q", filters.search);
   if (tab === "setlists") p.set("tab", "setlists");
   if (trackVideoId) p.set("t", trackVideoId);
+  if (browseView === "tracks") p.set("view", "tracks");
 
   const basePath = tamil ? "/tamil" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
@@ -172,6 +174,9 @@ export default function Home() {
   const [tamilSearch, setTamilSearch] = useState("");
   const [tamilBpmMin, setTamilBpmMin] = useState(0);
   const [tamilBpmMax, setTamilBpmMax] = useState(300);
+  const [browseView, setBrowseView] = useState<"artists" | "tracks">(urlInit.current.view);
+  const [filteredTracks, setFilteredTracks] = useState<Track[]>([]);
+  const [filteredTracksLoading, setFilteredTracksLoading] = useState(false);
   const [sectionMode, setSectionMode] = useState<SectionMode>("browse");
   const [sectionTracks, setSectionTracks] = useState<Track[]>([]);
   const [sectionSearch, setSectionSearch] = useState("");
@@ -273,17 +278,17 @@ export default function Home() {
   }, [loading]);
 
   const buildShareUrl = useCallback(() => {
-    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode);
+    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode, browseView);
     const base = window.location.origin;
     const sep = params.includes("?") ? "&" : "?";
     return `${base}${params}${sep}autoplay=1`;
-  }, [filters, selectedArtist, tab, tamilMode]);
+  }, [filters, selectedArtist, tab, tamilMode, browseView]);
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab, nowPlaying, tamilMode]);
+  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
@@ -514,6 +519,46 @@ export default function Home() {
     })();
   }, [tamilMode, tamilSearch, tamilBpmMin, tamilBpmMax]);
 
+  // Filtered tracks view: all tracks for current filtered artists + BPM
+  useEffect(() => {
+    if (browseView !== "tracks" || artists.length === 0 || selectedArtist || tamilMode || sectionMode !== "browse") {
+      if (browseView === "tracks" && (selectedArtist || tamilMode || sectionMode !== "browse")) {
+        setBrowseView("artists");
+      }
+      setFilteredTracks([]);
+      return;
+    }
+    setFilteredTracksLoading(true);
+    const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
+    const sql = buildFilteredTracksQuery(radioArtists, filters.bpmMin, filters.bpmMax, filters.halfTime);
+    (async () => {
+      try {
+        const rows = await query<{
+          trackName: string; artistNames: string; albumName: string;
+          genres: string | null; tempo: number | null; duration: string;
+          key: number | null; popularity: number | null; videoId: string;
+          soundcloudId: string | null; bandcampId: string | null;
+        }>(sql);
+        setFilteredTracks(rows.map((r) => ({
+          trackName: r.trackName,
+          artistNames: r.artistNames,
+          albumName: r.albumName || "",
+          genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+          tempo: Number(r.tempo) || 0,
+          duration: r.duration || "",
+          key: Number(r.key) || 0,
+          popularity: Number(r.popularity) || 0,
+          videoId: r.videoId || "",
+          soundcloudId: r.soundcloudId || "",
+          bandcampId: r.bandcampId || "",
+        })));
+      } catch {
+        setFilteredTracks([]);
+      }
+      setFilteredTracksLoading(false);
+    })();
+  }, [browseView, artists, filters.bpmMin, filters.bpmMax, filters.halfTime, selectedArtist, tamilMode, sectionMode]);
+
   // Section mode (Downtempo / Ambient): query masterlist by tag
   useEffect(() => {
     if (sectionMode !== "downtempo" && sectionMode !== "ambient") {
@@ -599,6 +644,7 @@ export default function Home() {
 
   const handleSelectArtist = useCallback(async (artist: Artist | null) => {
     setSelectedArtist(artist);
+    if (artist) setBrowseView("artists");
     if (!artist) {
       setTracks([]);
       return;
@@ -1619,14 +1665,101 @@ export default function Home() {
                 )}
                 {artists.length > 0 && (
                   <>
-                    {(searchTracks.length > 0 || (!filtersActive && featuredArtists.length > 0)) && (
-                      <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                        <span className="text-[10px] text-[#555] uppercase tracking-wider">
-                          {searchTracks.length > 0 ? `Artists (${artists.length})` : "All Artists"}
-                        </span>
+                    <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
+                      <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                        {browseView === "tracks"
+                          ? `Tracks (${filteredTracksLoading ? "…" : filteredTracks.length})`
+                          : searchTracks.length > 0
+                            ? `Artists (${artists.length})`
+                            : filtersActive
+                              ? `${artists.length} Artists`
+                              : "All Artists"
+                        }
+                      </span>
+                      {filtersActive && !filters.search && (
+                        <div className="flex gap-0.5">
+                          <button
+                            onClick={() => setBrowseView("artists")}
+                            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                              browseView === "artists"
+                                ? "bg-[#333] text-white"
+                                : "bg-[#111] text-[#555] hover:text-[#888]"
+                            }`}
+                          >
+                            Artists
+                          </button>
+                          <button
+                            onClick={() => setBrowseView("tracks")}
+                            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                              browseView === "tracks"
+                                ? "bg-[#333] text-white"
+                                : "bg-[#111] text-[#555] hover:text-[#888]"
+                            }`}
+                          >
+                            Tracks
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                    {browseView === "tracks" && filtersActive && !filters.search ? (
+                      <div className="flex-1">
+                        {filteredTracksLoading ? (
+                          <div className="flex items-center justify-center py-12">
+                            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
+                          </div>
+                        ) : filteredTracks.length === 0 ? (
+                          <div className="flex items-center justify-center py-12">
+                            <p className="text-[#444] text-xs uppercase tracking-widest">No tracks match</p>
+                          </div>
+                        ) : (
+                          filteredTracks.map((track, i) => {
+                            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+                            return (
+                              <div
+                                key={`ft-${track.trackName}-${track.artistNames}-${i}`}
+                                className={`px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
+                                  isPlaying ? "bg-red-950/40" : ""
+                                }`}
+                                onDoubleClick={() => addToSetlist(track)}
+                              >
+                                <button
+                                  onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
+                                  className="text-[#555] hover:text-white transition-colors text-[10px]"
+                                  title="Play"
+                                >
+                                  &#9654;
+                                </button>
+                                <div className="flex-1 min-w-0">
+                                  <div className={`text-xs truncate transition-colors ${
+                                    isPlaying ? "text-red-400" : "text-[#ccc] group-hover:text-white"
+                                  }`}>
+                                    {track.trackName}
+                                  </div>
+                                  <div className="text-[10px] text-[#444] truncate">
+                                    {track.artistNames.split(";")[0]}
+                                  </div>
+                                </div>
+                                <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                                  {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+                                </span>
+                                <span className="text-[10px] text-[#333] hidden sm:inline">
+                                  {track.duration || "—"}
+                                </span>
+                                <button
+                                  onClick={() => addToSetlist(track)}
+                                  className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
+                                  title="Add to setlist"
+                                >
+                                  +
+                                </button>
+                              </div>
+                            );
+                          })
+                        )}
                       </div>
+                    ) : (
+                      <ArtistList artists={artists} onSelect={handleSelectArtist} />
                     )}
-                    <ArtistList artists={artists} onSelect={handleSelectArtist} />
                   </>
                 )}
                 {searchTracks.length === 0 && artists.length === 0 && (

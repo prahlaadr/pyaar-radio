@@ -172,6 +172,57 @@ export function buildScoredRandomQuery(
   `;
 }
 
+export function buildFilteredTracksQuery(
+  artists: RadioArtist[],
+  bpmMin = 0,
+  bpmMax = 300,
+  halfTime = false,
+): string {
+  const artistConditions = artists.map((a) => {
+    const allNames = [a.artist, ...a.aliases];
+    return allNames.map((name) => {
+      const escaped = name.replace(/'/g, "''");
+      return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
+    }).join(" OR ");
+  }).map((c) => `(${c})`).join(" OR ");
+
+  const conditions = [`(${artistConditions})`];
+
+  if (bpmMin > 0 || bpmMax < 300) {
+    const min = bpmMin > 0 ? bpmMin : 0;
+    const max = bpmMax < 300 ? bpmMax : 999;
+    const tempo = "TRY_CAST(Tempo AS FLOAT)";
+    if (halfTime) {
+      const halfMin = Math.round(min / 2);
+      const halfMax = Math.round(max / 2);
+      const doubleMin = min * 2;
+      const doubleMax = max * 2;
+      conditions.push(`(${tempo} IS NOT NULL AND ((${tempo} >= ${min} AND ${tempo} <= ${max}) OR (${tempo} >= ${halfMin} AND ${tempo} <= ${halfMax}) OR (${tempo} >= ${doubleMin} AND ${tempo} <= ${doubleMax})))`);
+    } else {
+      if (bpmMin > 0) conditions.push(`${tempo} >= ${min}`);
+      if (bpmMax < 300) conditions.push(`${tempo} <= ${max}`);
+    }
+  }
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
+    FROM masterlist
+    WHERE ${conditions.join(" AND ")}
+    ORDER BY "Artist Name(s)", TRY_CAST(Tempo AS FLOAT) DESC
+  `;
+}
+
 export function buildAvailableTagsQuery(): string {
   return `
     SELECT DISTINCT unnest(string_split(Tags, '|')) as tag
