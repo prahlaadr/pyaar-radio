@@ -30,8 +30,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -67,8 +67,9 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   }
   const tab = p.get("tab") as "browse" | "setlists" | null;
   const track = p.get("t");
+  const autoplay = p.get("autoplay") === "1";
 
-  return { filters, artist, tab, track };
+  return { filters, artist, tab, track, autoplay };
 }
 
 function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null): string {
@@ -157,6 +158,8 @@ export default function Home() {
   const [tab, setTab] = useState<"browse" | "setlists">(urlInit.current.tab || "browse");
   const pendingArtist = useRef<string | null>(urlInit.current.artist);
   const pendingTrack = useRef<string | null>(urlInit.current.track);
+  const pendingAutoplay = useRef(urlInit.current.autoplay);
+  const [shareCopied, setShareCopied] = useState(false);
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
@@ -210,6 +213,7 @@ export default function Home() {
         genres: string | null; tempo: number | null; duration: string;
         key: number | null; popularity: number | null; videoId: string;
         soundcloudId: string | null;
+        bandcampId: string | null;
       }>(sql).then((rows) => {
         setTracks(rows.map((r) => ({
           trackName: r.trackName, artistNames: r.artistNames,
@@ -218,6 +222,7 @@ export default function Home() {
           tempo: Number(r.tempo) || 0, duration: r.duration || "",
           key: Number(r.key) || 0, popularity: Number(r.popularity) || 0,
           videoId: r.videoId || "", soundcloudId: r.soundcloudId || "",
+          bandcampId: r.bandcampId || "",
         })));
         setTracksLoading(false);
       }).catch(() => { setTracks([]); setTracksLoading(false); });
@@ -240,7 +245,8 @@ export default function Home() {
         TRY_CAST(Key AS INT) as key,
         TRY_CAST(Popularity AS INT) as popularity,
         "Video ID" as videoId,
-        "Soundcloud ID" as soundcloudId
+        "Soundcloud ID" as soundcloudId,
+        "Bandcamp ID" as bandcampId
       FROM masterlist
       WHERE "Video ID" = '${videoId.replace(/'/g, "''")}'
       LIMIT 1
@@ -249,7 +255,7 @@ export default function Home() {
       trackName: string; artistNames: string; albumName: string;
       genres: string | null; tempo: number | null; duration: string;
       key: number | null; popularity: number | null; videoId: string;
-      soundcloudId: string | null;
+      soundcloudId: string | null; bandcampId: string | null;
     }>(sql).then((rows) => {
       if (rows.length > 0) {
         const r = rows[0];
@@ -260,10 +266,18 @@ export default function Home() {
           tempo: Number(r.tempo) || 0, duration: r.duration || "",
           key: Number(r.key) || 0, popularity: Number(r.popularity) || 0,
           videoId: r.videoId || "", soundcloudId: r.soundcloudId || "",
+          bandcampId: r.bandcampId || "",
         });
       }
     }).catch(() => {});
   }, [loading]);
+
+  const buildShareUrl = useCallback(() => {
+    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab);
+    const base = window.location.origin;
+    const sep = params.includes("?") ? "&" : "?";
+    return `${base}${params}${sep}autoplay=1`;
+  }, [filters, selectedArtist, tab]);
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
@@ -442,6 +456,7 @@ export default function Home() {
           popularity: number | null;
           videoId: string;
           soundcloudId: string | null;
+          bandcampId: string | null;
         }>(trackSql);
         setSearchTracks(
           trackRows.map((r) => ({
@@ -455,6 +470,7 @@ export default function Home() {
             popularity: Number(r.popularity) || 0,
             videoId: r.videoId || "",
             soundcloudId: r.soundcloudId || "",
+            bandcampId: r.bandcampId || "",
           }))
         );
       } catch {
@@ -489,6 +505,7 @@ export default function Home() {
             popularity: 0,
             videoId: r.videoId || "",
             soundcloudId: "",
+            bandcampId: "",
           }))
         );
       } catch {
@@ -518,6 +535,7 @@ export default function Home() {
           popularity: number | null;
           videoId: string;
           soundcloudId: string | null;
+          bandcampId: string | null;
         }>(sql);
         setSectionTracks(
           rows.map((r) => ({
@@ -531,6 +549,7 @@ export default function Home() {
             popularity: Number(r.popularity) || 0,
             videoId: r.videoId || "",
             soundcloudId: r.soundcloudId || "",
+            bandcampId: r.bandcampId || "",
           }))
         );
       } catch {
@@ -554,6 +573,7 @@ export default function Home() {
         popularity: number | null;
         videoId: string;
         soundcloudId: string | null;
+        bandcampId: string | null;
       }>(sql);
 
       setTracks(
@@ -568,6 +588,7 @@ export default function Home() {
           popularity: Number(r.popularity) || 0,
           videoId: r.videoId || "",
           soundcloudId: r.soundcloudId || "",
+          bandcampId: r.bandcampId || "",
         }))
       );
     } catch {
@@ -625,6 +646,7 @@ export default function Home() {
     popularity: number | null;
     videoId: string;
     soundcloudId: string | null;
+    bandcampId: string | null;
   }): Track => ({
     trackName: r.trackName,
     artistNames: r.artistNames,
@@ -636,13 +658,14 @@ export default function Home() {
     popularity: Number(r.popularity) || 0,
     videoId: r.videoId || "",
     soundcloudId: r.soundcloudId || "",
+    bandcampId: r.bandcampId || "",
   }), []);
 
   type TrackRow = {
     trackName: string; artistNames: string; albumName: string;
     genres: string | null; tempo: number | null; duration: string;
     key: number | null; popularity: number | null; videoId: string;
-    soundcloudId: string | null;
+    soundcloudId: string | null; bandcampId: string | null;
   };
 
   const recentExcludeKeys = useMemo(() =>
@@ -744,6 +767,15 @@ export default function Home() {
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
   }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks]);
+
+  // Autoplay from URL param (?autoplay=1) — one-shot on first load
+  useEffect(() => {
+    if (!pendingAutoplay.current || loading || allArtists.length === 0) return;
+    if (nowPlaying) return; // already playing (e.g. ?t= was in URL)
+    pendingAutoplay.current = false;
+    setRadioMode(true);
+    playRadio();
+  }, [loading, allArtists, nowPlaying, playRadio]);
 
   // --- Setlist playback ---
   const playFromSetlist = useCallback((track: SetlistTrack, index: number) => {
@@ -892,6 +924,7 @@ export default function Home() {
         popularity: number | null;
         videoId: string;
         soundcloudId: string | null;
+        bandcampId: string | null;
       }>(sql);
 
       const lookup = new Map<string, typeof rows[0]>();
@@ -914,6 +947,7 @@ export default function Home() {
             popularity: Number(match.popularity) || 0,
             videoId: match.videoId || "",
             soundcloudId: match.soundcloudId || "",
+            bandcampId: match.bandcampId || "",
             id,
             position: i,
           };
@@ -929,6 +963,7 @@ export default function Home() {
           popularity: 0,
           videoId: "",
           soundcloudId: "",
+          bandcampId: "",
           id,
           position: i,
         };
@@ -947,6 +982,7 @@ export default function Home() {
         popularity: 0,
         videoId: "",
         soundcloudId: "",
+        bandcampId: "",
         id: `${line.track}-${line.artist}-${Date.now()}-${i}`,
         position: i,
       }));
@@ -1027,6 +1063,7 @@ export default function Home() {
             popularity: number | null;
             videoId: string;
             soundcloudId: string | null;
+            bandcampId: string | null;
           }>(sql);
 
           const lookup = new Map<string, typeof rows[0]>();
@@ -1049,6 +1086,7 @@ export default function Home() {
                 popularity: Number(match.popularity) || 0,
                 videoId: match.videoId || "",
                 soundcloudId: match.soundcloudId || "",
+                bandcampId: match.bandcampId || "",
                 id,
                 position: i,
               };
@@ -1065,6 +1103,7 @@ export default function Home() {
               popularity: 0,
               videoId: "",
           soundcloudId: "",
+          bandcampId: "",
               id,
               position: i,
             };
@@ -1082,6 +1121,7 @@ export default function Home() {
             popularity: 0,
             videoId: "",
           soundcloudId: "",
+          bandcampId: "",
             id: `vault-${entry.id}-${i}`,
             position: i,
           }));
@@ -1186,6 +1226,17 @@ export default function Home() {
             title="Shuffle play from filtered artists"
           >
             Radio
+          </button>
+          <button
+            onClick={() => {
+              navigator.clipboard.writeText(buildShareUrl());
+              setShareCopied(true);
+              setTimeout(() => setShareCopied(false), 1500);
+            }}
+            className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 bg-[#111] text-[#888] hover:text-white"
+            title="Copy shareable link with autoplay"
+          >
+            {shareCopied ? "Copied!" : "Share"}
           </button>
           <div className="flex gap-1">
             <button

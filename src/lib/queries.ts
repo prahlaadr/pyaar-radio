@@ -57,7 +57,8 @@ export function buildTrackSearchQuery(search: string): string {
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE "Track Name" ILIKE '%${s}%'
       OR "Artist Name(s)" ILIKE '%${s}%'
@@ -80,7 +81,8 @@ export function buildTrackLookupQuery(trackName: string, artistName: string): st
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE "Track Name" ILIKE '${t}'
       AND "Artist Name(s)" ILIKE '%${a}%'
@@ -105,7 +107,8 @@ export function buildBatchTrackLookupQuery(pairs: { track: string; artist: strin
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE ${conditions.join(" OR ")}
   `;
@@ -160,7 +163,8 @@ export function buildScoredRandomQuery(
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
     ORDER BY (${bpmScore} + ${keyScore} + RANDOM() * 15) DESC
@@ -192,7 +196,8 @@ export function buildTagRadioQuery(tags: string[]): string {
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE ${tagConds.join(" OR ")}
     ORDER BY RANDOM()
@@ -230,7 +235,8 @@ export function buildTagSectionQuery(tag: string, search: string, bpmMin: number
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     ${where}
     ORDER BY "Artist Name(s)", "Track Name"
@@ -313,7 +319,8 @@ export function buildTracksQuery(
       TRY_CAST(Key AS INT) as key,
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
-      "Soundcloud ID" as soundcloudId
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
     ORDER BY TRY_CAST(Tempo AS FLOAT) DESC

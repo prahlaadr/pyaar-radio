@@ -209,7 +209,9 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const containerRef = useRef<HTMLDivElement>(null);
   const scIframeRef = useRef<HTMLIFrameElement>(null);
   const scWidgetRef = useRef<SCWidget | null>(null);
-  const activeSource = useRef<"youtube" | "soundcloud" | null>(null);
+  const activeSource = useRef<"youtube" | "soundcloud" | "bandcamp" | null>(null);
+  const bcIframeRef = useRef<HTMLIFrameElement>(null);
+  const bcEndTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const currentVideoId = useRef<string | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const onEndedRef = useRef(onEnded);
@@ -223,6 +225,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const [justAdded, setJustAdded] = useState(false);
   const [volume, setVolume] = useState(80);
   const [isSC, setIsSC] = useState(false);
+  const [isBC, setIsBC] = useState(false);
   const volumeInitRef = useRef(false);
   const progressBarRef = useRef<HTMLDivElement>(null);
   const [scrubbing, setScrubbing] = useState(false);
@@ -231,6 +234,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
   useImperativeHandle(ref, () => ({
     toggle: () => {
+      if (activeSource.current === "bandcamp") return; // Bandcamp iframes don't support programmatic play/pause
       if (activeSource.current === "soundcloud") {
         const w = scWidgetRef.current;
         if (!w) return;
@@ -316,6 +320,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setPlaying(true);
     setError(null);
     setIsSC(false);
+    setIsBC(false);
 
     // Player already exists — load new video
     if (playerRef.current) {
@@ -350,9 +355,65 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     scWidgetRef.current = null;
   }, []);
 
-  const playSoundCloud = useCallback((scId: string) => {
-    // Pause YouTube if active
+  const stopBandcamp = useCallback(() => {
+    if (bcEndTimerRef.current) {
+      clearTimeout(bcEndTimerRef.current);
+      bcEndTimerRef.current = null;
+    }
+    if (bcIframeRef.current) bcIframeRef.current.src = "";
+  }, []);
+
+  const playBandcamp = useCallback((bcId: string, durationStr?: string) => {
+    // Pause YouTube + SoundCloud if active
     try { playerRef.current?.pauseVideo(); } catch {}
+    try { scWidgetRef.current?.pause(); } catch {}
+    if (scIframeRef.current) scIframeRef.current.src = "";
+    scWidgetRef.current = null;
+
+    activeSource.current = "bandcamp";
+    currentVideoId.current = null;
+    setCurrentTime(0);
+    setPlaying(true);
+    setError(null);
+    setIsSC(false);
+    setIsBC(true);
+
+    // Parse duration for ended detection
+    let durationSec = 0;
+    if (durationStr) {
+      const parts = durationStr.split(":").map(Number);
+      if (parts.length === 2) durationSec = parts[0] * 60 + parts[1];
+      else if (parts.length === 3) durationSec = parts[0] * 3600 + parts[1] * 60 + parts[2];
+    }
+    setDuration(durationSec);
+
+    if (bcIframeRef.current) {
+      bcIframeRef.current.src = `https://bandcamp.com/EmbeddedPlayer/track=${bcId}/size=small/bgcol=000000/linkcol=e32636/transparent=true/`;
+    }
+
+    // Duration-based auto-advance for radio mode
+    if (durationSec > 0) {
+      if (bcEndTimerRef.current) clearTimeout(bcEndTimerRef.current);
+      bcEndTimerRef.current = setTimeout(() => {
+        onEndedRef.current?.();
+      }, durationSec * 1000);
+    }
+
+    // Simple time counter for progress bar
+    stopTracking();
+    if (durationSec > 0) {
+      const startTime = Date.now();
+      intervalRef.current = setInterval(() => {
+        const elapsed = (Date.now() - startTime) / 1000;
+        setCurrentTime(Math.min(elapsed, durationSec));
+      }, 500);
+    }
+  }, [stopTracking]);
+
+  const playSoundCloud = useCallback((scId: string) => {
+    // Pause YouTube + Bandcamp if active
+    try { playerRef.current?.pauseVideo(); } catch {}
+    stopBandcamp();
     activeSource.current = "soundcloud";
     currentVideoId.current = null;
     setCurrentTime(0);
@@ -360,6 +421,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     setPlaying(true);
     setError(null);
     setIsSC(true);
+    setIsBC(false);
 
     ensureSCAPI(() => {
       if (!scIframeRef.current) return;
@@ -395,6 +457,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     // 1. Track has a videoId → YouTube
     if (t.videoId) {
       stopSoundCloud();
+      stopBandcamp();
       activeSource.current = "youtube";
       playVideoId(t.videoId);
       return;
@@ -407,12 +470,21 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     if (vid) {
       setSearching(false);
       stopSoundCloud();
+      stopBandcamp();
       activeSource.current = "youtube";
       playVideoId(vid);
       return;
     }
 
-    // 3. Known SoundCloud ID → play directly
+    // 3. Known Bandcamp ID → play directly
+    if (t.bandcampId) {
+      setSearching(false);
+      stopSoundCloud();
+      playBandcamp(t.bandcampId, t.duration);
+      return;
+    }
+
+    // 4. Known SoundCloud ID → play directly
     if (t.soundcloudId) {
       setSearching(false);
       playSoundCloud(t.soundcloudId);
@@ -429,7 +501,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       setError("Not found");
       setPlaying(false);
     }
-  }, [playVideoId, playSoundCloud, stopSoundCloud]);
+  }, [playVideoId, playSoundCloud, stopSoundCloud, playBandcamp, stopBandcamp]);
 
   useEffect(() => {
     if (!track) return;
@@ -442,13 +514,15 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       playerRef.current?.destroy();
       playerRef.current = null;
       stopSoundCloud();
+      stopBandcamp();
     };
-  }, [stopTracking, stopSoundCloud]);
+  }, [stopTracking, stopSoundCloud, stopBandcamp]);
 
   const handleClose = () => {
     stopTracking();
     playerRef.current?.pauseVideo();
     stopSoundCloud();
+    stopBandcamp();
     activeSource.current = null;
     currentVideoId.current = null;
     setError(null);
@@ -459,6 +533,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   if (!track) return null;
 
   const handlePlayPause = () => {
+    if (activeSource.current === "bandcamp") return; // Bandcamp iframes don't support programmatic play/pause
     if (activeSource.current === "soundcloud") {
       const w = scWidgetRef.current;
       if (!w) return;
@@ -551,7 +626,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         onTouchEnd={handleTouchEnd}
       >
         <div
-          className={`h-full relative ${scrubbing ? "" : "transition-colors"} ${isSC ? "bg-orange-500 group-hover:bg-orange-400" : "bg-red-600 group-hover:bg-red-500"}`}
+          className={`h-full relative ${scrubbing ? "" : "transition-colors"} ${isBC ? "bg-teal-500 group-hover:bg-teal-400" : isSC ? "bg-orange-500 group-hover:bg-orange-400" : "bg-red-600 group-hover:bg-red-500"}`}
           style={{ width: `${progress}%` }}
         >
           <div className={`absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-white transition-opacity ${scrubbing ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`} />
@@ -566,6 +641,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       <iframe
         ref={scIframeRef}
         id="sc-widget"
+        src=""
+        className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
+        allow="autoplay"
+      />
+      {/* Hidden Bandcamp embed iframe */}
+      <iframe
+        ref={bcIframeRef}
         src=""
         className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
         allow="autoplay"
@@ -622,6 +704,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <span className="text-[10px] text-[#444]">&mdash;</span>
           <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
           {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider shrink-0">SC</span>}
+          {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider shrink-0">BC</span>}
         </div>
         {onAddToSetlist && track && (
           <button
@@ -655,6 +738,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             <div className="text-xs text-[#666] truncate flex items-center gap-1">
               {track.artistNames.split(";")[0]}
               {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
+              {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider">BC</span>}
             </div>
           </div>
         </div>

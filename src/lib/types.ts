@@ -20,6 +20,7 @@ export interface Track {
   popularity: number;
   videoId: string;
   soundcloudId: string;
+  bandcampId: string;
 }
 
 export interface SetlistTrack extends Track {
