@@ -67,7 +67,7 @@ Edited directly. Columns:
 
 - **Channels:** Rave, Rap, Soul
 - **Samay:** Day, Night, Day/Night
-- **Vibes (15):** Groove, Soulful, Rowdy, Nodders, Rave, Psych, Bass, Percussive, Club, Future Beats, Pop, Dark, Trap, Boom Bap, UKG
+- **Vibes (18):** Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Club, Garage, Future Beats, Electronica, Trap, Boom Bap, Pop
 
 ## Crate Scripts (for hydration/sync)
 

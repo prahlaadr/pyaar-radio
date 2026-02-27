@@ -4,9 +4,9 @@ import type { ArtistFilters } from "@/lib/types";
 const CHANNELS = ["Rave", "Rap", "Soul"] as const;
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 const VIBES = [
-  "Groove", "Soulful", "Rowdy", "Nodders", "Rave", "Psych",
-  "Bass", "Percussive", "Club", "Future Beats", "Pop", "Dark",
-  "Trap", "Boom Bap", "UKG",
+  "Groove", "Soulful", "Rowdy", "Nodders", "Dark", "Percussive",
+  "Rave", "Bass", "Dubstep", "DnB", "Club", "Garage",
+  "Future Beats", "Electronica", "Trap", "Boom Bap", "Pop",
 ] as const;
 
 export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient";

@@ -3,7 +3,7 @@ A$AP Rocky,,Rap,Night,Non-Desi,Nodders|Rowdy|Trap,68,208
 AP Dhillon,,Rap,Night,Desi,Rowdy|Pop|Percussive,77,172
 Action Bronson,,Rap,Day,Non-Desi,Rowdy|Groove|Nodders,71,166
 Chance the Rapper,Chance The Rapper,Rap,Day,Non-Desi,Soulful|Groove|Pop,55,180
-Clams Casino,,Rap,Night,Non-Desi,Psych|Trap|Dark,85,183
+Clams Casino,,Rap,Night,Non-Desi,Trap|Dark|Nodders,85,183
 Curren$y,,Rap,Day/Night,Non-Desi,Nodders|Groove|Boom Bap,71,179
 Danny Brown,,Rap,Night,Non-Desi,Rowdy|Dark|Nodders,84,165
 Das Racist,Heems,Rap,Day,Desi,Rowdy|Nodders,70,186
@@ -14,8 +14,8 @@ Future,,Rap,Night,Non-Desi,Trap|Dark|Nodders,75,180
 Gucci Mane,,Rap,Night,Non-Desi,Trap|Rowdy|Groove,75,174
 Gunda,,Rap,Night,Desi,Rowdy|Bass|Nodders,79,145
 Gunna,,Rap,Night,Non-Desi,Trap|Nodders,78,157
-Heems,,Rap,Day,Desi,Nodders|Psych,70,178
-ICYTWAT,,Rap,Day/Night,Non-Desi,Psych|Trap|Dark,76,160
+Heems,,Rap,Day,Desi,Nodders|Groove,70,178
+ICYTWAT,,Rap,Day/Night,Non-Desi,Trap|Dark|Nodders,76,160
 Kanye West,,Rap,Day/Night,Non-Desi,Nodders|Soulful,67,191
 Kenny Beats,,Rap,Day,Non-Desi,Groove|Future Beats,81,180
 Knxwledge,,Rap,Day/Night,Non-Desi,Nodders|Groove|Boom Bap,76,170
@@ -23,16 +23,16 @@ Kodak Black,,Rap,Night,Non-Desi,Trap|Rowdy|Groove,70,177
 Laila!,,Rap,Day,Non-Desi,Groove|Soulful|Rowdy,83,135
 Larry June,,Rap,Day,Non-Desi,Groove|Nodders|Boom Bap,75,157
 Lil Wayne,,Rap,Night,Non-Desi,Rowdy|Trap|Nodders,74,192
-Lil Yachty,,Rap,Day/Night,Non-Desi,Pop|Psych|Trap,72,184
+Lil Yachty,,Rap,Day/Night,Non-Desi,Pop|Trap|Rowdy,72,184
 Lisha G,,Rap,Day,Non-Desi,Groove|Soulful,70,152
 Little Simz,,Rap,Day/Night,Non-Desi,Nodders|Groove|Soulful,47,184
 Lupe Fiasco,,Rap,Night,Non-Desi,Nodders|Soulful,76,208
 M.I.A.,,Rap,Night,Desi,Rowdy|Club|Pop,92,172
-MF DOOM,,Rap,Night,Non-Desi,Nodders|Psych|Boom Bap,77,201
-MIKE,,Rap,Night,Non-Desi,Nodders|Psych|Soulful,65,192
+MF DOOM,,Rap,Night,Non-Desi,Nodders|Dark|Boom Bap,77,201
+MIKE,,Rap,Night,Non-Desi,Nodders|Dark|Soulful,65,192
 Mac Miller,,Rap,Day/Night,Non-Desi,Soulful|Nodders,58,192
-Madlib,,Rap,Day/Night,Non-Desi,Nodders|Psych|Boom Bap,61,201
-Madvillain,,Rap,Night,Non-Desi,Nodders|Psych|Soulful,85,201
+Madlib,,Rap,Day/Night,Non-Desi,Nodders|Groove|Boom Bap,61,201
+Madvillain,,Rap,Night,Non-Desi,Nodders|Soulful|Boom Bap,85,201
 Michael Christmas,,Rap,Day,Non-Desi,Nodders|Groove|Boom Bap,73,169
 Mick Jenkins,,Rap,Night,Non-Desi,Nodders|Soulful,79,138
 Multani,,Rap,Day,Desi,Rowdy|Groove|Nodders,78,150
@@ -42,10 +42,10 @@ Outkast,,Rap,Day/Night,Non-Desi,Groove|Soulful|Trap,73,202
 Pataka Boys,,Rap,Day,Desi,Rowdy|Nodders,80,93
 Playboi Carti,,Rap,Night,Non-Desi,Dark|Rowdy|Trap,77,180
 Prabh Deep,,Rap,Night,Desi,Nodders|Dark|Boom Bap,70,155
-Quadeca,,Rap,Day/Night,Non-Desi,Psych|Future Beats|Pop,82,178
-RRoxket,,Rap,Day/Night,Non-Desi,Rowdy|Psych,76,155
+Quadeca,,Rap,Day/Night,Non-Desi,Future Beats|Pop|Electronica,82,178
+RRoxket,,Rap,Day/Night,Non-Desi,Rowdy|Dark,76,155
 Raf Saperra,,Rap,Night,Desi,Rowdy|Percussive|Pop,81,170
-S.Maharba,,Rap,Day/Night,Non-Desi,Nodders|Psych|Boom Bap,65,163
+S.Maharba,,Rap,Day/Night,Non-Desi,Nodders|Dark|Boom Bap,65,163
 Saba,,Rap,Day/Night,Non-Desi,Nodders|Soulful|Boom Bap,69,174
 SahBabii,,Rap,Night,Non-Desi,Rowdy|Trap|Nodders,74,180
 Ski Mask The Slump God,,Rap,Night,Non-Desi,Rowdy|Bass|Trap,70,160
@@ -55,35 +55,35 @@ The PropheC,,Rap,Day/Night,Desi,Soulful|Pop|Percussive,73,170
 Tkay Maidza,,Rap,Day,Non-Desi,Groove|Pop|Soulful,76,118
 Tommy Genesis,,Rap,Night,Non-Desi,Rowdy|Club|Trap,124,157
 Tony Shhnow,Tony Shhnoww,Rap,Night,Non-Desi,Rowdy|Trap,68,171
-"Tyler, The Creator",,Rap,Day/Night,Non-Desi,Nodders|Psych|Groove,40,187
+"Tyler, The Creator",,Rap,Day/Night,Non-Desi,Nodders|Soulful|Groove,40,187
 Vayda,,Rap,Day/Night,Non-Desi,Groove|Nodders|Club,78,177
 Westside Gunn,,Rap,Night,Non-Desi,Nodders|Dark|Boom Bap,78,180
 Yeat,,Rap,Night,Non-Desi,Trap|Rave|Rowdy,70,177
 Young Thug,,Rap,Night,Non-Desi,Trap|Pop|Nodders,71,180
 Zack Fox,,Rap,Day/Night,Non-Desi,Rowdy,73,159
-Zelooperz,,Rap,Night,Non-Desi,Rowdy|Nodders|Psych,76,172
+Zelooperz,,Rap,Night,Non-Desi,Rowdy|Nodders|Dark,76,172
 blaccmass,,Rap,Night,Non-Desi,Bass|Dark,70,150
 $EJ,,Rave,Night,Desi,Club|Groove,110,140
 6091,,Rave,Day/Night,Desi,Percussive|Bass|Pop,78,157
 AceMo,,Rave,Night,Non-Desi,Percussive|Club|Rave,128,133
-Ahadadream,,Rave,Night,Desi,Percussive|UKG|Rowdy,71,136
-Alix Perez,Shades|Drone,Rave,Night,Non-Desi,Bass|Dark|Nodders,75,176
+Ahadadream,,Rave,Night,Desi,Percussive|Garage|Rowdy,71,136
+Alix Perez,Shades|Drone,Rave,Night,Non-Desi,DnB|Dark|Nodders,75,176
 Anish Kumar,,Rave,Day,Desi,Groove|Club,108,132
-Aphex Twin,,Rave,Night,Non-Desi,Psych|Future Beats,73,165
+Aphex Twin,,Rave,Night,Non-Desi,Electronica|Future Beats,73,165
 Baalti,,Rave,Day/Night,Desi,Groove|Percussive|Club,117,140
 Baauer,,Rave,Night,Non-Desi,Bass|Rowdy,82,170
 Barry Can't Swim,,Rave,Night,Non-Desi,Groove|Club,99,132
-Bonobo,,Rave,Day,Non-Desi,Soulful|Nodders|Psych,74,174
+Bonobo,,Rave,Day,Non-Desi,Soulful|Electronica|Nodders,74,174
 Boombox Cartel,,Rave,Night,Non-Desi,Bass|Rowdy,140,140
-Burial,Burial,Rave,Night,Non-Desi,Dark|Bass|Psych,71,218
+Burial,Burial,Rave,Night,Non-Desi,Dark|Dubstep|Soulful,71,218
 CHOR BAZAAR,,Rave,Night,Desi,Club|Bass,120,140
-Caribou,Daphni,Rave,Night,Non-Desi,Groove|Psych|UKG,97,140
-Cesco,,Rave,Day/Night,Non-Desi,Nodders|UKG|Bass,133,140
-Champion,,Rave,Night,Non-Desi,Club|UKG|Percussive,84,138
+Caribou,Daphni,Rave,Night,Non-Desi,Groove|Electronica|Garage,97,140
+Cesco,,Rave,Day/Night,Non-Desi,Nodders|Garage|Bass,133,140
+Champion,,Rave,Night,Non-Desi,Club|Garage|Percussive,84,138
 Charli XCX,,Rave,Night,Non-Desi,Club|Pop|Rave,101,150
 Cochise,,Rave,Day,Non-Desi,Rowdy|Trap|Rave,155,161
-Commodo,,Rave,Night,Non-Desi,Bass|Dark|Rowdy,95,176
-Conducta,,Rave,Night,Non-Desi,Club|UKG|Percussive,84,134
+Commodo,,Rave,Night,Non-Desi,Dubstep|Dark|Rowdy,95,176
+Conducta,,Rave,Night,Non-Desi,Club|Garage|Percussive,84,134
 Conscience Khan,,Rave,Night,Desi,Bass,130,140
 DEVAULT,Devault,Rave,Night,Non-Desi,Dark|Club,86,102
 DILIP,,Rave,Day,Desi,Groove|Future Beats,81,198
@@ -95,110 +95,110 @@ DJ Sliink,,Rave,Night,Non-Desi,Rowdy|Trap|Club,128,150
 DJ Swisha,,Rave,Night,Non-Desi,Percussive|Club|Bass,128,160
 Daft Punk,,Rave,Day/Night,Non-Desi,Groove|Club|Pop,100,136
 Decemberkid,,Rave,Night,Non-Desi,Club|Groove,120,135
-Deft,,Rave,Night,Non-Desi,Percussive|Bass|Nodders,70,174
-Disclosure,,Rave,Night,Non-Desi,Club|Groove|UKG,75,160
+Deft,,Rave,Night,Non-Desi,Percussive|DnB|Nodders,70,174
+Disclosure,,Rave,Night,Non-Desi,Club|Groove|Garage,75,160
 Djrum,,Rave,Night,Non-Desi,Dark|Bass|Future Beats,67,185
 Eprom,,Rave,Night,Non-Desi,Nodders|Future Beats|Bass,67,174
 Excise Dept,,Rave,Night,Desi,Rowdy|Nodders|Rave,85,186
-Floating Points,Floating Points,Rave,Day/Night,Non-Desi,Psych|Soulful|Groove,62,177
+Floating Points,Floating Points,Rave,Day/Night,Non-Desi,Soulful|Electronica|Groove,62,177
 Flume,,Rave,Day/Night,Non-Desi,Future Beats|Bass,60,188
-Four Tet,,Rave,Day/Night,Non-Desi,Nodders|Future Beats|Soulful,62,204
+Four Tet,,Rave,Day/Night,Non-Desi,Nodders|Electronica|Soulful,62,204
 G Jones,,Rave,Night,Non-Desi,Nodders|Bass|Rave,69,172
 Gaszia,,Rave,Night,Non-Desi,Future Beats|Rave|Club,74,184
 Great Dane,,Rave,Night,Non-Desi,Bass|Club,95,160
 HOLLY,Holly,Rave,Night,Non-Desi,Bass|Rowdy,78,174
-Halogenix,,Rave,Night,Non-Desi,Nodders|Bass|Soulful,85,174
-Hamdi,,Rave,Night,Desi,Rave|UKG|Bass,140,166
+Halogenix,,Rave,Night,Non-Desi,Nodders|DnB|Soulful,85,174
+Hamdi,,Rave,Night,Desi,Dubstep|Garage|Rave,140,166
 Hudson Mohawke,,Rave,Night,Non-Desi,Bass|Future Beats|Percussive,88,197
 Hydraulix,Hydraulix & Oski,Rave,Night,Non-Desi,Bass|Rave|Dark,75,140
-Interplanetary Criminal,,Rave,Night,Non-Desi,Club|Groove|UKG,130,144
-Ivy Lab,,Rave,Night,Non-Desi,Bass|Dark|Soulful,64,203
+Interplanetary Criminal,,Rave,Night,Non-Desi,Club|Groove|Garage,130,144
+Ivy Lab,,Rave,Night,Non-Desi,DnB|Dark|Soulful,64,203
 J.Robb,J Robb|J. Robb,Rave,Day,Non-Desi,Groove|Future Beats|Bass,84,102
 JD. Reid,JD Reid|JD. REID,Rave,Night,Non-Desi,Club|Future Beats|Bass,80,170
-Jamie xx,Jamie xx,Rave,Night,Non-Desi,Club|UKG|Groove,102,174
-Joy Orbison,,Rave,Night,Non-Desi,Club|UKG|Groove,69,140
+Jamie xx,Jamie xx,Rave,Night,Non-Desi,Club|Garage|Groove,102,174
+Joy Orbison,,Rave,Night,Non-Desi,Club|Garage|Groove,69,140
 Juelz,,Rave,Night,Non-Desi,Bass|Rave|Future Beats,83,140
 "K, Le Maestro",,Rave,Day/Night,Non-Desi,Soulful|Groove,80,130
 KAYTRANADA,,Rave,Night,Non-Desi,Groove|Club|Soulful,78,160
 Kalbaisakhi,,Rave,Night,Desi,Bass|Dark,78,150
-Kalzi,,Rave,Night,Desi,Bass|Club|UKG,130,140
+Kalzi,,Rave,Night,Desi,Bass|Club|Garage,130,140
 Karma Kid,,Rave,Night,Non-Desi,Club|Groove,120,135
-Knock2,,Rave,Night,Non-Desi,Club|Bass|UKG,130,130
+Knock2,,Rave,Night,Non-Desi,Club|Bass|Garage,130,130
 Krithi,,Rave,Night,Desi,Bass|Rave,100,160
 Kuedo,,Rave,Night,Non-Desi,Future Beats|Nodders|Percussive,35,176
 LYNY,,Rave,Night,Non-Desi,Bass|Rave,140,140
 LYRIC WALLS,,Rave,Day/Night,Non-Desi,Nodders,75,130
-Lapalux,,Rave,Night,Non-Desi,Psych|Nodders|Future Beats,61,176
-Logic1000,,Rave,Night,Non-Desi,Club|UKG|Groove,98,186
-Lone,,Rave,Night,Non-Desi,Club|Groove|Psych,86,170
+Lapalux,,Rave,Night,Non-Desi,Dark|Nodders|Electronica,61,176
+Logic1000,,Rave,Night,Non-Desi,Club|Garage|Groove,98,186
+Lone,,Rave,Night,Non-Desi,Club|Groove|Electronica,86,170
 Louis The Child,,Rave,Day,Non-Desi,Pop|Future Beats,85,134
 Lucid Monday,,Rave,Day,Non-Desi,Groove|Nodders,80,150
 MEMBA,,Rave,Day,Desi,Bass|Future Beats,77,178
 MPH,MPH & EV,Rave,Night,Non-Desi,Club|Bass|Groove,130,140
 Machinedrum,,Rave,Night,Non-Desi,Nodders|Future Beats|Rave,75,174
 Makaan,,Rave,Day,Desi,Groove|Bass,124,134
-Mala,Mala,Rave,Night,Non-Desi,Bass|Dark|Groove,138,175
+Mala,Mala,Rave,Night,Non-Desi,Dubstep|Dark|Groove,138,175
 Malfnktion,,Rave,Day,Desi,Groove|Future Beats,82,172
 Medasin,,Rave,Night,Non-Desi,Future Beats|Groove,75,155
 Mera Bhai,,Rave,Day,Desi,Soulful|Future Beats,90,136
 Mirror Maze,,Rave,Night,Non-Desi,Bass|Rave,59,161
-Mount Kimbie,Mount Kimbie,Rave,Night,Non-Desi,Dark|Bass|Rave,70,180
+Mount Kimbie,Mount Kimbie,Rave,Night,Non-Desi,Dark|Bass|Electronica,70,180
 Mr. Carmack,,Rave,Night,Non-Desi,Bass|Groove|Trap,74,184
 MssingNo,Mssingno,Rave,Night,Non-Desi,Bass|Dark|Club,69,140
-Nia Archives,,Rave,Night,Non-Desi,Bass|Groove|UKG,85,175
+Nia Archives,,Rave,Night,Non-Desi,DnB|Groove|Garage,85,175
 Nikki Nair,,Rave,Night,Non-Desi,Club|Bass|Percussive,121,160
-Nomine,,Rave,Night,Non-Desi,Bass|Dark|Groove,100,140
+Nomine,,Rave,Night,Non-Desi,Dubstep|Dark|Groove,100,140
 O'Flynn,,Rave,Day/Night,Non-Desi,Groove|Club,101,184
 ODESZA,,Rave,Day,Non-Desi,Soulful|Rave,75,188
-Oakk,OAKK,Rave,Night,Non-Desi,Bass|Dark,80,194
+Oakk,OAKK,Rave,Night,Non-Desi,Dubstep|Dark,80,194
 Otxhello,,Rave,Day,Non-Desi,Groove|Nodders,80,148
 Overmono,,Rave,Night,Non-Desi,Club|Rave|Bass,105,139
 PAV4N,,Rave,Night,Desi,Bass|Rave|Dark,80,140
 Pangaea,Pangaea,Rave,Night,Non-Desi,Club|Bass|Percussive,63,141
 Pearson Sound,,Rave,Night,Non-Desi,Club|Bass|Percussive,97,192
 Phrva,,Rave,Night,Non-Desi,Bass|Rave,130,150
-PinkPantheress,,Rave,Night,Non-Desi,Club|Pop|UKG,77,175
+PinkPantheress,,Rave,Night,Non-Desi,Club|Pop|Garage,77,175
 Player Dave,,Rave,Night,Non-Desi,Groove|Bass,85,164
 Powder,,Rave,Night,Non-Desi,Club|Groove,123,123
 QUIET BISON,,Rave,Night,Non-Desi,Bass|Future Beats,94,150
 RAAJA BEATS,,Rave,Day,Desi,Groove|Percussive,90,120
 RL Grime,,Rave,Night,Non-Desi,Bass|Rowdy|Future Beats,75,170
 Raji Rags,,Rave,Night,Desi,Percussive,97,185
-RamonPang,Ramon Pang,Rave,Day,Non-Desi,Nodders|Future Beats|Psych,72,151
-Rhythm & Sound,,Rave,Night,Non-Desi,Dark|Bass|Psych,77,166
-Rhythom,,Rave,Day/Night,Desi,Percussive|Psych|Nodders,80,180
+RamonPang,Ramon Pang,Rave,Day,Non-Desi,Nodders|Future Beats|Electronica,72,151
+Rhythm & Sound,,Rave,Night,Non-Desi,Dark|Bass|Groove,77,166
+Rhythom,,Rave,Day/Night,Desi,Percussive|Nodders|Groove,80,180
 Rohaan,,Rave,Night,Desi,Rave|Bass|Nodders,90,172
 Ross From Friends,,Rave,Day/Night,Non-Desi,Groove|Club,74,163
 S!RENE,SIRENE,Rave,Night,Non-Desi,Percussive|Groove|Dark,83,164
-SBTRKT,,Rave,Day/Night,Non-Desi,Nodders|UKG|Groove,92,191
+SBTRKT,,Rave,Day/Night,Non-Desi,Nodders|Garage|Groove,92,191
 SG Lewis,,Rave,Day,Non-Desi,Groove|Pop|Soulful,92,140
 SICARIA,,Rave,Night,Desi,Percussive|Dark,69,140
-Sammy Virji,,Rave,Night,Non-Desi,Club|UKG|Groove,130,140
+Sammy Virji,,Rave,Night,Non-Desi,Club|Garage|Groove,130,140
 Sana,,Rave,Night,Desi,Club|Percussive,120,140
-Skee Mask,,Rave,Night,Non-Desi,Dark|Psych|Future Beats,78,209
-Skream,Skream,Rave,Night,Non-Desi,Bass|Dark|Groove,137,144
+Skee Mask,,Rave,Night,Non-Desi,Dark|Electronica|Rave,78,209
+Skream,Skream,Rave,Night,Non-Desi,Dubstep|Dark|Groove,137,144
 Smerz,,Rave,Night,Non-Desi,Dark|Club,120,206
 Sodhivine,,Rave,Day,Desi,Pop|Groove,80,130
-Sukh Knight,,Rave,Night,Desi,Bass|Dark|Rowdy,69,140
+Sukh Knight,,Rave,Night,Desi,Dubstep|Dark|Rowdy,69,140
 Swami Sound,,Rave,Night,Non-Desi,Club|Percussive|Bass,67,163
 Synkro,,Rave,Night,Non-Desi,Dark|Bass|Future Beats,100,209
-Ternion Sound,,Rave,Night,Non-Desi,Bass|Dark|Groove,77,140
-The Avalanches,,Rave,Day,Non-Desi,Groove|Psych,80,163
+Ternion Sound,,Rave,Night,Non-Desi,Dubstep|Dark|Groove,77,140
+The Avalanches,,Rave,Day,Non-Desi,Groove|Soulful,80,163
 Tisakorean,,Rave,Day,Non-Desi,Rowdy|Rave,119,166
 TroyBoi,,Rave,Night,Desi,Bass|Club|Trap,75,140
 Tsuruda,,Rave,Night,Non-Desi,Bass|Dark,84,166
 VHOOR,,Rave,Day/Night,Non-Desi,Percussive|Club|Bass,75,190
-Vegyn,,Rave,Night,Non-Desi,Psych|Nodders|Future Beats,75,169
+Vegyn,,Rave,Night,Non-Desi,Nodders|Electronica|Future Beats,75,169
 Viepsa,Viepsa Arora,Rave,Night,Desi,Club|Bass,120,170
-Villager,,Rave,Night,Non-Desi,Club|Bass|UKG,132,150
-Volor Flex,Volor Flex,Rave,Night,Non-Desi,Dark|Bass|UKG,64,204
+Villager,,Rave,Night,Non-Desi,Club|Bass|Garage,132,150
+Volor Flex,Volor Flex,Rave,Night,Non-Desi,Dark|Bass|Garage,64,204
 Wantigga,,Rave,Day,Non-Desi,Groove,80,120
 Whethan,,Rave,Night,Non-Desi,Future Beats|Rowdy|Trap,90,135
-Yaeji,,Rave,Night,Non-Desi,Club|Psych,71,160
+Yaeji,,Rave,Night,Non-Desi,Club|Electronica,71,160
 Zenjah,,Rave,Night,Desi,Bass|Club,114,135
 aywy,,Rave,Day/Night,Desi,Groove|Club,90,130
 barnacle boi,,Rave,Day,Non-Desi,Groove|Future Beats,80,130
-borne,,Rave,Night,Non-Desi,Club|UKG|Bass,127,140
+borne,,Rave,Night,Non-Desi,Club|Garage|Bass,127,140
 cavya sound,,Rave,Night,Desi,Club|Bass,113,113
 cozy kev,Cozy Kev,Rave,Day/Night,Non-Desi,Nodders,74,160
 lush lata,,Rave,Day,Desi,Groove,90,120
@@ -207,73 +207,73 @@ moktar,,Rave,Night,Non-Desi,Percussive|Rave,115,160
 pandi,,Rave,Night,Non-Desi,Dark|Rowdy,77,145
 piri & tommy,piri|tommy,Rave,Night,Non-Desi,Club|Bass,54,180
 rareman,Rareman,Rave,Night,Non-Desi,Bass|Club|Percussive,140,140
-salute,salute & piri,Rave,Night,Non-Desi,Club|UKG|Groove,130,172
+salute,salute & piri,Rave,Night,Non-Desi,Club|Garage|Groove,130,172
 sam gellaitry,,Rave,Day/Night,Non-Desi,Groove|Future Beats,71,169
 truant.,Truant,Rave,Night,Non-Desi,Bass|Club,100,142
 ANUSHKA,,Soul,Day/Night,Non-Desi,Soulful|Club|Bass,100,172
-Arooj Aftab,,Soul,Day,Desi,Soulful|Psych,83,179
-Arushi Jain,,Soul,Day,Desi,Psych|Dark|Future Beats,88,172
+Arooj Aftab,,Soul,Day,Desi,Soulful|Dark,83,179
+Arushi Jain,,Soul,Day,Desi,Dark|Future Beats|Electronica,88,172
 BADBADNOTGOOD,,Soul,Day/Night,Non-Desi,Soulful|Groove|Rowdy,69,188
-Begum,,Soul,Day,Desi,Psych|Soulful,78,137
-Blood Orange,,Soul,Day/Night,Non-Desi,Soulful|Groove|Psych,70,183
+Begum,,Soul,Day,Desi,Soulful|Groove,78,137
+Blood Orange,,Soul,Day/Night,Non-Desi,Soulful|Groove|Pop,70,183
 Childish Gambino,,Soul,Day/Night,Non-Desi,Groove|Soulful|Pop,70,200
 DJ Harrison,,Soul,Day,Non-Desi,Groove|Soulful,82,102
 Dhee,,Soul,Day,Desi,Groove|Pop,81,140
 Erykah Badu,,Soul,Day,Non-Desi,Soulful|Groove,71,184
-Flying Lotus,,Soul,Day/Night,Non-Desi,Psych|Future Beats|Nodders,62,199
-Ganavya,,Soul,Day,Desi,Soulful|Psych|Groove,70,172
+Flying Lotus,,Soul,Day/Night,Non-Desi,Future Beats|Nodders|Groove,62,199
+Ganavya,,Soul,Day,Desi,Soulful|Groove,70,172
 Gayathri Krishnan,,Soul,Day,Desi,Soulful|Pop,85,135
-Glass Beams,,Soul,Day,Desi,Psych|Groove,76,151
+Glass Beams,,Soul,Day,Desi,Groove|Percussive,76,151
 Harini,,Soul,Day,Desi,Soulful|Pop,88,100
 Hiatus Kaiyote,,Soul,Day,Non-Desi,Soulful|Future Beats,55,181
 Hope Tala,,Soul,Day,Desi,Soulful|Pop|Future Beats,86,161
-Imogen Heap,,Soul,Day,Non-Desi,Psych|Soulful|Pop,84,180
+Imogen Heap,,Soul,Day,Non-Desi,Soulful|Pop|Electronica,84,180
 J Dilla,,Soul,Day/Night,Non-Desi,Groove|Nodders|Soulful,81,198
 James Blake,James Blake,Soul,Night,Non-Desi,Soulful|Dark|Nodders,65,176
-Jatayu,,Soul,Day,Desi,Psych|Groove,92,172
+Jatayu,,Soul,Day,Desi,Groove|Percussive,92,172
 Joe Kay,,Soul,Day,Non-Desi,Groove|Soulful,105,129
-Jon Bap,,Soul,Day,Non-Desi,Psych|Pop|Soulful,67,184
+Jon Bap,,Soul,Day,Non-Desi,Pop|Soulful|Groove,67,184
 Jungle,,Soul,Day,Non-Desi,Groove|Club|Soulful,107,146
 Kal Banx,,Soul,Day/Night,Non-Desi,Soulful|Groove,74,164
 Kelela,,Soul,Night,Non-Desi,Soulful|Dark|Future Beats,70,169
-Khruangbin,,Soul,Day,Non-Desi,Psych|Soulful,74,168
+Khruangbin,,Soul,Day,Non-Desi,Soulful|Groove,74,168
 Lapgan,,Soul,Day,Desi,Groove|Dark|Nodders,58,184
-Laraaji,,Soul,Day,Non-Desi,Soulful|Psych|Dark,71,151
-Lifafa,,Soul,Day,Desi,Psych,90,182
-Makaya McCraven,,Soul,Day/Night,Non-Desi,Soulful|Psych|Groove,72,178
-Mei Semones,,Soul,Day,Non-Desi,Soulful|Psych|Groove,82,184
+Laraaji,,Soul,Day,Non-Desi,Soulful|Dark,71,151
+Lifafa,,Soul,Day,Desi,Dark|Electronica,90,182
+Makaya McCraven,,Soul,Day/Night,Non-Desi,Soulful|Groove|Percussive,72,178
+Mei Semones,,Soul,Day,Non-Desi,Soulful|Groove,82,184
 Mndsgn,,Soul,Day,Non-Desi,Groove|Soulful|Nodders,73,194
 Monte Booker,,Soul,Day,Non-Desi,Groove|Soulful|Percussive,96,139
-Moth Equals,,Soul,Day,Desi,Psych|Dark|Soulful,60,152
-Nai Palm,,Soul,Day,Non-Desi,Soulful|Psych|Future Beats,81,173
+Moth Equals,,Soul,Day,Desi,Dark|Soulful|Electronica,60,152
+Nai Palm,,Soul,Day,Non-Desi,Soulful|Future Beats|Groove,81,173
 Nitin Sawhney,,Soul,Day,Desi,Soulful,85,191
 Noname,,Soul,Day,Non-Desi,Soulful|Nodders|Future Beats,76,174
-Peter Cat Recording Co.,,Soul,Day,Desi,Soulful|Psych,75,140
+Peter Cat Recording Co.,,Soul,Day,Desi,Soulful|Groove,75,140
 Pharrell,,Soul,Day/Night,Non-Desi,Groove|Pop,80,170
 Piya Malik,,Soul,Day,Desi,Soulful,80,115
-Raveena,,Soul,Day,Desi,Soulful|Psych|Future Beats,68,189
+Raveena,,Soul,Day,Desi,Soulful|Future Beats|Groove,68,189
 Rhea Raj,Rhea Rak,Soul,Day,Desi,Groove|Soulful|Pop,74,180
 Robert Glasper,Robert Glasper Experiment,Soul,Night,Non-Desi,Soulful|Groove|Nodders,72,184
 Rochelle Jordan,,Soul,Night,Non-Desi,Soulful|Club|Future Beats,79,174
 Sakré,Sakre,Soul,Day/Night,Desi,Groove|Bass,80,187
-Salami Rose Joe Louis,,Soul,Day/Night,Non-Desi,Groove|Psych|Pop,63,150
+Salami Rose Joe Louis,,Soul,Day/Night,Non-Desi,Groove|Pop|Soulful,63,150
 Sango,,Soul,Day/Night,Non-Desi,Groove|Soulful|Future Beats,81,167
 Sault,,Soul,Day,Non-Desi,Soulful,70,180
 Say She She,,Soul,Day,Non-Desi,Soulful|Pop,79,172
 Solange,,Soul,Day,Non-Desi,Soulful|Groove|Future Beats,47,181
-Stereolab,,Soul,Day,Non-Desi,Psych|Pop,77,187
+Stereolab,,Soul,Day,Non-Desi,Pop|Electronica,77,187
 Steve Lacy,,Soul,Day,Non-Desi,Soulful|Pop|Future Beats,67,208
 Stevie Wonder,,Soul,Day/Night,Non-Desi,Soulful|Groove,77,195
-Tame Impala,,Soul,Day,Non-Desi,Psych|Pop,68,180
+Tame Impala,,Soul,Day,Non-Desi,Pop|Groove,68,180
 Tara Lily,,Soul,Day,Desi,Soulful|Groove,112,158
 Taylor McFerrin,,Soul,Day,Non-Desi,Soulful|Groove,50,141
 TekLun,TEK.LUN|Tek.Lun,Soul,Day,Non-Desi,Groove|Bass,80,140
 The Internet,,Soul,Day,Non-Desi,Soulful|Groove|Future Beats,60,170
-Toro y Moi,,Soul,Day,Non-Desi,Groove|Psych,60,200
-Yussef Dayes,,Soul,Day/Night,Non-Desi,Soulful|Groove|Psych,78,169
+Toro y Moi,,Soul,Day,Non-Desi,Groove|Pop,60,200
+Yussef Dayes,,Soul,Day/Night,Non-Desi,Soulful|Groove|Percussive,78,169
 esta.,ESTA.,Soul,Day,Non-Desi,Groove|Soulful,80,134
 saie.,,Soul,Day/Night,Desi,Soulful|Groove,75,130
-V.I.V.E.K,Vivek|VIVEK,Rave,Night,Desi,Bass|Dark|Groove,138,142
-Mia Koden,,Rave,Night,Non-Desi,UKG|Bass|Percussive,135,143
-Sam Gendel,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Psych,60,112
-Sam Wilkes,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Psych,60,112
+V.I.V.E.K,Vivek|VIVEK,Rave,Night,Desi,Dubstep|Dark|Groove,138,142
+Mia Koden,,Rave,Night,Non-Desi,Garage|Bass|Percussive,135,143
+Sam Gendel,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Soulful,60,112
+Sam Wilkes,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Soulful,60,112
