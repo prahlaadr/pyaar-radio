@@ -135,7 +135,7 @@ src/
 | Channels | Rave, Rap, Soul |
 | Samay | Day, Night, Day/Night |
 | Desi | Desi, Non-Desi |
-| Vibes (18) | Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Club, Garage, Future Beats, Electronica, Trap, Boom Bap, Pop |
+| Vibes (20) | Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Dub, Club, Garage, Future Beats, Electronica, Ambient, Trap, Boom Bap, Pop |
 
 ---
 

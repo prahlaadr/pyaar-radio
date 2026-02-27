@@ -5,8 +5,8 @@ const CHANNELS = ["Rave", "Rap", "Soul"] as const;
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 const VIBES = [
   "Groove", "Soulful", "Rowdy", "Nodders", "Dark", "Percussive",
-  "Rave", "Bass", "Dubstep", "DnB", "Club", "Garage",
-  "Future Beats", "Electronica", "Trap", "Boom Bap", "Pop",
+  "Rave", "Bass", "Dubstep", "DnB", "Dub", "Club", "Garage",
+  "Future Beats", "Electronica", "Ambient", "Trap", "Boom Bap", "Pop",
 ] as const;
 
 export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient";

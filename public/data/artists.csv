@@ -69,7 +69,7 @@ AceMo,,Rave,Night,Non-Desi,Percussive|Club|Rave,128,133
 Ahadadream,,Rave,Night,Desi,Percussive|Garage|Rowdy,71,136
 Alix Perez,Shades|Drone,Rave,Night,Non-Desi,DnB|Dark|Nodders,75,176
 Anish Kumar,,Rave,Day,Desi,Groove|Club,108,132
-Aphex Twin,,Rave,Night,Non-Desi,Electronica|Future Beats,73,165
+Aphex Twin,,Rave,Night,Non-Desi,Electronica|Future Beats|Ambient,73,165
 Baalti,,Rave,Day/Night,Desi,Groove|Percussive|Club,117,140
 Baauer,,Rave,Night,Non-Desi,Bass|Rowdy,82,170
 Barry Can't Swim,,Rave,Night,Non-Desi,Groove|Club,99,132
@@ -137,7 +137,7 @@ MEMBA,,Rave,Day,Desi,Bass|Future Beats,77,178
 MPH,MPH & EV,Rave,Night,Non-Desi,Club|Bass|Groove,130,140
 Machinedrum,,Rave,Night,Non-Desi,Nodders|Future Beats|Rave,75,174
 Makaan,,Rave,Day,Desi,Groove|Bass,124,134
-Mala,Mala,Rave,Night,Non-Desi,Dubstep|Dark|Groove,138,175
+Mala,Mala,Rave,Night,Non-Desi,Dubstep|Dark|Dub,138,175
 Malfnktion,,Rave,Day,Desi,Groove|Future Beats,82,172
 Medasin,,Rave,Night,Non-Desi,Future Beats|Groove,75,155
 Mera Bhai,,Rave,Day,Desi,Soulful|Future Beats,90,136
@@ -165,7 +165,7 @@ RAAJA BEATS,,Rave,Day,Desi,Groove|Percussive,90,120
 RL Grime,,Rave,Night,Non-Desi,Bass|Rowdy|Future Beats,75,170
 Raji Rags,,Rave,Night,Desi,Percussive,97,185
 RamonPang,Ramon Pang,Rave,Day,Non-Desi,Nodders|Future Beats|Electronica,72,151
-Rhythm & Sound,,Rave,Night,Non-Desi,Dark|Bass|Groove,77,166
+Rhythm & Sound,,Rave,Night,Non-Desi,Dark|Dub|Groove,77,166
 Rhythom,,Rave,Day/Night,Desi,Percussive|Nodders|Groove,80,180
 Rohaan,,Rave,Night,Desi,Rave|Bass|Nodders,90,172
 Ross From Friends,,Rave,Day/Night,Non-Desi,Groove|Club,74,163
@@ -181,7 +181,7 @@ Smerz,,Rave,Night,Non-Desi,Dark|Club,120,206
 Sodhivine,,Rave,Day,Desi,Pop|Groove,80,130
 Sukh Knight,,Rave,Night,Desi,Dubstep|Dark|Rowdy,69,140
 Swami Sound,,Rave,Night,Non-Desi,Club|Percussive|Bass,67,163
-Synkro,,Rave,Night,Non-Desi,Dark|Bass|Future Beats,100,209
+Synkro,,Rave,Night,Non-Desi,Dark|Bass|Ambient,100,209
 Ternion Sound,,Rave,Night,Non-Desi,Dubstep|Dark|Groove,77,140
 The Avalanches,,Rave,Day,Non-Desi,Groove|Soulful,80,163
 Tisakorean,,Rave,Day,Non-Desi,Rowdy|Rave,119,166
@@ -211,8 +211,8 @@ salute,salute & piri,Rave,Night,Non-Desi,Club|Garage|Groove,130,172
 sam gellaitry,,Rave,Day/Night,Non-Desi,Groove|Future Beats,71,169
 truant.,Truant,Rave,Night,Non-Desi,Bass|Club,100,142
 ANUSHKA,,Soul,Day/Night,Non-Desi,Soulful|Club|Bass,100,172
-Arooj Aftab,,Soul,Day,Desi,Soulful|Dark,83,179
-Arushi Jain,,Soul,Day,Desi,Dark|Future Beats|Electronica,88,172
+Arooj Aftab,,Soul,Day,Desi,Soulful|Dark|Ambient,83,179
+Arushi Jain,,Soul,Day,Desi,Dark|Ambient|Electronica,88,172
 BADBADNOTGOOD,,Soul,Day/Night,Non-Desi,Soulful|Groove|Rowdy,69,188
 Begum,,Soul,Day,Desi,Soulful|Groove,78,137
 Blood Orange,,Soul,Day/Night,Non-Desi,Soulful|Groove|Pop,70,183
@@ -238,7 +238,7 @@ Kal Banx,,Soul,Day/Night,Non-Desi,Soulful|Groove,74,164
 Kelela,,Soul,Night,Non-Desi,Soulful|Dark|Future Beats,70,169
 Khruangbin,,Soul,Day,Non-Desi,Soulful|Groove,74,168
 Lapgan,,Soul,Day,Desi,Groove|Dark|Nodders,58,184
-Laraaji,,Soul,Day,Non-Desi,Soulful|Dark,71,151
+Laraaji,,Soul,Day,Non-Desi,Soulful|Dark|Ambient,71,151
 Lifafa,,Soul,Day,Desi,Dark|Electronica,90,182
 Makaya McCraven,,Soul,Day/Night,Non-Desi,Soulful|Groove|Percussive,72,178
 Mei Semones,,Soul,Day,Non-Desi,Soulful|Groove,82,184
@@ -273,7 +273,7 @@ Toro y Moi,,Soul,Day,Non-Desi,Groove|Pop,60,200
 Yussef Dayes,,Soul,Day/Night,Non-Desi,Soulful|Groove|Percussive,78,169
 esta.,ESTA.,Soul,Day,Non-Desi,Groove|Soulful,80,134
 saie.,,Soul,Day/Night,Desi,Soulful|Groove,75,130
-V.I.V.E.K,Vivek|VIVEK,Rave,Night,Desi,Dubstep|Dark|Groove,138,142
+V.I.V.E.K,Vivek|VIVEK,Rave,Night,Desi,Dubstep|Dub|Dark,138,142
 Mia Koden,,Rave,Night,Non-Desi,Garage|Bass|Percussive,135,143
 Sam Gendel,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Soulful,60,112
 Sam Wilkes,Sam Gendel & Sam Wilkes,Soul,Day/Night,Non-Desi,Groove|Soulful,60,112
