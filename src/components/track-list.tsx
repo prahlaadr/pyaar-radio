@@ -26,6 +26,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
   const [sortCol, setSortCol] = useState<SortCol>(null);
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [viewMode, setViewMode] = useState<ViewMode>("all");
+  const [trackSearch, setTrackSearch] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const toggleSort = useCallback((col: SortCol) => {
@@ -38,9 +39,15 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
     }
   }, [sortCol, sortDir]);
 
+  const filteredTracks = useMemo(() => {
+    if (!trackSearch.trim()) return tracks;
+    const q = trackSearch.toLowerCase();
+    return tracks.filter((t) => t.trackName.toLowerCase().includes(q));
+  }, [tracks, trackSearch]);
+
   const sortedTracks = useMemo(() => {
-    if (!sortCol) return tracks;
-    const sorted = [...tracks].sort((a, b) => {
+    if (!sortCol) return filteredTracks;
+    const sorted = [...filteredTracks].sort((a, b) => {
       switch (sortCol) {
         case "track": return a.trackName.localeCompare(b.trackName);
         case "bpm": return (a.tempo || 0) - (b.tempo || 0);
@@ -57,7 +64,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
       }
     });
     return sortDir === "desc" ? sorted.reverse() : sorted;
-  }, [tracks, sortCol, sortDir]);
+  }, [filteredTracks, sortCol, sortDir]);
 
   const listItems = useMemo<ListItem[]>(() => {
     if (viewMode === "all") {
@@ -146,8 +153,15 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
         </button>
         <span className="text-sm font-medium">{artist.artist}</span>
         <span className="text-[10px] text-[#555] uppercase">
-          {tracks.length} tracks
+          {trackSearch ? `${filteredTracks.length}/` : ""}{tracks.length} tracks
         </span>
+        <input
+          type="text"
+          value={trackSearch}
+          onChange={(e) => setTrackSearch(e.target.value)}
+          placeholder="Filter tracks..."
+          className="bg-transparent border border-[#333] rounded px-2 py-0.5 text-xs text-white placeholder-[#555] outline-none focus:border-[#555] w-36 sm:w-48 transition-colors"
+        />
         <div className="ml-auto flex gap-1 text-[10px] uppercase tracking-wider">
           <button
             onClick={() => setViewMode("all")}
