@@ -748,7 +748,17 @@ export default function Home() {
     }
 
     if (sectionMode === "downtempo" || sectionMode === "ambient") {
-      pickRandomFromPool(sectionTracks);
+      // Play next track sequentially in the list
+      if (sectionTracks.length === 0) return;
+      if (nowPlaying) {
+        const idx = sectionTracks.findIndex(
+          (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+        );
+        const next = idx >= 0 && idx < sectionTracks.length - 1 ? sectionTracks[idx + 1] : sectionTracks[0];
+        setNowPlaying(next);
+      } else {
+        setNowPlaying(sectionTracks[0]);
+      }
       return;
     }
 
@@ -927,7 +937,15 @@ export default function Home() {
       if (tamilMode) {
         nextTrack = pickFromPool(tamilTracks);
       } else if (sectionMode === "downtempo" || sectionMode === "ambient") {
-        nextTrack = pickFromPool(sectionTracks);
+        if (forRadio) {
+          nextTrack = pickFromPool(sectionTracks);
+        } else {
+          // Sequential next for non-radio
+          const idx = nowPlaying ? sectionTracks.findIndex(
+            (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+          ) : -1;
+          nextTrack = idx >= 0 && idx < sectionTracks.length - 1 ? sectionTracks[idx + 1] : sectionTracks[0];
+        }
       } else if (browseView === "tracks" && filteredTracks.length > 0) {
         nextTrack = pickFromPool(filteredTracks);
       } else {
