@@ -126,7 +126,7 @@ export function buildScoredRandomQuery(
   excludeTrackKeys?: string[],
 ): string {
   const artistConditions = artists.map((a) => {
-    const allNames = [a.artist, ...a.aliases];
+    const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
     return allNames.map((name) => {
       const escaped = name.replace(/'/g, "''");
       return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
@@ -179,7 +179,7 @@ export function buildFilteredTracksQuery(
   halfTime = false,
 ): string {
   const artistConditions = artists.map((a) => {
-    const allNames = [a.artist, ...a.aliases];
+    const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
     return allNames.map((name) => {
       const escaped = name.replace(/'/g, "''");
       return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
@@ -332,7 +332,7 @@ export function buildTracksQuery(
   bpmMax = 300,
   halfTime = false,
 ): string {
-  const allNames = [artistName, ...aliases];
+  const allNames = [artistName, ...aliases.filter((a) => !a.startsWith("~"))];
   const artistConds = allNames.map((name) => {
     const escaped = name.replace(/'/g, "''");
     return `"Artist Name(s)" ILIKE '${escaped}'
