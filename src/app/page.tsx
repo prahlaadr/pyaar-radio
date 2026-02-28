@@ -151,6 +151,7 @@ export default function Home() {
   const [filters, setFilters] = useState<ArtistFilters>({ ...DEFAULT_FILTERS, ...urlInit.current.filters });
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [tracks, setTracks] = useState<Track[]>([]);
+  const [artistFilteredTracks, setArtistFilteredTracks] = useState<Track[] | null>(null);
   const [tracksLoading, setTracksLoading] = useState(false);
   const [searchTracks, setSearchTracks] = useState<Track[]>([]);
   const [setlist, setSetlist] = useState<SetlistTrack[]>([]);
@@ -647,6 +648,7 @@ export default function Home() {
     if (artist) setBrowseView("artists");
     if (!artist) {
       setTracks([]);
+      setArtistFilteredTracks(null);
       return;
     }
     fetchTracks(artist, filters.bpmMin, filters.bpmMax, filters.halfTime);
@@ -750,6 +752,17 @@ export default function Home() {
       return;
     }
 
+    // Artist detail view — play from filtered tracks if filter is active, otherwise all artist tracks
+    if (selectedArtist) {
+      const pool = artistFilteredTracks && artistFilteredTracks.length < tracks.length
+        ? artistFilteredTracks
+        : tracks;
+      if (pool.length > 0) {
+        pickRandomFromPool(pool);
+        return;
+      }
+    }
+
     if (browseView === "tracks" && filteredTracks.length > 0) {
       pickRandomFromPool(filteredTracks);
       return;
@@ -763,7 +776,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool, browseView, filteredTracks]);
+  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
 
   // Radio next — BPM proximity + key compatibility scoring
   const playRadio = useCallback(async () => {
@@ -806,6 +819,17 @@ export default function Home() {
       return;
     }
 
+    // Artist detail view — play from filtered tracks if filter is active
+    if (selectedArtist) {
+      const pool = artistFilteredTracks && artistFilteredTracks.length < tracks.length
+        ? artistFilteredTracks
+        : tracks;
+      if (pool.length > 0) {
+        pickBpmScored(pool);
+        return;
+      }
+    }
+
     if (browseView === "tracks" && filteredTracks.length > 0) {
       pickBpmScored(filteredTracks);
       return;
@@ -822,7 +846,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, browseView, filteredTracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
 
   // Autoplay from URL param (?autoplay=1) — one-shot on first load
   useEffect(() => {
@@ -1564,6 +1588,7 @@ export default function Home() {
                 onAddToSetlist={addToSetlist}
                 onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
                 nowPlaying={nowPlaying}
+                onFilteredTracksChange={setArtistFilteredTracks}
               />
             ) : (
               <div className="flex-1 overflow-y-auto flex flex-col">

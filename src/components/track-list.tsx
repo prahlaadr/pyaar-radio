@@ -1,4 +1,4 @@
-import { useRef, useCallback, useState, useMemo } from "react";
+import { useRef, useCallback, useState, useMemo, useEffect } from "react";
 import type { Artist, Track } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 import { useVirtualizer } from "@tanstack/react-virtual";
@@ -16,9 +16,10 @@ interface Props {
   onAddToSetlist: (track: Track) => void;
   onPlay?: (track: Track) => void;
   nowPlaying?: Track | null;
+  onFilteredTracksChange?: (tracks: Track[]) => void;
 }
 
-export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay, nowPlaying }: Props) {
+export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onPlay, nowPlaying, onFilteredTracksChange }: Props) {
   const tapTimers = useRef<Map<number, ReturnType<typeof setTimeout>>>(new Map());
   const touchStart = useRef<{ x: number; y: number; index: number } | null>(null);
   const [swipeState, setSwipeState] = useState<{ index: number; dx: number } | null>(null);
@@ -44,6 +45,10 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
     const q = trackSearch.toLowerCase();
     return tracks.filter((t) => t.trackName.toLowerCase().includes(q));
   }, [tracks, trackSearch]);
+
+  useEffect(() => {
+    onFilteredTracksChange?.(filteredTracks);
+  }, [filteredTracks, onFilteredTracksChange]);
 
   const sortedTracks = useMemo(() => {
     if (!sortCol) return filteredTracks;
