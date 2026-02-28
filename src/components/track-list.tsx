@@ -160,7 +160,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
           value={trackSearch}
           onChange={(e) => setTrackSearch(e.target.value)}
           placeholder="Filter tracks..."
-          className="bg-transparent border border-[#333] rounded px-2 py-0.5 text-xs text-white placeholder-[#555] outline-none focus:border-[#555] w-36 sm:w-48 transition-colors"
+          className="bg-[#111] border border-[#444] rounded px-2 py-0.5 text-xs text-white placeholder-[#666] outline-none focus:border-[#888] w-36 sm:w-48 transition-colors"
         />
         <div className="ml-auto flex gap-1 text-[10px] uppercase tracking-wider">
           <button
