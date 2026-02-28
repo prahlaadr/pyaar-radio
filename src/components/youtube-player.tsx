@@ -292,6 +292,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
   const failedIdsRef = useRef<Set<string>>(new Set());
   const currentTrackRef = useRef<Track | null>(null);
+  const playVideoIdRef = useRef<(vid: string) => void>(() => {});
 
   const onError = useCallback(async (e: YTEvent) => {
     // Mark this video as failed so we don't retry it
@@ -308,12 +309,12 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     // Try searching for an alternative video
     const vid = await searchVideoId(t.trackName, t.artistNames);
     if (vid && !failedIdsRef.current.has(vid)) {
-      playVideoId(vid);
+      playVideoIdRef.current(vid);
     } else {
       setError("Not found");
       setPlaying(false);
     }
-  }, [playVideoId]);
+  }, []);
 
   const onStateChange = useCallback((e: YTEvent) => {
     const state = e.data;
@@ -368,12 +369,14 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           origin: window.location.origin,
         },
         events: {
-          onStateChange: onStateChange,
-          onError: onError,
+          onStateChange,
+          onError,
         },
       });
     });
   }, [onStateChange, onError]);
+
+  playVideoIdRef.current = playVideoId;
 
   const stopSoundCloud = useCallback(() => {
     try { scWidgetRef.current?.pause(); } catch {}
