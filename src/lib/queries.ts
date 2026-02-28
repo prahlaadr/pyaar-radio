@@ -256,7 +256,7 @@ export function buildTagRadioQuery(tags: string[]): string {
   `;
 }
 
-export function buildTagSectionQuery(tag: string, search: string, bpmMin: number, bpmMax: number): string {
+export function buildTagSectionQuery(tag: string, search: string, bpmMin: number, bpmMax: number, desi?: string): string {
   const conditions: string[] = [];
   const escapedTag = tag.replace(/'/g, "''");
   conditions.push(`Tags ILIKE '%${escapedTag}%'`);
@@ -271,6 +271,10 @@ export function buildTagSectionQuery(tag: string, search: string, bpmMin: number
   }
   if (bpmMax < 300) {
     conditions.push(`TRY_CAST(Tempo AS FLOAT) <= ${bpmMax}`);
+  }
+
+  if (desi) {
+    conditions.push(`EXISTS (SELECT 1 FROM artists a WHERE a.desi = '${desi}' AND ("Artist Name(s)" ILIKE a.artist OR "Artist Name(s)" ILIKE a.artist || ';%' OR "Artist Name(s)" ILIKE '%;' || a.artist || ';%' OR "Artist Name(s)" ILIKE '%;' || a.artist))`);
   }
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";

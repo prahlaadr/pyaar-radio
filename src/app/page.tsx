@@ -184,6 +184,7 @@ export default function Home() {
   const [sectionSearch, setSectionSearch] = useState("");
   const [sectionBpmMin, setSectionBpmMin] = useState(0);
   const [sectionBpmMax, setSectionBpmMax] = useState(300);
+  const [sectionDesi, setSectionDesi] = useState("");
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
@@ -570,7 +571,7 @@ export default function Home() {
     const tag = sectionMode === "downtempo" ? "Downtempo" : "Ambient";
     (async () => {
       try {
-        const sql = buildTagSectionQuery(tag, sectionSearch, sectionBpmMin, sectionBpmMax);
+        const sql = buildTagSectionQuery(tag, sectionSearch, sectionBpmMin, sectionBpmMax, sectionDesi || undefined);
         const rows = await query<{
           trackName: string;
           artistNames: string;
@@ -603,7 +604,7 @@ export default function Home() {
         setSectionTracks([]);
       }
     })();
-  }, [sectionMode, sectionSearch, sectionBpmMin, sectionBpmMax]);
+  }, [sectionMode, sectionSearch, sectionBpmMin, sectionBpmMax, sectionDesi]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
@@ -1483,6 +1484,7 @@ export default function Home() {
                   setSectionSearch("");
                   setSectionBpmMin(0);
                   setSectionBpmMax(300);
+                  setSectionDesi("");
                 }
               }}
               sectionSearch={sectionSearch}
@@ -1524,6 +1526,8 @@ export default function Home() {
                 onAddToSetlist={addToSetlist}
                 emptyMessage={sectionSearch ? "No results" : `No ${sectionMode} tracks tagged yet`}
                 showGenre
+                desi={sectionDesi}
+                onDesiChange={setSectionDesi}
               />
             ) : selectedArtist ? (
               <TrackList
