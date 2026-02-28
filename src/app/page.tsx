@@ -743,7 +743,16 @@ export default function Home() {
     }
 
     if (tamilMode) {
-      pickRandomFromPool(tamilTracks);
+      if (tamilTracks.length === 0) return;
+      if (nowPlaying) {
+        const idx = tamilTracks.findIndex(
+          (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+        );
+        const next = idx >= 0 && idx < tamilTracks.length - 1 ? tamilTracks[idx + 1] : tamilTracks[0];
+        setNowPlaying(next);
+      } else {
+        setNowPlaying(tamilTracks[0]);
+      }
       return;
     }
 
@@ -935,7 +944,14 @@ export default function Home() {
       };
 
       if (tamilMode) {
-        nextTrack = pickFromPool(tamilTracks);
+        if (forRadio) {
+          nextTrack = pickFromPool(tamilTracks);
+        } else {
+          const idx = nowPlaying ? tamilTracks.findIndex(
+            (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+          ) : -1;
+          nextTrack = idx >= 0 && idx < tamilTracks.length - 1 ? tamilTracks[idx + 1] : tamilTracks[0];
+        }
       } else if (sectionMode === "downtempo" || sectionMode === "ambient") {
         if (forRadio) {
           nextTrack = pickFromPool(sectionTracks);
@@ -1484,7 +1500,20 @@ export default function Home() {
                 </div>
               </div>
             ) : tamilMode ? (
-              <div className="flex-1 overflow-y-auto">
+              <div className="flex-1 overflow-y-auto flex flex-col">
+                <div className="px-3 md:px-5 py-2 border-b border-[#222] flex items-center gap-3">
+                  <span className="text-[10px] text-[#555] uppercase tracking-wider">Tamil</span>
+                  <span className="text-[10px] text-[#444]">
+                    {tamilTracks.length} tracks
+                  </span>
+                  <input
+                    type="text"
+                    value={tamilSearch}
+                    onChange={(e) => setTamilSearch(e.target.value)}
+                    placeholder="FILTER..."
+                    className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
+                  />
+                </div>
                 {tamilTracks.length === 0 ? (
                   <div className="flex-1 flex items-center justify-center py-20">
                     <p className="text-[#444] text-xs uppercase tracking-widest">
