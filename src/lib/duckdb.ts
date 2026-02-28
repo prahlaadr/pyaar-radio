@@ -54,6 +54,10 @@ async function init() {
   await conn.query(`
     CREATE TABLE masterlist AS SELECT * FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
+  // Ensure Bandcamp ID column exists (may be missing from CSV)
+  try {
+    await conn.query(`ALTER TABLE masterlist ADD COLUMN "Bandcamp ID" VARCHAR DEFAULT ''`);
+  } catch { /* column already exists */ }
   try {
     await conn.query(`
       CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)
