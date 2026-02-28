@@ -31,8 +31,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; view: "artists" | "tracks" } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, view: "artists" };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; section: SectionMode; view: "artists" | "tracks" } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, section: "browse", view: "artists" };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -69,13 +69,15 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const tab = p.get("tab") as "browse" | "setlists" | null;
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
-  const tamil = window.location.pathname === "/tamil";
+  const pathname = window.location.pathname;
+  const tamil = pathname === "/tamil";
+  const section: SectionMode = pathname === "/ambient" ? "ambient" : pathname === "/downtempo" ? "downtempo" : "browse";
   const view = p.get("view") === "tracks" ? "tracks" as const : "artists" as const;
 
-  return { filters, artist, tab, track, autoplay, tamil, view };
+  return { filters, artist, tab, track, autoplay, tamil, section, view };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks"): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode): string {
   const p = new URLSearchParams();
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
   if (filters.samay) p.set("samay", filters.samay);
@@ -90,7 +92,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
-  const basePath = tamil ? "/tamil" : artistName ? `/artist/${slugify(artistName)}` : "/";
+  const basePath = tamil ? "/tamil" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
   return str ? `${basePath}?${str}` : basePath;
 }
@@ -179,7 +181,7 @@ export default function Home() {
   const [browseView, setBrowseView] = useState<"artists" | "tracks">(urlInit.current.view);
   const [filteredTracks, setFilteredTracks] = useState<Track[]>([]);
   const [filteredTracksLoading, setFilteredTracksLoading] = useState(false);
-  const [sectionMode, setSectionMode] = useState<SectionMode>("browse");
+  const [sectionMode, setSectionMode] = useState<SectionMode>(urlInit.current.section);
   const [sectionTracks, setSectionTracks] = useState<Track[]>([]);
   const [sectionSearch, setSectionSearch] = useState("");
   const [sectionBpmMin, setSectionBpmMin] = useState(0);
@@ -281,17 +283,17 @@ export default function Home() {
   }, [loading]);
 
   const buildShareUrl = useCallback(() => {
-    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode, browseView);
+    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode, browseView, sectionMode);
     const base = window.location.origin;
     const sep = params.includes("?") ? "&" : "?";
     return `${base}${params}${sep}autoplay=1`;
-  }, [filters, selectedArtist, tab, tamilMode, browseView]);
+  }, [filters, selectedArtist, tab, tamilMode, browseView, sectionMode]);
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView, sectionMode);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView]);
+  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView, sectionMode]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
