@@ -77,6 +77,7 @@ interface Props {
   onShuffle?: () => void;
   onPrev?: () => void;
   onAddToSetlist?: (track: Track) => void;
+  onArtistClick?: (artistName: string) => void;
 }
 
 let apiLoaded = false;
@@ -204,7 +205,7 @@ function openYouTubeSearch(trackName: string, artistName: string) {
   }, 500);
 }
 
-export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onPrev, onAddToSetlist }, ref) {
+export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function YouTubePlayer({ track, onClose, radioMode, onToggleRadio, onEnded, onShuffle, onPrev, onAddToSetlist, onArtistClick }, ref) {
   const playerRef = useRef<YTPlayer | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const scIframeRef = useRef<HTMLIFrameElement>(null);
@@ -733,7 +734,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         <div className="flex-1 min-w-0 flex items-center gap-2">
           <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
           <span className="text-[10px] text-[#444]">&mdash;</span>
-          <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
+          {onArtistClick ? (
+            <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="text-[10px] text-[#666] hover:text-white transition-colors truncate">
+              {track.artistNames.split(";")[0]}
+            </button>
+          ) : (
+            <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
+          )}
           {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider shrink-0">SC</span>}
           {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider shrink-0">BC</span>}
         </div>
@@ -767,7 +774,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <div className="flex-1 min-w-0">
             <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
             <div className="text-xs text-[#666] truncate flex items-center gap-1">
-              {track.artistNames.split(";")[0]}
+              {onArtistClick ? (
+                <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="hover:text-white transition-colors">
+                  {track.artistNames.split(";")[0]}
+                </button>
+              ) : (
+                track.artistNames.split(";")[0]
+              )}
               {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
               {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider">BC</span>}
             </div>

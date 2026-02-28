@@ -656,6 +656,34 @@ export default function Home() {
     fetchTracks(artist, filters.bpmMin, filters.bpmMax, filters.halfTime);
   }, [fetchTracks, filters.bpmMin, filters.bpmMax, filters.halfTime]);
 
+  // Navigate to artist by name — finds in allArtists or creates a temporary artist object
+  const navigateToArtist = useCallback((artistName: string) => {
+    const found = allArtists.find((a) =>
+      a.artist.toLowerCase() === artistName.toLowerCase() ||
+      a.aliases.some((alias) => alias.toLowerCase() === artistName.toLowerCase())
+    );
+    if (found) {
+      setSectionMode("browse");
+      setTamilMode(false);
+      handleSelectArtist(found);
+    } else {
+      // Create a temporary artist for artists not in artists.csv
+      const tempArtist: Artist = {
+        artist: artistName,
+        aliases: [],
+        channel: "Soul",
+        samay: "Day/Night",
+        desi: "Non-Desi",
+        vibes: [],
+        bpmLow: 0,
+        bpmHigh: 300,
+      };
+      setSectionMode("browse");
+      setTamilMode(false);
+      handleSelectArtist(tempArtist);
+    }
+  }, [allArtists, handleSelectArtist]);
+
   // Re-fetch tracks when BPM filters change while viewing an artist
   useEffect(() => {
     if (selectedArtist) {
@@ -1513,6 +1541,7 @@ export default function Home() {
                 onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
                 onAddToSetlist={addToSetlist}
                 emptyMessage={tamilSearch ? "No results" : "No Tamil tracks loaded"}
+                onArtistClick={navigateToArtist}
               />
             ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
               <SectionTrackList
@@ -1528,6 +1557,7 @@ export default function Home() {
                 showGenre
                 desi={sectionDesi}
                 onDesiChange={setSectionDesi}
+                onArtistClick={navigateToArtist}
               />
             ) : selectedArtist ? (
               <TrackList
@@ -1894,6 +1924,7 @@ export default function Home() {
           if (prev) setNowPlaying(prev);
         } : undefined}
         onAddToSetlist={addToSetlist}
+        onArtistClick={navigateToArtist}
       />
     </div>
   );

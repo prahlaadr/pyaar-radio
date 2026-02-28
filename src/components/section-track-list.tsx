@@ -15,6 +15,7 @@ interface Props {
   showGenre?: boolean;
   desi?: string;
   onDesiChange?: (v: string) => void;
+  onArtistClick?: (artistName: string) => void;
 }
 
 const accentClasses = {
@@ -24,7 +25,7 @@ const accentClasses = {
   red: { bg: "bg-red-950/30", text: "text-red-400", hoverText: "hover:text-red-400", hoverBtn: "hover:text-red-500" },
 };
 
-export function SectionTrackList({ tracks, label, search, onSearchChange, accentColor, nowPlaying, onPlay, onAddToSetlist, emptyMessage, showGenre, desi, onDesiChange }: Props) {
+export function SectionTrackList({ tracks, label, search, onSearchChange, accentColor, nowPlaying, onPlay, onAddToSetlist, emptyMessage, showGenre, desi, onDesiChange, onArtistClick }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const accent = accentClasses[accentColor];
 
@@ -96,7 +97,17 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                       {track.trackName}
                     </div>
                     <div className="text-[10px] text-[#555] truncate">
-                      {track.artistNames.split(";")[0]}{track.albumName ? ` · ${track.albumName}` : ""}
+                      {onArtistClick ? (
+                        <button
+                          onClick={(e) => { e.stopPropagation(); onArtistClick(track.artistNames.split(";")[0].trim()); }}
+                          className="hover:text-white transition-colors"
+                        >
+                          {track.artistNames.split(";")[0]}
+                        </button>
+                      ) : (
+                        track.artistNames.split(";")[0]
+                      )}
+                      {track.albumName ? ` · ${track.albumName}` : ""}
                     </div>
                   </div>
                   {showGenre && track.genres && track.genres.length > 0 && (
