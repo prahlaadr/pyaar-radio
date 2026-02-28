@@ -29,8 +29,11 @@ async function init() {
     fetch("/data/masterlist.csv"),
   ]);
 
-  const artistsBuf = new Uint8Array(await artistsResp.arrayBuffer());
+  const artistsBufRaw = new Uint8Array(await artistsResp.arrayBuffer());
   const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
+
+  // Normalize line endings to \n — mixed \r\n and \n breaks DuckDB's strict parser
+  const artistsBuf = artistsBufRaw.filter((b) => b !== 0x0d);
 
   await db.registerFileBuffer("artists.csv", artistsBuf);
   await db.registerFileBuffer("masterlist.csv", masterlistBuf);
@@ -49,7 +52,7 @@ async function init() {
   conn = await db.connect();
 
   await conn.query(`
-    CREATE TABLE artists AS SELECT * FROM read_csv('artists.csv', delim=',', header=true, auto_detect=false, columns={'artist':'VARCHAR','aliases':'VARCHAR','channel':'VARCHAR','samay':'VARCHAR','desi':'VARCHAR','vibes':'VARCHAR','bpm_low':'INT','bpm_high':'INT'})
+    CREATE TABLE artists AS SELECT * FROM read_csv('artists.csv', delim=',', header=true, auto_detect=false, strict_mode=false, null_padding=true, columns={'artist':'VARCHAR','aliases':'VARCHAR','channel':'VARCHAR','samay':'VARCHAR','desi':'VARCHAR','vibes':'VARCHAR','bpm_low':'INT','bpm_high':'INT'})
   `);
   await conn.query(`
     CREATE TABLE masterlist AS SELECT * FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
