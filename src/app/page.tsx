@@ -9,6 +9,7 @@ import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, Setlist
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
+import { SectionTrackList } from "@/components/section-track-list";
 import { SetlistPanel } from "@/components/setlist";
 import { ImportModal } from "@/components/import-modal";
 import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
@@ -1500,147 +1501,30 @@ export default function Home() {
                 </div>
               </div>
             ) : tamilMode ? (
-              <div className="flex-1 overflow-y-auto flex flex-col">
-                <div className="px-3 md:px-5 py-2 border-b border-[#222] flex items-center gap-3">
-                  <span className="text-[10px] text-[#555] uppercase tracking-wider">Tamil</span>
-                  <span className="text-[10px] text-[#444]">
-                    {tamilTracks.length} tracks
-                  </span>
-                  <input
-                    type="text"
-                    value={tamilSearch}
-                    onChange={(e) => setTamilSearch(e.target.value)}
-                    placeholder="FILTER..."
-                    className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
-                  />
-                </div>
-                {tamilTracks.length === 0 ? (
-                  <div className="flex-1 flex items-center justify-center py-20">
-                    <p className="text-[#444] text-xs uppercase tracking-widest">
-                      {tamilSearch ? "No results" : "No Tamil tracks loaded"}
-                    </p>
-                  </div>
-                ) : (
-                  tamilTracks.map((track, i) => {
-                    const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
-                    return (
-                      <div
-                        key={`tamil-${track.trackName}-${i}`}
-                        className={`px-3 md:px-5 py-2 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
-                          isPlaying ? "bg-amber-950/30" : ""
-                        }`}
-                        onDoubleClick={() => addToSetlist(track)}
-                      >
-                        <button
-                          onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
-                          className="text-[#555] hover:text-amber-400 transition-colors text-[10px]"
-                          title="Play"
-                        >
-                          &#9654;
-                        </button>
-                        <div className="flex-1 min-w-0">
-                          <div className={`text-xs truncate transition-colors ${
-                            isPlaying ? "text-amber-400" : "text-[#ccc] group-hover:text-white"
-                          }`}>
-                            {track.trackName}
-                          </div>
-                          <div className="text-[10px] text-[#555] truncate">
-                            {track.artistNames}{track.albumName ? ` · ${track.albumName}` : ""}
-                          </div>
-                        </div>
-                        <span className="text-[10px] text-[#555] tabular-nums font-mono">
-                          {track.tempo > 0 ? Math.round(track.tempo) : "—"}
-                        </span>
-                        <button
-                          onClick={() => addToSetlist(track)}
-                          className="text-[#333] hover:text-amber-500 transition-colors text-sm font-bold"
-                          title="Add to setlist"
-                        >
-                          +
-                        </button>
-                      </div>
-                    );
-                  })
-                )}
-              </div>
+              <SectionTrackList
+                tracks={tamilTracks}
+                label="Tamil"
+                search={tamilSearch}
+                onSearchChange={setTamilSearch}
+                accentColor="amber"
+                nowPlaying={nowPlaying}
+                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                onAddToSetlist={addToSetlist}
+                emptyMessage={tamilSearch ? "No results" : "No Tamil tracks loaded"}
+              />
             ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
-              <div className="flex-1 overflow-y-auto flex flex-col">
-                <div className="px-3 md:px-5 py-2 border-b border-[#222] flex items-center gap-3">
-                  <span className="text-[10px] text-[#555] uppercase tracking-wider">
-                    {sectionMode === "downtempo" ? "Downtempo" : "Ambient"}
-                  </span>
-                  <span className="text-[10px] text-[#444]">
-                    {sectionTracks.length} tracks
-                  </span>
-                  <input
-                    type="text"
-                    value={sectionSearch}
-                    onChange={(e) => setSectionSearch(e.target.value)}
-                    placeholder="FILTER..."
-                    className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
-                  />
-                </div>
-                {sectionTracks.length === 0 ? (
-                  <div className="flex-1 flex items-center justify-center py-20">
-                    <p className="text-[#444] text-xs uppercase tracking-widest">
-                      {sectionSearch ? "No results" : `No ${sectionMode} tracks tagged yet`}
-                    </p>
-                  </div>
-                ) : (
-                  sectionTracks.map((track, i) => {
-                    const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
-                    const accentColor = sectionMode === "downtempo" ? "cyan" : "purple";
-                    return (
-                      <div
-                        key={`${sectionMode}-${track.trackName}-${i}`}
-                        className={`px-3 md:px-5 py-2 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
-                          isPlaying ? (sectionMode === "downtempo" ? "bg-cyan-950/30" : "bg-purple-950/30") : ""
-                        }`}
-                        onDoubleClick={() => addToSetlist(track)}
-                      >
-                        <button
-                          onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
-                          className={`text-[#555] transition-colors text-[10px] ${
-                            sectionMode === "downtempo" ? "hover:text-cyan-400" : "hover:text-purple-400"
-                          }`}
-                          title="Play"
-                        >
-                          &#9654;
-                        </button>
-                        <div className="flex-1 min-w-0">
-                          <div className={`text-xs truncate transition-colors ${
-                            isPlaying
-                              ? (accentColor === "cyan" ? "text-cyan-400" : "text-purple-400")
-                              : "text-[#ccc] group-hover:text-white"
-                          }`}>
-                            {track.trackName}
-                          </div>
-                          <div className="text-[10px] text-[#555] truncate">
-                            {track.artistNames.split(";")[0]}{track.albumName ? ` · ${track.albumName}` : ""}
-                          </div>
-                        </div>
-                        {track.genres && track.genres.length > 0 && (
-                          <span className="text-[10px] text-[#333] hidden sm:inline truncate max-w-24">
-                            {track.genres[0]}
-                          </span>
-                        )}
-                        <span className="text-[10px] text-[#555] tabular-nums font-mono">
-                          {track.tempo > 0 ? Math.round(track.tempo) : "—"}
-                        </span>
-                        <button
-                          onClick={() => addToSetlist(track)}
-                          className={`text-[#333] transition-colors text-sm font-bold ${
-                            sectionMode === "downtempo" ? "hover:text-cyan-500" : "hover:text-purple-500"
-                          }`}
-                          title="Add to setlist"
-                        >
-                          +
-                        </button>
-                      </div>
-                    );
-                  })
-                )}
-              </div>
+              <SectionTrackList
+                tracks={sectionTracks}
+                label={sectionMode === "downtempo" ? "Downtempo" : "Ambient"}
+                search={sectionSearch}
+                onSearchChange={setSectionSearch}
+                accentColor={sectionMode === "downtempo" ? "cyan" : "purple"}
+                nowPlaying={nowPlaying}
+                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                onAddToSetlist={addToSetlist}
+                emptyMessage={sectionSearch ? "No results" : `No ${sectionMode} tracks tagged yet`}
+                showGenre
+              />
             ) : selectedArtist ? (
               <TrackList
                 artist={selectedArtist}
