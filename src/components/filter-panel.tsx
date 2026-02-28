@@ -31,6 +31,8 @@ interface Props {
   sectionBpmMax?: number;
   onSectionBpmChange?: (min: number, max: number) => void;
   sectionTrackCount?: number;
+  sectionDesi?: string;
+  onSectionDesiChange?: (v: string) => void;
 }
 
 const SECTION_STYLES: Record<string, { hover: string; active: string; text: string; border: string }> = {
@@ -49,6 +51,7 @@ export function FilterPanel({
   sectionSearch, onSectionSearchChange,
   sectionBpmMin = 0, sectionBpmMax = 300, onSectionBpmChange,
   sectionTrackCount,
+  sectionDesi, onSectionDesiChange,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
 
@@ -233,9 +236,24 @@ export function FilterPanel({
             >
               {sectionMode}
             </button>
-            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1">
+            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={() => onSectionToggle("browse")}>
               &larr; back to all
             </span>
+            {onSectionDesiChange && (
+              <>
+                <div className="w-px bg-[#333] mx-1" />
+                <button
+                  onClick={() => onSectionDesiChange(sectionDesi === "Desi" ? "" : "Desi")}
+                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                    sectionDesi === "Desi"
+                      ? "bg-red-600 text-white"
+                      : "bg-[#111] text-[#888] hover:text-white"
+                  }`}
+                >
+                  Desi
+                </button>
+              </>
+            )}
           </div>
         )}
 

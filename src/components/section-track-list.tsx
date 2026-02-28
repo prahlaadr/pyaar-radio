@@ -13,8 +13,6 @@ interface Props {
   onAddToSetlist: (track: Track) => void;
   emptyMessage: string;
   showGenre?: boolean;
-  desi?: string;
-  onDesiChange?: (v: string) => void;
   onArtistClick?: (artistName: string) => void;
 }
 
@@ -25,7 +23,7 @@ const accentClasses = {
   red: { bg: "bg-red-950/30", text: "text-red-400", hoverText: "hover:text-red-400", hoverBtn: "hover:text-red-500" },
 };
 
-export function SectionTrackList({ tracks, label, search, onSearchChange, accentColor, nowPlaying, onPlay, onAddToSetlist, emptyMessage, showGenre, desi, onDesiChange, onArtistClick }: Props) {
+export function SectionTrackList({ tracks, label, search, onSearchChange, accentColor, nowPlaying, onPlay, onAddToSetlist, emptyMessage, showGenre, onArtistClick }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const accent = accentClasses[accentColor];
 
@@ -48,19 +46,6 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
           placeholder="FILTER..."
           className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
         />
-        {onDesiChange && (
-          <div className="ml-auto flex gap-1 text-[10px] uppercase tracking-wider">
-            {["", "Desi", "Non-Desi"].map((v) => (
-              <button
-                key={v || "all"}
-                onClick={() => onDesiChange(v)}
-                className={`px-2 py-0.5 rounded transition-colors ${desi === v ? "bg-[#222] text-white" : "text-[#555] hover:text-white"}`}
-              >
-                {v || "All"}
-              </button>
-            ))}
-          </div>
-        )}
       </div>
       {tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center py-20">

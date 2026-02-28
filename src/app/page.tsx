@@ -1523,6 +1523,8 @@ export default function Home() {
               sectionBpmMax={sectionBpmMax}
               onSectionBpmChange={(min, max) => { setSectionBpmMin(min); setSectionBpmMax(max); }}
               sectionTrackCount={sectionTracks.length}
+              sectionDesi={sectionDesi}
+              onSectionDesiChange={setSectionDesi}
             />
 
             {loading ? (
@@ -1557,8 +1559,6 @@ export default function Home() {
                 onAddToSetlist={addToSetlist}
                 emptyMessage={sectionSearch ? "No results" : `No ${sectionMode} tracks tagged yet`}
                 showGenre
-                desi={sectionDesi}
-                onDesiChange={setSectionDesi}
                 onArtistClick={navigateToArtist}
               />
             ) : selectedArtist ? (
