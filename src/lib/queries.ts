@@ -128,8 +128,8 @@ export function buildScoredRandomQuery(
   const artistConditions = artists.map((a) => {
     const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
     return allNames.map((name) => {
-      const escaped = name.replace(/'/g, "''");
-      return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
+      const escaped = name.replace(/'/g, "''").toLowerCase();
+      return `_artists_lower LIKE '%;${escaped};%'`;
     }).join(" OR ");
   }).map((c) => `(${c})`).join(" OR ");
 
@@ -181,8 +181,8 @@ export function buildFilteredTracksQuery(
   const artistConditions = artists.map((a) => {
     const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
     return allNames.map((name) => {
-      const escaped = name.replace(/'/g, "''");
-      return `"Artist Name(s)" ILIKE '${escaped}' OR "Artist Name(s)" ILIKE '${escaped};%' OR "Artist Name(s)" ILIKE '%;${escaped}' OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
+      const escaped = name.replace(/'/g, "''").toLowerCase();
+      return `_artists_lower LIKE '%;${escaped};%'`;
     }).join(" OR ");
   }).map((c) => `(${c})`).join(" OR ");
 
@@ -274,7 +274,7 @@ export function buildTagSectionQuery(tag: string, search: string, bpmMin: number
   }
 
   if (desi) {
-    conditions.push(`EXISTS (SELECT 1 FROM artists a WHERE a.desi = '${desi}' AND ("Artist Name(s)" ILIKE a.artist OR "Artist Name(s)" ILIKE a.artist || ';%' OR "Artist Name(s)" ILIKE '%;' || a.artist || ';%' OR "Artist Name(s)" ILIKE '%;' || a.artist))`);
+    conditions.push(`EXISTS (SELECT 1 FROM artists a WHERE a.desi = '${desi}' AND _artists_lower LIKE '%;' || LOWER(a.artist) || ';%')`);
   }
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
@@ -337,15 +337,13 @@ export function buildTracksQuery(
   halfTime = false,
 ): string {
   const allNames = [artistName, ...aliases.filter((a) => !a.startsWith("~"))];
+  // Use pre-computed _artists_lower column: ';lowercase_name;' format enables fast LIKE contains
   const artistConds = allNames.map((name) => {
-    const escaped = name.replace(/'/g, "''");
-    return `"Artist Name(s)" ILIKE '${escaped}'
-      OR "Artist Name(s)" ILIKE '${escaped};%'
-      OR "Artist Name(s)" ILIKE '%;${escaped}'
-      OR "Artist Name(s)" ILIKE '%;${escaped};%'`;
+    const escaped = name.replace(/'/g, "''").toLowerCase();
+    return `_artists_lower LIKE '%;${escaped};%'`;
   });
 
-  const conditions = [`(${artistConds.map((c) => `(${c})`).join(" OR ")})`];
+  const conditions = [`(${artistConds.join(" OR ")})`];
 
   if (bpmMin > 0 || bpmMax < 300) {
     const min = bpmMin > 0 ? bpmMin : 0;

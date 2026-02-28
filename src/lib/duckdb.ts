@@ -61,6 +61,9 @@ async function init() {
   await conn.query(`
     CREATE TABLE masterlist AS SELECT * FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
+  // Add pre-computed lowercase artist column for faster matching
+  await conn.query(`ALTER TABLE masterlist ADD COLUMN _artists_lower VARCHAR`);
+  await conn.query(`UPDATE masterlist SET _artists_lower = ';' || LOWER("Artist Name(s)") || ';'`);
   // Ensure Bandcamp ID column exists (may be missing from CSV)
   try {
     await conn.query(`ALTER TABLE masterlist ADD COLUMN "Bandcamp ID" VARCHAR DEFAULT ''`);

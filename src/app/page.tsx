@@ -187,6 +187,7 @@ export default function Home() {
   const [sectionBpmMin, setSectionBpmMin] = useState(0);
   const [sectionBpmMax, setSectionBpmMax] = useState(300);
   const [sectionDesi, setSectionDesi] = useState("");
+  const prevSectionMode = useRef<SectionMode>("browse");
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
@@ -660,6 +661,8 @@ export default function Home() {
 
   // Navigate to artist by name — finds in allArtists or creates a temporary artist object
   const navigateToArtist = useCallback((artistName: string) => {
+    // Remember where we came from so back button returns here
+    prevSectionMode.current = sectionMode;
     const found = allArtists.find((a) =>
       a.artist.toLowerCase() === artistName.toLowerCase() ||
       a.aliases.some((alias) => alias.toLowerCase() === artistName.toLowerCase())
@@ -684,7 +687,7 @@ export default function Home() {
       setTamilMode(false);
       handleSelectArtist(tempArtist);
     }
-  }, [allArtists, handleSelectArtist]);
+  }, [allArtists, handleSelectArtist, sectionMode]);
 
   // Re-fetch tracks when BPM filters change while viewing an artist
   useEffect(() => {
@@ -1361,7 +1364,7 @@ export default function Home() {
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
           <h1
             className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors shrink-0"
-            onClick={() => { handleSelectArtist(null); setTab("browse"); }}
+            onClick={() => { handleSelectArtist(null); setTab("browse"); if (prevSectionMode.current !== "browse") { setSectionMode(prevSectionMode.current); prevSectionMode.current = "browse"; } }}
           >Pyaar Radio</h1>
           <button
             onClick={() => { playRadio(); setRadioMode(true); setSetlistMode(false); }}
@@ -1566,7 +1569,7 @@ export default function Home() {
                 artist={selectedArtist}
                 tracks={tracks}
                 loading={tracksLoading}
-                onBack={() => handleSelectArtist(null)}
+                onBack={() => { handleSelectArtist(null); if (prevSectionMode.current !== "browse") { setSectionMode(prevSectionMode.current); } }}
                 onAddToSetlist={addToSetlist}
                 onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
                 nowPlaying={nowPlaying}
