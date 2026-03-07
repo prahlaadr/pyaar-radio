@@ -2,10 +2,10 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery, buildFilteredTracksQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
-import { getCompatibleKeys, sortByHarmonicFlow } from "@/lib/camelot";
-import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry } from "@/lib/types";
+import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
+import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
@@ -173,6 +173,9 @@ export default function Home() {
   const [radioMode, setRadioMode] = useState(false);
   const [setlistMode, setSetlistMode] = useState(false);
   const setlistIndexRef = useRef(-1);
+  const [chapters, setChapters] = useState<SetlistChapter[]>([]);
+  const [chapterSuggestions, setChapterSuggestions] = useState<Track[]>([]);
+  const [suggestingForChapter, setSuggestingForChapter] = useState<string | null>(null);
   const [tamilMode, setTamilMode] = useState(urlInit.current.tamil);
   const [tamilTracks, setTamilTracks] = useState<Track[]>([]);
   const [tamilSearch, setTamilSearch] = useState("");
@@ -363,6 +366,7 @@ export default function Home() {
       setSetlist(active.tracks);
       setSetlistName(active.name);
       setSetlistId(saved.active);
+      setChapters(active.chapters || []);
     }
   }, []);
 
@@ -378,12 +382,12 @@ export default function Home() {
         active: setlistId,
         setlists: {
           ...savedSetlists.setlists,
-          [setlistId]: { name: setlistName || "Untitled", tracks: setlist },
+          [setlistId]: { name: setlistName || "Untitled", tracks: setlist, chapters },
         },
       };
       saveSavedSetlists(updated);
     }
-  }, [setlist, setlistName]);
+  }, [setlist, setlistName, chapters]);
 
   // --- B4: Track play counts in localStorage ---
   useEffect(() => {
@@ -704,9 +708,22 @@ export default function Home() {
   }, []);
 
   const removeFromSetlist = useCallback((id: string) => {
-    setSetlist((prev) =>
-      prev.filter((t) => t.id !== id).map((t, i) => ({ ...t, position: i }))
-    );
+    setSetlist((prev) => {
+      const idx = prev.findIndex((t) => t.id === id);
+      const next = prev.filter((t) => t.id !== id).map((t, i) => ({ ...t, position: i }));
+      // Adjust chapter startIndexes
+      if (idx >= 0) {
+        setChapters((chs) => chs
+          .map((ch) => ({
+            ...ch,
+            startIndex: ch.startIndex > idx ? ch.startIndex - 1 : ch.startIndex,
+            seedTrackIds: ch.seedTrackIds.filter((sid) => sid !== id),
+          }))
+          .filter((ch) => ch.startIndex < next.length || next.length === 0)
+        );
+      }
+      return next;
+    });
   }, []);
 
   const reorderTrack = useCallback((fromIndex: number, toIndex: number) => {
@@ -1151,14 +1168,14 @@ export default function Home() {
       active: id,
       setlists: {
         ...savedSetlists.setlists,
-        [id]: { name, tracks: setlist },
+        [id]: { name, tracks: setlist, chapters },
       },
     };
     setSavedSetlists(updated);
     saveSavedSetlists(updated);
     setSetlistId(id);
     setSetlistName(name);
-  }, [setlistId, setlistName, setlist, savedSetlists]);
+  }, [setlistId, setlistName, setlist, chapters, savedSetlists]);
 
   const handleNew = useCallback(() => {
     const name = prompt("Setlist name:");
@@ -1168,6 +1185,9 @@ export default function Home() {
     setSetlist([]);
     setSetlistName(name);
     setSetlistId(id);
+    setChapters([]);
+    setChapterSuggestions([]);
+    setSuggestingForChapter(null);
 
     const updated: SavedSetlists = {
       active: id,
@@ -1186,6 +1206,9 @@ export default function Home() {
     setSetlist(entry.tracks);
     setSetlistName(entry.name);
     setSetlistId(id);
+    setChapters(entry.chapters || []);
+    setChapterSuggestions([]);
+    setSuggestingForChapter(null);
 
     const updated = { ...savedSetlists, active: id };
     setSavedSetlists(updated);
@@ -1286,6 +1309,9 @@ export default function Home() {
       setSetlist(hydratedTracks);
       setSetlistName(entry.name);
       setSetlistId(newId);
+      setChapters([]);
+      setChapterSuggestions([]);
+      setSuggestingForChapter(null);
 
       const updated: SavedSetlists = {
         active: newId,
@@ -1315,6 +1341,9 @@ export default function Home() {
       setSetlist([]);
       setSetlistName(null);
       setSetlistId(null);
+      setChapters([]);
+      setChapterSuggestions([]);
+      setSuggestingForChapter(null);
     }
   }, [savedSetlists, setlistId]);
 
@@ -1332,6 +1361,66 @@ export default function Home() {
       saveSavedSetlists(updated);
     }
   }, [setlistId, savedSetlists]);
+
+  // --- Chapter operations ---
+
+  const handleRequestSuggestions = useCallback(async (chapterId: string) => {
+    const chapter = chapters.find((c) => c.id === chapterId);
+    if (!chapter) return;
+
+    // Find the tracks in this chapter
+    const sorted = [...chapters].sort((a, b) => a.startIndex - b.startIndex);
+    const ci = sorted.findIndex((c) => c.id === chapterId);
+    const endIndex = ci < sorted.length - 1 ? sorted[ci + 1].startIndex : setlist.length;
+    const chapterTracks = setlist.slice(chapter.startIndex, endIndex);
+
+    if (chapterTracks.length === 0) {
+      setChapterSuggestions([]);
+      setSuggestingForChapter(null);
+      return;
+    }
+
+    // Compute chapter averages
+    const bpms = chapterTracks.map((t) => t.tempo).filter((b) => b > 0);
+    const avgBpm = bpms.length > 0 ? bpms.reduce((a, b) => a + b, 0) / bpms.length : 120;
+    const keys = chapterTracks.map((t) => t.key).filter((k) => k > 0);
+    const dominantKey = getMostCommonKey(keys);
+    const compatKeys = dominantKey > 0 ? getCompatibleKeys(dominantKey) : [];
+
+    // Determine target chapter type: use the NEXT chapter's type if it exists, otherwise same type
+    const nextChapter = ci < sorted.length - 1 ? sorted[ci + 1] : null;
+    const targetType = nextChapter ? nextChapter.type : chapter.type;
+
+    // Exclude current setlist tracks
+    const excludeKeys = setlist.map((t) =>
+      `${t.trackName.toLowerCase()}:::${t.artistNames.toLowerCase()}`
+    );
+
+    try {
+      const sql = buildChapterSuggestionQuery(avgBpm, compatKeys, targetType, excludeKeys);
+      const rows = await query<Track>(sql);
+      setChapterSuggestions(rows);
+      setSuggestingForChapter(chapterId);
+    } catch (e) {
+      console.error("Failed to get chapter suggestions:", e);
+    }
+  }, [chapters, setlist]);
+
+  const handleAddSuggestion = useCallback((track: Track) => {
+    addToSetlist(track);
+    // Remove this track from suggestions
+    setChapterSuggestions((prev) => prev.filter((t) => t.trackName !== track.trackName || t.artistNames !== track.artistNames));
+  }, [addToSetlist]);
+
+  const handleToggleSeed = useCallback((chapterId: string, trackId: string) => {
+    setChapters((prev) => prev.map((ch) => {
+      if (ch.id !== chapterId) return ch;
+      const seeds = ch.seedTrackIds.includes(trackId)
+        ? ch.seedTrackIds.filter((id) => id !== trackId)
+        : [...ch.seedTrackIds, trackId];
+      return { ...ch, seedTrackIds: seeds };
+    }));
+  }, []);
 
   const handleAutoSort = useCallback(() => {
     setSetlist((prev) => {
@@ -1801,9 +1890,12 @@ export default function Home() {
           tracks={setlist}
           setlistName={setlistName}
           nowPlaying={nowPlaying}
+          chapters={chapters}
+          suggestions={chapterSuggestions}
+          suggestingForChapter={suggestingForChapter}
           onRemove={removeFromSetlist}
           onReorder={reorderTrack}
-          onClear={() => setSetlist([])}
+          onClear={() => { setSetlist([]); setChapters([]); setChapterSuggestions([]); setSuggestingForChapter(null); }}
           onImport={() => setImportOpen(true)}
           onOpen={() => setTab("setlists")}
           onSave={handleSave}
@@ -1811,6 +1903,10 @@ export default function Home() {
           onRename={handleRename}
           onAutoSort={handleAutoSort}
           onPlay={playFromSetlist}
+          onChaptersChange={setChapters}
+          onRequestSuggestions={handleRequestSuggestions}
+          onAddSuggestion={handleAddSuggestion}
+          onToggleSeed={handleToggleSeed}
         />
         {recentlyPlayed.length > 0 && (
           <div className="border-t border-[#222]">
@@ -1882,9 +1978,12 @@ export default function Home() {
                 tracks={setlist}
                 setlistName={setlistName}
                 nowPlaying={nowPlaying}
+                chapters={chapters}
+                suggestions={chapterSuggestions}
+                suggestingForChapter={suggestingForChapter}
                 onRemove={removeFromSetlist}
                 onReorder={reorderTrack}
-                onClear={() => setSetlist([])}
+                onClear={() => { setSetlist([]); setChapters([]); setChapterSuggestions([]); setSuggestingForChapter(null); }}
                 onImport={() => setImportOpen(true)}
                 onOpen={() => { setTab("setlists"); setMobileSetlistOpen(false); }}
                 onSave={handleSave}
@@ -1892,6 +1991,10 @@ export default function Home() {
                 onRename={handleRename}
                 onAutoSort={handleAutoSort}
                 onPlay={playFromSetlist}
+                onChaptersChange={setChapters}
+                onRequestSuggestions={handleRequestSuggestions}
+                onAddSuggestion={handleAddSuggestion}
+                onToggleSeed={handleToggleSeed}
               />
             </div>
           </div>

@@ -1,5 +1,6 @@
-import React, { useState, useCallback } from "react";
-import type { SetlistTrack, Track } from "@/lib/types";
+import React, { useState, useCallback, useMemo } from "react";
+import type { SetlistTrack, Track, SetlistChapter, ChapterType } from "@/lib/types";
+import { CHAPTER_TYPES } from "@/lib/types";
 import { pitchToCamelot, getKeyCompatibility } from "@/lib/camelot";
 import {
   DndContext,
@@ -19,10 +20,41 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 
+const CHAPTER_COLORS: Record<ChapterType, string> = {
+  intro: "text-blue-400 border-blue-400/30",
+  buildup: "text-amber-400 border-amber-400/30",
+  cruise: "text-green-400 border-green-400/30",
+  peak: "text-red-400 border-red-400/30",
+  comedown: "text-purple-400 border-purple-400/30",
+  closer: "text-cyan-400 border-cyan-400/30",
+};
+
+const CHAPTER_BG: Record<ChapterType, string> = {
+  intro: "bg-blue-400/5",
+  buildup: "bg-amber-400/5",
+  cruise: "bg-green-400/5",
+  peak: "bg-red-400/5",
+  comedown: "bg-purple-400/5",
+  closer: "bg-cyan-400/5",
+};
+
+// Default arc suggestion: what chapter type makes sense after each type
+const NEXT_CHAPTER_SUGGESTIONS: Record<ChapterType, ChapterType[]> = {
+  intro: ["buildup"],
+  buildup: ["cruise", "peak"],
+  cruise: ["peak", "buildup"],
+  peak: ["cruise", "comedown"],
+  comedown: ["cruise", "closer"],
+  closer: [],
+};
+
 interface Props {
   tracks: SetlistTrack[];
   setlistName: string | null;
   nowPlaying?: Track | null;
+  chapters: SetlistChapter[];
+  suggestions: Track[];
+  suggestingForChapter: string | null;
   onRemove: (id: string) => void;
   onReorder: (fromIndex: number, toIndex: number) => void;
   onClear: () => void;
@@ -33,6 +65,10 @@ interface Props {
   onRename: (name: string) => void;
   onAutoSort?: () => void;
   onPlay?: (track: SetlistTrack, index: number) => void;
+  onChaptersChange: (chapters: SetlistChapter[]) => void;
+  onRequestSuggestions: (chapterId: string) => void;
+  onAddSuggestion: (track: Track) => void;
+  onToggleSeed: (chapterId: string, trackId: string) => void;
 }
 
 function getBPMStats(tracks: SetlistTrack[]): { min: number; max: number; avg: number } | null {
@@ -62,12 +98,18 @@ function formatTotalDuration(tracks: SetlistTrack[]): string {
   return `${mins}m`;
 }
 
-function exportCSV(tracks: SetlistTrack[], name: string | null) {
-  const header = "Position,Track Name,Artist,BPM,Key,Duration";
+function exportCSV(tracks: SetlistTrack[], name: string | null, chapters: SetlistChapter[]) {
+  const chapterAt = new Map<number, SetlistChapter>();
+  for (const ch of chapters) chapterAt.set(ch.startIndex, ch);
+
+  const header = "Position,Chapter,Track Name,Artist,BPM,Key,Duration,Seed";
   const rows = tracks.map((t, i) => {
     const trackName = `"${t.trackName.replace(/"/g, '""')}"`;
     const artist = `"${t.artistNames.replace(/"/g, '""')}"`;
-    return `${i + 1},${trackName},${artist},${t.tempo > 0 ? Math.round(t.tempo) : ""},${t.key || ""},${t.duration}`;
+    const ch = chapterAt.get(i);
+    const chapterLabel = ch ? ch.type.toUpperCase() : "";
+    const isSeed = chapters.some((c) => c.seedTrackIds.includes(t.id));
+    return `${i + 1},${chapterLabel},${trackName},${artist},${t.tempo > 0 ? Math.round(t.tempo) : ""},${t.key || ""},${t.duration},${isSeed ? "Y" : ""}`;
   });
   const csv = [header, ...rows].join("\n");
   const blob = new Blob([csv], { type: "text/csv" });
@@ -84,14 +126,18 @@ function SortableTrack({
   track,
   index,
   isPlaying,
+  isSeed,
   onRemove,
   onPlay,
+  onToggleSeed,
 }: {
   track: SetlistTrack;
   index: number;
   isPlaying: boolean;
+  isSeed: boolean;
   onRemove: (id: string) => void;
   onPlay?: () => void;
+  onToggleSeed?: () => void;
 }) {
   const {
     attributes,
@@ -123,6 +169,15 @@ function SortableTrack({
       >
         {String(index + 1).padStart(2, "0")}
       </span>
+      {onToggleSeed && (
+        <button
+          onClick={onToggleSeed}
+          className={`text-[10px] transition-colors w-3 ${isSeed ? "text-amber-400" : "text-[#222] hover:text-[#555]"}`}
+          title={isSeed ? "Seed track (click to unmark)" : "Mark as seed track"}
+        >
+          {isSeed ? "\u2605" : "\u2606"}
+        </button>
+      )}
       {onPlay && (
         <button
           onClick={onPlay}
@@ -139,13 +194,13 @@ function SortableTrack({
         </div>
       </div>
       <span className="text-[10px] text-[#aaa] tabular-nums font-mono w-8 text-right">
-        {track.tempo > 0 ? Math.round(track.tempo) : "—"}
+        {track.tempo > 0 ? Math.round(track.tempo) : "\u2014"}
       </span>
       <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
-        {track.key > 0 ? pitchToCamelot(track.key) : "—"}
+        {track.key > 0 ? pitchToCamelot(track.key) : "\u2014"}
       </span>
       <span className="text-[10px] text-[#777] w-10 text-right">
-        {track.duration || "—"}
+        {track.duration || "\u2014"}
       </span>
       <button
         onClick={() => onRemove(track.id)}
@@ -191,10 +246,146 @@ function TransitionIndicator({
   );
 }
 
+function ChapterDivider({
+  chapter,
+  trackCount,
+  chapterStats,
+  isLast,
+  nextSuggestions,
+  onChangeType,
+  onRemoveChapter,
+  onAddChapter,
+  onRequestSuggestions,
+  suggestingForChapter,
+}: {
+  chapter: SetlistChapter;
+  trackCount: number;
+  chapterStats: { avgBpm: number; trackCount: number } | null;
+  isLast: boolean;
+  nextSuggestions: ChapterType[];
+  onChangeType: (type: ChapterType) => void;
+  onRemoveChapter: () => void;
+  onAddChapter: (type: ChapterType, afterIndex: number) => void;
+  onRequestSuggestions: () => void;
+  suggestingForChapter: string | null;
+}) {
+  const [showTypeMenu, setShowTypeMenu] = useState(false);
+  const colors = CHAPTER_COLORS[chapter.type];
+
+  return (
+    <div className={`border-t border-b ${colors.split(" ")[1]} ${CHAPTER_BG[chapter.type]}`}>
+      <div className="px-4 py-1.5 flex items-center gap-2">
+        <button
+          onClick={() => setShowTypeMenu(!showTypeMenu)}
+          className={`text-[10px] font-bold uppercase tracking-[0.15em] ${colors.split(" ")[0]} hover:opacity-80 transition-opacity`}
+        >
+          {chapter.type}
+        </button>
+        {chapterStats && (
+          <span className="text-[9px] text-[#555] tabular-nums font-mono">
+            {chapterStats.trackCount}t &middot; {Math.round(chapterStats.avgBpm)} avg
+          </span>
+        )}
+        <div className="flex-1" />
+        <button
+          onClick={onRequestSuggestions}
+          className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 transition-colors ${
+            suggestingForChapter === chapter.id
+              ? "text-amber-400 bg-amber-400/10"
+              : "text-[#444] hover:text-[#888]"
+          }`}
+          title="Get 3 track suggestions for next chapter"
+        >
+          Suggest
+        </button>
+        <button
+          onClick={onRemoveChapter}
+          className="text-[#333] hover:text-red-500 transition-colors text-[10px]"
+          title="Remove chapter divider"
+        >
+          &times;
+        </button>
+      </div>
+      {showTypeMenu && (
+        <div className="px-4 pb-1.5 flex flex-wrap gap-1">
+          {CHAPTER_TYPES.map((type) => (
+            <button
+              key={type}
+              onClick={() => { onChangeType(type); setShowTypeMenu(false); }}
+              className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 transition-colors ${
+                type === chapter.type
+                  ? `${CHAPTER_COLORS[type].split(" ")[0]} bg-white/5`
+                  : "text-[#555] hover:text-white"
+              }`}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+      )}
+      {isLast && nextSuggestions.length > 0 && trackCount > 0 && (
+        <div className="px-4 pb-1.5 flex items-center gap-1">
+          <span className="text-[9px] text-[#333] uppercase tracking-wider">next:</span>
+          {nextSuggestions.map((type) => (
+            <button
+              key={type}
+              onClick={() => onAddChapter(type, -1)}
+              className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 ${CHAPTER_COLORS[type].split(" ")[0]} opacity-50 hover:opacity-100 transition-opacity`}
+            >
+              + {type}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function SuggestionPanel({
+  suggestions,
+  onAdd,
+}: {
+  suggestions: Track[];
+  onAdd: (track: Track) => void;
+}) {
+  if (suggestions.length === 0) return null;
+  return (
+    <div className="border-t border-amber-400/20 bg-amber-400/5">
+      <div className="px-4 py-1 text-[9px] text-amber-400/60 uppercase tracking-wider">
+        Suggestions
+      </div>
+      {suggestions.map((track, i) => (
+        <div
+          key={`sug-${track.trackName}-${i}`}
+          className="px-4 py-1.5 flex items-center gap-2 hover:bg-amber-400/10 transition-colors cursor-pointer border-b border-amber-400/10"
+          onClick={() => onAdd(track)}
+        >
+          <span className="text-[10px] text-amber-400/40 w-4">+</span>
+          <div className="flex-1 min-w-0">
+            <div className="text-[11px] truncate text-amber-200/80">{track.trackName}</div>
+            <div className="text-[10px] text-amber-200/40 truncate">
+              {track.artistNames.split(";")[0]}
+            </div>
+          </div>
+          <span className="text-[10px] text-amber-200/50 tabular-nums font-mono">
+            {track.tempo > 0 ? Math.round(track.tempo) : ""}
+          </span>
+          <span className="text-[10px] text-amber-200/30 tabular-nums font-mono">
+            {track.key > 0 ? pitchToCamelot(track.key) : ""}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function SetlistPanel({
   tracks,
   setlistName,
   nowPlaying,
+  chapters,
+  suggestions,
+  suggestingForChapter,
   onRemove,
   onReorder,
   onClear,
@@ -205,6 +396,10 @@ export function SetlistPanel({
   onRename,
   onAutoSort,
   onPlay,
+  onChaptersChange,
+  onRequestSuggestions,
+  onAddSuggestion,
+  onToggleSeed,
 }: Props) {
   const [editing, setEditing] = useState(false);
   const [editValue, setEditValue] = useState("");
@@ -225,6 +420,77 @@ export function SetlistPanel({
       onReorder(fromIndex, toIndex);
     }
   }, [tracks, onReorder]);
+
+  // Build a map of startIndex -> chapter for rendering
+  const chapterAtIndex = useMemo(() => {
+    const map = new Map<number, SetlistChapter>();
+    for (const ch of chapters) map.set(ch.startIndex, ch);
+    return map;
+  }, [chapters]);
+
+  // Compute per-chapter stats (tracks in each chapter = from startIndex to next chapter's startIndex)
+  const chapterStats = useMemo(() => {
+    const stats = new Map<string, { avgBpm: number; trackCount: number }>();
+    const sorted = [...chapters].sort((a, b) => a.startIndex - b.startIndex);
+    for (let ci = 0; ci < sorted.length; ci++) {
+      const ch = sorted[ci];
+      const endIndex = ci < sorted.length - 1 ? sorted[ci + 1].startIndex : tracks.length;
+      const chTracks = tracks.slice(ch.startIndex, endIndex);
+      const bpms = chTracks.map((t) => t.tempo).filter((b) => b > 0);
+      stats.set(ch.id, {
+        avgBpm: bpms.length > 0 ? bpms.reduce((a, b) => a + b, 0) / bpms.length : 0,
+        trackCount: chTracks.length,
+      });
+    }
+    return stats;
+  }, [chapters, tracks]);
+
+  // Find which chapter a track belongs to (for seed toggle)
+  const trackChapterMap = useMemo(() => {
+    const map = new Map<string, string>(); // trackId -> chapterId
+    const sorted = [...chapters].sort((a, b) => a.startIndex - b.startIndex);
+    for (let ci = 0; ci < sorted.length; ci++) {
+      const ch = sorted[ci];
+      const endIndex = ci < sorted.length - 1 ? sorted[ci + 1].startIndex : tracks.length;
+      for (let i = ch.startIndex; i < endIndex; i++) {
+        if (tracks[i]) map.set(tracks[i].id, ch.id);
+      }
+    }
+    return map;
+  }, [chapters, tracks]);
+
+  const seedTrackIds = useMemo(() => {
+    const set = new Set<string>();
+    for (const ch of chapters) {
+      for (const id of ch.seedTrackIds) set.add(id);
+    }
+    return set;
+  }, [chapters]);
+
+  const addChapter = useCallback((type: ChapterType, atIndex: number) => {
+    const idx = atIndex === -1 ? tracks.length : atIndex;
+    const newChapter: SetlistChapter = {
+      id: `ch-${Date.now()}`,
+      type,
+      startIndex: idx,
+      seedTrackIds: [],
+    };
+    onChaptersChange([...chapters, newChapter]);
+  }, [chapters, tracks.length, onChaptersChange]);
+
+  const removeChapter = useCallback((chapterId: string) => {
+    onChaptersChange(chapters.filter((c) => c.id !== chapterId));
+  }, [chapters, onChaptersChange]);
+
+  const changeChapterType = useCallback((chapterId: string, type: ChapterType) => {
+    onChaptersChange(chapters.map((c) => c.id === chapterId ? { ...c, type } : c));
+  }, [chapters, onChaptersChange]);
+
+  // Find the last chapter to determine next suggestions
+  const lastChapter = useMemo(() => {
+    if (chapters.length === 0) return null;
+    return [...chapters].sort((a, b) => b.startIndex - a.startIndex)[0];
+  }, [chapters]);
 
   const startRename = () => {
     setEditValue(setlistName || "");
@@ -269,7 +535,7 @@ export function SetlistPanel({
           <span className="text-[10px] text-[#555] uppercase tracking-wider">
             {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
             {bpmStats && (
-              <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}–${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
+              <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}\u2013${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
             )}
           </span>
           <div className="flex gap-1.5">
@@ -301,6 +567,15 @@ export function SetlistPanel({
           >
             Import
           </button>
+          {tracks.length >= 1 && (
+            <button
+              onClick={() => addChapter(lastChapter ? (NEXT_CHAPTER_SUGGESTIONS[lastChapter.type]?.[0] || "cruise") : "intro", tracks.length)}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+              title="Add chapter divider at current position"
+            >
+              + Chapter
+            </button>
+          )}
           {onAutoSort && tracks.length >= 3 && (
             <button
               onClick={onAutoSort}
@@ -313,7 +588,7 @@ export function SetlistPanel({
           {tracks.length > 0 && (
             <>
               <button
-                onClick={() => exportCSV(tracks, setlistName)}
+                onClick={() => exportCSV(tracks, setlistName, chapters)}
                 className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
               >
                 Export
@@ -327,6 +602,24 @@ export function SetlistPanel({
             </>
           )}
         </div>
+        {/* Chapter arc overview */}
+        {chapters.length > 0 && (
+          <div className="flex gap-1 mt-2">
+            {[...chapters].sort((a, b) => a.startIndex - b.startIndex).map((ch) => {
+              const stats = chapterStats.get(ch.id);
+              return (
+                <div
+                  key={ch.id}
+                  className={`text-[8px] uppercase tracking-wider px-1.5 py-0.5 ${CHAPTER_COLORS[ch.type].split(" ")[0]} ${CHAPTER_BG[ch.type]} rounded-sm`}
+                  title={stats ? `${stats.trackCount} tracks, ${Math.round(stats.avgBpm)} avg BPM` : ""}
+                >
+                  {ch.type.slice(0, 3)}
+                  {stats ? ` ${stats.trackCount}` : ""}
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
       {tracks.length === 0 ? (
@@ -348,16 +641,36 @@ export function SetlistPanel({
             >
               {tracks.map((track, i) => {
                 const isPlaying = !!(nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames);
+                const chapter = chapterAtIndex.get(i);
+                const chapterId = trackChapterMap.get(track.id);
+                const isLastChapter = chapter && lastChapter && chapter.id === lastChapter.id;
+
                 return (
                   <React.Fragment key={track.id}>
+                    {chapter && (
+                      <ChapterDivider
+                        chapter={chapter}
+                        trackCount={chapterStats.get(chapter.id)?.trackCount || 0}
+                        chapterStats={chapterStats.get(chapter.id) || null}
+                        isLast={!!isLastChapter}
+                        nextSuggestions={NEXT_CHAPTER_SUGGESTIONS[chapter.type]}
+                        onChangeType={(type) => changeChapterType(chapter.id, type)}
+                        onRemoveChapter={() => removeChapter(chapter.id)}
+                        onAddChapter={addChapter}
+                        onRequestSuggestions={() => onRequestSuggestions(chapter.id)}
+                        suggestingForChapter={suggestingForChapter}
+                      />
+                    )}
                     <SortableTrack
                       track={track}
                       index={i}
                       isPlaying={isPlaying}
+                      isSeed={seedTrackIds.has(track.id)}
                       onRemove={onRemove}
                       onPlay={onPlay ? () => onPlay(track, i) : undefined}
+                      onToggleSeed={chapterId ? () => onToggleSeed(chapterId, track.id) : undefined}
                     />
-                    {i < tracks.length - 1 && (
+                    {i < tracks.length - 1 && !chapterAtIndex.has(i + 1) && (
                       <TransitionIndicator track={track} next={tracks[i + 1]} />
                     )}
                   </React.Fragment>
@@ -365,6 +678,30 @@ export function SetlistPanel({
               })}
             </SortableContext>
           </DndContext>
+
+          {/* Suggestion panel at bottom when active */}
+          {suggestions.length > 0 && (
+            <SuggestionPanel
+              suggestions={suggestions}
+              onAdd={onAddSuggestion}
+            />
+          )}
+
+          {/* Next chapter suggestions at bottom of setlist */}
+          {lastChapter && tracks.length > 0 && NEXT_CHAPTER_SUGGESTIONS[lastChapter.type].length > 0 && (
+            <div className="px-4 py-2 border-t border-[#222] flex items-center gap-1.5">
+              <span className="text-[9px] text-[#333] uppercase tracking-wider">Next chapter:</span>
+              {NEXT_CHAPTER_SUGGESTIONS[lastChapter.type].map((type) => (
+                <button
+                  key={type}
+                  onClick={() => addChapter(type, tracks.length)}
+                  className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 ${CHAPTER_COLORS[type].split(" ")[0]} opacity-50 hover:opacity-100 transition-opacity`}
+                >
+                  + {type}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>

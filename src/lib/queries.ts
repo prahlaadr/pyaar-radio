@@ -1,4 +1,4 @@
-import type { ArtistFilters } from "./types";
+import type { ArtistFilters, ChapterType } from "./types";
 
 export function buildArtistQuery(filters: ArtistFilters): string {
   const conditions: string[] = [];
@@ -377,5 +377,65 @@ export function buildTracksQuery(
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
     ORDER BY TRY_CAST(Tempo AS FLOAT) DESC
+  `;
+}
+
+// BPM range targets for each chapter type (energy arc)
+const CHAPTER_BPM_OFFSETS: Record<ChapterType, { min: number; max: number }> = {
+  intro: { min: -20, max: -5 },
+  buildup: { min: -5, max: 10 },
+  cruise: { min: -5, max: 5 },
+  peak: { min: 5, max: 20 },
+  comedown: { min: -15, max: -5 },
+  closer: { min: -25, max: -10 },
+};
+
+/**
+ * Suggest tracks for a chapter based on the average BPM/key of the prior chapter
+ * and the target chapter type's energy profile.
+ * Returns 3 tracks scored by BPM fit + key compatibility + randomness.
+ */
+export function buildChapterSuggestionQuery(
+  avgBpm: number,
+  compatibleKeys: number[],
+  targetChapter: ChapterType,
+  excludeTrackKeys?: string[],
+): string {
+  const offset = CHAPTER_BPM_OFFSETS[targetChapter];
+  const targetBpm = avgBpm + (offset.min + offset.max) / 2;
+  const bpmRange = Math.abs(offset.max - offset.min) / 2 + 10; // allow some slack
+
+  const conditions: string[] = [
+    `TRY_CAST(Tempo AS FLOAT) IS NOT NULL`,
+    `TRY_CAST(Tempo AS FLOAT) BETWEEN ${Math.max(0, targetBpm - bpmRange)} AND ${targetBpm + bpmRange}`,
+  ];
+
+  if (excludeTrackKeys && excludeTrackKeys.length > 0) {
+    const excludeConds = excludeTrackKeys.map((k) => `'${k.replace(/'/g, "''")}'`);
+    conditions.push(`(LOWER("Track Name") || ':::' || LOWER("Artist Name(s)")) NOT IN (${excludeConds.join(",")})`);
+  }
+
+  const bpmScore = `GREATEST(0, 30 - ABS(TRY_CAST(Tempo AS FLOAT) - ${targetBpm}))`;
+  const keyScore = compatibleKeys.length > 0
+    ? `CASE WHEN TRY_CAST(Key AS INT) IN (${compatibleKeys.join(",")}) THEN 20 ELSE 0 END`
+    : "0";
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
+    FROM masterlist
+    WHERE ${conditions.join(" AND ")}
+    ORDER BY (${bpmScore} + ${keyScore} + RANDOM() * 10) DESC
+    LIMIT 3
   `;
 }

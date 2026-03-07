@@ -23,6 +23,16 @@ export interface Track {
   bandcampId: string;
 }
 
+export const CHAPTER_TYPES = ["intro", "buildup", "cruise", "peak", "comedown", "closer"] as const;
+export type ChapterType = typeof CHAPTER_TYPES[number];
+
+export interface SetlistChapter {
+  id: string;
+  type: ChapterType;
+  startIndex: number; // index in the setlist tracks array
+  seedTrackIds: string[]; // IDs of tracks that anchor this chapter
+}
+
 export interface SetlistTrack extends Track {
   id: string;
   position: number;
@@ -36,7 +46,7 @@ export interface Setlist {
 
 export interface SavedSetlists {
   active: string | null;
-  setlists: Record<string, { name: string; tracks: SetlistTrack[] }>;
+  setlists: Record<string, { name: string; tracks: SetlistTrack[]; chapters?: SetlistChapter[] }>;
 }
 
 export interface SetlistManifestEntry {

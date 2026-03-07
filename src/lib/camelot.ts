@@ -92,6 +92,23 @@ export function scoreTransition(
 }
 
 /**
+ * Get the most common key from a set of tracks (mode).
+ * Used for chapter-level key analysis.
+ */
+export function getMostCommonKey(keys: number[]): number {
+  const valid = keys.filter((k) => k > 0);
+  if (valid.length === 0) return 0;
+  const counts = new Map<number, number>();
+  for (const k of valid) counts.set(k, (counts.get(k) || 0) + 1);
+  let maxCount = 0;
+  let maxKey = valid[0];
+  for (const [k, c] of counts) {
+    if (c > maxCount) { maxCount = c; maxKey = k; }
+  }
+  return maxKey;
+}
+
+/**
  * Sort setlist tracks for optimal harmonic flow.
  * Greedy nearest-neighbor: keeps first track as anchor,
  * then always picks the unplaced track with the best transition.
