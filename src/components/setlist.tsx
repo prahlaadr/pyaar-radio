@@ -567,15 +567,6 @@ export function SetlistPanel({
           >
             Import
           </button>
-          {tracks.length >= 1 && (
-            <button
-              onClick={() => addChapter(lastChapter ? (NEXT_CHAPTER_SUGGESTIONS[lastChapter.type]?.[0] || "cruise") : "intro", tracks.length)}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-              title="Add chapter divider at current position"
-            >
-              + Chapter
-            </button>
-          )}
           {onAutoSort && tracks.length >= 3 && (
             <button
               onClick={onAutoSort}

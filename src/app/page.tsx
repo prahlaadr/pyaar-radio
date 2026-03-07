@@ -702,6 +702,10 @@ export default function Home() {
 
   const addToSetlist = useCallback((track: Track) => {
     setSetlist((prev) => {
+      // Auto-create intro chapter when first track is added
+      if (prev.length === 0) {
+        setChapters([{ id: `ch-${Date.now()}`, type: "intro", startIndex: 0, seedTrackIds: [] }]);
+      }
       const id = `${track.trackName}-${track.artistNames}-${Date.now()}`;
       return [...prev, { ...track, id, position: prev.length }];
     });
