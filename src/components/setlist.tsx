@@ -531,65 +531,24 @@ export function SetlistPanel({
             </h2>
           )}
         </div>
-        <div className="flex items-center justify-between">
-          <span className="text-[10px] text-[#555] uppercase tracking-wider">
-            {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
-            {bpmStats && (
-              <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}\u2013${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
-            )}
-          </span>
-          <div className="flex gap-1.5">
-            <button
-              onClick={onOpen}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-            >
-              Open
-            </button>
-            <button
-              onClick={onNew}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-            >
-              New
-            </button>
-            <button
-              onClick={onSave}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-              title="Save to browser"
-            >
-              Save
-            </button>
-          </div>
+        <div className="text-[10px] text-[#555] uppercase tracking-wider mb-1.5">
+          {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
+          {bpmStats && (
+            <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}\u2013${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
+          )}
         </div>
-        <div className="flex gap-1.5 mt-1.5">
-          <button
-            onClick={onImport}
-            className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-          >
-            Import
-          </button>
+        <div className="flex gap-1.5 flex-wrap">
+          <button onClick={onOpen} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">Open</button>
+          <button onClick={onNew} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">New</button>
+          <button onClick={onSave} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors" title="Save to browser">Save</button>
+          <button onClick={onImport} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">Import</button>
           {onAutoSort && tracks.length >= 3 && (
-            <button
-              onClick={onAutoSort}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
-              title="Sort by harmonic flow (BPM + key)"
-            >
-              Sort
-            </button>
+            <button onClick={onAutoSort} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors" title="Sort by harmonic flow (BPM + key)">Sort</button>
           )}
           {tracks.length > 0 && (
             <>
-              <button
-                onClick={() => exportCSV(tracks, setlistName, chapters)}
-                className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors"
-              >
-                Export
-              </button>
-              <button
-                onClick={onClear}
-                className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
-              >
-                Clear
-              </button>
+              <button onClick={() => exportCSV(tracks, setlistName, chapters)} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors">Export</button>
+              <button onClick={onClear} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors">Clear</button>
             </>
           )}
         </div>
