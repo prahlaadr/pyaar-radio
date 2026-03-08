@@ -1,0 +1,70 @@
+{
+ "title": "ÁTTA",
+ "artist": "Sigur Rós",
+ "year": "2023",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Glóð",
+   "artist": "Sigur Rós",
+   "videoId": "nS1mnyc21t4",
+   "duration": "3:40"
+  },
+  {
+   "title": "Blóðberg",
+   "artist": "Sigur Rós",
+   "videoId": "jSSmXaJBWj0",
+   "duration": "7:17"
+  },
+  {
+   "title": "Skel",
+   "artist": "Sigur Rós",
+   "videoId": "bff1cNCoO2s",
+   "duration": "4:59"
+  },
+  {
+   "title": "Klettur",
+   "artist": "Sigur Rós",
+   "videoId": "ggPslwiz8EI",
+   "duration": "6:32"
+  },
+  {
+   "title": "Mór",
+   "artist": "Sigur Rós",
+   "videoId": "lRI80A_OZac",
+   "duration": "5:48"
+  },
+  {
+   "title": "Andrá",
+   "artist": "Sigur Rós",
+   "videoId": "sCxvwoGCsOg",
+   "duration": "4:08"
+  },
+  {
+   "title": "Gold",
+   "artist": "Sigur Rós",
+   "videoId": "65zMU4IL_fw",
+   "duration": "5:14"
+  },
+  {
+   "title": "Ylur",
+   "artist": "Sigur Rós",
+   "videoId": "b4CVwMsuSvk",
+   "duration": "5:56"
+  },
+  {
+   "title": "Fall",
+   "artist": "Sigur Rós",
+   "videoId": "qI3hMQof30g",
+   "duration": "3:28"
+  },
+  {
+   "title": "8",
+   "artist": "Sigur Rós",
+   "videoId": "vmKEswrfJLs",
+   "duration": "9:42"
+  }
+ ],
+ "browseId": "MPREb_CI7h6IYTgIh",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

@@ -1,0 +1,64 @@
+{
+ "title": "Thriller",
+ "artist": "Michael Jackson",
+ "year": "1982",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Wanna Be Startin' Somethin'",
+   "artist": "Michael Jackson",
+   "videoId": "8KWf_-ofYgI",
+   "duration": "6:04"
+  },
+  {
+   "title": "Baby Be Mine",
+   "artist": "Michael Jackson",
+   "videoId": "COSMzAASQj4",
+   "duration": "4:21"
+  },
+  {
+   "title": "The Girl Is Mine",
+   "artist": "Michael Jackson",
+   "videoId": "SX5vM6F57_E",
+   "duration": "3:43"
+  },
+  {
+   "title": "Thriller",
+   "artist": "Michael Jackson",
+   "videoId": "Z85lxckrtzg",
+   "duration": "5:58"
+  },
+  {
+   "title": "Beat It",
+   "artist": "Michael Jackson",
+   "videoId": "kOn-HdEg6AQ",
+   "duration": "4:19"
+  },
+  {
+   "title": "Billie Jean",
+   "artist": "Michael Jackson",
+   "videoId": "Kr4EQDVETuA",
+   "duration": "4:55"
+  },
+  {
+   "title": "Human Nature",
+   "artist": "Michael Jackson",
+   "videoId": "oqLpko9Gprs",
+   "duration": "4:07"
+  },
+  {
+   "title": "P.Y.T. (Pretty Young Thing)",
+   "artist": "Michael Jackson",
+   "videoId": "y32ejtuxSjM",
+   "duration": "4:00"
+  },
+  {
+   "title": "The Lady in My Life",
+   "artist": "Michael Jackson",
+   "videoId": "Eqcw7tLnrd8",
+   "duration": "5:01"
+  }
+ ],
+ "browseId": "MPREb_dqWTncCjkSp",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

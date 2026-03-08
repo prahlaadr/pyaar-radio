@@ -1,0 +1,40 @@
+{
+ "title": "Kind Of Blue",
+ "artist": "Miles Davis",
+ "year": "1959",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "artist": "Miles Davis",
+   "videoId": "9rD3zdscDRQ",
+   "duration": "9:23"
+  },
+  {
+   "title": "Freddie Freeloader (feat. John Coltrane, Cannonball Adderley, Wynton Kelly & Paul Chambers)",
+   "artist": "Miles Davis",
+   "videoId": "F-SuJ3bLkLI",
+   "duration": "9:47"
+  },
+  {
+   "title": "Blue in Green (feat. John Coltrane & Bill Evans)",
+   "artist": "Miles Davis",
+   "videoId": "veDgWww1hIQ",
+   "duration": "5:38"
+  },
+  {
+   "title": "All Blues (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "artist": "Miles Davis",
+   "videoId": "xb3iCpu-JFs",
+   "duration": "11:33"
+  },
+  {
+   "title": "Flamenco Sketches (feat. John Coltrane, Cannonball Adderley & Bill Evans)",
+   "artist": "Miles Davis",
+   "videoId": "UpwlFYvdUXY",
+   "duration": "9:27"
+  }
+ ],
+ "browseId": "MPREb_iNbKdKjDqyr",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

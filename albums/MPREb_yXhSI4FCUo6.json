@@ -1,0 +1,82 @@
+{
+ "title": "OK Computer",
+ "artist": "Radiohead",
+ "year": "1997",
+ "trackCount": 12,
+ "tracks": [
+  {
+   "title": "Airbag",
+   "artist": "Radiohead",
+   "videoId": "jNY_wLukVW0",
+   "duration": "4:48"
+  },
+  {
+   "title": "Paranoid Android",
+   "artist": "Radiohead",
+   "videoId": "YTH8cxXBGBo",
+   "duration": "6:28"
+  },
+  {
+   "title": "Subterranean Homesick Alien",
+   "artist": "Radiohead",
+   "videoId": "_fTWmUlTEqE",
+   "duration": "4:28"
+  },
+  {
+   "title": "Exit Music (For A Film)",
+   "artist": "Radiohead",
+   "videoId": "Bf01riuiJWA",
+   "duration": "4:28"
+  },
+  {
+   "title": "Let Down",
+   "artist": "Radiohead",
+   "videoId": "duBCwvC1kP4",
+   "duration": "5:00"
+  },
+  {
+   "title": "Karma Police",
+   "artist": "Radiohead",
+   "videoId": "4IJI6soiQhI",
+   "duration": "4:25"
+  },
+  {
+   "title": "Fitter Happier",
+   "artist": "Radiohead",
+   "videoId": "O4SzvsMFaek",
+   "duration": "1:58"
+  },
+  {
+   "title": "Electioneering",
+   "artist": "Radiohead",
+   "videoId": "3DtgWrFTtQk",
+   "duration": "3:51"
+  },
+  {
+   "title": "Climbing Up the Walls",
+   "artist": "Radiohead",
+   "videoId": "XX4EpkR-Sp4",
+   "duration": "4:46"
+  },
+  {
+   "title": "No Surprises",
+   "artist": "Radiohead",
+   "videoId": "LBt60dfwEBY",
+   "duration": "3:50"
+  },
+  {
+   "title": "Lucky",
+   "artist": "Radiohead",
+   "videoId": "yuZYQvvLXVY",
+   "duration": "4:19"
+  },
+  {
+   "title": "The Tourist",
+   "artist": "Radiohead",
+   "videoId": "HkgzObf8uVU",
+   "duration": "5:27"
+  }
+ ],
+ "browseId": "MPREb_yXhSI4FCUo6",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

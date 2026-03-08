@@ -1,0 +1,70 @@
+{
+ "title": "Collections 01",
+ "artist": "Teebs",
+ "year": "2011",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Just the Yellow Bits",
+   "artist": "Teebs",
+   "videoId": "Mui2Mn0KMuo",
+   "duration": "2:31"
+  },
+  {
+   "title": "Cook, Clean, Pay The Rent (New House Version)",
+   "artist": "Teebs",
+   "videoId": "vsILDMyy0rY",
+   "duration": "2:32"
+  },
+  {
+   "title": "Pretty Poly",
+   "artist": "Teebs",
+   "videoId": "iknSdPmLVEw",
+   "duration": "2:30"
+  },
+  {
+   "title": "Jahara",
+   "artist": "Teebs",
+   "videoId": "d6N46oigsag",
+   "duration": "2:53"
+  },
+  {
+   "title": "Verbena Tea (feat. Rebekah Raff)",
+   "artist": "Teebs",
+   "videoId": "0GLrm_HvtwI",
+   "duration": "4:25"
+  },
+  {
+   "title": "Your Favorite Weekday",
+   "artist": "Teebs",
+   "videoId": "ZjXtr6GQ2Ho",
+   "duration": "1:35"
+  },
+  {
+   "title": "LSP (feat. Austin Peralta)",
+   "artist": "Teebs",
+   "videoId": "sgr53Qg2BBA",
+   "duration": "4:17"
+  },
+  {
+   "title": "While You Dooooo (Extended)",
+   "artist": "Teebs",
+   "videoId": "l3u7deloWRA",
+   "duration": "3:28"
+  },
+  {
+   "title": "Red Curbs Loop (Stuff I Dream About)",
+   "artist": "Teebs",
+   "videoId": "NlBxm4F-1kk",
+   "duration": "2:05"
+  },
+  {
+   "title": "Yellow More New",
+   "artist": "Teebs",
+   "videoId": "gq2czDUJlJQ",
+   "duration": "3:18"
+  }
+ ],
+ "browseId": "MPREb_OahPDUQBpbh",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

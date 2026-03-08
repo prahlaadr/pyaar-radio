@@ -1,0 +1,58 @@
+{
+ "title": "Allina",
+ "artist": "Smerz",
+ "year": "2024",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Allina",
+   "artist": "Smerz;Allina",
+   "videoId": "iMXEGb8broI",
+   "duration": "0:35"
+  },
+  {
+   "title": "The Stylist",
+   "artist": "Smerz;Allina",
+   "videoId": "TEAERwfraKk",
+   "duration": "2:33"
+  },
+  {
+   "title": "Paparazzi",
+   "artist": "Smerz;Allina",
+   "videoId": "44rMUQ4aND8",
+   "duration": "0:40"
+  },
+  {
+   "title": "New Shoes",
+   "artist": "Smerz;Allina",
+   "videoId": "unUY0Eijt9Q",
+   "duration": "2:05"
+  },
+  {
+   "title": "Dance Rehearsal",
+   "artist": "Smerz;Allina",
+   "videoId": "47EHLpNzyy8",
+   "duration": "0:32"
+  },
+  {
+   "title": "My Producer",
+   "artist": "Smerz;Allina",
+   "videoId": "L33oi0w6iHA",
+   "duration": "2:53"
+  },
+  {
+   "title": "Je t’aime",
+   "artist": "Smerz;Allina",
+   "videoId": "Rlb7fXfkulA",
+   "duration": "0:39"
+  },
+  {
+   "title": "Dangerous",
+   "artist": "Smerz;Allina",
+   "videoId": "ZZ2JMM1o6fo",
+   "duration": "2:56"
+  }
+ ],
+ "browseId": "MPREb_9mwK89l5v4U",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

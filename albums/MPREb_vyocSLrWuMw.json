@@ -1,0 +1,70 @@
+{
+ "title": "Music",
+ "artist": "Madonna",
+ "year": "2000",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Music",
+   "artist": "Madonna",
+   "videoId": "A9EvnyhUZrA",
+   "duration": "3:46"
+  },
+  {
+   "title": "Impressive Instant",
+   "artist": "Madonna",
+   "videoId": "D3Um-fDRkdI",
+   "duration": "3:38"
+  },
+  {
+   "title": "Runaway Lover",
+   "artist": "Madonna",
+   "videoId": "mqyzCIADvvk",
+   "duration": "4:48"
+  },
+  {
+   "title": "I Deserve It",
+   "artist": "Madonna",
+   "videoId": "NHPoJV9RL6M",
+   "duration": "4:24"
+  },
+  {
+   "title": "Amazing",
+   "artist": "Madonna",
+   "videoId": "Xs9rlEOvOf4",
+   "duration": "3:44"
+  },
+  {
+   "title": "Nobody's Perfect",
+   "artist": "Madonna",
+   "videoId": "bmH6czWBa2o",
+   "duration": "4:59"
+  },
+  {
+   "title": "Don't Tell Me",
+   "artist": "Madonna",
+   "videoId": "ktLUV2jhpbU",
+   "duration": "4:41"
+  },
+  {
+   "title": "What It Feels Like for a Girl",
+   "artist": "Madonna",
+   "videoId": "yN1aV4ZwAg8",
+   "duration": "4:44"
+  },
+  {
+   "title": "Paradise (Not for Me)",
+   "artist": "Madonna",
+   "videoId": "EVJIwuz7IsU",
+   "duration": "6:34"
+  },
+  {
+   "title": "Gone",
+   "artist": "Madonna",
+   "videoId": "LFvkuGQr6xU",
+   "duration": "3:26"
+  }
+ ],
+ "browseId": "MPREb_vyocSLrWuMw",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

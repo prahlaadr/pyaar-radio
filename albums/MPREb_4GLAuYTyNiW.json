@@ -1,0 +1,70 @@
+{
+ "title": "Talking Book",
+ "artist": "Stevie Wonder",
+ "year": "1972",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "You Are The Sunshine Of My Life",
+   "artist": "Stevie Wonder",
+   "videoId": "b1U6HReJeqo",
+   "duration": "3:01"
+  },
+  {
+   "title": "Maybe Your Baby",
+   "artist": "Stevie Wonder",
+   "videoId": "PrwRMS1oJPA",
+   "duration": "6:51"
+  },
+  {
+   "title": "You And I",
+   "artist": "Stevie Wonder",
+   "videoId": "KRrrFNVUXDQ",
+   "duration": "4:39"
+  },
+  {
+   "title": "Tuesday Heartbreak",
+   "artist": "Stevie Wonder",
+   "videoId": "2UkgWQ4yx5Y",
+   "duration": "3:03"
+  },
+  {
+   "title": "You've Got It Bad Girl",
+   "artist": "Stevie Wonder",
+   "videoId": "YVVh_JFLx_Q",
+   "duration": "4:58"
+  },
+  {
+   "title": "Superstition",
+   "artist": "Stevie Wonder",
+   "videoId": "egqv1mtos6A",
+   "duration": "4:28"
+  },
+  {
+   "title": "Big Brother",
+   "artist": "Stevie Wonder",
+   "videoId": "FaVOCdFRqHQ",
+   "duration": "3:34"
+  },
+  {
+   "title": "Blame It On The Sun",
+   "artist": "Stevie Wonder",
+   "videoId": "kd3xI0RIDXo",
+   "duration": "3:26"
+  },
+  {
+   "title": "Lookin' For Another Pure Love",
+   "artist": "Stevie Wonder",
+   "videoId": "htz5iCDCsLo",
+   "duration": "4:44"
+  },
+  {
+   "title": "I Believe (When I Fall In Love It Will Be Forever)",
+   "artist": "Stevie Wonder",
+   "videoId": "cqP9a0N_p8A",
+   "duration": "4:54"
+  }
+ ],
+ "browseId": "MPREb_4GLAuYTyNiW",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

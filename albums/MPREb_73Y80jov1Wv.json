@@ -1,0 +1,34 @@
+{
+ "title": "Drum Suite",
+ "artist": "Various Artists",
+ "year": "2014",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Vintage Year",
+   "artist": "Richard Spaven",
+   "videoId": "WrNDP9rtrEE",
+   "duration": "4:32"
+  },
+  {
+   "title": "Trash Kit",
+   "artist": "Clever Austin",
+   "videoId": "oVj7r3mYtKw",
+   "duration": "4:43"
+  },
+  {
+   "title": "Evil A.M",
+   "artist": "Emanative",
+   "videoId": "2peix0T2fL8",
+   "duration": "9:03"
+  },
+  {
+   "title": "Frais",
+   "artist": "Hello Skinny",
+   "videoId": "uTE9eZDKs5s",
+   "duration": "4:38"
+  }
+ ],
+ "browseId": "MPREb_73Y80jov1Wv",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

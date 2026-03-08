@@ -1,0 +1,40 @@
+{
+ "title": "Renaissance",
+ "artist": "Raf Saperra",
+ "year": "2025",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Sang",
+   "artist": "Raf Saperra;Ikky",
+   "videoId": "6VG6Pc7qjJ8",
+   "duration": "3:20"
+  },
+  {
+   "title": "Ni Billo",
+   "artist": "Raf Saperra;Ikky",
+   "videoId": "-bGSZeVFRrU",
+   "duration": "2:53"
+  },
+  {
+   "title": "Broken",
+   "artist": "Raf Saperra;Ikky;Sid Sriram",
+   "videoId": "oeeCXjPS8j4",
+   "duration": "3:54"
+  },
+  {
+   "title": "Morni",
+   "artist": "Raf Saperra;Ikky",
+   "videoId": "UccQvCd3nw0",
+   "duration": "3:21"
+  },
+  {
+   "title": "Step Out",
+   "artist": "Raf Saperra;Ikky",
+   "videoId": "v6ievlKuluY",
+   "duration": "3:06"
+  }
+ ],
+ "browseId": "MPREb_tDdRV2thvOn",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

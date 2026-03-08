@@ -1,0 +1,28 @@
+{
+ "title": "Crumb",
+ "artist": "Crumb",
+ "year": "2016",
+ "trackCount": 3,
+ "tracks": [
+  {
+   "title": "Bones",
+   "artist": "Crumb",
+   "videoId": "r7JWHuGFUeI",
+   "duration": "3:14"
+  },
+  {
+   "title": "Vinta",
+   "artist": "Crumb",
+   "videoId": "BAH2EX1fpGY",
+   "duration": "5:00"
+  },
+  {
+   "title": "So Tired",
+   "artist": "Crumb",
+   "videoId": "JzcLYU6meaM",
+   "duration": "3:39"
+  }
+ ],
+ "browseId": "MPREb_MkZa8hI49M8",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

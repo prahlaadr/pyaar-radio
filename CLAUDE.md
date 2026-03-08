@@ -10,21 +10,26 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 YouTube Music (Pyaar Radio account, @PyaarRadio)
   │
   ├─ Liked Music (9,370+ songs)
-  ├─ Saved Albums (500+ albums)
-  ├─ Monthly Playlists (53 playlists, e.g. "Feb 26", "Mirch 26", "Jooli '25")
+  ├─ Monthly Playlists (53, e.g. "Feb 26", "Mirch 26", "Jooli '25")
   │     │
   │     ▼
-  │   sync_liked.py ──▶ public/data/masterlist.csv (append-only, dedup by Video ID)
-  │     │                  Combines all three sources into one masterlist
-  │     │
+  │   sync_liked.py ──▶ public/data/masterlist.csv (40K+ tracks)
+  │     │                  Append-only, dedup by Video ID
   │     └─ Runs daily at 3 AM EST via GitHub Actions
   │
-  └─ 244 Playlists (all playlists, including non-monthly ones)
+  ├─ Saved Albums (500+)
+  │     │
+  │     ▼
+  │   sync_albums.py ──▶ albums/*.json (each album as JSON, incremental)
+  │     │
+  │     └─ Runs daily via GitHub Actions
+  │
+  └─ 244 Playlists (all playlists)
         │
         ▼
-      sync_playlists.py ──▶ playlists/*.json (incremental snapshot, separate from masterlist)
+      sync_playlists.py ──▶ playlists/*.json (incremental snapshot)
         │
-        └─ Runs daily alongside masterlist sync via GitHub Actions
+        └─ Runs daily via GitHub Actions
 
 masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_spotify.py (genres/popularity/dates)
@@ -33,24 +38,29 @@ masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
 artists.csv ── manually curated (273 artists, gatekeeper for imports)
 ```
 
-### Key Separation
+### Three Separate Data Stores
 
-- **masterlist.csv** = Liked songs + Saved albums + Monthly playlists. This is the app's data source.
-- **playlists/*.json** = ALL YT Music playlists (for analytics/search). Synced separately, never written to the masterlist.
-- **artists.csv** = curated artist list. Gatekeeper for any imports from external sources.
+| Store | Source | Script | Location |
+|-------|--------|--------|----------|
+| **masterlist.csv** | Liked songs + monthly playlists | `sync_liked.py` | `public/data/` |
+| **albums/*.json** | Saved/liked albums | `sync_albums.py` | `albums/` |
+| **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `playlists/` |
+| **artists.csv** | Manually curated (273) | Direct edit | `public/data/` |
+
+Each is synced independently. They never bleed into each other.
 
 ### What goes in the masterlist
 
-The masterlist is composed of three YT Music sources, merged and deduped by Video ID:
+The masterlist is composed of two YT Music sources, merged and deduped by Video ID:
 1. **Liked songs** — everything in the "Liked Music" library
-2. **Saved albums** — all albums saved/liked in the library
-3. **Monthly playlists** — personal playlists named by month+year (e.g. "Feb 26", "Mirch 26", "Jooli '25", "Dec 25")
+2. **Monthly playlists** — personal playlists named by month+year (e.g. "Feb 26", "Mirch 26", "Jooli '25", "Dec 25")
 
 Monthly playlists are identified by regex patterns that match both standard month abbreviations and creative spellings (Mirch, Febyouary, Jooli, etc.).
 
 ### What does NOT go in the masterlist
 
-All other playlists (e.g. "shroomy (goated)", "Four Tet's Crate", genre playlists) live only in `playlists/*.json`. They are never merged into the masterlist.
+- **Saved albums** → `albums/*.json` (each album as its own JSON file with tracks)
+- **Other playlists** (e.g. "shroomy (goated)", "Four Tet's Crate") → `playlists/*.json`
 
 ## YouTube Music Sync
 
@@ -84,17 +94,34 @@ cd ~/Documents/Projects/03-music-audio/pyaar-crate
 
 ### sync_liked.py (daily, automated)
 
-Fetches liked songs, saved albums, and monthly playlists from YT Music and appends new ones to `masterlist.csv`.
+Fetches liked songs and monthly playlists from YT Music and appends new ones to `masterlist.csv`.
 
-- **Three sources**: liked songs + saved albums + monthly playlists (identified by regex)
+- **Two sources**: liked songs + monthly playlists (identified by regex)
 - **Append-only**: existing rows are never modified or deleted
-- **Deduplicates by Video ID**: same song won't be added twice across any source
+- **Deduplicates by Video ID**: same song won't be added twice
 - **Backs up** before every write to `backups/`
 
 ```bash
 python sync_liked.py --yes          # Auto-confirm + push
 python sync_liked.py --dry          # Preview only
 python sync_liked.py --yes --no-push # Sync without git push (CI mode)
+```
+
+### sync_albums.py (daily, automated)
+
+Fetches all saved albums and saves each as a JSON file in `albums/`. Incremental — only fetches albums not already synced.
+
+```bash
+python sync_albums.py        # Incremental sync
+python sync_albums.py --full # Force re-fetch all albums
+python sync_albums.py --dry  # Preview only
+```
+
+Output structure:
+```
+albums/
+  _index.json              # Metadata: album names, artists, track counts
+  MPREb_abc123....json     # Each album's tracks
 ```
 
 ### sync_playlists.py (daily, automated)
@@ -141,10 +168,11 @@ Each playlist JSON contains:
 
 The Action:
 1. Verifies auth before syncing (catches expired cookies early)
-2. Runs masterlist sync (liked + albums + monthly playlists)
-3. Runs playlist sync (incremental — only re-fetches playlists whose track count changed)
-4. Commits and pushes if there are changes
-5. On failure: auto-creates a GitHub Issue labeled `sync-failure` with a link to the failed run
+2. Runs masterlist sync (liked + monthly playlists)
+3. Runs album sync (saved albums → `albums/*.json`, incremental)
+4. Runs playlist sync (all playlists → `playlists/*.json`, incremental)
+5. Commits and pushes if there are changes
+6. On failure: auto-creates a GitHub Issue labeled `sync-failure` with a link to the failed run
 
 ### Local runs (pyaar-crate)
 
@@ -186,8 +214,8 @@ The pyaar-crate repo at `~/Documents/Projects/03-music-audio/pyaar-crate/` has a
 
 All in `public/data/`:
 
-### masterlist.csv (29K+ tracks)
-Auto-synced from YT Music daily at 3AM (liked songs + saved albums + monthly playlists). **Safe-to-edit columns:**
+### masterlist.csv (40K+ tracks)
+Auto-synced from YT Music daily at 3AM (liked songs + monthly playlists). **Safe-to-edit columns:**
 
 | Column | Format | Notes |
 |--------|--------|-------|

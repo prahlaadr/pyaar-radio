@@ -1,0 +1,64 @@
+{
+ "title": "American Idiot",
+ "artist": "Green Day",
+ "year": "2004",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "American Idiot",
+   "artist": "Green Day",
+   "videoId": "VyV54YwPAkk",
+   "duration": "2:55"
+  },
+  {
+   "title": "Jesus of Suburbia",
+   "artist": "Green Day",
+   "videoId": "XrHjKN2bjb0",
+   "duration": "9:09"
+  },
+  {
+   "title": "Holiday / Boulevard of Broken Dreams",
+   "artist": "Green Day",
+   "videoId": "J0xe5DcnYSA",
+   "duration": "8:14"
+  },
+  {
+   "title": "Are We the Waiting / St. Jimmy",
+   "artist": "Green Day",
+   "videoId": "RFjOiqTL8U4",
+   "duration": "5:39"
+  },
+  {
+   "title": "Give Me Novacaine / She's a Rebel",
+   "artist": "Green Day",
+   "videoId": "r1-YMsOUE2I",
+   "duration": "5:27"
+  },
+  {
+   "title": "Extraordinary Girl / Letterbomb",
+   "artist": "Green Day",
+   "videoId": "zC-X3tLgXK0",
+   "duration": "7:40"
+  },
+  {
+   "title": "Wake Me up When September Ends",
+   "artist": "Green Day",
+   "videoId": "ulRXvH8VOl8",
+   "duration": "4:46"
+  },
+  {
+   "title": "Homecoming",
+   "artist": "Green Day",
+   "videoId": "KevdP2uJOZ0",
+   "duration": "9:19"
+  },
+  {
+   "title": "Whatsername",
+   "artist": "Green Day",
+   "videoId": "tF9xovpVA04",
+   "duration": "4:13"
+  }
+ ],
+ "browseId": "MPREb_jnYA50rlu4H",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

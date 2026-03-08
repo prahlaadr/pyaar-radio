@@ -1,0 +1,70 @@
+{
+ "title": "Various Artists",
+ "artist": "Various Artists",
+ "year": "2025",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Gadnic",
+   "artist": "Atmos-fear",
+   "videoId": "W3ESSYcqRlY",
+   "duration": "5:28"
+  },
+  {
+   "title": "Paradox",
+   "artist": "Alberto Bone",
+   "videoId": "bX31ygdxfqs",
+   "duration": "5:48"
+  },
+  {
+   "title": "Matriarca",
+   "artist": "AXKAN",
+   "videoId": "elkglDl0avA",
+   "duration": "5:47"
+  },
+  {
+   "title": "Sadgal 5 AM",
+   "artist": "Bondarük",
+   "videoId": "Q5mUfFH5VQY",
+   "duration": "6:42"
+  },
+  {
+   "title": "AVDARI",
+   "artist": "Boyd Schidt",
+   "videoId": "4Ex7lYhkYHY",
+   "duration": "7:49"
+  },
+  {
+   "title": "Manifesto",
+   "artist": "Cia Rebeck",
+   "videoId": "TXHkOZc_1Ug",
+   "duration": "7:08"
+  },
+  {
+   "title": "Lágrimas de concreto",
+   "artist": "Murdott",
+   "videoId": "kfLW8cnDodI",
+   "duration": "6:05"
+  },
+  {
+   "title": "Crown Of Illusions",
+   "artist": "Moerbeck",
+   "videoId": "ECh9sJgYp3w",
+   "duration": "4:57"
+  },
+  {
+   "title": "Narwen",
+   "artist": "Sue-Lèwig",
+   "videoId": "2zkCVXzFjN0",
+   "duration": "4:17"
+  },
+  {
+   "title": "Chiaroscuro",
+   "artist": "Uma Scheffer",
+   "videoId": "BOzgcYTbuOc",
+   "duration": "6:02"
+  }
+ ],
+ "browseId": "MPREb_K72SaKAoziu",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

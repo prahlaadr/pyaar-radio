@@ -1,0 +1,82 @@
+{
+ "title": "Foo Fighters",
+ "artist": "Foo Fighters",
+ "year": "1995",
+ "trackCount": 12,
+ "tracks": [
+  {
+   "title": "This Is a Call",
+   "artist": "Foo Fighters",
+   "videoId": "h-Rnr3wTX9I",
+   "duration": "3:54"
+  },
+  {
+   "title": "I'll Stick Around",
+   "artist": "Foo Fighters",
+   "videoId": "yu25wba5Eyg",
+   "duration": "3:53"
+  },
+  {
+   "title": "Big Me",
+   "artist": "Foo Fighters",
+   "videoId": "jMZg_J77ZSE",
+   "duration": "2:13"
+  },
+  {
+   "title": "Alone + Easy Target",
+   "artist": "Foo Fighters",
+   "videoId": "T0kV8yqiL8M",
+   "duration": "4:06"
+  },
+  {
+   "title": "Good Grief",
+   "artist": "Foo Fighters",
+   "videoId": "wUAbQEenPCs",
+   "duration": "4:02"
+  },
+  {
+   "title": "Floaty",
+   "artist": "Foo Fighters",
+   "videoId": "bLmiOuLAO3A",
+   "duration": "4:30"
+  },
+  {
+   "title": "Weenie Beenie",
+   "artist": "Foo Fighters",
+   "videoId": "gJgJSizbH2g",
+   "duration": "2:46"
+  },
+  {
+   "title": "Oh, George",
+   "artist": "Foo Fighters",
+   "videoId": "76nIMVv9EyY",
+   "duration": "3:02"
+  },
+  {
+   "title": "For All the Cows",
+   "artist": "Foo Fighters",
+   "videoId": "Hyxy_KMom7g",
+   "duration": "3:30"
+  },
+  {
+   "title": "X-Static",
+   "artist": "Foo Fighters",
+   "videoId": "2ANXDgIR090",
+   "duration": "4:14"
+  },
+  {
+   "title": "Wattershed",
+   "artist": "Foo Fighters",
+   "videoId": "CmwjZZ100YY",
+   "duration": "2:14"
+  },
+  {
+   "title": "Exhausted",
+   "artist": "Foo Fighters",
+   "videoId": "Ttzjq29EgwU",
+   "duration": "5:50"
+  }
+ ],
+ "browseId": "MPREb_CYsA7PXQaOm",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

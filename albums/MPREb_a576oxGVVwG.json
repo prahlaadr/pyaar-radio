@@ -1,0 +1,70 @@
+{
+ "title": "¡Ay!",
+ "artist": "Lucrecia Dalt",
+ "year": "2022",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "No tiempo",
+   "artist": "Lucrecia Dalt",
+   "videoId": "I86SUSrGXE8",
+   "duration": "3:36"
+  },
+  {
+   "title": "El Galatzó",
+   "artist": "Lucrecia Dalt",
+   "videoId": "Ch8JBRZgduQ",
+   "duration": "3:33"
+  },
+  {
+   "title": "Atemporal",
+   "artist": "Lucrecia Dalt",
+   "videoId": "K2oSgNRbZPw",
+   "duration": "3:08"
+  },
+  {
+   "title": "Dicen",
+   "artist": "Lucrecia Dalt",
+   "videoId": "7go4E689iJw",
+   "duration": "2:45"
+  },
+  {
+   "title": "Contenida",
+   "artist": "Lucrecia Dalt",
+   "videoId": "9Y99wb9g6W8",
+   "duration": "4:32"
+  },
+  {
+   "title": "La desmesura",
+   "artist": "Lucrecia Dalt",
+   "videoId": "gNpqS8mNF-o",
+   "duration": "3:46"
+  },
+  {
+   "title": "Gena",
+   "artist": "Lucrecia Dalt",
+   "videoId": "9xIj74zMT1s",
+   "duration": "4:30"
+  },
+  {
+   "title": "Bochinche",
+   "artist": "Lucrecia Dalt",
+   "videoId": "lsOTO9k1Rmw",
+   "duration": "2:12"
+  },
+  {
+   "title": "Enviada",
+   "artist": "Lucrecia Dalt",
+   "videoId": "PG82k-wnuCc",
+   "duration": "4:04"
+  },
+  {
+   "title": "Epilogo",
+   "artist": "Lucrecia Dalt",
+   "videoId": "IdrquHBm3FM",
+   "duration": "2:29"
+  }
+ ],
+ "browseId": "MPREb_a576oxGVVwG",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

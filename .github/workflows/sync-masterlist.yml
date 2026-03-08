@@ -27,7 +27,6 @@ jobs:
         run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
 
       - name: Verify auth
-        id: auth
         run: |
           python -c "
           from ytmusicapi import YTMusic
@@ -39,8 +38,11 @@ jobs:
               raise SystemExit('Auth failed: no account name returned')
           "
 
-      - name: Sync masterlist (liked + albums + monthly playlists)
+      - name: Sync masterlist (liked + monthly playlists)
         run: python sync_liked.py --yes --no-push
+
+      - name: Sync saved albums to JSON
+        run: python sync_albums.py
 
       - name: Sync all playlists to JSON
         run: python sync_playlists.py
@@ -49,6 +51,7 @@ jobs:
         id: changes
         run: |
           git add public/data/masterlist.csv
+          if [ -d albums ]; then git add albums/; fi
           if [ -d playlists ]; then git add playlists/; fi
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT

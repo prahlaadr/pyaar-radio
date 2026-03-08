@@ -1,0 +1,76 @@
+{
+ "title": "Kid A",
+ "artist": "Radiohead",
+ "year": "2000",
+ "trackCount": 11,
+ "tracks": [
+  {
+   "title": "Everything In Its Right Place",
+   "artist": "Radiohead",
+   "videoId": "NUnXxh5U25Y",
+   "duration": "4:12"
+  },
+  {
+   "title": "Kid A",
+   "artist": "Radiohead",
+   "videoId": "MXNbfU0Ww_E",
+   "duration": "4:45"
+  },
+  {
+   "title": "The National Anthem",
+   "artist": "Radiohead",
+   "videoId": "NfQD1QiQ9o4",
+   "duration": "5:52"
+  },
+  {
+   "title": "How to Disappear Completely",
+   "artist": "Radiohead",
+   "videoId": "6W6HhdqA95w",
+   "duration": "5:57"
+  },
+  {
+   "title": "Treefingers",
+   "artist": "Radiohead",
+   "videoId": "L7p47zYKJoM",
+   "duration": "3:43"
+  },
+  {
+   "title": "Optimistic",
+   "artist": "Radiohead",
+   "videoId": "1On-ZHfTWOo",
+   "duration": "5:16"
+  },
+  {
+   "title": "In Limbo",
+   "artist": "Radiohead",
+   "videoId": "Q29iibXXiOs",
+   "duration": "3:31"
+  },
+  {
+   "title": "Idioteque",
+   "artist": "Radiohead",
+   "videoId": "svwJTnZOaco",
+   "duration": "5:10"
+  },
+  {
+   "title": "Morning Bell",
+   "artist": "Radiohead",
+   "videoId": "XTT6k3Q4JnQ",
+   "duration": "4:36"
+  },
+  {
+   "title": "Motion Picture Soundtrack",
+   "artist": "Radiohead",
+   "videoId": "EcSvMFm2ABE",
+   "duration": "3:21"
+  },
+  {
+   "title": "Untitled",
+   "artist": "Radiohead",
+   "videoId": "L_PvBLtvZto",
+   "duration": "0:53"
+  }
+ ],
+ "browseId": "MPREb_ob5cslgCNc0",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

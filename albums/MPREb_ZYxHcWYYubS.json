@@ -1,0 +1,70 @@
+{
+ "title": "The Car",
+ "artist": "Arctic Monkeys",
+ "year": "2022",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "There'd Better Be A Mirrorball",
+   "artist": "Arctic Monkeys",
+   "videoId": "B-CKookVyhA",
+   "duration": "4:26"
+  },
+  {
+   "title": "I Ain't Quite Where I Think I Am",
+   "artist": "Arctic Monkeys",
+   "videoId": "Tycvau5crd8",
+   "duration": "3:12"
+  },
+  {
+   "title": "Sculptures Of Anything Goes",
+   "artist": "Arctic Monkeys",
+   "videoId": "xT3059r4-Qo",
+   "duration": "4:00"
+  },
+  {
+   "title": "Jet Skis On The Moat",
+   "artist": "Arctic Monkeys",
+   "videoId": "qXQcKLYqMjI",
+   "duration": "3:18"
+  },
+  {
+   "title": "Body Paint",
+   "artist": "Arctic Monkeys",
+   "videoId": "gBdwZeK4igM",
+   "duration": "4:51"
+  },
+  {
+   "title": "The Car",
+   "artist": "Arctic Monkeys",
+   "videoId": "6CngGIckIbo",
+   "duration": "3:19"
+  },
+  {
+   "title": "Big Ideas",
+   "artist": "Arctic Monkeys",
+   "videoId": "QowqM7LUMBY",
+   "duration": "3:58"
+  },
+  {
+   "title": "Hello You",
+   "artist": "Arctic Monkeys",
+   "videoId": "xDxYKOSWRB8",
+   "duration": "4:05"
+  },
+  {
+   "title": "Mr Schwartz",
+   "artist": "Arctic Monkeys",
+   "videoId": "ZGsE5c6_QbM",
+   "duration": "3:31"
+  },
+  {
+   "title": "Perfect Sense",
+   "artist": "Arctic Monkeys",
+   "videoId": "rak_1KAbdHg",
+   "duration": "2:48"
+  }
+ ],
+ "browseId": "MPREb_ZYxHcWYYubS",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

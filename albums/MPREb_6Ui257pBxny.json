@@ -1,0 +1,64 @@
+{
+ "title": "Depression Cherry",
+ "artist": "Beach House",
+ "year": "2015",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Levitation",
+   "artist": "Beach House",
+   "videoId": "FxcwJH4P9JQ",
+   "duration": "5:55"
+  },
+  {
+   "title": "Sparks",
+   "artist": "Beach House",
+   "videoId": "OX82rsDrmpQ",
+   "duration": "5:22"
+  },
+  {
+   "title": "Space Song",
+   "artist": "Beach House",
+   "videoId": "m_npTC0Rvgg",
+   "duration": "5:21"
+  },
+  {
+   "title": "Beyond Love",
+   "artist": "Beach House",
+   "videoId": "YdQz6NltncU",
+   "duration": "4:26"
+  },
+  {
+   "title": "10:37",
+   "artist": "Beach House",
+   "videoId": "WHBd10Q52mo",
+   "duration": "3:49"
+  },
+  {
+   "title": "PPP",
+   "artist": "Beach House",
+   "videoId": "1Bu1I7AMRIw",
+   "duration": "6:09"
+  },
+  {
+   "title": "Wildflower",
+   "artist": "Beach House",
+   "videoId": "PcmgB-LjUoI",
+   "duration": "3:40"
+  },
+  {
+   "title": "Bluebird",
+   "artist": "Beach House",
+   "videoId": "JsmZRbBLNT0",
+   "duration": "3:56"
+  },
+  {
+   "title": "Days of Candy",
+   "artist": "Beach House",
+   "videoId": "DsSXMtHq8vc",
+   "duration": "6:16"
+  }
+ ],
+ "browseId": "MPREb_6Ui257pBxny",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

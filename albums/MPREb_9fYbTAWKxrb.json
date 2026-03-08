@@ -1,0 +1,70 @@
+{
+ "title": "CASE STUDY 01",
+ "artist": "Daniel Caesar",
+ "year": "2019",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "ENTROPY",
+   "artist": "Daniel Caesar",
+   "videoId": "CLx631jSEug",
+   "duration": "4:22"
+  },
+  {
+   "title": "CYANIDE",
+   "artist": "Daniel Caesar",
+   "videoId": "Jnm3ukzmJe4",
+   "duration": "3:15"
+  },
+  {
+   "title": "LOVE AGAIN",
+   "artist": "Daniel Caesar;Brandy",
+   "videoId": "EHwUuMmlkBg",
+   "duration": "3:35"
+  },
+  {
+   "title": "FRONTAL LOBE MUZIK (feat. Pharrell Williams)",
+   "artist": "Daniel Caesar",
+   "videoId": "GSpzscLeMuc",
+   "duration": "3:50"
+  },
+  {
+   "title": "OPEN UP",
+   "artist": "Daniel Caesar",
+   "videoId": "XAP-fzjXR_A",
+   "duration": "4:27"
+  },
+  {
+   "title": "RESTORE THE FEELING (feat. Sean Leon & Jacob Collier)",
+   "artist": "Daniel Caesar",
+   "videoId": "7CZmBMZclTY",
+   "duration": "3:35"
+  },
+  {
+   "title": "SUPERPOSITION (feat. John Mayer)",
+   "artist": "Daniel Caesar",
+   "videoId": "LV_V4Rsd9eU",
+   "duration": "4:24"
+  },
+  {
+   "title": "TOO DEEP TO TURN BACK",
+   "artist": "Daniel Caesar",
+   "videoId": "J5r3MDJGoaw",
+   "duration": "5:19"
+  },
+  {
+   "title": "COMPLEXITIES",
+   "artist": "Daniel Caesar",
+   "videoId": "bDDtP_03GM0",
+   "duration": "3:51"
+  },
+  {
+   "title": "ARE YOU OK?",
+   "artist": "Daniel Caesar",
+   "videoId": "Bqh1krcUf6Q",
+   "duration": "6:35"
+  }
+ ],
+ "browseId": "MPREb_9fYbTAWKxrb",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

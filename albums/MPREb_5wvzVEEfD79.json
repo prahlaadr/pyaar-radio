@@ -1,0 +1,64 @@
+{
+ "title": "Ghost Stories",
+ "artist": "Coldplay",
+ "year": "2014",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Always in My Head",
+   "artist": "Coldplay",
+   "videoId": "l2UJmdM9Omw",
+   "duration": "3:37"
+  },
+  {
+   "title": "Magic",
+   "artist": "Coldplay",
+   "videoId": "219pQObZq2I",
+   "duration": "4:46"
+  },
+  {
+   "title": "Ink",
+   "artist": "Coldplay",
+   "videoId": "Qjo_x_8vrVY",
+   "duration": "3:49"
+  },
+  {
+   "title": "True Love",
+   "artist": "Coldplay",
+   "videoId": "d-6kIWaHwiY",
+   "duration": "4:06"
+  },
+  {
+   "title": "Midnight",
+   "artist": "Coldplay",
+   "videoId": "L5uqSeA_bps",
+   "duration": "4:55"
+  },
+  {
+   "title": "Another's Arms",
+   "artist": "Coldplay",
+   "videoId": "4EYN8yeReTE",
+   "duration": "3:55"
+  },
+  {
+   "title": "Oceans",
+   "artist": "Coldplay",
+   "videoId": "D72bzPbZQrI",
+   "duration": "5:22"
+  },
+  {
+   "title": "A Sky Full of Stars",
+   "artist": "Coldplay",
+   "videoId": "KWuyx6yZ21U",
+   "duration": "4:28"
+  },
+  {
+   "title": "O",
+   "artist": "Coldplay",
+   "videoId": "-gA3H3clEqk",
+   "duration": "5:24"
+  }
+ ],
+ "browseId": "MPREb_5wvzVEEfD79",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

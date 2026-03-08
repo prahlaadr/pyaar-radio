@@ -1,0 +1,70 @@
+{
+ "title": "In Rainbows",
+ "artist": "Radiohead",
+ "year": "2007",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "15 Step",
+   "artist": "Radiohead",
+   "videoId": "bgsmr7t8zGE",
+   "duration": "3:58"
+  },
+  {
+   "title": "Bodysnatchers",
+   "artist": "Radiohead",
+   "videoId": "nIQxhSvSRnQ",
+   "duration": "4:03"
+  },
+  {
+   "title": "Nude",
+   "artist": "Radiohead",
+   "videoId": "4-aiSnnghQk",
+   "duration": "4:16"
+  },
+  {
+   "title": "Weird Fishes / Arpeggi",
+   "artist": "Radiohead",
+   "videoId": "LUjGtyYEi90",
+   "duration": "5:19"
+  },
+  {
+   "title": "All I Need",
+   "artist": "Radiohead",
+   "videoId": "FM7ALFsOH4g",
+   "duration": "3:49"
+  },
+  {
+   "title": "Faust Arp",
+   "artist": "Radiohead",
+   "videoId": "PRc0iMRoIoc",
+   "duration": "2:10"
+  },
+  {
+   "title": "Reckoner",
+   "artist": "Radiohead",
+   "videoId": "pYHEpDnvVPk",
+   "duration": "4:51"
+  },
+  {
+   "title": "House Of Cards",
+   "artist": "Radiohead",
+   "videoId": "Nng0aSsq_XE",
+   "duration": "5:29"
+  },
+  {
+   "title": "Jigsaw Falling Into Place",
+   "artist": "Radiohead",
+   "videoId": "CvjRlYpXS5U",
+   "duration": "4:09"
+  },
+  {
+   "title": "Videotape",
+   "artist": "Radiohead",
+   "videoId": "WF83_PR2EsA",
+   "duration": "4:40"
+  }
+ ],
+ "browseId": "MPREb_R6C9lU4QEg2",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

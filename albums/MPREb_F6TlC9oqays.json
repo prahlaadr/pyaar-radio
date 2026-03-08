@@ -1,0 +1,40 @@
+{
+ "title": "Drive Thru",
+ "artist": "DILJIT DOSANJH",
+ "year": "2022",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Peaches",
+   "artist": "DILJIT DOSANJH",
+   "videoId": "p3ALF6PNMmo",
+   "duration": "3:10"
+  },
+  {
+   "title": "Lemonade",
+   "artist": "DILJIT DOSANJH",
+   "videoId": "YBw4zXysLJQ",
+   "duration": "2:47"
+  },
+  {
+   "title": "Caviar",
+   "artist": "DILJIT DOSANJH",
+   "videoId": "xh0uoxgMIiY",
+   "duration": "2:23"
+  },
+  {
+   "title": "Red Chilli",
+   "artist": "DILJIT DOSANJH",
+   "videoId": "c10e_Wyw0K0",
+   "duration": "2:33"
+  },
+  {
+   "title": "Vanilla",
+   "artist": "DILJIT DOSANJH",
+   "videoId": "dXcUdxxELEc",
+   "duration": "2:52"
+  }
+ ],
+ "browseId": "MPREb_F6TlC9oqays",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

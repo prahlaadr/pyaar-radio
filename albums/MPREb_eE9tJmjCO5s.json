@@ -1,0 +1,70 @@
+{
+ "title": "Ornithology",
+ "artist": "Ornithology",
+ "year": "2021",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Autumn Breeze",
+   "artist": "Ornithology",
+   "videoId": "XekpTROpvBE",
+   "duration": "2:08"
+  },
+  {
+   "title": "Cabin Shade",
+   "artist": "Ornithology",
+   "videoId": "RKtGODNiiDs",
+   "duration": "2:04"
+  },
+  {
+   "title": "Birdwatching",
+   "artist": "Ornithology;juniorodeo;azula",
+   "videoId": "NKWMp_dGHJE",
+   "duration": "1:38"
+  },
+  {
+   "title": "Swaying Trees",
+   "artist": "Ornithology",
+   "videoId": "T5pOGll3xZM",
+   "duration": "2:06"
+  },
+  {
+   "title": "Falling Feathers",
+   "artist": "Ornithology",
+   "videoId": "u5nv41ytIBY",
+   "duration": "1:55"
+  },
+  {
+   "title": "Catnap",
+   "artist": "Ornithology;Enluv",
+   "videoId": "59wrlX6iI-0",
+   "duration": "2:34"
+  },
+  {
+   "title": "Soaring",
+   "artist": "Ornithology",
+   "videoId": "AeJyD9tc0gE",
+   "duration": "1:44"
+  },
+  {
+   "title": "Treetops",
+   "artist": "Ornithology;Slo Loris",
+   "videoId": "vlO-y4LsAWY",
+   "duration": "2:00"
+  },
+  {
+   "title": "Songbirds",
+   "artist": "Ornithology",
+   "videoId": "xUzIBs4LYpE",
+   "duration": "2:06"
+  },
+  {
+   "title": "Field Guide",
+   "artist": "Ornithology;Oatmello",
+   "videoId": "YT-H5o_Xpn0",
+   "duration": "2:04"
+  }
+ ],
+ "browseId": "MPREb_eE9tJmjCO5s",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

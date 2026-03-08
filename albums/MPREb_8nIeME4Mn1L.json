@@ -1,0 +1,64 @@
+{
+ "title": "Swimmer",
+ "artist": "Tennis",
+ "year": "2020",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "I'll Haunt You",
+   "artist": "Tennis",
+   "videoId": "3oXXw9KOJdo",
+   "duration": "2:33"
+  },
+  {
+   "title": "Need Your Love",
+   "artist": "Tennis",
+   "videoId": "Nv53FaqJ_0k",
+   "duration": "3:52"
+  },
+  {
+   "title": "How To Forgive",
+   "artist": "Tennis",
+   "videoId": "GU7nTfhv1m0",
+   "duration": "3:37"
+  },
+  {
+   "title": "Runner",
+   "artist": "Tennis",
+   "videoId": "tI147VDxqR4",
+   "duration": "3:37"
+  },
+  {
+   "title": "Echoes",
+   "artist": "Tennis",
+   "videoId": "mhHOO_GU1Iw",
+   "duration": "3:25"
+  },
+  {
+   "title": "Swimmer",
+   "artist": "Tennis",
+   "videoId": "Nvx0YAs3BIE",
+   "duration": "4:11"
+  },
+  {
+   "title": "Tender as a Tomb",
+   "artist": "Tennis",
+   "videoId": "Z7S_vXEsxAM",
+   "duration": "2:43"
+  },
+  {
+   "title": "Late Night",
+   "artist": "Tennis",
+   "videoId": "htFfwDgRPXc",
+   "duration": "3:35"
+  },
+  {
+   "title": "Matrimony II",
+   "artist": "Tennis",
+   "videoId": "gSM1RIXPW2E",
+   "duration": "3:48"
+  }
+ ],
+ "browseId": "MPREb_8nIeME4Mn1L",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

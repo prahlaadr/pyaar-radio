@@ -1,0 +1,88 @@
+{
+ "title": "Cinema",
+ "artist": "Karsh Kale",
+ "year": "1990",
+ "trackCount": 13,
+ "tracks": [
+  {
+   "title": "Island",
+   "artist": "Karsh Kale",
+   "videoId": "x3mPh8al-sI",
+   "duration": "5:45"
+  },
+  {
+   "title": "Mallika Jam",
+   "artist": "Karsh Kale",
+   "videoId": "924WECal0fE",
+   "duration": "5:14"
+  },
+  {
+   "title": "Cinema",
+   "artist": "Karsh Kale",
+   "videoId": "mDEWPEAXL5M",
+   "duration": "7:05"
+  },
+  {
+   "title": "Avalanche",
+   "artist": "Karsh Kale",
+   "videoId": "FYHVxPzAXyA",
+   "duration": "5:10"
+  },
+  {
+   "title": "Turnpike",
+   "artist": "Karsh Kale",
+   "videoId": "UgiCTelaJw4",
+   "duration": "4:17"
+  },
+  {
+   "title": "Supernova",
+   "artist": "Karsh Kale",
+   "videoId": "QS0th_v-EPU",
+   "duration": "6:38"
+  },
+  {
+   "title": "Joy",
+   "artist": "Karsh Kale",
+   "videoId": "OpP85Iq7mcM",
+   "duration": "5:17"
+  },
+  {
+   "title": "Absence",
+   "artist": "Karsh Kale",
+   "videoId": "TLacL92ZgdQ",
+   "duration": "4:46"
+  },
+  {
+   "title": "Ma",
+   "artist": "Karsh Kale",
+   "videoId": "GGN1E24Q6yU",
+   "duration": "5:12"
+  },
+  {
+   "title": "Phoenix Rising",
+   "artist": "Karsh Kale",
+   "videoId": "awvPIGfuCOo",
+   "duration": "4:46"
+  },
+  {
+   "title": "Man On Fire",
+   "artist": "Karsh Kale",
+   "videoId": "IyhXPRWkYj4",
+   "duration": "4:45"
+  },
+  {
+   "title": "Peekaboo",
+   "artist": "Karsh Kale",
+   "videoId": "wf3s69s2RK0",
+   "duration": "5:06"
+  },
+  {
+   "title": "Sunbeam",
+   "artist": "Karsh Kale",
+   "videoId": "jMQ8BjuKYuM",
+   "duration": "4:54"
+  }
+ ],
+ "browseId": "MPREb_aKWiKRx7Sm1",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

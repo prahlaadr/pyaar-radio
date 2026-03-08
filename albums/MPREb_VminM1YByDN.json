@@ -1,0 +1,76 @@
+{
+ "title": "7",
+ "artist": "Beach House",
+ "year": "2018",
+ "trackCount": 11,
+ "tracks": [
+  {
+   "title": "Dark Spring",
+   "artist": "Beach House",
+   "videoId": "j8ahC0fCQDg",
+   "duration": "3:25"
+  },
+  {
+   "title": "Pay No Mind",
+   "artist": "Beach House",
+   "videoId": "oY_Nu1uLEPI",
+   "duration": "3:25"
+  },
+  {
+   "title": "Lemon Glow",
+   "artist": "Beach House",
+   "videoId": "m2PFcYQeeb4",
+   "duration": "4:05"
+  },
+  {
+   "title": "L'Inconnue",
+   "artist": "Beach House",
+   "videoId": "aOM3xRaA0Ms",
+   "duration": "4:25"
+  },
+  {
+   "title": "Drunk In LA",
+   "artist": "Beach House",
+   "videoId": "40TjlDv-4ao",
+   "duration": "4:00"
+  },
+  {
+   "title": "Dive",
+   "artist": "Beach House",
+   "videoId": "mhyYgGTokOI",
+   "duration": "4:26"
+  },
+  {
+   "title": "Black Car",
+   "artist": "Beach House",
+   "videoId": "c-1P5fm5yHM",
+   "duration": "4:12"
+  },
+  {
+   "title": "Lose Your Smile",
+   "artist": "Beach House",
+   "videoId": "I7kzbDdcYyQ",
+   "duration": "4:10"
+  },
+  {
+   "title": "Woo",
+   "artist": "Beach House",
+   "videoId": "fmrK-XjLaLs",
+   "duration": "4:15"
+  },
+  {
+   "title": "Girl Of The Year",
+   "artist": "Beach House",
+   "videoId": "R6utrGsQC8w",
+   "duration": "3:52"
+  },
+  {
+   "title": "Last Ride",
+   "artist": "Beach House",
+   "videoId": "cf5o07KQnLI",
+   "duration": "7:00"
+  }
+ ],
+ "browseId": "MPREb_VminM1YByDN",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

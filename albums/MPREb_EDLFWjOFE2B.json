@@ -1,0 +1,46 @@
+{
+ "title": "My Dear Melancholy,",
+ "artist": "The Weeknd",
+ "year": "2018",
+ "trackCount": 6,
+ "tracks": [
+  {
+   "title": "Call Out My Name",
+   "artist": "The Weeknd",
+   "videoId": "ZtEtKXhhtS4",
+   "duration": "3:49"
+  },
+  {
+   "title": "Try Me",
+   "artist": "The Weeknd",
+   "videoId": "a4x7p76ix8M",
+   "duration": "3:42"
+  },
+  {
+   "title": "Wasted Times",
+   "artist": "The Weeknd",
+   "videoId": "RSIoRbhnFBk",
+   "duration": "3:41"
+  },
+  {
+   "title": "I Was Never There",
+   "artist": "The Weeknd;Gesaffelstein",
+   "videoId": "cJVpXPSXGtk",
+   "duration": "4:02"
+  },
+  {
+   "title": "Hurt You",
+   "artist": "The Weeknd;Gesaffelstein",
+   "videoId": "iD8SDlUNtCY",
+   "duration": "3:51"
+  },
+  {
+   "title": "Privilege",
+   "artist": "The Weeknd",
+   "videoId": "iBYhYsKGmxw",
+   "duration": "2:51"
+  }
+ ],
+ "browseId": "MPREb_EDLFWjOFE2B",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

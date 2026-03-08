@@ -1,0 +1,52 @@
+{
+ "title": "Shawcross",
+ "artist": "Good Morning",
+ "year": "2014",
+ "trackCount": 7,
+ "tracks": [
+  {
+   "title": "Once You Know",
+   "artist": "Good Morning",
+   "videoId": "GtC_YsUj7nA",
+   "duration": "3:52"
+  },
+  {
+   "title": "Don't Come Home Today",
+   "artist": "Good Morning",
+   "videoId": "ISoQNcYfLKg",
+   "duration": "3:12"
+  },
+  {
+   "title": "Warned You",
+   "artist": "Good Morning",
+   "videoId": "iNGfYnyv9BU",
+   "duration": "2:17"
+  },
+  {
+   "title": "Cosmic Sass",
+   "artist": "Good Morning",
+   "videoId": "gwGzHwL2fLI",
+   "duration": "1:46"
+  },
+  {
+   "title": "Time to Try Again",
+   "artist": "Good Morning",
+   "videoId": "Kvp-sfahr_s",
+   "duration": "1:50"
+  },
+  {
+   "title": "Wednesday",
+   "artist": "Good Morning",
+   "videoId": "spmk2WO2z4E",
+   "duration": "2:24"
+  },
+  {
+   "title": "Before My Ears Explode",
+   "artist": "Good Morning",
+   "videoId": "iVsfgFIqqMg",
+   "duration": "2:37"
+  }
+ ],
+ "browseId": "MPREb_fNQvqmA77Za",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

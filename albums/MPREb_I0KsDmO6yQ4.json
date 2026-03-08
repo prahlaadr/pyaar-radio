@@ -1,0 +1,40 @@
+{
+ "title": "Azúcar",
+ "artist": "Kibi James",
+ "year": "2019",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Hi, How Are You?",
+   "artist": "Kibi James",
+   "videoId": "8mRsQJHifkQ",
+   "duration": "3:09"
+  },
+  {
+   "title": "Cada Día",
+   "artist": "Kibi James",
+   "videoId": "MnBN8oLCjmw",
+   "duration": "2:38"
+  },
+  {
+   "title": "Baby's Gone",
+   "artist": "Kibi James",
+   "videoId": "2hxeJRt-Ro4",
+   "duration": "4:05"
+  },
+  {
+   "title": "Slow Motion",
+   "artist": "Kibi James",
+   "videoId": "C6xj8-obj2g",
+   "duration": "4:39"
+  },
+  {
+   "title": "Waiting for Something",
+   "artist": "Kibi James",
+   "videoId": "LuN1Fib-Na4",
+   "duration": "4:07"
+  }
+ ],
+ "browseId": "MPREb_I0KsDmO6yQ4",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

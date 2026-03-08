@@ -1,0 +1,70 @@
+{
+ "title": "Company",
+ "artist": "Slime",
+ "year": "2015",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Thurible",
+   "artist": "Slime",
+   "videoId": "6BbAEEkwj6U",
+   "duration": "3:11"
+  },
+  {
+   "title": "Striding Edge",
+   "artist": "Slime",
+   "videoId": "cz-vah6LziA",
+   "duration": "4:00"
+  },
+  {
+   "title": "Hot Dog",
+   "artist": "Slime",
+   "videoId": "hzdh60vSr2M",
+   "duration": "4:21"
+  },
+  {
+   "title": "My Company",
+   "artist": "Slime",
+   "videoId": "XmrSYUNBw2o",
+   "duration": "5:02"
+  },
+  {
+   "title": "In One Year",
+   "artist": "Slime",
+   "videoId": "Yz3xyWZmiA8",
+   "duration": "4:51"
+  },
+  {
+   "title": "Symptoms",
+   "artist": "Slime",
+   "videoId": "pST0VsiQVRA",
+   "duration": "3:04"
+  },
+  {
+   "title": "The Way of Asprilla",
+   "artist": "Slime",
+   "videoId": "_J1V6iaAxS0",
+   "duration": "3:13"
+  },
+  {
+   "title": "At Sea Again (feat. Selah Sue)",
+   "artist": "Slime",
+   "videoId": "G6dnJW3eUXY",
+   "duration": "4:58"
+  },
+  {
+   "title": "Patricia's Stories (feat. Jeremiah Jae)",
+   "artist": "Slime",
+   "videoId": "sXbJK7g6W2g",
+   "duration": "4:13"
+  },
+  {
+   "title": "Down and Tell",
+   "artist": "Slime",
+   "videoId": "AOSiEcJv1Xk",
+   "duration": "5:12"
+  }
+ ],
+ "browseId": "MPREb_1DJxdv1L8OS",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

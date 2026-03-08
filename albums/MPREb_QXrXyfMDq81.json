@@ -1,0 +1,40 @@
+{
+ "title": "A Very Laufey Holiday",
+ "artist": "Laufey",
+ "year": "2024",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Santa Baby",
+   "artist": "Laufey",
+   "videoId": "PpLDp7ckCi4",
+   "duration": "3:03"
+  },
+  {
+   "title": "Winter Wonderland",
+   "artist": "Laufey",
+   "videoId": "ea9ss-kxQKs",
+   "duration": "2:13"
+  },
+  {
+   "title": "Christmas Dreaming",
+   "artist": "Laufey",
+   "videoId": "9g7rfA74AuU",
+   "duration": "2:34"
+  },
+  {
+   "title": "The Christmas Waltz",
+   "artist": "Laufey",
+   "videoId": "plG0KND5pyE",
+   "duration": "2:48"
+  },
+  {
+   "title": "Love to Keep Me Warm",
+   "artist": "Laufey;dodie",
+   "videoId": "_LCpDUUFTHE",
+   "duration": "2:39"
+  }
+ ],
+ "browseId": "MPREb_QXrXyfMDq81",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

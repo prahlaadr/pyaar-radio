@@ -1,0 +1,70 @@
+{
+ "title": "Locus",
+ "artist": "Satyr",
+ "year": "2020",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Apogee",
+   "artist": "Satyr",
+   "videoId": "CAliNwSHfpU",
+   "duration": "3:08"
+  },
+  {
+   "title": "Perigee",
+   "artist": "Satyr",
+   "videoId": "ONWaUtPXlwE",
+   "duration": "3:29"
+  },
+  {
+   "title": "Aesop",
+   "artist": "Satyr",
+   "videoId": "Su_cmKc30to",
+   "duration": "3:32"
+  },
+  {
+   "title": "Bird",
+   "artist": "Satyr",
+   "videoId": "6wd-iDwTlvU",
+   "duration": "3:12"
+  },
+  {
+   "title": "Not to Scale",
+   "artist": "Satyr",
+   "videoId": "XVeXoqBUVao",
+   "duration": "3:57"
+  },
+  {
+   "title": "Mushroom",
+   "artist": "Satyr",
+   "videoId": "Wx_YgNoP8CU",
+   "duration": "3:04"
+  },
+  {
+   "title": "Pathing",
+   "artist": "Satyr",
+   "videoId": "tM5Wu8DEP7Q",
+   "duration": "3:33"
+  },
+  {
+   "title": "Levitator",
+   "artist": "Satyr",
+   "videoId": "xI5LiqsCdgQ",
+   "duration": "3:25"
+  },
+  {
+   "title": "Picayune",
+   "artist": "Satyr",
+   "videoId": "95etzF0Tttw",
+   "duration": "3:52"
+  },
+  {
+   "title": "Null",
+   "artist": "Satyr",
+   "videoId": "WDA5Emzipzw",
+   "duration": "4:31"
+  }
+ ],
+ "browseId": "MPREb_IphKaaKcfES",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

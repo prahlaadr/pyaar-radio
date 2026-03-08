@@ -1,0 +1,34 @@
+{
+ "title": "Shanti",
+ "artist": "Raveena",
+ "year": "2017",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "If Only",
+   "artist": "Raveena",
+   "videoId": "7kgHRwo8f0o",
+   "duration": "3:22"
+  },
+  {
+   "title": "Love Child",
+   "artist": "Raveena",
+   "videoId": "jNnfR6sQlNQ",
+   "duration": "2:44"
+  },
+  {
+   "title": "No Better",
+   "artist": "Raveena",
+   "videoId": "cTIEzlQmTi8",
+   "duration": "4:03"
+  },
+  {
+   "title": "Natural",
+   "artist": "Raveena",
+   "videoId": "roR8eC-vfBc",
+   "duration": "5:21"
+  }
+ ],
+ "browseId": "MPREb_h5ULjzyZl2K",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

@@ -1,0 +1,46 @@
+{
+ "title": "Hu$band 2",
+ "artist": "Father",
+ "year": "2023",
+ "trackCount": 6,
+ "tracks": [
+  {
+   "title": "So Awful ENT",
+   "artist": "Father",
+   "videoId": "wSXFToV9jf0",
+   "duration": "2:55"
+  },
+  {
+   "title": "Oxenfree",
+   "artist": "Father",
+   "videoId": "1n0WagywACw",
+   "duration": "2:43"
+  },
+  {
+   "title": "Spooktified",
+   "artist": "Father",
+   "videoId": "nXlXo18BnmA",
+   "duration": "1:04"
+  },
+  {
+   "title": "Tax The Church",
+   "artist": "Father",
+   "videoId": "L4nOTros4MI",
+   "duration": "2:08"
+  },
+  {
+   "title": "Vodka Me Down",
+   "artist": "Father",
+   "videoId": "QZ-Y88W4zMI",
+   "duration": "1:57"
+  },
+  {
+   "title": "Sanctuary",
+   "artist": "Father",
+   "videoId": "d4mBiM6AMo8",
+   "duration": "2:59"
+  }
+ ],
+ "browseId": "MPREb_2loBRAMGJcw",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

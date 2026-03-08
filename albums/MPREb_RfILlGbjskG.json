@@ -1,0 +1,40 @@
+{
+ "title": "SYRE: THE ELECTRIC ALBUM",
+ "artist": "Jaden",
+ "year": "2018",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "B (Electric)",
+   "artist": "Jaden",
+   "videoId": "vXRJa2IIqo4",
+   "duration": "5:06"
+  },
+  {
+   "title": "Ninety (Electric)",
+   "artist": "Jaden",
+   "videoId": "9PfEQijsjHk",
+   "duration": "4:50"
+  },
+  {
+   "title": "Lost Boy (Electric)",
+   "artist": "Jaden",
+   "videoId": "lAOJferRxUw",
+   "duration": "4:49"
+  },
+  {
+   "title": "Fallen (Electric)",
+   "artist": "Jaden",
+   "videoId": "9737XF8U1pw",
+   "duration": "6:06"
+  },
+  {
+   "title": "Icon? (Electric)",
+   "artist": "Jaden",
+   "videoId": "h3KwJne9ySM",
+   "duration": "6:56"
+  }
+ ],
+ "browseId": "MPREb_RfILlGbjskG",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

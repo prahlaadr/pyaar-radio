@@ -1,0 +1,58 @@
+{
+ "title": "Simple.",
+ "artist": "IDK",
+ "year": "2022",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Drugstore",
+   "artist": "IDK",
+   "videoId": "ezrZ7DZIBrE",
+   "duration": "3:10"
+  },
+  {
+   "title": "Southeast to Paris",
+   "artist": "IDK",
+   "videoId": "Kt-j4_Fwp48",
+   "duration": "0:43"
+  },
+  {
+   "title": "Dog Food (feat. Denzel Curry)",
+   "artist": "IDK",
+   "videoId": "N4yRMJHJkCY",
+   "duration": "3:05"
+  },
+  {
+   "title": "Zaza Tree",
+   "artist": "IDK",
+   "videoId": "5dY3J8CAb8s",
+   "duration": "2:17"
+  },
+  {
+   "title": "Breathe",
+   "artist": "IDK",
+   "videoId": "41axDp_6K-E",
+   "duration": "3:07"
+  },
+  {
+   "title": "Taco",
+   "artist": "IDK",
+   "videoId": "ZiPrXV3YrE8",
+   "duration": "2:25"
+  },
+  {
+   "title": "The Code (feat. Mike Dimes)",
+   "artist": "IDK",
+   "videoId": "hMSRkMfkYN4",
+   "duration": "2:26"
+  },
+  {
+   "title": "Paris to Southeast",
+   "artist": "IDK",
+   "videoId": "pSsivBXvPNg",
+   "duration": "1:10"
+  }
+ ],
+ "browseId": "MPREb_A9zCMcKaLUO",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

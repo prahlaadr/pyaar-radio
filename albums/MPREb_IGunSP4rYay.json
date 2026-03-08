@@ -1,0 +1,64 @@
+{
+ "title": "This Is Music",
+ "artist": "klark sound",
+ "year": "2025",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Three of Fates",
+   "artist": "klark sound",
+   "videoId": "lNMfFDjxejU",
+   "duration": "3:39"
+  },
+  {
+   "title": "Song for Pablo",
+   "artist": "klark sound",
+   "videoId": "qu5aLpvkVnw",
+   "duration": "2:59"
+  },
+  {
+   "title": "In The Body",
+   "artist": "klark sound",
+   "videoId": "bTJonbTrw4E",
+   "duration": "3:52"
+  },
+  {
+   "title": "See Me",
+   "artist": "klark sound",
+   "videoId": "E-VvBJ6LuSM",
+   "duration": "3:15"
+  },
+  {
+   "title": "HBD25",
+   "artist": "klark sound",
+   "videoId": "XXoYZLSwSsc",
+   "duration": "2:00"
+  },
+  {
+   "title": "Stocking Up",
+   "artist": "klark sound",
+   "videoId": "-h-azTqCM4A",
+   "duration": "2:29"
+  },
+  {
+   "title": "Heavy",
+   "artist": "klark sound",
+   "videoId": "JhnkOFwBOYY",
+   "duration": "3:10"
+  },
+  {
+   "title": "Future Finds",
+   "artist": "klark sound",
+   "videoId": "Ct3S7Wo6t8c",
+   "duration": "3:57"
+  },
+  {
+   "title": "Bother",
+   "artist": "klark sound",
+   "videoId": "nywTQDXwclw",
+   "duration": "2:52"
+  }
+ ],
+ "browseId": "MPREb_IGunSP4rYay",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

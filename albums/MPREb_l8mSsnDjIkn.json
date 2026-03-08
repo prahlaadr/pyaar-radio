@@ -1,0 +1,40 @@
+{
+ "title": "Favorites 3",
+ "artist": "Justice Der",
+ "year": "2019",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Nikes",
+   "artist": "Justice Der",
+   "videoId": "u0bSOKJmUpw",
+   "duration": "5:54"
+  },
+  {
+   "title": "Astrothunder",
+   "artist": "Justice Der",
+   "videoId": "B2IXfEyn0E0",
+   "duration": "3:41"
+  },
+  {
+   "title": "Devil in a New Dress",
+   "artist": "Justice Der",
+   "videoId": "i35tQRjsr3I",
+   "duration": "6:09"
+  },
+  {
+   "title": "New Light",
+   "artist": "Justice Der",
+   "videoId": "gl3fQ3MiJS8",
+   "duration": "6:38"
+  },
+  {
+   "title": "Seigfried",
+   "artist": "Justice Der",
+   "videoId": "uWUlsuFD6UY",
+   "duration": "6:14"
+  }
+ ],
+ "browseId": "MPREb_l8mSsnDjIkn",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

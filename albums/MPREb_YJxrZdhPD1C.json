@@ -1,0 +1,88 @@
+{
+ "title": "X&Y",
+ "artist": "Coldplay",
+ "year": "2005",
+ "trackCount": 13,
+ "tracks": [
+  {
+   "title": "Square One",
+   "artist": "Coldplay",
+   "videoId": "j37GED-AR3M",
+   "duration": "4:48"
+  },
+  {
+   "title": "What If",
+   "artist": "Coldplay",
+   "videoId": "tH-GPdkkNik",
+   "duration": "4:59"
+  },
+  {
+   "title": "White Shadows",
+   "artist": "Coldplay",
+   "videoId": "EhC_c7p50so",
+   "duration": "5:29"
+  },
+  {
+   "title": "Fix You",
+   "artist": "Coldplay",
+   "videoId": "Oncu0bgdcXU",
+   "duration": "4:56"
+  },
+  {
+   "title": "Talk",
+   "artist": "Coldplay",
+   "videoId": "FC_WRm3qA0Q",
+   "duration": "5:12"
+  },
+  {
+   "title": "X&Y",
+   "artist": "Coldplay",
+   "videoId": "uIgxY0yWLNY",
+   "duration": "4:35"
+  },
+  {
+   "title": "Speed of Sound",
+   "artist": "Coldplay",
+   "videoId": "04tC72kZM_o",
+   "duration": "4:48"
+  },
+  {
+   "title": "A Message",
+   "artist": "Coldplay",
+   "videoId": "1bDz2MZWKlM",
+   "duration": "4:46"
+  },
+  {
+   "title": "Low",
+   "artist": "Coldplay",
+   "videoId": "Tyjxnb8hVp4",
+   "duration": "5:33"
+  },
+  {
+   "title": "The Hardest Part",
+   "artist": "Coldplay",
+   "videoId": "yeGtvyHl9oY",
+   "duration": "4:23"
+  },
+  {
+   "title": "Swallowed in the Sea",
+   "artist": "Coldplay",
+   "videoId": "f-cyxWKzxVQ",
+   "duration": "4:00"
+  },
+  {
+   "title": "Twisted Logic",
+   "artist": "Coldplay",
+   "videoId": "jLedhA6rMBg",
+   "duration": "4:32"
+  },
+  {
+   "title": "Til Kingdom Come",
+   "artist": "Coldplay",
+   "videoId": "E0UN-pVTLf4",
+   "duration": "4:11"
+  }
+ ],
+ "browseId": "MPREb_YJxrZdhPD1C",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

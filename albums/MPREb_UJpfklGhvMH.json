@@ -1,0 +1,82 @@
+{
+ "title": "My Name Is My Name",
+ "artist": "Pusha T",
+ "year": "2013",
+ "trackCount": 12,
+ "tracks": [
+  {
+   "title": "King Push",
+   "artist": "Pusha T",
+   "videoId": "ZvcvfKzKmLw",
+   "duration": "2:53"
+  },
+  {
+   "title": "Numbers On The Boards",
+   "artist": "Pusha T",
+   "videoId": "KUkEKwbb-LE",
+   "duration": "2:44"
+  },
+  {
+   "title": "Sweet Serenade (feat. Chris Brown)",
+   "artist": "Pusha T",
+   "videoId": "OF6irQtj3M8",
+   "duration": "3:40"
+  },
+  {
+   "title": "Hold On (feat. Rick Ross)",
+   "artist": "Pusha T",
+   "videoId": "2tzhwJfx2BQ",
+   "duration": "4:46"
+  },
+  {
+   "title": "Suicide (feat. Ab-Liva)",
+   "artist": "Pusha T",
+   "videoId": "gPtX_5nUI4c",
+   "duration": "3:43"
+  },
+  {
+   "title": "40 Acres (feat. The-Dream)",
+   "artist": "Pusha T",
+   "videoId": "TXyqlx5oC6Q",
+   "duration": "4:42"
+  },
+  {
+   "title": "No Regrets (feat. Jeezy & Kevin Cossom)",
+   "artist": "Pusha T",
+   "videoId": "zOdgOiILCYs",
+   "duration": "4:48"
+  },
+  {
+   "title": "Let Me Love You (feat. Kelly Rowland)",
+   "artist": "Pusha T",
+   "videoId": "J8qii9FHZHs",
+   "duration": "3:44"
+  },
+  {
+   "title": "Who I Am (feat. 2 Chainz & Big Sean)",
+   "artist": "Pusha T",
+   "videoId": "D_4L0i4bzOY",
+   "duration": "3:42"
+  },
+  {
+   "title": "Nosetalgia (feat. Kendrick Lamar)",
+   "artist": "Pusha T",
+   "videoId": "F4iNCt97JZM",
+   "duration": "3:37"
+  },
+  {
+   "title": "Pain (feat. Future)",
+   "artist": "Pusha T",
+   "videoId": "cm61iEiu5Lg",
+   "duration": "4:11"
+  },
+  {
+   "title": "S.N.I.T.C.H. (feat. Pharrell)",
+   "artist": "Pusha T",
+   "videoId": "Py6-GoPAN70",
+   "duration": "4:04"
+  }
+ ],
+ "browseId": "MPREb_UJpfklGhvMH",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

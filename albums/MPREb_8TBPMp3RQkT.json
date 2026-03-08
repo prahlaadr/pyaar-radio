@@ -1,0 +1,100 @@
+{
+ "title": "evermore",
+ "artist": "Taylor Swift",
+ "year": "2020",
+ "trackCount": 15,
+ "tracks": [
+  {
+   "title": "willow",
+   "artist": "Taylor Swift",
+   "videoId": "qxrMpCMdYwk",
+   "duration": "3:35"
+  },
+  {
+   "title": "champagne problems",
+   "artist": "Taylor Swift",
+   "videoId": "3lB7Oh076-8",
+   "duration": "4:04"
+  },
+  {
+   "title": "gold rush",
+   "artist": "Taylor Swift",
+   "videoId": "7BYR9u7RJ1k",
+   "duration": "3:06"
+  },
+  {
+   "title": "‘tis the damn season",
+   "artist": "Taylor Swift",
+   "videoId": "cO-oobdPWE8",
+   "duration": "3:50"
+  },
+  {
+   "title": "tolerate it",
+   "artist": "Taylor Swift",
+   "videoId": "cOWp6UVzBGs",
+   "duration": "4:06"
+  },
+  {
+   "title": "no body, no crime (feat. HAIM)",
+   "artist": "Taylor Swift",
+   "videoId": "QqBvpXFgZ_Q",
+   "duration": "3:36"
+  },
+  {
+   "title": "happiness",
+   "artist": "Taylor Swift",
+   "videoId": "B7YMfvGDU-k",
+   "duration": "5:16"
+  },
+  {
+   "title": "dorothea",
+   "artist": "Taylor Swift",
+   "videoId": "5gRUbsDEuWg",
+   "duration": "3:46"
+  },
+  {
+   "title": "coney island (feat. The National)",
+   "artist": "Taylor Swift",
+   "videoId": "XtrUoXy0j7g",
+   "duration": "4:36"
+  },
+  {
+   "title": "ivy",
+   "artist": "Taylor Swift",
+   "videoId": "vYot4h3xgIg",
+   "duration": "4:21"
+  },
+  {
+   "title": "cowboy like me",
+   "artist": "Taylor Swift",
+   "videoId": "rKSrjaQZOgg",
+   "duration": "4:36"
+  },
+  {
+   "title": "long story short",
+   "artist": "Taylor Swift",
+   "videoId": "bYgz0BHHeyM",
+   "duration": "3:36"
+  },
+  {
+   "title": "marjorie",
+   "artist": "Taylor Swift",
+   "videoId": "NVbdhwUgwmQ",
+   "duration": "4:18"
+  },
+  {
+   "title": "closure",
+   "artist": "Taylor Swift",
+   "videoId": "ooK9GNSt1b8",
+   "duration": "3:01"
+  },
+  {
+   "title": "evermore (feat. Bon Iver)",
+   "artist": "Taylor Swift",
+   "videoId": "2Ez9LcaTMeU",
+   "duration": "5:05"
+  }
+ ],
+ "browseId": "MPREb_8TBPMp3RQkT",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

@@ -1,0 +1,64 @@
+{
+ "title": "Medicine At Midnight",
+ "artist": "Foo Fighters",
+ "year": "2021",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Making A Fire",
+   "artist": "Foo Fighters",
+   "videoId": "2iSn4EMEl2Y",
+   "duration": "4:16"
+  },
+  {
+   "title": "Shame Shame",
+   "artist": "Foo Fighters",
+   "videoId": "zKo1sX7S9-k",
+   "duration": "4:18"
+  },
+  {
+   "title": "Cloudspotter",
+   "artist": "Foo Fighters",
+   "videoId": "u73MTFtWxhA",
+   "duration": "3:54"
+  },
+  {
+   "title": "Waiting On A War",
+   "artist": "Foo Fighters",
+   "videoId": "xt7pS769Ay0",
+   "duration": "4:14"
+  },
+  {
+   "title": "Medicine At Midnight",
+   "artist": "Foo Fighters",
+   "videoId": "2GInASKbq5w",
+   "duration": "3:30"
+  },
+  {
+   "title": "No Son Of Mine",
+   "artist": "Foo Fighters",
+   "videoId": "3kMAa2DB43Y",
+   "duration": "3:29"
+  },
+  {
+   "title": "Holding Poison",
+   "artist": "Foo Fighters",
+   "videoId": "hxpCnggz1NQ",
+   "duration": "4:25"
+  },
+  {
+   "title": "Chasing Birds",
+   "artist": "Foo Fighters",
+   "videoId": "K16GsJbSQbw",
+   "duration": "4:13"
+  },
+  {
+   "title": "Love Dies Young",
+   "artist": "Foo Fighters",
+   "videoId": "v7twSrSVR3o",
+   "duration": "4:22"
+  }
+ ],
+ "browseId": "MPREb_h5cefQjwJ0Z",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

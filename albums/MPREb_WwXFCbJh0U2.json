@@ -1,0 +1,40 @@
+{
+ "title": "Rainforest",
+ "artist": "Clams Casino",
+ "year": "2011",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Natural",
+   "artist": "Clams Casino",
+   "videoId": "rWq_S0_1DdM",
+   "duration": "3:56"
+  },
+  {
+   "title": "Treetop",
+   "artist": "Clams Casino",
+   "videoId": "iCxZhHDPwQM",
+   "duration": "3:22"
+  },
+  {
+   "title": "Waterfalls",
+   "artist": "Clams Casino",
+   "videoId": "kzoLewpP8wc",
+   "duration": "3:34"
+  },
+  {
+   "title": "Drowning",
+   "artist": "Clams Casino",
+   "videoId": "qWrgRZOONH0",
+   "duration": "3:24"
+  },
+  {
+   "title": "Gorilla",
+   "artist": "Clams Casino",
+   "videoId": "1Zppw9GGPos",
+   "duration": "4:19"
+  }
+ ],
+ "browseId": "MPREb_WwXFCbJh0U2",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

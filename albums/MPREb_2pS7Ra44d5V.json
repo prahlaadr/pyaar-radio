@@ -1,0 +1,34 @@
+{
+ "title": "Sapana",
+ "artist": "Amancio D'Silva",
+ "year": "2022",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Raag Bhairagi",
+   "artist": "Amancio D'Silva",
+   "videoId": "0qmWM9lzOeU",
+   "duration": "11:21"
+  },
+  {
+   "title": "Sapana (The Dream)",
+   "artist": "Amancio D'Silva",
+   "videoId": "5MQ9HimlCOE",
+   "duration": "11:27"
+  },
+  {
+   "title": "Song For Francesca",
+   "artist": "Amancio D'Silva",
+   "videoId": "tbbKnO6goOM",
+   "duration": "6:36"
+  },
+  {
+   "title": "Raag Kafi",
+   "artist": "Amancio D'Silva",
+   "videoId": "uQvhPVLaeqg",
+   "duration": "10:03"
+  }
+ ],
+ "browseId": "MPREb_2pS7Ra44d5V",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

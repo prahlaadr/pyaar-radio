@@ -1,0 +1,82 @@
+{
+ "title": "album1",
+ "artist": "San Holo",
+ "year": "2018",
+ "trackCount": 12,
+ "tracks": [
+  {
+   "title": "everything matters (when it comes to you)",
+   "artist": "San Holo",
+   "videoId": "GdlhNQyeNHQ",
+   "duration": "5:37"
+  },
+  {
+   "title": "lift me from the ground (feat. Sofie Winterson)",
+   "artist": "San Holo featuring Sofie Winterson",
+   "videoId": "QRwvTlsJOOk",
+   "duration": "4:21"
+  },
+  {
+   "title": "show me",
+   "artist": "San Holo",
+   "videoId": "xEQ_3feTZ7E",
+   "duration": "5:42"
+  },
+  {
+   "title": "brighter days",
+   "artist": "San Holo and Bipolar Sunshine;Bipolar Sunshine",
+   "videoId": "M8tZnz44t00",
+   "duration": "3:57"
+  },
+  {
+   "title": "always on my mind (feat. James Vincent McMorrow & Yvette Young)",
+   "artist": "San Holo featuring James Vincent McMorrow and Yvette Young",
+   "videoId": "qFU4TdUqFXU",
+   "duration": "3:42"
+  },
+  {
+   "title": "go back in time",
+   "artist": "San Holo",
+   "videoId": "Civim1RJiLo",
+   "duration": "4:22"
+  },
+  {
+   "title": "love (wip) (feat. Cassini)",
+   "artist": "San Holo featuring Cassini",
+   "videoId": "ZQgFpkVlaMA",
+   "duration": "4:23"
+  },
+  {
+   "title": "voices in my head (feat. The Nicholas)",
+   "artist": "San Holo featuring The Nicholas",
+   "videoId": "boCxIUq8PY8",
+   "duration": "4:53"
+  },
+  {
+   "title": "worthy",
+   "artist": "San Holo",
+   "videoId": "pb3g_DDkuRM",
+   "duration": "5:00"
+  },
+  {
+   "title": "forever free",
+   "artist": "San Holo and Duskus;Duskus",
+   "videoId": "lLn2yc3kYSU",
+   "duration": "6:23"
+  },
+  {
+   "title": "surface (feat. Caspian)",
+   "artist": "San Holo featuring Caspian",
+   "videoId": "H_86LH9GhMs",
+   "duration": "6:03"
+  },
+  {
+   "title": "vestal avenue",
+   "artist": "San Holo",
+   "videoId": "a2f1eu-XOoQ",
+   "duration": "4:15"
+  }
+ ],
+ "browseId": "MPREb_RzEnwHOjt4f",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

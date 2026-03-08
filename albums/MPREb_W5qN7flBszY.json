@@ -1,0 +1,70 @@
+{
+ "title": "Off the Wall",
+ "artist": "Michael Jackson",
+ "year": "1979",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Don't Stop 'Til You Get Enough",
+   "artist": "Michael Jackson",
+   "videoId": "n3qQtSRmHxo",
+   "duration": "6:06"
+  },
+  {
+   "title": "Rock with You (Single Version)",
+   "artist": "Michael Jackson",
+   "videoId": "OvzJZTkWYoY",
+   "duration": "3:41"
+  },
+  {
+   "title": "Workin' Day and Night",
+   "artist": "Michael Jackson",
+   "videoId": "zWaRajBJGiU",
+   "duration": "5:14"
+  },
+  {
+   "title": "Get on the Floor",
+   "artist": "Michael Jackson",
+   "videoId": "bzb2He1C_UU",
+   "duration": "4:38"
+  },
+  {
+   "title": "Off the Wall",
+   "artist": "Michael Jackson",
+   "videoId": "g0ViBH7m4XA",
+   "duration": "4:06"
+  },
+  {
+   "title": "Girlfriend",
+   "artist": "Michael Jackson",
+   "videoId": "7He5c6PGDns",
+   "duration": "3:05"
+  },
+  {
+   "title": "She's Out of My Life",
+   "artist": "Michael Jackson",
+   "videoId": "BtjO1gyBzPg",
+   "duration": "3:39"
+  },
+  {
+   "title": "I Can't Help It",
+   "artist": "Michael Jackson",
+   "videoId": "_3h7wQxdM3A",
+   "duration": "4:30"
+  },
+  {
+   "title": "It's the Falling in Love",
+   "artist": "Michael Jackson",
+   "videoId": "G1fll9DHS1w",
+   "duration": "3:48"
+  },
+  {
+   "title": "Burn This Disco Out",
+   "artist": "Michael Jackson",
+   "videoId": "3w75_OUcRXs",
+   "duration": "3:42"
+  }
+ ],
+ "browseId": "MPREb_W5qN7flBszY",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

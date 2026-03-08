@@ -1,0 +1,76 @@
+{
+ "title": "Dummy",
+ "artist": "Portishead",
+ "year": "1994",
+ "trackCount": 11,
+ "tracks": [
+  {
+   "title": "Mysterons",
+   "artist": "Portishead",
+   "videoId": "slDNOtOQ8oA",
+   "duration": "5:06"
+  },
+  {
+   "title": "Sour Times",
+   "artist": "Portishead",
+   "videoId": "VoSoZyiHZ6o",
+   "duration": "4:13"
+  },
+  {
+   "title": "Strangers",
+   "artist": "Portishead",
+   "videoId": "wCAURNnKqFo",
+   "duration": "3:58"
+  },
+  {
+   "title": "It Could Be Sweet",
+   "artist": "Portishead",
+   "videoId": "Aw8GucJ4f7E",
+   "duration": "4:18"
+  },
+  {
+   "title": "Wandering Star",
+   "artist": "Portishead",
+   "videoId": "8T0cRt8efsQ",
+   "duration": "4:54"
+  },
+  {
+   "title": "It's A Fire",
+   "artist": "Portishead",
+   "videoId": "selAvZE6lp4",
+   "duration": "3:47"
+  },
+  {
+   "title": "Numb",
+   "artist": "Portishead",
+   "videoId": "mfw7oAGxq8Q",
+   "duration": "3:56"
+  },
+  {
+   "title": "Roads",
+   "artist": "Portishead",
+   "videoId": "7nxWP9BhI7w",
+   "duration": "5:04"
+  },
+  {
+   "title": "Pedestal",
+   "artist": "Portishead",
+   "videoId": "6zexKiOafjk",
+   "duration": "3:41"
+  },
+  {
+   "title": "Biscuit",
+   "artist": "Portishead",
+   "videoId": "FRntBOQsNYc",
+   "duration": "5:03"
+  },
+  {
+   "title": "Glory Box",
+   "artist": "Portishead",
+   "videoId": "c417rIku6Iw",
+   "duration": "5:09"
+  }
+ ],
+ "browseId": "MPREb_G6JQUdInW98",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

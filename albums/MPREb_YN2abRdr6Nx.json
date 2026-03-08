@@ -1,0 +1,70 @@
+{
+ "title": "Def Jazz",
+ "artist": "Various Artists",
+ "year": "2005",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "All I Need",
+   "artist": "Roy Hargrove;Joey DeFrancesco",
+   "videoId": "B6S0oJqKBco",
+   "duration": "5:23"
+  },
+  {
+   "title": "Hey Young World",
+   "artist": "Gerald Albright;Kevin Toney",
+   "videoId": "nRJCXHpaK2E",
+   "duration": "5:21"
+  },
+  {
+   "title": "Can I Get A...",
+   "artist": "Jeff Lorber;Dwight Sills",
+   "videoId": "zeVm4XwTia0",
+   "duration": "5:08"
+  },
+  {
+   "title": "Doin' It",
+   "artist": "Dwight Sills;Audra Bryant",
+   "videoId": "lIX3G-efzrI",
+   "duration": "5:37"
+  },
+  {
+   "title": "Bring The Pain",
+   "artist": "Hubert Laws;Kevin Toney",
+   "videoId": "3zpaEkyJyJk",
+   "duration": "5:15"
+  },
+  {
+   "title": "The Rain",
+   "artist": "Ledisi;Oran \"Juice\" Jones",
+   "videoId": "KZCfflBcUFk",
+   "duration": "5:10"
+  },
+  {
+   "title": "Ghetto Jam",
+   "artist": "Rick Braun;Dwight Sills",
+   "videoId": "k4N_-DcZ-K8",
+   "duration": "5:38"
+  },
+  {
+   "title": "Get U Home",
+   "artist": "Gerald Albright;Ach",
+   "videoId": "jMwbi-iB_bc",
+   "duration": "4:18"
+  },
+  {
+   "title": "Back Seat",
+   "artist": "Dwight Sills;Jeff Lorber",
+   "videoId": "IILbXS-nBq8",
+   "duration": "6:14"
+  },
+  {
+   "title": "Give It Up",
+   "artist": "Joey DeFrancesco;Jeff Lorber",
+   "videoId": "NU839RY_h3Y",
+   "duration": "5:52"
+  }
+ ],
+ "browseId": "MPREb_YN2abRdr6Nx",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

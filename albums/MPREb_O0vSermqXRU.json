@@ -1,0 +1,58 @@
+{
+ "title": "A Private Picture",
+ "artist": "Fran",
+ "year": "2019",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Now",
+   "artist": "Fran",
+   "videoId": "4XtBGOSIYuE",
+   "duration": "3:49"
+  },
+  {
+   "title": "Company",
+   "artist": "Fran",
+   "videoId": "xhaYKe5xK6Y",
+   "duration": "4:15"
+  },
+  {
+   "title": "So Surreal",
+   "artist": "Fran",
+   "videoId": "Hbkr60BPj2I",
+   "duration": "2:39"
+  },
+  {
+   "title": "Time and Place",
+   "artist": "Fran",
+   "videoId": "KfbUMRN6phs",
+   "duration": "3:46"
+  },
+  {
+   "title": "In My Own Time",
+   "artist": "Fran",
+   "videoId": "U0EbIQ0EFHg",
+   "duration": "5:20"
+  },
+  {
+   "title": "(I Don't Want You to Think) I've Moved On",
+   "artist": "Fran",
+   "videoId": "P8V_vc_A-DQ",
+   "duration": "5:26"
+  },
+  {
+   "title": "A Private Picture",
+   "artist": "Fran",
+   "videoId": "gjQIe7r52tM",
+   "duration": "6:05"
+  },
+  {
+   "title": "Desert Wanderer",
+   "artist": "Fran",
+   "videoId": "CfFH-nmukPA",
+   "duration": "7:16"
+  }
+ ],
+ "browseId": "MPREb_O0vSermqXRU",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

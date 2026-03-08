@@ -1,0 +1,70 @@
+{
+ "title": "But Here We Are",
+ "artist": "Foo Fighters",
+ "year": "2023",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Rescued",
+   "artist": "Foo Fighters",
+   "videoId": "f_W2FyI1giU",
+   "duration": "4:19"
+  },
+  {
+   "title": "Under You",
+   "artist": "Foo Fighters",
+   "videoId": "lb9gWXsLyms",
+   "duration": "3:40"
+  },
+  {
+   "title": "Hearing Voices",
+   "artist": "Foo Fighters",
+   "videoId": "P3KoSFRPjb8",
+   "duration": "3:49"
+  },
+  {
+   "title": "But Here We Are",
+   "artist": "Foo Fighters",
+   "videoId": "n9KCQj5-iF4",
+   "duration": "4:44"
+  },
+  {
+   "title": "The Glass",
+   "artist": "Foo Fighters",
+   "videoId": "U1s49lfmwuA",
+   "duration": "3:50"
+  },
+  {
+   "title": "Nothing At All",
+   "artist": "Foo Fighters",
+   "videoId": "GThHRzEexf0",
+   "duration": "3:28"
+  },
+  {
+   "title": "Show Me How",
+   "artist": "Foo Fighters",
+   "videoId": "WWfuHj5sv-E",
+   "duration": "4:54"
+  },
+  {
+   "title": "Beyond Me",
+   "artist": "Foo Fighters",
+   "videoId": "QQz_7ZJ6_7E",
+   "duration": "3:55"
+  },
+  {
+   "title": "The Teacher",
+   "artist": "Foo Fighters",
+   "videoId": "LdBfa_r7ROU",
+   "duration": "10:05"
+  },
+  {
+   "title": "Rest",
+   "artist": "Foo Fighters",
+   "videoId": "Q6FKBWGkbko",
+   "duration": "5:34"
+  }
+ ],
+ "browseId": "MPREb_MBzrfM1jsmU",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

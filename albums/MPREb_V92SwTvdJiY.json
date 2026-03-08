@@ -1,0 +1,52 @@
+{
+ "title": "First Tracks",
+ "artist": "Núria Graham",
+ "year": "2013",
+ "trackCount": 7,
+ "tracks": [
+  {
+   "title": "Intro",
+   "artist": "Núria Graham",
+   "videoId": "8taybTzUa2E",
+   "duration": "3:18"
+  },
+  {
+   "title": "As Sweet",
+   "artist": "Núria Graham",
+   "videoId": "sW_r_TGl1DE",
+   "duration": "3:55"
+  },
+  {
+   "title": "Unknown",
+   "artist": "Núria Graham",
+   "videoId": "KwSEol95PZg",
+   "duration": "3:02"
+  },
+  {
+   "title": "Will",
+   "artist": "Núria Graham",
+   "videoId": "PjGkjDrzrmY",
+   "duration": "3:10"
+  },
+  {
+   "title": "Poems",
+   "artist": "Núria Graham",
+   "videoId": "ZR3Rfwl5Uoo",
+   "duration": "3:07"
+  },
+  {
+   "title": "On the Bus",
+   "artist": "Núria Graham",
+   "videoId": "SkF0vSCMCFA",
+   "duration": "2:44"
+  },
+  {
+   "title": "Oregon",
+   "artist": "Núria Graham",
+   "videoId": "BOIuvhQdngQ",
+   "duration": "4:14"
+  }
+ ],
+ "browseId": "MPREb_V92SwTvdJiY",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

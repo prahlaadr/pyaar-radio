@@ -1,0 +1,40 @@
+{
+ "title": "Purrr!",
+ "artist": "Doja Cat",
+ "year": "2014",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Beautiful",
+   "artist": "Doja Cat",
+   "videoId": "I19nrQ7qrbo",
+   "duration": "3:47"
+  },
+  {
+   "title": "Nunchucks",
+   "artist": "Doja Cat",
+   "videoId": "YaW41ILtCLg",
+   "duration": "3:16"
+  },
+  {
+   "title": "So High",
+   "artist": "Doja Cat",
+   "videoId": "_tcAUcxb1ww",
+   "duration": "3:20"
+  },
+  {
+   "title": "No Police",
+   "artist": "Doja Cat",
+   "videoId": "vKkY5QTNVxk",
+   "duration": "4:01"
+  },
+  {
+   "title": "Control",
+   "artist": "Doja Cat",
+   "videoId": "VyJYapmt04s",
+   "duration": "3:41"
+  }
+ ],
+ "browseId": "MPREb_GvK7BHnn0qb",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

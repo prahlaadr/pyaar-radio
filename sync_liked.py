@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Sync masterlist.csv with YouTube Music library.
-Sources: liked songs, saved albums, and monthly playlists.
+Sources: liked songs and monthly playlists.
 Append-only: new songs get added, existing rows never modified.
 Deduplicates by Video ID.
 
@@ -63,7 +63,6 @@ def load_existing_video_ids() -> set[str]:
 
 
 def is_monthly_playlist(title: str) -> bool:
-    """Check if a playlist title matches the monthly playlist naming convention."""
     for pattern in MONTHLY_PATTERNS:
         if re.search(pattern, title, re.IGNORECASE):
             return True
@@ -71,7 +70,6 @@ def is_monthly_playlist(title: str) -> bool:
 
 
 def extract_tracks(raw_tracks: list[dict]) -> list[dict]:
-    """Extract clean track dicts from ytmusicapi track objects."""
     songs = []
     for track in raw_tracks:
         video_id = track.get("videoId", "")
@@ -99,7 +97,6 @@ def fetch_liked_songs(yt: YTMusic) -> list[dict]:
 
 
 def fetch_monthly_playlists(yt: YTMusic) -> list[dict]:
-    """Fetch tracks from all monthly playlists (e.g. 'Feb 26', 'Mirch 26')."""
     print("Fetching monthly playlists...")
     all_playlists = yt.get_library_playlists(limit=500)
     monthly = [p for p in all_playlists if is_monthly_playlist(p["title"])]
@@ -123,35 +120,6 @@ def fetch_monthly_playlists(yt: YTMusic) -> list[dict]:
     return all_tracks
 
 
-def fetch_saved_albums(yt: YTMusic) -> list[dict]:
-    """Fetch tracks from all saved/liked albums."""
-    print("Fetching saved albums...")
-    albums = yt.get_library_albums(limit=5000)
-    print(f"  Found {len(albums)} saved albums")
-
-    all_tracks = []
-    seen_ids = set()
-    for i, album in enumerate(albums, 1):
-        browse_id = album.get("browseId", "")
-        title = album.get("title", "Unknown")
-        if not browse_id:
-            continue
-        try:
-            detail = yt.get_album(browse_id)
-            tracks = extract_tracks(detail.get("tracks", []))
-            new = [t for t in tracks if t["videoId"] not in seen_ids]
-            for t in new:
-                seen_ids.add(t["videoId"])
-            all_tracks.extend(new)
-            if i % 50 == 0 or i == len(albums):
-                print(f"    [{i}/{len(albums)}] {title} — {len(tracks)} tracks")
-        except Exception as e:
-            print(f"    [{i}/{len(albums)}] {title}: ERROR — {e}")
-
-    print(f"  Total from saved albums: {len(all_tracks)}")
-    return all_tracks
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--yes", "-y", action="store_true")
@@ -160,7 +128,7 @@ def main():
     args = parser.parse_args()
 
     print("=" * 60)
-    print("MASTERLIST SYNC — LIKED + ALBUMS + MONTHLY (APPEND-ONLY)")
+    print("MASTERLIST SYNC — LIKED + MONTHLY (APPEND-ONLY)")
     print("=" * 60)
 
     print("\nLoading existing masterlist...")
@@ -170,20 +138,20 @@ def main():
     yt = get_ytmusic()
     print("Connected!\n")
 
-    # Fetch all three sources
+    # Fetch both sources
     liked = fetch_liked_songs(yt)
     monthly = fetch_monthly_playlists(yt)
-    albums = fetch_saved_albums(yt)
 
-    # Merge all sources, dedup by Video ID
+    # Merge, dedup by Video ID
     all_songs = {}
-    for song in liked + monthly + albums:
+    for song in liked + monthly:
         vid = song["videoId"]
         if vid not in all_songs:
             all_songs[vid] = song
 
     # Filter to only new songs not in masterlist
     new_songs = {vid: s for vid, s in all_songs.items() if vid not in existing_ids}
+    liked_ids = {s["videoId"] for s in liked}
     new_rows = []
     for song in new_songs.values():
         row = {col: "" for col in COLUMNS}
@@ -191,7 +159,7 @@ def main():
         row["Artist Name(s)"] = song["artist"]
         row["Album Name"] = song["album"]
         row["Video ID"] = song["videoId"]
-        row["Liked"] = "Yes" if song["videoId"] in {s["videoId"] for s in liked} else ""
+        row["Liked"] = "Yes" if song["videoId"] in liked_ids else ""
         row["Source"] = "YT Music"
         new_rows.append(row)
 
@@ -201,7 +169,6 @@ def main():
     print(f"Existing songs in masterlist: {len(existing_ids)}")
     print(f"Liked songs:                  {len(liked)}")
     print(f"Monthly playlist songs:       {len(monthly)}")
-    print(f"Saved album songs:            {len(albums)}")
     print(f"Combined unique:              {len(all_songs)}")
     print(f"New songs to append:          {len(new_rows)}")
 

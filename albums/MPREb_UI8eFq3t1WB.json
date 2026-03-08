@@ -1,0 +1,58 @@
+{
+ "title": "Bread",
+ "artist": "The Alchemist",
+ "year": "2018",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Ray Mysterio (feat. Westside Gunn & Conway)",
+   "artist": "The Alchemist",
+   "videoId": "o9dXVzM0W1c",
+   "duration": "3:44"
+  },
+  {
+   "title": "Roman Candles (feat. Roc Marciano & Black Thought)",
+   "artist": "The Alchemist",
+   "videoId": "90fPEwjlEoU",
+   "duration": "2:56"
+  },
+  {
+   "title": "Mac 10 Wounds (feat. Conway)",
+   "artist": "The Alchemist",
+   "videoId": "pV2NTIbTw2Y",
+   "duration": "3:54"
+  },
+  {
+   "title": "E. Coli (feat. Earl Sweatshirt)",
+   "artist": "The Alchemist",
+   "videoId": "3wbFjrbU1t4",
+   "duration": "2:13"
+  },
+  {
+   "title": "Ray Mysterio (Instrumental)",
+   "artist": "The Alchemist",
+   "videoId": "mNzgMKz4vQ4",
+   "duration": "3:44"
+  },
+  {
+   "title": "Roman Candles (Instrumental)",
+   "artist": "The Alchemist",
+   "videoId": "q693350K3mI",
+   "duration": "2:56"
+  },
+  {
+   "title": "Mac 10 Wounds (Instrumental)",
+   "artist": "The Alchemist",
+   "videoId": "YDNv8YfpLfM",
+   "duration": "3:54"
+  },
+  {
+   "title": "E. Coli (Instrumental)",
+   "artist": "The Alchemist",
+   "videoId": "CqBmVPI7ce8",
+   "duration": "2:13"
+  }
+ ],
+ "browseId": "MPREb_UI8eFq3t1WB",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

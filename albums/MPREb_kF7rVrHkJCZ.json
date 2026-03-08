@@ -1,0 +1,34 @@
+{
+ "title": "Snakes & Spiders",
+ "artist": "Safari Williams",
+ "year": "2020",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Snakes",
+   "artist": "Safari Williams",
+   "videoId": "CHooGhdKH2c",
+   "duration": "1:44"
+  },
+  {
+   "title": "Spiders",
+   "artist": "Safari Williams",
+   "videoId": "s0mEee6BYK8",
+   "duration": "1:56"
+  },
+  {
+   "title": "THE Float",
+   "artist": "Safari Williams",
+   "videoId": "V8zKc9t49tc",
+   "duration": "1:36"
+  },
+  {
+   "title": "Theme 2",
+   "artist": "Safari Williams",
+   "videoId": "mQHZjC6dwr4",
+   "duration": "2:11"
+  }
+ ],
+ "browseId": "MPREb_kF7rVrHkJCZ",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

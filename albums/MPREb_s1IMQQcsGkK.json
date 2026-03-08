@@ -1,0 +1,40 @@
+{
+ "title": "Bollywood Super Hits!",
+ "artist": "Anish Kumar",
+ "year": "2022",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Asha",
+   "artist": "Anish Kumar",
+   "videoId": "wEUq27Gg5F4",
+   "duration": "3:51"
+  },
+  {
+   "title": "Sadhana",
+   "artist": "Anish Kumar",
+   "videoId": "v6Rw1EyIIYs",
+   "duration": "2:54"
+  },
+  {
+   "title": "Nazia",
+   "artist": "Anish Kumar",
+   "videoId": "kaNdTiY_T0o",
+   "duration": "4:51"
+  },
+  {
+   "title": "Ananda",
+   "artist": "Anish Kumar",
+   "videoId": "jw6bk7sxgo0",
+   "duration": "3:35"
+  },
+  {
+   "title": "Lata",
+   "artist": "Anish Kumar",
+   "videoId": "tJjX3LCDb1U",
+   "duration": "3:54"
+  }
+ ],
+ "browseId": "MPREb_s1IMQQcsGkK",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

@@ -1,0 +1,52 @@
+{
+ "title": "Project X",
+ "artist": "Xavier Wulf",
+ "year": "2015",
+ "trackCount": 7,
+ "tracks": [
+  {
+   "title": "Akina Speed Star",
+   "artist": "Xavier Wulf",
+   "videoId": "kAwqjuKZt6Y",
+   "duration": "2:31"
+  },
+  {
+   "title": "Wulf Takahashi",
+   "artist": "Xavier Wulf",
+   "videoId": "OdSycxbY15c",
+   "duration": "2:32"
+  },
+  {
+   "title": "1st Summer Night",
+   "artist": "Xavier Wulf",
+   "videoId": "c9nkgrkJdDY",
+   "duration": "2:56"
+  },
+  {
+   "title": "Wulf of Akina",
+   "artist": "Xavier Wulf",
+   "videoId": "AVjnLvDQaK4",
+   "duration": "3:10"
+  },
+  {
+   "title": "Date Night",
+   "artist": "Xavier Wulf",
+   "videoId": "5nrgldTY4SE",
+   "duration": "2:50"
+  },
+  {
+   "title": "The Cost",
+   "artist": "Xavier Wulf",
+   "videoId": "ANaT20TVRNc",
+   "duration": "2:26"
+  },
+  {
+   "title": "Pedals to the Metal (Road Heart)",
+   "artist": "Xavier Wulf",
+   "videoId": "vwz9C5ZZdj8",
+   "duration": "2:50"
+  }
+ ],
+ "browseId": "MPREb_N9FcP3SEdHY",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

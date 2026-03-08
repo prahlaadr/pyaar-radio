@@ -1,0 +1,40 @@
+{
+ "title": "Mahal",
+ "artist": "Glass Beams",
+ "year": "2024",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Horizon",
+   "artist": "Glass Beams",
+   "videoId": "vzro-uV8Fl4",
+   "duration": "0:43"
+  },
+  {
+   "title": "Mahal",
+   "artist": "Glass Beams",
+   "videoId": "0kzzdmyiND0",
+   "duration": "3:22"
+  },
+  {
+   "title": "Orb",
+   "artist": "Glass Beams",
+   "videoId": "-476mGZVl8I",
+   "duration": "4:54"
+  },
+  {
+   "title": "Snake Oil",
+   "artist": "Glass Beams",
+   "videoId": "qcraR6poCHk",
+   "duration": "4:56"
+  },
+  {
+   "title": "Black Sand",
+   "artist": "Glass Beams",
+   "videoId": "v_mpRUw_JDk",
+   "duration": "4:39"
+  }
+ ],
+ "browseId": "MPREb_gnhoBS7WsdO",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}

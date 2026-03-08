@@ -1,0 +1,82 @@
+{
+ "title": "Rap Album Two",
+ "artist": "Jonwayne",
+ "year": "2017",
+ "trackCount": 12,
+ "tracks": [
+  {
+   "title": "TED Talk",
+   "artist": "Jonwayne",
+   "videoId": "IDyeGMrbogE",
+   "duration": "3:48"
+  },
+  {
+   "title": "LIVE from the Fuck You",
+   "artist": "Jonwayne",
+   "videoId": "EgzdFxgkZDk",
+   "duration": "2:55"
+  },
+  {
+   "title": "Human Condition",
+   "artist": "Jonwayne",
+   "videoId": "kqIiimekLLQ",
+   "duration": "3:22"
+  },
+  {
+   "title": "Out of Sight",
+   "artist": "Jonwayne",
+   "videoId": "vMucoAUuRC4",
+   "duration": "4:28"
+  },
+  {
+   "title": "The Single",
+   "artist": "Jonwayne",
+   "videoId": "DavFuZ0_-iU",
+   "duration": "1:40"
+  },
+  {
+   "title": "Paper (feat. Shango)",
+   "artist": "Jonwayne",
+   "videoId": "ioJChJnABkc",
+   "duration": "3:23"
+  },
+  {
+   "title": "City Lights",
+   "artist": "Jonwayne",
+   "videoId": "iU3MJb2LXd4",
+   "duration": "3:54"
+  },
+  {
+   "title": "Rainbow (feat. Danny Watts)",
+   "artist": "Jonwayne",
+   "videoId": "1DbfYj24dFI",
+   "duration": "3:09"
+  },
+  {
+   "title": "Afraid of Us (feat. Zeroh)",
+   "artist": "Jonwayne",
+   "videoId": "RgEiuBYUoBY",
+   "duration": "7:25"
+  },
+  {
+   "title": "Blue Green (feat. Low Leaf)",
+   "artist": "Jonwayne",
+   "videoId": "1Qn24Q7OT0Y",
+   "duration": "3:44"
+  },
+  {
+   "title": "Hills (feat. Zeroh)",
+   "artist": "Jonwayne",
+   "videoId": "IoHOobNKkI0",
+   "duration": "1:49"
+  },
+  {
+   "title": "These Words Are Everything",
+   "artist": "Jonwayne",
+   "videoId": "TFWQNYCqt5o",
+   "duration": "5:12"
+  }
+ ],
+ "browseId": "MPREb_N18IGsWCF5k",
+ "syncedAt": "2026-03-08T08:53:48.318363Z"
+}
