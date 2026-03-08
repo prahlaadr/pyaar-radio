@@ -36,6 +36,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# auth
+browser.json
+backups/
+
 # planning files (deep-plan artifacts)
 claude-*.md
 deep_plan_config.json

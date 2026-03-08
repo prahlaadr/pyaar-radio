@@ -1,0 +1,62 @@
+name: Sync YouTube Music
+
+on:
+  schedule:
+    - cron: '0 8 * * *'    # Daily at 3 AM EST (UTC-5)
+  workflow_dispatch:
+    inputs:
+      sync_playlists:
+        description: 'Also sync playlists'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install "ytmusicapi>=1.9.0"
+
+      - name: Write browser auth
+        run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Sync liked songs
+        run: python sync_liked.py --yes --no-push
+
+      - name: Sync playlists (Sundays or manual)
+        if: github.event_name == 'workflow_dispatch' && inputs.sync_playlists || github.event.schedule && contains('0', github.event.schedule) && (github.run_number % 7 == 0)
+        run: python sync_playlists.py
+        continue-on-error: true
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add public/data/masterlist.csv
+          if [ -d playlists ]; then git add playlists/; fi
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "sync: update from YouTube Music ($(date +%Y-%m-%d))"
+          git push
+
+      - name: Cleanup
+        if: always()
+        run: rm -f browser.json
