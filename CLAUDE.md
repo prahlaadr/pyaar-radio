@@ -4,6 +4,139 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 
 **Live:** [pyaar-radio.vercel.app](https://pyaar-radio.vercel.app) | **Branch:** `main` | **Vercel:** auto-deploys on push
 
+## Architecture Overview
+
+```
+YouTube Music (Pyaar Radio account, @PyaarRadio)
+  │
+  ├─ Liked Music (9,370+ songs)
+  │     │
+  │     ▼
+  │   sync_liked.py ──▶ public/data/masterlist.csv (append-only, dedup by Video ID)
+  │     │
+  │     ├─ Runs daily at 3 AM EST via GitHub Actions
+  │     └─ Also runs locally via macOS LaunchAgent (backup)
+  │
+  └─ 125 Playlists
+        │
+        ▼
+      sync_playlists.py ──▶ playlists/*.json (full snapshot, separate from masterlist)
+        │
+        └─ Manual trigger via GitHub Actions (workflow_dispatch)
+
+masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
+               ◀── hydrate_spotify.py (genres/popularity/dates)
+               ◀── manual edits (Tags, SoundCloud IDs)
+
+artists.csv ── manually curated (273 artists, gatekeeper for imports)
+```
+
+### Key Separation
+
+- **masterlist.csv** = only Liked Music songs. This is the app's data source.
+- **playlists/*.json** = all other YT Music playlists. For analytics/search only. Never written to the masterlist.
+- **artists.csv** = curated artist list. Gatekeeper for any imports from external sources.
+
+## YouTube Music Sync
+
+### How it works
+
+Both sync scripts use **ytmusicapi** with **browser cookie authentication** (not OAuth — Google killed OAuth for YT Music's InnerTube API in late 2024).
+
+The browser cookies are extracted from a Chrome incognito session signed into the **Pyaar Radio** brand account (not the personal `@prah1aadr` account). Cookies last ~2 years.
+
+### Auth files
+
+| File | Location | Purpose |
+|------|----------|---------|
+| `browser.json` | repo root (gitignored) | Browser cookies for local runs |
+| `YTMUSIC_BROWSER_AUTH` | GitHub Secret | Same cookies for CI runs |
+
+### Refreshing auth (when cookies expire)
+
+1. Open **incognito** Chrome window
+2. Go to `music.youtube.com`, sign in
+3. **Switch to Pyaar Radio account** (profile icon → Switch account)
+4. Open DevTools → Network tab → click around → filter by `browse`
+5. Right-click a POST request → Copy → Copy as cURL (bash)
+6. Run:
+```bash
+cd ~/Documents/Projects/03-music-audio/pyaar-crate
+.venv/bin/python setup_browser_auth.py --from-file <(pbpaste)
+```
+7. Copy to pyaar-radio: `cp browser.json ~/Documents/Projects/01-web-apps/pyaar-radio/`
+8. Update GitHub Secret: `cat browser.json | gh secret set YTMUSIC_BROWSER_AUTH --repo prahlaadr/pyaar-radio`
+
+### sync_liked.py (daily, automated)
+
+Fetches all liked songs from YT Music and appends new ones to `masterlist.csv`.
+
+- **Append-only**: existing rows are never modified or deleted
+- **Deduplicates by Video ID**: same song won't be added twice
+- **Backs up** before every write to `backups/`
+
+```bash
+python sync_liked.py --yes          # Auto-confirm + push
+python sync_liked.py --dry          # Preview only
+python sync_liked.py --yes --no-push # Sync without git push (CI mode)
+```
+
+### sync_playlists.py (manual trigger)
+
+Fetches all 125+ playlists and saves each as a JSON file.
+
+```bash
+python sync_playlists.py       # Sync all playlists
+python sync_playlists.py --dry # Preview only
+```
+
+Output structure:
+```
+playlists/
+  _index.json              # Metadata: playlist names, track counts, sync time
+  PL6LTKg9AoNs2lITk....json  # Each playlist's full track list
+  PL6LTKg9AoNs2YPrW....json
+  ...
+```
+
+Each playlist JSON contains:
+```json
+{
+  "playlistId": "PL6LTKg9...",
+  "title": "shroomy (goated)",
+  "trackCount": 496,
+  "syncedAt": "2026-03-08T...",
+  "tracks": [
+    {"title": "...", "artist": "...", "album": "...", "videoId": "...", "duration": "..."},
+    ...
+  ]
+}
+```
+
+### GitHub Actions
+
+**Workflow:** `.github/workflows/sync-masterlist.yml`
+
+| Trigger | What runs |
+|---------|-----------|
+| Daily cron (3 AM EST) | Liked songs sync only |
+| Manual dispatch (`sync_playlists=false`) | Liked songs sync only |
+| Manual dispatch (`sync_playlists=true`) | Liked songs + all playlists |
+
+The Action installs Python + ytmusicapi, writes `browser.json` from the GitHub Secret, runs the sync, commits and pushes if there are changes, then deletes `browser.json`.
+
+### Local backup (macOS LaunchAgent)
+
+A LaunchAgent at `~/Library/LaunchAgents/com.masterlist-sync.daily.plist` also runs the sync at 3 AM when the laptop is on. Source plist lives in `~/Documents/Projects/03-music-audio/pyaar-crate/`. Uses the pyaar-crate venv and its own copy of `sync_masterlist.py` + `browser.json`.
+
+Both local and GitHub Action can run safely — append-only + Video ID dedup means no conflicts.
+
+### History of sync approaches (for context)
+
+1. **ytmusicapi + OAuth** (Jan–Feb 2026): Broke when Google blocked OAuth for InnerTube API. Every run returned 0 songs.
+2. **Playwright browser automation** (Feb–Mar 2026): Worked but only captured ~1,400 of 9,370 songs due to DOM virtualization during scrolling.
+3. **ytmusicapi + browser cookies** (Mar 2026, current): Fetches all 9,370 songs reliably via direct API calls. No browser needed.
+
 ## Quick Reference — What to Do When User Says...
 
 | Request | What to do |
@@ -13,11 +146,13 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 | "Change vibes for X" | Edit the `vibes` column in `artists.csv` (pipe-separated) |
 | "Tag tracks" | Edit the `Tags` column in `masterlist.csv` (pipe-separated) |
 | "Add BPM/key" | Edit `Tempo` and `Key` columns in `masterlist.csv` |
-| "Sync from YT Music" | Run `.venv/bin/python3.13 sync_masterlist.py --yes` in `~/Documents/Projects/03-music-audio/pyaar-crate/` |
+| "Sync from YT Music" | Run `python sync_liked.py --yes` in pyaar-radio, or trigger the GitHub Action |
+| "Sync playlists" | Run `python sync_playlists.py` or trigger Action with `sync_playlists=true` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-crate (see below) |
 | "Deploy" | Just push to `main` — Vercel auto-deploys |
 | "Here's an export" / CSV of songs | **Only add tracks whose artist is already in `artists.csv`**. Match artist names (+ aliases) against the export. Ignore everything else. Set `Source` to the platform (SoundCloud, Tamil, etc.) |
 | "Add this artist and their songs" | First add to `artists.csv`, then pull matching tracks from any provided export into `masterlist.csv` |
+| "Auth expired" / "Sync returning 0" | Follow the "Refreshing auth" steps above |
 
 ### Import Rule
 
@@ -32,7 +167,7 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 
 All in `public/data/`:
 
-### masterlist.csv (41K+ tracks)
+### masterlist.csv (20K+ tracks)
 Auto-synced from YT Music daily at 3AM. **Safe-to-edit columns:**
 
 | Column | Format | Notes |
@@ -71,15 +206,15 @@ Edited directly. Columns:
 
 ## Crate Scripts (for hydration/sync)
 
-Located in `~/Documents/Projects/03-music-audio/pyaar-crate/`. Use Python 3.13 from the venv:
+Located in `~/Documents/Projects/03-music-audio/pyaar-crate/`:
 
 ```bash
 cd ~/Documents/Projects/03-music-audio/pyaar-crate
-.venv/bin/python3.13 sync_masterlist.py --yes      # Full sync + auto-push to deck
-.venv/bin/python3.13 sync_masterlist.py --no-push   # Sync without pushing
-.venv/bin/python3.13 sync_masterlist.py --dry        # Preview only
-.venv/bin/python3.13 hydrate_bpm.py --vault-only     # BPM+Key for curated artists
-.venv/bin/python3.13 hydrate_spotify.py              # Genres/popularity/dates
+.venv/bin/python sync_masterlist.py --yes      # Full sync + auto-push to deck
+.venv/bin/python sync_masterlist.py --no-push   # Sync without pushing
+.venv/bin/python sync_masterlist.py --dry        # Preview only
+.venv/bin/python hydrate_bpm.py --vault-only     # BPM+Key for curated artists
+.venv/bin/python hydrate_spotify.py              # Genres/popularity/dates
 ```
 
 After hydration, `sync_masterlist.py --yes` will push the updated masterlist to this repo automatically.
