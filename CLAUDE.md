@@ -22,9 +22,9 @@ YouTube Music (Pyaar Radio account, @PyaarRadio)
   └─ 244 Playlists (all playlists, including non-monthly ones)
         │
         ▼
-      sync_playlists.py ──▶ playlists/*.json (full snapshot, separate from masterlist)
+      sync_playlists.py ──▶ playlists/*.json (incremental snapshot, separate from masterlist)
         │
-        └─ Manual trigger via GitHub Actions (workflow_dispatch)
+        └─ Runs daily alongside masterlist sync via GitHub Actions
 
 masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_spotify.py (genres/popularity/dates)
@@ -97,13 +97,14 @@ python sync_liked.py --dry          # Preview only
 python sync_liked.py --yes --no-push # Sync without git push (CI mode)
 ```
 
-### sync_playlists.py (manual trigger)
+### sync_playlists.py (daily, automated)
 
-Fetches all 244 playlists and saves each as a JSON file.
+Fetches all 244 playlists and saves each as a JSON file. Incremental — only re-fetches playlists whose track count changed.
 
 ```bash
-python sync_playlists.py       # Sync all playlists
-python sync_playlists.py --dry # Preview only
+python sync_playlists.py        # Incremental sync
+python sync_playlists.py --full # Force re-fetch all playlists
+python sync_playlists.py --dry  # Preview only
 ```
 
 Output structure:
