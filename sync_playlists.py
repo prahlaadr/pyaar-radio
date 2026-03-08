@@ -2,6 +2,7 @@
 """
 Sync all YouTube Music playlists to local JSON files for analytics.
 Saves each playlist's tracks separately from the masterlist.
+Incremental: only re-fetches playlists whose track count changed.
 
 Output:
   playlists/
@@ -9,14 +10,15 @@ Output:
     <playlist_id>.json   # Tracks for each playlist
 
 Usage:
-    python sync_playlists.py         # Sync all playlists
+    python sync_playlists.py         # Sync all playlists (incremental)
+    python sync_playlists.py --full  # Force re-fetch all playlists
     python sync_playlists.py --dry   # Dry run
 """
 
 import argparse
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, UTC
 from pathlib import Path
 
 from ytmusicapi import YTMusic
@@ -31,6 +33,19 @@ def get_ytmusic() -> YTMusic:
         print("ERROR: No browser.json found.")
         sys.exit(1)
     return YTMusic(str(BROWSER_AUTH_PATH))
+
+
+def load_existing_index() -> dict[str, int]:
+    """Load existing _index.json and return {playlistId: trackCount} map."""
+    index_path = PLAYLISTS_DIR / "_index.json"
+    if not index_path.exists():
+        return {}
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return {p["playlistId"]: p["trackCount"] for p in data.get("playlists", [])}
+    except (json.JSONDecodeError, KeyError):
+        return {}
 
 
 def fetch_playlist_tracks(yt: YTMusic, playlist_id: str) -> list[dict]:
@@ -63,6 +78,7 @@ def fetch_playlist_tracks(yt: YTMusic, playlist_id: str) -> list[dict]:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry", "-d", action="store_true")
+    parser.add_argument("--full", "-f", action="store_true", help="Force re-fetch all playlists")
     args = parser.parse_args()
 
     print("=" * 60)
@@ -87,24 +103,50 @@ def main():
 
     PLAYLISTS_DIR.mkdir(exist_ok=True)
 
+    # Load existing index for incremental sync
+    existing_counts = load_existing_index() if not args.full else {}
+    now = datetime.now(UTC).isoformat().replace("+00:00", "Z")
+
     index = []
     total_tracks = 0
+    fetched = 0
+    skipped = 0
 
     for i, p in enumerate(playlists, 1):
         pid = p["playlistId"]
         title = p["title"]
-        count = p.get("count", "?")
-        print(f"  [{i}/{len(playlists)}] {title} ({count} songs)...", end=" ", flush=True)
+        count = p.get("count", None)
+
+        # Incremental: skip if track count unchanged and file exists
+        if (
+            not args.full
+            and pid in existing_counts
+            and count is not None
+            and existing_counts[pid] == count
+            and (PLAYLISTS_DIR / f"{pid}.json").exists()
+        ):
+            # Use existing data
+            index.append({
+                "playlistId": pid,
+                "title": title,
+                "trackCount": count,
+            })
+            total_tracks += count
+            skipped += 1
+            continue
+
+        print(f"  [{i}/{len(playlists)}] {title} ({count or '?'} songs)...", end=" ", flush=True)
 
         tracks = fetch_playlist_tracks(yt, pid)
         total_tracks += len(tracks)
+        fetched += 1
         print(f"got {len(tracks)}")
 
         playlist_data = {
             "playlistId": pid,
             "title": title,
             "trackCount": len(tracks),
-            "syncedAt": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
+            "syncedAt": now,
             "tracks": tracks,
         }
         with open(PLAYLISTS_DIR / f"{pid}.json", "w", encoding="utf-8") as f:
@@ -120,7 +162,7 @@ def main():
         "account": account.get("accountName", ""),
         "playlistCount": len(index),
         "totalTracks": total_tracks,
-        "syncedAt": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
+        "syncedAt": now,
         "playlists": index,
     }
     with open(PLAYLISTS_DIR / "_index.json", "w", encoding="utf-8") as f:
@@ -129,9 +171,11 @@ def main():
     print(f"\n{'=' * 60}")
     print("SUMMARY")
     print("=" * 60)
-    print(f"Playlists synced: {len(index)}")
-    print(f"Total tracks:     {total_tracks}")
-    print(f"Saved to:         {PLAYLISTS_DIR}/")
+    print(f"Playlists total:    {len(index)}")
+    print(f"Fetched (changed):  {fetched}")
+    print(f"Skipped (unchanged):{skipped}")
+    print(f"Total tracks:       {total_tracks}")
+    print(f"Saved to:           {PLAYLISTS_DIR}/")
     print("\nPlaylist sync complete!")
 
 

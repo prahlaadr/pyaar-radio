@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   sync:
@@ -20,17 +21,29 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install "ytmusicapi>=1.9.0"
+        run: pip install -r requirements.txt
 
       - name: Write browser auth
         run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Verify auth
+        id: auth
+        run: |
+          python -c "
+          from ytmusicapi import YTMusic
+          yt = YTMusic('browser.json')
+          info = yt.get_account_info()
+          name = info.get('accountName', '')
+          print(f'Authenticated as: {name}')
+          if not name:
+              raise SystemExit('Auth failed: no account name returned')
+          "
 
       - name: Sync masterlist (liked + albums + monthly playlists)
         run: python sync_liked.py --yes --no-push
 
       - name: Sync all playlists to JSON
         run: python sync_playlists.py
-        continue-on-error: true
 
       - name: Check for changes
         id: changes
@@ -54,3 +67,20 @@ jobs:
       - name: Cleanup
         if: always()
         run: rm -f browser.json
+
+      - name: Alert on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --title "Sync failed on $(date +%Y-%m-%d)" \
+            --body "The daily YouTube Music sync failed. Check the [workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).
+
+          **Possible causes:**
+          - Browser cookies expired (last ~2 years). See CLAUDE.md for refresh steps.
+          - YouTube Music API changed.
+          - Rate limiting.
+
+          This issue was auto-created by the sync workflow." \
+            --label "sync-failure"
+        env:
+          GH_TOKEN: ${{ github.token }}

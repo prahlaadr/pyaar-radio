@@ -139,11 +139,18 @@ Each playlist JSON contains:
 | Daily cron (3 AM EST) | Masterlist sync + all playlists to JSON |
 | Manual dispatch | Same as above |
 
-The Action installs Python + ytmusicapi, writes `browser.json` from the GitHub Secret, runs the sync, commits and pushes if there are changes, then deletes `browser.json`.
+The Action:
+1. Verifies auth before syncing (catches expired cookies early)
+2. Runs masterlist sync (liked + albums + monthly playlists)
+3. Runs playlist sync (incremental — only re-fetches playlists whose track count changed)
+4. Commits and pushes if there are changes
+5. On failure: auto-creates a GitHub Issue labeled `sync-failure` with a link to the failed run
 
 ### Local backup (macOS LaunchAgent)
 
-A LaunchAgent at `~/Library/LaunchAgents/com.masterlist-sync.daily.plist` also runs the sync at 3 AM when the laptop is on. Source plist lives in `~/Documents/Projects/03-music-audio/pyaar-crate/`. Uses the pyaar-crate venv and its own copy of `sync_masterlist.py` + `browser.json`.
+A LaunchAgent at `~/Library/LaunchAgents/com.pyaar-crate.daily.plist` runs both `sync_masterlist.py` and `sync_playlists.py` at 3 AM when the laptop is on. Source plist lives in `~/Documents/Projects/03-music-audio/pyaar-crate/`. Uses the pyaar-crate venv and its own `browser.json`.
+
+The crate's `sync_masterlist.py` mirrors pyaar-radio's `sync_liked.py` (same 3-source approach) but additionally auto-pushes changes to the pyaar-radio GitHub repo.
 
 Both local and GitHub Action can run safely — append-only + Video ID dedup means no conflicts.
 
