@@ -17,8 +17,7 @@ YouTube Music (Pyaar Radio account, @PyaarRadio)
   │   sync_liked.py ──▶ public/data/masterlist.csv (append-only, dedup by Video ID)
   │     │                  Combines all three sources into one masterlist
   │     │
-  │     ├─ Runs daily at 3 AM EST via GitHub Actions
-  │     └─ Also runs locally via macOS LaunchAgent (backup)
+  │     └─ Runs daily at 3 AM EST via GitHub Actions
   │
   └─ 244 Playlists (all playlists, including non-monthly ones)
         │
@@ -146,13 +145,9 @@ The Action:
 4. Commits and pushes if there are changes
 5. On failure: auto-creates a GitHub Issue labeled `sync-failure` with a link to the failed run
 
-### Local backup (macOS LaunchAgent)
+### Local runs (pyaar-crate)
 
-A LaunchAgent at `~/Library/LaunchAgents/com.pyaar-crate.daily.plist` runs both `sync_masterlist.py` and `sync_playlists.py` at 3 AM when the laptop is on. Source plist lives in `~/Documents/Projects/03-music-audio/pyaar-crate/`. Uses the pyaar-crate venv and its own `browser.json`.
-
-The crate's `sync_masterlist.py` mirrors pyaar-radio's `sync_liked.py` (same 3-source approach) but additionally auto-pushes changes to the pyaar-radio GitHub repo.
-
-Both local and GitHub Action can run safely — append-only + Video ID dedup means no conflicts.
+The pyaar-crate repo at `~/Documents/Projects/03-music-audio/pyaar-crate/` has a mirrored `sync_masterlist.py` (same 3-source approach) plus hydration scripts. It can be run manually but is not needed for daily sync — GitHub Actions handles that.
 
 ### History of sync approaches (for context)
 
