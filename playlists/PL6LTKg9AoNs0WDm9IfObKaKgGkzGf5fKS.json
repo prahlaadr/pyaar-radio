@@ -1,0 +1,43 @@
+{
+ "playlistId": "PL6LTKg9AoNs0WDm9IfObKaKgGkzGf5fKS",
+ "title": "latin house",
+ "trackCount": 5,
+ "syncedAt": "2026-03-08T08:13:21.090474Z",
+ "tracks": [
+  {
+   "title": "La Cumbiambera",
+   "artist": "Kryder;Cato Anaya",
+   "album": "La Cumbiambera",
+   "videoId": "SxATcZo_2G0",
+   "duration": "2:46"
+  },
+  {
+   "title": "Rumba",
+   "artist": "Faruk Sabanci",
+   "album": "Rumba",
+   "videoId": "Hwf3t46qZ5E",
+   "duration": "2:49"
+  },
+  {
+   "title": "Café Leche (Extended Mix)",
+   "artist": "WILL K",
+   "album": "Café Leche",
+   "videoId": "sbV0n3ny7ec",
+   "duration": "5:02"
+  },
+  {
+   "title": "Totem",
+   "artist": "Tom Staar;Ansolo",
+   "album": "Totem",
+   "videoId": "MyxoXQOECgM",
+   "duration": "5:22"
+  },
+  {
+   "title": "Sound Of Africa",
+   "artist": "Divolly & Markward",
+   "album": "Sound Of Africa",
+   "videoId": "YkTwx5XP70Y",
+   "duration": "3:01"
+  }
+ ]
+}

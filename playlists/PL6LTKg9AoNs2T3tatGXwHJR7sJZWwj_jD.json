@@ -1,0 +1,29 @@
+{
+ "playlistId": "PL6LTKg9AoNs2T3tatGXwHJR7sJZWwj_jD",
+ "title": "rocky rap",
+ "trackCount": 3,
+ "syncedAt": "2026-03-08T08:14:08.215082Z",
+ "tracks": [
+  {
+   "title": "Tell Me What I Don't Know",
+   "artist": "Danny Brown",
+   "album": "Atrocity Exhibition",
+   "videoId": "q8wJqMbr6eY",
+   "duration": "2:32"
+  },
+  {
+   "title": "1995",
+   "artist": "Freddie Gibbs;The Alchemist",
+   "album": "1995",
+   "videoId": "CvQY0J4UAPc",
+   "duration": "4:50"
+  },
+  {
+   "title": "Never Catch Me",
+   "artist": "Travis Scott",
+   "album": "Rodeo",
+   "videoId": "EgPRheesCnY",
+   "duration": "2:57"
+  }
+ ]
+}

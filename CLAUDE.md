@@ -10,14 +10,17 @@ DJ music library and setlist tool. **GitHub is the source of truth** — no Obsi
 YouTube Music (Pyaar Radio account, @PyaarRadio)
   │
   ├─ Liked Music (9,370+ songs)
+  ├─ Saved Albums (500+ albums)
+  ├─ Monthly Playlists (53 playlists, e.g. "Feb 26", "Mirch 26", "Jooli '25")
   │     │
   │     ▼
   │   sync_liked.py ──▶ public/data/masterlist.csv (append-only, dedup by Video ID)
+  │     │                  Combines all three sources into one masterlist
   │     │
   │     ├─ Runs daily at 3 AM EST via GitHub Actions
   │     └─ Also runs locally via macOS LaunchAgent (backup)
   │
-  └─ 125 Playlists
+  └─ 244 Playlists (all playlists, including non-monthly ones)
         │
         ▼
       sync_playlists.py ──▶ playlists/*.json (full snapshot, separate from masterlist)
@@ -33,9 +36,22 @@ artists.csv ── manually curated (273 artists, gatekeeper for imports)
 
 ### Key Separation
 
-- **masterlist.csv** = only Liked Music songs. This is the app's data source.
-- **playlists/*.json** = all other YT Music playlists. For analytics/search only. Never written to the masterlist.
+- **masterlist.csv** = Liked songs + Saved albums + Monthly playlists. This is the app's data source.
+- **playlists/*.json** = ALL YT Music playlists (for analytics/search). Synced separately, never written to the masterlist.
 - **artists.csv** = curated artist list. Gatekeeper for any imports from external sources.
+
+### What goes in the masterlist
+
+The masterlist is composed of three YT Music sources, merged and deduped by Video ID:
+1. **Liked songs** — everything in the "Liked Music" library
+2. **Saved albums** — all albums saved/liked in the library
+3. **Monthly playlists** — personal playlists named by month+year (e.g. "Feb 26", "Mirch 26", "Jooli '25", "Dec 25")
+
+Monthly playlists are identified by regex patterns that match both standard month abbreviations and creative spellings (Mirch, Febyouary, Jooli, etc.).
+
+### What does NOT go in the masterlist
+
+All other playlists (e.g. "shroomy (goated)", "Four Tet's Crate", genre playlists) live only in `playlists/*.json`. They are never merged into the masterlist.
 
 ## YouTube Music Sync
 
@@ -69,10 +85,11 @@ cd ~/Documents/Projects/03-music-audio/pyaar-crate
 
 ### sync_liked.py (daily, automated)
 
-Fetches all liked songs from YT Music and appends new ones to `masterlist.csv`.
+Fetches liked songs, saved albums, and monthly playlists from YT Music and appends new ones to `masterlist.csv`.
 
+- **Three sources**: liked songs + saved albums + monthly playlists (identified by regex)
 - **Append-only**: existing rows are never modified or deleted
-- **Deduplicates by Video ID**: same song won't be added twice
+- **Deduplicates by Video ID**: same song won't be added twice across any source
 - **Backs up** before every write to `backups/`
 
 ```bash
@@ -83,7 +100,7 @@ python sync_liked.py --yes --no-push # Sync without git push (CI mode)
 
 ### sync_playlists.py (manual trigger)
 
-Fetches all 125+ playlists and saves each as a JSON file.
+Fetches all 244 playlists and saves each as a JSON file.
 
 ```bash
 python sync_playlists.py       # Sync all playlists
@@ -119,9 +136,8 @@ Each playlist JSON contains:
 
 | Trigger | What runs |
 |---------|-----------|
-| Daily cron (3 AM EST) | Liked songs sync only |
-| Manual dispatch (`sync_playlists=false`) | Liked songs sync only |
-| Manual dispatch (`sync_playlists=true`) | Liked songs + all playlists |
+| Daily cron (3 AM EST) | Masterlist sync + all playlists to JSON |
+| Manual dispatch | Same as above |
 
 The Action installs Python + ytmusicapi, writes `browser.json` from the GitHub Secret, runs the sync, commits and pushes if there are changes, then deletes `browser.json`.
 
@@ -167,8 +183,8 @@ Both local and GitHub Action can run safely — append-only + Video ID dedup mea
 
 All in `public/data/`:
 
-### masterlist.csv (20K+ tracks)
-Auto-synced from YT Music daily at 3AM. **Safe-to-edit columns:**
+### masterlist.csv (29K+ tracks)
+Auto-synced from YT Music daily at 3AM (liked songs + saved albums + monthly playlists). **Safe-to-edit columns:**
 
 | Column | Format | Notes |
 |--------|--------|-------|

@@ -104,7 +104,7 @@ def main():
             "playlistId": pid,
             "title": title,
             "trackCount": len(tracks),
-            "syncedAt": datetime.utcnow().isoformat() + "Z",
+            "syncedAt": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
             "tracks": tracks,
         }
         with open(PLAYLISTS_DIR / f"{pid}.json", "w", encoding="utf-8") as f:
@@ -120,7 +120,7 @@ def main():
         "account": account.get("accountName", ""),
         "playlistCount": len(index),
         "totalTracks": total_tracks,
-        "syncedAt": datetime.utcnow().isoformat() + "Z",
+        "syncedAt": datetime.now(datetime.UTC).isoformat().replace("+00:00", "Z"),
         "playlists": index,
     }
     with open(PLAYLISTS_DIR / "_index.json", "w", encoding="utf-8") as f:

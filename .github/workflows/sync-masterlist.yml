@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: '0 8 * * *'    # Daily at 3 AM EST (UTC-5)
   workflow_dispatch:
-    inputs:
-      sync_playlists:
-        description: 'Also sync playlists'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -16,7 +11,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -30,11 +25,10 @@ jobs:
       - name: Write browser auth
         run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
 
-      - name: Sync liked songs
+      - name: Sync masterlist (liked + albums + monthly playlists)
         run: python sync_liked.py --yes --no-push
 
-      - name: Sync playlists (manual trigger only)
-        if: github.event_name == 'workflow_dispatch' && inputs.sync_playlists
+      - name: Sync all playlists to JSON
         run: python sync_playlists.py
         continue-on-error: true
 
