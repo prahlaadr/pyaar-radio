@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2730,
- "totalTracks": 35689,
- "syncedAt": "2026-03-08T08:53:48.318363Z",
+ "albumCount": 2732,
+ "totalTracks": 35712,
+ "syncedAt": "2026-03-09T08:45:29.133801Z",
  "albums": [
+  {
+   "browseId": "MPREb_2cWRUQuDg0N",
+   "title": "For The Best",
+   "artist": "Hailey Knox",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_keWrSHgQoiu",
    "title": "BIG MAMA",
@@ -15914,6 +15920,12 @@
    "browseId": "MPREb_Jac39Ctu8m4",
    "title": "SAVE!",
    "artist": "Ben Reilly",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_HhiNZENTyxc",
+   "title": "Silence Gives Life",
+   "artist": "S!RENE",
    "trackCount": 15
   },
   {
