@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 1,
- "syncedAt": "2026-03-09T08:45:31.133465Z",
+ "trackCount": 2,
+ "syncedAt": "2026-03-10T08:44:07.576869Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -10,6 +10,13 @@
    "album": "",
    "videoId": "8PCjhUb_LkU",
    "duration": "3:56"
+  },
+  {
+   "title": "Jethro",
+   "artist": "Thundercat",
+   "album": "Drunk",
+   "videoId": "2WFBM_GFzmk",
+   "duration": "1:35"
   }
  ]
 }

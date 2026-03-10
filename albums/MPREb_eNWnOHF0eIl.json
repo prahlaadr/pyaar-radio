@@ -1,0 +1,28 @@
+{
+ "title": "Distracted",
+ "artist": "Thundercat",
+ "year": "2026",
+ "trackCount": 3,
+ "tracks": [
+  {
+   "title": "No More Lies",
+   "artist": "Thundercat;Tame Impala",
+   "videoId": "SLCaLlNMi0Y",
+   "duration": "5:28"
+  },
+  {
+   "title": "I Did This To Myself (feat. Flying Lotus)",
+   "artist": "Thundercat;Lil Yachty",
+   "videoId": "Vyo8YS52y_8",
+   "duration": "2:31"
+  },
+  {
+   "title": "I Wish I Didn’t Waste Your Time",
+   "artist": "Thundercat",
+   "videoId": "z2_HlY-xHRs",
+   "duration": "2:45"
+  }
+ ],
+ "browseId": "MPREb_eNWnOHF0eIl",
+ "syncedAt": "2026-03-10T08:44:05.781917Z"
+}

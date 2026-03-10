@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2732,
- "totalTracks": 35712,
- "syncedAt": "2026-03-09T08:45:29.133801Z",
+ "albumCount": 2731,
+ "totalTracks": 35701,
+ "syncedAt": "2026-03-10T08:44:05.781917Z",
  "albums": [
+  {
+   "browseId": "MPREb_eNWnOHF0eIl",
+   "title": "Distracted",
+   "artist": "Thundercat",
+   "trackCount": 3
+  },
   {
    "browseId": "MPREb_2cWRUQuDg0N",
    "title": "For The Best",
@@ -7637,12 +7643,6 @@
    "trackCount": 18
   },
   {
-   "browseId": "MPREb_ZZT2EPvZgKX",
-   "title": "Fuzzy",
-   "artist": "Harrison Sands",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_2MRIHIqpgqz",
    "title": "sister, idea",
    "artist": "Ganavya & Munir Hossn",
@@ -10809,12 +10809,6 @@
    "title": "CINEMA",
    "artist": "The Marías",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_DfpXxDLn5fd",
-   "title": "Don't Throw Rocks At The Moon",
-   "artist": "Planet Giza",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_49LJxuhisj9",
