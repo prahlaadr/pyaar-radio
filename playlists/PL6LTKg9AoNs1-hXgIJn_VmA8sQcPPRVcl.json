@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 2,
- "syncedAt": "2026-03-10T08:44:07.576869Z",
+ "trackCount": 3,
+ "syncedAt": "2026-03-11T08:43:28.069823Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -17,6 +17,13 @@
    "album": "Drunk",
    "videoId": "2WFBM_GFzmk",
    "duration": "1:35"
+  },
+  {
+   "title": "Echo Park Donut",
+   "artist": "Luke Temple",
+   "album": "Hungry Animal",
+   "videoId": "NcPn1vH_oGM",
+   "duration": "4:37"
   }
  ]
 }

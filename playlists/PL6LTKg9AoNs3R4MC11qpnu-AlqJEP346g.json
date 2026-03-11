@@ -1,9 +1,86 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1228,
- "syncedAt": "2026-03-10T08:44:07.576869Z",
+ "trackCount": 1239,
+ "syncedAt": "2026-03-11T08:43:28.069823Z",
  "tracks": [
+  {
+   "title": "Keep Ya Head Up",
+   "artist": "2Pac",
+   "album": "Greatest Hits",
+   "videoId": "fAJfDP3b5_U",
+   "duration": "4:24"
+  },
+  {
+   "title": "Hard",
+   "artist": "Hayley Williams",
+   "album": "Ego Death At A Bachelorette Party",
+   "videoId": "I2eEH_ixa1I",
+   "duration": "2:57"
+  },
+  {
+   "title": "Taken",
+   "artist": "Hayley Williams",
+   "album": "Petals For Armor",
+   "videoId": "X6bchhNm5IA",
+   "duration": "2:46"
+  },
+  {
+   "title": "Sour Diesel",
+   "artist": "ZAYN",
+   "album": "Icarus Falls",
+   "videoId": "rs2Z3gomto0",
+   "duration": "4:04"
+  },
+  {
+   "title": "Echo Park Donut",
+   "artist": "Luke Temple",
+   "album": "Hungry Animal",
+   "videoId": "NcPn1vH_oGM",
+   "duration": "4:37"
+  },
+  {
+   "title": "I'm Every Woman",
+   "artist": "Chaka Khan",
+   "album": "Chaka",
+   "videoId": "IzUIpOr1ssM",
+   "duration": "4:10"
+  },
+  {
+   "title": "That’s So True",
+   "artist": "Gracie Abrams",
+   "album": "The Secret of Us (Deluxe)",
+   "videoId": "AOz9V0NhJe8",
+   "duration": "2:47"
+  },
+  {
+   "title": "Ring My Bell",
+   "artist": "Anita Ward",
+   "album": "Ring My Bell",
+   "videoId": "r1UkZLT20TI",
+   "duration": "3:33"
+  },
+  {
+   "title": "Tweak",
+   "artist": "GIRLSET",
+   "album": "Tweak",
+   "videoId": "XRRZ1pBEYCU",
+   "duration": "2:29"
+  },
+  {
+   "title": "American Girls",
+   "artist": "Harry Styles",
+   "album": "Kiss All The Time. Disco, Occasionally.",
+   "videoId": "fl6hOstGluY",
+   "duration": "3:34"
+  },
+  {
+   "title": "Drops of Jupiter (Tell Me)",
+   "artist": "Train",
+   "album": "Drops Of Jupiter",
+   "videoId": "qthko5ppHcM",
+   "duration": "4:20"
+  },
   {
    "title": "Ring Ring Ring",
    "artist": "Tyler, The Creator",
