@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2970,
- "syncedAt": "2026-03-12T08:44:28.662887Z",
+ "syncedAt": "2026-03-13T08:41:16.517193Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -371,8 +371,8 @@
   {
    "title": "Gimme A Second 2",
    "artist": "Rich The Kid & Kanye West",
-   "album": "Life's A Gamble",
-   "videoId": "5J7SFb2vpaM",
+   "album": "Gimme A Second 2",
+   "videoId": "IxBQEQQhWbA",
    "duration": "2:52"
   },
   {
@@ -18514,9 +18514,9 @@
   },
   {
    "title": "Like Yoga",
-   "artist": "Rich The Kid & BIA",
+   "artist": "Rich The Kid;BIA",
    "album": "Life's A Gamble",
-   "videoId": "41SZC04yh7I",
+   "videoId": "bmRXSHCRTGo",
    "duration": "2:41"
   },
   {
