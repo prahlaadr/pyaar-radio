@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2731,
- "totalTracks": 35702,
- "syncedAt": "2026-03-13T08:41:14.964845Z",
+ "albumCount": 2724,
+ "totalTracks": 35599,
+ "syncedAt": "2026-03-14T08:37:48.959563Z",
  "albums": [
+  {
+   "browseId": "MPREb_7uw13w8WH0r",
+   "title": "POMPEII // UTILITY",
+   "artist": "Earl Sweatshirt",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_inTaF22PIN1",
+   "title": "Shepherd Moons",
+   "artist": "Enya",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_ZCpGXgi8AIB",
    "title": "Petals For Armor",
@@ -1463,12 +1475,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_ZUVG9BSMzx8",
-   "title": "I Don't Run",
-   "artist": "Hinds",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_16gYCpYFtuo",
    "title": "I Don't Like Shit, I Don't Go Outside: An Album by Earl Sweatshirt",
    "artist": "Earl Sweatshirt",
@@ -2049,12 +2055,6 @@
    "title": "…And The Battle Begun",
    "artist": "Rx Bandits",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_QRHJxlYuhHG",
-   "title": "The Color Of You",
-   "artist": "Alina Baraz",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_iZ1uWPeXjwz",
@@ -2979,12 +2979,6 @@
    "title": "TO FEEL ALIVE EP",
    "artist": "Kali Uchis",
    "trackCount": 4
-  },
-  {
-   "browseId": "MPREb_whTThbkRRMQ",
-   "title": "It Was Divine",
-   "artist": "Alina Baraz",
-   "trackCount": 16
   },
   {
    "browseId": "MPREb_szSyAMSAwtL",
@@ -4715,12 +4709,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_uHXODyd1S4z",
-   "title": "Hold Space For Me",
-   "artist": "Orion Sun",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_lNdQhrKX95C",
    "title": "Mellem Dine Læber",
    "artist": "Boom Clap Bachelors",
@@ -5493,12 +5481,6 @@
    "title": "Seeing Sounds",
    "artist": "N.E.R.D.",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_cxKuyFeY7pG",
-   "title": "Flume: Deluxe Edition",
-   "artist": "Flume",
-   "trackCount": 33
   },
   {
    "browseId": "MPREb_wtlSTuniHmn",
@@ -7023,12 +7005,6 @@
    "title": "Beyond Skin",
    "artist": "Nitin Sawhney",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_VBptXgKpOhI",
-   "title": "MERCTAPE",
-   "artist": "Mercury",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_WWnuOfQKuLl",
@@ -13415,12 +13391,6 @@
    "trackCount": 20
   },
   {
-   "browseId": "MPREb_42aTnV80Yzf",
-   "title": "Skin",
-   "artist": "Flume",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_yAVuO6uqjWr",
    "title": "Saaheem (A Lu Bit More)",
    "artist": "SahBabii",
@@ -13868,12 +13838,6 @@
    "browseId": "MPREb_BK5ijayIYHv",
    "title": "Quazel",
    "artist": "ZelooperZ",
-   "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_p4Y3vQ3R8ci",
-   "title": "Shed",
-   "artist": "Title Fight",
    "trackCount": 12
   },
   {
@@ -15849,12 +15813,6 @@
    "title": "Def Jazz",
    "artist": "Various Artists",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_RS1JekfvA53",
-   "title": "Lose My Mind / Telepathy",
-   "artist": "Jai Wolf",
-   "trackCount": 2
   },
   {
    "browseId": "MPREb_CYsA7PXQaOm",

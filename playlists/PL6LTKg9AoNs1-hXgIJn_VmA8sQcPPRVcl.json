@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 3,
- "syncedAt": "2026-03-13T08:41:16.517193Z",
+ "trackCount": 9,
+ "syncedAt": "2026-03-14T08:37:51.083534Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -24,6 +24,48 @@
    "album": "Hungry Animal",
    "videoId": "NcPn1vH_oGM",
    "duration": "4:37"
+  },
+  {
+   "title": "Passionfruit",
+   "artist": "Anish Kumar",
+   "album": "Passionfruit",
+   "videoId": "1YczpKxyhqY",
+   "duration": "3:58"
+  },
+  {
+   "title": "Dallas Major",
+   "artist": "Lily Allen",
+   "album": "West End Girl",
+   "videoId": "X6YCTnIs_Vk",
+   "duration": "3:05"
+  },
+  {
+   "title": "Jab Se",
+   "artist": "Lapgan;Baalti",
+   "album": "Jab Se",
+   "videoId": "GSyCYRhVCZQ",
+   "duration": "4:34"
+  },
+  {
+   "title": "Earth",
+   "artist": "Earl Sweatshirt;SURF GANG",
+   "album": "POMPEII // UTILITY",
+   "videoId": "lyCMNALVaN0",
+   "duration": "1:38"
+  },
+  {
+   "title": "The First Taste",
+   "artist": "Fiona Apple",
+   "album": "Tidal",
+   "videoId": "-zgIiwohjR4",
+   "duration": "4:47"
+  },
+  {
+   "title": "Love Demons",
+   "artist": "Peter Cat Recording Co.",
+   "album": "Portrait of a Time: 2010-2016",
+   "videoId": "3jBNaYS6oJ8",
+   "duration": "5:43"
   }
  ]
 }

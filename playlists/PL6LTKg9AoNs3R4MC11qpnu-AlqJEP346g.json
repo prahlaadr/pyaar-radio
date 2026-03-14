@@ -1,9 +1,65 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1240,
- "syncedAt": "2026-03-13T08:41:16.517193Z",
+ "trackCount": 1248,
+ "syncedAt": "2026-03-14T08:37:51.083534Z",
  "tracks": [
+  {
+   "title": "Fingerprints",
+   "artist": "Hiatus Kaiyote",
+   "album": "Choose Your Weapon",
+   "videoId": "YUmSu_54478",
+   "duration": "4:17"
+  },
+  {
+   "title": "Hey Daddy (Daddy's Home)",
+   "artist": "Usher",
+   "album": "Raymond v Raymond (Expanded Edition)",
+   "videoId": "BstMM-xrk8E",
+   "duration": "3:45"
+  },
+  {
+   "title": "Feel Good Inc. - Little Simz (Lyrics) Covering Gorillaz - For Triple j's Like A Version",
+   "artist": "Musicdevolution 💀 DarkerBluez",
+   "album": "",
+   "videoId": "XGJK1SGPPXE",
+   "duration": "3:42"
+  },
+  {
+   "title": "Oh to Be in Love",
+   "artist": "Kate Bush",
+   "album": "The Kick Inside",
+   "videoId": "ntN29t-boOQ",
+   "duration": "3:19"
+  },
+  {
+   "title": "The First Taste",
+   "artist": "Fiona Apple",
+   "album": "Tidal",
+   "videoId": "-zgIiwohjR4",
+   "duration": "4:47"
+  },
+  {
+   "title": "Francis Forever",
+   "artist": "Mitski",
+   "album": "Bury Me At Makeout Creek",
+   "videoId": "UMJm_97QXHA",
+   "duration": "2:30"
+  },
+  {
+   "title": "Sunday",
+   "artist": "The Cranberries",
+   "album": "Everybody Else Is Doing It, So Why Can't We? (The Complete Sessions 1991-1993)",
+   "videoId": "R1PL_hVxH9M",
+   "duration": "3:31"
+  },
+  {
+   "title": "Dallas Major",
+   "artist": "Lily Allen",
+   "album": "West End Girl",
+   "videoId": "X6YCTnIs_Vk",
+   "duration": "3:05"
+  },
   {
    "title": "Some Cut",
    "artist": "Trillville",
@@ -1520,7 +1576,7 @@
    "title": "Sooner or Later",
    "artist": "7 Seconds",
    "album": "Good to Go",
-   "videoId": "uZuf0FODKqM",
+   "videoId": "9iQg1iV_HAo",
    "duration": "1:10"
   },
   {
@@ -3151,7 +3207,7 @@
    "title": "Lose My Mind (feat. Mr Gabriel)",
    "artist": "Jai Wolf",
    "album": "Lose My Mind / Telepathy",
-   "videoId": "Ap47XigFyZs",
+   "videoId": "D-4WG0FmwzA",
    "duration": "4:19"
   },
   {
