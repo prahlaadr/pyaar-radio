@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 9,
- "syncedAt": "2026-03-14T08:37:51.083534Z",
+ "trackCount": 10,
+ "syncedAt": "2026-03-15T08:38:20.492878Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -66,6 +66,13 @@
    "album": "Portrait of a Time: 2010-2016",
    "videoId": "3jBNaYS6oJ8",
    "duration": "5:43"
+  },
+  {
+   "title": "Pretty",
+   "artist": "Chance the Rapper",
+   "album": "STAR LINE",
+   "videoId": "LqND7jClXsA",
+   "duration": "3:20"
   }
  ]
 }

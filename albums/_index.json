@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2724,
- "totalTracks": 35599,
- "syncedAt": "2026-03-14T08:37:48.959563Z",
+ "albumCount": 2723,
+ "totalTracks": 35593,
+ "syncedAt": "2026-03-15T08:38:18.909436Z",
  "albums": [
   {
    "browseId": "MPREb_7uw13w8WH0r",
@@ -12531,12 +12531,6 @@
    "title": "Make Sure They See My Face",
    "artist": "Kenna",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_0E0VSlGU3kU",
-   "title": "Purifying Fire",
-   "artist": "Lustmord",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_ihHOViRwZMK",

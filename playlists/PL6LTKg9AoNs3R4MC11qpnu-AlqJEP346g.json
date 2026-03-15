@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1248,
- "syncedAt": "2026-03-14T08:37:51.083534Z",
+ "trackCount": 1251,
+ "syncedAt": "2026-03-15T08:38:20.492878Z",
  "tracks": [
+  {
+   "title": "DJ Got US Fallin’ In Love",
+   "artist": "Strings From Paris",
+   "album": "Bridgerton Season Four (Covers from the Netflix Series)",
+   "videoId": "GMiyloIqCVc",
+   "duration": "3:22"
+  },
+  {
+   "title": "360 (Arr. For Cello Obligato and String Quartet)",
+   "artist": "Peter Gregson",
+   "album": "Bridgerton Season Four (Covers from the Netflix Series)",
+   "videoId": "xDPbYPprWnA",
+   "duration": "2:12"
+  },
+  {
+   "title": "Chamber Of Reflection",
+   "artist": "Mac DeMarco",
+   "album": "Salad Days",
+   "videoId": "pQsF3pzOc54",
+   "duration": "3:52"
+  },
   {
    "title": "Fingerprints",
    "artist": "Hiatus Kaiyote",
