@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 244,
- "totalTracks": 99932,
- "syncedAt": "2026-03-15T08:38:20.492878Z",
+ "playlistCount": 240,
+ "totalTracks": 100816,
+ "syncedAt": "2026-03-16T08:59:21.504442Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -13,16 +13,6 @@
    "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
    "title": "March 26",
    "trackCount": 10
-  },
-  {
-   "playlistId": "PLcOvg8kw-meGOL5oFLvoMHfr8z2WkdU5a",
-   "title": "FlyLo FM",
-   "trackCount": 36
-  },
-  {
-   "playlistId": "PLuJAE71hvkJqAy0Rt8RcCAAWcd6v4SDtF",
-   "title": "Four Tet Remixes",
-   "trackCount": 141
   },
   {
    "playlistId": "PL6LTKg9AoNs2TMcvfJ52n2AP-T3UVWJ9J",
@@ -55,11 +45,6 @@
    "trackCount": 1
   },
   {
-   "playlistId": "PL3OQBBfO527aVyfTeSdSOASaw9X1Gth1O",
-   "title": "Honkyoku",
-   "trackCount": 34
-  },
-  {
    "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
    "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
    "trackCount": 11
@@ -73,11 +58,6 @@
    "playlistId": "PL6LTKg9AoNs3RTVlPJcaJaVWyATTDApQC",
    "title": "Jan 26",
    "trackCount": 24
-  },
-  {
-   "playlistId": "PLFKQSJIJKeqNBV0DWG6jbVNBcNp9t3pCP",
-   "title": "@ peace. {frisson}",
-   "trackCount": 74
   },
   {
    "playlistId": "PL6LTKg9AoNs3Df8_yZn3_0ck1E66h0Nyw",
@@ -1047,7 +1027,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1wDyKHMyX7ysdsfFNsoEOT",
    "title": "shit nai palm listens to (goated)",
-   "trackCount": 0
+   "trackCount": 1169
   },
   {
    "playlistId": "PL6LTKg9AoNs1soWGE3VpTBVucstJzvTov",

@@ -1,0 +1,52 @@
+{
+ "title": "Walk the Line",
+ "artist": "Gaszia",
+ "year": "2020",
+ "trackCount": 7,
+ "tracks": [
+  {
+   "title": "Jaded",
+   "artist": "Gaszia",
+   "videoId": "z1_KFedBwJ8",
+   "duration": "2:40"
+  },
+  {
+   "title": "Collapse",
+   "artist": "Gaszia",
+   "videoId": "khW-tvSp6oc",
+   "duration": "3:12"
+  },
+  {
+   "title": "Make That",
+   "artist": "Gaszia",
+   "videoId": "G5uM-hWrn3g",
+   "duration": "3:02"
+  },
+  {
+   "title": "Waveshaper",
+   "artist": "Gaszia",
+   "videoId": "yhwio0RVO5Y",
+   "duration": "3:02"
+  },
+  {
+   "title": "Begin",
+   "artist": "Gaszia",
+   "videoId": "CvbhVvPAUz0",
+   "duration": "2:57"
+  },
+  {
+   "title": "Keep Up",
+   "artist": "Gaszia",
+   "videoId": "CdgJi8b_zB8",
+   "duration": "2:52"
+  },
+  {
+   "title": "Coda",
+   "artist": "Gaszia",
+   "videoId": "TCcr7EyB2ts",
+   "duration": "2:58"
+  }
+ ],
+ "browseId": "MPREb_Tb4BAIk6erA",
+ "syncedAt": "2026-03-16T08:58:39.946846Z"
+}

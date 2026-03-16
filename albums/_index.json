@@ -1,9 +1,1125 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2723,
- "totalTracks": 35593,
- "syncedAt": "2026-03-15T08:38:18.909436Z",
+ "albumCount": 2910,
+ "totalTracks": 37716,
+ "syncedAt": "2026-03-16T08:58:39.946846Z",
  "albums": [
+  {
+   "browseId": "MPREb_nNm5BURfa1Z",
+   "title": "Azimuth Divergence",
+   "artist": "Danny L Harle",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_4yClCXitLUI",
+   "title": "Endling",
+   "artist": "Qasim Naqvi",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_icVMif2Y210",
+   "title": "Pula",
+   "artist": "DJ Firmeza",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_l7CmwjPh8rN",
+   "title": "Revolução 2005 - 2008",
+   "artist": "DJ Marfox",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_MLSk7yzEfWK",
+   "title": "Estradas (Versions)",
+   "artist": "Nídia & Valentina",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_XFsspRpr0oc",
+   "title": "Generation Y",
+   "artist": "Devon Hendryx",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_POIJmpFVUjW",
+   "title": "There Is Beauty, There Already",
+   "artist": "Sarathy Korwar",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_9WtkAR8YoYn",
+   "title": "Black Loyalist",
+   "artist": "Shabaka",
+   "trackCount": 31
+  },
+  {
+   "browseId": "MPREb_rz65KCvIx6u",
+   "title": "Sunset Man",
+   "artist": "Coki",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_6wufVnfhGuG",
+   "title": "Forefather",
+   "artist": "Benga",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_bc6JF0tomLg",
+   "title": "The Smashing Machine (Original Motion Picture Soundtrack)",
+   "artist": "Nala Sinephro",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_KSPfSPsdMXC",
+   "title": "Chillarakottu Chittamma",
+   "artist": "L R Anjali",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_wNmN8BZCrfE",
+   "title": "Clearly Rushing",
+   "artist": "Anz",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_pqdNzng20rr",
+   "title": "Relentless Trills",
+   "artist": "DJ Plead",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_9QZaIzIvrQ9",
+   "title": "Public Records Performance",
+   "artist": "Sam Wilkes",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_GA45tVs0OaE",
+   "title": "digi-squires",
+   "artist": "Sam Gendel & Nate Mercereau",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_4YFc854XXke",
+   "title": "Keep It Steppin'",
+   "artist": "Mia Koden",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_SNcncQs98BR",
+   "title": "O'DESSA (Original Motion Picture Soundtrack)",
+   "artist": "Sadie Sink",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_YTqJM3kWAK1",
+   "title": "FRANCIS",
+   "artist": "ESTA.",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Ro7rgBNjR7l",
+   "title": "What For? (Instrumentals)",
+   "artist": "Toro y Moi",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_3VpJLrU1S0x",
+   "title": "Oh Yes",
+   "artist": "Tek.Lun",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_hXvMMLwpmlj",
+   "title": "Speak In The Dark",
+   "artist": "Tara Lily",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_8yRWlxlNW49",
+   "title": "The Wonder Of Stevie (Music From the Audible Original Podcast)",
+   "artist": "Stevie Wonder",
+   "trackCount": 34
+  },
+  {
+   "browseId": "MPREb_qFMO1cILZIh",
+   "title": "Solo Star",
+   "artist": "Solange",
+   "trackCount": 37
+  },
+  {
+   "browseId": "MPREb_e5yFE21yJ2i",
+   "title": "North Vol. 2 (Instrumentals)",
+   "artist": "Sango",
+   "trackCount": 36
+  },
+  {
+   "browseId": "MPREb_bF36mJx2jjQ",
+   "title": "Keys To The City Volume One",
+   "artist": "Robert Glasper",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_uQ2zGH2ZAtO",
+   "title": "COMMOTION (Extra Af)",
+   "artist": "Rhea Raj",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Z6UIDEN8sjw",
+   "title": "From Deep Within",
+   "artist": "Raveena",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_Al1S8Rm9WOt",
+   "title": "Kabhi",
+   "artist": "El Michels Affair",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_jc5U00lgNUP",
+   "title": "Acesso do Mano",
+   "artist": "Pharrell",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_XaLJWPHj9nA",
+   "title": "Disneynature: Tiger (Original Soundtrack)",
+   "artist": "Nitin Sawhney",
+   "trackCount": 27
+  },
+  {
+   "browseId": "MPREb_cMgOMLciPv4",
+   "title": "Blackbird (Inspired by ‘The Outlaw Ocean’ a book by Ian Urbina)",
+   "artist": "Moth Equals",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_RceRlX0PA9M",
+   "title": "b 2 b",
+   "artist": "Monte Booker",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_lD6SvlsXxQD",
+   "title": "Snaxxx",
+   "artist": "Mndsgn",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_wELoXkSuk2N",
+   "title": "Universal Beings (IA11 Edition)",
+   "artist": "Makaya McCraven",
+   "trackCount": 23
+  },
+  {
+   "browseId": "MPREb_f8pdr8pzx7Y",
+   "title": "Glimpses of Infinity",
+   "artist": "Laraaji",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_wVzfHiso5Of",
+   "title": "The Universe Smiles Upon You ii",
+   "artist": "Khruangbin",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_iZT1q007EWD",
+   "title": "In The Blue Light",
+   "artist": "Kelela",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_nBaGRkY2E4q",
+   "title": "Alright By Myself",
+   "artist": "The Get Money Squad",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_rOZXrYSQstd",
+   "title": "Jewel Tones",
+   "artist": "JATAYU",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_2CwlvOvKHqo",
+   "title": "Trying Times",
+   "artist": "James Blake",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_4sjMUotWgmJ",
+   "title": "Phroduced By J Dilla",
+   "artist": "The Pharcyde",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_ZyY74gIaVju",
+   "title": "Kandhan Vanthan",
+   "artist": "Harini, Veeramani Raju, Vanijayaram",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_EHtIB35cAvY",
+   "title": "Your Love",
+   "artist": "Gayathri Krishnan",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_TuaHibvSqBk",
+   "title": "Would Be Better",
+   "artist": "Ganavya & Sam Amidon",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_QzOZqR8HfHq",
+   "title": "Kadhalikka Neramillai",
+   "artist": "A.R. Rahman",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_TaeCQPTZqYH",
+   "title": "A DJ Harrison Xmas",
+   "artist": "DJ Harrison",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_TfTOcDwCGAS",
+   "title": "Mid Spiral",
+   "artist": "BADBADNOTGOOD",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_d9YFHBadhJT",
+   "title": "Billa",
+   "artist": "Mani Sharma",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_X0Jx7A01BtW",
+   "title": "XPRSLP001",
+   "artist": "Truant",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_a8fZjgp5S7K",
+   "title": "fabric presents salute",
+   "artist": "salute",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_N5Joj82fiG5",
+   "title": "Power Ballad / d20",
+   "artist": "Rareman",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_p847cewWOib",
+   "title": "Drumpire",
+   "artist": "piri",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_bLxDHqfVglH",
+   "title": "New Era, Vol. 1",
+   "artist": "Pandi",
+   "trackCount": 24
+  },
+  {
+   "browseId": "MPREb_2ewMQM8Uscu",
+   "title": "All Like That",
+   "artist": "moktar",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_BvxuZ0ZH59D",
+   "title": "REQUIEM",
+   "artist": "Cozy Kev",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_Ank7NFxp52h",
+   "title": "yeno",
+   "artist": "cavya sound",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_yTLVgU5m9lV",
+   "title": "For A Minute",
+   "artist": "borne",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_VC4JrwksGss",
+   "title": "Into the Void, Vol 1",
+   "artist": "barnacle boi",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_YHRJ1ZmqxEG",
+   "title": "LIFE OF THE PARTY (feat. BLESSED, I.E. & BRXNNY)",
+   "artist": "aywy",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_YNzwP1f1gQf",
+   "title": "Blockbuster Edit",
+   "artist": "Zenjah",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_KGovPcrnj9o",
+   "title": "With A Hammer",
+   "artist": "Yaeji",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_Gdugzsxz4tL",
+   "title": "Life of a Wallflower , Vol. 2",
+   "artist": "Whethan",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_AN1QDU660Nv",
+   "title": "BBY / Worm",
+   "artist": "Wantigga",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_vlYUV3w0beK",
+   "title": "Big Fish",
+   "artist": "Villager",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_d8rxk3bjb1T",
+   "title": "DEAR MEN",
+   "artist": "Viepsa Arora",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_fvmnhuRe28Z",
+   "title": "Resenha",
+   "artist": "VHOOR",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_4y3T9198RNS",
+   "title": "Siege",
+   "artist": "Tsuruda",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_U1bTiLCEb86",
+   "title": "INFLUENDO",
+   "artist": "TroyBoi",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_ILmIq921bCZ",
+   "title": "Digital Artifice // Recompiled",
+   "artist": "Ternion Sound",
+   "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_uPKNfqTOjFA",
+   "title": "Synkro X Deep Heads",
+   "artist": "Synkro",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_THJF8GzK59h",
+   "title": "State of Emergency (Instrumentals)",
+   "artist": "Swami Sound",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_p0jP46H7rrv",
+   "title": "The Lost Dubs Vol. 1",
+   "artist": "Sukh Knight",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Os2GNa69BV8",
+   "title": "For You",
+   "artist": "Sodhivine",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_czOqdCYo97o",
+   "title": "Big city life EDITS",
+   "artist": "Smerz",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_fx6wEA9lM7e",
+   "title": "Skreamizm 8",
+   "artist": "Skream",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_6WWoyVbyU98",
+   "title": "Resort",
+   "artist": "Skee Mask",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_SBKgmYH2nqh",
+   "title": "Sotsugyou",
+   "artist": "SANA",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_bPu5xDTJVYQ",
+   "title": "ANTI NIHILO",
+   "artist": "SICARIA",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_gAEHQ5MTsYU",
+   "title": "Anemoia",
+   "artist": "SG Lewis",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_IdDe0pyqvwO",
+   "title": "Bubble Love",
+   "artist": "Bubble Love",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_yIq56dC3F33",
+   "title": "Bleach",
+   "artist": "Rohaan",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_nJ6FNnza4rm",
+   "title": "Chasing Suns",
+   "artist": "Rhythom",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_wKnrSxn1h8Q",
+   "title": "Life Cycle Waves",
+   "artist": "RamonPang",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_LB2FAkvaxiQ",
+   "title": "Congratulations",
+   "artist": "Raji Rags",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_9KM9kRnCTOa",
+   "title": "Aaranya Kaandam (Original Background Score)",
+   "artist": "Yuvan Shankar Raja",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_kckUdGU3vo9",
+   "title": "Dawn",
+   "artist": "QUIET BISON",
+   "trackCount": 30
+  },
+  {
+   "browseId": "MPREb_6vEOmWRTwwM",
+   "title": "Powder",
+   "artist": "Powder",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_xYYFd0hln96",
+   "title": "Where the Wind Blew Me",
+   "artist": "Player Dave",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_bCkPTX7O1iC",
+   "title": "Fancy Some More?",
+   "artist": "PinkPantheress",
+   "trackCount": 31
+  },
+  {
+   "browseId": "MPREb_yqLxyEGPD2z",
+   "title": "Genesis EP",
+   "artist": "Phrva",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_WZVH6HjRIbC",
+   "title": "Pearson Sound",
+   "artist": "Pearson Sound",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_7xU6DYGxN6U",
+   "title": "Changing Channels",
+   "artist": "Pangaea",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_9k8TWgYPzxx",
+   "title": "2015",
+   "artist": "Otxhello",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_BsraJFDAyxE",
+   "title": "The Last Goodbye Tour Live",
+   "artist": "ODESZA",
+   "trackCount": 27
+  },
+  {
+   "browseId": "MPREb_IsNr3xQ4gJI",
+   "title": "Aletheia",
+   "artist": "O'Flynn",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_ci3leOh0263",
+   "title": "Ascension",
+   "artist": "Nomine",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_rhWYvKhqeGY",
+   "title": "Sheeps",
+   "artist": "Nikki Nair",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_E438DX4Dvxd",
+   "title": "Silence Is Loud",
+   "artist": "Nia Archives",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_WdpLxpx0UVU",
+   "title": "Think Of Me",
+   "artist": "MssingNo",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_1mkPif0Ysiy",
+   "title": "The Sunset Violent",
+   "artist": "Mount Kimbie",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_xnqisv8aph9",
+   "title": "The Brothers Grimdark: season one original soundtrack",
+   "artist": "Mirror Maze",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_wbFtTk6ZbBr",
+   "title": "Infinity Trail",
+   "artist": "Malfnktion",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_zy6Vvxc9qsI",
+   "title": "Vagabond",
+   "artist": "makaan",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_YGp1jQFgUHt",
+   "title": "IIII",
+   "artist": "VIER",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_rn5cb0GwJzj",
+   "title": "LM027",
+   "artist": "Lucid Monday",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_fwVvw6MVIhF",
+   "title": "The Sun Comes Up",
+   "artist": "Louis The Child",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_rLE5A6X4XOs",
+   "title": "Always Inside Your Head (Expanded)",
+   "artist": "Lone",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_5tn1oISWj0N",
+   "title": "DJ-Kicks: Logic1000",
+   "artist": "Logic1000",
+   "trackCount": 35
+  },
+  {
+   "browseId": "MPREb_KooVIxPmiRP",
+   "title": "waiting",
+   "artist": "Lyric Walls",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_vdTbrzX5WBF",
+   "title": "Orchid",
+   "artist": "Hamdi",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_bNsgSg830PR",
+   "title": "Severant (2022 Edition)",
+   "artist": "Kuedo",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_n0Uk3FHonC7",
+   "title": "Standards I",
+   "artist": "Krithi",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_qu1XSjoUnwz",
+   "title": "nolimit",
+   "artist": "Knock2",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_S53Qahm144v",
+   "title": "BOSSA",
+   "artist": "Karma Kid",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_B5KUCtvbfla",
+   "title": "Chaap Tilak",
+   "artist": "Kalzi",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_XiuuhCLo6Sc",
+   "title": "Tunnels",
+   "artist": "Kalbaisakhi",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_mMFkBRorir7",
+   "title": "Lab Sounds",
+   "artist": "K, Le Maestro",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_qkkjBGkT6qA",
+   "title": "ADRENOCHROME : ZERO",
+   "artist": "Juelz",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_Muq4ZnsqSEC",
+   "title": "still slipping vol. 1",
+   "artist": "Joy Orbison",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_XBmpwjRreWe",
+   "title": "sometimes i wonder",
+   "artist": "JD. REID",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_ew25IKFpIRL",
+   "title": "MONETARY PURPOSES III",
+   "artist": "J.Robb",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_w3Jh4Y5tlUb",
+   "title": "All Thru The Night (Locked On Vol 4)",
+   "artist": "Interplanetary Criminal",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_Iym335ACWvX",
+   "title": "That's When The Bass Drops Ep",
+   "artist": "Hydraulix (Aus)",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_aLPOFW3iYgj",
+   "title": "L'Ecstasy",
+   "artist": "Tiga",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_7CmfmILNrIh",
+   "title": "Nightmares (feat. Issey Cross)",
+   "artist": "Hamdi",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_wPZZ9KouVWF",
+   "title": "Deep News.",
+   "artist": "Halogenix",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_WSj72uIIOmH",
+   "title": "Minha Vida",
+   "artist": "Holly",
+   "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_vpkTsgBZff7",
+   "title": "Halloween Heaters 4",
+   "artist": "Great Dane",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_Tb4BAIk6erA",
+   "title": "Walk the Line",
+   "artist": "Gaszia",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_Z5U42mLM1RC",
+   "title": "The Ineffable Truth",
+   "artist": "G Jones",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_lR9PH9hMbrM",
+   "title": "Elaenia (10 Year Anniversary)",
+   "artist": "Floating Points",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_LzrQBRAT8ea",
+   "title": "Syntheism",
+   "artist": "Eprom",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_8GrCRevu335",
+   "title": "Berbeda",
+   "artist": "Deft",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_y4s6fBNQqW0",
+   "title": "december",
+   "artist": "decemberkid",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_OgeEnoHTsCm",
+   "title": "Random Access Memories (Drumless Edition)",
+   "artist": "Daft Punk",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_T4Aq8IHgO83",
+   "title": "Aerobics",
+   "artist": "DJ Sliink",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_CeCw4YdbA9b",
+   "title": "Na Casa (Edits)",
+   "artist": "DJ Lycox",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_xmxZKiN08IS",
+   "title": "Thank You Come Again",
+   "artist": "DJ LYAN",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_vhn9K99R1ix",
+   "title": "Sensation",
+   "artist": "Devault",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_2sicRiexHBo",
+   "title": "The Kiwi Sound (DJ Mix)",
+   "artist": "Conducta",
+   "trackCount": 35
+  },
+  {
+   "browseId": "MPREb_vdyadSv12cx",
+   "title": "How What Time",
+   "artist": "Commodo",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_Kw7dvFVmzU0",
+   "title": "Wuthering Heights",
+   "artist": "Charli xcx",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_yEPbX5zgeQL",
+   "title": "Promises Kept",
+   "artist": "Champion",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_YPUQL0SmF18",
+   "title": "Rigid Lord",
+   "artist": "Cesco",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_Yd8xP8QKrbd",
+   "title": "Honey",
+   "artist": "Caribou",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_9EkuS4hacXh",
+   "title": "Best Bollywood Female Voices",
+   "artist": "Shreya Ghoshal",
+   "trackCount": 30
+  },
+  {
+   "browseId": "MPREb_pbprrjxqFZk",
+   "title": "Proof of Life",
+   "artist": "Boombox Cartel",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_dDwh7PJ0Nf0",
+   "title": "Lazarus (Adult Swim Original Series Soundtrack)",
+   "artist": "Bonobo",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_YXD25K1MImf",
+   "title": "Late Night Tales: Barry Can't Swim (LNT Mix)",
+   "artist": "Barry Can't Swim",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_QdgnawVvH7g",
+   "title": "PLANET'S MAD (GLOBE'S CRAZY)",
+   "artist": "Baauer",
+   "trackCount": 24
+  },
+  {
+   "browseId": "MPREb_5sbRm4INVWL",
+   "title": "Disco Wich Aa",
+   "artist": "Mohinder Kaur Bhamra",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_wfzv7bW99ZR",
+   "title": "Music From The Merch Desk (2016 - 2023)",
+   "artist": "Aphex Twin",
+   "trackCount": 38
+  },
+  {
+   "browseId": "MPREb_wvfooanj7kC",
+   "title": "Sabotage",
+   "artist": "Alix Perez",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_y1aCXLPMBPk",
+   "title": "QOBA",
+   "artist": "Toya Delazy",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_2tk41EHu3p2",
+   "title": "kabhi kabhi nahi",
+   "artist": "$EJ",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_PXGu4odk0tE",
+   "title": "Up Now",
+   "artist": "COLLAB, Blaccmass, & Jet Lee Houdini",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_00zzB4G7K5B",
+   "title": "UY SCUTI (Supernova Edition)",
+   "artist": "Young Thug",
+   "trackCount": 28
+  },
+  {
+   "browseId": "MPREb_0KZLgnHT2gE",
+   "title": "HEELS HAVE EYES 3",
+   "artist": "Westside Gunn",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_WLQhMTcqnMF",
+   "title": "Dont Lose The Groove",
+   "artist": "Vayda",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_iGWk4xPvqIC",
+   "title": "Sweet Justice",
+   "artist": "Tkay Maidza",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_Iq2pPP5uj7i",
+   "title": "Midnight Paradise",
+   "artist": "The PropheC",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_eRSHCm7HF3a",
+   "title": "Maybe in Nirvana",
+   "artist": "Smino",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_U6ZB1m1Fzek",
+   "title": "The Lost Files",
+   "artist": "Ski Mask The Slump God",
+   "trackCount": 29
+  },
+  {
+   "browseId": "MPREb_a5Q9JFfCegw",
+   "title": "Geek Monster",
+   "artist": "RRoxket",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_2EfaXYKrZlK",
+   "title": "Vanisher, Horizon Scraper (The Extended Cut)",
+   "artist": "Quadeca",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_9viPlnzGjM4",
+   "title": "DSP",
+   "artist": "Prabh Deep",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_ixfbA4zK0Nj",
+   "title": "MUSIC - SORRY 4 DA WAIT",
+   "artist": "Playboi Carti",
+   "trackCount": 34
+  },
+  {
+   "browseId": "MPREb_Itqqb4yOi2Y",
+   "title": "Stankonia (25th Anniversary)",
+   "artist": "Outkast",
+   "trackCount": 32
+  },
+  {
+   "browseId": "MPREb_R3ry01PadLu",
+   "title": "Kei Nishikori meets Nujabes",
+   "artist": "Nujabes",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_omOY07YuxLy",
+   "title": "Tere Liye",
+   "artist": "Nanku",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_1MzUYF9lu0K",
+   "title": "A MURDER OF CROWS",
+   "artist": "Mick Jenkins",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_8LYyHEsPX0a",
+   "title": "Baggy Eyes 2",
+   "artist": "Michael Christmas",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_i7HHajvvJFD",
+   "title": "Champagne for Breakfast (Dusted Edition)",
+   "artist": "DJ Muggs",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_NNQn7ZjdX5X",
+   "title": "GO:OD AM (10th Anniversary)",
+   "artist": "Mac Miller",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_Wm79TPIYiGS",
+   "title": "Madvillainy Demos",
+   "artist": "Madvillain",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_vmvKmUxK2j2",
+   "title": "Gap Year!",
+   "artist": "Laila!",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_t0EUm3gp7DL",
+   "title": "Just Getting Started",
+   "artist": "Kodak Black",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_u1EPNUwWlZM",
+   "title": "DONDA 2",
+   "artist": "DONDA",
+   "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_4XzMDgoRUKd",
+   "title": "Kaliyuga",
+   "artist": "Forgotten",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_8MoDgB1Y3ga",
+   "title": "Patricide",
+   "artist": "Father",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_cOJPTyfYekj",
+   "title": "STAR LINE",
+   "artist": "Chance the Rapper",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_JDOa5Wte0V6",
+   "title": "Don't Be Dumb",
+   "artist": "A$AP Rocky",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_NhthMx36uKg",
+   "title": "Moving Parts",
+   "artist": "Lunice",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_OFiADkeaXWn",
+   "title": "Tha Dark Shogunn Saga, Vol. 3",
+   "artist": "Tha God Fahim",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_Nu0CjKxMzLP",
+   "title": "Tha Dark Shogunn Saga, Vol. 2",
+   "artist": "Tha God Fahim",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_7uw13w8WH0r",
    "title": "POMPEII // UTILITY",
@@ -12531,6 +13647,12 @@
    "title": "Make Sure They See My Face",
    "artist": "Kenna",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_0E0VSlGU3kU",
+   "title": "Purifying Fire",
+   "artist": "Lustmord",
+   "trackCount": 6
   },
   {
    "browseId": "MPREb_ihHOViRwZMK",
