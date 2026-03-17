@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 240,
- "totalTracks": 100816,
- "syncedAt": "2026-03-16T08:59:21.504442Z",
+ "playlistCount": 239,
+ "totalTracks": 99690,
+ "syncedAt": "2026-03-17T08:55:46.667124Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -748,11 +748,6 @@
    "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
    "title": "Savage Pizza ",
    "trackCount": 81
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2m5MWBKvkhA8WzZ-M1Exnm",
-   "title": "trivia night ",
-   "trackCount": 1126
   },
   {
    "playlistId": "PL6LTKg9AoNs2lBzayYnWvSnc2izQugBqd",

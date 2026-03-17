@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2910,
- "totalTracks": 37716,
- "syncedAt": "2026-03-16T08:58:39.946846Z",
+ "albumCount": 2908,
+ "totalTracks": 37698,
+ "syncedAt": "2026-03-17T08:55:44.852924Z",
  "albums": [
   {
    "browseId": "MPREb_nNm5BURfa1Z",
@@ -513,12 +513,6 @@
    "title": "Congratulations",
    "artist": "Raji Rags",
    "trackCount": 5
-  },
-  {
-   "browseId": "MPREb_9KM9kRnCTOa",
-   "title": "Aaranya Kaandam (Original Background Score)",
-   "artist": "Yuvan Shankar Raja",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_kckUdGU3vo9",
@@ -14715,12 +14709,6 @@
    "title": "Vote for Worms",
    "artist": "Malfnktion",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_OKMIeR0yBVr",
-   "title": "Desi Spice, Vol. 2",
-   "artist": "November Rose",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_P2xaYRIsjyD",
