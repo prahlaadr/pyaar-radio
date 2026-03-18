@@ -40,6 +40,9 @@ yarn-error.log*
 browser.json
 backups/
 
+# temp sync artifacts
+public/data/_albums_synced.json
+
 # planning files (deep-plan artifacts)
 claude-*.md
 deep_plan_config.json
