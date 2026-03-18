@@ -837,6 +837,20 @@ export default function Home() {
       return;
     }
 
+    if (ilaiyaraajaMode) {
+      if (ilaiyaraajaTracks.length === 0) return;
+      if (nowPlaying) {
+        const idx = ilaiyaraajaTracks.findIndex(
+          (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+        );
+        const next = idx >= 0 && idx < ilaiyaraajaTracks.length - 1 ? ilaiyaraajaTracks[idx + 1] : ilaiyaraajaTracks[0];
+        setNowPlaying(next);
+      } else {
+        setNowPlaying(ilaiyaraajaTracks[0]);
+      }
+      return;
+    }
+
     if (tamilMode) {
       if (tamilTracks.length === 0) return;
       if (nowPlaying) {
@@ -890,7 +904,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
+  }, [artists, recentExcludeKeys, rowToTrack, ilaiyaraajaMode, ilaiyaraajaTracks, tamilMode, tamilTracks, sectionMode, sectionTracks, pickRandomFromPool, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
 
   // Radio next — BPM proximity + key compatibility scoring
   const playRadio = useCallback(async () => {
@@ -1038,7 +1052,16 @@ export default function Home() {
         return finalPool[Math.floor(Math.random() * finalPool.length)];
       };
 
-      if (tamilMode) {
+      if (ilaiyaraajaMode) {
+        if (forRadio) {
+          nextTrack = pickFromPool(ilaiyaraajaTracks);
+        } else {
+          const idx = nowPlaying ? ilaiyaraajaTracks.findIndex(
+            (t) => t.trackName === nowPlaying.trackName && t.artistNames === nowPlaying.artistNames
+          ) : -1;
+          nextTrack = idx >= 0 && idx < ilaiyaraajaTracks.length - 1 ? ilaiyaraajaTracks[idx + 1] : ilaiyaraajaTracks[0];
+        }
+      } else if (tamilMode) {
         if (forRadio) {
           nextTrack = pickFromPool(tamilTracks);
         } else {
@@ -1083,7 +1106,7 @@ export default function Home() {
         prefetchRef.current = { track: nextTrack, forRadio };
       }
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, resolveVideoId, browseView, filteredTracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, ilaiyaraajaMode, ilaiyaraajaTracks, tamilMode, tamilTracks, sectionMode, sectionTracks, resolveVideoId, browseView, filteredTracks]);
 
   // Trigger prefetch when song starts playing
   useEffect(() => {
