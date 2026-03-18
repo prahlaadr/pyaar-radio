@@ -189,14 +189,6 @@ export function FilterPanel({
                   Tamil
                 </button>
               )}
-              {onIlaiyaraajaToggle && (
-                <button
-                  onClick={onIlaiyaraajaToggle}
-                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
-                >
-                  Ilaiyaraaja
-                </button>
-              )}
               {onSectionToggle && (
                 <>
                   <button
@@ -261,9 +253,20 @@ export function FilterPanel({
             >
               Tamil
             </button>
-            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1">
+            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={onTamilToggle}>
               &larr; back to all
             </span>
+            {onIlaiyaraajaToggle && (
+              <>
+                <div className="w-px bg-[#333] mx-1" />
+                <button
+                  onClick={onIlaiyaraajaToggle}
+                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
+                >
+                  Ilaiyaraaja
+                </button>
+              </>
+            )}
           </div>
         )}
 
