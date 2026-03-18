@@ -329,6 +329,30 @@ export function buildTamilQuery(search: string, bpmMin: number, bpmMax: number):
   `;
 }
 
+export function buildIlaiyaraajaQuery(search: string): string {
+  const conditions: string[] = [];
+
+  if (search) {
+    const s = search.replace(/'/g, "''");
+    conditions.push(`("Track Name" ILIKE '%${s}%' OR Film ILIKE '%${s}%')`);
+  }
+
+  const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+
+  return `
+    SELECT
+      "Track Name" as trackName,
+      Film as artistNames,
+      '' as albumName,
+      NULL as tempo,
+      '' as duration,
+      "Video ID" as videoId
+    FROM ilaiyaraaja
+    ${where}
+    ORDER BY Film, "Track Name"
+  `;
+}
+
 export function buildTracksQuery(
   artistName: string,
   aliases: string[],

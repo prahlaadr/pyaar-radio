@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery } from "@/lib/queries";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
@@ -31,8 +31,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; section: SectionMode; view: "artists" | "tracks" } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, section: "browse", view: "artists" };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks" } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, ilaiyaraaja: false, section: "browse", view: "artists" };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -70,14 +70,15 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
   const pathname = window.location.pathname;
-  const tamil = pathname === "/tamil";
+  const ilaiyaraaja = pathname === "/tamil/ilaiyaraaja";
+  const tamil = pathname === "/tamil" || ilaiyaraaja;
   const section: SectionMode = pathname === "/ambient" ? "ambient" : pathname === "/downtempo" ? "downtempo" : "browse";
   const view = p.get("view") === "tracks" ? "tracks" as const : "artists" as const;
 
-  return { filters, artist, tab, track, autoplay, tamil, section, view };
+  return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean): string {
   const p = new URLSearchParams();
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
   if (filters.samay) p.set("samay", filters.samay);
@@ -92,7 +93,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
-  const basePath = tamil ? "/tamil" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
+  const basePath = ilaiyaraaja ? "/tamil/ilaiyaraaja" : tamil ? "/tamil" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
   return str ? `${basePath}?${str}` : basePath;
 }
@@ -181,6 +182,9 @@ export default function Home() {
   const [tamilSearch, setTamilSearch] = useState("");
   const [tamilBpmMin, setTamilBpmMin] = useState(0);
   const [tamilBpmMax, setTamilBpmMax] = useState(300);
+  const [ilaiyaraajaMode, setIlaiyaraajaMode] = useState(urlInit.current.ilaiyaraaja);
+  const [ilaiyaraajaTracks, setIlaiyaraajaTracks] = useState<Track[]>([]);
+  const [ilaiyaraajaSearch, setIlaiyaraajaSearch] = useState("");
   const [browseView, setBrowseView] = useState<"artists" | "tracks">(urlInit.current.view);
   const [filteredTracks, setFilteredTracks] = useState<Track[]>([]);
   const [filteredTracksLoading, setFilteredTracksLoading] = useState(false);
@@ -287,17 +291,17 @@ export default function Home() {
   }, [loading]);
 
   const buildShareUrl = useCallback(() => {
-    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode, browseView, sectionMode);
+    const params = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, null, tamilMode, browseView, sectionMode, ilaiyaraajaMode);
     const base = window.location.origin;
     const sep = params.includes("?") ? "&" : "?";
     return `${base}${params}${sep}autoplay=1`;
-  }, [filters, selectedArtist, tab, tamilMode, browseView, sectionMode]);
+  }, [filters, selectedArtist, tab, tamilMode, browseView, sectionMode, ilaiyaraajaMode]);
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView, sectionMode);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView, sectionMode, ilaiyaraajaMode);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView, sectionMode]);
+  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView, sectionMode, ilaiyaraajaMode]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
@@ -528,6 +532,41 @@ export default function Home() {
       }
     })();
   }, [tamilMode, tamilSearch, tamilBpmMin, tamilBpmMax]);
+
+  // Ilaiyaraaja mode: query ilaiyaraaja table
+  useEffect(() => {
+    if (!ilaiyaraajaMode) return;
+    (async () => {
+      try {
+        const sql = buildIlaiyaraajaQuery(ilaiyaraajaSearch);
+        const rows = await query<{
+          trackName: string;
+          artistNames: string;
+          albumName: string;
+          tempo: number | null;
+          duration: string;
+          videoId: string;
+        }>(sql);
+        setIlaiyaraajaTracks(
+          rows.map((r) => ({
+            trackName: r.trackName || "",
+            artistNames: r.artistNames || "",
+            albumName: r.albumName || "",
+            genres: [],
+            tempo: Number(r.tempo) || 0,
+            duration: r.duration || "",
+            key: 0,
+            popularity: 0,
+            videoId: r.videoId || "",
+            soundcloudId: "",
+            bandcampId: "",
+          }))
+        );
+      } catch {
+        setIlaiyaraajaTracks([]);
+      }
+    })();
+  }, [ilaiyaraajaMode, ilaiyaraajaSearch]);
 
   // Filtered tracks view: all tracks for current filtered artists + BPM
   useEffect(() => {
@@ -1593,7 +1632,7 @@ export default function Home() {
               onChange={setFilters}
               artistCount={artists.length}
               tamilMode={tamilMode}
-              onTamilToggle={() => { setTamilMode((v) => !v); setSectionMode("browse"); }}
+              onTamilToggle={() => { setTamilMode((v) => !v); setIlaiyaraajaMode(false); setSectionMode("browse"); }}
               tamilSearch={tamilSearch}
               onTamilSearchChange={setTamilSearch}
               tamilBpmMin={tamilBpmMin}
@@ -1621,6 +1660,17 @@ export default function Home() {
               sectionTrackCount={sectionTracks.length}
               sectionDesi={sectionDesi}
               onSectionDesiChange={setSectionDesi}
+              ilaiyaraajaMode={ilaiyaraajaMode}
+              onIlaiyaraajaToggle={() => {
+                setIlaiyaraajaMode((v) => {
+                  if (!v) { setTamilMode(true); setSectionMode("browse"); }
+                  return !v;
+                });
+              }}
+              onBackToTamil={() => { setIlaiyaraajaMode(false); setTamilMode(true); }}
+              ilaiyaraajaSearch={ilaiyaraajaSearch}
+              onIlaiyaraajaSearchChange={setIlaiyaraajaSearch}
+              ilaiyaraajaTrackCount={ilaiyaraajaTracks.length}
             />
 
             {loading ? (
@@ -1630,6 +1680,18 @@ export default function Home() {
                   <p className="text-[#666] text-xs uppercase tracking-widest">Loading</p>
                 </div>
               </div>
+            ) : ilaiyaraajaMode ? (
+              <SectionTrackList
+                tracks={ilaiyaraajaTracks}
+                label="Ilaiyaraaja"
+                search={ilaiyaraajaSearch}
+                onSearchChange={setIlaiyaraajaSearch}
+                accentColor="red"
+                nowPlaying={nowPlaying}
+                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                onAddToSetlist={addToSetlist}
+                emptyMessage={ilaiyaraajaSearch ? "No results" : "No tracks loaded"}
+              />
             ) : tamilMode ? (
               <SectionTrackList
                 tracks={tamilTracks}

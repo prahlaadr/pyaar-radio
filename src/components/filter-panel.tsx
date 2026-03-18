@@ -33,12 +33,19 @@ interface Props {
   sectionTrackCount?: number;
   sectionDesi?: string;
   onSectionDesiChange?: (v: string) => void;
+  ilaiyaraajaMode?: boolean;
+  onIlaiyaraajaToggle?: () => void;
+  onBackToTamil?: () => void;
+  ilaiyaraajaSearch?: string;
+  onIlaiyaraajaSearchChange?: (search: string) => void;
+  ilaiyaraajaTrackCount?: number;
 }
 
 const SECTION_STYLES: Record<string, { hover: string; active: string; text: string; border: string }> = {
   tamil: { hover: "hover:text-amber-400", active: "bg-amber-600 text-white", text: "text-amber-400", border: "focus:border-amber-500" },
   downtempo: { hover: "hover:text-cyan-400", active: "bg-cyan-600 text-white", text: "text-cyan-400", border: "focus:border-cyan-500" },
   ambient: { hover: "hover:text-purple-400", active: "bg-purple-600 text-white", text: "text-purple-400", border: "focus:border-purple-500" },
+  ilaiyaraaja: { hover: "hover:text-red-400", active: "bg-red-600 text-white", text: "text-red-400", border: "focus:border-red-500" },
 };
 
 export function FilterPanel({
@@ -52,6 +59,9 @@ export function FilterPanel({
   sectionBpmMin = 0, sectionBpmMax = 300, onSectionBpmChange,
   sectionTrackCount,
   sectionDesi, onSectionDesiChange,
+  ilaiyaraajaMode, onIlaiyaraajaToggle, onBackToTamil,
+  ilaiyaraajaSearch, onIlaiyaraajaSearchChange,
+  ilaiyaraajaTrackCount,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
 
@@ -89,12 +99,15 @@ export function FilterPanel({
           type="text"
           placeholder="SEARCH..."
           value={
+            ilaiyaraajaMode ? (ilaiyaraajaSearch ?? "") :
             tamilMode ? (tamilSearch ?? "") :
             (sectionMode === "downtempo" || sectionMode === "ambient") ? (sectionSearch ?? "") :
             filters.search
           }
           onChange={(e) => {
-            if (tamilMode && onTamilSearchChange) {
+            if (ilaiyaraajaMode && onIlaiyaraajaSearchChange) {
+              onIlaiyaraajaSearchChange(e.target.value);
+            } else if (tamilMode && onTamilSearchChange) {
               onTamilSearchChange(e.target.value);
             } else if ((sectionMode === "downtempo" || sectionMode === "ambient") && onSectionSearchChange) {
               onSectionSearchChange(e.target.value);
@@ -103,13 +116,14 @@ export function FilterPanel({
             }
           }}
           className={`flex-1 px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none transition-colors ${
+            ilaiyaraajaMode ? "focus:border-red-500" :
             tamilMode ? "focus:border-amber-500" :
             sectionMode === "downtempo" ? "focus:border-cyan-500" :
             sectionMode === "ambient" ? "focus:border-purple-500" :
             "focus:border-red-500"
           }`}
         />
-        {!tamilMode && sectionMode === "browse" && (
+        {!tamilMode && !ilaiyaraajaMode && sectionMode === "browse" && (
           <button
             onClick={() => setExpanded(!expanded)}
             className="md:hidden px-2 py-1.5 bg-[#111] border border-[#333] text-[10px] uppercase tracking-wider text-[#888] hover:text-white transition-colors shrink-0"
@@ -120,8 +134,8 @@ export function FilterPanel({
       </div>
 
       {/* Filter body — always visible on desktop, toggle on mobile */}
-      <div className={`space-y-3 ${(tamilMode || sectionMode !== "browse") ? "" : expanded ? "" : "hidden md:block"}`}>
-        {!tamilMode && sectionMode === "browse" && (
+      <div className={`space-y-3 ${(ilaiyaraajaMode || tamilMode || sectionMode !== "browse") ? "" : expanded ? "" : "hidden md:block"}`}>
+        {!tamilMode && !ilaiyaraajaMode && sectionMode === "browse" && (
           <>
             {/* Channels */}
             <div className="flex gap-1">
@@ -175,6 +189,14 @@ export function FilterPanel({
                   Tamil
                 </button>
               )}
+              {onIlaiyaraajaToggle && (
+                <button
+                  onClick={onIlaiyaraajaToggle}
+                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
+                >
+                  Ilaiyaraaja
+                </button>
+              )}
               {onSectionToggle && (
                 <>
                   <button
@@ -212,8 +234,26 @@ export function FilterPanel({
           </>
         )}
 
+        {/* Ilaiyaraaja mode header */}
+        {ilaiyaraajaMode && onBackToTamil && (
+          <div className="flex gap-1 flex-wrap items-center">
+            <button
+              onClick={onBackToTamil}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-red-600 text-white"
+            >
+              Ilaiyaraaja
+            </button>
+            <span
+              className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors"
+              onClick={onBackToTamil}
+            >
+              &larr; back to tamil
+            </span>
+          </div>
+        )}
+
         {/* Tamil mode header */}
-        {tamilMode && onTamilToggle && (
+        {tamilMode && !ilaiyaraajaMode && onTamilToggle && (
           <div className="flex gap-1 flex-wrap items-center">
             <button
               onClick={onTamilToggle}
@@ -257,8 +297,8 @@ export function FilterPanel({
           </div>
         )}
 
-        {/* BPM Range — shown in all modes */}
-        <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
+        {/* BPM Range — shown in all modes except Ilaiyaraaja */}
+        {!ilaiyaraajaMode && <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
           <span>BPM</span>
           <input
             type="text"
@@ -316,11 +356,17 @@ export function FilterPanel({
               &times;2
             </button>
           )}
-        </div>
+        </div>}
       </div>
 
       {/* Count — always visible */}
-      {tamilMode ? (
+      {ilaiyaraajaMode ? (
+        ilaiyaraajaTrackCount !== undefined && (
+          <div className="text-[10px] text-red-600/70 uppercase tracking-wider">
+            {ilaiyaraajaTrackCount} track{ilaiyaraajaTrackCount !== 1 ? "s" : ""}
+          </div>
+        )
+      ) : tamilMode ? (
         tamilTrackCount !== undefined && (
           <div className="text-[10px] text-amber-600/70 uppercase tracking-wider">
             {tamilTrackCount} track{tamilTrackCount !== 1 ? "s" : ""}

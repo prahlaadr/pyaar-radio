@@ -49,6 +49,17 @@ async function init() {
     console.warn("Failed to fetch tamil.csv");
   }
 
+  // Ilaiyaraaja CSV — non-blocking
+  try {
+    const irResp = await fetch("/data/ilaiyaraaja.csv");
+    if (irResp.ok) {
+      const irBuf = new Uint8Array(await irResp.arrayBuffer());
+      await db.registerFileBuffer("ilaiyaraaja.csv", irBuf);
+    }
+  } catch {
+    console.warn("Failed to fetch ilaiyaraaja.csv");
+  }
+
   conn = await db.connect();
 
   await conn.query(`
@@ -77,6 +88,16 @@ async function init() {
     await conn.query(`CREATE TABLE tamil (
       "Track Name" VARCHAR, "Artist" VARCHAR, "Album" VARCHAR,
       "Tempo" VARCHAR, "Duration" VARCHAR, "Video ID" VARCHAR
+    )`);
+  }
+  try {
+    await conn.query(`
+      CREATE TABLE ilaiyaraaja AS SELECT * FROM read_csv_auto('ilaiyaraaja.csv', all_varchar=true)
+    `);
+  } catch (e) {
+    console.warn("Failed to load ilaiyaraaja.csv:", e);
+    await conn.query(`CREATE TABLE ilaiyaraaja (
+      "Track Name" VARCHAR, "Film" VARCHAR, "Video ID" VARCHAR
     )`);
   }
 }
