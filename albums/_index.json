@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2908,
- "totalTracks": 37715,
- "syncedAt": "2026-03-19T08:43:38.616288Z",
+ "albumCount": 2906,
+ "totalTracks": 37693,
+ "syncedAt": "2026-03-20T08:42:12.364009Z",
  "albums": [
   {
    "browseId": "MPREb_0K6QZkMjHgO",
@@ -173,21 +173,9 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_Z6UIDEN8sjw",
-   "title": "From Deep Within",
-   "artist": "Raveena",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_Al1S8Rm9WOt",
    "title": "Kabhi",
    "artist": "El Michels Affair",
-   "trackCount": 1
-  },
-  {
-   "browseId": "MPREb_jc5U00lgNUP",
-   "title": "Acesso do Mano",
-   "artist": "Pharrell",
    "trackCount": 1
   },
   {
@@ -5841,12 +5829,6 @@
    "title": "Static",
    "artist": "Cults",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_3J49aAhE4WI",
-   "title": "Run The Jewels 3",
-   "artist": "Run The Jewels",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_XnB79q5BV4n",
@@ -13647,6 +13629,12 @@
    "title": "Make Sure They See My Face",
    "artist": "Kenna",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_0E0VSlGU3kU",
+   "title": "Purifying Fire",
+   "artist": "Lustmord",
+   "trackCount": 6
   },
   {
    "browseId": "MPREb_ihHOViRwZMK",

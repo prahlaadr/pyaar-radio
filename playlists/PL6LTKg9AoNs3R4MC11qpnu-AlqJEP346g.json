@@ -1,9 +1,51 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1252,
- "syncedAt": "2026-03-19T08:43:40.256986Z",
+ "trackCount": 1258,
+ "syncedAt": "2026-03-20T08:42:14.387995Z",
  "tracks": [
+  {
+   "title": "We Don't Have to Be Alone",
+   "artist": "Thee Sacred Souls",
+   "album": "We Don't Have to Be Alone",
+   "videoId": "VXkuUdv-w04",
+   "duration": "2:47"
+  },
+  {
+   "title": "Kiss Me Thru The Phone",
+   "artist": "Shred Meyer",
+   "album": "Shrovers",
+   "videoId": "N81dScKVUi4",
+   "duration": "3:25"
+  },
+  {
+   "title": "Swimming Pools (Drank)",
+   "artist": "Shred Meyer",
+   "album": "Shrovers",
+   "videoId": "uUsxsjKDUmg",
+   "duration": "3:32"
+  },
+  {
+   "title": "ROXANNE",
+   "artist": "Shred Meyer",
+   "album": "Shrovers",
+   "videoId": "-cSQWf6ZX5s",
+   "duration": "2:29"
+  },
+  {
+   "title": "Black Beatles",
+   "artist": "Shred Meyer",
+   "album": "Black Beatles",
+   "videoId": "YD69FQuPvjU",
+   "duration": "4:08"
+  },
+  {
+   "title": "Trap Queen",
+   "artist": "Shred Meyer",
+   "album": "Shrovers II",
+   "videoId": "QrHeNDJb3yM",
+   "duration": "3:30"
+  },
   {
    "title": "The Dreamer (feat. Talib Kweli & Timan Family Choir)",
    "artist": "Anderson .Paak",
