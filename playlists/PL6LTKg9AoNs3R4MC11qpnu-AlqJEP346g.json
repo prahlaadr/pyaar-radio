@@ -1,9 +1,44 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1258,
- "syncedAt": "2026-03-20T08:42:14.387995Z",
+ "trackCount": 1263,
+ "syncedAt": "2026-03-21T08:35:46.917177Z",
  "tracks": [
+  {
+   "title": "What You Won't Do for Love",
+   "artist": "Bobby Caldwell",
+   "album": "What You Won't Do for Love",
+   "videoId": "n9DmdAwUbxc",
+   "duration": "4:47"
+  },
+  {
+   "title": "What We Do (feat. JAY-Z & Beanie Sigel)",
+   "artist": "Freeway",
+   "album": "Philadelphia Freeway",
+   "videoId": "ITSVEXkuadk",
+   "duration": "3:50"
+  },
+  {
+   "title": "I Just Can't See Myself Without You",
+   "artist": "Creative Source",
+   "album": "Migration",
+   "videoId": "aLtQPpoFP2I",
+   "duration": "7:25"
+  },
+  {
+   "title": "Red Red Wine",
+   "artist": "UB40",
+   "album": "Labour Of Love",
+   "videoId": "2DTrMa-r56Y",
+   "duration": "5:21"
+  },
+  {
+   "title": "Love Rollercoaster",
+   "artist": "Ohio Players",
+   "album": "Gold",
+   "videoId": "JLzblwij078",
+   "duration": "4:45"
+  },
   {
    "title": "We Don't Have to Be Alone",
    "artist": "Thee Sacred Souls",
@@ -868,8 +903,8 @@
   {
    "title": "Aperture",
    "artist": "Harry Styles",
-   "album": "Aperture",
-   "videoId": "FukSr00Qnro",
+   "album": "Kiss All The Time. Disco, Occasionally.",
+   "videoId": "nWver4dsrY8",
    "duration": "5:12"
   },
   {

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2906,
- "totalTracks": 37693,
- "syncedAt": "2026-03-20T08:42:12.364009Z",
+ "albumCount": 2896,
+ "totalTracks": 37554,
+ "syncedAt": "2026-03-21T08:35:44.911711Z",
  "albums": [
   {
    "browseId": "MPREb_0K6QZkMjHgO",
@@ -773,18 +773,6 @@
    "trackCount": 7
   },
   {
-   "browseId": "MPREb_Z5U42mLM1RC",
-   "title": "The Ineffable Truth",
-   "artist": "G Jones",
-   "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_lR9PH9hMbrM",
-   "title": "Elaenia (10 Year Anniversary)",
-   "artist": "Floating Points",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_LzrQBRAT8ea",
    "title": "Syntheism",
    "artist": "Eprom",
@@ -875,18 +863,6 @@
    "trackCount": 30
   },
   {
-   "browseId": "MPREb_pbprrjxqFZk",
-   "title": "Proof of Life",
-   "artist": "Boombox Cartel",
-   "trackCount": 18
-  },
-  {
-   "browseId": "MPREb_dDwh7PJ0Nf0",
-   "title": "Lazarus (Adult Swim Original Series Soundtrack)",
-   "artist": "Bonobo",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_YXD25K1MImf",
    "title": "Late Night Tales: Barry Can't Swim (LNT Mix)",
    "artist": "Barry Can't Swim",
@@ -953,34 +929,16 @@
    "trackCount": 8
   },
   {
-   "browseId": "MPREb_iGWk4xPvqIC",
-   "title": "Sweet Justice",
-   "artist": "Tkay Maidza",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_Iq2pPP5uj7i",
    "title": "Midnight Paradise",
    "artist": "The PropheC",
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_eRSHCm7HF3a",
-   "title": "Maybe in Nirvana",
-   "artist": "Smino",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_U6ZB1m1Fzek",
    "title": "The Lost Files",
    "artist": "Ski Mask The Slump God",
    "trackCount": 29
-  },
-  {
-   "browseId": "MPREb_a5Q9JFfCegw",
-   "title": "Geek Monster",
-   "artist": "RRoxket",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_2EfaXYKrZlK",
@@ -995,12 +953,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_ixfbA4zK0Nj",
-   "title": "MUSIC - SORRY 4 DA WAIT",
-   "artist": "Playboi Carti",
-   "trackCount": 34
-  },
-  {
    "browseId": "MPREb_Itqqb4yOi2Y",
    "title": "Stankonia (25th Anniversary)",
    "artist": "Outkast",
@@ -1013,12 +965,6 @@
    "trackCount": 17
   },
   {
-   "browseId": "MPREb_omOY07YuxLy",
-   "title": "Tere Liye",
-   "artist": "Nanku",
-   "trackCount": 1
-  },
-  {
    "browseId": "MPREb_1MzUYF9lu0K",
    "title": "A MURDER OF CROWS",
    "artist": "Mick Jenkins",
@@ -1029,12 +975,6 @@
    "title": "Baggy Eyes 2",
    "artist": "Michael Christmas",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_i7HHajvvJFD",
-   "title": "Champagne for Breakfast (Dusted Edition)",
-   "artist": "DJ Muggs",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_NNQn7ZjdX5X",
