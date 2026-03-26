@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 12,
- "syncedAt": "2026-03-25T08:53:42.075467Z",
+ "trackCount": 14,
+ "syncedAt": "2026-03-26T08:58:17.978648Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -83,10 +83,24 @@
   },
   {
    "title": "AAA",
-   "artist": "Mike WiLL Made-It & Sid Sriram",
+   "artist": "Mike WiLL Made-It;Sid Sriram",
    "album": "R3SET",
    "videoId": "ihSOZlk-sMI",
    "duration": "3:09"
+  },
+  {
+   "title": "Sweet Dreams (Are Made Of This)",
+   "artist": "Anish Kumar;Arooj Aftab",
+   "album": "Bait (Music From The Original Series)",
+   "videoId": "tjkyPEzaaWE",
+   "duration": "3:30"
+  },
+  {
+   "title": "Earth, Wind & California",
+   "artist": "Yebba",
+   "album": "Jean",
+   "videoId": "TG0NRBvYLJA",
+   "duration": "3:05"
   }
  ]
 }

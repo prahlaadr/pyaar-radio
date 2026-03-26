@@ -1,9 +1,44 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1264,
- "syncedAt": "2026-03-25T08:53:42.075467Z",
+ "trackCount": 1269,
+ "syncedAt": "2026-03-26T08:58:17.978648Z",
  "tracks": [
+  {
+   "title": "Earth, Wind & California",
+   "artist": "Yebba",
+   "album": "Jean",
+   "videoId": "TG0NRBvYLJA",
+   "duration": "3:05"
+  },
+  {
+   "title": "Until The Sun Explodes",
+   "artist": "Sublime",
+   "album": "Until The Sun Explodes",
+   "videoId": "2RFDw3iBuqs",
+   "duration": "2:59"
+  },
+  {
+   "title": "Perfect We Are Not",
+   "artist": "Soulwax",
+   "album": "Perfect We Are Not",
+   "videoId": "UlAR3NILAYc",
+   "duration": "7:26"
+  },
+  {
+   "title": "Sweet Dreams (Are Made Of This)",
+   "artist": "Anish Kumar;Arooj Aftab",
+   "album": "Bait (Music From The Original Series)",
+   "videoId": "tjkyPEzaaWE",
+   "duration": "3:30"
+  },
+  {
+   "title": "Sweet Dreams (Are Made of This)",
+   "artist": "Eurythmics",
+   "album": "Sweet Dreams (Are Made Of This)",
+   "videoId": "i5_asj1BGFs",
+   "duration": "3:38"
+  },
   {
    "title": "Clocks (feat. Coldplay)",
    "artist": "Rhythms Del Mundo",

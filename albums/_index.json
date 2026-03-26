@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2906,
- "totalTracks": 37693,
- "syncedAt": "2026-03-25T08:53:40.361422Z",
+ "albumCount": 2908,
+ "totalTracks": 37725,
+ "syncedAt": "2026-03-26T08:58:15.952545Z",
  "albums": [
+  {
+   "browseId": "MPREb_4q3qsC8MmW6",
+   "title": "Jean",
+   "artist": "Yebba",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_ZNcbAmqEJFy",
+   "title": "R3SET (EXT3ND3D)",
+   "artist": "Mike WiLL Made-It",
+   "trackCount": 18
+  },
   {
    "browseId": "MPREb_0K6QZkMjHgO",
    "title": "The Unseen",
