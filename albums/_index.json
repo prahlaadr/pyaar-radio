@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2908,
- "totalTracks": 37725,
- "syncedAt": "2026-03-27T08:55:39.523783Z",
+ "albumCount": 2911,
+ "totalTracks": 37765,
+ "syncedAt": "2026-03-28T08:40:41.326265Z",
  "albums": [
+  {
+   "browseId": "MPREb_w5xAWCd4Pgi",
+   "title": "Wreckage Is A Mountain",
+   "artist": "Manni Dee",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_JvnsB2tcqHT",
+   "title": "Exodus (Deluxe Edition)",
+   "artist": "Bob Marley & The Wailers",
+   "trackCount": 30
+  },
+  {
+   "browseId": "MPREb_CTsGpxxRbok",
+   "title": "MikroEP",
+   "artist": "Kartik",
+   "trackCount": 5
+  },
   {
    "browseId": "MPREb_4q3qsC8MmW6",
    "title": "Jean",

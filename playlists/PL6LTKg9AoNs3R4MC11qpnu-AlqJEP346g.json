@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1269,
- "syncedAt": "2026-03-27T08:55:41.036191Z",
+ "trackCount": 1272,
+ "syncedAt": "2026-03-28T08:40:43.531898Z",
  "tracks": [
+  {
+   "title": "Roots",
+   "artist": "Bob Marley & The Wailers",
+   "album": "Exodus (Deluxe Edition)",
+   "videoId": "e5nzpyH3XRM",
+   "duration": "3:46"
+  },
+  {
+   "title": "Better in the Dark",
+   "artist": "Jordana;TV Girl",
+   "album": "Summer's Over",
+   "videoId": "pqZOj9O8bxc",
+   "duration": "2:36"
+  },
+  {
+   "title": "The Winner Takes It All",
+   "artist": "ABBA",
+   "album": "Super Trouper",
+   "videoId": "WbnG3eAGb6Y",
+   "duration": "4:55"
+  },
   {
    "title": "Earth, Wind & California",
    "artist": "Yebba",
@@ -593,7 +614,7 @@
    "duration": "3:52"
   },
   {
-   "title": "This Is The Life (From \"Hannah Montana\"/Soundtrack Version)",
+   "title": "This Is The Life",
    "artist": "Hannah Montana",
    "album": "Hannah Montana",
    "videoId": "6CIyQWDpCEg",
