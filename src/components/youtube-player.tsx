@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState, useCallback, useImperativeHandle, forwardRef } from "react";
 import type { Track } from "@/lib/types";
+import { ensureYTAPI } from "@/lib/youtube-api";
+import type { YTEvent, YTPlayer } from "@/lib/youtube-api";
 
 export interface YouTubePlayerHandle {
   toggle: () => void;
@@ -32,40 +34,8 @@ interface SCWidgetAPI {
 
 declare global {
   interface Window {
-    YT: {
-      Player: new (
-        el: string | HTMLElement,
-        config: {
-          height: string;
-          width: string;
-          videoId?: string;
-          playerVars?: Record<string, number | string>;
-          events?: Record<string, (e: YTEvent) => void>;
-        }
-      ) => YTPlayer;
-      PlayerState: { PLAYING: number; PAUSED: number; ENDED: number; BUFFERING: number };
-    };
-    onYouTubeIframeAPIReady: () => void;
     SC: { Widget: SCWidgetAPI };
   }
-}
-
-interface YTEvent {
-  data: number;
-  target: YTPlayer;
-}
-
-interface YTPlayer {
-  loadVideoById: (videoId: string) => void;
-  playVideo: () => void;
-  pauseVideo: () => void;
-  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
-  destroy: () => void;
-  getPlayerState: () => number;
-  getCurrentTime: () => number;
-  getDuration: () => number;
-  setVolume: (volume: number) => void;
-  getVolume: () => number;
 }
 
 interface Props {
@@ -78,29 +48,6 @@ interface Props {
   onPrev?: () => void;
   onAddToSetlist?: (track: Track) => void;
   onArtistClick?: (artistName: string) => void;
-}
-
-let apiLoaded = false;
-let apiReady = false;
-const readyCallbacks: (() => void)[] = [];
-
-function ensureAPI(cb: () => void) {
-  if (apiReady) {
-    cb();
-    return;
-  }
-  readyCallbacks.push(cb);
-  if (!apiLoaded) {
-    apiLoaded = true;
-    const tag = document.createElement("script");
-    tag.src = "https://www.youtube.com/iframe_api";
-    document.head.appendChild(tag);
-    window.onYouTubeIframeAPIReady = () => {
-      apiReady = true;
-      for (const fn of readyCallbacks) fn();
-      readyCallbacks.length = 0;
-    };
-  }
 }
 
 let scApiLoaded = false;
@@ -356,7 +303,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     }
 
     // Create player
-    ensureAPI(() => {
+    ensureYTAPI(() => {
       if (!containerRef.current) return;
       playerRef.current = new window.YT.Player(containerRef.current, {
         height: "36",
