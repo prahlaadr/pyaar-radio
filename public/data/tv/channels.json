@@ -1,0 +1,166 @@
+{
+  "channels": [
+    {
+      "id": "dj-sets",
+      "name": "DJ Sets",
+      "number": 1,
+      "color": "#ef4444",
+      "videos": [
+        { "videoId": "bk7McNUjWgw", "title": "Four Tet - Boiler Room London", "durationSeconds": 4200 },
+        { "videoId": "ZMi0GXDQWSU", "title": "Floating Points - Boiler Room London", "durationSeconds": 3900 },
+        { "videoId": "0XRGJrnB3n8", "title": "Jayda G - Boiler Room Festival", "durationSeconds": 3600 },
+        { "videoId": "gDnE-0ME3BM", "title": "Peggy Gou - Boiler Room Berlin", "durationSeconds": 4500 },
+        { "videoId": "WK4HHaNhcgU", "title": "DJ Shadow - Boiler Room London", "durationSeconds": 3600 },
+        { "videoId": "K1VUkvSraU4", "title": "Skrillex - Boiler Room LA", "durationSeconds": 3600 }
+      ]
+    },
+    {
+      "id": "live-performances",
+      "name": "Live Performances",
+      "number": 2,
+      "color": "#f59e0b",
+      "videos": [
+        { "videoId": "ferZnZ0_rSY", "title": "Anderson .Paak - Tiny Desk Concert", "durationSeconds": 1080 },
+        { "videoId": "QhZKaQcEd_s", "title": "Mac Miller - Tiny Desk Concert", "durationSeconds": 1200 },
+        { "videoId": "Mos8UhWr2U4", "title": "Khruangbin - Tiny Desk Concert", "durationSeconds": 1020 },
+        { "videoId": "fOexKMbcXEU", "title": "Erykah Badu - Tiny Desk Concert", "durationSeconds": 1380 },
+        { "videoId": "uwUt1fVLb3E", "title": "Tyler The Creator - Tiny Desk Concert", "durationSeconds": 1080 },
+        { "videoId": "LJNj3p7cXOg", "title": "Noname - Tiny Desk Concert", "durationSeconds": 960 }
+      ]
+    },
+    {
+      "id": "music-docs",
+      "name": "Music Docs",
+      "number": 3,
+      "color": "#8b5cf6",
+      "videos": [
+        { "videoId": "kB_1GRCJ2NQ", "title": "808: The Movie (808 Drum Machine Documentary)", "durationSeconds": 5400 },
+        { "videoId": "P8kJ_MJ0L0A", "title": "Quincy Jones: The Many Lives of Q", "durationSeconds": 5400 },
+        { "videoId": "SINl5JY7LhI", "title": "Daft Punk Unchained", "durationSeconds": 5400 },
+        { "videoId": "y3SBM5JYLbI", "title": "Sound City - Dave Grohl Documentary", "durationSeconds": 6600 }
+      ]
+    },
+    {
+      "id": "ilaiyaraaja",
+      "name": "Ilaiyaraaja",
+      "number": 4,
+      "color": "#dc2626",
+      "videos": [
+        { "videoId": "cGcfHO5iBTQ", "title": "Ilaiyaraaja - How To Name It (Full Album)", "durationSeconds": 2700 },
+        { "videoId": "qLfeBkFBhJ0", "title": "Ilaiyaraaja Live in Concert", "durationSeconds": 7200 },
+        { "videoId": "rk1va5YhFiA", "title": "Roja Kaadhal Rojave - Ilaiyaraaja", "durationSeconds": 300 },
+        { "videoId": "w4JPlvR0Bao", "title": "Pudhu Vellai Mazhai - Roja", "durationSeconds": 360 },
+        { "videoId": "LsjIANj0k3A", "title": "Ilaiyaraaja Greatest Hits Collection", "durationSeconds": 5400 }
+      ]
+    },
+    {
+      "id": "ramana-balachandran",
+      "name": "Ramana Balachandran",
+      "number": 5,
+      "color": "#f97316",
+      "videos": [
+        { "videoId": "SOGzYx9egrI", "title": "Ramana Balachandran - Carnatic Violin", "durationSeconds": 3600 },
+        { "videoId": "fTHnxvAVmcI", "title": "Ramana Balachandran - Raag Performance", "durationSeconds": 2400 }
+      ]
+    },
+    {
+      "id": "carnatic",
+      "name": "Carnatic",
+      "number": 6,
+      "color": "#eab308",
+      "videos": [
+        { "videoId": "uT2nMJOOxiI", "title": "TM Krishna - Carnatic Vocal Concert", "durationSeconds": 5400 },
+        { "videoId": "A9kQRAMnCBs", "title": "Sanjay Subrahmanyan - Carnatic Concert", "durationSeconds": 7200 },
+        { "videoId": "pu4-6LD6sBc", "title": "Bombay Jayashri - Classical Vocal", "durationSeconds": 3600 }
+      ]
+    },
+    {
+      "id": "nts-radio",
+      "name": "NTS Radio",
+      "number": 7,
+      "color": "#06b6d4",
+      "videos": [
+        { "videoId": "K5z_RBdVQO4", "title": "NTS Live Session - Floating Points", "durationSeconds": 3600 },
+        { "videoId": "y67pKBm3eTg", "title": "NTS Radio - DJ Stingray Mix", "durationSeconds": 3600 },
+        { "videoId": "WYz60XkFXt4", "title": "NTS x Boiler Room", "durationSeconds": 3600 }
+      ]
+    },
+    {
+      "id": "jeopardy",
+      "name": "Jeopardy",
+      "number": 8,
+      "color": "#3b82f6",
+      "videos": [
+        { "videoId": "kYPqUr0ZHPE", "title": "Jeopardy! Greatest Moments", "durationSeconds": 2700 },
+        { "videoId": "nGlUNJkPKkI", "title": "Jeopardy! Tournament of Champions", "durationSeconds": 2700 },
+        { "videoId": "7a6FS5y5FxY", "title": "Jeopardy! Best of Ken Jennings", "durationSeconds": 3600 }
+      ]
+    },
+    {
+      "id": "tom-and-jerry",
+      "name": "Tom & Jerry",
+      "number": 9,
+      "color": "#a855f7",
+      "videos": [
+        { "videoId": "uarR7m-5dUI", "title": "Tom & Jerry Classic Collection Vol. 1", "durationSeconds": 5400 },
+        { "videoId": "P0BPnMErKs0", "title": "Tom & Jerry Classic Collection Vol. 2", "durationSeconds": 5400 },
+        { "videoId": "nF-SR4Rlwzk", "title": "Tom & Jerry Classic Collection Vol. 3", "durationSeconds": 5400 }
+      ]
+    },
+    {
+      "id": "bts",
+      "name": "BTS",
+      "number": 10,
+      "color": "#ec4899",
+      "videos": [
+        { "videoId": "gdZLi9oWNZg", "title": "BTS - Dynamite", "durationSeconds": 222 },
+        { "videoId": "7C2z4GqqS5E", "title": "BTS - Butter", "durationSeconds": 189 },
+        { "videoId": "MBdVXkSdhwU", "title": "BTS - Boy With Luv ft. Halsey", "durationSeconds": 247 },
+        { "videoId": "XsX3ATc3FbA", "title": "BTS - Fake Love", "durationSeconds": 331 },
+        { "videoId": "pBuZEGYXA6E", "title": "BTS - DNA", "durationSeconds": 253 },
+        { "videoId": "WMweEpGlu_U", "title": "BTS - IDOL", "durationSeconds": 241 },
+        { "videoId": "mPVDGOVjRQ0", "title": "BTS - Spring Day", "durationSeconds": 321 },
+        { "videoId": "CuklIb9d3fI", "title": "BTS - ON (Kinetic Manifesto)", "durationSeconds": 311 }
+      ]
+    },
+    {
+      "id": "top-gear",
+      "name": "Top Gear",
+      "number": 11,
+      "color": "#22c55e",
+      "videos": [
+        { "videoId": "UL1Ey6bVMEo", "title": "Top Gear - Bolivia Special", "durationSeconds": 5400 },
+        { "videoId": "xnWKz7Cthkk", "title": "Top Gear - Vietnam Special", "durationSeconds": 5400 },
+        { "videoId": "PaLk5M0JE0I", "title": "Top Gear - Patagonia Special", "durationSeconds": 5400 },
+        { "videoId": "I7g08nwEmyY", "title": "Top Gear - Best of Challenges", "durationSeconds": 3600 }
+      ]
+    },
+    {
+      "id": "all-gas-no-brakes",
+      "name": "All Gas No Brakes",
+      "number": 12,
+      "color": "#14b8a6",
+      "videos": [
+        { "videoId": "7zWNJHS9itI", "title": "Channel 5 - Burning Man", "durationSeconds": 1200 },
+        { "videoId": "sIBs4dMELdg", "title": "Channel 5 - NRA Convention", "durationSeconds": 900 },
+        { "videoId": "n0CT8hzOIJE", "title": "Channel 5 - Miami Spring Break", "durationSeconds": 1020 },
+        { "videoId": "DAlr_fQMj6E", "title": "Channel 5 - Flat Earth Convention", "durationSeconds": 780 },
+        { "videoId": "8e1OEqrdIxY", "title": "Channel 5 - Proud Boys Rally", "durationSeconds": 900 }
+      ]
+    },
+    {
+      "id": "good-mythical-morning",
+      "name": "Good Mythical Morning",
+      "number": 13,
+      "color": "#84cc16",
+      "videos": [
+        { "videoId": "Z6jnFMsLD80", "title": "GMM - Will It Smoothie?", "durationSeconds": 900 },
+        { "videoId": "4HuSlMZbgKg", "title": "GMM - Blind Fast Food Taste Test", "durationSeconds": 960 },
+        { "videoId": "ej7dfWsv_w8", "title": "GMM - International Snack Taste Test", "durationSeconds": 1020 },
+        { "videoId": "nxbX2sY_wlE", "title": "GMM - Expired Food Taste Test", "durationSeconds": 900 },
+        { "videoId": "lq3JUCOqdMM", "title": "GMM - Will It Ice Cream?", "durationSeconds": 960 },
+        { "videoId": "FpLR_2SOEEY", "title": "GMM - Weirdest Candy Taste Test", "durationSeconds": 900 }
+      ]
+    }
+  ]
+}

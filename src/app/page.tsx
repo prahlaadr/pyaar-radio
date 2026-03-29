@@ -12,6 +12,9 @@ import { TrackList } from "@/components/track-list";
 import { SectionTrackList } from "@/components/section-track-list";
 import { SetlistPanel } from "@/components/setlist";
 import { ImportModal } from "@/components/import-modal";
+import { PlaylistPicker } from "@/components/playlist-picker";
+import { fetchPlaylistIndex, fetchPlaylist } from "@/lib/playlists";
+import type { PlaylistIndexEntry } from "@/lib/types";
 import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
 import Fuse from "fuse.js";
 import hotkeys from "hotkeys-js";
@@ -169,6 +172,8 @@ export default function Home() {
   const [shareCopied, setShareCopied] = useState(false);
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
+  const [playlistIndex, setPlaylistIndex] = useState<PlaylistIndexEntry[]>([]);
+  const [playlistLoading, setPlaylistLoading] = useState<string | null>(null);
   const [nowPlaying, setNowPlaying] = useState<Track | null>(null);
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
   const [radioMode, setRadioMode] = useState(false);
@@ -374,9 +379,10 @@ export default function Home() {
     }
   }, []);
 
-  // Load vault manifest on mount
+  // Load vault manifest and playlist index on mount
   useEffect(() => {
     fetchSetlistManifest().then(setVaultManifest);
+    fetchPlaylistIndex().then(setPlaylistIndex).catch(() => {});
   }, []);
 
   // Persist to localStorage whenever setlist changes
@@ -1393,6 +1399,112 @@ export default function Home() {
     }
   }, [savedSetlists]);
 
+  const handleLoadPlaylist = useCallback(async (playlistId: string, title: string) => {
+    try {
+      setPlaylistLoading(playlistId);
+      const playlist = await fetchPlaylist(playlistId);
+      const lines = playlist.tracks.map((t) => ({ track: t.title, artist: t.artist }));
+
+      let hydratedTracks: SetlistTrack[];
+
+      if (lines.length > 0) {
+        try {
+          // Batch lookup in chunks to handle large playlists
+          const CHUNK = 200;
+          type MasterlistRow = { trackName: string; artistNames: string; albumName: string; genres: string | null; tempo: number | null; duration: string; key: number | null; popularity: number | null; videoId: string; soundcloudId: string | null; bandcampId: string | null };
+          const lookup = new Map<string, MasterlistRow>();
+
+          for (let i = 0; i < lines.length; i += CHUNK) {
+            const chunk = lines.slice(i, i + CHUNK);
+            const sql = buildBatchTrackLookupQuery(chunk);
+            const rows = await query<MasterlistRow>(sql);
+            for (const r of rows) {
+              lookup.set(r.trackName.toLowerCase(), r);
+            }
+          }
+
+          hydratedTracks = playlist.tracks.map((pt, i) => {
+            const match = lookup.get(pt.title.toLowerCase());
+            const id = `pl-${playlistId}-${i}`;
+            if (match) {
+              return {
+                trackName: match.trackName,
+                artistNames: match.artistNames,
+                albumName: match.albumName || "",
+                genres: match.genres ? match.genres.split(",").map((g) => g.trim()) : [],
+                tempo: Number(match.tempo) || 0,
+                duration: match.duration || "",
+                key: Number(match.key) || 0,
+                popularity: Number(match.popularity) || 0,
+                videoId: match.videoId || pt.videoId || "",
+                soundcloudId: match.soundcloudId || "",
+                bandcampId: match.bandcampId || "",
+                id,
+                position: i,
+              };
+            }
+            return {
+              trackName: pt.title,
+              artistNames: pt.artist,
+              albumName: pt.album || "",
+              genres: [],
+              tempo: 0,
+              duration: pt.duration || "",
+              key: 0,
+              popularity: 0,
+              videoId: pt.videoId || "",
+              soundcloudId: "",
+              bandcampId: "",
+              id,
+              position: i,
+            };
+          });
+        } catch {
+          hydratedTracks = playlist.tracks.map((pt, i) => ({
+            trackName: pt.title,
+            artistNames: pt.artist,
+            albumName: pt.album || "",
+            genres: [],
+            tempo: 0,
+            duration: pt.duration || "",
+            key: 0,
+            popularity: 0,
+            videoId: pt.videoId || "",
+            soundcloudId: "",
+            bandcampId: "",
+            id: `pl-${playlistId}-${i}`,
+            position: i,
+          }));
+        }
+      } else {
+        hydratedTracks = [];
+      }
+
+      const newId = `playlist-${playlistId}-${Date.now()}`;
+      setSetlist(hydratedTracks);
+      setSetlistName(title);
+      setSetlistId(newId);
+      setChapters([]);
+      setChapterSuggestions([]);
+      setSuggestingForChapter(null);
+
+      const updated: SavedSetlists = {
+        active: newId,
+        setlists: {
+          ...savedSetlists.setlists,
+          [newId]: { name: title, tracks: hydratedTracks },
+        },
+      };
+      setSavedSetlists(updated);
+      saveSavedSetlists(updated);
+      setTab("browse");
+    } catch (e) {
+      console.error("Failed to load playlist:", e);
+    } finally {
+      setPlaylistLoading(null);
+    }
+  }, [savedSetlists]);
+
   const handleDeleteBrowser = useCallback((id: string) => {
     const { [id]: _, ...rest } = savedSetlists.setlists;
     const updated: SavedSetlists = {
@@ -1533,6 +1645,13 @@ export default function Home() {
           >
             Radio
           </button>
+          <a
+            href="/tv"
+            className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 bg-[#111] text-[#888] hover:text-red-400"
+            title="Pyaar.TV — Channel Surfer"
+          >
+            TV
+          </a>
           <button
             onClick={() => {
               navigator.clipboard.writeText(buildShareUrl());
@@ -1640,12 +1759,19 @@ export default function Home() {
                 ))}
               </>
             )}
-            {vaultManifest.length === 0 && browserSetlistsList.length === 0 && (
+            {vaultManifest.length === 0 && browserSetlistsList.length === 0 && playlistIndex.length === 0 && (
               <div className="flex-1 flex items-center justify-center py-20">
                 <p className="text-[#333] text-xs uppercase tracking-widest text-center px-8">
                   No saved setlists<br />Use Save to store a setlist
                 </p>
               </div>
+            )}
+            {playlistIndex.length > 0 && (
+              <PlaylistPicker
+                playlists={playlistIndex}
+                loading={playlistLoading}
+                onSelect={handleLoadPlaylist}
+              />
             )}
           </div>
         ) : (
