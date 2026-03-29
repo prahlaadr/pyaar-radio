@@ -1,9 +1,51 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1272,
- "syncedAt": "2026-03-28T08:40:43.531898Z",
+ "trackCount": 1278,
+ "syncedAt": "2026-03-29T08:41:52.331320Z",
  "tracks": [
+  {
+   "title": "Groovejet (If This Ain't Love) (feat. Sophie Ellis-Bextor)",
+   "artist": "Spiller",
+   "album": "Groovejet (If This Ain't Love)",
+   "videoId": "Cc_nUcKYlAs",
+   "duration": "3:48"
+  },
+  {
+   "title": "War of the Hearts",
+   "artist": "Sade",
+   "album": "Promise",
+   "videoId": "IjpjnOIHIdI",
+   "duration": "6:48"
+  },
+  {
+   "title": "You Really Got Me",
+   "artist": "The Kinks",
+   "album": "Kinks (Deluxe Edition)",
+   "videoId": "bZ4uGV6Goy0",
+   "duration": "2:14"
+  },
+  {
+   "title": "You Can't Do It Right",
+   "artist": "Deep Purple",
+   "album": "Stormbringer",
+   "videoId": "rx9YDveGDjc",
+   "duration": "3:24"
+  },
+  {
+   "title": "I Was Made For Lovin' You",
+   "artist": "Kiss",
+   "album": "Dynasty",
+   "videoId": "12fJAnaif34",
+   "duration": "4:32"
+  },
+  {
+   "title": "The Boys Are Back In Town",
+   "artist": "Thin Lizzy",
+   "album": "Jailbreak",
+   "videoId": "56b4TTT609c",
+   "duration": "4:27"
+  },
   {
    "title": "Roots",
    "artist": "Bob Marley & The Wailers",

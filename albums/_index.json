@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2911,
- "totalTracks": 37765,
- "syncedAt": "2026-03-28T08:40:41.326265Z",
+ "albumCount": 2915,
+ "totalTracks": 37807,
+ "syncedAt": "2026-03-29T08:41:49.781724Z",
  "albums": [
+  {
+   "browseId": "MPREb_oqxrUGMOERP",
+   "title": "Love Deluxe",
+   "artist": "Sade",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_bhJntO2c7Z6",
+   "title": "Cuba - EP",
+   "artist": "Rhythms Del Mundo",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_ANWwSYGHoSv",
+   "title": "ALL YOU NEED IS TIME",
+   "artist": "TRANSMISSION SOUND SYSTEM",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_EmzExvPFPgU",
+   "title": "ADL",
+   "artist": "Yeat",
+   "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_xHYEY7T5gO8",
+   "title": "the mind is a miracle",
+   "artist": "duendita",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_w5xAWCd4Pgi",
    "title": "Wreckage Is A Mountain",
@@ -8187,12 +8217,6 @@
    "title": "<COPINGMECHANISM>",
    "artist": "WILLOW",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_oqxrUGMOERP",
-   "title": "Love Deluxe",
-   "artist": "Sade",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_r9DeZfdRUmC",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 17,
- "syncedAt": "2026-03-28T08:40:43.531898Z",
+ "trackCount": 28,
+ "syncedAt": "2026-03-29T08:41:52.331320Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -45,13 +45,6 @@
    "album": "Jab Se",
    "videoId": "GSyCYRhVCZQ",
    "duration": "4:34"
-  },
-  {
-   "title": "Earth",
-   "artist": "Earl Sweatshirt;SURF GANG",
-   "album": "POMPEII // UTILITY",
-   "videoId": "lyCMNALVaN0",
-   "duration": "1:38"
   },
   {
    "title": "The First Taste",
@@ -122,6 +115,90 @@
    "album": "Wreckage Is A Mountain",
    "videoId": "JI86MabxYB4",
    "duration": "3:23"
+  },
+  {
+   "title": "Thunder",
+   "artist": "duendita",
+   "album": "direct line to My Creator",
+   "videoId": "cbdz8xBOH1s",
+   "duration": "3:56"
+  },
+  {
+   "title": "Minty",
+   "artist": "MIKE;SURF GANG",
+   "album": "POMPEII // UTILITY",
+   "videoId": "vzeQxfoGCd0",
+   "duration": "1:48"
+  },
+  {
+   "title": "My Time",
+   "artist": "Yeat;Swizz Beatz",
+   "album": "ADL",
+   "videoId": "A9PqG1HsqBM",
+   "duration": "3:30"
+  },
+  {
+   "title": "War of the Hearts",
+   "artist": "Sade",
+   "album": "Promise",
+   "videoId": "IjpjnOIHIdI",
+   "duration": "6:48"
+  },
+  {
+   "title": "Groovejet (If This Ain't Love) (feat. Sophie Ellis-Bextor)",
+   "artist": "Spiller",
+   "album": "Groovejet (If This Ain't Love)",
+   "videoId": "Cc_nUcKYlAs",
+   "duration": "3:48"
+  },
+  {
+   "title": "Transportin'",
+   "artist": "Kodak Black",
+   "album": "Project Baby 2: All Grown Up",
+   "videoId": "cU1e2-0G3XE",
+   "duration": "2:50"
+  },
+  {
+   "title": "Playboi Carti & Lil Uzi Vert - Break The Bank",
+   "artist": "isaacdiditagain",
+   "album": "",
+   "videoId": "9qR2bVt0y-w",
+   "duration": "3:35"
+  },
+  {
+   "title": "Clocks (feat. Coldplay)",
+   "artist": "Rhythms Del Mundo",
+   "album": "Cuba - EP",
+   "videoId": "4lsYNsrDxaM",
+   "duration": "5:02"
+  },
+  {
+   "title": "Clairo - For Now",
+   "artist": "David Dean Burkhart",
+   "album": "",
+   "videoId": "ruUtBllqKCU",
+   "duration": "3:26"
+  },
+  {
+   "title": "Poo Maalaye (Flip)",
+   "artist": "4am;Ilaiyaraaja;S. Janaki",
+   "album": "Poo Maalaye (Flip)",
+   "videoId": "VJCeRtmWCTM",
+   "duration": "2:16"
+  },
+  {
+   "title": "Clear",
+   "artist": "Lunice;The Alchemist",
+   "album": "Moving Parts",
+   "videoId": "rH-PcXjDRoE",
+   "duration": "4:57"
+  },
+  {
+   "title": "Dramatic Girl (feat. Che Ecru)",
+   "artist": "Baby Keem",
+   "album": "Ca$ino",
+   "videoId": "DMwlXxZQLM4",
+   "duration": "3:20"
   }
  ]
 }
