@@ -6,6 +6,10 @@ Run via CI:   triggered by GitHub Actions weekly
 
 Music channels (Boiler Room, Tiny Desk, COLORS, Like a Version, KEXP, Coke Studio)
 are personalized by cross-referencing against artists.csv.
+Results are validated to ensure the artist name actually appears in the video title.
+
+Priority playlists are checked first — videos from these playlists are slotted
+into matching channels before searching YouTube.
 """
 
 import json
@@ -13,23 +17,62 @@ import csv
 import subprocess
 import sys
 import random
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "public" / "data" / "tv" / "channels.json"
 ARTISTS_CSV = ROOT / "public" / "data" / "artists.csv"
 
+# Priority playlists — videos from these are matched into channels first
+PRIORITY_PLAYLISTS = [
+    "https://youtube.com/playlist?list=PLwAEV90m3Ui5cZWAvkHFOq-wcxVH7zaGs",
+    "https://youtube.com/playlist?list=PLdI65Nm_pp9s0GLdfAO-UF_-iz2MOfIMh",
+]
 
-def load_artists() -> list[str]:
-    """Load artist names from artists.csv."""
+# Keywords to match priority playlist videos to channels
+CHANNEL_KEYWORDS = {
+    "tiny-desk": ["tiny desk"],
+    "colors": ["colors show", "a colors"],
+    "like-a-version": ["like a version"],
+    "boiler-room": ["boiler room"],
+    "live-performances": ["kexp", "live session", "live at", "full performance", "audiotree"],
+    "coke-studio": ["coke studio"],
+    "hebbars-kitchen": ["hebbars kitchen", "hebbar"],
+    "tamil-cooking": ["home cooking tamil", "tamil cooking"],
+}
+
+
+def load_artists() -> list[dict]:
+    """Load artist names and aliases from artists.csv."""
     artists = []
     with open(ARTISTS_CSV) as f:
         reader = csv.DictReader(f)
         for row in reader:
             name = row.get("artist", "").strip().strip('"')
-            if name and name != "artist":
-                artists.append(name)
+            if not name or name == "artist":
+                continue
+            aliases = []
+            raw_aliases = row.get("aliases", "").strip().strip('"')
+            if raw_aliases:
+                aliases = [a.strip().lstrip("~") for a in raw_aliases.split("|") if a.strip()]
+            artists.append({"name": name, "aliases": aliases})
     return artists
+
+
+def artist_in_title(artist: dict, title: str) -> bool:
+    """Check if an artist name or any alias appears in a video title."""
+    title_lower = title.lower()
+    # Check primary name
+    name_lower = artist["name"].lower()
+    if len(name_lower) > 2 and name_lower in title_lower:
+        return True
+    # Check aliases
+    for alias in artist["aliases"]:
+        alias_lower = alias.lower()
+        if len(alias_lower) > 2 and alias_lower in title_lower:
+            return True
+    return False
 
 
 def fetch_videos(source: str, max_videos: int) -> list[dict]:
@@ -71,23 +114,74 @@ def fetch_videos(source: str, max_videos: int) -> list[dict]:
         return []
 
 
-def fetch_artist_videos(artists: list[str], platform_query: str, max_per_artist: int = 1, min_duration: int = 0, max_total: int = 20) -> list[dict]:
-    """Search for each artist on a platform, collect best results."""
+def fetch_priority_videos() -> list[dict]:
+    """Fetch all videos from priority playlists."""
+    all_videos = []
+    for url in PRIORITY_PLAYLISTS:
+        print(f"  Fetching priority playlist: {url[:60]}...")
+        videos = fetch_videos(url, 200)
+        print(f"    ✓ {len(videos)} videos")
+        all_videos.extend(videos)
+    return all_videos
+
+
+def match_priority_to_channel(priority_videos: list[dict], channel_id: str) -> list[dict]:
+    """Find priority playlist videos that match a channel by keywords."""
+    keywords = CHANNEL_KEYWORDS.get(channel_id, [])
+    if not keywords:
+        return []
+    matched = []
+    for v in priority_videos:
+        title_lower = v["title"].lower()
+        if any(kw in title_lower for kw in keywords):
+            matched.append(v)
+    return matched
+
+
+def fetch_artist_videos(
+    artists: list[dict],
+    platform_query: str,
+    max_per_artist: int = 1,
+    min_duration: int = 0,
+    max_total: int = 20,
+    priority_videos: list[dict] | None = None,
+    channel_id: str = "",
+) -> list[dict]:
+    """Search for each artist on a platform, validate results, collect best matches."""
     seen_ids = set()
     videos = []
-    # Shuffle so we don't always get the same subset on timeout
+
+    # First: add priority playlist matches
+    if priority_videos and channel_id:
+        priority_matches = match_priority_to_channel(priority_videos, channel_id)
+        for v in priority_matches:
+            if v["videoId"] not in seen_ids and v["durationSeconds"] >= min_duration:
+                seen_ids.add(v["videoId"])
+                videos.append(v)
+                if len(videos) >= max_total:
+                    return videos
+        if priority_matches:
+            print(f"       + {len([v for v in priority_matches if v['videoId'] in seen_ids])} from priority playlists")
+
+    # Then: search each artist, validate title contains artist name
     shuffled = artists.copy()
     random.shuffle(shuffled)
 
     for artist in shuffled:
         if len(videos) >= max_total:
             break
-        query = f"ytsearch{max_per_artist}:{artist} {platform_query}"
+        query = f"ytsearch{max_per_artist}:{artist['name']} {platform_query}"
         results = fetch_videos(query, max_per_artist)
         for v in results:
-            if v["videoId"] not in seen_ids and v["durationSeconds"] >= min_duration:
-                seen_ids.add(v["videoId"])
-                videos.append(v)
+            if v["videoId"] in seen_ids:
+                continue
+            if v["durationSeconds"] < min_duration:
+                continue
+            # Validate: artist name or alias must appear in the title
+            if not artist_in_title(artist, v["title"]):
+                continue
+            seen_ids.add(v["videoId"])
+            videos.append(v)
 
     return videos
 
@@ -168,10 +262,10 @@ STANDARD_CHANNELS = [
     # Cooking
     ("hebbars-kitchen", "Hebbar's Kitchen", 50, "#fb923c", "ytsearch15:hebbars kitchen recipe", 15),
     ("tamil-cooking", "Tamil Cooking", 51, "#ef4444", "https://www.youtube.com/@HomeCookingTamil/videos", 15),
+    ("sanjana-feasts", "Sanjana Feasts", 52, "#f97316", "https://youtube.com/playlist?list=PLdI65Nm_pp9s0GLdfAO-UF_-iz2MOfIMh", 15),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)
-# These search for each artist in artists.csv against the platform
 PERSONALIZED_CHANNELS = [
     ("live-performances", "Live Performances", 2, "#f59e0b", "KEXP full performance live", 300, 15),
     ("tiny-desk", "Tiny Desk", 17, "#f43f5e", "tiny desk concert", 600, 15),
@@ -186,6 +280,10 @@ def main():
     print("Loading artists from artists.csv...")
     artists = load_artists()
     print(f"  {len(artists)} artists loaded\n")
+
+    print("=== Priority Playlists ===")
+    priority_videos = fetch_priority_videos()
+    print(f"  Total: {len(priority_videos)} priority videos\n")
 
     channels = []
     total_videos = 0
@@ -211,16 +309,20 @@ def main():
             "videos": videos,
         })
 
-    # Build personalized channels (cross-reference artists.csv)
+    # Build personalized channels (cross-reference artists.csv + priority playlists)
     print("\n=== Personalized Channels (artist cross-reference) ===")
     for ch_id, name, number, color, platform_query, min_dur, max_total in PERSONALIZED_CHANNELS:
         print(f"  [{number:>2}] {name} — searching {len(artists)} artists for '{platform_query}'...")
-        videos = fetch_artist_videos(artists, platform_query, max_per_artist=1, min_duration=min_dur, max_total=max_total)
+        videos = fetch_artist_videos(
+            artists, platform_query,
+            max_per_artist=1, min_duration=min_dur, max_total=max_total,
+            priority_videos=priority_videos, channel_id=ch_id,
+        )
         if not videos:
             print(f"       ⚠ No videos found")
             failed.append(name)
         else:
-            print(f"       ✓ {len(videos)} videos from your artists")
+            print(f"       ✓ {len(videos)} verified videos from your artists")
             total_videos += len(videos)
 
         channels.append({

@@ -226,6 +226,10 @@ The Setlists tab includes a **Playlist Picker** that lets you browse and load an
 | "Here's an export" / CSV of songs | **Only add tracks whose artist is already in `artists.csv`**. Match artist names (+ aliases) against the export. Ignore everything else. Set `Source` to the platform (SoundCloud, Tamil, etc.) |
 | "Add this artist and their songs" | First add to `artists.csv`, then pull matching tracks from any provided export into `masterlist.csv` |
 | "Auth expired" / "Sync returning 0" | Follow the "Refreshing auth" steps above |
+| "Add a TV channel" | Add to `STANDARD_CHANNELS` in `scripts/build-tv-channels.py`, run `python3 scripts/build-tv-channels.py` |
+| "Add this YouTube channel to TV" | Same as above — use `https://www.youtube.com/@handle/videos` as source |
+| "I liked a video, add it to TV" | Add playlist URL to `PRIORITY_PLAYLISTS` in `build-tv-channels.py`, or add video directly to `channels.json` |
+| "Refresh TV channels" | Run `python3 scripts/build-tv-channels.py` or trigger `sync-tv-channels` Action |
 
 ### Import Rule
 
@@ -308,3 +312,59 @@ After hydration, `sync_masterlist.py --yes` will push the updated masterlist to 
 - Artist-to-track join via case-insensitive name match + alias expansion
 - Camelot key system for harmonic mixing transitions
 - YouTube search via innertube API (`/api/search-yt`), no API key needed
+
+## Pyaar.TV
+
+Channel Surfer-inspired TV guide at `/tv`. Simulates live TV with YouTube videos.
+
+**Live:** `pyaar-radio.vercel.app/tv` | **Docs:** `docs/pyaar-tv-requirements.md`
+
+### How it works
+
+- 53 channels, ~470 videos with real YouTube IDs and exact durations
+- "Live" scheduling: `position = Date.now() % totalPlaylistDuration` — everyone sees the same content at the same time
+- Skip button to advance to next video in playlist
+- TV button in header bar, hides setlist sidebar when active
+- Auto-refreshed weekly via GitHub Actions (`sync-tv-channels.yml`)
+
+### Channel data pipeline
+
+```
+artists.csv (294 curated artists)
+  │
+  ├─ Standard channels: yt-dlp pulls latest from YouTube channel URLs
+  │
+  ├─ Personalized channels (6): cross-references artists.csv
+  │     Boiler Room, Tiny Desk, COLORS, Like a Version, KEXP, Coke Studio
+  │     For each artist → ytsearch "{artist} {platform}" → validate artist in title
+  │
+  ├─ Priority playlists: user's YouTube liked videos playlists
+  │     Videos matched to channels by keywords (e.g. "tiny desk" → Tiny Desk channel)
+  │     Checked BEFORE artist search — liked videos get priority
+  │
+  └─ Output: public/data/tv/channels.json
+```
+
+### Adding channels/videos
+
+| Task | How |
+|------|-----|
+| Add a new channel | Add entry to `STANDARD_CHANNELS` in `scripts/build-tv-channels.py`, run script |
+| Add a personalized channel | Add to `PERSONALIZED_CHANNELS` with platform query + min duration |
+| Add a priority playlist | Add YouTube playlist URL to `PRIORITY_PLAYLISTS` in the script |
+| Refresh all channels | `python3 scripts/build-tv-channels.py` (or wait for weekly Action) |
+| Add a single video to existing channel | Edit `public/data/tv/channels.json` directly |
+
+### Key files
+
+| File | Purpose |
+|------|---------|
+| `scripts/build-tv-channels.py` | Channel builder — source of truth for channel definitions |
+| `public/data/tv/channels.json` | Generated output — real video IDs + exact durations |
+| `.github/workflows/sync-tv-channels.yml` | Weekly auto-refresh (Sundays 7 AM EST) |
+| `src/components/tv-player.tsx` | Full-size YouTube player with skip button |
+| `src/components/tv-guide.tsx` | Channel guide with live progress bars |
+| `src/lib/tv-types.ts` | TypeScript interfaces |
+| `src/lib/tv-schedule.ts` | Scheduling algorithm |
+| `src/lib/youtube-api.ts` | Shared YouTube IFrame API loader |
+| `docs/pyaar-tv-requirements.md` | Full feature spec and architecture docs |
