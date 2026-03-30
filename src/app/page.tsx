@@ -2212,8 +2212,8 @@ export default function Home() {
         )}
       </div>
 
-      {/* Right: Setlist — desktop */}
-      <div className="hidden md:flex w-[380px] shrink-0 flex-col bg-black">
+      {/* Right: Setlist — desktop (hidden in TV mode) */}
+      <div className={`${sectionMode === "tv" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-black`}>
         <SetlistPanel
           tracks={setlist}
           setlistName={setlistName}
@@ -2278,10 +2278,10 @@ export default function Home() {
         )}
       </div>
 
-      {/* Mobile: setlist toggle button */}
+      {/* Mobile: setlist toggle button (hidden in TV mode) */}
       <button
         onClick={() => setMobileSetlistOpen(true)}
-        className="md:hidden fixed bottom-12 right-4 z-30 bg-red-600 hover:bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors"
+        className={`${sectionMode === "tv" ? "hidden" : "md:hidden"} fixed bottom-12 right-4 z-30 bg-red-600 hover:bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors`}
         style={{ bottom: nowPlaying ? "3.5rem" : "1rem" }}
       >
         <span className="text-lg font-bold">{setlist.length || "+"}</span>

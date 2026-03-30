@@ -10,8 +10,9 @@ A Channel Surfer-inspired TV guide built into Pyaar Radio at `/tv`. Simulates li
 
 ## Current State
 
-- **51 channels, 426 videos** with real YouTube video IDs and exact durations
+- **51 channels** with real YouTube video IDs and exact durations
 - All video data sourced programmatically via `yt-dlp`
+- Auto-refreshed weekly via GitHub Actions (`sync-tv-channels.yml`)
 - Live at `pyaar-radio.vercel.app/tv`
 
 ## Core Features
@@ -44,59 +45,25 @@ A Channel Surfer-inspired TV guide built into Pyaar Radio at `/tv`. Simulates li
 
 ## Channels (51)
 
-| # | ID | Name | Videos |
-|---|-----|------|--------|
-| 1 | dj-sets | DJ Sets | 8 |
-| 2 | live-performances | Live Performances | 8 |
-| 3 | music-docs | Music Docs | 6 |
-| 4 | ilaiyaraaja | Ilaiyaraaja | 8 |
-| 5 | ramana-balachandran | Ramana Balachandran | 6 |
-| 6 | carnatic | Carnatic | 8 |
-| 7 | amrutha-venkatesh | Amrutha Venkatesh | 20 |
-| 8 | nts-radio | NTS Radio | 6 |
-| 9 | jeopardy | Jeopardy | 6 |
-| 10 | tom-and-jerry | Tom & Jerry | 4 |
-| 11 | bts | BTS | 10 |
-| 12 | top-gear | Top Gear | 5 |
-| 13 | all-gas-no-brakes | Channel 5 | 8 |
-| 14 | good-mythical-morning | Good Mythical Morning | 8 |
-| 15 | tiny-desk | Tiny Desk | 10 |
-| 16 | colors | COLORS | 10 |
-| 17 | like-a-version | Like a Version | 8 |
-| 18 | boiler-room | Boiler Room | 15 |
-| 19 | madrasana | MadRasana | 8 |
-| 20 | coke-studio | Coke Studio | 8 |
-| 21 | lot-radio | The Lot Radio | 5 |
-| 22 | hot-ones | Hot Ones | 8 |
-| 23 | nardwuar | Nardwuar | 8 |
-| 24 | kill-tony | Kill Tony | 5 |
-| 25 | rdcworld | RDCworld1 | 8 |
-| 26 | team-coco | Team Coco | 6 |
-| 27 | qi | QI | 8 |
-| 28 | graham-norton | Graham Norton | 6 |
-| 29 | snl | SNL | 8 |
-| 30 | kurzgesagt | Kurzgesagt | 8 |
-| 31 | vox | Vox | 8 |
-| 32 | defunctland | Defunctland | 6 |
-| 33 | johnny-harris | Johnny Harris | 6 |
-| 34 | fireship | Fireship | 10 |
-| 35 | mkbhd | MKBHD | 6 |
-| 36 | doug-demuro | Doug DeMuro | 6 |
-| 37 | architectural-digest | Architectural Digest | 6 |
-| 38 | spongebob | SpongeBob | 4 |
-| 39 | nba | NBA Highlights | 6 |
-| 40 | needledrop | theneedledrop | 8 |
-| 41 | mehlman-medical | Mehlman Medical | 10 |
-| 42 | music-80s | Music 80s | 10 |
-| 43 | music-90s | Music 90s | 10 |
-| 44 | music-2000s | Music 2000s | 10 |
-| 45 | music-2010s | Music 2010s | 10 |
-| 46 | music-2020s | Music 2020s | 10 |
-| 47 | popular-science | Popular Science | 10 |
-| 48 | lennys-podcast | Lenny's Podcast | 10 |
-| 49 | hebbars-kitchen | Hebbar's Kitchen | 15 |
-| 50 | tamil-cooking | Tamil Cooking | 15 |
-| 51 | adam-friedland | Adam Friedland Show | 10 |
+Channel list is defined in `scripts/build-tv-channels.py` and auto-refreshed weekly.
+Video counts vary as content is pulled fresh from YouTube.
+
+| Category | Channels |
+|----------|----------|
+| Music Performance | DJ Sets, Live Performances, Boiler Room, Tiny Desk, COLORS, Like a Version |
+| Indian Classical | Ilaiyaraaja, Ramana Balachandran, Carnatic, Amrutha Venkatesh, MadRasana, Coke Studio |
+| Radio | NTS Radio, The Lot Radio |
+| Music by Decade | Music 80s, 90s, 2000s, 2010s, 2020s |
+| Music Docs/Reviews | Music Docs, theneedledrop |
+| Comedy/Talk | Hot Ones, Nardwuar, Kill Tony, RDCworld1, Team Coco, QI, Graham Norton, SNL, Adam Friedland Show |
+| Explainers/Docs | Kurzgesagt, Vox, Defunctland, Johnny Harris, Popular Science |
+| Tech | Fireship, MKBHD |
+| Entertainment | Jeopardy, Tom & Jerry, BTS, Top Gear, Channel 5, Good Mythical Morning, SpongeBob |
+| Sports | NBA Highlights |
+| Cars/Home | Doug DeMuro, Architectural Digest |
+| Medical | Mehlman Medical |
+| Podcasts | Lenny's Podcast |
+| Cooking | Hebbar's Kitchen, Tamil Cooking |
 
 ## Data Model
 
@@ -152,6 +119,7 @@ src/lib/tv-schedule.ts        — Scheduling algorithm
 src/lib/youtube-api.ts        — Shared YouTube IFrame API loader
 public/data/tv/channels.json  — Channel data (51 channels, 426 videos)
 scripts/build-tv-channels.py  — yt-dlp script to populate channel data
+.github/workflows/sync-tv-channels.yml — Weekly auto-refresh (Sundays 7 AM EST)
 ```
 
 ### Shared code
