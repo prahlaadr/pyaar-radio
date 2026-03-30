@@ -2054,6 +2054,64 @@
           "durationSeconds": 154
         }
       ]
+    },
+    {
+      "id": "popular-science",
+      "name": "Popular Science",
+      "number": 46,
+      "color": "#06b6d4",
+      "videos": [
+        {
+          "videoId": "YSJY3DvnybE",
+          "title": "The Secret Spy Tech Inside Every Credit Card",
+          "durationSeconds": 1723
+        },
+        {
+          "videoId": "9szhjhO9epA",
+          "title": "Why are these 3 letters on almost all of my zippers?",
+          "durationSeconds": 1245
+        },
+        {
+          "videoId": "Ol18JoeXlVI",
+          "title": "This Paradox Splits Smart People 50/50",
+          "durationSeconds": 1540
+        },
+        {
+          "videoId": "aoag03mSuXQ",
+          "title": "The Internet Was Weeks Away From Disaster and No One Knew",
+          "durationSeconds": 3180
+        },
+        {
+          "videoId": "cMx139eTxoc",
+          "title": "Asbestos is a bigger problem than we thought",
+          "durationSeconds": 3286
+        },
+        {
+          "videoId": "Z7Ftg5e-CFk",
+          "title": "What Red and Black Tattoos Do to Your Immune System",
+          "durationSeconds": 505
+        },
+        {
+          "videoId": "_TF8AX-ktEk",
+          "title": "A Scientist’s Guide to Wrinkle-Free Clothes",
+          "durationSeconds": 631
+        },
+        {
+          "videoId": "gqPlVUuXiYY",
+          "title": "The 3 Strongest Lasers in the World (For Now)",
+          "durationSeconds": 843
+        },
+        {
+          "videoId": "QR-0rHweBfc",
+          "title": "Do Reishi Mushrooms Really Treat Cancer?",
+          "durationSeconds": 579
+        },
+        {
+          "videoId": "277wRV3juWg",
+          "title": "Why Is This Persian Silver Hoard Buried in Yorkshire?",
+          "durationSeconds": 530
+        }
+      ]
     }
   ]
 }
