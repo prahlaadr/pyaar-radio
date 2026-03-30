@@ -27,8 +27,8 @@ YouTube Music (Pyaar Radio account, @PyaarRadio)
   └─ 244 Playlists (all playlists)
         │
         ▼
-      sync_playlists.py ──▶ playlists/*.json (incremental snapshot)
-        │
+      sync_playlists.py ──▶ public/playlists/*.json (incremental snapshot)
+        │                      Browser-accessible for playlist picker
         └─ Runs daily via GitHub Actions
 
 masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
@@ -44,7 +44,7 @@ artists.csv ── manually curated (273 artists, gatekeeper for imports)
 |-------|--------|--------|----------|
 | **masterlist.csv** | Liked songs + monthly playlists | `sync_liked.py` | `public/data/` |
 | **albums/*.json** | Saved/liked albums | `sync_albums.py` | `albums/` |
-| **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `playlists/` |
+| **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `public/playlists/` |
 | **artists.csv** | Manually curated (273) | Direct edit | `public/data/` |
 
 Each is synced independently. They never bleed into each other.
@@ -183,6 +183,32 @@ The pyaar-crate repo at `~/Documents/Projects/03-music-audio/pyaar-crate/` has a
 1. **ytmusicapi + OAuth** (Jan–Feb 2026): Broke when Google blocked OAuth for InnerTube API. Every run returned 0 songs.
 2. **Playwright browser automation** (Feb–Mar 2026): Worked but only captured ~1,400 of 9,370 songs due to DOM virtualization during scrolling.
 3. **ytmusicapi + browser cookies** (Mar 2026, current): Fetches all 9,370 songs reliably via direct API calls. No browser needed.
+
+## Playlist Picker (Setlists Tab)
+
+The Setlists tab includes a **Playlist Picker** that lets you browse and load any of your 238 YT Music playlists as a setlist.
+
+**How it works:**
+1. Playlist JSONs live in `public/playlists/` (deployed with the app, synced daily)
+2. `_index.json` is fetched on mount, individual playlist JSONs fetched on click
+3. Tracks are batch-matched against masterlist via DuckDB for BPM/key enrichment (chunked in groups of 200)
+4. Unmatched tracks are kept as playable stubs (they have video IDs from YT Music)
+5. Loaded playlist auto-saves as a browser setlist
+
+**Sections** (categorized automatically):
+| Section | Color | Contents | Sort |
+|---------|-------|----------|------|
+| Archive | amber | Month/year playlists (Mar 26, Febyouary '22, etc.) | Newest first |
+| Pyaar Radio | red | PYAAR.Radio sets (001, 002, 003) | As-is |
+| DJ Sets | purple | Goated playlists, DJ-themed, USB sets | As-is |
+| Curated | green | Mood/vibe playlists (10+ tracks) | As-is |
+| Discovery | blue | External/large playlists (NTS, RA, Four Tet, 500+ tracks) | As-is |
+| Other | gray | Small misc playlists (<10 tracks) | As-is |
+
+**Key files:**
+- `src/components/playlist-picker.tsx` — UI component with categorization logic
+- `src/lib/playlists.ts` — fetch utilities (cached index, individual playlist fetch)
+- `src/lib/types.ts` — `PlaylistIndexEntry`, `PlaylistData` interfaces
 
 ## Quick Reference — What to Do When User Says...
 
