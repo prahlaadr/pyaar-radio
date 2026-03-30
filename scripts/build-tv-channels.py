@@ -263,6 +263,7 @@ STANDARD_CHANNELS = [
     ("hebbars-kitchen", "Hebbar's Kitchen", 50, "#fb923c", "ytsearch15:hebbars kitchen recipe", 15),
     ("tamil-cooking", "Tamil Cooking", 51, "#ef4444", "https://www.youtube.com/@HomeCookingTamil/videos", 15),
     ("sanjana-feasts", "Sanjana Feasts", 52, "#f97316", "https://youtube.com/playlist?list=PLdI65Nm_pp9s0GLdfAO-UF_-iz2MOfIMh", 15),
+    ("vookum", "Vookum", 54, "#d4af37", "https://www.youtube.com/@vookummedia/videos", 15),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)
