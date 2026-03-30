@@ -838,44 +838,79 @@
       "color": "#171717",
       "videos": [
         {
-          "videoId": "-0CIu7Bgk4s",
-          "title": "The Hellp | Boiler Room New York: The Hancock",
-          "durationSeconds": 3336
+          "videoId": "c0-hvjV2A5Y",
+          "title": "Fred again.. | Boiler Room: London",
+          "durationSeconds": 4305
         },
         {
-          "videoId": "HGpXl4yCWSs",
-          "title": "The Voluptuous Horror of Karen Black | Boiler Room New York: The Hancock",
-          "durationSeconds": 2631
+          "videoId": "MieRtF-IpQA",
+          "title": "Zack Fox | Boiler Room: New York",
+          "durationSeconds": 5190
         },
         {
-          "videoId": "RuAAxTx5Bvo",
-          "title": "Shelhiel | Boiler Room: Kuala Lumpur",
-          "durationSeconds": 1760
+          "videoId": "xgJBhezlMoE",
+          "title": "Overmono | Boiler Room: Manchester",
+          "durationSeconds": 4396
         },
         {
-          "videoId": "ORQVLyVaSTI",
-          "title": "Nyra | Boiler Room: Leeds",
-          "durationSeconds": 3712
+          "videoId": "BVW0OgxeH6I",
+          "title": "Disclosure Boiler Room Shanghai DJ Set",
+          "durationSeconds": 5349
         },
         {
-          "videoId": "nAhhj4qszEI",
-          "title": "Scarlett O'Malley | Boiler Room: Leeds",
-          "durationSeconds": 3569
+          "videoId": "-5EQIiabJvk",
+          "title": "Kaytranada | Boiler Room: Montreal",
+          "durationSeconds": 2526
         },
         {
-          "videoId": "Ui_2GgudZUY",
-          "title": "Alion | Boiler Room: Shenzhen",
-          "durationSeconds": 3985
+          "videoId": "T3gcbYL2VMg",
+          "title": "Charli xcx | Boiler Room & Charli xcx presents: PARTYGIRL Ibiza",
+          "durationSeconds": 5678
         },
         {
-          "videoId": "Pg12dUuHZfM",
-          "title": "DJ 86 | Boiler Room: Shenzhen",
-          "durationSeconds": 3500
+          "videoId": "IvPdwoppGw4",
+          "title": "DJ Jazzy Jeff Boiler Room x Budweiser Philadelphia DJ Set",
+          "durationSeconds": 6958
         },
         {
-          "videoId": "GmaHxtTqgpI",
-          "title": "4399 | Boiler Room: Shenzhen",
-          "durationSeconds": 3468
+          "videoId": "bk6Xst6euQk",
+          "title": "Solomun | Boiler Room: Tulum",
+          "durationSeconds": 7231
+        },
+        {
+          "videoId": "42XFNGZrpaQ",
+          "title": "Chris Stussy | Boiler Room: Edinburgh",
+          "durationSeconds": 4477
+        },
+        {
+          "videoId": "JUDUC87VuPU",
+          "title": "KETTAMA | Boiler Room: London",
+          "durationSeconds": 3444
+        },
+        {
+          "videoId": "T1tcUfUhR5U",
+          "title": "¥ØU$UK€ ¥UK1MAT$U | Boiler Room: Tokyo",
+          "durationSeconds": 3596
+        },
+        {
+          "videoId": "ZIl27YEX3a0",
+          "title": "Tinashe + Friends | Boiler Room: New York",
+          "durationSeconds": 4065
+        },
+        {
+          "videoId": "IC5EOU0vZjw",
+          "title": "Folamour | Boiler Room x Sugar Mountain 2024",
+          "durationSeconds": 3585
+        },
+        {
+          "videoId": "Zy_JR9_Y8dE",
+          "title": "Chase & Status | Boiler Room: London",
+          "durationSeconds": 3585
+        },
+        {
+          "videoId": "vkcyXB08BBE",
+          "title": "Rebecca Black | Boiler Room: DC",
+          "durationSeconds": 3558
         }
       ]
     },
@@ -2442,6 +2477,64 @@
           "videoId": "c3_XbBg7dCo",
           "title": "முட்டை டோஸ்ட் | Protein Packed Egg Toast Recipe In Tamil | Quick Breakfast Recipes | Egg Recipes",
           "durationSeconds": 229
+        }
+      ]
+    },
+    {
+      "id": "adam-friedland",
+      "name": "Adam Friedland Show",
+      "number": 51,
+      "color": "#a78bfa",
+      "videos": [
+        {
+          "videoId": "MMlxUyZZ5eU",
+          "title": "2 CHAINZ Talks Weed, Intuition, and Becoming Himself",
+          "durationSeconds": 3761
+        },
+        {
+          "videoId": "PZnekH4eonY",
+          "title": "SEAN AVERY Talks NHL Fights, Trash Talk, Christopher Nolan",
+          "durationSeconds": 5115
+        },
+        {
+          "videoId": "PAx-xS7_Yto",
+          "title": "MARK CUBAN Talks Luka Trade, Epstein, Steve Ballmer",
+          "durationSeconds": 3894
+        },
+        {
+          "videoId": "oCh3HS3zJ6E",
+          "title": "TAFS Unplugged: xaviersobased",
+          "durationSeconds": 989
+        },
+        {
+          "videoId": "aPXSVpEAO3g",
+          "title": "GOV. GAVIN NEWSOM Talks California, ICE, New Book",
+          "durationSeconds": 4121
+        },
+        {
+          "videoId": "pRI4p2aj8B8",
+          "title": "JEFF GARLIN Talks Curb Your Enthusiasm, Epstein, Photography",
+          "durationSeconds": 4018
+        },
+        {
+          "videoId": "rodcdKuwH3o",
+          "title": "CLAVICULAR Talks Female Psychology, Drug Habit, Infamy",
+          "durationSeconds": 4194
+        },
+        {
+          "videoId": "PmLzVhoWvvE",
+          "title": "TAFS Unplugged: MJ Lenderman",
+          "durationSeconds": 417
+        },
+        {
+          "videoId": "lbU3_IYhqYE",
+          "title": "MJ Lenderman CALLS OUT Cameron Winter (not clickbait)",
+          "durationSeconds": 2183
+        },
+        {
+          "videoId": "2fBKuhrByqs",
+          "title": "FKA TWIGS Talks Stans, Eusexua, Seduction",
+          "durationSeconds": 3928
         }
       ]
     }
