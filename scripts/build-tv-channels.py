@@ -284,7 +284,7 @@ STANDARD_CHANNELS = [
 PERSONALIZED_CHANNELS = [
     ("live-performances", "Live Performances", 2, "#f59e0b", "KEXP full performance live", 300, 25),
     ("tiny-desk", "Tiny Desk", 17, "#f43f5e", "tiny desk concert", 600, 25),
-    ("colors", "COLORS", 18, "#fb923c", "COLORS show", 120, 25),
+    ("colors", "COLORS", 18, "#fb923c", "A COLORS SHOW", 120, 25),
     ("like-a-version", "Like a Version", 19, "#facc15", "like a version triple j", 120, 25),
     ("boiler-room", "Boiler Room", 20, "#171717", "boiler room DJ set", 1800, 25),
     ("coke-studio", "Coke Studio", 22, "#e11d48", "coke studio", 180, 25),
