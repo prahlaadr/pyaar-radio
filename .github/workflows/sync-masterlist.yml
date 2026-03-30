@@ -52,7 +52,7 @@ jobs:
         run: |
           git add public/data/masterlist.csv
           if [ -d albums ]; then git add albums/; fi
-          if [ -d playlists ]; then git add playlists/; fi
+          if [ -d public/playlists ]; then git add public/playlists/; fi
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else

@@ -56,6 +56,20 @@ export interface SetlistManifestEntry {
   trackCount: number;
 }
 
+export interface PlaylistIndexEntry {
+  playlistId: string;
+  title: string;
+  trackCount: number;
+}
+
+export interface PlaylistData {
+  playlistId: string;
+  title: string;
+  trackCount: number;
+  syncedAt: string;
+  tracks: { title: string; artist: string; album: string; videoId: string; duration: string }[];
+}
+
 export interface ArtistFilters {
   channels: string[];
   samay: string | null;

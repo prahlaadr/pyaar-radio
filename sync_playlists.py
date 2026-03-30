@@ -25,7 +25,7 @@ from ytmusicapi import YTMusic
 
 PROJECT_DIR = Path(__file__).parent
 BROWSER_AUTH_PATH = PROJECT_DIR / "browser.json"
-PLAYLISTS_DIR = PROJECT_DIR / "playlists"
+PLAYLISTS_DIR = PROJECT_DIR / "public" / "playlists"
 
 
 def get_ytmusic() -> YTMusic:

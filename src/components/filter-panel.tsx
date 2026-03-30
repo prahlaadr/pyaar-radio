@@ -9,7 +9,7 @@ const VIBES = [
   "Future Beats", "Electronica", "Ambient", "Trap", "Boom Bap", "Pop",
 ] as const;
 
-export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient";
+export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
 
 interface Props {
   filters: ArtistFilters;
@@ -90,6 +90,9 @@ export function FilterPanel({
     (filters.desi ? 1 : 0) +
     (filters.bpmMin > 0 ? 1 : 0) +
     (filters.bpmMax < 300 ? 1 : 0);
+
+  // TV mode hides the filter panel entirely — TV has its own inline UI
+  if (sectionMode === "tv") return null;
 
   return (
     <div className="px-5 py-3 border-b border-[#222] space-y-3">
@@ -202,6 +205,13 @@ export function FilterPanel({
                     className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-purple-400"
                   >
                     Ambient
+                  </button>
+                  <div className="w-px bg-[#333] mx-1" />
+                  <button
+                    onClick={() => onSectionToggle("tv")}
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
+                  >
+                    TV
                   </button>
                 </>
               )}

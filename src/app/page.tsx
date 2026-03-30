@@ -21,6 +21,10 @@ import hotkeys from "hotkeys-js";
 
 
 import { slugify } from "@/lib/slugify";
+import type { TVChannel, TVChannelData } from "@/lib/tv-types";
+import { getNowPlaying } from "@/lib/tv-schedule";
+import { TvPlayer } from "@/components/tv-player";
+import { TvGuide } from "@/components/tv-guide";
 
 const DEFAULT_FILTERS: ArtistFilters = {
   channels: [],
@@ -75,7 +79,7 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const pathname = window.location.pathname;
   const ilaiyaraaja = pathname === "/tamil/ilaiyaraaja";
   const tamil = pathname === "/tamil" || ilaiyaraaja;
-  const section: SectionMode = pathname === "/ambient" ? "ambient" : pathname === "/downtempo" ? "downtempo" : "browse";
+  const section: SectionMode = pathname === "/tv" ? "tv" : pathname === "/ambient" ? "ambient" : pathname === "/downtempo" ? "downtempo" : "browse";
   const view = p.get("view") === "tracks" ? "tracks" as const : "artists" as const;
 
   return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view };
@@ -96,7 +100,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
-  const basePath = ilaiyaraaja ? "/tamil/ilaiyaraaja" : tamil ? "/tamil" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
+  const basePath = ilaiyaraaja ? "/tamil/ilaiyaraaja" : tamil ? "/tamil" : section === "tv" ? "/tv" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
   return str ? `${basePath}?${str}` : basePath;
 }
@@ -203,6 +207,13 @@ export default function Home() {
   const [recentlyPlayed, setRecentlyPlayed] = useState<Track[]>([]);
   const [recentExpanded, setRecentExpanded] = useState(false);
   const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
+  // TV state
+  const [tvChannels, setTvChannels] = useState<TVChannel[]>([]);
+  const [tvCurrentChannel, setTvCurrentChannel] = useState<TVChannel | null>(null);
+  const [tvVideoId, setTvVideoId] = useState<string | null>(null);
+  const [tvOffsetSeconds, setTvOffsetSeconds] = useState(0);
+  const [tvVideoTitle, setTvVideoTitle] = useState("");
+  const tvAdvanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const playerRef = useRef<YouTubePlayerHandle | null>(null);
   const playRandomRef = useRef<(() => void) | null>(null);
   const prefetchRef = useRef<{ track: Track; forRadio: boolean } | null>(null);
@@ -657,6 +668,46 @@ export default function Home() {
       }
     })();
   }, [sectionMode, sectionSearch, sectionBpmMin, sectionBpmMax, sectionDesi]);
+
+  // TV: load channels when TV mode is active
+  useEffect(() => {
+    if (sectionMode !== "tv") {
+      setTvChannels([]);
+      setTvCurrentChannel(null);
+      setTvVideoId(null);
+      if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
+      return;
+    }
+    fetch("/data/tv/channels.json")
+      .then((r) => r.json())
+      .then((data: TVChannelData) => setTvChannels(data.channels))
+      .catch(() => setTvChannels([]));
+  }, [sectionMode]);
+
+  const tvTuneIn = useCallback((channel: TVChannel) => {
+    const np = getNowPlaying(channel);
+    if (!np) return;
+    setTvCurrentChannel(channel);
+    setTvVideoId(np.video.videoId);
+    setTvOffsetSeconds(np.offsetSeconds);
+    setTvVideoTitle(np.video.title);
+    if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
+    tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
+  }, []);
+
+  const tvAdvanceToNext = useCallback((channel: TVChannel) => {
+    const np = getNowPlaying(channel);
+    if (!np) return;
+    setTvVideoId(np.video.videoId);
+    setTvOffsetSeconds(np.offsetSeconds);
+    setTvVideoTitle(np.video.title);
+    if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
+    tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
+  }, []);
+
+  const tvHandleEnded = useCallback(() => {
+    if (tvCurrentChannel) tvAdvanceToNext(tvCurrentChannel);
+  }, [tvCurrentChannel, tvAdvanceToNext]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
@@ -1645,13 +1696,6 @@ export default function Home() {
           >
             Radio
           </button>
-          <a
-            href="/tv"
-            className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 bg-[#111] text-[#888] hover:text-red-400"
-            title="Pyaar.TV — Channel Surfer"
-          >
-            TV
-          </a>
           <button
             onClick={() => {
               navigator.clipboard.writeText(buildShareUrl());
@@ -1854,6 +1898,42 @@ export default function Home() {
                 emptyMessage={tamilSearch ? "No results" : "No Tamil tracks loaded"}
                 onArtistClick={navigateToArtist}
               />
+            ) : sectionMode === "tv" ? (
+              <div className="flex-1 flex flex-col min-h-0">
+                {/* TV section header */}
+                <div className="px-5 py-2 border-b border-[#222] flex items-center gap-2">
+                  <button
+                    onClick={() => setSectionMode("browse")}
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-red-600 text-white"
+                  >
+                    Pyaar.TV
+                  </button>
+                  <span className="text-[10px] text-[#555] uppercase tracking-wider cursor-pointer hover:text-white transition-colors" onClick={() => setSectionMode("browse")}>
+                    &larr; back to all
+                  </span>
+                </div>
+                {/* TV player + guide layout */}
+                <div className="flex-1 flex flex-col md:flex-row min-h-0 overflow-hidden">
+                  {/* Player */}
+                  <div className="md:flex-1 md:min-w-0">
+                    <TvPlayer
+                      videoId={tvVideoId}
+                      offsetSeconds={tvOffsetSeconds}
+                      onEnded={tvHandleEnded}
+                      channelName={tvCurrentChannel?.name}
+                      videoTitle={tvVideoTitle}
+                    />
+                  </div>
+                  {/* Guide */}
+                  <div className="flex-1 md:flex-none md:w-[340px] md:border-l border-[#222] overflow-y-auto">
+                    <TvGuide
+                      channels={tvChannels}
+                      activeChannelId={tvCurrentChannel?.id ?? null}
+                      onSelectChannel={tvTuneIn}
+                    />
+                  </div>
+                </div>
+              </div>
             ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
               <SectionTrackList
                 tracks={sectionTracks}

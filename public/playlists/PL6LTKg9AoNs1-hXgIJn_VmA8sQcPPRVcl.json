@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 28,
- "syncedAt": "2026-03-29T08:41:52.331320Z",
+ "trackCount": 35,
+ "syncedAt": "2026-03-29T23:04:49.904728Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -199,6 +199,55 @@
    "album": "Ca$ino",
    "videoId": "DMwlXxZQLM4",
    "duration": "3:20"
+  },
+  {
+   "title": "LOSING YOUR MIND",
+   "artist": "Ye;Kanye West",
+   "album": "BULLY",
+   "videoId": "xuOkuuFeE5A",
+   "duration": "3:27"
+  },
+  {
+   "title": "full moon. (fall in tokyo) [bonus track]",
+   "artist": "Brent Faiyaz",
+   "album": "Icon (Director's Cut)",
+   "videoId": "JHa4NPWKux8",
+   "duration": "3:13"
+  },
+  {
+   "title": "Mamou",
+   "artist": "Franco Luambo;Madilu System",
+   "album": "Mamou",
+   "videoId": "exFBqy2knPc",
+   "duration": "11:03"
+  },
+  {
+   "title": "HEEL CENA",
+   "artist": "Westside Gunn",
+   "album": "HEELS HAVE EYES 2",
+   "videoId": "C69jrYLmXPM",
+   "duration": "2:38"
+  },
+  {
+   "title": "Pluto",
+   "artist": "Raveena",
+   "album": "Where the Butterflies Go in the Rain (Deluxe)",
+   "videoId": "3r8N5NM2lKY",
+   "duration": "3:34"
+  },
+  {
+   "title": "RIGIO (fall 4 u)",
+   "artist": "Samant",
+   "album": "RIGIO (fall 4 u)",
+   "videoId": "2YQ9lUnqo3o",
+   "duration": "2:59"
+  },
+  {
+   "title": "4am (feat. Yazida)",
+   "artist": "camoufly",
+   "album": "NEW SKIN",
+   "videoId": "Vev27_50060",
+   "duration": "2:42"
   }
  ]
 }
