@@ -1754,7 +1754,7 @@ export default function Home() {
           <h1
             className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors shrink-0"
             onClick={() => { handleSelectArtist(null); setTab("browse"); setSectionMode("browse"); prevSectionMode.current = "browse"; }}
-          >Pyaar Radio</h1>
+          >{sectionMode === "tv" ? "Pyaar TV" : "Pyaar Radio"}</h1>
           <button
             onClick={() => { setSectionMode("tv"); setTamilMode(false); setIlaiyaraajaMode(false); }}
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
