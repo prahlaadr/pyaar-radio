@@ -254,6 +254,7 @@ STANDARD_CHANNELS = [
     ("ludwig", "Ludwig", 65, "#6366f1", "https://www.youtube.com/@ludwig/videos", 25),
 
     # Reality / Business TV
+    ("ahealthcarez", "AHealthcareZ", 125, "#0284c7", "https://www.youtube.com/@ahealthcarez/videos", 25),
     ("shark-tank", "Shark Tank", 72, "#0284c7", "ytsearch25:shark tank full episode pitch best", 25),
     ("zelda-study", "Zelda Study Music", 73, "#16a34a", "ytsearch25:zelda study music lofi chill soundtrack", 25),
 

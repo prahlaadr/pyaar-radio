@@ -101,7 +101,7 @@ const CHANNEL_CATEGORIES: Record<string, string> = {
 
   // Business / News
   "business-news": "Business",
-  "beckers-healthcare": "Business",
+  "ahealthcarez": "Medical",
   "vookum": "Business",
 
   // Sports
