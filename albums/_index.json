@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2915,
- "totalTracks": 37807,
- "syncedAt": "2026-03-29T08:41:49.781724Z",
+ "albumCount": 2919,
+ "totalTracks": 37853,
+ "syncedAt": "2026-03-30T09:14:21.143534Z",
  "albums": [
+  {
+   "browseId": "MPREb_aFH5PncMZbA",
+   "title": "Children Of The Corn The Single (30th anniversary)",
+   "artist": "Lil Grimm",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_4Hi9ESAOYLO",
+   "title": "NEW SKIN",
+   "artist": "camoufly",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_yeVnqXPDyeJ",
+   "title": "HEELS HAVE EYES 2",
+   "artist": "Westside Gunn",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_aBfEjfr9vTO",
+   "title": "Mamou",
+   "artist": "Franco Luambo",
+   "trackCount": 6
+  },
   {
    "browseId": "MPREb_oqxrUGMOERP",
    "title": "Love Deluxe",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
  "title": "DAR DISKU FM",
  "trackCount": 932,
- "syncedAt": "2026-03-29T23:04:49.904728Z",
+ "syncedAt": "2026-03-30T09:14:23.452773Z",
  "tracks": [
   {
    "title": "Helel Yos",
@@ -2841,8 +2841,8 @@
   },
   {
    "title": "Baïda",
-   "artist": "Faudel - Topic",
-   "album": "",
+   "artist": "Faudel",
+   "album": "L'essentiel Faudel",
    "videoId": "gjgQhcUiGiQ",
    "duration": "4:06"
   },
@@ -2876,15 +2876,15 @@
   },
   {
    "title": "GAMALEK",
-   "artist": "Fares - Topic",
-   "album": "",
+   "artist": "FARES",
+   "album": "TANY",
    "videoId": "IreH8lb5fOM",
    "duration": "3:51"
   },
   {
    "title": "Saqyet Habiby",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Fatma",
+   "album": "Donya El Arkam",
    "videoId": "nvajxKzPoxw",
    "duration": "5:48"
   },
@@ -2918,8 +2918,8 @@
   },
   {
    "title": "Habibi (Instrumental)",
-   "artist": "Sahara Band - Topic",
-   "album": "",
+   "artist": "Sahara Band",
+   "album": "Habibi",
    "videoId": "-hs2JRDKE1U",
    "duration": "6:02"
   },
@@ -2938,9 +2938,9 @@
    "duration": "3:44"
   },
   {
-   "title": "Paa",
-   "artist": "Arp Frique - Topic",
-   "album": "",
+   "title": "Paa (feat. Mariseya)",
+   "artist": "Arp Frique",
+   "album": "Paa",
    "videoId": "CO-_Gk63b0c",
    "duration": "5:16"
   },
@@ -3128,8 +3128,8 @@
   },
   {
    "title": "Ghouita",
-   "artist": "Amira Saqati - Topic",
-   "album": "",
+   "artist": "Amira SAqati",
+   "album": "Agdal Reptiles On Majoun",
    "videoId": "BOBHwTSYBbQ",
    "duration": "6:14"
   },
@@ -3191,8 +3191,8 @@
   },
   {
    "title": "Wein Ayamak Wein",
-   "artist": "Hamid El Shaeri - Topic",
-   "album": "",
+   "artist": "Hamid El Shaery",
+   "album": "Rahil",
    "videoId": "V0rJnySI2jA",
    "duration": "4:07"
   },
@@ -3240,8 +3240,8 @@
   },
   {
    "title": "Habouya habouya",
-   "artist": "Cheb Hasni - Topic",
-   "album": "",
+   "artist": "Cheb Hasni",
+   "album": "Best of, Vol. 4",
    "videoId": "s7K5ZivI4yk",
    "duration": "5:53"
   },
@@ -3275,15 +3275,15 @@
   },
   {
    "title": "شيلوها شيلة",
-   "artist": "MIAMI Band - Topic",
-   "album": "",
+   "artist": "فرقة ميامي",
+   "album": "فرقة ميامي 97",
    "videoId": "alS5JzVxL3s",
    "duration": "5:01"
   },
   {
-   "title": "In De Ghetto (Tribal Bass Mix)",
-   "artist": "David Morales - Topic",
-   "album": "",
+   "title": "In De Ghetto (Tribal Bass Mix) (feat. Delta)",
+   "artist": "David Morales;The Bad Yard Club",
+   "album": "In De Ghetto",
    "videoId": "8hFKBPtiW3M",
    "duration": "6:03"
   },
