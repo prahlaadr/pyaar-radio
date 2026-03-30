@@ -9406,6 +9406,139 @@
           "durationSeconds": 205
         }
       ]
+    },
+    {
+      "id": "beckers-healthcare",
+      "name": "Becker's Healthcare",
+      "number": 125,
+      "color": "#0284c7",
+      "videos": [
+        {
+          "videoId": "VfzY1SmTryo",
+          "title": "Becker's Hospital Review 10th Annual Meeting Highlights",
+          "durationSeconds": 188
+        },
+        {
+          "videoId": "iYxt1TKsbws",
+          "title": "Becker's Healthcare Podcast: #SurgeonAgent",
+          "durationSeconds": 658
+        },
+        {
+          "videoId": "SOgFHYStc-M",
+          "title": "Becker's Hospital Review 4th Annual Meeting",
+          "durationSeconds": 160
+        },
+        {
+          "videoId": "JdxA708dKu0",
+          "title": "Becker's Hospital Review",
+          "durationSeconds": 1650
+        },
+        {
+          "videoId": "Awh--svv-_w",
+          "title": "Becker's Health IT and Revenue Cycle Conference 2022",
+          "durationSeconds": 611
+        },
+        {
+          "videoId": "JS-AHNCnTxY",
+          "title": "Beckers - Robert Rutkowski, MD, Medical Director at UPMC Health Plan",
+          "durationSeconds": 44
+        },
+        {
+          "videoId": "Ty2eerWsYDs",
+          "title": "Episode 16: Healthcare Trends and the Role of Becker's Healthcare",
+          "durationSeconds": 2973
+        },
+        {
+          "videoId": "9R2PM2SlhvY",
+          "title": "Responding to COVID-19: A Once-in-a-Century Pandemic",
+          "durationSeconds": 3501
+        },
+        {
+          "videoId": "lypIinfeClc",
+          "title": "Episode 11: Scott Becker, Becker's Healthcare",
+          "durationSeconds": 999
+        },
+        {
+          "videoId": "rGbPnicCGZ4",
+          "title": "DI 36 Transforming Healthcare: Scott Becker's Visionary Approach to Data-Driven Insights",
+          "durationSeconds": 1485
+        },
+        {
+          "videoId": "rNXq_As4mPk",
+          "title": "Motion vs. Momentum: How Healthcare Founders Build Companies That Actually Scale | Scott Becker",
+          "durationSeconds": 3966
+        },
+        {
+          "videoId": "9SosQgn9mGU",
+          "title": "Unlocking Healthcare Media Success With Scott Becker",
+          "durationSeconds": 2212
+        },
+        {
+          "videoId": "lI1dKOYe3dg",
+          "title": "Becker's Dental + DSO Review Moderated Discussion 2020",
+          "durationSeconds": 302
+        },
+        {
+          "videoId": "GlMrC0fv23Y",
+          "title": "Becker's Healthcare 2021 Meeting - The New Frontier of Outpatient Care",
+          "durationSeconds": 1967
+        },
+        {
+          "videoId": "SOFqZxqxEIQ",
+          "title": "Becker's Healthcare Podcast | Judson Ivy of Ensemble Health Partners (Abridged)",
+          "durationSeconds": 182
+        },
+        {
+          "videoId": "5jrlLkoaewA",
+          "title": "A Look at the Healthcare Landscape with Scott Becker",
+          "durationSeconds": 3188
+        },
+        {
+          "videoId": "ubhJzovkZzg",
+          "title": "Scott Becker, Founder & Publisher of Becker’s Healthcare: Build Teams with a Thrive-Thrive Mentality",
+          "durationSeconds": 2817
+        },
+        {
+          "videoId": "SCcK5kjhPmw",
+          "title": "Too big to fail Understanding and reporting 340B savings",
+          "durationSeconds": 3674
+        },
+        {
+          "videoId": "f0lK28hgiIk",
+          "title": "From Lawyer to Media Mogul: The Secret Sauce Behind Becker's Healthcare!",
+          "durationSeconds": 2021
+        },
+        {
+          "videoId": "DDDUmUMAPC4",
+          "title": "Evolution of Healthcare Media w/ Scott Becker | BackTable Innovation Podcast Ep. 63",
+          "durationSeconds": 3576
+        },
+        {
+          "videoId": "I35AspNlGzY",
+          "title": "The Healthcare System Isn't Broken. It's Working Exactly as Designed.",
+          "durationSeconds": 4232
+        },
+        {
+          "videoId": "gQvNGPV5lsA",
+          "title": "Winning Every Day  A Game Plan for Success - Lou Holtz",
+          "durationSeconds": 3367
+        },
+        {
+          "videoId": "gVTc81NtadM",
+          "title": "How specialty pharmacy plays a role in creating sustainable health system-health plan collaboration",
+          "durationSeconds": 3668
+        },
+        {
+          "videoId": "eXxreu_3qxM",
+          "title": "Building Becker’s While Billing 2,000 Hours | Pick Now Podcast • Episode 15: with Scott Becker",
+          "durationSeconds": 3512
+        },
+        {
+          "videoId": "7ET2Fp9jk3U",
+          "title": "Ep. 13: Avoiding Repeat Lines of AR-Targeted Therapy in mCRPC",
+          "durationSeconds": 427
+        }
+      ]
     }
   ]
 }
