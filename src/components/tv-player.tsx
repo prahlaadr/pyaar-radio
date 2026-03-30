@@ -42,12 +42,24 @@ export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelN
     currentVideoRef.current = videoId;
 
     if (playerRef.current) {
-      playerRef.current.loadVideoById(videoId, offsetSeconds);
-      // loadVideoById startSeconds can be unreliable — force seek after a brief delay
       if (offsetSeconds > 0) {
-        setTimeout(() => {
-          try { playerRef.current?.seekTo(offsetSeconds, true); } catch {}
-        }, 1000);
+        // Load video then seek — more reliable than loadVideoById's startSeconds param
+        playerRef.current.loadVideoById(videoId);
+        const seekWhenReady = () => {
+          setTimeout(() => {
+            try {
+              const state = playerRef.current?.getPlayerState?.();
+              if (state === window.YT.PlayerState.PLAYING || state === window.YT.PlayerState.BUFFERING) {
+                playerRef.current?.seekTo(offsetSeconds, true);
+              } else {
+                seekWhenReady(); // retry until playing
+              }
+            } catch {}
+          }, 500);
+        };
+        seekWhenReady();
+      } else {
+        playerRef.current.loadVideoById(videoId);
       }
       return;
     }

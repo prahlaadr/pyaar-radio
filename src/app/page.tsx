@@ -754,10 +754,12 @@ export default function Home() {
     const nextIndex = (tvVideoIndexRef.current + 1) % tvCurrentChannel.videos.length;
     const nextVideo = tvCurrentChannel.videos[nextIndex];
     tvVideoIndexRef.current = nextIndex;
-    setTvVideoId(nextVideo.videoId);
     // Jump to a random point in the video (like joining mid-stream)
-    const randomOffset = Math.floor(Math.random() * Math.max(0, nextVideo.durationSeconds - 30));
+    const maxOffset = Math.max(0, nextVideo.durationSeconds - 30);
+    const randomOffset = maxOffset > 0 ? Math.floor(Math.random() * maxOffset) : 0;
+    // Set offset BEFORE videoId so both are ready when the effect fires
     setTvOffsetSeconds(randomOffset);
+    setTvVideoId(nextVideo.videoId);
     setTvVideoTitle(nextVideo.title);
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
   }, [tvCurrentChannel]);
