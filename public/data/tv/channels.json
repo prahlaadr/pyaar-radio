@@ -2112,6 +2112,64 @@
           "durationSeconds": 530
         }
       ]
+    },
+    {
+      "id": "lennys-podcast",
+      "name": "Lenny's Podcast",
+      "number": 47,
+      "color": "#8b5cf6",
+      "videos": [
+        {
+          "videoId": "DIa0MYJzM5I",
+          "title": "How OpenClaw’s AI agents run this founder’s business, family and life | Claire Vo",
+          "durationSeconds": 6396
+        },
+        {
+          "videoId": "RP4vJeIb7WU",
+          "title": "The art of influence: The single most important skill left that AI can’t replace | Jessica Fain",
+          "durationSeconds": 5613
+        },
+        {
+          "videoId": "pEis2CBomVA",
+          "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick",
+          "durationSeconds": 6894
+        },
+        {
+          "videoId": "HEqrvF7ztBE",
+          "title": "A behind-the-scenes interview with Lenny Rachitsky on building his newsletter and podcast",
+          "durationSeconds": 4014
+        },
+        {
+          "videoId": "_rcniEb9bLw",
+          "title": "The real AI revolution isn’t software. It’s farms, mines, and trucks. | Qasar Younis",
+          "durationSeconds": 5064
+        },
+        {
+          "videoId": "eh8bcBIAAFo",
+          "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+          "durationSeconds": 4645
+        },
+        {
+          "videoId": "ylNKlBlkFas",
+          "title": "AI is critical for humanity’s survival: Cisco President on the AI revolution | Jeetu Patel",
+          "durationSeconds": 5243
+        },
+        {
+          "videoId": "We7BZVKbCVw",
+          "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+          "durationSeconds": 5265
+        },
+        {
+          "videoId": "3UyitfSbY6c",
+          "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+          "durationSeconds": 4477
+        },
+        {
+          "videoId": "B26CwKm5C1k",
+          "title": "OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+          "durationSeconds": 4780
+        }
+      ]
     }
   ]
 }
