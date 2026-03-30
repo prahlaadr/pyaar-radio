@@ -249,12 +249,7 @@ STANDARD_CHANNELS = [
     # Medical
     ("mehlman-medical", "Mehlman Medical", 43, "#0d9488", "https://www.youtube.com/@Mehlmanmedical/videos", 10),
 
-    # Music by Decade
-    ("music-80s", "Music 80s", 44, "#f472b6", "ytsearch10:80s music hits official video Michael Jackson Prince Madonna", 10),
-    ("music-90s", "Music 90s", 45, "#c084fc", "ytsearch10:90s music hits official video TLC Nirvana Tupac Notorious BIG", 10),
-    ("music-2000s", "Music 2000s", 46, "#60a5fa", "ytsearch10:2000s music hits official video Outkast Kanye West Beyonce Usher", 10),
-    ("music-2010s", "Music 2010s", 47, "#34d399", "ytsearch10:2010s music hits official video Kendrick Lamar Frank Ocean Drake", 10),
-    ("music-2020s", "Music 2020s", 48, "#fbbf24", "ytsearch10:2020s music hits official video Tyler Creator SZA Doja Cat", 10),
+    # Music by Decade — these are handled by CURATED_CHANNELS below
 
     # Podcasts
     ("lennys-podcast", "Lenny's Podcast", 49, "#8b5cf6", "https://www.youtube.com/@LennysPodcast/videos", 10),
@@ -280,6 +275,85 @@ PERSONALIZED_CHANNELS = [
 ]
 
 
+# Curated channels: each video is a specific search query for an iconic video
+# (id, name, number, color, list_of_search_queries)
+CURATED_CHANNELS = [
+    ("music-80s", "Music 80s", 44, "#f472b6", [
+        "Michael Jackson Thriller official video",
+        "a-ha Take On Me official video",
+        "Prince When Doves Cry official video",
+        "Madonna Like a Prayer official video",
+        "Cyndi Lauper Girls Just Want to Have Fun",
+        "Whitney Houston I Wanna Dance With Somebody",
+        "Depeche Mode Enjoy the Silence official video",
+        "New Order Blue Monday official video",
+        "Tears for Fears Everybody Wants to Rule the World",
+        "The Cure Friday Im in Love official video",
+    ]),
+    ("music-90s", "Music 90s", 45, "#c084fc", [
+        "Nirvana Smells Like Teen Spirit official video",
+        "TLC Waterfalls official video",
+        "Tupac California Love official video",
+        "Notorious BIG Juicy official video",
+        "Outkast Rosa Parks official video",
+        "Lauryn Hill Doo Wop That Thing official video",
+        "Radiohead Karma Police official video",
+        "Bjork Army of Me official video",
+        "Nas It Was Written official video",
+        "A Tribe Called Quest Can I Kick It official video",
+    ]),
+    ("music-2000s", "Music 2000s", 46, "#60a5fa", [
+        "Outkast Hey Ya official video",
+        "Kanye West Stronger official video",
+        "Beyonce Crazy in Love official video",
+        "Usher Yeah official video",
+        "MIA Paper Planes official video",
+        "Gorillaz Feel Good Inc official video",
+        "Jay-Z 99 Problems official video",
+        "Missy Elliott Work It official video",
+        "Daft Punk Around the World official video",
+        "Pharrell Williams Frontin official video",
+    ]),
+    ("music-2010s", "Music 2010s", 47, "#34d399", [
+        "Kendrick Lamar HUMBLE official video",
+        "Frank Ocean Pyramids official video",
+        "Childish Gambino This Is America official video",
+        "Tyler the Creator See You Again official video",
+        "Drake Hotline Bling official video",
+        "Kanye West Runaway official video full",
+        "Tame Impala The Less I Know the Better official video",
+        "SZA Love Galore official video",
+        "Anderson Paak Come Down official video",
+        "James Blake Retrograde official video",
+    ]),
+    ("music-2020s", "Music 2020s", 48, "#fbbf24", [
+        "Tyler the Creator EARFQUAKE official video",
+        "SZA Kill Bill official video",
+        "Doja Cat Say So official video",
+        "Kendrick Lamar Not Like Us official video",
+        "Steve Lacy Bad Habit official video",
+        "PinkPantheress Boy a liar official video",
+        "Charli XCX 360 official video",
+        "Ice Spice Munch official video",
+        "Tems Free Mind official video",
+        "Khruangbin Pelota official video",
+    ]),
+]
+
+
+def fetch_curated_videos(queries: list[str]) -> list[dict]:
+    """Fetch one video per search query — for curated playlists."""
+    videos = []
+    seen = set()
+    for q in queries:
+        results = fetch_videos(f"ytsearch1:{q}", 1)
+        for v in results:
+            if v["videoId"] not in seen:
+                seen.add(v["videoId"])
+                videos.append(v)
+    return videos
+
+
 def main():
     print("Loading artists from artists.csv...")
     artists = load_artists()
@@ -298,6 +372,26 @@ def main():
     for ch_id, name, number, color, source, max_vids in STANDARD_CHANNELS:
         print(f"  [{number:>2}] {name} — fetching {max_vids} videos...")
         videos = fetch_videos(source, max_vids)
+        if not videos:
+            print(f"       ⚠ No videos found")
+            failed.append(name)
+        else:
+            print(f"       ✓ {len(videos)} videos")
+            total_videos += len(videos)
+
+        channels.append({
+            "id": ch_id,
+            "name": name,
+            "number": number,
+            "color": color,
+            "videos": videos,
+        })
+
+    # Build curated channels (specific iconic videos per search query)
+    print("\n=== Curated Channels ===")
+    for ch_id, name, number, color, queries in CURATED_CHANNELS:
+        print(f"  [{number:>2}] {name} — fetching {len(queries)} curated videos...")
+        videos = fetch_curated_videos(queries)
         if not videos:
             print(f"       ⚠ No videos found")
             failed.append(name)
