@@ -345,7 +345,7 @@ Channel Surfer-inspired TV guide at `/tv`. Simulates live TV with YouTube videos
 
 ### How it works
 
-- 53 channels, ~470 videos with real YouTube IDs and exact durations
+- 85 channels, ~1770 videos with real YouTube IDs and exact durations
 - "Live" scheduling: `position = Date.now() % totalPlaylistDuration` — everyone sees the same content at the same time
 - Skip button to advance to next video in playlist
 - TV button in header bar, hides setlist sidebar when active

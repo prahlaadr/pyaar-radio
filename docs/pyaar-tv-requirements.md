@@ -10,7 +10,7 @@ A Channel Surfer-inspired TV guide built into Pyaar Radio at `/tv`. Simulates li
 
 ## Current State
 
-- **60 channels, ~630 videos** with real YouTube video IDs and exact durations
+- **85 channels, ~1770 videos** with real YouTube video IDs and exact durations
 - All video data sourced programmatically via `yt-dlp`
 - Auto-refreshed weekly via GitHub Actions (`sync-tv-channels.yml`)
 - Live at `pyaar-radio.vercel.app/tv`
