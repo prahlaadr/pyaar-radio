@@ -1707,6 +1707,16 @@ export default function Home() {
             onClick={() => { handleSelectArtist(null); setTab("browse"); setSectionMode("browse"); prevSectionMode.current = "browse"; }}
           >Pyaar Radio</h1>
           <button
+            onClick={() => { setSectionMode("tv"); setTamilMode(false); setIlaiyaraajaMode(false); }}
+            className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
+              sectionMode === "tv"
+                ? "bg-red-600 text-white"
+                : "bg-[#111] text-[#888] hover:text-red-400"
+            }`}
+          >
+            TV
+          </button>
+          <button
             onClick={() => { playRadio(); setRadioMode(true); setSetlistMode(false); }}
             disabled={artists.length === 0}
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${

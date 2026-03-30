@@ -206,13 +206,6 @@ export function FilterPanel({
                   >
                     Ambient
                   </button>
-                  <div className="w-px bg-[#333] mx-1" />
-                  <button
-                    onClick={() => onSectionToggle("tv")}
-                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
-                  >
-                    TV
-                  </button>
                 </>
               )}
             </div>
