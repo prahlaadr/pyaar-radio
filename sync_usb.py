@@ -94,18 +94,64 @@ def get_usb_folder(usb_base, year, month, title):
     if year >= 2026:
         # New format: 2026/March 26
         folder = Path(usb_base) / str(year) / title
+    elif year == 2025:
+        # 2025 lives under prahloud 2025/
+        folder = Path(usb_base) / "prahloud 2025" / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
     else:
-        # Old format: 2024-03 (March)
+        # Pre-2025: top-level 2024-03 (March)
         folder = Path(usb_base) / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
 
     return folder
 
 
 def get_existing_tracks(folder):
-    """Get lowercase set of track stems already on USB."""
+    """Get map of normalized stem → full filepath for tracks on USB."""
     if not folder.exists():
-        return set()
-    return {Path(f).stem.lower() for f in os.listdir(folder)}
+        return {}
+    result = {}
+    for f in os.listdir(folder):
+        fp = folder / f
+        if fp.is_file():
+            result[normalize(Path(f).stem)] = fp
+    return result
+
+
+# Quality tiers (higher = better)
+QUALITY_FLAC = 3      # FLAC/ALAC/WAV/AIFF — lossless
+QUALITY_320 = 2       # 320kbps+ MP3/AAC
+QUALITY_LOW = 1       # anything below 320kbps
+QUALITY_UNKNOWN = 0
+
+
+def check_quality(filepath):
+    """Check audio quality of a file. Returns (tier, details_string)."""
+    try:
+        r = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries",
+             "format=format_name,bit_rate", "-of", "csv=p=0", str(filepath)],
+            capture_output=True, text=True, timeout=10
+        )
+        parts = r.stdout.strip().split(",")
+        if len(parts) < 2:
+            return QUALITY_UNKNOWN, "unknown"
+
+        fmt = parts[0].lower()
+        bitrate = int(parts[1]) // 1000 if parts[1].isdigit() else 0
+
+        if "flac" in fmt or "alac" in fmt or "wav" in fmt or "aiff" in fmt:
+            return QUALITY_FLAC, f"lossless ({fmt})"
+        elif bitrate >= 310:
+            return QUALITY_320, f"{bitrate}kbps {fmt}"
+        elif bitrate > 0:
+            return QUALITY_LOW, f"{bitrate}kbps {fmt}"
+        else:
+            # m4a/aac from yt-dlp often don't report bitrate cleanly
+            ext = Path(filepath).suffix.lower()
+            if ext in (".m4a", ".aac", ".opus", ".webm"):
+                return QUALITY_LOW, f"lossy ({ext})"
+            return QUALITY_UNKNOWN, "unknown"
+    except Exception:
+        return QUALITY_UNKNOWN, "error"
 
 
 def normalize(s):
@@ -119,22 +165,21 @@ def normalize(s):
     return " ".join(s.split())
 
 
-def is_track_on_usb(track, existing):
-    """Check if a track is already on the USB (fuzzy match on title/artist)."""
+def find_track_on_usb(track, existing):
+    """Find a track on USB. Returns filepath if found, None if missing.
+    existing is a dict of {normalized_stem: filepath}."""
     title_norm = normalize(track["title"])
     artist_norm = normalize(track["artist"].split(";")[0])
-    # Also check with just first significant word of title
     title_words = [w for w in title_norm.split() if len(w) > 2]
 
-    for f in existing:
-        f_norm = normalize(f)
+    for f_norm, filepath in existing.items():
         # Direct substring match
         if title_norm[:15] in f_norm or (len(artist_norm) > 3 and artist_norm[:10] in f_norm):
-            return True
+            return filepath
         # Word-based match — if 2+ significant title words appear in filename
         if title_words and sum(1 for w in title_words if w in f_norm) >= min(2, len(title_words)):
-            return True
-    return False
+            return filepath
+    return None
 
 
 def clean_query(artist, title):
@@ -190,11 +235,11 @@ def download_ytdlp(video_id, name, dest_folder):
 
 
 def sync_playlist(playlist, usb_base, dry_run=False):
-    """Sync a single playlist to USB. Returns (downloaded, failed, skipped) counts."""
+    """Sync a single playlist to USB. Returns (downloaded, upgraded, failed, skipped) counts."""
     playlist_path = PLAYLISTS_DIR / f"{playlist['playlistId']}.json"
     if not playlist_path.exists():
         print(f"  Playlist JSON not found: {playlist_path}")
-        return 0, 0, 0
+        return 0, 0, 0, 0
 
     with open(playlist_path) as f:
         data = json.load(f)
@@ -202,52 +247,90 @@ def sync_playlist(playlist, usb_base, dry_run=False):
     folder = get_usb_folder(usb_base, playlist["year"], playlist["month"], playlist["title"])
     existing = get_existing_tracks(folder)
 
-    # Find missing tracks
-    missing = []
+    # Categorize tracks: missing, upgradeable, or good
+    missing = []       # not on USB at all
+    upgradeable = []   # on USB but low quality
+    good = 0           # on USB and already HQ
+
     for t in data["tracks"]:
-        if not is_track_on_usb(t, existing):
-            missing.append(t)
+        match = find_track_on_usb(t, existing)
+        if match is None:
+            missing.append((t, None))
+        else:
+            quality, desc = check_quality(match)
+            if quality >= QUALITY_320:
+                good += 1
+            else:
+                upgradeable.append((t, match, quality, desc))
 
-    if not missing:
-        print(f"  All {len(data['tracks'])} tracks present")
-        return 0, 0, len(data["tracks"])
+    need_download = missing + [(t, old_path) for t, old_path, q, d in upgradeable]
 
-    print(f"  {len(missing)} missing of {len(data['tracks'])} tracks")
+    if not need_download and not upgradeable:
+        print(f"  All {len(data['tracks'])} tracks present and HQ")
+        return 0, 0, 0, good
+
+    status_parts = []
+    if missing:
+        status_parts.append(f"{len(missing)} missing")
+    if upgradeable:
+        status_parts.append(f"{len(upgradeable)} upgradeable")
+    print(f"  {' + '.join(status_parts)} of {len(data['tracks'])} tracks ({good} already HQ)")
 
     if dry_run:
-        for t in missing:
-            print(f"    Would download: {t['artist'].split(';')[0]} - {t['title']}")
-        return 0, 0, len(data["tracks"]) - len(missing)
+        for t, _ in missing:
+            print(f"    [NEW] {t['artist'].split(';')[0]} - {t['title']}")
+        for t, old_path, q, desc in upgradeable:
+            print(f"    [UPGRADE {desc}] {t['artist'].split(';')[0]} - {t['title']}")
+        return 0, 0, 0, good
 
     # Create folder
     folder.mkdir(parents=True, exist_ok=True)
 
-    # Step 1: Try Soulseek for all missing tracks
-    queries = [clean_query(t["artist"], t["title"]) for t in missing]
+    # Collect all tracks that need Soulseek attempts
+    all_needed = [(t, old_path) for t, old_path in missing] + [(t, old_path) for t, old_path, q, d in upgradeable]
+    queries = [clean_query(t["artist"], t["title"]) for t, _ in all_needed]
     new_files = download_soulseek(queries)
 
-    # Copy Soulseek downloads to USB
+    # Process results
     downloaded = 0
-    still_missing = []
-    for t in missing:
+    upgraded = 0
+    still_needed = []
+
+    for t, old_path in all_needed:
         title_lower = t["title"].lower()
         artist_lower = t["artist"].split(";")[0].lower()
         copied = False
+
         for f in new_files:
             if title_lower[:12] in f.lower() or (len(artist_lower) > 3 and artist_lower[:8] in f.lower()):
                 src = COMPLETE_DIR / f
                 if src.exists():
-                    shutil.copy2(src, folder / f)
-                    downloaded += 1
+                    # Check that the new file is actually better
+                    new_quality, new_desc = check_quality(src)
+                    if old_path and new_quality > QUALITY_LOW:
+                        # Upgrade: remove old, copy new
+                        old_path.unlink()
+                        shutil.copy2(src, folder / f)
+                        upgraded += 1
+                        print(f"    UPGRADED: {f} ({new_desc})")
+                    elif not old_path:
+                        # New track
+                        shutil.copy2(src, folder / f)
+                        downloaded += 1
+                        print(f"    Soulseek: {f}")
                     copied = True
-                    print(f"    Soulseek: {f}")
                     break
-        if not copied:
-            still_missing.append(t)
 
-    # Step 2: yt-dlp fallback for remaining
+        if not copied:
+            still_needed.append((t, old_path))
+
+    # yt-dlp fallback — only for missing tracks (not upgrades, yt-dlp is lossy)
     failed = 0
-    for t in still_missing:
+    for t, old_path in still_needed:
+        if old_path:
+            # Already has a file, just not HQ — skip yt-dlp (won't improve quality)
+            continue
+
         if not t.get("videoId"):
             failed += 1
             print(f"    SKIP (no videoId): {t['artist']} - {t['title']}")
@@ -262,8 +345,7 @@ def sync_playlist(playlist, usb_base, dry_run=False):
             failed += 1
             print("FAIL")
 
-    skipped = len(data["tracks"]) - len(missing)
-    return downloaded, failed, skipped
+    return downloaded, upgraded, failed, good
 
 
 def main():
@@ -290,17 +372,23 @@ def main():
 
     print(f"{'[DRY RUN] ' if args.dry else ''}Syncing {len(playlists)} archive playlists to {usb_base}\n")
 
-    total_dl, total_fail, total_skip = 0, 0, 0
+    total_dl, total_up, total_fail, total_skip = 0, 0, 0, 0
     for p in playlists:
         print(f"{'─' * 50}")
         print(f"{p['title']} ({p['trackCount']} tracks)")
-        dl, fail, skip = sync_playlist(p, usb_base, args.dry)
+        dl, up, fail, skip = sync_playlist(p, usb_base, args.dry)
         total_dl += dl
+        total_up += up
         total_fail += fail
         total_skip += skip
 
     print(f"\n{'═' * 50}")
-    print(f"DONE — Downloaded: {total_dl} | Failed: {total_fail} | Already on USB: {total_skip}")
+    parts = [f"New: {total_dl}"]
+    if total_up:
+        parts.append(f"Upgraded: {total_up}")
+    parts.append(f"Failed: {total_fail}")
+    parts.append(f"Already HQ: {total_skip}")
+    print(f"DONE — {' | '.join(parts)}")
 
 
 if __name__ == "__main__":
