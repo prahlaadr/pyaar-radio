@@ -266,6 +266,7 @@ STANDARD_CHANNELS = [
     ("nature-india", "Nature India", 53, "#22c55e", "https://www.youtube.com/@RoundglassSustain/videos", 15),
     ("vookum", "Vookum", 54, "#d4af37", "https://www.youtube.com/@vookummedia/videos", 15),
     ("lex-fridman", "Lex Fridman", 55, "#1e3a5f", "https://www.youtube.com/@lexfridman/videos", 10),
+    ("hasan-minhaj", "Hasan Minhaj", 56, "#f59e0b", "https://www.youtube.com/@HasanMinhaj/videos", 10),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)

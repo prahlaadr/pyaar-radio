@@ -2974,6 +2974,64 @@
           "durationSeconds": 11889
         }
       ]
+    },
+    {
+      "id": "hasan-minhaj",
+      "name": "Hasan Minhaj",
+      "number": 56,
+      "color": "#f59e0b",
+      "videos": [
+        {
+          "videoId": "Vydu6ShQIwg",
+          "title": "Is Another 1929 Crash Coming? with CNBC's Andrew Ross Sorkin",
+          "durationSeconds": 3614
+        },
+        {
+          "videoId": "AQ6bNCijt3g",
+          "title": "Why MAGA 2.0 Hates Legal Immigration Too",
+          "durationSeconds": 1804
+        },
+        {
+          "videoId": "129AT_BQqFE",
+          "title": "Neil deGrasse Tyson on Horoscopes, Creationists and Superman",
+          "durationSeconds": 1061
+        },
+        {
+          "videoId": "D_fOTofRoOk",
+          "title": "PROOF* THAT ALIENS ARE REAL!!! (*my theory) with Neil deGrasse Tyson",
+          "durationSeconds": 4728
+        },
+        {
+          "videoId": "TzlyHUoVy5c",
+          "title": "I BEGGED Alex Honnold to STOP CLIMBING",
+          "durationSeconds": 3087
+        },
+        {
+          "videoId": "i9rKyzig4AI",
+          "title": "Why Are Tech Bros Obsessed with Stoicism? with Ryan Holiday",
+          "durationSeconds": 3445
+        },
+        {
+          "videoId": "sI6Kjn_XOpI",
+          "title": "Why Kal Penn is Disillusioned with Democrats",
+          "durationSeconds": 3431
+        },
+        {
+          "videoId": "5yO01YtKFmo",
+          "title": "Here’s How Close We Came To Nuclear War",
+          "durationSeconds": 281
+        },
+        {
+          "videoId": "MEcQM3Blvzw",
+          "title": "We Could All Get Nuked Tomorrow (Here's Why)",
+          "durationSeconds": 4887
+        },
+        {
+          "videoId": "vo7GA2txD9I",
+          "title": "Will AI Ruin Music? - with Wyclef Jean",
+          "durationSeconds": 3773
+        }
+      ]
     }
   ]
 }
