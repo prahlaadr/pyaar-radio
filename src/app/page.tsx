@@ -755,9 +755,10 @@ export default function Home() {
     const nextVideo = tvCurrentChannel.videos[nextIndex];
     tvVideoIndexRef.current = nextIndex;
     setTvVideoId(nextVideo.videoId);
-    setTvOffsetSeconds(0);
+    // Jump to a random point in the video (like joining mid-stream)
+    const randomOffset = Math.floor(Math.random() * Math.max(0, nextVideo.durationSeconds - 30));
+    setTvOffsetSeconds(randomOffset);
     setTvVideoTitle(nextVideo.title);
-    // Clear scheduled advance — the onEnded handler will trigger when this video finishes
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
   }, [tvCurrentChannel]);
 
