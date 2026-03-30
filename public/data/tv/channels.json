@@ -1706,6 +1706,64 @@
           "durationSeconds": 1685
         }
       ]
+    },
+    {
+      "id": "mehlman-medical",
+      "name": "Mehlman Medical",
+      "number": 40,
+      "color": "#0d9488",
+      "videos": [
+        {
+          "videoId": "jddI-z47Ya8",
+          "title": "HY USMLE Q #1556 – MSK",
+          "durationSeconds": 368
+        },
+        {
+          "videoId": "iLI9z388cf0",
+          "title": "HY USMLE Q #1555 – Cardiopulm",
+          "durationSeconds": 362
+        },
+        {
+          "videoId": "n5ordqNoae0",
+          "title": "HY USMLE Q #1554 – Neuro",
+          "durationSeconds": 348
+        },
+        {
+          "videoId": "zJ_kZL_Ot58",
+          "title": "HY USMLE Q #1553 – Biochemistry",
+          "durationSeconds": 230
+        },
+        {
+          "videoId": "azMSctqCa6g",
+          "title": "HY USMLE Q #1552 – Pulmonary",
+          "durationSeconds": 401
+        },
+        {
+          "videoId": "wpFC2Zl3xVE",
+          "title": "HY USMLE Q #1551 – Pharm",
+          "durationSeconds": 284
+        },
+        {
+          "videoId": "13AcV19Uij4",
+          "title": "HY USMLE Q #1550 – Micro",
+          "durationSeconds": 267
+        },
+        {
+          "videoId": "nE1Vk9tSluk",
+          "title": "HY USMLE Q #1549 – Hematology",
+          "durationSeconds": 375
+        },
+        {
+          "videoId": "sZqLtydvmtU",
+          "title": "HY USMLE Q #1548 – Repro",
+          "durationSeconds": 238
+        },
+        {
+          "videoId": "RH-OpcAtlkA",
+          "title": "HY USMLE Q #1547 – Hematology",
+          "durationSeconds": 438
+        }
+      ]
     }
   ]
 }
