@@ -258,7 +258,6 @@ STANDARD_CHANNELS = [
     ("zelda-study", "Zelda Study Music", 73, "#16a34a", "ytsearch25:zelda study music lofi chill soundtrack", 25),
 
     # === Channel Surfer channels (relevant ones) ===
-    ("cs-ai-ml", "AI & ML", 101, "#6366f1", "ytsearch25:AI machine learning deep learning lecture talk", 25),
     ("cs-city-infrastructure", "City & Infrastructure", 102, "#64748b", "ytsearch25:city infrastructure urban planning engineering", 25),
     ("cs-code-dev", "Code & Dev", 103, "#22d3ee", "ytsearch25:programming tutorial code dev talk conference", 25),
     ("cs-crime", "Crime & Investigations", 104, "#991b1b", "ytsearch25:true crime documentary investigation full", 25),
