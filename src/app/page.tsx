@@ -214,6 +214,7 @@ export default function Home() {
   const [tvOffsetSeconds, setTvOffsetSeconds] = useState(0);
   const [tvVideoTitle, setTvVideoTitle] = useState("");
   const tvAdvanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const tvVideoIndexRef = useRef(0);
   const playerRef = useRef<YouTubePlayerHandle | null>(null);
   const playRandomRef = useRef<(() => void) | null>(null);
   const prefetchRef = useRef<{ track: Track; forRadio: boolean } | null>(null);
@@ -691,6 +692,7 @@ export default function Home() {
     setTvVideoId(np.video.videoId);
     setTvOffsetSeconds(np.offsetSeconds);
     setTvVideoTitle(np.video.title);
+    tvVideoIndexRef.current = np.videoIndex;
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
     tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
   }, []);
@@ -701,13 +703,33 @@ export default function Home() {
     setTvVideoId(np.video.videoId);
     setTvOffsetSeconds(np.offsetSeconds);
     setTvVideoTitle(np.video.title);
+    tvVideoIndexRef.current = np.videoIndex;
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
     tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
   }, []);
 
+  const tvSkip = useCallback(() => {
+    if (!tvCurrentChannel || tvCurrentChannel.videos.length === 0) return;
+    const nextIndex = (tvVideoIndexRef.current + 1) % tvCurrentChannel.videos.length;
+    const nextVideo = tvCurrentChannel.videos[nextIndex];
+    tvVideoIndexRef.current = nextIndex;
+    setTvVideoId(nextVideo.videoId);
+    setTvOffsetSeconds(0);
+    setTvVideoTitle(nextVideo.title);
+    // Clear scheduled advance — the onEnded handler will trigger when this video finishes
+    if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
+  }, [tvCurrentChannel]);
+
   const tvHandleEnded = useCallback(() => {
-    if (tvCurrentChannel) tvAdvanceToNext(tvCurrentChannel);
-  }, [tvCurrentChannel, tvAdvanceToNext]);
+    // When a video ends (naturally or after skip), go to next in playlist
+    if (!tvCurrentChannel) return;
+    const nextIndex = (tvVideoIndexRef.current + 1) % tvCurrentChannel.videos.length;
+    const nextVideo = tvCurrentChannel.videos[nextIndex];
+    tvVideoIndexRef.current = nextIndex;
+    setTvVideoId(nextVideo.videoId);
+    setTvOffsetSeconds(0);
+    setTvVideoTitle(nextVideo.title);
+  }, [tvCurrentChannel]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
@@ -1920,6 +1942,7 @@ export default function Home() {
                       videoId={tvVideoId}
                       offsetSeconds={tvOffsetSeconds}
                       onEnded={tvHandleEnded}
+                      onSkip={tvSkip}
                       channelName={tvCurrentChannel?.name}
                       videoTitle={tvVideoTitle}
                     />

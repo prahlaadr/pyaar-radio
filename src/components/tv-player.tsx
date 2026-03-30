@@ -8,11 +8,12 @@ interface Props {
   videoId: string | null;
   offsetSeconds?: number;
   onEnded?: () => void;
+  onSkip?: () => void;
   channelName?: string;
   videoTitle?: string;
 }
 
-export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, channelName, videoTitle }: Props) {
+export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelName, videoTitle }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YTPlayer | null>(null);
   const currentVideoRef = useRef<string | null>(null);
@@ -92,12 +93,21 @@ export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, channelName, vid
       {/* Video title bar */}
       {channelName && (
         <div className="px-4 py-2 bg-[#111] border-b border-[#222] flex items-center gap-3">
-          <span className="text-[10px] uppercase tracking-wider text-red-500 font-semibold">{channelName}</span>
+          <span className="text-[10px] uppercase tracking-wider text-red-500 font-semibold shrink-0">{channelName}</span>
           {videoTitle && (
             <>
-              <span className="text-[#333]">/</span>
-              <span className="text-[10px] uppercase tracking-wider text-[#888] truncate">{videoTitle}</span>
+              <span className="text-[#333] shrink-0">/</span>
+              <span className="text-[10px] uppercase tracking-wider text-[#888] truncate flex-1">{videoTitle}</span>
             </>
+          )}
+          {onSkip && (
+            <button
+              onClick={onSkip}
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#1a1a1a] text-[#666] hover:text-white transition-colors shrink-0"
+              title="Skip to next video"
+            >
+              Skip &raquo;
+            </button>
           )}
         </div>
       )}
