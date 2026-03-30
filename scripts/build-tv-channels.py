@@ -190,7 +190,7 @@ def fetch_artist_videos(
 STANDARD_CHANNELS = [
     # Music (non-personalized)
     ("dj-sets", "DJ Sets", 1, "#ef4444", "ytsearch8:DJ set full Cercle HÖR Berlin Rinse FM", 8),
-    ("music-docs", "Music Docs", 3, "#8b5cf6", "https://www.youtube.com/@Polyphonic/videos", 6),
+    # Music Docs is a COMPOSITE_CHANNEL — defined below
 
     # Indian Classical & Film
     ("ilaiyaraaja", "Ilaiyaraaja", 4, "#dc2626", "ytsearch8:ilaiyaraaja full songs concert film", 8),
@@ -344,6 +344,15 @@ CURATED_CHANNELS = [
 # Composite channels: merge videos from multiple sources into one channel
 # (id, name, number, color, list_of_(source, max_videos) tuples)
 COMPOSITE_CHANNELS = [
+    ("music-docs", "Music Docs", 3, "#8b5cf6", [
+        ("https://www.youtube.com/@Polyphonic/videos", 3),
+        ("https://www.youtube.com/@TrashTheory/videos", 3),
+        ("https://www.youtube.com/@CharlesCornellStudios/videos", 3),
+        ("https://www.youtube.com/@dallastaylor.mp3/videos", 3),
+        ("https://www.youtube.com/@TapeNotesPodcast/videos", 3),
+        ("ytsearch3:Vox Earworm music explained", 3),
+        ("ytsearch3:music documentary full film hip hop electronic", 3),
+    ]),
     ("nature-india", "Nature India", 53, "#22c55e", [
         ("https://www.youtube.com/@RoundglassSustain/videos", 8),
         ("ytsearch4:indian wildlife documentary National Geographic India", 4),
