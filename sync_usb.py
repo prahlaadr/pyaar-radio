@@ -193,6 +193,34 @@ def clean_query(artist, title):
     return f"{artist} {title}".strip()
 
 
+def copy_as_320(src, dest_folder, filename):
+    """Copy audio file to dest. If FLAC/lossless, convert to 320kbps MP3 to save space."""
+    src = Path(src)
+    ext = src.suffix.lower()
+
+    if ext in (".flac", ".alac", ".wav", ".aiff"):
+        # Convert to 320kbps MP3
+        mp3_name = Path(filename).stem + ".mp3"
+        dest = dest_folder / mp3_name
+        try:
+            subprocess.run([
+                "ffmpeg", "-i", str(src), "-ab", "320k", "-map_metadata", "0",
+                "-y", str(dest)
+            ], capture_output=True, timeout=60)
+            if dest.exists() and dest.stat().st_size > 0:
+                return dest
+        except Exception:
+            pass
+        # Fallback: copy as-is if conversion fails
+        dest = dest_folder / filename
+        shutil.copy2(src, dest)
+        return dest
+    else:
+        dest = dest_folder / filename
+        shutil.copy2(src, dest)
+        return dest
+
+
 def download_soulseek(queries):
     """Run batch_grab.py for a list of queries. Returns set of new files."""
     if not queries or not BATCH_GRAB.exists():
@@ -308,16 +336,17 @@ def sync_playlist(playlist, usb_base, dry_run=False):
                     # Check that the new file is actually better
                     new_quality, new_desc = check_quality(src)
                     if old_path and new_quality > QUALITY_LOW:
-                        # Upgrade: remove old, copy new
-                        old_path.unlink()
-                        shutil.copy2(src, folder / f)
+                        # Upgrade: remove old, copy new as 320 MP3
+                        if old_path.exists():
+                            old_path.unlink()
+                        dest = copy_as_320(src, folder, f)
                         upgraded += 1
-                        print(f"    UPGRADED: {f} ({new_desc})")
+                        print(f"    UPGRADED: {dest.name} ({new_desc} → 320mp3)")
                     elif not old_path:
                         # New track
-                        shutil.copy2(src, folder / f)
+                        dest = copy_as_320(src, folder, f)
                         downloaded += 1
-                        print(f"    Soulseek: {f}")
+                        print(f"    Soulseek: {dest.name}")
                     copied = True
                     break
 
