@@ -256,6 +256,28 @@ STANDARD_CHANNELS = [
     # Reality / Business TV
     ("shark-tank", "Shark Tank", 72, "#0284c7", "ytsearch25:shark tank full episode pitch best", 25),
     ("zelda-study", "Zelda Study Music", 73, "#16a34a", "ytsearch25:zelda study music lofi chill soundtrack", 25),
+
+    # === Channel Surfer channels (relevant ones) ===
+    ("cs-ai-ml", "AI & ML", 101, "#6366f1", "ytsearch25:AI machine learning deep learning lecture talk", 25),
+    ("cs-city-infrastructure", "City & Infrastructure", 102, "#64748b", "ytsearch25:city infrastructure urban planning engineering", 25),
+    ("cs-code-dev", "Code & Dev", 103, "#22d3ee", "ytsearch25:programming tutorial code dev talk conference", 25),
+    ("cs-crime", "Crime & Investigations", 104, "#991b1b", "ytsearch25:true crime documentary investigation full", 25),
+    ("cs-gaming", "Gaming", 105, "#7c3aed", "ytsearch25:gaming review gameplay walkthrough best", 25),
+    ("cs-geopolitics", "Geopolitics", 106, "#dc2626", "ytsearch25:geopolitics world affairs international relations explained", 25),
+    ("cs-history", "History", 107, "#b45309", "ytsearch25:history documentary full ancient modern world", 25),
+    ("cs-lofi-ambient", "Lofi / Synthwave", 108, "#8b5cf6", "ytsearch25:lofi synthwave ambient chill music stream", 25),
+    ("cs-lofi-car", "Lofi Car", 109, "#a855f7", "ytsearch25:lofi car driving night city aesthetic music", 25),
+    ("cs-movie-trailers", "Movie Trailers", 110, "#ef4444", "ytsearch25:movie trailer 2025 2026 official new", 25),
+    ("cs-movies-tv", "Movies & TV", 111, "#f59e0b", "ytsearch25:full movie free film classic", 25),
+    ("cs-retro-music", "Retro (50s/60s/70s)", 112, "#d97706", "ytsearch25:50s 60s 70s music hits classic oldies official video", 25),
+    ("cs-retro-tech", "Retro Tech", 113, "#78716c", "ytsearch25:retro tech vintage computing old technology", 25),
+    ("cs-space", "Space", 114, "#1d4ed8", "ytsearch25:space documentary NASA universe planets", 25),
+    ("cs-travel", "Travel", 115, "#14b8a6", "ytsearch25:travel documentary adventure explore country", 25),
+    ("cs-mystery", "Mystery", 116, "#6b21a8", "ytsearch25:mystery unsolved strange unexplained documentary", 25),
+    ("cs-adult-animation", "Adult Animation", 117, "#f97316", "ytsearch25:adult animation cartoon full episode", 25),
+    ("cs-anime", "Anime", 118, "#ec4899", "ytsearch25:anime full episode best moments AMV", 25),
+    ("cs-art", "Art", 119, "#e879f9", "ytsearch25:art process painting drawing creative documentary", 25),
+    ("cs-party", "Party", 120, "#ef4444", "ytsearch25:party mix DJ dance music 2025 hype", 25),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)
