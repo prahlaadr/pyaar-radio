@@ -43,6 +43,12 @@ export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelN
 
     if (playerRef.current) {
       playerRef.current.loadVideoById(videoId, offsetSeconds);
+      // loadVideoById startSeconds can be unreliable — force seek after a brief delay
+      if (offsetSeconds > 0) {
+        setTimeout(() => {
+          try { playerRef.current?.seekTo(offsetSeconds, true); } catch {}
+        }, 1000);
+      }
       return;
     }
 
