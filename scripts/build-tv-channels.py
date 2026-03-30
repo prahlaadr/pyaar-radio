@@ -252,6 +252,9 @@ STANDARD_CHANNELS = [
 
     # Design / Maker
     ("van-neistat", "Van Neistat", 65, "#78716c", "https://www.youtube.com/@vanneistat/videos", 6),
+
+    # Reality / Business TV
+    ("shark-tank", "Shark Tank", 72, "#0284c7", "ytsearch10:shark tank full episode pitch best", 10),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)

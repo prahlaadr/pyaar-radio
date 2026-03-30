@@ -3624,6 +3624,64 @@
           "durationSeconds": 148
         }
       ]
+    },
+    {
+      "id": "shark-tank",
+      "name": "Shark Tank",
+      "number": 72,
+      "color": "#0284c7",
+      "videos": [
+        {
+          "videoId": "oGoY8Zqm9lo",
+          "title": "Top 5 Business Pitches That Sparked Bidding Wars | Shark Tank US | Shark Tank Global",
+          "durationSeconds": 2933
+        },
+        {
+          "videoId": "LiQJF9-IULI",
+          "title": "Shark Tank US | Season 15 | One Pitch From Every Episode",
+          "durationSeconds": 13068
+        },
+        {
+          "videoId": "22dDdKOgbcI",
+          "title": "Shark Tank US | Season 16 | One Pitch From Every Episode",
+          "durationSeconds": 11598
+        },
+        {
+          "videoId": "Vu-QVpxTTKA",
+          "title": "Shark Tank US | Season 14 | One Pitch From Every Episode",
+          "durationSeconds": 13140
+        },
+        {
+          "videoId": "ffF7x5e0zyA",
+          "title": "Best Pitches Of The Month! Shark Tank US | Shark Tank Global",
+          "durationSeconds": 2031
+        },
+        {
+          "videoId": "c6laie9bess",
+          "title": "Shark Tank US | Season 13 | One Pitch From Every Episode",
+          "durationSeconds": 14513
+        },
+        {
+          "videoId": "HqJj7SHX8ME",
+          "title": "BEST Pitches Of The Month!🦈🔥 Shark Tank US | Shark Tank Global",
+          "durationSeconds": 3833
+        },
+        {
+          "videoId": "SL0j0Or-Z2o",
+          "title": "Shark Tank US | Season 10 | One Pitch From Every Episode",
+          "durationSeconds": 13414
+        },
+        {
+          "videoId": "4rQwIjr1kIs",
+          "title": "BEST Of The Month!🦈🔥 Shark Tank US | Shark Tank Global",
+          "durationSeconds": 5520
+        },
+        {
+          "videoId": "WL-_55Izvl4",
+          "title": "Shark Tank US | Season 12 | One Pitch From Every Episode",
+          "durationSeconds": 15456
+        }
+      ]
     }
   ]
 }
