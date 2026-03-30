@@ -1,24 +1,29 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef, useCallback, useImperativeHandle, forwardRef } from "react";
 import { ensureYTAPI } from "@/lib/youtube-api";
 import type { YTEvent, YTPlayer } from "@/lib/youtube-api";
 
+export interface TvPlayerHandle {
+  playVideo: (videoId: string, startSeconds: number) => void;
+}
+
 interface Props {
-  videoId: string | null;
-  offsetSeconds?: number;
   onEnded?: () => void;
   onSkip?: () => void;
   channelName?: string;
   videoTitle?: string;
 }
 
-export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelName, videoTitle }: Props) {
+export const TvPlayer = forwardRef<TvPlayerHandle, Props>(function TvPlayer(
+  { onEnded, onSkip, channelName, videoTitle },
+  ref
+) {
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YTPlayer | null>(null);
-  const currentVideoRef = useRef<string | null>(null);
   const onEndedRef = useRef(onEnded);
   onEndedRef.current = onEnded;
+  const playerReady = useRef(false);
 
   const onStateChange = useCallback((e: YTEvent) => {
     if (e.data === window.YT.PlayerState.ENDED) {
@@ -27,88 +32,67 @@ export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelN
   }, []);
 
   const onError = useCallback(() => {
-    // Skip broken videos — advance to next
     onEndedRef.current?.();
   }, []);
 
+  // Initialize player once (no video)
   useEffect(() => {
-    if (!videoId) return;
-    if (videoId === currentVideoRef.current && playerRef.current) {
-      // Same video, just seek
-      playerRef.current.seekTo(offsetSeconds, true);
-      return;
-    }
-
-    currentVideoRef.current = videoId;
-
-    if (playerRef.current) {
-      if (offsetSeconds > 0) {
-        // Load video then seek — more reliable than loadVideoById's startSeconds param
-        playerRef.current.loadVideoById(videoId);
-        const seekWhenReady = () => {
-          setTimeout(() => {
-            try {
-              const state = playerRef.current?.getPlayerState?.();
-              if (state === window.YT.PlayerState.PLAYING || state === window.YT.PlayerState.BUFFERING) {
-                playerRef.current?.seekTo(offsetSeconds, true);
-              } else {
-                seekWhenReady(); // retry until playing
-              }
-            } catch {}
-          }, 500);
-        };
-        seekWhenReady();
-      } else {
-        playerRef.current.loadVideoById(videoId);
-      }
-      return;
-    }
-
     ensureYTAPI(() => {
-      if (!containerRef.current) return;
+      if (!containerRef.current || playerRef.current) return;
       playerRef.current = new window.YT.Player(containerRef.current, {
         height: "100%",
         width: "100%",
-        videoId,
         playerVars: {
           autoplay: 1,
           controls: 1,
           modestbranding: 1,
           playsinline: 1,
           rel: 0,
-          start: Math.floor(offsetSeconds),
           origin: typeof window !== "undefined" ? window.location.origin : "",
         },
         events: {
           onStateChange,
           onError,
+          onReady: () => { playerReady.current = true; },
         },
       });
     });
-  }, [videoId, offsetSeconds, onStateChange, onError]);
 
-  // Cleanup on unmount
-  useEffect(() => {
     return () => {
       try { playerRef.current?.destroy(); } catch {}
       playerRef.current = null;
-      currentVideoRef.current = null;
+      playerReady.current = false;
     };
-  }, []);
+  }, [onStateChange, onError]);
 
-  if (!videoId) {
-    return (
-      <div className="w-full aspect-video bg-[#111] flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-[#666] text-sm uppercase tracking-wider">Select a channel</p>
-        </div>
-      </div>
-    );
-  }
+  // Expose playVideo to parent via ref
+  useImperativeHandle(ref, () => ({
+    playVideo: (videoId: string, startSeconds: number) => {
+      const p = playerRef.current;
+      if (!p) return;
+      p.loadVideoById(videoId, startSeconds);
+      // Backup seek in case startSeconds is ignored
+      if (startSeconds > 0) {
+        const doSeek = (retries: number) => {
+          if (retries <= 0) return;
+          setTimeout(() => {
+            try {
+              const state = p.getPlayerState?.();
+              if (state === window.YT.PlayerState.PLAYING || state === window.YT.PlayerState.BUFFERING) {
+                p.seekTo(startSeconds, true);
+              } else {
+                doSeek(retries - 1);
+              }
+            } catch {}
+          }, 500);
+        };
+        doSeek(6);
+      }
+    },
+  }));
 
   return (
     <div className="w-full">
-      {/* Video title bar */}
       {channelName && (
         <div className="px-4 py-2 bg-[#111] border-b border-[#222] flex items-center gap-3">
           <span className="text-[10px] uppercase tracking-wider text-red-500 font-semibold shrink-0">{channelName}</span>
@@ -134,4 +118,4 @@ export function TvPlayer({ videoId, offsetSeconds = 0, onEnded, onSkip, channelN
       </div>
     </div>
   );
-}
+});

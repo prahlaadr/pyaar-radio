@@ -23,7 +23,7 @@ import hotkeys from "hotkeys-js";
 import { slugify } from "@/lib/slugify";
 import type { TVChannel, TVChannelData } from "@/lib/tv-types";
 import { getNowPlaying } from "@/lib/tv-schedule";
-import { TvPlayer } from "@/components/tv-player";
+import { TvPlayer, type TvPlayerHandle } from "@/components/tv-player";
 import { TvGuide } from "@/components/tv-guide";
 
 const DEFAULT_FILTERS: ArtistFilters = {
@@ -228,6 +228,7 @@ export default function Home() {
   const [tvVideoTitle, setTvVideoTitle] = useState("");
   const tvAdvanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const tvVideoIndexRef = useRef(0);
+  const tvPlayerRef = useRef<TvPlayerHandle | null>(null);
   const playerRef = useRef<YouTubePlayerHandle | null>(null);
   const playRandomRef = useRef<(() => void) | null>(null);
   const prefetchRef = useRef<{ track: Track; forRadio: boolean } | null>(null);
@@ -715,6 +716,8 @@ export default function Home() {
                 setTvOffsetSeconds(time);
                 setTvVideoTitle(channel.videos[videoIdx].title);
                 tvVideoIndexRef.current = videoIdx;
+                // Wait for player to be ready, then play
+                setTimeout(() => tvPlayerRef.current?.playVideo(vid, time), 500);
                 return;
               }
             }
@@ -734,6 +737,7 @@ export default function Home() {
     setTvOffsetSeconds(np.offsetSeconds);
     setTvVideoTitle(np.video.title);
     tvVideoIndexRef.current = np.videoIndex;
+    tvPlayerRef.current?.playVideo(np.video.videoId, np.offsetSeconds);
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
     tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
   }, []);
@@ -745,6 +749,7 @@ export default function Home() {
     setTvOffsetSeconds(np.offsetSeconds);
     setTvVideoTitle(np.video.title);
     tvVideoIndexRef.current = np.videoIndex;
+    tvPlayerRef.current?.playVideo(np.video.videoId, np.offsetSeconds);
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
     tvAdvanceTimerRef.current = setTimeout(() => tvAdvanceToNext(channel), np.secondsUntilNext * 1000);
   }, []);
@@ -754,18 +759,17 @@ export default function Home() {
     const nextIndex = (tvVideoIndexRef.current + 1) % tvCurrentChannel.videos.length;
     const nextVideo = tvCurrentChannel.videos[nextIndex];
     tvVideoIndexRef.current = nextIndex;
-    // Jump to a random point in the video (like joining mid-stream)
     const maxOffset = Math.max(0, nextVideo.durationSeconds - 30);
     const randomOffset = maxOffset > 0 ? Math.floor(Math.random() * maxOffset) : 0;
-    // Set offset BEFORE videoId so both are ready when the effect fires
     setTvOffsetSeconds(randomOffset);
     setTvVideoId(nextVideo.videoId);
     setTvVideoTitle(nextVideo.title);
+    // Directly tell the player to load and seek — no prop/effect dependency
+    tvPlayerRef.current?.playVideo(nextVideo.videoId, randomOffset);
     if (tvAdvanceTimerRef.current) clearTimeout(tvAdvanceTimerRef.current);
   }, [tvCurrentChannel]);
 
   const tvHandleEnded = useCallback(() => {
-    // When a video ends (naturally or after skip), go to next in playlist
     if (!tvCurrentChannel) return;
     const nextIndex = (tvVideoIndexRef.current + 1) % tvCurrentChannel.videos.length;
     const nextVideo = tvCurrentChannel.videos[nextIndex];
@@ -773,6 +777,7 @@ export default function Home() {
     setTvVideoId(nextVideo.videoId);
     setTvOffsetSeconds(0);
     setTvVideoTitle(nextVideo.title);
+    tvPlayerRef.current?.playVideo(nextVideo.videoId, 0);
   }, [tvCurrentChannel]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
@@ -1993,8 +1998,7 @@ export default function Home() {
                   {/* Player */}
                   <div className="md:flex-1 md:min-w-0">
                     <TvPlayer
-                      videoId={tvVideoId}
-                      offsetSeconds={tvOffsetSeconds}
+                      ref={tvPlayerRef}
                       onEnded={tvHandleEnded}
                       onSkip={tvSkip}
                       channelName={tvCurrentChannel?.name}
