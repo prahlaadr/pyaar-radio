@@ -229,7 +229,7 @@ STANDARD_CHANNELS = [
     ("kurzgesagt", "Kurzgesagt", 32, "#38bdf8", "https://www.youtube.com/@kurzgesagt/videos", 8),
     ("vox", "Vox", 33, "#fbbf24", "https://www.youtube.com/@Vox/videos", 8),
     ("defunctland", "Defunctland", 34, "#065f46", "https://www.youtube.com/@Defunctland/videos", 6),
-    ("johnny-harris", "Johnny Harris", 35, "#1d4ed8", "https://www.youtube.com/@johnnyharris/videos", 6),
+
     ("popular-science", "Popular Science", 36, "#06b6d4", "https://www.youtube.com/@veritasium/videos", 10),
 
     # Tech

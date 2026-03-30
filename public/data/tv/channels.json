@@ -1743,44 +1743,6 @@
       ]
     },
     {
-      "id": "johnny-harris",
-      "name": "Johnny Harris",
-      "number": 35,
-      "color": "#1d4ed8",
-      "videos": [
-        {
-          "videoId": "bLOEhycMG78",
-          "title": "The Modern Middle East, Explained",
-          "durationSeconds": 11178
-        },
-        {
-          "videoId": "vmGm8xn_1Ro",
-          "title": "Talking news and media with Max Fisher",
-          "durationSeconds": 2590
-        },
-        {
-          "videoId": "GV8KGcFqeLc",
-          "title": "Is Fascism Back?",
-          "durationSeconds": 3708
-        },
-        {
-          "videoId": "0rKDo3hKbVk",
-          "title": "The Internet Didn't Fail. It Was Taken.",
-          "durationSeconds": 782
-        },
-        {
-          "videoId": "rPckDuTaSnw",
-          "title": "India vs China, Explained",
-          "durationSeconds": 1898
-        },
-        {
-          "videoId": "x-XdOaZPhBw",
-          "title": "Why This Island Could Trigger World War 3",
-          "durationSeconds": 1743
-        }
-      ]
-    },
-    {
       "id": "popular-science",
       "name": "Popular Science",
       "number": 36,
