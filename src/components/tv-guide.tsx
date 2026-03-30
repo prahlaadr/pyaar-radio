@@ -96,7 +96,7 @@ const CHANNEL_CATEGORIES: Record<string, string> = {
 
   // Home / Design / Art
   "home-design": "Design & Art",
-  "van-neistat": "Design & Art",
+  "ludwig": "Entertainment",
   "cs-art": "Design & Art",
 
   // Business / News

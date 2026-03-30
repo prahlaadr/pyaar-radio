@@ -250,8 +250,8 @@ STANDARD_CHANNELS = [
     ("lex-fridman", "Lex Fridman", 55, "#1e3a5f", "https://www.youtube.com/@lexfridman/videos", 10),
     ("hasan-minhaj", "Hasan Minhaj", 56, "#f59e0b", "https://www.youtube.com/@HasanMinhaj/videos", 10),
 
-    # Design / Maker
-    ("van-neistat", "Van Neistat", 65, "#78716c", "https://www.youtube.com/@vanneistat/videos", 25),
+    # Entertainment / Creator
+    ("ludwig", "Ludwig", 65, "#6366f1", "https://www.youtube.com/@ludwig/videos", 25),
 
     # Reality / Business TV
     ("shark-tank", "Shark Tank", 72, "#0284c7", "ytsearch25:shark tank full episode pitch best", 25),
