@@ -3,20 +3,99 @@
 
 Run manually: python3 scripts/build-tv-channels.py
 Run via CI:   triggered by GitHub Actions weekly
+
+Music channels (Boiler Room, Tiny Desk, COLORS, Like a Version, KEXP, Coke Studio)
+are personalized by cross-referencing against artists.csv.
 """
 
 import json
+import csv
 import subprocess
 import sys
+import random
 from pathlib import Path
 
-OUT = Path(__file__).parent.parent / "public" / "data" / "tv" / "channels.json"
+ROOT = Path(__file__).parent.parent
+OUT = ROOT / "public" / "data" / "tv" / "channels.json"
+ARTISTS_CSV = ROOT / "public" / "data" / "artists.csv"
 
-# (id, name, number, color, yt_source, max_videos)
-CHANNELS = [
-    # Music Performance
+
+def load_artists() -> list[str]:
+    """Load artist names from artists.csv."""
+    artists = []
+    with open(ARTISTS_CSV) as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = row.get("artist", "").strip().strip('"')
+            if name and name != "artist":
+                artists.append(name)
+    return artists
+
+
+def fetch_videos(source: str, max_videos: int) -> list[dict]:
+    """Fetch videos from a YouTube source using yt-dlp."""
+    try:
+        result = subprocess.run(
+            [
+                "yt-dlp", "--flat-playlist",
+                "--print", "%(id)s\t%(title)s\t%(duration)s",
+                "--playlist-end", str(max_videos),
+                source,
+            ],
+            capture_output=True, text=True, timeout=120,
+        )
+        videos = []
+        for line in result.stdout.strip().split("\n"):
+            if not line.strip():
+                continue
+            parts = line.split("\t")
+            if len(parts) < 3:
+                continue
+            vid_id, title, duration_str = parts[0], parts[1], parts[2]
+            try:
+                duration = int(float(duration_str))
+            except (ValueError, TypeError):
+                continue
+            if duration <= 0 or not vid_id:
+                continue
+            videos.append({
+                "videoId": vid_id,
+                "title": title,
+                "durationSeconds": duration,
+            })
+        return videos
+    except subprocess.TimeoutExpired:
+        return []
+    except Exception as e:
+        print(f"      ⚠ Error: {e}", file=sys.stderr)
+        return []
+
+
+def fetch_artist_videos(artists: list[str], platform_query: str, max_per_artist: int = 1, min_duration: int = 0, max_total: int = 20) -> list[dict]:
+    """Search for each artist on a platform, collect best results."""
+    seen_ids = set()
+    videos = []
+    # Shuffle so we don't always get the same subset on timeout
+    shuffled = artists.copy()
+    random.shuffle(shuffled)
+
+    for artist in shuffled:
+        if len(videos) >= max_total:
+            break
+        query = f"ytsearch{max_per_artist}:{artist} {platform_query}"
+        results = fetch_videos(query, max_per_artist)
+        for v in results:
+            if v["videoId"] not in seen_ids and v["durationSeconds"] >= min_duration:
+                seen_ids.add(v["videoId"])
+                videos.append(v)
+
+    return videos
+
+
+# Standard channels: (id, name, number, color, yt_source, max_videos)
+STANDARD_CHANNELS = [
+    # Music (non-personalized)
     ("dj-sets", "DJ Sets", 1, "#ef4444", "ytsearch8:DJ set full Cercle HÖR Berlin Rinse FM", 8),
-    ("live-performances", "Live Performances", 2, "#f59e0b", "ytsearch8:KEXP live session full performance Audiotree", 8),
     ("music-docs", "Music Docs", 3, "#8b5cf6", "https://www.youtube.com/@Polyphonic/videos", 6),
 
     # Indian Classical & Film
@@ -38,13 +117,8 @@ CHANNELS = [
     ("good-mythical-morning", "Good Mythical Morning", 15, "#84cc16", "https://www.youtube.com/@GoodMythicalMorning/videos", 8),
     ("spongebob", "SpongeBob", 16, "#facc15", "ytsearch4:spongebob full episodes compilation marathon", 4),
 
-    # Music Curation
-    ("tiny-desk", "Tiny Desk", 17, "#f43f5e", "https://www.youtube.com/@nprmusic/videos", 10),
-    ("colors", "COLORS", 18, "#fb923c", "https://www.youtube.com/@COLORSxSTUDIOS/videos", 10),
-    ("like-a-version", "Like a Version", 19, "#facc15", "ytsearch8:triple j like a version best", 8),
-    ("boiler-room", "Boiler Room", 20, "#171717", "ytsearch15:boiler room DJ set full", 15),
+    # Music Curation (non-personalized)
     ("madrasana", "MadRasana", 21, "#b91c1c", "https://www.youtube.com/@MadRasana/videos", 8),
-    ("coke-studio", "Coke Studio", 22, "#e11d48", "ytsearch8:coke studio season 14 15 best", 8),
 
     # Comedy / Talk
     ("hot-ones", "Hot Ones", 23, "#ea580c", "https://www.youtube.com/@FirstWeFeast/videos", 8),
@@ -96,52 +170,30 @@ CHANNELS = [
     ("tamil-cooking", "Tamil Cooking", 51, "#ef4444", "https://www.youtube.com/@HomeCookingTamil/videos", 15),
 ]
 
-
-def fetch_videos(source: str, max_videos: int) -> list[dict]:
-    """Fetch videos from a YouTube source using yt-dlp."""
-    try:
-        result = subprocess.run(
-            [
-                "yt-dlp", "--flat-playlist",
-                "--print", "%(id)s\t%(title)s\t%(duration)s",
-                "--playlist-end", str(max_videos),
-                source,
-            ],
-            capture_output=True, text=True, timeout=120,
-        )
-        videos = []
-        for line in result.stdout.strip().split("\n"):
-            if not line.strip():
-                continue
-            parts = line.split("\t")
-            if len(parts) < 3:
-                continue
-            vid_id, title, duration_str = parts[0], parts[1], parts[2]
-            try:
-                duration = int(float(duration_str))
-            except (ValueError, TypeError):
-                continue
-            if duration <= 0 or not vid_id:
-                continue
-            videos.append({
-                "videoId": vid_id,
-                "title": title,
-                "durationSeconds": duration,
-            })
-        return videos
-    except subprocess.TimeoutExpired:
-        return []
-    except Exception as e:
-        print(f"    ⚠ Error: {e}", file=sys.stderr)
-        return []
+# Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)
+# These search for each artist in artists.csv against the platform
+PERSONALIZED_CHANNELS = [
+    ("live-performances", "Live Performances", 2, "#f59e0b", "KEXP full performance live", 300, 15),
+    ("tiny-desk", "Tiny Desk", 17, "#f43f5e", "tiny desk concert", 600, 15),
+    ("colors", "COLORS", 18, "#fb923c", "COLORS show", 120, 15),
+    ("like-a-version", "Like a Version", 19, "#facc15", "like a version triple j", 120, 12),
+    ("boiler-room", "Boiler Room", 20, "#171717", "boiler room DJ set", 1800, 15),
+    ("coke-studio", "Coke Studio", 22, "#e11d48", "coke studio", 180, 12),
+]
 
 
 def main():
+    print("Loading artists from artists.csv...")
+    artists = load_artists()
+    print(f"  {len(artists)} artists loaded\n")
+
     channels = []
     total_videos = 0
     failed = []
 
-    for ch_id, name, number, color, source, max_vids in CHANNELS:
+    # Build standard channels
+    print("=== Standard Channels ===")
+    for ch_id, name, number, color, source, max_vids in STANDARD_CHANNELS:
         print(f"  [{number:>2}] {name} — fetching {max_vids} videos...")
         videos = fetch_videos(source, max_vids)
         if not videos:
@@ -158,6 +210,29 @@ def main():
             "color": color,
             "videos": videos,
         })
+
+    # Build personalized channels (cross-reference artists.csv)
+    print("\n=== Personalized Channels (artist cross-reference) ===")
+    for ch_id, name, number, color, platform_query, min_dur, max_total in PERSONALIZED_CHANNELS:
+        print(f"  [{number:>2}] {name} — searching {len(artists)} artists for '{platform_query}'...")
+        videos = fetch_artist_videos(artists, platform_query, max_per_artist=1, min_duration=min_dur, max_total=max_total)
+        if not videos:
+            print(f"       ⚠ No videos found")
+            failed.append(name)
+        else:
+            print(f"       ✓ {len(videos)} videos from your artists")
+            total_videos += len(videos)
+
+        channels.append({
+            "id": ch_id,
+            "name": name,
+            "number": number,
+            "color": color,
+            "videos": videos,
+        })
+
+    # Sort by channel number
+    channels.sort(key=lambda c: c["number"])
 
     data = {"channels": channels}
 
