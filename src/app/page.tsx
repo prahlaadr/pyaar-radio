@@ -38,8 +38,8 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks" } {
-  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, ilaiyaraaja: false, section: "browse", view: "artists" };
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks"; tvChannel: string | null; tvVideo: string | null; tvTime: number } {
+  if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, ilaiyaraaja: false, section: "browse", view: "artists", tvChannel: null, tvVideo: null, tvTime: 0 };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
 
@@ -81,12 +81,22 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   const tamil = pathname === "/tamil" || ilaiyaraaja;
   const section: SectionMode = pathname === "/tv" ? "tv" : pathname === "/ambient" ? "ambient" : pathname === "/downtempo" ? "downtempo" : "browse";
   const view = p.get("view") === "tracks" ? "tracks" as const : "artists" as const;
+  const tvChannel = p.get("ch");
+  const tvVideo = p.get("v");
+  const tvTime = Number(p.get("t")) || 0;
 
-  return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view };
+  return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view, tvChannel, tvVideo, tvTime };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean, tvChannelId?: string | null, tvVideoId?: string | null, tvTimeOffset?: number): string {
   const p = new URLSearchParams();
+  if (section === "tv") {
+    if (tvChannelId) p.set("ch", tvChannelId);
+    if (tvVideoId) p.set("v", tvVideoId);
+    if (tvTimeOffset && tvTimeOffset > 0) p.set("t", String(Math.floor(tvTimeOffset)));
+    const str = p.toString();
+    return str ? `/tv?${str}` : "/tv";
+  }
   if (filters.channels.length > 0) p.set("channel", filters.channels.join(","));
   if (filters.samay) p.set("samay", filters.samay);
   if (filters.desi) p.set("desi", filters.desi);
@@ -100,7 +110,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
-  const basePath = ilaiyaraaja ? "/tamil/ilaiyaraaja" : tamil ? "/tamil" : section === "tv" ? "/tv" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
+  const basePath = ilaiyaraaja ? "/tamil/ilaiyaraaja" : tamil ? "/tamil" : section === "ambient" ? "/ambient" : section === "downtempo" ? "/downtempo" : artistName ? `/artist/${slugify(artistName)}` : "/";
   const str = p.toString();
   return str ? `${basePath}?${str}` : basePath;
 }
@@ -173,6 +183,9 @@ export default function Home() {
   const pendingArtist = useRef<string | null>(urlInit.current.artist);
   const pendingTrack = useRef<string | null>(urlInit.current.track);
   const pendingAutoplay = useRef(urlInit.current.autoplay);
+  const pendingTvChannel = useRef<string | null>(urlInit.current.tvChannel);
+  const pendingTvVideo = useRef<string | null>(urlInit.current.tvVideo);
+  const pendingTvTime = useRef(urlInit.current.tvTime);
   const [shareCopied, setShareCopied] = useState(false);
   const [vaultManifest, setVaultManifest] = useState<SetlistManifestEntry[]>([]);
   const [savedSetlists, setSavedSetlists] = useState<SavedSetlists>({ active: null, setlists: {} });
@@ -316,9 +329,9 @@ export default function Home() {
 
   // Sync state → URL (replaceState, no navigation)
   useEffect(() => {
-    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView, sectionMode, ilaiyaraajaMode);
+    const url = buildUrlParams(filters, selectedArtist?.artist ?? null, tab, nowPlaying?.videoId, tamilMode, browseView, sectionMode, ilaiyaraajaMode, tvCurrentChannel?.id, tvVideoId, tvOffsetSeconds);
     window.history.replaceState(null, "", url);
-  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView, sectionMode, ilaiyaraajaMode]);
+  }, [filters, selectedArtist, tab, nowPlaying, tamilMode, browseView, sectionMode, ilaiyaraajaMode, tvCurrentChannel, tvVideoId, tvOffsetSeconds]);
 
   // Are filters pristine? (no search, no filters applied)
   const filtersActive = useMemo(() => {
@@ -681,7 +694,35 @@ export default function Home() {
     }
     fetch("/data/tv/channels.json")
       .then((r) => r.json())
-      .then((data: TVChannelData) => setTvChannels(data.channels))
+      .then((data: TVChannelData) => {
+        setTvChannels(data.channels);
+        // Restore TV state from URL
+        const chId = pendingTvChannel.current;
+        if (chId) {
+          pendingTvChannel.current = null;
+          const channel = data.channels.find((c) => c.id === chId);
+          if (channel) {
+            const vid = pendingTvVideo.current;
+            const time = pendingTvTime.current;
+            pendingTvVideo.current = null;
+            pendingTvTime.current = 0;
+            if (vid) {
+              // Deep-link to specific video + timestamp
+              const videoIdx = channel.videos.findIndex((v) => v.videoId === vid);
+              if (videoIdx >= 0) {
+                setTvCurrentChannel(channel);
+                setTvVideoId(vid);
+                setTvOffsetSeconds(time);
+                setTvVideoTitle(channel.videos[videoIdx].title);
+                tvVideoIndexRef.current = videoIdx;
+                return;
+              }
+            }
+            // Just tune into the channel (live schedule)
+            tvTuneIn(channel);
+          }
+        }
+      })
       .catch(() => setTvChannels([]));
   }, [sectionMode]);
 
