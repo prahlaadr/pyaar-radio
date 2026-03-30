@@ -195,12 +195,9 @@ STANDARD_CHANNELS = [
     # Indian Classical & Film
     ("ilaiyaraaja", "Ilaiyaraaja", 4, "#dc2626", "ytsearch8:ilaiyaraaja full songs concert film", 8),
     ("ramana-balachandran", "Ramana Balachandran", 5, "#f97316", "ytsearch6:ramana balachandran carnatic violin", 6),
-    ("carnatic", "Carnatic", 6, "#eab308", "ytsearch8:carnatic concert full Ranjani Gayatri sabha", 8),
     ("amrutha-venkatesh", "Amrutha Venkatesh", 7, "#f59e0b", "ytsearch20:amrutha venkatesh carnatic", 20),
-
-    # Radio
-    ("nts-radio", "NTS Radio", 8, "#06b6d4", "ytsearch6:NTS radio live session mix", 6),
-    ("lot-radio", "The Lot Radio", 9, "#737373", "https://www.youtube.com/@TheLotRadio/videos", 5),
+    # Carnatic, Radio, Explainers, Popular Science, Tech, Home & Design,
+    # NBA, Beat Making, Business & News are COMPOSITE_CHANNELS below
 
     # Entertainment
     ("jeopardy", "Jeopardy", 10, "#3b82f6", "ytsearch6:jeopardy full episode compilation", 6),
@@ -210,9 +207,6 @@ STANDARD_CHANNELS = [
     ("all-gas-no-brakes", "Channel 5", 14, "#14b8a6", "https://www.youtube.com/@Channel5YouTube/videos", 8),
     ("good-mythical-morning", "Good Mythical Morning", 15, "#84cc16", "https://www.youtube.com/@GoodMythicalMorning/videos", 8),
     ("spongebob", "SpongeBob", 16, "#facc15", "ytsearch4:spongebob full episodes compilation marathon", 4),
-
-    # Music Curation (non-personalized)
-    ("madrasana", "MadRasana", 21, "#b91c1c", "https://www.youtube.com/@MadRasana/videos", 8),
 
     # Comedy / Talk
     ("hot-ones", "Hot Ones", 23, "#ea580c", "https://www.youtube.com/@FirstWeFeast/videos", 8),
@@ -224,27 +218,15 @@ STANDARD_CHANNELS = [
     ("graham-norton", "Graham Norton", 29, "#7c3aed", "https://www.youtube.com/@OfficialGrahamNorton/videos", 6),
     ("snl", "SNL", 30, "#f5f5f4", "https://www.youtube.com/@SaturdayNightLive/videos", 8),
     ("adam-friedland", "Adam Friedland Show", 31, "#a78bfa", "https://www.youtube.com/@TheAdamFriedlandShow/videos", 10),
+    ("nimesh-patel", "Nimesh Patel", 57, "#d946ef", "https://www.youtube.com/@Findingnimesh/videos", 8),
+    ("louis-ck", "Louis C.K.", 58, "#78716c", "https://www.youtube.com/@LouisCK/videos", 6),
+    ("videogamedunkey", "videogamedunkey", 59, "#22d3ee", "https://www.youtube.com/@videogamedunkey/videos", 8),
+    ("almost-friday", "Almost Friday TV", 60, "#a3e635", "https://www.youtube.com/@AlmostFridayTV/videos", 6),
+    ("crackermilk", "CrackerMilk", 61, "#fbbf24", "https://www.youtube.com/@CrackerMilk/videos", 8),
 
-    # Explainers / Docs
-    ("kurzgesagt", "Kurzgesagt", 32, "#38bdf8", "https://www.youtube.com/@kurzgesagt/videos", 8),
-    ("vox", "Vox", 33, "#fbbf24", "https://www.youtube.com/@Vox/videos", 8),
-    ("defunctland", "Defunctland", 34, "#065f46", "https://www.youtube.com/@Defunctland/videos", 6),
-
-    ("popular-science", "Popular Science", 36, "#06b6d4", "https://www.youtube.com/@veritasium/videos", 10),
-
-    # Tech
-    ("fireship", "Fireship", 37, "#f97316", "https://www.youtube.com/@Fireship/videos", 10),
-    ("mkbhd", "MKBHD", 38, "#dc2626", "https://www.youtube.com/@mkbhd/videos", 6),
-
-    # Cars / Home
-    ("doug-demuro", "Doug DeMuro", 39, "#16a34a", "https://www.youtube.com/@DougDeMuro/videos", 6),
-    ("architectural-digest", "Architectural Digest", 40, "#a3a3a3", "https://www.youtube.com/@Archdigest/videos", 6),
-
-    # Sports
-    ("nba", "NBA Highlights", 41, "#1d4ed8", "ytsearch6:nba highlights 2025 full game best plays", 6),
-
-    # Music Reviews
+    # Music
     ("needledrop", "theneedledrop", 42, "#a3e635", "https://www.youtube.com/@theneedledrop/videos", 8),
+    ("on-the-radar", "On The Radar", 69, "#ef4444", "https://www.youtube.com/@OnTheRadarRadio/videos", 6),
 
     # Medical
     ("mehlman-medical", "Mehlman Medical", 43, "#0d9488", "https://www.youtube.com/@Mehlmanmedical/videos", 10),
@@ -253,15 +235,23 @@ STANDARD_CHANNELS = [
 
     # Podcasts
     ("lennys-podcast", "Lenny's Podcast", 49, "#8b5cf6", "https://www.youtube.com/@LennysPodcast/videos", 10),
+    ("joe-rogan", "JRE Clips", 62, "#16a34a", "https://www.youtube.com/@JREClips/videos", 8),
 
     # Cooking
     ("hebbars-kitchen", "Hebbar's Kitchen", 50, "#fb923c", "ytsearch15:hebbars kitchen recipe", 15),
     ("tamil-cooking", "Tamil Cooking", 51, "#ef4444", "https://www.youtube.com/@HomeCookingTamil/videos", 15),
     ("sanjana-feasts", "Sanjana Feasts", 52, "#f97316", "https://youtube.com/playlist?list=PLdI65Nm_pp9s0GLdfAO-UF_-iz2MOfIMh", 15),
-    # Nature India is a COMPOSITE_CHANNEL — defined below
+    ("doobydobap", "Doobydobap", 63, "#fb923c", "https://www.youtube.com/@Doobydobap/videos", 8),
+
+    # Watches
     ("vookum", "Vookum", 54, "#d4af37", "https://www.youtube.com/@vookummedia/videos", 15),
+
+    # Long-form interviews
     ("lex-fridman", "Lex Fridman", 55, "#1e3a5f", "https://www.youtube.com/@lexfridman/videos", 10),
     ("hasan-minhaj", "Hasan Minhaj", 56, "#f59e0b", "https://www.youtube.com/@HasanMinhaj/videos", 10),
+
+    # Design / Maker
+    ("van-neistat", "Van Neistat", 65, "#78716c", "https://www.youtube.com/@vanneistat/videos", 6),
 ]
 
 # Personalized channels: (id, name, number, color, platform_query, min_duration, max_total)
@@ -350,13 +340,75 @@ COMPOSITE_CHANNELS = [
         ("https://www.youtube.com/@CharlesCornellStudios/videos", 3),
         ("https://www.youtube.com/@dallastaylor.mp3/videos", 3),
         ("https://www.youtube.com/@TapeNotesPodcast/videos", 3),
+        ("https://www.youtube.com/@Nerdstalgic/videos", 2),
+        ("https://www.youtube.com/@SceneItReviews/videos", 2),
         ("ytsearch3:Vox Earworm music explained", 3),
-        ("ytsearch3:music documentary full film hip hop electronic", 3),
+    ]),
+    ("carnatic", "Carnatic", 6, "#eab308", [
+        ("https://www.youtube.com/@MadRasana/videos", 4),
+        ("https://www.youtube.com/@RanjaniGayatri/videos", 3),
+        ("https://www.youtube.com/@MysticaMusicIndia/videos", 3),
+        ("ytsearch3:carnatic concert full sabha", 3),
+    ]),
+    ("radio", "Radio", 8, "#06b6d4", [
+        ("https://www.youtube.com/@TheLotRadio/videos", 4),
+        ("ytsearch3:NTS radio live session mix", 3),
+        ("https://www.youtube.com/@dkmntl/videos", 3),
+        ("https://www.youtube.com/@LucidMonday/videos", 3),
+        ("https://www.youtube.com/@steezyasfvck/videos", 3),
+        ("https://www.youtube.com/@aprtmentlife/videos", 3),
+        ("https://www.youtube.com/@frgtn/videos", 2),
+    ]),
+    ("explainers", "Explainers", 32, "#38bdf8", [
+        ("https://www.youtube.com/@kurzgesagt/videos", 3),
+        ("https://www.youtube.com/@Vox/videos", 3),
+        ("https://www.youtube.com/@Wendoverproductions/videos", 3),
+        ("https://www.youtube.com/@CGPGrey/videos", 3),
+        ("https://www.youtube.com/@Vsauce/videos", 3),
+        ("https://www.youtube.com/@bigthink/videos", 2),
+        ("https://www.youtube.com/@DaveShap/videos", 2),
+    ]),
+    ("popular-science", "Popular Science", 36, "#06b6d4", [
+        ("https://www.youtube.com/@veritasium/videos", 4),
+        ("https://www.youtube.com/@SciShow/videos", 3),
+        ("https://www.youtube.com/@crashcourse/videos", 3),
+    ]),
+    ("tech", "Tech", 37, "#f97316", [
+        ("https://www.youtube.com/@Fireship/videos", 4),
+        ("https://www.youtube.com/@mkbhd/videos", 3),
+        ("https://www.youtube.com/@TheStudio/videos", 2),
+        ("https://www.youtube.com/@t3dotgg/videos", 3),
+        ("https://www.youtube.com/@KRAZAM/videos", 2),
+    ]),
+    ("home-design", "Home & Design", 40, "#a3a3a3", [
+        ("https://www.youtube.com/@Archdigest/videos", 4),
+        ("https://www.youtube.com/@DearModern/videos", 3),
+        ("https://www.youtube.com/@themuseumofmodernart/videos", 3),
+    ]),
+    ("nba", "NBA", 41, "#1d4ed8", [
+        ("https://www.youtube.com/@jordandyernba/videos", 3),
+        ("https://www.youtube.com/@TheRingerNBA/videos", 3),
+        ("https://www.youtube.com/@NBArecap/videos", 3),
+        ("https://www.youtube.com/@TNTSportsUS/videos", 3),
+        ("ytsearch3:nba highlights 2025 best plays", 3),
+    ]),
+    ("business-news", "Business & News", 70, "#64748b", [
+        ("https://www.youtube.com/@business/videos", 3),
+        ("https://www.youtube.com/@wsj/videos", 3),
+        ("https://www.youtube.com/@ModernMBA/videos", 3),
+        ("https://www.youtube.com/@GoodWorkMB/videos", 3),
     ]),
     ("nature-india", "Nature India", 53, "#22c55e", [
         ("https://www.youtube.com/@RoundglassSustain/videos", 8),
         ("ytsearch4:indian wildlife documentary National Geographic India", 4),
         ("ytsearch3:india nature documentary 4K forest western ghats", 3),
+    ]),
+    ("beat-making", "Beat Making", 71, "#a855f7", [
+        ("https://www.youtube.com/@yousuckatproducing/videos", 4),
+        ("https://www.youtube.com/@jonmakesbeats/videos", 4),
+        ("https://www.youtube.com/@KamboBeatz/videos", 3),
+        ("https://www.youtube.com/@versounds/videos", 3),
+        ("https://www.youtube.com/@dynmk/videos", 3),
     ]),
 ]
 

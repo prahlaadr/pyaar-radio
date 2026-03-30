@@ -10,7 +10,7 @@ A Channel Surfer-inspired TV guide built into Pyaar Radio at `/tv`. Simulates li
 
 ## Current State
 
-- **51 channels** with real YouTube video IDs and exact durations
+- **60 channels, ~630 videos** with real YouTube video IDs and exact durations
 - All video data sourced programmatically via `yt-dlp`
 - Auto-refreshed weekly via GitHub Actions (`sync-tv-channels.yml`)
 - Live at `pyaar-radio.vercel.app/tv`
@@ -48,22 +48,37 @@ A Channel Surfer-inspired TV guide built into Pyaar Radio at `/tv`. Simulates li
 Channel list is defined in `scripts/build-tv-channels.py` and auto-refreshed weekly.
 Video counts vary as content is pulled fresh from YouTube.
 
-| Category | Channels |
-|----------|----------|
-| Music Performance | DJ Sets, Live Performances, Boiler Room, Tiny Desk, COLORS, Like a Version |
-| Indian Classical | Ilaiyaraaja, Ramana Balachandran, Carnatic, Amrutha Venkatesh, MadRasana, Coke Studio |
-| Radio | NTS Radio, The Lot Radio |
-| Music by Decade | Music 80s, 90s, 2000s, 2010s, 2020s |
-| Music Docs/Reviews | Music Docs, theneedledrop |
-| Comedy/Talk | Hot Ones, Nardwuar, Kill Tony, RDCworld1, Team Coco, QI, Graham Norton, SNL, Adam Friedland Show |
-| Explainers/Docs | Kurzgesagt, Vox, Defunctland, Johnny Harris, Popular Science |
-| Tech | Fireship, MKBHD |
-| Entertainment | Jeopardy, Tom & Jerry, BTS, Top Gear, Channel 5, Good Mythical Morning, SpongeBob |
-| Sports | NBA Highlights |
-| Cars/Home | Doug DeMuro, Architectural Digest |
-| Medical | Mehlman Medical |
-| Podcasts | Lenny's Podcast |
-| Cooking | Hebbar's Kitchen, Tamil Cooking |
+| Category | Channels | Source type |
+|----------|----------|-------------|
+| Music Performance | DJ Sets, Live Performances, Boiler Room, Tiny Desk, COLORS, Like a Version, Coke Studio | Personalized (artist cross-ref) |
+| Indian Classical | Ilaiyaraaja, Ramana Balachandran, Carnatic, Amrutha Venkatesh | Composite (MadRasana + Ranjani-Gayatri + Mystica) |
+| Radio | Radio (Lot Radio + NTS + Dekmantel + Lucid Monday + STEEZYASFUCK + aprtment life + Forgotten) | Composite |
+| Music by Decade | Music 80s, 90s, 2000s, 2010s, 2020s | Curated (hand-picked iconic videos) |
+| Music Docs/Reviews | Music Docs (Polyphonic + Trash Theory + Charles Cornell + Dallas Taylor + Tape Notes + Nerdstalgic + Scene It + Vox Earworm), theneedledrop | Composite |
+| Beat Making | Beat Making (You Suck at Producing + Jon Makes Beats + Kambo Beatz + VER sounds + dynmk) | Composite |
+| Comedy/Talk | Hot Ones, Nardwuar, Kill Tony, RDCworld1, Team Coco, QI, Graham Norton, SNL, Adam Friedland Show, Nimesh Patel, Louis C.K., videogamedunkey, Almost Friday TV, CrackerMilk | Standard |
+| Explainers | Explainers (Kurzgesagt + Vox + Wendover + CGP Grey + Vsauce + Big Think + David Shapiro), Defunctland | Composite |
+| Popular Science | Popular Science (Veritasium + SciShow + CrashCourse) | Composite |
+| Tech | Tech (Fireship + MKBHD + The Studio + Theo t3.gg + KRAZAM) | Composite |
+| Entertainment | Jeopardy, Tom & Jerry, BTS, Top Gear, Channel 5, Good Mythical Morning, SpongeBob | Standard |
+| Sports | NBA (J.D. + Ringer NBA + NBA Recap + TNT Sports + highlights) | Composite |
+| Home/Design | Home & Design (AD + Dear Modern + MoMA) | Composite |
+| Business/News | Business & News (Bloomberg + WSJ + Modern MBA + Good Work) | Composite |
+| Long-form | Lex Fridman, Hasan Minhaj, JRE Clips, Lenny's Podcast | Standard |
+| Cooking | Hebbar's Kitchen, Tamil Cooking, Sanjana Feasts, Doobydobap | Standard |
+| Medical | Mehlman Medical | Standard |
+| Watches | Vookum | Standard |
+| Nature | Nature India (Roundglass Sustain + Nat Geo India + 4K docs) | Composite |
+| Music (other) | On The Radar, Doug DeMuro, Van Neistat | Standard |
+
+### Channel pipeline types
+
+| Type | How it works | Example |
+|------|-------------|---------|
+| **Standard** | Pulls latest N videos from one YouTube channel | `@KillTony/videos` → 5 latest |
+| **Composite** | Merges videos from multiple YouTube channels/searches | Radio = Lot Radio + NTS + Dekmantel + ... |
+| **Personalized** | Searches each artist in `artists.csv` against a platform, validates artist in title | Boiler Room = your 294 artists × "boiler room DJ set" |
+| **Curated** | Hand-picked search queries for specific iconic videos | Music 80s = Thriller, Take On Me, ... |
 
 ## Data Model
 
