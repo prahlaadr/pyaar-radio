@@ -210,6 +210,30 @@ The Setlists tab includes a **Playlist Picker** that lets you browse and load an
 - `src/lib/playlists.ts` — fetch utilities (cached index, individual playlist fetch)
 - `src/lib/types.ts` — `PlaylistIndexEntry`, `PlaylistData` interfaces
 
+## USB Sync (PRAHLOUD Archive)
+
+`sync_usb.py` syncs archive month/year playlists to `/Volumes/Lexar/RAAMI RADIO/PRAHLOUD/`.
+
+**Usage:**
+```bash
+python3 sync_usb.py                          # sync all archive playlists
+python3 sync_usb.py --months "March 26"      # sync specific months
+python3 sync_usb.py --dry                    # preview only
+python3 sync_usb.py --usb /path/to/usb      # custom USB path
+```
+
+**How it works:**
+1. Reads archive playlists from `public/playlists/` (identified by month/year regex)
+2. Compares against existing files on USB (fuzzy matching on title/artist)
+3. Downloads missing tracks: Soulseek FLAC/320 first (`batch_grab.py`), yt-dlp MP3 fallback
+4. Copies to USB folder: `2026/March 26` (2026+) or `2024-03 (March)` (pre-2026)
+
+**Auto-trigger:** LaunchAgent `com.pyaar.sync-usb` runs on any disk mount. Logs: `/tmp/pyaar-sync-usb.log`.
+
+**Key files:**
+- `sync_usb.py` — the sync script
+- `~/Library/LaunchAgents/com.pyaar.sync-usb.plist` — auto-mount trigger
+
 ## Quick Reference — What to Do When User Says...
 
 | Request | What to do |
