@@ -2916,6 +2916,64 @@
           "durationSeconds": 478
         }
       ]
+    },
+    {
+      "id": "lex-fridman",
+      "name": "Lex Fridman",
+      "number": 55,
+      "color": "#1e3a5f",
+      "videos": [
+        {
+          "videoId": "vif8NQcjVf0",
+          "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
+          "durationSeconds": 8759
+        },
+        {
+          "videoId": "H9rF1CSSh-w",
+          "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493",
+          "durationSeconds": 18612
+        },
+        {
+          "videoId": "1SJiTwbSI58",
+          "title": "Rick Beato: Greatest Guitarists of All Time, History & Future of Music | Lex Fridman Podcast #492",
+          "durationSeconds": 9228
+        },
+        {
+          "videoId": "KGVpKPNUdzA",
+          "title": "Khabib vs Lex: Training with Khabib | FULL EXCLUSIVE FOOTAGE",
+          "durationSeconds": 1329
+        },
+        {
+          "videoId": "YFjfBk8HI5o",
+          "title": "OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491",
+          "durationSeconds": 11752
+        },
+        {
+          "videoId": "EV7WhVT270Q",
+          "title": "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI | Lex Fridman Podcast #490",
+          "durationSeconds": 15913
+        },
+        {
+          "videoId": "Z-FRe5AKmCU",
+          "title": "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489",
+          "durationSeconds": 11179
+        },
+        {
+          "videoId": "14OPT6CcsH4",
+          "title": "Infinity, Paradoxes, Gödel Incompleteness & the Mathematical Multiverse | Lex Fridman Podcast #488",
+          "durationSeconds": 13938
+        },
+        {
+          "videoId": "_bBRVNkAfkQ",
+          "title": "Deciphering Secrets of Ancient Civilizations, Noah's Ark, and Flood Myths | Lex Fridman Podcast #487",
+          "durationSeconds": 7513
+        },
+        {
+          "videoId": "Qp0rCU49lMs",
+          "title": "Michael Levin: Hidden Reality of Alien Intelligence & Biological Life | Lex Fridman Podcast #486",
+          "durationSeconds": 11889
+        }
+      ]
     }
   ]
 }
