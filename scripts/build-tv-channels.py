@@ -258,7 +258,7 @@ STANDARD_CHANNELS = [
     ("hebbars-kitchen", "Hebbar's Kitchen", 50, "#fb923c", "ytsearch15:hebbars kitchen recipe", 15),
     ("tamil-cooking", "Tamil Cooking", 51, "#ef4444", "https://www.youtube.com/@HomeCookingTamil/videos", 15),
     ("sanjana-feasts", "Sanjana Feasts", 52, "#f97316", "https://youtube.com/playlist?list=PLdI65Nm_pp9s0GLdfAO-UF_-iz2MOfIMh", 15),
-    ("nature-india", "Nature India", 53, "#22c55e", "https://www.youtube.com/@RoundglassSustain/videos", 15),
+    # Nature India is a COMPOSITE_CHANNEL — defined below
     ("vookum", "Vookum", 54, "#d4af37", "https://www.youtube.com/@vookummedia/videos", 15),
     ("lex-fridman", "Lex Fridman", 55, "#1e3a5f", "https://www.youtube.com/@lexfridman/videos", 10),
     ("hasan-minhaj", "Hasan Minhaj", 56, "#f59e0b", "https://www.youtube.com/@HasanMinhaj/videos", 10),
@@ -341,6 +341,30 @@ CURATED_CHANNELS = [
 ]
 
 
+# Composite channels: merge videos from multiple sources into one channel
+# (id, name, number, color, list_of_(source, max_videos) tuples)
+COMPOSITE_CHANNELS = [
+    ("nature-india", "Nature India", 53, "#22c55e", [
+        ("https://www.youtube.com/@RoundglassSustain/videos", 8),
+        ("ytsearch4:indian wildlife documentary National Geographic India", 4),
+        ("ytsearch3:india nature documentary 4K forest western ghats", 3),
+    ]),
+]
+
+
+def fetch_composite_videos(sources: list[tuple[str, int]]) -> list[dict]:
+    """Fetch videos from multiple sources, deduplicate by video ID."""
+    videos = []
+    seen = set()
+    for source, max_vids in sources:
+        results = fetch_videos(source, max_vids)
+        for v in results:
+            if v["videoId"] not in seen:
+                seen.add(v["videoId"])
+                videos.append(v)
+    return videos
+
+
 def fetch_curated_videos(queries: list[str]) -> list[dict]:
     """Fetch one video per search query — for curated playlists."""
     videos = []
@@ -372,6 +396,26 @@ def main():
     for ch_id, name, number, color, source, max_vids in STANDARD_CHANNELS:
         print(f"  [{number:>2}] {name} — fetching {max_vids} videos...")
         videos = fetch_videos(source, max_vids)
+        if not videos:
+            print(f"       ⚠ No videos found")
+            failed.append(name)
+        else:
+            print(f"       ✓ {len(videos)} videos")
+            total_videos += len(videos)
+
+        channels.append({
+            "id": ch_id,
+            "name": name,
+            "number": number,
+            "color": color,
+            "videos": videos,
+        })
+
+    # Build composite channels (merged from multiple sources)
+    print("\n=== Composite Channels ===")
+    for ch_id, name, number, color, sources in COMPOSITE_CHANNELS:
+        print(f"  [{number:>2}] {name} — fetching from {len(sources)} sources...")
+        videos = fetch_composite_videos(sources)
         if not videos:
             print(f"       ⚠ No videos found")
             failed.append(name)
