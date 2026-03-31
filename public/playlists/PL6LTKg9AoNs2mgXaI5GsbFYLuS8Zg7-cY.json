@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-03-30T09:14:23.452773Z",
+ "syncedAt": "2026-03-31T09:02:10.177085Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -1322,7 +1322,7 @@
   },
   {
    "title": "Salt Toffee",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Fortuna E.P",
    "videoId": "AlSYF_sfK44",
    "duration": "4:12"
@@ -6516,7 +6516,7 @@
   },
   {
    "title": "Fortuna",
-   "artist": "Ivy Lab;Alix Perez",
+   "artist": "Ivy Lab;Alix Perez;Halogenix",
    "album": "Fortuna E.P",
    "videoId": "qVwbUkPGh1E",
    "duration": "4:03"
