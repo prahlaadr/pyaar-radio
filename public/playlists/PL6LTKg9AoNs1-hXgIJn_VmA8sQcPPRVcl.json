@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1-hXgIJn_VmA8sQcPPRVcl",
  "title": "March 26",
- "trackCount": 36,
- "syncedAt": "2026-03-31T09:02:10.177085Z",
+ "trackCount": 37,
+ "syncedAt": "2026-04-01T09:06:10.808527Z",
  "tracks": [
   {
    "title": "I'm Zooted by Soulja Boy",
@@ -255,6 +255,13 @@
    "album": "The Brownprint",
    "videoId": "ssbjXsEo5jk",
    "duration": "2:59"
+  },
+  {
+   "title": "REAL ONES NEVER DIE",
+   "artist": "Kid Cudi",
+   "album": "HAVE U BN 2 HEAVEN @ NITE?",
+   "videoId": "SSjvk_MP9NA",
+   "duration": "3:02"
   }
  ]
 }

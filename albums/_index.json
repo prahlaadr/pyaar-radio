@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2919,
- "totalTracks": 37853,
- "syncedAt": "2026-03-31T09:02:07.606406Z",
+ "albumCount": 2920,
+ "totalTracks": 37866,
+ "syncedAt": "2026-04-01T09:06:08.747432Z",
  "albums": [
+  {
+   "browseId": "MPREb_y45t7Oc88OY",
+   "title": "To Myself (Deluxe)",
+   "artist": "Baby Rose",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_aFH5PncMZbA",
    "title": "Children Of The Corn The Single (30th anniversary)",

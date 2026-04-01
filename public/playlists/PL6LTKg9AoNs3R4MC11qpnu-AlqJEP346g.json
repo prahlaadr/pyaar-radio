@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1288,
- "syncedAt": "2026-03-31T09:02:10.177085Z",
+ "trackCount": 1290,
+ "syncedAt": "2026-04-01T09:06:10.808527Z",
  "tracks": [
+  {
+   "title": "Dance No More",
+   "artist": "Harry Styles",
+   "album": "Kiss All The Time. Disco, Occasionally.",
+   "videoId": "EvCbWzzd40M",
+   "duration": "3:15"
+  },
+  {
+   "title": "Blinding Lights (Chromatics Remix) (feat. Chromatics)",
+   "artist": "The Weeknd",
+   "album": "Blinding Lights",
+   "videoId": "cLSjuixwlrs",
+   "duration": "4:22"
+  },
   {
    "title": "Finally",
    "artist": "CeCe Peniston",
