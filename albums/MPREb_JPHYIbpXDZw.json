@@ -1,0 +1,40 @@
+{
+ "title": "Maré",
+ "artist": "VHOOR",
+ "year": "2023",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "O Rio",
+   "artist": "VHOOR",
+   "videoId": "PviU-PBhAZM",
+   "duration": "0:23"
+  },
+  {
+   "title": "Jabó",
+   "artist": "VHOOR",
+   "videoId": "3uSnmps3fak",
+   "duration": "2:34"
+  },
+  {
+   "title": "Paraiso",
+   "artist": "VHOOR",
+   "videoId": "fEKzZDWBFrY",
+   "duration": "2:17"
+  },
+  {
+   "title": "Olinda",
+   "artist": "VHOOR",
+   "videoId": "gw8DJ8Jds6Y",
+   "duration": "3:09"
+  },
+  {
+   "title": "Voo",
+   "artist": "VHOOR",
+   "videoId": "secHoxPtWvI",
+   "duration": "1:44"
+  }
+ ],
+ "browseId": "MPREb_JPHYIbpXDZw",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}

@@ -1,9 +1,897 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 2920,
- "totalTracks": 37866,
- "syncedAt": "2026-04-01T09:06:08.747432Z",
+ "albumCount": 3066,
+ "totalTracks": 39472,
+ "syncedAt": "2026-04-02T08:58:49.973204Z",
  "albums": [
+  {
+   "browseId": "MPREb_lCU81dUvCnf",
+   "title": "Tidal",
+   "artist": "Fiona Apple",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Bs92orGHYL5",
+   "title": "Up 2 Më",
+   "artist": "Yeat",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_ROv27m2Sp1x",
+   "title": "Still Praying",
+   "artist": "Westside Gunn",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_JhGbFFgfWuO",
+   "title": "Tramp",
+   "artist": "Volor Flex",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_x2ujzFbW8aD",
+   "title": "The Exclusives",
+   "artist": "Volor Flex",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_ITaOOGx8pSl",
+   "title": "Exhale",
+   "artist": "Volor Flex",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_h8WaZ0ZiFJQ",
+   "title": "shade",
+   "artist": "Vayda",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_JPHYIbpXDZw",
+   "title": "Maré",
+   "artist": "VHOOR",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_IdgI4DgK7V0",
+   "title": "MPBEATS",
+   "artist": "VHOOR",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_G7IRg0I1fgb",
+   "title": "Baile & Vibes",
+   "artist": "VHOOR",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_MvcG3OPASLw",
+   "title": "Baile & Sauce",
+   "artist": "VHOOR",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_REo5zHwt8py",
+   "title": "Baile & Drip",
+   "artist": "VHOOR",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_UFFf8SrvkTo",
+   "title": "Baile & Beats",
+   "artist": "VHOOR",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_Ix0NpYIBvwv",
+   "title": "Mantra",
+   "artist": "V.I.V.E.K",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_8lVtKnPmjkk",
+   "title": "Ghosts EP",
+   "artist": "V.I.V.E.K",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_O3HAasGxomn",
+   "title": "Feel It (EP)",
+   "artist": "Humans Musik",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_IEmX2biP7b8",
+   "title": "Colours EP",
+   "artist": "V.I.V.E.K",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_ZEurlrvAC2F",
+   "title": "Wolf",
+   "artist": "Tyler, The Creator",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_bzSnCKWyppB",
+   "title": "Goblin",
+   "artist": "Tyler, The Creator",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_TVkI5PsUADK",
+   "title": "Love Streak",
+   "artist": "Tony Shhnow",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_PY7kqZ9YEXV",
+   "title": "Dis Should Hold U Over",
+   "artist": "Tony Shhnow",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_TYnoxHPdZd1",
+   "title": "Futureproof",
+   "artist": "The PropheC",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_yxD9dCNQnqB",
+   "title": "Digital Artifice_Extended Plays_003",
+   "artist": "Ternion Sound",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_9tveWU71MFL",
+   "title": "Digital Artifice_Extended Plays_002",
+   "artist": "Ternion Sound",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_W7zCpoYtc8g",
+   "title": "Kings Chamber",
+   "artist": "Synkro",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_apjICzq1SgI",
+   "title": "The Knight Club (Vol. 1)",
+   "artist": "Sukh Knight",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_RrM5JxGWv5D",
+   "title": "Saavan EP",
+   "artist": "Sukh Knight",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_c2461T8QLjv",
+   "title": "Diesel Not Petrol Remix EP",
+   "artist": "Sukh Knight",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_lQ53woIoqxV",
+   "title": "In Square Circle",
+   "artist": "Stevie Wonder",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_ttUmXmw8kRn",
+   "title": "The Studio Album Collection 1992-2004",
+   "artist": "Stereolab",
+   "trackCount": 87
+  },
+  {
+   "browseId": "MPREb_m7AcFmPAyO0",
+   "title": "Dots And Loops",
+   "artist": "Stereolab",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_sTneGsFGPzK",
+   "title": "Cobra And Phases Group Play Voltage In The Milky Night (Expanded Edition)",
+   "artist": "Stereolab",
+   "trackCount": 32
+  },
+  {
+   "browseId": "MPREb_oJaeK853JFf",
+   "title": "NOIR",
+   "artist": "Smino",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_Unx3rf5PFIc",
+   "title": "Sin City The Mixtape",
+   "artist": "Ski Mask The Slump God",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_rusFPqAyuDc",
+   "title": "BEWARE THE BOOK OF ELI",
+   "artist": "Ski Mask The Slump God",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_RhnlXamYn21",
+   "title": "Compro",
+   "artist": "Skee Mask",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_0WllztGfNxK",
+   "title": "Shred",
+   "artist": "Skee Mask",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_vf7kcXUk6bf",
+   "title": "Setbacks",
+   "artist": "Schoolboy Q",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_4ewgo6WYllQ",
+   "title": "Aiir",
+   "artist": "SAULT",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_YchiOlCWOo1",
+   "title": "Hours Spent Loving You",
+   "artist": "Xavier Omär",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_8jZWjqBKevm",
+   "title": "The Doober",
+   "artist": "Sam Gendel",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_kpPQZBGuuLL",
+   "title": "Music for Saxofone & Bass Guitar More Songs",
+   "artist": "Sam Gendel",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_mQjUVNvKyb7",
+   "title": "Son of a Sauce!",
+   "artist": "Salami Rose Joe Louis",
+   "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_MNFT4soy3gO",
+   "title": "She",
+   "artist": "S.Maharba",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_Gh6YLhO9dOv",
+   "title": "Mirror & Veil",
+   "artist": "S.Maharba",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_1GP4lOeLw1T",
+   "title": "Memorial",
+   "artist": "S.Maharba",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_crTGl5tvb6Q",
+   "title": "Cold Friend",
+   "artist": "S.Maharba",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_7jUTHvdB7Ex",
+   "title": "Family Portrait",
+   "artist": "Ross from Friends",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_NMNOdsHSEnM",
+   "title": "Epiphany",
+   "artist": "Ross from Friends",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_fN1TZFJMNM5",
+   "title": "Aphelion EP",
+   "artist": "Ross from Friends",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_oMSHD0wKUk0",
+   "title": "Rhythm & Sound",
+   "artist": "Rhythm & Sound",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_MP7qlMrF4c5",
+   "title": "Tabia",
+   "artist": "Prabh Deep",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_4jYiYWeOgAB",
+   "title": "K I N G",
+   "artist": "Prabh Deep",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_QwCr6U0wtfm",
+   "title": "Take me home",
+   "artist": "PinkPantheress",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_ZCzLQS45yq5",
+   "title": "Speakerboxxx/The Love Below",
+   "artist": "Outkast",
+   "trackCount": 40
+  },
+  {
+   "browseId": "MPREb_6PAyQKUQg1h",
+   "title": "Sunshower E.P",
+   "artist": "OAKK",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_AWcJKlGveCZ",
+   "title": "Luv(sic) Hexalogy",
+   "artist": "Nujabes",
+   "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_mKZmAr5bn4W",
+   "title": "Where U Find This",
+   "artist": "Nikki Nair",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_2qkXVP60nb6",
+   "title": "Violence is the Answer",
+   "artist": "Nikki Nair",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_zW9uwyh9yg6",
+   "title": "Snake EP",
+   "artist": "Nikki Nair",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_6UjNWVoeJr8",
+   "title": "Golden Monkey - EP",
+   "artist": "Nikki Nair",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_jA8mujAsCE0",
+   "title": "Extra Playtime",
+   "artist": "Nikki Nair",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_TFedIZ1h7c6",
+   "title": "Love What Survives",
+   "artist": "Mount Kimbie",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_vwkhnRRtPtN",
+   "title": "Soulection White Label - Monte Booker",
+   "artist": "Monte Booker",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_eL1aV9E4sWy",
+   "title": "Yawn Zen",
+   "artist": "Mndsgn",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_g5ddtFzklVv",
+   "title": "Decode",
+   "artist": "Mia Koden",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_78YC6YFvtnT",
+   "title": "Mala in Cuba",
+   "artist": "Mala",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_NAsyreaTji5",
+   "title": "Four Tet Remixes",
+   "artist": "Madvillain",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_jz2Q5zto0v9",
+   "title": "Room(s)",
+   "artist": "Machinedrum",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_09FXOqAuCLt",
+   "title": "天の川 (River of Heaven)",
+   "artist": "Machinedrum",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_pN9jvw6kpiA",
+   "title": "Human Energy",
+   "artist": "Machinedrum",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_0YvPYYbVqeN",
+   "title": "4#TRAX",
+   "artist": "Machinedrum",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_mOV7M7YARB7",
+   "title": "K.I.D.S.",
+   "artist": "Mac Miller",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_Z3AUBRnVIL5",
+   "title": "Refraction",
+   "artist": "MPH",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_Wmf8o58IDnk",
+   "title": "LM025",
+   "artist": "Lucid Monday",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_pah6lCBHIMA",
+   "title": "Sometimes I Might Be Introvert",
+   "artist": "Little Simz",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_tm6Sw9dHmen",
+   "title": "Nuthin' 2 Prove",
+   "artist": "Lil Yachty",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_8jjjfUZ8lb2",
+   "title": "Funeral",
+   "artist": "Lil Wayne",
+   "trackCount": 24
+  },
+  {
+   "browseId": "MPREb_fUxjZdjsSAZ",
+   "title": "Adjust To The Game",
+   "artist": "Larry June",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_qMB8yqpBMfg",
+   "title": "The End Of Industry",
+   "artist": "Lapalux",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_KOIXYQeU9KZ",
+   "title": "Ruinism",
+   "artist": "Lapalux",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_qv1iKOxB3rD",
+   "title": "On The Grid",
+   "artist": "Lapalux",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_bDBUv7iLPhf",
+   "title": "Nostalchic",
+   "artist": "Lapalux",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_E8mCJQmwhHD",
+   "title": "Lustmore",
+   "artist": "Lapalux",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_5VoryfNPjvH",
+   "title": "Esrevoinma",
+   "artist": "Lapalux",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_yYxqm8EnD6R",
+   "title": "Slow Knife",
+   "artist": "Kuedo",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_eUwKuSnSVCn",
+   "title": "Trill Bill",
+   "artist": "Kodak Black",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_nVgLByFACY0",
+   "title": "Painting Pictures",
+   "artist": "Kodak Black",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_0ITZZzuRm1X",
+   "title": "Dying to Live",
+   "artist": "Kodak Black",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_FmGuTRuIC4I",
+   "title": "Mordechai",
+   "artist": "Khruangbin",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_YrF1xrpnK15",
+   "title": "RAVE:N, The Remixes",
+   "artist": "Kelela",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_rkYlVlbTZ69",
+   "title": "VULTURES 1",
+   "artist": "¥$",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_naiTLwYkBNh",
+   "title": "Tree",
+   "artist": "JD. Reid",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_ax85AK7ctNc",
+   "title": "Calibrate",
+   "artist": "JD. Reid",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_ZIBRCsaoApO",
+   "title": "The Shining",
+   "artist": "J Dilla",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_1z9z9Ur52Uh",
+   "title": "Twenty Questions EP",
+   "artist": "Ivy Lab",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_3rMvbkgxcgj",
+   "title": "Teacup E.P",
+   "artist": "Ivy Lab",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_p9VaH6HEoqa",
+   "title": "Stars E.P",
+   "artist": "Ivy Lab",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_KXeAhmlj0i7",
+   "title": "Space War E.P",
+   "artist": "Ivy Lab",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_oSv7K42MMZ6",
+   "title": "Press Play",
+   "artist": "Ivy Lab",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_xjtCiUp6DL9",
+   "title": "Peninsula EP",
+   "artist": "Ivy Lab",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_9FxlpMG00hS",
+   "title": "Fidget E.P",
+   "artist": "Ivy Lab",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_JgFpMiH1N8J",
+   "title": "Amigood",
+   "artist": "Ivy Lab",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_uaHmbbZ38VR",
+   "title": "Set The Remixes",
+   "artist": "Hudson Mohawke",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_UyIaLZp4Pks",
+   "title": "Satin Panthers",
+   "artist": "Hudson Mohawke",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_3LvBY69Io66",
+   "title": "Lantern",
+   "artist": "Hudson Mohawke",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_qGzLwWf3dqp",
+   "title": "Butter",
+   "artist": "Hudson Mohawke",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_NSgT7ZqggCw",
+   "title": "B.B.H.E.",
+   "artist": "Hudson Mohawke",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_GgGnxaFKpb3",
+   "title": "Mood Variant (The Remixes)",
+   "artist": "Hiatus Kaiyote",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_0I6N8Xg7cax",
+   "title": "WUNNA",
+   "artist": "Gunna",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_zmku1iVKIS8",
+   "title": "WOPTOBER",
+   "artist": "Gucci Mane",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_CxEETvKoOFF",
+   "title": "The Return of East Atlanta Santa",
+   "artist": "Gucci Mane",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_j5NuVvmhckF",
+   "title": "Droptopwop",
+   "artist": "Gucci Mane",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_e2EgN76gnTJ",
+   "title": "Project E.T.",
+   "artist": "Future",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_teKSSamg6xT",
+   "title": "Pink",
+   "artist": "Four Tet",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_UNDOYnJo2Me",
+   "title": "L.A. EP 2 X 3",
+   "artist": "Flying Lotus",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_KlNEqsfbcoP",
+   "title": "Skin",
+   "artist": "Flume",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_zFa72Ny5tLL",
+   "title": "Flume: Deluxe Edition",
+   "artist": "Flume",
+   "trackCount": 33
+  },
+  {
+   "browseId": "MPREb_1tNZCF2iuzK",
+   "title": "Reflections: Mojave Desert",
+   "artist": "Floating Points",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_rUHtbYue3u3",
+   "title": "Crush",
+   "artist": "Floating Points",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_9h7w51iNWCs",
+   "title": "Worldwide Underground",
+   "artist": "Erykah Badu",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_KogjWtLw13A",
+   "title": "Seven Lies",
+   "artist": "Djrum",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_I1LjnuD5A0V",
+   "title": "ENERGY (Deluxe)",
+   "artist": "Disclosure",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_SDH2ivBzlL1",
+   "title": "Pressure E.P",
+   "artist": "Deft",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_dKaM1CjgWZW",
+   "title": "Instrumentals 2 (Sampler)",
+   "artist": "Clams Casino",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_Y9DPOguXbRG",
+   "title": "Instrumentals",
+   "artist": "Clams Casino",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_rQMLgjBdyGj",
+   "title": "Suddenly",
+   "artist": "Caribou",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_pHgESM0mzlv",
+   "title": "Untrue",
+   "artist": "Burial",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_R1PaUuyh0mR",
+   "title": "Burial",
+   "artist": "Burial",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_QGrrd7Ht3FP",
+   "title": "The North Borders",
+   "artist": "Bonobo",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_tEgALPWrQ0S",
+   "title": "ß",
+   "artist": "Baauer",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_Mi2j2xVEYv2",
+   "title": "Aa",
+   "artist": "Baauer",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_BTm56FEo23O",
+   "title": "Better Together",
+   "artist": "Baalti",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_66Y3IbWwSIG",
+   "title": "Baalti",
+   "artist": "Baalti",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_DzU7cOH8CPN",
+   "title": "Sour Soul (Instrumentals)",
+   "artist": "BADBADNOTGOOD",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_gfuerKPuiMW",
+   "title": "III",
+   "artist": "BADBADNOTGOOD",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_Kb7vRRDhNB4",
+   "title": "Syro",
+   "artist": "Aphex Twin",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_6FWflyuCbT4",
+   "title": "Collapse EP",
+   "artist": "Aphex Twin",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_XiyfVkY08Ik",
+   "title": "U EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_QDuw71k1geb",
+   "title": "Recall & Reflect EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_sLck69tndqV",
+   "title": "Ravana EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_HazQXX6IWsp",
+   "title": "Numbers EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_dNRaEy7R1TS",
+   "title": "Nighthawks: EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_RDPtJ2iEFmM",
+   "title": "Ghosts - EP",
+   "artist": "Alix Perez",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_l206blqgMeQ",
+   "title": "From a Vein",
+   "artist": "Shades",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_vycx1he4f04",
+   "title": "Elephant Dreams: EP",
+   "artist": "Alix Perez",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_JpKf5zkMwrk",
+   "title": "Two Hearts Never Break The Same",
+   "artist": "AP Dhillon",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_rkB9Xrsvylj",
+   "title": "LIVE.LOVE.A$AP",
+   "artist": "A$AP Rocky",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_y45t7Oc88OY",
    "title": "To Myself (Deluxe)",
@@ -2463,12 +3351,6 @@
    "title": "The Colour In Anything",
    "artist": "James Blake",
    "trackCount": 17
-  },
-  {
-   "browseId": "MPREb_IUXOWlwfUh2",
-   "title": "Barter 6",
-   "artist": "Young Thug",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_N78Lj9a5h6W",
@@ -5283,12 +6165,6 @@
    "title": "Matangi",
    "artist": "M.I.A.",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_EqHonvPrcA7",
-   "title": "You Will Regret (Reloaded)",
-   "artist": "Ski Mask The Slump God",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_6GGPLoXwxNo",

@@ -1,0 +1,40 @@
+{
+ "title": "shade",
+ "artist": "Vayda",
+ "year": "2023",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "hot n bothered",
+   "artist": "Vayda",
+   "videoId": "mX2ey5DMiJI",
+   "duration": "1:35"
+  },
+  {
+   "title": "tooamiri",
+   "artist": "Vayda",
+   "videoId": "xZd4r7-Dhbc",
+   "duration": "2:05"
+  },
+  {
+   "title": "bad bad",
+   "artist": "Vayda",
+   "videoId": "tEf7Hc96rTY",
+   "duration": "1:49"
+  },
+  {
+   "title": "gummy vaymix",
+   "artist": "Vayda",
+   "videoId": "U1D6txM-irE",
+   "duration": "1:07"
+  },
+  {
+   "title": "attachment issue",
+   "artist": "Vayda",
+   "videoId": "NkbQoaGX_Ok",
+   "duration": "1:25"
+  }
+ ],
+ "browseId": "MPREb_h8WaZ0ZiFJQ",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}

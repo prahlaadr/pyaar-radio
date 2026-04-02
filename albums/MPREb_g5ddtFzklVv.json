@@ -1,0 +1,34 @@
+{
+ "title": "Decode",
+ "artist": "Mia Koden",
+ "year": "2023",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "10easy",
+   "artist": "Mia Koden",
+   "videoId": "YRfsdgUkmkc",
+   "duration": "4:17"
+  },
+  {
+   "title": "Racket",
+   "artist": "Mia Koden",
+   "videoId": "RlgyndbQzc8",
+   "duration": "4:38"
+  },
+  {
+   "title": "Sludge",
+   "artist": "Mia Koden",
+   "videoId": "ONKW5Fh_OEc",
+   "duration": "4:07"
+  },
+  {
+   "title": "Après Vous",
+   "artist": "Mia Koden",
+   "videoId": "gPlj_tspBwU",
+   "duration": "4:47"
+  }
+ ],
+ "browseId": "MPREb_g5ddtFzklVv",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}

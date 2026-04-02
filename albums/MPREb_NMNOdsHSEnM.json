@@ -1,0 +1,40 @@
+{
+ "title": "Epiphany",
+ "artist": "Ross from Friends",
+ "year": "2019",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Epiphany",
+   "artist": "Ross from Friends",
+   "videoId": "0YtNJoHr2Xo",
+   "duration": "5:25"
+  },
+  {
+   "title": "The Revolution",
+   "artist": "Ross from Friends",
+   "videoId": "MJ1kB-ZHOf8",
+   "duration": "6:16"
+  },
+  {
+   "title": "Phantom Ratio",
+   "artist": "Ross from Friends",
+   "videoId": "cHsaiUJeTB8",
+   "duration": "6:16"
+  },
+  {
+   "title": "Epiphany (Edit)",
+   "artist": "Ross from Friends",
+   "videoId": "PCI1dqbbjss",
+   "duration": "4:25"
+  },
+  {
+   "title": "The Revolution (Edit)",
+   "artist": "Ross from Friends",
+   "videoId": "I4JmE0IWcB8",
+   "duration": "4:12"
+  }
+ ],
+ "browseId": "MPREb_NMNOdsHSEnM",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}

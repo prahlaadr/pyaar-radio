@@ -1,0 +1,34 @@
+{
+ "title": "Amigood",
+ "artist": "Ivy Lab",
+ "year": "2025",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Amigood",
+   "artist": "Ivy Lab",
+   "videoId": "d4gYRvnJrgo",
+   "duration": "3:52"
+  },
+  {
+   "title": "Strange Attractor",
+   "artist": "Ivy Lab",
+   "videoId": "tvzEQMwmFtk",
+   "duration": "3:40"
+  },
+  {
+   "title": "Daily Star",
+   "artist": "Ivy Lab",
+   "videoId": "BkHFLTsSyts",
+   "duration": "3:29"
+  },
+  {
+   "title": "Innocence",
+   "artist": "Ivy Lab",
+   "videoId": "2_oDTZg6RRs",
+   "duration": "4:40"
+  }
+ ],
+ "browseId": "MPREb_JgFpMiH1N8J",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}

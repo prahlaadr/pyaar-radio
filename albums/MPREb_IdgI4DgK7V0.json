@@ -1,0 +1,40 @@
+{
+ "title": "MPBEATS",
+ "artist": "VHOOR",
+ "year": "2019",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Coração",
+   "artist": "VHOOR",
+   "videoId": "xScTFYCBnww",
+   "duration": "2:04"
+  },
+  {
+   "title": "Imagem",
+   "artist": "VHOOR",
+   "videoId": "mjxV_aWUy84",
+   "duration": "1:32"
+  },
+  {
+   "title": "Mais Um Dia",
+   "artist": "VHOOR",
+   "videoId": "XfZyERcU7s8",
+   "duration": "1:49"
+  },
+  {
+   "title": "Tempo",
+   "artist": "VHOOR",
+   "videoId": "on0QX09hx8M",
+   "duration": "2:11"
+  },
+  {
+   "title": "Voz",
+   "artist": "VHOOR",
+   "videoId": "wo8Lehya6ow",
+   "duration": "2:28"
+  }
+ ],
+ "browseId": "MPREb_IdgI4DgK7V0",
+ "syncedAt": "2026-04-02T08:58:49.973204Z"
+}
