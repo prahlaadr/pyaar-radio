@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3066,
- "totalTracks": 39472,
- "syncedAt": "2026-04-02T08:58:49.973204Z",
+ "albumCount": 3068,
+ "totalTracks": 39488,
+ "syncedAt": "2026-04-03T08:56:26.129318Z",
  "albums": [
+  {
+   "browseId": "MPREb_eX5Jd28E2Sf",
+   "title": "BULLY",
+   "artist": "Kanye West",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_UwQDPUYeXkS",
+   "title": "Solo Piano",
+   "artist": "Chilly Gonzales",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_z84b2PyybbY",
+   "title": "Child's Play",
+   "artist": "Alice Phoebe Lou",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_P0KQb1JfkNP",
+   "title": "An Insatiable High",
+   "artist": "Masayoshi Takanaka",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_lCU81dUvCnf",
    "title": "Tidal",
@@ -7835,12 +7859,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_oheYxtyoWtD",
-   "title": "Improvisations 2015 - 2017",
-   "artist": "Swooping",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_KBYnfiYo6Ek",
    "title": "Unapologetic",
    "artist": "Rihanna",
@@ -15441,12 +15459,6 @@
    "title": "Dance Planet",
    "artist": "Space Ghost",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_640Z2gKFXDs",
-   "title": "Last Days of Meaning",
-   "artist": "Nitin Sawhney",
-   "trackCount": 20
   },
   {
    "browseId": "MPREb_yAVuO6uqjWr",

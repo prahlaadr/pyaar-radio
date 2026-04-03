@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
  "title": "Intros/Interludes/Loops/Waves/Fillers",
- "trackCount": 12,
- "syncedAt": "2026-04-02T08:59:24.933472Z",
+ "trackCount": 14,
+ "syncedAt": "2026-04-03T08:56:29.335541Z",
  "tracks": [
   {
    "title": "Out of Your Mind (Interlude)",
@@ -87,6 +87,20 @@
    "album": "Aletheia",
    "videoId": "kCfXNiGRW4s",
    "duration": "2:33"
+  },
+  {
+   "title": "An Insatiable High",
+   "artist": "Masayoshi Takanaka",
+   "album": "An Insatiable High",
+   "videoId": "RPaRjRqcyiU",
+   "duration": "10:10"
+  },
+  {
+   "title": "Basmati",
+   "artist": "Chilly Gonzales",
+   "album": "Solo Piano",
+   "videoId": "S1Hzy16JVm8",
+   "duration": "1:31"
   }
  ]
 }
