@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3068,
- "totalTracks": 39488,
- "syncedAt": "2026-04-03T08:56:26.129318Z",
+ "albumCount": 3069,
+ "totalTracks": 39497,
+ "syncedAt": "2026-04-04T08:42:37.712819Z",
  "albums": [
+  {
+   "browseId": "MPREb_Sy9ShExyMMY",
+   "title": "Threads",
+   "artist": "Baalti",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_eX5Jd28E2Sf",
    "title": "BULLY",
