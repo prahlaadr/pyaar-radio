@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3069,
- "totalTracks": 39497,
- "syncedAt": "2026-04-04T08:42:37.712819Z",
+ "albumCount": 3071,
+ "totalTracks": 39515,
+ "syncedAt": "2026-04-05T08:44:27.628029Z",
  "albums": [
+  {
+   "browseId": "MPREb_PE561bFXV82",
+   "title": "Sculpturegardening",
+   "artist": "Tristan Arp",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_ojFrJ0hEL04",
+   "title": "a pool, a portal",
+   "artist": "Tristan Arp",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_Sy9ShExyMMY",
    "title": "Threads",
