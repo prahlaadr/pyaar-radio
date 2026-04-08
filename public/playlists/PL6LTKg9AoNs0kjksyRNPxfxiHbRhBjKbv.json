@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 5,
- "syncedAt": "2026-04-07T09:04:07.876625Z",
+ "trackCount": 6,
+ "syncedAt": "2026-04-08T09:02:53.008848Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -38,6 +38,13 @@
    "album": "Threads",
    "videoId": "yJn7GcPOOTI",
    "duration": "1:22"
+  },
+  {
+   "title": "Murda",
+   "artist": "Lil Yachty",
+   "album": "Murda",
+   "videoId": "HN0H2DyQ-sQ",
+   "duration": "2:02"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3069,
- "totalTracks": 39489,
- "syncedAt": "2026-04-07T09:04:06.388879Z",
+ "albumCount": 3066,
+ "totalTracks": 39463,
+ "syncedAt": "2026-04-08T09:02:51.002824Z",
  "albums": [
   {
    "browseId": "MPREb_PE561bFXV82",
@@ -2348,24 +2348,6 @@
    "browseId": "MPREb_pZcWQW5tlcn",
    "title": "BOOMIVERSE",
    "artist": "Big Boi",
-   "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_kl88Zgikhdu",
-   "title": "Bittersweet",
-   "artist": "Amaria",
-   "trackCount": 7
-  },
-  {
-   "browseId": "MPREb_oSVofVYjvC7",
-   "title": "All For You",
-   "artist": "Amaria",
-   "trackCount": 7
-  },
-  {
-   "browseId": "MPREb_RAkt4Bu1g7W",
-   "title": "Free Fallin'",
-   "artist": "Amaria",
    "trackCount": 12
   },
   {
