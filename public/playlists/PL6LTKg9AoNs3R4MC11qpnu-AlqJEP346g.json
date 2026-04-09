@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1293,
- "syncedAt": "2026-04-08T09:02:53.008848Z",
+ "trackCount": 1295,
+ "syncedAt": "2026-04-09T09:09:23.844267Z",
  "tracks": [
+  {
+   "title": "Vacay",
+   "artist": "Aminé",
+   "album": "13 Months of Sunshine",
+   "videoId": "QMCAh1FdoeQ",
+   "duration": "2:23"
+  },
+  {
+   "title": "She Knows Too Much",
+   "artist": "Thundercat;Mac Miller",
+   "album": "Distracted",
+   "videoId": "CJj-u4kRL6k",
+   "duration": "3:34"
+  },
   {
    "title": "London Summers",
    "artist": "Odeal",

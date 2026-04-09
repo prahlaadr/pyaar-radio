@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 6,
- "syncedAt": "2026-04-08T09:02:53.008848Z",
+ "trackCount": 8,
+ "syncedAt": "2026-04-09T09:09:23.844267Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -45,6 +45,20 @@
    "album": "Murda",
    "videoId": "HN0H2DyQ-sQ",
    "duration": "2:02"
+  },
+  {
+   "title": "Back Home",
+   "artist": "MIKE;SURF GANG",
+   "album": "Home on the Range // Back Home",
+   "videoId": "GxjNHNyjTYo",
+   "duration": "1:36"
+  },
+  {
+   "title": "oblivion (feat. Common & Ayoni)",
+   "artist": "Noname",
+   "album": "Sundial",
+   "videoId": "y2_4zNAT_R8",
+   "duration": "2:59"
   }
  ]
 }

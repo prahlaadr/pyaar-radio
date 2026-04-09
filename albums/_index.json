@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3066,
- "totalTracks": 39463,
- "syncedAt": "2026-04-08T09:02:51.002824Z",
+ "albumCount": 3067,
+ "totalTracks": 39474,
+ "syncedAt": "2026-04-09T09:09:22.245311Z",
  "albums": [
+  {
+   "browseId": "MPREb_dmYzatecuTz",
+   "title": "De Keke!",
+   "artist": "VHOOR",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_PE561bFXV82",
    "title": "Sculpturegardening",
