@@ -1,6 +1,7 @@
 """Release detection: find new albums/singles from curated artists."""
 
 import csv
+import json
 import time
 from datetime import datetime, UTC
 from pathlib import Path
@@ -11,6 +12,7 @@ from ytmusicapi import YTMusic
 PROJECT_DIR = Path(__file__).parent.parent
 ARTISTS_PATH = PROJECT_DIR / "public" / "data" / "artists.csv"
 BROWSER_AUTH_PATH = PROJECT_DIR / "browser.json"
+ALERTS_JSON_PATH = PROJECT_DIR / "public" / "data" / "radar-alerts.json"
 
 
 def load_artists(filter_name: str | None = None) -> list[str]:
@@ -145,6 +147,28 @@ def check_releases(
         time.sleep(0.3)
 
     return new_releases
+
+
+def export_alerts_json(db: duckdb.DuckDBPyConnection):
+    """Export all non-dismissed alerts to JSON for the frontend."""
+    rows = db.execute(
+        "SELECT id, artist, title, browse_id, year, release_type, status, detected_at FROM release_alerts WHERE status != 'dismissed' ORDER BY detected_at DESC"
+    ).fetchall()
+    alerts = []
+    for row in rows:
+        alerts.append({
+            "id": row[0],
+            "artist": row[1],
+            "title": row[2],
+            "browseId": row[3],
+            "year": row[4],
+            "type": row[5],
+            "status": row[6],
+            "detectedAt": row[7].isoformat() if row[7] else "",
+        })
+    with open(ALERTS_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump({"updatedAt": datetime.now(UTC).isoformat(), "alerts": alerts}, f, ensure_ascii=False, indent=1)
+    return len(alerts)
 
 
 def format_report(new_releases: list[dict], total_artists: int) -> str:

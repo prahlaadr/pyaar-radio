@@ -1,0 +1,15 @@
+{
+ "updatedAt": "2026-04-09T22:46:14.283435+00:00",
+ "alerts": [
+  {
+   "id": 1,
+   "artist": "Kanye West",
+   "title": "BULLY",
+   "browseId": "MPREb_iel66TzwHpy",
+   "year": "Single",
+   "type": "single",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:39:16.323047"
+  }
+ ]
+}

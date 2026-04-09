@@ -30,7 +30,7 @@ def cmd_seed(args):
 def cmd_release(args):
     from ytmusicapi import YTMusic
     from .db import get_db
-    from .release import load_artists, check_releases, format_report
+    from .release import load_artists, check_releases, format_report, export_alerts_json
 
     if not BROWSER_AUTH_PATH.exists():
         print("ERROR: No browser.json found.")
@@ -59,6 +59,11 @@ def cmd_release(args):
     report = format_report(new_releases, len(artists))
     print(f"\n{'=' * 60}")
     print(report)
+
+    # Export for frontend
+    count = export_alerts_json(db)
+    if count:
+        print(f"\nExported {count} alerts to radar-alerts.json")
 
     db.close()
 
