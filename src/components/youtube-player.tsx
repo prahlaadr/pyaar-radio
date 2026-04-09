@@ -637,7 +637,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         {/* Thumbnail placeholder */}
         <div className="w-12 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
         {onPrev && (
-          <button onClick={onPrev} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Previous">
+          <button onClick={onPrev} className="text-[#999] hover:text-white transition-colors text-[10px] shrink-0" title="Previous">
             &#9664;&#9664;
           </button>
         )}
@@ -662,11 +662,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           </button>
         )}
         {onShuffle && (
-          <button onClick={onShuffle} className="text-[#666] hover:text-white transition-colors text-[10px] shrink-0" title="Next">
+          <button onClick={onShuffle} className="text-[#999] hover:text-white transition-colors text-[10px] shrink-0" title="Next">
             &#9654;&#9654;
           </button>
         )}
-        <span className="text-[10px] text-[#555] tabular-nums font-mono w-[70px] shrink-0">
+        <span className="text-[10px] text-[#999] tabular-nums font-mono w-[70px] shrink-0">
           {formatTime(currentTime)} / {duration > 0 ? formatTime(duration) : "—:——"}
         </span>
         <input
@@ -680,13 +680,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         />
         <div className="flex-1 min-w-0 flex items-center gap-2">
           <span className="text-xs text-[#ccc] truncate">{track.trackName}</span>
-          <span className="text-[10px] text-[#444]">&mdash;</span>
+          <span className="text-[10px] text-[#888]">&mdash;</span>
           {onArtistClick ? (
-            <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="text-[10px] text-[#666] hover:text-white transition-colors truncate">
+            <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="text-[10px] text-[#999] hover:text-white transition-colors truncate">
               {track.artistNames.split(";")[0]}
             </button>
           ) : (
-            <span className="text-[10px] text-[#666] truncate">{track.artistNames.split(";")[0]}</span>
+            <span className="text-[10px] text-[#999] truncate">{track.artistNames.split(";")[0]}</span>
           )}
           {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider shrink-0">SC</span>}
           {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider shrink-0">BC</span>}
@@ -694,7 +694,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         {onAddToSetlist && track && (
           <button
             onClick={() => { onAddToSetlist(track); setJustAdded(true); setTimeout(() => setJustAdded(false), 1000); }}
-            className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
+            className="text-[#999] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
             title="Add to setlist"
           >
             {justAdded ? "\u2713" : "+"}
@@ -704,13 +704,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <button
             onClick={onToggleRadio}
             className={`text-[10px] uppercase tracking-wider px-1.5 py-0.5 transition-colors shrink-0 ${
-              radioMode ? "bg-red-600 text-white" : "text-[#666] hover:text-white"
+              radioMode ? "bg-red-600 text-white" : "text-[#999] hover:text-white"
             }`}
           >
             Radio
           </button>
         )}
-        <button onClick={handleClose} className="text-[#444] hover:text-white transition-colors text-xs shrink-0">&times;</button>
+        <button onClick={handleClose} className="text-[#888] hover:text-white transition-colors text-xs shrink-0">&times;</button>
       </div>
 
       {/* === Mobile: two rows — song info top, controls bottom === */}
@@ -720,7 +720,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           <div className="w-10 h-10 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
           <div className="flex-1 min-w-0">
             <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
-            <div className="text-xs text-[#666] truncate flex items-center gap-1">
+            <div className="text-xs text-[#999] truncate flex items-center gap-1">
               {onArtistClick ? (
                 <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="hover:text-white transition-colors">
                   {track.artistNames.split(";")[0]}
@@ -741,7 +741,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             {onPrev && (
               <button
                 onClick={onPrev}
-                className="text-[#666] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
+                className="text-[#999] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
                 title="Previous"
               >
                 &#9664;&#9664;
@@ -769,7 +769,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             {onShuffle && (
               <button
                 onClick={onShuffle}
-                className="text-[#666] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
+                className="text-[#999] hover:text-white transition-colors text-sm w-11 h-11 flex items-center justify-center"
                 title="Next"
               >
                 &#9654;&#9654;
@@ -794,7 +794,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             {onAddToSetlist && track && (
               <button
                 onClick={() => { onAddToSetlist(track); setJustAdded(true); setTimeout(() => setJustAdded(false), 1000); }}
-                className="text-[#666] hover:text-red-500 transition-colors text-xl font-bold w-11 h-11 flex items-center justify-center"
+                className="text-[#999] hover:text-red-500 transition-colors text-xl font-bold w-11 h-11 flex items-center justify-center"
                 title="Add to setlist"
               >
                 {justAdded ? "\u2713" : "+"}
@@ -802,7 +802,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             )}
             <button
               onClick={handleClose}
-              className="text-[#444] hover:text-white transition-colors text-xl w-11 h-11 flex items-center justify-center"
+              className="text-[#888] hover:text-white transition-colors text-xl w-11 h-11 flex items-center justify-center"
             >
               &times;
             </button>

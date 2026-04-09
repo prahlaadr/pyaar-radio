@@ -170,7 +170,7 @@ function ChannelRow({ channel, isActive, onSelect }: { channel: TVChannel; isAct
 
       <div className="flex items-center gap-3">
         <span className={`font-mono text-xs w-6 text-right shrink-0 ${
-          isActive ? "text-white" : "text-[#555]"
+          isActive ? "text-white" : "text-[#999]"
         }`}>
           {channel.number}
         </span>
@@ -181,12 +181,12 @@ function ChannelRow({ channel, isActive, onSelect }: { channel: TVChannel; isAct
           {channel.name}
         </span>
 
-        <span className="text-[10px] text-[#666] truncate flex-1 uppercase tracking-wider hidden sm:block">
+        <span className="text-[10px] text-[#999] truncate flex-1 uppercase tracking-wider hidden sm:block">
           {nowPlaying.video.title}
         </span>
 
         <span className={`font-mono text-[10px] shrink-0 ${
-          isActive ? "text-[#888]" : "text-[#444]"
+          isActive ? "text-[#888]" : "text-[#888]"
         }`}>
           {formatTimeRemaining(nowPlaying.secondsUntilNext)}
         </span>
@@ -265,7 +265,7 @@ export function TvGuide({ channels, activeChannelId, onSelectChannel }: Props) {
           className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
             !activeCategory
               ? "bg-red-600 text-white"
-              : "bg-[#111] text-[#666] hover:text-white"
+              : "bg-[#111] text-[#999] hover:text-white"
           }`}
         >
           All
@@ -277,7 +277,7 @@ export function TvGuide({ channels, activeChannelId, onSelectChannel }: Props) {
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
               activeCategory === cat
                 ? "bg-red-600 text-white"
-                : "bg-[#111] text-[#666] hover:text-white"
+                : "bg-[#111] text-[#999] hover:text-white"
             }`}
           >
             {cat}
@@ -287,7 +287,7 @@ export function TvGuide({ channels, activeChannelId, onSelectChannel }: Props) {
 
       {/* Count */}
       <div className="px-4 py-1 border-b border-[#222] bg-[#0a0a0a]">
-        <span className="text-[10px] uppercase tracking-widest text-[#555]">
+        <span className="text-[10px] uppercase tracking-widest text-[#999]">
           {filteredChannels.length} channel{filteredChannels.length !== 1 ? "s" : ""}
           {activeCategory ? ` in ${activeCategory}` : ""}
         </span>
@@ -313,7 +313,7 @@ export function TvGuide({ channels, activeChannelId, onSelectChannel }: Props) {
             return (
               <div key={cat}>
                 <div className="px-4 py-1.5 bg-[#080808] border-b border-[#222] sticky top-0 z-10">
-                  <span className="text-[10px] uppercase tracking-widest text-[#444] font-semibold">
+                  <span className="text-[10px] uppercase tracking-widest text-[#888] font-semibold">
                     {cat}
                   </span>
                 </div>
@@ -331,7 +331,7 @@ export function TvGuide({ channels, activeChannelId, onSelectChannel }: Props) {
         )}
         {filteredChannels.length === 0 && (
           <div className="flex-1 flex items-center justify-center py-8">
-            <p className="text-[#444] text-xs uppercase tracking-widest">No channels found</p>
+            <p className="text-[#888] text-xs uppercase tracking-widest">No channels found</p>
           </div>
         )}
       </div>

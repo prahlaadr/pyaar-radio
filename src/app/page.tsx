@@ -1740,7 +1740,7 @@ export default function Home() {
       <div className="flex min-h-screen items-center justify-center bg-black">
         <div className="text-center">
           <h1 className="text-sm font-bold text-red-500 uppercase tracking-widest mb-2">Error</h1>
-          <p className="text-[#666] text-sm">{error}</p>
+          <p className="text-[#999] text-sm">{error}</p>
         </div>
       </div>
     );
@@ -1771,7 +1771,7 @@ export default function Home() {
             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors shrink-0 ${
               radioMode
                 ? "bg-red-600 text-white"
-                : "bg-[#111] text-[#888] hover:text-white disabled:text-[#333]"
+                : "bg-[#111] text-[#888] hover:text-white disabled:text-[#888]"
             }`}
             title="Shuffle play from filtered artists"
           >
@@ -1809,7 +1809,7 @@ export default function Home() {
             >
               Setlists
               {browserSetlistsList.length > 0 && (
-                <span className="ml-1.5 text-[#555]">{browserSetlistsList.length}</span>
+                <span className="ml-1.5 text-[#999]">{browserSetlistsList.length}</span>
               )}
             </button>
           </div>
@@ -1820,7 +1820,7 @@ export default function Home() {
             {vaultManifest.length > 0 && (
               <>
                 <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                  <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                  <span className="text-[10px] text-[#999] uppercase tracking-wider">
                     Saved ({vaultManifest.length})
                   </span>
                 </div>
@@ -1839,7 +1839,7 @@ export default function Home() {
                         {entry.name}
                       </div>
                     </div>
-                    <span className="text-[10px] text-[#444] tabular-nums">
+                    <span className="text-[10px] text-[#888] tabular-nums">
                       {entry.trackCount} tracks
                     </span>
                   </div>
@@ -1849,7 +1849,7 @@ export default function Home() {
             {browserSetlistsList.length > 0 && (
               <>
                 <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                  <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                  <span className="text-[10px] text-[#999] uppercase tracking-wider">
                     Browser ({browserSetlistsList.length})
                   </span>
                 </div>
@@ -1868,7 +1868,7 @@ export default function Home() {
                         {entry.name}
                       </div>
                     </div>
-                    <span className="text-[10px] text-[#444] tabular-nums mr-1">
+                    <span className="text-[10px] text-[#888] tabular-nums mr-1">
                       {entry.trackCount} tracks
                     </span>
                     <button
@@ -1886,7 +1886,7 @@ export default function Home() {
             )}
             {vaultManifest.length === 0 && browserSetlistsList.length === 0 && playlistIndex.length === 0 && (
               <div className="flex-1 flex items-center justify-center py-20">
-                <p className="text-[#333] text-xs uppercase tracking-widest text-center px-8">
+                <p className="text-[#888] text-xs uppercase tracking-widest text-center px-8">
                   No saved setlists<br />Use Save to store a setlist
                 </p>
               </div>
@@ -1951,7 +1951,7 @@ export default function Home() {
               <div className="flex-1 flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse mx-auto mb-3" />
-                  <p className="text-[#666] text-xs uppercase tracking-widest">Loading</p>
+                  <p className="text-[#999] text-xs uppercase tracking-widest">Loading</p>
                 </div>
               </div>
             ) : ilaiyaraajaMode ? (
@@ -1989,7 +1989,7 @@ export default function Home() {
                   >
                     Pyaar.TV
                   </button>
-                  <span className="text-[10px] text-[#555] uppercase tracking-wider cursor-pointer hover:text-white transition-colors" onClick={() => setSectionMode("browse")}>
+                  <span className="text-[10px] text-[#999] uppercase tracking-wider cursor-pointer hover:text-white transition-colors" onClick={() => setSectionMode("browse")}>
                     &larr; back to all
                   </span>
                 </div>
@@ -2046,7 +2046,7 @@ export default function Home() {
                 {!filtersActive && featuredArtists.length > 0 && (
                   <div className="border-b border-[#222]">
                     <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
-                      <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                      <span className="text-[10px] text-[#999] uppercase tracking-wider">
                         Discover
                       </span>
                       <button
@@ -2054,7 +2054,7 @@ export default function Home() {
                           const shuffled = [...allArtists].sort(() => Math.random() - 0.5);
                           setFeaturedArtists(shuffled.slice(0, 5));
                         }}
-                        className="text-[10px] text-[#444] hover:text-white uppercase tracking-wider transition-colors"
+                        className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
                         title="Shuffle"
                       >
                         &#8635;
@@ -2078,7 +2078,7 @@ export default function Home() {
                               Desi
                             </span>
                           )}
-                          <span className="text-[10px] text-[#777] ml-auto tabular-nums">
+                          <span className="text-[10px] text-[#999] ml-auto tabular-nums">
                             {artist.bpmLow}&ndash;{artist.bpmHigh}
                           </span>
                         </div>
@@ -2088,8 +2088,8 @@ export default function Home() {
                               {v}
                             </span>
                           ))}
-                          <span className="text-[10px] text-[#555]">&middot;</span>
-                          <span className="text-[10px] text-[#777]">{artist.samay}</span>
+                          <span className="text-[10px] text-[#999]">&middot;</span>
+                          <span className="text-[10px] text-[#999]">{artist.samay}</span>
                         </div>
                       </button>
                     ))}
@@ -2099,7 +2099,7 @@ export default function Home() {
                 {searchTracks.length > 0 && (
                   <>
                     <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                      <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                      <span className="text-[10px] text-[#999] uppercase tracking-wider">
                         Tracks ({searchTracks.length})
                       </span>
                     </div>
@@ -2116,7 +2116,7 @@ export default function Home() {
                         >
                           <button
                             onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
-                            className="text-[#555] hover:text-white transition-colors text-[10px]"
+                            className="text-[#999] hover:text-white transition-colors text-[10px]"
                             title="Preview"
                           >
                             &#9654;
@@ -2127,19 +2127,19 @@ export default function Home() {
                             }`}>
                               {track.trackName}
                             </div>
-                            <div className="text-[10px] text-[#444] truncate">
+                            <div className="text-[10px] text-[#888] truncate">
                               {track.artistNames.split(";")[0]}
                             </div>
                           </div>
-                          <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                          <span className="text-[10px] text-[#999] tabular-nums font-mono">
                             {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                           </span>
-                          <span className="text-[10px] text-[#333] hidden sm:inline">
+                          <span className="text-[10px] text-[#888] hidden sm:inline">
                             {track.duration || "—"}
                           </span>
                           <button
                             onClick={() => addToSetlist(track)}
-                            className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
+                            className="text-[#888] hover:text-red-500 transition-colors text-sm font-bold"
                             title="Add to setlist"
                           >
                             +
@@ -2153,7 +2153,7 @@ export default function Home() {
                 {artists.length > 0 && (
                   <>
                     <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
-                      <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                      <span className="text-[10px] text-[#999] uppercase tracking-wider">
                         {browseView === "tracks"
                           ? `Tracks (${filteredTracksLoading ? "…" : filteredTracks.length})`
                           : searchTracks.length > 0
@@ -2170,7 +2170,7 @@ export default function Home() {
                             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                               browseView === "artists"
                                 ? "bg-[#333] text-white"
-                                : "bg-[#111] text-[#555] hover:text-[#888]"
+                                : "bg-[#111] text-[#999] hover:text-[#ccc]"
                             }`}
                           >
                             Artists
@@ -2180,7 +2180,7 @@ export default function Home() {
                             className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                               browseView === "tracks"
                                 ? "bg-[#333] text-white"
-                                : "bg-[#111] text-[#555] hover:text-[#888]"
+                                : "bg-[#111] text-[#999] hover:text-[#ccc]"
                             }`}
                           >
                             Tracks
@@ -2196,7 +2196,7 @@ export default function Home() {
                           </div>
                         ) : filteredTracks.length === 0 ? (
                           <div className="flex items-center justify-center py-12">
-                            <p className="text-[#444] text-xs uppercase tracking-widest">No tracks match</p>
+                            <p className="text-[#888] text-xs uppercase tracking-widest">No tracks match</p>
                           </div>
                         ) : (
                           filteredTracks.map((track, i) => {
@@ -2211,7 +2211,7 @@ export default function Home() {
                               >
                                 <button
                                   onClick={() => { setSetlistMode(false); setNowPlaying(track); }}
-                                  className="text-[#555] hover:text-white transition-colors text-[10px]"
+                                  className="text-[#999] hover:text-white transition-colors text-[10px]"
                                   title="Play"
                                 >
                                   &#9654;
@@ -2222,19 +2222,19 @@ export default function Home() {
                                   }`}>
                                     {track.trackName}
                                   </div>
-                                  <div className="text-[10px] text-[#444] truncate">
+                                  <div className="text-[10px] text-[#888] truncate">
                                     {track.artistNames.split(";")[0]}
                                   </div>
                                 </div>
-                                <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                                <span className="text-[10px] text-[#999] tabular-nums font-mono">
                                   {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                                 </span>
-                                <span className="text-[10px] text-[#333] hidden sm:inline">
+                                <span className="text-[10px] text-[#888] hidden sm:inline">
                                   {track.duration || "—"}
                                 </span>
                                 <button
                                   onClick={() => addToSetlist(track)}
-                                  className="text-[#333] hover:text-red-500 transition-colors text-sm font-bold"
+                                  className="text-[#888] hover:text-red-500 transition-colors text-sm font-bold"
                                   title="Add to setlist"
                                 >
                                   +
@@ -2251,7 +2251,7 @@ export default function Home() {
                 )}
                 {searchTracks.length === 0 && artists.length === 0 && (
                   <div className="flex-1 flex items-center justify-center">
-                    <p className="text-[#444] text-xs uppercase tracking-widest">No results</p>
+                    <p className="text-[#888] text-xs uppercase tracking-widest">No results</p>
                   </div>
                 )}
               </div>
@@ -2288,7 +2288,7 @@ export default function Home() {
           <div className="border-t border-[#222]">
             <button
               onClick={() => setRecentExpanded((v) => !v)}
-              className="w-full px-4 py-1.5 flex items-center justify-between text-[10px] text-[#555] uppercase tracking-wider hover:text-[#888] transition-colors"
+              className="w-full px-4 py-1.5 flex items-center justify-between text-[10px] text-[#999] uppercase tracking-wider hover:text-[#ccc] transition-colors"
             >
               <span>Recently Played ({recentlyPlayed.length})</span>
               <span>{recentExpanded ? "−" : "+"}</span>
@@ -2304,16 +2304,16 @@ export default function Home() {
                       <div className="text-[11px] text-[#888] truncate group-hover:text-[#ccc] transition-colors">
                         {track.trackName}
                       </div>
-                      <div className="text-[10px] text-[#444] truncate">
+                      <div className="text-[10px] text-[#888] truncate">
                         {track.artistNames.split(";")[0]}
                       </div>
                     </div>
-                    <span className="text-[10px] text-[#444] tabular-nums font-mono shrink-0">
+                    <span className="text-[10px] text-[#888] tabular-nums font-mono shrink-0">
                       {track.tempo > 0 ? Math.round(track.tempo) : ""}
                     </span>
                     <button
                       onClick={() => addToSetlist(track)}
-                      className="text-[#444] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
+                      className="text-[#888] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
                       title="Add to setlist"
                     >
                       +

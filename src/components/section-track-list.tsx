@@ -37,19 +37,19 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
   return (
     <div className="flex-1 overflow-hidden flex flex-col">
       <div className="px-3 md:px-5 py-2 border-b border-[#222] flex items-center gap-3">
-        <span className="text-[10px] text-[#555] uppercase tracking-wider">{label}</span>
-        <span className="text-[10px] text-[#444]">{tracks.length} tracks</span>
+        <span className="text-[10px] text-[#999] uppercase tracking-wider">{label}</span>
+        <span className="text-[10px] text-[#888]">{tracks.length} tracks</span>
         <input
           type="text"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           placeholder="FILTER..."
-          className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
+          className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#999] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
         />
       </div>
       {tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center py-20">
-          <p className="text-[#444] text-xs uppercase tracking-widest">{emptyMessage}</p>
+          <p className="text-[#888] text-xs uppercase tracking-widest">{emptyMessage}</p>
         </div>
       ) : (
         <div ref={scrollRef} className="flex-1 overflow-y-auto">
@@ -70,7 +70,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                 >
                   <button
                     onClick={() => onPlay(track)}
-                    className={`text-[#555] transition-colors text-[10px] ${accent.hoverText}`}
+                    className={`text-[#999] transition-colors text-[10px] ${accent.hoverText}`}
                     title="Play"
                   >
                     &#9654;
@@ -81,7 +81,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                     }`}>
                       {track.trackName}
                     </div>
-                    <div className="text-[10px] text-[#555] truncate">
+                    <div className="text-[10px] text-[#999] truncate">
                       {onArtistClick ? (
                         <button
                           onClick={(e) => { e.stopPropagation(); onArtistClick(track.artistNames.split(";")[0].trim()); }}
@@ -96,16 +96,16 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                     </div>
                   </div>
                   {showGenre && track.genres && track.genres.length > 0 && (
-                    <span className="text-[10px] text-[#333] hidden sm:inline truncate max-w-24">
+                    <span className="text-[10px] text-[#888] hidden sm:inline truncate max-w-24">
                       {track.genres[0]}
                     </span>
                   )}
-                  <span className="text-[10px] text-[#555] tabular-nums font-mono">
+                  <span className="text-[10px] text-[#999] tabular-nums font-mono">
                     {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                   </span>
                   <button
                     onClick={() => onAddToSetlist(track)}
-                    className={`text-[#333] transition-colors text-sm font-bold ${accent.hoverBtn}`}
+                    className={`text-[#888] transition-colors text-sm font-bold ${accent.hoverBtn}`}
                     title="Add to setlist"
                   >
                     +

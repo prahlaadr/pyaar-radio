@@ -98,14 +98,14 @@ export const TvPlayer = forwardRef<TvPlayerHandle, Props>(function TvPlayer(
           <span className="text-[10px] uppercase tracking-wider text-red-500 font-semibold shrink-0">{channelName}</span>
           {videoTitle && (
             <>
-              <span className="text-[#333] shrink-0">/</span>
+              <span className="text-[#888] shrink-0">/</span>
               <span className="text-[10px] uppercase tracking-wider text-[#888] truncate flex-1">{videoTitle}</span>
             </>
           )}
           {onSkip && (
             <button
               onClick={onSkip}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#1a1a1a] text-[#666] hover:text-white transition-colors shrink-0"
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#1a1a1a] text-[#999] hover:text-white transition-colors shrink-0"
               title="Skip to next video"
             >
               Skip &raquo;

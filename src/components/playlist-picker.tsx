@@ -120,7 +120,7 @@ function PlaylistRow({ p, loading, dotColor, onSelect }: { p: PlaylistIndexEntry
       {loading === p.playlistId ? (
         <span className="text-[10px] text-amber-500 animate-pulse">Loading...</span>
       ) : (
-        <span className="text-[10px] text-[#444] tabular-nums">
+        <span className="text-[10px] text-[#888] tabular-nums">
           {p.trackCount} tracks
         </span>
       )}
@@ -149,7 +149,7 @@ export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
   return (
     <>
       <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
-        <span className="text-[10px] text-[#555] uppercase tracking-wider">
+        <span className="text-[10px] text-[#999] uppercase tracking-wider">
           Playlists ({totalCount})
         </span>
       </div>
@@ -169,10 +169,10 @@ export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
             onClick={() => toggle(section.label)}
           >
             <span className={`w-1.5 h-1.5 rounded-full ${section.color} shrink-0`} />
-            <span className="text-[10px] text-[#666] uppercase tracking-wider flex-1">
+            <span className="text-[10px] text-[#999] uppercase tracking-wider flex-1">
               {section.label} ({section.playlists.length})
             </span>
-            <span className="text-[10px] text-[#333]">
+            <span className="text-[10px] text-[#888]">
               {collapsed[section.label] ? "+" : "−"}
             </span>
           </div>
@@ -184,7 +184,7 @@ export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
       ))}
       {filteredSections.length === 0 && search && (
         <div className="px-5 py-4 text-center">
-          <p className="text-[#444] text-[10px] uppercase tracking-widest">No matches</p>
+          <p className="text-[#888] text-[10px] uppercase tracking-widest">No matches</p>
         </div>
       )}
     </>

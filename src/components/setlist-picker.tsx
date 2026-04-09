@@ -40,7 +40,7 @@ export function SetlistPicker({
           <h2 className="text-sm font-bold uppercase tracking-[0.2em]">Open Setlist</h2>
           <button
             onClick={onClose}
-            className="text-[#555] hover:text-white text-sm"
+            className="text-[#999] hover:text-white text-sm"
           >
             &times;
           </button>
@@ -49,14 +49,14 @@ export function SetlistPicker({
         <div className="flex-1 overflow-y-auto">
           {empty && (
             <div className="px-5 py-8 text-center">
-              <p className="text-[#444] text-xs uppercase tracking-widest">No saved setlists</p>
+              <p className="text-[#888] text-xs uppercase tracking-widest">No saved setlists</p>
             </div>
           )}
 
           {hasVault && (
             <>
               <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                <span className="text-[10px] text-[#999] uppercase tracking-wider">
                   Saved ({vaultSetlists.length})
                 </span>
               </div>
@@ -75,7 +75,7 @@ export function SetlistPicker({
                       {entry.name}
                     </div>
                   </div>
-                  <span className="text-[10px] text-[#444] tabular-nums">
+                  <span className="text-[10px] text-[#888] tabular-nums">
                     {entry.trackCount} tracks
                   </span>
                 </div>
@@ -86,7 +86,7 @@ export function SetlistPicker({
           {hasBrowser && (
             <>
               <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a]">
-                <span className="text-[10px] text-[#555] uppercase tracking-wider">
+                <span className="text-[10px] text-[#999] uppercase tracking-wider">
                   Browser ({browserSetlists.length})
                 </span>
               </div>
@@ -105,7 +105,7 @@ export function SetlistPicker({
                       {entry.name}
                     </div>
                   </div>
-                  <span className="text-[10px] text-[#444] tabular-nums">
+                  <span className="text-[10px] text-[#888] tabular-nums">
                     {entry.trackCount} tracks
                   </span>
                   <button
@@ -126,7 +126,7 @@ export function SetlistPicker({
         <div className="px-5 py-3 border-t border-[#222] flex justify-end">
           <button
             onClick={onClose}
-            className="px-4 py-1.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
+            className="px-4 py-1.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] transition-colors"
           >
             Cancel
           </button>

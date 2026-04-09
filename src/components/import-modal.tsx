@@ -119,14 +119,14 @@ export function ImportModal({ open, onClose, onImport }: Props) {
           <h2 className="text-sm font-bold uppercase tracking-[0.2em]">Import</h2>
           <button
             onClick={onClose}
-            className="text-[#555] hover:text-white text-sm"
+            className="text-[#999] hover:text-white text-sm"
           >
             &times;
           </button>
         </div>
 
         <div className="p-5 flex-1 overflow-y-auto space-y-3">
-          <p className="text-[10px] text-[#555] uppercase tracking-wider">
+          <p className="text-[10px] text-[#999] uppercase tracking-wider">
             Paste tracks or upload CSV. Formats: &quot;Track - Artist&quot;, CSV, or markdown list.
           </p>
 
@@ -140,7 +140,7 @@ export function ImportModal({ open, onClose, onImport }: Props) {
           <div className="flex items-center gap-3">
             <button
               onClick={() => fileRef.current?.click()}
-              className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors"
+              className="px-3 py-1 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors"
             >
               Upload CSV
             </button>
@@ -152,7 +152,7 @@ export function ImportModal({ open, onClose, onImport }: Props) {
               className="hidden"
             />
             {preview.length > 0 && (
-              <span className="text-[10px] text-[#555]">
+              <span className="text-[10px] text-[#999]">
                 {preview.length} tracks detected
               </span>
             )}
@@ -162,12 +162,12 @@ export function ImportModal({ open, onClose, onImport }: Props) {
             <div className="border border-[#222] max-h-40 overflow-y-auto">
               {preview.map((p, i) => (
                 <div key={i} className="px-3 py-1 border-b border-[#111] text-xs flex gap-2">
-                  <span className="text-[10px] text-[#333] w-5 text-right tabular-nums font-mono">
+                  <span className="text-[10px] text-[#888] w-5 text-right tabular-nums font-mono">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <span className="text-[#ccc] truncate">{p.track}</span>
-                  <span className="text-[#444]">&mdash;</span>
-                  <span className="text-[#666] truncate">{p.artist}</span>
+                  <span className="text-[#888]">&mdash;</span>
+                  <span className="text-[#999] truncate">{p.artist}</span>
                 </div>
               ))}
             </div>
@@ -177,7 +177,7 @@ export function ImportModal({ open, onClose, onImport }: Props) {
         <div className="px-5 py-3 border-t border-[#222] flex justify-end gap-2">
           <button
             onClick={onClose}
-            className="px-4 py-1.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors"
+            className="px-4 py-1.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] transition-colors"
           >
             Cancel
           </button>

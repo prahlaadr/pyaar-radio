@@ -152,12 +152,12 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
       <div className="px-5 py-2 border-b border-[#222] flex items-center gap-3">
         <button
           onClick={onBack}
-          className="text-[#555] hover:text-white text-xs uppercase tracking-wider transition-colors"
+          className="text-[#999] hover:text-white text-xs uppercase tracking-wider transition-colors"
         >
           &larr; Back
         </button>
         <span className="text-sm font-medium">{artist.artist}</span>
-        <span className="text-[10px] text-[#555] uppercase">
+        <span className="text-[10px] text-[#999] uppercase">
           {trackSearch ? `${filteredTracks.length}/` : ""}{tracks.length} tracks
         </span>
         <input
@@ -165,18 +165,18 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
           value={trackSearch}
           onChange={(e) => setTrackSearch(e.target.value)}
           placeholder="FILTER..."
-          className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
+          className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#999] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
         />
         <div className="ml-auto flex gap-1 text-[10px] uppercase tracking-wider">
           <button
             onClick={() => setViewMode("all")}
-            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "all" ? "bg-[#222] text-white" : "text-[#555] hover:text-white"}`}
+            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "all" ? "bg-[#222] text-white" : "text-[#999] hover:text-white"}`}
           >
             All
           </button>
           <button
             onClick={() => setViewMode("albums")}
-            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "albums" ? "bg-[#222] text-white" : "text-[#555] hover:text-white"}`}
+            className={`px-2 py-0.5 rounded transition-colors ${viewMode === "albums" ? "bg-[#222] text-white" : "text-[#999] hover:text-white"}`}
           >
             Albums
           </button>
@@ -189,12 +189,12 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
         </div>
       ) : tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center">
-          <p className="text-[#444] text-xs uppercase tracking-widest">No tracks in library</p>
+          <p className="text-[#888] text-xs uppercase tracking-widest">No tracks in library</p>
         </div>
       ) : (
         <div ref={scrollRef} className="flex-1 overflow-y-auto">
           <table className="w-full text-sm">
-            <thead className="text-[10px] text-[#555] uppercase tracking-wider border-b border-[#222] sticky top-0 bg-black">
+            <thead className="text-[10px] text-[#999] uppercase tracking-wider border-b border-[#222] sticky top-0 bg-black">
               <tr>
                 <th className="px-2 py-2 w-6"></th>
                 <th className="text-left px-2 py-2 font-normal cursor-pointer hover:text-white transition-colors select-none" onClick={() => toggleSort("track")}>
@@ -232,7 +232,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     >
                       <td colSpan={6} className="px-2 py-2">
                         <span className="text-[10px] text-[#888] uppercase tracking-wider">{item.albumName}</span>
-                        <span className="text-[10px] text-[#444] ml-2">{item.count}</span>
+                        <span className="text-[10px] text-[#888] ml-2">{item.count}</span>
                       </td>
                     </tr>
                   );
@@ -259,7 +259,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                       {onPlay && (
                         <button
                           onClick={() => onPlay(track)}
-                          className="text-[#666] hover:text-white transition-colors text-[10px]"
+                          className="text-[#999] hover:text-white transition-colors text-[10px]"
                           title="Preview"
                         >
                           &#9654;
@@ -273,7 +273,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                         {track.trackName}
                       </div>
                       {track.genres.length > 0 && (
-                        <div className="text-[10px] text-[#666] truncate max-w-[50vw] md:max-w-md">
+                        <div className="text-[10px] text-[#999] truncate max-w-[50vw] md:max-w-md">
                           {track.genres.join(", ")}
                         </div>
                       )}
@@ -286,9 +286,9 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                         {nowPlaying && track.key > 0 && nowPlaying.key > 0 && (() => {
                           const compat = getKeyCompatibility(nowPlaying.key, track.key);
                           if (compat === "perfect" || compat === "harmonic")
-                            return <span className="w-1.5 h-1.5 rounded-full bg-green-500 shrink-0" />;
+                            return <span className="w-1.5 h-1.5 rounded-full bg-green-500 shrink-0" title="Harmonic match" />;
                           if (compat === "energy")
-                            return <span className="w-1.5 h-1.5 rounded-full bg-yellow-500 shrink-0" />;
+                            return <span className="w-1.5 h-1.5 border border-yellow-500 rounded-full shrink-0" title="Energy match" />;
                           return null;
                         })()}
                         {track.key > 0 ? pitchToCamelot(track.key) : "—"}
@@ -300,7 +300,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     <td className="px-3 py-1.5">
                       <button
                         onClick={() => onAddToSetlist(track)}
-                        className="text-[#666] hover:text-red-500 transition-colors text-sm font-bold"
+                        className="text-[#999] hover:text-red-500 transition-colors text-sm font-bold"
                         title="Add to setlist"
                       >
                         +

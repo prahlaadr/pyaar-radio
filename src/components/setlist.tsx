@@ -165,14 +165,14 @@ function SortableTrack({
       <span
         {...attributes}
         {...listeners}
-        className="text-[10px] text-[#333] group-hover:text-[#555] w-5 text-right tabular-nums font-mono select-none cursor-grab active:cursor-grabbing touch-none"
+        className="text-[10px] text-[#888] group-hover:text-[#999] w-5 text-right tabular-nums font-mono select-none cursor-grab active:cursor-grabbing touch-none"
       >
         {String(index + 1).padStart(2, "0")}
       </span>
       {onToggleSeed && (
         <button
           onClick={onToggleSeed}
-          className={`text-[10px] transition-colors w-3 ${isSeed ? "text-amber-400" : "text-[#222] hover:text-[#555]"}`}
+          className={`text-[10px] transition-colors w-3 ${isSeed ? "text-amber-400" : "text-[#222] hover:text-[#999]"}`}
           title={isSeed ? "Seed track (click to unmark)" : "Mark as seed track"}
         >
           {isSeed ? "\u2605" : "\u2606"}
@@ -181,7 +181,7 @@ function SortableTrack({
       {onPlay && (
         <button
           onClick={onPlay}
-          className={`text-[10px] transition-colors ${isPlaying ? "text-red-400" : "text-[#555] hover:text-white"}`}
+          className={`text-[10px] transition-colors ${isPlaying ? "text-red-400" : "text-[#999] hover:text-white"}`}
           title="Play"
         >
           &#9654;
@@ -199,7 +199,7 @@ function SortableTrack({
       <span className="text-[10px] text-[#888] tabular-nums font-mono w-6 text-right">
         {track.key > 0 ? pitchToCamelot(track.key) : "\u2014"}
       </span>
-      <span className="text-[10px] text-[#777] w-10 text-right">
+      <span className="text-[10px] text-[#999] w-10 text-right">
         {track.duration || "\u2014"}
       </span>
       <button
@@ -223,7 +223,7 @@ function TransitionIndicator({
   const keyCompat = track.key > 0 && next.key > 0 ? getKeyCompatibility(track.key, next.key) : null;
   const bpmColor = bpmDelta !== null
     ? Math.abs(bpmDelta) <= 5 ? "text-green-500" : Math.abs(bpmDelta) <= 15 ? "text-yellow-500" : "text-red-500"
-    : "text-[#333]";
+    : "text-[#888]";
   const keyDot = keyCompat === "perfect" || keyCompat === "harmonic"
     ? "bg-green-500"
     : keyCompat === "energy"
@@ -282,7 +282,7 @@ function ChapterDivider({
           {chapter.type}
         </button>
         {chapterStats && (
-          <span className="text-[9px] text-[#555] tabular-nums font-mono">
+          <span className="text-[9px] text-[#999] tabular-nums font-mono">
             {chapterStats.trackCount}t &middot; {Math.round(chapterStats.avgBpm)} avg
           </span>
         )}
@@ -292,7 +292,7 @@ function ChapterDivider({
           className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 transition-colors ${
             suggestingForChapter === chapter.id
               ? "text-amber-400 bg-amber-400/10"
-              : "text-[#444] hover:text-[#888]"
+              : "text-[#888] hover:text-[#ccc]"
           }`}
           title="Get 3 track suggestions for next chapter"
         >
@@ -300,7 +300,7 @@ function ChapterDivider({
         </button>
         <button
           onClick={onRemoveChapter}
-          className="text-[#333] hover:text-red-500 transition-colors text-[10px]"
+          className="text-[#888] hover:text-red-500 transition-colors text-[10px]"
           title="Remove chapter divider"
         >
           &times;
@@ -315,7 +315,7 @@ function ChapterDivider({
               className={`text-[9px] uppercase tracking-wider px-1.5 py-0.5 transition-colors ${
                 type === chapter.type
                   ? `${CHAPTER_COLORS[type].split(" ")[0]} bg-white/5`
-                  : "text-[#555] hover:text-white"
+                  : "text-[#999] hover:text-white"
               }`}
             >
               {type}
@@ -325,7 +325,7 @@ function ChapterDivider({
       )}
       {isLast && nextSuggestions.length > 0 && trackCount > 0 && (
         <div className="px-4 pb-1.5 flex items-center gap-1">
-          <span className="text-[9px] text-[#333] uppercase tracking-wider">next:</span>
+          <span className="text-[9px] text-[#888] uppercase tracking-wider">next:</span>
           {nextSuggestions.map((type) => (
             <button
               key={type}
@@ -531,24 +531,24 @@ export function SetlistPanel({
             </h2>
           )}
         </div>
-        <div className="text-[10px] text-[#555] uppercase tracking-wider mb-1.5">
+        <div className="text-[10px] text-[#999] uppercase tracking-wider mb-1.5">
           {tracks.length} tracks &middot; {formatTotalDuration(tracks)}
           {bpmStats && (
             <> &middot; <span className="tabular-nums font-mono">{bpmStats.min === bpmStats.max ? bpmStats.min : `${bpmStats.min}\u2013${bpmStats.max}`}</span> BPM (avg {bpmStats.avg})</>
           )}
         </div>
         <div className="flex gap-1.5 flex-wrap">
-          <button onClick={onOpen} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">Open</button>
-          <button onClick={onNew} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">New</button>
-          <button onClick={onSave} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors" title="Save to browser">Save</button>
-          <button onClick={onImport} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors">Import</button>
+          <button onClick={onOpen} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors">Open</button>
+          <button onClick={onNew} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors">New</button>
+          <button onClick={onSave} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors" title="Save to browser">Save</button>
+          <button onClick={onImport} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors">Import</button>
           {onAutoSort && tracks.length >= 3 && (
-            <button onClick={onAutoSort} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] hover:text-white transition-colors" title="Sort by harmonic flow (BPM + key)">Sort</button>
+            <button onClick={onAutoSort} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors" title="Sort by harmonic flow (BPM + key)">Sort</button>
           )}
           {tracks.length > 0 && (
             <>
               <button onClick={() => exportCSV(tracks, setlistName, chapters)} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-red-600 hover:bg-red-500 text-white transition-colors">Export</button>
-              <button onClick={onClear} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#555] transition-colors">Clear</button>
+              <button onClick={onClear} className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] transition-colors">Clear</button>
             </>
           )}
         </div>
@@ -574,7 +574,7 @@ export function SetlistPanel({
 
       {tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center">
-          <p className="text-[#333] text-xs uppercase tracking-widest text-center px-8">
+          <p className="text-[#888] text-xs uppercase tracking-widest text-center px-8">
             Add tracks to<br />build your set
           </p>
         </div>
@@ -640,7 +640,7 @@ export function SetlistPanel({
           {/* Next chapter suggestions at bottom of setlist */}
           {lastChapter && tracks.length > 0 && NEXT_CHAPTER_SUGGESTIONS[lastChapter.type].length > 0 && (
             <div className="px-4 py-2 border-t border-[#222] flex items-center gap-1.5">
-              <span className="text-[9px] text-[#333] uppercase tracking-wider">Next chapter:</span>
+              <span className="text-[9px] text-[#888] uppercase tracking-wider">Next chapter:</span>
               {NEXT_CHAPTER_SUGGESTIONS[lastChapter.type].map((type) => (
                 <button
                   key={type}

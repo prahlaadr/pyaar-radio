@@ -118,7 +118,7 @@ export function FilterPanel({
               onChange({ ...filters, search: e.target.value });
             }
           }}
-          className={`flex-1 px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#666] focus:outline-none transition-colors ${
+          className={`flex-1 px-3 py-1.5 bg-[#111] border border-[#333] text-xs uppercase tracking-wider placeholder-[#999] focus:outline-none transition-colors ${
             ilaiyaraajaMode ? "focus:border-red-500" :
             tamilMode ? "focus:border-amber-500" :
             sectionMode === "downtempo" ? "focus:border-cyan-500" :
@@ -129,7 +129,7 @@ export function FilterPanel({
         {!tamilMode && !ilaiyaraajaMode && sectionMode === "browse" && (
           <button
             onClick={() => setExpanded(!expanded)}
-            className="md:hidden px-2 py-1.5 bg-[#111] border border-[#333] text-[10px] uppercase tracking-wider text-[#888] hover:text-white transition-colors shrink-0"
+            className="md:hidden px-2 py-1.5 bg-[#111] border border-[#333] text-[10px] uppercase tracking-wider text-[#999] hover:text-white transition-colors shrink-0"
           >
             Filters{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
           </button>
@@ -149,7 +149,7 @@ export function FilterPanel({
                   className={`px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors ${
                     filters.channels.includes(ch)
                       ? "bg-white text-black"
-                      : "bg-[#111] text-[#888] hover:text-white"
+                      : "bg-[#111] text-[#999] hover:text-white"
                   }`}
                 >
                   {ch}
@@ -166,7 +166,7 @@ export function FilterPanel({
                   className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                     filters.samay === s
                       ? "bg-white text-black"
-                      : "bg-[#111] text-[#888] hover:text-white"
+                      : "bg-[#111] text-[#999] hover:text-white"
                   }`}
                 >
                   {s}
@@ -178,7 +178,7 @@ export function FilterPanel({
                 className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                   filters.desi === "Desi"
                     ? "bg-red-600 text-white"
-                    : "bg-[#111] text-[#888] hover:text-white"
+                    : "bg-[#111] text-[#999] hover:text-white"
                 }`}
               >
                 Desi
@@ -187,7 +187,7 @@ export function FilterPanel({
               {onTamilToggle && (
                 <button
                   onClick={onTamilToggle}
-                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-amber-400"
+                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-amber-400"
                 >
                   Tamil
                 </button>
@@ -196,13 +196,13 @@ export function FilterPanel({
                 <>
                   <button
                     onClick={() => onSectionToggle("downtempo")}
-                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-cyan-400"
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-cyan-400"
                   >
                     Downtempo
                   </button>
                   <button
                     onClick={() => onSectionToggle("ambient")}
-                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-purple-400"
+                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-purple-400"
                   >
                     Ambient
                   </button>
@@ -219,7 +219,7 @@ export function FilterPanel({
                   className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                     filters.vibes.includes(v)
                       ? "bg-red-600 text-white"
-                      : "bg-[#0a0a0a] text-[#777] hover:text-[#bbb]"
+                      : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
                   }`}
                 >
                   {v}
@@ -239,7 +239,7 @@ export function FilterPanel({
               Ilaiyaraaja
             </button>
             <span
-              className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors"
+              className="text-[10px] text-[#999] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors"
               onClick={onBackToTamil}
             >
               &larr; back to tamil
@@ -256,7 +256,7 @@ export function FilterPanel({
             >
               Tamil
             </button>
-            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={onTamilToggle}>
+            <span className="text-[10px] text-[#999] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={onTamilToggle}>
               &larr; back to all
             </span>
             {onIlaiyaraajaToggle && (
@@ -264,7 +264,7 @@ export function FilterPanel({
                 <div className="w-px bg-[#333] mx-1" />
                 <button
                   onClick={onIlaiyaraajaToggle}
-                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#888] hover:text-red-400"
+                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-red-400"
                 >
                   Ilaiyaraaja
                 </button>
@@ -282,7 +282,7 @@ export function FilterPanel({
             >
               {sectionMode}
             </button>
-            <span className="text-[10px] text-[#555] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={() => onSectionToggle("browse")}>
+            <span className="text-[10px] text-[#999] uppercase tracking-wider ml-1 cursor-pointer hover:text-white transition-colors" onClick={() => onSectionToggle("browse")}>
               &larr; back to all
             </span>
             {onSectionDesiChange && (
@@ -293,7 +293,7 @@ export function FilterPanel({
                   className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                     sectionDesi === "Desi"
                       ? "bg-red-600 text-white"
-                      : "bg-[#111] text-[#888] hover:text-white"
+                      : "bg-[#111] text-[#999] hover:text-white"
                   }`}
                 >
                   Desi
@@ -304,7 +304,7 @@ export function FilterPanel({
         )}
 
         {/* BPM Range — shown in all modes except Ilaiyaraaja */}
-        {!ilaiyaraajaMode && <div className="flex items-center gap-2 text-[10px] text-[#888] uppercase tracking-wider">
+        {!ilaiyaraajaMode && <div className="flex items-center gap-2 text-[10px] text-[#999] uppercase tracking-wider">
           <span>BPM</span>
           <input
             type="text"
@@ -355,7 +355,7 @@ export function FilterPanel({
               className={`px-2 py-0.5 transition-colors ${
                 filters.halfTime
                   ? "bg-red-600 text-white"
-                  : "bg-[#111] text-[#888] hover:text-white"
+                  : "bg-[#111] text-[#999] hover:text-white"
               }`}
               title="Also match double/half BPM (e.g. 70 ↔ 140)"
             >
@@ -388,7 +388,7 @@ export function FilterPanel({
         )
       ) : (
         artistCount !== undefined && (
-          <div className="text-[10px] text-[#666] uppercase tracking-wider">
+          <div className="text-[10px] text-[#999] uppercase tracking-wider">
             {artistCount} artist{artistCount !== 1 ? "s" : ""}
           </div>
         )
