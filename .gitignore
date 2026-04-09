@@ -40,6 +40,13 @@ yarn-error.log*
 browser.json
 backups/
 
+# python venv
+.venv/
+
+# radar state
+radar/state.db
+radar/state.db.wal
+
 # temp sync artifacts
 public/data/_albums_synced.json
 

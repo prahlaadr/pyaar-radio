@@ -16,6 +16,7 @@ Usage:
 """
 
 import argparse
+import csv
 import json
 import sys
 from datetime import datetime, UTC
@@ -185,6 +186,23 @@ def main():
     }
     with open(ALBUMS_DIR / "_index.json", "w", encoding="utf-8") as f:
         json.dump(index_data, f, ensure_ascii=False, indent=1)
+
+    # Generate albums.csv
+    albums_csv_path = PROJECT_DIR / "public" / "data" / "albums.csv"
+    with open(albums_csv_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["browseId", "title", "artist", "year", "trackCount"])
+        for a in index:
+            year = ""
+            album_file = ALBUMS_DIR / f"{a['browseId']}.json"
+            if album_file.exists():
+                try:
+                    with open(album_file, "r", encoding="utf-8") as af:
+                        year = json.load(af).get("year", "")
+                except (json.JSONDecodeError, KeyError):
+                    pass
+            writer.writerow([a["browseId"], a["title"], a["artist"], year, a["trackCount"]])
+    print(f"\nGenerated {albums_csv_path} ({len(index)} albums)")
 
     print(f"\n{'=' * 60}")
     print("SUMMARY")

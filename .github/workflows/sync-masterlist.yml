@@ -51,6 +51,7 @@ jobs:
         id: changes
         run: |
           git add public/data/masterlist.csv
+          if [ -f public/data/albums.csv ]; then git add public/data/albums.csv; fi
           if [ -d albums ]; then git add albums/; fi
           if [ -d public/playlists ]; then git add public/playlists/; fi
           if git diff --cached --quiet; then
