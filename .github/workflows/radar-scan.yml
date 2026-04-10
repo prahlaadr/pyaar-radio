@@ -1,0 +1,54 @@
+name: Radar Monthly Scan
+
+on:
+  schedule:
+    - cron: '0 14 1 * *'    # 1st of every month at 9 AM EST (UTC-5)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write browser auth
+        run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Seed radar state
+        run: python -m radar seed
+
+      - name: Scan for new releases
+        run: python -m radar release
+
+      - name: Check for new alerts
+        id: changes
+        run: |
+          git add public/data/radar-alerts.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "radar: monthly scan ($(date +%Y-%m-%d))"
+          git push
+
+      - name: Cleanup
+        if: always()
+        run: rm -f browser.json

@@ -42,6 +42,29 @@ bun run dev
 
 Shows new releases with Save/Skip buttons. Save adds the album to your YT Music library directly. Only works locally (needs `browser.json`).
 
+## Monthly Workflow
+
+A GitHub Action (`.github/workflows/radar-scan.yml`) runs on the **1st of every month**:
+
+1. Scans all 294 curated artists for new albums/EPs
+2. Exports new alerts to `radar-alerts.json`
+3. Commits and pushes — Vercel deploys with updated triage list
+
+Then when you're ready to triage:
+
+```bash
+bun run dev
+# open localhost:3000/radar
+# Save or Skip each album
+```
+
+Or save everything at once:
+```bash
+.venv/bin/python -m radar release --save
+```
+
+You can also trigger a scan manually from GitHub Actions → "Radar Monthly Scan" → "Run workflow".
+
 ## How It Works
 
 1. Loads 294 curated artists from `public/data/artists.csv`
@@ -51,6 +74,14 @@ Shows new releases with Save/Skip buttons. Save adds the album to your YT Music 
 5. New albums get logged as `release_alerts` and exported to `public/data/radar-alerts.json`
 6. With `--save`, new albums are also saved to YT Music library via `yt.rate_playlist()`
 7. Next daily sync picks up saved albums into `albums/` and `masterlist.csv` automatically
+
+## After Saving Albums
+
+Run album sync to immediately update `albums.csv`:
+```bash
+.venv/bin/python sync_albums.py
+```
+Or wait for the daily 3 AM sync to pick them up automatically.
 
 ## Filters
 
