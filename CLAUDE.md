@@ -2,6 +2,18 @@
 
 DJ music library and setlist tool. **GitHub is the source of truth** — no Obsidian vault needed.
 
+## README Maintenance
+
+When making changes to the Pyaar ecosystem (Radio, Radar, Crate, or Core), update the relevant README before committing:
+
+| Change to | Update |
+|-----------|--------|
+| Radio features, data, automation | `README.md` |
+| Radar CLI, release detection, triage | `radar/README.md` |
+| Crate discovery flow | `radar/README.md` (Crate section) |
+| Core hydration scripts | `~/03-music-audio/pyaar-core/README.md` |
+| Ecosystem-wide changes | `README.md` (ecosystem diagram) |
+
 **Live:** [pyaar-radio.vercel.app](https://pyaar-radio.vercel.app) | **Branch:** `main` | **Vercel:** auto-deploys on push
 
 ## Architecture Overview
