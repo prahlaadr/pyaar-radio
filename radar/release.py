@@ -53,12 +53,13 @@ def find_latest_releases(yt: YTMusic, artist_name: str) -> list[dict]:
 
         # Get latest album/EP (YT Music groups both under "albums")
         # Only consider releases from the last 2 years to skip old rereleases
+        # Note: ytmusicapi puts the year in the "type" field for album results
         current_year = datetime.now().year
         min_year = current_year - 1
         album_list = artist_data.get("albums", {}).get("results", [])
         if album_list:
             latest = album_list[0]
-            year_str = latest.get("year", "")
+            year_str = latest.get("year", "") or latest.get("type", "")
             try:
                 album_year = int(year_str) if year_str else 0
             except ValueError:

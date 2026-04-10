@@ -1,6 +1,76 @@
 {
- "updatedAt": "2026-04-09T22:46:14.283435+00:00",
+ "updatedAt": "2026-04-09T23:05:23.418326+00:00",
  "alerts": [
+  {
+   "id": 2,
+   "artist": "A$AP Rocky",
+   "title": "Don't Be Dumb",
+   "browseId": "MPREb_FutfbG1UYwM",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 3,
+   "artist": "Curren$y",
+   "title": "Roofless Records For Drop Tops: Disc 1",
+   "browseId": "MPREb_Mo79RD62YbG",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 4,
+   "artist": "Lisha G",
+   "title": "Now or Never",
+   "browseId": "MPREb_1U7dg9eH4vl",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 5,
+   "artist": "CHOR BAZAAR",
+   "title": "New Year Dance Dhamaka 2025",
+   "browseId": "MPREb_wog1PpWLXcs",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 6,
+   "artist": "RAAJA BEATS",
+   "title": "Kombuseevi",
+   "browseId": "MPREb_IFHthGVDHBg",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 7,
+   "artist": "barnacle boi",
+   "title": "INTO THE VOID (VOL. II)",
+   "browseId": "MPREb_Tsq2TPora3F",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
+  {
+   "id": 8,
+   "artist": "saie.",
+   "title": "Dude - Side B (Original Score)",
+   "browseId": "MPREb_hl0CGaB6oFI",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-04-09T18:59:25.194538"
+  },
   {
    "id": 1,
    "artist": "Kanye West",
