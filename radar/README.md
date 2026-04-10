@@ -115,3 +115,21 @@ Frontend:
 - `src/app/radar/page.tsx` — triage UI
 - `src/app/api/radar/triage/route.ts` — save/dismiss API (calls YT Music)
 - `public/data/radar-alerts.json` — exported alerts for frontend
+
+## Pyaar Crate (Discovery)
+
+The Crate is a holding zone for artists/albums you want to explore but haven't committed to yet.
+
+```bash
+python -m radar crate                                    # List entries
+python -m radar crate add "Artist" --source "NTS"        # Add to crate
+python -m radar crate add "Artist" --album "Album Title" # With album
+python -m radar crate promote "Artist"                   # Ready for artists.csv
+python -m radar crate skip "Artist"                      # Dismiss
+```
+
+Frontend at `localhost:3000/crate` — add, promote, or skip with the same UI pattern.
+
+Data lives in `public/data/crate.csv` with columns: artist, album, year, source, status, added_at, notes.
+
+**Promote** marks an artist as ready — you then manually add them to `artists.csv` with channel, samay, desi, vibes, and BPM range to fully curate them.

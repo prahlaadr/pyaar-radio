@@ -86,7 +86,7 @@ The browser cookies are extracted from a Chrome incognito session signed into th
 5. Right-click a POST request → Copy → Copy as cURL (bash)
 6. Run:
 ```bash
-cd ~/Documents/Projects/03-music-audio/pyaar-crate
+cd ~/Documents/Projects/03-music-audio/pyaar-core
 .venv/bin/python setup_browser_auth.py --from-file <(pbpaste)
 ```
 7. Copy to pyaar-radio: `cp browser.json ~/Documents/Projects/01-web-apps/pyaar-radio/`
@@ -174,9 +174,9 @@ The Action:
 5. Commits and pushes if there are changes
 6. On failure: auto-creates a GitHub Issue labeled `sync-failure` with a link to the failed run
 
-### Local runs (pyaar-crate)
+### Local runs (pyaar-core)
 
-The pyaar-crate repo at `~/Documents/Projects/03-music-audio/pyaar-crate/` has a mirrored `sync_masterlist.py` (same 3-source approach) plus hydration scripts. It can be run manually but is not needed for daily sync — GitHub Actions handles that.
+The pyaar-core repo at `~/Documents/Projects/03-music-audio/pyaar-core/` has a mirrored `sync_masterlist.py` (same 3-source approach) plus hydration scripts. It can be run manually but is not needed for daily sync — GitHub Actions handles that.
 
 ### History of sync approaches (for context)
 
@@ -245,7 +245,7 @@ python3 sync_usb.py --usb /path/to/usb      # custom USB path
 | "Add BPM/key" | Edit `Tempo` and `Key` columns in `masterlist.csv` |
 | "Sync from YT Music" | Run `python sync_liked.py --yes` in pyaar-radio, or trigger the GitHub Action |
 | "Sync playlists" | Run `python sync_playlists.py` or trigger Action with `sync_playlists=true` |
-| "Hydrate metadata" | Run hydration scripts in pyaar-crate (see below) |
+| "Hydrate metadata" | Run hydration scripts in pyaar-core (see below) |
 | "Deploy" | Just push to `main` — Vercel auto-deploys |
 | "Here's an export" / CSV of songs | **Only add tracks whose artist is already in `artists.csv`**. Match artist names (+ aliases) against the export. Ignore everything else. Set `Source` to the platform (SoundCloud, Tamil, etc.) |
 | "Add this artist and their songs" | First add to `artists.csv`, then pull matching tracks from any provided export into `masterlist.csv` |
@@ -307,10 +307,10 @@ Edited directly. Columns:
 
 ## Crate Scripts (for hydration/sync)
 
-Located in `~/Documents/Projects/03-music-audio/pyaar-crate/`:
+Located in `~/Documents/Projects/03-music-audio/pyaar-core/`:
 
 ```bash
-cd ~/Documents/Projects/03-music-audio/pyaar-crate
+cd ~/Documents/Projects/03-music-audio/pyaar-core
 .venv/bin/python sync_masterlist.py --yes      # Full sync + auto-push to deck
 .venv/bin/python sync_masterlist.py --no-push   # Sync without pushing
 .venv/bin/python sync_masterlist.py --dry        # Preview only

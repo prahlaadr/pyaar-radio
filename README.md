@@ -1,6 +1,6 @@
 # Pyaar Radio
 
-DJ setlist planning tool. Browse a curated artist/track library, filter by channel/vibes/BPM/tags, preview tracks via YouTube/SoundCloud, and build setlists with harmonic mixing indicators.
+DJ setlist planning tool + music ecosystem hub. Browse a curated artist/track library, filter by channel/vibes/BPM, preview tracks via YouTube/SoundCloud, build setlists with harmonic mixing, track new releases, and manage a discovery crate.
 
 **Stack:** Next.js 16 + React 19 + TypeScript + Tailwind CSS v4 + DuckDB WASM + YouTube IFrame API
 
@@ -8,175 +8,99 @@ DJ setlist planning tool. Browse a curated artist/track library, filter by chann
 
 ---
 
-## Features
+## The Pyaar Music Ecosystem
 
-### Browse & Filter
-- Curated artists with channel/samay/vibe metadata
-- Filter by channel (Rave/Rap/Soul), samay (Day/Night), desi, vibes (20 tags), BPM range
-- **Tag filters** pull from all masterlist tracks (YT Music playlist tags)
-- **Fuzzy search** across artists and tracks (fuse.js)
+```
+Pyaar Crate (discover)         Pyaar Core (enrich)
+  /crate — artists to explore    ~/03-music-audio/pyaar-core/
+  crate.csv — candidates         hydrate_bpm.py, hydrate_spotify.py
+        │                               │
+        │  promote                      │  BPM, key, genres, popularity
+        ▼                               ▼
+┌─────────────────────────────────────────────────┐
+│              Pyaar Radio (this repo)             │
+│                                                  │
+│  artists.csv (294 curated)                       │
+│  masterlist.csv (73K+ tracks)                    │
+│  albums/ (3,075 albums as JSON + albums.csv)     │
+│  playlists/ (239 playlists as JSON)              │
+│                                                  │
+│  Daily sync: GitHub Actions at 3 AM EST          │
+│  └─ sync_liked.py → sync_albums.py →            │
+│     sync_playlists.py → commit + push            │
+│                                                  │
+│  Pyaar Radar (track releases)                    │
+│  /radar — new releases from curated artists      │
+│  Monthly scan: 1st of each month via Actions     │
+└─────────────────────────────────────────────────┘
+        │
+        │  Vercel auto-deploys
+        ▼
+  pyaar-radio.vercel.app — the DJ tool
+```
 
-### Radio Mode
-- Shuffle play from filtered artists
-- **BPM-aware**: next track within ±10/20/30 BPM of current
-- **Key-compatible**: prefers Camelot-harmonic transitions
-- **Tag radio**: when tags are active, draws from full masterlist
-- Recently played tracking (avoids repeats)
-
-### YouTube Preview
-- Play any track via YouTube IFrame API
-- Auto-search for tracks without Video ID (innertube API, no key needed)
-- SoundCloud tracks supported via Soundcloud ID column
-- Volume control with localStorage persistence
-- Quick-add to setlist from player bar
-
-### Setlist Builder
-- **Drag-and-drop reorder** (dnd-kit), import from CSV/text, export to CSV
-- **Transition preview**: BPM delta + Camelot key compatibility between adjacent tracks
-- BPM range/average in header, currently playing track highlighted
-- Multiple named setlists with localStorage persistence
-- **Keyboard shortcuts** (hotkeys-js): space to play/pause, n for next, escape to close
-
-### Mobile
-- Responsive layout with collapsible filters and bottom-sheet setlist
-- **Tap to play** / **double-tap to add** to setlist
-- **Swipe right** to add, **swipe left** to play preview
+| Project | Location | What | Page |
+|---------|----------|------|------|
+| **Pyaar Radio** | This repo | DJ tool — browse, mix, play, share | `/` |
+| **Pyaar Radar** | `radar/` in this repo | Release tracking + triage | `/radar` |
+| **Pyaar Crate** | `crate.csv` + `/crate` page | Discovery holding zone | `/crate` |
+| **Pyaar Core** | `~/03-music-audio/pyaar-core/` | Hydration scripts (BPM, genres) | CLI only |
 
 ---
 
-## Architecture
+## Features
 
-### Data Pipeline
+### Radio (`/`)
+- 294 curated artists with channel/samay/vibe metadata
+- Filter by channel (Rave/Rap/Soul), samay (Day/Night), desi, vibes (20 tags), BPM range
+- Radio mode: BPM-aware, key-compatible shuffle play
+- YouTube + SoundCloud preview with volume persistence
+- Setlist builder: drag-and-drop, Camelot key transitions, import/export CSV
+- Tamil, Downtempo, Ambient sections with dedicated accent colors
+- Pyaar.TV: channel surfer with 85 YouTube channels
+- Mobile: swipe to add/play, collapsible filters, responsive layout
 
-```
-YouTube Music (Pyaar Radio account, @PyaarRadio)
-  │
-  ├─ Liked Music (9,370+ songs)
-  ├─ Saved Albums (500+ albums)
-  ├─ Monthly Playlists (53 playlists, e.g. "Feb 26", "Mirch 26")
-  │     │
-  │     ▼
-  │   sync_liked.py ──▶ public/data/masterlist.csv (29K+ tracks)
-  │     │                  Append-only, dedup by Video ID
-  │     │                  Combines liked + albums + monthly playlists
-  │     │
-  │     ├─ Runs daily at 3 AM EST via GitHub Actions
-  │     └─ Also runs locally via macOS LaunchAgent (backup)
-  │
-  └─ 244 Playlists (all playlists)
-        │
-        ▼
-      sync_playlists.py ──▶ playlists/*.json (full snapshot)
-        │                      Separate from masterlist, for analytics/search
-        └─ Manual trigger via GitHub Actions (workflow_dispatch)
+### Radar (`/radar`)
+- Monthly scan of all 294 curated artists for new albums/EPs
+- DuckDB state tracks 3,075 known albums — only truly new releases alert
+- Triage UI: Save (adds to YT Music library) or Skip
+- Filters: albums/EPs only (no singles), last 2 years only (no old rereleases)
+- CLI: `python -m radar release`, `python -m radar release --save`
+- See `radar/README.md` for full docs
 
-masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
-               ◀── hydrate_spotify.py (genres/popularity/dates)
-               ◀── manual edits (Tags, SoundCloud IDs)
-
-artists.csv ── manually curated (273 artists, gatekeeper for imports)
-```
-
-### Source of Truth
-
-| Data | File | Updated by |
-|------|------|------------|
-| Tracks (29K+) | `public/data/masterlist.csv` | Auto-synced from YT Music daily via `sync_liked.py` |
-| Artists (curated) | `public/data/artists.csv` | Edit directly in this repo |
-| Playlists (244) | `playlists/*.json` | Manual trigger via `sync_playlists.py` |
-| Setlists | `public/data/setlists.json` | Edit directly in this repo |
-
-**GitHub is the source of truth.** No Obsidian vault or intermediate build step needed.
-
-### What goes in the masterlist
-
-The masterlist is composed of three YT Music sources, merged and deduped by Video ID:
-1. **Liked songs** — everything in the "Liked Music" library
-2. **Saved albums** — all albums saved/liked in the library
-3. **Monthly playlists** — personal playlists named by month+year (e.g. "Feb 26", "Mirch 26", "Jooli '25", "Dec 25")
-
-### What does NOT go in the masterlist
-
-All other playlists (e.g. "shroomy (goated)", "Four Tet's Crate", genre playlists) live only in `playlists/*.json`. They are synced separately and never merged into the masterlist.
-
-### Playlist Sync
-
-All 244 YT Music playlists (including monthly ones) are saved as individual JSON files for analytics and search:
-
-```
-playlists/
-  _index.json              # Metadata: playlist names, track counts, sync time
-  PL6LTKg9AoNs2lITk....json  # Each playlist's full track list
-  ...
-```
-
-Each playlist JSON contains:
-```json
-{
-  "playlistId": "PL6LTKg9...",
-  "title": "shroomy (goated)",
-  "trackCount": 496,
-  "syncedAt": "2026-03-08T...",
-  "tracks": [
-    {"title": "...", "artist": "...", "album": "...", "videoId": "...", "duration": "..."}
-  ]
-}
-```
-
-### YouTube Music Sync
-
-Both sync scripts use **ytmusicapi** with **browser cookie authentication** (not OAuth — Google killed OAuth for YT Music's InnerTube API in late 2024).
-
-The browser cookies are extracted from a Chrome incognito session signed into the **Pyaar Radio** brand account (not the personal `@prah1aadr` account). Cookies last ~2 years.
-
-#### Auth files
-
-| File | Location | Purpose |
-|------|----------|---------|
-| `browser.json` | repo root (gitignored) | Browser cookies for local runs |
-| `YTMUSIC_BROWSER_AUTH` | GitHub Secret | Same cookies for CI runs |
-
-#### GitHub Actions
-
-**Workflow:** `.github/workflows/sync-masterlist.yml`
-
-| Trigger | What runs |
-|---------|-----------|
-| Daily cron (3 AM EST) | Masterlist sync + all playlists to JSON |
-| Manual dispatch | Same as above |
-
-### Adding New Content
-
-**New tracks (YouTube):**
-- Like songs, save albums, or add to monthly playlists in YT Music
-- `sync_liked.py` picks them up on the next daily run
-- Masterlist auto-pushes to this repo, Vercel auto-deploys
-
-**New tracks (SoundCloud):**
-- Add a row to `masterlist.csv` with the `Soundcloud ID` column filled in
-
-**New artists:**
-- Add a row to `public/data/artists.csv` with columns: name, channel, samay, desi, vibes, BPM range, aliases
-- Commit and push — Vercel auto-deploys
+### Crate (`/crate`)
+- Discovery holding zone for artists/albums you want to explore
+- Add via UI or CLI: `python -m radar crate add "Artist" --source "NTS"`
+- Promote (ready for artists.csv) or Skip
+- Feeds from: SoundCloud finds, NTS sets, friend recommendations, Radar discovery (future)
 
 ---
 
 ## Data
 
-### masterlist.csv (29K+ tracks)
+| File | Count | Updated by |
+|------|-------|------------|
+| `public/data/masterlist.csv` | 73K+ tracks | Daily sync from YT Music |
+| `public/data/artists.csv` | 294 curated artists | Manual edit |
+| `public/data/albums.csv` | 3,075 albums | Generated by `sync_albums.py` |
+| `albums/_index.json` + `*.json` | 3,075 album JSONs | Daily sync |
+| `public/playlists/_index.json` + `*.json` | 239 playlists | Daily sync |
+| `public/data/crate.csv` | Discovery candidates | Manual / CLI / UI |
+| `public/data/radar-alerts.json` | Release alerts | `python -m radar release` |
+| `radar/state.db` | Radar DuckDB state | Radar CLI (gitignored) |
 
-Auto-synced from YT Music daily at 3AM (liked songs + saved albums + monthly playlists).
+### masterlist.csv columns
 
-| Column | Auto-synced | Safe to edit |
-|--------|-------------|--------------|
-| Track Name, Artist Name(s), Album Name | Yes | No (overwritten) |
-| Liked, Playlist 1-5, Playlist Count, Video ID | Yes | No (overwritten) |
-| Genres, Tempo, Key, Popularity, Release Date, Instrumentalness | No | Yes |
-| Tags | No | Yes (pipe-separated) |
-| Soundcloud ID | No | Yes |
-| Source | No | Yes (`YT Music`, `SoundCloud`, `Tamil`) |
+| Column | Source | Safe to edit |
+|--------|--------|:---:|
+| Track Name, Artist Name(s), Album Name | YT Music | No |
+| Liked, Playlist 1-5, Playlist Count, Video ID | YT Music | No |
+| Genres, Popularity, Release Date, Instrumentalness | Spotify hydration | Yes |
+| Tempo, Key | Audio analysis (essentia) | Yes |
+| Tags | YT Music playlists | Yes |
+| Soundcloud ID, Source | Manual | Yes |
 
-### artists.csv (273 curated artists)
+### artists.csv columns
 
 | Column | Format | Example |
 |--------|--------|---------|
@@ -188,53 +112,30 @@ Auto-synced from YT Music daily at 3AM (liked songs + saved albums + monthly pla
 | vibes | pipe-separated | `Bass\|Psych\|Future Beats` |
 | bpm_low, bpm_high | number | `80`, `170` |
 
-### Taxonomy
-
-| Dimension | Values |
-|-----------|--------|
-| Channels | Rave, Rap, Soul |
-| Samay | Day, Night, Day/Night |
-| Desi | Desi, Non-Desi |
-| Vibes (20) | Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Dub, Club, Garage, Future Beats, Electronica, Ambient, Trap, Boom Bap, Pop |
-
-DuckDB WASM queries both CSVs in the browser. No server-side database.
-
 ---
 
-## File Structure
+## Automation
 
-```
-src/
-├── app/
-│   ├── page.tsx              # Main page, all state
-│   ├── layout.tsx            # Root layout
-│   ├── globals.css           # Tailwind + CSS vars
-│   ├── login/page.tsx        # Password login
-│   └── api/
-│       ├── login/route.ts    # Auth API
-│       ├── search-yt/route.ts # YouTube search proxy
-│       └── search-sc/route.ts # SoundCloud search proxy
-├── components/
-│   ├── filter-panel.tsx      # Channel/samay/vibe/tag/BPM filters
-│   ├── artist-list.tsx       # Scrollable artist list (virtualized)
-│   ├── track-list.tsx        # Track table with key compatibility
-│   ├── setlist.tsx           # Setlist sidebar with transitions
-│   ├── setlist-picker.tsx    # Setlist name/switch UI
-│   ├── youtube-player.tsx    # Fixed bottom player bar
-│   └── import-modal.tsx      # Import setlist from text/CSV
-├── lib/
-│   ├── duckdb.ts             # DuckDB WASM init + query helper
-│   ├── queries.ts            # SQL query builders
-│   ├── camelot.ts            # Camelot key system utilities
-│   └── types.ts              # TypeScript interfaces
-└── middleware.ts             # Cookie-based auth
+### Daily (GitHub Actions — 3 AM EST)
 
-sync_liked.py                 # Daily sync: liked + albums + monthly → masterlist
-sync_playlists.py             # Manual sync: all playlists → playlists/*.json
-playlists/                    # Playlist JSON snapshots (gitignored from masterlist)
-public/data/masterlist.csv    # 29K+ tracks
-public/data/artists.csv       # 273 curated artists
-```
+`.github/workflows/sync-masterlist.yml`
+
+1. Sync masterlist (liked + monthly playlists + library albums)
+2. Sync albums to JSON + generate `albums.csv`
+3. Sync all playlists to JSON
+4. Commit + push → Vercel auto-deploys
+
+### Monthly (GitHub Actions — 1st of month, 9 AM EST)
+
+`.github/workflows/radar-scan.yml`
+
+1. Scan all curated artists for new releases
+2. Export triage list to `radar-alerts.json`
+3. Commit + push → triage at `/radar`
+
+### Auth
+
+Both workflows use YT Music browser cookies stored as `YTMUSIC_BROWSER_AUTH` GitHub Secret. Cookies last ~2 years. See `CLAUDE.md` for refresh steps.
 
 ---
 
@@ -242,28 +143,71 @@ public/data/artists.csv       # 273 curated artists
 
 ```bash
 bun install
-bun run dev          # Start dev server
-bun run build        # Production build
+bun run dev          # localhost:3000
+
+# Python (for radar + sync scripts)
+uv venv && uv pip install duckdb ytmusicapi
 ```
 
-**Runtime:** Bun (not npm)
+### Radar CLI
 
-**Deploy:** Auto-deploys on push to `main` via Vercel.
+```bash
+.venv/bin/python -m radar seed              # Seed known albums
+.venv/bin/python -m radar release           # Scan for new releases
+.venv/bin/python -m radar release --save    # Scan + save to YT Music
+.venv/bin/python -m radar report            # View alert history
+.venv/bin/python -m radar crate             # List crate entries
+.venv/bin/python -m radar crate add "Artist" --source "NTS"
+.venv/bin/python -m radar query "SELECT ..."
+```
 
 ### Manual sync
 
 ```bash
-# In pyaar-radio repo:
-python sync_liked.py --yes          # Sync liked + albums + monthly, auto-confirm + push
-python sync_liked.py --dry          # Preview only
-python sync_liked.py --yes --no-push # Sync without git push (CI mode)
-
-python sync_playlists.py            # Sync all 244 playlists to JSON
-python sync_playlists.py --dry      # Preview only
-
-# In pyaar-crate repo (for hydration):
-cd ~/Documents/Projects/03-music-audio/pyaar-crate
-.venv/bin/python hydrate_bpm.py --vault-only     # BPM+Key via essentia
-.venv/bin/python hydrate_spotify.py              # Genres/popularity/dates
-.venv/bin/python sync_masterlist.py --yes        # Push hydrated data back
+python sync_liked.py --yes          # Sync masterlist
+python sync_albums.py               # Sync albums + generate albums.csv
+python sync_playlists.py            # Sync playlists
 ```
+
+### Hydration (via Pyaar Core)
+
+```bash
+cd ~/Documents/Projects/03-music-audio/pyaar-core
+.venv/bin/python hydrate_bpm.py --vault-only     # BPM + key
+.venv/bin/python hydrate_spotify.py              # Genres + popularity
+```
+
+---
+
+## File Structure
+
+```
+pyaar-radio/
+├── src/app/
+│   ├── page.tsx              # Main Radio page
+│   ├── radar/page.tsx        # Radar triage page
+│   ├── crate/page.tsx        # Crate discovery page
+│   ├── tv/                   # Pyaar.TV
+│   └── api/
+│       ├── radar/triage/     # Save/dismiss radar alerts
+│       ├── crate/            # Add/promote/skip crate entries
+│       ├── search-yt/        # YouTube search proxy
+│       └── search-sc/        # SoundCloud search proxy
+├── src/components/           # UI components
+├── src/lib/                  # DuckDB, queries, types, camelot
+├── radar/                    # Pyaar Radar module (Python)
+│   ├── __main__.py           # CLI entrypoint
+│   ├── db.py                 # DuckDB schema + seed
+│   ├── release.py            # Release detection
+│   ├── crate.py              # Crate management
+│   └── state.db              # DuckDB state (gitignored)
+├── public/data/              # CSVs + JSON data
+├── albums/                   # Album JSONs (3,075)
+├── playlists/                # Playlist JSONs (239, gitignored from masterlist)
+├── sync_liked.py             # Daily masterlist sync
+├── sync_albums.py            # Daily album sync + albums.csv
+├── sync_playlists.py         # Daily playlist sync
+└── .github/workflows/        # Daily sync + monthly radar
+```
+
+**Runtime:** Bun | **Deploy:** Vercel (auto on push to `main`) | **Python:** uv venv
