@@ -7,6 +7,10 @@ Usage:
     python -m radar release --artist "Flying Lotus"
     python -m radar report                        # Show release_alerts log
     python -m radar query "SELECT ..."            # Ad-hoc DuckDB query
+    python -m radar crate                         # List crate entries
+    python -m radar crate add "Artist" --album "Album" --source "NTS"
+    python -m radar crate promote "Artist"        # Mark as promoted (ready for artists.csv)
+    python -m radar crate skip "Artist"           # Dismiss from crate
 """
 
 import argparse
@@ -109,6 +113,19 @@ def cmd_query(args):
     db.close()
 
 
+def cmd_crate(args):
+    from .crate import add_to_crate, update_status, list_crate
+
+    if args.crate_action == "add":
+        add_to_crate(args.artist, album=args.album or "", year=args.year or "", source=args.source or "", notes=args.notes or "")
+    elif args.crate_action == "promote":
+        update_status(args.artist, "promoted")
+    elif args.crate_action == "skip":
+        update_status(args.artist, "skipped")
+    else:
+        list_crate(args.status)
+
+
 def main():
     parser = argparse.ArgumentParser(prog="radar", description="Pyaar Radar — release tracking + discovery")
     sub = parser.add_subparsers(dest="command")
@@ -124,6 +141,24 @@ def main():
     query_p = sub.add_parser("query", help="Run ad-hoc DuckDB query")
     query_p.add_argument("sql", type=str, help="SQL query to execute")
 
+    crate_p = sub.add_parser("crate", help="Manage discovery crate")
+    crate_sub = crate_p.add_subparsers(dest="crate_action")
+
+    crate_add = crate_sub.add_parser("add", help="Add artist/album to crate")
+    crate_add.add_argument("artist", type=str)
+    crate_add.add_argument("--album", type=str)
+    crate_add.add_argument("--year", type=str)
+    crate_add.add_argument("--source", type=str, help="Where you found them (NTS, Bandcamp, friend, etc.)")
+    crate_add.add_argument("--notes", type=str)
+
+    crate_promote = crate_sub.add_parser("promote", help="Mark artist as promoted (ready for artists.csv)")
+    crate_promote.add_argument("artist", type=str)
+
+    crate_skip = crate_sub.add_parser("skip", help="Dismiss from crate")
+    crate_skip.add_argument("artist", type=str)
+
+    crate_p.add_argument("--status", type=str, help="Filter by status (new/promoted/skipped)")
+
     args = parser.parse_args()
 
     if args.command == "seed":
@@ -134,6 +169,8 @@ def main():
         cmd_report(args)
     elif args.command == "query":
         cmd_query(args)
+    elif args.command == "crate":
+        cmd_crate(args)
     else:
         parser.print_help()
 
