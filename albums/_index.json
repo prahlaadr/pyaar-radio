@@ -1,9 +1,69 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3067,
- "totalTracks": 39474,
- "syncedAt": "2026-04-10T09:11:13.959307Z",
+ "albumCount": 3076,
+ "totalTracks": 39594,
+ "syncedAt": "2026-04-11T08:44:00.411090Z",
  "albums": [
+  {
+   "browseId": "MPREb_S7qvwrInVTz",
+   "title": "in this body",
+   "artist": "Sparklmami",
+   "trackCount": 0
+  },
+  {
+   "browseId": "MPREb_nQPMbu8Rt2s",
+   "title": "Papaholic, Vol. 1",
+   "artist": "Papo2oo4",
+   "trackCount": 24
+  },
+  {
+   "browseId": "MPREb_hl0CGaB6oFI",
+   "title": "Dude - Side B (Original Score)",
+   "artist": "Sai Abhyankkar",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_Tsq2TPora3F",
+   "title": "INTO THE VOID (VOL. II)",
+   "artist": "barnacle boi",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_IFHthGVDHBg",
+   "title": "Kombuseevi",
+   "artist": "Yuvan Shankar Raja",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_wog1PpWLXcs",
+   "title": "New Year Dance Dhamaka 2025",
+   "artist": "Pritam",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_1U7dg9eH4vl",
+   "title": "Now or Never",
+   "artist": "Lisha G",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_Mo79RD62YbG",
+   "title": "Roofless Records For Drop Tops: Disc 1",
+   "artist": "Wiz Khalifa",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_FutfbG1UYwM",
+   "title": "Don't Be Dumb",
+   "artist": "A$AP Rocky",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_iel66TzwHpy",
+   "title": "BULLY",
+   "artist": "Ye",
+   "trackCount": 2
+  },
   {
    "browseId": "MPREb_dmYzatecuTz",
    "title": "De Keke!",
@@ -7161,12 +7221,6 @@
    "title": "Absolutely",
    "artist": "Dijon",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_4bYVl3WMPTL",
-   "title": "Bones",
-   "artist": "Michael Mayo",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_h5b5MrUTd6P",

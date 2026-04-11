@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 7,
- "syncedAt": "2026-04-10T09:11:15.644901Z",
+ "trackCount": 13,
+ "syncedAt": "2026-04-11T08:44:04.822163Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -52,6 +52,48 @@
    "album": "Sundial",
    "videoId": "y2_4zNAT_R8",
    "duration": "2:59"
+  },
+  {
+   "title": "no te vayas",
+   "artist": "Sparklmami",
+   "album": "no te vayas",
+   "videoId": "xBF4oEt2A04",
+   "duration": "3:15"
+  },
+  {
+   "title": "4tspoon (feat. Playboi Carti)",
+   "artist": "Yung Bans",
+   "album": "4tspoon",
+   "videoId": "HW_fKjtORJ0",
+   "duration": "2:54"
+  },
+  {
+   "title": "Dracula (JENNIE Remix)",
+   "artist": "Tame Impala;JENNIE",
+   "album": "Dracula (Remix)",
+   "videoId": "6KjVYeQ9SRw",
+   "duration": "3:30"
+  },
+  {
+   "title": "Meet The Frownies",
+   "artist": "DJ Lycox",
+   "album": "Na Casa (Edits)",
+   "videoId": "cKXurkagyF4",
+   "duration": "3:03"
+  },
+  {
+   "title": "Gas Me Up (Diligent)",
+   "artist": "Skepta",
+   "album": "Gas Me Up (Diligent)",
+   "videoId": "GNxxXX5kXpg",
+   "duration": "2:52"
+  },
+  {
+   "title": "Come Around (feat. Timbaland)",
+   "artist": "M.I.A.",
+   "album": "Kala",
+   "videoId": "BCv3N8IEgGQ",
+   "duration": "3:55"
   }
  ]
 }
