@@ -1,18 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 239,
- "totalTracks": 99792,
- "syncedAt": "2026-04-11T08:44:04.822163Z",
+ "totalTracks": 99791,
+ "syncedAt": "2026-04-12T08:50:15.866182Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1313
+  },
   {
    "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
    "title": "April 26",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1312
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -172,7 +172,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2YPrW7bjZIzMEe9jnTzkTx",
    "title": "DJ prahloud (boots cats) (real estate investment) (goated)",
-   "trackCount": 1037
+   "trackCount": 1036
   },
   {
    "playlistId": "PL6LTKg9AoNs0yFhpOhVaXQcVTsFlqCKVF",
@@ -607,7 +607,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
    "title": "brando's (speakeasy tunes) (goated)",
-   "trackCount": 2446
+   "trackCount": 2445
   },
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",

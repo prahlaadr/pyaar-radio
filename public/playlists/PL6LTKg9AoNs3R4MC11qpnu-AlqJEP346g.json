@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1312,
- "syncedAt": "2026-04-11T08:44:04.822163Z",
+ "trackCount": 1313,
+ "syncedAt": "2026-04-12T08:50:15.866182Z",
  "tracks": [
+  {
+   "title": "Psycho Killer",
+   "artist": "Talking Heads",
+   "album": "Talking Heads '77",
+   "videoId": "NyaOYfpq9Fc",
+   "duration": "4:21"
+  },
   {
    "title": "Head Over Heels",
    "artist": "Japanese Breakfast",
