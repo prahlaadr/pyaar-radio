@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { Track } from "@/lib/types";
 
@@ -26,13 +26,18 @@ const accentClasses = {
 export function SectionTrackList({ tracks, label, search, onSearchChange, accentColor, nowPlaying, onPlay, onAddToSetlist, emptyMessage, showGenre, onArtistClick }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const accent = accentClasses[accentColor];
+  const [largeFont, setLargeFont] = useState(false);
 
   const virtualizer = useVirtualizer({
     count: tracks.length,
     getScrollElement: () => scrollRef.current,
-    estimateSize: () => 48,
+    estimateSize: () => largeFont ? 64 : 48,
     overscan: 15,
   });
+
+  useEffect(() => {
+    virtualizer.measure();
+  }, [largeFont, virtualizer]);
 
   return (
     <div className="flex-1 overflow-hidden flex flex-col">
@@ -46,6 +51,15 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
           placeholder="FILTER..."
           className="bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#999] focus:outline-none focus:border-red-500 w-40 sm:w-52 transition-colors"
         />
+        <button
+          onClick={() => setLargeFont((v) => !v)}
+          className={`ml-auto text-[10px] uppercase tracking-wider px-2 py-1 border transition-colors ${
+            largeFont ? "border-white/30 text-white" : "border-[#333] text-[#666] hover:text-[#999]"
+          }`}
+          title={largeFont ? "Switch to small font" : "Switch to large font"}
+        >
+          {largeFont ? "Aa" : "Aa"}
+        </button>
       </div>
       {tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center py-20">
@@ -63,25 +77,25 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                   data-index={vRow.index}
                   ref={virtualizer.measureElement}
                   style={{ position: "absolute", top: 0, left: 0, width: "100%", transform: `translateY(${vRow.start}px)` }}
-                  className={`px-3 md:px-5 py-2 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
+                  className={`px-3 md:px-5 ${largeFont ? "py-3" : "py-2"} border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
                     isPlaying ? accent.bg : ""
                   }`}
                   onDoubleClick={() => onAddToSetlist(track)}
                 >
                   <button
                     onClick={() => onPlay(track)}
-                    className={`text-[#999] transition-colors text-[10px] ${accent.hoverText}`}
+                    className={`text-[#999] transition-colors ${largeFont ? "text-sm" : "text-[10px]"} ${accent.hoverText}`}
                     title="Play"
                   >
                     &#9654;
                   </button>
                   <div className="flex-1 min-w-0">
-                    <div className={`text-xs truncate transition-colors ${
+                    <div className={`${largeFont ? "text-base" : "text-xs"} truncate transition-colors ${
                       isPlaying ? accent.text : "text-[#ccc] group-hover:text-white"
                     }`}>
                       {track.trackName}
                     </div>
-                    <div className="text-[10px] text-[#999] truncate">
+                    <div className={`${largeFont ? "text-sm" : "text-[10px]"} text-[#999] truncate`}>
                       {onArtistClick ? (
                         <button
                           onClick={(e) => { e.stopPropagation(); onArtistClick(track.artistNames.split(";")[0].trim()); }}
@@ -96,16 +110,16 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                     </div>
                   </div>
                   {showGenre && track.genres && track.genres.length > 0 && (
-                    <span className="text-[10px] text-[#888] hidden sm:inline truncate max-w-24">
+                    <span className={`${largeFont ? "text-xs" : "text-[10px]"} text-[#888] hidden sm:inline truncate max-w-24`}>
                       {track.genres[0]}
                     </span>
                   )}
-                  <span className="text-[10px] text-[#999] tabular-nums font-mono">
+                  <span className={`${largeFont ? "text-xs" : "text-[10px]"} text-[#999] tabular-nums font-mono`}>
                     {track.tempo > 0 ? Math.round(track.tempo) : "—"}
                   </span>
                   <button
                     onClick={() => onAddToSetlist(track)}
-                    className={`text-[#888] transition-colors text-sm font-bold ${accent.hoverBtn}`}
+                    className={`text-[#888] transition-colors ${largeFont ? "text-base" : "text-sm"} font-bold ${accent.hoverBtn}`}
                     title="Add to setlist"
                   >
                     +

@@ -1065,6 +1065,11 @@ export default function Home() {
       }
     };
 
+    if (ilaiyaraajaMode) {
+      pickBpmScored(ilaiyaraajaTracks);
+      return;
+    }
+
     if (tamilMode) {
       pickBpmScored(tamilTracks);
       return;
@@ -1102,7 +1107,7 @@ export default function Home() {
       const rows = await query<TrackRow>(sql);
       if (rows.length > 0) setNowPlaying(rowToTrack(rows[0]));
     } catch {}
-  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, tamilMode, tamilTracks, sectionMode, sectionTracks, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
+  }, [artists, nowPlaying, recentExcludeKeys, rowToTrack, ilaiyaraajaMode, ilaiyaraajaTracks, tamilMode, tamilTracks, sectionMode, sectionTracks, browseView, filteredTracks, selectedArtist, artistFilteredTracks, tracks]);
 
   // Autoplay from URL param (?autoplay=1) — one-shot on first load
   useEffect(() => {
