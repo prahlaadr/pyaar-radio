@@ -1910,6 +1910,7 @@ export default function Home() {
               filters={filters}
               onChange={setFilters}
               artistCount={artists.length}
+              hidden={!!selectedArtist}
               tamilMode={tamilMode}
               onTamilToggle={() => { setTamilMode((v) => !v); setIlaiyaraajaMode(false); setSectionMode("browse"); }}
               tamilSearch={tamilSearch}

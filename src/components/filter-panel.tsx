@@ -39,6 +39,7 @@ interface Props {
   ilaiyaraajaSearch?: string;
   onIlaiyaraajaSearchChange?: (search: string) => void;
   ilaiyaraajaTrackCount?: number;
+  hidden?: boolean;
 }
 
 const SECTION_STYLES: Record<string, { hover: string; active: string; text: string; border: string }> = {
@@ -62,6 +63,7 @@ export function FilterPanel({
   ilaiyaraajaMode, onIlaiyaraajaToggle, onBackToTamil,
   ilaiyaraajaSearch, onIlaiyaraajaSearchChange,
   ilaiyaraajaTrackCount,
+  hidden,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
 
@@ -91,8 +93,8 @@ export function FilterPanel({
     (filters.bpmMin > 0 ? 1 : 0) +
     (filters.bpmMax < 300 ? 1 : 0);
 
-  // TV mode hides the filter panel entirely — TV has its own inline UI
-  if (sectionMode === "tv") return null;
+  // TV mode and artist detail hide the filter panel entirely
+  if (sectionMode === "tv" || hidden) return null;
 
   return (
     <div className="px-5 py-3 border-b border-[#222] space-y-3">
@@ -210,9 +212,26 @@ export function FilterPanel({
               )}
             </div>
 
-            {/* Vibes */}
+            {/* Vibes — mood */}
             <div className="flex gap-1 flex-wrap">
-              {VIBES.map((v) => (
+              {(["Groove", "Soulful", "Rowdy", "Nodders", "Dark", "Percussive"] as const).map((v) => (
+                <button
+                  key={v}
+                  onClick={() => toggle("vibes", v)}
+                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                    filters.vibes.includes(v)
+                      ? "bg-red-600 text-white"
+                      : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
+                  }`}
+                >
+                  {v}
+                </button>
+              ))}
+            </div>
+
+            {/* Vibes — genre */}
+            <div className="flex gap-1 flex-wrap">
+              {(["Rave", "Bass", "Dubstep", "DnB", "Dub", "Club", "Garage", "Future Beats", "Electronica", "Ambient", "Trap", "Boom Bap", "Pop"] as const).map((v) => (
                 <button
                   key={v}
                   onClick={() => toggle("vibes", v)}
