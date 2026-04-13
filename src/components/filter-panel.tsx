@@ -368,21 +368,19 @@ export function FilterPanel({
       {/* Count — always visible */}
       {ilaiyaraajaMode ? (
         ilaiyaraajaTrackCount !== undefined && (
-          <div className="text-[10px] text-red-600/70 uppercase tracking-wider">
+          <div className="text-[10px] text-[#999] uppercase tracking-wider">
             {ilaiyaraajaTrackCount} track{ilaiyaraajaTrackCount !== 1 ? "s" : ""}
           </div>
         )
       ) : tamilMode ? (
         tamilTrackCount !== undefined && (
-          <div className="text-[10px] text-amber-600/70 uppercase tracking-wider">
+          <div className="text-[10px] text-[#999] uppercase tracking-wider">
             {tamilTrackCount} track{tamilTrackCount !== 1 ? "s" : ""}
           </div>
         )
       ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
         sectionTrackCount !== undefined && (
-          <div className={`text-[10px] uppercase tracking-wider ${
-            sectionMode === "downtempo" ? "text-cyan-600/70" : "text-purple-600/70"
-          }`}>
+          <div className="text-[10px] text-[#999] uppercase tracking-wider">
             {sectionTrackCount} track{sectionTrackCount !== 1 ? "s" : ""}
           </div>
         )

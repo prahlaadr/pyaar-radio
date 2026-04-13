@@ -32,7 +32,13 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
   const shuffleDiscover = useCallback(() => {
     if (tracks.length === 0) return;
     const shuffled = [...tracks].sort(() => Math.random() - 0.5);
-    setDiscoverTracks(shuffled.slice(0, Math.min(5, shuffled.length)));
+    const seen = new Set<string>();
+    const picks: Track[] = [];
+    for (const t of shuffled) {
+      if (picks.length >= 5) break;
+      if (!seen.has(t.trackName)) { seen.add(t.trackName); picks.push(t); }
+    }
+    setDiscoverTracks(picks);
   }, [tracks]);
 
   useEffect(() => {
@@ -74,7 +80,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
       </div>
       {/* Discover — 5 random tracks */}
       {discoverTracks.length > 0 && (
-        <div className="border-b border-[#222]">
+        <div className="border-b border-[#222] bg-[#060607]">
           <div className="px-3 md:px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
             <span className="text-[10px] text-[#999] uppercase tracking-wider">
               Discover
@@ -92,13 +98,13 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
             return (
               <div
                 key={`discover-${track.trackName}-${idx}`}
-                className={`px-3 md:px-5 py-3 border-b border-[#151515] transition-colors group flex items-center gap-2 md:gap-3 ${
+                className={`px-3 md:px-5 ${largeFont ? "py-3" : "py-2"} border-b border-[#151515] transition-colors group flex items-center gap-2 md:gap-3 ${
                   isPlaying ? accent.bg : "hover:bg-[#111]"
                 }`}
               >
                 <button
                   onClick={() => onPlay(track)}
-                  className={`text-[#999] transition-colors text-[10px] ${accent.hoverText}`}
+                  className={`text-[#999] transition-colors ${largeFont ? "text-sm" : "text-[10px]"} min-w-[36px] min-h-[36px] flex items-center justify-center shrink-0 ${accent.hoverText}`}
                   title="Play"
                 >
                   &#9654;
@@ -107,18 +113,18 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                   onClick={() => onPlay(track)}
                   className="flex-1 text-left min-w-0"
                 >
-                  <div className={`text-xs truncate transition-colors ${
+                  <div className={`${largeFont ? "text-base" : "text-xs"} truncate transition-colors ${
                     isPlaying ? accent.text : "text-[#ccc] group-hover:text-white"
                   }`}>
                     {track.trackName}
                   </div>
-                  <div className="text-[10px] text-[#999] truncate">
+                  <div className={`${largeFont ? "text-sm" : "text-[10px]"} text-[#999] truncate`}>
                     {track.albumName}
                   </div>
                 </button>
                 <button
                   onClick={() => onAddToSetlist(track)}
-                  className={`text-[#888] transition-colors text-sm font-bold ${accent.hoverBtn}`}
+                  className={`text-[#888] transition-colors ${largeFont ? "text-base" : "text-sm"} font-bold min-w-[36px] min-h-[36px] flex items-center justify-center shrink-0 ${accent.hoverBtn}`}
                   title="Add to setlist"
                 >
                   +
@@ -152,7 +158,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                 >
                   <button
                     onClick={() => onPlay(track)}
-                    className={`text-[#999] transition-colors ${largeFont ? "text-sm" : "text-[10px]"} ${accent.hoverText}`}
+                    className={`text-[#999] transition-colors ${largeFont ? "text-sm" : "text-[10px]"} min-w-[36px] min-h-[36px] flex items-center justify-center shrink-0 ${accent.hoverText}`}
                     title="Play"
                   >
                     &#9654;

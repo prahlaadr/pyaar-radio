@@ -1742,7 +1742,7 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-black">
+      <div className="flex min-h-screen items-center justify-center bg-background">
         <div className="text-center">
           <h1 className="text-sm font-bold text-red-500 uppercase tracking-widest mb-2">Error</h1>
           <p className="text-[#999] text-sm">{error}</p>
@@ -1752,7 +1752,7 @@ export default function Home() {
   }
 
   return (
-    <div className={`flex min-h-screen bg-black pt-[env(safe-area-inset-top)] ${nowPlaying ? "pb-24 md:pb-10" : ""}`}>
+    <div className={`flex min-h-screen bg-background pt-[env(safe-area-inset-top)] ${nowPlaying ? "pb-24 md:pb-10" : ""}`}>
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col">
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
@@ -2266,7 +2266,7 @@ export default function Home() {
       </div>
 
       {/* Right: Setlist — desktop (hidden in TV mode) */}
-      <div className={`${sectionMode === "tv" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-black`}>
+      <div className={`${sectionMode === "tv" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-background`}>
         <SetlistPanel
           tracks={setlist}
           setlistName={setlistName}
@@ -2343,8 +2343,8 @@ export default function Home() {
       {/* Mobile: setlist drawer */}
       {mobileSetlistOpen && (
         <div className="md:hidden fixed inset-0 z-50 flex flex-col">
-          <div className="flex-shrink-0 bg-black/80 h-16" onClick={() => setMobileSetlistOpen(false)} />
-          <div className="flex-1 bg-black border-t border-[#222] flex flex-col overflow-hidden">
+          <div className="flex-shrink-0 bg-background/80 h-16" onClick={() => setMobileSetlistOpen(false)} />
+          <div className="flex-1 bg-background border-t border-[#222] flex flex-col overflow-hidden">
             <div className="flex items-center justify-between px-4 py-2 border-b border-[#222]">
               <span className="text-[10px] text-[#888] uppercase tracking-wider">Setlist</span>
               <button

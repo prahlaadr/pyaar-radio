@@ -63,7 +63,7 @@ export default function RadarPage() {
   const savedAlerts = data?.alerts.filter((a) => a.status === "saved") ?? [];
 
   return (
-    <div className="min-h-screen bg-black text-white pt-[env(safe-area-inset-top)]">
+    <div className="min-h-screen bg-background text-white pt-[env(safe-area-inset-top)]">
       {/* Header */}
       <div className="px-5 py-4 border-b border-[#222] flex items-center justify-between">
         <div className="flex items-center gap-3">

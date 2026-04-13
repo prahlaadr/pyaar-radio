@@ -34,7 +34,7 @@ export function SetlistPicker({
   const empty = !hasVault && !hasBrowser;
 
   return (
-    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 bg-background/80 z-50 flex items-center justify-center">
       <div className="bg-[#0a0a0a] border border-[#333] w-[400px] max-h-[70vh] flex flex-col">
         <div className="px-5 py-3 border-b border-[#222] flex items-center justify-between">
           <h2 className="text-sm font-bold uppercase tracking-[0.2em]">Open Setlist</h2>

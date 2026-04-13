@@ -27,7 +27,7 @@ export default function Login() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-background">
       <form onSubmit={handleSubmit} className="w-72 space-y-4">
         <h1 className="text-sm font-bold uppercase tracking-[0.2em] text-center">
           Pyaar Radio

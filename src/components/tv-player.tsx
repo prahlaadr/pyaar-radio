@@ -113,7 +113,7 @@ export const TvPlayer = forwardRef<TvPlayerHandle, Props>(function TvPlayer(
           )}
         </div>
       )}
-      <div className="w-full aspect-video bg-black">
+      <div className="w-full aspect-video bg-background">
         <div ref={containerRef} className="w-full h-full" />
       </div>
     </div>
