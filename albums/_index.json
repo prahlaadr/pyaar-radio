@@ -1,9 +1,303 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3077,
- "totalTracks": 39606,
- "syncedAt": "2026-04-12T08:50:13.710152Z",
+ "albumCount": 3126,
+ "totalTracks": 40305,
+ "syncedAt": "2026-04-13T09:56:54.144733Z",
  "albums": [
+  {
+   "browseId": "MPREb_DXEQbV2Miwt",
+   "title": "Mirage",
+   "artist": "Glass Beams",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_1Y1uRirqqEd",
+   "title": "Who's Gonna Get Fucked First?",
+   "artist": "Father",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_Kac2DMxpKeB",
+   "title": "Terra Nocturne",
+   "artist": "Lynn Stokes & Sol Surfers",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_vXF0RZXotqk",
+   "title": "Hu$band",
+   "artist": "Father",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_38PUymh8BOJ",
+   "title": "Young Hot Ebony",
+   "artist": "Father",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_G9FRIPvanjQ",
+   "title": "Forbidden Feelingz",
+   "artist": "Nia Archives",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_jjblyPDdFie",
+   "title": "Sol-Angel and the Hadley St. Dreams (Deluxe)",
+   "artist": "Solange",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_j5iDDktH5F9",
+   "title": "Sour Soul",
+   "artist": "BADBADNOTGOOD",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_5fIPL68dBL7",
+   "title": "Welcome 2 Detroit: The 20th Anniversary Edition",
+   "artist": "J Dilla",
+   "trackCount": 46
+  },
+  {
+   "browseId": "MPREb_nOZVMySU8Yb",
+   "title": "AIM (Deluxe)",
+   "artist": "M.I.A.",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_vK1jqkblQU6",
+   "title": "Maya Maya",
+   "artist": "Christos Dantis",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_SNYrkf5LSPI",
+   "title": "Outside the Box (Expanded Edition)",
+   "artist": "Skream",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_ogYhQsGuFbr",
+   "title": "Wonder Where We Land",
+   "artist": "SBTRKT",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_vmNlshSbZc2",
+   "title": "Dial 'M' for Monkey",
+   "artist": "Bonobo",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_DjjdtYrEt8o",
+   "title": "Days To Come",
+   "artist": "Bonobo",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_RiSwvOlN8Ym",
+   "title": "Beautiful Rewind",
+   "artist": "Four Tet",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_qgR8P3hGmaG",
+   "title": "Pause",
+   "artist": "Four Tet",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_LWHJ72geOrH",
+   "title": "Rival Dealer",
+   "artist": "Burial",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_obE6jxamYyQ",
+   "title": "Kindred",
+   "artist": "Burial",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_UNDO9HzochP",
+   "title": "Blue Chips 2: Reel Music",
+   "artist": "Rockwelz",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_7fupajrA72j",
+   "title": "Blue Chips 1 & 2",
+   "artist": "Action Bronson",
+   "trackCount": 52
+  },
+  {
+   "browseId": "MPREb_KLIEUw1ECRb",
+   "title": "Take Me To Your Leader",
+   "artist": "King Geedorah",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_2bfZmvHIAUQ",
+   "title": "THE MOUSE AND THE MASK (METALFACE EDITION)",
+   "artist": "DANGERDOOM",
+   "trackCount": 23
+  },
+  {
+   "browseId": "MPREb_3Q8Jg3gqFlV",
+   "title": "BORN LIKE THIS",
+   "artist": "MF DOOM",
+   "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_qbMAIGJh1Vv",
+   "title": "Vaudeville Villain",
+   "artist": "Viktor Vaughn",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_CtOaObihCXA",
+   "title": "Alive 2007",
+   "artist": "Daft Punk",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_XnQO2OELP1o",
+   "title": "...I Care Because You Do",
+   "artist": "Aphex Twin",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_pshmvle13Oe",
+   "title": "Richard D. James Album",
+   "artist": "Aphex Twin",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_ivRv8Z2X3eG",
+   "title": "Caracal (Deluxe)",
+   "artist": "Disclosure",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_vjT83dUDJ7b",
+   "title": "Cold Spring Fault Less Youth",
+   "artist": "Mount Kimbie",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_wxLn0fzrPcR",
+   "title": "Crooks & Lovers",
+   "artist": "Mount Kimbie",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_UFTjztFatBh",
+   "title": "Tha Carter II",
+   "artist": "Lil Wayne",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_CKFzH5mDT4Y",
+   "title": "Tha Carter",
+   "artist": "Lil Wayne",
+   "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_9bEjT83BJKA",
+   "title": "LP!",
+   "artist": "JPEGMAFIA",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_rrDHFx9LlmL",
+   "title": "Veteran: Director's Cut",
+   "artist": "JPEGMAFIA",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_9SyHnay661T",
+   "title": "NOVA",
+   "artist": "RL Grime",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_h5OQzPOQQe3",
+   "title": "VOID",
+   "artist": "RL Grime",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_HaYGW3u7FaA",
+   "title": "When Will We Land?",
+   "artist": "Barry Can’t Swim",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_mRlRZLY6Ky2",
+   "title": "Our Love",
+   "artist": "Caribou",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_5ckRvFIw1p0",
+   "title": "Swim",
+   "artist": "Caribou",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_9kBa7rP0WLE",
+   "title": "SUCKER",
+   "artist": "Charli xcx",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_sz5YQDMevjv",
+   "title": "Number 1 Angel",
+   "artist": "Charli XCX",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_DT41w62hQ5j",
+   "title": "True Romance",
+   "artist": "Charli xcx",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_17YcoU5m8RE",
+   "title": "CRASH",
+   "artist": "Charli xcx",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_Ex2k3RGAiDt",
+   "title": "Pop 2",
+   "artist": "Charli xcx",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_e8ux8QgmKTR",
+   "title": "how i'm feeling now",
+   "artist": "Charli xcx",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_N0gork5QrX0",
+   "title": "Loving In Stereo",
+   "artist": "Jungle",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_v62TqMRfU64",
+   "title": "For Ever",
+   "artist": "Jungle",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_2KVRvSYmQzW",
+   "title": "Jungle",
+   "artist": "Jungle",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_dArVzBovIWI",
    "title": "Perimenopop",
