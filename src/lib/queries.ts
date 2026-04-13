@@ -349,7 +349,7 @@ export function buildIlaiyaraajaQuery(search: string): string {
       "Video ID" as videoId
     FROM ilaiyaraaja
     ${where}
-    ORDER BY Film, "Track Name"
+    ORDER BY "Track Name", Film
   `;
 }
 
