@@ -130,6 +130,18 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
     }
   }, [swipeState, onAddToSetlist, onPlay]);
 
+  const [discoverTracks, setDiscoverTracks] = useState<Track[]>([]);
+
+  const shuffleDiscover = useCallback(() => {
+    if (tracks.length === 0) return;
+    const shuffled = [...tracks].sort(() => Math.random() - 0.5);
+    setDiscoverTracks(shuffled.slice(0, Math.min(5, shuffled.length)));
+  }, [tracks]);
+
+  useEffect(() => {
+    shuffleDiscover();
+  }, [shuffleDiscover]);
+
   const handleRowClick = useCallback((track: Track, index: number) => {
     if (typeof window === "undefined") return;
     if (!window.matchMedia("(hover: none)").matches) return;
@@ -182,6 +194,63 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
           </button>
         </div>
       </div>
+
+      {/* Discover — 5 random tracks */}
+      {!loading && discoverTracks.length > 0 && (
+        <div className="border-b border-[#222]">
+          <div className="px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
+            <span className="text-[10px] text-[#999] uppercase tracking-wider">
+              Discover
+            </span>
+            <button
+              onClick={shuffleDiscover}
+              className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
+              title="Shuffle"
+            >
+              &#8635;
+            </button>
+          </div>
+          {discoverTracks.map((track) => {
+            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+            return (
+              <div
+                key={`discover-${track.trackName}-${track.albumName}`}
+                className={`w-full text-left px-5 py-3 border-b border-[#151515] transition-colors group flex items-center ${
+                  isPlaying ? "bg-red-950/40" : "hover:bg-[#111]"
+                }`}
+              >
+                <button
+                  onClick={() => onPlay?.(track)}
+                  className="mr-3 text-[#999] hover:text-white transition-colors text-[10px] shrink-0"
+                  title="Play"
+                >
+                  &#9654;
+                </button>
+                <button
+                  onClick={() => onPlay?.(track)}
+                  className="flex-1 text-left min-w-0"
+                >
+                  <div className={`text-xs truncate transition-colors ${
+                    isPlaying ? "text-red-400" : "text-[#ccc] group-hover:text-white"
+                  }`}>
+                    {track.trackName}
+                  </div>
+                  <div className="text-[10px] text-[#999] truncate">
+                    {track.albumName}
+                  </div>
+                </button>
+                <button
+                  onClick={() => onAddToSetlist(track)}
+                  className="ml-3 text-[#999] hover:text-red-500 transition-colors text-sm font-bold shrink-0"
+                  title="Add to setlist"
+                >
+                  +
+                </button>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       {loading ? (
         <div className="flex-1 flex items-center justify-center">

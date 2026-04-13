@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { Track } from "@/lib/types";
 
@@ -27,6 +27,17 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
   const scrollRef = useRef<HTMLDivElement>(null);
   const accent = accentClasses[accentColor];
   const [largeFont, setLargeFont] = useState(false);
+  const [discoverTracks, setDiscoverTracks] = useState<Track[]>([]);
+
+  const shuffleDiscover = useCallback(() => {
+    if (tracks.length === 0) return;
+    const shuffled = [...tracks].sort(() => Math.random() - 0.5);
+    setDiscoverTracks(shuffled.slice(0, Math.min(5, shuffled.length)));
+  }, [tracks]);
+
+  useEffect(() => {
+    shuffleDiscover();
+  }, [shuffleDiscover]);
 
   const virtualizer = useVirtualizer({
     count: tracks.length,
@@ -61,6 +72,63 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
           {largeFont ? "Aa" : "Aa"}
         </button>
       </div>
+      {/* Discover — 5 random tracks */}
+      {discoverTracks.length > 0 && (
+        <div className="border-b border-[#222]">
+          <div className="px-3 md:px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
+            <span className="text-[10px] text-[#999] uppercase tracking-wider">
+              Discover
+            </span>
+            <button
+              onClick={shuffleDiscover}
+              className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
+              title="Shuffle"
+            >
+              &#8635;
+            </button>
+          </div>
+          {discoverTracks.map((track, idx) => {
+            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+            return (
+              <div
+                key={`discover-${track.trackName}-${idx}`}
+                className={`px-3 md:px-5 py-3 border-b border-[#151515] transition-colors group flex items-center gap-2 md:gap-3 ${
+                  isPlaying ? accent.bg : "hover:bg-[#111]"
+                }`}
+              >
+                <button
+                  onClick={() => onPlay(track)}
+                  className={`text-[#999] transition-colors text-[10px] ${accent.hoverText}`}
+                  title="Play"
+                >
+                  &#9654;
+                </button>
+                <button
+                  onClick={() => onPlay(track)}
+                  className="flex-1 text-left min-w-0"
+                >
+                  <div className={`text-xs truncate transition-colors ${
+                    isPlaying ? accent.text : "text-[#ccc] group-hover:text-white"
+                  }`}>
+                    {track.trackName}
+                  </div>
+                  <div className="text-[10px] text-[#999] truncate">
+                    {track.albumName}
+                  </div>
+                </button>
+                <button
+                  onClick={() => onAddToSetlist(track)}
+                  className={`text-[#888] transition-colors text-sm font-bold ${accent.hoverBtn}`}
+                  title="Add to setlist"
+                >
+                  +
+                </button>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
       {tracks.length === 0 ? (
         <div className="flex-1 flex items-center justify-center py-20">
           <p className="text-[#888] text-xs uppercase tracking-widest">{emptyMessage}</p>
