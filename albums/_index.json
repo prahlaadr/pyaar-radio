@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3126,
- "totalTracks": 40305,
- "syncedAt": "2026-04-13T05:04:38.058126Z",
+ "albumCount": 3127,
+ "totalTracks": 40316,
+ "syncedAt": "2026-04-14T09:19:58.171596Z",
  "albums": [
+  {
+   "browseId": "MPREb_SWAFPaicw9C",
+   "title": "Ö",
+   "artist": "Fcukers",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_DXEQbV2Miwt",
    "title": "Mirage",
