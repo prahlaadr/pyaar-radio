@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3127,
- "totalTracks": 40316,
- "syncedAt": "2026-04-14T09:19:58.171596Z",
+ "albumCount": 3128,
+ "totalTracks": 40325,
+ "syncedAt": "2026-04-15T09:21:16.966420Z",
  "albums": [
+  {
+   "browseId": "MPREb_15hdxKJtWI8",
+   "title": "Sonho Azul",
+   "artist": "Vanyfox",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_SWAFPaicw9C",
    "title": "Ö",
