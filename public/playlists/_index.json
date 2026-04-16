@@ -1,18 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 239,
- "totalTracks": 99807,
- "syncedAt": "2026-04-15T09:21:19.647102Z",
+ "totalTracks": 98873,
+ "syncedAt": "2026-04-16T09:20:39.871898Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1333
+  },
   {
    "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
    "title": "April 26",
    "trackCount": 16
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1325
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -622,7 +622,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
    "title": "le gazzz",
-   "trackCount": 1341
+   "trackCount": 399
   },
   {
    "playlistId": "PL6LTKg9AoNs1Kus6unSCQ1wwR_70slTmY",

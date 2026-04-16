@@ -1,9 +1,65 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1325,
- "syncedAt": "2026-04-15T09:21:19.647102Z",
+ "trackCount": 1333,
+ "syncedAt": "2026-04-16T09:20:39.871898Z",
  "tracks": [
+  {
+   "title": "Pyramids",
+   "artist": "Frank Ocean",
+   "album": "channel ORANGE",
+   "videoId": "dMV31MWIjLE",
+   "duration": "9:53"
+  },
+  {
+   "title": "Swimming Pools (Drank) - Cover",
+   "artist": "Shred Meyer",
+   "album": "",
+   "videoId": "oYzYstnDUaw",
+   "duration": "3:31"
+  },
+  {
+   "title": "Kiss Me Thru The Phone",
+   "artist": "Shred Meyer",
+   "album": "Shrovers",
+   "videoId": "N81dScKVUi4",
+   "duration": "3:25"
+  },
+  {
+   "title": "UCLA",
+   "artist": "Shred Meyer",
+   "album": "Shrovers",
+   "videoId": "Ieo3BjjOfmo",
+   "duration": "2:59"
+  },
+  {
+   "title": "A Bird's Last Look",
+   "artist": "Macabre Plaza",
+   "album": "Out With the Old in With the Taboo",
+   "videoId": "B_bYIWexH5Q",
+   "duration": "1:10"
+  },
+  {
+   "title": "I Bet You Look Good On The Dancefloor",
+   "artist": "Arctic Monkeys",
+   "album": "Whatever People Say I Am, That's What I'm Not",
+   "videoId": "CYpn8yUnX_c",
+   "duration": "2:54"
+  },
+  {
+   "title": "Just for Me",
+   "artist": "PinkPantheress",
+   "album": "Just for me",
+   "videoId": "NIzmrafKAdQ",
+   "duration": "1:56"
+  },
+  {
+   "title": "Going Shopping",
+   "artist": "The Strokes",
+   "album": "Going Shopping",
+   "videoId": "5d0KUsqqVoQ",
+   "duration": "4:22"
+  },
   {
    "title": "Madwoman",
    "artist": "Laufey",
