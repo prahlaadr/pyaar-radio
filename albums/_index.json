@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3128,
- "totalTracks": 40325,
- "syncedAt": "2026-04-16T09:20:37.970749Z",
+ "albumCount": 3129,
+ "totalTracks": 40346,
+ "syncedAt": "2026-04-17T09:19:21.152822Z",
  "albums": [
+  {
+   "browseId": "MPREb_SvDR7HAHTIr",
+   "title": "Glamour: Deluxe",
+   "artist": "Westwood",
+   "trackCount": 21
+  },
   {
    "browseId": "MPREb_15hdxKJtWI8",
    "title": "Sonho Azul",

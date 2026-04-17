@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1333,
- "syncedAt": "2026-04-16T09:20:39.871898Z",
+ "trackCount": 1334,
+ "syncedAt": "2026-04-17T09:19:24.087131Z",
  "tracks": [
+  {
+   "title": "True romance",
+   "artist": "PinkPantheress",
+   "album": "Heaven knows",
+   "videoId": "nscGTGQxLAc",
+   "duration": "2:17"
+  },
   {
    "title": "Pyramids",
    "artist": "Frank Ocean",
@@ -6271,7 +6278,7 @@
   },
   {
    "title": "Gang",
-   "artist": "Venthura & After Ours",
+   "artist": "Venthura;After Ours",
    "album": "Gang",
    "videoId": "00JgXpPzDXU",
    "duration": "5:17"
