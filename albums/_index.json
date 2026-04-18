@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3129,
- "totalTracks": 40346,
- "syncedAt": "2026-04-17T09:19:21.152822Z",
+ "albumCount": 3130,
+ "totalTracks": 40362,
+ "syncedAt": "2026-04-18T08:53:06.910910Z",
  "albums": [
+  {
+   "browseId": "MPREb_pXstPQsZqT2",
+   "title": "Drip or Drown 2",
+   "artist": "Gunna",
+   "trackCount": 16
+  },
   {
    "browseId": "MPREb_SvDR7HAHTIr",
    "title": "Glamour: Deluxe",
