@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3rXTsA7cn_Lx_iqFp7yCdA",
  "title": "Kizomba Top Hits",
  "trackCount": 107,
- "syncedAt": "2026-04-18T08:53:10.209815Z",
+ "syncedAt": "2026-04-19T08:56:23.721440Z",
  "tracks": [
   {
    "title": "Leva Tudo",
@@ -286,8 +286,8 @@
   },
   {
    "title": "Bu Ka Speraba",
-   "artist": "Djodje - Topic",
-   "album": "",
+   "artist": "Djodje;Neyna",
+   "album": "Bu Ka Speraba",
    "videoId": "5zsF6QTw_70",
    "duration": "3:16"
   },
@@ -314,8 +314,8 @@
   },
   {
    "title": "Ela Não Fala Comigo",
-   "artist": "Kelson Matheus - Topic",
-   "album": "",
+   "artist": "Kelson Matheus",
+   "album": "Ela Não Fala Comigo",
    "videoId": "xDl4XQGjCFs",
    "duration": "3:15"
   },
@@ -342,8 +342,8 @@
   },
   {
    "title": "Tentason",
-   "artist": "Djodje - Topic",
-   "album": "",
+   "artist": "Djodje",
+   "album": "Tentason",
    "videoId": "p2KY9DPfrJ4",
    "duration": "2:47"
   },
@@ -412,8 +412,8 @@
   },
   {
    "title": "Ngithanda Wena",
-   "artist": "DJ Dubby G - Topic",
-   "album": "",
+   "artist": "DJ Dubby G",
+   "album": "Usuku Lothando",
    "videoId": "KES1LWxJio4",
    "duration": "4:00"
   },
@@ -433,15 +433,15 @@
   },
   {
    "title": "Bobo (Isso Tá Me a Doer)",
-   "artist": "Afro Connexion - Topic",
-   "album": "",
+   "artist": "Afro Connexion;Gasso",
+   "album": "Bobo (Isso Tá Me a Doer)",
    "videoId": "bYP-EVFvI7k",
    "duration": "2:36"
   },
   {
    "title": "Rivais",
-   "artist": "Twenty Fingers - Topic",
-   "album": "",
+   "artist": "Twenty Fingers",
+   "album": "Wawa Dele",
    "videoId": "DJgyjXsW7vo",
    "duration": "3:11"
   },
@@ -482,8 +482,8 @@
   },
   {
    "title": "Emiliana",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Criollo Boyz",
+   "album": "Emiliana",
    "videoId": "AwlbsmsQ6Qc",
    "duration": "3:17"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "MORENA ACHADA",
-   "artist": "C4 Pedro - Topic",
-   "album": "",
+   "artist": "C4 Pedro",
+   "album": "MORENA ACHADA",
    "videoId": "fKLYyAo0Ggw",
    "duration": "3:36"
   },
@@ -580,8 +580,8 @@
   },
   {
    "title": "Black Butterfly",
-   "artist": "Nelson Freitas - Topic",
-   "album": "",
+   "artist": "Nelson Freitas",
+   "album": "Black Butterfly",
    "videoId": "IlQ3TeLvg_g",
    "duration": "3:04"
   },
@@ -643,8 +643,8 @@
   },
   {
    "title": "Samba",
-   "artist": "Boy Teddy - Topic",
-   "album": "",
+   "artist": "Boy Teddy;Jay Kim",
+   "album": "Samba",
    "videoId": "b8bT9wdpJG4",
    "duration": "3:07"
   },

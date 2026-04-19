@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3130,
- "totalTracks": 40362,
- "syncedAt": "2026-04-18T08:53:06.910910Z",
+ "albumCount": 3129,
+ "totalTracks": 40340,
+ "syncedAt": "2026-04-19T08:56:21.968040Z",
  "albums": [
   {
    "browseId": "MPREb_pXstPQsZqT2",
@@ -5619,12 +5619,6 @@
    "title": "Southernplayalisticadillacmuzik",
    "artist": "Outkast",
    "trackCount": 17
-  },
-  {
-   "browseId": "MPREb_x8tavZtwGCj",
-   "title": "Notes On A Conditional Form",
-   "artist": "The 1975",
-   "trackCount": 22
   },
   {
    "browseId": "MPREb_GxElu7BKdp3",
