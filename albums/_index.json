@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3129,
- "totalTracks": 40340,
- "syncedAt": "2026-04-19T08:56:21.968040Z",
+ "albumCount": 3131,
+ "totalTracks": 40362,
+ "syncedAt": "2026-04-20T10:00:05.707889Z",
  "albums": [
+  {
+   "browseId": "MPREb_JyHOdHEnv5E",
+   "title": "KONNAKOL",
+   "artist": "ZAYN",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_uNXbNR4m5Ly",
+   "title": "Music To Refine To: A Remix Companion to Severance",
+   "artist": "ODESZA",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_pXstPQsZqT2",
    "title": "Drip or Drown 2",
