@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1336,
- "syncedAt": "2026-04-21T09:28:04.495370Z",
+ "trackCount": 1339,
+ "syncedAt": "2026-04-22T09:22:17.626131Z",
  "tracks": [
+  {
+   "title": "Messages from the Stars",
+   "artist": "The Rah Band",
+   "album": "Going Up",
+   "videoId": "rm08JwGDnuw",
+   "duration": "4:15"
+  },
+  {
+   "title": "Beauty And A Beat (feat. Nicki Minaj)",
+   "artist": "Justin Bieber",
+   "album": "Believe",
+   "videoId": "aWkPBCF8rFU",
+   "duration": "3:48"
+  },
+  {
+   "title": "Romeo",
+   "artist": "PinkPantheress",
+   "album": "Fancy That",
+   "videoId": "yyJNQ5zcZuI",
+   "duration": "2:35"
+  },
   {
    "title": "Upside Down",
    "artist": "Jack Johnson",
@@ -496,7 +517,7 @@
   },
   {
    "title": "Sweet Dreams (Are Made Of This)",
-   "artist": "Anish Kumar;Arooj Aftab",
+   "artist": "Anish Kumar & Arooj Aftab",
    "album": "Bait (Music From The Original Series)",
    "videoId": "tjkyPEzaaWE",
    "duration": "3:30"

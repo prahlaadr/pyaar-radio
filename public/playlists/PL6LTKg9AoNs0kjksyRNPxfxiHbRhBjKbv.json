@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 17,
- "syncedAt": "2026-04-21T09:28:04.495370Z",
+ "trackCount": 18,
+ "syncedAt": "2026-04-22T09:22:17.626131Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -122,6 +122,13 @@
    "album": "SWAG II",
    "videoId": "4BsBpOCaTrA",
    "duration": "3:32"
+  },
+  {
+   "title": "What I Got",
+   "artist": "Sublime",
+   "album": "Sublime",
+   "videoId": "0LZzpx0VLPM",
+   "duration": "2:51"
   }
  ]
 }

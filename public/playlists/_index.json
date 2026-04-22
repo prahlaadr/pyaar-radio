@@ -1,18 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 239,
- "totalTracks": 99818,
- "syncedAt": "2026-04-21T09:28:04.495370Z",
+ "totalTracks": 99820,
+ "syncedAt": "2026-04-22T09:22:17.626131Z",
  "playlists": [
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1336
-  },
   {
    "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
    "title": "April 26",
-   "trackCount": 17
+   "trackCount": 18
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1339
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -377,7 +377,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
    "title": "June 24",
-   "trackCount": 115
+   "trackCount": 114
   },
   {
    "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
@@ -387,7 +387,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
    "title": "Cumulative",
-   "trackCount": 2969
+   "trackCount": 2968
   },
   {
    "playlistId": "PL6LTKg9AoNs1uIq48E1VixfrQxRAyB-q_",
