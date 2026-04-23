@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3131,
- "totalTracks": 40372,
- "syncedAt": "2026-04-22T09:22:15.907180Z",
+ "albumCount": 3133,
+ "totalTracks": 40401,
+ "syncedAt": "2026-04-23T09:30:10.043465Z",
  "albums": [
+  {
+   "browseId": "MPREb_iaFR54b3dmC",
+   "title": "Superbloom",
+   "artist": "Jessie Ware",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_MIuUt1U35kv",
+   "title": "M.I.7",
+   "artist": "M.I.A.",
+   "trackCount": 16
+  },
   {
    "browseId": "MPREb_JyHOdHEnv5E",
    "title": "KONNAKOL",
@@ -10363,7 +10375,7 @@
   {
    "browseId": "MPREb_RBBLdRO2cZy",
    "title": "The Alpha Jerk",
-   "artist": "Key! & Tony Seltzer",
+   "artist": "Key!",
    "trackCount": 17
   },
   {

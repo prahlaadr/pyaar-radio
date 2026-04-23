@@ -1,9 +1,128 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1339,
- "syncedAt": "2026-04-22T09:22:17.626131Z",
+ "trackCount": 1355,
+ "syncedAt": "2026-04-23T09:30:13.642533Z",
  "tracks": [
+  {
+   "title": "Just The Way You Are",
+   "artist": "Milky",
+   "album": "Just The Way You Are",
+   "videoId": "RgFur8ba0kk",
+   "duration": "3:31"
+  },
+  {
+   "title": "Mardy Bum",
+   "artist": "Arctic Monkeys",
+   "album": "Whatever People Say I Am, That's What I'm Not",
+   "videoId": "dO368WjwyFs",
+   "duration": "2:56"
+  },
+  {
+   "title": "Feels Like Summer",
+   "artist": "Childish Gambino",
+   "album": "Summer Pack",
+   "videoId": "mZVO1CubDIo",
+   "duration": "4:58"
+  },
+  {
+   "title": "My Kind of Woman",
+   "artist": "Mac DeMarco",
+   "album": "2",
+   "videoId": "1_tjOgqG8Yc",
+   "duration": "3:11"
+  },
+  {
+   "title": "Brasilian Skies",
+   "artist": "Masayoshi Takanaka",
+   "album": "Brasilian Skies",
+   "videoId": "k0ynTKJZirg",
+   "duration": "5:54"
+  },
+  {
+   "title": "Everything She Wants",
+   "artist": "Wham!",
+   "album": "Make It Big",
+   "videoId": "7clk5w5g6bE",
+   "duration": "5:03"
+  },
+  {
+   "title": "Music Sounds Better With You (Radio Edit)",
+   "artist": "Stardust",
+   "album": "Music Sounds Better With You",
+   "videoId": "hRvrj_diWYQ",
+   "duration": "4:21"
+  },
+  {
+   "title": "Sober",
+   "artist": "Childish Gambino",
+   "album": "Kauai",
+   "videoId": "7CQ-4dZmVoQ",
+   "duration": "4:13"
+  },
+  {
+   "title": "Music Of The Sun",
+   "artist": "Rihanna",
+   "album": "Music Of The Sun",
+   "videoId": "OQmVmPD633U",
+   "duration": "3:57"
+  },
+  {
+   "title": "Otherside",
+   "artist": "Red Hot Chili Peppers",
+   "album": "Californication (Deluxe Version)",
+   "videoId": "8901V1M5lDk",
+   "duration": "4:16"
+  },
+  {
+   "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+   "artist": "Post Malone;Swae Lee",
+   "album": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)",
+   "videoId": "r7Rn4ryE_w8",
+   "duration": "2:39"
+  },
+  {
+   "title": "505",
+   "artist": "Arctic Monkeys",
+   "album": "Favourite Worst Nightmare",
+   "videoId": "KfEEm4Zx-EU",
+   "duration": "4:14"
+  },
+  {
+   "title": "Want Your Feeling",
+   "artist": "Jessie Ware",
+   "album": "Tough Love",
+   "videoId": "mRlxIQXhU-o",
+   "duration": "4:22"
+  },
+  {
+   "title": "Them Changes",
+   "artist": "Thundercat",
+   "album": "The Beyond / Where the Giants Roam",
+   "videoId": "35-MnoI1drY",
+   "duration": "3:08"
+  },
+  {
+   "title": "I Could Get Used To This",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "baLj2gC3rf4",
+   "duration": "3:42"
+  },
+  {
+   "title": "Automatic",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "hXugP2CqkYw",
+   "duration": "2:58"
+  },
+  {
+   "title": "It Wasn't Me (feat. Ricardo Ducent)",
+   "artist": "Shaggy",
+   "album": "Hot Shot",
+   "videoId": "sTMgX1PDGAE",
+   "duration": "3:48"
+  },
   {
    "title": "Messages from the Stars",
    "artist": "The Rah Band",
@@ -66,13 +185,6 @@
    "album": "Shrovers",
    "videoId": "N81dScKVUi4",
    "duration": "3:25"
-  },
-  {
-   "title": "UCLA",
-   "artist": "Shred Meyer",
-   "album": "Shrovers",
-   "videoId": "Ieo3BjjOfmo",
-   "duration": "2:59"
   },
   {
    "title": "A Bird's Last Look",
