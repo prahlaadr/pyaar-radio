@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 239,
- "totalTracks": 99836,
- "syncedAt": "2026-04-23T09:30:13.642533Z",
+ "totalTracks": 99838,
+ "syncedAt": "2026-04-24T09:46:39.892960Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -377,7 +377,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
    "title": "June 24",
-   "trackCount": 114
+   "trackCount": 115
   },
   {
    "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
@@ -387,7 +387,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
    "title": "Cumulative",
-   "trackCount": 2968
+   "trackCount": 2969
   },
   {
    "playlistId": "PL6LTKg9AoNs1uIq48E1VixfrQxRAyB-q_",

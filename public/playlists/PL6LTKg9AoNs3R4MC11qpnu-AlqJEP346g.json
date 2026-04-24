@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
  "trackCount": 1355,
- "syncedAt": "2026-04-23T09:30:13.642533Z",
+ "syncedAt": "2026-04-24T09:46:39.892960Z",
  "tracks": [
   {
    "title": "Just The Way You Are",
@@ -629,9 +629,9 @@
   },
   {
    "title": "Sweet Dreams (Are Made Of This)",
-   "artist": "Anish Kumar & Arooj Aftab",
-   "album": "Bait (Music From The Original Series)",
-   "videoId": "tjkyPEzaaWE",
+   "artist": "Anish Kumar;Arooj Aftab",
+   "album": "Bait (Music From & Inspired by the Original Series)",
+   "videoId": "nJi-V2Xo1wI",
    "duration": "3:30"
   },
   {
@@ -3274,7 +3274,7 @@
    "duration": "6:03"
   },
   {
-   "title": "Got 'Til It's Gone (feat. Q-Tip & Joni Mitchell)",
+   "title": "Got 'Til It's Gone (feat. Joni Mitchell & Q-Tip)",
    "artist": "Janet Jackson",
    "album": "The Velvet Rope",
    "videoId": "gN451z9Xs8E",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-04-23T09:30:13.642533Z",
+ "syncedAt": "2026-04-24T09:46:39.892960Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -7195,7 +7195,7 @@
   },
   {
    "title": "Yucatan",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "ENV023",
    "videoId": "2bRmHcFShAA",
    "duration": "3:29"
@@ -8595,7 +8595,7 @@
   },
   {
    "title": "Moment",
-   "artist": "Karnage & Fetus",
+   "artist": "Karnage;Fetus",
    "album": "ENV034",
    "videoId": "QTacN3IXKDo",
    "duration": "4:39"
@@ -8756,7 +8756,7 @@
   },
   {
    "title": "Apogee",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "ENV023",
    "videoId": "D1S6tTJWZ2g",
    "duration": "3:59"
