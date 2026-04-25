@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3133,
- "totalTracks": 40401,
- "syncedAt": "2026-04-24T09:46:38.000712Z",
+ "albumCount": 3134,
+ "totalTracks": 40413,
+ "syncedAt": "2026-04-25T08:55:05.857090Z",
  "albums": [
+  {
+   "browseId": "MPREb_JG1Hk06hwK6",
+   "title": "FREE SPIRITS",
+   "artist": "CA7RIEL & Paco Amoroso",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_iaFR54b3dmC",
    "title": "Superbloom",
