@@ -23,6 +23,24 @@ Requires `browser.json` in the repo root (YT Music auth cookies). See main CLAUD
 # Check a single artist
 .venv/bin/python -m radar release --artist "Flying Lotus"
 
+# Full discography audit — flags every album not already in your library
+.venv/bin/python -m radar audit
+
+# Audit a single artist, only flag gaps from 2010+
+.venv/bin/python -m radar audit --artist "Flying Lotus" --since 2010
+
+# Audit + auto-save every gap (use sparingly — can save hundreds)
+.venv/bin/python -m radar audit --save
+
+# Classify audit_gap rows by signal quality (read-only report)
+.venv/bin/python -m radar classify
+
+# Bulk-dismiss derivative/compilation/themed_comp rows (clear noise)
+.venv/bin/python -m radar classify --dismiss
+
+# Dismiss every row from known label-channel artists (RAAJA BEATS, CHOR BAZAAR)
+.venv/bin/python -m radar classify --dismiss-label-channels
+
 # Seed known albums from albums/*.json (first run or reset)
 .venv/bin/python -m radar seed
 
@@ -86,7 +104,25 @@ Or wait for the daily 3 AM sync to pick them up automatically.
 ## Filters
 
 - **Albums and EPs only** — singles are skipped (too noisy: features, remixes, loosies)
-- **Last 2 years only** — albums older than `current_year - 1` are skipped (avoids old rereleases)
+- **`release` command:** Last 2 years only — older albums skipped (avoids rereleases for monthly scan). Walks down the album list to find the first non-noise release.
+- **`audit` command:** No year filter by default — fetches the *full* discography per artist via `get_artist_albums` and flags every album not in `known_albums`. Use `--since YEAR` to constrain. Audit gaps log with `release_type = 'audit_gap'` so they can be filtered separately from monthly release alerts.
+- **Noise filter (both commands):** Titles matching derivative patterns (`(Instrumentals)`, `Deluxe Edition`, `Remastered`), compilation patterns (`Greatest Hits`, `Best Of`, `Anthology`, `20th Century Masters`), and themed-comp patterns (`Christmas`, `Workout`, `Eid Mubarak`, `Maestro Melodies`, etc.) are skipped at scan time. Patterns live in `release.py:NOISE_PATTERN`; the `classify` command mirrors the same patterns for retroactive cleanup of existing alerts.
+
+## Cleanup workflow (when audit produces too much noise)
+
+```bash
+# 1. See the breakdown
+.venv/bin/python -m radar classify
+
+# 2. Dismiss the obvious noise
+.venv/bin/python -m radar classify --dismiss
+
+# 3. If a label-channel artist (e.g. an aggregator/film-composer label) is in artists.csv, drop it
+#    and clear its queue:
+.venv/bin/python -m radar classify --dismiss-label-channels
+```
+
+Dismissals update `release_alerts.status='dismissed'` and re-export `radar-alerts.json` so the triage UI reflects the cleanup immediately.
 
 ## State
 

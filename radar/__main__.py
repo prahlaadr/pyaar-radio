@@ -5,6 +5,13 @@ Usage:
     python -m radar release                       # Check curated artists for new releases
     python -m radar release --save                # Auto-save new releases to YT Music
     python -m radar release --artist "Flying Lotus"
+    python -m radar audit                         # Full discography audit — all back-catalog gaps
+    python -m radar audit --save                  # Auto-save every gap to YT Music
+    python -m radar audit --artist "Flying Lotus" # Audit a single artist
+    python -m radar audit --since 2010            # Only flag gaps from this year onward
+    python -m radar classify                      # Report on audit_gap quality
+    python -m radar classify --dismiss            # Bulk-dismiss derivative/comp/themed_comp noise
+    python -m radar classify --dismiss-label-channels  # Dismiss known label-channel rows
     python -m radar report                        # Show release_alerts log
     python -m radar query "SELECT ..."            # Ad-hoc DuckDB query
     python -m radar crate                         # List crate entries
@@ -72,6 +79,50 @@ def cmd_release(args):
     db.close()
 
 
+def cmd_audit(args):
+    from ytmusicapi import YTMusic
+    from .db import get_db
+    from .release import load_artists, check_discography, export_alerts_json
+
+    if not BROWSER_AUTH_PATH.exists():
+        print("ERROR: No browser.json found.")
+        sys.exit(1)
+
+    db = get_db()
+
+    total = db.execute("SELECT COUNT(*) FROM known_albums").fetchone()[0]
+    if total == 0:
+        print("No known albums found — seeding from albums/*.json...")
+        from .db import seed_from_albums
+        count = seed_from_albums(db)
+        print(f"Seeded {count} albums.\n")
+
+    artists = load_artists(args.artist)
+    if not artists:
+        print(f"No artist found matching: {args.artist}" if args.artist else "No artists in artists.csv")
+        sys.exit(1)
+
+    print(f"Auditing {len(artists)} artist{'s' if len(artists) != 1 else ''} (full discography)...\n")
+
+    yt = YTMusic(str(BROWSER_AUTH_PATH))
+    gaps = check_discography(db, yt, artists, save=args.save, min_year=args.since)
+
+    print(f"\n{'=' * 60}")
+    print(f"Audit complete: {len(gaps)} gap{'s' if len(gaps) != 1 else ''} found across {len(artists)} artist{'s' if len(artists) != 1 else ''}.")
+    if gaps:
+        by_artist = {}
+        for g in gaps:
+            by_artist.setdefault(g["artist"], []).append(g)
+        for artist, items in sorted(by_artist.items(), key=lambda x: -len(x[1]))[:20]:
+            print(f"  {artist}: {len(items)} missing")
+
+    count = export_alerts_json(db)
+    if count:
+        print(f"\nExported {count} alerts to radar-alerts.json")
+
+    db.close()
+
+
 def cmd_report(args):
     from .db import get_db
 
@@ -92,6 +143,16 @@ def cmd_report(args):
         print(f"{row[0]:<25} {row[1]:<30} {row[2]:<6} {row[3]:<8} {row[4]:<8} {detected}")
 
     db.close()
+
+
+def cmd_classify(args):
+    from .classify_gaps import main as classify_main
+    sys.argv = ["classify_gaps"]
+    if args.dismiss:
+        sys.argv.append("--dismiss")
+    if args.dismiss_label_channels:
+        sys.argv.append("--dismiss-label-channels")
+    classify_main()
 
 
 def cmd_query(args):
@@ -136,7 +197,16 @@ def main():
     release_p.add_argument("--save", action="store_true", help="Auto-save new releases to YT Music library")
     release_p.add_argument("--artist", type=str, help="Check a single artist")
 
+    audit_p = sub.add_parser("audit", help="Full discography audit — find back-catalog gaps")
+    audit_p.add_argument("--save", action="store_true", help="Auto-save every gap to YT Music library")
+    audit_p.add_argument("--artist", type=str, help="Audit a single artist")
+    audit_p.add_argument("--since", type=int, help="Only flag gaps from this year onward (e.g. 2010)")
+
     sub.add_parser("report", help="Show release alerts log")
+
+    classify_p = sub.add_parser("classify", help="Classify audit_gap rows; optionally bulk-dismiss noise")
+    classify_p.add_argument("--dismiss", action="store_true", help="Dismiss derivative/compilation/themed_comp rows")
+    classify_p.add_argument("--dismiss-label-channels", action="store_true", help="Dismiss rows from known label-channel artists")
 
     query_p = sub.add_parser("query", help="Run ad-hoc DuckDB query")
     query_p.add_argument("sql", type=str, help="SQL query to execute")
@@ -165,6 +235,10 @@ def main():
         cmd_seed(args)
     elif args.command == "release":
         cmd_release(args)
+    elif args.command == "audit":
+        cmd_audit(args)
+    elif args.command == "classify":
+        cmd_classify(args)
     elif args.command == "report":
         cmd_report(args)
     elif args.command == "query":
