@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1358,
- "syncedAt": "2026-04-25T08:55:07.936892Z",
+ "trackCount": 1361,
+ "syncedAt": "2026-04-26T09:02:26.406267Z",
  "tracks": [
+  {
+   "title": "levitate",
+   "artist": "Avara",
+   "album": "levitate",
+   "videoId": "vXLiXK9Yo-A",
+   "duration": "3:41"
+  },
+  {
+   "title": "Esp",
+   "artist": "Masayoshi Takanaka",
+   "album": "All Of Me",
+   "videoId": "rRjz1xa4Waw",
+   "duration": "4:10"
+  },
+  {
+   "title": "Human Nature",
+   "artist": "Michael Jackson",
+   "album": "Thriller",
+   "videoId": "oqLpko9Gprs",
+   "duration": "4:07"
+  },
   {
    "title": "I'm Sorry We Lied",
    "artist": "Blood Orange",

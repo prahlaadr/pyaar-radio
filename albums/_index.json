@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3134,
- "totalTracks": 40413,
- "syncedAt": "2026-04-25T08:55:05.857090Z",
+ "albumCount": 3139,
+ "totalTracks": 40489,
+ "syncedAt": "2026-04-26T09:02:23.038699Z",
  "albums": [
+  {
+   "browseId": "MPREb_Si1q7nEI9Hh",
+   "title": "For What It's Worth",
+   "artist": "cortex",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_WL0h71iGkVU",
+   "title": "Arijit Singh Drive Mix",
+   "artist": "Arijit Singh",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_mKUPcTRgsLH",
+   "title": "27 CLUB",
+   "artist": "RANJ",
+   "trackCount": 27
+  },
+  {
+   "browseId": "MPREb_NyHbCIR5RTW",
+   "title": "Patchwork",
+   "artist": "Charlotte Day Wilson",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_nIPJHyH3k2S",
+   "title": "Juniper",
+   "artist": "Joy Crookes",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_JG1Hk06hwK6",
    "title": "FREE SPIRITS",

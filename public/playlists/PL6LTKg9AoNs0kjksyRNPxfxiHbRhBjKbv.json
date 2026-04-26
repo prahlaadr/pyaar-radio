@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 23,
- "syncedAt": "2026-04-25T08:55:07.936892Z",
+ "trackCount": 26,
+ "syncedAt": "2026-04-26T09:02:26.406267Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -164,6 +164,27 @@
    "album": "Countdown EP",
    "videoId": "RPTWEzID-VQ",
    "duration": "3:45"
+  },
+  {
+   "title": "Selfish",
+   "artist": "Charlotte Day Wilson",
+   "album": "Patchwork",
+   "videoId": "eeullATHwL0",
+   "duration": "3:47"
+  },
+  {
+   "title": "Esp",
+   "artist": "Masayoshi Takanaka",
+   "album": "All Of Me",
+   "videoId": "rRjz1xa4Waw",
+   "duration": "4:10"
+  },
+  {
+   "title": "URUDHI MOZHIGAL - RANJ, Clifr | Azadi Records",
+   "artist": "RANJ",
+   "album": "",
+   "videoId": "sQFt2d-ZgCA",
+   "duration": "3:02"
   }
  ]
 }
