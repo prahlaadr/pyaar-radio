@@ -164,7 +164,14 @@ def main():
 
     # Capture YT Music's liked-songs ordering (reverse-chronological, newest first)
     # so the app can sort the ♥ Liked tab by recency. 0 = most recently liked.
-    liked_position = {song["videoId"]: i for i, song in enumerate(liked)}
+    # When the user re-likes a track, YT Music's API returns it at BOTH the new
+    # position AND the old position. We want the FIRST (lowest, newest) position
+    # because that's where YT Music's UI shows it. setdefault keeps the first.
+    liked_position: dict[str, int] = {}
+    for i, song in enumerate(liked):
+        vid = song.get("videoId")
+        if vid:
+            liked_position.setdefault(vid, i)
 
     # Filter to only new songs not in masterlist
     new_songs = {vid: s for vid, s in all_songs.items() if vid not in existing_ids}
