@@ -287,6 +287,27 @@ def main():
         except subprocess.CalledProcessError as e:
             print(f"ERROR pushing: {e}")
 
+    # Generate a small Liked-only CSV (public/data/liked.csv) so the ♥ Liked
+    # tab can fetch directly without waiting on DuckDB to parse the 74K-row
+    # masterlist. Sorted by Liked Position ascending (0 = newest first).
+    liked_csv = PROJECT_DIR / "public" / "data" / "liked.csv"
+    liked_rows = [r for r in existing_rows + new_rows if (r.get("Liked", "") or "").strip() == "Yes"]
+    def pos_key(r):
+        try:
+            return int(r.get("Liked Position", "") or "999999")
+        except (ValueError, TypeError):
+            return 999999
+    liked_rows.sort(key=pos_key)
+    liked_fields = [
+        "Track Name", "Artist Name(s)", "Album Name", "Tempo", "Duration",
+        "Key", "Liked Position", "Video ID", "Soundcloud ID",
+    ]
+    with open(liked_csv, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=liked_fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(liked_rows)
+    print(f"Generated {liked_csv} ({len(liked_rows)} liked tracks, sorted by recency)")
+
     print("\nSync complete!")
 
 
