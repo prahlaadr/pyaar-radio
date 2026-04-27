@@ -98,8 +98,10 @@ async function init() {
     } catch { /* column already exists */ }
   }
   try {
+    // Explicit params instead of read_csv_auto — auto-sniffing fails on CSVs with
+    // embedded escaped quotes ("foo ""bar"" baz") on DuckDB WASM.
     await conn.query(`
-      CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)
+      CREATE TABLE tamil AS SELECT * FROM read_csv('tamil.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
     `);
   } catch (e) {
     console.warn("Failed to load tamil.csv:", e);
@@ -110,7 +112,7 @@ async function init() {
   }
   try {
     await conn.query(`
-      CREATE TABLE ilaiyaraaja AS SELECT * FROM read_csv_auto('ilaiyaraaja.csv', all_varchar=true)
+      CREATE TABLE ilaiyaraaja AS SELECT * FROM read_csv('ilaiyaraaja.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
     `);
   } catch (e) {
     console.warn("Failed to load ilaiyaraaja.csv:", e);
