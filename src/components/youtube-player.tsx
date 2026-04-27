@@ -725,10 +725,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
       {/* === Mobile: album art prominent at top, then info, then controls === */}
       <div className="md:hidden">
-        {/* Row 1: prominent album art (centered, large square) */}
+        {/* Row 1: prominent album art (centered square — large enough to be the focal
+            point, small enough to leave 60%+ of the viewport for content) */}
         {track.videoId && (
-          <div className="flex justify-center px-3 pt-3 pb-1">
-            <div className="w-32 h-32 overflow-hidden rounded-md bg-[#111] shadow-lg">
+          <div className="flex justify-center px-3 pt-2 pb-1">
+            <div className="w-24 h-24 overflow-hidden rounded-md bg-[#111] shadow-lg">
               <img
                 src={`https://i.ytimg.com/vi/${track.videoId}/hqdefault.jpg`}
                 alt=""
