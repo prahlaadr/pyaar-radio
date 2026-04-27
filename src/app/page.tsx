@@ -592,6 +592,9 @@ export default function Home() {
           duration: string;
           videoId: string;
         }>(sql);
+        if (rows.length === 0) {
+          console.warn("[Ilaiyaraaja] query returned 0 rows. SQL:", sql);
+        }
         setIlaiyaraajaTracks(
           rows.map((r) => ({
             trackName: r.trackName || "",
@@ -607,7 +610,8 @@ export default function Home() {
             bandcampId: "",
           }))
         );
-      } catch {
+      } catch (e) {
+        console.error("[Ilaiyaraaja] query failed:", e);
         setIlaiyaraajaTracks([]);
       }
     })();
