@@ -242,7 +242,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
             return (
               <div
                 key={`discover-${track.trackName}-${track.albumName}`}
-                className={`w-full text-left px-5 py-3 border-b border-[#151515] transition-colors group flex items-center ${
+                className={`w-full text-left px-5 py-1.5 border-b border-[#151515] transition-colors group flex items-center ${
                   isPlaying ? "bg-red-950/40" : "hover:bg-[#111]"
                 }`}
               >
