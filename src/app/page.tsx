@@ -977,6 +977,7 @@ export default function Home() {
         videoId: string;
         soundcloudId: string | null;
         bandcampId: string | null;
+        releaseDate: string | null;
       }>(sql);
 
       setTracks(
@@ -992,6 +993,7 @@ export default function Home() {
           videoId: r.videoId || "",
           soundcloudId: r.soundcloudId || "",
           bandcampId: r.bandcampId || "",
+          releaseDate: r.releaseDate || "",
         }))
       );
     } catch {

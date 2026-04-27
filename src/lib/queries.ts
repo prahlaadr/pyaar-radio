@@ -397,7 +397,8 @@ export function buildTracksQuery(
       TRY_CAST(Popularity AS INT) as popularity,
       "Video ID" as videoId,
       "Soundcloud ID" as soundcloudId,
-      "Bandcamp ID" as bandcampId
+      "Bandcamp ID" as bandcampId,
+      "Release Date" as releaseDate
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
     ORDER BY TRY_CAST(Tempo AS FLOAT) DESC

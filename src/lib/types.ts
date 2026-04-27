@@ -22,6 +22,7 @@ export interface Track {
   soundcloudId: string;
   bandcampId: string;
   likedPosition?: number | null;
+  releaseDate?: string;
 }
 
 export const CHAPTER_TYPES = ["intro", "buildup", "cruise", "peak", "comedown", "closer"] as const;

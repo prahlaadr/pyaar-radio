@@ -6,7 +6,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 type SortCol = "track" | "bpm" | "key" | "dur" | null;
 type SortDir = "asc" | "desc";
 type ViewMode = "all" | "albums";
-type ListItem = { type: "track"; track: Track } | { type: "album"; albumName: string; count: number };
+type ListItem = { type: "track"; track: Track } | { type: "album"; albumName: string; count: number; year?: number };
 
 interface Props {
   artist: Artist;
@@ -82,10 +82,31 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
       if (arr) arr.push(track);
       else albumMap.set(key, [track]);
     }
+    // Derive year per album from any track's Release Date (e.g. "2015-04-21" → 2015).
+    // Sort albums newest first; albums with no year sort last.
+    const yearOf = (tracks: Track[]): number => {
+      for (const t of tracks) {
+        const d = (t.releaseDate || "").trim();
+        if (d.length >= 4) {
+          const y = parseInt(d.slice(0, 4), 10);
+          if (!isNaN(y) && y > 1900 && y < 2100) return y;
+        }
+      }
+      return 0;
+    };
+    const albumEntries = [...albumMap.entries()]
+      .map(([name, tracks]) => ({ name, tracks, year: yearOf(tracks) }))
+      .sort((a, b) => {
+        // null/0 year goes to the bottom; otherwise newest first
+        if (a.year === 0 && b.year !== 0) return 1;
+        if (b.year === 0 && a.year !== 0) return -1;
+        if (a.year !== b.year) return b.year - a.year;
+        return a.name.localeCompare(b.name);
+      });
     const items: ListItem[] = [];
-    for (const [albumName, albumTracks] of albumMap) {
-      items.push({ type: "album", albumName, count: albumTracks.length });
-      for (const track of albumTracks) {
+    for (const { name, tracks, year } of albumEntries) {
+      items.push({ type: "album", albumName: name, count: tracks.length, year: year || undefined });
+      for (const track of tracks) {
         items.push({ type: "track", track });
       }
     }
@@ -307,6 +328,7 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     >
                       <td colSpan={6} className="px-2 py-2">
                         <span className="text-[10px] text-[#888] uppercase tracking-wider">{item.albumName}</span>
+                        {item.year && <span className="text-[10px] text-[#666] ml-2">{item.year}</span>}
                         <span className="text-[10px] text-[#888] ml-2">{item.count}</span>
                       </td>
                     </tr>
