@@ -204,6 +204,22 @@ def main():
             writer.writerow([a["browseId"], a["title"], a["artist"], year, a["trackCount"]])
     print(f"\nGenerated {albums_csv_path} ({len(index)} albums)")
 
+    # Inject any new album tracks into masterlist so they surface on artist pages.
+    # Idempotent — only adds tracks whose Video ID isn't already there.
+    print("\nInjecting new album tracks into masterlist...")
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["python3", str(PROJECT_DIR / "inject_album_tracks.py"), "--apply"],
+            capture_output=True, text=True, cwd=str(PROJECT_DIR),
+        )
+        for line in result.stdout.splitlines()[-3:]:
+            print(f"  {line}")
+        if result.returncode != 0:
+            print(f"  WARN: inject failed (code {result.returncode}): {result.stderr[:200]}")
+    except Exception as e:
+        print(f"  WARN: inject step skipped: {e}")
+
     print(f"\n{'=' * 60}")
     print("SUMMARY")
     print("=" * 60)

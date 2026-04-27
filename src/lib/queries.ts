@@ -404,6 +404,31 @@ export function buildTracksQuery(
   `;
 }
 
+export function buildLikedTracksQuery(searchTerm = ""): string {
+  const conditions = [`Liked = 'Yes'`];
+  if (searchTerm.trim()) {
+    const s = searchTerm.replace(/'/g, "''").toLowerCase();
+    conditions.push(`(LOWER("Track Name") LIKE '%${s}%' OR LOWER("Artist Name(s)") LIKE '%${s}%' OR LOWER("Album Name") LIKE '%${s}%')`);
+  }
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
+    FROM masterlist
+    WHERE ${conditions.join(" AND ")}
+    ORDER BY "Artist Name(s)", "Track Name"
+  `;
+}
+
 // BPM range targets for each chapter type (energy arc)
 const CHAPTER_BPM_OFFSETS: Record<ChapterType, { min: number; max: number }> = {
   intro: { min: -20, max: -5 },
