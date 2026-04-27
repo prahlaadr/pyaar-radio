@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3139,
- "totalTracks": 40489,
- "syncedAt": "2026-04-26T09:02:23.038699Z",
+ "albumCount": 3142,
+ "totalTracks": 40515,
+ "syncedAt": "2026-04-27T03:18:26.258950Z",
  "albums": [
+  {
+   "browseId": "MPREb_DtqWN4yRQFu",
+   "title": "U",
+   "artist": "Baauer",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_QafG5FR9oMG",
+   "title": "Slimeball",
+   "artist": "Young Nudy",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_fv4Af0Zijmz",
+   "title": "alfredo linguine",
+   "artist": "st. maurice",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_Si1q7nEI9Hh",
    "title": "For What It's Worth",
