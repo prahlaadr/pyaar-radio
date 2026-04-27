@@ -5,13 +5,18 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 interface Props {
   artists: Artist[];
   onSelect: (artist: Artist) => void;
+  /** If provided, the virtualizer uses this element as its scroll container
+   *  instead of ArtistList's own div. Lets the parent (e.g. Browse view) scroll
+   *  Discover + ArtistList together as one continuous scroll. */
+  scrollElementRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-export function ArtistList({ artists, onSelect }: Props) {
-  const scrollRef = useRef<HTMLDivElement>(null);
+export function ArtistList({ artists, onSelect, scrollElementRef }: Props) {
+  const internalScrollRef = useRef<HTMLDivElement>(null);
+  const useExternalScroll = !!scrollElementRef;
   const virtualizer = useVirtualizer({
     count: artists.length,
-    getScrollElement: () => scrollRef.current,
+    getScrollElement: () => (useExternalScroll ? scrollElementRef!.current : internalScrollRef.current),
     estimateSize: () => 56,
     overscan: 10,
   });
@@ -24,8 +29,14 @@ export function ArtistList({ artists, onSelect }: Props) {
     );
   }
 
+  // When external scroll is provided, render flat (no overflow-y-auto wrapper)
+  // so we participate in the parent's scroll flow.
+  const outerProps = useExternalScroll
+    ? { className: "" }
+    : { ref: internalScrollRef, className: "flex-1 overflow-y-auto min-h-0" };
+
   return (
-    <div ref={scrollRef} className="flex-1 overflow-y-auto">
+    <div {...outerProps}>
       <div style={{ height: `${virtualizer.getTotalSize()}px`, position: "relative", width: "100%" }}>
         {virtualizer.getVirtualItems().map((vr) => {
           const artist = artists[vr.index];

@@ -78,30 +78,38 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
           {largeFont ? "Aa" : "Aa"}
         </button>
       </div>
-      {/* Discover — 5 random tracks */}
-      {discoverTracks.length > 0 && (
-        <div className="border-b border-[#222] bg-[#060607]">
-          <div className="px-3 md:px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
-            <span className="text-[10px] text-[#999] uppercase tracking-wider">
-              Discover
-            </span>
-            <button
-              onClick={shuffleDiscover}
-              className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
-              title="Shuffle"
-            >
-              &#8635;
-            </button>
-          </div>
-          {discoverTracks.map((track, idx) => {
-            const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
-            return (
-              <div
-                key={`discover-${track.trackName}-${idx}`}
-                className={`px-3 md:px-5 ${largeFont ? "py-3" : "py-2"} border-b border-[#151515] transition-colors group flex items-center gap-2 md:gap-3 ${
-                  isPlaying ? accent.bg : "hover:bg-[#111]"
-                }`}
+      {/* Discover + virtualized tracks share ONE scroll container so Discover
+          scrolls away with the tracks instead of being frozen above them. */}
+      {tracks.length === 0 ? (
+        <div className="flex-1 flex items-center justify-center py-20">
+          <p className="text-[#888] text-xs uppercase tracking-widest">{emptyMessage}</p>
+        </div>
+      ) : (
+        <div ref={scrollRef} className="flex-1 overflow-y-auto min-h-0">
+        {/* Discover — 5 random tracks (scrolls with the list) */}
+        {discoverTracks.length > 0 && (
+          <div className="border-b border-[#222] bg-[#060607]">
+            <div className="px-3 md:px-5 py-1.5 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between">
+              <span className="text-[10px] text-[#999] uppercase tracking-wider">
+                Discover
+              </span>
+              <button
+                onClick={shuffleDiscover}
+                className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
+                title="Shuffle"
               >
+                &#8635;
+              </button>
+            </div>
+            {discoverTracks.map((track, idx) => {
+              const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
+              return (
+                <div
+                  key={`discover-${track.trackName}-${idx}`}
+                  className={`px-3 md:px-5 ${largeFont ? "py-3" : "py-2"} border-b border-[#151515] transition-colors group flex items-center gap-2 md:gap-3 ${
+                    isPlaying ? accent.bg : "hover:bg-[#111]"
+                  }`}
+                >
                 <button
                   onClick={() => onPlay(track)}
                   className={`text-[#999] transition-colors ${largeFont ? "text-sm" : "text-[10px]"} min-w-[36px] min-h-[36px] flex items-center justify-center shrink-0 ${accent.hoverText}`}
@@ -135,12 +143,6 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
         </div>
       )}
 
-      {tracks.length === 0 ? (
-        <div className="flex-1 flex items-center justify-center py-20">
-          <p className="text-[#888] text-xs uppercase tracking-widest">{emptyMessage}</p>
-        </div>
-      ) : (
-        <div ref={scrollRef} className="flex-1 overflow-y-auto">
           <div style={{ height: virtualizer.getTotalSize(), position: "relative" }}>
             {virtualizer.getVirtualItems().map((vRow) => {
               const track = tracks[vRow.index];

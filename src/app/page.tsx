@@ -937,6 +937,7 @@ export default function Home() {
   }, [selectedAlbum, fetchAlbumTracks]);
 
   const albumsScrollRef = useRef<HTMLDivElement>(null);
+  const browseScrollRef = useRef<HTMLDivElement>(null);
 
   const filteredAlbums = useMemo(() => {
     const q = albumsSearch.trim().toLowerCase();
@@ -2378,7 +2379,7 @@ export default function Home() {
                 onFilteredTracksChange={setArtistFilteredTracks}
               />
             ) : (
-              <div className="flex-1 overflow-y-auto flex flex-col">
+              <div ref={browseScrollRef} className="flex-1 overflow-y-auto min-h-0 flex flex-col">
                 {/* Featured artists — visible only on cold start */}
                 {!filtersActive && featuredArtists.length > 0 && (
                   <div className="border-b border-[#222]">
@@ -2582,7 +2583,7 @@ export default function Home() {
                         )}
                       </div>
                     ) : (
-                      <ArtistList artists={artists} onSelect={handleSelectArtist} />
+                      <ArtistList artists={artists} onSelect={handleSelectArtist} scrollElementRef={browseScrollRef} />
                     )}
                   </>
                 )}
