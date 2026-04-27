@@ -824,7 +824,15 @@ export default function Home() {
       const iTrack = idx("Track Name"), iArtist = idx("Artist Name(s)"),
             iAlbum = idx("Album Name"), iTempo = idx("Tempo"), iDur = idx("Duration"),
             iKey = idx("Key"), iPos = idx("Liked Position"), iVid = idx("Video ID"),
-            iSc = idx("Soundcloud ID");
+            iSc = idx("Soundcloud ID"),
+            iFla = idx("First Liked At"), iEnergy = idx("Energy"),
+            iDance = idx("Danceability"), iVal = idx("Valence");
+
+      const num = (s: string | undefined): number | null => {
+        if (!s || !s.trim()) return null;
+        const n = parseFloat(s);
+        return Number.isFinite(n) ? n : null;
+      };
 
       const tracks: Track[] = [];
       for (let i = 1; i < lines.length; i++) {
@@ -845,6 +853,10 @@ export default function Home() {
           soundcloudId: c[iSc] || "",
           bandcampId: "",
           likedPosition: Number.isFinite(pos as number) ? pos : null,
+          firstLikedAt: iFla >= 0 ? (c[iFla] || null) : null,
+          energy: iEnergy >= 0 ? num(c[iEnergy]) : null,
+          danceability: iDance >= 0 ? num(c[iDance]) : null,
+          valence: iVal >= 0 ? num(c[iVal]) : null,
         });
       }
       setLikedTracks(tracks);
@@ -2131,7 +2143,7 @@ export default function Home() {
             onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
             onArtistClick={navigateToArtist}
             nowPlaying={nowPlaying}
-            sortOptions={["recency", "track", "artist", "album"]}
+            sortOptions={["recency", "track", "artist", "album", "energy", "danceability", "valence", "bpm"]}
             defaultSort="recency"
             emptyMessage="No liked songs yet — like tracks in YT Music and they'll appear here after the next sync"
           />

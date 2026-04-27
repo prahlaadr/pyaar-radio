@@ -301,6 +301,9 @@ def main():
     liked_fields = [
         "Track Name", "Artist Name(s)", "Album Name", "Tempo", "Duration",
         "Key", "Liked Position", "Video ID", "Soundcloud ID",
+        # Spotify-export hydration columns (added 2026-04-27) — power true
+        # chronological recency sort + DJ-style audio-feature sorts.
+        "First Liked At", "Energy", "Danceability", "Valence",
     ]
     with open(liked_csv, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=liked_fields, extrasaction="ignore")

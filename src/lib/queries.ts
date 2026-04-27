@@ -448,10 +448,14 @@ export function buildLikedTracksQuery(searchTerm = ""): string {
       "Video ID" as videoId,
       "Soundcloud ID" as soundcloudId,
       "Bandcamp ID" as bandcampId,
-      TRY_CAST("Liked Position" AS INT) as likedPosition
+      TRY_CAST("Liked Position" AS INT) as likedPosition,
+      "First Liked At" as firstLikedAt,
+      TRY_CAST(Energy AS FLOAT) as energy,
+      TRY_CAST(Danceability AS FLOAT) as danceability,
+      TRY_CAST(Valence AS FLOAT) as valence
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
-    ORDER BY likedPosition NULLS LAST, "Artist Name(s)", "Track Name"
+    ORDER BY "First Liked At" DESC NULLS LAST, likedPosition NULLS LAST, "Artist Name(s)", "Track Name"
   `;
 }
 

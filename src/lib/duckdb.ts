@@ -84,6 +84,19 @@ async function init() {
   try {
     await conn.query(`ALTER TABLE masterlist ADD COLUMN "Liked Position" VARCHAR DEFAULT ''`);
   } catch { /* column already exists */ }
+  // Spotify-export hydration columns (added 2026-04-27). First Liked At is the
+  // true date-liked timestamp (beats Liked Position which has YT Music's API
+  // alphabetical-bulk quirk for older tracks). Audio features power DJ-style
+  // sort modes (Energy / Valence / Danceability).
+  for (const col of [
+    "First Liked At", "Danceability", "Energy", "Loudness", "Mode",
+    "Speechiness", "Acousticness", "Liveness", "Valence", "Time Signature",
+    "Spotify URI",
+  ]) {
+    try {
+      await conn.query(`ALTER TABLE masterlist ADD COLUMN "${col}" VARCHAR DEFAULT ''`);
+    } catch { /* column already exists */ }
+  }
   try {
     await conn.query(`
       CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)

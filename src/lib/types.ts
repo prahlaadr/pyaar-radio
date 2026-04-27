@@ -23,6 +23,10 @@ export interface Track {
   bandcampId: string;
   likedPosition?: number | null;
   releaseDate?: string;
+  firstLikedAt?: string | null;
+  energy?: number | null;
+  danceability?: number | null;
+  valence?: number | null;
 }
 
 export const CHAPTER_TYPES = ["intro", "buildup", "cruise", "peak", "comedown", "closer"] as const;

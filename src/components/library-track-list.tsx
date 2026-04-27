@@ -3,7 +3,7 @@ import type { Track } from "@/lib/types";
 import { pitchToCamelot } from "@/lib/camelot";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
-type SortCol = "recency" | "track" | "artist" | "album" | "bpm" | "dur";
+type SortCol = "recency" | "track" | "artist" | "album" | "bpm" | "dur" | "energy" | "danceability" | "valence";
 type SortDir = "asc" | "desc";
 
 const SORT_LABELS: Record<SortCol, string> = {
@@ -13,6 +13,9 @@ const SORT_LABELS: Record<SortCol, string> = {
   album: "A-Z Album",
   bpm: "BPM",
   dur: "Duration",
+  energy: "Energy",
+  danceability: "Danceability",
+  valence: "Valence (Mood)",
 };
 
 interface Props {
@@ -62,7 +65,24 @@ export function LibraryTrackList({
       let cmp = 0;
       switch (sortCol) {
         case "recency": {
-          // null/undefined sort to the end (no recency data yet)
+          // Primary: First Liked At (true date from Spotify export, ISO string sort works).
+          // Tracks with First Liked At sort newest-first; tracks without fall back to
+          // Liked Position (YT Music API order — ~accurate for most recent ~50, alphabetical
+          // for older bulk).
+          const aHas = !!a.firstLikedAt;
+          const bHas = !!b.firstLikedAt;
+          if (aHas && bHas) {
+            // Both have date — newest first. Reverse comparison for descending date order.
+            cmp = (b.firstLikedAt || "").localeCompare(a.firstLikedAt || "");
+            // Note: in "asc" sort direction (default for recency = newest first),
+            // we want this comparison applied directly, not reversed at the end.
+            return sortDir === "desc" ? -cmp : cmp;
+          }
+          if (aHas !== bHas) {
+            // Tracks with date come first (more reliable than Liked Position fallback)
+            return aHas ? -1 : 1;
+          }
+          // Neither has date — fall back to Liked Position (asc = newest first per YT API)
           const ap = a.likedPosition ?? Number.MAX_SAFE_INTEGER;
           const bp = b.likedPosition ?? Number.MAX_SAFE_INTEGER;
           cmp = ap - bp;
@@ -80,6 +100,9 @@ export function LibraryTrackList({
           cmp = parse(a.duration) - parse(b.duration);
           break;
         }
+        case "energy": cmp = (a.energy ?? -1) - (b.energy ?? -1); break;
+        case "danceability": cmp = (a.danceability ?? -1) - (b.danceability ?? -1); break;
+        case "valence": cmp = (a.valence ?? -1) - (b.valence ?? -1); break;
       }
       return sortDir === "desc" ? -cmp : cmp;
     });
@@ -98,8 +121,11 @@ export function LibraryTrackList({
       setSortDir((d) => (d === "asc" ? "desc" : "asc"));
     } else {
       setSortCol(col);
-      // recency/bpm/dur default desc-ish? recency uses asc (0=newest first); A-Z uses asc
-      setSortDir("asc");
+      // Default direction per sort type: numeric audio features default to "high
+      // first" (more useful for DJ workflow); A-Z and recency default to "asc".
+      // Recency asc happens to put newest-first because First Liked At desc is
+      // baked into the comparator.
+      setSortDir(col === "energy" || col === "danceability" || col === "valence" || col === "bpm" ? "desc" : "asc");
     }
   }, [sortCol]);
 
