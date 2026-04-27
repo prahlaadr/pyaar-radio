@@ -294,27 +294,15 @@ def main():
     liked_csv = PROJECT_DIR / "public" / "data" / "liked.csv"
     liked_rows = [r for r in existing_rows + new_rows if (r.get("Liked", "") or "").strip() == "Yes"]
 
-    # 3-tier hybrid sort to match the in-app `recency` comparator:
-    #   Tier 1 (Liked Position 0..99):   recent YT Music likes, YT chrono order
-    #   Tier 2 (has First Liked At):     Spotify-era likes, TRUE chronological
-    #   Tier 3 (neither):                fallback to YT API order
-    TRUSTED_TOP = 100
-    def pos_int(r):
+    # Sort by Liked Position ascending = matches YT Music's UI ordering exactly.
+    # The First Liked At column is preserved in the CSV and powers the optional
+    # "Recently Liked (Spotify)" sort in the app, but is NOT used as the default
+    # sort because mixing YT Music order with Spotify dates breaks adjacency.
+    def pos_key(r):
         p = (r.get("Liked Position", "") or "").strip()
         try: return int(p)
         except (ValueError, TypeError): return 10**9
-
-    def sort_key(r):
-        pos = pos_int(r)
-        fla = (r.get("First Liked At", "") or "").strip()
-        if pos < TRUSTED_TOP:
-            return (1, pos, "")
-        if fla:
-            # Tier 2: invert ISO date so newest sorts first under ascending key
-            return (2, 0, "".join(chr(255 - ord(c)) for c in fla))
-        return (3, pos, "")
-
-    liked_rows.sort(key=sort_key)
+    liked_rows.sort(key=pos_key)
     liked_fields = [
         "Track Name", "Artist Name(s)", "Album Name", "Tempo", "Duration",
         "Key", "Liked Position", "Video ID", "Soundcloud ID",

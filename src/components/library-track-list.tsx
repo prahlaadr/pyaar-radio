@@ -66,36 +66,15 @@ export function LibraryTrackList({
       let cmp = 0;
       switch (sortCol) {
         case "recency": {
-          // 3-tier hybrid that respects the user's actual listening timeline:
-          //   Tier 1 (top):    Liked Position < TRUSTED_TOP — recent YT Music likes
-          //                    in YT Music's true chronological order (matches the
-          //                    user's view on music.youtube.com).
-          //   Tier 2 (middle): has First Liked At (Spotify date) — pre-Jan-30
-          //                    Spotify-era likes in TRUE chronological order.
-          //   Tier 3 (bottom): neither — fall back to Liked Position (which becomes
-          //                    alphabetical-Z-A from the YT API quirk after position ~50).
-          const TRUSTED_TOP = 100;
-          const tier = (t: Track): number => {
-            if (t.likedPosition != null && t.likedPosition < TRUSTED_TOP) return 1;
-            if (t.firstLikedAt) return 2;
-            return 3;
-          };
-          const ta = tier(a);
-          const tb = tier(b);
-          if (ta !== tb) {
-            // Lower tier number sorts first regardless of sortDir on the within-tier
-            // comparison. We do honor sortDir for the FINAL fallthrough below.
-            cmp = ta - tb;
-            return sortDir === "desc" ? -cmp : cmp;
-          }
-          if (ta === 1) {
-            cmp = (a.likedPosition ?? 0) - (b.likedPosition ?? 0);
-          } else if (ta === 2) {
-            cmp = (b.firstLikedAt || "").localeCompare(a.firstLikedAt || "");
-            return sortDir === "desc" ? -cmp : cmp;
-          } else {
-            cmp = (a.likedPosition ?? Number.MAX_SAFE_INTEGER) - (b.likedPosition ?? Number.MAX_SAFE_INTEGER);
-          }
+          // Pure Liked Position sort = matches YT Music's UI ordering exactly.
+          // YT Music's API returns positions that the YT Music UI displays in the
+          // same order. Whatever quirks exist in YT's ordering (some chronological
+          // batches, some alphabetical clumps in older positions), our app shows
+          // the same order. The "Recently Liked (Spotify)" sort option is available
+          // for users who want true Spotify-date chronological order.
+          const ap = a.likedPosition ?? Number.MAX_SAFE_INTEGER;
+          const bp = b.likedPosition ?? Number.MAX_SAFE_INTEGER;
+          cmp = ap - bp;
           break;
         }
         case "spotifyDate": {
