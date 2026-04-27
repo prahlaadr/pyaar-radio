@@ -13,9 +13,9 @@ DJ setlist planning tool + music ecosystem hub. Browse a curated artist/track li
 ```
 Pyaar Crate (discover)         Pyaar Core (enrich)
   /crate — artists to explore    ~/03-music-audio/pyaar-core/
-  crate.csv — candidates         hydrate_bpm.py, hydrate_spotify.py
+  crate.csv — candidates         hydrate_bpm.py, hydrate_release_date.py
         │                               │
-        │  promote                      │  BPM, key, genres, popularity
+        │  promote                      │  BPM, key, release date
         ▼                               ▼
 ┌─────────────────────────────────────────────────┐
 │              Pyaar Radio (this repo)             │
@@ -174,7 +174,9 @@ python sync_playlists.py            # Sync playlists
 ```bash
 cd ~/Documents/Projects/03-music-audio/pyaar-core
 .venv/bin/python hydrate_bpm.py --vault-only     # BPM + key
-.venv/bin/python hydrate_spotify.py              # Genres + popularity
+# hydrate_spotify.py removed 2026-04-27 (Spotify Premium required on dev account)
+cd ~/Documents/Projects/01-web-apps/pyaar-radio
+.venv/bin/python hydrate_release_date.py --apply # Release Date from album JSONs
 ```
 
 ---
