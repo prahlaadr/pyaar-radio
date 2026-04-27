@@ -31,7 +31,7 @@ COLUMNS = [
     "Duration", "Popularity", "Key", "Release Date", "Instrumentalness",
     "Tags", "Liked", "Playlist 1", "Playlist 2", "Playlist 3",
     "Playlist 4", "Playlist 5", "Playlist Count", "Video ID",
-    "Soundcloud ID", "Source",
+    "Soundcloud ID", "Source", "Liked Position",
 ]
 
 # Regex patterns to identify monthly playlists (e.g. "Feb 26", "Mirch 26", "Jooli '25")
@@ -162,6 +162,10 @@ def main():
         if vid not in all_songs:
             all_songs[vid] = song
 
+    # Capture YT Music's liked-songs ordering (reverse-chronological, newest first)
+    # so the app can sort the ♥ Liked tab by recency. 0 = most recently liked.
+    liked_position = {song["videoId"]: i for i, song in enumerate(liked)}
+
     # Filter to only new songs not in masterlist
     new_songs = {vid: s for vid, s in all_songs.items() if vid not in existing_ids}
     liked_ids = {s["videoId"] for s in liked}
@@ -174,13 +178,17 @@ def main():
         row["Video ID"] = song["videoId"]
         row["Liked"] = "Yes" if song["videoId"] in liked_ids else ""
         row["Source"] = "YT Music"
+        if song["videoId"] in liked_position:
+            row["Liked Position"] = str(liked_position[song["videoId"]])
         new_rows.append(row)
 
     # Reconcile Liked column on existing rows: a track previously injected from
     # an album (Liked='No') flips to 'Yes' once the user likes it; an unliked
     # track flips back to ''. Without this, the ♥ Liked tab misses tracks.
+    # Also backfill/refresh Liked Position for sort-by-recency.
     liked_flips_to_yes = 0
     liked_flips_to_no = 0
+    position_updates = 0
     for row in existing_rows:
         vid = row.get("Video ID", "")
         if not vid:
@@ -194,6 +202,12 @@ def main():
             row["Liked"] = "No"
             liked_flips_to_no += 1
 
+        new_pos = str(liked_position[vid]) if vid in liked_position else ""
+        old_pos = (row.get("Liked Position", "") or "").strip()
+        if new_pos != old_pos:
+            row["Liked Position"] = new_pos
+            position_updates += 1
+
     print(f"\n{'=' * 60}")
     print("SUMMARY")
     print("=" * 60)
@@ -203,9 +217,10 @@ def main():
     print(f"Combined unique:              {len(all_songs)}")
     print(f"New songs to append:          {len(new_rows)}")
     print(f"Liked column updates:         +{liked_flips_to_yes} → Yes, {liked_flips_to_no} → No")
+    print(f"Liked Position updates:       {position_updates}")
 
-    if not new_rows and not liked_flips_to_yes and not liked_flips_to_no:
-        print("\nNo new songs and no Liked changes. Masterlist is up to date!")
+    if not new_rows and not liked_flips_to_yes and not liked_flips_to_no and not position_updates:
+        print("\nNo new songs, no Liked changes, no position changes. Up to date!")
         return
 
     print(f"\nNew songs:")
@@ -232,18 +247,28 @@ def main():
         backup.write_text(MASTERLIST_PATH.read_text(encoding="utf-8"), encoding="utf-8")
         print(f"Backup created: {backup}")
 
-    # If we updated any existing rows' Liked column, rewrite the whole file
-    # (otherwise just append for speed/safety).
-    if liked_flips_to_yes or liked_flips_to_no:
+    # If we updated any existing rows (Liked or Liked Position), rewrite the
+    # whole file (otherwise just append for speed/safety). Also force rewrite
+    # when the file is missing the Liked Position column entirely (first run
+    # after the column was added).
+    needs_rewrite = (
+        liked_flips_to_yes or liked_flips_to_no or position_updates
+        or (file_fieldnames and "Liked Position" not in file_fieldnames)
+    )
+    if needs_rewrite:
         # Use the file's actual fieldnames to preserve all columns (Genres,
         # Tempo, Key, etc. that aren't in our COLUMNS list but exist in CSV).
-        fieldnames = file_fieldnames or COLUMNS
+        # Append any new columns from COLUMNS that aren't already in the file.
+        fieldnames = list(file_fieldnames) if file_fieldnames else list(COLUMNS)
+        for col in COLUMNS:
+            if col not in fieldnames:
+                fieldnames.append(col)
         with open(MASTERLIST_PATH, "w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
             writer.writeheader()
             writer.writerows(existing_rows)
             writer.writerows(new_rows)
-        print(f"Rewrote masterlist with {liked_flips_to_yes + liked_flips_to_no} Liked updates + {len(new_rows)} appends")
+        print(f"Rewrote masterlist: {liked_flips_to_yes + liked_flips_to_no} Liked + {position_updates} Position updates + {len(new_rows)} appends")
     else:
         with open(MASTERLIST_PATH, "a", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")

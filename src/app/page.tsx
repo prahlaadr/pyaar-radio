@@ -4,13 +4,15 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
 import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery, buildLikedTracksQuery, buildAlbumTracksQuery } from "@/lib/queries";
 
-type SavedAlbum = { browseId: string; title: string; artist: string; year: string; trackCount: number };
+type SavedAlbum = { position: number | null; browseId: string; title: string; artist: string; year: string; trackCount: number };
+type AlbumSort = "recency" | "title" | "artist";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
+import { LibraryTrackList } from "@/components/library-track-list";
 import { SectionTrackList } from "@/components/section-track-list";
 import { SetlistPanel } from "@/components/setlist";
 import { ImportModal } from "@/components/import-modal";
@@ -185,9 +187,9 @@ export default function Home() {
   const [importOpen, setImportOpen] = useState(false);
   const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums">(urlInit.current.tab || "browse");
   const [likedTracks, setLikedTracks] = useState<Track[]>([]);
-  const [likedSearch, setLikedSearch] = useState("");
   const [savedAlbums, setSavedAlbums] = useState<SavedAlbum[]>([]);
   const [albumsSearch, setAlbumsSearch] = useState("");
+  const [albumsSort, setAlbumsSort] = useState<AlbumSort>("recency");
   const [selectedAlbum, setSelectedAlbum] = useState<SavedAlbum | null>(null);
   const [albumTracks, setAlbumTracks] = useState<Track[]>([]);
   const pendingArtist = useRef<string | null>(urlInit.current.artist);
@@ -790,14 +792,16 @@ export default function Home() {
     tvPlayerRef.current?.playVideo(nextVideo.videoId, 0);
   }, [tvCurrentChannel]);
 
-  const fetchLikedTracks = useCallback(async (search: string) => {
+  const fetchLikedTracks = useCallback(async () => {
     try {
-      const sql = buildLikedTracksQuery(search);
+      // Fetch all liked tracks once; LibraryTrackList handles client-side search + sort.
+      const sql = buildLikedTracksQuery();
       const rows = await query<{
         trackName: string; artistNames: string; albumName: string;
         genres: string | null; tempo: number | null; duration: string;
         key: number | null; popularity: number | null;
         videoId: string; soundcloudId: string | null; bandcampId: string | null;
+        likedPosition: number | null;
       }>(sql);
       setLikedTracks(rows.map((r) => ({
         trackName: r.trackName,
@@ -811,6 +815,7 @@ export default function Home() {
         videoId: r.videoId || "",
         soundcloudId: r.soundcloudId || "",
         bandcampId: r.bandcampId || "",
+        likedPosition: r.likedPosition,
       })));
     } catch {
       setLikedTracks([]);
@@ -818,17 +823,19 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (tab === "liked") fetchLikedTracks(likedSearch);
-  }, [tab, likedSearch, fetchLikedTracks]);
+    if (tab === "liked" && likedTracks.length === 0) fetchLikedTracks();
+  }, [tab, likedTracks.length, fetchLikedTracks]);
 
   useEffect(() => {
     if (tab !== "albums" || savedAlbums.length > 0) return;
     fetch("/data/albums.csv")
       .then((r) => r.text())
       .then((csv) => {
-        const lines = csv.trim().split("\n").slice(1);
+        const allLines = csv.trim().split("\n");
+        const header = (allLines[0] || "").split(",");
+        const hasPosition = header[0] === "position";
+        const lines = allLines.slice(1);
         const albums: SavedAlbum[] = lines.map((line) => {
-          // naive CSV parse — titles/artists with commas wrapped in quotes
           const cells: string[] = [];
           let cur = "", inQ = false;
           for (const ch of line) {
@@ -837,20 +844,20 @@ export default function Home() {
             else cur += ch;
           }
           cells.push(cur);
+          // New format (after sync_albums.py update): position, browseId, title, artist, year, trackCount
+          // Old format: browseId, title, artist, year, trackCount  (position will be null until next sync)
+          const offset = hasPosition ? 1 : 0;
+          const positionStr = hasPosition ? cells[0] : "";
+          const position = positionStr ? parseInt(positionStr, 10) : null;
           return {
-            browseId: cells[0] || "",
-            title: cells[1] || "",
-            artist: cells[2] || "",
-            year: cells[3] || "",
-            trackCount: parseInt(cells[4] || "0", 10),
+            position: Number.isFinite(position as number) ? position : null,
+            browseId: cells[offset] || "",
+            title: cells[offset + 1] || "",
+            artist: cells[offset + 2] || "",
+            year: cells[offset + 3] || "",
+            trackCount: parseInt(cells[offset + 4] || "0", 10),
           };
         }).filter((a) => a.title && a.artist);
-        // newest first by year, then alpha
-        albums.sort((a, b) => {
-          const yd = (parseInt(b.year) || 0) - (parseInt(a.year) || 0);
-          if (yd !== 0) return yd;
-          return a.artist.localeCompare(b.artist);
-        });
         setSavedAlbums(albums);
       })
       .catch(() => setSavedAlbums([]));
@@ -884,12 +891,29 @@ export default function Home() {
 
   const filteredAlbums = useMemo(() => {
     const q = albumsSearch.trim().toLowerCase();
-    if (!q) return savedAlbums;
-    return savedAlbums.filter((a) =>
-      a.title.toLowerCase().includes(q) ||
-      a.artist.toLowerCase().includes(q)
-    );
-  }, [savedAlbums, albumsSearch]);
+    const filtered = q
+      ? savedAlbums.filter((a) =>
+          a.title.toLowerCase().includes(q) ||
+          a.artist.toLowerCase().includes(q)
+        )
+      : savedAlbums;
+    const sorted = [...filtered];
+    sorted.sort((a, b) => {
+      switch (albumsSort) {
+        case "recency": {
+          // null position sorts to end (no recency data yet — pre-backfill rows)
+          const ap = a.position ?? Number.MAX_SAFE_INTEGER;
+          const bp = b.position ?? Number.MAX_SAFE_INTEGER;
+          if (ap !== bp) return ap - bp;
+          // tiebreak: newest year first
+          return (parseInt(b.year) || 0) - (parseInt(a.year) || 0);
+        }
+        case "title": return a.title.localeCompare(b.title);
+        case "artist": return a.artist.localeCompare(b.artist);
+      }
+    });
+    return sorted;
+  }, [savedAlbums, albumsSearch, albumsSort]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
@@ -1959,40 +1983,58 @@ export default function Home() {
               <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
                 <button
                   onClick={() => setSelectedAlbum(null)}
-                  className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
+                  className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors shrink-0"
                 >
                   ← Albums
                 </button>
                 <div className="flex-1 min-w-0">
                   <div className="text-xs text-white truncate">{selectedAlbum.title}</div>
-                  <div className="text-[10px] text-[#888] truncate">{selectedAlbum.artist} · {selectedAlbum.year} · {albumTracks.length}/{selectedAlbum.trackCount} tracks</div>
+                  <div className="text-[10px] text-[#888] truncate">
+                    {selectedAlbum.artist}{selectedAlbum.year ? ` · ${selectedAlbum.year}` : ""} · {albumTracks.length}/{selectedAlbum.trackCount} tracks
+                  </div>
                 </div>
               </div>
-              <div className="flex-1 overflow-hidden">
-                <TrackList
-                  artist={{ artist: selectedAlbum.artist, aliases: [], channel: "Soul", samay: "Day/Night", desi: "Non-Desi", vibes: [], bpmLow: 0, bpmHigh: 300 }}
-                  tracks={albumTracks}
-                  loading={false}
-                  onBack={() => setSelectedAlbum(null)}
-                  onAddToSetlist={addToSetlist}
-                  onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
-                  nowPlaying={nowPlaying}
-                />
-              </div>
+              <LibraryTrackList
+                title={selectedAlbum.title}
+                subtitle={`${selectedAlbum.artist}${selectedAlbum.year ? ` · ${selectedAlbum.year}` : ""}`}
+                tracks={albumTracks}
+                onAddToSetlist={addToSetlist}
+                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                onArtistClick={navigateToArtist}
+                nowPlaying={nowPlaying}
+                sortOptions={["track", "artist", "bpm", "dur"]}
+                defaultSort="track"
+                emptyMessage="No tracks loaded — try syncing the album"
+              />
             </div>
           ) : (
             <div className="flex-1 overflow-hidden flex flex-col">
-              <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
-                <span className="text-[10px] text-[#999] uppercase tracking-wider shrink-0">
-                  Saved Albums ({filteredAlbums.length.toLocaleString()}{albumsSearch ? ` of ${savedAlbums.length.toLocaleString()}` : ""})
-                </span>
+              <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3 flex-wrap">
+                <div className="flex items-baseline gap-2 shrink-0">
+                  <span className="text-sm font-medium text-white">Saved Albums</span>
+                  <span className="text-[10px] text-[#999] uppercase tracking-wider">
+                    {albumsSearch ? `${filteredAlbums.length}/` : ""}{savedAlbums.length.toLocaleString()}
+                  </span>
+                </div>
                 <input
                   type="text"
-                  placeholder="Search albums..."
+                  placeholder="SEARCH ALBUM / ARTIST..."
                   value={albumsSearch}
                   onChange={(e) => setAlbumsSearch(e.target.value)}
-                  className="flex-1 bg-transparent text-xs text-white placeholder-[#555] focus:outline-none"
+                  className="flex-1 min-w-[12rem] bg-[#111] border border-[#333] px-3 py-1.5 text-xs uppercase tracking-wider text-white placeholder-[#666] focus:outline-none focus:border-red-500 transition-colors"
                 />
+                <div className="flex items-center gap-1 ml-auto">
+                  <span className="text-[10px] text-[#999] uppercase tracking-wider mr-1">Sort</span>
+                  <select
+                    value={albumsSort}
+                    onChange={(e) => setAlbumsSort(e.target.value as AlbumSort)}
+                    className="bg-[#111] border border-[#333] text-xs text-white px-2 py-1 focus:outline-none focus:border-red-500"
+                  >
+                    <option value="recency">Recently Saved</option>
+                    <option value="artist">A-Z Artist</option>
+                    <option value="title">A-Z Title</option>
+                  </select>
+                </div>
               </div>
               <div className="flex-1 overflow-y-auto">
                 {filteredAlbums.map((album) => (
@@ -2023,31 +2065,17 @@ export default function Home() {
             </div>
           )
         ) : tab === "liked" ? (
-          <div className="flex-1 overflow-hidden flex flex-col">
-            <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
-              <span className="text-[10px] text-[#999] uppercase tracking-wider shrink-0">
-                ♥ Liked Songs ({likedTracks.length.toLocaleString()})
-              </span>
-              <input
-                type="text"
-                placeholder="Search liked..."
-                value={likedSearch}
-                onChange={(e) => setLikedSearch(e.target.value)}
-                className="flex-1 bg-transparent text-xs text-white placeholder-[#555] focus:outline-none"
-              />
-            </div>
-            <div className="flex-1 overflow-hidden">
-              <TrackList
-                artist={{ artist: "Liked Songs", aliases: [], channel: "Soul", samay: "Day/Night", desi: "Non-Desi", vibes: [], bpmLow: 0, bpmHigh: 300 }}
-                tracks={likedTracks}
-                loading={false}
-                onBack={() => setTab("browse")}
-                onAddToSetlist={addToSetlist}
-                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
-                nowPlaying={nowPlaying}
-              />
-            </div>
-          </div>
+          <LibraryTrackList
+            title="♥ Liked Songs"
+            tracks={likedTracks}
+            onAddToSetlist={addToSetlist}
+            onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+            onArtistClick={navigateToArtist}
+            nowPlaying={nowPlaying}
+            sortOptions={["recency", "track", "artist", "album"]}
+            defaultSort="recency"
+            emptyMessage="No liked songs yet — like tracks in YT Music and they'll appear here after the next sync"
+          />
         ) : tab === "setlists" ? (
           <div className="flex-1 overflow-y-auto">
             {vaultManifest.length > 0 && (

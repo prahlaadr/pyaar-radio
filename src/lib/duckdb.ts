@@ -79,6 +79,11 @@ async function init() {
   try {
     await conn.query(`ALTER TABLE masterlist ADD COLUMN "Bandcamp ID" VARCHAR DEFAULT ''`);
   } catch { /* column already exists */ }
+  // Ensure Liked Position column exists (added 2026-04 for ♥ Liked recency sort).
+  // Empty until next sync runs and backfills.
+  try {
+    await conn.query(`ALTER TABLE masterlist ADD COLUMN "Liked Position" VARCHAR DEFAULT ''`);
+  } catch { /* column already exists */ }
   try {
     await conn.query(`
       CREATE TABLE tamil AS SELECT * FROM read_csv_auto('tamil.csv', all_varchar=true)

@@ -21,6 +21,7 @@ export interface Track {
   videoId: string;
   soundcloudId: string;
   bandcampId: string;
+  likedPosition?: number | null;
 }
 
 export const CHAPTER_TYPES = ["intro", "buildup", "cruise", "peak", "comedown", "closer"] as const;
