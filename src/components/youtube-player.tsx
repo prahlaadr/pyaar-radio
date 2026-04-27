@@ -634,8 +634,18 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
       {/* === Desktop: single row === */}
       <div className="hidden md:flex items-center px-5 py-1.5 gap-3">
-        {/* Thumbnail placeholder */}
-        <div className="w-12 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
+        {/* Album art — YT thumbnail works for both audio-only YT Music tracks
+            (which use the cover as thumbnail) and music videos. */}
+        <div className="w-9 h-9 shrink-0 overflow-hidden rounded-sm bg-[#111]">
+          {track.videoId && (
+            <img
+              src={`https://i.ytimg.com/vi/${track.videoId}/mqdefault.jpg`}
+              alt=""
+              className="w-full h-full object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+          )}
+        </div>
         {onPrev && (
           <button onClick={onPrev} className="text-[#999] hover:text-white transition-colors text-[10px] shrink-0" title="Previous">
             &#9664;&#9664;
@@ -713,24 +723,34 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         <button onClick={handleClose} className="text-[#888] hover:text-white transition-colors text-xs shrink-0">&times;</button>
       </div>
 
-      {/* === Mobile: two rows — song info top, controls bottom === */}
+      {/* === Mobile: album art prominent at top, then info, then controls === */}
       <div className="md:hidden">
-        {/* Row 1: thumbnail + song info */}
-        <div className="flex items-center px-3 pt-2 pb-1 gap-3">
-          <div className="w-10 h-10 shrink-0 overflow-hidden rounded-sm bg-[#111]" />
-          <div className="flex-1 min-w-0">
-            <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
-            <div className="text-xs text-[#999] truncate flex items-center gap-1">
-              {onArtistClick ? (
-                <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="hover:text-white transition-colors">
-                  {track.artistNames.split(";")[0]}
-                </button>
-              ) : (
-                track.artistNames.split(";")[0]
-              )}
-              {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
-              {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider">BC</span>}
+        {/* Row 1: prominent album art (centered, large square) */}
+        {track.videoId && (
+          <div className="flex justify-center px-3 pt-3 pb-1">
+            <div className="w-32 h-32 overflow-hidden rounded-md bg-[#111] shadow-lg">
+              <img
+                src={`https://i.ytimg.com/vi/${track.videoId}/hqdefault.jpg`}
+                alt=""
+                className="w-full h-full object-cover"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+              />
             </div>
+          </div>
+        )}
+        {/* Row 2: track info — centered under the art */}
+        <div className="px-3 pt-1 pb-1 text-center">
+          <div className="text-sm text-[#ccc] truncate">{track.trackName}</div>
+          <div className="text-xs text-[#999] truncate flex items-center justify-center gap-1">
+            {onArtistClick ? (
+              <button onClick={() => onArtistClick(track.artistNames.split(";")[0].trim())} className="hover:text-white transition-colors">
+                {track.artistNames.split(";")[0]}
+              </button>
+            ) : (
+              track.artistNames.split(";")[0]
+            )}
+            {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
+            {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider">BC</span>}
           </div>
         </div>
 

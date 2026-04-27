@@ -1947,7 +1947,7 @@ export default function Home() {
   }
 
   return (
-    <div className={`flex h-screen overflow-hidden bg-background pt-[env(safe-area-inset-top)] ${nowPlaying ? "pb-24 md:pb-10" : ""}`}>
+    <div className={`flex h-screen overflow-hidden bg-background pt-[env(safe-area-inset-top)] ${nowPlaying ? "pb-72 md:pb-10" : ""}`}>
       {/* Left: Browse / Setlists */}
       <div className="flex-1 min-w-0 md:border-r border-[#222] flex flex-col min-h-0">
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2">
