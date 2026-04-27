@@ -48,6 +48,17 @@ def get_ytmusic() -> YTMusic:
     return YTMusic(str(BROWSER_AUTH_PATH))
 
 
+def load_existing_rows() -> tuple[list[dict], list[str]]:
+    """Returns (rows, fieldnames). Used to update Liked column for existing tracks."""
+    if not MASTERLIST_PATH.exists():
+        return [], []
+    with open(MASTERLIST_PATH, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+    return rows, fieldnames
+
+
 def load_existing_video_ids() -> set[str]:
     video_ids = set()
     if not MASTERLIST_PATH.exists():
@@ -132,7 +143,9 @@ def main():
     print("=" * 60)
 
     print("\nLoading existing masterlist...")
-    existing_ids = load_existing_video_ids()
+    existing_rows, file_fieldnames = load_existing_rows()
+    existing_ids = {r.get("Video ID", "") for r in existing_rows if r.get("Video ID")}
+    print(f"Loaded {len(existing_ids)} existing Video IDs from masterlist")
 
     print("\nConnecting to YouTube Music...")
     yt = get_ytmusic()
@@ -163,6 +176,24 @@ def main():
         row["Source"] = "YT Music"
         new_rows.append(row)
 
+    # Reconcile Liked column on existing rows: a track previously injected from
+    # an album (Liked='No') flips to 'Yes' once the user likes it; an unliked
+    # track flips back to ''. Without this, the ♥ Liked tab misses tracks.
+    liked_flips_to_yes = 0
+    liked_flips_to_no = 0
+    for row in existing_rows:
+        vid = row.get("Video ID", "")
+        if not vid:
+            continue
+        current = (row.get("Liked", "") or "").strip()
+        should_be_liked = vid in liked_ids
+        if should_be_liked and current != "Yes":
+            row["Liked"] = "Yes"
+            liked_flips_to_yes += 1
+        elif not should_be_liked and current == "Yes":
+            row["Liked"] = "No"
+            liked_flips_to_no += 1
+
     print(f"\n{'=' * 60}")
     print("SUMMARY")
     print("=" * 60)
@@ -171,9 +202,10 @@ def main():
     print(f"Monthly playlist songs:       {len(monthly)}")
     print(f"Combined unique:              {len(all_songs)}")
     print(f"New songs to append:          {len(new_rows)}")
+    print(f"Liked column updates:         +{liked_flips_to_yes} → Yes, {liked_flips_to_no} → No")
 
-    if not new_rows:
-        print("\nNo new songs to add. Masterlist is up to date!")
+    if not new_rows and not liked_flips_to_yes and not liked_flips_to_no:
+        print("\nNo new songs and no Liked changes. Masterlist is up to date!")
         return
 
     print(f"\nNew songs:")
@@ -200,11 +232,23 @@ def main():
         backup.write_text(MASTERLIST_PATH.read_text(encoding="utf-8"), encoding="utf-8")
         print(f"Backup created: {backup}")
 
-    # Append
-    with open(MASTERLIST_PATH, "a", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
-        writer.writerows(new_rows)
-    print(f"Appended {len(new_rows)} new songs")
+    # If we updated any existing rows' Liked column, rewrite the whole file
+    # (otherwise just append for speed/safety).
+    if liked_flips_to_yes or liked_flips_to_no:
+        # Use the file's actual fieldnames to preserve all columns (Genres,
+        # Tempo, Key, etc. that aren't in our COLUMNS list but exist in CSV).
+        fieldnames = file_fieldnames or COLUMNS
+        with open(MASTERLIST_PATH, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(existing_rows)
+            writer.writerows(new_rows)
+        print(f"Rewrote masterlist with {liked_flips_to_yes + liked_flips_to_no} Liked updates + {len(new_rows)} appends")
+    else:
+        with open(MASTERLIST_PATH, "a", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=COLUMNS, extrasaction="ignore")
+            writer.writerows(new_rows)
+        print(f"Appended {len(new_rows)} new songs")
 
     # Push (local only, skip in CI)
     if not args.no_push:

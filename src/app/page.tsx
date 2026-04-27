@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
-import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery, buildLikedTracksQuery } from "@/lib/queries";
+import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery, buildLikedTracksQuery, buildAlbumTracksQuery } from "@/lib/queries";
+
+type SavedAlbum = { browseId: string; title: string; artist: string; year: string; trackCount: number };
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
@@ -38,7 +40,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | "liked" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks"; tvChannel: string | null; tvVideo: string | null; tvTime: number } {
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | "liked" | "albums" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks"; tvChannel: string | null; tvVideo: string | null; tvTime: number } {
   if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, ilaiyaraaja: false, section: "browse", view: "artists", tvChannel: null, tvVideo: null, tvTime: 0 };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
@@ -73,7 +75,7 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
     const match = window.location.pathname.match(/^\/artist\/([^/]+)/);
     if (match) artist = decodeURIComponent(match[1]);
   }
-  const tab = p.get("tab") as "browse" | "setlists" | "liked" | null;
+  const tab = p.get("tab") as "browse" | "setlists" | "liked" | "albums" | null;
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
   const pathname = window.location.pathname;
@@ -88,7 +90,7 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view, tvChannel, tvVideo, tvTime };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists" | "liked", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean, tvChannelId?: string | null, tvVideoId?: string | null, tvTimeOffset?: number): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists" | "liked" | "albums", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean, tvChannelId?: string | null, tvVideoId?: string | null, tvTimeOffset?: number): string {
   const p = new URLSearchParams();
   if (section === "tv") {
     if (tvChannelId) p.set("ch", tvChannelId);
@@ -108,6 +110,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (filters.search) p.set("q", filters.search);
   if (tab === "setlists") p.set("tab", "setlists");
   if (tab === "liked") p.set("tab", "liked");
+  if (tab === "albums") p.set("tab", "albums");
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
@@ -180,9 +183,13 @@ export default function Home() {
   const [setlistName, setSetlistName] = useState<string | null>(null);
   const [setlistId, setSetlistId] = useState<string | null>(null);
   const [importOpen, setImportOpen] = useState(false);
-  const [tab, setTab] = useState<"browse" | "setlists" | "liked">(urlInit.current.tab || "browse");
+  const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums">(urlInit.current.tab || "browse");
   const [likedTracks, setLikedTracks] = useState<Track[]>([]);
   const [likedSearch, setLikedSearch] = useState("");
+  const [savedAlbums, setSavedAlbums] = useState<SavedAlbum[]>([]);
+  const [albumsSearch, setAlbumsSearch] = useState("");
+  const [selectedAlbum, setSelectedAlbum] = useState<SavedAlbum | null>(null);
+  const [albumTracks, setAlbumTracks] = useState<Track[]>([]);
   const pendingArtist = useRef<string | null>(urlInit.current.artist);
   const pendingTrack = useRef<string | null>(urlInit.current.track);
   const pendingAutoplay = useRef(urlInit.current.autoplay);
@@ -813,6 +820,76 @@ export default function Home() {
   useEffect(() => {
     if (tab === "liked") fetchLikedTracks(likedSearch);
   }, [tab, likedSearch, fetchLikedTracks]);
+
+  useEffect(() => {
+    if (tab !== "albums" || savedAlbums.length > 0) return;
+    fetch("/data/albums.csv")
+      .then((r) => r.text())
+      .then((csv) => {
+        const lines = csv.trim().split("\n").slice(1);
+        const albums: SavedAlbum[] = lines.map((line) => {
+          // naive CSV parse — titles/artists with commas wrapped in quotes
+          const cells: string[] = [];
+          let cur = "", inQ = false;
+          for (const ch of line) {
+            if (ch === '"') inQ = !inQ;
+            else if (ch === "," && !inQ) { cells.push(cur); cur = ""; }
+            else cur += ch;
+          }
+          cells.push(cur);
+          return {
+            browseId: cells[0] || "",
+            title: cells[1] || "",
+            artist: cells[2] || "",
+            year: cells[3] || "",
+            trackCount: parseInt(cells[4] || "0", 10),
+          };
+        }).filter((a) => a.title && a.artist);
+        // newest first by year, then alpha
+        albums.sort((a, b) => {
+          const yd = (parseInt(b.year) || 0) - (parseInt(a.year) || 0);
+          if (yd !== 0) return yd;
+          return a.artist.localeCompare(b.artist);
+        });
+        setSavedAlbums(albums);
+      })
+      .catch(() => setSavedAlbums([]));
+  }, [tab, savedAlbums.length]);
+
+  const fetchAlbumTracks = useCallback(async (album: SavedAlbum) => {
+    try {
+      const sql = buildAlbumTracksQuery(album.title, album.artist);
+      const rows = await query<{
+        trackName: string; artistNames: string; albumName: string;
+        genres: string | null; tempo: number | null; duration: string;
+        key: number | null; popularity: number | null;
+        videoId: string; soundcloudId: string | null; bandcampId: string | null;
+      }>(sql);
+      setAlbumTracks(rows.map((r) => ({
+        trackName: r.trackName, artistNames: r.artistNames, albumName: r.albumName || "",
+        genres: r.genres ? r.genres.split(",").map((g) => g.trim()) : [],
+        tempo: Number(r.tempo) || 0, duration: r.duration || "",
+        key: Number(r.key) || 0, popularity: Number(r.popularity) || 0,
+        videoId: r.videoId || "", soundcloudId: r.soundcloudId || "", bandcampId: r.bandcampId || "",
+      })));
+    } catch {
+      setAlbumTracks([]);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (selectedAlbum) fetchAlbumTracks(selectedAlbum);
+    else setAlbumTracks([]);
+  }, [selectedAlbum, fetchAlbumTracks]);
+
+  const filteredAlbums = useMemo(() => {
+    const q = albumsSearch.trim().toLowerCase();
+    if (!q) return savedAlbums;
+    return savedAlbums.filter((a) =>
+      a.title.toLowerCase().includes(q) ||
+      a.artist.toLowerCase().includes(q)
+    );
+  }, [savedAlbums, albumsSearch]);
 
   const fetchTracks = useCallback(async (artist: Artist, bpmMin: number, bpmMax: number, halfTime: boolean) => {
     setTracksLoading(true);
@@ -1850,6 +1927,17 @@ export default function Home() {
               ♥ Liked
             </button>
             <button
+              onClick={() => { setTab("albums"); setSelectedAlbum(null); handleSelectArtist(null); }}
+              className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
+                tab === "albums"
+                  ? "bg-red-600 text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+              title="Saved albums"
+            >
+              Albums
+            </button>
+            <button
               onClick={() => setTab("setlists")}
               className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
                 tab === "setlists"
@@ -1865,7 +1953,76 @@ export default function Home() {
           </div>
         </div>
 
-        {tab === "liked" ? (
+        {tab === "albums" ? (
+          selectedAlbum ? (
+            <div className="flex-1 overflow-hidden flex flex-col">
+              <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
+                <button
+                  onClick={() => setSelectedAlbum(null)}
+                  className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider transition-colors"
+                >
+                  ← Albums
+                </button>
+                <div className="flex-1 min-w-0">
+                  <div className="text-xs text-white truncate">{selectedAlbum.title}</div>
+                  <div className="text-[10px] text-[#888] truncate">{selectedAlbum.artist} · {selectedAlbum.year} · {albumTracks.length}/{selectedAlbum.trackCount} tracks</div>
+                </div>
+              </div>
+              <div className="flex-1 overflow-hidden">
+                <TrackList
+                  artist={{ artist: selectedAlbum.artist, aliases: [], channel: "Soul", samay: "Day/Night", desi: "Non-Desi", vibes: [], bpmLow: 0, bpmHigh: 300 }}
+                  tracks={albumTracks}
+                  loading={false}
+                  onBack={() => setSelectedAlbum(null)}
+                  onAddToSetlist={addToSetlist}
+                  onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                  nowPlaying={nowPlaying}
+                />
+              </div>
+            </div>
+          ) : (
+            <div className="flex-1 overflow-hidden flex flex-col">
+              <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
+                <span className="text-[10px] text-[#999] uppercase tracking-wider shrink-0">
+                  Saved Albums ({filteredAlbums.length.toLocaleString()}{albumsSearch ? ` of ${savedAlbums.length.toLocaleString()}` : ""})
+                </span>
+                <input
+                  type="text"
+                  placeholder="Search albums..."
+                  value={albumsSearch}
+                  onChange={(e) => setAlbumsSearch(e.target.value)}
+                  className="flex-1 bg-transparent text-xs text-white placeholder-[#555] focus:outline-none"
+                />
+              </div>
+              <div className="flex-1 overflow-y-auto">
+                {filteredAlbums.map((album) => (
+                  <div
+                    key={album.browseId}
+                    onClick={() => setSelectedAlbum(album)}
+                    className="px-5 py-2.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 cursor-pointer group"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <div className="text-xs text-[#ccc] group-hover:text-white transition-colors truncate">
+                        {album.title}
+                      </div>
+                      <div className="text-[10px] text-[#888] truncate mt-0.5">
+                        {album.artist}{album.year ? ` · ${album.year}` : ""}
+                      </div>
+                    </div>
+                    <span className="text-[10px] text-[#888] tabular-nums shrink-0">
+                      {album.trackCount} tr
+                    </span>
+                  </div>
+                ))}
+                {filteredAlbums.length === 0 && (
+                  <div className="px-5 py-8 text-center text-xs text-[#666]">
+                    {albumsSearch ? "No albums match search" : "No saved albums"}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        ) : tab === "liked" ? (
           <div className="flex-1 overflow-hidden flex flex-col">
             <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3">
               <span className="text-[10px] text-[#999] uppercase tracking-wider shrink-0">

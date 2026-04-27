@@ -404,6 +404,30 @@ export function buildTracksQuery(
   `;
 }
 
+export function buildAlbumTracksQuery(albumTitle: string, artistName: string): string {
+  const t = albumTitle.replace(/'/g, "''");
+  const a = artistName.replace(/'/g, "''").toLowerCase();
+  return `
+    SELECT
+      "Track Name" as trackName,
+      "Artist Name(s)" as artistNames,
+      "Album Name" as albumName,
+      Genres as genres,
+      TRY_CAST(Tempo AS FLOAT) as tempo,
+      Duration as duration,
+      TRY_CAST(Key AS INT) as key,
+      TRY_CAST(Popularity AS INT) as popularity,
+      "Video ID" as videoId,
+      "Soundcloud ID" as soundcloudId,
+      "Bandcamp ID" as bandcampId
+    FROM masterlist
+    WHERE LOWER("Album Name") = LOWER('${t}')
+      AND _artists_lower LIKE '%;${a};%'
+    ORDER BY "Track Name"
+  `;
+}
+
+
 export function buildLikedTracksQuery(searchTerm = ""): string {
   const conditions = [`Liked = 'Yes'`];
   if (searchTerm.trim()) {
