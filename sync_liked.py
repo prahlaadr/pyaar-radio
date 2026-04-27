@@ -282,18 +282,6 @@ def main():
             writer.writerows(new_rows)
         print(f"Appended {len(new_rows)} new songs")
 
-    # Push (local only, skip in CI)
-    if not args.no_push:
-        try:
-            subprocess.run(["git", "add", str(MASTERLIST_PATH)], cwd=PROJECT_DIR, check=True)
-            ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-            subprocess.run(["git", "commit", "-m", f"sync: update masterlist ({ts})"],
-                           cwd=PROJECT_DIR, check=True)
-            subprocess.run(["git", "push"], cwd=PROJECT_DIR, check=True)
-            print("Pushed to pyaar-radio.")
-        except subprocess.CalledProcessError as e:
-            print(f"ERROR pushing: {e}")
-
     # Generate a small Liked-only CSV (public/data/liked.csv) so the ♥ Liked
     # tab can fetch directly without waiting on DuckDB to parse the 74K-row
     # masterlist. Sorted by Liked Position ascending (0 = newest first per YT
@@ -352,6 +340,20 @@ def main():
         writer.writeheader()
         writer.writerows(liked_rows)
     print(f"Generated {liked_csv} ({len(liked_rows)} liked tracks, sorted by recency)")
+
+    # Push BOTH masterlist.csv and liked.csv in the same commit. (Previously
+    # liked.csv was regenerated AFTER the push, so it was never committed and
+    # Vercel always served a stale version.)
+    if not args.no_push:
+        try:
+            subprocess.run(["git", "add", str(MASTERLIST_PATH), str(liked_csv)], cwd=PROJECT_DIR, check=True)
+            ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+            subprocess.run(["git", "commit", "-m", f"sync: update masterlist + liked ({ts})"],
+                           cwd=PROJECT_DIR, check=True)
+            subprocess.run(["git", "push"], cwd=PROJECT_DIR, check=True)
+            print("Pushed to pyaar-radio.")
+        except subprocess.CalledProcessError as e:
+            print(f"ERROR pushing: {e}")
 
     print("\nSync complete!")
 
