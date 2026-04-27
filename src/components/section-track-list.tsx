@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { Track } from "@/lib/types";
 
@@ -45,11 +45,32 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
     shuffleDiscover();
   }, [shuffleDiscover]);
 
+  // Track offset between scroll container top and our virtualized items
+  // container — Discover sits above, so items are below scrollMargin px.
+  const innerRef = useRef<HTMLDivElement>(null);
+  const [scrollMargin, setScrollMargin] = useState(0);
+  useLayoutEffect(() => {
+    const update = () => {
+      const inner = innerRef.current;
+      const scroll = scrollRef.current;
+      if (!inner || !scroll) return;
+      const innerTop = inner.getBoundingClientRect().top;
+      const scrollTop = scroll.getBoundingClientRect().top;
+      setScrollMargin(innerTop - scrollTop + scroll.scrollTop);
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    if (scrollRef.current) ro.observe(scrollRef.current);
+    if (innerRef.current) ro.observe(innerRef.current);
+    return () => ro.disconnect();
+  }, [discoverTracks.length, tracks.length]);
+
   const virtualizer = useVirtualizer({
     count: tracks.length,
     getScrollElement: () => scrollRef.current,
     estimateSize: () => largeFont ? 64 : 48,
     overscan: 15,
+    scrollMargin,
   });
 
   useEffect(() => {
@@ -143,7 +164,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
         </div>
       )}
 
-          <div style={{ height: virtualizer.getTotalSize(), position: "relative" }}>
+          <div ref={innerRef} style={{ height: virtualizer.getTotalSize(), position: "relative" }}>
             {virtualizer.getVirtualItems().map((vRow) => {
               const track = tracks[vRow.index];
               const isPlaying = nowPlaying && track.trackName === nowPlaying.trackName && track.artistNames === nowPlaying.artistNames;
@@ -152,7 +173,7 @@ export function SectionTrackList({ tracks, label, search, onSearchChange, accent
                   key={vRow.index}
                   data-index={vRow.index}
                   ref={virtualizer.measureElement}
-                  style={{ position: "absolute", top: 0, left: 0, width: "100%", transform: `translateY(${vRow.start}px)` }}
+                  style={{ position: "absolute", top: 0, left: 0, width: "100%", transform: `translateY(${vRow.start - scrollMargin}px)` }}
                   className={`px-3 md:px-5 ${largeFont ? "py-3" : "py-2"} border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
                     isPlaying ? accent.bg : ""
                   }`}
