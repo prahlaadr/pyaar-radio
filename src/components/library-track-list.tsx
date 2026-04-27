@@ -7,7 +7,7 @@ type SortCol = "recency" | "spotifyDate" | "track" | "artist" | "album" | "bpm" 
 type SortDir = "asc" | "desc";
 
 const SORT_LABELS: Record<SortCol, string> = {
-  recency: "Recently Liked (YT)",
+  recency: "Recently Liked",
   spotifyDate: "Recently Liked (Spotify)",
   track: "A-Z Track",
   artist: "A-Z Artist",

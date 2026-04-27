@@ -2143,7 +2143,7 @@ export default function Home() {
             onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
             onArtistClick={navigateToArtist}
             nowPlaying={nowPlaying}
-            sortOptions={["recency", "spotifyDate", "track", "artist", "album", "energy", "danceability", "valence", "bpm"]}
+            sortOptions={["recency", "track", "artist", "album", "energy", "danceability", "valence", "bpm"]}
             defaultSort="recency"
             emptyMessage="No liked songs yet — like tracks in YT Music and they'll appear here after the next sync"
           />
