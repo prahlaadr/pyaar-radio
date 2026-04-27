@@ -104,7 +104,7 @@ export function LibraryTrackList({
   }, [sortCol]);
 
   return (
-    <div className="flex-1 overflow-hidden flex flex-col">
+    <div className="flex-1 overflow-hidden flex flex-col min-h-0">
       {/* Toolbar: title + count + search + sort */}
       <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center gap-3 flex-wrap">
         <div className="flex items-baseline gap-2 shrink-0">
@@ -147,7 +147,7 @@ export function LibraryTrackList({
           <p className="text-[#666] text-xs uppercase tracking-widest">{emptyMessage}</p>
         </div>
       ) : (
-        <div ref={scrollRef} className="flex-1 overflow-y-auto">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto min-h-0">
           <table className="w-full text-sm">
             <thead className="text-[10px] text-[#999] uppercase tracking-wider border-b border-[#222] sticky top-0 bg-background z-10">
               <tr>
