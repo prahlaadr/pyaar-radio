@@ -301,15 +301,44 @@ def main():
     liked_csv = PROJECT_DIR / "public" / "data" / "liked.csv"
     liked_rows = [r for r in existing_rows + new_rows if (r.get("Liked", "") or "").strip() == "Yes"]
 
-    # Sort by Liked Position ascending = matches YT Music's UI ordering exactly.
-    # The First Liked At column is preserved in the CSV and powers the optional
-    # "Recently Liked (Spotify)" sort in the app, but is NOT used as the default
-    # sort because mixing YT Music order with Spotify dates breaks adjacency.
-    def pos_key(r):
+    def pos_int(r):
         p = (r.get("Liked Position", "") or "").strip()
         try: return int(p)
         except (ValueError, TypeError): return 10**9
-    liked_rows.sort(key=pos_key)
+
+    # Detect Z-A cutoff: YT Music's API returns recent likes chronologically but
+    # then transitions into an alphabetical-Z-A bulk for older tracks. Find the
+    # first position where 20+ consecutive tracks are in Z-A descending order.
+    by_pos = sorted([r for r in liked_rows if pos_int(r) < 10**9], key=pos_int)
+    yt_cutoff = 10**9
+    if len(by_pos) >= 20:
+        for i in range(len(by_pos) - 20):
+            is_za = True
+            for j in range(20):
+                a = (by_pos[i+j].get("Track Name", "") or "").lower()
+                b = (by_pos[i+j+1].get("Track Name", "") or "").lower()
+                if a < b:
+                    is_za = False
+                    break
+            if is_za:
+                yt_cutoff = pos_int(by_pos[i])
+                break
+    print(f"  YT chronological cutoff detected at Liked Position {yt_cutoff}")
+
+    # 3-tier hybrid sort:
+    #   Tier 1 (top, pos < yt_cutoff):    YT chronological ordering
+    #   Tier 2 (middle, has First Liked At): Spotify-era TRUE chronological order
+    #   Tier 3 (bottom, neither):         leftover Z-A bulk in YT API order
+    def sort_key(r):
+        pos = pos_int(r)
+        fla = (r.get("First Liked At", "") or "").strip()
+        if pos < yt_cutoff:
+            return (1, pos, "")
+        if fla:
+            return (2, 0, "".join(chr(255 - ord(c)) for c in fla))
+        return (3, pos, "")
+
+    liked_rows.sort(key=sort_key)
     liked_fields = [
         "Track Name", "Artist Name(s)", "Album Name", "Tempo", "Duration",
         "Key", "Liked Position", "Video ID", "Soundcloud ID",

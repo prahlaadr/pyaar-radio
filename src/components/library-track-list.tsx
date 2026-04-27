@@ -60,21 +60,58 @@ export function LibraryTrackList({
     );
   }, [tracks, search]);
 
+  // Detect where YT Music's API ordering transitions from chronological to
+  // alphabetical-Z-A bulk. Find first position where 20+ consecutive tracks
+  // are in Z-A descending order by track name. That's the cutoff.
+  // Tracks before cutoff = trustworthy YT chronological; tracks after = Z-A bulk
+  // we want to skip in favor of Spotify dates.
+  const ytCutoff = useMemo(() => {
+    // Sort tracks by likedPosition asc, walk to find Z-A run start.
+    const byPos = [...filtered]
+      .filter((t) => t.likedPosition != null)
+      .sort((a, b) => (a.likedPosition ?? 0) - (b.likedPosition ?? 0));
+    if (byPos.length < 20) return byPos.length;
+    for (let i = 0; i < byPos.length - 20; i++) {
+      let isZA = true;
+      for (let j = 0; j < 20; j++) {
+        const a = (byPos[i + j].trackName || "").toLowerCase();
+        const b = (byPos[i + j + 1].trackName || "").toLowerCase();
+        if (a < b) { isZA = false; break; }
+      }
+      if (isZA) return byPos[i].likedPosition ?? i;
+    }
+    return Number.MAX_SAFE_INTEGER;
+  }, [filtered]);
+
   const sorted = useMemo(() => {
     const arr = [...filtered];
     arr.sort((a, b) => {
       let cmp = 0;
       switch (sortCol) {
         case "recency": {
-          // Pure Liked Position sort = matches YT Music's UI ordering exactly.
-          // YT Music's API returns positions that the YT Music UI displays in the
-          // same order. Whatever quirks exist in YT's ordering (some chronological
-          // batches, some alphabetical clumps in older positions), our app shows
-          // the same order. The "Recently Liked (Spotify)" sort option is available
-          // for users who want true Spotify-date chronological order.
-          const ap = a.likedPosition ?? Number.MAX_SAFE_INTEGER;
-          const bp = b.likedPosition ?? Number.MAX_SAFE_INTEGER;
-          cmp = ap - bp;
+          // 3-tier: YT chronological (before Z-A cutoff) → Spotify chronological
+          // → Z-A bulk leftovers. The cutoff is auto-detected from the data so
+          // it adjusts as the user re-likes tracks.
+          const tier = (t: Track): number => {
+            const pos = t.likedPosition;
+            if (pos != null && pos < ytCutoff) return 1; // YT chronological
+            if (t.firstLikedAt) return 2;                // Spotify-era chronological
+            return 3;                                     // leftover (Z-A bulk without Spotify date)
+          };
+          const ta = tier(a);
+          const tb = tier(b);
+          if (ta !== tb) {
+            cmp = ta - tb;
+            return sortDir === "desc" ? -cmp : cmp;
+          }
+          if (ta === 1) {
+            cmp = (a.likedPosition ?? 0) - (b.likedPosition ?? 0);
+          } else if (ta === 2) {
+            cmp = (b.firstLikedAt || "").localeCompare(a.firstLikedAt || "");
+            return sortDir === "desc" ? -cmp : cmp;
+          } else {
+            cmp = (a.likedPosition ?? Number.MAX_SAFE_INTEGER) - (b.likedPosition ?? Number.MAX_SAFE_INTEGER);
+          }
           break;
         }
         case "spotifyDate": {
