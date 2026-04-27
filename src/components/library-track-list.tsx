@@ -3,11 +3,12 @@ import type { Track } from "@/lib/types";
 import { pitchToCamelot } from "@/lib/camelot";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
-type SortCol = "recency" | "track" | "artist" | "album" | "bpm" | "dur" | "energy" | "danceability" | "valence";
+type SortCol = "recency" | "spotifyDate" | "track" | "artist" | "album" | "bpm" | "dur" | "energy" | "danceability" | "valence";
 type SortDir = "asc" | "desc";
 
 const SORT_LABELS: Record<SortCol, string> = {
-  recency: "Recently Liked",
+  recency: "Recently Liked (YT)",
+  spotifyDate: "Recently Liked (Spotify)",
   track: "A-Z Track",
   artist: "A-Z Artist",
   album: "A-Z Album",
@@ -65,27 +66,26 @@ export function LibraryTrackList({
       let cmp = 0;
       switch (sortCol) {
         case "recency": {
-          // Primary: First Liked At (true date from Spotify export, ISO string sort works).
-          // Tracks with First Liked At sort newest-first; tracks without fall back to
-          // Liked Position (YT Music API order — ~accurate for most recent ~50, alphabetical
-          // for older bulk).
-          const aHas = !!a.firstLikedAt;
-          const bHas = !!b.firstLikedAt;
-          if (aHas && bHas) {
-            // Both have date — newest first. Reverse comparison for descending date order.
-            cmp = (b.firstLikedAt || "").localeCompare(a.firstLikedAt || "");
-            // Note: in "asc" sort direction (default for recency = newest first),
-            // we want this comparison applied directly, not reversed at the end.
-            return sortDir === "desc" ? -cmp : cmp;
-          }
-          if (aHas !== bHas) {
-            // Tracks with date come first (more reliable than Liked Position fallback)
-            return aHas ? -1 : 1;
-          }
-          // Neither has date — fall back to Liked Position (asc = newest first per YT API)
+          // Primary: Liked Position (YT Music API order — matches what user sees on
+          // music.youtube.com for the most-recent ~50, then alphabetical-Z-A within
+          // batches for older tracks (a known YT Music API quirk we can't fix).
           const ap = a.likedPosition ?? Number.MAX_SAFE_INTEGER;
           const bp = b.likedPosition ?? Number.MAX_SAFE_INTEGER;
           cmp = ap - bp;
+          break;
+        }
+        case "spotifyDate": {
+          // Optional sort by Spotify's date-liked (when available). Reflects when
+          // the track was liked on Spotify, NOT YT Music — useful for tracks the
+          // user added to both platforms around the same time.
+          const aHas = !!a.firstLikedAt;
+          const bHas = !!b.firstLikedAt;
+          if (aHas && bHas) {
+            cmp = (b.firstLikedAt || "").localeCompare(a.firstLikedAt || "");
+            return sortDir === "desc" ? -cmp : cmp;
+          }
+          if (aHas !== bHas) return aHas ? -1 : 1;
+          cmp = 0;
           break;
         }
         case "track": cmp = a.trackName.localeCompare(b.trackName); break;

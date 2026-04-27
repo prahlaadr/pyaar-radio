@@ -455,7 +455,7 @@ export function buildLikedTracksQuery(searchTerm = ""): string {
       TRY_CAST(Valence AS FLOAT) as valence
     FROM masterlist
     WHERE ${conditions.join(" AND ")}
-    ORDER BY "First Liked At" DESC NULLS LAST, likedPosition NULLS LAST, "Artist Name(s)", "Track Name"
+    ORDER BY likedPosition NULLS LAST, "First Liked At" DESC NULLS LAST, "Artist Name(s)", "Track Name"
   `;
 }
 

@@ -289,7 +289,8 @@ def main():
 
     # Generate a small Liked-only CSV (public/data/liked.csv) so the ♥ Liked
     # tab can fetch directly without waiting on DuckDB to parse the 74K-row
-    # masterlist. Sorted by Liked Position ascending (0 = newest first).
+    # masterlist. Sorted by Liked Position ascending (0 = newest first per YT
+    # Music's API ordering — matches what the user sees on music.youtube.com).
     liked_csv = PROJECT_DIR / "public" / "data" / "liked.csv"
     liked_rows = [r for r in existing_rows + new_rows if (r.get("Liked", "") or "").strip() == "Yes"]
     def pos_key(r):
@@ -301,8 +302,9 @@ def main():
     liked_fields = [
         "Track Name", "Artist Name(s)", "Album Name", "Tempo", "Duration",
         "Key", "Liked Position", "Video ID", "Soundcloud ID",
-        # Spotify-export hydration columns (added 2026-04-27) — power true
-        # chronological recency sort + DJ-style audio-feature sorts.
+        # Spotify-export hydration columns (added 2026-04-27). Power the
+        # optional "Recently Liked (Spotify)" sort + DJ-style audio sorts.
+        # Primary "Recently Liked" sort uses Liked Position (matches YT Music).
         "First Liked At", "Energy", "Danceability", "Valence",
     ]
     with open(liked_csv, "w", encoding="utf-8", newline="") as f:
