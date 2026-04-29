@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1365,
- "syncedAt": "2026-04-28T10:14:57.747518Z",
+ "trackCount": 1367,
+ "syncedAt": "2026-04-29T10:07:33.082449Z",
  "tracks": [
+  {
+   "title": "Black or White",
+   "artist": "Michael Jackson",
+   "album": "Dangerous",
+   "videoId": "m-y_IxPcx8U",
+   "duration": "4:15"
+  },
+  {
+   "title": "Animaru",
+   "artist": "Mei Semones",
+   "album": "Animaru",
+   "videoId": "wHJ-_dSjTTQ",
+   "duration": "2:42"
+  },
   {
    "title": "Better Than This",
    "artist": "Mary Ann Alexander",
