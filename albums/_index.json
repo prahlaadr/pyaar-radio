@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3146,
- "totalTracks": 40570,
- "syncedAt": "2026-04-30T10:08:04.596923Z",
+ "albumCount": 3147,
+ "totalTracks": 40586,
+ "syncedAt": "2026-05-01T09:47:45.542787Z",
  "albums": [
+  {
+   "browseId": "MPREb_FwIFeC0d3h9",
+   "title": "Ribbons",
+   "artist": "Bibio",
+   "trackCount": 16
+  },
   {
    "browseId": "MPREb_yQtkvOwbksB",
    "title": "Sd-3",
