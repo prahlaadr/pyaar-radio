@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3147,
- "totalTracks": 40586,
- "syncedAt": "2026-05-01T09:47:45.542787Z",
+ "albumCount": 3148,
+ "totalTracks": 40594,
+ "syncedAt": "2026-05-02T09:07:49.971176Z",
  "albums": [
+  {
+   "browseId": "MPREb_wqVmG4yspOD",
+   "title": "Film Scores for Films That Don’t Exist",
+   "artist": "BLARF",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_FwIFeC0d3h9",
    "title": "Ribbons",

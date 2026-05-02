@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
  "title": "April 26",
- "trackCount": 28,
- "syncedAt": "2026-05-01T09:47:48.604738Z",
+ "trackCount": 29,
+ "syncedAt": "2026-05-02T09:07:52.489563Z",
  "tracks": [
   {
    "title": "Kill Again",
@@ -199,6 +199,13 @@
    "album": "Blue Angel Sparkling Silver 2",
    "videoId": "D15F-_EhKWk",
    "duration": "3:07"
+  },
+  {
+   "title": "NUG46",
+   "artist": "Yung Singh",
+   "album": "NUG46",
+   "videoId": "oh19UlNahsM",
+   "duration": "5:45"
   }
  ]
 }
