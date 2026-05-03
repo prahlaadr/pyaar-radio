@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3148,
- "totalTracks": 40594,
- "syncedAt": "2026-05-02T09:07:49.971176Z",
+ "albumCount": 3151,
+ "totalTracks": 40624,
+ "syncedAt": "2026-05-03T09:23:30.205082Z",
  "albums": [
+  {
+   "browseId": "MPREb_X2JiDfRlb7S",
+   "title": "IT'S BEEN AWFUL",
+   "artist": "Isaiah Rashad",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_WR3BQXKSnE6",
+   "title": "Morning / Evening",
+   "artist": "Four Tet",
+   "trackCount": 2
+  },
+  {
+   "browseId": "MPREb_93P7F0Tnmt6",
+   "title": "Shimmer",
+   "artist": "O'Flynn",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_wqVmG4yspOD",
    "title": "Film Scores for Films That Don’t Exist",
