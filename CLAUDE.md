@@ -45,6 +45,7 @@ YouTube Music (Pyaar Radio account, @PyaarRadio)
 
 masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_release_date.py (Release Date from album JSONs, no API)
+               ◀── hydrate_metadata.py (Genres via Last.fm + Popularity via YT Music, replaces Spotify)
                ◀── manual edits (Tags, SoundCloud IDs)
 
 artists.csv ── manually curated (273 artists, gatekeeper for imports)
@@ -329,6 +330,7 @@ cd ~/Documents/Projects/03-music-audio/pyaar-core
 .venv/bin/python hydrate_bpm.py --vault-only     # BPM+Key for curated artists
 # hydrate_spotify.py removed 2026-04-27 — Spotify Premium required on dev account
 # For Release Date use: cd ~/Documents/Projects/01-web-apps/pyaar-radio && .venv/bin/python hydrate_release_date.py --apply
+# For Genres + Popularity use: cd ~/Documents/Projects/01-web-apps/pyaar-radio && LASTFM_API_KEY=<key> python hydrate_metadata.py --apply --vault-only
 ```
 
 After hydration, `sync_masterlist.py --yes` will push the updated masterlist to this repo automatically.
