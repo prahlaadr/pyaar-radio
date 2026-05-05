@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3152,
- "totalTracks": 40640,
- "syncedAt": "2026-05-04T10:14:39.759851Z",
+ "albumCount": 3154,
+ "totalTracks": 40655,
+ "syncedAt": "2026-05-05T10:04:18.071979Z",
  "albums": [
+  {
+   "browseId": "MPREb_A74xA2AVmt3",
+   "title": "EP2",
+   "artist": "Yaeji",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_RpTFvGtMiMq",
+   "title": "American Football (LP4)",
+   "artist": "American Football",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_Lpu34z1ngt9",
    "title": "IT'S BEEN AWFUL",

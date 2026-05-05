@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 3,
- "syncedAt": "2026-05-04T10:14:42.491933Z",
+ "trackCount": 5,
+ "syncedAt": "2026-05-05T10:04:21.263588Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -24,6 +24,20 @@
    "album": "IT'S BEEN AWFUL",
    "videoId": "EqH8PdlAh6A",
    "duration": "2:46"
+  },
+  {
+   "title": "Wake Her Up (feat. Wisp)",
+   "artist": "American Football",
+   "album": "American Football (LP4)",
+   "videoId": "Ocm1Dsbazxk",
+   "duration": "5:21"
+  },
+  {
+   "title": "NO 1 KNEW",
+   "artist": "Machinedrum",
+   "album": "NO 1 KNEW",
+   "videoId": "g5fg57qQJ5c",
+   "duration": "4:05"
   }
  ]
 }
