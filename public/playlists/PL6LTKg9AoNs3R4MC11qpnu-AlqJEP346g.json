@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1369,
- "syncedAt": "2026-05-06T10:19:56.366587Z",
+ "trackCount": 1371,
+ "syncedAt": "2026-05-07T10:26:08.056424Z",
  "tracks": [
+  {
+   "title": "La La La",
+   "artist": "Naughty Boy;Sam Smith",
+   "album": "La La La",
+   "videoId": "4dmT9D6Upzs",
+   "duration": "3:41"
+  },
+  {
+   "title": "Apple",
+   "artist": "Charli xcx",
+   "album": "BRAT",
+   "videoId": "FzH8p8hhxLA",
+   "duration": "2:32"
+  },
   {
    "title": "You Say I Love You",
    "artist": "Quiet Light",
@@ -3660,7 +3674,7 @@
   },
   {
    "title": "KRINK",
-   "artist": "Eddie Burns & Sparklmami",
+   "artist": "Eddie Burns;Sparklmami",
    "album": "KRINK",
    "videoId": "tJLtcT9F_uI",
    "duration": "1:17"

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 5,
- "syncedAt": "2026-05-06T10:19:56.366587Z",
+ "trackCount": 6,
+ "syncedAt": "2026-05-07T10:26:08.056424Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -38,6 +38,13 @@
    "album": "NO 1 KNEW",
    "videoId": "g5fg57qQJ5c",
    "duration": "4:05"
+  },
+  {
+   "title": "Buildings",
+   "artist": "Ty Segall",
+   "album": "Possession",
+   "videoId": "VfQRKmUajyU",
+   "duration": "4:12"
   }
  ]
 }

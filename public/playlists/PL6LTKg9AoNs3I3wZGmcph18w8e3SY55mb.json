@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3I3wZGmcph18w8e3SY55mb",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-05-06T10:19:56.366587Z",
+ "syncedAt": "2026-05-07T10:26:08.056424Z",
  "tracks": [
   {
    "title": "REM",
@@ -993,7 +993,7 @@
   },
   {
    "title": "KRINK",
-   "artist": "Eddie Burns & Sparklmami",
+   "artist": "Eddie Burns;Sparklmami",
    "album": "KRINK",
    "videoId": "tJLtcT9F_uI",
    "duration": "1:17"
@@ -17646,7 +17646,7 @@
   },
   {
    "title": "Brand New - A COLORS SHOW",
-   "artist": "Sevana",
+   "artist": "Sevana;COLORS",
    "album": "Brand New - A COLORS SHOW",
    "videoId": "mNw_WB7Lqfk",
    "duration": "4:21"
