@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3154,
- "totalTracks": 40655,
- "syncedAt": "2026-05-07T10:26:05.544275Z",
+ "albumCount": 3155,
+ "totalTracks": 40657,
+ "syncedAt": "2026-05-08T09:22:31.212078Z",
  "albums": [
+  {
+   "browseId": "MPREb_EaRImho4sW6",
+   "title": "new avatar",
+   "artist": "Kelela",
+   "trackCount": 2
+  },
   {
    "browseId": "MPREb_A74xA2AVmt3",
    "title": "EP2",
