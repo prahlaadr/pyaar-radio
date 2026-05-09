@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3155,
- "totalTracks": 40657,
- "syncedAt": "2026-05-08T09:22:31.212078Z",
+ "albumCount": 3151,
+ "totalTracks": 40607,
+ "syncedAt": "2026-05-09T09:21:10.840216Z",
  "albums": [
   {
    "browseId": "MPREb_EaRImho4sW6",
@@ -4581,12 +4581,6 @@
    "title": "Want Two",
    "artist": "Rufus Wainwright",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_ia4VaBlMPH3",
-   "title": "Immunity",
-   "artist": "Clairo",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_ESsO8Erc0kF",
@@ -12431,12 +12425,6 @@
    "trackCount": 4
   },
   {
-   "browseId": "MPREb_BgJGmeaYO28",
-   "title": "Come Over",
-   "artist": "Kowloon",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_sReSW6J9DaE",
    "title": "Ofertório (Ao Vivo) (feat. Tom Veloso)",
    "artist": "Caetano Veloso",
@@ -13251,12 +13239,6 @@
    "title": "How to Belly Dance for Your Lover",
    "artist": "Sonny Lester Orchestra",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_ze6oqiUZTZB",
-   "title": "BAD SON",
-   "artist": "Curtis Waters",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_jp6S3eUpJbl",
@@ -15573,12 +15555,6 @@
    "title": "Dr. Chesky's Sensational, Fantastic, and Simply Amazing Binaural Sound Show",
    "artist": "Dr. Chesky",
    "trackCount": 26
-  },
-  {
-   "browseId": "MPREb_b1d3PAfR6cg",
-   "title": "Wallsocket (Director's Cut)",
-   "artist": "underscores",
-   "trackCount": 16
   },
   {
    "browseId": "MPREb_YmnX5YD1izT",
