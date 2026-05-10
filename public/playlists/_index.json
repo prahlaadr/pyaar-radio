@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 240,
- "totalTracks": 99872,
- "syncedAt": "2026-05-09T09:21:13.182597Z",
+ "playlistCount": 241,
+ "totalTracks": 99885,
+ "syncedAt": "2026-05-10T09:29:23.481681Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
+   "title": "Savage Video Game Nights",
+   "trackCount": 12
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1371
+   "trackCount": 1372
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
