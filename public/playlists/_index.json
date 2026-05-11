@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 241,
- "totalTracks": 99885,
- "syncedAt": "2026-05-10T09:29:23.481681Z",
+ "totalTracks": 100045,
+ "syncedAt": "2026-05-11T11:21:55.767051Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
+   "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
+   "trackCount": 15
+  },
   {
    "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
    "title": "Savage Video Game Nights",
-   "trackCount": 12
+   "trackCount": 151
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1372
+   "trackCount": 1389
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
@@ -58,11 +63,6 @@
    "playlistId": "PL6LTKg9AoNs0_R6ZZir-xfL7x41VX5agg",
    "title": "fashion",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
-   "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
-   "trackCount": 11
   },
   {
    "playlistId": "PL6LTKg9AoNs2JUKalJxhCTGM5NaFf0eBo",

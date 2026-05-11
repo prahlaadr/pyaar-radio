@@ -1,16 +1,9 @@
 {
  "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
  "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
- "trackCount": 11,
- "syncedAt": "2026-05-10T09:29:23.481681Z",
+ "trackCount": 15,
+ "syncedAt": "2026-05-11T11:21:55.767051Z",
  "tracks": [
-  {
-   "title": "Funk Master",
-   "artist": "MPH",
-   "album": "Refraction",
-   "videoId": "Ek1SnG9W-c4",
-   "duration": "3:43"
-  },
   {
    "title": "MIDNIGHT BE DA SET",
    "artist": "Kamiyada+",
@@ -31,6 +24,20 @@
    "album": "Hot In Here",
    "videoId": "RUDLLf86p1U",
    "duration": "3:12"
+  },
+  {
+   "title": "Funk Master",
+   "artist": "MPH",
+   "album": "Refraction",
+   "videoId": "Ek1SnG9W-c4",
+   "duration": "3:43"
+  },
+  {
+   "title": "Boy Don't Waste My Time",
+   "artist": "Fonzo",
+   "album": "HARD14",
+   "videoId": "CgW-nLOpFBg",
+   "duration": "4:03"
   },
   {
    "title": "as i do",
@@ -80,6 +87,27 @@
    "album": "3FOR82",
    "videoId": "14jGkEpf_rM",
    "duration": "3:06"
+  },
+  {
+   "title": "Flump",
+   "artist": "Cesco",
+   "album": "Flump",
+   "videoId": "Jd43xo_uSDQ",
+   "duration": "4:11"
+  },
+  {
+   "title": "The Days (NOTION Remix)",
+   "artist": "CHRYSTAL;NOTION",
+   "album": "Tech House: Esenciales",
+   "videoId": "BZ7mOoey5sE",
+   "duration": "3:54"
+  },
+  {
+   "title": "If U Need It",
+   "artist": "Sammy Virji",
+   "album": "If U Need It",
+   "videoId": "2te_h2MNrSY",
+   "duration": "3:00"
   }
  ]
 }
