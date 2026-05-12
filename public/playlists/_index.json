@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 241,
- "totalTracks": 100045,
- "syncedAt": "2026-05-11T11:21:55.767051Z",
+ "playlistCount": 242,
+ "totalTracks": 100242,
+ "syncedAt": "2026-05-12T10:33:20.223442Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",
+   "title": "Black Women R&B",
+   "trackCount": 196
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1390
+  },
   {
    "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
    "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
@@ -13,11 +23,6 @@
    "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
    "title": "Savage Video Game Nights",
    "trackCount": 151
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1389
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",

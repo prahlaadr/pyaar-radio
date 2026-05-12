@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1389,
- "syncedAt": "2026-05-11T11:21:55.767051Z",
+ "trackCount": 1390,
+ "syncedAt": "2026-05-12T10:33:20.223442Z",
  "tracks": [
+  {
+   "title": "Big Girls Don't Cry (Personal)",
+   "artist": "Fergie",
+   "album": "The Dutchess",
+   "videoId": "xauGCTL9c3c",
+   "duration": "4:29"
+  },
   {
    "title": "4 Minutes (feat. Justin Timberlake & Timbaland)",
    "artist": "Madonna",

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3151,
- "totalTracks": 40607,
- "syncedAt": "2026-05-11T11:21:53.157077Z",
+ "albumCount": 3150,
+ "totalTracks": 40597,
+ "syncedAt": "2026-05-12T10:33:17.567387Z",
  "albums": [
   {
    "browseId": "MPREb_EaRImho4sW6",
@@ -13083,12 +13083,6 @@
    "title": "Cold Enough For Snow",
    "artist": "Tinlicker",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_EmLlqlp2W9a",
-   "title": "Loss Of Life",
-   "artist": "MGMT",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_dLsR5w20pGT",
