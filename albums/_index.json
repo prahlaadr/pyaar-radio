@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3150,
- "totalTracks": 40597,
- "syncedAt": "2026-05-12T10:33:17.567387Z",
+ "albumCount": 3153,
+ "totalTracks": 40683,
+ "syncedAt": "2026-05-13T10:29:38.792340Z",
  "albums": [
+  {
+   "browseId": "MPREb_yIG9lfuRVo0",
+   "title": "Zion X",
+   "artist": "9th Wonder",
+   "trackCount": 31
+  },
+  {
+   "browseId": "MPREb_2L3zukg6WNU",
+   "title": "WELCOME HOME",
+   "artist": "Reuben Vincent",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_wYninsNfr1u",
+   "title": "Zion XI",
+   "artist": "9th Wonder",
+   "trackCount": 39
+  },
   {
    "browseId": "MPREb_EaRImho4sW6",
    "title": "new avatar",

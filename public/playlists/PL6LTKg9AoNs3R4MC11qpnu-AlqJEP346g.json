@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1390,
- "syncedAt": "2026-05-12T10:33:20.223442Z",
+ "trackCount": 1391,
+ "syncedAt": "2026-05-13T10:29:42.376062Z",
  "tracks": [
+  {
+   "title": "Decode",
+   "artist": "Paramore",
+   "album": "Decode",
+   "videoId": "U0ttaF2fRPc",
+   "duration": "4:22"
+  },
   {
    "title": "Big Girls Don't Cry (Personal)",
    "artist": "Fergie",
