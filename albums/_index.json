@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3153,
- "totalTracks": 40683,
- "syncedAt": "2026-05-13T10:29:38.792340Z",
+ "albumCount": 3156,
+ "totalTracks": 40712,
+ "syncedAt": "2026-05-14T10:16:03.774034Z",
  "albums": [
+  {
+   "browseId": "MPREb_mSvHwdr5yl7",
+   "title": "Shadow and Light",
+   "artist": "Shadow and Light",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_bj31rPDXo7V",
+   "title": "Elements",
+   "artist": "Shadow and Light",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_g7wbe0ncVX6",
+   "title": "Round & Around",
+   "artist": "The Soul",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_yIG9lfuRVo0",
    "title": "Zion X",

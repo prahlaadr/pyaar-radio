@@ -1,9 +1,72 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1391,
- "syncedAt": "2026-05-13T10:29:42.376062Z",
+ "trackCount": 1400,
+ "syncedAt": "2026-05-14T10:16:07.082856Z",
  "tracks": [
+  {
+   "title": "Stressed Out",
+   "artist": "Babyface",
+   "album": "Face 2 Face",
+   "videoId": "gupAlepJDUk",
+   "duration": "3:36"
+  },
+  {
+   "title": "Let It Go",
+   "artist": "Pete Philly",
+   "album": "One",
+   "videoId": "5P439_a3-Vk",
+   "duration": "5:00"
+  },
+  {
+   "title": "Them Changes",
+   "artist": "Thundercat",
+   "album": "The Beyond / Where the Giants Roam",
+   "videoId": "35-MnoI1drY",
+   "duration": "3:08"
+  },
+  {
+   "title": "Nakamarra",
+   "artist": "Hiatus Kaiyote",
+   "album": "Tawk Tomahawk",
+   "videoId": "MvB77oYXlvU",
+   "duration": "4:35"
+  },
+  {
+   "title": "Everything’s Beautiful",
+   "artist": "Hiatus Kaiyote",
+   "album": "Love Heart Cheat Code",
+   "videoId": "RUgmIc_HwIw",
+   "duration": "2:51"
+  },
+  {
+   "title": "Mr. Sun (miss da sun)",
+   "artist": "Greentea Peng",
+   "album": "Mr. Sun (miss da sun)",
+   "videoId": "tdmptWMMnZc",
+   "duration": "3:44"
+  },
+  {
+   "title": "Picture in My Mind",
+   "artist": "PinkPantheress;Sam Gellaitry",
+   "album": "Picture in my mind",
+   "videoId": "r23tQvESL7w",
+   "duration": "2:57"
+  },
+  {
+   "title": "Sweet Life",
+   "artist": "Frank Ocean",
+   "album": "channel ORANGE",
+   "videoId": "y14F2RQW7h4",
+   "duration": "4:23"
+  },
+  {
+   "title": "Monks",
+   "artist": "Frank Ocean",
+   "album": "channel ORANGE",
+   "videoId": "HFVlEft9uEs",
+   "duration": "3:21"
+  },
   {
    "title": "Decode",
    "artist": "Paramore",

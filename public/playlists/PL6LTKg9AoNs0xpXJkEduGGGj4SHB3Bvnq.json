@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 6,
- "syncedAt": "2026-05-13T10:29:42.376062Z",
+ "trackCount": 8,
+ "syncedAt": "2026-05-14T10:16:07.082856Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -45,6 +45,20 @@
    "album": "Possession",
    "videoId": "VfQRKmUajyU",
    "duration": "4:12"
+  },
+  {
+   "title": "Diamonds (feat. Gunna)",
+   "artist": "Young Thug",
+   "album": "So Much Fun (Deluxe)",
+   "videoId": "umz6CYcfLvc",
+   "duration": "3:31"
+  },
+  {
+   "title": "Slipping Over",
+   "artist": "The Soul",
+   "album": "Round & Around",
+   "videoId": "1WiaUNTicTE",
+   "duration": "6:14"
   }
  ]
 }

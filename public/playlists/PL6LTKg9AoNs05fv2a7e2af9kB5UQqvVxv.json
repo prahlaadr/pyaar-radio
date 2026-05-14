@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs05fv2a7e2af9kB5UQqvVxv",
  "title": "Azhagiya Tamil Magan (goated)",
  "trackCount": 761,
- "syncedAt": "2026-05-13T10:29:42.376062Z",
+ "syncedAt": "2026-05-14T10:16:07.082856Z",
  "tracks": [
   {
    "title": "Kannaana Kanne (From \"Naanum Rowdy Dhaan\")",
@@ -230,7 +230,7 @@
   },
   {
    "title": "Sollitharava",
-   "artist": "Vidyasagar, Kabilan, Madhu Balakrishnan, and Sadhana Sargam",
+   "artist": "Vidyasagar;Kabilan;Madhu Balakrishnan;Sadhana Sargam",
    "album": "Majaa (Original Motion Picture Soundtrack)",
    "videoId": "LrXRnLnvAMI",
    "duration": "4:41"
@@ -2911,7 +2911,7 @@
   },
   {
    "title": "Kanne Kannin Maniye",
-   "artist": "Shankar Ganesh, Vaali, & P. Susheela",
+   "artist": "Shankar Ganesh;Vaali;P. Susheela",
    "album": "Nenjangal (Original Motion Picture Soundtrack)",
    "videoId": "bEJd7o2sq8s",
    "duration": "6:13"

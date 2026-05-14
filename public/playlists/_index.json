@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 242,
- "totalTracks": 100243,
- "syncedAt": "2026-05-13T10:29:42.376062Z",
+ "totalTracks": 100111,
+ "syncedAt": "2026-05-14T10:16:07.082856Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1391
+   "trackCount": 1400
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
+   "title": "May 26",
+   "trackCount": 8
   },
   {
    "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",
@@ -23,11 +28,6 @@
    "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
    "title": "Savage Video Game Nights",
    "trackCount": 151
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
-   "title": "May 26",
-   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
@@ -182,7 +182,7 @@
   {
    "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
    "title": "Hitters",
-   "trackCount": 443
+   "trackCount": 300
   },
   {
    "playlistId": "PL6LTKg9AoNs0vPQw5uYw6yb4hU0l3hwsx",
