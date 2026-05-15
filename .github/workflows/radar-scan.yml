@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   scan:
@@ -48,6 +49,54 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "radar: monthly scan ($(date +%Y-%m-%d))"
           git push
+
+      - name: Open triage-ready issue
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python <<'PY'
+          import json, os, subprocess, datetime
+          alerts = json.load(open("public/data/radar-alerts.json"))["alerts"]
+          new_alerts = [a for a in alerts if a.get("status") == "new"]
+          if not new_alerts:
+              print("No 'new' alerts to triage.")
+              raise SystemExit(0)
+          today = datetime.date.today().strftime("%Y-%m")
+          title = f"Radar Triage Ready: {len(new_alerts)} new albums ({today})"
+          rows = "\n".join(
+              f"- [ ] **{a['artist']}** — {a['title']} ({a.get('year','')})"
+              for a in new_alerts
+          )
+          body = f"""\
+          The monthly radar scan found **{len(new_alerts)} new albums** to triage.
+
+          ## How to triage
+
+          1. Open https://radio.pyaarproject.org/radar — Save / Skip each one (Save calls YT Music directly).
+          2. Or, for the wider audit + manual list, regenerate `~/Desktop/pyaar-triage.html` and export your picks JSON.
+          3. Commit the export to `triage-runs/<date>.json` and run:
+
+             ```
+             gh workflow run triage-apply.yml --repo {os.environ.get('GITHUB_REPOSITORY','')} \\
+               -f triage_path=triage-runs/<date>.json -f mode=dry
+             ```
+
+             Then again with `mode=apply` once the dry-run looks right.
+
+          ## New alerts
+
+          {rows}
+
+          *(Auto-opened by `radar-scan.yml` after the {today} scan committed `public/data/radar-alerts.json`.)*
+          """
+          # dedent
+          body = "\n".join(line.lstrip() if line.startswith("          ") else line for line in body.splitlines())
+          subprocess.run(
+              ["gh", "issue", "create", "--title", title, "--body", body],
+              check=True,
+          )
+          PY
 
       - name: Cleanup
         if: always()

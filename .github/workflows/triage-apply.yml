@@ -1,0 +1,80 @@
+name: Apply Triage
+
+on:
+  workflow_dispatch:
+    inputs:
+      triage_path:
+        description: 'Path in repo to triage JSON (export from /radar or pyaar-triage.html)'
+        required: true
+        default: 'triage-runs/latest.json'
+      mode:
+        description: 'dry | apply'
+        type: choice
+        required: true
+        default: 'dry'
+        options:
+          - dry
+          - apply
+      run_sync:
+        description: 'After apply, run sync_albums + sync_liked'
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Write browser auth
+        if: ${{ inputs.mode == 'apply' || inputs.run_sync }}
+        run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Verify triage file
+        run: |
+          test -f "${{ inputs.triage_path }}" || { echo "Missing: ${{ inputs.triage_path }}"; exit 1; }
+          python -c "import json; d=json.load(open('${{ inputs.triage_path }}')); print('picks:', len(d.get('save', [])))"
+
+      - name: Run triage_apply (${{ inputs.mode }})
+        run: |
+          python scripts/triage_apply.py \
+            --triage "${{ inputs.triage_path }}" \
+            --${{ inputs.mode }}
+
+      - name: Run sync_liked + sync_albums
+        if: ${{ inputs.mode == 'apply' && inputs.run_sync }}
+        run: |
+          python sync_liked.py --yes --no-push || echo "sync_liked failed (continuing)"
+          python sync_albums.py || echo "sync_albums failed (continuing)"
+
+      - name: Commit log + refreshed CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add triage-runs/ 2>/dev/null || true
+          git add public/data/albums.csv public/data/masterlist.csv public/data/liked.csv 2>/dev/null || true
+          git add albums/ public/playlists/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "triage: ${{ inputs.mode }} run for ${{ inputs.triage_path }}"
+            git push
+          fi
+
+      - name: Cleanup auth
+        if: always()
+        run: rm -f browser.json
