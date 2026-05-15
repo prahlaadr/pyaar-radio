@@ -47,7 +47,7 @@ masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_release_date.py (Release Date from album JSONs, no API)
                ◀── manual edits (Tags, SoundCloud IDs)
 
-artists.csv ── manually curated (273 artists, gatekeeper for imports)
+artists.csv ── manually curated (294 artists, gatekeeper for imports)
 ```
 
 ### Three Separate Data Stores
@@ -57,7 +57,7 @@ artists.csv ── manually curated (273 artists, gatekeeper for imports)
 | **masterlist.csv** | Liked songs + monthly playlists | `sync_liked.py` | `public/data/` |
 | **albums/*.json** | Saved/liked albums | `sync_albums.py` | `albums/` |
 | **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `public/playlists/` |
-| **artists.csv** | Manually curated (273) | Direct edit | `public/data/` |
+| **artists.csv** | Manually curated (294, see PRs for additions) | Direct edit | `public/data/` |
 
 Each is synced independently. They never bleed into each other.
 
@@ -256,6 +256,10 @@ python3 sync_usb.py --usb /path/to/usb      # custom USB path
 | "Tag tracks" | Edit the `Tags` column in `masterlist.csv` (pipe-separated) |
 | "Add BPM/key" | Edit `Tempo` and `Key` columns in `masterlist.csv` |
 | "Sync from YT Music" | Run `python sync_liked.py --yes` in pyaar-radio, or trigger the GitHub Action |
+| "Triage new releases" | Open the GH issue auto-opened by radar-scan, then either click through `/radar` UI or run the bulk HTML triage. See "Radar & Triage Pipeline" section. |
+| "Apply my triage picks" | Commit export to `triage-runs/YYYY-MM-DD.json`, then `gh workflow run triage-apply.yml -f triage_path=… -f mode=apply -f run_sync=true` |
+| "Find missing albums" | Local: `.venv/bin/python -m radar audit --save` (or without `--save` for report-only). Heavy — runs against full discographies. |
+| "Run radar manually" | `gh workflow run radar-scan.yml --repo prahlaadr/pyaar-radio` |
 | "Sync playlists" | Run `python sync_playlists.py` or trigger Action with `sync_playlists=true` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-core (see below) |
 | "Deploy" | Just push to `main` — Vercel auto-deploys |
@@ -297,7 +301,7 @@ Auto-synced from YT Music daily at 3AM (liked songs + monthly playlists). **Safe
 
 **Do NOT edit:** Track Name, Artist Name(s), Album Name, Liked, Playlist 1-5, Playlist Count, Video ID — these are overwritten by daily sync.
 
-### artists.csv (273 curated artists)
+### artists.csv (294 curated artists)
 Edited directly. Columns:
 
 | Column | Format | Example |
@@ -349,6 +353,91 @@ After hydration, `sync_masterlist.py --yes` will push the updated masterlist to 
 - Artist-to-track join via case-insensitive name match + alias expansion
 - Camelot key system for harmonic mixing transitions
 - YouTube search via innertube API (`/api/search-yt`), no API key needed
+
+## Radar & Triage Pipeline
+
+How new music gets into the library. Three-stage loop: **scan → triage → apply**.
+
+### Stage 1: Scan (automatic, monthly)
+
+`.github/workflows/radar-scan.yml` runs on the 1st of each month at 9 AM EST. It:
+
+1. Loads the 294 artists in `public/data/artists.csv`
+2. For each, fetches their latest album/EP from YT Music
+3. Filters out noise (compilations, anniversary editions, instrumentals — see `radar/release.py:NOISE_PATTERN`)
+4. Compares against `known_albums` table in `radar/state.db` (DuckDB)
+5. New ones get logged to `release_alerts` and exported to `public/data/radar-alerts.json`
+6. Commits + pushes (Vercel auto-deploys)
+7. **Auto-opens a GitHub issue** titled *"Radar Triage Ready: N new albums (YYYY-MM)"* with the new alerts as a checklist + run instructions
+
+### Stage 2: Triage (manual, monthly)
+
+When the issue lands:
+
+**Option A — `/radar` UI** (fast, single-album-at-a-time): Visit `radio.pyaarproject.org/radar` and click Save / Skip. Save calls YT Music directly via `yt.rate_playlist`. Only handles the radar's monthly delta.
+
+**Option B — Bulk HTML triage** (combines radar + audit + manual catch-up): Regenerate `~/Desktop/pyaar-triage.html` (the standalone keyboard-driven triage tool). Combines:
+- Fresh radar alerts (`public/data/radar-alerts.json`)
+- Audit gaps (full discography sweep — see Stage 3 below)
+- Manual additions
+
+Spacebar saves, `x` skips, `↑/↓` (or `j/k`) navigates. Persists in localStorage. Click *Export picks ↓* to download `pyaar-triage-YYYY-MM-DD.json`.
+
+### Stage 3: Apply (semi-automatic)
+
+Commit the exported triage JSON to `triage-runs/YYYY-MM-DD.json`, then run the apply workflow:
+
+```bash
+gh workflow run triage-apply.yml --repo prahlaadr/pyaar-radio \
+  -f triage_path=triage-runs/2026-05-15.json -f mode=dry
+# review the .log.json that gets committed
+gh workflow run triage-apply.yml --repo prahlaadr/pyaar-radio \
+  -f triage_path=triage-runs/2026-05-15.json -f mode=apply -f run_sync=true
+```
+
+`scripts/triage_apply.py` does the work:
+- For each album: searches YT Music (or uses `browseId` if from radar), then `yt.get_album → yt.rate_playlist(audioPlaylistId, "LIKE")`
+- For each single: searches → `yt.rate_song(videoId, "LIKE")`
+- Writes `triage-runs/YYYY-MM-DD.log.json` with every match decision + status (`saved` / `liked` / `no-match` / `error`)
+- With `run_sync=true`, immediately runs `sync_liked.py` + `sync_albums.py` to refresh CSVs (instead of waiting for the 3 AM daily sync)
+
+**Both modes require auth** — unauthenticated YT Music search misses ~85% of albums. The workflow always writes `browser.json` from the `YTMUSIC_BROWSER_AUTH` secret.
+
+### The `audit` command (deeper sweep, local-only)
+
+`radar audit` walks every artist's full discography (not just the latest), flags every album not in `known_albums`. Use this to catch up on back-catalogue, not for monthly cadence. **Local only** (CI doesn't run audit — too heavy).
+
+```bash
+cd ~/Documents/Projects/01-web-apps/pyaar-radio
+.venv/bin/python -m radar audit                     # full discography sweep
+.venv/bin/python -m radar audit --since 2010        # year-bound
+.venv/bin/python -m radar audit --artist "Yaeji"    # single artist
+.venv/bin/python -m radar audit --save              # save every gap (use sparingly)
+.venv/bin/python -m radar classify --dismiss        # bulk-clean derivative/comp noise
+```
+
+Audit output drops into `release_alerts` with `release_type='audit_gap'` so it filters separately from monthly release alerts. The standalone `~/Desktop/pyaar-triage.html` reads from a one-off `~/Desktop/missing-albums.md` produced by an audit run (regenerate as needed).
+
+### Triage troubleshooting
+
+| Failure mode | Cause | Fix |
+|---|---|---|
+| Album → `error: no audioPlaylistId` | Album is unreleased / pre-save / placeholder ("Upcoming Album") | Skip; re-triage next month after release |
+| Album → `error: Unable to find 'contents' using path …` | YT Music returned an unexpected schema | Try `yt.get_album(browseId)` manually; usually a single-track release misclassified as album |
+| Album → `NO MATCH` | Search returned no result with matching artist+title | Save manually in YT Music, or check spelling/aliases in artists.csv |
+| Workflow → `auth failed` | Browser cookies expired (~2 years) | Refresh per "Refreshing auth" section above + update `YTMUSIC_BROWSER_AUTH` secret |
+| All matches NO MATCH in dry-run | Script ran without auth | Already fixed in `de5517d` — dry-mode now requires auth too |
+
+### Workflow orchestration (one place)
+
+| Workflow | Schedule | Purpose | Output |
+|---|---|---|---|
+| `sync-masterlist.yml` | Daily 3 AM EST | Pull liked + monthly playlists + saved albums + all playlists from YT Music | `masterlist.csv`, `albums.csv`, `albums/*.json`, `public/playlists/*.json` |
+| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 294 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
+| `triage-apply.yml` | Manual dispatch | Apply triage picks (save albums, like singles); refresh CSVs | YT Music library mutations + `triage-runs/*.log.json` |
+| `sync-tv-channels.yml` | Weekly Sunday 7 AM EST | Refresh Pyaar.TV channel videos | `public/data/tv/channels.json` |
+
+All workflows: `permissions: contents: write` (commit), `issues: write` (open issues on failure or triage-ready). Both monthly + apply use `YTMUSIC_BROWSER_AUTH` secret for YT Music auth.
 
 ## Pyaar.TV
 
