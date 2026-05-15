@@ -1,13 +1,13 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 242,
- "totalTracks": 100111,
- "syncedAt": "2026-05-14T10:16:07.082856Z",
+ "totalTracks": 100255,
+ "syncedAt": "2026-05-15T10:24:35.530315Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1400
+   "trackCount": 1401
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
@@ -182,7 +182,7 @@
   {
    "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
    "title": "Hitters",
-   "trackCount": 300
+   "trackCount": 443
   },
   {
    "playlistId": "PL6LTKg9AoNs0vPQw5uYw6yb4hU0l3hwsx",

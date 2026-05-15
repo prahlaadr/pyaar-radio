@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3156,
- "totalTracks": 40712,
- "syncedAt": "2026-05-14T10:16:03.774034Z",
+ "albumCount": 3157,
+ "totalTracks": 40721,
+ "syncedAt": "2026-05-15T10:24:32.735985Z",
  "albums": [
+  {
+   "browseId": "MPREb_tW2wz0oBIek",
+   "title": "Boof",
+   "artist": "Dilip",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_mSvHwdr5yl7",
    "title": "Shadow and Light",
