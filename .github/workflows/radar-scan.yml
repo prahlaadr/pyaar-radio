@@ -93,7 +93,7 @@ jobs:
           # dedent
           body = "\n".join(line.lstrip() if line.startswith("          ") else line for line in body.splitlines())
           subprocess.run(
-              ["gh", "issue", "create", "--title", title, "--body", body],
+              ["gh", "issue", "create", "--title", title, "--body", body, "--label", "triage"],
               check=True,
           )
           PY
