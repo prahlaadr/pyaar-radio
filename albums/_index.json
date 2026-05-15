@@ -1,9 +1,201 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3157,
- "totalTracks": 40721,
- "syncedAt": "2026-05-15T10:24:32.735985Z",
+ "albumCount": 3189,
+ "totalTracks": 41057,
+ "syncedAt": "2026-05-15T18:25:47.635951Z",
  "albums": [
+  {
+   "browseId": "MPREb_ZjhLEVD5WUU",
+   "title": "Sailors Daughter",
+   "artist": "Saie Saie",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_Z6UIDEN8sjw",
+   "title": "From Deep Within",
+   "artist": "Raveena",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_xt2MkkYtcZx",
+   "title": "Love Divide / The Knife (Bubble Love Remixes)",
+   "artist": "Ross from Friends",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_UT5Zkssg3YN",
+   "title": "UNRELATED",
+   "artist": "Sam Gendel & Sam Wilkes",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_yV9gKXzsDOI",
+   "title": "Early Twenties Torture",
+   "artist": "Sadie Jean",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_suHJXlapHXE",
+   "title": "IDEAS 001",
+   "artist": "ESTA.",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_ZEBVuSCHyM4",
+   "title": "PAWA!",
+   "artist": "Asha Puthli",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_PsZEGnjTLvO",
+   "title": "1983",
+   "artist": "Flying Lotus",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_6JG7Ki2bU6T",
+   "title": "'94 Flow",
+   "artist": "DJ Harrison",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_P1UboLqanzS",
+   "title": "FU",
+   "artist": "Truant Fu",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_7TnWFHbVRXw",
+   "title": "Rec in a Pale Tiled Room",
+   "artist": "Volor Flex",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_sT9zYbv0Aw0",
+   "title": "Thank You for Almost Everything",
+   "artist": "Headache",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_vIhxuYn2Ouc",
+   "title": "Hyperphantasia",
+   "artist": "Lone",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_K17dmchxhZS",
+   "title": "ENIGMATH",
+   "artist": "Holly",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_lMImEriTUKh",
+   "title": "Flood",
+   "artist": "Tony Shhnow",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_0WWVpiYzd2b",
+   "title": "Roofless Records For Drop Tops: Disc 2",
+   "artist": "Curren$y",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_c67bbc4gzPD",
+   "title": "PLANET FROG",
+   "artist": "Action Bronson",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_9fmQOX0Uv77",
+   "title": "BY THE WATER",
+   "artist": "MIKE",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_NDRJYJngDr9",
+   "title": "Miniatures",
+   "artist": "Dorian Concept",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_0D69RvEzstl",
+   "title": "Late Night Tales: The Cinematic Orchestra",
+   "artist": "The Cinematic Orchestra",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_B0zPKKEyUSn",
+   "title": "To Believe",
+   "artist": "The Cinematic Orchestra",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_LALydhWsJrR",
+   "title": "Dorothy's Harp",
+   "artist": "Dorothy Ashby",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_xzT4umBlJHW",
+   "title": "Funny Weather",
+   "artist": "Funny Weather",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_O2Bi6W8SQDH",
+   "title": "Perlas & Conchas",
+   "artist": "Fémina",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_hShz8vDHPCh",
+   "title": "Traspasa",
+   "artist": "Fémina",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_2jn4qfjpP3f",
+   "title": "Bryter Layter",
+   "artist": "Nick Drake",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_ZOKlKdvzIUR",
+   "title": "Saturday Morning",
+   "artist": "Carrtoons",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_HOTyUdw7zT6",
+   "title": "Slipping Into Color",
+   "artist": "Little Dragon",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_21nTTwgCp77",
+   "title": "Love Made Trees",
+   "artist": "Loaded Honey",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_GWWjnNXaOtU",
+   "title": "HABIBTI",
+   "artist": "Drake",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_fcscPDnVogy",
+   "title": "f-lybrary music",
+   "artist": "williums",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_V8usWJ43Tc5",
+   "title": "earstuff",
+   "artist": "williums",
+   "trackCount": 6
+  },
   {
    "browseId": "MPREb_tW2wz0oBIek",
    "title": "Boof",

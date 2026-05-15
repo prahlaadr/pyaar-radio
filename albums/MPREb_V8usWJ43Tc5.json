@@ -1,0 +1,46 @@
+{
+ "title": "earstuff",
+ "artist": "williums",
+ "year": "2025",
+ "trackCount": 6,
+ "tracks": [
+  {
+   "title": "mountains",
+   "artist": "williums",
+   "videoId": "e7jU8z4_Y7U",
+   "duration": "2:16"
+  },
+  {
+   "title": "freakout",
+   "artist": "williums",
+   "videoId": "nDSU6nhXbuk",
+   "duration": "3:02"
+  },
+  {
+   "title": "enterlude",
+   "artist": "williums",
+   "videoId": "yesV2RNzXuE",
+   "duration": "1:31"
+  },
+  {
+   "title": "steps 1-5",
+   "artist": "williums",
+   "videoId": "N_Qqf7PGfdE",
+   "duration": "1:37"
+  },
+  {
+   "title": "drive away",
+   "artist": "williums",
+   "videoId": "diFiI7v5Tl0",
+   "duration": "2:26"
+  },
+  {
+   "title": "here n' there",
+   "artist": "williums",
+   "videoId": "y96wtKjauBQ",
+   "duration": "2:23"
+  }
+ ],
+ "browseId": "MPREb_V8usWJ43Tc5",
+ "syncedAt": "2026-05-15T18:25:47.635951Z"
+}

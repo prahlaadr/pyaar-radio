@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-15T18:19:20.928459+00:00",
-  "mode": "dry",
+  "startedAt": "2026-05-15T18:21:18.535845+00:00",
+  "mode": "apply",
   "triageFile": "triage-runs/2026-05-15.json",
   "results": [
     {
@@ -11,7 +11,8 @@
       "source": "radar_new",
       "browseId": "MPREb_c67bbc4gzPD",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_l126M0dYDYw4q158zMkOP5M0QMTim95O8"
     },
     {
       "artist": "Curren$y",
@@ -21,7 +22,8 @@
       "source": "radar_new",
       "browseId": "MPREb_0WWVpiYzd2b",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_l2yeKenL7wgTJn2NGGBPZadi70p0Oy6Bs"
     },
     {
       "artist": "Tony Shhnow",
@@ -31,7 +33,8 @@
       "source": "radar_new",
       "browseId": "MPREb_lMImEriTUKh",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nxOOjvY50C5we0WqTCn2acmj8T8SGfHLI"
     },
     {
       "artist": "HOLLY",
@@ -41,7 +44,8 @@
       "source": "radar_new",
       "browseId": "MPREb_K17dmchxhZS",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k0fZDOkap4C8X8ODUuZDMvIv6yMliLf1M"
     },
     {
       "artist": "Lone",
@@ -51,7 +55,8 @@
       "source": "radar_new",
       "browseId": "MPREb_vIhxuYn2Ouc",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_ng7fK6Fvt63y2O_MJT0GlGf-Tfjwe3Nuk"
     },
     {
       "artist": "Nia Archives",
@@ -61,7 +66,8 @@
       "source": "radar_new",
       "browseId": "MPREb_7ow4uzHBbHp",
       "match": "from-radar",
-      "status": "preview"
+      "status": "error",
+      "error": "no audioPlaylistId"
     },
     {
       "artist": "Vegyn",
@@ -71,7 +77,8 @@
       "source": "radar_new",
       "browseId": "MPREb_sT9zYbv0Aw0",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nGrNujm7Hn-CDZw390WD6BuyGsLnqBYOE"
     },
     {
       "artist": "Volor Flex",
@@ -81,7 +88,8 @@
       "source": "radar_new",
       "browseId": "MPREb_7TnWFHbVRXw",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k1i8k-B8zaMSPubkI5Ve8_ENl6aVqazAU"
     },
     {
       "artist": "truant.",
@@ -91,7 +99,8 @@
       "source": "radar_new",
       "browseId": "MPREb_P1UboLqanzS",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m4GcG_gK0OAMPFAjK0ZYfDtJ3fSIvhQcg"
     },
     {
       "artist": "DJ Harrison",
@@ -101,7 +110,8 @@
       "source": "radar_new",
       "browseId": "MPREb_6JG7Ki2bU6T",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kS139nRMqu81Ew0WVgoGQYiyxDFwkhzd8"
     },
     {
       "artist": "Flying Lotus",
@@ -111,7 +121,8 @@
       "source": "radar_new",
       "browseId": "MPREb_PsZEGnjTLvO",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kS9vHOzr8GiaUD8HSYad8AiS8F4KricyY"
     },
     {
       "artist": "Say She She",
@@ -121,7 +132,8 @@
       "source": "radar_new",
       "browseId": "MPREb_ZEBVuSCHyM4",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kbfdyaQvdXjUzHr77waQ88mO5Yej3jErE"
     },
     {
       "artist": "esta.",
@@ -131,7 +143,8 @@
       "source": "radar_new",
       "browseId": "MPREb_suHJXlapHXE",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lPsLooQP4zdHmkxjJEEamO3uhPDVJWLKQ"
     },
     {
       "artist": "saie.",
@@ -141,7 +154,8 @@
       "source": "radar_new",
       "browseId": "MPREb_yV9gKXzsDOI",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_naECArPi5yYv7mmB3jFFk61JjpLO4Yvh8"
     },
     {
       "artist": "Sam Gendel",
@@ -151,7 +165,8 @@
       "source": "radar_new",
       "browseId": "MPREb_UT5Zkssg3YN",
       "match": "from-radar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mkCwBhqjA70J2DbBPvK5vwiEiXlFfxYyE"
     },
     {
       "artist": "A$AP Rocky",
@@ -161,7 +176,8 @@
       "source": "audit_album",
       "browseId": "MPREb_FutfbG1UYwM",
       "match": "search \u2192 'Don't Be Dumb' by A$AP Rocky",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_limf33XU3oFS5QHZu7gEKTTwhsbqGLmrQ"
     },
     {
       "artist": "Chance the Rapper",
@@ -171,7 +187,8 @@
       "source": "audit_album",
       "browseId": "MPREb_cOJPTyfYekj",
       "match": "search \u2192 'STAR LINE' by Chance the Rapper",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m2N80GN9aTrlFIvU2nCfdMRXXVm34UF6s"
     },
     {
       "artist": "Father",
@@ -181,7 +198,8 @@
       "source": "audit_album",
       "browseId": "MPREb_8MoDgB1Y3ga",
       "match": "search \u2192 'Patricide' by Father",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nO7_PEsU6EBR9dj7G8zXVGuIb1NYAzlU0"
     },
     {
       "artist": "Forgotten",
@@ -191,7 +209,8 @@
       "source": "audit_album",
       "browseId": "MPREb_4XzMDgoRUKd",
       "match": "search \u2192 'Kaliyuga' by Forgotten",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lanqGmnVGahp3ATu8nlqqMsDV2quoWXvI"
     },
     {
       "artist": "Kanye West",
@@ -201,7 +220,8 @@
       "source": "audit_album",
       "browseId": "MPREb_u1EPNUwWlZM",
       "match": "search \u2192 'DONDA 2' by DONDA, Kanye West, Ye",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lCVPmlyhFreHTttHfFspjVHdYAn9ti2Qo"
     },
     {
       "artist": "Kodak Black",
@@ -211,7 +231,8 @@
       "source": "audit_album",
       "browseId": "MPREb_t0EUm3gp7DL",
       "match": "search \u2192 'Just Getting Started' by Kodak Black",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_let4W7wUgJeUn-9X5S9CtjpFZmd8iXTfw"
     },
     {
       "artist": "Laila!",
@@ -221,7 +242,8 @@
       "source": "audit_album",
       "browseId": "MPREb_vmvKmUxK2j2",
       "match": "search \u2192 'Gap Year!' by Laila!",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nXZoMr1CcynMGkNVgmLn3NvMUNPXvvYbA"
     },
     {
       "artist": "Michael Christmas",
@@ -231,7 +253,8 @@
       "source": "audit_album",
       "browseId": "MPREb_8LYyHEsPX0a",
       "match": "search \u2192 'Baggy Eyes 2' by Michael Christmas",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kV4-Rm59Lo1SMgzJU019FvVZYLAMukbVw"
     },
     {
       "artist": "Mick Jenkins",
@@ -241,7 +264,8 @@
       "source": "audit_album",
       "browseId": "MPREb_1MzUYF9lu0K",
       "match": "search \u2192 'A MURDER OF CROWS' by Mick Jenkins, EMIL",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k0GKOQb2vqXn4Of82zA3D7CCRxmUa5vtE"
     },
     {
       "artist": "Playboi Carti",
@@ -251,7 +275,8 @@
       "source": "audit_album",
       "browseId": "MPREb_ixfbA4zK0Nj",
       "match": "search \u2192 'MUSIC - SORRY 4 DA WAIT' by Playboi Carti",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nzXOVAUK91OuiEJeUk1U28Vnx0-Pkqz3Q"
     },
     {
       "artist": "Prabh Deep",
@@ -261,7 +286,8 @@
       "source": "audit_album",
       "browseId": "MPREb_9viPlnzGjM4",
       "match": "search \u2192 'DSP' by Prabh Deep",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mrCGDuckUBj2nBICpQQp0lmV0krNA0qB8"
     },
     {
       "artist": "Quadeca",
@@ -271,7 +297,8 @@
       "source": "audit_album",
       "browseId": "MPREb_2EfaXYKrZlK",
       "match": "search \u2192 'Vanisher, Horizon Scraper (The Extended Cut)' by Quadeca",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mcNa_NXSwYITwnILZHoQHPxRFy_LSHiSA"
     },
     {
       "artist": "RRoxket",
@@ -281,7 +308,8 @@
       "source": "audit_album",
       "browseId": "MPREb_a5Q9JFfCegw",
       "match": "search \u2192 'Geek Monster' by RRoxket",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lY_c1jBZabDFw0YGDoLMUCbKvY5fQhnuM"
     },
     {
       "artist": "Ski Mask The Slump God",
@@ -291,7 +319,8 @@
       "source": "audit_album",
       "browseId": "MPREb_U6ZB1m1Fzek",
       "match": "search \u2192 'The Lost Files' by Ski Mask The Slump God",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lZ0mxcy1NasbOuwVZs1koasmeLqUbyAmQ"
     },
     {
       "artist": "Smino",
@@ -301,7 +330,8 @@
       "source": "audit_album",
       "browseId": "MPREb_eRSHCm7HF3a",
       "match": "search \u2192 'Maybe in Nirvana' by Smino",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kNys-FeCqGoUQZhR8q01FVovhvsIU-Dyk"
     },
     {
       "artist": "The PropheC",
@@ -311,7 +341,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Iq2pPP5uj7i",
       "match": "search \u2192 'Midnight Paradise' by The PropheC",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nWtLCOOly8zPp1jFh88YicT2EL7OY-DBU"
     },
     {
       "artist": "Tkay Maidza",
@@ -321,7 +352,8 @@
       "source": "audit_album",
       "browseId": "MPREb_iGWk4xPvqIC",
       "match": "search \u2192 'Sweet Justice' by Tkay Maidza",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nnLpliM_5MB6T6RKTW4zp1PC-Bn3N5cFc"
     },
     {
       "artist": "Vayda",
@@ -331,7 +363,8 @@
       "source": "audit_album",
       "browseId": "MPREb_WLQhMTcqnMF",
       "match": "search \u2192 'Dont Lose The Groove' by Vayda",
-      "status": "preview"
+      "status": "error",
+      "error": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents', 0, 'musicResponsiveHeaderRenderer'] on {'responseContext': {'visitorData': 'CgtBUXJXQ2xRV3YxWSjIyJ3QBjIKCgJVUxIEGgAgIA%3D%3D', 'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'has_unlimited_entitlement', 'value': 'True'}, {'key': 'browse_id', 'value': 'MPREb_WLQhMTcqnMF'}, {'key': 'browse_id_prefix', 'value': ''}, {'key': 'logged_in', 'value': '1'}]}, {'service': 'CSI', 'params': [{'key': 'c', 'value': 'WEB_REMIX'}, {'key': 'cver', 'value': '1.20260515.01.00'}, {'key': 'yt_li', 'value': '1'}, {'key': 'GetBrowseAlbumDetailPage_rid', 'value': '0x642ef0771677b930'}]}, {'service': 'ECATCHER', 'params': [{'key': 'client.version', 'value': '1.20000101'}, {'key': 'client.name', 'value': 'WEB_REMIX'}]}], 'responseId': 'IhMIm5ibz_S7lAMVNprCAR1Znwrk'}, 'trackingParams': 'CAAQhGciEwibmJvP9LuUAxU2msIBHVmfCuTKAQQ7lppW', 'microformat': {'microformatDataRenderer': {'noindex': True}}}, exception: 'contents'\""
     },
     {
       "artist": "Westside Gunn",
@@ -341,7 +374,8 @@
       "source": "audit_album",
       "browseId": "MPREb_0KZLgnHT2gE",
       "match": "search \u2192 'HEELS HAVE EYES 3' by Westside Gunn",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mgh_1hTlK18HgAPmhAi2LiDtWFfTYGdQA"
     },
     {
       "artist": "Alix Perez",
@@ -351,7 +385,8 @@
       "source": "audit_album",
       "browseId": "MPREb_wvfooanj7kC",
       "match": "search \u2192 'Sabotage' by Alix Perez",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kKzijeNkt6Bu1pSbxkCGEGyCYAABaxY7Q"
     },
     {
       "artist": "Aphex Twin",
@@ -361,7 +396,8 @@
       "source": "audit_album",
       "browseId": "MPREb_wfzv7bW99ZR",
       "match": "search \u2192 'Music From The Merch Desk (2016 - 2023)' by Aphex Twin",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_n3_WBhuVkJ-NL_-HMUfnbkjfUYHy6Iq1s"
     },
     {
       "artist": "Baauer",
@@ -371,7 +407,8 @@
       "source": "audit_album",
       "browseId": "MPREb_QdgnawVvH7g",
       "match": "search \u2192 'PLANET'S MAD (GLOBE'S CRAZY)' by Baauer",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_khtcy9RW7uuvsgGRCoNyhwtDIGoaKYD5Y"
     },
     {
       "artist": "Barry Can't Swim",
@@ -381,7 +418,8 @@
       "source": "audit_album",
       "browseId": "MPREb_YXD25K1MImf",
       "match": "search \u2192 'Late Night Tales: Barry Can't Swim (LNT Mix)' by Barry Can't Swim",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nyFLVso1Afrp-Slm6vdMQH7R0v4WHmGKI"
     },
     {
       "artist": "CHOR BAZAAR",
@@ -391,7 +429,7 @@
       "source": "audit_album",
       "browseId": null,
       "match": "NO MATCH",
-      "status": "preview"
+      "status": "no-match"
     },
     {
       "artist": "Caribou",
@@ -401,7 +439,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Yd8xP8QKrbd",
       "match": "search \u2192 'Honey' by Caribou",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mlMEdh08eomyrw3r-0MsK_8WJqS9NXC8A"
     },
     {
       "artist": "Commodo",
@@ -411,7 +450,8 @@
       "source": "audit_album",
       "browseId": "MPREb_vdyadSv12cx",
       "match": "search \u2192 'How What Time' by Commodo",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mi9_Yk7c2rFxQxJyzDKqAvpNqkqQbUscA"
     },
     {
       "artist": "DEVAULT",
@@ -421,7 +461,8 @@
       "source": "audit_album",
       "browseId": "MPREb_vhn9K99R1ix",
       "match": "search \u2192 'Sensation' by Devault",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kJ2yreRo7RogyR6-zhMsbWcAHVsM5BCsA"
     },
     {
       "artist": "DJ LYAN",
@@ -431,7 +472,8 @@
       "source": "audit_album",
       "browseId": "MPREb_xmxZKiN08IS",
       "match": "search \u2192 'Thank You Come Again' by DJ LYAN",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kHrqEnX_KhDYL-fP1cGWoCynXTkurim40"
     },
     {
       "artist": "DJ Lycox",
@@ -441,7 +483,8 @@
       "source": "audit_album",
       "browseId": "MPREb_CeCw4YdbA9b",
       "match": "search \u2192 'Na Casa (Edits)' by DJ Lycox",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nx2z6b1w-N5v3qrHg5kF0OHkHSJ7DZrvU"
     },
     {
       "artist": "G Jones",
@@ -451,7 +494,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Z5U42mLM1RC",
       "match": "search \u2192 'The Ineffable Truth' by G Jones",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nSIMeuyuQMA0HBsPZiZVFEmnp0Tx21LgI"
     },
     {
       "artist": "Gaszia",
@@ -461,7 +505,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Tb4BAIk6erA",
       "match": "search \u2192 'Walk the Line' by Gaszia",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lqhpMyO6koXP0weaWQA6kLPAKmisLj-tQ"
     },
     {
       "artist": "Hudson Mohawke",
@@ -471,7 +516,8 @@
       "source": "audit_album",
       "browseId": "MPREb_aLPOFW3iYgj",
       "match": "search \u2192 'L'Ecstasy' by Tiga, Hudson Mohawke",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kQ7eQL5_Cm3JGkG2Gbhri29cswYkJbftI"
     },
     {
       "artist": "J.Robb",
@@ -481,7 +527,8 @@
       "source": "audit_album",
       "browseId": "MPREb_ew25IKFpIRL",
       "match": "search \u2192 'MONETARY PURPOSES III' by J.Robb",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m9pxYMoZTn3S_09v1vf5hIB9b12Mgc4eQ"
     },
     {
       "artist": "Joy Orbison",
@@ -491,7 +538,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Muq4ZnsqSEC",
       "match": "search \u2192 'still slipping vol. 1' by Joy Orbison",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nBhsTATHvZnq1JG-r-SMJHIlFJX9VEgc4"
     },
     {
       "artist": "K, Le Maestro",
@@ -501,7 +549,8 @@
       "source": "audit_album",
       "browseId": "MPREb_mMFkBRorir7",
       "match": "search \u2192 'Lab Sounds' by K, Le Maestro",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m_txYJgwPmiSw2MLCs5vOZDSWjce9Tcqg"
     },
     {
       "artist": "Kalbaisakhi",
@@ -511,7 +560,8 @@
       "source": "audit_album",
       "browseId": "MPREb_XiuuhCLo6Sc",
       "match": "search \u2192 'Tunnels' by Kalbaisakhi",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mvfyFzh2xRHHFSSzWH8FzQsrdac6fsjKs"
     },
     {
       "artist": "Karma Kid",
@@ -521,7 +571,8 @@
       "source": "audit_album",
       "browseId": "MPREb_S53Qahm144v",
       "match": "search \u2192 'BOSSA' by Karma Kid, Luke Fono",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nFu3NEdiww2Tj0wVqJCPUub1CTRMhcgZE"
     },
     {
       "artist": "Louis The Child",
@@ -531,7 +582,8 @@
       "source": "audit_album",
       "browseId": "MPREb_fwVvw6MVIhF",
       "match": "search \u2192 'The Sun Comes Up' by Louis The Child",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_muTJzTyFOfmTAirj1gv6689gmAf0yjnYE"
     },
     {
       "artist": "Lucid Monday",
@@ -541,7 +593,8 @@
       "source": "audit_album",
       "browseId": "MPREb_rn5cb0GwJzj",
       "match": "search \u2192 'LM027' by Lucid Monday",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lnXNBDubsa6nONY7RKu81E291ksLphP6c"
     },
     {
       "artist": "Machinedrum",
@@ -551,7 +604,8 @@
       "source": "audit_album",
       "browseId": "MPREb_YGp1jQFgUHt",
       "match": "search \u2192 'IIII' by VIER, Thys, Machinedrum, Holly",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lY409iiNn0vj55hOACDSsrdi5oyvP1E2I"
     },
     {
       "artist": "Malfnktion",
@@ -561,7 +615,8 @@
       "source": "audit_album",
       "browseId": "MPREb_wbFtTk6ZbBr",
       "match": "search \u2192 'Infinity Trail' by Malfnktion",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kXvZcM2hUDHX887V2wRCXVr7Bn8ec-_GE"
     },
     {
       "artist": "Mount Kimbie",
@@ -571,7 +626,8 @@
       "source": "audit_album",
       "browseId": "MPREb_1mkPif0Ysiy",
       "match": "search \u2192 'The Sunset Violent' by Mount Kimbie",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k4z4sb9ByJplLUlOPP64NI7yC1zNIAs-U"
     },
     {
       "artist": "Nia Archives",
@@ -581,7 +637,8 @@
       "source": "audit_album",
       "browseId": "MPREb_E438DX4Dvxd",
       "match": "search \u2192 'Silence Is Loud' by Nia Archives",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lYrrhBzj2xO7af_U_XMROGfnAorlYNVqo"
     },
     {
       "artist": "O'Flynn",
@@ -591,7 +648,8 @@
       "source": "audit_album",
       "browseId": "MPREb_IsNr3xQ4gJI",
       "match": "search \u2192 'Aletheia' by O'Flynn",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lmKVc7jRS66LCoy39yq_ZYYsMC-3lvRfc"
     },
     {
       "artist": "Pearson Sound",
@@ -601,7 +659,8 @@
       "source": "audit_album",
       "browseId": "MPREb_WZVH6HjRIbC",
       "match": "search \u2192 'Pearson Sound' by Pearson Sound",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_ll-oS7PXY3ohCQCb9bjr0I-K_qVOarWJY"
     },
     {
       "artist": "PinkPantheress",
@@ -611,7 +670,8 @@
       "source": "audit_album",
       "browseId": "MPREb_bCkPTX7O1iC",
       "match": "search \u2192 'Fancy Some More?' by PinkPantheress",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m9dH4UoBZrKnGuba1Hx6fJ6u2GUUDa-70"
     },
     {
       "artist": "Player Dave",
@@ -621,7 +681,8 @@
       "source": "audit_album",
       "browseId": "MPREb_xYYFd0hln96",
       "match": "search \u2192 'Where the Wind Blew Me' by Player Dave",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kgjphmE9bs99VGf2MK9zff8H7DsqME6-U"
     },
     {
       "artist": "Powder",
@@ -631,7 +692,8 @@
       "source": "audit_album",
       "browseId": "MPREb_6vEOmWRTwwM",
       "match": "search \u2192 'Powder' by Powder",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_ka0USWNga-_WXxJ_mnhZnNrXlW13Mvdy4"
     },
     {
       "artist": "QUIET BISON",
@@ -641,7 +703,8 @@
       "source": "audit_album",
       "browseId": "MPREb_kckUdGU3vo9",
       "match": "search \u2192 'Dawn' by QUIET BISON",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lPf9VTSGmfg9VM6lzVb28-b5a_TFlTvEM"
     },
     {
       "artist": "RamonPang",
@@ -651,7 +714,8 @@
       "source": "audit_album",
       "browseId": "MPREb_wKnrSxn1h8Q",
       "match": "search \u2192 'Life Cycle Waves' by RamonPang",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m4MxKUInR8vzb_B_3lhB0Cnw16NJ1Ol7U"
     },
     {
       "artist": "Rohaan",
@@ -661,7 +725,8 @@
       "source": "audit_album",
       "browseId": "MPREb_yIq56dC3F33",
       "match": "search \u2192 'Bleach' by Rohaan",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_l_tz0xdtgN2l8sW6T_nzP4mh2s9akZ9zE"
     },
     {
       "artist": "Ross From Friends",
@@ -671,7 +736,8 @@
       "source": "audit_album",
       "browseId": "MPREb_xt2MkkYtcZx",
       "match": "search \u2192 'Love Divide / The Knife (Bubble Love Remixes)' by Ross from Friends",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lWaXmlPKrXOe0y6Ubrs_vQkB6500E58YI"
     },
     {
       "artist": "SG Lewis",
@@ -681,7 +747,8 @@
       "source": "audit_album",
       "browseId": "MPREb_gAEHQ5MTsYU",
       "match": "search \u2192 'Anemoia' by SG Lewis",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_meAQOwjF_5CTcH7qVFGGcKus8yp7wUMRA"
     },
     {
       "artist": "Skee Mask",
@@ -691,7 +758,8 @@
       "source": "audit_album",
       "browseId": "MPREb_6WWoyVbyU98",
       "match": "search \u2192 'Resort' by Skee Mask",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mvb6Vmep-maa7vEGnapyOoEcxbGU1m3Hg"
     },
     {
       "artist": "Skream",
@@ -701,7 +769,8 @@
       "source": "audit_album",
       "browseId": "MPREb_fx6wEA9lM7e",
       "match": "search \u2192 'Skreamizm 8' by Skream",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lHilBbebd3DzhsWfdMyd5GSvetL5xgWts"
     },
     {
       "artist": "Sukh Knight",
@@ -711,7 +780,8 @@
       "source": "audit_album",
       "browseId": "MPREb_p0jP46H7rrv",
       "match": "search \u2192 'The Lost Dubs Vol. 1' by Sukh Knight",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lCkOiAD58JQQw8YXcfhtfzrnM2CPhIsWk"
     },
     {
       "artist": "VHOOR",
@@ -721,7 +791,8 @@
       "source": "audit_album",
       "browseId": "MPREb_fvmnhuRe28Z",
       "match": "search \u2192 'Resenha' by VHOOR",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lupgJZqnW_kvu81mcdwyeqmoW33_moZmc"
     },
     {
       "artist": "Whethan",
@@ -731,7 +802,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Gdugzsxz4tL",
       "match": "search \u2192 'Life of a Wallflower , Vol. 2' by Whethan",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mz7k9wtEJPW4K0di-z7NX7174pPQ90u1w"
     },
     {
       "artist": "Yaeji",
@@ -741,7 +813,8 @@
       "source": "audit_album",
       "browseId": "MPREb_KGovPcrnj9o",
       "match": "search \u2192 'With A Hammer' by Yaeji",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nYwwjURUza4bZ6ucrwVuXnopyWdOVOx2g"
     },
     {
       "artist": "barnacle boi",
@@ -751,7 +824,8 @@
       "source": "audit_album",
       "browseId": "MPREb_VC4JrwksGss",
       "match": "search \u2192 'Into the Void, Vol 1' by barnacle boi",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k7XaRks1Qx90QaaiTsz2xfGZCnWM07Hjs"
     },
     {
       "artist": "pandi",
@@ -761,7 +835,8 @@
       "source": "audit_album",
       "browseId": "MPREb_bLxDHqfVglH",
       "match": "search \u2192 'New Era, Vol. 1' by Pandi",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kuIQGxYKp8Hikfp0E7QpY60dC03eqBNWc"
     },
     {
       "artist": "piri & tommy",
@@ -771,7 +846,8 @@
       "source": "audit_album",
       "browseId": "MPREb_p847cewWOib",
       "match": "search \u2192 'Drumpire' by piri",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nmcA1m7izwoaqscearhkZ96udH70R3Dgg"
     },
     {
       "artist": "salute",
@@ -781,7 +857,8 @@
       "source": "audit_album",
       "browseId": "MPREb_a8fZjgp5S7K",
       "match": "search \u2192 'fabric presents salute' by salute",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m8FdeIksFNNLt6f4gNURQfRYyB5eHWX4Y"
     },
     {
       "artist": "BADBADNOTGOOD",
@@ -791,7 +868,8 @@
       "source": "audit_album",
       "browseId": "MPREb_TfTOcDwCGAS",
       "match": "search \u2192 'Mid Spiral' by BADBADNOTGOOD",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kuz2dSMx6eYTjmTIqROz_2280mS7FZ4Ds"
     },
     {
       "artist": "DJ Harrison",
@@ -801,7 +879,8 @@
       "source": "audit_album",
       "browseId": "MPREb_TaeCQPTZqYH",
       "match": "search \u2192 'A DJ Harrison Xmas' by DJ Harrison",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lBk27m9jNJ5fRfqwUT1l-jXvp5Ou_vkU0"
     },
     {
       "artist": "James Blake",
@@ -811,7 +890,8 @@
       "source": "audit_album",
       "browseId": "MPREb_2CwlvOvKHqo",
       "match": "search \u2192 'Trying Times' by James Blake",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mkcqTNMfppM_zdf0lYU46c-vkie7iluVQ"
     },
     {
       "artist": "Jon Bap",
@@ -821,7 +901,8 @@
       "source": "audit_album",
       "browseId": "MPREb_nBaGRkY2E4q",
       "match": "search \u2192 'Alright By Myself' by The Get Money Squad, Jon Bap, Quinton Brock",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kFz9NtOzb5WP06SY4nD3QfLQjN9ny1q7k"
     },
     {
       "artist": "Khruangbin",
@@ -831,7 +912,8 @@
       "source": "audit_album",
       "browseId": "MPREb_wVzfHiso5Of",
       "match": "search \u2192 'The Universe Smiles Upon You ii' by Khruangbin",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kxo-5eIS1fMbj6g5AiabWnsy8QgamtDGY"
     },
     {
       "artist": "Laraaji",
@@ -841,7 +923,8 @@
       "source": "audit_album",
       "browseId": "MPREb_f8pdr8pzx7Y",
       "match": "search \u2192 'Glimpses of Infinity' by Laraaji",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_ldROER_Rog7YptDmZW9wIYk5_jqxIKsvA"
     },
     {
       "artist": "Mndsgn",
@@ -851,7 +934,8 @@
       "source": "audit_album",
       "browseId": "MPREb_lD6SvlsXxQD",
       "match": "search \u2192 'Snaxxx' by Mndsgn",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_k79D3AsNcRJoCIovTkBMsYcU_Bp5AM9dE"
     },
     {
       "artist": "Raveena",
@@ -861,7 +945,8 @@
       "source": "audit_album",
       "browseId": "MPREb_Z6UIDEN8sjw",
       "match": "search \u2192 'From Deep Within' by Raveena",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nFHxipa2jFzAZDvxl1i2zmVUqgEBgaUEw"
     },
     {
       "artist": "Robert Glasper",
@@ -871,7 +956,8 @@
       "source": "audit_album",
       "browseId": "MPREb_bF36mJx2jjQ",
       "match": "search \u2192 'Keys To The City Volume One' by Robert Glasper",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nu4zlxNxrPfFPF9j6Dz8IdnpstT5Jb2hc"
     },
     {
       "artist": "Solange",
@@ -881,7 +967,8 @@
       "source": "audit_album",
       "browseId": "MPREb_qFMO1cILZIh",
       "match": "search \u2192 'Solo Star' by Solange",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nJ-IneBju5-oTh9AD4LIot7msmpSx5htU"
     },
     {
       "artist": "Tara Lily",
@@ -891,7 +978,8 @@
       "source": "audit_album",
       "browseId": "MPREb_hXvMMLwpmlj",
       "match": "search \u2192 'Speak In The Dark' by Tara Lily",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mf5-4FI7JhIh0TPi6l5MLmljdBSlLvyes"
     },
     {
       "artist": "esta.",
@@ -901,7 +989,8 @@
       "source": "audit_album",
       "browseId": "MPREb_YTqJM3kWAK1",
       "match": "search \u2192 'FRANCIS' by ESTA.",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_nvT9Oamd5giRmWNvpiiQlRbj5pga1xE5M"
     },
     {
       "artist": "saie.",
@@ -911,7 +1000,8 @@
       "source": "audit_album",
       "browseId": "MPREb_ZjhLEVD5WUU",
       "match": "search \u2192 'Sailors Daughter' by Saie Saie",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mHBDvWD9VLMNEpOtNPSqm_6sC7NoFjlP4"
     },
     {
       "artist": "Sam Gendel",
@@ -921,7 +1011,8 @@
       "source": "audit_album",
       "browseId": "MPREb_GA45tVs0OaE",
       "match": "search \u2192 'digi-squires' by Sam Gendel & Nate Mercereau",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lcA0vBnleRmEcmzuURvyGOlJLCPjkShJY"
     },
     {
       "artist": "Sam Wilkes",
@@ -931,7 +1022,8 @@
       "source": "audit_album",
       "browseId": "MPREb_9QZaIzIvrQ9",
       "match": "search \u2192 'Public Records Performance' by Sam Wilkes",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_kvK_D_cMg6KnrUMiFyq6phWBcDTtIsAM4"
     },
     {
       "artist": "DJ Plead",
@@ -941,7 +1033,8 @@
       "source": "audit_album",
       "browseId": "MPREb_pqdNzng20rr",
       "match": "search \u2192 'Relentless Trills' by DJ Plead",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mcfbbHWJ0-FSqdPqL5t98WeY2TOOWLMmI"
     },
     {
       "artist": "Sharda",
@@ -951,7 +1044,7 @@
       "source": "audit_album",
       "browseId": null,
       "match": "NO MATCH",
-      "status": "preview"
+      "status": "no-match"
     },
     {
       "artist": "Coki",
@@ -961,7 +1054,8 @@
       "source": "audit_album",
       "browseId": "MPREb_rz65KCvIx6u",
       "match": "search \u2192 'Sunset Man' by Coki",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_np7FfSd8o345APjqTLDoB_o6KIoY7axfo"
     },
     {
       "artist": "Qasim Naqvi",
@@ -971,7 +1065,8 @@
       "source": "audit_album",
       "browseId": "MPREb_4yClCXitLUI",
       "match": "search \u2192 'Endling' by Qasim Naqvi",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_njOmZ7layyX-iIrjg4OcVoYXyp0yjUEos"
     },
     {
       "artist": "Rachika Nayar",
@@ -981,7 +1076,8 @@
       "source": "audit_album",
       "browseId": "MPREb_nNm5BURfa1Z",
       "match": "search \u2192 'Azimuth Divergence' by Danny L Harle, Rachika Nayar",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_lWFIRPVDMQUOlw5QzB7BlxGd4N5kWy3nQ"
     },
     {
       "artist": "Krithi",
@@ -991,7 +1087,8 @@
       "source": "audit_ep",
       "browseId": "MPREb_n0Uk3FHonC7",
       "match": "search \u2192 'Standards I' by Krithi",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_m6HnaZjalH-PrSuq4BT1QGrrImE2iquzE"
     },
     {
       "artist": "SICARIA",
@@ -1001,7 +1098,8 @@
       "source": "audit_ep",
       "browseId": "MPREb_bPu5xDTJVYQ",
       "match": "search \u2192 'ANTI NIHILO' by SICARIA, Lou Nour",
-      "status": "preview"
+      "status": "saved",
+      "playlistId": "OLAK5uy_mqMDdJ5TGcYDtHhHsUHfWZE7P9vhLf0QI"
     },
     {
       "artist": "blaccmass",
@@ -1010,7 +1108,7 @@
       "source": "audit_single",
       "videoId": "O0nayUazh3I",
       "match": "search \u2192 'Up Now' by COLLAB, Blaccmass, & Jet Lee Houdini",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "Baalti",
@@ -1019,7 +1117,7 @@
       "source": "audit_single",
       "videoId": "hxkgtx6kkFg",
       "match": "search \u2192 'Disco Wich Aa (Baalti Remix)' by Mohinder Kaur Bhamra, Baalti",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "Cesco",
@@ -1028,7 +1126,7 @@
       "source": "audit_single",
       "videoId": "XqUvm5VBNQw",
       "match": "search \u2192 'Rigid Lord' by Cesco, Nina",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "DJ Sliink",
@@ -1037,7 +1135,7 @@
       "source": "audit_single",
       "videoId": "c8TlL0aJez0",
       "match": "search \u2192 'Aerobics' by DJ Sliink",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "Kalzi",
@@ -1046,7 +1144,7 @@
       "source": "audit_single",
       "videoId": "zy6uddBSe7k",
       "match": "search \u2192 'Chaap Tilak' by Kalzi",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "LYRIC WALLS",
@@ -1055,7 +1153,7 @@
       "source": "audit_single",
       "videoId": "Obd6WS0KrlU",
       "match": "search \u2192 'waiting' by Lyric Walls",
-      "status": "preview"
+      "status": "liked"
     },
     {
       "artist": "Raji Rags",
@@ -1064,15 +1162,15 @@
       "source": "audit_single",
       "videoId": "TQefHvA7tNU",
       "match": "search \u2192 'Bullet Train (feat. Sonia Calico, Raven Bush & Peter Bennie)' by Raji Rags",
-      "status": "preview"
+      "status": "liked"
     }
   ],
-  "finishedAt": "2026-05-15T18:19:55.654765+00:00",
+  "finishedAt": "2026-05-15T18:23:30.930115+00:00",
   "summary": {
-    "saved": 0,
-    "liked": 0,
-    "no_match": 0,
-    "errors": 0,
-    "preview": 107
+    "saved": 96,
+    "liked": 7,
+    "no_match": 2,
+    "errors": 2,
+    "preview": 0
   }
 }
