@@ -236,6 +236,7 @@ STANDARD_CHANNELS = [
     # Podcasts
     ("lennys-podcast", "Lenny's Podcast", 49, "#8b5cf6", "https://www.youtube.com/@LennysPodcast/videos", 10),
     ("joe-rogan", "JRE Clips", 62, "#16a34a", "https://www.youtube.com/@JREClips/videos", 8),
+    ("facts-machine-pod", "Facts Machine Pod", 64, "#fde047", "https://www.youtube.com/@factsmachinepod/videos", 10),
 
     # Cooking
     ("hebbars-kitchen", "Hebbar's Kitchen", 50, "#fb923c", "ytsearch15:hebbars kitchen recipe", 15),
