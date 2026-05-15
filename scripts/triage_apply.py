@@ -107,8 +107,9 @@ def main():
         print("Specify --dry or --apply")
         sys.exit(2)
 
-    if args.apply and not BROWSER_AUTH.exists():
-        print(f"ERROR: {BROWSER_AUTH} not found.")
+    if not BROWSER_AUTH.exists():
+        print(f"ERROR: {BROWSER_AUTH} not found. Auth is required for both dry and apply modes "
+              "(unauth YT Music search misses most albums).")
         sys.exit(1)
 
     data = json.loads(args.triage.read_text())
@@ -117,7 +118,7 @@ def main():
     print(f"Mode: {'apply' if args.apply else 'dry'}")
     print(f"Picks: {len(picks)}\n")
 
-    yt = YTMusic(str(BROWSER_AUTH)) if args.apply else YTMusic()
+    yt = YTMusic(str(BROWSER_AUTH))
 
     do_albums = not args.only_singles
     do_singles = not args.only_albums
