@@ -1,105 +1,175 @@
 {
- "updatedAt": "2026-05-01T14:58:44.645645+00:00",
+ "updatedAt": "2026-05-15T17:56:39.336684+00:00",
  "alerts": [
   {
    "id": 1,
+   "artist": "Action Bronson",
+   "title": "PLANET FROG",
+   "browseId": "MPREb_c67bbc4gzPD",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 2,
    "artist": "Curren$y",
    "title": "Roofless Records For Drop Tops: Disc 2",
    "browseId": "MPREb_0WWVpiYzd2b",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 2,
+   "id": 3,
    "artist": "Tony Shhnow",
    "title": "Flood",
    "browseId": "MPREb_lMImEriTUKh",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 3,
+   "id": 4,
    "artist": "HOLLY",
    "title": "ENIGMATH",
    "browseId": "MPREb_K17dmchxhZS",
    "year": "2025",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 4,
+   "id": 5,
    "artist": "Lone",
    "title": "Hyperphantasia",
    "browseId": "MPREb_vIhxuYn2Ouc",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 5,
+   "id": 6,
    "artist": "Nia Archives",
    "title": "Emotional Junglist",
    "browseId": "MPREb_7ow4uzHBbHp",
    "year": "Upcoming Album",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 6,
+   "id": 7,
    "artist": "Vegyn",
    "title": "Thank You for Almost Everything",
    "browseId": "MPREb_sT9zYbv0Aw0",
    "year": "2025",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 7,
+   "id": 8,
+   "artist": "Volor Flex",
+   "title": "Rec in a Pale Tiled Room",
+   "browseId": "MPREb_7TnWFHbVRXw",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 9,
+   "artist": "truant.",
+   "title": "FU",
+   "browseId": "MPREb_P1UboLqanzS",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 10,
+   "artist": "DJ Harrison",
+   "title": "'94 Flow",
+   "browseId": "MPREb_6JG7Ki2bU6T",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 11,
    "artist": "Flying Lotus",
    "title": "1983",
    "browseId": "MPREb_PsZEGnjTLvO",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 8,
+   "id": 12,
    "artist": "Nitin Sawhney",
    "title": "Disneynature: Orangutan (Original Soundtrack)",
    "browseId": "MPREb_cnHD32Npyox",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 9,
+   "id": 13,
+   "artist": "Pharrell",
+   "title": "OPHANIM",
+   "browseId": "MPREb_hXE69cZhYMV",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 14,
    "artist": "Say She She",
    "title": "PAWA!",
    "browseId": "MPREb_ZEBVuSCHyM4",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   },
   {
-   "id": 10,
+   "id": 15,
+   "artist": "esta.",
+   "title": "IDEAS 001",
+   "browseId": "MPREb_suHJXlapHXE",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 16,
+   "artist": "saie.",
+   "title": "Early Twenties Torture",
+   "browseId": "MPREb_yV9gKXzsDOI",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-05-15T17:50:48.167519"
+  },
+  {
+   "id": 17,
    "artist": "Sam Gendel",
    "title": "UNRELATED",
    "browseId": "MPREb_UT5Zkssg3YN",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-01T14:52:54.921857"
+   "detectedAt": "2026-05-15T17:50:48.167519"
   }
  ]
 }
