@@ -9,6 +9,16 @@ const VIBES = [
   "Future Beats", "Electronica", "Ambient", "Trap", "Boom Bap", "Pop",
 ] as const;
 
+// Pillars sit above channels — high-level DJ-set buckets per the DJ Crate System.
+// pillar column on artists.csv is pipe-separated for multi-pillar artists.
+const PILLARS = [
+  { name: "1 Mellow",       short: "Mellow",       color: "bg-blue-600" },
+  { name: "2 Desi Lofi",    short: "Desi Lofi",    color: "bg-emerald-600" },
+  { name: "3 Desi Uptempo", short: "Desi Uptempo", color: "bg-orange-600" },
+  { name: "4 Bass Rave",    short: "Bass Rave",    color: "bg-red-600" },
+  { name: "5 Trivia Crowd", short: "Trivia",       color: "bg-purple-600" },
+] as const;
+
 export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
 
 interface Props {
@@ -78,6 +88,12 @@ export function FilterPanel({
         ? filters.vibes.filter((v) => v !== value)
         : [...filters.vibes, value];
       onChange({ ...filters, vibes });
+    } else if (key === "pillars") {
+      const cur = filters.pillars || [];
+      const pillars = cur.includes(value)
+        ? cur.filter((p) => p !== value)
+        : [...cur, value];
+      onChange({ ...filters, pillars });
     } else if (key === "samay") {
       onChange({ ...filters, samay: filters.samay === value ? null : value });
     } else if (key === "desi") {
@@ -86,6 +102,7 @@ export function FilterPanel({
   };
 
   const activeFilterCount =
+    (filters.pillars?.length || 0) +
     filters.channels.length +
     filters.vibes.length +
     (filters.samay ? 1 : 0) +
@@ -142,6 +159,24 @@ export function FilterPanel({
       <div className={`space-y-3 ${(ilaiyaraajaMode || tamilMode || sectionMode !== "browse") ? "" : expanded ? "" : "hidden md:block"}`}>
         {!tamilMode && !ilaiyaraajaMode && sectionMode === "browse" && (
           <>
+            {/* Pillars — DJ Crate System buckets above channels */}
+            <div className="flex gap-1 flex-wrap">
+              {PILLARS.map((pl) => (
+                <button
+                  key={pl.name}
+                  onClick={() => toggle("pillars", pl.name)}
+                  title={pl.name}
+                  className={`px-2.5 py-1 text-[11px] uppercase tracking-wider font-medium transition-colors ${
+                    (filters.pillars || []).includes(pl.name)
+                      ? `${pl.color} text-white`
+                      : "bg-[#111] text-[#888] hover:text-white"
+                  }`}
+                >
+                  {pl.short}
+                </button>
+              ))}
+            </div>
+
             {/* Channels */}
             <div className="flex gap-1">
               {CHANNELS.map((ch) => (

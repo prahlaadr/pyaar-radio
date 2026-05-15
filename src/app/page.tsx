@@ -37,6 +37,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   desi: null,
   vibes: [],
   tags: [],
+  pillars: [],
   bpmMin: 0,
   bpmMax: 300,
   halfTime: false,
@@ -59,6 +60,9 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
 
   const vibe = p.get("vibe");
   if (vibe) filters.vibes = vibe.split(",").filter(Boolean);
+
+  const pillar = p.get("pillar");
+  if (pillar) filters.pillars = pillar.split(",").filter(Boolean);
 
   const bpm = p.get("bpm");
   if (bpm) {
@@ -106,6 +110,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (filters.samay) p.set("samay", filters.samay);
   if (filters.desi) p.set("desi", filters.desi);
   if (filters.vibes.length > 0) p.set("vibe", filters.vibes.join(","));
+  if (filters.pillars && filters.pillars.length > 0) p.set("pillar", filters.pillars.join(","));
   if (filters.bpmMin > 0 || filters.bpmMax < 300) {
     p.set("bpm", filters.bpmMin === filters.bpmMax ? `${filters.bpmMin}` : `${filters.bpmMin}-${filters.bpmMax}`);
   }
@@ -473,6 +478,7 @@ export default function Home() {
         vibes: string;
         bpm_low: number;
         bpm_high: number;
+        pillar: string | null;
       }>(sql);
 
       setAllArtists(
@@ -485,6 +491,7 @@ export default function Home() {
           vibes: r.vibes ? r.vibes.split("|") : [],
           bpmLow: Number(r.bpm_low) || 0,
           bpmHigh: Number(r.bpm_high) || 0,
+          pillars: r.pillar ? r.pillar.split("|") : [],
         }))
       );
 

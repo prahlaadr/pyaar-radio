@@ -7,6 +7,7 @@ export interface Artist {
   vibes: string[];
   bpmLow: number;
   bpmHigh: number;
+  pillars: string[];
 }
 
 export interface Track {
@@ -82,6 +83,7 @@ export interface ArtistFilters {
   desi: string | null;
   vibes: string[];
   tags: string[];
+  pillars: string[];
   bpmMin: number;
   bpmMax: number;
   halfTime: boolean;
