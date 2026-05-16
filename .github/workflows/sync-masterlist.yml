@@ -47,6 +47,9 @@ jobs:
       - name: Sync all playlists to JSON
         run: python sync_playlists.py
 
+      - name: Recompute dj_score + dj_tier on masterlist
+        run: python scripts/compute_dj_score.py
+
       - name: Check for changes
         id: changes
         run: |
