@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 243,
- "totalTracks": 100267,
- "syncedAt": "2026-05-16T09:41:46.403079Z",
+ "playlistCount": 244,
+ "totalTracks": 100704,
+ "syncedAt": "2026-05-16T16:35:17.578078Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
+   "title": "The Sound of Indian Indie",
+   "trackCount": 437
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
