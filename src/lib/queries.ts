@@ -21,6 +21,12 @@ export function buildArtistQuery(filters: ArtistFilters): string {
     conditions.push(`(${vibeConds.join(" AND ")})`);
   }
 
+  if (filters.pillars && filters.pillars.length > 0) {
+    // pillar column is pipe-separated; multi-select uses OR
+    const pillarConds = filters.pillars.map((p) => `pillar ILIKE '%${p}%'`);
+    conditions.push(`(${pillarConds.join(" OR ")})`);
+  }
+
   if (filters.bpmMin > 0 || filters.bpmMax < 300) {
     const min = filters.bpmMin > 0 ? filters.bpmMin : 0;
     const max = filters.bpmMax < 300 ? filters.bpmMax : 999;
