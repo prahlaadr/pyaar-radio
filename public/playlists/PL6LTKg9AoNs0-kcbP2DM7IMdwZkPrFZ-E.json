@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-05-16T16:35:17.578078Z",
+ "syncedAt": "2026-05-17T09:48:20.662438Z",
  "tracks": [
   {
    "title": "Lately",
@@ -7748,8 +7748,8 @@
   },
   {
    "title": "Latin Blue",
-   "artist": "Azúcar - Topic",
-   "album": "",
+   "artist": "Azùcar",
+   "album": "Volver",
    "videoId": "04y_4HOBShk",
    "duration": "3:39"
   },
@@ -7776,8 +7776,8 @@
   },
   {
    "title": "Argentine",
-   "artist": "Jwles - Topic",
-   "album": "",
+   "artist": "Jwles",
+   "album": "Argentine",
    "videoId": "I0muP5LNc74",
    "duration": "2:42"
   },
@@ -7831,9 +7831,9 @@
    "duration": "6:04"
   },
   {
-   "title": "nike air dunks",
-   "artist": "oakland - Topic",
-   "album": "",
+   "title": "nike air dunks (feat. bossman birdie, Jme & big h)",
+   "artist": "oakland",
+   "album": "nike air dunks",
    "videoId": "ZzaWb1s_ctg",
    "duration": "3:01"
   },
@@ -7860,8 +7860,8 @@
   },
   {
    "title": "I Heard a Sigh",
-   "artist": "Cortex - Topic",
-   "album": "",
+   "artist": "Cortex",
+   "album": "Inedit 79",
    "videoId": "rC9gTAef0P4",
    "duration": "3:30"
   },
@@ -8014,15 +8014,15 @@
   },
   {
    "title": "Avenida Das Mangueiras",
-   "artist": "Azymuth - Topic",
-   "album": "",
+   "artist": "Azymuth",
+   "album": "Light As A Feather",
    "videoId": "np4HNrtXC_8",
    "duration": "4:25"
   },
   {
    "title": "Out of Work",
-   "artist": "Jesse Gould - Topic",
-   "album": "",
+   "artist": "Jesse Gould",
+   "album": "Out of Work",
    "videoId": "zAs8UlqF8eU",
    "duration": "6:28"
   },
@@ -8098,8 +8098,8 @@
   },
   {
    "title": "Fly Like An Eagle (Slippin' Dub)",
-   "artist": "The Neville Brothers - Topic",
-   "album": "",
+   "artist": "The Neville Brothers",
+   "album": "Fly Like An Eagle",
    "videoId": "fn6dqC6ryM8",
    "duration": "6:16"
   },
@@ -8182,8 +8182,8 @@
   },
   {
    "title": "Existentialism (feat. Leah Zeiger)",
-   "artist": "Charlie Curtis-Beard - Topic",
-   "album": "",
+   "artist": "Charlie Curtis-Beard",
+   "album": "Existentialism on Lake Shore Drive",
    "videoId": "KbGDmPqaa70",
    "duration": "6:44"
   },
@@ -8266,8 +8266,8 @@
   },
   {
    "title": "Tell Me Why",
-   "artist": "Gotts Street Park - Topic",
-   "album": "",
+   "artist": "Gotts Street Park;Olive Jones",
+   "album": "On The Inside",
    "videoId": "MiAlrOtaTC8",
    "duration": "3:52"
   },
@@ -8378,8 +8378,8 @@
   },
   {
    "title": "Voyager",
-   "artist": "Daft Punk - Topic",
-   "album": "",
+   "artist": "Daft Punk",
+   "album": "Discovery",
    "videoId": "OWiVJMgms9E",
    "duration": "3:48"
   },

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 11,
- "syncedAt": "2026-05-16T16:35:17.578078Z",
+ "trackCount": 13,
+ "syncedAt": "2026-05-17T09:48:20.662438Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -12,46 +12,11 @@
    "duration": "4:56"
   },
   {
-   "title": "Passionfruit",
-   "artist": "Yaeji",
-   "album": "EP2",
-   "videoId": "vThiUfTJ-8c",
-   "duration": "4:35"
-  },
-  {
-   "title": "M.O.M.",
-   "artist": "Isaiah Rashad",
-   "album": "IT'S BEEN AWFUL",
-   "videoId": "EqH8PdlAh6A",
-   "duration": "2:46"
-  },
-  {
    "title": "Wake Her Up (feat. Wisp)",
    "artist": "American Football",
    "album": "American Football (LP4)",
    "videoId": "Ocm1Dsbazxk",
    "duration": "5:21"
-  },
-  {
-   "title": "NO 1 KNEW",
-   "artist": "Machinedrum",
-   "album": "NO 1 KNEW",
-   "videoId": "g5fg57qQJ5c",
-   "duration": "4:05"
-  },
-  {
-   "title": "Buildings",
-   "artist": "Ty Segall",
-   "album": "Possession",
-   "videoId": "VfQRKmUajyU",
-   "duration": "4:12"
-  },
-  {
-   "title": "Diamonds (feat. Gunna)",
-   "artist": "Young Thug",
-   "album": "So Much Fun (Deluxe)",
-   "videoId": "umz6CYcfLvc",
-   "duration": "3:31"
   },
   {
    "title": "Slipping Over",
@@ -61,11 +26,25 @@
    "duration": "6:14"
   },
   {
-   "title": "coolwhip",
-   "artist": "williums",
-   "album": "f-lybrary music",
-   "videoId": "JnZ91E7E8lc",
-   "duration": "2:06"
+   "title": "Buen Viaje",
+   "artist": "Fémina",
+   "album": "Traspasa",
+   "videoId": "MsKjLWAMcjY",
+   "duration": "3:34"
+  },
+  {
+   "title": "NO 1 KNEW",
+   "artist": "Machinedrum",
+   "album": "NO 1 KNEW",
+   "videoId": "g5fg57qQJ5c",
+   "duration": "4:05"
+  },
+  {
+   "title": "King of Silence",
+   "artist": "Cibo Matto",
+   "album": "Stereotype A",
+   "videoId": "0UgAHdBdd0Y",
+   "duration": "4:56"
   },
   {
    "title": "enterlude",
@@ -75,11 +54,46 @@
    "duration": "1:31"
   },
   {
-   "title": "Buen Viaje",
-   "artist": "Fémina",
-   "album": "Traspasa",
-   "videoId": "MsKjLWAMcjY",
-   "duration": "3:34"
+   "title": "M.O.M.",
+   "artist": "Isaiah Rashad",
+   "album": "IT'S BEEN AWFUL",
+   "videoId": "EqH8PdlAh6A",
+   "duration": "2:46"
+  },
+  {
+   "title": "Diamonds (feat. Gunna)",
+   "artist": "Young Thug",
+   "album": "So Much Fun (Deluxe)",
+   "videoId": "umz6CYcfLvc",
+   "duration": "3:31"
+  },
+  {
+   "title": "Passionfruit",
+   "artist": "Yaeji",
+   "album": "EP2",
+   "videoId": "vThiUfTJ-8c",
+   "duration": "4:35"
+  },
+  {
+   "title": "Buildings",
+   "artist": "Ty Segall",
+   "album": "Possession",
+   "videoId": "VfQRKmUajyU",
+   "duration": "4:12"
+  },
+  {
+   "title": "coolwhip",
+   "artist": "williums",
+   "album": "f-lybrary music",
+   "videoId": "JnZ91E7E8lc",
+   "duration": "2:06"
+  },
+  {
+   "title": "Rest of Your Life",
+   "artist": "Dahi",
+   "album": "Rest of Your Life",
+   "videoId": "vu8iTmyNYqI",
+   "duration": "3:53"
   }
  ]
 }
