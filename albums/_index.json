@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3193,
- "totalTracks": 41103,
- "syncedAt": "2026-05-17T09:48:17.779201Z",
+ "albumCount": 3194,
+ "totalTracks": 41115,
+ "syncedAt": "2026-05-18T11:45:49.092829Z",
  "albums": [
+  {
+   "browseId": "MPREb_8vpu2XMai1x",
+   "title": "No Ceilings",
+   "artist": "Lil Wayne",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_pS6vcU1v3Qa",
+   "title": "Afro-Harping",
+   "artist": "Dorothy Ashby",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_0ZVCl65Khjd",
    "title": "Stereotype A",
@@ -81,12 +93,6 @@
    "title": "'94 Flow",
    "artist": "DJ Harrison",
    "trackCount": 25
-  },
-  {
-   "browseId": "MPREb_P1UboLqanzS",
-   "title": "FU",
-   "artist": "Truant Fu",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_7TnWFHbVRXw",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1SfSDRCnhTiHRMStUHehas",
  "title": "20/20 LDN Recordings Catalogue",
  "trackCount": 551,
- "syncedAt": "2026-05-17T09:48:20.662438Z",
+ "syncedAt": "2026-05-18T11:45:52.755853Z",
  "tracks": [
   {
    "title": "Rorschach",
@@ -3513,8 +3513,8 @@
   },
   {
    "title": "XIVA",
-   "artist": "Pilo",
-   "album": "20/20, Vol. 3",
+   "artist": "Pilo - Topic",
+   "album": "",
    "videoId": "9w7UiK4uAdw",
    "duration": "4:17"
   },
@@ -3534,15 +3534,15 @@
   },
   {
    "title": "Problems",
-   "artist": "OAKK",
-   "album": "I Made This For You",
+   "artist": "OAKK - Topic",
+   "album": "",
    "videoId": "dT4A4ZqNqc4",
    "duration": "2:55"
   },
   {
    "title": "run away",
-   "artist": "OAKK",
-   "album": "I Made This For You",
+   "artist": "OAKK - Topic",
+   "album": "",
    "videoId": "G6u4UeQjm88",
    "duration": "1:40"
   },
@@ -3597,8 +3597,8 @@
   },
   {
    "title": "Curves",
-   "artist": "Ivy Lab",
-   "album": "Infinite Falling Ground Pt.2",
+   "artist": "Ivy Lab - Topic",
+   "album": "",
    "videoId": "GW8o-UWhoKs",
    "duration": "3:18"
   },
@@ -3646,8 +3646,8 @@
   },
   {
    "title": "Saxon",
-   "artist": "Ivy Lab",
-   "album": "Infinite Falling Ground Pt.2",
+   "artist": "Ivy Lab - Topic",
+   "album": "",
    "videoId": "L78FeZUgvO0",
    "duration": "3:17"
   },
@@ -3688,15 +3688,15 @@
   },
   {
    "title": "Bad Snack",
-   "artist": "COIDO",
-   "album": "Bad Snack EP",
+   "artist": "COIDO - Topic",
+   "album": "",
    "videoId": "oQtA73Lul08",
    "duration": "4:40"
   },
   {
    "title": "Mueviti",
-   "artist": "COIDO",
-   "album": "Bad Snack EP",
+   "artist": "COIDO - Topic",
+   "album": "",
    "videoId": "tIa7t1wj1Cs",
    "duration": "4:20"
   },
@@ -3723,15 +3723,15 @@
   },
   {
    "title": "my pleasure",
-   "artist": "GANZ",
-   "album": "1145",
+   "artist": "GANZ - Topic",
+   "album": "",
    "videoId": "KzvBUDzxQ2Y",
    "duration": "3:18"
   },
   {
    "title": "Magma",
-   "artist": "Noodles142",
-   "album": "Ping Pong EP",
+   "artist": "Noodles142 - Topic",
+   "album": "",
    "videoId": "PCxm3-K5jmg",
    "duration": "5:30"
   },
@@ -3856,8 +3856,8 @@
   },
   {
    "title": "Every Minute",
-   "artist": "VELLE",
-   "album": "Keys / Every Minute",
+   "artist": "VELLE - Topic",
+   "album": "",
    "videoId": "j43GAu5z-3k",
    "duration": "4:16"
   }
