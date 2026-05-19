@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3194,
- "totalTracks": 41115,
- "syncedAt": "2026-05-18T11:45:49.092829Z",
+ "totalTracks": 41114,
+ "syncedAt": "2026-05-19T11:19:23.584692Z",
  "albums": [
+  {
+   "browseId": "MPREb_pkw1i7uRsqT",
+   "title": "The Head Hurts but the Heart Knows the Truth",
+   "artist": "Headache",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_8vpu2XMai1x",
    "title": "No Ceilings",
@@ -14279,12 +14285,6 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_MRvjEmpo7U2",
-   "title": "Where we've been, Where we go from here",
-   "artist": "Friko",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_NY9NNtPVYfP",
    "title": "Andamos En El Ruedo",
    "artist": "Ulices Chaidez Y Sus Plebes",
@@ -15306,7 +15306,7 @@
   },
   {
    "browseId": "MPREb_sxpZZHEgmBa",
-   "title": "Ram",
+   "title": "RAM",
    "artist": "Paul McCartney",
    "trackCount": 12
   },
