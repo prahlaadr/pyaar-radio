@@ -1060,6 +1060,7 @@ export default function Home() {
         vibes: [],
         bpmLow: 0,
         bpmHigh: 300,
+        pillars: [],
       };
       setSectionMode("browse");
       setTamilMode(false);
