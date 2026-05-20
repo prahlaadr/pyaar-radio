@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3194,
- "totalTracks": 41114,
- "syncedAt": "2026-05-19T11:19:23.584692Z",
+ "albumCount": 3195,
+ "totalTracks": 41116,
+ "syncedAt": "2026-05-20T10:51:22.080128Z",
  "albums": [
+  {
+   "browseId": "MPREb_80x8bJ7uu0R",
+   "title": "Having Bad Dreams",
+   "artist": "Willowake",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_ZTzFlWZyOXr",
+   "title": "Ranjha",
+   "artist": "Shye Ben-Tzur",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_pkw1i7uRsqT",
    "title": "The Head Hurts but the Heart Knows the Truth",
@@ -13317,12 +13329,6 @@
    "title": "Switched-On",
    "artist": "Pachyman",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_WXDF1jjcabb",
-   "title": "In Dub",
-   "artist": "Pachyman",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_Sn9svAaxkCy",

@@ -1,9 +1,44 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1410,
- "syncedAt": "2026-05-19T11:19:26.570350Z",
+ "trackCount": 1415,
+ "syncedAt": "2026-05-20T10:51:25.345858Z",
  "tracks": [
+  {
+   "title": "Learn to Fly",
+   "artist": "Foo Fighters",
+   "album": "There Is Nothing Left To Lose",
+   "videoId": "HJMLLKgknvk",
+   "duration": "3:56"
+  },
+  {
+   "title": "Echo Odd",
+   "artist": "Willowake",
+   "album": "Echo Odd",
+   "videoId": "-3hIJ5yBAyA",
+   "duration": "3:01"
+  },
+  {
+   "title": "Just For Me",
+   "artist": "Kiss the Scientist",
+   "album": "Just For Me",
+   "videoId": "hR_c-YlEcpM",
+   "duration": "2:25"
+  },
+  {
+   "title": "Semi-Charmed Life",
+   "artist": "Third Eye Blind",
+   "album": "Third Eye Blind",
+   "videoId": "gjdLAsnR_Ws",
+   "duration": "4:29"
+  },
+  {
+   "title": "Everlong",
+   "artist": "Foo Fighters",
+   "album": "The Essential Foo Fighters",
+   "videoId": "8tq2NGmK9HY",
+   "duration": "4:11"
+  },
   {
    "title": "Love You Like A Love Song",
    "artist": "Selena Gomez & The Scene",
@@ -6293,8 +6328,8 @@
   {
    "title": "Call Me Maybe",
    "artist": "Carly Rae Jepsen",
-   "album": "Kiss",
-   "videoId": "dmjm9QAoMpA",
+   "album": "Kiss (Deluxe)",
+   "videoId": "HKVfpP7ZN8Y",
    "duration": "3:14"
   },
   {
