@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3195,
- "totalTracks": 41116,
- "syncedAt": "2026-05-20T10:51:22.080128Z",
+ "albumCount": 3197,
+ "totalTracks": 41150,
+ "syncedAt": "2026-05-21T11:26:05.816484Z",
  "albums": [
+  {
+   "browseId": "MPREb_QYijAQIl7FD",
+   "title": "EXPERIMENTAL RAP",
+   "artist": "JPEGMAFIA",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_b9e2uC0Oyly",
+   "title": "for the soft boys",
+   "artist": "ईथन Darla",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_80x8bJ7uu0R",
    "title": "Having Bad Dreams",

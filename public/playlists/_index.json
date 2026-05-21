@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 244,
- "totalTracks": 100718,
- "syncedAt": "2026-05-20T10:51:25.345858Z",
+ "playlistCount": 243,
+ "totalTracks": 100701,
+ "syncedAt": "2026-05-21T11:26:08.944152Z",
  "playlists": [
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1415
-  },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
    "title": "May 26",
-   "trackCount": 16
+   "trackCount": 21
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1417
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
+   "title": "Savage Pizza ",
+   "trackCount": 148
   },
   {
    "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
@@ -88,11 +93,6 @@
    "playlistId": "PL6LTKg9AoNs3RTVlPJcaJaVWyATTDApQC",
    "title": "Jan 26",
    "trackCount": 24
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3Df8_yZn3_0ck1E66h0Nyw",
-   "title": "savage pizza 1/21",
-   "trackCount": 17
   },
   {
    "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
@@ -770,11 +770,6 @@
    "trackCount": 6
   },
   {
-   "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
-   "title": "Savage Pizza ",
-   "trackCount": 81
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2lBzayYnWvSnc2izQugBqd",
    "title": "Mera vibes",
    "trackCount": 12
@@ -802,7 +797,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3KNk8G0Ll0e4b-uJyacCPT",
    "title": "YOOLWXNDER😈",
-   "trackCount": 74
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs3j5q6X-TrgflTnxiePneM3",

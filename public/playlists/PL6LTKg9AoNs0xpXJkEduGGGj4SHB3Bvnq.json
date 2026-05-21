@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 16,
- "syncedAt": "2026-05-20T10:51:25.345858Z",
+ "trackCount": 21,
+ "syncedAt": "2026-05-21T11:26:08.944152Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -115,6 +115,41 @@
    "album": "Echo Odd",
    "videoId": "-3hIJ5yBAyA",
    "duration": "3:01"
+  },
+  {
+   "title": "Just For Me",
+   "artist": "Kiss the Scientist",
+   "album": "Just For Me",
+   "videoId": "hR_c-YlEcpM",
+   "duration": "2:25"
+  },
+  {
+   "title": "The Pavement is my Pillow Talk",
+   "artist": "Headache",
+   "album": "The Head Hurts but the Heart Knows the Truth",
+   "videoId": "636nDdXb3Eg",
+   "duration": "2:55"
+  },
+  {
+   "title": "Too Much",
+   "artist": "Tony Shhnow",
+   "album": "Flood",
+   "videoId": "JUSoS0x9iR8",
+   "duration": "2:14"
+  },
+  {
+   "title": "Spaced Out",
+   "artist": "Young Nudy",
+   "album": "Slimeball",
+   "videoId": "3f0TJT7p08E",
+   "duration": "3:10"
+  },
+  {
+   "title": "Degenerates Prayer",
+   "artist": "JPEGMAFIA",
+   "album": "EXPERIMENTAL RAP",
+   "videoId": "O-BzlLPXFHQ",
+   "duration": "2:14"
   }
  ]
 }
