@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
  "title": "Savage Pizza ",
- "trackCount": 148,
- "syncedAt": "2026-05-21T11:26:08.944152Z",
+ "trackCount": 149,
+ "syncedAt": "2026-05-22T10:52:28.450726Z",
  "tracks": [
   {
    "title": "Lose My Mind (feat. Mr Gabriel)",
@@ -1039,6 +1039,13 @@
    "album": "Gotta Get Thru This",
    "videoId": "aeCnEY_AemU",
    "duration": "2:42"
+  },
+  {
+   "title": "SS26",
+   "artist": "Charli xcx",
+   "album": "SS26",
+   "videoId": "3XODTHJGXk4",
+   "duration": "2:48"
   }
  ]
 }

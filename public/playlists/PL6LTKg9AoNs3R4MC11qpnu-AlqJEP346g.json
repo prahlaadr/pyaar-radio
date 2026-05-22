@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1417,
- "syncedAt": "2026-05-21T11:26:08.944152Z",
+ "trackCount": 1418,
+ "syncedAt": "2026-05-22T10:52:28.450726Z",
  "tracks": [
+  {
+   "title": "SS26",
+   "artist": "Charli xcx",
+   "album": "SS26",
+   "videoId": "3XODTHJGXk4",
+   "duration": "2:48"
+  },
   {
    "title": "Degenerates Prayer",
    "artist": "JPEGMAFIA",
@@ -5318,7 +5325,7 @@
    "duration": "3:14"
   },
   {
-   "title": "I Love It (feat. Charli XCX)",
+   "title": "I Love It (feat. Charli xcx)",
    "artist": "Icona Pop",
    "album": "THIS IS... ICONA POP",
    "videoId": "QMzkaOY0bKA",
@@ -6342,8 +6349,8 @@
   {
    "title": "Call Me Maybe",
    "artist": "Carly Rae Jepsen",
-   "album": "Kiss (Deluxe)",
-   "videoId": "HKVfpP7ZN8Y",
+   "album": "Kiss",
+   "videoId": "dmjm9QAoMpA",
    "duration": "3:14"
   },
   {

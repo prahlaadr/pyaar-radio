@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3197,
- "totalTracks": 41150,
- "syncedAt": "2026-05-21T11:26:05.816484Z",
+ "albumCount": 3198,
+ "totalTracks": 41162,
+ "syncedAt": "2026-05-22T10:52:25.329739Z",
  "albums": [
+  {
+   "browseId": "MPREb_SMWGFl7v1iN",
+   "title": "sankofa",
+   "artist": "redveil",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_QYijAQIl7FD",
    "title": "EXPERIMENTAL RAP",
