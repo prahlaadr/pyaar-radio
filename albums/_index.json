@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3198,
- "totalTracks": 41162,
- "syncedAt": "2026-05-22T10:52:25.329739Z",
+ "albumCount": 3197,
+ "totalTracks": 41154,
+ "syncedAt": "2026-05-23T09:54:19.176194Z",
  "albums": [
   {
    "browseId": "MPREb_SMWGFl7v1iN",
@@ -1905,12 +1905,6 @@
    "title": "Estradas (Versions)",
    "artist": "Nídia & Valentina",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_XFsspRpr0oc",
-   "title": "Generation Y",
-   "artist": "Devon Hendryx",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_POIJmpFVUjW",
