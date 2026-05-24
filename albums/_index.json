@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3197,
- "totalTracks": 41154,
- "syncedAt": "2026-05-23T09:54:19.176194Z",
+ "albumCount": 3199,
+ "totalTracks": 41202,
+ "syncedAt": "2026-05-24T09:55:39.872571Z",
  "albums": [
+  {
+   "browseId": "MPREb_UpNoeVSYDwE",
+   "title": "$AD BOYZ 4 LIFE II",
+   "artist": "Junior H",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_ag4IulWrDJa",
+   "title": "Siamese Dream (Deluxe Edition)",
+   "artist": "Smashing Pumpkins",
+   "trackCount": 31
+  },
   {
    "browseId": "MPREb_SMWGFl7v1iN",
    "title": "sankofa",

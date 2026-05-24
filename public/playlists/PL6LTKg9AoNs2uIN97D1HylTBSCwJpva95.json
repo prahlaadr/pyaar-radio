@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
  "title": "Savage Video Game Nights",
- "trackCount": 151,
- "syncedAt": "2026-05-23T09:54:21.638648Z",
+ "trackCount": 160,
+ "syncedAt": "2026-05-24T09:55:44.561927Z",
  "tracks": [
   {
    "title": "Breathing Underwater (DJ Spinna Galactic Soul Remix)",
@@ -115,13 +115,6 @@
    "album": "The Return of Diva Blue: On Becoming a Woman Redux",
    "videoId": "gWglb2K0FqY",
    "duration": "6:50"
-  },
-  {
-   "title": "10% (feat. Kali Uchis)",
-   "artist": "KAYTRANADA",
-   "album": "BUBBA",
-   "videoId": "JFaNw765L2E",
-   "duration": "3:07"
   },
   {
    "title": "Phantom Melodies",
@@ -1060,6 +1053,76 @@
    "album": "Tech House: Esenciales",
    "videoId": "BZ7mOoey5sE",
    "duration": "3:54"
+  },
+  {
+   "title": "(I Wanna Give You) Devotion (feat. Leavy)",
+   "artist": "Bazza Ranks",
+   "album": "(I Wanna Give You) Devotion",
+   "videoId": "qQCx0hCgBp8",
+   "duration": "3:23"
+  },
+  {
+   "title": "Dear Friend (DJ Spinna Remix) (feat. Lisa Millett)",
+   "artist": "Loftsoul",
+   "album": "Dear Friend",
+   "videoId": "IOmsg5FwnX0",
+   "duration": "9:25"
+  },
+  {
+   "title": "Groovejet (If This Ain't Love) (feat. Sophie Ellis-Bextor)",
+   "artist": "Spiller",
+   "album": "Groovejet (If This Ain't Love)",
+   "videoId": "Cc_nUcKYlAs",
+   "duration": "3:48"
+  },
+  {
+   "title": "Sweet Dreams (Are Made of This)",
+   "artist": "Eurythmics",
+   "album": "Sweet Dreams (Are Made Of This)",
+   "videoId": "i5_asj1BGFs",
+   "duration": "3:38"
+  },
+  {
+   "title": "When U Came Into My Life",
+   "artist": "Folamour",
+   "album": "Fort Bellefleur",
+   "videoId": "t9Dholm0oX4",
+   "duration": "8:08"
+  },
+  {
+   "title": "Be Real",
+   "artist": "Kolter",
+   "album": "KOLTERCAMP, Vol. I",
+   "videoId": "KVKA-D3BqAY",
+   "duration": "7:34"
+  },
+  {
+   "title": "Never Enough",
+   "artist": "Rochelle Jordan",
+   "album": "Through The Wall",
+   "videoId": "C1wgqOkCIgI",
+   "duration": "4:01"
+  },
+  {
+   "title": "Lady Love",
+   "artist": "Oden & Fatzo;Camden Cox",
+   "album": "Lady Love",
+   "videoId": "XfM9oAkhj7Y",
+   "duration": "2:55"
+  },
+  {
+   "title": "Better Off Alone (UK Short Cut)",
+   "artist": "Alice DJ",
+   "album": "Better Off Alone",
+   "videoId": "89P8b-mIo8A",
+   "duration": "2:54"
+  },
+  {
+   "title": "Music Sounds Better With You (Radio Edit)",
+   "artist": "Stardust",
+   "album": "Music Sounds Better With You",
+   "videoId": "hRvrj_diWYQ",
+   "duration": "4:21"
   }
  ]
 }
