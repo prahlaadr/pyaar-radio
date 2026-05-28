@@ -1,18 +1,88 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 243,
- "totalTracks": 100698,
- "syncedAt": "2026-05-25T11:54:21.710879Z",
+ "playlistCount": 255,
+ "totalTracks": 102519,
+ "syncedAt": "2026-05-28T11:39:47.033803Z",
  "playlists": [
   {
-   "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
-   "title": "Savage Video Game Nights",
-   "trackCount": 160
+   "playlistId": "PL6LTKg9AoNs1m4af1ArVzycaeXUcFg_uz",
+   "title": "Peak-Hour Heat [pyaar radio]",
+   "trackCount": 53
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1yEXsF2zT3TYV9Nrba2QGY",
+   "title": "Bhangra Bass [pyaar radio]",
+   "trackCount": 40
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0te1gf6bNnVJIb1-RLqE8q",
+   "title": "Sufi & Soul [pyaar radio]",
+   "trackCount": 49
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0_-kUm7gSFIywagIX4isRj",
+   "title": "South Asian Indie Quiet [pyaar radio]",
+   "trackCount": 50
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3VZnuxb6PZV6aofhRd5Gjl",
+   "title": "Diaspora Sunset [pyaar radio]",
+   "trackCount": 51
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1qV3rOZlBGSWBuUcAXiIdA",
+   "title": "Beat Tape [pyaar radio]",
+   "trackCount": 51
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0xkDcYf-sGyClpLHEibqRQ",
+   "title": "Future Jazz Hour [pyaar radio]",
+   "trackCount": 50
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3TeMXxgj--5FioqcMEuCpd",
+   "title": "Afro-Desi Bridge [pyaar radio]",
+   "trackCount": 50
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0P6V6IlTLk7BNkvAJYhi0P",
+   "title": "Mellow West Coast [pyaar radio]",
+   "trackCount": 50
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
+   "title": "May 26",
+   "trackCount": 28
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2CBYZg4eDK4Zc1EG155B-5",
+   "title": "Sunday Coffee [pyaar radio]",
+   "trackCount": 50
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1421
+   "trackCount": 1440
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs10uvDPc3wHNdfC8dhIo2hP",
+   "title": "Indie Listen [pyaar radio]",
+   "trackCount": 213
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
+   "title": "Nyege nyege set",
+   "trackCount": 5
+  },
+  {
+   "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
+   "title": "WROCK",
+   "trackCount": 992
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
+   "title": "Savage Video Game Nights",
+   "trackCount": 160
   },
   {
    "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
@@ -25,11 +95,6 @@
    "trackCount": 15
   },
   {
-   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
-   "title": "May 26",
-   "trackCount": 23
-  },
-  {
    "playlistId": "PL6LTKg9AoNs1Jc2-8OfZCdduxCdAI5Kli",
    "title": "Feb 26",
    "trackCount": 21
@@ -38,11 +103,6 @@
    "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
    "title": "The Sound of Indian Indie",
    "trackCount": 437
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
-   "title": "Nyege nyege set",
-   "trackCount": 4
   },
   {
    "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",
@@ -777,12 +837,12 @@
   {
    "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
    "title": "Electronic",
-   "trackCount": 1040
+   "trackCount": 1087
   },
   {
    "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
    "title": "Relaxing",
-   "trackCount": 3039
+   "trackCount": 3089
   },
   {
    "playlistId": "PL6LTKg9AoNs0BBPtTMEv-aErYYBdNvEZc",

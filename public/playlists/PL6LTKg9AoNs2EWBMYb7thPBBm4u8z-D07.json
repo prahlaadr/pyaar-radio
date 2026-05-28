@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
- "trackCount": 3039,
- "syncedAt": "2026-05-25T11:54:21.710879Z",
+ "trackCount": 3089,
+ "syncedAt": "2026-05-28T11:39:47.033803Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -705,11 +705,32 @@
    "duration": "2:56"
   },
   {
+   "title": "If There is No Question",
+   "artist": "Khruangbin",
+   "album": "Mordechai",
+   "videoId": "Mt-OwajHgyE",
+   "duration": "5:54"
+  },
+  {
+   "title": "Midnight",
+   "artist": "James Blake;Lil Yachty",
+   "album": "Bad Cameo",
+   "videoId": "1Wwc2zGPKns",
+   "duration": "4:59"
+  },
+  {
    "title": "My Way",
    "artist": "Venna",
    "album": "My Way",
    "videoId": "dmnRP5qbhn4",
    "duration": "3:34"
+  },
+  {
+   "title": "Only (feat. Lydia Kitto)",
+   "artist": "Little Simz",
+   "album": "Lotus",
+   "videoId": "5pafwyz5T9g",
+   "duration": "3:36"
   },
   {
    "title": "Free",
@@ -719,11 +740,32 @@
    "duration": "3:36"
   },
   {
+   "title": "Dangomushi",
+   "artist": "Mei Semones",
+   "album": "Animaru",
+   "videoId": "ClhTKHqmBPI",
+   "duration": "3:20"
+  },
+  {
    "title": "Ripped Open By Metal Explosions",
    "artist": "Galt MacDermot",
    "album": "Up From The Basement - Unreleased Tracks - Volumes 1 & 2",
    "videoId": "49-spxo3aqM",
    "duration": "4:14"
+  },
+  {
+   "title": "Celeste",
+   "artist": "Ivy Lab",
+   "album": "Infinite Falling Ground",
+   "videoId": "Cx51wwe5vMQ",
+   "duration": "3:05"
+  },
+  {
+   "title": "Les",
+   "artist": "Childish Gambino",
+   "album": "Camp",
+   "videoId": "L8gGHqPBuZM",
+   "duration": "5:18"
   },
   {
    "title": "II. Shadows",
@@ -733,6 +775,13 @@
    "duration": "3:52"
   },
   {
+   "title": "21c",
+   "artist": "Peter Cat Recording Co.",
+   "album": "BETA",
+   "videoId": "1Fjmn_BSYVc",
+   "duration": "4:34"
+  },
+  {
    "title": "Not a Burden",
    "artist": "Ganavya",
    "album": "Nilam",
@@ -740,11 +789,53 @@
    "duration": "3:44"
   },
   {
+   "title": "Ventura Highway",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "tnV7dTXlXxs",
+   "duration": "3:32"
+  },
+  {
+   "title": "Nelly",
+   "artist": "Isaiah Rashad",
+   "album": "Nelly",
+   "videoId": "C6qBrzhTkZc",
+   "duration": "3:21"
+  },
+  {
+   "title": "After All",
+   "artist": "Alex G",
+   "album": "God Save The Animals",
+   "videoId": "xT6FV4JjBjw",
+   "duration": "3:20"
+  },
+  {
+   "title": "Cross the Sea",
+   "artist": "Alex G",
+   "album": "God Save The Animals",
+   "videoId": "6ZpD0NAJFxM",
+   "duration": "3:37"
+  },
+  {
+   "title": "What I Used To Get Into",
+   "artist": "Roy Woods",
+   "album": "Dark Nights",
+   "videoId": "orRfH03hu9k",
+   "duration": "3:13"
+  },
+  {
    "title": "Alive",
    "artist": "Ravyn Lenae",
    "album": "Alive",
    "videoId": "ixXElI_B2b0",
    "duration": "3:04"
+  },
+  {
+   "title": "Love Me Not",
+   "artist": "Ravyn Lenae",
+   "album": "Bird's Eye",
+   "videoId": "HfpR4tAmI7E",
+   "duration": "3:34"
   },
   {
    "title": "Tora Moyo",
@@ -775,6 +866,20 @@
    "duration": "4:00"
   },
   {
+   "title": "Stay With Me",
+   "artist": "Roy Woods",
+   "album": "Stay With Me",
+   "videoId": "nojoXsoCS-w",
+   "duration": "3:05"
+  },
+  {
+   "title": "Heaven 7",
+   "artist": "Unknown Mortal Orchestra",
+   "album": "IC-02 Bogotá",
+   "videoId": "VfFpV16gO9M",
+   "duration": "3:08"
+  },
+  {
    "title": "GOD",
    "artist": "Nelly Furtado;Sid Sriram",
    "album": "GOD/MARRIAGE",
@@ -782,11 +887,32 @@
    "duration": "2:12"
   },
   {
+   "title": "Sees Fire",
+   "artist": "Ganavya",
+   "album": "Sees Fire",
+   "videoId": "MttrzpWtOwQ",
+   "duration": "3:29"
+  },
+  {
    "title": "Homelands",
    "artist": "Nitin Sawhney",
    "album": "Beyond Skin",
    "videoId": "oxA3t6xI-XI",
    "duration": "6:03"
+  },
+  {
+   "title": "That Night In Hawaii When I Turned Into A Panther And Started Making These Low Register Purring Tones That I Couldn't Control ... Sh¥t Was Wild",
+   "artist": "André 3000",
+   "album": "New Blue Sun",
+   "videoId": "agrAUjogAvo",
+   "duration": "10:30"
+  },
+  {
+   "title": "Coyote, You're My Star",
+   "artist": "Dana and Alden",
+   "album": "Coyote, You're My Star",
+   "videoId": "vy3l5-zcVvg",
+   "duration": "2:06"
   },
   {
    "title": "Raat Ki Rani",
@@ -817,11 +943,32 @@
    "duration": "4:34"
   },
   {
+   "title": "Turtles",
+   "artist": "Flying Lotus",
+   "album": "You're Dead!",
+   "videoId": "-EgwsooE-F8",
+   "duration": "2:07"
+  },
+  {
+   "title": "Siren Song (feat. Angel Deradoorian)",
+   "artist": "Flying Lotus",
+   "album": "You're Dead!",
+   "videoId": "9O_s3LJV7GY",
+   "duration": "2:38"
+  },
+  {
    "title": "TOUCH",
    "artist": "Sparklmami;Les Sons Du Cosmos",
    "album": "TOUCH",
    "videoId": "ayEL6UKH2Pc",
    "duration": "2:20"
+  },
+  {
+   "title": "Wood Cabin",
+   "artist": "Saint Etienne",
+   "album": "Good Humor",
+   "videoId": "zsCbZrig4c4",
+   "duration": "4:08"
   },
   {
    "title": "Sweet Dreamer",
@@ -838,11 +985,25 @@
    "duration": "3:53"
   },
   {
+   "title": "TECHNOVA",
+   "artist": "TOWA TEI",
+   "album": "FUTURE LISTENING!",
+   "videoId": "JG_k9XR9Deg",
+   "duration": "5:42"
+  },
+  {
    "title": "Aww (Zaza)",
    "artist": "MIKE",
    "album": "Disco!",
    "videoId": "koOjDM9ti7U",
    "duration": "2:02"
+  },
+  {
+   "title": "Any Major Dude Will Tell You",
+   "artist": "Steely Dan",
+   "album": "Pretzel Logic",
+   "videoId": "m7nX501N_QY",
+   "duration": "3:08"
   },
   {
    "title": "Her",
@@ -866,6 +1027,13 @@
    "duration": "3:35"
   },
   {
+   "title": "Lotus Eater",
+   "artist": "FINNEAS",
+   "album": "For Cryin' Out Loud!",
+   "videoId": "nG4qdPVnLkg",
+   "duration": "3:52"
+  },
+  {
    "title": "Cleats",
    "artist": "FINNEAS",
    "album": "For Cryin' Out Loud!",
@@ -880,6 +1048,34 @@
    "duration": "3:40"
   },
   {
+   "title": "Mythological Beauty",
+   "artist": "Big Thief",
+   "album": "Capacity",
+   "videoId": "71wRQgEBTS0",
+   "duration": "5:07"
+  },
+  {
+   "title": "YDKB (You Didn't Know Better)",
+   "artist": "Gayathri Krishnan",
+   "album": "YDKB (You Didn't Know Better)",
+   "videoId": "_2AwGzCGsvY",
+   "duration": "2:49"
+  },
+  {
+   "title": "Come Alive",
+   "artist": "Harrison",
+   "album": "Come Alive",
+   "videoId": "0c3agNfqAEY",
+   "duration": "2:52"
+  },
+  {
+   "title": "Synchronize Vibration",
+   "artist": "Jazz Is Dead;Adrian Younge;Ali Shaheed Muhammad;Roy Ayers",
+   "album": "Roy Ayers JID002",
+   "videoId": "nlXOtHGpABI",
+   "duration": "3:32"
+  },
+  {
    "title": "29 days (Preview) (feat. Eagle-Eye Cherry)",
    "artist": "Cazzi Opeia",
    "album": "29 days",
@@ -887,11 +1083,25 @@
    "duration": "1:00"
   },
   {
+   "title": "Midnight in Peckham",
+   "artist": "Chaos In the CBD & Isaac Aesili",
+   "album": "Midnight in Peckham",
+   "videoId": "1QojHX4_0e8",
+   "duration": "7:01"
+  },
+  {
    "title": "Does It Ring a Bell?",
    "artist": "Núria Graham",
    "album": "Does It Ring a Bell?",
    "videoId": "cSrLrwHOJro",
    "duration": "3:29"
+  },
+  {
+   "title": "Zoom Zoom",
+   "artist": "Polo & Pan",
+   "album": "Caravelle",
+   "videoId": "SPHshwlI9SM",
+   "duration": "3:30"
   },
   {
    "title": "Life Is Beautiful",
@@ -929,6 +1139,20 @@
    "duration": "3:10"
   },
   {
+   "title": "Really Tired",
+   "artist": "Arima Ederra",
+   "album": "Oh God / Really Tired",
+   "videoId": "MJm-uFciIgc",
+   "duration": "5:15"
+  },
+  {
+   "title": "Counting Stars",
+   "artist": "Nujabes",
+   "album": "2nd Collection",
+   "videoId": "JQhjXXJpjlk",
+   "duration": "4:08"
+  },
+  {
    "title": "Spiritual State (feat. Uyama Hiroto)",
    "artist": "Nujabes",
    "album": "Spiritual State",
@@ -936,11 +1160,32 @@
    "duration": "6:32"
   },
   {
+   "title": "Gone Are The Days (feat. Uyama Hiroto)",
+   "artist": "Nujabes",
+   "album": "Spiritual State",
+   "videoId": "-9cr2EkhP4E",
+   "duration": "6:03"
+  },
+  {
    "title": "Dawn on the Side",
    "artist": "Nujabes",
    "album": "Spiritual State",
    "videoId": "6xwnRPwX_7w",
    "duration": "5:16"
+  },
+  {
+   "title": "Rainyway Back Home",
+   "artist": "Nujabes",
+   "album": "Spiritual State",
+   "videoId": "4SLzapprewM",
+   "duration": "2:37"
+  },
+  {
+   "title": "Color of Autumn",
+   "artist": "Nujabes",
+   "album": "Spiritual State",
+   "videoId": "JxmpycXxw1k",
+   "duration": "1:44"
   },
   {
    "title": "Prayer",
@@ -957,6 +1202,13 @@
    "duration": "4:25"
   },
   {
+   "title": "Horizon",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "h-Udboe6n5I",
+   "duration": "7:21"
+  },
+  {
    "title": "Light on the Land",
    "artist": "Nujabes",
    "album": "Modal Soul",
@@ -964,11 +1216,32 @@
    "duration": "3:55"
   },
   {
+   "title": "Sea of Cloud",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "na81A_tR1Rs",
+   "duration": "3:02"
+  },
+  {
+   "title": "Modal Soul (feat. Uyama Hiroto)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "h5IJl1TkdNo",
+   "duration": "4:42"
+  },
+  {
    "title": "Music is Mine",
    "artist": "Nujabes",
    "album": "Modal Soul",
    "videoId": "d1TuAtxF0Lo",
    "duration": "4:21"
+  },
+  {
+   "title": "Reflection Eternal",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "GLGM8fxL020",
+   "duration": "4:18"
   },
   {
    "title": "Luv (sic)",
@@ -999,6 +1272,20 @@
    "duration": "6:45"
   },
   {
+   "title": "It's Alright",
+   "artist": "Baby Rose;BADBADNOTGOOD",
+   "album": "Slow Burn",
+   "videoId": "dTYIfunOSNw",
+   "duration": "4:01"
+  },
+  {
+   "title": "Parfum d'étoiles",
+   "artist": "Ichiko Aoba",
+   "album": "Windswept Adan",
+   "videoId": "G3_WW8XRqes",
+   "duration": "2:53"
+  },
+  {
    "title": "NIGHT RIDER",
    "artist": "Joji",
    "album": "SMITHEREENS",
@@ -1013,11 +1300,25 @@
    "duration": "4:06"
   },
   {
+   "title": "Orange Moon",
+   "artist": "Otto Benson",
+   "album": "Songs Before Bed (2022)",
+   "videoId": "ef8mAgpBDt8",
+   "duration": "1:00"
+  },
+  {
    "title": "Like That!",
    "artist": "Laila!",
    "album": "Gap Year!",
    "videoId": "PmAQIMMeIC8",
    "duration": "2:50"
+  },
+  {
+   "title": "Past Life",
+   "artist": "Sølv",
+   "album": "Past Life",
+   "videoId": "A_pnwrzL0y8",
+   "duration": "3:38"
   },
   {
    "title": "Mile High",
@@ -1041,6 +1342,20 @@
    "duration": "3:42"
   },
   {
+   "title": "Colour / Somehow",
+   "artist": "Sølv",
+   "album": "Colour / Somehow",
+   "videoId": "cSceQ_BgHdA",
+   "duration": "3:25"
+  },
+  {
+   "title": "Vanilla Tears",
+   "artist": "Sølv",
+   "album": "London With My Mind In LA",
+   "videoId": "afoxFLRZfRs",
+   "duration": "2:28"
+  },
+  {
    "title": "Gemini",
    "artist": "Sølv",
    "album": "Somewhere Between Heaven And Drowning",
@@ -1048,11 +1363,46 @@
    "duration": "1:34"
   },
   {
+   "title": "Vefa",
+   "artist": "Erkin Cavus;Reentko Dirks",
+   "album": "Vefa",
+   "videoId": "81ic7CJxL04",
+   "duration": "2:37"
+  },
+  {
+   "title": "Funny Papers",
+   "artist": "Kool A.D.",
+   "album": "Sky Ladder",
+   "videoId": "LHCCnPlxLPo",
+   "duration": "2:04"
+  },
+  {
    "title": "Meena Lisa",
    "artist": "Begum",
    "album": "Are you ok?",
    "videoId": "cqvC24E_buw",
    "duration": "2:27"
+  },
+  {
+   "title": "Ten Years Later",
+   "artist": "Begum",
+   "album": "Are you ok?",
+   "videoId": "Up44xDBu7jU",
+   "duration": "2:31"
+  },
+  {
+   "title": "Tomorrow Will Never Know",
+   "artist": "Mac Miller",
+   "album": "Balloonerism",
+   "videoId": "G5o1lNwRGGM",
+   "duration": "11:54"
+  },
+  {
+   "title": "Manakins",
+   "artist": "Mac Miller",
+   "album": "Balloonerism",
+   "videoId": "RllrkskBqd0",
+   "duration": "3:10"
   },
   {
    "title": "Excelsior",
@@ -10960,7 +11310,7 @@
    "duration": "4:10"
   },
   {
-   "title": "Love Galore (feat. SZA)",
+   "title": "Love Galore (feat. Jacques Berman Webster)",
    "artist": "SZA",
    "album": "Ctrl",
    "videoId": "wku2PjKQcA4",
@@ -20032,7 +20382,7 @@
    "duration": "3:02"
   },
   {
-   "title": "Love Galore (feat. SZA)",
+   "title": "Love Galore (feat. Jacques Berman Webster)",
    "artist": "SZA",
    "album": "Ctrl",
    "videoId": "wku2PjKQcA4",

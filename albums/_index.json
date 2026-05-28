@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3199,
- "totalTracks": 41202,
- "syncedAt": "2026-05-25T11:54:18.958997Z",
+ "albumCount": 3203,
+ "totalTracks": 41244,
+ "syncedAt": "2026-05-28T11:39:43.859621Z",
  "albums": [
+  {
+   "browseId": "MPREb_0K64XeQ8rE8",
+   "title": "Tell The Ghost Welcome Home",
+   "artist": "Nico Segal",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_tcazZlHde7C",
+   "title": "In Between Thoughts...A New World",
+   "artist": "Rodrigo y Gabriela",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_rm6eJLz3u2Q",
+   "title": "Vitamin String Quartet Performs Radiohead's In Rainbows",
+   "artist": "Vitamin String Quartet",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_ejCyqsKDbGR",
+   "title": "Radiohead, A Jazz Symphony",
+   "artist": "Noordpool Orchestra",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_UpNoeVSYDwE",
    "title": "$AD BOYZ 4 LIFE II",

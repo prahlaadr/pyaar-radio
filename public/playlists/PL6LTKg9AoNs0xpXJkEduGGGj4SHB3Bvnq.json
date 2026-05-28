@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 23,
- "syncedAt": "2026-05-25T11:54:21.710879Z",
+ "trackCount": 28,
+ "syncedAt": "2026-05-28T11:39:47.033803Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -164,6 +164,41 @@
    "album": "Kauai",
    "videoId": "LJ2rz07BsDo",
    "duration": "3:11"
+  },
+  {
+   "title": "To The Sky",
+   "artist": "Loukeman",
+   "album": "To The Sky",
+   "videoId": "76gkj1VJ9u0",
+   "duration": "3:52"
+  },
+  {
+   "title": "KAPOW",
+   "artist": "IGWE AKA;Tochi Bedford",
+   "album": "KAPOW",
+   "videoId": "lJ2AoucHMRI",
+   "duration": "2:23"
+  },
+  {
+   "title": "Everything In Its Right Place",
+   "artist": "Roy Markson",
+   "album": "Everything In Its Right Place",
+   "videoId": "LZ7Qlkil1Ro",
+   "duration": "3:14"
+  },
+  {
+   "title": "The Eye That Catches The Dream",
+   "artist": "Rodrigo y Gabriela",
+   "album": "In Between Thoughts...A New World",
+   "videoId": "FvDcddPQMCk",
+   "duration": "4:15"
+  },
+  {
+   "title": "Warm Enough",
+   "artist": "Donnie Trumpet & The Social Experiment",
+   "album": "Surf",
+   "videoId": "CwVH96Y5ylQ",
+   "duration": "3:22"
   }
  ]
 }
