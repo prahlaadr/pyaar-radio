@@ -1,0 +1,30 @@
+{
+  "exportedAt": "2026-05-30T00:00:00Z",
+  "counts": {
+    "total": 2,
+    "save": 2,
+    "skip": 0,
+    "pending": 0
+  },
+  "_note": "Replaces the wrong-Sirene picks from 2026-05-30 \u2014 actual S!RENE (Manlike Sirene) found via search",
+  "save": [
+    {
+      "artist": "S!RENE",
+      "title": "Silence Gives Life",
+      "year": "2025",
+      "source": "manual_add",
+      "browseId": "MPREb_HhiNZENTyxc",
+      "_origin": "manual_fix",
+      "_trackCount": 15
+    },
+    {
+      "artist": "S!RENE",
+      "title": "Tales of Lusan",
+      "year": "2023",
+      "source": "manual_add",
+      "browseId": "MPREb_mXXXlqJUQlC",
+      "_origin": "manual_fix",
+      "_trackCount": 5
+    }
+  ]
+}
