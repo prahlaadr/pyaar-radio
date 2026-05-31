@@ -1,0 +1,34 @@
+{
+ "title": "Mela",
+ "artist": "Baalti",
+ "year": "2025",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Bodylock",
+   "artist": "Baalti",
+   "videoId": "cU3MNzKECFU",
+   "duration": "3:57"
+  },
+  {
+   "title": "Overbit",
+   "artist": "Baalti",
+   "videoId": "zHnDg2P2FiE",
+   "duration": "3:50"
+  },
+  {
+   "title": "Raja",
+   "artist": "Baalti",
+   "videoId": "FK5-iEGyAhM",
+   "duration": "3:32"
+  },
+  {
+   "title": "Loose Leaf",
+   "artist": "Baalti",
+   "videoId": "SuqubSk045A",
+   "duration": "4:19"
+  }
+ ],
+ "browseId": "MPREb_BCNCngxkLzt",
+ "syncedAt": "2026-05-31T06:21:49.706541Z"
+}

@@ -1,9 +1,285 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3367,
- "totalTracks": 43162,
- "syncedAt": "2026-05-31T03:42:11.379666Z",
+ "albumCount": 3413,
+ "totalTracks": 43404,
+ "syncedAt": "2026-05-31T06:21:49.706541Z",
  "albums": [
+  {
+   "browseId": "MPREb_1Cz6vaVTQVw",
+   "title": "archive 09-10",
+   "artist": "Joy Orbison",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_Vr8P4xwaKaa",
+   "title": "Sculptor EP",
+   "artist": "Villager",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_O9TWZDKeh6m",
+   "title": "Viaduto",
+   "artist": "VHOOR",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_UuF5VIt7uow",
+   "title": "Só Pura",
+   "artist": "VHOOR",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_F8gUzOD5BF7",
+   "title": "Stay In Your Lane",
+   "artist": "Taiki Nulight",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_s3lKgSLCKDp",
+   "title": "Easy EP",
+   "artist": "Smerz",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_mMiPQuruxba",
+   "title": "BACK ON",
+   "artist": "SBTRKT",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_xJDglyRdrS9",
+   "title": "OUTSPOKEN",
+   "artist": "SBTRKT",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_HXc19b17yKO",
+   "title": "ALL THE TIME",
+   "artist": "SBTRKT",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_9CT1MdJeAJR",
+   "title": "Shield",
+   "artist": "salute",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_3yMDLcfhlgn",
+   "title": "Boy in a Dream",
+   "artist": "Rohaan",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_KkFznFBEIGS",
+   "title": "OVAL 001",
+   "artist": "Rohaan",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_8nHdbE7pj0Y",
+   "title": "Crave",
+   "artist": "Phrva",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_mzm5EdT8ADa",
+   "title": "Moving On",
+   "artist": "OAKK",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_rjDEwTgCcEY",
+   "title": "Tensoon",
+   "artist": "O'Flynn",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_RVfCaN2pFQE",
+   "title": "Re-Imagineering Meditation Mix",
+   "artist": "Nightmares On Wax",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_0nq9ggQ5KX5",
+   "title": "Carboot Jazz",
+   "artist": "Nightmares On Wax",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_IW9BNSQfiD4",
+   "title": "Echo45 Sound System",
+   "artist": "Nightmares On Wax",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_wQ2gqIfCO72",
+   "title": "30 Groove St.",
+   "artist": "Nightmares On Wax",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_4EMFEaFjhPO",
+   "title": "Still Smokin.III.",
+   "artist": "Nightmares On Wax",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_vwpgT4vyo5z",
+   "title": "In A Space Outta Dub",
+   "artist": "Nightmares On Wax",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_Vfo6H2m4m4b",
+   "title": "Crash & Burn EP",
+   "artist": "MPH",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_2l6NGjXTJcY",
+   "title": "Goofs",
+   "artist": "Medasin",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_7p3CK7HcMXE",
+   "title": "ILIKEU (feat. Duckwrth)",
+   "artist": "Machinedrum",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_VPdKbelrY5O",
+   "title": "PALMWINE DIARIES VOL.1",
+   "artist": "Juls",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_NIBCGVLIyRM",
+   "title": "Demon Dust",
+   "artist": "Ivy Lab",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_t6lqgiY4I9O",
+   "title": "OURDOGISMISSING",
+   "artist": "Ivy Lab",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_Irxefo8asDN",
+   "title": "Point Five E.P",
+   "artist": "Ivy Lab",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_rQIOqpuQmfe",
+   "title": "ATW007",
+   "artist": "Interplanetary Criminal",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_zmkI2uNOzQ4",
+   "title": "Skanka (P Money Vocal Dub)",
+   "artist": "Hamdi",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_leULiOTAkY8",
+   "title": "Abomination EP",
+   "artist": "Hamdi",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_Lds4Lx6uGT2",
+   "title": "(Respectfully)",
+   "artist": "DJ Swisha",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_VCuQYLJrevk",
+   "title": "CRAZY IF TRUE",
+   "artist": "DJ Swisha",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_uSw1NLRWCfs",
+   "title": "THERE WILL BE SIGNS",
+   "artist": "DJ SWISHA",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_G2cLKRNmJL0",
+   "title": "In Transit",
+   "artist": "Conducta",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_QRDEnZZl5XM",
+   "title": "Up The Place EP",
+   "artist": "Cesco",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_mHYgzPZgbU0",
+   "title": "Fake EP",
+   "artist": "Cesco",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_cPSKrLdlrdW",
+   "title": "In Plain Sight",
+   "artist": "camoufly",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_9wxMTqUm4P3",
+   "title": "llamando",
+   "artist": "camoufly",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_Leorq7Z6bX7",
+   "title": "How It Feels",
+   "artist": "Barry Can’t Swim",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_BCNCngxkLzt",
+   "title": "Mela",
+   "artist": "Baalti",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_jsoGyGxyvvo",
+   "title": "Stunt Doubles (Pt. 2)",
+   "artist": "Anish Kumar",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_QejHbAiRCBv",
+   "title": "AK Cuts: Vol. 3",
+   "artist": "Anish Kumar",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_Nhpu5Io9BoW",
+   "title": "Expert Level",
+   "artist": "AceMo",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_JhWbFMoKidi",
+   "title": "Save The World",
+   "artist": "AceMo",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_SmfsGmknYUV",
+   "title": "Forest City",
+   "artist": "AceMo",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_mXXXlqJUQlC",
    "title": "Tales of Lusan",

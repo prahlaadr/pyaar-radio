@@ -1,0 +1,34 @@
+{
+ "title": "llamando",
+ "artist": "camoufly",
+ "year": "2025",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "llamando",
+   "artist": "camoufly",
+   "videoId": "jFCrwtXnqCY",
+   "duration": "2:37"
+  },
+  {
+   "title": "beggin' u 2",
+   "artist": "camoufly",
+   "videoId": "SpJrL2-ar6Q",
+   "duration": "3:53"
+  },
+  {
+   "title": "on my mind",
+   "artist": "camoufly",
+   "videoId": "0H2nPPmxjIM",
+   "duration": "2:38"
+  },
+  {
+   "title": "i'm hurting ! (deja-vu..)",
+   "artist": "camoufly",
+   "videoId": "mpmcezwrTQo",
+   "duration": "2:57"
+  }
+ ],
+ "browseId": "MPREb_9wxMTqUm4P3",
+ "syncedAt": "2026-05-31T06:21:49.706541Z"
+}
