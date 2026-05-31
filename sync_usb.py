@@ -89,8 +89,14 @@ def get_archive_playlists(index_path, filter_months=None):
     return playlists
 
 
-def get_usb_folder(usb_base, year, month, title):
-    """Get or create the USB folder for a playlist."""
+def get_usb_folder(usb_base, year, month, title, flat=False):
+    """Get or create the USB folder for a playlist.
+
+    `flat=True` uses the simple YYYY-MM (Month) format for every year — used
+    by V1/Monthlys which has a flat layout. PRAHLOUD/Lexar uses the
+    year-prefixed layout by default."""
+    if flat:
+        return Path(usb_base) / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
     if year >= 2026:
         # New format: 2026/March 26
         folder = Path(usb_base) / str(year) / title
@@ -262,7 +268,7 @@ def download_ytdlp(video_id, name, dest_folder):
     return False
 
 
-def sync_playlist(playlist, usb_base, dry_run=False):
+def sync_playlist(playlist, usb_base, dry_run=False, flat=False):
     """Sync a single playlist to USB. Returns (downloaded, upgraded, failed, skipped) counts."""
     playlist_path = PLAYLISTS_DIR / f"{playlist['playlistId']}.json"
     if not playlist_path.exists():
@@ -272,7 +278,7 @@ def sync_playlist(playlist, usb_base, dry_run=False):
     with open(playlist_path) as f:
         data = json.load(f)
 
-    folder = get_usb_folder(usb_base, playlist["year"], playlist["month"], playlist["title"])
+    folder = get_usb_folder(usb_base, playlist["year"], playlist["month"], playlist["title"], flat=flat)
     existing = get_existing_tracks(folder)
 
     # Categorize tracks: missing, upgradeable, or good
@@ -382,6 +388,8 @@ def main():
     parser.add_argument("--months", nargs="*", help="Specific months to sync (e.g. 'March 26' 'Feb 26')")
     parser.add_argument("--dry", action="store_true", help="Preview only, don't download")
     parser.add_argument("--usb", default=DEFAULT_USB, help=f"USB path (default: {DEFAULT_USB})")
+    parser.add_argument("--flat", action="store_true",
+                        help="Flat YYYY-MM (Month) layout for every year (V1/Monthlys convention)")
     args = parser.parse_args()
 
     if not INDEX_PATH.exists():
@@ -405,7 +413,7 @@ def main():
     for p in playlists:
         print(f"{'─' * 50}")
         print(f"{p['title']} ({p['trackCount']} tracks)")
-        dl, up, fail, skip = sync_playlist(p, usb_base, args.dry)
+        dl, up, fail, skip = sync_playlist(p, usb_base, args.dry, flat=args.flat)
         total_dl += dl
         total_up += up
         total_fail += fail
