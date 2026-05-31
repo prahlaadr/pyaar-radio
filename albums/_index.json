@@ -1,9 +1,75 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3354,
- "totalTracks": 43101,
- "syncedAt": "2026-05-31T01:47:58.212420Z",
+ "albumCount": 3365,
+ "totalTracks": 43155,
+ "syncedAt": "2026-05-31T01:58:59.951287Z",
  "albums": [
+  {
+   "browseId": "MPREb_xkjj8a2zq0u",
+   "title": "Futureproofing - EP",
+   "artist": "Mera Bhai",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_lrXPBOQ5hW2",
+   "title": "Relax into Yourself EP",
+   "artist": "Mera Bhai",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_LYHHhaaK1ej",
+   "title": "Now I Need You - EP",
+   "artist": "Mera Bhai",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_crCYXBZtlWS",
+   "title": "UNTITLED SINES",
+   "artist": "Oppidan",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_6tWc7bCzZYS",
+   "title": "MY NAME IS OPP!",
+   "artist": "Oppidan",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_ZNq6nwD28uB",
+   "title": "BLINDED BY VANITY",
+   "artist": "Nikita, The Wicked",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_o6s5D6VHoLk",
+   "title": "not me, the internet",
+   "artist": "Nikita, the Wicked",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_gf2MVUeMiAG",
+   "title": "iloveitwhentheyrun",
+   "artist": "Nikita, the Wicked",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_4QvdkAPGY5P",
+   "title": "Movements",
+   "artist": "Ahadadream",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_aeTfQ2XMxhN",
+   "title": "Shade - EP",
+   "artist": "Ahadadream",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_uoRw8O4PR9u",
+   "title": "Homecoming (feat. Mxshi Mo)",
+   "artist": "Ahadadream",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_JAUlLTLgSZV",
    "title": "BAILE",

@@ -1,0 +1,40 @@
+{
+ "title": "MY NAME IS OPP!",
+ "artist": "Oppidan",
+ "year": "2025",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "RAINDANCE",
+   "artist": "Oppidan",
+   "videoId": "bIHyYN6qiVs",
+   "duration": "3:09"
+  },
+  {
+   "title": "AH BEAT",
+   "artist": "Oppidan & Hans Glader",
+   "videoId": "Guq0y2AZ-0Q",
+   "duration": "3:59"
+  },
+  {
+   "title": "NOW",
+   "artist": "Oppidan",
+   "videoId": "SrIX8XtFrwo",
+   "duration": "3:25"
+  },
+  {
+   "title": "DARWIN",
+   "artist": "Oppidan",
+   "videoId": "mq2zj9sOnXQ",
+   "duration": "3:59"
+  },
+  {
+   "title": "MINT (BUMPY MIX)",
+   "artist": "Oppidan;Strategy",
+   "videoId": "nBIp5AH0QlY",
+   "duration": "3:12"
+  }
+ ],
+ "browseId": "MPREb_6tWc7bCzZYS",
+ "syncedAt": "2026-05-31T01:58:59.951287Z"
+}
