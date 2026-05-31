@@ -1,0 +1,34 @@
+{
+ "title": "Something / Nothing",
+ "artist": "Sister.",
+ "year": "2021",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Hideaway",
+   "artist": "Sister.",
+   "videoId": "lhqR_xiin30",
+   "duration": "3:37"
+  },
+  {
+   "title": "Girl",
+   "artist": "Sister.",
+   "videoId": "lKm7GU0DLyw",
+   "duration": "3:43"
+  },
+  {
+   "title": "Fighter",
+   "artist": "Sister.",
+   "videoId": "bwTr-P7GcJM",
+   "duration": "4:21"
+  },
+  {
+   "title": "Something",
+   "artist": "Sister.",
+   "videoId": "e37NywaxlOU",
+   "duration": "4:24"
+  }
+ ],
+ "browseId": "MPREb_bOsqjUy1nGp",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Golden Hour",
+ "artist": "Baby Rose",
+ "year": "2020",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Marmot",
+   "artist": "Baby Rose",
+   "videoId": "PwhZNNmUX-I",
+   "duration": "3:50"
+  },
+  {
+   "title": "Show You",
+   "artist": "Baby Rose",
+   "videoId": "VRpy3yPETps",
+   "duration": "4:17"
+  },
+  {
+   "title": "Pressure",
+   "artist": "Baby Rose",
+   "videoId": "IbX4ryjU0oI",
+   "duration": "3:17"
+  },
+  {
+   "title": "Mortal",
+   "artist": "Baby Rose",
+   "videoId": "0ZMwZcOvRQM",
+   "duration": "3:15"
+  },
+  {
+   "title": "Artifacts",
+   "artist": "Baby Rose",
+   "videoId": "Ye1AuR_BCIg",
+   "duration": "3:04"
+  }
+ ],
+ "browseId": "MPREb_V6bVPliK62m",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

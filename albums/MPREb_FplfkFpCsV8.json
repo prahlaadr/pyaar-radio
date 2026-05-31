@@ -1,0 +1,34 @@
+{
+ "title": "Dendron",
+ "artist": "Letjoux",
+ "year": "2020",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Sunbeam",
+   "artist": "Letjoux",
+   "videoId": "MW7iIN9AJXQ",
+   "duration": "3:30"
+  },
+  {
+   "title": "Jura",
+   "artist": "Letjoux",
+   "videoId": "ew7tAO5hYbg",
+   "duration": "2:31"
+  },
+  {
+   "title": "Aphid",
+   "artist": "Letjoux",
+   "videoId": "wDWSLh4r6AY",
+   "duration": "3:08"
+  },
+  {
+   "title": "Tail (end)",
+   "artist": "Letjoux",
+   "videoId": "MGQF4nmFqFg",
+   "duration": "0:47"
+  }
+ ],
+ "browseId": "MPREb_FplfkFpCsV8",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

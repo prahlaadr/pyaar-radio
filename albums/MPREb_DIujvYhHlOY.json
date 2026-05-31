@@ -1,0 +1,40 @@
+{
+ "title": "Sunlight",
+ "artist": "Herbie Hancock",
+ "year": "1978",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "I Thought It Was You",
+   "artist": "Herbie Hancock",
+   "videoId": "xDyyaT8Tp8g",
+   "duration": "8:56"
+  },
+  {
+   "title": "Come Running to Me",
+   "artist": "Herbie Hancock",
+   "videoId": "-cUMuj26zz4",
+   "duration": "8:24"
+  },
+  {
+   "title": "Sunlight",
+   "artist": "Herbie Hancock",
+   "videoId": "v2WQKixX6Yc",
+   "duration": "7:10"
+  },
+  {
+   "title": "No Means Yes",
+   "artist": "Herbie Hancock",
+   "videoId": "NIt37P5MFjQ",
+   "duration": "6:19"
+  },
+  {
+   "title": "Good Question",
+   "artist": "Herbie Hancock",
+   "videoId": "mW106_9FiLQ",
+   "duration": "8:33"
+  }
+ ],
+ "browseId": "MPREb_DIujvYhHlOY",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

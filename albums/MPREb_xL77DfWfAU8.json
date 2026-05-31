@@ -1,0 +1,40 @@
+{
+ "title": "Channel Tres",
+ "artist": "Channel Tres",
+ "year": "2018",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "St. Julian (Intro)",
+   "artist": "Channel Tres",
+   "videoId": "1bVl6vCo-4k",
+   "duration": "1:30"
+  },
+  {
+   "title": "Controller",
+   "artist": "Channel Tres",
+   "videoId": "trCacI5m4GY",
+   "duration": "3:29"
+  },
+  {
+   "title": "Jet Black",
+   "artist": "Channel Tres",
+   "videoId": "VfRwg7oqUnM",
+   "duration": "3:15"
+  },
+  {
+   "title": "Topdown",
+   "artist": "Channel Tres",
+   "videoId": "Rhd2EAXD3nk",
+   "duration": "3:51"
+  },
+  {
+   "title": "Glide",
+   "artist": "Channel Tres",
+   "videoId": "D4lYnHy9-rE",
+   "duration": "4:27"
+  }
+ ],
+ "browseId": "MPREb_xL77DfWfAU8",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

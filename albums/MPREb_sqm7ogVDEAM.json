@@ -1,0 +1,76 @@
+{
+ "title": "Point",
+ "artist": "Cornelius",
+ "year": "2001",
+ "trackCount": 11,
+ "tracks": [
+  {
+   "title": "Bug (Electric Last Minute)",
+   "artist": "Cornelius",
+   "videoId": "B-gAhm7pscU",
+   "duration": "0:44"
+  },
+  {
+   "title": "Point of View Point",
+   "artist": "Cornelius",
+   "videoId": "TT_O1Y-M4vM",
+   "duration": "4:16"
+  },
+  {
+   "title": "Smoke",
+   "artist": "Cornelius",
+   "videoId": "_VHwGT1Yb5Y",
+   "duration": "6:03"
+  },
+  {
+   "title": "Drop",
+   "artist": "Cornelius",
+   "videoId": "mXcys8o9G-M",
+   "duration": "5:09"
+  },
+  {
+   "title": "Another View Point",
+   "artist": "Cornelius",
+   "videoId": "vn2qqemGjFY",
+   "duration": "5:39"
+  },
+  {
+   "title": "Tone Twilight Zone",
+   "artist": "Cornelius",
+   "videoId": "KaTj-8iolBs",
+   "duration": "3:58"
+  },
+  {
+   "title": "Bird Watching At Inner Forest",
+   "artist": "Cornelius",
+   "videoId": "XzsYDpuY_Eo",
+   "duration": "4:50"
+  },
+  {
+   "title": "I Hate Hate",
+   "artist": "Cornelius",
+   "videoId": "FeeLjAPGgzM",
+   "duration": "1:36"
+  },
+  {
+   "title": "Brazil",
+   "artist": "Cornelius",
+   "videoId": "rHWjK0X2cow",
+   "duration": "4:02"
+  },
+  {
+   "title": "Fly",
+   "artist": "Cornelius",
+   "videoId": "G6uzkE04WfU",
+   "duration": "5:33"
+  },
+  {
+   "title": "Nowhere",
+   "artist": "Cornelius",
+   "videoId": "wG0Rhd7ywJk",
+   "duration": "6:26"
+  }
+ ],
+ "browseId": "MPREb_sqm7ogVDEAM",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

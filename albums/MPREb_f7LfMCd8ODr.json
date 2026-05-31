@@ -1,0 +1,34 @@
+{
+ "title": "Locket",
+ "artist": "Crumb",
+ "year": "2017",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Plants",
+   "artist": "Crumb",
+   "videoId": "ajyBZVSNCiI",
+   "duration": "3:12"
+  },
+  {
+   "title": "Recently Played",
+   "artist": "Crumb",
+   "videoId": "77W8byh7144",
+   "duration": "2:01"
+  },
+  {
+   "title": "Thirty-Nine",
+   "artist": "Crumb",
+   "videoId": "as6QGJ_gLbk",
+   "duration": "4:40"
+  },
+  {
+   "title": "Locket",
+   "artist": "Crumb",
+   "videoId": "xKmqwrQFlpA",
+   "duration": "5:19"
+  }
+ ],
+ "browseId": "MPREb_f7LfMCd8ODr",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}

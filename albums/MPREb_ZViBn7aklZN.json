@@ -1,0 +1,100 @@
+{
+ "title": "Teenage Movie",
+ "artist": "Various Artists",
+ "year": "2021",
+ "trackCount": 15,
+ "tracks": [
+  {
+   "title": "I Wish",
+   "artist": "Stevie Wonder",
+   "videoId": "iui9E7g4_Wk",
+   "duration": "4:10"
+  },
+  {
+   "title": "Luxurious",
+   "artist": "Gwen Stefani",
+   "videoId": "3ChQEBliSr4",
+   "duration": "4:25"
+  },
+  {
+   "title": "W.A.Y.S.",
+   "artist": "Jhené Aiko",
+   "videoId": "MfOoo9NoVuk",
+   "duration": "4:00"
+  },
+  {
+   "title": "10,000 Emerald Pools",
+   "artist": "BØRNS",
+   "videoId": "lJ7OG6SUA8c",
+   "duration": "2:56"
+  },
+  {
+   "title": "Artifacts",
+   "artist": "Baby Rose",
+   "videoId": "YOhIiHvTRs0",
+   "duration": "3:04"
+  },
+  {
+   "title": "Somebody Loves You Baby (You Know Who It Is)",
+   "artist": "Patti LaBelle",
+   "videoId": "HAAQHcrxOVU",
+   "duration": "4:53"
+  },
+  {
+   "title": "Who's That Girl?",
+   "artist": "Eve",
+   "videoId": "ls3oPF5d43A",
+   "duration": "4:43"
+  },
+  {
+   "title": "Fergalicious (feat. will.i.am)",
+   "artist": "Fergie",
+   "videoId": "HGBUk7hcDpQ",
+   "duration": "4:55"
+  },
+  {
+   "title": "Bad Girls",
+   "artist": "M.I.A.",
+   "videoId": "J2EiSMxh1Zs",
+   "duration": "3:48"
+  },
+  {
+   "title": "I'm Coming Out",
+   "artist": "Diana Ross",
+   "videoId": "_XoF1PoY810",
+   "duration": "5:26"
+  },
+  {
+   "title": "My Girl",
+   "artist": "The Temptations",
+   "videoId": "zrMUdGF8iaU",
+   "duration": "2:56"
+  },
+  {
+   "title": "Here",
+   "artist": "Alessia Cara",
+   "videoId": "0l_GuSKx-gY",
+   "duration": "3:22"
+  },
+  {
+   "title": "Memories",
+   "artist": "Maroon 5",
+   "videoId": "Zh6ENzVml1c",
+   "duration": "3:06"
+  },
+  {
+   "title": "So Sick",
+   "artist": "Ne-Yo",
+   "videoId": "HWMQBTMDdDQ",
+   "duration": "3:28"
+  },
+  {
+   "title": "Dilemma (feat. Kelly Rowland)",
+   "artist": "Nelly",
+   "videoId": "ebB8iLMo6ig",
+   "duration": "4:50"
+  }
+ ],
+ "browseId": "MPREb_ZViBn7aklZN",
+ "syncedAt": "2026-05-31T01:47:58.212420Z"
+}
