@@ -1,0 +1,38 @@
+{
+  "exportedAt": "2026-05-30T00:00:00Z",
+  "counts": {
+    "total": 3,
+    "save": 3,
+    "skip": 0,
+    "pending": 0
+  },
+  "save": [
+    {
+      "artist": "Clearcast",
+      "title": "Weightless Hit 'Em (VIP)",
+      "year": "",
+      "source": "manual_add",
+      "browseId": "MPREb_FujjeO9PuzW",
+      "_origin": "lexar/yt-album",
+      "_trackCount": 2
+    },
+    {
+      "artist": "SIRENE",
+      "title": "Turn The TV Up",
+      "year": "",
+      "source": "manual_add",
+      "browseId": "MPREb_Vw29mNhD6m1",
+      "_origin": "lexar/yt-album",
+      "_trackCount": 5
+    },
+    {
+      "artist": "SIRENE",
+      "title": "Fast Lane",
+      "year": "",
+      "source": "manual_add",
+      "browseId": "MPREb_TH8YG4gi2Rz",
+      "_origin": "lexar/yt-album",
+      "_trackCount": 3
+    }
+  ]
+}
