@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3365,
- "totalTracks": 43155,
- "syncedAt": "2026-05-31T01:58:59.951287Z",
+ "albumCount": 3368,
+ "totalTracks": 43165,
+ "syncedAt": "2026-05-31T03:22:52.142680Z",
  "albums": [
+  {
+   "browseId": "MPREb_TH8YG4gi2Rz",
+   "title": "Fast Lane",
+   "artist": "Sirene",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_Vw29mNhD6m1",
+   "title": "Turn The TV Up",
+   "artist": "Sirene",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_FujjeO9PuzW",
+   "title": "Weightless Hit 'Em (VIP)",
+   "artist": "Clearcast",
+   "trackCount": 2
+  },
   {
    "browseId": "MPREb_xkjj8a2zq0u",
    "title": "Futureproofing - EP",

@@ -1,0 +1,48 @@
+{
+  "startedAt": "2026-05-31T03:18:49.521418+00:00",
+  "mode": "apply",
+  "triageFile": "triage-runs/in-focus-clearcast-sirene-2026-05-30.json",
+  "results": [
+    {
+      "artist": "Clearcast",
+      "title": "Weightless Hit 'Em (VIP)",
+      "year": "",
+      "kind": "album",
+      "source": "manual_add",
+      "browseId": "MPREb_FujjeO9PuzW",
+      "match": "from-radar",
+      "status": "saved",
+      "playlistId": "OLAK5uy_mbRnE59NlBLsdC4uGK739Kh9mdBdlxYro"
+    },
+    {
+      "artist": "SIRENE",
+      "title": "Turn The TV Up",
+      "year": "",
+      "kind": "album",
+      "source": "manual_add",
+      "browseId": "MPREb_Vw29mNhD6m1",
+      "match": "from-radar",
+      "status": "saved",
+      "playlistId": "OLAK5uy_n9_r1VqPCp7T_kCc2O2pHLwLTIHf42BpA"
+    },
+    {
+      "artist": "SIRENE",
+      "title": "Fast Lane",
+      "year": "",
+      "kind": "album",
+      "source": "manual_add",
+      "browseId": "MPREb_TH8YG4gi2Rz",
+      "match": "from-radar",
+      "status": "saved",
+      "playlistId": "OLAK5uy_ncCAuDgj15ev1A_ExY3hOBcyaee5vRabY"
+    }
+  ],
+  "finishedAt": "2026-05-31T03:18:54.751765+00:00",
+  "summary": {
+    "saved": 3,
+    "liked": 0,
+    "no_match": 0,
+    "errors": 0,
+    "preview": 0
+  }
+}
