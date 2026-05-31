@@ -1,0 +1,36 @@
+{
+ "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
+ "title": "Jinja",
+ "trackCount": 4,
+ "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "tracks": [
+  {
+   "title": "Turtles",
+   "artist": "Flying Lotus",
+   "album": "You're Dead! (Deluxe Edition)",
+   "videoId": "PymET8TsaAM",
+   "duration": "2:07"
+  },
+  {
+   "title": "Udu",
+   "artist": "O'Flynn",
+   "album": "Aletheia",
+   "videoId": "kCfXNiGRW4s",
+   "duration": "2:33"
+  },
+  {
+   "title": "Kerala",
+   "artist": "Bonobo",
+   "album": "Migration",
+   "videoId": "sbygyYTKzVE",
+   "duration": "3:58"
+  },
+  {
+   "title": "Cirrus",
+   "artist": "Bonobo",
+   "album": "The North Borders",
+   "videoId": "KivTOMUltBs",
+   "duration": "5:53"
+  }
+ ]
+}

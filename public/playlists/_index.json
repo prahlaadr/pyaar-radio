@@ -1,9 +1,29 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 255,
- "totalTracks": 102519,
- "syncedAt": "2026-05-30T10:02:28.112181Z",
+ "totalTracks": 101537,
+ "syncedAt": "2026-05-31T10:17:44.171251Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
+   "title": "Intros/Interludes/Loops/Waves/Fillers",
+   "trackCount": 17
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
+   "title": "Jinja",
+   "trackCount": 4
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
+   "title": "May 26",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1441
+  },
   {
    "playlistId": "PL6LTKg9AoNs1m4af1ArVzycaeXUcFg_uz",
    "title": "Peak-Hour Heat [pyaar radio]",
@@ -50,19 +70,9 @@
    "trackCount": 50
   },
   {
-   "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
-   "title": "May 26",
-   "trackCount": 28
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2CBYZg4eDK4Zc1EG155B-5",
    "title": "Sunday Coffee [pyaar radio]",
    "trackCount": 50
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1440
   },
   {
    "playlistId": "PL6LTKg9AoNs10uvDPc3wHNdfC8dhIo2hP",
@@ -75,11 +85,6 @@
    "trackCount": 5
   },
   {
-   "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
-   "title": "WROCK",
-   "trackCount": 992
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
    "title": "Savage Video Game Nights",
    "trackCount": 160
@@ -88,11 +93,6 @@
    "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
    "title": "Savage Pizza ",
    "trackCount": 151
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
-   "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 15
   },
   {
    "playlistId": "PL6LTKg9AoNs1Jc2-8OfZCdduxCdAI5Kli",

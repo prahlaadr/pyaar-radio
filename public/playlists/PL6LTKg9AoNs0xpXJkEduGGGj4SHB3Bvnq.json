@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
  "title": "May 26",
- "trackCount": 28,
- "syncedAt": "2026-05-30T10:02:28.112181Z",
+ "trackCount": 31,
+ "syncedAt": "2026-05-31T10:17:44.171251Z",
  "tracks": [
   {
    "title": "Erdaydidder-Erdiddar",
@@ -199,6 +199,27 @@
    "album": "Surf",
    "videoId": "CwVH96Y5ylQ",
    "duration": "3:22"
+  },
+  {
+   "title": "Selfless",
+   "artist": "The Strokes",
+   "album": "The New Abnormal",
+   "videoId": "qEygdC7nmcU",
+   "duration": "3:43"
+  },
+  {
+   "title": "I'll Be The Flood",
+   "artist": "Nico Segal",
+   "album": "Tell The Ghost Welcome Home",
+   "videoId": "Yuj_d7w_TGY",
+   "duration": "2:34"
+  },
+  {
+   "title": "Khayal",
+   "artist": "Kazdoura",
+   "album": "Khayal",
+   "videoId": "BdyGJ1-eun8",
+   "duration": "3:27"
   }
  ]
 }

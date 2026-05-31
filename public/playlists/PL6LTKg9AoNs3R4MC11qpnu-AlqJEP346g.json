@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1440,
- "syncedAt": "2026-05-30T10:02:28.112181Z",
+ "trackCount": 1441,
+ "syncedAt": "2026-05-31T10:17:44.171251Z",
  "tracks": [
+  {
+   "title": "Leave (Get Out)",
+   "artist": "JoJo",
+   "album": "JoJo",
+   "videoId": "wflwxfyNHgk",
+   "duration": "4:03"
+  },
   {
    "title": "Daddy Cool",
    "artist": "Boney M.",
