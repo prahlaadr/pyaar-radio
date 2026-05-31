@@ -46,7 +46,42 @@ def main():
     folders = sorted([f.name for f in V1.iterdir()
                       if f.is_dir() and f.name not in SKIP and not f.name.startswith(".")])
     print(f"  V1 top-level folders to mirror: {len(folders)}")
-    print(f"  V3-only folders (preserved): {sorted(set(d.name for d in V3.iterdir() if d.is_dir() and d.name not in SKIP) - set(folders))}")
+
+    # Move-aware orphan cleanup: any V3 top-level folder NOT in V1's top-level —
+    # check if a same-named folder exists anywhere else on V1 (e.g. /Setlists/X).
+    # If so, the user moved it on V1 → V3's top-level copy is a duplicate → delete.
+    # If not, it's a genuine V3-only folder → preserve.
+    v3_top = {d.name for d in V3.iterdir() if d.is_dir() and d.name not in SKIP and not d.name.startswith(".")}
+    v3_only = sorted(v3_top - set(folders))
+    if v3_only:
+        # Build a name → True index of every folder under V1 (recursive)
+        v1_folder_names = set()
+        try:
+            for root, dirs, _ in __import__("os").walk(V1):
+                for d in dirs:
+                    v1_folder_names.add(d)
+        except Exception:
+            pass
+
+        preserved, orphans = [], []
+        for name in v3_only:
+            if name in v1_folder_names:
+                orphans.append(name)
+            else:
+                preserved.append(name)
+        if orphans:
+            print(f"  V3-only orphans (moved on V1, deleting from V3): {orphans}")
+            if not dry:
+                import shutil as _sh
+                for name in orphans:
+                    try:
+                        _sh.rmtree(V3 / name)
+                    except Exception as e:
+                        print(f"    ! failed to rm {name}: {e}")
+            else:
+                print(f"    (DRY — would delete)")
+        if preserved:
+            print(f"  V3-only preserved (no V1 equivalent): {preserved}")
 
     total_files = total_bytes = 0
     failed = []
