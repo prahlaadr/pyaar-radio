@@ -62,9 +62,47 @@ DISCOGS_SLEEP = 2.5
 MB_SLEEP = 1.1
 YT_SLEEP = 0.3
 
+# Drop patterns — release titles matching these are NOT official studio releases.
+# Filters out live recordings, bootlegs, remix albums, mix-comps, re-issues.
+# See memory: feedback-original-releases-only.
+DROP_PATTERNS = [
+    r"\blive at\b", r"\blive in\b", r"\blive from\b", r"\blive @\b",
+    r"^live ", r" live$", r" live\.", r"\blive in concert\b", r"\bb2b\b",
+    r"\d{4}-\d{2}-\d{2}",                          # bootleg date prefix
+    r"\bremix\b", r"\bremixes\b", r"\bremixed by\b", r"\bedit pack\b",
+    r"\bbootleg\b", r"\bunofficial\b",
+    r"\bdj-?kicks\b", r"\bdj mix\b", r"\bfabric presents\b",
+    r"\blate night tales\b", r"^ra\.\d+", r"\bresident advisor\b", r"\bpodcast\b",
+    r"\bmixed by\b", r"\bcontinuous mix\b", r"\(mixed\)",
+    r"\bdeluxe\b", r"\banniversary\b", r"\bexpanded edition\b",
+    r"\bre-?issue\b", r"\(remastered\)",
+    r"\bboiler room\b", r"\btomorrowland\b", r"\balexandra palace\b",
+    r"\bdrumsheds\b", r"\bwarehouse project\b", r"\bsónar\b",
+    r"\bessential mix\b", r"\bbbc essential\b",
+]
+DROP_RE = re.compile("|".join(DROP_PATTERNS), re.IGNORECASE)
+
+# Strip these suffixes before doing loose-normalized dedupe (so "X" matches "X - EP")
+EP_SUFFIX = re.compile(
+    r"(\s*-\s*ep$|\s+ep$|\s*\(ep\)$|\s*-\s*single$|\s+single$|\s*\(single\)$"
+    r"|\s+\(deluxe.*?\)$|\s+\(remastered.*?\)$|\s+\(.*?edition.*?\)$)",
+    re.IGNORECASE,
+)
+
+
+def is_official(title: str) -> bool:
+    """Return False if title looks like a live/bootleg/remix/mix-comp/re-issue."""
+    return not DROP_RE.search(title or "")
+
 
 def normalize(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def normalize_loose(s: str) -> str:
+    """Normalize with EP/single/deluxe suffix stripped — for fuzzier dedupe."""
+    s = EP_SUFFIX.sub("", (s or "").strip())
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
 # ---------- Discogs ----------
@@ -295,7 +333,10 @@ def yt_resolve_song_to_album(yt, artist, title):
 # ---------- Library state ----------
 
 def load_existing():
-    """Return (saved browseId set, saved (artist_norm, title_norm) set)."""
+    """Return (saved browseId set, saved (artist_norm, loose_title_norm) set).
+
+    Uses loose normalization so 'X - EP' in albums.csv matches 'X' from a
+    fresh source query — without this, EP-suffix variants get re-saved."""
     saved_bids = set()
     saved_keys = set()
     if ALBUMS_INDEX.exists():
@@ -303,13 +344,13 @@ def load_existing():
         for a in idx.get("albums", []):
             if a.get("browseId"):
                 saved_bids.add(a["browseId"])
-            saved_keys.add((normalize(a.get("artist", "")), normalize(a.get("title", ""))))
+            saved_keys.add((normalize(a.get("artist", "")), normalize_loose(a.get("title", ""))))
     if ALBUMS_CSV.exists():
         with open(ALBUMS_CSV) as f:
             for row in csv.DictReader(f):
                 if row.get("browseId"):
                     saved_bids.add(row["browseId"])
-                saved_keys.add((normalize(row.get("artist", "")), normalize(row.get("title", ""))))
+                saved_keys.add((normalize(row.get("artist", "")), normalize_loose(row.get("title", ""))))
     return saved_bids, saved_keys
 
 
@@ -416,11 +457,14 @@ def main():
                                         "year": "", "_origin": "lexar"})
                     seen_bids.add(m["browseId"])
 
-        # Filter: trackCount + dedupe vs existing library
+        # Filter: official-only + trackCount + dedupe vs existing library
         kept = []
         for c in candidates:
+            if not is_official(c["title"]):
+                print(f"     · skip (non-official): {c['title']}")
+                continue
             bid = c["browseId"]
-            key = (normalize(producer), normalize(c["title"]))
+            key = (normalize(producer), normalize_loose(c["title"]))
             if bid in saved_bids or key in saved_keys:
                 continue
             tc = yt_track_count(yt, bid)
