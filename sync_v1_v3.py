@@ -91,7 +91,10 @@ def main():
         # --inplace bypasses temp filename creation — important for files with
         # long multi-byte (Korean/CJK) filenames that overflow macOS 255-byte limit
         # when rsync prepends `.` and appends `.XXXXXX` to the basename.
-        cmd = ["rsync", "-au", "--delete", "--inplace", "--stats",
+        # --itemize-changes logs every add/delete/update so we have a recoverable
+        # paper trail of what was synced (vs the legacy --delete black-box).
+        cmd = ["rsync", "-au", "--delete", "--inplace", "--itemize-changes",
+               "--stats",
                "--exclude=.DS_Store", "--exclude=._*"]
         if dry:
             cmd.insert(1, "--dry-run")
