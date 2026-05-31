@@ -1,19 +1,13 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3368,
- "totalTracks": 43165,
- "syncedAt": "2026-05-31T03:22:52.142680Z",
+ "albumCount": 3367,
+ "totalTracks": 43162,
+ "syncedAt": "2026-05-31T03:42:11.379666Z",
  "albums": [
   {
-   "browseId": "MPREb_TH8YG4gi2Rz",
-   "title": "Fast Lane",
-   "artist": "Sirene",
-   "trackCount": 3
-  },
-  {
-   "browseId": "MPREb_Vw29mNhD6m1",
-   "title": "Turn The TV Up",
-   "artist": "Sirene",
+   "browseId": "MPREb_mXXXlqJUQlC",
+   "title": "Tales of Lusan",
+   "artist": "S!RENE",
    "trackCount": 5
   },
   {

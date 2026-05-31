@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-05-31T03:39:19.065732+00:00",
+  "mode": "apply",
+  "triageFile": "triage-runs/srene-fix-2026-05-30.json",
+  "results": [
+    {
+      "artist": "S!RENE",
+      "title": "Silence Gives Life",
+      "year": "2025",
+      "kind": "album",
+      "source": "manual_add",
+      "browseId": "MPREb_HhiNZENTyxc",
+      "match": "from-radar",
+      "status": "saved",
+      "playlistId": "OLAK5uy_mfyOO6P0MY1XzLH8jO3JcDlWaXk19yk_M"
+    },
+    {
+      "artist": "S!RENE",
+      "title": "Tales of Lusan",
+      "year": "2023",
+      "kind": "album",
+      "source": "manual_add",
+      "browseId": "MPREb_mXXXlqJUQlC",
+      "match": "from-radar",
+      "status": "saved",
+      "playlistId": "OLAK5uy_kUwQW-QJeHpM_Z7VguPEhH1TSBp_EIt1I"
+    }
+  ],
+  "finishedAt": "2026-05-31T03:39:21.425315+00:00",
+  "summary": {
+    "saved": 2,
+    "liked": 0,
+    "no_match": 0,
+    "errors": 0,
+    "preview": 0
+  }
+}
