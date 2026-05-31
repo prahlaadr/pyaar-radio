@@ -259,6 +259,7 @@ python3 sync_usb.py --usb /path/to/usb      # custom USB path
 | "Triage new releases" | Open the GH issue auto-opened by radar-scan, then either click through `/radar` UI or run the bulk HTML triage. See "Radar & Triage Pipeline" section. |
 | "Apply my triage picks" | Commit export to `triage-runs/YYYY-MM-DD.json`, then `gh workflow run triage-apply.yml -f triage_path=… -f mode=apply -f run_sync=true` |
 | "Find missing albums" | Local: `.venv/bin/python -m radar audit --save` (or without `--save` for report-only). Heavy — runs against full discographies. |
+| "Refresh In Focus producer albums" | Local: `.venv/bin/python scripts/in_focus_audit.py` → writes `triage-runs/in-focus-YYYY-MM-DD.json`. Then `gh workflow run triage-apply.yml -f triage_path=… -f mode=apply -f run_sync=true`. Producer list: `data/in_focus_producers.txt`. Multi-source: Discogs → MusicBrainz → YT artist page. |
 | "Run radar manually" | `gh workflow run radar-scan.yml --repo prahlaadr/pyaar-radio` |
 | "Sync playlists" | Run `python sync_playlists.py` or trigger Action with `sync_playlists=true` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-core (see below) |
@@ -402,6 +403,24 @@ gh workflow run triage-apply.yml --repo prahlaadr/pyaar-radio \
 - With `run_sync=true`, immediately runs `sync_liked.py` + `sync_albums.py` to refresh CSVs (instead of waiting for the 3 AM daily sync)
 
 **Both modes require auth** — unauthenticated YT Music search misses ~85% of albums. The workflow always writes `browser.json` from the `YTMUSIC_BROWSER_AUTH` secret.
+
+### The `in_focus_audit.py` script (curated-list sweep)
+
+`scripts/in_focus_audit.py` runs a multi-source album sweep against a curated producer list (default `data/in_focus_producers.txt`, mirrors `/Volumes/vision 1/DJ/In Focus/Producers/`). Different from `radar audit` — which walks every artist in `artists.csv` — this targets a specific producer list and is the right tool for "make sure all my favorite producers have catalog in Pyaar Radio".
+
+```bash
+cd ~/Documents/Projects/01-web-apps/pyaar-radio
+.venv/bin/python scripts/in_focus_audit.py                  # default: top 5, min 3 tracks
+.venv/bin/python scripts/in_focus_audit.py --top-n 3        # tighter
+.venv/bin/python scripts/in_focus_audit.py --lexar-cross-check  # also scan Lexar folder filenames for held-back albums
+```
+
+Output: `triage-runs/in-focus-YYYY-MM-DD.json` — feeds directly into `triage-apply.yml` (same as radar triage). Pipeline: Discogs (artist-ID disambiguated, format=Album) → MusicBrainz (release-groups, album+ep) → YT Music artist page → optional Lexar folder filenames. Filters to `trackCount >= min_tracks` to drop singles. Dedupes against existing `albums.csv` + `albums/_index.json`.
+
+To refresh the producer list from Lexar:
+```bash
+ls "/Volumes/vision 1/DJ/In Focus/Producers/" | grep -v "^\." > data/in_focus_producers.txt
+```
 
 ### The `audit` command (deeper sweep, local-only)
 

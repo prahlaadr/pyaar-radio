@@ -1,0 +1,66 @@
+# In Focus producers — canonical list mirrors /Volumes/vision 1/DJ/In Focus/Producers/
+# One artist name per line. Comments (#) and blank lines ignored.
+# Refresh from Lexar: ls "/Volumes/vision 1/DJ/In Focus/Producers/" > /tmp/list
+# Used by: scripts/in_focus_audit.py
+AceMo
+Ahadadream
+ANISH KUMAR
+arushi jain
+BAALTI
+Baauer
+Barry Can't Swim
+camoufly
+Cesco
+Clearcast
+Conducta
+Daft Punk
+Disclosure
+DJ Danifox
+dj lycox
+DJ Marfox
+DJ Swisha
+Flying Lotus
+FOUR TET
+Gaszia
+Great Dane
+Hamdi
+Interplanetary Criminal
+Ivy Lab
+Joy Orbison
+Juls
+KRITHI
+Lapgan
+machinedrum
+MAKAAN
+Mala
+medasin
+mera bhai
+MPH
+Mr. Carmack
+Nightmares on Wax
+Nikita the Wicked
+Nikki Nair
+O'Flynn
+Oakk
+Oppidan
+Overmono
+Phrva
+Pìjus
+piri
+Player Dave
+Ramon Pang
+Rhythom
+Rohaan
+Ross from Friends
+salute
+sam gellaitry
+SAMMY VIRJI
+Sango
+SBTRKT
+SIRENE
+Smerz
+Sukh Knight
+Taiki Nulight
+Vanyfox
+VHOOR
+Villager
