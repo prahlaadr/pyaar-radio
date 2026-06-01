@@ -222,29 +222,61 @@ The Setlists tab includes a **Playlist Picker** that lets you browse and load an
 - `src/lib/playlists.ts` — fetch utilities (cached index, individual playlist fetch)
 - `src/lib/types.ts` — `PlaylistIndexEntry`, `PlaylistData` interfaces
 
-## USB Sync (PRAHLOUD Archive)
+## Drive Model: V3 master, V1 subset
 
-`sync_usb.py` syncs archive month/year playlists to `/Volumes/Lexar/RAAMI RADIO/PRAHLOUD/`.
+V3 (vision 3.0, `/music/RAAMI RADIO/`) is the canonical music archive — every track ever downloaded lives here. V1 (vision 1, `/DJ/`) is a **curated subset** of folders pulled for upcoming DJ sets. V3 exceeds V1's capacity by design — there is **no full mirror**. Always download new music to V3 first.
 
-**Usage:**
+Drive paths come from `~/.config/pyaar-sync/drives.json` (override via `PYAAR_V1_ROOT` / `PYAAR_V3_ROOT` env vars) — never hardcoded. The resolver is `pyaar_drives.py`.
+
+### Pulling V3 → V1 for a set
+
+Use the `pull` wrapper (next to the Python scripts):
+
 ```bash
-python3 sync_usb.py                          # sync all archive playlists
-python3 sync_usb.py --months "March 26"      # sync specific months
-python3 sync_usb.py --dry                    # preview only
-python3 sync_usb.py --usb /path/to/usb      # custom USB path
+./pull --list                            # show V3 top-level + 2nd-level paths
+./pull "Setlists/Underground ATL"        # pull one folder
+./pull "Crates/Trivia Night" "Setlists/Charcoal"  # pull multiple
+./pull --dry "In Focus/Producers/Hudson Mohawke"  # preview first
 ```
 
-**How it works:**
-1. Reads archive playlists from `public/playlists/` (identified by month/year regex)
-2. Compares against existing files on USB (fuzzy matching on title/artist)
-3. Downloads missing tracks: Soulseek FLAC/320 first (`batch_grab.py`), yt-dlp MP3 fallback
-4. Copies to USB folder: `2026/March 26` (2026+) or `2024-03 (March)` (pre-2026)
+The wrapper calls `sync_v1_v3.py`, which:
+- Runs `rsync -au --inplace --exclude='._*' --exclude='.DS_Store'`
+- Pre-flight free-space check (aborts if V1 would overflow, with 5% buffer)
+- Refuses to do a full mirror — explicit folder args required
+- No `--delete`: V1 may hold things V3 doesn't (no destructive ops on V1)
 
-**Auto-trigger:** LaunchAgent `com.pyaar.sync-usb` runs on any disk mount. Logs: `/tmp/pyaar-sync-usb.log`.
+### Monthly archive auto-download
 
-**Key files:**
-- `sync_usb.py` — the sync script
-- `~/Library/LaunchAgents/com.pyaar.sync-usb.plist` — auto-mount trigger
+`sync_monthlys.sh` (renamed from `sync_v1_monthlys.sh` on 2026-06-01) is the wrapper for the YT Music → V3 Monthlys pipeline:
+
+1. `git pull` — catches GitHub Action commits from `sync_playlists.py` daily cron
+2. `sync_playlists.py` (incremental) — catches playlists added in last <24h
+3. `sync_usb.py --flat` — downloads missing tracks to `V3 PYAAR.Radio/Monthlys/YYYY-MM (Month)/`
+
+```bash
+python3 sync_usb.py --dry                          # preview against V3 default target
+python3 sync_usb.py --months "March 26"            # specific months
+python3 sync_usb.py --usb /override/path           # override target (not normally needed)
+```
+
+`sync_usb.py` resolves V3 via `pyaar_drives.get_root_optional('v3')` and writes to `<V3>/PYAAR.Radio/Monthlys/` by default.
+
+### LaunchAgents
+
+| Plist | Status | What it does |
+|---|---|---|
+| `com.pyaar.sync-v1-v3.plist` | **DELETED 2026-06-01** | Automation made no sense for selective per-folder pull. Use `./pull` manually. |
+| `com.pyaar.sync-monthlys.plist` | UNLOADED (per user preference) | Auto-fires `sync_monthlys.sh` on disk mount. Re-enable with `launchctl load <plist>`. |
+| `com.pyaar.sync-usb.plist` | unchanged | Separate agent for the old PRAHLOUD USB drive (independent). |
+
+### Key files
+
+- `sync_v1_v3.py` — V3→V1 selective pull with free-space safety check
+- `pull` — bash wrapper for the above (short invocation)
+- `sync_usb.py` — YT Music → V3 Monthlys downloader (target auto-resolved)
+- `sync_monthlys.sh` — orchestrates the monthly chain (git pull → sync_playlists → sync_usb)
+- `pyaar_drives.py` — drive resolver (env var → config file)
+- `~/.config/pyaar-sync/drives.json` — canonical drive paths config
 
 ## Quick Reference — What to Do When User Says...
 

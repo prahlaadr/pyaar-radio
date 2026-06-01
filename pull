@@ -1,0 +1,7 @@
+#!/bin/bash
+# Tiny wrapper for V3→V1 selective pull. Examples:
+#   pull --list
+#   pull "Setlists/Underground ATL"
+#   pull "Setlists/Charcoal" "Crates/Trivia Night"
+#   pull --dry "In Focus/Producers/Hudson Mohawke"
+exec /usr/bin/env python3 "$(dirname "$0")/sync_v1_v3.py" "$@"

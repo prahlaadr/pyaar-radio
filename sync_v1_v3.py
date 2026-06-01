@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
-"""Mirror V1 → V3 (strict per-folder mirror).
+"""Pull selected folder(s) from V3 (master) → V1 (subset for DJ sets).
 
-Strategy:
-  - For each top-level folder in V1: rsync -au --delete to V3 — V3 strictly
-    mirrors V1 for shared folders, so reorganizations/deletions on V1
-    propagate to V3.
-  - V3-only top-level folders (e.g. Daytimers, Under the Bridge) are
-    untouched — never deleted, never modified.
-  - Bails immediately if either drive isn't mounted (the LaunchAgent
-    fires on every disk mount; most fires are no-ops).
+V3 is the canonical archive. V1 is a curated subset of what you need for
+upcoming sets. This script never does a full mirror — the V3 archive
+exceeds V1's capacity by design. Specify which folder(s) to pull.
 
-Triggered by ~/Library/LaunchAgents/com.pyaar.sync-v1-v3.plist (StartOnMount).
-Log: /tmp/pyaar-sync-v1-v3.log
-Manual run: python3 sync_v1_v3.py --foreground
-Dry run:    python3 sync_v1_v3.py --foreground --dry
+Usage (via the `pull` wrapper next to this file):
+    pull <subpath> [<subpath> ...]   # pull one or more folders
+    pull --list                       # list V3 top-level + 2nd-level paths
+    pull --dry <subpath>              # preview a pull
+    pull                              # no args → usage + V1 free space
+
+`<subpath>` is a path RELATIVE to the V3 root, e.g.:
+    pull "Setlists/Underground ATL"
+    pull "Crates/Trivia Night"  "Setlists/Charcoal"
+    pull "In Focus/Producers/Hudson Mohawke"
+
+Drive roots resolve from ~/.config/pyaar-sync/drives.json or env vars
+PYAAR_V1_ROOT / PYAAR_V3_ROOT — never hardcoded.
 """
 import shutil
 import subprocess
@@ -21,113 +25,168 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-V1 = Path("/Volumes/vision 1/DJ")
-V3 = Path("/Volumes/vision 3.0/music/RAAMI RADIO")
-LOG = Path("/tmp/pyaar-sync-v1-v3.log")
+sys.path.insert(0, str(Path(__file__).parent))
+from pyaar_drives import get_root  # noqa: E402
 
-# Top-level folders to never touch on V3 (Engine Library is V1-only DJ DB)
-SKIP = {"Engine Library", ".Trashes", ".Spotlight-V100", ".fseventsd"}
+SKIP = {".Trashes", ".Spotlight-V100", ".fseventsd", ".DocumentRevisions-V100"}
 
 
 def stamp():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
+def human_bytes(n: int) -> str:
+    for unit in ("B", "KB", "MB", "GB", "TB"):
+        if n < 1024:
+            return f"{n:.1f} {unit}"
+        n /= 1024
+    return f"{n:.1f} PB"
+
+
+def dir_size(p: Path) -> int:
+    """Sum of file sizes under p, in bytes. Excludes ._* and .DS_Store."""
+    total = 0
+    for root, _, files in __import__("os").walk(p):
+        for f in files:
+            if f.startswith("._") or f == ".DS_Store":
+                continue
+            try:
+                total += (Path(root) / f).stat().st_size
+            except OSError:
+                pass
+    return total
+
+
+def free_bytes(p: Path) -> int:
+    """Free bytes on the filesystem containing p."""
+    return shutil.disk_usage(p).free
+
+
+def list_v3_paths(v3: Path) -> None:
+    """Print V3 top-level and 2nd-level paths so user knows what to pull."""
+    print(f"V3 master: {v3}\n")
+    for top in sorted(v3.iterdir()):
+        if not top.is_dir() or top.name in SKIP or top.name.startswith("."):
+            continue
+        children = sorted([
+            c.name for c in top.iterdir()
+            if c.is_dir() and c.name not in SKIP and not c.name.startswith(".")
+        ])
+        # Top-level summary
+        size = human_bytes(dir_size(top))
+        print(f"  {top.name}/    ({size}, {len(children)} subfolders)")
+        # Show 2nd level for navigation
+        for child in children[:30]:
+            csize = human_bytes(dir_size(top / child))
+            print(f"      {top.name}/{child}    ({csize})")
+        if len(children) > 30:
+            print(f"      ... and {len(children) - 30} more")
+        print()
+
+
+def pull_one(v3: Path, v1: Path, subpath: str, dry: bool) -> tuple[bool, str]:
+    """Pull a single V3 subpath to V1. Returns (success, summary_line)."""
+    src = v3 / subpath
+    if not src.exists():
+        return False, f"✗ {subpath} — does not exist on V3"
+    if not src.is_dir():
+        return False, f"✗ {subpath} — not a directory"
+
+    dst = v1 / subpath
+
+    # Pre-flight: size check (only count what would be transferred — approximation:
+    # source size minus whatever is already at dst with same size). For simplicity
+    # we use source size; rsync -u skips matched files anyway.
+    src_size = dir_size(src)
+    free = free_bytes(v1)
+    # Allow up to 95% fill — never blow through the last 5%
+    safe_free = int(free - (shutil.disk_usage(v1).total * 0.05))
+    if src_size > safe_free and not dry:
+        return False, (
+            f"✗ {subpath} — would need ~{human_bytes(src_size)} but V1 has "
+            f"~{human_bytes(safe_free)} safe-free (5% buffer). Free space "
+            f"on V1 first, or pull a smaller subfolder."
+        )
+
+    dst.parent.mkdir(parents=True, exist_ok=True)
+
+    cmd = ["rsync", "-au", "--inplace", "--itemize-changes", "--stats",
+           "--exclude=.DS_Store", "--exclude=._*"]
+    if dry:
+        cmd.insert(1, "--dry-run")
+    cmd += [f"{src}/", f"{dst}/"]
+
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True,
+                           errors='replace', timeout=10800)
+    except subprocess.TimeoutExpired:
+        return False, f"✗ {subpath} — rsync timed out"
+    if r.returncode != 0:
+        return False, f"✗ {subpath} — rsync exit {r.returncode}: {r.stderr.strip()[:200]}"
+
+    files = bytes_xferred = "?"
+    for line in r.stdout.splitlines():
+        if "Number of regular files transferred:" in line:
+            files = line.split(":")[-1].strip()
+        elif "Total transferred file size:" in line:
+            bytes_xferred = line.split(":")[-1].strip()
+    tag = "(DRY)" if dry else ""
+    return True, f"✓ {subpath}  files={files}  bytes={bytes_xferred} {tag}"
+
+
 def main():
-    dry = "--dry" in sys.argv
-    if not V1.exists() or not V3.exists():
-        return 0  # silent no-op when either drive missing
+    args = [a for a in sys.argv[1:] if a not in ("--foreground",)]
+    dry = "--dry" in args
+    if dry:
+        args.remove("--dry")
+    want_list = "--list" in args
+    if want_list:
+        args.remove("--list")
+
+    try:
+        v3 = get_root("v3")
+        v1 = get_root("v1")
+    except (RuntimeError, FileNotFoundError) as e:
+        print(f"Drive not available: {e}", file=sys.stderr)
+        print(
+            "  Edit ~/.config/pyaar-sync/drives.json or set PYAAR_V1_ROOT / "
+            "PYAAR_V3_ROOT env vars.",
+            file=sys.stderr,
+        )
+        return 2
+
+    if want_list:
+        list_v3_paths(v3)
+        return 0
+
+    if not args:
+        print(__doc__)
+        print(f"V3 master: {v3}")
+        print(f"V1 subset: {v1}")
+        print(f"V1 free space: {human_bytes(free_bytes(v1))}\n")
+        print("Run `pull --list` to see available V3 paths.")
+        return 0
+
     if not shutil.which("rsync"):
-        print(f"[{stamp()}] ERROR: rsync not in PATH")
+        print("ERROR: rsync not in PATH", file=sys.stderr)
         return 1
 
-    print(f"\n[{stamp()}] V1 + V3 both mounted — per-folder mirror {'(DRY)' if dry else ''}")
+    print(f"[{stamp()}] V3→V1 selective pull {'(DRY)' if dry else ''}")
+    print(f"  V3 (master): {v3}")
+    print(f"  V1 (subset): {v1}")
+    print(f"  V1 free:     {human_bytes(free_bytes(v1))}\n")
 
-    folders = sorted([f.name for f in V1.iterdir()
-                      if f.is_dir() and f.name not in SKIP and not f.name.startswith(".")])
-    print(f"  V1 top-level folders to mirror: {len(folders)}")
+    failures = []
+    for subpath in args:
+        ok, msg = pull_one(v3, v1, subpath, dry)
+        print(f"  {msg}")
+        if not ok:
+            failures.append(subpath)
 
-    # Move-aware orphan cleanup: any V3 top-level folder NOT in V1's top-level —
-    # check if a same-named folder exists anywhere else on V1 (e.g. /Setlists/X).
-    # If so, the user moved it on V1 → V3's top-level copy is a duplicate → delete.
-    # If not, it's a genuine V3-only folder → preserve.
-    v3_top = {d.name for d in V3.iterdir() if d.is_dir() and d.name not in SKIP and not d.name.startswith(".")}
-    v3_only = sorted(v3_top - set(folders))
-    if v3_only:
-        # Build a name → True index of every folder under V1 (recursive)
-        v1_folder_names = set()
-        try:
-            for root, dirs, _ in __import__("os").walk(V1):
-                for d in dirs:
-                    v1_folder_names.add(d)
-        except Exception:
-            pass
-
-        preserved, orphans = [], []
-        for name in v3_only:
-            if name in v1_folder_names:
-                orphans.append(name)
-            else:
-                preserved.append(name)
-        if orphans:
-            print(f"  V3-only orphans (moved on V1, deleting from V3): {orphans}")
-            if not dry:
-                import shutil as _sh
-                for name in orphans:
-                    try:
-                        _sh.rmtree(V3 / name)
-                    except Exception as e:
-                        print(f"    ! failed to rm {name}: {e}")
-            else:
-                print(f"    (DRY — would delete)")
-        if preserved:
-            print(f"  V3-only preserved (no V1 equivalent): {preserved}")
-
-    total_files = total_bytes = 0
-    failed = []
-    for folder in folders:
-        src = V1 / folder
-        dst = V3 / folder
-        # --inplace bypasses temp filename creation — important for files with
-        # long multi-byte (Korean/CJK) filenames that overflow macOS 255-byte limit
-        # when rsync prepends `.` and appends `.XXXXXX` to the basename.
-        # --itemize-changes logs every add/delete/update so we have a recoverable
-        # paper trail of what was synced (vs the legacy --delete black-box).
-        cmd = ["rsync", "-au", "--delete", "--inplace", "--itemize-changes",
-               "--stats",
-               "--exclude=.DS_Store", "--exclude=._*"]
-        if dry:
-            cmd.insert(1, "--dry-run")
-        cmd += [f"{src}/", f"{dst}/"]
-        try:
-            r = subprocess.run(cmd, capture_output=True, text=True,
-                               errors='replace', timeout=10800)
-        except subprocess.TimeoutExpired:
-            print(f"  [{stamp()}] TIMEOUT: {folder}")
-            failed.append(folder)
-            continue
-        if r.returncode != 0:
-            print(f"  [{stamp()}] ✗ {folder} (rsync exit {r.returncode}): {r.stderr.strip()[:200]}")
-            failed.append(folder)
-            continue
-        # Brief per-folder stats
-        new_files = bytes_xferred = "?"
-        for line in r.stdout.splitlines():
-            if "Number of regular files transferred:" in line:
-                new_files = line.split(":")[-1].strip()
-            elif "Total transferred file size:" in line:
-                bytes_xferred = line.split(":")[-1].strip()
-        print(f"  ✓ {folder:<20} files={new_files:<12} bytes={bytes_xferred}")
-
-    print(f"[{stamp()}] done. failed={failed if failed else 'none'}")
-    return 0 if not failed else 1
+    print(f"\n[{stamp()}] done. failed={failures if failures else 'none'}")
+    print(f"  V1 free after: {human_bytes(free_bytes(v1))}")
+    return 0 if not failures else 1
 
 
 if __name__ == "__main__":
-    if "--foreground" in sys.argv:
-        sys.exit(main())
-    # LaunchAgent invocation — redirect stdout to log
-    with open(LOG, "a") as f:
-        sys.stdout = f
-        sys.stderr = f
-        sys.exit(main())
+    sys.exit(main())

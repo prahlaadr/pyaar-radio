@@ -51,7 +51,22 @@ BROWSER_AUTH = PROJECT_DIR / "browser.json"
 ALBUMS_CSV = PROJECT_DIR / "public" / "data" / "albums.csv"
 ALBUMS_INDEX = PROJECT_DIR / "albums" / "_index.json"
 PRODUCERS_DEFAULT = PROJECT_DIR / "data" / "in_focus_producers.txt"
-LEXAR_PRODUCERS = Path("/Volumes/vision 1/DJ/In Focus/Producers")
+
+# Drive-resolved Producers folder. Prefer V3 (master post-2026-06-01); fall
+# back to V1 (subset). Helper reads from ~/.config/pyaar-sync/drives.json.
+import sys as _sys
+_sys.path.insert(0, str(PROJECT_DIR))
+from pyaar_drives import get_root_optional as _get_root_optional
+
+
+def _producers_dir():
+    for role in ("v3", "v1"):
+        root = _get_root_optional(role)
+        if root is not None:
+            candidate = root / "In Focus" / "Producers"
+            if candidate.exists():
+                return candidate
+    return None
 
 UA = "PyaarRadio/1.0 (prahlaadram@gmail.com)"
 DISCOGS_HEADERS = {"User-Agent": UA}
@@ -288,11 +303,16 @@ def yt_track_count(yt, browse_id):
         return 0
 
 
-# ---------- Lexar cross-check (optional) ----------
+# ---------- Drive cross-check (optional, prefers V3 then V1) ----------
 
 def lexar_tracks(producer):
-    """Return list of (filename_artist, filename_title) for producer's Lexar folder."""
-    folder = LEXAR_PRODUCERS / producer
+    """Return list of (filename_artist, filename_title) for producer's folder.
+    Looks at V3/In Focus/Producers/<producer>/ first, then V1's mirror. Name
+    kept as `lexar_tracks` for backwards-compat with callers."""
+    producers_root = _producers_dir()
+    if producers_root is None:
+        return []
+    folder = producers_root / producer
     if not folder.exists():
         return []
     out = []

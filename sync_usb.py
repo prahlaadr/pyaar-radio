@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
-Sync PRAHLOUD archive playlists to USB.
+Sync monthly archive playlists from YT Music to a target folder.
 
-For each month/year playlist, ensures the USB has every track in the best
+For each month/year playlist, ensures the target has every track in the best
 available quality: Soulseek FLAC/320 first, yt-dlp MP3 fallback.
 
+Default target: V3 PYAAR.Radio/Monthlys/ (master archive, post-2026-06-01
+reorg). Path resolved from ~/.config/pyaar-sync/drives.json — never hardcoded.
+
 Usage:
-    python3 sync_usb.py                    # Sync all archive playlists
-    python3 sync_usb.py --months "March 26" "Feb 26"  # Sync specific months
-    python3 sync_usb.py --dry              # Preview what would be synced
-    python3 sync_usb.py --usb /Volumes/Lexar  # Custom USB path
+    python3 sync_usb.py                              # Sync all archive playlists to V3 Monthlys
+    python3 sync_usb.py --months "March 26" "Feb 26" # Sync specific months
+    python3 sync_usb.py --dry                        # Preview only
+    python3 sync_usb.py --usb /custom/path           # Override target
 """
 
 import argparse
@@ -26,7 +29,20 @@ PROJECT_DIR = Path(__file__).parent
 PLAYLISTS_DIR = PROJECT_DIR / "public" / "playlists"
 INDEX_PATH = PLAYLISTS_DIR / "_index.json"
 
-DEFAULT_USB = "/Volumes/Lexar/RAAMI RADIO/PRAHLOUD"
+# Make pyaar_drives importable
+sys.path.insert(0, str(PROJECT_DIR))
+from pyaar_drives import get_root_optional  # noqa: E402
+
+
+def default_target() -> str | None:
+    """Resolve default sync target: V3 PYAAR.Radio/Monthlys (V3-master era).
+
+    Returns None if V3 not mounted/configured — caller errors with instructions.
+    """
+    v3 = get_root_optional("v3")
+    if v3 is None:
+        return None
+    return str(v3 / "PYAAR.Radio" / "Monthlys")
 SOULSEEK_DIR = Path.home() / "Documents/Projects/03-music-audio/soulseek"
 BATCH_GRAB = SOULSEEK_DIR / "slskd" / "batch_grab.py"
 COMPLETE_DIR = SOULSEEK_DIR / "downloads" / "complete"
@@ -90,21 +106,21 @@ def get_archive_playlists(index_path, filter_months=None):
 
 
 def get_usb_folder(usb_base, year, month, title, flat=False):
-    """Get or create the USB folder for a playlist.
+    """Get or create the target folder for a playlist.
 
-    `flat=True` uses the simple YYYY-MM (Month) format for every year — used
-    by V1/Monthlys which has a flat layout. PRAHLOUD/Lexar uses the
-    year-prefixed layout by default."""
+    `flat=True` uses the simple YYYY-MM (Month) format for every year — the
+    V3 PYAAR.Radio/Monthlys convention (also V1's old layout). The non-flat
+    branch is legacy for the old PRAHLOUD/Lexar drive layout."""
     if flat:
         return Path(usb_base) / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
     if year >= 2026:
-        # New format: 2026/March 26
+        # Legacy PRAHLOUD format: 2026/March 26
         folder = Path(usb_base) / str(year) / title
     elif year == 2025:
-        # 2025 lives under prahloud 2025/
+        # Legacy PRAHLOUD: 2025 lives under prahloud 2025/
         folder = Path(usb_base) / "prahloud 2025" / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
     else:
-        # Pre-2025: top-level 2024-03 (March)
+        # Legacy PRAHLOUD: pre-2025 top-level
         folder = Path(usb_base) / f"{year}-{month:02d} ({MONTH_NAMES[month]})"
 
     return folder
@@ -384,12 +400,13 @@ def sync_playlist(playlist, usb_base, dry_run=False, flat=False):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Sync PRAHLOUD archive to USB")
+    parser = argparse.ArgumentParser(description="Sync monthly archive playlists from YT Music")
     parser.add_argument("--months", nargs="*", help="Specific months to sync (e.g. 'March 26' 'Feb 26')")
     parser.add_argument("--dry", action="store_true", help="Preview only, don't download")
-    parser.add_argument("--usb", default=DEFAULT_USB, help=f"USB path (default: {DEFAULT_USB})")
+    parser.add_argument("--usb", default=None,
+                        help="Override target folder (default: V3 PYAAR.Radio/Monthlys)")
     parser.add_argument("--flat", action="store_true",
-                        help="Flat YYYY-MM (Month) layout for every year (V1/Monthlys convention)")
+                        help="Flat YYYY-MM (Month) layout for every year (V3 Monthlys convention)")
     args = parser.parse_args()
 
     if not INDEX_PATH.exists():
@@ -397,10 +414,23 @@ def main():
         print("Run sync_playlists.py first.")
         sys.exit(1)
 
-    usb_base = Path(args.usb)
+    if args.usb:
+        target = args.usb
+    else:
+        target = default_target()
+        if target is None:
+            print("V3 not mounted/configured. Set PYAAR_V3_ROOT env var, edit "
+                  "~/.config/pyaar-sync/drives.json, or pass --usb /path/to/target.")
+            sys.exit(1)
+
+    usb_base = Path(target)
     if not usb_base.exists():
-        print(f"USB not mounted: {usb_base}")
-        sys.exit(1)
+        # Create the V3 Monthlys folder if it doesn't yet exist (V3 is master)
+        try:
+            usb_base.mkdir(parents=True, exist_ok=True)
+        except Exception as e:
+            print(f"Target not accessible: {usb_base} ({e})")
+            sys.exit(1)
 
     playlists = get_archive_playlists(INDEX_PATH, args.months)
     if not playlists:
