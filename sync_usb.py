@@ -247,7 +247,12 @@ def copy_as_320(src, dest_folder, filename):
 
 
 def download_soulseek(queries):
-    """Run batch_grab.py for a list of queries. Returns set of new files."""
+    """Run batch_grab.py for a list of queries. Returns set of new files.
+
+    Soulseek can be slow for obscure tracks. If the batch times out or errors,
+    we keep going (yt-dlp fallback in sync_playlist handles whatever Soulseek
+    missed) — don't let a stuck search crash the whole sync.
+    """
     if not queries or not BATCH_GRAB.exists():
         return set()
 
@@ -259,7 +264,15 @@ def download_soulseek(queries):
 
     cmd = [sys.executable, "-u", str(BATCH_GRAB)] + queries
     print(f"  Soulseek: searching {len(queries)} tracks...")
-    subprocess.run(cmd, timeout=300, capture_output=True)
+    try:
+        subprocess.run(cmd, timeout=300, capture_output=True)
+    except subprocess.TimeoutExpired:
+        print("  Soulseek timed out — yt-dlp fallback will pick up the rest")
+        # Kill the stuck nicotine so it doesn't tie up resources
+        subprocess.run(["pkill", "-f", "nicotine"], capture_output=True)
+    except Exception as e:
+        print(f"  Soulseek failed: {e} — yt-dlp fallback will pick up the rest")
+        subprocess.run(["pkill", "-f", "nicotine"], capture_output=True)
 
     after = set(os.listdir(COMPLETE_DIR)) if COMPLETE_DIR.exists() else set()
     return after - before
