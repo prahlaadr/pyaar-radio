@@ -1,175 +1,775 @@
 {
- "updatedAt": "2026-05-15T17:56:39.336684+00:00",
+ "updatedAt": "2026-06-01T19:29:27.841065+00:00",
  "alerts": [
   {
    "id": 1,
-   "artist": "Action Bronson",
-   "title": "PLANET FROG",
-   "browseId": "MPREb_c67bbc4gzPD",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 2,
-   "artist": "Curren$y",
-   "title": "Roofless Records For Drop Tops: Disc 2",
-   "browseId": "MPREb_0WWVpiYzd2b",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 3,
-   "artist": "Tony Shhnow",
-   "title": "Flood",
-   "browseId": "MPREb_lMImEriTUKh",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 4,
-   "artist": "HOLLY",
-   "title": "ENIGMATH",
-   "browseId": "MPREb_K17dmchxhZS",
-   "year": "2025",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 5,
-   "artist": "Lone",
-   "title": "Hyperphantasia",
-   "browseId": "MPREb_vIhxuYn2Ouc",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 6,
    "artist": "Nia Archives",
    "title": "Emotional Junglist",
    "browseId": "MPREb_7ow4uzHBbHp",
    "year": "Upcoming Album",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
   },
   {
-   "id": 7,
-   "artist": "Vegyn",
-   "title": "Thank You for Almost Everything",
-   "browseId": "MPREb_sT9zYbv0Aw0",
+   "id": 59,
+   "artist": "BIA",
+   "title": "BIANCA (Extended)",
+   "browseId": "MPREb_7p1wZp2e8Vu",
    "year": "2025",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
   },
   {
-   "id": 8,
-   "artist": "Volor Flex",
-   "title": "Rec in a Pale Tiled Room",
-   "browseId": "MPREb_7TnWFHbVRXw",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 9,
-   "artist": "truant.",
-   "title": "FU",
-   "browseId": "MPREb_P1UboLqanzS",
-   "year": "2025",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 10,
-   "artist": "DJ Harrison",
-   "title": "'94 Flow",
-   "browseId": "MPREb_6JG7Ki2bU6T",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 11,
-   "artist": "Flying Lotus",
-   "title": "1983",
-   "browseId": "MPREb_PsZEGnjTLvO",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 12,
+   "id": 3,
    "artist": "Nitin Sawhney",
    "title": "Disneynature: Orangutan (Original Soundtrack)",
    "browseId": "MPREb_cnHD32Npyox",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
   },
   {
-   "id": 13,
+   "id": 4,
    "artist": "Pharrell",
    "title": "OPHANIM",
    "browseId": "MPREb_hXE69cZhYMV",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
   },
   {
-   "id": 14,
-   "artist": "Say She She",
-   "title": "PAWA!",
-   "browseId": "MPREb_ZEBVuSCHyM4",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 15,
-   "artist": "esta.",
-   "title": "IDEAS 001",
-   "browseId": "MPREb_suHJXlapHXE",
-   "year": "2026",
-   "type": "album",
-   "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
-  },
-  {
-   "id": 16,
-   "artist": "saie.",
-   "title": "Early Twenties Torture",
-   "browseId": "MPREb_yV9gKXzsDOI",
+   "id": 5,
+   "artist": "Olivia Dean",
+   "title": "The Art of Loving",
+   "browseId": "MPREb_nd1jk6JOu9E",
    "year": "2025",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
   },
   {
-   "id": 17,
-   "artist": "Sam Gendel",
-   "title": "UNRELATED",
-   "browseId": "MPREb_UT5Zkssg3YN",
+   "id": 6,
+   "artist": "Tom Misch",
+   "title": "Full Circle",
+   "browseId": "MPREb_VzsPFo1nIDc",
    "year": "2026",
    "type": "album",
    "status": "new",
-   "detectedAt": "2026-05-15T17:50:48.167519"
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 7,
+   "artist": "April + VISTA",
+   "title": "Traditional Noise",
+   "browseId": "MPREb_AZyeez8E7XO",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 8,
+   "artist": "Monopoly",
+   "title": "HAND 2 HAND",
+   "browseId": "MPREb_LItKL1am2dl",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 9,
+   "artist": "El Michels Affair",
+   "title": "24 Hr Sports",
+   "browseId": "MPREb_lTojEybqi1h",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 10,
+   "artist": "Baby Rose",
+   "title": "YEARNALISM",
+   "browseId": "MPREb_0GnvCEE7Xb2",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 11,
+   "artist": "Turnstile",
+   "title": "NEVER ENOUGH",
+   "browseId": "MPREb_tvb5MaBx1GT",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 12,
+   "artist": "Shafiq Husayn",
+   "title": "Au",
+   "browseId": "MPREb_bWZheju2bdY",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 13,
+   "artist": "GoldLink",
+   "title": "ENOCH",
+   "browseId": "MPREb_CCIAAT3GU54",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 14,
+   "artist": "bAs",
+   "title": "Melanchronica",
+   "browseId": "MPREb_nheMHVTTdQA",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 15,
+   "artist": "Chronixx",
+   "title": "Exile",
+   "browseId": "MPREb_dRYPw66xkym",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 16,
+   "artist": "Moonchild",
+   "title": "Waves",
+   "browseId": "MPREb_uQeCxcvlrIT",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 17,
+   "artist": "Skinshape",
+   "title": "Skinshape X Horus",
+   "browseId": "MPREb_1dD5Ih5gRL6",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 18,
+   "artist": "TEED",
+   "title": "Always With Me",
+   "browseId": "MPREb_b0x8uNRYDUm",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 19,
+   "artist": "Denzel Curry",
+   "title": "Strictly 4 The Scythe",
+   "browseId": "MPREb_Gk59QnMME2m",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 20,
+   "artist": "Terrace Martin",
+   "title": "PERSPECTIVE",
+   "browseId": "MPREb_pJpbsdVarY9",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 2,
+   "artist": "truant.",
+   "title": "Octo Fabulas vol. eleven",
+   "browseId": "MPREb_G9Ahk07j6PB",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 22,
+   "artist": "Clever Austin",
+   "title": "Hour Sessions",
+   "browseId": "MPREb_L8lJOcjPHex",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 23,
+   "artist": "Alfa Mist",
+   "title": "Roulette",
+   "browseId": "MPREb_SjZuMdl2VUb",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 24,
+   "artist": "Alex Isley",
+   "title": "When The City Sleeps",
+   "browseId": "MPREb_PZueTdMYS2O",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 25,
+   "artist": "Don Toliver",
+   "title": "OCTANE",
+   "browseId": "MPREb_0qKgjprFIXF",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 26,
+   "artist": "Raftaar",
+   "title": "Desi Hip-Hop Vibes",
+   "browseId": "MPREb_i5zxYjc4vhS",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 27,
+   "artist": "OAFF",
+   "title": "Lukkhe (Original Series Soundtrack)",
+   "browseId": "MPREb_0HBIaPb3IXk",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 28,
+   "artist": "Sonu Nigam",
+   "title": "Krishnavataram - Part 1: The Heart (Hridayam)",
+   "browseId": "MPREb_AkA0WYNkWuF",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 29,
+   "artist": "Vairamuthu",
+   "title": "Thamizhaatrupadai",
+   "browseId": "MPREb_LMGEcZU75LO",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 30,
+   "artist": "Karsh Kale",
+   "title": "Dust",
+   "browseId": "MPREb_xd3OKWcgPZj",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 31,
+   "artist": "Jacob Collier",
+   "title": "The Light For Days",
+   "browseId": "MPREb_u4Zr1iTBAq2",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 32,
+   "artist": "Santhosh Narayanan",
+   "title": "Soodhu Kavvum (Original Score)",
+   "browseId": "MPREb_vWKRA625KYs",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 33,
+   "artist": "Diljit Dosanjh",
+   "title": "Dance Vibes Only",
+   "browseId": "MPREb_M4dganwJ4nG",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 34,
+   "artist": "A.R. Rahman",
+   "title": "Most Played Telugu 90S Melodies",
+   "browseId": "MPREb_ZxQ1PmMfdRD",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 35,
+   "artist": "Plaqueboymax",
+   "title": "Too Much Music",
+   "browseId": "MPREb_wnWFyCahbgz",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 36,
+   "artist": "Gurinder Gill",
+   "title": "House Navior",
+   "browseId": "MPREb_p0FG8u8Eu2P",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 37,
+   "artist": "Garden City Movement",
+   "title": "RE: MIXES 2014-2025",
+   "browseId": "MPREb_nUeXmbrefta",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 38,
+   "artist": "Tourist",
+   "title": "Music Is Invisible",
+   "browseId": "MPREb_RADomxLITah",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 39,
+   "artist": "Chris Lake",
+   "title": "Chemistry",
+   "browseId": "MPREb_YAUGEBoLeEX",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 40,
+   "artist": "Diplo",
+   "title": "d00mscrvll",
+   "browseId": "MPREb_zuixohtCPos",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 41,
+   "artist": "Miguel",
+   "title": "CAOS",
+   "browseId": "MPREb_oAX6B9jCiAS",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 42,
+   "artist": "Burna Boy",
+   "title": "No Sign of Weakness",
+   "browseId": "MPREb_LcOAD9QmwBA",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 43,
+   "artist": "21 Savage",
+   "title": "WHAT HAPPENED TO THE STREETS?",
+   "browseId": "MPREb_2ZS8sKbQDwK",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 44,
+   "artist": "Metro Boomin",
+   "title": "Metro Boomin Presents: A Futuristic Summa (Hosted by DJ Spinz)",
+   "browseId": "MPREb_6itqyO6b8MD",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 45,
+   "artist": "Dave",
+   "title": "The Boy Who Played the Harp",
+   "browseId": "MPREb_HY0tY44STvm",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 46,
+   "artist": "Drake",
+   "title": "ICEMAN",
+   "browseId": "MPREb_LjIW4hKEFIk",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 47,
+   "artist": "SAINt JHN",
+   "title": "FESTIVAL SEASON",
+   "browseId": "MPREb_zYZuEPLSQCF",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 48,
+   "artist": "Amaarae",
+   "title": "BLACK STAR",
+   "browseId": "MPREb_K6KlABOA4I1",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 49,
+   "artist": "Ilaiyaraaja",
+   "title": "Ilaiyaraaja's Symphony Number 1 - Valiant",
+   "browseId": "MPREb_PB1OGiqdGrk",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 50,
+   "artist": "S. P. Balasubrahmanyam",
+   "title": "SPB Musical Treasure",
+   "browseId": "MPREb_tljEUx5HDns",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 51,
+   "artist": "S. Janaki",
+   "title": "S. Janaki Voice of Nostalgia",
+   "browseId": "MPREb_VYHTemYKElw",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 52,
+   "artist": "Tems",
+   "title": "Love Is A Kingdom",
+   "browseId": "MPREb_PAYaQWbzA2X",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 53,
+   "artist": "Asake",
+   "title": "M$NEY",
+   "browseId": "MPREb_guNKQDlsOFB",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 54,
+   "artist": "Kenny Mason",
+   "title": "BULLDAWG",
+   "browseId": "MPREb_eHaTqZdzaz4",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 55,
+   "artist": "WondaGurl",
+   "title": "BABA YAGA 2",
+   "browseId": "MPREb_t1ECEFWwn3S",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 56,
+   "artist": "Thom Yorke",
+   "title": "Tall Tales",
+   "browseId": "MPREb_noJU2gNZFQM",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 57,
+   "artist": "Chris Brown",
+   "title": "BROWN",
+   "browseId": "MPREb_VIpr7SE9HoE",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 58,
+   "artist": "André 3000",
+   "title": "7 piano sketches",
+   "browseId": "MPREb_U88X5vLx2dT",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 77,
+   "artist": "Lil Baby",
+   "title": "The Leaks",
+   "browseId": "MPREb_CXBhQ2pDEaF",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 60,
+   "artist": "Kid Cudi",
+   "title": "Free",
+   "browseId": "MPREb_pfGOlmFT7ex",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 61,
+   "artist": "Michael Jackson",
+   "title": "Michael: Songs From The Motion Picture",
+   "browseId": "MPREb_CUHbeoILHvg",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 62,
+   "artist": "2 Chainz",
+   "title": "Red Clay (Official Motion Picture Soundtrack)",
+   "browseId": "MPREb_pK3E6g4ZGqB",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 63,
+   "artist": "Doja Cat",
+   "title": "Vie",
+   "browseId": "MPREb_LMImgI8Z7HQ",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 64,
+   "artist": "Rico Nasty",
+   "title": "LETHAL-ER",
+   "browseId": "MPREb_KqIuD8LXGgL",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 65,
+   "artist": "The Weeknd",
+   "title": "Hurry Up Tomorrow",
+   "browseId": "MPREb_YWjvGjCFaW6",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 66,
+   "artist": "Sexyy Red",
+   "title": "Yo Favorite Trappa Favorite Rappa (Hosted by DJ Holiday)",
+   "browseId": "MPREb_Hs2nrO8ISJS",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 67,
+   "artist": "DJ Drama",
+   "title": "Gangsta Grillz: E.M.N.T - The Credits",
+   "browseId": "MPREb_PhXo1avTlN9",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 68,
+   "artist": "Anycia",
+   "title": "Grady Baby",
+   "browseId": "MPREb_r39HooEYnSX",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 69,
+   "artist": "KEY!",
+   "title": "Epiphany Man",
+   "browseId": "MPREb_Lavf8m7rnJB",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 70,
+   "artist": "Offset",
+   "title": "HAUNTED BY FAME",
+   "browseId": "MPREb_rpl7wEJgtqW",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 71,
+   "artist": "Swae Lee",
+   "title": "SAME DIFFERENCE",
+   "browseId": "MPREb_NqQH2TynOrf",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 72,
+   "artist": "Peso Pluma",
+   "title": "DINASTÍA (DELUXE)",
+   "browseId": "MPREb_wEs2Tm1DMoJ",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 73,
+   "artist": "Junior H",
+   "title": "DEPR</3$$ED MFKZ",
+   "browseId": "MPREb_iYzFo7Jmvjw",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 74,
+   "artist": "ROSALÍA",
+   "title": "LUX (Complete Works)",
+   "browseId": "MPREb_ZU3au63U3gn",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 75,
+   "artist": "Maluma",
+   "title": "Loco X Volver",
+   "browseId": "MPREb_lfZ9BtnugbJ",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 76,
+   "artist": "Kali Uchis",
+   "title": "Sincerely: P.S.",
+   "browseId": "MPREb_QSj7Bl9Tw8w",
+   "year": "2025",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
+  },
+  {
+   "id": 21,
+   "artist": "Juicy J",
+   "title": "The Trippy Tapes Vol. 1",
+   "browseId": "MPREb_1hIxXpOuVdP",
+   "year": "2026",
+   "type": "album",
+   "status": "new",
+   "detectedAt": "2026-06-01T19:18:54.343657"
   }
  ]
 }
