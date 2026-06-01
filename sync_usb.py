@@ -263,11 +263,14 @@ def download_soulseek(queries):
     import time; time.sleep(2)
 
     cmd = [sys.executable, "-u", str(BATCH_GRAB)] + queries
-    print(f"  Soulseek: searching {len(queries)} tracks...")
+    print(f"  Soulseek: searching {len(queries)} tracks (60s timeout)...")
     try:
-        subprocess.run(cmd, timeout=300, capture_output=True)
+        # 60s is a deliberate small budget — we'd rather give up on Soulseek
+        # quickly and let yt-dlp handle it than block the whole sync. Use
+        # --no-soulseek (or PYAAR_NO_SOULSEEK=1) to skip Soulseek entirely.
+        subprocess.run(cmd, timeout=60, capture_output=True)
     except subprocess.TimeoutExpired:
-        print("  Soulseek timed out — yt-dlp fallback will pick up the rest")
+        print("  Soulseek timed out (>60s) — yt-dlp fallback will pick up the rest")
         # Kill the stuck nicotine so it doesn't tie up resources
         subprocess.run(["pkill", "-f", "nicotine"], capture_output=True)
     except Exception as e:
