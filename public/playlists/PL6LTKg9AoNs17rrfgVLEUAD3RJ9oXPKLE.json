@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs17rrfgVLEUAD3RJ9oXPKLE",
  "title": "suddenly jersey ",
  "trackCount": 46,
- "syncedAt": "2026-06-01T16:33:51.852149Z",
+ "syncedAt": "2026-06-01T17:47:15.537105Z",
  "tracks": [
   {
    "title": "Odyssey \"JerseyClub\"",
@@ -20,8 +20,8 @@
   },
   {
    "title": "PlaqueBoyMax",
-   "artist": "Fivio Foreign - Topic",
-   "album": "",
+   "artist": "Fivio Foreign",
+   "album": "PlaqueBoyMax",
    "videoId": "tpcQsCGkY4g",
    "duration": "1:54"
   },
@@ -69,8 +69,8 @@
   },
   {
    "title": "GO DO IT #jerseyclub (DJ Sliink Remix)",
-   "artist": "Ziahfyah - Topic",
-   "album": "",
+   "artist": "Ziahfyah;sjmadeit;DJ Sliink",
+   "album": "GO DO IT #jerseyclub (DJ Sliink Remix)",
    "videoId": "nqTJSCcqOPE",
    "duration": "2:36"
   },
@@ -90,22 +90,22 @@
   },
   {
    "title": "STAND ON BIZZNESS",
-   "artist": "Jiddy - Topic",
-   "album": "",
+   "artist": "JIDDY",
+   "album": "SPRING MADNEZZ",
    "videoId": "jkji1wrlXiA",
    "duration": "1:27"
   },
   {
-   "title": "Promiscuous",
-   "artist": "Nelly Furtado - Topic",
-   "album": "",
+   "title": "Promiscuous (feat. Timbaland)",
+   "artist": "Nelly Furtado",
+   "album": "Loose",
    "videoId": "BO7FQnegW1o",
    "duration": "4:03"
   },
   {
    "title": "Billie Jean",
-   "artist": "Michael Jackson - Topic",
-   "album": "",
+   "artist": "Michael Jackson",
+   "album": "Thriller",
    "videoId": "Kr4EQDVETuA",
    "duration": "4:55"
   },
@@ -146,8 +146,8 @@
   },
   {
    "title": "22 #zessbounce",
-   "artist": "Salako - Topic",
-   "album": "",
+   "artist": "Salako",
+   "album": "22 #zessbounce",
    "videoId": "1UDdLD8tSH8",
    "duration": "1:47"
   },
@@ -174,22 +174,22 @@
   },
   {
    "title": "Music Sounds Better With Funk (Slowed + Reverb)",
-   "artist": "DJ SoulChild AC - Topic",
-   "album": "",
+   "artist": "DJ SoulChild AC",
+   "album": "Music Sounds Better With Funk",
    "videoId": "zynBVkDmt5g",
    "duration": "3:04"
   },
   {
    "title": "TELL ME IF YOU STILL CARE (Jersey Club)",
-   "artist": "DJ SoulChild AC - Topic",
-   "album": "",
+   "artist": "DJ SoulChild AC",
+   "album": "Ocean One, Vol. 3 (A Jersey Club Mixtape)",
    "videoId": "mmOKrumF4x0",
    "duration": "2:35"
   },
   {
    "title": "Now you Know",
-   "artist": "Genshin - Topic",
-   "album": "",
+   "artist": "Genshin",
+   "album": "Now you Know",
    "videoId": "js95tiGeexg",
    "duration": "2:02"
   },
@@ -223,8 +223,8 @@
   },
   {
    "title": "Shiki No Uta (Knight Jersey Club Mix)",
-   "artist": "KnightTheProducer! - Topic",
-   "album": "",
+   "artist": "KnightTheProducer!",
+   "album": "Shiki No Uta (Knight Jersey Club Mix)",
    "videoId": "2B2pQV3Kkwk",
    "duration": "3:13"
   },

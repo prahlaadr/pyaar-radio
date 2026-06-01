@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1nSn53_C5w6O4TT9NaZMd2",
  "title": "Charcoal (goated)",
  "trackCount": 307,
- "syncedAt": "2026-06-01T16:33:51.852149Z",
+ "syncedAt": "2026-06-01T17:47:15.537105Z",
  "tracks": [
   {
    "title": "Muchh",
@@ -41,8 +41,8 @@
   },
   {
    "title": "Jind Kadh Ke",
-   "artist": "Beat Smuggler - Topic",
-   "album": "",
+   "artist": "Beat Smuggler;Kuldeep Manak;K.S. Narula",
+   "album": "Jind Kadh Ke",
    "videoId": "XfHyS_oB8YU",
    "duration": "2:54"
   },
@@ -209,8 +209,8 @@
   },
   {
    "title": "DIL DOOBA",
-   "artist": "Sonu Nigam - Topic",
-   "album": "",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;RAM SAMPATH;SAMEER",
+   "album": "KHAKEE",
    "videoId": "eG-cS13QWmM",
    "duration": "3:50"
   },
@@ -286,8 +286,8 @@
   },
   {
    "title": "MEHBOOBA",
-   "artist": "Amitabh Bachchan - Topic",
-   "album": "",
+   "artist": "AMITABH BACHCHAN;SUNIDHI CHAUHAN;SUKHWINDER SINGH;GANESH HEGDE",
+   "album": "RAM GOPAL VERMA KI AAG",
    "videoId": "UkGRxBaRDNI",
    "duration": "6:12"
   },
@@ -300,8 +300,8 @@
   },
   {
    "title": "Kambakth Ishq (Remix Version)",
-   "artist": "Asha Bhosle - Topic",
-   "album": "",
+   "artist": "Asha Bhosle;Sukhwinder Singh;Sonu Nigam",
+   "album": "Pyaar Tune Kya Kiya (Original Motion Picture Soundtrack)",
    "videoId": "lLLZz0PJT-s",
    "duration": "3:52"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "Right Here Right Now",
-   "artist": "Abhishek Bachchan - Topic",
-   "album": "",
+   "artist": "Abhishek Bachchan, Sunidhi Chauhan",
+   "album": "Bluff Master",
    "videoId": "vnEqhR4l3Kk",
    "duration": "3:03"
   },
@@ -412,8 +412,8 @@
   },
   {
    "title": "Chori Chori (original version)",
-   "artist": "Aneela - Topic",
-   "album": "",
+   "artist": "Aneela",
+   "album": "Mahi",
    "videoId": "Hg1k1Ukg2wo",
    "duration": "2:50"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "REHJA RE",
-   "artist": "Vishal - Shekhar - Topic",
-   "album": "",
+   "artist": "VISHAL-SHEKHAR;JAVED ALI;SUNIDHI CHAUHAN",
+   "album": "GOLMAAL FUN UNLIMITED",
    "videoId": "849W3wFO0k4",
    "duration": "5:07"
   },
@@ -657,15 +657,15 @@
   },
   {
    "title": "Rola Pe Gaya",
-   "artist": "Mahalaxmi - Topic",
-   "album": "",
+   "artist": "Mahalakshmi Iyer | Hard Kaur | Shankar Mahadevan | Earl | Master Saleem",
+   "album": "Patiala House",
    "videoId": "PvucTPeyw4s",
    "duration": "4:29"
   },
   {
    "title": "Koi Kahe Kehta Rahe",
-   "artist": "Shankar Mahadevan - Topic",
-   "album": "",
+   "artist": "Shankar Mahadevan;Shaan;K.K.",
+   "album": "Dil Chahta Hai",
    "videoId": "qR8FtO0o6Fg",
    "duration": "5:47"
   },
@@ -678,8 +678,8 @@
   },
   {
    "title": "AYE BACHCHU",
-   "artist": "Suzanne D'Mello - Topic",
-   "album": "",
+   "artist": "SUZANNE, A.R. RAHMAN, & PRASOON JOSHI",
+   "album": "GHAJINI",
    "videoId": "8-q-UHbTGGE",
    "duration": "3:48"
   },

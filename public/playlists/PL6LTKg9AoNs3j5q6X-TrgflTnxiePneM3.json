@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3j5q6X-TrgflTnxiePneM3",
  "title": "Cole Bennett - Lyrical Lemonade",
  "trackCount": 435,
- "syncedAt": "2026-06-01T16:33:51.852149Z",
+ "syncedAt": "2026-06-01T17:47:15.537105Z",
  "tracks": [
   {
    "title": "Gucci Chanel",
@@ -2155,8 +2155,8 @@
   },
   {
    "title": "Flex (feat. JB Scofield)",
-   "artist": "JAY1 - Topic",
-   "album": "",
+   "artist": "JAY1",
+   "album": "Flex",
    "videoId": "8qepoqi2oD8",
    "duration": "3:05"
   },
@@ -2197,8 +2197,8 @@
   },
   {
    "title": "Thief In The Night",
-   "artist": "Rod Wave - Topic",
-   "album": "",
+   "artist": "Rod Wave",
+   "album": "Thief In The Night",
    "videoId": "E6msZnThcJI",
    "duration": "2:13"
   },
@@ -2224,9 +2224,9 @@
    "duration": "2:52"
   },
   {
-   "title": "Suicidal (feat. Juice WRLD) (Remix)",
-   "artist": "YNW Melly - Topic",
-   "album": "",
+   "title": "Suicidal [Remix] (feat. Juice WRLD)",
+   "artist": "YNW Melly",
+   "album": "Suicidal (Remix)",
    "videoId": "nxFLghOTaxE",
    "duration": "3:46"
   },
@@ -2252,9 +2252,9 @@
    "duration": "4:30"
   },
   {
-   "title": "Rain",
-   "artist": "Aitch - Topic",
-   "album": "",
+   "title": "Rain (feat. Tay Keith)",
+   "artist": "Aitch;AJ Tracey",
+   "album": "Rain",
    "videoId": "GIdEHNTdeHk",
    "duration": "3:04"
   },
@@ -2309,8 +2309,8 @@
   },
   {
    "title": "FLUID",
-   "artist": "Bäri - Topic",
-   "album": "",
+   "artist": "Bari",
+   "album": "MSTRGLSS",
    "videoId": "hUNCXW43nIQ",
    "duration": "3:35"
   },
@@ -2372,8 +2372,8 @@
   },
   {
    "title": "ANOTHA ONE",
-   "artist": "YXNG K.A - Topic",
-   "album": "",
+   "artist": "YXNG K.A;jetsonmade",
+   "album": "BABY REAPER EP",
    "videoId": "VaoRpnXGzB4",
    "duration": "1:52"
   },
@@ -2400,8 +2400,8 @@
   },
   {
    "title": "AUNT JEMIMA",
-   "artist": "ET - Topic",
-   "album": "",
+   "artist": "ET",
+   "album": "IF MY SINS COULD TALK",
    "videoId": "IU7r_o24-nM",
    "duration": "2:24"
   },
@@ -2449,8 +2449,8 @@
   },
   {
    "title": "ANOTHA ONE",
-   "artist": "YXNG K.A - Topic",
-   "album": "",
+   "artist": "YXNG K.A;jetsonmade",
+   "album": "BABY REAPER EP",
    "videoId": "VaoRpnXGzB4",
    "duration": "1:52"
   },
@@ -2470,8 +2470,8 @@
   },
   {
    "title": "Bad Ass Jit",
-   "artist": "Dee Watkins - Topic",
-   "album": "",
+   "artist": "Dee Watkins",
+   "album": "Bad Ass Jit",
    "videoId": "oXVsUzrrM1Y",
    "duration": "3:01"
   },
@@ -2484,8 +2484,8 @@
   },
   {
    "title": "Hell Raiser",
-   "artist": "Dee Watkins - Topic",
-   "album": "",
+   "artist": "Dee Watkins",
+   "album": "Problem Child",
    "videoId": "mSrk4OAwfEw",
    "duration": "2:35"
   },
@@ -2526,8 +2526,8 @@
   },
   {
    "title": "Cookies",
-   "artist": "GERM - Topic",
-   "album": "",
+   "artist": "Germ",
+   "album": "The Hijinx Tape",
    "videoId": "NU-85hx4ojQ",
    "duration": "2:09"
   },
@@ -2582,15 +2582,15 @@
   },
   {
    "title": "Never",
-   "artist": "Young Nudy - Topic",
-   "album": "",
+   "artist": "Young Nudy",
+   "album": "Never",
    "videoId": "aJzXmACLM5c",
    "duration": "4:33"
   },
   {
    "title": "Motion",
-   "artist": "wifisfuneral - Topic",
-   "album": "",
+   "artist": "Wifisfuneral",
+   "album": "PAIN?",
    "videoId": "5qwqYs0sDfg",
    "duration": "2:28"
   },
@@ -2651,16 +2651,16 @@
    "duration": "3:44"
   },
   {
-   "title": "Crash Out",
-   "artist": "Blac Youngsta - Topic",
-   "album": "",
+   "title": "Crash Out (feat. Stunna 4 Vegas)",
+   "artist": "Blac Youngsta",
+   "album": "F*ck Everybody 3",
    "videoId": "jMIsVGimvCE",
    "duration": "3:10"
   },
   {
    "title": "Tony Montana",
-   "artist": "Dj K.I.D and DDG - Topic",
-   "album": "",
+   "artist": "Dj K.I.D;DDG",
+   "album": "Tony Montana",
    "videoId": "ba3ZVz74IH4",
    "duration": "2:14"
   },
@@ -2687,8 +2687,8 @@
   },
   {
    "title": "Bad Boy",
-   "artist": "Juice WRLD - Topic",
-   "album": "",
+   "artist": "Juice WRLD;Young Thug",
+   "album": "Bad Boy",
    "videoId": "EguuU7IrVTA",
    "duration": "2:38"
   },
@@ -2729,8 +2729,8 @@
   },
   {
    "title": "Dancing on Ice (feat. Nafe Smallz & M Huncho)",
-   "artist": "Yxng Bane - Topic",
-   "album": "",
+   "artist": "Yxng Bane",
+   "album": "Dancing On Ice",
    "videoId": "C1NM9zLhWOw",
    "duration": "2:44"
   },
@@ -2757,8 +2757,8 @@
   },
   {
    "title": "RACE IT",
-   "artist": "Elias Burbick - Topic",
-   "album": "",
+   "artist": "Elias Burbick",
+   "album": "RACE IT",
    "videoId": "V8lDTavdkRQ",
    "duration": "2:38"
   },
@@ -2771,8 +2771,8 @@
   },
   {
    "title": "Blicks",
-   "artist": "Warhol.SS - Topic",
-   "album": "",
+   "artist": "Warhol.SS;Gnealz",
+   "album": "Blicks",
    "videoId": "lSfEhigkdOE",
    "duration": "2:32"
   },
@@ -2798,9 +2798,9 @@
    "duration": "2:34"
   },
   {
-   "title": "Company",
-   "artist": "24kGoldn - Topic",
-   "album": "",
+   "title": "Company (feat. Future)",
+   "artist": "24kGoldn",
+   "album": "El Dorado",
    "videoId": "LFggaI_Li4E",
    "duration": "3:34"
   },

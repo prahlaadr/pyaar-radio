@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-06-01T16:33:51.852149Z",
+ "syncedAt": "2026-06-01T17:47:15.537105Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -69,8 +69,8 @@
   },
   {
    "title": "One More Time",
-   "artist": "Daft Punk - Topic",
-   "album": "",
+   "artist": "Daft Punk",
+   "album": "Discovery",
    "videoId": "fa5IWHDbftI",
    "duration": "5:21"
   },
@@ -139,8 +139,8 @@
   },
   {
    "title": "When We Fall",
-   "artist": "Grouper - Topic",
-   "album": "",
+   "artist": "Grouper",
+   "album": "Dragging a Dead Deer Up a Hill",
    "videoId": "LqQdiRY9yeU",
    "duration": "2:08"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "Gorgon Sound",
-   "artist": "Horsepower Productions - Topic",
-   "album": "",
+   "artist": "Horsepower Productions",
+   "album": "In Fine Style",
    "videoId": "3_HfPJuyoSk",
    "duration": "4:14"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "Eternal Blue (Wata Igarashi Crossing Remix)",
-   "artist": "Aurora Halal - Topic",
-   "album": "",
+   "artist": "Aurora Halal",
+   "album": "Liquiddity",
    "videoId": "TjNNaCKpsoo",
    "duration": "7:42"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "Together",
-   "artist": "Ruff Sqwad - Topic",
-   "album": "",
+   "artist": "Ruff Sqwad",
+   "album": "White Label Classics",
    "videoId": "69reF45Ok_I",
    "duration": "3:43"
   },
@@ -377,8 +377,8 @@
   },
   {
    "title": "Splinter",
-   "artist": "British Murder Boys - Topic",
-   "album": "",
+   "artist": "British Murder Boys;Regis;Surgeon",
+   "album": "Recordings",
    "videoId": "v-mDWOLsgtw",
    "duration": "6:47"
   },
@@ -412,8 +412,8 @@
   },
   {
    "title": "Oro y Sangre",
-   "artist": "John Talabot - Topic",
-   "album": "",
+   "artist": "John Talabot",
+   "album": "Fin",
    "videoId": "JTcp37q6i5Q",
    "duration": "4:54"
   },
@@ -573,15 +573,15 @@
   },
   {
    "title": "Toda la Noche Beat",
-   "artist": "Luny Tunes - Topic",
-   "album": "",
+   "artist": "Luny Tunes",
+   "album": "The Kings Of The Beat Vol.2",
    "videoId": "NDs0XVtDkRQ",
    "duration": "3:32"
   },
   {
    "title": "Two Weeks",
-   "artist": "FKA twigs - Topic",
-   "album": "",
+   "artist": "FKA twigs",
+   "album": "LP1",
    "videoId": "W0Q72E2tb18",
    "duration": "4:08"
   },
@@ -629,8 +629,8 @@
   },
   {
    "title": "A4 - Childishly fresh eyes",
-   "artist": "The Caretaker - Topic",
-   "album": "",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
    "videoId": "eferNVXDAbE",
    "duration": "2:59"
   },
