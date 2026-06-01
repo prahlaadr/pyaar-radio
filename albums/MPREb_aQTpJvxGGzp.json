@@ -1,0 +1,40 @@
+{
+ "title": "Footsteps",
+ "artist": "ROHO",
+ "year": "2023",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Biking",
+   "artist": "ROHO",
+   "videoId": "98bJhuOhQiw",
+   "duration": "2:11"
+  },
+  {
+   "title": "Clockwork",
+   "artist": "ROHO",
+   "videoId": "8kIwvuUMHds",
+   "duration": "2:56"
+  },
+  {
+   "title": "Pitch Bent",
+   "artist": "ROHO",
+   "videoId": "eEFmVI_zlto",
+   "duration": "2:44"
+  },
+  {
+   "title": "Dream One",
+   "artist": "ROHO",
+   "videoId": "oY5c8DjzSHE",
+   "duration": "1:50"
+  },
+  {
+   "title": "Sky Blu",
+   "artist": "ROHO",
+   "videoId": "MvyClLV0rtU",
+   "duration": "2:14"
+  }
+ ],
+ "browseId": "MPREb_aQTpJvxGGzp",
+ "syncedAt": "2026-06-01T16:33:48.486141Z"
+}

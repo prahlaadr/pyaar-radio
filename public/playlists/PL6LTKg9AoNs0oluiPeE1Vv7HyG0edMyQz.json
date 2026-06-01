@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0oluiPeE1Vv7HyG0edMyQz",
  "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
  "trackCount": 469,
- "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "syncedAt": "2026-06-01T16:33:51.852149Z",
  "tracks": [
   {
    "title": "All The Stars (From \"Black Panther: The Album\")",
@@ -776,8 +776,8 @@
   },
   {
    "title": "Haven't Met You Yet",
-   "artist": "Michael Bublé",
-   "album": "Crazy Love",
+   "artist": "Michael Bublé - Topic",
+   "album": "",
    "videoId": "zS-_wGmn8jk",
    "duration": "4:05"
   },
@@ -958,8 +958,8 @@
   },
   {
    "title": "Daughters",
-   "artist": "John Mayer",
-   "album": "Heavier Things",
+   "artist": "John Mayer - Topic",
+   "album": "",
    "videoId": "4ZiEmUjeEoA",
    "duration": "3:58"
   },
@@ -1007,8 +1007,8 @@
   },
   {
    "title": "Candyman",
-   "artist": "Christina Aguilera",
-   "album": "Back To Basics",
+   "artist": "Christina Aguilera - Topic",
+   "album": "",
    "videoId": "8vfY1Y369OE",
    "duration": "3:15"
   },
@@ -1084,8 +1084,8 @@
   },
   {
    "title": "Ironic",
-   "artist": "Alanis Morissette",
-   "album": "The Collection",
+   "artist": "Alanis Morissette - Topic",
+   "album": "",
    "videoId": "H4bIXVTsJck",
    "duration": "3:49"
   },
@@ -1147,8 +1147,8 @@
   },
   {
    "title": "Swimming Pools (Drank) (Extended Version)",
-   "artist": "Kendrick Lamar",
-   "album": "good kid, m.A.A.d. city",
+   "artist": "Kendrick Lamar - Topic",
+   "album": "",
    "videoId": "cn1ShyT_tJY",
    "duration": "5:14"
   },
@@ -1161,8 +1161,8 @@
   },
   {
    "title": "Harmony Hall",
-   "artist": "Vampire Weekend",
-   "album": "Father of the Bride",
+   "artist": "Vampire Weekend - Topic",
+   "album": "",
    "videoId": "0_BWvLB3UFk",
    "duration": "5:09"
   },
@@ -1203,8 +1203,8 @@
   },
   {
    "title": "Make Me Feel",
-   "artist": "Janelle Monáe",
-   "album": "Dirty Computer",
+   "artist": "Janelle Monáe - Topic",
+   "album": "",
    "videoId": "18k1LJX4DjA",
    "duration": "3:15"
   },
@@ -1224,8 +1224,8 @@
   },
   {
    "title": "You Raise Me Up",
-   "artist": "Josh Groban",
-   "album": "Closer",
+   "artist": "Josh Groban - Topic",
+   "album": "",
    "videoId": "6lHV_aSVGa0",
    "duration": "4:53"
   },
@@ -1308,15 +1308,15 @@
   },
   {
    "title": "Where Are You Going",
-   "artist": "Dave Matthews Band",
-   "album": "Busted Stuff",
+   "artist": "Dave Matthews Band - Topic",
+   "album": "",
    "videoId": "9rcZazRHCD0",
    "duration": "3:52"
   },
   {
    "title": "Soul Meets Body",
-   "artist": "Death Cab for Cutie",
-   "album": "Plans",
+   "artist": "Death Cab For Cutie - Topic",
+   "album": "",
    "videoId": "TLccmc_69uI",
    "duration": "3:51"
   },

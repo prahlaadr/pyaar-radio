@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
  "title": "Intros/Interludes/Loops/Waves/Fillers",
- "trackCount": 17,
- "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "trackCount": 18,
+ "syncedAt": "2026-06-01T16:33:51.852149Z",
  "tracks": [
   {
    "title": "Out of Your Mind (Interlude)",
@@ -122,6 +122,13 @@
    "album": "Flamagra",
    "videoId": "WRYenycZfz4",
    "duration": "1:16"
+  },
+  {
+   "title": "Exquisite Portraiture",
+   "artist": "Arushi Jain",
+   "album": "Delight",
+   "videoId": "Oc1WSvT6Sgo",
+   "duration": "4:28"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
  "title": "SNAPS & DRUMS",
  "trackCount": 244,
- "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "syncedAt": "2026-06-01T16:33:51.852149Z",
  "tracks": [
   {
    "title": "Big Mouth",
@@ -1419,9 +1419,9 @@
    "duration": "3:29"
   },
   {
-   "title": "Zip It Up (feat. Giggs & Trigga)",
-   "artist": "Wiley",
-   "album": "Race Against Time",
+   "title": "Zip It Up",
+   "artist": "Wiley - Topic",
+   "album": "",
    "videoId": "4DQ6gD-dJBw",
    "duration": "3:30"
   },
@@ -1476,8 +1476,8 @@
   },
   {
    "title": "Anything at All",
-   "artist": "Homeshake",
-   "album": "Helium",
+   "artist": "Homeshake - Topic",
+   "album": "",
    "videoId": "KpwWgwe869g",
    "duration": "3:02"
   },
@@ -1566,9 +1566,9 @@
    "duration": "5:31"
   },
   {
-   "title": "Ghetto Defendant",
-   "artist": "The Clash",
-   "album": "Hits Back",
+   "title": "Ghetto Defendant (Remastered)",
+   "artist": "The Clash - Topic",
+   "album": "",
    "videoId": "7q5kzU9_l30",
    "duration": "4:43"
   },
@@ -1581,8 +1581,8 @@
   },
   {
    "title": "Forrest Gump",
-   "artist": "Frank Ocean",
-   "album": "channel ORANGE",
+   "artist": "Frank Ocean - Topic",
+   "album": "",
    "videoId": "BqSro-8_gpU",
    "duration": "3:15"
   },
@@ -1595,8 +1595,8 @@
   },
   {
    "title": "No Reply",
-   "artist": "Tame Impala",
-   "album": "Deadbeat",
+   "artist": "Tame Impala - Topic",
+   "album": "",
    "videoId": "cQEiKXfD1II",
    "duration": "3:36"
   },
@@ -1609,8 +1609,8 @@
   },
   {
    "title": "Ackee",
-   "artist": "SadBoi",
-   "album": "BARE CHAT",
+   "artist": "Ebhoni - Topic",
+   "album": "",
    "videoId": "UTqfqn4n3cU",
    "duration": "2:19"
   },
@@ -1665,8 +1665,8 @@
   },
   {
    "title": "Blue Suede",
-   "artist": "Vince Staples",
-   "album": "Hell Can Wait",
+   "artist": "Vince Staples - Topic",
+   "album": "",
    "videoId": "ZDLRLKzVD5E",
    "duration": "3:39"
   },
@@ -1685,9 +1685,9 @@
    "duration": "4:05"
   },
   {
-   "title": "Fergalicious (feat. will.i.am)",
-   "artist": "Fergie",
-   "album": "The Dutchess",
+   "title": "Fergalicious",
+   "artist": "Fergie - Topic",
+   "album": "",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"
   },
@@ -1700,15 +1700,15 @@
   },
   {
    "title": "SweetFaceKillah",
-   "artist": "Infinite Coles",
-   "album": "SweetFaceKillah",
+   "artist": "Infinite Coles - Topic",
+   "album": "",
    "videoId": "Uz20CLfFKtY",
    "duration": "2:17"
   },
   {
-   "title": "Run The Show (feat. Busta Rhymes)",
-   "artist": "Kat DeLuna",
-   "album": "9 Lives",
+   "title": "Run The Show",
+   "artist": "Kat Deluna - Topic",
+   "album": "",
    "videoId": "oaaqfPXDuA4",
    "duration": "3:34"
   }

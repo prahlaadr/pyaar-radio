@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1441,
- "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "trackCount": 1442,
+ "syncedAt": "2026-06-01T16:33:51.852149Z",
  "tracks": [
+  {
+   "title": "More Than a Feeling",
+   "artist": "Boston",
+   "album": "Boston",
+   "videoId": "ufQUxoidxkM",
+   "duration": "4:46"
+  },
   {
    "title": "Leave (Get Out)",
    "artist": "JoJo",

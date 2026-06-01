@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs03sfaMRMheWRwosA39w5hD",
  "title": "PRODUCED BY KENNY BEATS",
  "trackCount": 305,
- "syncedAt": "2026-05-31T10:17:44.171251Z",
+ "syncedAt": "2026-06-01T16:33:51.852149Z",
  "tracks": [
   {
    "title": "Taxes",
@@ -26,9 +26,9 @@
    "duration": "2:26"
   },
   {
-   "title": "POP POP POP (feat. Danny Brown)",
-   "artist": "IDLES",
-   "album": "POP POP POP",
+   "title": "POP POP POP",
+   "artist": "IDLES - Topic",
+   "album": "",
    "videoId": "Len0tYINbEQ",
    "duration": "3:21"
   },
@@ -146,8 +146,8 @@
   },
   {
    "title": "Simple Love Songs",
-   "artist": "Benny Sings",
-   "album": "Simple Love Songs - Extended Version",
+   "artist": "Benny Sings - Topic",
+   "album": "",
    "videoId": "HyFlUW2YEvQ",
    "duration": "1:52"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "The World",
-   "artist": "Benny Sings",
-   "album": "The World",
+   "artist": "Benny Sings - Topic",
+   "album": "",
    "videoId": "uhVFNBzm-l0",
    "duration": "3:07"
   },
@@ -201,9 +201,9 @@
    "duration": "2:54"
   },
   {
-   "title": "ill (feat. Kenny Beats)",
-   "artist": "Alexander 23",
-   "album": "ill",
+   "title": "ill",
+   "artist": "Alexander 23 - Topic",
+   "album": "",
    "videoId": "d_3t4cehJ8s",
    "duration": "3:22"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "Parenthesis",
-   "artist": "Kenny Beats",
-   "album": "LOUIE",
+   "artist": "Kenny Beats - Topic",
+   "album": "",
    "videoId": "RpRw5h2r6Ig",
    "duration": "2:12"
   },
@@ -390,9 +390,9 @@
    "duration": "2:40"
   },
   {
-   "title": "Don't Look (feat. Kenny Beats & Cory Henry)",
-   "artist": "Benny Sings",
-   "album": "Beat Tape II",
+   "title": "Don't Look",
+   "artist": "Benny Sings - Topic",
+   "album": "",
    "videoId": "KfS3ynxe-qs",
    "duration": "1:20"
   },
@@ -454,8 +454,8 @@
   },
   {
    "title": "Crawl!",
-   "artist": "IDLES",
-   "album": "CRAWLER",
+   "artist": "IDLES - Topic",
+   "album": "",
    "videoId": "MONSBRnNfm4",
    "duration": "4:21"
   },
@@ -468,8 +468,8 @@
   },
   {
    "title": "Kelechi",
-   "artist": "IDLES",
-   "album": "CRAWLER",
+   "artist": "IDLES - Topic",
+   "album": "",
    "videoId": "uM8VixqeNM4",
    "duration": "0:31"
   },
@@ -559,15 +559,15 @@
   },
   {
    "title": "Book Bag (feat. BlueBucksClan)",
-   "artist": "Remble",
-   "album": "IT’S REMBLE",
+   "artist": "Remble - Topic",
+   "album": "",
    "videoId": "d981w_QTLTE",
    "duration": "3:23"
   },
   {
    "title": "Firesticc (feat. B.A.)",
-   "artist": "Remble",
-   "album": "IT’S REMBLE",
+   "artist": "Remble - Topic",
+   "album": "",
    "videoId": "shX327vx8fY",
    "duration": "2:31"
   },

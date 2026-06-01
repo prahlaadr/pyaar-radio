@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3414,
- "totalTracks": 43436,
- "syncedAt": "2026-05-31T10:17:40.954039Z",
+ "albumCount": 3408,
+ "totalTracks": 43359,
+ "syncedAt": "2026-06-01T16:33:48.486141Z",
  "albums": [
+  {
+   "browseId": "MPREb_ivI2Gtnavro",
+   "title": "Trick",
+   "artist": "Alex G",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_aQTpJvxGGzp",
+   "title": "Footsteps",
+   "artist": "ROHO",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_jzBzvZ4ZldS",
+   "title": "THE ZENITH",
+   "artist": "9th Wonder",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_2JjniLaRi3A",
    "title": "Saturnz Return",
@@ -8135,22 +8153,10 @@
    "trackCount": 17
   },
   {
-   "browseId": "MPREb_IYU1He4172L",
-   "title": "Little Ghost",
-   "artist": "Moonchild",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_2cMC3JSJ8NV",
    "title": "We Are KING",
    "artist": "KING",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_IEMZNAZtLcy",
-   "title": "Thank You for Singing to Me",
-   "artist": "Bobbing",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_fWebeU1ExBJ",
@@ -8193,18 +8199,6 @@
    "title": "Lotus Gate",
    "artist": "Kainalu",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_NFWPjOg0AoR",
-   "title": "El Círculo (Versión Exclusiva de Spotify)",
-   "artist": "Kase.O",
-   "trackCount": 18
-  },
-  {
-   "browseId": "MPREb_NPwLFkaqkja",
-   "title": "Chip Chrome & the Mono-Tones",
-   "artist": "The Neighbourhood",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_edMvNe5E5s6",
@@ -8279,22 +8273,10 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_PvMNqFUp1oW",
-   "title": "A Head Full of Dreams",
-   "artist": "Coldplay",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_uotQMDplxBm",
    "title": "Mylo Xyloto",
    "artist": "Coldplay",
    "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_Ks9MJXKlSAH",
-   "title": "Everyday Life",
-   "artist": "Coldplay",
-   "trackCount": 16
   },
   {
    "browseId": "MPREb_YJxrZdhPD1C",
@@ -8333,12 +8315,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_P6pMAcxdfOX",
-   "title": "Starting Over",
-   "artist": "Chris Stapleton",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_aFh9iLCBCs9",
    "title": "American Head",
    "artist": "The Flaming Lips",
@@ -8369,12 +8345,6 @@
    "trackCount": 11
   },
   {
-   "browseId": "MPREb_MHuhCxz4Su6",
-   "title": "The Mandalorian: Chapter 1 (Original Score)",
-   "artist": "Ludwig Göransson",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_GakNi5Ht7Du",
    "title": "Map of the Soul: 7",
    "artist": "BTS",
@@ -8403,12 +8373,6 @@
    "title": "Goodbye, Porkpie Hat",
    "artist": "Charles Mingus",
    "trackCount": 47
-  },
-  {
-   "browseId": "MPREb_K5Ng8ytG2g0",
-   "title": "New Beginnings",
-   "artist": "REASON",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_4HCIsXucPGv",
