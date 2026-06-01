@@ -300,7 +300,7 @@ def download_ytdlp(video_id, name, dest_folder):
     return False
 
 
-def sync_playlist(playlist, usb_base, dry_run=False, flat=False):
+def sync_playlist(playlist, usb_base, dry_run=False, flat=False, no_soulseek=False):
     """Sync a single playlist to USB. Returns (downloaded, upgraded, failed, skipped) counts."""
     playlist_path = PLAYLISTS_DIR / f"{playlist['playlistId']}.json"
     if not playlist_path.exists():
@@ -354,8 +354,12 @@ def sync_playlist(playlist, usb_base, dry_run=False, flat=False):
 
     # Collect all tracks that need Soulseek attempts
     all_needed = [(t, old_path) for t, old_path in missing] + [(t, old_path) for t, old_path, q, d in upgradeable]
-    queries = [clean_query(t["artist"], t["title"]) for t, _ in all_needed]
-    new_files = download_soulseek(queries)
+    if no_soulseek:
+        print("  (skipping Soulseek per --no-soulseek; yt-dlp will handle everything)")
+        new_files = set()
+    else:
+        queries = [clean_query(t["artist"], t["title"]) for t, _ in all_needed]
+        new_files = download_soulseek(queries)
 
     # Process results
     downloaded = 0
@@ -423,7 +427,14 @@ def main():
                         help="Override target folder (default: V3 PYAAR.Radio/Monthlys)")
     parser.add_argument("--flat", action="store_true",
                         help="Flat YYYY-MM (Month) layout for every year (V3 Monthlys convention)")
+    parser.add_argument("--no-soulseek", action="store_true",
+                        help="Skip Soulseek entirely; use yt-dlp only. Useful when Soulseek/nicotine is "
+                             "unavailable or known-broken. Also enabled via PYAAR_NO_SOULSEEK=1 env var.")
     args = parser.parse_args()
+
+    # Env-var override (handy for LaunchAgent contexts where flags aren't easy)
+    if os.environ.get("PYAAR_NO_SOULSEEK"):
+        args.no_soulseek = True
 
     if not INDEX_PATH.exists():
         print(f"Playlist index not found: {INDEX_PATH}")
@@ -462,7 +473,8 @@ def main():
     for p in playlists:
         print(f"{'─' * 50}")
         print(f"{p['title']} ({p['trackCount']} tracks)")
-        dl, up, fail, skip = sync_playlist(p, usb_base, args.dry, flat=args.flat)
+        dl, up, fail, skip = sync_playlist(p, usb_base, args.dry, flat=args.flat,
+                                            no_soulseek=args.no_soulseek)
         total_dl += dl
         total_up += up
         total_fail += fail
