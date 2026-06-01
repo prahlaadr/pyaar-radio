@@ -31,18 +31,21 @@ INDEX_PATH = PLAYLISTS_DIR / "_index.json"
 
 # Make pyaar_drives importable
 sys.path.insert(0, str(PROJECT_DIR))
-from pyaar_drives import get_root_optional  # noqa: E402
+from pyaar_drives import get_write_root  # noqa: E402
 
 
-def default_target() -> str | None:
-    """Resolve default sync target: V3 PYAAR.Radio/Monthlys (V3-master era).
+def default_target() -> tuple[str | None, str | None]:
+    """Resolve default sync target: V3 PYAAR.Radio/Monthlys when V3 mounted,
+    V1 PYAAR.Radio/Monthlys as staging fallback when V3 isn't.
 
-    Returns None if V3 not mounted/configured — caller errors with instructions.
+    Returns (path_string, role) or (None, None) if neither drive available.
+    Role is 'v3' (canonical) or 'v1' (staged — uplift later).
     """
-    v3 = get_root_optional("v3")
-    if v3 is None:
-        return None
-    return str(v3 / "PYAAR.Radio" / "Monthlys")
+    try:
+        root, role = get_write_root()
+    except RuntimeError:
+        return None, None
+    return str(root / "PYAAR.Radio" / "Monthlys"), role
 SOULSEEK_DIR = Path.home() / "Documents/Projects/03-music-audio/soulseek"
 BATCH_GRAB = SOULSEEK_DIR / "slskd" / "batch_grab.py"
 COMPLETE_DIR = SOULSEEK_DIR / "downloads" / "complete"
@@ -416,16 +419,19 @@ def main():
 
     if args.usb:
         target = args.usb
+        target_role = "override"
     else:
-        target = default_target()
+        target, target_role = default_target()
         if target is None:
-            print("V3 not mounted/configured. Set PYAAR_V3_ROOT env var, edit "
+            print("Neither V3 nor V1 mounted/configured. Plug in a drive, edit "
                   "~/.config/pyaar-sync/drives.json, or pass --usb /path/to/target.")
             sys.exit(1)
+        if target_role == "v1":
+            print(f"⚠️  V3 not mounted — staging downloads on V1 ({target}).")
+            print("   Run `uplift` after V3 reconnects to promote to master.\n")
 
     usb_base = Path(target)
     if not usb_base.exists():
-        # Create the V3 Monthlys folder if it doesn't yet exist (V3 is master)
         try:
             usb_base.mkdir(parents=True, exist_ok=True)
         except Exception as e:

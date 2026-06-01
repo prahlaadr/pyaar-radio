@@ -222,60 +222,76 @@ The Setlists tab includes a **Playlist Picker** that lets you browse and load an
 - `src/lib/playlists.ts` — fetch utilities (cached index, individual playlist fetch)
 - `src/lib/types.ts` — `PlaylistIndexEntry`, `PlaylistData` interfaces
 
-## Drive Model: V3 master, V1 subset
+## Drive Model: V3 master, V1 subset + staging
 
-V3 (vision 3.0, `/music/RAAMI RADIO/`) is the canonical music archive — every track ever downloaded lives here. V1 (vision 1, `/DJ/`) is a **curated subset** of folders pulled for upcoming DJ sets. V3 exceeds V1's capacity by design — there is **no full mirror**. Always download new music to V3 first.
+**V3** (vision 3.0, `/music/RAAMI RADIO/`) is the canonical archive — every track ever downloaded lives here. **V1** (vision 1, `/DJ/`) plays two roles:
+1. **Subset** — curated folders pulled for upcoming DJ sets (`./pull`)
+2. **Staging** — downloads land here when V3 isn't plugged in, then get promoted to V3 on next reconnect (`./uplift`)
 
-Drive paths come from `~/.config/pyaar-sync/drives.json` (override via `PYAAR_V1_ROOT` / `PYAAR_V3_ROOT` env vars) — never hardcoded. The resolver is `pyaar_drives.py`.
+V3 (~155 GB and growing) exceeds V1's 115 GB by design — there is **no full mirror**. Drive paths come from `~/.config/pyaar-sync/drives.json` (override via `PYAAR_V1_ROOT` / `PYAAR_V3_ROOT` env vars) — never hardcoded. The resolver is `pyaar_drives.py`; `get_write_root()` returns V3 if mounted else V1.
 
-### Pulling V3 → V1 for a set
+### Three commands
 
-Use the `pull` wrapper (next to the Python scripts):
+| Direction | Command | When |
+|---|---|---|
+| V3 → V1 | `./pull "<subpath>"` | Before a set, pulling a folder onto the working drive |
+| external → V3 (or V1 fallback) | `sync_usb.py`, `dive*.py`, `chart_to_setlist.py` | New music arriving |
+| V1 → V3 | `./uplift` | After V3 reconnects, promote V1-staged downloads |
 
-```bash
-./pull --list                            # show V3 top-level + 2nd-level paths
-./pull "Setlists/Underground ATL"        # pull one folder
-./pull "Crates/Trivia Night" "Setlists/Charcoal"  # pull multiple
-./pull --dry "In Focus/Producers/Hudson Mohawke"  # preview first
-```
-
-The wrapper calls `sync_v1_v3.py`, which:
-- Runs `rsync -au --inplace --exclude='._*' --exclude='.DS_Store'`
-- Pre-flight free-space check (aborts if V1 would overflow, with 5% buffer)
-- Refuses to do a full mirror — explicit folder args required
-- No `--delete`: V1 may hold things V3 doesn't (no destructive ops on V1)
-
-### Monthly archive auto-download
-
-`sync_monthlys.sh` (renamed from `sync_v1_monthlys.sh` on 2026-06-01) is the wrapper for the YT Music → V3 Monthlys pipeline:
-
-1. `git pull` — catches GitHub Action commits from `sync_playlists.py` daily cron
-2. `sync_playlists.py` (incremental) — catches playlists added in last <24h
-3. `sync_usb.py --flat` — downloads missing tracks to `V3 PYAAR.Radio/Monthlys/YYYY-MM (Month)/`
+### `./pull` — V3 → V1 selective copy
 
 ```bash
-python3 sync_usb.py --dry                          # preview against V3 default target
-python3 sync_usb.py --months "March 26"            # specific months
-python3 sync_usb.py --usb /override/path           # override target (not normally needed)
+./pull --list                                    # show V3 top-level + 2nd-level paths with sizes
+./pull "Setlists/Underground ATL"                # pull one folder
+./pull "Crates/Trivia Night" "Setlists/Charcoal" # pull multiple
+./pull --dry "In Focus/Producers/Hudson Mohawke" # preview first
 ```
 
-`sync_usb.py` resolves V3 via `pyaar_drives.get_root_optional('v3')` and writes to `<V3>/PYAAR.Radio/Monthlys/` by default.
+Wraps `sync_v1_v3.py` → `rsync -au --inplace --exclude='._*' --exclude='.DS_Store'`. No `--delete`. Pre-flight free-space check aborts if V1 would overflow (5% buffer). Refuses to full-mirror — explicit folder args required.
+
+### `./uplift` — V1 → V3 promotion (additive)
+
+```bash
+./uplift                          # walk all 4 canonical V1 folders
+./uplift "PYAAR.Radio/Monthlys"   # restrict to one subpath
+./uplift --dry                    # preview only
+./uplift --verbose                # log every file (incl. skips)
+```
+
+Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlists) — V1-only content (Engine Library etc.) is left alone. Dedup is exact-path AND same-directory canonical-stem (so V1 `Track (168).mp3` is recognized as already-on-V3 `Track.mp3` and skipped). V1 files stay after uplift (no destructive ops).
+
+### Monthly archive auto-download chain
+
+`sync_monthlys.sh` orchestrates:
+1. `git pull` — catches GitHub Action commits from daily cron
+2. `sync_monthly_playlists.py` — **targeted incremental fetch of only "Month YY" playlists** (faster than walking all 244)
+3. `sync_usb.py --flat` — downloads to V3 PYAAR.Radio/Monthlys/ (or V1 fallback)
+
+```bash
+.venv/bin/python sync_usb.py --dry                                    # preview
+.venv/bin/python sync_usb.py --months "March 26"                      # one month
+.venv/bin/python sync_monthly_playlists.py <playlist_id>              # one-shot ID fetch (fastest)
+.venv/bin/python sync_usb.py --usb /override/path                     # override target
+```
 
 ### LaunchAgents
 
 | Plist | Status | What it does |
 |---|---|---|
-| `com.pyaar.sync-v1-v3.plist` | **DELETED 2026-06-01** | Automation made no sense for selective per-folder pull. Use `./pull` manually. |
-| `com.pyaar.sync-monthlys.plist` | UNLOADED (per user preference) | Auto-fires `sync_monthlys.sh` on disk mount. Re-enable with `launchctl load <plist>`. |
+| `com.pyaar.sync-v1-v3.plist` | **DELETED 2026-06-01** | Full mirror is impossible by design. Use `./pull` manually. |
+| `com.pyaar.sync-monthlys.plist` | UNLOADED | Auto-fires `sync_monthlys.sh` on disk mount. Re-enable with `launchctl load`. |
+| `com.pyaar.uplift-on-v3-mount.plist` | UNLOADED | Auto-fires `uplift_to_v3.py` on V3 mount (safe — additive). Re-enable with `launchctl load`. |
 | `com.pyaar.sync-usb.plist` | unchanged | Separate agent for the old PRAHLOUD USB drive (independent). |
 
-### Key files
+### Key files (this repo)
 
-- `sync_v1_v3.py` — V3→V1 selective pull with free-space safety check
-- `pull` — bash wrapper for the above (short invocation)
-- `sync_usb.py` — YT Music → V3 Monthlys downloader (target auto-resolved)
-- `sync_monthlys.sh` — orchestrates the monthly chain (git pull → sync_playlists → sync_usb)
-- `pyaar_drives.py` — drive resolver (env var → config file)
+- `sync_v1_v3.py` + `pull` — V3 → V1 selective pull
+- `uplift_to_v3.py` + `uplift` — V1 → V3 staged-uplift with canonical-stem dedup
+- `sync_usb.py` — YT Music → V3 (or V1 fallback) Monthlys downloader
+- `sync_monthly_playlists.py` — targeted monthly-playlist sync (cheap)
+- `sync_monthlys.sh` — chain wrapper (git pull → monthly sync → usb download)
+- `pyaar_drives.py` — `get_root()`, `get_root_optional()`, `get_write_root()` (V3-then-V1)
+- `scripts/in_focus_audit.py` — drive-resolved producer-list audit
 - `~/.config/pyaar-sync/drives.json` — canonical drive paths config
 
 ## Quick Reference — What to Do When User Says...

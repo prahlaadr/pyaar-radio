@@ -1,0 +1,7 @@
+#!/bin/bash
+# Tiny wrapper for V1 → V3 uplift (promote staged files to master). Examples:
+#   uplift                                  # walk all 4 canonical V1 folders
+#   uplift "PYAAR.Radio/Monthlys"           # restrict to one subpath
+#   uplift --dry                            # preview only
+#   uplift --verbose                        # log every file
+exec /usr/bin/env python3 "$(dirname "$0")/uplift_to_v3.py" "$@"

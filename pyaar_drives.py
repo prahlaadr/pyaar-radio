@@ -56,6 +56,28 @@ def get_root_optional(role: str) -> Path | None:
         return None
 
 
+def get_write_root() -> tuple[Path, str]:
+    """Return (path, role) of the preferred write target for new music.
+
+    Prefers V3 (master). Falls back to V1 (staging) if V3 isn't mounted —
+    both share the same internal folder structure, so V1 acts as a
+    transparent fallback that gets uplifted to V3 on next reconnect via
+    `uplift_to_v3.py`.
+
+    Raises RuntimeError if neither drive is available.
+    """
+    v3 = get_root_optional("v3")
+    if v3:
+        return v3, "v3"
+    v1 = get_root_optional("v1")
+    if v1:
+        return v1, "v1"
+    raise RuntimeError(
+        "Neither V3 nor V1 is mounted/configured. Plug in a drive or "
+        "edit ~/.config/pyaar-sync/drives.json."
+    )
+
+
 if __name__ == "__main__":
     import sys
     for role in ("v1", "v3"):
