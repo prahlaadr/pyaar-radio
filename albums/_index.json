@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3417,
- "totalTracks": 43472,
- "syncedAt": "2026-06-02T12:05:56.029929Z",
+ "albumCount": 3418,
+ "totalTracks": 43483,
+ "syncedAt": "2026-06-03T12:43:23.414070Z",
  "albums": [
+  {
+   "browseId": "MPREb_NZzlYi7ZOqO",
+   "title": "Papercut",
+   "artist": "Imani Imani",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_ivI2Gtnavro",
    "title": "Trick",

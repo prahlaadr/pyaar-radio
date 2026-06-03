@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
  "title": "001",
  "trackCount": 188,
- "syncedAt": "2026-06-02T12:05:58.884106Z",
+ "syncedAt": "2026-06-03T12:43:27.408936Z",
  "tracks": [
   {
    "title": "ANGULIMAAL",
@@ -783,8 +783,8 @@
   },
   {
    "title": "Jane Kiyun Nahin",
-   "artist": "Alamgir, Debashree Roy, Anamika Saha, Aruna Biswas - Topic",
-   "album": "",
+   "artist": "Alamgir",
+   "album": "Khayal Rakhna (Alamgir)",
    "videoId": "nCSGgtnNGUA",
    "duration": "5:18"
   },
@@ -839,29 +839,29 @@
   },
   {
    "title": "KHAMBE JAISI KHADI HAI",
-   "artist": "Udit Narayan - Topic",
-   "album": "",
+   "artist": "UDIT NARAYAN",
+   "album": "DIL",
    "videoId": "r66oWyhmxLA",
    "duration": "5:23"
   },
   {
    "title": "Apna Kaha Aur Keh Ke Hua Begaanaa",
-   "artist": "Mohammed Ali Shehki - Topic",
-   "album": "",
+   "artist": "Muhammad Ali Shehki",
+   "album": "Pyar Ka Jaadoo Chal Gaya",
    "videoId": "ARgRaMX0qDk",
    "duration": "4:52"
   },
   {
    "title": "Goa Paradise",
-   "artist": "Pashtun Orchestra - Topic",
-   "album": "",
+   "artist": "Pashtun Orchestra",
+   "album": "World Lounge: Asian",
    "videoId": "10eA-qnzH-I",
    "duration": "5:28"
   },
   {
    "title": "Dekha Na Tha",
-   "artist": "Alamgir, Debashree Roy, Anamika Saha, Aruna Biswas - Topic",
-   "album": "",
+   "artist": "Alamgir",
+   "album": "Alamgir In New York",
    "videoId": "x4a9o5QKf_o",
    "duration": "5:30"
   },
@@ -881,8 +881,8 @@
   },
   {
    "title": "Beachy Head",
-   "artist": "Mechanical Me - Topic",
-   "album": "",
+   "artist": "Mechanical Me",
+   "album": "I Like",
    "videoId": "tuP9stPheJM",
    "duration": "5:01"
   },
@@ -1140,8 +1140,8 @@
   },
   {
    "title": "Darbari",
-   "artist": "Rhythom - Topic",
-   "album": "",
+   "artist": "Rhythom",
+   "album": "Darbari",
    "videoId": "SlycALrDOEk",
    "duration": "2:25"
   },
@@ -1217,8 +1217,8 @@
   },
   {
    "title": "Kanta Laga",
-   "artist": "Tony Kakkar - Topic",
-   "album": "",
+   "artist": "Tony Kakkar;Yo Yo Honey Singh;Neha Kakkar",
+   "album": "Kanta Laga",
    "videoId": "VXlRQm-fbUg",
    "duration": "3:28"
   },
@@ -1245,8 +1245,8 @@
   },
   {
    "title": "Pandemic is a Portal (PiaP)",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Krithi & Smaran",
+   "album": "Pandemic is a Portal (PiaP)",
    "videoId": "pKK0Rla7HgY",
    "duration": "3:27"
   },
@@ -1308,8 +1308,8 @@
   },
   {
    "title": "Kiliye Kiliye - RHYTHOM Version",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "RHYTHOM & S. Janaki",
+   "album": "Kiliye Kiliye - RHYTHOM Version",
    "videoId": "M1789mNFSyM",
    "duration": "2:47"
   },

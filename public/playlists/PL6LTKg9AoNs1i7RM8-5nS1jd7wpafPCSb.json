@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 2,
- "syncedAt": "2026-06-02T12:05:58.884106Z",
+ "trackCount": 3,
+ "syncedAt": "2026-06-03T12:43:27.408936Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -17,6 +17,13 @@
    "album": "Footsteps",
    "videoId": "98bJhuOhQiw",
    "duration": "2:11"
+  },
+  {
+   "title": "Mindgames",
+   "artist": "Imani Imani",
+   "album": "Papercut",
+   "videoId": "Wie7N47TMt4",
+   "duration": "4:35"
   }
  ]
 }

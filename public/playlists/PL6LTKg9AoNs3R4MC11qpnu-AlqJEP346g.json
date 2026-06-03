@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1442,
- "syncedAt": "2026-06-02T12:05:58.884106Z",
+ "trackCount": 1443,
+ "syncedAt": "2026-06-03T12:43:27.408936Z",
  "tracks": [
+  {
+   "title": "Brown Eyed Girl",
+   "artist": "Van Morrison",
+   "album": "Blowin' Your Mind!",
+   "videoId": "nEQmbFWnQeE",
+   "duration": "3:07"
+  },
   {
    "title": "More Than a Feeling",
    "artist": "Boston",
