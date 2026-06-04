@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-06-03T12:43:27.408936Z",
+ "syncedAt": "2026-06-04T11:16:49.530215Z",
  "tracks": [
   {
    "title": "magic",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin, MAE.SUN, & Sara Kawai",
+   "album": "sounds",
    "videoId": "9ytiyD_QA2s",
    "duration": "5:57"
   },
@@ -20,8 +20,8 @@
   },
   {
    "title": "elijah piece",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin;Elijah Fox",
+   "album": "sounds",
    "videoId": "QVjakKEApVA",
    "duration": "5:21"
   },
@@ -90,15 +90,15 @@
   },
   {
    "title": "Anatole's Interlude",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin",
+   "album": "Always in a Hurry",
    "videoId": "tac0D3B5H5s",
    "duration": "1:19"
   },
   {
    "title": "Up and Down",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin",
+   "album": "Always in a Hurry",
    "videoId": "RIXuT1PNHOk",
    "duration": "2:32"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "EL TORO COMBO MEAL (feat. Mavi)",
-   "artist": "Earl Sweatshirt - Topic",
-   "album": "",
+   "artist": "Earl Sweatshirt",
+   "album": "FEET OF CLAY (Deluxe)",
    "videoId": "2bpzQEY2Eo4",
    "duration": "2:32"
   },
@@ -454,8 +454,8 @@
   },
   {
    "title": "Crime Pays",
-   "artist": "Freddie Gibbs - Topic",
-   "album": "",
+   "artist": "Freddie Gibbs;Madlib",
+   "album": "Bandana",
    "videoId": "99G6GU7Vv4g",
    "duration": "3:03"
   },
@@ -502,9 +502,9 @@
    "duration": "6:11"
   },
   {
-   "title": "noflowrs [instrw]",
-   "artist": "Knxwledge - Topic",
-   "album": "",
+   "title": "noflowrs[instrw]",
+   "artist": "Knxwledge",
+   "album": "Hud Dreems",
    "videoId": "gQ5s_ykDPSw",
    "duration": "1:07"
   },
@@ -594,15 +594,15 @@
   },
   {
    "title": "Salbnuß",
-   "artist": "Popp - Topic",
-   "album": "",
+   "artist": "Simon Popp",
+   "album": "Laya",
    "videoId": "jo8z2u4ynXA",
    "duration": "6:11"
   },
   {
    "title": "Discipline 99 Pt. 0",
-   "artist": "Quasimoto - Topic",
-   "album": "",
+   "artist": "Quasimoto & Mr. Herb",
+   "album": "The Unseen",
    "videoId": "sXtrsUXPr74",
    "duration": "2:33"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "Astro Travellin",
-   "artist": "Quasimoto - Topic",
-   "album": "",
+   "artist": "Quasimoto",
+   "album": "The Unseen",
    "videoId": "C_S2zYW-oYc",
    "duration": "2:59"
   },

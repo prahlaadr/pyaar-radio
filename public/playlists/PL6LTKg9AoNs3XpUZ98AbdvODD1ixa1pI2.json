@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3XpUZ98AbdvODD1ixa1pI2",
  "title": "donde esta la rumba",
  "trackCount": 220,
- "syncedAt": "2026-06-03T12:43:27.408936Z",
+ "syncedAt": "2026-06-04T11:16:49.530215Z",
  "tracks": [
   {
    "title": "X",
@@ -20,8 +20,8 @@
   },
   {
    "title": "Move Me",
-   "artist": "98.Morelo, Mura masa & Sweet sweet - Topic",
-   "album": "",
+   "artist": "98.Morelo, Mura masa, & Sweet sweet",
+   "album": "Move Me",
    "videoId": "MBNcsctD4yk",
    "duration": "3:32"
   },
@@ -33,9 +33,9 @@
    "duration": "3:26"
   },
   {
-   "title": "Te Boté (Remix)",
-   "artist": "Nio Garcia - Topic",
-   "album": "",
+   "title": "Te Boté (Remix) (feat. Darell, Ozuna & Nicky Jam)",
+   "artist": "Nio Garcia;Casper Magico;Bad Bunny",
+   "album": "Now Or Never",
    "videoId": "IixzND-q9UE",
    "duration": "6:58"
   },
@@ -48,8 +48,8 @@
   },
   {
    "title": "Soltera",
-   "artist": "Lunay - Topic",
-   "album": "",
+   "artist": "Lunay;Gaby Music;Chris Jedi",
+   "album": "Soltera",
    "videoId": "cOxg8w6ZRoc",
    "duration": "3:34"
   },
@@ -97,8 +97,8 @@
   },
   {
    "title": "Ginza",
-   "artist": "J Balvin - Topic",
-   "album": "",
+   "artist": "J Balvin",
+   "album": "Energía",
    "videoId": "T2eguXvbV7s",
    "duration": "2:52"
   },
@@ -125,8 +125,8 @@
   },
   {
    "title": "Cuando Tú Quieras",
-   "artist": "J Balvin - Topic",
-   "album": "",
+   "artist": "J Balvin",
+   "album": "Vibras",
    "videoId": "F_lfeFOHofo",
    "duration": "3:26"
   },
@@ -195,8 +195,8 @@
   },
   {
    "title": "Yonaguni",
-   "artist": "Bad Bunny - Topic",
-   "album": "",
+   "artist": "Bad Bunny",
+   "album": "Yonaguni",
    "videoId": "4ANS5JbqEiI",
    "duration": "3:27"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "TE ENCANTÓ",
-   "artist": "Chris Palace - Topic",
-   "album": "",
+   "artist": "Chris Palace",
+   "album": "TE ENCANTÓ",
    "videoId": "tbQ7115aW3k",
    "duration": "2:22"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "TU+",
-   "artist": "Aissa - Topic",
-   "album": "",
+   "artist": "AISSA;GIO",
+   "album": "TU+",
    "videoId": "Uy6eUr4oStE",
    "duration": "3:17"
   },
@@ -405,8 +405,8 @@
   },
   {
    "title": "PARY DE MARQUESINA",
-   "artist": "Icon Blue - Topic",
-   "album": "",
+   "artist": "Icon Blue",
+   "album": "PARY DE MARQUESINA",
    "videoId": "09fzAayN8F0",
    "duration": "3:14"
   },
@@ -580,8 +580,8 @@
   },
   {
    "title": "Xexo",
-   "artist": "Jay Wheeler - Topic",
-   "album": "",
+   "artist": "Jay Wheeler",
+   "album": "Xexo",
    "videoId": "XFIzY9RoPBs",
    "duration": "3:01"
   },

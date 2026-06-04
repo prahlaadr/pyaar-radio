@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 256,
- "totalTracks": 101543,
- "syncedAt": "2026-06-03T12:43:27.408936Z",
+ "playlistCount": 257,
+ "totalTracks": 101727,
+ "syncedAt": "2026-06-04T11:16:49.530215Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",
+   "title": "Rally",
+   "trackCount": 180
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1443
+   "trackCount": 1445
   },
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
-   "trackCount": 3
+   "trackCount": 5
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",

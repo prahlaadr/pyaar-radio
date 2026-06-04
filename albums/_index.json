@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3418,
- "totalTracks": 43483,
- "syncedAt": "2026-06-03T12:43:23.414070Z",
+ "albumCount": 3416,
+ "totalTracks": 43466,
+ "syncedAt": "2026-06-04T11:16:46.316803Z",
  "albums": [
   {
    "browseId": "MPREb_NZzlYi7ZOqO",
@@ -9257,12 +9257,6 @@
    "trackCount": 5
   },
   {
-   "browseId": "MPREb_xSQpMj2Yeuj",
-   "title": "Hiding",
-   "artist": "Michael Christmas",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_C1lsBjnmJgp",
    "title": "RIPPLS",
    "artist": "Medasin",
@@ -18357,12 +18351,6 @@
    "title": "Role Model",
    "artist": "Michael Christmas",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_qqzYSfeQEV0",
-   "title": "Baggy Eyes",
-   "artist": "Michael Christmas",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_zSvPwA2ZASN",
