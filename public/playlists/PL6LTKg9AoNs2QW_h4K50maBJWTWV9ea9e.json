@@ -1,0 +1,29 @@
+{
+ "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
+ "title": "dublaad",
+ "trackCount": 3,
+ "syncedAt": "2026-06-05T11:30:08.341205Z",
+ "tracks": [
+  {
+   "title": "So True",
+   "artist": "The Black Seeds",
+   "album": "On the Sun",
+   "videoId": "GFd7SMe-O6w",
+   "duration": "3:55"
+  },
+  {
+   "title": "Let's Get Down",
+   "artist": "The Black Seeds",
+   "album": "On the Sun",
+   "videoId": "wibJlEeIEeg",
+   "duration": "3:30"
+  },
+  {
+   "title": "Raised With Dub (feat. Dr Lee)",
+   "artist": "The Black Seeds",
+   "album": "Dub & Fire: The Black Seeds Meets Scientist & Dr Lee",
+   "videoId": "d5kDguPqwQc",
+   "duration": "4:11"
+  }
+ ]
+}

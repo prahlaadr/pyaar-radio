@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3416,
- "totalTracks": 43466,
- "syncedAt": "2026-06-04T11:16:46.316803Z",
+ "totalTracks": 43467,
+ "syncedAt": "2026-06-05T11:30:05.065070Z",
  "albums": [
+  {
+   "browseId": "MPREb_wmXeQfJ66B5",
+   "title": "On the Sun",
+   "artist": "The Black Seeds",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_176KZ8zVnfz",
+   "title": "Curve 1",
+   "artist": "Mura Masa",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_NZzlYi7ZOqO",
    "title": "Papercut",
@@ -9365,12 +9377,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_Qiqy29jCQxe",
-   "title": "Blood Diamonds, Vol. 2",
-   "artist": "Ramirez",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_I0KsDmO6yQ4",
    "title": "Azúcar",
    "artist": "Kibi James",
@@ -9597,12 +9603,6 @@
    "title": "In Return",
    "artist": "ODESZA",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_wqpm88nWQWz",
-   "title": "Meet Me Where the River Turns Grey",
-   "artist": "Ramirez",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_8UW3uMa6HCz",
