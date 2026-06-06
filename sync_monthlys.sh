@@ -14,6 +14,11 @@
 
 set -u
 
+# launchd runs with a minimal PATH that excludes Homebrew, so the bare `yt-dlp`
+# calls in sync_usb.py fail with FileNotFoundError on StartOnMount fires (works
+# fine in a terminal where the shell PATH has /opt/homebrew/bin). Prepend it.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 REPO="/Users/prahlaad/Documents/Projects/01-web-apps/pyaar-radio"
 PY="$REPO/.venv/bin/python"
 LOG="/tmp/pyaar-sync-monthlys.log"

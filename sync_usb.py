@@ -291,11 +291,17 @@ def download_ytdlp(video_id, name, dest_folder):
 
     with tempfile.TemporaryDirectory() as tmpdir:
         outpath = os.path.join(tmpdir, f"{safe_name}.mp3")
-        r = subprocess.run([
-            "yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0",
-            "-o", outpath,
-            f"https://music.youtube.com/watch?v={video_id}"
-        ], capture_output=True, text=True, timeout=60)
+        # A single slow/stuck download must not crash the whole sync — catch the
+        # timeout (and any subprocess error) and report the track as failed so
+        # the loop moves on to the next track and the remaining months still run.
+        try:
+            subprocess.run([
+                "yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0",
+                "-o", outpath,
+                f"https://music.youtube.com/watch?v={video_id}"
+            ], capture_output=True, text=True, timeout=120)
+        except (subprocess.TimeoutExpired, OSError):
+            return False
 
         if os.path.exists(outpath):
             shutil.copy2(outpath, dest)
