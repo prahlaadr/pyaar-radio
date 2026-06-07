@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W",
- "title": "KALKI (future carnatic)",
- "trackCount": 94,
- "syncedAt": "2026-06-06T10:05:07.517776Z",
+ "title": "KALKI (future carnatic) [pyaar radio]",
+ "trackCount": 102,
+ "syncedAt": "2026-06-07T10:31:13.131563Z",
  "tracks": [
   {
    "title": "Gliding Through Everything",
@@ -243,13 +243,6 @@
    "duration": "1:04"
   },
   {
-   "title": "Hyperventilate",
-   "artist": "Yoke Lore",
-   "album": "Hyperventilate",
-   "videoId": "QzBQ6vnlvU4",
-   "duration": "2:50"
-  },
-  {
    "title": "On the Cusp of Enlightenment",
    "artist": "Lapgan",
    "album": "History",
@@ -481,13 +474,6 @@
    "duration": "1:03"
   },
   {
-   "title": "Black Republicans",
-   "artist": "Travis 'The Big Funny' Simmons",
-   "album": "The Truth Hurts",
-   "videoId": "9dRv90D3vAg",
-   "duration": "3:58"
-  },
-  {
    "title": "Turtles",
    "artist": "Flying Lotus",
    "album": "You're Dead!",
@@ -661,6 +647,76 @@
    "album": "Namaste / 94'",
    "videoId": "FkIWVsYt5C8",
    "duration": "4:34"
+  },
+  {
+   "title": "Wahin Ka Wahin",
+   "artist": "Lifafa",
+   "album": "SUPERPOWER 2020",
+   "videoId": "ovItSbeYtNs",
+   "duration": "5:42"
+  },
+  {
+   "title": "New York Nagaram",
+   "artist": "A.R. Rahman",
+   "album": "Sillunu Oru Kaadhal (Original Motion Picture Soundtrack)",
+   "videoId": "1US965tk7vw",
+   "duration": "6:20"
+  },
+  {
+   "title": "Cut",
+   "artist": "Duskus",
+   "album": "Healers Vol. 1",
+   "videoId": "1iuONbe7HWc",
+   "duration": "1:59"
+  },
+  {
+   "title": "Sinai Ray",
+   "artist": "ATRIP",
+   "album": "Sinai Ray",
+   "videoId": "McxkvF4C5hs",
+   "duration": "3:50"
+  },
+  {
+   "title": "Joeti - Diljit Dub [FREEDOWNLOAD]",
+   "artist": "SWL 2TON",
+   "album": "",
+   "videoId": "L2OII21jXEc",
+   "duration": "4:47"
+  },
+  {
+   "title": "RUNNIN",
+   "artist": "Miracle Mangal & SIDD",
+   "album": "MM007",
+   "videoId": "PPxZ3QJzKZU",
+   "duration": "2:48"
+  },
+  {
+   "title": "Pritt, Dilushselva - Unakkul Naane (HIMALAYA Garage Remix)",
+   "artist": "HIMALAYA",
+   "album": "",
+   "videoId": "FNSYMjsGuhM",
+   "duration": "2:12"
+  },
+  {
+   "title": "feel it yet? (Pìjus Remix)",
+   "artist": "sunflwr;Ella Rosa",
+   "album": "feel it yet? (Pìjus Remix)",
+   "videoId": "cRxVQONZYXA",
+   "duration": "3:11"
+  },
+  {
+   "title": "Aloka - Ring The Alarm",
+   "artist": "SWL 2TON",
+   "album": "",
+   "videoId": "youX0OwIFMY",
+   "duration": "3:40"
+  },
+  {
+   "title": "Tarka",
+   "artist": "Talal Qureshi",
+   "album": "Turbo (Deluxe)",
+   "videoId": "6mgf2wJJkQ8",
+   "duration": "1:57"
   }
  ]
 }

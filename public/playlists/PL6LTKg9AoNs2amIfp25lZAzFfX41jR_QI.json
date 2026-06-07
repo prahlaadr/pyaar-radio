@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
  "title": "Nyege nyege set",
- "trackCount": 5,
- "syncedAt": "2026-06-06T10:05:07.517776Z",
+ "trackCount": 6,
+ "syncedAt": "2026-06-07T10:31:13.131563Z",
  "tracks": [
   {
    "title": "Ile Ye (feat. Jadson Xabla & Gabriel Santana)",
@@ -38,6 +38,13 @@
    "album": "Astronauts to Mission Control",
    "videoId": "bd6HLuoW6pw",
    "duration": "3:39"
+  },
+  {
+   "title": "Chamba Chamba",
+   "artist": "Kaval",
+   "album": "Tuff",
+   "videoId": "__X13AtiZ_M",
+   "duration": "4:38"
   }
  ]
 }

@@ -1,38 +1,63 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 258,
- "totalTracks": 101681,
- "syncedAt": "2026-06-06T10:05:07.517776Z",
+ "playlistCount": 260,
+ "totalTracks": 101838,
+ "syncedAt": "2026-06-07T10:31:13.131563Z",
  "playlists": [
-  {
-   "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
-   "title": "dublaad",
-   "trackCount": 3
-  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1447
+   "trackCount": 1448
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W",
+   "title": "KALKI (future carnatic) [pyaar radio]",
+   "trackCount": 102
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
+   "title": "Intros/Interludes/Loops/Waves/Fillers",
+   "trackCount": 22
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1tr_ZX2hISPC0OKuBXGRGF",
+   "title": "jazz house [pyaar radio]",
+   "trackCount": 2
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
+   "title": "Nyege nyege set",
+   "trackCount": 6
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs232n3oEmlpWcb1EuSvGQ5v",
+   "title": "new electronica [pyaar radio]",
+   "trackCount": 124
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
+   "title": "dublaad",
+   "trackCount": 6
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
+   "title": "Jinja [pyaar radio]",
+   "trackCount": 5
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
+   "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
+   "trackCount": 1
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
+   "title": "June 26",
+   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",
    "title": "Rally",
    "trackCount": 180
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
-   "title": "June 26",
-   "trackCount": 5
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
-   "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 18
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
-   "title": "Jinja",
-   "trackCount": 4
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
@@ -43,11 +68,6 @@
    "playlistId": "PL6LTKg9AoNs1m4af1ArVzycaeXUcFg_uz",
    "title": "Peak-Hour Heat [pyaar radio]",
    "trackCount": 53
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1yEXsF2zT3TYV9Nrba2QGY",
-   "title": "Bhangra Bass [pyaar radio]",
-   "trackCount": 40
   },
   {
    "playlistId": "PL6LTKg9AoNs0te1gf6bNnVJIb1-RLqE8q",
@@ -95,18 +115,13 @@
    "trackCount": 213
   },
   {
-   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
-   "title": "Nyege nyege set",
-   "trackCount": 5
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
-   "title": "Savage Video Game Nights",
+   "title": "Houselaad Savage Video Game Nights [pyaar radio]",
    "trackCount": 160
   },
   {
    "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
-   "title": "Savage Pizza ",
+   "title": "Savage Pizza [pyaar radio]",
    "trackCount": 151
   },
   {
@@ -126,7 +141,7 @@
   },
   {
    "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
-   "title": "finger guns (headbang, hype bass, hype ukg) (goated)",
+   "title": "finger guns (headbang, hype bass, hype ukg) (goated) [pyaar radio]",
    "trackCount": 15
   },
   {
@@ -136,7 +151,7 @@
   },
   {
    "playlistId": "PL6LTKg9AoNs0_af5VpbALHabkrrl44I5_",
-   "title": "Dub Crate (Dub, calm UKG, deep bass) (goated)",
+   "title": "Dub Crate (Dub, calm UKG, deep bass) (goated) [pyaar radio]",
    "trackCount": 509
   },
   {
@@ -148,11 +163,6 @@
    "playlistId": "PL6LTKg9AoNs2Ql3c3gc0hq15zhU8-euq-",
    "title": "carnatic drummer boy ",
    "trackCount": 114
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W",
-   "title": "KALKI (future carnatic)",
-   "trackCount": 94
   },
   {
    "playlistId": "PL6LTKg9AoNs0_R6ZZir-xfL7x41VX5agg",
@@ -276,7 +286,7 @@
   },
   {
    "playlistId": "PL6LTKg9AoNs2YPrW7bjZIzMEe9jnTzkTx",
-   "title": "DJ prahloud (boots cats) (real estate investment) (goated)",
+   "title": "DJ prahloud (boots cats) (real estate investment) (goated) [pyaar radio]",
    "trackCount": 1036
   },
   {
@@ -622,7 +632,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3288
+   "trackCount": 3339
   },
   {
    "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",

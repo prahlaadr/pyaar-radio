@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
  "title": "dublaad",
- "trackCount": 3,
- "syncedAt": "2026-06-06T10:05:07.517776Z",
+ "trackCount": 6,
+ "syncedAt": "2026-06-07T10:31:13.131563Z",
  "tracks": [
   {
    "title": "So True",
@@ -24,6 +24,27 @@
    "album": "Dub & Fire: The Black Seeds Meets Scientist & Dr Lee",
    "videoId": "d5kDguPqwQc",
    "duration": "4:11"
+  },
+  {
+   "title": "Politician",
+   "artist": "Kora",
+   "album": "Volume",
+   "videoId": "C0NyEhyxO30",
+   "duration": "4:38"
+  },
+  {
+   "title": "Cool Me Down",
+   "artist": "The Black Seeds",
+   "album": "Into the Dojo",
+   "videoId": "buX9VQ_enCc",
+   "duration": "5:00"
+  },
+  {
+   "title": "One Step at a Time",
+   "artist": "The Black Seeds",
+   "album": "Solid Ground",
+   "videoId": "qQnodo98M3c",
+   "duration": "5:20"
   }
  ]
 }

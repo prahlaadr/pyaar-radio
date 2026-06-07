@@ -1,22 +1,22 @@
 {
  "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
  "title": "Intros/Interludes/Loops/Waves/Fillers",
- "trackCount": 18,
- "syncedAt": "2026-06-06T10:05:07.517776Z",
+ "trackCount": 22,
+ "syncedAt": "2026-06-07T10:31:13.131563Z",
  "tracks": [
-  {
-   "title": "Out of Your Mind (Interlude)",
-   "artist": "Lianne La Havas",
-   "album": "Lianne La Havas",
-   "videoId": "CGbLBbf0zxY",
-   "duration": "1:05"
-  },
   {
    "title": "Flight Of The Tiger Lily",
    "artist": "Hiatus Kaiyote",
    "album": "Mood Valiant",
    "videoId": "8CUVkuNKIrY",
    "duration": "0:36"
+  },
+  {
+   "title": "Out of Your Mind (Interlude)",
+   "artist": "Lianne La Havas",
+   "album": "Lianne La Havas",
+   "videoId": "CGbLBbf0zxY",
+   "duration": "1:05"
   },
   {
    "title": "Beltway",
@@ -129,6 +129,34 @@
    "album": "Delight",
    "videoId": "Oc1WSvT6Sgo",
    "duration": "4:28"
+  },
+  {
+   "title": "Amandla's Interlude",
+   "artist": "Steve Lacy",
+   "album": "Apollo XXI",
+   "videoId": "00Wdtfst_3M",
+   "duration": "3:11"
+  },
+  {
+   "title": "Waste",
+   "artist": "Rhye",
+   "album": "Blood",
+   "videoId": "gst851jD2xE",
+   "duration": "3:32"
+  },
+  {
+   "title": "Contact",
+   "artist": "Logic",
+   "album": "The Incredible True Story",
+   "videoId": "Mm8WW16Ppwo",
+   "duration": "2:44"
+  },
+  {
+   "title": "Nearer to Thee",
+   "artist": "Weyes Blood",
+   "album": "Titanic Rising",
+   "videoId": "mgVOzdzwf-Q",
+   "duration": "1:06"
   }
  ]
 }
