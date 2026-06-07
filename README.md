@@ -133,6 +133,15 @@ Pyaar Crate (discover)         Pyaar Core (enrich)
 2. Export triage list to `radar-alerts.json`
 3. Commit + push → triage at `/radar`
 
+### On drive mount (LaunchAgent)
+
+`com.pyaar.sync-monthlys` fires `sync_monthlys.sh` on drive mount: live-fetches
+month-named YT Music playlists and downloads missing tracks to
+`PYAAR.Radio/Monthlys/` (additive only). See
+[`docs/playlist-folder-sync.md`](docs/playlist-folder-sync.md) for the full
+chain, operations, troubleshooting, and the planned any-playlist / two-way sync
+design.
+
 ### Auth
 
 Both workflows use YT Music browser cookies stored as `YTMUSIC_BROWSER_AUTH` GitHub Secret. Cookies last ~2 years. See `CLAUDE.md` for refresh steps.

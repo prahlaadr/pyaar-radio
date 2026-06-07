@@ -267,6 +267,8 @@ Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlist
 2. `sync_monthly_playlists.py` — **targeted incremental fetch of only "Month YY" playlists** (faster than walking all 244)
 3. `sync_usb.py --flat` — downloads to V3 PYAAR.Radio/Monthlys/ (or V1 fallback)
 
+> Full operational guide + troubleshooting + planned any-playlist/two-way sync design: [`docs/playlist-folder-sync.md`](docs/playlist-folder-sync.md). The wrapper prepends `/opt/homebrew/bin` to PATH (launchd's minimal PATH otherwise can't find `yt-dlp`), and `download_ytdlp` tolerates per-track timeouts so one slow download can't abort the run (fixed 2026-06-06).
+
 ```bash
 .venv/bin/python sync_usb.py --dry                                    # preview
 .venv/bin/python sync_usb.py --months "March 26"                      # one month
@@ -279,7 +281,7 @@ Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlist
 | Plist | Status | What it does |
 |---|---|---|
 | `com.pyaar.sync-v1-v3.plist` | **DELETED 2026-06-01** | Full mirror is impossible by design. Use `./pull` manually. |
-| `com.pyaar.sync-monthlys.plist` | UNLOADED | Auto-fires `sync_monthlys.sh` on disk mount. Re-enable with `launchctl load`. |
+| `com.pyaar.sync-monthlys.plist` | **LOADED** (fires on mount; verified 2026-06-06) | Auto-fires `sync_monthlys.sh` on disk mount. Toggle with `launchctl load/unload`. |
 | `com.pyaar.uplift-on-v3-mount.plist` | UNLOADED | Auto-fires `uplift_to_v3.py` on V3 mount (safe — additive). Re-enable with `launchctl load`. |
 | `com.pyaar.sync-usb.plist` | unchanged | Separate agent for the old PRAHLOUD USB drive (independent). |
 
