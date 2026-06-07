@@ -11,6 +11,10 @@ two-way). Three parts:
 3. **Two-way sync** — design only. Drop a file in a folder → it shows up in the
    YT Music playlist, and deletions mirror. Not built; documented here so the
    safety requirements aren't lost.
+4. **Producer discography sync** — design only. Keep
+   `In Focus/Producers/<NAME>/` complete against a producer's discography,
+   auto-downloading missing releases on mount. Builds on
+   `scripts/in_focus_audit.py`.
 
 ---
 
@@ -212,8 +216,85 @@ guarded.
 
 ---
 
+## Part 4 — Producer discography sync (design only — NOT built)
+
+Goal: keep an `In Focus/Producers/<NAME>/` folder complete against the
+**producer's discography**, auto-downloading missing releases on mount.
+**One-way only** — a discography is upstream truth, not yours to push back into.
+Pilot: **ANISH KUMAR**.
+
+### What already exists vs what's new
+
+`scripts/in_focus_audit.py` already does the hard half — discography
+**discovery**:
+
+- Resolves a producer's albums via Discogs (artist-ID disambiguated) →
+  MusicBrainz (release-groups, `album|ep`) → YT Music artist page.
+- Filters: `trackCount >= 3` (drops singles), exact canonical artist match,
+  dedup vs `albums.csv` + `albums/_index.json`.
+- `--lexar-cross-check` already reads the local folder via `lexar_tracks()`,
+  drive-resolved by `_producers_dir()` (V3 then V1).
+- Output: a `triage-runs/*.json` that feeds `triage-apply` — which **saves the
+  albums to your YT Music library, not to the folder**.
+
+So today: discover gaps → save on YT Music → (daily sync) → folder download
+happens separately (deep-dive skill / manual). The **missing piece** is a direct
+"download missing producer releases into the folder on mount."
+
+### The new chain (on mount, per watched producer)
+
+```
+drive mount
+   │
+   ▼  for each producer in the producers watchlist (pilot: ANISH KUMAR):
+        1. resolve discography     (reuse in_focus_audit: Discogs → MB → YT) ← cached
+        2. expand albums → tracks  (yt.get_album → track videoIds)
+        3. diff vs folder          (reuse lexar_tracks() / sync_usb matching)
+        4. download missing        (reuse sync_usb.download_ytdlp → MP3 320)
+   │
+   ▼
+<target>/In Focus/Producers/<NAME>/
+```
+
+Mostly glue: discovery from `in_focus_audit.py`, the download + matching engine
+from `sync_usb.py`.
+
+### Design notes / caveats
+
+- **Don't re-resolve the whole discography every mount.** Discogs (25 req/min
+  unauth) + MusicBrainz (1 req/sec) make full resolution slow. Cache the
+  resolved discography per producer
+  (`~/.config/pyaar-sync/discography/<producer>.json`), refresh on a cadence
+  (weekly / manual); each mount just diffs folder vs cache and downloads. The
+  chosen behavior is **discography** (full catalog completeness), not "new
+  releases only" — caching is how you get completeness without paying the
+  resolution cost on every plug-in.
+- **Auto-run = yt-dlp MP3 320 (lossy).** The mount path keeps
+  `PYAAR_NO_SOULSEEK=1`, so producer downloads come from YouTube. For HQ
+  (Soulseek FLAC / lucida Qobuz), run `/deep-dive-artist` manually — auto-mount
+  is for coverage, not archival quality.
+- **Album granularity.** Discography is album-based; the folder is flat tracks.
+  Step 2 expands each album to its tracks before diffing, so partial albums get
+  topped up too.
+- **No two-way, no deletions.** The folder only ever gains tracks. If you want a
+  *curated subset* of a producer rather than their whole catalog, that's the
+  playlist model (Parts 2–3), not this.
+- **Watchlist, opt-in.** Producers are added explicitly
+  (`~/.config/pyaar-sync/producers-watch.txt`, a subset of the ~62-producer
+  `data/in_focus_producers.txt`) — not the whole list on every mount.
+
+### Status
+
+Not implemented. Pilot: **ANISH KUMAR**, first runs in `--dry` to eyeball the
+resolved discography + the missing-track diff before any download — discography
+resolution is fuzzy (wrong artist-ID, live/comp false positives), so catch that
+before it fills the folder.
+
+---
+
 ## Related
 
 - `CLAUDE.md` → "Drive Model: V3 master, V1 subset + staging" (pull / uplift / sync commands)
+- `scripts/in_focus_audit.py` → producer discography discovery (Part 4's upstream half)
 - `README.md` → "Automation"
 - pyaar-core repo → mirrored sync + hydration scripts
