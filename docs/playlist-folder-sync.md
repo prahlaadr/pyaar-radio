@@ -11,9 +11,9 @@ two-way). Three parts:
 3. **Two-way sync** — design only. Drop a file in a folder → it shows up in the
    YT Music playlist, and deletions mirror. Not built; documented here so the
    safety requirements aren't lost.
-4. **Producer discography sync** — design only. Keep
+4. **Producer discography sync** — built (`scripts/sync_producer.py`). Keep
    `In Focus/Producers/<NAME>/` complete against a producer's discography,
-   auto-downloading missing releases on mount. Builds on
+   diff the folder, and download the gaps. Builds on
    `scripts/in_focus_audit.py`.
 
 ---
@@ -216,12 +216,32 @@ guarded.
 
 ---
 
-## Part 4 — Producer discography sync (design only — NOT built)
+## Part 4 — Producer discography sync (BUILT — `scripts/sync_producer.py`)
 
 Goal: keep an `In Focus/Producers/<NAME>/` folder complete against the
-**producer's discography**, auto-downloading missing releases on mount.
-**One-way only** — a discography is upstream truth, not yours to push back into.
-Pilot: **ANISH KUMAR**.
+**producer's discography**, downloading missing releases. **One-way only** — a
+discography is upstream truth, not yours to push back into.
+
+```bash
+.venv/bin/python scripts/sync_producer.py "Anish Kumar"             # dry diff report
+.venv/bin/python scripts/sync_producer.py "Anish Kumar" --download  # fill the gaps
+.venv/bin/python scripts/sync_producer.py "Anish Kumar" --include-non-official
+```
+
+Resolve discography (YT artist page → Discogs → MusicBrainz) → expand each
+release to its tracks → diff vs the folder (case-insensitive, normalized title
+match) → report missing, and with `--download` fetch them (yt-dlp MP3 320,
+additive). Dry by default.
+
+**Pilot result (ANISH KUMAR, 2026-06-06):** 13 releases → 52 resolvable tracks;
+folder went 38/52 → **49/52 present** (11 downloaded). 3 remain unfetchable
+(`AK Cuts: Vol. 4` — no YT video IDs; need Soulseek/manual). The folder also
+holds ~19 tracks beyond the resolved discography (collabs/remixes/untracked
+releases), so "complete" means *against what the sources resolve* — a
+high-confidence floor, not every track ever.
+
+**Not yet wired to mount.** This is the on-demand engine; the on-mount watchlist
+loop (below) is still TODO.
 
 ### What already exists vs what's new
 
@@ -285,10 +305,10 @@ from `sync_usb.py`.
 
 ### Status
 
-Not implemented. Pilot: **ANISH KUMAR**, first runs in `--dry` to eyeball the
-resolved discography + the missing-track diff before any download — discography
-resolution is fuzzy (wrong artist-ID, live/comp false positives), so catch that
-before it fills the folder.
+On-demand engine **built and proven** (`scripts/sync_producer.py`, Anish Kumar
+pilot above). Remaining work: a `producers-watch.txt` + on-mount loop with the
+discography cache so it runs unattended on plug-in (don't re-resolve every mount
+— Discogs 25/min + MB 1/sec is too slow).
 
 ---
 
