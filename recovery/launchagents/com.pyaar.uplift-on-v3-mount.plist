@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.pyaar.uplift-on-v3-mount</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/python3</string>
+        <string>__REPO__/uplift_to_v3.py</string>
+    </array>
+    <key>StartOnMount</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/pyaar-uplift.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/pyaar-uplift.log</string>
+</dict>
+</plist>

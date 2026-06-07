@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Depends on the SEPARATE pyaar-core repo (not this one). Path placeholder
+     __PYAAR_CORE__ defaults to ~/Projects/03-music-audio/pyaar-core. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.pyaar-crate.daily</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__PYAAR_CORE__/.venv/bin/python3</string>
+        <string>__PYAAR_CORE__/sync_masterlist.py</string>
+        <string>--yes</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>3</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>__PYAAR_CORE__/sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>__PYAAR_CORE__/sync_error.log</string>
+    <key>WorkingDirectory</key>
+    <string>__PYAAR_CORE__</string>
+</dict>
+</plist>

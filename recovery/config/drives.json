@@ -1,0 +1,8 @@
+{
+  "_comment_1": "Drive roots for pyaar-sync scripts. Edit when drive names change.",
+  "_comment_2": "v3 = master archive (canonical). v1 = staging/subset for DJ sets.",
+  "_comment_3": "Env vars PYAAR_V1_ROOT and PYAAR_V3_ROOT override these.",
+  "_comment_4": "restore.sh installs this to ~/.config/pyaar-sync/drives.json — VERIFY the paths match your actual mounted drive names after recovery.",
+  "v1_root": "/Volumes/vision 1/DJ",
+  "v3_root": "/Volumes/vision 3.0/music/RAAMI RADIO"
+}
