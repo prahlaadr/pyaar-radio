@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs07HGqqMvnoUOfttfQeLNwf",
  "title": "☻ PinkPantheress USB Stick (96% liquid lofi dnb jungle)",
- "trackCount": 368,
- "syncedAt": "2026-06-07T10:31:13.131563Z",
+ "trackCount": 369,
+ "syncedAt": "2026-06-08T12:29:37.804113Z",
  "tracks": [
   {
    "title": "Blue Moon",
@@ -2579,6 +2579,13 @@
    "album": "Confessions of a Fangirl (Sped Up)",
    "videoId": "h1pedoFjMBE",
    "duration": "2:01"
+  },
+  {
+   "title": "Lullaby",
+   "artist": "Atlas Bound",
+   "album": "Lullaby",
+   "videoId": "R4CdM7STbYg",
+   "duration": "3:41"
   }
  ]
 }

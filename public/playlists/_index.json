@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 260,
- "totalTracks": 101838,
- "syncedAt": "2026-06-07T10:31:13.131563Z",
+ "totalTracks": 101839,
+ "syncedAt": "2026-06-08T12:29:37.804113Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs07HGqqMvnoUOfttfQeLNwf",
+   "title": "☻ PinkPantheress USB Stick (96% liquid lofi dnb jungle)",
+   "trackCount": 369
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
@@ -618,11 +623,6 @@
    "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
    "title": "Timeboy LIKED SONGS  3",
    "trackCount": 2398
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs07HGqqMvnoUOfttfQeLNwf",
-   "title": "☻ PinkPantheress USB Stick (96% liquid lofi dnb jungle)",
-   "trackCount": 368
   },
   {
    "playlistId": "PL6LTKg9AoNs2FsN0xu-QvEAYKD3GyFq-m",
