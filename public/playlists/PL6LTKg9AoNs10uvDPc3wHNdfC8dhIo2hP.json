@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs10uvDPc3wHNdfC8dhIo2hP",
  "title": "Indie Listen [pyaar radio]",
  "trackCount": 213,
- "syncedAt": "2026-06-08T12:29:37.804113Z",
+ "syncedAt": "2026-06-09T11:16:41.165242Z",
  "tracks": [
   {
    "title": "Adwa",
-   "artist": "Kokoroko",
-   "album": "KOKOROKO",
+   "artist": "Kokoroko - Topic",
+   "album": "",
    "videoId": "i4jsRiNqCW4",
    "duration": "5:57"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "The National Anthem",
-   "artist": "Radiohead",
-   "album": "Kid A",
+   "artist": "Radiohead - Topic",
+   "album": "",
    "videoId": "NfQD1QiQ9o4",
    "duration": "5:52"
   },
@@ -174,8 +174,8 @@
   },
   {
    "title": "Don't Wanna",
-   "artist": "HAIM",
-   "album": "Women In Music Pt. III",
+   "artist": "HAIM - Topic",
+   "album": "",
    "videoId": "nfEre_vCb0o",
    "duration": "3:22"
   },
@@ -405,8 +405,8 @@
   },
   {
    "title": "Echo's Answer",
-   "artist": "Broadcast",
-   "album": "Echo's Answer",
+   "artist": "Broadcast - Topic",
+   "album": "",
    "videoId": "0D_gS_CIYyE",
    "duration": "3:12"
   },
@@ -447,8 +447,8 @@
   },
   {
    "title": "Over",
-   "artist": "Loaded Honey",
-   "album": "Love Made Trees",
+   "artist": "Loaded Honey - Topic",
+   "album": "",
    "videoId": "aObVVmJigHk",
    "duration": "3:05"
   },
@@ -496,8 +496,8 @@
   },
   {
    "title": "Fluorescent Adolescent",
-   "artist": "Arctic Monkeys",
-   "album": "Favourite Worst Nightmare",
+   "artist": "Arctic Monkeys - Topic",
+   "album": "",
    "videoId": "Th8v0EZiDik",
    "duration": "2:54"
   },
@@ -524,8 +524,8 @@
   },
   {
    "title": "Reptilia",
-   "artist": "The Strokes",
-   "album": "Room On Fire",
+   "artist": "The Strokes - Topic",
+   "album": "",
    "videoId": "YdRjNeu11Ww",
    "duration": "3:40"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "Comet Face",
-   "artist": "King Krule",
-   "album": "Man Alive!",
+   "artist": "King Krule - Topic",
+   "album": "",
    "videoId": "k-lg3v4HtBA",
    "duration": "3:14"
   },
@@ -664,8 +664,8 @@
   },
   {
    "title": "Dark Red",
-   "artist": "Steve Lacy",
-   "album": "Dark Red",
+   "artist": "Steve Lacy - Topic",
+   "album": "",
    "videoId": "Q6FarZpy67M",
    "duration": "2:54"
   },
@@ -678,8 +678,8 @@
   },
   {
    "title": "Playground",
-   "artist": "Steve Lacy",
-   "album": "Apollo XXI",
+   "artist": "Steve Lacy - Topic",
+   "album": "",
    "videoId": "bcSc5YO4qIY",
    "duration": "3:34"
   },

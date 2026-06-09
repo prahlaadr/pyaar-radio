@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-06-08T12:29:37.804113Z",
+ "syncedAt": "2026-06-09T11:16:41.165242Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
-   "artist": "Loving",
-   "album": "Loving",
+   "artist": "Loving - Topic",
+   "album": "",
    "videoId": "Skfo_TaMu5k",
    "duration": "2:34"
   },
@@ -83,15 +83,15 @@
   },
   {
    "title": "Imagine An Orchestra",
-   "artist": "Arushi Jain",
-   "album": "Delight",
+   "artist": "Arushi Jain - Topic",
+   "album": "",
    "videoId": "ZjuEJAhLEEI",
    "duration": "3:28"
   },
   {
    "title": "CONTEXT",
-   "artist": "33 Below;Daniel Allan",
-   "album": "CONTEXT",
+   "artist": "33 Below - Topic",
+   "album": "",
    "videoId": "3r6LjFe7oRw",
    "duration": "2:18"
   },
@@ -124,9 +124,9 @@
    "duration": "2:14"
   },
   {
-   "title": "Part of me (feat. Benjamin Earl Turner & Phoelix)",
-   "artist": "Noname",
-   "album": "Room 25",
+   "title": "Part of me",
+   "artist": "NONAME - Topic",
+   "album": "",
    "videoId": "Ejf1vflgjAU",
    "duration": "3:16"
   },
@@ -236,9 +236,9 @@
    "duration": "3:55"
   },
   {
-   "title": "Daylight (feat. Teezo Touchdown & Cash Cobain)",
-   "artist": "Lancey Foux",
-   "album": "Daylight",
+   "title": "Daylight",
+   "artist": "Lancey Foux - Topic",
+   "album": "",
    "videoId": "jDpntsW0pTI",
    "duration": "3:50"
   },
@@ -363,8 +363,8 @@
   },
   {
    "title": "Connect",
-   "artist": "Vampire Weekend",
-   "album": "Only God Was Above Us",
+   "artist": "Vampire Weekend - Topic",
+   "album": "",
    "videoId": "ubyti-AHytA",
    "duration": "5:11"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "Don't Wish Me Well",
-   "artist": "Solange",
-   "album": "A Seat at the Table",
+   "artist": "Solange - Topic",
+   "album": "",
    "videoId": "N3gNFtRwWAU",
    "duration": "4:16"
   },
@@ -496,8 +496,8 @@
   },
   {
    "title": "All A Mystery",
-   "artist": "Phantogram",
-   "album": "All A Mystery",
+   "artist": "Phantogram - Topic",
+   "album": "",
    "videoId": "7jMVWEoZ6ns",
    "duration": "3:10"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Time Will Tell",
-   "artist": "Aaron Frazer",
-   "album": "Into The Blue",
+   "artist": "Aaron Frazer - Topic",
+   "album": "",
    "videoId": "v0ghO0gEXmE",
    "duration": "4:05"
   },
@@ -552,8 +552,8 @@
   },
   {
    "title": "all of my love",
-   "artist": "Oso Oso",
-   "album": "all of my love",
+   "artist": "Oso Oso - Topic",
+   "album": "",
    "videoId": "VjPyYb3Ct4Q",
    "duration": "2:18"
   },

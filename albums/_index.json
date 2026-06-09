@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3419,
- "totalTracks": 43499,
- "syncedAt": "2026-06-08T12:29:34.181359Z",
+ "albumCount": 3418,
+ "totalTracks": 43494,
+ "syncedAt": "2026-06-09T11:16:37.217217Z",
  "albums": [
+  {
+   "browseId": "MPREb_F54ifK5Hw47",
+   "title": "Cry Baby",
+   "artist": "Vince Staples",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_Qc5KaBibMSg",
    "title": "Back For The First Time",
@@ -16943,12 +16949,6 @@
    "trackCount": 20
   },
   {
-   "browseId": "MPREb_YAkPvcP9dtL",
-   "title": "Poetry Ceylon",
-   "artist": "Ditty",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_vr1Lk5CbdnA",
    "title": "It's The Great Pumpkin, Charlie Brown (Original Soundtrack Recording)",
    "artist": "Vince Guaraldi",
@@ -18363,12 +18363,6 @@
    "title": "Role Model",
    "artist": "Michael Christmas",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_qqzYSfeQEV0",
-   "title": "Baggy Eyes",
-   "artist": "Michael Christmas",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_zSvPwA2ZASN",
