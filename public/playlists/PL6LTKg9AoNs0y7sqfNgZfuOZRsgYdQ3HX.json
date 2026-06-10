@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-06-09T11:16:41.165242Z",
+ "syncedAt": "2026-06-10T11:40:23.145070Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
-   "artist": "Loving - Topic",
-   "album": "",
+   "artist": "Loving",
+   "album": "Loving",
    "videoId": "Skfo_TaMu5k",
    "duration": "2:34"
   },
@@ -83,15 +83,15 @@
   },
   {
    "title": "Imagine An Orchestra",
-   "artist": "Arushi Jain - Topic",
-   "album": "",
+   "artist": "Arushi Jain",
+   "album": "Delight",
    "videoId": "ZjuEJAhLEEI",
    "duration": "3:28"
   },
   {
    "title": "CONTEXT",
-   "artist": "33 Below - Topic",
-   "album": "",
+   "artist": "33 Below;Daniel Allan",
+   "album": "CONTEXT",
    "videoId": "3r6LjFe7oRw",
    "duration": "2:18"
   },
@@ -124,9 +124,9 @@
    "duration": "2:14"
   },
   {
-   "title": "Part of me",
-   "artist": "NONAME - Topic",
-   "album": "",
+   "title": "Part of me (feat. Benjamin Earl Turner & Phoelix)",
+   "artist": "Noname",
+   "album": "Room 25",
    "videoId": "Ejf1vflgjAU",
    "duration": "3:16"
   },
@@ -236,9 +236,9 @@
    "duration": "3:55"
   },
   {
-   "title": "Daylight",
-   "artist": "Lancey Foux - Topic",
-   "album": "",
+   "title": "Daylight (feat. Teezo Touchdown & Cash Cobain)",
+   "artist": "Lancey Foux",
+   "album": "Daylight",
    "videoId": "jDpntsW0pTI",
    "duration": "3:50"
   },
@@ -363,8 +363,8 @@
   },
   {
    "title": "Connect",
-   "artist": "Vampire Weekend - Topic",
-   "album": "",
+   "artist": "Vampire Weekend",
+   "album": "Only God Was Above Us",
    "videoId": "ubyti-AHytA",
    "duration": "5:11"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "Don't Wish Me Well",
-   "artist": "Solange - Topic",
-   "album": "",
+   "artist": "Solange",
+   "album": "A Seat at the Table",
    "videoId": "N3gNFtRwWAU",
    "duration": "4:16"
   },
@@ -496,8 +496,8 @@
   },
   {
    "title": "All A Mystery",
-   "artist": "Phantogram - Topic",
-   "album": "",
+   "artist": "Phantogram",
+   "album": "All A Mystery",
    "videoId": "7jMVWEoZ6ns",
    "duration": "3:10"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Time Will Tell",
-   "artist": "Aaron Frazer - Topic",
-   "album": "",
+   "artist": "Aaron Frazer",
+   "album": "Into The Blue",
    "videoId": "v0ghO0gEXmE",
    "duration": "4:05"
   },
@@ -552,8 +552,8 @@
   },
   {
    "title": "all of my love",
-   "artist": "Oso Oso - Topic",
-   "album": "",
+   "artist": "Oso Oso",
+   "album": "all of my love",
    "videoId": "VjPyYb3Ct4Q",
    "duration": "2:18"
   },
@@ -1825,10 +1825,10 @@
    "duration": "2:35"
   },
   {
-   "title": "Fisherrr",
+   "title": "fisherrr",
    "artist": "Cash Cobain;Bay Swag",
    "album": "Fisherrr",
-   "videoId": "WF429HwBkrc",
+   "videoId": "jH3wEgwSWz0",
    "duration": "3:57"
   },
   {
@@ -3760,7 +3760,7 @@
    "title": "Already (feat. SiR)",
    "artist": "Anderson .Paak;SiR",
    "album": "Venice",
-   "videoId": "OOb0hEdcs5Q",
+   "videoId": "_rrV39eoA5s",
    "duration": "3:15"
   },
   {
@@ -7575,7 +7575,7 @@
    "title": "Might Be",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "AoQHhsKnQkg",
+   "videoId": "fLcoSPgkBZo",
    "duration": "3:58"
   },
   {
@@ -10081,7 +10081,7 @@
    "title": "Put You On",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "utxMzdabKds",
+   "videoId": "cxeswRDjKjg",
    "duration": "2:44"
   },
   {
@@ -15198,7 +15198,7 @@
    "title": "dunk contest",
    "artist": "Cash Cobain",
    "album": "PLAY CASH COBAIN",
-   "videoId": "Ia-1OP-REzo",
+   "videoId": "uRYhMAKDTRM",
    "duration": "3:17"
   },
   {
@@ -15919,7 +15919,7 @@
    "title": "wassup wya",
    "artist": "Cash Cobain",
    "album": "PLAY CASH COBAIN",
-   "videoId": "dZAYj6hpjfg",
+   "videoId": "yHcdCCgAz4k",
    "duration": "1:59"
   },
   {

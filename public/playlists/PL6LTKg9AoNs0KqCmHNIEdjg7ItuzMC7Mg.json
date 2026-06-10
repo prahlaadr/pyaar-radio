@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0KqCmHNIEdjg7ItuzMC7Mg",
  "title": "shroomy (goated)",
  "trackCount": 496,
- "syncedAt": "2026-06-09T11:16:41.165242Z",
+ "syncedAt": "2026-06-10T11:40:23.145070Z",
  "tracks": [
   {
    "title": "MY IMAGINATION 상상",
@@ -748,15 +748,15 @@
   },
   {
    "title": "Blue Jay Way (Remastered 2009)",
-   "artist": "The Beatles - Topic",
-   "album": "",
+   "artist": "The Beatles",
+   "album": "Magical Mystery Tour",
    "videoId": "ixmOAb6qzvY",
    "duration": "3:56"
   },
   {
    "title": "All Related (Fantastic Fungi Mix)",
-   "artist": "Nessi Gomes - Topic",
-   "album": "",
+   "artist": "Nessi Gomes;Liquid Bloom",
+   "album": "Fantastic Fungi: Reimagine, Vol. II (Inspired by the Film & Mycelial Kingdom)",
    "videoId": "Kd981fDdPKw",
    "duration": "6:29"
   },
@@ -783,8 +783,8 @@
   },
   {
    "title": "Alpaca Mountain",
-   "artist": "YĪN YĪN - Topic",
-   "album": "",
+   "artist": "Yin Yin",
+   "album": "The Rabbit That Hunts Tigers",
    "videoId": "I-dtR6H-jwQ",
    "duration": "5:36"
   },
@@ -818,8 +818,8 @@
   },
   {
    "title": "Snowqueen Of Texas",
-   "artist": "The Mamas & The Papas - Topic",
-   "album": "",
+   "artist": "The Mamas & The Papas",
+   "album": "People Like Us",
    "videoId": "vIOhTO8ghJc",
    "duration": "2:39"
   },
@@ -895,22 +895,22 @@
   },
   {
    "title": "I Was in Space",
-   "artist": "Jam 'n' Slate - Topic",
-   "album": "",
+   "artist": "Jam 'N' Slate",
+   "album": "I Was in Space",
    "videoId": "M8yAfuVDegE",
    "duration": "3:27"
   },
   {
    "title": "Sea Of Time (Remastered 2009)",
-   "artist": "GEORGE MARTIN - Topic",
-   "album": "",
+   "artist": "George Martin",
+   "album": "Yellow Submarine",
    "videoId": "PACDEO3Bhdk",
    "duration": "3:01"
   },
   {
    "title": "Jungle Magic",
-   "artist": "Bennis Cletin - Topic",
-   "album": "",
+   "artist": "Bennis Cletin",
+   "album": "Jungle Magic",
    "videoId": "kEfw6VifBpM",
    "duration": "6:24"
   },
@@ -943,9 +943,9 @@
    "duration": "7:19"
   },
   {
-   "title": "Star Dwellers",
-   "artist": "Dreamers Delight - Topic",
-   "album": "",
+   "title": "Star Dwellers (feat. Vaughn Trace)",
+   "artist": "Dreamers Delight",
+   "album": "Lucid Anatomy",
    "videoId": "eb73zttedzc",
    "duration": "3:08"
   },
@@ -986,8 +986,8 @@
   },
   {
    "title": "Johny Says Stay Cool",
-   "artist": "Babe Rainbow - Topic",
-   "album": "",
+   "artist": "Babe Rainbow",
+   "album": "Johny Says Stay Cool",
    "videoId": "BSVKyjlVgfQ",
    "duration": "2:37"
   },
@@ -1028,8 +1028,8 @@
   },
   {
    "title": "Honey",
-   "artist": "King Gizzard & The Lizard Wizard - Topic",
-   "album": "",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "K.G.",
    "videoId": "OxidZLT7TiU",
    "duration": "4:34"
   },

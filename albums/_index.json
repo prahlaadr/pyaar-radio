@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3418,
- "totalTracks": 43494,
- "syncedAt": "2026-06-09T11:16:37.217217Z",
+ "totalTracks": 43487,
+ "syncedAt": "2026-06-10T11:40:19.799751Z",
  "albums": [
+  {
+   "browseId": "MPREb_o5aYH23PppL",
+   "title": "Trying Times",
+   "artist": "James Blake",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_tv3FwLrPvA8",
+   "title": "TANZPARTEI II (Mixtape)",
+   "artist": "ATRIP",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_A8oPNW9SCrq",
+   "title": "TANZPARTEI (Mixtape)",
+   "artist": "ATRIP",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_F54ifK5Hw47",
    "title": "Cry Baby",
@@ -8093,12 +8111,6 @@
    "trackCount": 1
   },
   {
-   "browseId": "MPREb_9zR55GbFdWG",
-   "title": "Venice",
-   "artist": "Anderson .Paak",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_fqDa7weuRzi",
    "title": "Submarine Adventure",
    "artist": "Hoffy Beats",
@@ -14789,12 +14801,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_nLGR9naGI1i",
-   "title": "Pretty Girls Love Slizzy",
-   "artist": "Cash Cobain",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_N84mqW3gQKd",
    "title": "Birds, Bees, The Clouds & The Trees",
    "artist": "Harrison",
@@ -16443,12 +16449,6 @@
    "title": "Graffiti: A Mix By Roy Blair",
    "artist": "Roy Blair",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_C8LAvAMsino",
-   "title": "PLAY CASH COBAIN",
-   "artist": "Cash Cobain",
-   "trackCount": 19
   },
   {
    "browseId": "MPREb_GB4wySbQKoy",
