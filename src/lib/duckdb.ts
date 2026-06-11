@@ -66,7 +66,11 @@ async function init() {
     CREATE TABLE artists AS
     SELECT artist, aliases, channel, samay, desi, vibes,
            TRY_CAST(bpm_low AS INT) AS bpm_low,
-           TRY_CAST(bpm_high AS INT) AS bpm_high
+           TRY_CAST(bpm_high AS INT) AS bpm_high,
+           COALESCE(pillar, '') AS pillar,
+           COALESCE(pillar_v2, '') AS pillar_v2,
+           COALESCE(zone, '') AS zone,
+           COALESCE(desi_bool, '') AS desi_bool
     FROM read_csv('artists.csv', delim=',', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
   await conn.query(`

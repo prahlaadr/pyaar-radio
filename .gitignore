@@ -67,3 +67,4 @@ next-env.d.ts
 __pycache__/
 *.pyc
 public/data/_backups/
+.playwright-mcp/
