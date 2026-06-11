@@ -1,23 +1,12 @@
 import { useState } from "react";
 import type { ArtistFilters } from "@/lib/types";
+import { PILLARS_V2 } from "@/lib/types";
+import { STATIONS, isStationActive } from "@/lib/stations";
 
-const CHANNELS = ["Rave", "Rap", "Soul"] as const;
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
-const VIBES = [
-  "Groove", "Soulful", "Rowdy", "Nodders", "Dark", "Percussive",
-  "Rave", "Bass", "Dubstep", "DnB", "Dub", "Club", "Garage",
-  "Future Beats", "Electronica", "Ambient", "Trap", "Boom Bap", "Pop",
-] as const;
 
-// Pillars sit above channels — high-level DJ-set buckets per the DJ Crate System.
-// pillar column on artists.csv is pipe-separated for multi-pillar artists.
-const PILLARS = [
-  { name: "1 Mellow",       short: "Mellow",       color: "bg-blue-600" },
-  { name: "2 Desi Lofi",    short: "Desi Lofi",    color: "bg-emerald-600" },
-  { name: "3 Desi Uptempo", short: "Desi Uptempo", color: "bg-orange-600" },
-  { name: "4 Bass Rave",    short: "Bass Rave",    color: "bg-red-600" },
-  { name: "5 Trivia Crowd", short: "Trivia",       color: "bg-purple-600" },
-] as const;
+// The __laad energy spine — primary control, ordered stillest → most kinetic.
+const PILLARS = PILLARS_V2;
 
 export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
 
@@ -159,39 +148,54 @@ export function FilterPanel({
       <div className={`space-y-3 ${(ilaiyaraajaMode || tamilMode || sectionMode !== "browse") ? "" : expanded ? "" : "hidden md:block"}`}>
         {!tamilMode && !ilaiyaraajaMode && sectionMode === "browse" && (
           <>
-            {/* Pillars — DJ Crate System buckets above channels */}
+            {/* Pillars — the __laad energy spine (stillest → most kinetic) */}
             <div className="flex gap-1 flex-wrap">
-              {PILLARS.map((pl) => (
-                <button
-                  key={pl.name}
-                  onClick={() => toggle("pillars", pl.name)}
-                  title={pl.name}
-                  className={`px-2.5 py-1 text-[11px] uppercase tracking-wider font-medium transition-colors ${
-                    (filters.pillars || []).includes(pl.name)
-                      ? `${pl.color} text-white`
-                      : "bg-[#111] text-[#888] hover:text-white"
-                  }`}
-                >
-                  {pl.short}
-                </button>
-              ))}
+              {PILLARS.map((pl) => {
+                const on = (filters.pillars || []).includes(pl.name);
+                return (
+                  <button
+                    key={pl.name}
+                    onClick={() => toggle("pillars", pl.name)}
+                    title={pl.desc}
+                    className="px-2.5 py-1 text-[11px] uppercase tracking-wider font-medium transition-colors border"
+                    style={
+                      on
+                        ? { background: pl.color, color: "#111", borderColor: pl.color }
+                        : { background: "#111", color: pl.color, borderColor: `${pl.color}44` }
+                    }
+                  >
+                    {pl.name}
+                  </button>
+                );
+              })}
             </div>
 
-            {/* Channels */}
-            <div className="flex gap-1">
-              {CHANNELS.map((ch) => (
-                <button
-                  key={ch}
-                  onClick={() => toggle("channels", ch)}
-                  className={`px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors ${
-                    filters.channels.includes(ch)
-                      ? "bg-white text-black"
-                      : "bg-[#111] text-[#999] hover:text-white"
-                  }`}
-                >
-                  {ch}
-                </button>
-              ))}
+            {/* Stations — derived presets (saved filter slices), not an artist property */}
+            <div className="flex gap-1 flex-wrap">
+              {STATIONS.map((st) => {
+                const on = isStationActive(st, filters);
+                return (
+                  <button
+                    key={st.name}
+                    onClick={() =>
+                      onChange(
+                        on
+                          ? { ...filters, channels: [], pillars: [], desi: null, samay: null }
+                          : { ...filters, channels: [], pillars: [], vibes: [], desi: null, samay: null, ...st.filters }
+                      )
+                    }
+                    title={st.desc}
+                    className="px-3 py-1 text-xs uppercase tracking-wider font-medium transition-colors border"
+                    style={
+                      on
+                        ? { background: st.color, color: "#111", borderColor: st.color }
+                        : { background: "#111", color: "#aaa", borderColor: "#333" }
+                    }
+                  >
+                    {st.name}
+                  </button>
+                );
+              })}
             </div>
 
             {/* Samay + Desi + Tamil */}

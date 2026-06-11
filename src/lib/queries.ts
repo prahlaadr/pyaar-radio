@@ -13,7 +13,9 @@ export function buildArtistQuery(filters: ArtistFilters): string {
   }
 
   if (filters.desi) {
-    conditions.push(`desi = '${filters.desi}'`);
+    // desi is now an orthogonal boolean (desi_bool), de-conflated from pillar names.
+    // Fall back to the legacy desi column when desi_bool is absent.
+    conditions.push(`(COALESCE(NULLIF(desi_bool, ''), CASE WHEN desi = 'Desi' THEN 'true' ELSE 'false' END) = 'true')`);
   }
 
   if (filters.vibes.length > 0) {
@@ -22,8 +24,9 @@ export function buildArtistQuery(filters: ArtistFilters): string {
   }
 
   if (filters.pillars && filters.pillars.length > 0) {
-    // pillar column is pipe-separated; multi-select uses OR
-    const pillarConds = filters.pillars.map((p) => `pillar ILIKE '%${p}%'`);
+    // pillar_v2 is the __laad 6-pillar spine (pipe-separated); fall back to legacy pillar.
+    const col = `COALESCE(NULLIF(pillar_v2, ''), pillar)`;
+    const pillarConds = filters.pillars.map((p) => `${col} ILIKE '%${p}%'`);
     conditions.push(`(${pillarConds.join(" OR ")})`);
   }
 
@@ -47,7 +50,11 @@ export function buildArtistQuery(filters: ArtistFilters): string {
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
 
-  return `SELECT * FROM artists ${where} ORDER BY channel, artist`;
+  // Order by the __laad energy spine (stillest → most kinetic), then name.
+  const energyRank = `CASE COALESCE(NULLIF(pillar_v2, ''), pillar)
+    WHEN 'Soullaad' THEN 1 WHEN 'Hypelaad' THEN 2 WHEN 'Perclaad' THEN 3
+    WHEN 'Rowdylaad' THEN 4 WHEN 'Crowdlaad' THEN 5 WHEN 'Lucidlaad' THEN 6 ELSE 9 END`;
+  return `SELECT * FROM artists ${where} ORDER BY ${energyRank}, artist`;
 }
 
 export function buildTrackSearchQuery(search: string): string {

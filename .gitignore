@@ -62,3 +62,8 @@ public/*.worker.js
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python + data backups
+__pycache__/
+*.pyc
+public/data/_backups/

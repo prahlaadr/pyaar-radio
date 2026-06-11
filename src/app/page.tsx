@@ -20,12 +20,15 @@ import { ImportModal } from "@/components/import-modal";
 import { PlaylistPicker } from "@/components/playlist-picker";
 import { fetchPlaylistIndex, fetchPlaylist } from "@/lib/playlists";
 import type { PlaylistIndexEntry } from "@/lib/types";
+import { PILLAR_COLOR } from "@/lib/types";
 import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
 import Fuse from "fuse.js";
 import hotkeys from "hotkeys-js";
 
 
 import { slugify } from "@/lib/slugify";
+import { applyOverrides, loadOverrides } from "@/lib/artist-overrides";
+import { AdminArtistEditor } from "@/components/admin-artist-editor";
 import type { TVChannel, TVChannelData } from "@/lib/tv-types";
 import { getNowPlaying } from "@/lib/tv-schedule";
 import { TvPlayer, type TvPlayerHandle } from "@/components/tv-player";
@@ -213,6 +216,7 @@ export default function Home() {
   const [mobileSetlistOpen, setMobileSetlistOpen] = useState(false);
   const [radioMode, setRadioMode] = useState(false);
   const [setlistMode, setSetlistMode] = useState(false);
+  const [admin, setAdmin] = useState(false);
   const setlistIndexRef = useRef(-1);
   const [chapters, setChapters] = useState<SetlistChapter[]>([]);
   const [chapterSuggestions, setChapterSuggestions] = useState<Track[]>([]);
@@ -403,11 +407,29 @@ export default function Home() {
       setNowPlaying(null);
       setRadioMode(false);
     });
+    // Admin re-label mode toggle (owner-only; also enabled via ?admin=1)
+    hotkeys("shift+ctrl+a", (e) => {
+      e.preventDefault();
+      setAdmin((v) => {
+        const next = !v;
+        try { localStorage.setItem("pyaar-admin", next ? "1" : "0"); } catch {}
+        return next;
+      });
+    });
     return () => {
       hotkeys.unbind("space");
       hotkeys.unbind("n");
       hotkeys.unbind("escape");
+      hotkeys.unbind("shift+ctrl+a");
     };
+  }, []);
+
+  // Enable admin from ?admin=1 or a prior session
+  useEffect(() => {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      if (p.get("admin") === "1" || localStorage.getItem("pyaar-admin") === "1") setAdmin(true);
+    } catch {}
   }, []);
 
   // Load saved setlists from localStorage on mount
@@ -479,21 +501,28 @@ export default function Home() {
         bpm_low: number;
         bpm_high: number;
         pillar: string | null;
+        pillar_v2: string | null;
+        zone: string | null;
+        desi_bool: string | null;
       }>(sql);
 
-      setAllArtists(
-        rows.map((r) => ({
-          artist: r.artist,
-          aliases: r.aliases ? r.aliases.split("|") : [],
-          channel: r.channel as Artist["channel"],
-          samay: r.samay as Artist["samay"],
-          desi: r.desi as Artist["desi"],
-          vibes: r.vibes ? r.vibes.split("|") : [],
-          bpmLow: Number(r.bpm_low) || 0,
-          bpmHigh: Number(r.bpm_high) || 0,
-          pillars: r.pillar ? r.pillar.split("|") : [],
-        }))
-      );
+      const parsed: Artist[] = rows.map((r) => ({
+        artist: r.artist,
+        aliases: r.aliases ? r.aliases.split("|") : [],
+        channel: r.channel as Artist["channel"],
+        samay: r.samay as Artist["samay"],
+        // desi is now orthogonal (desi_bool); fall back to the legacy column.
+        desi: (r.desi_bool ? r.desi_bool === "true" : r.desi === "Desi") ? "Desi" : "Non-Desi",
+        vibes: r.vibes ? r.vibes.split("|") : [],
+        bpmLow: Number(r.bpm_low) || 0,
+        bpmHigh: Number(r.bpm_high) || 0,
+        // pillar_v2 is the __laad spine; fall back to legacy pillar.
+        pillars: (r.pillar_v2 || r.pillar) ? (r.pillar_v2 || r.pillar)!.split("|") : [],
+        zone: (r.zone || "") as Artist["zone"],
+      }));
+
+      // Apply the admin override layer (localStorage) on top of CSV data.
+      setAllArtists(applyOverrides(parsed, loadOverrides()));
 
       setLoading(false);
     } catch (e) {
@@ -2376,16 +2405,23 @@ export default function Home() {
                 onArtistClick={navigateToArtist}
               />
             ) : selectedArtist ? (
-              <TrackList
-                artist={selectedArtist}
-                tracks={tracks}
-                loading={tracksLoading}
-                onBack={() => { handleSelectArtist(null); if (prevSectionMode.current !== "browse") { setSectionMode(prevSectionMode.current); } }}
-                onAddToSetlist={addToSetlist}
-                onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
-                nowPlaying={nowPlaying}
-                onFilteredTracksChange={setArtistFilteredTracks}
-              />
+              <div className="flex-1 min-h-0 flex flex-col">
+                {admin && (
+                  <div className="px-5 pt-3 shrink-0">
+                    <AdminArtistEditor artist={selectedArtist} onSaved={fetchArtists} />
+                  </div>
+                )}
+                <TrackList
+                  artist={selectedArtist}
+                  tracks={tracks}
+                  loading={tracksLoading}
+                  onBack={() => { handleSelectArtist(null); if (prevSectionMode.current !== "browse") { setSectionMode(prevSectionMode.current); } }}
+                  onAddToSetlist={addToSetlist}
+                  onPlay={(track) => { setSetlistMode(false); setNowPlaying(track); }}
+                  nowPlaying={nowPlaying}
+                  onFilteredTracksChange={setArtistFilteredTracks}
+                />
+              </div>
             ) : (
               <div ref={browseScrollRef} className="flex-1 overflow-y-auto min-h-0 flex flex-col">
                 {/* Featured artists — visible only on cold start */}
@@ -2416,9 +2452,11 @@ export default function Home() {
                           <span className="text-sm font-medium group-hover:text-red-500 transition-colors">
                             {artist.artist}
                           </span>
-                          <span className="text-[10px] text-[#888] uppercase tracking-wider">
-                            {artist.channel}
-                          </span>
+                          {artist.pillars[0] && (
+                            <span className="text-[10px] uppercase tracking-wider" style={{ color: PILLAR_COLOR[artist.pillars[0]] ?? "#888" }}>
+                              {artist.pillars[0]}{artist.zone ? ` · ${artist.zone}` : ""}
+                            </span>
+                          )}
                           {artist.desi === "Desi" && (
                             <span className="text-[10px] text-red-600 uppercase tracking-wider">
                               Desi

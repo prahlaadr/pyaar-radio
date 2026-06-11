@@ -1,5 +1,6 @@
 import { useRef, useState, useLayoutEffect } from "react";
 import type { Artist } from "@/lib/types";
+import { PILLAR_COLOR } from "@/lib/types";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
 interface Props {
@@ -80,9 +81,11 @@ export function ArtistList({ artists, onSelect, scrollElementRef }: Props) {
                 <span className="text-sm font-medium group-hover:text-red-500 transition-colors">
                   {artist.artist}
                 </span>
-                <span className="text-[10px] text-[#999] uppercase tracking-wider">
-                  {artist.channel}
-                </span>
+                {artist.pillars[0] && (
+                  <span className="text-[10px] uppercase tracking-wider" style={{ color: PILLAR_COLOR[artist.pillars[0]] ?? "#999" }}>
+                    {artist.pillars[0]}{artist.zone ? ` · ${artist.zone}` : ""}
+                  </span>
+                )}
                 {artist.desi === "Desi" && (
                   <span className="text-[10px] text-red-600 uppercase tracking-wider">
                     Desi
