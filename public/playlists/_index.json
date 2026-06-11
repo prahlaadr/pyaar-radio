@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 261,
- "totalTracks": 101855,
- "syncedAt": "2026-06-10T11:40:23.145070Z",
+ "totalTracks": 101940,
+ "syncedAt": "2026-06-11T12:11:25.279338Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
+   "title": "June 26",
+   "trackCount": 7
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
+   "title": "in the uber home",
+   "trackCount": 97
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
    "trackCount": 1450
-  },
-  {
-   "playlistId": "PL5I_ZIj7O2U251ldRX1jHuhi7hXkVunQy",
-   "title": "Nikki Nair Faves",
-   "trackCount": 13
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -58,11 +63,6 @@
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
    "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
-   "title": "June 26",
-   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",

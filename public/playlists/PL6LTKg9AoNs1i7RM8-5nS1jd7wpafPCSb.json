@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 6,
- "syncedAt": "2026-06-10T11:40:23.145070Z",
+ "trackCount": 7,
+ "syncedAt": "2026-06-11T12:11:25.279338Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -45,6 +45,13 @@
    "album": "in this body",
    "videoId": "lGYOmVp_kls",
    "duration": "2:37"
+  },
+  {
+   "title": "BILLO",
+   "artist": "EXCISE DEPT",
+   "album": "BILLO",
+   "videoId": "aAFJtkrZzNg",
+   "duration": "3:46"
   }
  ]
 }

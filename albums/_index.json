@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3418,
- "totalTracks": 43487,
- "syncedAt": "2026-06-10T11:40:19.799751Z",
+ "albumCount": 3419,
+ "totalTracks": 43494,
+ "syncedAt": "2026-06-11T12:11:22.133809Z",
  "albums": [
   {
    "browseId": "MPREb_o5aYH23PppL",
@@ -18363,6 +18363,12 @@
    "title": "Role Model",
    "artist": "Michael Christmas",
    "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_qqzYSfeQEV0",
+   "title": "Baggy Eyes",
+   "artist": "Michael Christmas",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_zSvPwA2ZASN",
