@@ -53,7 +53,7 @@ export function buildArtistQuery(filters: ArtistFilters): string {
   // Order by the __laad energy spine (stillest → most kinetic), then name.
   const energyRank = `CASE COALESCE(NULLIF(pillar_v2, ''), pillar)
     WHEN 'Soullaad' THEN 1 WHEN 'Hypelaad' THEN 2 WHEN 'Perclaad' THEN 3
-    WHEN 'Rowdylaad' THEN 4 WHEN 'Crowdlaad' THEN 5 WHEN 'Lucidlaad' THEN 6 ELSE 9 END`;
+    WHEN 'Rowdylaad' THEN 4 WHEN 'Crowdlaad' THEN 5 WHEN 'Traplaad' THEN 6 ELSE 9 END`;
   return `SELECT * FROM artists ${where} ORDER BY ${energyRank}, artist`;
 }
 

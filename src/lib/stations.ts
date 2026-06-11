@@ -17,7 +17,7 @@ export const STATIONS: Station[] = [
   // The three legacy channels, re-expressed as pillar slices.
   { name: "Soul",  color: "#9B72CF", desc: "Mellow → soulful (Soullaad)",          filters: { pillars: ["Soullaad"] } },
   { name: "Rave",  color: "#E05252", desc: "Club → bass → rave (Hypelaad+Rowdylaad)", filters: { pillars: ["Hypelaad", "Rowdylaad"] } },
-  { name: "Rap",   color: "#E08A52", desc: "Underground + crowd rap (Lucidlaad+Crowdlaad)", filters: { pillars: ["Lucidlaad", "Crowdlaad"] } },
+  { name: "Rap",   color: "#E08A52", desc: "Underground + crowd rap (Traplaad+Crowdlaad)", filters: { pillars: ["Traplaad", "Crowdlaad"] } },
   // Set-shaped presets that cut across the spine.
   { name: "Daybreaker", color: "#E2C044", desc: "Desi, daytime, mellow → uptempo", filters: { pillars: ["Soullaad", "Hypelaad"], desi: "Desi", samay: "Day" } },
   { name: "Percussive", color: "#C4835A", desc: "Global percussive floor (Perclaad)", filters: { pillars: ["Perclaad"] } },

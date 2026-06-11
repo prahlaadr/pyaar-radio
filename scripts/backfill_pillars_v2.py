@@ -3,7 +3,7 @@
 Backfill the __laad 6-pillar taxonomy onto artists.csv (ADDITIVE).
 
 Adds three columns without touching existing ones:
-  - pillar_v2 : pipe-separated of {Soullaad,Hypelaad,Perclaad,Rowdylaad,Crowdlaad,Lucidlaad}
+  - pillar_v2 : pipe-separated of {Soullaad,Hypelaad,Perclaad,Rowdylaad,Crowdlaad,Traplaad}
   - zone      : optional within-pillar sub-bucket (ambient/beats/soul/dub/dnb/leftfield/rave/support)
   - desi_bool : "true"/"false" — orthogonal desi tag, de-conflated from pillar names
 
@@ -25,7 +25,7 @@ JSX = os.path.join(os.path.expanduser("~"), "Downloads/pyaar-laad-system.jsx")
 
 PILLAR_NAMES = {
     "soullaad": "Soullaad", "hypelaad": "Hypelaad", "perclaad": "Perclaad",
-    "rowdylaad": "Rowdylaad", "crowdlaad": "Crowdlaad", "lucidlaad": "Lucidlaad",
+    "rowdylaad": "Rowdylaad", "crowdlaad": "Crowdlaad", "lucidlaad": "Traplaad",
 }
 
 # ---------- name normalization ----------
@@ -88,10 +88,10 @@ def infer(row):
 
     # no numbered pillar — fall back to channel + vibes
     if channel == "Rap":
-        # hits/pop → Crowdlaad, else underground → Lucidlaad
+        # hits/pop → Crowdlaad, else underground → Traplaad
         if has(vibes, "Pop"):
             return "Crowdlaad", "", "channel:Rap+Pop"
-        return "Lucidlaad", "", "channel:Rap"
+        return "Traplaad", "", "channel:Rap"
     if channel == "Soul":
         return "Soullaad", _soul_zone(vibes), "channel:Soul"
     if channel == "Rave":
@@ -190,7 +190,7 @@ def main():
     print(f"  matched from JSX : {matched_jsx}")
     print(f"  inferred by rule : {inferred}")
     print(f"\nPillar distribution (energy order):")
-    for p in ["Soullaad","Hypelaad","Perclaad","Rowdylaad","Crowdlaad","Lucidlaad"]:
+    for p in ["Soullaad","Hypelaad","Perclaad","Rowdylaad","Crowdlaad","Traplaad"]:
         print(f"  {p:12s} {pillar_count[p]:4d}")
     print(f"  desi-tagged      : {sum(1 for r in rows if r['desi_bool']=='true')}")
     print(f"\nZone distribution:")

@@ -1,12 +1,12 @@
 // The __laad energy spine — 6 pillars, ordered stillest → most kinetic.
-// Crowdlaad + Lucidlaad are context-dependent wildcards (sit outside the energy line).
+// Crowdlaad + Traplaad are context-dependent wildcards (sit outside the energy line).
 export const PILLARS_V2 = [
   { name: "Soullaad",  color: "#9B72CF", bg: "#2D1F3D", desc: "Ambient → groove, jazz, R&B, lovers rock" },
   { name: "Hypelaad",  color: "#E2C044", bg: "#3D3520", desc: "House, UKG, electronica, brewery → club" },
   { name: "Perclaad",  color: "#C4835A", bg: "#3D2B1F", desc: "Afrobeats, baile, footwork, amapiano, global percussive" },
   { name: "Rowdylaad", color: "#E05252", bg: "#3D1F1F", desc: "Bass, dubstep, DnB, jungle, breakbeat, rave" },
   { name: "Crowdlaad", color: "#5AAFB0", bg: "#1F3535", desc: "Trivia, pop, disco, classic hits, crowd-pleasers" },
-  { name: "Lucidlaad", color: "#E08A52", bg: "#3D2D1F", desc: "Underground rap, ATL, grimy hip-hop" },
+  { name: "Traplaad", color: "#E08A52", bg: "#3D2D1F", desc: "Underground rap, ATL, grimy hip-hop" },
 ] as const;
 
 export type PillarName = typeof PILLARS_V2[number]["name"];
