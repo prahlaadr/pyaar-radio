@@ -63,14 +63,18 @@ async function init() {
   conn = await db.connect();
 
   await conn.query(`
+    -- SELECT * so any new artists.csv column is automatically available (no schema
+    -- edit needed here — a forgotten column otherwise causes a silent Binder Error).
+    -- REPLACE only casts BPM to INT and null-coalesces text columns to ''.
     CREATE TABLE artists AS
-    SELECT artist, aliases, channel, samay, desi, vibes,
-           TRY_CAST(bpm_low AS INT) AS bpm_low,
-           TRY_CAST(bpm_high AS INT) AS bpm_high,
-           COALESCE(pillar, '') AS pillar,
-           COALESCE(pillar_v2, '') AS pillar_v2,
-           COALESCE(zone, '') AS zone,
-           COALESCE(desi_bool, '') AS desi_bool
+    SELECT * REPLACE (
+      TRY_CAST(bpm_low AS INT) AS bpm_low,
+      TRY_CAST(bpm_high AS INT) AS bpm_high,
+      COALESCE(pillar, '') AS pillar,
+      COALESCE(pillar_v2, '') AS pillar_v2,
+      COALESCE(zone, '') AS zone,
+      COALESCE(desi_bool, '') AS desi_bool
+    )
     FROM read_csv('artists.csv', delim=',', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
   await conn.query(`
