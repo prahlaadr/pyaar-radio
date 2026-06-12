@@ -18,7 +18,7 @@ Heems,,Rap,Day,Desi,Nodders|Groove,70,178,2 Desi Lofi|3 Desi Uptempo,Traplaad,,t
 ICYTWAT,,Rap,Day/Night,Non-Desi,Trap|Dark|Nodders,76,160,,Traplaad,,false
 Kanye West,,Rap,Day/Night,Non-Desi,Nodders|Soulful|Groove|Trap,67,191,,Traplaad,,false
 Kenny Beats,,Rap,Day,Non-Desi,Groove|Future Beats|Trap|Boom Bap,81,180,5 Trivia Crowd,Soullaad,beats,false
-Knxwledge,,Rap,Day/Night,Non-Desi,Nodders|Groove|Boom Bap,76,170,1 Mellow,Soullaad,beats,false
+Knxwledge,Knxledge,Rap,Day/Night,Non-Desi,Nodders|Groove|Boom Bap,76,170,1 Mellow,Soullaad,beats,false
 Kodak Black,,Rap,Night,Non-Desi,Trap|Rowdy|Groove,70,177,,Traplaad,,false
 Laila!,,Rap,Day,Non-Desi,Groove|Soulful|Rowdy,83,135,,Traplaad,,false
 Larry June,,Rap,Day,Non-Desi,Groove|Nodders|Boom Bap,75,157,,Traplaad,,false
@@ -58,7 +58,7 @@ Vayda,,Rap,Day/Night,Non-Desi,Groove|Nodders|Club,78,177,5 Trivia Crowd,Traplaad
 Westside Gunn,,Rap,Night,Non-Desi,Nodders|Dark|Boom Bap,78,180,,Traplaad,,false
 Yeat,,Rap,Night,Non-Desi,Trap|Rave|Rowdy,70,177,5 Trivia Crowd,Crowdlaad,,false
 Young Thug,,Rap,Night,Non-Desi,Trap|Pop|Nodders,71,180,3 Desi Uptempo|5 Trivia Crowd,Traplaad,,false
-Zack Fox,,Rap,Day/Night,Non-Desi,Rowdy|Nodders,73,159,,Traplaad,,false
+Zack Fox,Zach Fox,Rap,Day/Night,Non-Desi,Rowdy|Nodders,73,159,,Traplaad,,false
 Zelooperz,,Rap,Night,Non-Desi,Rowdy|Nodders|Dark,76,172,4 Bass Rave|5 Trivia Crowd,Traplaad,,false
 $EJ,,Rave,Night,Desi,Club|Groove,110,140,,Hypelaad,,true
 6091,,Rave,Day/Night,Desi,Percussive|Bass|Pop,78,157,,Soullaad,ambient,true
@@ -499,7 +499,6 @@ Jun Tanaka,,,,Non-Desi,,,,Soullaad,Soullaad,beats,false
 Olea,,,,Non-Desi,,,,Soullaad,Soullaad,beats,false
 Shaka Lion,,,,Non-Desi,,,,Soullaad,Soullaad,beats,false
 Sasha Marie,,,,Non-Desi,,,,Soullaad,Soullaad,beats,false
-Knxledge,,,,Non-Desi,,,,Soullaad,Soullaad,beats,false
 Puma Blue,,,,Non-Desi,,,,Soullaad,Soullaad,soul,false
 Kokoroko,,,,Non-Desi,,,,Soullaad,Soullaad,soul,false
 Harini,,,,Desi,,,,Soullaad,Soullaad,soul,true
@@ -551,7 +550,6 @@ BTS,,,,Non-Desi,,,,Crowdlaad,Crowdlaad,,false
 Princess Nokia,,,,Non-Desi,,,,Crowdlaad,Crowdlaad,,false
 Maxine Ashley,,,,Non-Desi,,,,Crowdlaad,Crowdlaad,,false
 The Marias,,,,Non-Desi,,,,Crowdlaad,Crowdlaad,,false
-Zach Fox,,,,Non-Desi,,,,Traplaad,Traplaad,,false
 Key Glock,,,,Non-Desi,,,,Traplaad,Traplaad,,false
 OJ Da Juiceman,,,,Non-Desi,,,,Traplaad,Traplaad,,false
 Jay Critch,,,,Non-Desi,,,,Traplaad,Traplaad,,false
