@@ -47,7 +47,7 @@ masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_release_date.py (Release Date from album JSONs, no API)
                ◀── manual edits (Tags, SoundCloud IDs)
 
-artists.csv ── manually curated (294 artists, gatekeeper for imports)
+artists.csv ── manually curated (589 artists, gatekeeper for imports)
 ```
 
 ### Three Separate Data Stores
@@ -57,7 +57,7 @@ artists.csv ── manually curated (294 artists, gatekeeper for imports)
 | **masterlist.csv** | Liked songs + monthly playlists | `sync_liked.py` | `public/data/` |
 | **albums/*.json** | Saved/liked albums | `sync_albums.py` | `albums/` |
 | **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `public/playlists/` |
-| **artists.csv** | Manually curated (294, see PRs for additions) | Direct edit | `public/data/` |
+| **artists.csv** | Manually curated (589, see PRs for additions) | Direct edit | `public/data/` |
 
 Each is synced independently. They never bleed into each other.
 
@@ -301,8 +301,9 @@ Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlist
 | Request | What to do |
 |---------|------------|
 | "Add a song" / "Add this track" | Add row to `public/data/masterlist.csv` — fill Artist Name(s), Track Name, and either Video ID (YouTube) or Soundcloud ID |
-| "Add an artist" | Add row to `public/data/artists.csv` — fill artist, channel, samay, desi, vibes, bpm_low, bpm_high |
+| "Add an artist" | Add row to `public/data/artists.csv` — fill artist, samay, vibes, bpm_low, bpm_high, **pillar_v2** (one of Soullaad/Hypelaad/Perclaad/Rowdylaad/Crowdlaad/Traplaad), optional zone, and **desi_bool** (`true`/`false`). `channel`/`pillar`/`desi` legacy columns can be left blank. |
 | "Change vibes for X" | Edit the `vibes` column in `artists.csv` (pipe-separated) |
+| "Re-label a pillar/zone/desi" | Easiest in-app: **⇧⌃A** → click artist → edit (writes through to CSV locally). Or edit `pillar_v2`/`zone`/`desi_bool` directly. |
 | "Tag tracks" | Edit the `Tags` column in `masterlist.csv` (pipe-separated) |
 | "Add BPM/key" | Edit `Tempo` and `Key` columns in `masterlist.csv` |
 | "Sync from YT Music" | Run `python sync_liked.py --yes` in pyaar-radio, or trigger the GitHub Action |
@@ -352,25 +353,49 @@ Auto-synced from YT Music daily at 3AM (liked songs + monthly playlists). **Safe
 
 **Do NOT edit:** Track Name, Artist Name(s), Album Name, Liked, Playlist 1-5, Playlist Count, Video ID — these are overwritten by daily sync.
 
-### artists.csv (294 curated artists)
+### artists.csv (589 curated artists)
 Edited directly. Columns:
 
 | Column | Format | Example |
 |--------|--------|---------|
 | artist | text | `Flying Lotus` |
 | aliases | pipe-separated | `FlyLo\|Steven Ellison` (for matching tracks with alternate artist names) |
-| channel | Rave/Rap/Soul | `Rave` |
+| channel | Rave/Rap/Soul *(deprecated)* | `Rave` |
 | samay | Day/Night/Day/Night | `Night` |
-| desi | Desi/Non-Desi | `Non-Desi` |
+| desi | Desi/Non-Desi *(legacy — see `desi_bool`)* | `Non-Desi` |
 | vibes | pipe-separated | `Bass\|Psych\|Future Beats` |
 | bpm_low | number | `80` |
 | bpm_high | number | `170` |
+| pillar | legacy numbered pillars *(superseded by `pillar_v2`)* | `1 Mellow\|3 Desi Uptempo` |
+| **pillar_v2** | pipe-separated __laad pillars | `Soullaad\|Hypelaad` |
+| **zone** | within-pillar sub-bucket (optional) | `ambient` |
+| **desi_bool** | `true`/`false` (orthogonal desi tag) | `true` |
 
-### Taxonomy
+The app reads **`pillar_v2` / `desi_bool` first, falling back to the legacy `pillar` / `desi`** columns (dual-read). `channel` is no longer used by the UI — Stations are derived in `src/lib/stations.ts`.
 
-- **Channels:** Rave, Rap, Soul
-- **Samay:** Day, Night, Day/Night
-- **Vibes (20):** Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Dub, Club, Garage, Future Beats, Electronica, Ambient, Trap, Boom Bap, Pop
+### Taxonomy (the __laad system)
+
+The spine is **6 energy-ordered pillars** (`pillar_v2`), stillest → most kinetic, with two context wildcards:
+
+- **Soullaad** — ambient → groove, jazz, R&B, lovers rock
+- **Hypelaad** — house, UKG, electronica, brewery → club
+- **Perclaad** — afrobeats, baile, footwork, amapiano, global percussive
+- **Rowdylaad** — bass, dubstep, DnB, jungle, breakbeat, rave
+- **Crowdlaad** *(wildcard)* — trivia, pop, disco, classic hits, crowd-pleasers
+- **Traplaad** *(wildcard)* — underground rap, ATL, grimy hip-hop
+
+Orthogonal axes (each answers one question, no axis encodes another):
+- **desi_bool** — `true`/`false` diaspora tag (🪷), cross-cuts all pillars. *Not* a pillar.
+- **zone** — sub-bucket within a pillar: `ambient`, `beats`, `soul`, `dub`, `dnb`, `leftfield`, `rave`, `support`.
+- **samay** — Day / Night / Day/Night.
+- **vibes (18):** Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Dub, Club, Garage, Future Beats, Electronica, Ambient, Trap, Boom Bap, Pop.
+- **Stations** (Soul / Rave / Rap / Daybreaker / Percussive) are **derived saved-filter slices**, defined in `src/lib/stations.ts` — not stored per-artist.
+
+Pillar definitions + colors live in `src/lib/types.ts` (`PILLARS_V2`). Backfill script: `scripts/backfill_pillars_v2.py` (idempotent; seeds from `~/Downloads/pyaar-laad-system.jsx` + rule fallback). Add JSX-only artists with `scripts/add_missing_laad_artists.py`.
+
+### Admin re-label (in-app)
+
+Toggle with **⇧⌃A** or `?admin=1`, then click any artist to edit its pillar/zone/desi. Persistence is hybrid (`src/lib/artist-overrides.ts`): instant localStorage override (works on the read-only deployed site) + a dev-mode write-through to `artists.csv` via `PATCH /api/artists` when running locally. **Export overrides** downloads a JSON patch to commit. On Vercel the write-through 500s by design and the localStorage layer takes over.
 
 ## Crate Scripts (for hydration/sync)
 
@@ -413,7 +438,7 @@ How new music gets into the library. Three-stage loop: **scan → triage → app
 
 `.github/workflows/radar-scan.yml` runs on the 1st of each month at 9 AM EST. It:
 
-1. Loads the 294 artists in `public/data/artists.csv`
+1. Loads the 589 artists in `public/data/artists.csv`
 2. For each, fetches their latest album/EP from YT Music
 3. Filters out noise (compilations, anniversary editions, instrumentals — see `radar/release.py:NOISE_PATTERN`)
 4. Compares against `known_albums` table in `radar/state.db` (DuckDB)
@@ -502,7 +527,7 @@ Audit output drops into `release_alerts` with `release_type='audit_gap'` so it f
 | Workflow | Schedule | Purpose | Output |
 |---|---|---|---|
 | `sync-masterlist.yml` | Daily 3 AM EST | Pull liked + monthly playlists + saved albums + all playlists from YT Music | `masterlist.csv`, `albums.csv`, `albums/*.json`, `public/playlists/*.json` |
-| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 294 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
+| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 589 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
 | `triage-apply.yml` | Manual dispatch | Apply triage picks (save albums, like singles); refresh CSVs | YT Music library mutations + `triage-runs/*.log.json` |
 | `sync-tv-channels.yml` | Weekly Sunday 7 AM EST | Refresh Pyaar.TV channel videos | `public/data/tv/channels.json` |
 
@@ -525,7 +550,7 @@ Channel Surfer-inspired TV guide at `/tv`. Simulates live TV with YouTube videos
 ### Channel data pipeline
 
 ```
-artists.csv (294 curated artists)
+artists.csv (589 curated artists)
   │
   ├─ Standard channels: yt-dlp pulls latest from YouTube channel URLs
   │
