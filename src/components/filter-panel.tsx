@@ -223,20 +223,12 @@ export function FilterPanel({
                 </button>
               )}
               {onSectionToggle && (
-                <>
-                  <button
-                    onClick={() => onSectionToggle("downtempo")}
-                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-cyan-400"
-                  >
-                    Downtempo
-                  </button>
-                  <button
-                    onClick={() => onSectionToggle("ambient")}
-                    className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-purple-400"
-                  >
-                    Ambient
-                  </button>
-                </>
+                <button
+                  onClick={() => onSectionToggle("ambient")}
+                  className="px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors bg-[#111] text-[#999] hover:text-purple-400"
+                >
+                  Ambient
+                </button>
               )}
             </div>
           </>

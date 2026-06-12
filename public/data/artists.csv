@@ -23,9 +23,9 @@ Kodak Black,,Rap,Night,Non-Desi,Trap|Rowdy|Groove,70,177,,Traplaad,,false
 Laila!,,Rap,Day,Non-Desi,Groove|Soulful|Rowdy,83,135,,Traplaad,,false
 Larry June,,Rap,Day,Non-Desi,Groove|Nodders|Boom Bap,75,157,,Traplaad,,false
 Lil Wayne,,Rap,Night,Non-Desi,Rowdy|Trap|Nodders,74,192,5 Trivia Crowd,Crowdlaad,,false
-Lil Yachty,,Rap,Day/Night,Non-Desi,Pop|Trap|Rowdy,72,184,3 Desi Uptempo|4 Bass Rave|5 Trivia Crowd,Rowdylaad,,false
+Lil Yachty,Yachty,Rap,Day/Night,Non-Desi,Pop|Trap|Rowdy,72,184,3 Desi Uptempo|4 Bass Rave|5 Trivia Crowd,Rowdylaad,,false
 Lisha G,,Rap,Day,Non-Desi,Groove|Soulful,70,152,,Traplaad,,false
-Little Simz,,Rap,Day/Night,Non-Desi,Nodders|Groove|Soulful,47,184,,Traplaad,,false
+Little Simz,Simz,Rap,Day/Night,Non-Desi,Nodders|Groove|Soulful,47,184,,Traplaad,,false
 Lupe Fiasco,,Rap,Day/Night,Non-Desi,Nodders|Soulful|Boom Bap,76,208,,Traplaad,,false
 M.I.A.,,Rap,Day/Night,Desi,Rowdy|Club|Pop,92,172,3 Desi Uptempo,Hypelaad,,true
 MF DOOM,,Rap,Night,Non-Desi,Nodders|Dark|Boom Bap|Groove,77,201,,Traplaad,,false
@@ -104,7 +104,7 @@ Great Dane,,Rave,Night,Non-Desi,Bass|Club,95,160,4 Bass Rave,Rowdylaad,leftfield
 HOLLY,Holly,Rave,Night,Non-Desi,Bass|Rowdy|Club|Trap,78,174,,Rowdylaad,,false
 Halogenix,,Rave,Night,Non-Desi,Nodders|DnB|Soulful,85,174,4 Bass Rave,Rowdylaad,dnb,false
 Hamdi,,Rave,Night,Non-Desi,Dubstep|Garage|Rave,140,166,3 Desi Uptempo|4 Bass Rave,Rowdylaad,support,true
-Hudson Mohawke,,Rave,Night,Non-Desi,Bass|Future Beats|Percussive|Trap|Club,88,197,3 Desi Uptempo|4 Bass Rave,Rowdylaad,,false
+Hudson Mohawke,HudMo,Rave,Night,Non-Desi,Bass|Future Beats|Percussive|Trap|Club,88,197,3 Desi Uptempo|4 Bass Rave,Rowdylaad,,false
 Interplanetary Criminal,,Rave,Night,Non-Desi,Club|Groove|Garage,130,144,,Hypelaad,,false
 Ivy Lab,,Rave,Night,Non-Desi,DnB|Dark|Soulful|Bass,64,203,4 Bass Rave,Rowdylaad,dnb,false
 J.Robb,J Robb|J. Robb,Rave,Day,Non-Desi,Groove|Future Beats|Bass,84,102,,Rowdylaad,leftfield,false
@@ -136,7 +136,7 @@ Medasin,,Rave,Night,Non-Desi,Future Beats|Groove|Electronica,75,155,1 Mellow,Sou
 Mera Bhai,,Rave,Day,Desi,Soulful|Future Beats,90,136,2 Desi Lofi,Hypelaad,,true
 Mirror Maze,,Rave,Night,Non-Desi,Bass|Rave,59,161,,Rowdylaad,rave,false
 Mount Kimbie,Mount Kimbie,Rave,Night,Non-Desi,Dark|Bass|Electronica|Garage,70,180,,Rowdylaad,,false
-Mr. Carmack,,Rave,Night,Non-Desi,Bass|Groove|Trap|Future Beats,74,184,4 Bass Rave,Rowdylaad,,false
+Mr. Carmack,Carmack,Rave,Night,Non-Desi,Bass|Groove|Trap|Future Beats,74,184,4 Bass Rave,Rowdylaad,,false
 MssingNo,Mssingno,Rave,Night,Non-Desi,Bass|Dark|Club|Garage,69,140,,Rowdylaad,,false
 Nia Archives,,Rave,Night,Non-Desi,DnB|Groove|Garage|Soulful,85,175,3 Desi Uptempo|4 Bass Rave,Rowdylaad,dnb,false
 Nikki Nair,,Rave,Night,Non-Desi,Club|Bass|Percussive,121,160,3 Desi Uptempo|4 Bass Rave,Hypelaad,,false
@@ -199,7 +199,7 @@ pandi,,Rave,Night,Non-Desi,Dark|Rowdy,77,145,,Hypelaad,,false
 piri & tommy,piri|tommy,Rave,Night,Non-Desi,Club|Bass,90,180,,Rowdylaad,,false
 rareman,Rareman,Rave,Night,Non-Desi,Bass|Club|Percussive,140,140,,Rowdylaad,,false
 salute,salute & piri,Rave,Night,Non-Desi,Club|Garage|Groove,130,172,,Hypelaad,,false
-sam gellaitry,,Rave,Day/Night,Non-Desi,Groove|Future Beats,71,169,,Hypelaad,,false
+sam gellaitry,Sam G,Rave,Day/Night,Non-Desi,Groove|Future Beats,71,169,,Hypelaad,,false
 truant.,Truant,Rave,Night,Non-Desi,Bass|Club,100,142,,Rowdylaad,,false
 ANUSHKA,,Soul,Day/Night,Non-Desi,Soulful|Club|Bass,100,172,,Rowdylaad,support,true
 Arooj Aftab,,Soul,Day,Desi,Soulful|Dark|Ambient,83,179,2 Desi Lofi,Soullaad,ambient,true
@@ -423,7 +423,7 @@ Fcukers,,,,,Club,,,4 Bass Rave,Hypelaad,,false
 Young Stoner Life,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 André 3000,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Pharrell Williams,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
-Kendrick Lamar,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
+Kendrick Lamar,Kendrick,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 SZA,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Isaiah Rashad,,,,,Trap,,,5 Trivia Crowd,Traplaad,,false
 USHER,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
@@ -473,13 +473,13 @@ Migos,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Lil Baby,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Young Nudy,,,,,Trap,,,5 Trivia Crowd,Traplaad,,false
 Pi’erre Bourne,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
-Waka Flocka Flame,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
+Waka Flocka Flame,Waka Flocka,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 DJ Spinz,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Ludacris,,,,,Pop,,,5 Trivia Crowd,Crowdlaad,,false
 Ahadadream,,Rave,Night,Desi,Bass|Garage|Dubstep,130,160,3 Desi Uptempo|4 Bass Rave,Rowdylaad,support,true
 Clearcast,,Rave,Night,Non-Desi,Garage|Club|Bass,130,145,,Hypelaad,,false
 Nightmares on Wax,Nightmares On Wax,Soul,Day/Night,Non-Desi,Soulful|Groove|Electronica,70,110,1 Mellow,Soullaad,soul,false
-Nikita the Wicked,"Nikita, the Wicked|Nikita, The Wicked",Rave,Night,Non-Desi,Bass|Future Beats|Pop,100,160,,Rowdylaad,,false
+Nikita the Wicked,"Nikita, the Wicked|Nikita, The Wicked|Nikita",Rave,Night,Non-Desi,Bass|Future Beats|Pop,100,160,,Rowdylaad,,false
 Pìjus,,Soul,Day/Night,Non-Desi,Soulful|Ambient|Groove,80,120,,Soullaad,ambient,false
 Taiki Nulight,Taiki & Nulight,Rave,Night,Non-Desi,Dubstep|Bass|Future Beats,130,160,,Rowdylaad,dub,false
 Vanyfox,,Rave,Night,Non-Desi,Rave|Bass|Percussive,120,145,,Perclaad,,false
@@ -586,3 +586,6 @@ Giyu,,,,Desi,Club,,,Hypelaad,Hypelaad,,true
 Neel,,,,Desi,Ambient,,,Soullaad,Soullaad,ambient,true
 Rajah Betta,,,,Desi,Future Beats,,,Soullaad,Soullaad,beats,true
 Farooq,,,,Desi,Future Beats,,,Soullaad,Soullaad,beats,true
+Twenty/Twenty,,,,Non-Desi,Bass,,,Rowdylaad,Rowdylaad,leftfield,false
+Sunflwr/Pijus,,,,Desi,Club,,,Hypelaad,Hypelaad,,true
+Miracle Mangal/SIdd,,,,Desi,Club,,,Hypelaad,Hypelaad,,true
