@@ -47,7 +47,7 @@ masterlist.csv ◀── hydrate_bpm.py (BPM/Key via essentia)
                ◀── hydrate_release_date.py (Release Date from album JSONs, no API)
                ◀── manual edits (Tags, SoundCloud IDs)
 
-artists.csv ── manually curated (589 artists, gatekeeper for imports)
+artists.csv ── manually curated (587 artists, gatekeeper for imports)
 ```
 
 ### Three Separate Data Stores
@@ -57,7 +57,7 @@ artists.csv ── manually curated (589 artists, gatekeeper for imports)
 | **masterlist.csv** | Liked songs + monthly playlists | `sync_liked.py` | `public/data/` |
 | **albums/*.json** | Saved/liked albums | `sync_albums.py` | `albums/` |
 | **playlists/*.json** | All 244 playlists | `sync_playlists.py` | `public/playlists/` |
-| **artists.csv** | Manually curated (589, see PRs for additions) | Direct edit | `public/data/` |
+| **artists.csv** | Manually curated (587, see PRs for additions) | Direct edit | `public/data/` |
 
 Each is synced independently. They never bleed into each other.
 
@@ -353,7 +353,7 @@ Auto-synced from YT Music daily at 3AM (liked songs + monthly playlists). **Safe
 
 **Do NOT edit:** Track Name, Artist Name(s), Album Name, Liked, Playlist 1-5, Playlist Count, Video ID — these are overwritten by daily sync.
 
-### artists.csv (589 curated artists)
+### artists.csv (587 curated artists)
 Edited directly. Columns:
 
 | Column | Format | Example |
@@ -438,7 +438,7 @@ How new music gets into the library. Three-stage loop: **scan → triage → app
 
 `.github/workflows/radar-scan.yml` runs on the 1st of each month at 9 AM EST. It:
 
-1. Loads the 589 artists in `public/data/artists.csv`
+1. Loads the 587 artists in `public/data/artists.csv`
 2. For each, fetches their latest album/EP from YT Music
 3. Filters out noise (compilations, anniversary editions, instrumentals — see `radar/release.py:NOISE_PATTERN`)
 4. Compares against `known_albums` table in `radar/state.db` (DuckDB)
@@ -527,7 +527,7 @@ Audit output drops into `release_alerts` with `release_type='audit_gap'` so it f
 | Workflow | Schedule | Purpose | Output |
 |---|---|---|---|
 | `sync-masterlist.yml` | Daily 3 AM EST | Pull liked + monthly playlists + saved albums + all playlists from YT Music | `masterlist.csv`, `albums.csv`, `albums/*.json`, `public/playlists/*.json` |
-| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 589 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
+| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 587 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
 | `triage-apply.yml` | Manual dispatch | Apply triage picks (save albums, like singles); refresh CSVs | YT Music library mutations + `triage-runs/*.log.json` |
 | `sync-tv-channels.yml` | Weekly Sunday 7 AM EST | Refresh Pyaar.TV channel videos | `public/data/tv/channels.json` |
 
@@ -550,7 +550,7 @@ Channel Surfer-inspired TV guide at `/tv`. Simulates live TV with YouTube videos
 ### Channel data pipeline
 
 ```
-artists.csv (589 curated artists)
+artists.csv (587 curated artists)
   │
   ├─ Standard channels: yt-dlp pulls latest from YouTube channel URLs
   │
