@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3419,
- "totalTracks": 43494,
- "syncedAt": "2026-06-11T12:11:22.133809Z",
+ "albumCount": 3420,
+ "totalTracks": 43507,
+ "syncedAt": "2026-06-12T11:44:28.565869Z",
  "albums": [
+  {
+   "browseId": "MPREb_Zw3AloBrysn",
+   "title": "SOMA",
+   "artist": "Skrillex",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_o5aYH23PppL",
    "title": "Trying Times",
@@ -7171,7 +7177,7 @@
   {
    "browseId": "MPREb_Qta42QnH96Y",
    "title": "Life Time",
-   "artist": "Anthony Williams",
+   "artist": "Tony Williams",
    "trackCount": 5
   },
   {
