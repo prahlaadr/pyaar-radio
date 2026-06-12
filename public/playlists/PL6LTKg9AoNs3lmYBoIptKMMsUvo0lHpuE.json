@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3lmYBoIptKMMsUvo0lHpuE",
  "title": "Produced by JERMAINE DUPRI",
  "trackCount": 194,
- "syncedAt": "2026-06-12T11:44:32.078598Z",
+ "syncedAt": "2026-06-12T17:10:58.889972Z",
  "tracks": [
   {
    "title": "In My Bed (So So Def Mix)",
@@ -54,9 +54,9 @@
    "duration": "3:16"
   },
   {
-   "title": "Where the Party At (feat. Nelly)",
-   "artist": "Jagged Edge",
-   "album": "Jagged Little Thrill",
+   "title": "Where the Party At",
+   "artist": "Jagged Edge - Topic",
+   "album": "",
    "videoId": "yEGD_TV0DWg",
    "duration": "3:53"
   },
@@ -181,8 +181,8 @@
   },
   {
    "title": "Burn",
-   "artist": "Usher",
-   "album": "Confessions (Expanded Edition)",
+   "artist": "USHER - Topic",
+   "album": "",
    "videoId": "bk8kpHGsXDY",
    "duration": "3:52"
   },
@@ -279,22 +279,22 @@
   },
   {
    "title": "Long Ago",
-   "artist": "Mariah Carey",
-   "album": "Daydream",
+   "artist": "Mariah Carey - Topic",
+   "album": "",
    "videoId": "bYp4IoNltZU",
    "duration": "4:32"
   },
   {
    "title": "I'm Ready",
-   "artist": "Sean LeVert",
-   "album": "The Other Side",
+   "artist": "Sean Levert - Topic",
+   "album": "",
    "videoId": "GiJ2CTDd1WE",
    "duration": "5:01"
   },
   {
    "title": "Girlfriend",
-   "artist": "Alicia Keys",
-   "album": "Songs In A Minor",
+   "artist": "Alicia Keys - Topic",
+   "album": "",
    "videoId": "PvVZVs0RlYg",
    "duration": "3:35"
   },
@@ -335,8 +335,8 @@
   },
   {
    "title": "My Way",
-   "artist": "Usher",
-   "album": "My Way",
+   "artist": "USHER - Topic",
+   "album": "",
    "videoId": "GpPvAoQScZU",
    "duration": "3:35"
   },
@@ -370,15 +370,15 @@
   },
   {
    "title": "Keep On, Keepin' On (feat. Xscape)",
-   "artist": "MC Lyte",
-   "album": "Bad As I Wanna B",
+   "artist": "MC Lyte - Topic",
+   "album": "",
    "videoId": "1KAKcor_cWg",
    "duration": "4:32"
   },
   {
    "title": "I Gotta Be",
-   "artist": "Jagged Edge",
-   "album": "A Jagged Era",
+   "artist": "Jagged Edge - Topic",
+   "album": "",
    "videoId": "y96ap3FZ1RM",
    "duration": "3:36"
   },
@@ -502,9 +502,9 @@
    "duration": "3:53"
   },
   {
-   "title": "Get Your Number (feat. Jermaine Dupri)",
-   "artist": "Mariah Carey",
-   "album": "The Emancipation of Mimi",
+   "title": "Get Your Number",
+   "artist": "Mariah Carey - Topic",
+   "album": "",
    "videoId": "uM1lg2GalE8",
    "duration": "3:16"
   },
@@ -601,8 +601,8 @@
   },
   {
    "title": "Foolin' Around",
-   "artist": "Usher",
-   "album": "Raymond v Raymond (Expanded Edition)",
+   "artist": "USHER - Topic",
+   "album": "",
    "videoId": "IXT2kWf5SyU",
    "duration": "4:12"
   },

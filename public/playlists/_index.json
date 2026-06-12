@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 261,
- "totalTracks": 101940,
- "syncedAt": "2026-06-12T11:44:32.078598Z",
+ "totalTracks": 101901,
+ "syncedAt": "2026-06-12T17:10:58.889972Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1451
+  },
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
@@ -13,11 +18,6 @@
    "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
    "title": "in the uber home",
    "trackCount": 97
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1450
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -517,7 +517,7 @@
   {
    "playlistId": "PL6LTKg9AoNs34jVjOOd1qIMky_qi2dGFr",
    "title": "sep 24",
-   "trackCount": 40
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs3JVDEKADP4tMU7AGJKOdV7",
