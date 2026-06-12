@@ -6,7 +6,7 @@ const SAMAY = ["Day", "Night", "Day/Night"] as const;
 // Genre = primary filter (energy-ish order, chill → hype). Backed by the `vibes`
 // column; every artist now has at least one genre (see scripts/backfill_genre.py).
 const GENRES = [
-  "Ambient", "Soul", "Future Beats", "Boom Bap", "Electronica", "Club", "Garage",
+  "Ambient", "Soul", "Indie", "Future Beats", "Boom Bap", "Electronica", "Club", "Garage",
   "Afro", "Bass", "Dub", "Dubstep", "DnB", "Rave", "Trap", "Pop",
 ] as const;
 
