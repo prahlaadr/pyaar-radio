@@ -371,27 +371,26 @@ Edited directly. Columns:
 | **zone** | within-pillar sub-bucket (optional) | `ambient` |
 | **desi_bool** | `true`/`false` (orthogonal desi tag) | `true` |
 
-The app reads **`pillar_v2` / `desi_bool` first, falling back to the legacy `pillar` / `desi`** columns (dual-read). `channel` is no longer used by the UI — Stations are derived in `src/lib/stations.ts`.
+The app reads **`pillar_v2` / `desi_bool` first, falling back to the legacy `pillar` / `desi`** columns (dual-read). `channel` is no longer used by the UI.
 
-### Taxonomy (the __laad system)
+### Filter UI — genre-first
 
-The spine is **6 energy-ordered pillars** (`pillar_v2`), stillest → most kinetic, with two context wildcards:
+The browse filter (`src/components/filter-panel.tsx`) is **genre-first** (as of the redesign):
 
-- **Soullaad** — ambient → groove, jazz, R&B, lovers rock
-- **Hypelaad** — house, UKG, electronica, brewery → club
-- **Perclaad** — afrobeats, baile, footwork, amapiano, global percussive
-- **Rowdylaad** — bass, dubstep, DnB, jungle, breakbeat, rave
-- **Crowdlaad** *(wildcard)* — trivia, pop, disco, classic hits, crowd-pleasers
-- **Traplaad** *(wildcard)* — underground rap, ATL, grimy hip-hop
+- **Genre (primary):** Ambient, Soul, Future Beats, Boom Bap, Electronica, Club, Garage, Afro, Bass, Dub, Dubstep, DnB, Rave, Trap, Pop — backed by the `vibes` column. Every artist has ≥1 genre (`scripts/backfill_genre.py` seeds the untagged from `pillar_v2`+`zone`).
+- **Mood (secondary):** Groove, Soulful, Rowdy, Nodders, Dark, Percussive — also `vibes`.
+- **🪷 Desi** prominent toggle (`desi_bool`), **Day/Night** (`samay`), **Tamil / Downtempo / Ambient** sections, **BPM**.
+- Vibes matching is **exact pipe-token** + **OR within the facet** (so "Soul" ≠ "Soulful", and selecting multiple genres broadens). See `buildArtistQuery` in `src/lib/queries.ts`.
+- The `__laad` pillar row and the old Stations row were **removed** from the UI.
 
-Orthogonal axes (each answers one question, no axis encodes another):
-- **desi_bool** — `true`/`false` diaspora tag (🪷), cross-cuts all pillars. *Not* a pillar.
-- **zone** — sub-bucket within a pillar: `ambient`, `beats`, `soul`, `dub`, `dnb`, `leftfield`, `rave`, `support`.
-- **samay** — Day / Night / Day/Night.
-- **vibes (18):** Groove, Soulful, Rowdy, Nodders, Dark, Percussive, Rave, Bass, Dubstep, DnB, Dub, Club, Garage, Future Beats, Electronica, Ambient, Trap, Boom Bap, Pop.
-- **Stations** (Soul / Rave / Rap / Daybreaker / Percussive) are **derived saved-filter slices**, defined in `src/lib/stations.ts` — not stored per-artist.
+### Taxonomy — `__laad` pillars (data layer, not a filter)
 
-Pillar definitions + colors live in `src/lib/types.ts` (`PILLARS_V2`). Backfill script: `scripts/backfill_pillars_v2.py` (idempotent; seeds from `~/Downloads/pyaar-laad-system.jsx` + rule fallback). Add JSX-only artists with `scripts/add_missing_laad_artists.py`.
+`pillar_v2` is no longer a filter, but still powers **artist-list ordering**, the **admin re-label** editor, and **seeds genre backfill**. The 6 energy-ordered pillars (stillest → most kinetic):
+
+- **Soullaad** · **Hypelaad** · **Perclaad** · **Rowdylaad** · **Crowdlaad** *(wildcard)* · **Traplaad** *(wildcard)*
+- **zone** — sub-bucket: `ambient`, `beats`, `soul`, `dub`, `dnb`, `leftfield`, `rave`, `support`.
+
+Pillar definitions + colors: `src/lib/types.ts` (`PILLARS_V2`). Scripts: `backfill_pillars_v2.py` (seeds pillar/zone/desi from `~/Downloads/pyaar-laad-system.jsx`), `add_missing_laad_artists.py` (add JSX-only artists), `backfill_genre.py` (genre from pillar+zone).
 
 ### Admin re-label (in-app)
 

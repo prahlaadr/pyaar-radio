@@ -20,7 +20,6 @@ import { ImportModal } from "@/components/import-modal";
 import { PlaylistPicker } from "@/components/playlist-picker";
 import { fetchPlaylistIndex, fetchPlaylist } from "@/lib/playlists";
 import type { PlaylistIndexEntry } from "@/lib/types";
-import { PILLAR_COLOR } from "@/lib/types";
 import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
 import Fuse from "fuse.js";
 import hotkeys from "hotkeys-js";
@@ -2452,11 +2451,6 @@ export default function Home() {
                           <span className="text-sm font-medium group-hover:text-red-500 transition-colors">
                             {artist.artist}
                           </span>
-                          {artist.pillars[0] && (
-                            <span className="text-[10px] uppercase tracking-wider" style={{ color: PILLAR_COLOR[artist.pillars[0]] ?? "#888" }}>
-                              {artist.pillars[0]}{artist.zone ? ` · ${artist.zone}` : ""}
-                            </span>
-                          )}
                           {artist.desi === "Desi" && (
                             <span className="text-[10px] text-red-600 uppercase tracking-wider">
                               Desi

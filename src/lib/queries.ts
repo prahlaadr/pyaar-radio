@@ -19,8 +19,10 @@ export function buildArtistQuery(filters: ArtistFilters): string {
   }
 
   if (filters.vibes.length > 0) {
-    const vibeConds = filters.vibes.map((v) => `vibes ILIKE '%${v}%'`);
-    conditions.push(`(${vibeConds.join(" AND ")})`);
+    // Exact pipe-token match so "Soul" doesn't also match "Soulful" (or "Dub"→"Dubstep").
+    // OR within the facet: selecting multiple genres/moods broadens the results.
+    const vibeConds = filters.vibes.map((v) => `('|' || vibes || '|') ILIKE '%|${v}|%'`);
+    conditions.push(`(${vibeConds.join(" OR ")})`);
   }
 
   if (filters.pillars && filters.pillars.length > 0) {
