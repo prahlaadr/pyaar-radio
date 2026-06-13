@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 261,
- "totalTracks": 101901,
- "syncedAt": "2026-06-12T17:10:58.889972Z",
+ "totalTracks": 101941,
+ "syncedAt": "2026-06-13T10:30:08.727608Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -517,7 +517,7 @@
   {
    "playlistId": "PL6LTKg9AoNs34jVjOOd1qIMky_qi2dGFr",
    "title": "sep 24",
-   "trackCount": 0
+   "trackCount": 40
   },
   {
    "playlistId": "PL6LTKg9AoNs3JVDEKADP4tMU7AGJKOdV7",

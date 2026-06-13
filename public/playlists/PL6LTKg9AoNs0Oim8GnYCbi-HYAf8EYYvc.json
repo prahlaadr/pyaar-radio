@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0Oim8GnYCbi-HYAf8EYYvc",
  "title": "April 25",
  "trackCount": 64,
- "syncedAt": "2026-06-12T17:10:58.889972Z",
+ "syncedAt": "2026-06-13T10:30:08.727608Z",
  "tracks": [
   {
    "title": "TOUCH",
@@ -125,8 +125,8 @@
   },
   {
    "title": "Can’t Be Crete Boy",
-   "artist": "Lil Yachty - Topic",
-   "album": "",
+   "artist": "Lil Yachty;Veeze",
+   "album": "Can’t Be Crete Boy",
    "videoId": "dvxdAg1yAkU",
    "duration": "3:43"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "Møtte deg i døra",
-   "artist": "Anna of the North - Topic",
-   "album": "",
+   "artist": "Anna of the North",
+   "album": "Hei på deg",
    "videoId": "weoZnrgnqF8",
    "duration": "2:21"
   },
@@ -405,8 +405,8 @@
   },
   {
    "title": "Last Night",
-   "artist": "Justin Timberlake - Topic",
-   "album": "",
+   "artist": "Justin Timberlake",
+   "album": "Justified",
    "videoId": "H6FCeSMs3YQ",
    "duration": "4:48"
   },
@@ -433,8 +433,8 @@
   },
   {
    "title": "Black Like Me",
-   "artist": "Spoon - Topic",
-   "album": "",
+   "artist": "Spoon",
+   "album": "Ga Ga Ga Ga Ga",
    "videoId": "bbMTu8QK1YU",
    "duration": "3:26"
   },
