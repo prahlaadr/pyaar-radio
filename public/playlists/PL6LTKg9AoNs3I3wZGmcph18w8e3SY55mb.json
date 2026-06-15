@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3I3wZGmcph18w8e3SY55mb",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-06-14T10:50:15.439219Z",
+ "syncedAt": "2026-06-15T13:56:43.375804Z",
  "tracks": [
   {
    "title": "REM",
@@ -2029,7 +2029,7 @@
   },
   {
    "title": "Where's The Party Tonight? (DAYTIMERS Presents: Alterations)",
-   "artist": "Mrii, Zenjah, DAYTIMERS, Shaan, Vasundhara Das, Loy Mendonsa, and Shankar Mahadevan",
+   "artist": "Mrii;Zenjah;DAYTIMERS;Shaan",
    "album": "DAYTIMERS Presents: Alterations",
    "videoId": "SUt5R8o7lPE",
    "duration": "3:37"
@@ -6221,7 +6221,7 @@
    "duration": "1:09"
   },
   {
-   "title": "Halcyon",
+   "title": "Halcyon (Extended Mix)",
    "artist": "Chicane",
    "album": "Behind The Sun (Deluxe Version)",
    "videoId": "IeYpsDr6TK0",
@@ -8092,8 +8092,8 @@
   {
    "title": "Breakfast In America",
    "artist": "Supertramp",
-   "album": "La Casa del Rock",
-   "videoId": "NVy1-m9DVLU",
+   "album": "Retrospectacle - The Supertramp Anthology",
+   "videoId": "CYLtoxKUHLc",
    "duration": "2:40"
   },
   {

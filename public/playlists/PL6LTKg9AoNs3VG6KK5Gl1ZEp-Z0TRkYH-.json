@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-06-14T10:50:15.439219Z",
+ "syncedAt": "2026-06-15T13:56:43.375804Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -461,7 +461,7 @@
   },
   {
    "title": "Where's The Party Tonight? (DAYTIMERS Presents: Alterations)",
-   "artist": "Mrii, Zenjah, DAYTIMERS, Shaan, Vasundhara Das, Loy Mendonsa, and Shankar Mahadevan",
+   "artist": "Mrii;Zenjah;DAYTIMERS;Shaan",
    "album": "DAYTIMERS Presents: Alterations",
    "videoId": "SUt5R8o7lPE",
    "duration": "3:37"
@@ -1286,7 +1286,7 @@
    "duration": "6:24"
   },
   {
-   "title": "Halcyon",
+   "title": "Halcyon (Extended Mix)",
    "artist": "Chicane",
    "album": "Behind The Sun (Deluxe Version)",
    "videoId": "IeYpsDr6TK0",
