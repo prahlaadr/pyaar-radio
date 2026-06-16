@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3420,
- "totalTracks": 43507,
- "syncedAt": "2026-06-15T13:56:40.679858Z",
+ "albumCount": 3419,
+ "totalTracks": 43493,
+ "syncedAt": "2026-06-16T12:54:49.136455Z",
  "albums": [
   {
    "browseId": "MPREb_Zw3AloBrysn",
@@ -6146,12 +6146,6 @@
    "browseId": "MPREb_TE9MwxE4lag",
    "title": "Acid Rap (10th Anniversary - Complete Edition)",
    "artist": "Chance the Rapper",
-   "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_JAK4q5opYuk",
-   "title": "10 Days",
-   "artist": "Chance",
    "trackCount": 14
   },
   {

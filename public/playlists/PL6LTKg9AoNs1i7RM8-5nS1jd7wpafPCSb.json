@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 7,
- "syncedAt": "2026-06-15T13:56:43.375804Z",
+ "trackCount": 13,
+ "syncedAt": "2026-06-16T12:54:51.835488Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -52,6 +52,48 @@
    "album": "BILLO",
    "videoId": "aAFJtkrZzNg",
    "duration": "3:46"
+  },
+  {
+   "title": "FLOWERS",
+   "artist": "Heems;Sid Vashi;Navz-47",
+   "album": "VEENA",
+   "videoId": "jrP-852v5jU",
+   "duration": "4:49"
+  },
+  {
+   "title": "Weak for Your Love",
+   "artist": "Thee Sacred Souls",
+   "album": "Can I Call You Rose?",
+   "videoId": "CVh8d_ihO40",
+   "duration": "4:22"
+  },
+  {
+   "title": "Me and You",
+   "artist": "Bonobo",
+   "album": "Me and You",
+   "videoId": "vBr7Pg-qw64",
+   "duration": "3:50"
+  },
+  {
+   "title": "III. Urn",
+   "artist": "Childish Gambino",
+   "album": "Because the Internet",
+   "videoId": "U0KZNl0nJis",
+   "duration": "1:14"
+  },
+  {
+   "title": "Give It Up 2 Me (Mr. Carmack Remix) (feat. Mr. Carmack)",
+   "artist": "Ojerime",
+   "album": "Give It Up 2 Me (Remixes)",
+   "videoId": "vIzdUh0GEZQ",
+   "duration": "2:51"
+  },
+  {
+   "title": "Sinai Ray",
+   "artist": "ATRIP",
+   "album": "Sinai Ray",
+   "videoId": "McxkvF4C5hs",
+   "duration": "3:50"
   }
  ]
 }
