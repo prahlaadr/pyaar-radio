@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3419,
- "totalTracks": 43493,
- "syncedAt": "2026-06-16T12:54:49.136455Z",
+ "albumCount": 3416,
+ "totalTracks": 43461,
+ "syncedAt": "2026-06-17T12:17:52.592520Z",
  "albums": [
   {
    "browseId": "MPREb_Zw3AloBrysn",
@@ -11819,22 +11819,10 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_GE1Neaxg7hj",
-   "title": "Red Moon Rising",
-   "artist": "Hippie Sabotage",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_OByB5GzdFPi",
    "title": "Drifter",
    "artist": "Hippie Sabotage",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_8nJATVk41VR",
-   "title": "Vacants",
-   "artist": "Hippie Sabotage",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_aIQlJoqBpJN",
@@ -14697,12 +14685,6 @@
    "title": "The Return of…",
    "artist": "Pachyman",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_MtXrgn25W1s",
-   "title": "At 333 House",
-   "artist": "Pachyman",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_QTyFtnTw0MY",
@@ -19800,7 +19782,7 @@
   },
   {
    "browseId": "MPREb_VmicHvYHb5f",
-   "title": "noise (meaning)",
+   "title": "noise ( meaning )",
    "artist": "monte booker",
    "trackCount": 14
   },
