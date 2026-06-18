@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3416,
- "totalTracks": 43461,
- "syncedAt": "2026-06-17T12:17:52.592520Z",
+ "albumCount": 3417,
+ "totalTracks": 43480,
+ "syncedAt": "2026-06-18T11:52:08.190471Z",
  "albums": [
+  {
+   "browseId": "MPREb_pSV2artPnby",
+   "title": "EAGLE OR THE EGG",
+   "artist": "IGWE AKA",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_UN8dMeYYyVl",
+   "title": "Sir Render",
+   "artist": "Navy Blue",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_Zw3AloBrysn",
    "title": "SOMA",
@@ -3524,12 +3536,6 @@
    "browseId": "MPREb_d9YFHBadhJT",
    "title": "Billa",
    "artist": "Mani Sharma",
-   "trackCount": 6
-  },
-  {
-   "browseId": "MPREb_X0Jx7A01BtW",
-   "title": "XPRSLP001",
-   "artist": "Truant",
    "trackCount": 6
   },
   {
