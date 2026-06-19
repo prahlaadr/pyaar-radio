@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3417,
- "totalTracks": 43480,
- "syncedAt": "2026-06-18T11:52:08.190471Z",
+ "totalTracks": 43486,
+ "syncedAt": "2026-06-19T12:07:30.185777Z",
  "albums": [
+  {
+   "browseId": "MPREb_5xqjpQcNC5W",
+   "title": "The Boys of Dungeon Lane",
+   "artist": "Paul McCartney",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_pSV2artPnby",
    "title": "EAGLE OR THE EGG",
@@ -16622,12 +16628,6 @@
    "browseId": "MPREb_gCegWjns6bx",
    "title": "i wish we didn't..",
    "artist": "Lavils",
-   "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_CRQhylaynU6",
-   "title": "Slumber Traveler",
-   "artist": "Kazuma Okabayashi",
    "trackCount": 8
   },
   {
