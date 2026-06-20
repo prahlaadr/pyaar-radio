@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-06-19T12:07:32.960748Z",
+ "syncedAt": "2026-06-20T10:34:02.184088Z",
  "tracks": [
   {
    "title": "REM",
@@ -11570,7 +11570,7 @@
   },
   {
    "title": "nyc in 1940",
-   "artist": "berlioz",
+   "artist": "berlioz;Ted Jasper",
    "album": "nyc in 1940",
    "videoId": "04VbX3CJB_M",
    "duration": "2:37"
@@ -22588,7 +22588,7 @@
   },
   {
    "title": "Paranoia (feat. Nosaj Thing)",
-   "artist": "Chance the Rapper featuring Nosaj Thing",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "dYPU9afLiyo",
    "duration": "4:36"
@@ -24716,7 +24716,7 @@
   },
   {
    "title": "Good Ass Intro (feat. BJ The Chicago Kid & Lili K)",
-   "artist": "Chance the Rapper featuring BJ The Chicago Kid and Lili K",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "vz1yxZZ4zOE",
    "duration": "4:00"
@@ -25696,7 +25696,7 @@
   },
   {
    "title": "Lost (feat. Noname)",
-   "artist": "Chance the Rapper featuring Noname",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "89RgkWOsn18",
    "duration": "3:05"
@@ -28222,8 +28222,8 @@
    "duration": "2:39"
   },
   {
-   "title": "Cocoa Butter Kisses (feat. Twista & Vic Mensa)",
-   "artist": "Chance the Rapper featuring Vic Mensa and Twista",
+   "title": "Cocoa Butter Kisses (feat. Vic Mensa & Twista)",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "O-tQvWkfG_k",
    "duration": "5:08"

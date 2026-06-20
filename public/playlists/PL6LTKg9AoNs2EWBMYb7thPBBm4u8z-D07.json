@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-06-19T12:07:32.960748Z",
+ "syncedAt": "2026-06-20T10:34:02.184088Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -2428,7 +2428,7 @@
   },
   {
    "title": "nyc in 1940",
-   "artist": "berlioz",
+   "artist": "berlioz;Ted Jasper",
    "album": "nyc in 1940",
    "videoId": "04VbX3CJB_M",
    "duration": "2:37"
@@ -5018,7 +5018,7 @@
   },
   {
    "title": "Paranoia (feat. Nosaj Thing)",
-   "artist": "Chance the Rapper featuring Nosaj Thing",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "dYPU9afLiyo",
    "duration": "4:36"
@@ -5893,7 +5893,7 @@
   },
   {
    "title": "Lost (feat. Noname)",
-   "artist": "Chance the Rapper featuring Noname",
+   "artist": "Chance the Rapper",
    "album": "Acid Rap",
    "videoId": "89RgkWOsn18",
    "duration": "3:05"
