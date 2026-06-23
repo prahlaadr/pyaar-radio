@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
  "title": "Jinja [pyaar radio]",
- "trackCount": 5,
- "syncedAt": "2026-06-22T13:36:28.571655Z",
+ "trackCount": 16,
+ "syncedAt": "2026-06-23T11:17:53.310870Z",
  "tracks": [
   {
    "title": "Turtles",
@@ -38,6 +38,83 @@
    "album": "You're Dead!",
    "videoId": "9O_s3LJV7GY",
    "duration": "2:38"
+  },
+  {
+   "title": "The Way (Tor Remix)",
+   "artist": "Emancipator",
+   "album": "Dusk to Dawn Remixes",
+   "videoId": "ncszSrJ_5MA",
+   "duration": "3:30"
+  },
+  {
+   "title": "Duniya Kya Hai",
+   "artist": "Lapgan",
+   "album": "Duniya Kya Hai",
+   "videoId": "f-M57MeA82w",
+   "duration": "1:04"
+  },
+  {
+   "title": "The Secret",
+   "artist": "Metaform",
+   "album": "Standing on the Shoulders of Giants",
+   "videoId": "CeTsgB9fMYA",
+   "duration": "2:33"
+  },
+  {
+   "title": "Interlude",
+   "artist": "Thievery Corporation",
+   "album": "The Richest Man In Babylon",
+   "videoId": "kpp8odE3bJI",
+   "duration": "1:21"
+  },
+  {
+   "title": "Mystery or Misery?",
+   "artist": "Vegyn",
+   "album": "Mystery or Misery?",
+   "videoId": "7ePbRbD_dYQ",
+   "duration": "3:50"
+  },
+  {
+   "title": "The Rest Is Noise",
+   "artist": "Jamie xx",
+   "album": "In Colour",
+   "videoId": "fSRTHbtlLFc",
+   "duration": "4:58"
+  },
+  {
+   "title": "जीव",
+   "artist": "Moth Equals",
+   "album": "One Tusk",
+   "videoId": "MsRFsqFsozE",
+   "duration": "3:52"
+  },
+  {
+   "title": "Don't Believe the Hype",
+   "artist": "Nicolas Jaar",
+   "album": "Love You Gotta Lose Again",
+   "videoId": "r29Kv6rLPH4",
+   "duration": "1:31"
+  },
+  {
+   "title": "Miss",
+   "artist": "Erika de Casier",
+   "album": "Lifetime",
+   "videoId": "E8loFmVg20Y",
+   "duration": "3:10"
+  },
+  {
+   "title": "Avril 14th",
+   "artist": "Aphex Twin",
+   "album": "Drukqs",
+   "videoId": "uxTdTaNIUxo",
+   "duration": "2:06"
+  },
+  {
+   "title": "Dragonfly",
+   "artist": "Dana and Alden",
+   "album": "Quiet Music for Young People",
+   "videoId": "LFl5vD1q02o",
+   "duration": "5:58"
   }
  ]
 }

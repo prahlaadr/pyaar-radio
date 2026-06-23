@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
  "title": "under the bridge (sway, wrist flick, nodders) (goated)",
  "trackCount": 36,
- "syncedAt": "2026-06-22T13:36:28.571655Z",
+ "syncedAt": "2026-06-23T11:17:53.310870Z",
  "tracks": [
   {
    "title": "right away",
@@ -59,13 +59,6 @@
    "album": "I'm Not Alone (MPH Remix)",
    "videoId": "x2kiS2AiyQs",
    "duration": "3:34"
-  },
-  {
-   "title": "RUN OFF (feat. Eartheater)",
-   "artist": "AraabMUZIK",
-   "album": "Electronic Dream 2",
-   "videoId": "Vear1O6WT18",
-   "duration": "4:03"
   },
   {
    "title": "WILDFIRE",
@@ -255,6 +248,13 @@
    "album": "Curry",
    "videoId": "sA2nCwvB-eg",
    "duration": "2:57"
+  },
+  {
+   "title": "Pull Up",
+   "artist": "Collect 200",
+   "album": "Pull Up",
+   "videoId": "vp6HlCSIMhg",
+   "duration": "2:36"
   }
  ]
 }

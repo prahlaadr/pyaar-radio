@@ -1,13 +1,23 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 261,
- "totalTracks": 101949,
- "syncedAt": "2026-06-22T13:36:28.571655Z",
+ "totalTracks": 101982,
+ "syncedAt": "2026-06-23T11:17:53.310870Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
-   "trackCount": 15
+   "trackCount": 37
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
+   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
+   "trackCount": 36
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
+   "title": "Jinja [pyaar radio]",
+   "trackCount": 16
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -53,11 +63,6 @@
    "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
    "title": "dublaad",
    "trackCount": 6
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
-   "title": "Jinja [pyaar radio]",
-   "trackCount": 5
   },
   {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
@@ -323,11 +328,6 @@
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
    "title": " southside rami ",
    "trackCount": 76
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
-   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
-   "trackCount": 36
   },
   {
    "playlistId": "PL6LTKg9AoNs1btJ9frsqdpVjqNMvPkwJi",
