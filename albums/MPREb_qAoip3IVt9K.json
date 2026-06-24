@@ -1,0 +1,40 @@
+{
+ "title": "Crazy Times",
+ "artist": "Vanyfox",
+ "year": "2021",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Butterfly",
+   "artist": "Vanyfox",
+   "videoId": "5ax8UVt7tys",
+   "duration": "2:44"
+  },
+  {
+   "title": "Bwe Loko",
+   "artist": "Vanyfox",
+   "videoId": "4GaS7cYE_jw",
+   "duration": "1:18"
+  },
+  {
+   "title": "Sakura",
+   "artist": "Vanyfox",
+   "videoId": "15tAM0KKfh0",
+   "duration": "3:19"
+  },
+  {
+   "title": "Sonapista",
+   "artist": "Vanyfox",
+   "videoId": "-li-LUZ4Dug",
+   "duration": "3:48"
+  },
+  {
+   "title": "Tcha Tcha",
+   "artist": "Vanyfox",
+   "videoId": "jCaiv7UqhqM",
+   "duration": "3:13"
+  }
+ ],
+ "browseId": "MPREb_qAoip3IVt9K",
+ "syncedAt": "2026-06-24T10:51:25.268696Z"
+}

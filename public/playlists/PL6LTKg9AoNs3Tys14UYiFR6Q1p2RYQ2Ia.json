@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
  "title": "Jinja [pyaar radio]",
- "trackCount": 16,
- "syncedAt": "2026-06-23T11:17:53.310870Z",
+ "trackCount": 17,
+ "syncedAt": "2026-06-24T10:51:28.699551Z",
  "tracks": [
   {
    "title": "Turtles",
@@ -115,6 +115,13 @@
    "album": "Quiet Music for Young People",
    "videoId": "LFl5vD1q02o",
    "duration": "5:58"
+  },
+  {
+   "title": "Thinking",
+   "artist": "Waleed",
+   "album": "MAGDALENA",
+   "videoId": "DyyYf7RmA90",
+   "duration": "6:57"
   }
  ]
 }

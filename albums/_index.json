@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3417,
- "totalTracks": 43486,
- "syncedAt": "2026-06-23T11:17:50.369997Z",
+ "albumCount": 3420,
+ "totalTracks": 43507,
+ "syncedAt": "2026-06-24T10:51:25.268696Z",
  "albums": [
+  {
+   "browseId": "MPREb_8wIPKfcLBSs",
+   "title": "Cartas Na Manga",
+   "artist": "DJ Nigga Fox",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_qAoip3IVt9K",
+   "title": "Crazy Times",
+   "artist": "Vanyfox",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_eXyBqWd8g9a",
+   "title": "MAGDALENA",
+   "artist": "Waleed",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_wMyNTUI7OyH",
    "title": "the~her~story",
