@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",
  "title": "clubby (goated) ",
  "trackCount": 208,
- "syncedAt": "2026-06-24T10:51:28.699551Z",
+ "syncedAt": "2026-06-25T10:42:43.546174Z",
  "tracks": [
   {
    "title": "Love Cry (Joy Orbison Remix)",
@@ -748,8 +748,8 @@
   },
   {
    "title": "Girls Like You (feat. Emma Cannon)",
-   "artist": "Cortese - Topic",
-   "album": "",
+   "artist": "Cortese",
+   "album": "Girls Like You",
    "videoId": "JXM7YzbH1Eo",
    "duration": "4:27"
   },
@@ -769,8 +769,8 @@
   },
   {
    "title": "Funk Soul",
-   "artist": "Veritas (UK) - Topic",
-   "album": "",
+   "artist": "Veritas (UK)",
+   "album": "Funk Soul EP",
    "videoId": "FayDfacazBg",
    "duration": "2:25"
   },
@@ -811,8 +811,8 @@
   },
   {
    "title": "Memory Lake",
-   "artist": "Special Request - Topic",
-   "album": "",
+   "artist": "Special Request",
+   "album": "VORTEX",
    "videoId": "KaLOyaJLKZA",
    "duration": "5:40"
   },
@@ -888,8 +888,8 @@
   },
   {
    "title": "925",
-   "artist": "Sammy Virji - Topic",
-   "album": "",
+   "artist": "Sammy Virji;Chris Lake;RoRo",
+   "album": "925",
    "videoId": "PRxzWR6sxMY",
    "duration": "2:49"
   },
@@ -1013,16 +1013,16 @@
    "duration": "3:15"
   },
   {
-   "title": "Gravel",
-   "artist": "Retrouve - Topic",
-   "album": "",
+   "title": "Gravel (feat. Midas Field)",
+   "artist": "Retrouve",
+   "album": "Gravel",
    "videoId": "-dxDt5Ba3SY",
    "duration": "3:37"
   },
   {
    "title": "Turn Up The Bass",
-   "artist": "Kai Saunders - Topic",
-   "album": "",
+   "artist": "Kai Saunders",
+   "album": "Bad For Me EP",
    "videoId": "aY62SuvPrIY",
    "duration": "4:00"
   },
@@ -1056,8 +1056,8 @@
   },
   {
    "title": "Got The Speed (Radio Edit)",
-   "artist": "Michael Pieterse - Topic",
-   "album": "",
+   "artist": "Michael Pieterse",
+   "album": "That Garage Sound, Vol. 2",
    "videoId": "30QSBqnBwl8",
    "duration": "3:27"
   },
@@ -1105,8 +1105,8 @@
   },
   {
    "title": "Erase It",
-   "artist": "FIRZA - Topic",
-   "album": "",
+   "artist": "FIRZA",
+   "album": "Erase It",
    "videoId": "p-yXWyvO1wg",
    "duration": "3:06"
   },
@@ -1119,8 +1119,8 @@
   },
   {
    "title": "It's My Beat (Extended Mix)",
-   "artist": "Robbie Doherty - Topic",
-   "album": "",
+   "artist": "Robbie Doherty",
+   "album": "It's My Beat",
    "videoId": "ACkkencFz-o",
    "duration": "6:34"
   },
@@ -1202,9 +1202,9 @@
    "duration": "2:52"
   },
   {
-   "title": "Hold On, Let Go",
-   "artist": "ANOTR - Topic",
-   "album": "",
+   "title": "Hold On, Let Go (feat. Wayne Snow & 3DDY)",
+   "artist": "ANOTR",
+   "album": "Hold On, Let Go",
    "videoId": "_dUupqoli4E",
    "duration": "4:02"
   },

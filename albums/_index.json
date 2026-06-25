@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3420,
- "totalTracks": 43507,
- "syncedAt": "2026-06-24T10:51:25.268696Z",
+ "albumCount": 3421,
+ "totalTracks": 43518,
+ "syncedAt": "2026-06-25T10:42:40.418072Z",
  "albums": [
+  {
+   "browseId": "MPREb_AZyeez8E7XO",
+   "title": "Traditional Noise",
+   "artist": "April + Vista",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_8wIPKfcLBSs",
    "title": "Cartas Na Manga",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 37,
- "syncedAt": "2026-06-24T10:51:28.699551Z",
+ "trackCount": 42,
+ "syncedAt": "2026-06-25T10:42:43.546174Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -262,6 +262,41 @@
    "album": "the~her~story",
    "videoId": "eI0Z56y1GYs",
    "duration": "5:35"
+  },
+  {
+   "title": "Grotto",
+   "artist": "April + Vista",
+   "album": "Traditional Noise",
+   "videoId": "HduHA9p2nG8",
+   "duration": "4:33"
+  },
+  {
+   "title": "The Birth of Medicine",
+   "artist": "Navy Blue",
+   "album": "Sir Render",
+   "videoId": "JgpVuTC0J4Q",
+   "duration": "3:00"
+  },
+  {
+   "title": "U Know It's Real",
+   "artist": "Baauer",
+   "album": "U",
+   "videoId": "8zSyoV9MRtU",
+   "duration": "1:53"
+  },
+  {
+   "title": "quisiera",
+   "artist": "Sparklmami",
+   "album": "in this body",
+   "videoId": "DwKsgUbGNls",
+   "duration": "4:15"
+  },
+  {
+   "title": "7 In The Morning",
+   "artist": "Vince Staples",
+   "album": "Cry Baby",
+   "videoId": "IZB0099MIKM",
+   "duration": "4:09"
   }
  ]
 }
