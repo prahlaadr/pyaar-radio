@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 42,
- "syncedAt": "2026-06-25T10:42:43.546174Z",
+ "trackCount": 41,
+ "syncedAt": "2026-06-26T10:52:32.610422Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -131,25 +131,11 @@
    "duration": "2:51"
   },
   {
-   "title": "You Know What It Is (feat. Yung Joc)",
-   "artist": "Gucci Mane",
-   "album": "The Movie (Gangsta Grillz)",
-   "videoId": "1ELUPH4isuQ",
-   "duration": "4:00"
-  },
-  {
    "title": "rep 4 me",
    "artist": "Mura Masa",
    "album": "Curve 1",
    "videoId": "59xM0weiakc",
    "duration": "3:33"
-  },
-  {
-   "title": "Sri Dalada Veediya",
-   "artist": "Anish Kumar",
-   "album": "In Sri Lanka",
-   "videoId": "Kx6w_Z-1cns",
-   "duration": "1:59"
   },
   {
    "title": "RAINDANCE",
@@ -185,13 +171,6 @@
    "album": "In Sri Lanka",
    "videoId": "CpmPCKWjvOA",
    "duration": "1:55"
-  },
-  {
-   "title": "You Must Change Your Life",
-   "artist": "Luxury",
-   "album": "Trophies",
-   "videoId": "9jgFxCBlygE",
-   "duration": "3:59"
   },
   {
    "title": "Khayal",
@@ -297,6 +276,20 @@
    "album": "Cry Baby",
    "videoId": "IZB0099MIKM",
    "duration": "4:09"
+  },
+  {
+   "title": "Kane and Take",
+   "artist": "DC2TriII",
+   "album": "Kane and Take",
+   "videoId": "5l6xzvJb24s",
+   "duration": "3:25"
+  },
+  {
+   "title": "Wisco",
+   "artist": "PPP;Piezo;DJ Plead;DJ Python",
+   "album": "Wisco",
+   "videoId": "ghnyBJuZOJY",
+   "duration": "5:09"
   }
  ]
 }
