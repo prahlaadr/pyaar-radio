@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 41,
- "syncedAt": "2026-06-26T10:52:32.610422Z",
+ "trackCount": 42,
+ "syncedAt": "2026-06-27T10:09:29.676632Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -290,6 +290,13 @@
    "album": "Wisco",
    "videoId": "ghnyBJuZOJY",
    "duration": "5:09"
+  },
+  {
+   "title": "Koneko",
+   "artist": "Mei Semones;Liana Flores",
+   "album": "Koneko",
+   "videoId": "o0bsFHqC3Xk",
+   "duration": "4:09"
   }
  ]
 }
