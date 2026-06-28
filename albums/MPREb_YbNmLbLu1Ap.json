@@ -1,0 +1,616 @@
+{
+ "title": "UNDERTALE Soundtrack",
+ "artist": "Toby Fox",
+ "year": "2015",
+ "trackCount": 101,
+ "tracks": [
+  {
+   "title": "Once Upon a Time",
+   "artist": "Toby Fox",
+   "videoId": "3BR7-AzE2dQ",
+   "duration": "1:29"
+  },
+  {
+   "title": "Start Menu",
+   "artist": "Toby Fox",
+   "videoId": "BGBWNOMmSm0",
+   "duration": "0:32"
+  },
+  {
+   "title": "Your Best Friend",
+   "artist": "Toby Fox",
+   "videoId": "LLcztVBXams",
+   "duration": "0:24"
+  },
+  {
+   "title": "Fallen Down",
+   "artist": "Toby Fox",
+   "videoId": "qH5hM1ILuFQ",
+   "duration": "0:58"
+  },
+  {
+   "title": "Ruins",
+   "artist": "Toby Fox",
+   "videoId": "LIUecLaI_m8",
+   "duration": "1:33"
+  },
+  {
+   "title": "Uwa!! So Temperate♫",
+   "artist": "Toby Fox",
+   "videoId": "HCrJNiMmH88",
+   "duration": "0:57"
+  },
+  {
+   "title": "Anticipation",
+   "artist": "Toby Fox",
+   "videoId": "2fVWJlVH1Iw",
+   "duration": "0:23"
+  },
+  {
+   "title": "Unnecessary Tension",
+   "artist": "Toby Fox",
+   "videoId": "AT5gL7HsYVc",
+   "duration": "0:18"
+  },
+  {
+   "title": "Enemy Approaching",
+   "artist": "Toby Fox",
+   "videoId": "g6aia0GQMRw",
+   "duration": "0:57"
+  },
+  {
+   "title": "Ghost Fight",
+   "artist": "Toby Fox",
+   "videoId": "o0tky2O8NlY",
+   "duration": "0:57"
+  },
+  {
+   "title": "Determination",
+   "artist": "Toby Fox",
+   "videoId": "h1wSPmlZV-w",
+   "duration": "0:51"
+  },
+  {
+   "title": "Home",
+   "artist": "Toby Fox",
+   "videoId": "J_hJDitrh8M",
+   "duration": "2:03"
+  },
+  {
+   "title": "Home (Music Box)",
+   "artist": "Toby Fox",
+   "videoId": "Jd8w8iPWGM8",
+   "duration": "2:03"
+  },
+  {
+   "title": "Heartache",
+   "artist": "Toby Fox",
+   "videoId": "XJ9XtKJHvjQ",
+   "duration": "1:49"
+  },
+  {
+   "title": "sans.",
+   "artist": "Toby Fox",
+   "videoId": "b2UHoGnGyvE",
+   "duration": "0:51"
+  },
+  {
+   "title": "Nyeh Heh Heh!",
+   "artist": "Toby Fox",
+   "videoId": "-W6_6WHBm1Q",
+   "duration": "0:33"
+  },
+  {
+   "title": "Snowy",
+   "artist": "Toby Fox",
+   "videoId": "BJEqdto_uGw",
+   "duration": "1:45"
+  },
+  {
+   "title": "Uwa!! So Holiday♫",
+   "artist": "Toby Fox",
+   "videoId": "XjM_w5cjIaY",
+   "duration": "0:30"
+  },
+  {
+   "title": "Dogbass",
+   "artist": "Toby Fox",
+   "videoId": "dhHxtxSI5j0",
+   "duration": "0:07"
+  },
+  {
+   "title": "Mysterious Place",
+   "artist": "Toby Fox",
+   "videoId": "fgqOiPSvnvo",
+   "duration": "0:45"
+  },
+  {
+   "title": "Dogsong",
+   "artist": "Toby Fox",
+   "videoId": "c7vfHJOq0H4",
+   "duration": "0:38"
+  },
+  {
+   "title": "Snowdin Town",
+   "artist": "Toby Fox",
+   "videoId": "vYyLL9QstbI",
+   "duration": "1:17"
+  },
+  {
+   "title": "Shop",
+   "artist": "Toby Fox",
+   "videoId": "R0uNPIa-I9c",
+   "duration": "0:51"
+  },
+  {
+   "title": "Bonetrousle",
+   "artist": "Toby Fox",
+   "videoId": "AKAiUtWZ4xY",
+   "duration": "0:58"
+  },
+  {
+   "title": "Dating Start!",
+   "artist": "Toby Fox",
+   "videoId": "ldY0LriMc6U",
+   "duration": "1:57"
+  },
+  {
+   "title": "Dating Tense!",
+   "artist": "Toby Fox",
+   "videoId": "0qBKXNVV0eM",
+   "duration": "0:27"
+  },
+  {
+   "title": "Dating Fight!",
+   "artist": "Toby Fox",
+   "videoId": "jD-oILpw7r0",
+   "duration": "0:36"
+  },
+  {
+   "title": "Premonition",
+   "artist": "Toby Fox",
+   "videoId": "qhwghQSqLpA",
+   "duration": "1:02"
+  },
+  {
+   "title": "Danger Mystery",
+   "artist": "Toby Fox",
+   "videoId": "QxMYFsfJZyw",
+   "duration": "0:19"
+  },
+  {
+   "title": "Undyne",
+   "artist": "Toby Fox",
+   "videoId": "UXGMRVYmFYw",
+   "duration": "0:46"
+  },
+  {
+   "title": "Waterfall",
+   "artist": "Toby Fox",
+   "videoId": "Zb52aE6IZuY",
+   "duration": "2:07"
+  },
+  {
+   "title": "Run!",
+   "artist": "Toby Fox",
+   "videoId": "K6wytoX-k7Q",
+   "duration": "0:27"
+  },
+  {
+   "title": "Quiet Water",
+   "artist": "Toby Fox",
+   "videoId": "hGzkdQCvYz0",
+   "duration": "0:32"
+  },
+  {
+   "title": "Memory",
+   "artist": "Toby Fox",
+   "videoId": "-PuXRXftkDA",
+   "duration": "1:15"
+  },
+  {
+   "title": "Bird That Carries You Over A Disproportionately Small Gap",
+   "artist": "Toby Fox",
+   "videoId": "-tslGvCIS3Q",
+   "duration": "0:26"
+  },
+  {
+   "title": "Dummy!",
+   "artist": "Toby Fox",
+   "videoId": "94JDIBZhSBM",
+   "duration": "2:26"
+  },
+  {
+   "title": "Pathetic House",
+   "artist": "Toby Fox",
+   "videoId": "0YlHwRyM26Q",
+   "duration": "0:39"
+  },
+  {
+   "title": "Spooktune",
+   "artist": "Toby Fox",
+   "videoId": "LMWHcTqUcco",
+   "duration": "0:24"
+  },
+  {
+   "title": "Spookwave",
+   "artist": "Toby Fox",
+   "videoId": "1uJ57n8PZ_o",
+   "duration": "0:26"
+  },
+  {
+   "title": "Ghouliday",
+   "artist": "Toby Fox",
+   "videoId": "QDbwvVvufAw",
+   "duration": "0:13"
+  },
+  {
+   "title": "Chill",
+   "artist": "Toby Fox",
+   "videoId": "jx8xEu-Cz_s",
+   "duration": "0:57"
+  },
+  {
+   "title": "Thundersnail",
+   "artist": "Toby Fox",
+   "videoId": "M_fNJqIOeEk",
+   "duration": "0:43"
+  },
+  {
+   "title": "Temmie Village",
+   "artist": "Toby Fox",
+   "videoId": "1KUcmuSNmVE",
+   "duration": "0:58"
+  },
+  {
+   "title": "Tem Shop",
+   "artist": "Toby Fox",
+   "videoId": "lIDOhM4Yf_M",
+   "duration": "0:46"
+  },
+  {
+   "title": "NGAHHH!!",
+   "artist": "Toby Fox",
+   "videoId": "1vLSwxcb6Z8",
+   "duration": "1:23"
+  },
+  {
+   "title": "Spear of Justice",
+   "artist": "Toby Fox",
+   "videoId": "ApWpYmO7G28",
+   "duration": "1:56"
+  },
+  {
+   "title": "Ooo",
+   "artist": "Toby Fox",
+   "videoId": "jTeJSUC4LZ4",
+   "duration": "0:15"
+  },
+  {
+   "title": "Alphys",
+   "artist": "Toby Fox",
+   "videoId": "o30nPgOgfv0",
+   "duration": "1:26"
+  },
+  {
+   "title": "It's Showtime!",
+   "artist": "Toby Fox",
+   "videoId": "3LhZWVRp6f4",
+   "duration": "0:47"
+  },
+  {
+   "title": "Metal Crusher",
+   "artist": "Toby Fox",
+   "videoId": "2CvQKExckSk",
+   "duration": "1:04"
+  },
+  {
+   "title": "Another Medium",
+   "artist": "Toby Fox",
+   "videoId": "fduyBqxhXKs",
+   "duration": "2:23"
+  },
+  {
+   "title": "Uwa!! So HEATS!!♫",
+   "artist": "Toby Fox",
+   "videoId": "jPhuHmjJrzk",
+   "duration": "0:34"
+  },
+  {
+   "title": "Stronger Monsters",
+   "artist": "Toby Fox",
+   "videoId": "lXtwWBLLLbk",
+   "duration": "1:04"
+  },
+  {
+   "title": "Hotel",
+   "artist": "Toby Fox",
+   "videoId": "CgvMoz2LnWA",
+   "duration": "1:28"
+  },
+  {
+   "title": "Can You Really Call This A Hotel, I Didn't Receive A Mint On My Pillow Or Anything",
+   "artist": "Toby Fox",
+   "videoId": "ltzrV-_v-tI",
+   "duration": "1:02"
+  },
+  {
+   "title": "Confession",
+   "artist": "Toby Fox",
+   "videoId": "7cM73yS4fbk",
+   "duration": "0:43"
+  },
+  {
+   "title": "Live Report",
+   "artist": "Toby Fox",
+   "videoId": "yctddrOFtGc",
+   "duration": "0:18"
+  },
+  {
+   "title": "Death Report",
+   "artist": "Toby Fox",
+   "videoId": "sJrVIk4IpDk",
+   "duration": "0:48"
+  },
+  {
+   "title": "Spider Dance",
+   "artist": "Toby Fox",
+   "videoId": "NH-GAwLAO30",
+   "duration": "1:47"
+  },
+  {
+   "title": "Wrong Enemy !?",
+   "artist": "Toby Fox",
+   "videoId": "lN9JsxrI4v8",
+   "duration": "0:59"
+  },
+  {
+   "title": "Oh! One True Love",
+   "artist": "Toby Fox",
+   "videoId": "2HZnTNIN648",
+   "duration": "1:24"
+  },
+  {
+   "title": "Oh! Dungeon",
+   "artist": "Toby Fox",
+   "videoId": "P24uf5McKZk",
+   "duration": "0:33"
+  },
+  {
+   "title": "It's Raining Somewhere Else",
+   "artist": "Toby Fox",
+   "videoId": "YidmA4DCjGc",
+   "duration": "2:51"
+  },
+  {
+   "title": "CORE Approach",
+   "artist": "Toby Fox",
+   "videoId": "E7jf_9zdy-E",
+   "duration": "0:13"
+  },
+  {
+   "title": "CORE",
+   "artist": "Toby Fox",
+   "videoId": "WeELPnZqhow",
+   "duration": "2:47"
+  },
+  {
+   "title": "Last Episode!",
+   "artist": "Toby Fox",
+   "videoId": "Xg3p478sWGg",
+   "duration": "0:08"
+  },
+  {
+   "title": "Oh My...",
+   "artist": "Toby Fox",
+   "videoId": "BDQV2LwEFbs",
+   "duration": "0:15"
+  },
+  {
+   "title": "Death By Glamour",
+   "artist": "Toby Fox",
+   "videoId": "Q9kDr4na0ls",
+   "duration": "2:15"
+  },
+  {
+   "title": "For The Fans",
+   "artist": "Toby Fox",
+   "videoId": "ZBS5H956eqY",
+   "duration": "1:48"
+  },
+  {
+   "title": "Long Elevator",
+   "artist": "Toby Fox",
+   "videoId": "mohxjUyfjek",
+   "duration": "0:21"
+  },
+  {
+   "title": "Undertale",
+   "artist": "Toby Fox",
+   "videoId": "8CeYNJ-s0Kw",
+   "duration": "6:22"
+  },
+  {
+   "title": "Song That Might Play When You Fight Sans",
+   "artist": "Toby Fox",
+   "videoId": "47GvY9rOMUs",
+   "duration": "1:02"
+  },
+  {
+   "title": "The Choice",
+   "artist": "Toby Fox",
+   "videoId": "x1WBMSIGBDM",
+   "duration": "2:13"
+  },
+  {
+   "title": "Small Shock",
+   "artist": "Toby Fox",
+   "videoId": "X-x7HPABiHY",
+   "duration": "0:15"
+  },
+  {
+   "title": "Barrier",
+   "artist": "Toby Fox",
+   "videoId": "zXPKuXBPsMI",
+   "duration": "0:32"
+  },
+  {
+   "title": "Bergentrückung",
+   "artist": "Toby Fox",
+   "videoId": "KBn_BHAXF98",
+   "duration": "0:22"
+  },
+  {
+   "title": "ASGORE",
+   "artist": "Toby Fox",
+   "videoId": "qrtt7mgwCTw",
+   "duration": "2:36"
+  },
+  {
+   "title": "You Idiot",
+   "artist": "Toby Fox",
+   "videoId": "oJFur9DFkoQ",
+   "duration": "0:35"
+  },
+  {
+   "title": "Your Best Nightmare",
+   "artist": "Toby Fox",
+   "videoId": "SObWQRaltug",
+   "duration": "4:00"
+  },
+  {
+   "title": "Finale",
+   "artist": "Toby Fox",
+   "videoId": "5qajT8lS2ok",
+   "duration": "1:53"
+  },
+  {
+   "title": "An Ending",
+   "artist": "Toby Fox",
+   "videoId": "gLgUesz8444",
+   "duration": "3:29"
+  },
+  {
+   "title": "She's Playing Piano",
+   "artist": "Toby Fox",
+   "videoId": "41S_VS4dvY8",
+   "duration": "0:19"
+  },
+  {
+   "title": "Here We Are",
+   "artist": "Toby Fox",
+   "videoId": "LS86CPaShI4",
+   "duration": "2:07"
+  },
+  {
+   "title": "Amalgam",
+   "artist": "Toby Fox",
+   "videoId": "0T8AROoIh44",
+   "duration": "1:20"
+  },
+  {
+   "title": "Fallen Down (Reprise)",
+   "artist": "Toby Fox",
+   "videoId": "AvDrW4JTjME",
+   "duration": "2:31"
+  },
+  {
+   "title": "Don't Give Up",
+   "artist": "Toby Fox",
+   "videoId": "YQlbR-XW0CQ",
+   "duration": "2:02"
+  },
+  {
+   "title": "Hopes And Dreams",
+   "artist": "Toby Fox",
+   "videoId": "HA3Ks8NLS-Y",
+   "duration": "3:02"
+  },
+  {
+   "title": "Burn In Despair!",
+   "artist": "Toby Fox",
+   "videoId": "VauL5iv687I",
+   "duration": "0:22"
+  },
+  {
+   "title": "SAVE The World",
+   "artist": "Toby Fox",
+   "videoId": "LAn-JYzKm5M",
+   "duration": "1:54"
+  },
+  {
+   "title": "His Theme",
+   "artist": "Toby Fox",
+   "videoId": "8tf-gVaHdag",
+   "duration": "2:06"
+  },
+  {
+   "title": "Final Power",
+   "artist": "Toby Fox",
+   "videoId": "9WAKw79WqSQ",
+   "duration": "0:19"
+  },
+  {
+   "title": "Reunited",
+   "artist": "Toby Fox",
+   "videoId": "8K0npQ--ACw",
+   "duration": "4:45"
+  },
+  {
+   "title": "Menu (Full)",
+   "artist": "Toby Fox",
+   "videoId": "q2IYscs_8uY",
+   "duration": "0:32"
+  },
+  {
+   "title": "Respite",
+   "artist": "Toby Fox",
+   "videoId": "USVk9tGQXbo",
+   "duration": "1:54"
+  },
+  {
+   "title": "Bring It In, Guys!",
+   "artist": "Toby Fox",
+   "videoId": "uxmzr8pNGDU",
+   "duration": "4:13"
+  },
+  {
+   "title": "Last Goodbye",
+   "artist": "Toby Fox",
+   "videoId": "EpBQ5m3Ag3Q",
+   "duration": "2:16"
+  },
+  {
+   "title": "But The Earth Refused To Die",
+   "artist": "Toby Fox",
+   "videoId": "O6pph2RMoPU",
+   "duration": "0:35"
+  },
+  {
+   "title": "Battle Against A True Hero",
+   "artist": "Toby Fox",
+   "videoId": "DcERQHg3iy8",
+   "duration": "2:37"
+  },
+  {
+   "title": "Power Of \"NEO\"",
+   "artist": "Toby Fox",
+   "videoId": "bWUIWTkBiqE",
+   "duration": "0:31"
+  },
+  {
+   "title": "MEGALOVANIA",
+   "artist": "Toby Fox",
+   "videoId": "0FCvzsVlXpQ",
+   "duration": "2:36"
+  },
+  {
+   "title": "Good Night",
+   "artist": "Toby Fox",
+   "videoId": "a9-7h0NmMn8",
+   "duration": "0:31"
+  }
+ ],
+ "browseId": "MPREb_YbNmLbLu1Ap",
+ "syncedAt": "2026-06-28T10:29:22.025916Z"
+}

@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3421,
- "totalTracks": 43518,
- "syncedAt": "2026-06-27T10:09:27.192406Z",
+ "albumCount": 3422,
+ "totalTracks": 43619,
+ "syncedAt": "2026-06-28T10:29:22.025916Z",
  "albums": [
+  {
+   "browseId": "MPREb_YbNmLbLu1Ap",
+   "title": "UNDERTALE Soundtrack",
+   "artist": "Toby Fox",
+   "trackCount": 101
+  },
   {
    "browseId": "MPREb_AZyeez8E7XO",
    "title": "Traditional Noise",
