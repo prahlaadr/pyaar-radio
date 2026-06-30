@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
  "title": "Southside Rami",
- "trackCount": 2,
- "syncedAt": "2026-06-29T12:35:18.458587Z",
+ "trackCount": 13,
+ "syncedAt": "2026-06-30T10:58:25.138062Z",
  "tracks": [
   {
    "title": "15th and the 1st (feat. YG Hootie)",
@@ -17,6 +17,83 @@
    "album": "Gucci Classics 2",
    "videoId": "Vbs37AUsWks",
    "duration": "3:07"
+  },
+  {
+   "title": "Lemonade",
+   "artist": "Gucci Mane",
+   "album": "The State vs. Radric Davis",
+   "videoId": "14CskUt_OjM",
+   "duration": "4:07"
+  },
+  {
+   "title": "Hard in Da Paint",
+   "artist": "Waka Flocka Flame",
+   "album": "Flockaveli",
+   "videoId": "3rFpYrrhJpQ",
+   "duration": "4:07"
+  },
+  {
+   "title": "Throw Some D's (feat. Polow Da Don)",
+   "artist": "Rich Boy",
+   "album": "Rich Boy",
+   "videoId": "OJJhw9EXddc",
+   "duration": "4:24"
+  },
+  {
+   "title": "Grove St. Party (feat. Kebo Gotti)",
+   "artist": "Waka Flocka Flame",
+   "album": "Flockaveli",
+   "videoId": "6C35FN1DOWY",
+   "duration": "4:11"
+  },
+  {
+   "title": "O Let's Do It (feat. Cap)",
+   "artist": "Waka Flocka Flame",
+   "album": "Flockaveli",
+   "videoId": "G-Iaa2v5VT4",
+   "duration": "4:09"
+  },
+  {
+   "title": "No Hands (feat. Roscoe Dash & Wale)",
+   "artist": "Waka Flocka Flame",
+   "album": "Flockaveli",
+   "videoId": "JjuLy7r1hOg",
+   "duration": "4:24"
+  },
+  {
+   "title": "No Flockin'",
+   "artist": "Kodak Black",
+   "album": "No Flockin'",
+   "videoId": "JrCsGPYQXbQ",
+   "duration": "2:46"
+  },
+  {
+   "title": "Right Thurr",
+   "artist": "Chingy",
+   "album": "Jackpot",
+   "videoId": "3bJgl3IAtQg",
+   "duration": "4:11"
+  },
+  {
+   "title": "Knuck If You Buck (feat. Lil' Scrappy)",
+   "artist": "Crime Mob",
+   "album": "Knuck If You Buck",
+   "videoId": "8PK-zz8KNcg",
+   "duration": "3:26"
+  },
+  {
+   "title": "Stick Talk",
+   "artist": "Future",
+   "album": "DS2 (Deluxe)",
+   "videoId": "AuaXmo12hAc",
+   "duration": "2:52"
+  },
+  {
+   "title": "Lockjaw (feat. Kodak Black)",
+   "artist": "French Montana",
+   "album": "MONTANA",
+   "videoId": "b7dJn2X_TyI",
+   "duration": "3:44"
   }
  ]
 }

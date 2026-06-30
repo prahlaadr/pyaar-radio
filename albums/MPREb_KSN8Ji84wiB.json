@@ -1,0 +1,40 @@
+{
+ "title": "Echo Chamber",
+ "artist": "Stefan Ringer",
+ "year": "2024",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Hypnosis",
+   "artist": "Stefan Ringer",
+   "videoId": "G2OBYz3WnFU",
+   "duration": "6:18"
+  },
+  {
+   "title": "Echo Chamber",
+   "artist": "Stefan Ringer",
+   "videoId": "0h3I9xtgN1o",
+   "duration": "5:46"
+  },
+  {
+   "title": "Nasty",
+   "artist": "Stefan Ringer",
+   "videoId": "Dd9-MXR-m4E",
+   "duration": "4:50"
+  },
+  {
+   "title": "Slanted House",
+   "artist": "Stefan Ringer",
+   "videoId": "U0SyNzVJpR8",
+   "duration": "5:20"
+  },
+  {
+   "title": "Sweet Chariot",
+   "artist": "Stefan Ringer",
+   "videoId": "6SvuBSxkgfU",
+   "duration": "4:29"
+  }
+ ],
+ "browseId": "MPREb_KSN8Ji84wiB",
+ "syncedAt": "2026-06-30T10:58:21.190882Z"
+}

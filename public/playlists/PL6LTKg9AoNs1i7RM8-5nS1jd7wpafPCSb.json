@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
  "title": "June 26",
- "trackCount": 42,
- "syncedAt": "2026-06-29T12:35:18.458587Z",
+ "trackCount": 43,
+ "syncedAt": "2026-06-30T10:58:25.138062Z",
  "tracks": [
   {
    "title": "I'll Be The Flood",
@@ -297,6 +297,13 @@
    "album": "Koneko",
    "videoId": "o0bsFHqC3Xk",
    "duration": "4:09"
+  },
+  {
+   "title": "I'm a Rock",
+   "artist": "Jitwam",
+   "album": "Honeycomb",
+   "videoId": "mUdLtt8-47w",
+   "duration": "3:25"
   }
  ]
 }

@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3422,
- "totalTracks": 43619,
- "syncedAt": "2026-06-29T12:35:15.770351Z",
+ "albumCount": 3425,
+ "totalTracks": 43644,
+ "syncedAt": "2026-06-30T10:58:21.190882Z",
  "albums": [
+  {
+   "browseId": "MPREb_KSN8Ji84wiB",
+   "title": "Echo Chamber",
+   "artist": "Stefan Ringer",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_mCjAz9Zpxfs",
+   "title": "Northern Lights Kush Project Vol.1",
+   "artist": "Byron the Aquarius",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_XTqgwE68xaA",
+   "title": "Honeycomb (Deluxe Edition)",
+   "artist": "Jitwam",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_CpQSHfpTnVa",
+   "title": "Third (Deluxe)",
+   "artist": "Jitwam",
+   "trackCount": 17
+  },
   {
    "browseId": "MPREb_YbNmLbLu1Ap",
    "title": "UNDERTALE Soundtrack",
@@ -1437,12 +1461,6 @@
    "title": "sankofa",
    "artist": "redveil",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_QYijAQIl7FD",
-   "title": "EXPERIMENTAL RAP",
-   "artist": "JPEGMAFIA",
-   "trackCount": 25
   },
   {
    "browseId": "MPREb_b9e2uC0Oyly",

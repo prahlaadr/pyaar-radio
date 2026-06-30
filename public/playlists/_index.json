@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 262,
- "totalTracks": 101990,
- "syncedAt": "2026-06-29T12:35:18.458587Z",
+ "playlistCount": 263,
+ "totalTracks": 102364,
+ "syncedAt": "2026-06-30T10:58:25.138062Z",
  "playlists": [
   {
-   "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
-   "title": "Southside Rami",
-   "trackCount": 2
+   "playlistId": "PLfrvBzXep9TzbuADO7f8I0rGTPUGS-PNX",
+   "title": "Star Creature Releases",
+   "trackCount": 362
   },
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
-   "trackCount": 42
+   "trackCount": 43
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
+   "title": "Southside Rami",
+   "trackCount": 13
   },
   {
    "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
