@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-06-30T10:58:25.138062Z",
+ "syncedAt": "2026-07-01T11:24:33.212850Z",
  "tracks": [
   {
    "title": "Lately",
@@ -201,7 +201,7 @@
    "duration": "4:12"
   },
   {
-   "title": "Beautiful (feat. Pharrell & Uncle Charlie Wilson)",
+   "title": "Beautiful (feat. Pharrell & Charlie Wilson)",
    "artist": "Snoop Dogg",
    "album": "Paid Tha Cost To Be Da Bo$$",
    "videoId": "nI6jSRgvfjI",
@@ -306,7 +306,7 @@
    "duration": "4:52"
   },
   {
-   "title": "Signs (feat. Charlie Wilson & Justin Timberlake)",
+   "title": "Signs (feat. Justin Timberlake & Charlie Wilson)",
    "artist": "Snoop Dogg",
    "album": "R&G (Rhythm & Gangsta): The Masterpiece",
    "videoId": "Cs2d7qrVbB8",
@@ -5558,9 +5558,9 @@
   {
    "title": "Rose Rouge",
    "artist": "Jorja Smith",
-   "album": "Date Night x Urban Beats",
-   "videoId": "-EUqfiaMNCA",
-   "duration": "5:59"
+   "album": "Rose Rouge",
+   "videoId": "iR16aJSsrM4",
+   "duration": "5:58"
   },
   {
    "title": "Tea Leaf Dancers (feat. Vince Vella)",

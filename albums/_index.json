@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3425,
- "totalTracks": 43644,
- "syncedAt": "2026-06-30T10:58:21.190882Z",
+ "totalTracks": 43662,
+ "syncedAt": "2026-07-01T11:24:29.992613Z",
  "albums": [
+  {
+   "browseId": "MPREb_s1OdR7wMax7",
+   "title": "it's Franky baby!",
+   "artist": "Young Franco",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Sy4jA3DnL4G",
+   "title": "Don't Quit Your Day Job",
+   "artist": "Consequence",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_KSN8Ji84wiB",
    "title": "Echo Chamber",
@@ -12889,7 +12901,7 @@
   {
    "browseId": "MPREb_t0iu5pM7DrX",
    "title": "Authentic Polynesia, Vol. 1: Hawaii & Tonga",
-   "artist": "The Hiram Olsen Group & Nina Keali'iwahamana",
+   "artist": "The Hiram Olsen Group",
    "trackCount": 30
   },
   {
@@ -19043,12 +19055,6 @@
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_5g2fZEoC6k5",
-   "title": "Do I Know",
-   "artist": "Sijya",
-   "trackCount": 1
-  },
-  {
    "browseId": "MPREb_yiJiagsiVWZ",
    "title": "Virgin",
    "artist": "Lorde",
@@ -19551,12 +19557,6 @@
    "title": "Self Portrait",
    "artist": "Tony Shhnow",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_Ma4NZqstzg2",
-   "title": "Leather & Brass",
-   "artist": "Sijya",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_G4Iz0Fs9F8I",
