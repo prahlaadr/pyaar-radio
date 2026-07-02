@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-07-01T11:24:33.212850Z",
+ "syncedAt": "2026-07-02T10:41:10.667893Z",
  "tracks": [
   {
    "title": "REM",
@@ -995,7 +995,7 @@
    "title": "KRINK",
    "artist": "Eddie Burns;Sparklmami",
    "album": "KRINK",
-   "videoId": "tJLtcT9F_uI",
+   "videoId": "eAs1zoO2smc",
    "duration": "1:17"
   },
   {
@@ -1336,7 +1336,7 @@
   },
   {
    "title": "Against The Clock",
-   "artist": "MPH & EV",
+   "artist": "MPH;EV",
    "album": "Substance",
    "videoId": "cU7rs8XhxVs",
    "duration": "2:48"
@@ -1357,7 +1357,7 @@
   },
   {
    "title": "Substance",
-   "artist": "MPH & EV",
+   "artist": "MPH;EV",
    "album": "Substance",
    "videoId": "nN8k7S4I6ws",
    "duration": "3:15"
@@ -9798,7 +9798,7 @@
    "duration": "2:48"
   },
   {
-   "title": "It's Like That (feat. Jermaine Dupri & Fatman Scoop)",
+   "title": "It's Like That (feat. Fatman Scoop & Jermaine Dupri)",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "0aZnIrhNVtQ",
@@ -11824,7 +11824,7 @@
    "title": "Had2Go",
    "artist": "Wavedash",
    "album": "Tempo",
-   "videoId": "Qq3IEZGwgiw",
+   "videoId": "Ar0mfS9f2lM",
    "duration": "3:43"
   },
   {
@@ -12034,7 +12034,7 @@
    "title": "U Don't Know How",
    "artist": "Wavedash",
    "album": "Tempo",
-   "videoId": "WgZol3ipqTI",
+   "videoId": "41YbQUMOsL0",
    "duration": "4:08"
   },
   {
@@ -18471,7 +18471,7 @@
    "duration": "4:11"
   },
   {
-   "title": "You (feat. Q-Tip & Snoop Dogg)",
+   "title": "You (feat. Snoop Dogg & Q-Tip)",
    "artist": "Lucy Pearl",
    "album": "Lucy Pearl",
    "videoId": "S13LsfMO4TQ",
@@ -31737,7 +31737,7 @@
   },
   {
    "title": "Call Me",
-   "artist": "NAV;Metro Boomin",
+   "artist": "Metro Boomin;NAV",
    "album": "Perfect Timing",
    "videoId": "n6ALhq36rgQ",
    "duration": "3:36"

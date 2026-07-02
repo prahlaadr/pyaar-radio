@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1VhgbZTSoWnY5DGK0NoL-I",
  "title": "swoler bear 🐻❄️",
  "trackCount": 443,
- "syncedAt": "2026-07-01T11:24:33.212850Z",
+ "syncedAt": "2026-07-02T10:41:10.667893Z",
  "tracks": [
   {
    "title": "Money Trees (feat. Jay Rock)",
@@ -146,7 +146,7 @@
   },
   {
    "title": "Minute (feat. Playboi Carti & Offset)",
-   "artist": "NAV;Metro Boomin",
+   "artist": "Metro Boomin;NAV",
    "album": "Perfect Timing",
    "videoId": "WV3IoQeBrVw",
    "duration": "4:26"
@@ -1917,7 +1917,7 @@
   },
   {
    "title": "Clique",
-   "artist": "Kanye West;JAŸ-Z;Big Sean",
+   "artist": "Kanye West;JAY-Z;Big Sean",
    "album": "Kanye West Presents Good Music Cruel Summer",
    "videoId": "3fKaGfKSsOo",
    "duration": "4:54"

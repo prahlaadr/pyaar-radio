@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1SfSDRCnhTiHRMStUHehas",
  "title": "20/20 LDN Recordings Catalogue",
  "trackCount": 551,
- "syncedAt": "2026-07-01T11:24:33.212850Z",
+ "syncedAt": "2026-07-02T10:41:10.667893Z",
  "tracks": [
   {
    "title": "Rorschach",
@@ -965,7 +965,7 @@
   },
   {
    "title": "Rain Fire",
-   "artist": "Ivy Lab & Onoe Caponoe",
+   "artist": "Ivy Lab;Onoe Caponoe",
    "album": "Everythingmustchange E.P",
    "videoId": "EwuzYWOcL7s",
    "duration": "2:26"
@@ -2344,7 +2344,7 @@
   },
   {
    "title": "Rain Fire",
-   "artist": "Ivy Lab & Onoe Caponoe",
+   "artist": "Ivy Lab;Onoe Caponoe",
    "album": "Everythingmustchange E.P",
    "videoId": "EwuzYWOcL7s",
    "duration": "2:26"

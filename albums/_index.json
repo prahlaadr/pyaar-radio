@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3425,
- "totalTracks": 43662,
- "syncedAt": "2026-07-01T11:24:29.992613Z",
+ "albumCount": 3424,
+ "totalTracks": 43650,
+ "syncedAt": "2026-07-02T10:41:07.826045Z",
  "albums": [
   {
    "browseId": "MPREb_s1OdR7wMax7",
@@ -16191,12 +16191,6 @@
    "title": "What Is Music",
    "artist": "klark sound",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_r26C8xmq0Xy",
-   "title": "Tempo",
-   "artist": "Wavedash",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_z0Us6KQ8aUf",

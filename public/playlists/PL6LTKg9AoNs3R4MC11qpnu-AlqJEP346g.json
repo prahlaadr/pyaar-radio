@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
  "trackCount": 1451,
- "syncedAt": "2026-07-01T11:24:33.212850Z",
+ "syncedAt": "2026-07-02T10:41:10.667893Z",
  "tracks": [
   {
    "title": "Best Friend (Remix)",
@@ -951,7 +951,7 @@
   },
   {
    "title": "Don't Phunk With My Heart",
-   "artist": "The Black Eyed Peas",
+   "artist": "Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "UvgOT91-3Po",
    "duration": "4:00"
@@ -3261,7 +3261,7 @@
   },
   {
    "title": "Dog Days Are Over",
-   "artist": "Florence + The Machine",
+   "artist": "Florence + the Machine",
    "album": "Lungs (Deluxe Edition)",
    "videoId": "mHJUSQVGXAE",
    "duration": "4:12"
@@ -4236,7 +4236,7 @@
    "title": "KRINK",
    "artist": "Eddie Burns;Sparklmami",
    "album": "KRINK",
-   "videoId": "tJLtcT9F_uI",
+   "videoId": "eAs1zoO2smc",
    "duration": "1:17"
   },
   {
@@ -5074,7 +5074,7 @@
   },
   {
    "title": "Right Here, Right Now",
-   "artist": "High School Musical Cast;Vanessa Hudgens;Zac Efron;Disney",
+   "artist": "High School Musical Cast;Vanessa Hudgens;Zac Efron",
    "album": "High School Musical 3: Senior Year",
    "videoId": "id4SwthNwLM",
    "duration": "3:56"
@@ -6242,8 +6242,8 @@
    "duration": "3:19"
   },
   {
-   "title": "The Ways",
-   "artist": "Khalid;Swae Lee",
+   "title": "The Ways (feat. Swae Lee)",
+   "artist": "Khalid",
    "album": "Black Panther The Album Music From And Inspired By",
    "videoId": "fRjlMaaYrtM",
    "duration": "3:59"
