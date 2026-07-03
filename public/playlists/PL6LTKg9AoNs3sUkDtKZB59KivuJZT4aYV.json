@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3sUkDtKZB59KivuJZT4aYV",
  "title": "Beats",
  "trackCount": 1166,
- "syncedAt": "2026-07-02T10:41:10.667893Z",
+ "syncedAt": "2026-07-03T10:36:40.616939Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -2008,7 +2008,7 @@
   },
   {
    "title": "luv stuck",
-   "artist": "salute & piri",
+   "artist": "salute;piri",
    "album": "luv stuck",
    "videoId": "R_HhmsU2Tpk",
    "duration": "2:41"
@@ -8041,7 +8041,7 @@
    "duration": "1:45"
   },
   {
-   "title": "Dope Dealer (feat. ScHoolboy Q)",
+   "title": "Dope Dealer",
    "artist": "ScHoolboy Q",
    "album": "Blank Face LP",
    "videoId": "gcVwV6G6N0E",

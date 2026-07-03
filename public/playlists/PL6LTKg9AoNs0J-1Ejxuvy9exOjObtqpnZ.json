@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0J-1Ejxuvy9exOjObtqpnZ",
  "title": "murch 24",
  "trackCount": 113,
- "syncedAt": "2026-07-02T10:41:10.667893Z",
+ "syncedAt": "2026-07-03T10:36:40.616939Z",
  "tracks": [
   {
    "title": "RL (feat. WIFIGawd)",
@@ -132,8 +132,8 @@
   },
   {
    "title": "WEST UP",
-   "artist": "Talinwya - Topic",
-   "album": "",
+   "artist": "Talinwya",
+   "album": "WEST UP",
    "videoId": "soL20SEIQcM",
    "duration": "1:38"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "Tell më",
-   "artist": "Yeat - Topic",
-   "album": "",
+   "artist": "Yeat",
+   "album": "2093",
    "videoId": "4_GS2_YN5AA",
    "duration": "4:04"
   },
@@ -384,8 +384,8 @@
   },
   {
    "title": "But Not Kiss",
-   "artist": "Faye Webster - Topic",
-   "album": "",
+   "artist": "Faye Webster",
+   "album": "Underdressed at the Symphony",
    "videoId": "lYubiL-kun8",
    "duration": "3:43"
   },
@@ -475,22 +475,22 @@
   },
   {
    "title": "Montanita",
-   "artist": "Ratatat - Topic",
-   "album": "",
+   "artist": "Ratatat",
+   "album": "Classics",
    "videoId": "XrXqKoCPvE0",
    "duration": "5:01"
   },
   {
    "title": "Montanita",
-   "artist": "Ratatat - Topic",
-   "album": "",
+   "artist": "Ratatat",
+   "album": "Classics",
    "videoId": "XrXqKoCPvE0",
    "duration": "5:01"
   },
   {
    "title": "Don't Slip",
-   "artist": "Tony Shhnow - Topic",
-   "album": "",
+   "artist": "Tony Shhnow",
+   "album": "Out The Woods",
    "videoId": "QhtATVAQbOg",
    "duration": "3:08"
   },
@@ -503,15 +503,15 @@
   },
   {
    "title": "Marissa",
-   "artist": "Jon Bap - Topic",
-   "album": "",
+   "artist": "Jon Bap",
+   "album": "Let It Happen",
    "videoId": "zoVOu6kg3J8",
    "duration": "2:09"
   },
   {
    "title": "Call Ticketron",
-   "artist": "Run The Jewels - Topic",
-   "album": "",
+   "artist": "Run The Jewels;El-P;Killer Mike",
+   "album": "Run The Jewels 3",
    "videoId": "eHsnhmTi67k",
    "duration": "3:19"
   },
@@ -523,9 +523,9 @@
    "duration": "4:03"
   },
   {
-   "title": "Hell",
-   "artist": "A$AP Rocky - Topic",
-   "album": "",
+   "title": "Hell (feat. Santigold)",
+   "artist": "A$AP Rocky",
+   "album": "LONG.LIVE.A$AP (Deluxe Version)",
    "videoId": "qVQU20KgdSE",
    "duration": "3:52"
   },
@@ -580,8 +580,8 @@
   },
   {
    "title": "Forever Yours",
-   "artist": "Brent Faiyaz - Topic",
-   "album": "",
+   "artist": "Brent Faiyaz",
+   "album": "Larger Than Life",
    "videoId": "i98TYnthXX0",
    "duration": "1:37"
   },
@@ -601,8 +601,8 @@
   },
   {
    "title": "Paris, Tokyo",
-   "artist": "Lupe Fiasco - Topic",
-   "album": "",
+   "artist": "Lupe Fiasco",
+   "album": "Lupe Fiasco's The Cool",
    "videoId": "1E4y5y0WmaY",
    "duration": "4:31"
   },

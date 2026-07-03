@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-07-02T10:41:10.667893Z",
+ "syncedAt": "2026-07-03T10:36:40.616939Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -3624,7 +3624,7 @@
    "duration": "2:02"
   },
   {
-   "title": "So Amazing (feat. Olivia)",
+   "title": "So Amazing (feat. O.L.I.V.I.A)",
    "artist": "50 Cent",
    "album": "The Massacre",
    "videoId": "9feQ635FkSM",
@@ -16435,7 +16435,7 @@
   },
   {
    "title": "luv stuck",
-   "artist": "salute & piri",
+   "artist": "salute;piri",
    "album": "luv stuck",
    "videoId": "R_HhmsU2Tpk",
    "duration": "2:41"
@@ -17303,7 +17303,7 @@
   },
   {
    "title": "luv stuck",
-   "artist": "salute & piri",
+   "artist": "salute;piri",
    "album": "luv stuck",
    "videoId": "R_HhmsU2Tpk",
    "duration": "2:41"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-02T10:41:10.667893Z",
+ "syncedAt": "2026-07-03T10:36:40.616939Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -7852,7 +7852,7 @@
    "duration": "3:59"
   },
   {
-   "title": "Flight At First Sight/Advanced (feat. Pharrell Williams)",
+   "title": "Flight At First Sight/Advanced (feat. Pharrell)",
    "artist": "Kid Cudi",
    "album": "Passion, Pain & Demon Slayin'",
    "videoId": "IMGdPvC9AEw",
@@ -10352,7 +10352,7 @@
   },
   {
    "title": "luv stuck",
-   "artist": "salute & piri",
+   "artist": "salute;piri",
    "album": "TRUE MAGIC",
    "videoId": "x3hTh1hFpzs",
    "duration": "2:41"
@@ -11087,7 +11087,7 @@
   },
   {
    "title": "Nigga Please (feat. Young Chris)",
-   "artist": "JAŸ-Z",
+   "artist": "JAY-Z",
    "album": "The Blueprint 2: The Gift & The Curse",
    "videoId": "Azula3o9GIo",
    "duration": "4:38"
@@ -11492,7 +11492,7 @@
    "duration": "2:47"
   },
   {
-   "title": "Overtime (feat. ScHoolboy Q & Miguel)",
+   "title": "Overtime (feat. Miguel)",
    "artist": "ScHoolboy Q",
    "album": "Blank Face LP",
    "videoId": "vCcxfFqM0cc",
@@ -12801,7 +12801,7 @@
    "duration": "3:17"
   },
   {
-   "title": "So Amazing (feat. Olivia)",
+   "title": "So Amazing (feat. O.L.I.V.I.A)",
    "artist": "50 Cent",
    "album": "The Massacre",
    "videoId": "9feQ635FkSM",
@@ -17729,7 +17729,7 @@
    "duration": "3:22"
   },
   {
-   "title": "By Design (feat. André Benjamin)",
+   "title": "By Design (feat. André 3000)",
    "artist": "Kid Cudi",
    "album": "Passion, Pain & Demon Slayin'",
    "videoId": "vrSmvjGV-ls",
@@ -19416,7 +19416,7 @@
    "duration": "3:05"
   },
   {
-   "title": "Dope Dealer (feat. ScHoolboy Q)",
+   "title": "Dope Dealer",
    "artist": "ScHoolboy Q",
    "album": "Blank Face LP",
    "videoId": "gcVwV6G6N0E",
@@ -21593,7 +21593,7 @@
    "duration": "3:09"
   },
   {
-   "title": "Glass House (feat. Curren$y & Wiz Khalifa)",
+   "title": "Glass House (feat. Wiz Khalifa & Curren$y)",
    "artist": "Big K.R.I.T.",
    "album": "K.R.I.T. Wuz Here",
    "videoId": "chMFFxQg354",
@@ -23462,7 +23462,7 @@
    "duration": "4:15"
   },
   {
-   "title": "Kno Ya Wrong (feat. ScHoolboy Q)",
+   "title": "Kno Ya Wrong",
    "artist": "ScHoolboy Q",
    "album": "Blank Face LP",
    "videoId": "F51QbS5QMVY",
@@ -29175,7 +29175,7 @@
   },
   {
    "title": "The Bounce (feat. Kanye West)",
-   "artist": "JAŸ-Z",
+   "artist": "JAY-Z",
    "album": "The Blueprint 2: The Gift & The Curse",
    "videoId": "c5lF73ilJkA",
    "duration": "4:19"
