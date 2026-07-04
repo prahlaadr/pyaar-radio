@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3424,
- "totalTracks": 43650,
- "syncedAt": "2026-07-03T10:36:37.784603Z",
+ "albumCount": 3425,
+ "totalTracks": 43654,
+ "syncedAt": "2026-07-04T10:11:04.432803Z",
  "albums": [
+  {
+   "browseId": "MPREb_2dxi0J19B9E",
+   "title": "AK Cuts: Vol. 4",
+   "artist": "Anish Kumar",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_s1OdR7wMax7",
    "title": "it's Franky baby!",

@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 263,
- "totalTracks": 102364,
- "syncedAt": "2026-07-03T10:36:40.616939Z",
+ "playlistCount": 264,
+ "totalTracks": 102366,
+ "syncedAt": "2026-07-04T10:11:07.128956Z",
  "playlists": [
+  {
+   "playlistId": "PLEAgKYMfcO1k",
+   "title": "Color mix",
+   "trackCount": 2
+  },
   {
    "playlistId": "PLfrvBzXep9TzbuADO7f8I0rGTPUGS-PNX",
    "title": "Star Creature Releases",
