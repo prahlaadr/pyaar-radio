@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 264,
- "totalTracks": 102366,
- "syncedAt": "2026-07-04T10:11:07.128956Z",
+ "playlistCount": 265,
+ "totalTracks": 102368,
+ "syncedAt": "2026-07-05T10:13:37.700072Z",
  "playlists": [
+  {
+   "playlistId": "PLJBxb1mUYE9U",
+   "title": "July 26",
+   "trackCount": 3
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1450
+  },
   {
    "playlistId": "PLEAgKYMfcO1k",
    "title": "Color mix",
@@ -33,11 +43,6 @@
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
    "title": "under the bridge (sway, wrist flick, nodders) (goated)",
    "trackCount": 36
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1451
   },
   {
    "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
