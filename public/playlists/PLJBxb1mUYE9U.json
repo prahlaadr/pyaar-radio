@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 3,
- "syncedAt": "2026-07-05T10:13:37.700072Z",
+ "trackCount": 7,
+ "syncedAt": "2026-07-06T12:06:26.768732Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -24,6 +24,34 @@
    "album": "Honeycomb",
    "videoId": "mUdLtt8-47w",
    "duration": "3:25"
+  },
+  {
+   "title": "O.Y.N",
+   "artist": "Maxo Kream",
+   "album": "O.Y.N",
+   "videoId": "M2Iuf8TU1Ew",
+   "duration": "3:18"
+  },
+  {
+   "title": "30 N Dirty",
+   "artist": "Maxo Kream",
+   "album": "O.Y.N",
+   "videoId": "jk1UhojTUzE",
+   "duration": "2:53"
+  },
+  {
+   "title": "Mannequin Challenge (feat. Juice WRLD)",
+   "artist": "Young Thug",
+   "album": "So Much Fun",
+   "videoId": "clQPAEyUgz0",
+   "duration": "2:43"
+  },
+  {
+   "title": "Freestyle Battle Weapon",
+   "artist": "Anish Kumar",
+   "album": "AK Cuts: Vol. 4",
+   "videoId": "8m4Ay3SpwhQ",
+   "duration": "2:30"
   }
  ]
 }

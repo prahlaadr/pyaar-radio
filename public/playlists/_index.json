@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 265,
- "totalTracks": 102368,
- "syncedAt": "2026-07-05T10:13:37.700072Z",
+ "playlistCount": 264,
+ "totalTracks": 102012,
+ "syncedAt": "2026-07-06T12:06:26.768732Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
+   "title": "Nyege nyege set",
+   "trackCount": 8
+  },
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
-   "trackCount": 3
+   "trackCount": 7
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -18,11 +23,6 @@
    "playlistId": "PLEAgKYMfcO1k",
    "title": "Color mix",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PLfrvBzXep9TzbuADO7f8I0rGTPUGS-PNX",
-   "title": "Star Creature Releases",
-   "trackCount": 362
   },
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
@@ -68,11 +68,6 @@
    "playlistId": "PL6LTKg9AoNs1tr_ZX2hISPC0OKuBXGRGF",
    "title": "jazz house [pyaar radio]",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
-   "title": "Nyege nyege set",
-   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs232n3oEmlpWcb1EuSvGQ5v",

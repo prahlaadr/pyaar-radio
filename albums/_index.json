@@ -1,9 +1,495 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3425,
- "totalTracks": 43654,
- "syncedAt": "2026-07-05T10:13:34.989166Z",
+ "albumCount": 3506,
+ "totalTracks": 44732,
+ "syncedAt": "2026-07-06T12:06:06.120898Z",
  "albums": [
+  {
+   "browseId": "MPREb_zb64jVz8azc",
+   "title": "Sam Wilkes, Craig Weinrib, and Dylan Day",
+   "artist": "Sam Wilkes",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_CzbwW0zLZV8",
+   "title": "iiyo iiyo iiyo",
+   "artist": "Sam Wilkes",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_UEGxo8t6MXL",
+   "title": "Uhlmann Johnson Wilkes",
+   "artist": "Gregory Uhlmann",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_wfbWro5VSgx",
+   "title": "Get In The Car",
+   "artist": "Vayda",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_ilaaujZtsVV",
+   "title": "dawn",
+   "artist": "Vayda",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_GZSrebBV1ok",
+   "title": "VV",
+   "artist": "Vayda",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_cd7W03dzkbq",
+   "title": "Da World Is Ours",
+   "artist": "Tony Shhnow",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_zCSKZ97rxuJ",
+   "title": "Rp's & Plan B's",
+   "artist": "Tony Shhnow",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_cn2xD9dyVb5",
+   "title": "Kill Streak",
+   "artist": "Tony Shhnow",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_Hu007HwK0ah",
+   "title": "Dis Should Hold You Over 2",
+   "artist": "Tony Shhnow",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_qVwgR7gy0gX",
+   "title": "Authentic Goods",
+   "artist": "Tony Shhnow",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_nM26ysMFxY8",
+   "title": "48 Laws Of Flower 2 (Art of Production)",
+   "artist": "Tony Shhnow",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_EgqDrRf7j11",
+   "title": "RPS N PLAN BS ll",
+   "artist": "Tony Shhnow",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_yB3JSCyukfS",
+   "title": "Kill Streak 2",
+   "artist": "Tony Shhnow",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_N4LGQaWkSZz",
+   "title": "Plug Motivation",
+   "artist": "Tony Shhnow",
+   "trackCount": 23
+  },
+  {
+   "browseId": "MPREb_jez6ZuOpTuJ",
+   "title": "Klouds",
+   "artist": "Knxwledge",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_UCxbpl5WCuz",
+   "title": "Kauliflowr",
+   "artist": "Knxwledge",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_rO4G9IW5ePI",
+   "title": "Buttrskotch",
+   "artist": "Knxwledge",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_HA980oSOi3D",
+   "title": "MeekVol1",
+   "artist": "Knxwledge",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_rXXtoe6vyAa",
+   "title": "GT.V2",
+   "artist": "Knxwledge",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_EkLKKbLij4g",
+   "title": "WT.13.8",
+   "artist": "Knxwledge",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_mVFSdMhQuDp",
+   "title": "Bobby & Bobby, Vol. 1",
+   "artist": "Knxwledge",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_xxxwqTsI4JO",
+   "title": "WT.Prt15",
+   "artist": "Knxwledge",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_4RhZYLskdGP",
+   "title": "10,000 Proof",
+   "artist": "Knxwledge",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_4tbQTGHMXyl",
+   "title": "Jet Life to the Next Life",
+   "artist": "Curren$y",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_bpWIMc6RoAw",
+   "title": "7/30",
+   "artist": "Curren$y",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_naVwMQq0WCS",
+   "title": "8/30",
+   "artist": "Curren$y",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_WjKWoSYHXgM",
+   "title": "9/15",
+   "artist": "Curren$y",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_bkKjn9m0TGU",
+   "title": "10/15",
+   "artist": "Curren$y",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_gBqpeKxUWai",
+   "title": "Everywhere You Look",
+   "artist": "Curren$y",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_nVoHae5v5BV",
+   "title": "Spiral Staircases",
+   "artist": "Larry June",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_McunLdlBbDw",
+   "title": "Well Done",
+   "artist": "Statik Selektah",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_n0yWstOvyBk",
+   "title": "Just Like Fire",
+   "artist": "E.VAX",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_ACjcjQYVBFF",
+   "title": "Dr*gs R Bad",
+   "artist": "LUCKI",
+   "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_RfHjR5PnKE5",
+   "title": "Victory Garden",
+   "artist": "Young The Giant",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_sG5DSKTtVhR",
+   "title": "Nothing's About to Happen to Me",
+   "artist": "Mitski",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_KvORqHdMOF3",
+   "title": "Rocket",
+   "artist": "Dominic Fike",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_DFrvQVeCI7d",
+   "title": "A Matter of Time: The Final Hour",
+   "artist": "Laufey",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_xXXBJbJVaFF",
+   "title": "FEAR",
+   "artist": "Jared Mattson",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_6NxlXoKIp8T",
+   "title": "Flower City Heartbreak",
+   "artist": "Roy Woods",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_mlE0jrd1bXq",
+   "title": "Timeless Love Songs",
+   "artist": "Sunidhi Chauhan",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_njrgrAivENa",
+   "title": "Soulja Hate Repellant",
+   "artist": "Niontay",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_L7mpKq3gj4y",
+   "title": "Plus Ultra",
+   "artist": "Laron",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_MIxZc0xjQcZ",
+   "title": "PROJECT X",
+   "artist": "Key Glock",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_vSLFj1tf5ik",
+   "title": "GIRLS",
+   "artist": "Princess Nokia",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_VVXHCvetDgw",
+   "title": "Människobarn",
+   "artist": "Dina Ögon",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_rwxXbGEygVu",
+   "title": "While The Iron Is Hot",
+   "artist": "Ovrkast.",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_eGhRvhSXOCv",
+   "title": "Tuff Times Never Last",
+   "artist": "Kokoroko",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_gBx8NZHvazO",
+   "title": "Croak Dream",
+   "artist": "Puma Blue",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_pfGOlmFT7ex",
+   "title": "Free",
+   "artist": "Kid Cudi",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_noJU2gNZFQM",
+   "title": "Tall Tales",
+   "artist": "Mark Pritchard",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_YAUGEBoLeEX",
+   "title": "Chemistry",
+   "artist": "Chris Lake",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_xd3OKWcgPZj",
+   "title": "Dust",
+   "artist": "Karsh Kale",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_PZueTdMYS2O",
+   "title": "When The City Sleeps",
+   "artist": "Alex Isley",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_SjZuMdl2VUb",
+   "title": "Roulette",
+   "artist": "Alfa Mist",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_pJpbsdVarY9",
+   "title": "PERSPECTIVE",
+   "artist": "Terrace Martin",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_Gk59QnMME2m",
+   "title": "Strictly 4 The Scythe",
+   "artist": "Denzel Curry",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_L8lJOcjPHex",
+   "title": "Hour Sessions",
+   "artist": "Clever Austin",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_dRYPw66xkym",
+   "title": "Exile",
+   "artist": "Chronixx",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_tvb5MaBx1GT",
+   "title": "NEVER ENOUGH",
+   "artist": "Turnstile",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_lTojEybqi1h",
+   "title": "24 Hr Sports",
+   "artist": "El Michels Affair",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_pY4GijzNwGU",
+   "title": "Ancestry",
+   "artist": "Anushka",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_uQeCxcvlrIT",
+   "title": "Waves",
+   "artist": "Moonchild",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_mz7SH2LeggN",
+   "title": "Space Bomb",
+   "artist": "Charlie Hunter",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_0GnvCEE7Xb2",
+   "title": "YEARNALISM",
+   "artist": "Baby Rose",
+   "trackCount": 3
+  },
+  {
+   "browseId": "MPREb_CCIAAT3GU54",
+   "title": "ENOCH",
+   "artist": "GoldLink",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_Lavf8m7rnJB",
+   "title": "Epiphany Man",
+   "artist": "Key!",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_r39HooEYnSX",
+   "title": "Grady Baby",
+   "artist": "Anycia",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_U88X5vLx2dT",
+   "title": "7 piano sketches",
+   "artist": "André 3000",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_HPO7BrsOlE6",
+   "title": "LIVE FAST",
+   "artist": "33 Below",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_jYXks8Oi1Ss",
+   "title": "USB",
+   "artist": "Fred again..",
+   "trackCount": 42
+  },
+  {
+   "browseId": "MPREb_1hIxXpOuVdP",
+   "title": "The Trippy Tapes Vol. 1",
+   "artist": "Juicy J",
+   "trackCount": 31
+  },
+  {
+   "browseId": "MPREb_VzsPFo1nIDc",
+   "title": "Full Circle",
+   "artist": "Tom Misch",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_nd1jk6JOu9E",
+   "title": "The Art of Loving",
+   "artist": "Olivia Dean",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_MPEzgsKfRHp",
+   "title": "EXPERIMENTAL RAP",
+   "artist": "JPEGMAFIA",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_BonDf94gThq",
+   "title": "2 LIVE!",
+   "artist": "K, Le Maestro",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_Pu8PmfOtTKL",
+   "title": "BESTOFLUCK",
+   "artist": "DJ Swisha",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_GLXvKlACeht",
+   "title": "Psychic sZn",
+   "artist": "Champion",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_0UywnVRqRzM",
+   "title": "Kodak The Blessing",
+   "artist": "Kodak Black",
+   "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_UY9nxRRWTm8",
+   "title": "You Only Die 1nce (Deluxe)",
+   "artist": "Freddie Gibbs",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_wnQWYX4ii4v",
+   "title": "O.Y.N",
+   "artist": "Maxo Kream",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_2dxi0J19B9E",
    "title": "AK Cuts: Vol. 4",

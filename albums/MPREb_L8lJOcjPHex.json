@@ -1,0 +1,76 @@
+{
+ "title": "Hour Sessions",
+ "artist": "Clever Austin",
+ "year": "2025",
+ "trackCount": 11,
+ "tracks": [
+  {
+   "title": "Hour 35",
+   "artist": "Clever Austin",
+   "videoId": "4hX_eDg4b1Q",
+   "duration": "3:38"
+  },
+  {
+   "title": "Hour 56",
+   "artist": "Clever Austin",
+   "videoId": "IV0JaEmaYm0",
+   "duration": "1:52"
+  },
+  {
+   "title": "Hour 16",
+   "artist": "Clever Austin",
+   "videoId": "eALWDJfQkAE",
+   "duration": "3:06"
+  },
+  {
+   "title": "Hour 19",
+   "artist": "Clever Austin",
+   "videoId": "eWwDGfwoTMc",
+   "duration": "2:20"
+  },
+  {
+   "title": "Hour 57",
+   "artist": "Clever Austin",
+   "videoId": "oqfCP0eEXCA",
+   "duration": "2:06"
+  },
+  {
+   "title": "Hour 32",
+   "artist": "Clever Austin",
+   "videoId": "7TDoNgZP5wA",
+   "duration": "1:35"
+  },
+  {
+   "title": "Hour 29",
+   "artist": "Clever Austin",
+   "videoId": "Oz26TZViLVI",
+   "duration": "3:40"
+  },
+  {
+   "title": "Hour 33",
+   "artist": "Clever Austin",
+   "videoId": "Vz_R36Pid78",
+   "duration": "2:21"
+  },
+  {
+   "title": "Hour 60",
+   "artist": "Clever Austin",
+   "videoId": "qxUSRngwrgE",
+   "duration": "2:10"
+  },
+  {
+   "title": "Hour 40",
+   "artist": "Clever Austin",
+   "videoId": "n7FmFgRkxfM",
+   "duration": "1:46"
+  },
+  {
+   "title": "Hour 7",
+   "artist": "Clever Austin",
+   "videoId": "5FvsA8lcPzQ",
+   "duration": "1:42"
+  }
+ ],
+ "browseId": "MPREb_L8lJOcjPHex",
+ "syncedAt": "2026-07-06T12:06:06.120898Z"
+}
