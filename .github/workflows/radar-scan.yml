@@ -32,6 +32,16 @@ jobs:
       - name: Scan for new releases
         run: python -m radar release
 
+      - name: Reconcile against saved library
+        # Drop alerts for albums already liked in YT Music (uses the committed
+        # albums/_index.json, refreshed daily by sync-masterlist.yml).
+        run: python -m radar reconcile
+
+      - name: Verify new alerts (Deezer)
+        # Tag each remaining alert verified / unconfirmed / noise (soundtracks,
+        # deluxe, comps). No API key needed; badges render on the deployed /radar.
+        run: python -m radar verify --all
+
       - name: Check for new alerts
         id: changes
         run: |
@@ -61,6 +71,7 @@ jobs:
         run: |
           python <<'PY'
           import json, os, subprocess, datetime
+          from collections import Counter
           alerts = json.load(open("public/data/radar-alerts.json"))["alerts"]
           new_alerts = [a for a in alerts if a.get("status") == "new"]
           if not new_alerts:
@@ -68,34 +79,42 @@ jobs:
               raise SystemExit(0)
           today = datetime.date.today().strftime("%Y-%m")
           title = f"Radar Triage Ready: {len(new_alerts)} new albums ({today})"
-          rows = "\n".join(
-              f"- [ ] **{a['artist']}** — {a['title']} ({a.get('year','')})"
-              for a in new_alerts
-          )
+          vc = Counter(a.get("verify", "") or "unchecked" for a in new_alerts)
+          badge = {"verified": "✅", "unconfirmed": "◽", "noise": "⚠️"}
+          def line(a):
+              return f"- [ ] {badge.get(a.get('verify',''),'')} **{a['artist']}** — {a['title']} ({a.get('year','')})"
+          noise = [a for a in new_alerts if a.get("verify") == "noise"]
+          keep = [a for a in new_alerts if a.get("verify") != "noise"]
+          rows = "\n".join(line(a) for a in keep)
+          skip_rows = "\n".join(line(a) for a in noise) or "_none_"
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
           body = f"""\
-          The monthly radar scan found **{len(new_alerts)} new albums** to triage.
+          The monthly radar scan found **{len(new_alerts)} new albums** — already verified against Deezer and de-duped against your YT Music library (albums you'd already liked were removed).
+
+          **{vc.get('verified',0)} ✅ verified · {vc.get('unconfirmed',0)} ◽ unconfirmed · {vc.get('noise',0)} ⚠️ suggested-skip**
 
           ## How to triage
 
-          1. Open https://radio.pyaarproject.org/radar — Save / Skip each one (Save calls YT Music directly).
-          2. Or, for the wider audit + manual list, regenerate `~/Desktop/pyaar-triage.html` and export your picks JSON.
-          3. Commit the export to `triage-runs/<date>.json` and run:
+          1. Review at https://radio.pyaarproject.org/radar/audit (grouped by verdict, ▶ listen on each row) or https://radio.pyaarproject.org/radar (the queue).
+          2. Export your picks JSON, commit it to `triage-runs/<date>.json`, then apply in the cloud:
 
              ```
-             gh workflow run triage-apply.yml --repo {os.environ.get('GITHUB_REPOSITORY','')} \\
-               -f triage_path=triage-runs/<date>.json -f mode=dry
+             gh workflow run triage-apply.yml --repo {repo} \\
+               -f triage_path=triage-runs/<date>.json -f mode=apply -f run_sync=true
              ```
 
-             Then again with `mode=apply` once the dry-run looks right.
-
-          ## New alerts
+          ## To review
 
           {rows}
+
+          ## Suggested skips (soundtracks / deluxe / live / comps)
+
+          {skip_rows}
 
           *(Auto-opened by `radar-scan.yml` after the {today} scan committed `public/data/radar-alerts.json`.)*
           """
           # dedent
-          body = "\n".join(line.lstrip() if line.startswith("          ") else line for line in body.splitlines())
+          body = "\n".join(ln.lstrip() if ln.startswith("          ") else ln for ln in body.splitlines())
           subprocess.run(
               ["gh", "issue", "create", "--title", title, "--body", body, "--label", "triage"],
               check=True,
