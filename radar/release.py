@@ -304,7 +304,8 @@ def check_releases(
 def export_alerts_json(db: duckdb.DuckDBPyConnection):
     """Export all non-dismissed alerts to JSON for the frontend."""
     rows = db.execute(
-        "SELECT id, artist, title, browse_id, year, release_type, status, detected_at FROM release_alerts WHERE status != 'dismissed' ORDER BY detected_at DESC"
+        "SELECT id, artist, title, browse_id, year, release_type, status, detected_at, "
+        "verify_status, verify_source, verify_note FROM release_alerts WHERE status != 'dismissed' ORDER BY detected_at DESC"
     ).fetchall()
     alerts = []
     for row in rows:
@@ -317,6 +318,9 @@ def export_alerts_json(db: duckdb.DuckDBPyConnection):
             "type": row[5],
             "status": row[6],
             "detectedAt": row[7].isoformat() if row[7] else "",
+            "verify": row[8] or "",
+            "verifySource": row[9] or "",
+            "verifyNote": row[10] or "",
         })
     with open(ALERTS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump({"updatedAt": datetime.now(UTC).isoformat(), "alerts": alerts}, f, ensure_ascii=False, indent=1)

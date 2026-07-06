@@ -46,6 +46,15 @@ def _init_schema(db: duckdb.DuckDBPyConnection):
     db.execute("""
         CREATE SEQUENCE IF NOT EXISTS release_alerts_seq START 1
     """)
+    # Verification columns (added post-launch — CREATE TABLE IF NOT EXISTS won't
+    # add them to an existing state.db, so migrate explicitly). See radar/verify.py.
+    for col, typ in (
+        ("verify_status", "TEXT"),
+        ("verify_source", "TEXT"),
+        ("verify_note", "TEXT"),
+        ("verified_at", "TIMESTAMP"),
+    ):
+        db.execute(f"ALTER TABLE release_alerts ADD COLUMN IF NOT EXISTS {col} {typ}")
     db.execute("""
         CREATE TABLE IF NOT EXISTS discovery_suggestions (
             id INTEGER PRIMARY KEY,

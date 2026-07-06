@@ -41,6 +41,21 @@ Requires `browser.json` in the repo root (YT Music auth cookies). See main CLAUD
 # Dismiss every row from known label-channel artists (RAAJA BEATS, CHOR BAZAAR)
 .venv/bin/python -m radar classify --dismiss-label-channels
 
+# Verify new alerts are real official albums (Discogs + MusicBrainz cross-check)
+.venv/bin/python -u -m radar verify
+
+# Verify only the 40 most recent new alerts (default limit is 80)
+.venv/bin/python -u -m radar verify --limit 40
+
+# Re-check alerts that already have a verdict, or a single artist
+.venv/bin/python -u -m radar verify --reverify
+.venv/bin/python -u -m radar verify --artist "Kokoroko"
+
+# Drop alerts you've ALREADY liked in YT Music from the queue (run sync_albums.py first)
+.venv/bin/python sync_albums.py            # refresh albums/_index.json from current library
+.venv/bin/python -u -m radar reconcile     # mark matching 'new' alerts as 'saved'
+.venv/bin/python -u -m radar reconcile --exact   # browseId-only match (no title fuzzy)
+
 # Seed known albums from albums/*.json (first run or reset)
 .venv/bin/python -m radar seed
 
@@ -51,6 +66,32 @@ Requires `browser.json` in the repo root (YT Music auth cookies). See main CLAUD
 .venv/bin/python -m radar query "SELECT artist, COUNT(*) FROM known_albums GROUP BY artist ORDER BY 2 DESC LIMIT 10"
 ```
 
+## Verification (Deezer)
+
+`radar verify` cross-checks each new alert against the Deezer catalog before you
+triage, so you're not adding soundtracks / deluxe re-issues / phantom releases to
+the library. It tags every alert one of three ways (persisted to `release_alerts`,
+exported to `radar-alerts.json`, rendered as a badge in the `/radar` UI):
+
+| Verdict | Badge | Meaning |
+|---------|-------|---------|
+| `verified` | `✓ real` (green) | Matched a Deezer album/EP **by that artist**. Safe to add. |
+| `noise` | `⚠ skip` (amber) | Local pattern says soundtrack / deluxe / live / remix / compilation. Skip per original-releases-only. Caught offline, no API call. |
+| `unconfirmed` | `· new?` (neutral) | Clean title but not in Deezer's catalog for that artist — **a weak signal, not a red flag**. Some new/niche releases just aren't indexed. |
+
+The verdict is intentionally asymmetric: a positive match is a strong confirm, a
+miss is only weak evidence. Verify is scoped to recent `new` alerts (`--limit 80`
+by default) and caches per-artist, so a full batch is fast (~1s/artist) and a
+re-run skips already-verified rows unless you pass `--reverify`. No API key
+required — Deezer runs unauthenticated.
+
+**Why Deezer:** benchmarked 2026-07-06 (`scripts/bench_verify_sources.py`) against
+Discogs and MusicBrainz on the user's own saved albums. Deezer won on both speed
+and accuracy — 88% recall on known-real + 70% on the hard niche/new set, vs
+MusicBrainz 60%/0% and Discogs 36%/0%, at ~1s/lookup (Discogs was ~3s). The
+Discogs/MusicBrainz helpers remain in `verify.py` for the bench + as fallbacks but
+are out of the verify path.
+
 ## Triage Frontend
 
 ```bash
@@ -58,7 +99,17 @@ bun run dev
 # open localhost:3000/radar
 ```
 
-Shows new releases with Save/Skip buttons. Save adds the album to your YT Music library directly. Only works locally (needs `browser.json`).
+Shows new releases with Save/Skip buttons and the verify badge above. Save adds the
+album to your YT Music library directly (likes it via `rate_playlist`). Only works
+locally (needs `browser.json`).
+
+> **Save ≠ instantly in your albums list.** Save likes the album in YT Music now,
+> but the site's artist pages read `albums/*.json`, which only refreshes on the
+> nightly `sync-masterlist.yml` Action or an explicit `python sync_albums.py`. Run
+> that after triaging if you want saved albums to show up right away.
+
+The whole flow is wrapped by the **`/radar`** Claude Code skill (scan → classify
+→ verify → launch triage).
 
 ## Monthly Workflow
 

@@ -12,6 +12,9 @@ Usage:
     python -m radar classify                      # Report on audit_gap quality
     python -m radar classify --dismiss            # Bulk-dismiss derivative/comp/themed_comp noise
     python -m radar classify --dismiss-label-channels  # Dismiss known label-channel rows
+    python -m radar verify                        # Verify new alerts vs Deezer catalog
+    python -m radar verify --limit 40             # Verify only the 40 most recent new alerts
+    python -m radar verify --artist "Kokoroko"    # Verify one artist's alerts
     python -m radar report                        # Show release_alerts log
     python -m radar query "SELECT ..."            # Ad-hoc DuckDB query
     python -m radar crate                         # List crate entries
@@ -155,6 +158,60 @@ def cmd_classify(args):
     classify_main()
 
 
+def cmd_verify(args):
+    from .db import get_db
+    from .release import export_alerts_json
+    from .verify import run_verify
+
+    db = get_db()
+    counts = run_verify(
+        db,
+        limit=args.limit,
+        do_all=args.all,
+        reverify=args.reverify,
+        artist=args.artist,
+    )
+
+    if counts["total"]:
+        print(f"\n{'=' * 60}")
+        print(
+            f"Verified {counts['total']}: "
+            f"{counts['verified']} ✓ verified, "
+            f"{counts['unconfirmed']} ? unconfirmed, "
+            f"{counts['noise']} ✗ noise."
+        )
+        print("(? unconfirmed = clean title not in Deezer for that artist — a weak signal, not a red flag.)")
+
+    count = export_alerts_json(db)
+    if count:
+        print(f"\nExported {count} alerts to radar-alerts.json")
+
+    db.close()
+
+
+def cmd_reconcile(args):
+    from .db import get_db
+    from .release import export_alerts_json
+    from .reconcile import run_reconcile
+
+    db = get_db()
+    result = run_reconcile(db, loose=not args.exact)
+
+    total = result["by_id"] + result["by_title"]
+    if total:
+        print(f"Reconciled {total} alert{'s' if total != 1 else ''} already in your library "
+              f"({result['by_id']} by browseId, {result['by_title']} by title) — moved to 'saved':\n")
+        for artist, title, how in result["reconciled"]:
+            print(f"  ✓ {artist} — {title}  [{how}]")
+    else:
+        print("Nothing to reconcile — no 'new' alerts match your saved albums.")
+
+    count = export_alerts_json(db)
+    if count:
+        print(f"\nExported {count} alerts to radar-alerts.json")
+    db.close()
+
+
 def cmd_query(args):
     from .db import get_db
 
@@ -202,6 +259,15 @@ def main():
     audit_p.add_argument("--artist", type=str, help="Audit a single artist")
     audit_p.add_argument("--since", type=int, help="Only flag gaps from this year onward (e.g. 2010)")
 
+    reconcile_p = sub.add_parser("reconcile", help="Mark alerts already saved in YT Music as saved (run sync_albums.py first)")
+    reconcile_p.add_argument("--exact", action="store_true", help="Match by browseId only (skip loose artist+title match)")
+
+    verify_p = sub.add_parser("verify", help="Verify new alerts against the Deezer catalog")
+    verify_p.add_argument("--limit", type=int, default=80, help="Max recent new alerts to verify (default 80)")
+    verify_p.add_argument("--all", action="store_true", help="Verify every un-verified new alert (slow)")
+    verify_p.add_argument("--reverify", action="store_true", help="Re-check alerts that already have a verdict")
+    verify_p.add_argument("--artist", type=str, help="Only verify alerts from this artist")
+
     sub.add_parser("report", help="Show release alerts log")
 
     classify_p = sub.add_parser("classify", help="Classify audit_gap rows; optionally bulk-dismiss noise")
@@ -239,6 +305,10 @@ def main():
         cmd_audit(args)
     elif args.command == "classify":
         cmd_classify(args)
+    elif args.command == "verify":
+        cmd_verify(args)
+    elif args.command == "reconcile":
+        cmd_reconcile(args)
     elif args.command == "report":
         cmd_report(args)
     elif args.command == "query":
