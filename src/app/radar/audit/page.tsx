@@ -2,10 +2,12 @@
 
 // Audit review page — shows every alert the `radar verify` pass has judged,
 // grouped by verdict, with the SKIP candidates surfaced first so they can be
-// previewed (▶ listen) and confirmed before dismissing. Save/Skip reuse the
-// same /api/radar/triage endpoint as the main triage page.
+// previewed (▶ listen) and confirmed before dismissing. Save/Skip write to the
+// same browser-persistent picks store as the main /radar page; apply them from
+// there (the ✓ Apply button).
 
-import { useState, useEffect, useCallback } from "react";
+import { useEffect, useState } from "react";
+import { useTriagePicks, isLocalhost, type PickStatus } from "@/lib/radar-triage";
 
 interface Alert {
   id: number;
@@ -40,7 +42,7 @@ export default function RadarAuditPage() {
   const [data, setData] = useState<AlertsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [triaging, setTriaging] = useState<Set<number>>(new Set());
+  const { picks, mark } = useTriagePicks();
 
   useEffect(() => {
     fetch("/data/radar-alerts.json")
@@ -52,28 +54,21 @@ export default function RadarAuditPage() {
       .catch((e) => { setError(e.message); setLoading(false); });
   }, []);
 
-  const triage = useCallback(async (id: number, status: "saved" | "dismissed") => {
-    setTriaging((s) => new Set(s).add(id));
-    try {
-      const res = await fetch("/api/radar/triage", {
+  // Record the pick (persists in the browser, shared with /radar). On localhost
+  // also hit the API for an instant save/dismiss.
+  const triage = (id: number, pick: PickStatus) => {
+    mark(id, pick);
+    if (isLocalhost()) {
+      fetch("/api/radar/triage", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id, status }),
-      });
-      if (res.ok) {
-        setData((prev) => {
-          if (!prev) return prev;
-          // Remove the row from the review list once actioned either way.
-          return { ...prev, alerts: prev.alerts.filter((a) => a.id !== id) };
-        });
-      }
-    } finally {
-      setTriaging((s) => { const n = new Set(s); n.delete(id); return n; });
+        body: JSON.stringify({ id, status: pick === "saved" ? "saved" : "dismissed" }),
+      }).catch(() => { /* deployed / no backend — pick still persists */ });
     }
-  }, []);
+  };
 
-  // Only alerts that have been audited AND are still awaiting triage.
-  const audited = (data?.alerts ?? []).filter((a) => a.verify && a.status === "new");
+  // Audited AND still awaiting triage (drop anything picked this session).
+  const audited = (data?.alerts ?? []).filter((a) => a.verify && a.status === "new" && !picks[a.id]);
   const noise = audited.filter((a) => a.verify === "noise");
   const unconfirmed = audited.filter((a) => a.verify === "unconfirmed");
   const verified = audited.filter((a) => a.verify === "verified");
@@ -110,7 +105,8 @@ export default function RadarAuditPage() {
           <>
             <div className="px-5 py-3 text-[10px] text-[#888] leading-relaxed border-b border-[#111]">
               Everything the Deezer check has judged. Preview any album with{" "}
-              <span className="text-[#ccc]">▶ listen</span> before deciding. Save likes it on YT Music; Skip dismisses it.
+              <span className="text-[#ccc]">▶ listen</span> before deciding. Save/Skip persist in your browser;
+              apply your saves from the <a href="/radar" className="text-[#ccc] underline hover:text-white">Radar page</a> (✓ Apply).
             </div>
 
             <Section
@@ -120,8 +116,8 @@ export default function RadarAuditPage() {
               blurb="Soundtracks, deluxe editions, comps, mixtape vol-series. Preview to confirm, then Skip."
             >
               {noise.map((a) => (
-                <AuditRow key={a.id} alert={a} triaging={triaging.has(a.id)}
-                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "dismissed")} />
+                <AuditRow key={a.id} alert={a}
+                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "skipped")} />
               ))}
             </Section>
 
@@ -132,8 +128,8 @@ export default function RadarAuditPage() {
               blurb="Clean titles not in Deezer's catalog for the artist — usually just too new. Likely real; preview before saving."
             >
               {unconfirmed.map((a) => (
-                <AuditRow key={a.id} alert={a} triaging={triaging.has(a.id)}
-                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "dismissed")} />
+                <AuditRow key={a.id} alert={a}
+                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "skipped")} />
               ))}
             </Section>
 
@@ -144,8 +140,8 @@ export default function RadarAuditPage() {
               blurb="Confirmed as real releases by the artist. Safe to save."
             >
               {verified.map((a) => (
-                <AuditRow key={a.id} alert={a} triaging={triaging.has(a.id)}
-                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "dismissed")} />
+                <AuditRow key={a.id} alert={a}
+                  onSave={() => triage(a.id, "saved")} onDismiss={() => triage(a.id, "skipped")} />
               ))}
             </Section>
 
@@ -183,9 +179,9 @@ function Section({
 }
 
 function AuditRow({
-  alert, triaging, onSave, onDismiss,
+  alert, onSave, onDismiss,
 }: {
-  alert: Alert; triaging: boolean; onSave: () => void; onDismiss: () => void;
+  alert: Alert; onSave: () => void; onDismiss: () => void;
 }) {
   const reason = alert.verify === "noise" ? (REASON[alert.verifyNote ?? ""] ?? alert.verifyNote) : "";
   return (
@@ -212,20 +208,16 @@ function AuditRow({
         </a>
       )}
       <span className="text-[10px] text-[#999] tabular-nums font-mono shrink-0">{alert.year}</span>
-      {triaging ? (
-        <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse shrink-0" />
-      ) : (
-        <div className="flex gap-1 shrink-0">
-          <button onClick={onSave}
-            className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-green-600 hover:text-white text-[#999] transition-colors">
-            Save
-          </button>
-          <button onClick={onDismiss}
-            className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors">
-            Skip
-          </button>
-        </div>
-      )}
+      <div className="flex gap-1 shrink-0">
+        <button onClick={onSave}
+          className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-green-600 hover:text-white text-[#999] transition-colors">
+          Save
+        </button>
+        <button onClick={onDismiss}
+          className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-[#111] hover:bg-[#222] text-[#999] hover:text-white transition-colors">
+          Skip
+        </button>
+      </div>
     </div>
   );
 }

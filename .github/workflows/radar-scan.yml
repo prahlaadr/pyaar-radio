@@ -1,9 +1,9 @@
-name: Radar Monthly Scan
+name: Radar Scan
 
 on:
   schedule:
-    - cron: '0 14 1 * *'    # 1st of every month at 9 AM EST (UTC-5)
-  workflow_dispatch:
+    - cron: '0 14 * * 1'    # every Monday at 9 AM EST (UTC-5)
+  workflow_dispatch:         # also triggered on-demand by the /radar Refresh button
 
 permissions:
   contents: write
@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "radar: monthly scan ($(date +%Y-%m-%d))"
+          git commit -m "radar: scan ($(date +%Y-%m-%d))"
           for i in $(seq 1 5); do
             git pull --rebase --autostash origin main && git push && break
             if [ "$i" = 5 ]; then echo "::error::push failed after 5 retries"; exit 1; fi

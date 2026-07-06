@@ -111,6 +111,32 @@ locally (needs `browser.json`).
 The whole flow is wrapped by the **`/radar`** Claude Code skill (scan → classify
 → verify → launch triage).
 
+## Deployed triage (fully cloud, no localhost)
+
+The deployed `/radar` (radio.pyaarproject.org) is a real triage surface:
+
+- **⟳ Refresh** dispatches `radar-scan.yml` (scan → reconcile → verify) in the
+  cloud, then commits a fresh `radar-alerts.json`. Reload after ~15 min.
+- **Save / Skip** persist in the browser (localStorage), so they no longer reset
+  on reload. On localhost, Save also likes the album instantly via the API.
+- **✓ Apply** commits your picks to `triage-runs/web-<ts>.json` and dispatches
+  `triage-apply.yml`, which saves the albums to YT Music, no terminal needed.
+- `radar-scan.yml` also runs on a **weekly** cron (Mondays), so the page stays
+  fresh even without a manual refresh.
+
+Refresh + Apply call `POST /api/radar/refresh` and `/api/radar/apply`, which
+trigger the workflows via the GitHub API. **Setup (one-time):**
+
+1. Create a **fine-grained PAT** scoped to `prahlaadr/pyaar-radio` only, with
+   **Actions: Read and write** (dispatch workflows) + **Contents: Read and write**
+   (commit the picks file).
+2. Add it to Vercel as env var **`GITHUB_DISPATCH_TOKEN`** (all environments).
+   Optionally `GITHUB_REPO` (defaults to `prahlaadr/pyaar-radio`).
+3. Redeploy. The routes are gated behind the site password (`SITE_PASSWORD`
+   cookie), and the token stays server-side (never sent to the browser).
+
+For local testing, put `GITHUB_DISPATCH_TOKEN=...` in `.env.local` (gitignored).
+
 ## Monthly Workflow
 
 A GitHub Action (`.github/workflows/radar-scan.yml`) runs on the **1st of every month**:
