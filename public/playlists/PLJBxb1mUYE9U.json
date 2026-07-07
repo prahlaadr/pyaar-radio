@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 7,
- "syncedAt": "2026-07-06T12:06:26.768732Z",
+ "trackCount": 9,
+ "syncedAt": "2026-07-07T10:57:20.346015Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -52,6 +52,20 @@
    "album": "AK Cuts: Vol. 4",
    "videoId": "8m4Ay3SpwhQ",
    "duration": "2:30"
+  },
+  {
+   "title": "Lemon Squeeze",
+   "artist": "Kodak Black",
+   "album": "Kodak The Blessing",
+   "videoId": "UbbP8cLKMz8",
+   "duration": "1:40"
+  },
+  {
+   "title": "In The Fire",
+   "artist": "Freedom Attic",
+   "album": "In The Fire",
+   "videoId": "xPS25elen48",
+   "duration": "4:22"
   }
  ]
 }

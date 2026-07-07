@@ -1,0 +1,40 @@
+{
+ "title": "Conditions",
+ "artist": "Mandelbro",
+ "year": "2023",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "Eyes",
+   "artist": "Mandelbro",
+   "videoId": "9OOWZDp0uLk",
+   "duration": "3:33"
+  },
+  {
+   "title": "System Change",
+   "artist": "Mandelbro",
+   "videoId": "hvep8vl0Wwo",
+   "duration": "4:26"
+  },
+  {
+   "title": "Gets You Down",
+   "artist": "Mandelbro",
+   "videoId": "yS_XD5aQ9nw",
+   "duration": "2:37"
+  },
+  {
+   "title": "What Have You Done To Me?",
+   "artist": "Mandelbro",
+   "videoId": "-TljcuZBBv8",
+   "duration": "3:02"
+  },
+  {
+   "title": "Too Small For This World",
+   "artist": "Mandelbro",
+   "videoId": "TiC-nlRqMC0",
+   "duration": "5:58"
+  }
+ ],
+ "browseId": "MPREb_OOGh2HoXVNm",
+ "syncedAt": "2026-07-07T10:57:16.402943Z"
+}

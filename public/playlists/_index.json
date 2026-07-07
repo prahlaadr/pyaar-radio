@@ -1,23 +1,28 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 264,
- "totalTracks": 102012,
- "syncedAt": "2026-07-06T12:06:26.768732Z",
+ "playlistCount": 265,
+ "totalTracks": 102028,
+ "syncedAt": "2026-07-07T10:57:20.346015Z",
  "playlists": [
-  {
-   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
-   "title": "Nyege nyege set",
-   "trackCount": 8
-  },
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
-   "trackCount": 7
+   "trackCount": 9
+  },
+  {
+   "playlistId": "PLRwIjhs5XQ9Q",
+   "title": "desi soft garage",
+   "trackCount": 3
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1450
+   "trackCount": 1461
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
+   "title": "Nyege nyege set",
+   "trackCount": 8
   },
   {
    "playlistId": "PLEAgKYMfcO1k",

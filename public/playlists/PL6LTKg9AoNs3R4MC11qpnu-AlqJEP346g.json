@@ -1,9 +1,86 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1450,
- "syncedAt": "2026-07-06T12:06:26.768732Z",
+ "trackCount": 1461,
+ "syncedAt": "2026-07-07T10:57:20.346015Z",
  "tracks": [
+  {
+   "title": "She Looks So Perfect",
+   "artist": "5 Seconds of Summer",
+   "album": "5 Seconds Of Summer",
+   "videoId": "dfbKR1sRq9I",
+   "duration": "3:23"
+  },
+  {
+   "title": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+   "artist": "Calvin Harris",
+   "album": "Funk Wav Bounces Vol.1",
+   "videoId": "fqqcXP1D0Fw",
+   "duration": "3:44"
+  },
+  {
+   "title": "HOT TO GO!",
+   "artist": "Chappell Roan",
+   "album": "The Rise and Fall of a Midwest Princess",
+   "videoId": "GJAt8bqW00E",
+   "duration": "3:05"
+  },
+  {
+   "title": "That's What You Get",
+   "artist": "Paramore",
+   "album": "Riot!",
+   "videoId": "aVbdEnIolPo",
+   "duration": "3:41"
+  },
+  {
+   "title": "Lovefool",
+   "artist": "The Cardigans",
+   "album": "First Band On The Moon",
+   "videoId": "c0fHs7THj4k",
+   "duration": "3:14"
+  },
+  {
+   "title": "Wink Wink",
+   "artist": "Charli xcx",
+   "album": "Wink Wink",
+   "videoId": "RzJ2nAwg2uc",
+   "duration": "2:03"
+  },
+  {
+   "title": "The Way I Are (feat. Doe & Keri Hilson)",
+   "artist": "Timbaland",
+   "album": "Shock Value",
+   "videoId": "iM6iO8TD3tM",
+   "duration": "3:00"
+  },
+  {
+   "title": "Shooting Stars",
+   "artist": "Bag Raiders",
+   "album": "Bag Raiders (Deluxe)",
+   "videoId": "mllzzUjMezU",
+   "duration": "3:56"
+  },
+  {
+   "title": "Tonight Tonight",
+   "artist": "Hot Chelle Rae",
+   "album": "Whatever",
+   "videoId": "pkxU4tnwQPw",
+   "duration": "3:21"
+  },
+  {
+   "title": "Move Your Feet",
+   "artist": "Junior Senior",
+   "album": "D-D-Don't Don't Stop The Beat",
+   "videoId": "xI9NfAetZyk",
+   "duration": "3:02"
+  },
+  {
+   "title": "The Spins",
+   "artist": "Mac Miller & Empire Of The Sun",
+   "album": "K.I.D.S.",
+   "videoId": "dZ5v9ujG35A",
+   "duration": "3:16"
+  },
   {
    "title": "That Girl (Urban Mix) (feat. Shaggy)",
    "artist": "Maxi Priest",
@@ -5683,7 +5760,7 @@
   },
   {
    "title": "Rock That Body",
-   "artist": "The Black Eyed Peas",
+   "artist": "Black Eyed Peas",
    "album": "The Beginning & The Best Of The E.N.D. (International Mega-Deluxe Version)",
    "videoId": "z2_NVMa4Znw",
    "duration": "4:30"
@@ -6323,7 +6400,7 @@
    "artist": "Miguel",
    "album": "All I Want Is You",
    "videoId": "O1r16NYKniY",
-   "duration": "4:56"
+   "duration": "4:58"
   },
   {
    "title": "Family Affair",
