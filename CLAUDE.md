@@ -311,7 +311,9 @@ Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlist
 | "Apply my triage picks" | Commit export to `triage-runs/YYYY-MM-DD.json`, then `gh workflow run triage-apply.yml -f triage_path=… -f mode=apply -f run_sync=true` |
 | "Find missing albums" | Local: `.venv/bin/python -m radar audit --save` (or without `--save` for report-only). Heavy — runs against full discographies. |
 | "Refresh In Focus producer albums" | Local: `.venv/bin/python scripts/in_focus_audit.py` → writes `triage-runs/in-focus-YYYY-MM-DD.json`. Then `gh workflow run triage-apply.yml -f triage_path=… -f mode=apply -f run_sync=true`. Producer list: `data/in_focus_producers.txt`. Multi-source: Discogs → MusicBrainz → YT artist page. |
-| "Run radar manually" | `gh workflow run radar-scan.yml --repo prahlaadr/pyaar-radio` |
+| "Run radar manually" | `gh workflow run radar-scan.yml --repo prahlaadr/pyaar-radio` (or hit **⟳ Refresh** on `/radar`) |
+| "Verify alerts are real albums" | `.venv/bin/python -m radar verify --all` (Deezer). Runs automatically in `radar-scan.yml`. |
+| "Drop albums I already liked" | `.venv/bin/python sync_albums.py && .venv/bin/python -m radar reconcile`. Runs automatically in `radar-scan.yml`. |
 | "Sync playlists" | Run `python sync_playlists.py` or trigger Action with `sync_playlists=true` |
 | "Hydrate metadata" | Run hydration scripts in pyaar-core (see below) |
 | "Deploy" | Just push to `main` — Vercel auto-deploys |
@@ -433,23 +435,33 @@ After hydration, `sync_masterlist.py --yes` will push the updated masterlist to 
 
 How new music gets into the library. Three-stage loop: **scan → triage → apply**.
 
-### Stage 1: Scan (automatic, monthly)
+### Stage 1: Scan (automatic weekly, or on-demand from the page)
 
-`.github/workflows/radar-scan.yml` runs on the 1st of each month at 9 AM EST. It:
+`.github/workflows/radar-scan.yml` runs **weekly (Mondays 9 AM EST)** and on `workflow_dispatch` (the `/radar` **Refresh** button triggers it). It:
 
 1. Loads the 587 artists in `public/data/artists.csv`
 2. For each, fetches their latest album/EP from YT Music
 3. Filters out noise (compilations, anniversary editions, instrumentals — see `radar/release.py:NOISE_PATTERN`)
 4. Compares against `known_albums` table in `radar/state.db` (DuckDB)
 5. New ones get logged to `release_alerts` and exported to `public/data/radar-alerts.json`
-6. Commits + pushes (Vercel auto-deploys)
-7. **Auto-opens a GitHub issue** titled *"Radar Triage Ready: N new albums (YYYY-MM)"* with the new alerts as a checklist + run instructions
+6. **`radar reconcile`** — drops alerts for albums already in the YT library (compares against `albums/_index.json`), so you don't re-see what you own
+7. **`radar verify --all`** — tags each remaining alert `verified` / `unconfirmed` / `noise` against the **Deezer** catalog (see `radar/verify.py`; benchmarked fastest + most accurate vs Discogs/MusicBrainz in `scripts/bench_verify_sources.py`)
+8. Commits + pushes (Vercel auto-deploys); **auto-opens a GitHub issue** with the verdict breakdown + suggested-skips
 
-### Stage 2: Triage (manual, monthly)
+`radar/README.md` is the authoritative doc for the `radar` CLI (`seed`/`release`/`reconcile`/`verify`/`audit`/`classify`). `state.db` is gitignored — CI rebuilds it via `radar seed` from the committed `albums/_index.json` each run (so scans are monthly-delta, not cumulative).
 
-When the issue lands:
+### Stage 2: Triage (in the browser — `/radar` and `/radar/audit`)
 
-**Option A — `/radar` UI** (fast, single-album-at-a-time): Visit `radio.pyaarproject.org/radar` and click Save / Skip. Save calls YT Music directly via `yt.rate_playlist`. Only handles the radar's monthly delta.
+**Deployed = fully cloud, no localhost** (see `radar/README.md` "Deployed triage"):
+- **⟳ Refresh** → `POST /api/radar/refresh` dispatches the scan (Stage 1) in the cloud.
+- **Save / Skip** persist in the browser (localStorage via `src/lib/radar-triage.ts`), so they no longer reset on reload.
+- **✓ Apply** → `POST /api/radar/apply` commits picks to `triage-runs/web-<ts>.json` and dispatches `triage-apply.yml` (Stage 3) — saves to YT Music in the cloud.
+- `/radar/audit` = same picks store, grouped by Deezer verdict, ▶ listen links, skip-candidates first.
+- Requires Vercel env **`GITHUB_DISPATCH_TOKEN`** (fine-grained PAT, Actions RW + Contents RW on this repo). Routes gated by the `pyaar-auth` cookie. `src/lib/github-dispatch.ts` is the server-only helper.
+
+**Localhost** (`bun run dev`): Save *also* likes the album instantly via `/api/radar/triage` (needs `browser.json`).
+
+**Bulk HTML triage** (radar + audit + manual catch-up): Regenerate `~/Desktop/pyaar-triage.html`.
 
 **Option B — Bulk HTML triage** (combines radar + audit + manual catch-up): Regenerate `~/Desktop/pyaar-triage.html` (the standalone keyboard-driven triage tool). Combines:
 - Fresh radar alerts (`public/data/radar-alerts.json`)
@@ -526,7 +538,7 @@ Audit output drops into `release_alerts` with `release_type='audit_gap'` so it f
 | Workflow | Schedule | Purpose | Output |
 |---|---|---|---|
 | `sync-masterlist.yml` | Daily 3 AM EST | Pull liked + monthly playlists + saved albums + all playlists from YT Music | `masterlist.csv`, `albums.csv`, `albums/*.json`, `public/playlists/*.json` |
-| `radar-scan.yml` | Monthly 1st @ 9 AM EST | Find new releases from 587 tracked artists; open triage issue | `radar-alerts.json` + GitHub issue |
+| `radar-scan.yml` | Weekly Mon @ 9 AM EST (+ `/radar` Refresh button) | Scan 587 artists → reconcile vs likes → Deezer verify → open triage issue | `radar-alerts.json` + GitHub issue |
 | `triage-apply.yml` | Manual dispatch | Apply triage picks (save albums, like singles); refresh CSVs | YT Music library mutations + `triage-runs/*.log.json` |
 | `sync-tv-channels.yml` | Weekly Sunday 7 AM EST | Refresh Pyaar.TV channel videos | `public/data/tv/channels.json` |
 
