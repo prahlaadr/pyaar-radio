@@ -42,6 +42,8 @@ backups/
 
 # python venv
 .venv/
+__pycache__/
+*.pyc
 
 # radar state
 radar/state.db
