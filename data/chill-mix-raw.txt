@@ -1,0 +1,205 @@
+# Chill Mix — raw OCR from 22 iCloud screenshots (IMG_4712–4733), 2026-07-07
+# Format: Title | Artist | Duration   (order = scroll order; dedupe already applied)
+# FLAG lines = stylized/non-Latin titles I could not OCR reliably (mostly Lapgan/Khmer script) — resolve via library match.
+
+Telescope | Hiatus Kaiyote | 4:47
+mirror | Luna Li | 1:01
+Aay Mere Dil | Babla, Kanchan | 6:20
+On the Cusp of Enlightenment | Lapgan | 1:30
+Riyaaz | Baalti, Lapgan | 3:27
+File Select 64 | Nostalgicore | 1:06
+exhaust | Earl Sweatshirt | 2:30
+In The Fire | Freedom Attic | 4:22
+Digestives | Lapgan | 1:44
+Baa Illi | Lapgan (artist cut off — VERIFY) | ?
+dnthesitate | Knxwledge | 1:09
+FLAG stylized-title-1 | (Lapgan?) | 3:06
+Any Colour You Like | Pink Floyd | 3:26
+THE FROG SONG | Machinedrum | 6:34
+Romance | Baalti, Lapgan | 1:22
+FLAG stylized-title-2 | (unknown) | 5:44
+Holy | Lapgan | 2:10
+HALCYON + ON + ON | Orbital | 9:28
+time&tide | Knxwledge | 0:47
+Mughal Shit | Lapgan | 1:04
+Duniya Kya Hai | Lapgan | 1:04
+Lime Tikka | Baalti, Lapgan | 3:48
+T'Raenon (Original Mix) | Photek | 7:18
+Hold Tight | Jamie xx | 4:04
+Goodbye, Goodbye | µ-Ziq | 4:08
+Dillatronic 35 | J Dilla | 1:49
+Coolin Out | LTJ Bukem | 5:12
+Eternal Loop | Sam Gendel | 4:45
+We Are the Music Makers | Aphex Twin | 7:44
+Waves | J Dilla | 1:39
+Parallel Jalebi | Four Tet | 3:54
+You Are Loved | Four Tet | 6:09
+My Haveli Is Your Haveli | Lapgan | 1:22
+Gliding Through Everything | Four Tet | 4:09
+Someone Close | Floating Points | 8:13
+Astral Traveling | Pharoah Sanders | 5:48
+MmmHmm (feat. Thundercat) | Flying Lotus | 4:15
+FLAG stylized-title-3 | (unknown) | 5:38
+Keep Looking | Sade | 5:22
+good time | Jai Paul | 0:28
+Fresh | Daft Punk | 4:05
+Moja Bhari Moja | Rupa | 8:17
+FLAG stylized-title-4 | (unknown) | 4:43
+Ice Cream & Syrup | Remarc | 5:53
+A Hymn | Khruangbin | 3:11
+Khayal | Kazdoura | 3:27
+Robes (Instrumental) | Freddie Gibbs, Madlib | 3:27
+Sutphin Boulevard | Blood Orange | 3:35
+Atomic Peace | Alice Coltrane | 5:57
+Continuum 3 | Nala Sinephro | 4:08
+Ribbons | Four Tet | 5:23
+smile around the face | Four Tet | 4:35
+Weird Fishes / Arpeggi | Radiohead | 5:19
+Summer In The City | Quincy Jones | 4:07
+Pool of Life | Anysia Kym | 3:38
+Crime Pays (Instrumental) | Freddie Gibbs, Madlib | 3:03
+Green | Four Tet | 3:49
+? (Instrumental) | MF DOOM | 2:38
+Romantics | Four Tet | 4:58
+So[Rt] | Knxwledge | 2:25
+vaga | Sparklmami | 0:50
+quikk | Earl Sweatshirt, SURF GANG | 2:03
+Voyager | Daft Punk | 3:48
+Roundabouts | SML | 24:35
+sea of cloud | Nujabes | 3:02
+You Retreat In Time And Space | Boards of Canada | 5:26
+Love Demons | Peter Cat Recording Co. | 5:43
+Nova | Burial, Four Tet | 5:42
+FLAG stylized-title-5 | Ros Sereysothea | 4:25
+Gonna Luv You | Omar S | 4:19
+La femme d'argent | Air | 7:07
+Practice (Instrumental) | Freddie Gibbs, Madlib | 2:48
+Holy Hell (Instrumental) | The Alchemist | 4:35
+Aaaannnnteeeeennnaaaaaa | HYUKOH, Sunset Rollercoaster | ?
+Harvest Time | Pharoah Sanders | 20:25
+Using What You Got | Flying Lotus | 1:06
+Movement 10 - Her Gift | Floating Points, Miriam Adefris | 5:37
+Mystic Brew | Ronnie Foster | 4:09
+Talk About It | Acopia | 3:58
+Sourire | Les Nubians | 2:38
+FIND YOUR WINGS (Instrumental) | Tyler, The Creator | 3:01
+Mama Teaches Sanskrit | Four Tet | 4:25
+Flutter | Bonobo | 4:45
+Magic Spells | Crystal Castles | 6:07
+So Far To Go (Instrumental) | J Dilla | 5:37
+L'Amour Pour Bouclier | Elaine Kibaro | 4:19
+The Heart Wants a Heart | Anish Kumar | 3:48
+Puff Lah | KAYTRANADA | 1:54
+Revolution 909 | Daft Punk | 5:36
+Astral Traveling | Lonnie Liston Smith, The Cosmic Echoes | ?
+Taste (Instrumental) | KAYTRANADA | 3:13
+FEEL | Hiroshi Yoshimura | 4:34
+Shit I'm Dreaming | Peter Cat Recording Co. | 6:23
+The Percocet & Stripper Joint | Future | 2:29
+Brasilian Skies | Masayoshi Takanaka | 5:54
+Vishnu | Peter Cat Recording Co. | 4:26
+FLAG stylized-title-6 | (unknown) | 3:55
+Two Can Win | J Dilla | 1:48
+Flim | Aphex Twin | 2:58
+Summer Gypsy | Nujabes | 4:20
+Olson | Boards of Canada | 1:32
+Bless (Instrumental) | The Alchemist | 3:00
+Time: The Donut of the Heart | J Dilla | 1:39
+Actium | Aphex Twin | 7:35
+I Can See | Nick Hakim | 5:45
+ItsNotREEAALLLLLLL | Fred again.., Duoteque, Orion Sun | 5:28
+Happiness | Peter Cat Recording Co. | 3:44
+Not Screwed! (interlude) | Solange | 0:23
+New House | Toro y Moi | 2:31
+flowers | Nujabes | 4:00
+Here for the summer | Chris Stussy | 4:20
+20,000 STEPS | Sean Leon, God's Algorithm | 1:51
+Hustle and Opulence in America | Anish Kumar | 3:08
+EGONOMICS | IGWE AKA | 1:34
+Bye. | J Dilla | 1:28
+Welcome To The Show | J Dilla | 1:12
+Madonna (unerthed) | Toro y Moi | 2:47
+Fingerbib | Aphex Twin | 3:49
+Peaceland | Nujabes | 8:20
+Vivid Light | Blood Orange | 4:23
+Mango (Freestyle / Process) | orion sun, Mulch | 4:51
+Portrait of a Time | Peter Cat Recording Co. | 5:53
+Troop | Peggy Gou | 5:54
+20190724 | Mac DeMarco | 1:11
+ten | Fred again.., Jozzy | 3:02
+Lavender Buds | MF DOOM | 3:06
+Knight (Instrumental) (feat. Domo Genesis) | Earl Sweatshirt | 3:14
+The Rest Is Noise | Jamie xx | 4:58
+Chasing the Drum | Yussef Dayes | 5:41
+Memory Box | Peter Cat Recording Co. | 8:04
+São Paulo' Interlude | Venna | 1:11
+Re-Entry | Sampha | 5:14
+Life We Live (feat. Namond Lumpkin) | Project Pat | 4:15
+Baby | Four Tet | 4:25
+A Moment 4 Jazz | Larry Lovestein & The Velvet Revival | 3:xx
+Empty Words | Bowery Electric | 3:46
+They Say (Instrumental) [feat. Kanye West] | Common | 4:05
+U-Love | J Dilla | 1:01
+21c | Peter Cat Recording Co. | 4:34
+Masterpiece | SAULT | 5:45
+Lemon Grass | MF DOOM | 2:35
+Every Single Weekend (feat. Jamie xx) | The Avalanches | 2:11
+BOY IN RED | Isaiah Rashad, SZA | 3:10
+I've Seen The Light / Inside Of Clouds | N.E.R.D. | 4:26
+Summer Madness | Khruangbin | 3:22
+Ordinary Pleasure | Toro y Moi | 3:04
+Licorice | MF DOOM | 3:06
+Reality Surf | Bladee | 2:04
+Real Nice Moment | KNOWER | 4:31
+Bistro | Madlib, MF Doom | 1:08
+Love Is Everywhere | Pharoah Sanders | 5:19
+GLOWED UP (feat. Anderson .Paak) | KAYTRANADA | 4:59
+So We Won't Forget | Khruangbin | 4:59
+Moment In Time | The Pharcyde | 2:45
+Last Cigarette | Shigeru Suzuki | 4:48
+Oh! Tengo Suerte | Masayoshi Takanaka | 4:13
+All That We Perceive | Thievery Corporation | 3:47
+Sleep on the Left Side | Cornershop | 4:06
+Fluffy | Himiko Kikuchi | 4:58
+Binz | Solange | 1:52
+Snoopy | Loukeman | 2:00
+Jaguar | Action Bronson | 2:56
+Eternal Summer | The Strokes | 6:16
+We Give Thanks | Kokoroko | 3:41
+Ants To You, Gods To Who ? | André 3000 | 6:43
+drip bounce _ 7_24_18 | Toro y Moi | 2:35
+Foolmuse | Peter Cat Recording Co. | 4:21
+The Hillbillies | Baby Keem, Kendrick Lamar | 3:25
+Far Nearer | Jamie xx | 6:51
+Orange Moon | Erykah Badu | 7:10
+双子の美人秘書 | yes,mama ok? | 5:54
+Abraka | The Funkees | 4:27
+Beat Goes On | The Internet | 4:17
+Things I Imagined | Solange | 2:00
+Ti-de | Kokoroko | 6:13
+Jazz Club After Hours | Barry Can't Swim | 4:55
+easy breezy | Yaeji | 3:20
+Life Goes On | Chihiro Yamanaka | 4:43
+Home | LCD Soundsystem | 7:54
+Jen High | Peggy Gou | 6:28
+Sixteens | MIKE | 2:01
+Drip Sweat (feat. Channel Tres) | KAYTRANADA | 2:28
+KADRI | OAFF, Prasant Radhakrishnan | 2:30
+Skurrr | MIKE, Tony Seltzer | 1:48
+oh baby | LCD Soundsystem | 5:50
+Nanā | Polo & Pan | 3:11
+Desirée | Blood Orange | 3:01
+linknb | Kelela | 1:56
+SUN CAME OUT | Gunna | 2:17
+Nazar | Darzi | 4:58
+man in the mirror | MIKE | 1:52
+Sweetie | Kokoroko | 4:05
+Lotus Blossom | LAUSSE THE CAT | 7:57
+Coma | Caroline Polachek | 5:45
+Home | Kokoroko | 2:08
+Place To Be | Nick Drake | 2:41
+S'Cooled | Blood Orange | 3:11
+Woo | Erykah Badu | 3:15
+Love Is Everywhere | Magdalena Bay | 3:15
+# now-playing bar (present in every shot, likely also saved):
+It's Indian Tobacco My Friend | Cornershop | ?
