@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3502,
- "totalTracks": 44657,
- "syncedAt": "2026-07-07T10:57:16.402943Z",
+ "albumCount": 3512,
+ "totalTracks": 44792,
+ "syncedAt": "2026-07-08T10:19:10.935204Z",
  "albums": [
+  {
+   "browseId": "MPREb_nWnnSOVqWlD",
+   "title": "Late Nights: The Album",
+   "artist": "Jeremih",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_sfAsykE0oK3",
    "title": "Oneitis",
@@ -8429,6 +8435,12 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_X6H0g8Csxbx",
+   "title": "Nabuma Rubberband",
+   "artist": "Little Dragon",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_hYjEOm3G0ZJ",
    "title": "Sable Valley Summer Vol. 1",
    "artist": "Sable Valley",
@@ -8445,6 +8457,12 @@
    "title": "American Idiot",
    "artist": "Green Day",
    "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_Y0za66O81lm",
+   "title": "21st Century Breakdown",
+   "artist": "Green Day",
+   "trackCount": 18
   },
   {
    "browseId": "MPREb_f3VEs2RsN1J",
@@ -8477,10 +8495,22 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_NqfyG1GYsIA",
+   "title": "Jay Love Japan",
+   "artist": "J Dilla",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_d38eU2z8EbY",
    "title": "CTV3: Cool Tape Vol. 3",
    "artist": "Jaden",
    "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_Nir0nBww8bZ",
+   "title": "CTV2",
+   "artist": "Jaden Smith",
+   "trackCount": 8
   },
   {
    "browseId": "MPREb_hyfF2h8ecKE",
@@ -8537,16 +8567,34 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_K72SaKAoziu",
+   "title": "Various Artists",
+   "artist": "Various Artists",
+   "trackCount": 10
+  },
+  {
    "browseId": "MPREb_0n9ZqpCtbZy",
    "title": "Nasty",
    "artist": "Rico Nasty",
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_UOUyLQ6X3dZ",
+   "title": "Summertime '06",
+   "artist": "Vince Staples",
+   "trackCount": 20
+  },
+  {
    "browseId": "MPREb_HjpydxeaZhn",
    "title": "T R A P S O U L (Deluxe)",
    "artist": "Bryson Tiller",
    "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_UG04DSVQL12",
+   "title": "True to Self",
+   "artist": "Bryson Tiller",
+   "trackCount": 19
   },
   {
    "browseId": "MPREb_y17shKO1nZm",
@@ -8565,6 +8613,12 @@
    "title": "ZZZ",
    "artist": "Zion.T",
    "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_VuldNfN3v9a",
+   "title": "Digging a Tunnel",
+   "artist": "sir Was",
+   "trackCount": 12
   },
   {
    "browseId": "MPREb_bDrxAdkRDAE",
@@ -8615,6 +8669,12 @@
    "trackCount": 9
   },
   {
+   "browseId": "MPREb_Q5YgzCwrohC",
+   "title": "A Doctor, Painter & An Alchemist Walk Into A Bar",
+   "artist": "The Alchemist",
+   "trackCount": 10
+  },
+  {
    "browseId": "MPREb_0aHUxFILicX",
    "title": "Ella: The Lost Berlin Tapes (Live)",
    "artist": "Ella Fitzgerald",
@@ -8637,6 +8697,12 @@
    "title": "Kort Før Dine Læber",
    "artist": "Boom Clap Bachelors",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_NbPEt6cZzjr",
+   "title": "RINGOS DESERT",
+   "artist": "ZHU",
+   "trackCount": 14
   },
   {
    "browseId": "MPREb_g3WfNoR638b",
@@ -18819,12 +18885,6 @@
    "title": "F*CK U SKRILLEX YOU THINK UR ANDY WARHOL BUT UR NOT!! <3",
    "artist": "Skrillex",
    "trackCount": 34
-  },
-  {
-   "browseId": "MPREb_9IUZjuDKA90",
-   "title": "F.U.N.",
-   "artist": "Slum Village",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_KKDXQyZDR8I",

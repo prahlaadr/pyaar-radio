@@ -1,23 +1,28 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 265,
- "totalTracks": 102028,
- "syncedAt": "2026-07-07T10:57:20.346015Z",
+ "playlistCount": 266,
+ "totalTracks": 102226,
+ "syncedAt": "2026-07-08T10:19:16.416374Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1465
+  },
+  {
+   "playlistId": "PLeUck5qlo-go",
+   "title": "Pyaar Chill Mix",
+   "trackCount": 194
+  },
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
-   "trackCount": 9
+   "trackCount": 11
   },
   {
    "playlistId": "PLRwIjhs5XQ9Q",
    "title": "desi soft garage",
    "trackCount": 3
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1461
   },
   {
    "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
@@ -702,7 +707,7 @@
   {
    "playlistId": "PL6LTKg9AoNs24byX5ov73LqxoXoSoBh9R",
    "title": "dar disku fm",
-   "trackCount": 924
+   "trackCount": 923
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
@@ -1052,7 +1057,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
    "title": "DAR DISKU FM",
-   "trackCount": 932
+   "trackCount": 931
   },
   {
    "playlistId": "PL6LTKg9AoNs1hopxZWNxlzeqtRpO7Cecp",

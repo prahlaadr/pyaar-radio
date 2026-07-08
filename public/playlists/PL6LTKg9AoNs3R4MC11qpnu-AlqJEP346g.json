@@ -1,9 +1,37 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1461,
- "syncedAt": "2026-07-07T10:57:20.346015Z",
+ "trackCount": 1465,
+ "syncedAt": "2026-07-08T10:19:16.416374Z",
  "tracks": [
+  {
+   "title": "Holding Out For A Hero",
+   "artist": "Frou Frou",
+   "album": "Shrek 2 (Original Motion Picture Soundtrack)",
+   "videoId": "tUcRIw4QV_U",
+   "duration": "3:22"
+  },
+  {
+   "title": "Accidentally In Love (From \"Shrek 2\" Soundtrack)",
+   "artist": "Counting Crows",
+   "album": "Shrek 2 (Original Motion Picture Soundtrack)",
+   "videoId": "GEo7W-uJNkc",
+   "duration": "3:09"
+  },
+  {
+   "title": "oui",
+   "artist": "Jeremih",
+   "album": "Late Nights: The Album",
+   "videoId": "F9mn4yAtIG4",
+   "duration": "3:59"
+  },
+  {
+   "title": "yes, and?",
+   "artist": "Ariana Grande",
+   "album": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
+   "videoId": "S3nrck7gcfk",
+   "duration": "3:35"
+  },
   {
    "title": "She Looks So Perfect",
    "artist": "5 Seconds of Summer",
