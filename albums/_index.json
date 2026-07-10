@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3512,
- "totalTracks": 44792,
- "syncedAt": "2026-07-09T11:00:54.021873Z",
+ "albumCount": 3521,
+ "totalTracks": 44900,
+ "syncedAt": "2026-07-10T10:54:51.026729Z",
  "albums": [
+  {
+   "browseId": "MPREb_dNCCmdwegvj",
+   "title": "The Real Me",
+   "artist": "Future",
+   "trackCount": 22
+  },
+  {
+   "browseId": "MPREb_PQSpav5gcXo",
+   "title": "What I Breathe",
+   "artist": "Mall Grab",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_IbDz5pAZFvJ",
+   "title": "In Colour",
+   "artist": "Jamie xx",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_dhgE6kiAvRR",
+   "title": "Blue",
+   "artist": "Joni Mitchell",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_nWnnSOVqWlD",
    "title": "Late Nights: The Album",
@@ -8603,6 +8627,12 @@
    "trackCount": 15
   },
   {
+   "browseId": "MPREb_IHlJBViV6kR",
+   "title": "Nehruvia: My Disregarded Thoughts",
+   "artist": "Bishop Nehru",
+   "trackCount": 13
+  },
+  {
    "browseId": "MPREb_dXMS60wHEyn",
    "title": "Persona",
    "artist": "Mello Music Group",
@@ -11639,6 +11669,12 @@
    "trackCount": 15
   },
   {
+   "browseId": "MPREb_23hG2jbBoa1",
+   "title": "Nehruvia: The Nehruvian",
+   "artist": "Bishop Nehru",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_rt0sr6aNXxn",
    "title": "blueblue",
    "artist": "Sam Gendel",
@@ -12393,6 +12429,12 @@
    "title": "SremmLife",
    "artist": "Rae Sremmurd",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_h8vnqmhxXFC",
+   "title": "Heroin Addiction",
+   "artist": "Bishop Nehru",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_DmV57SA23v2",
@@ -13349,6 +13391,12 @@
    "trackCount": 23
   },
   {
+   "browseId": "MPREb_eKd87EcNAJS",
+   "title": "Mysteries of Initiation",
+   "artist": "Bishop Nehru",
+   "trackCount": 8
+  },
+  {
    "browseId": "MPREb_vLuFxxscu7x",
    "title": "UP",
    "artist": "Karsh Kale",
@@ -13539,6 +13587,12 @@
    "title": "And Then You Pray For Me",
    "artist": "Westside Gunn",
    "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_N8gVs5KaUo1",
+   "title": "Nehruvia: Elevators: Act I & II",
+   "artist": "Bishop Nehru",
+   "trackCount": 12
   },
   {
    "browseId": "MPREb_RmzY8XGyQGB",

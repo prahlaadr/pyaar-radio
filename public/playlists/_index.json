@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 266,
- "totalTracks": 102227,
- "syncedAt": "2026-07-09T11:00:56.817995Z",
+ "totalTracks": 102179,
+ "syncedAt": "2026-07-10T10:54:57.099748Z",
  "playlists": [
+  {
+   "playlistId": "PLEAgKYMfcO1k",
+   "title": "Color mix",
+   "trackCount": 4
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
@@ -28,11 +33,6 @@
    "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
    "title": "Nyege nyege set",
    "trackCount": 8
-  },
-  {
-   "playlistId": "PLEAgKYMfcO1k",
-   "title": "Color mix",
-   "trackCount": 2
   },
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
@@ -232,7 +232,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
    "title": "Favorite Songs",
-   "trackCount": 4997
+   "trackCount": 4947
   },
   {
    "playlistId": "PL6LTKg9AoNs1veKZzsP5GZ9wHIEBloS8E",

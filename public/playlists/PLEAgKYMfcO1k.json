@@ -1,8 +1,8 @@
 {
  "playlistId": "PLEAgKYMfcO1k",
  "title": "Color mix",
- "trackCount": 2,
- "syncedAt": "2026-07-09T11:00:56.817995Z",
+ "trackCount": 4,
+ "syncedAt": "2026-07-10T10:54:57.099748Z",
  "tracks": [
   {
    "title": "Lemonade",
@@ -17,6 +17,20 @@
    "album": "Mood Valiant",
    "videoId": "qaVrj19CltY",
    "duration": "3:53"
+  },
+  {
+   "title": "Mr. Blue Sky",
+   "artist": "Electric Light Orchestra",
+   "album": "All Over The World: The Very Best Of ELO",
+   "videoId": "wuJIqmha2Hk",
+   "duration": "5:03"
+  },
+  {
+   "title": "Pink + White",
+   "artist": "Frank Ocean",
+   "album": "Blonde",
+   "videoId": "9cHbvRUALrc",
+   "duration": "3:05"
   }
  ]
 }
