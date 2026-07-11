@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
- "trackCount": 4947,
- "syncedAt": "2026-07-10T10:54:57.099748Z",
+ "trackCount": 4997,
+ "syncedAt": "2026-07-11T09:39:05.951763Z",
  "tracks": [
   {
    "title": "REM",
@@ -1848,8 +1848,8 @@
   {
    "title": "Do I Know",
    "artist": "Sijya",
-   "album": "Do I Know",
-   "videoId": "HZzjwrhLTdE",
+   "album": "Leather & Brass",
+   "videoId": "U14dgpXsMUo",
    "duration": "2:47"
   },
   {
@@ -3057,10 +3057,10 @@
    "duration": "3:20"
   },
   {
-   "title": "Smile Please",
+   "title": "Smile Please (feat. Elias Rønnenfelt)",
    "artist": "Dean Blunt",
    "album": "Smile Please",
-   "videoId": "AcNIeZ2tpdE",
+   "videoId": "ToLvSHFcxV4",
    "duration": "2:16"
   },
   {
@@ -7187,10 +7187,10 @@
    "duration": "3:31"
   },
   {
-   "title": "900 Wasps",
-   "artist": "Mount XLR / Crush / Mount XLR의 곡 더 보기 / 디스코그래피 보기",
+   "title": "900 Wasps (feat. Crush)",
+   "artist": "Mount XLR",
    "album": "Forte / 900 Wasps",
-   "videoId": "1D9ERKuNcbA",
+   "videoId": "QFhwtbl7VmQ",
    "duration": "4:29"
   },
   {
@@ -28684,11 +28684,32 @@
    "duration": "3:39"
   },
   {
+   "title": "First Fires (feat. Grey Reverend)",
+   "artist": "Bonobo",
+   "album": "The North Borders",
+   "videoId": "gFeRDkxg87Q",
+   "duration": "4:39"
+  },
+  {
    "title": "NORTH",
    "artist": "The Kite String Tangle",
    "album": "C()D3X",
    "videoId": "G7ZlM3uxMRo",
    "duration": "3:36"
+  },
+  {
+   "title": "505",
+   "artist": "Arctic Monkeys",
+   "album": "Favourite Worst Nightmare",
+   "videoId": "KfEEm4Zx-EU",
+   "duration": "4:14"
+  },
+  {
+   "title": "KILLING TIME (feat. Eliott)",
+   "artist": "The Kite String Tangle",
+   "album": "C()D3X",
+   "videoId": "papOoqp_PBQ",
+   "duration": "3:27"
   },
   {
    "title": "No Reason (feat. Nick Murphy)",
@@ -28712,11 +28733,32 @@
    "duration": "2:52"
   },
   {
+   "title": "Marea (we’ve lost dancing)",
+   "artist": "Fred again..;The Blessed Madonna",
+   "album": "Actual Life (April 14 - December 17 2020)",
+   "videoId": "pZ_zeodlRRY",
+   "duration": "4:46"
+  },
+  {
+   "title": "7th Sevens",
+   "artist": "Bonobo",
+   "album": "Migration",
+   "videoId": "4GJ45GL-Qxo",
+   "duration": "5:08"
+  },
+  {
    "title": "Breathe Deeper (Lil Yachty Remix)",
    "artist": "Tame Impala;Lil Yachty",
    "album": "Breathe Deeper (Lil Yachty Remix)",
    "videoId": "oApoGVO2Txc",
    "duration": "4:49"
+  },
+  {
+   "title": "I Know You Know",
+   "artist": "Esperanza Spalding",
+   "album": "Esperanza",
+   "videoId": "0NfQmoouvTY",
+   "duration": "3:46"
   },
   {
    "title": "Demons",
@@ -28726,11 +28768,32 @@
    "duration": "3:01"
   },
   {
+   "title": "Leaf (feat. Main Attrakionz)",
+   "artist": "A$AP Rocky",
+   "album": "LIVE.LOVE.A$AP",
+   "videoId": "C8nmGj1B1vw",
+   "duration": "4:44"
+  },
+  {
    "title": "I Know You",
    "artist": "Faye Webster",
    "album": "Faye Webster",
    "videoId": "o0tqEQ331go",
    "duration": "4:12"
+  },
+  {
+   "title": "Sunflower (feat. Steve Lacy)",
+   "artist": "Vampire Weekend",
+   "album": "Father of the Bride",
+   "videoId": "Xa9XfQZWdC4",
+   "duration": "2:18"
+  },
+  {
+   "title": "This Life",
+   "artist": "Vampire Weekend",
+   "album": "Father of the Bride",
+   "videoId": "0DRvBNzwELE",
+   "duration": "4:29"
   },
   {
    "title": "Harmony Hall",
@@ -28740,11 +28803,25 @@
    "duration": "5:09"
   },
   {
+   "title": "The Adventures of Rain Dance Maggie",
+   "artist": "Red Hot Chili Peppers",
+   "album": "I'm with You",
+   "videoId": "DowAWZgDO8c",
+   "duration": "4:43"
+  },
+  {
    "title": "Factory of Faith",
    "artist": "Red Hot Chili Peppers",
    "album": "I'm with You",
    "videoId": "B6MXX8GLiH8",
    "duration": "4:20"
+  },
+  {
+   "title": "Bound 2",
+   "artist": "Kanye West",
+   "album": "Yeezus",
+   "videoId": "5gjKuISTMRE",
+   "duration": "3:50"
   },
   {
    "title": "Magic Stick",
@@ -28761,11 +28838,60 @@
    "duration": "2:13"
   },
   {
+   "title": "Sticky",
+   "artist": "Drake",
+   "album": "Honestly, Nevermind",
+   "videoId": "vczUPcdNXBc",
+   "duration": "4:04"
+  },
+  {
+   "title": "Video Games",
+   "artist": "Lana Del Rey",
+   "album": "Born To Die",
+   "videoId": "1wEVjlVlM18",
+   "duration": "4:42"
+  },
+  {
+   "title": "Christmas Time Is Here",
+   "artist": "Hiatus Kaiyote",
+   "album": "Christmas Time Is Here",
+   "videoId": "dUPiGgYC0lE",
+   "duration": "3:40"
+  },
+  {
+   "title": "Don't Come Home Today",
+   "artist": "Good Morning",
+   "album": "Shawcross",
+   "videoId": "ISoQNcYfLKg",
+   "duration": "3:12"
+  },
+  {
+   "title": "Sometimes",
+   "artist": "Erykah Badu",
+   "album": "Baduizm",
+   "videoId": "Mco-DRNcHw8",
+   "duration": "4:11"
+  },
+  {
    "title": "FREE BIA (1ST DAY OUT)",
    "artist": "BIA",
    "album": "FOR CERTAIN (Deluxe)",
    "videoId": "608NgJo8vKg",
    "duration": "1:55"
+  },
+  {
+   "title": "Cliff Hanger",
+   "artist": "Action Bronson",
+   "album": "Only For Dolphins",
+   "videoId": "H_HVE8va2NE",
+   "duration": "2:21"
+  },
+  {
+   "title": "Golden Eye",
+   "artist": "Action Bronson",
+   "album": "Only For Dolphins",
+   "videoId": "5KuAQBYaD0w",
+   "duration": "2:48"
   },
   {
    "title": "Splash",
@@ -28782,11 +28908,25 @@
    "duration": "2:46"
   },
   {
+   "title": "Dmtri",
+   "artist": "Action Bronson;The Alchemist",
+   "album": "Lamb Over Rice",
+   "videoId": "VDTKMKo-Cro",
+   "duration": "4:35"
+  },
+  {
    "title": "Triple Backflip",
    "artist": "Action Bronson",
    "album": "SAAAB Stories Produced by Harry Fraud",
    "videoId": "fD_qeyZM6HQ",
    "duration": "2:52"
+  },
+  {
+   "title": "Bonzai",
+   "artist": "Action Bronson",
+   "album": "Blue Chips 7000",
+   "videoId": "7VFWfbvRYnU",
+   "duration": "1:59"
   },
   {
    "title": "Cocoa Butter (feat. Nina Sky)",
@@ -28810,11 +28950,25 @@
    "duration": "3:23"
   },
   {
+   "title": "DIAMONDS",
+   "artist": "Tay Iwar",
+   "album": "GEMINI",
+   "videoId": "PGPhJG6nyY4",
+   "duration": "1:55"
+  },
+  {
    "title": "LADY (feat. Kyle Dion)",
    "artist": "Elujay;J.Robb;Jems!",
    "album": "GEMS IN THE CORNERSTORE",
    "videoId": "AdA5DDnoPsA",
    "duration": "3:28"
+  },
+  {
+   "title": "overtime",
+   "artist": "Dilip",
+   "album": "Pressure II",
+   "videoId": "Ziv1BMcGHoA",
+   "duration": "2:20"
   },
   {
    "title": "misha is fucking pissed",
@@ -28831,11 +28985,32 @@
    "duration": "2:06"
   },
   {
+   "title": "The Bean Kicked In",
+   "artist": "Zack Fox",
+   "album": "The Bean Kicked In",
+   "videoId": "ZRBoYUSs5Rw",
+   "duration": "1:46"
+  },
+  {
+   "title": "Bean (Kobe) (feat. Chief Keef)",
+   "artist": "Lil Uzi Vert",
+   "album": "Eternal Atake (Deluxe) - LUV vs. The World 2",
+   "videoId": "MxeSQXq3jlk",
+   "duration": "3:59"
+  },
+  {
    "title": "Higher Plains",
    "artist": "Clever Austin",
    "album": "Pareidolia",
    "videoId": "wwssLDswtgU",
    "duration": "3:45"
+  },
+  {
+   "title": "You Are All You Need (feat. Georgia Anne Muldrow)",
+   "artist": "Clever Austin",
+   "album": "Pareidolia",
+   "videoId": "F2LnYPJ4v8I",
+   "duration": "3:57"
   },
   {
    "title": "Catapult (feat. Laneous)",
@@ -28850,6 +29025,62 @@
    "album": "Down The Way",
    "videoId": "nZks-gWcLY4",
    "duration": "4:00"
+  },
+  {
+   "title": "No Type",
+   "artist": "Rae Sremmurd",
+   "album": "SremmLife",
+   "videoId": "jH8Yox66CtQ",
+   "duration": "3:21"
+  },
+  {
+   "title": "On & On",
+   "artist": "Erykah Badu",
+   "album": "Baduizm",
+   "videoId": "TW28iWV7nxE",
+   "duration": "3:47"
+  },
+  {
+   "title": "House of the Rising Sun [Tuka Version] (feat. Tuka)",
+   "artist": "alt-J",
+   "album": "Reduxer",
+   "videoId": "3PV5btLdlDo",
+   "duration": "4:54"
+  },
+  {
+   "title": "U&ME (Baauer Remix)",
+   "artist": "alt-J",
+   "album": "The Dream (Deluxe)",
+   "videoId": "bHjrp8_MgwQ",
+   "duration": "4:55"
+  },
+  {
+   "title": "The Actor (Single Edit)",
+   "artist": "alt-J",
+   "album": "The Dream (Deluxe)",
+   "videoId": "9S_PFVdSrdc",
+   "duration": "3:08"
+  },
+  {
+   "title": "Walk a Mile",
+   "artist": "alt-J",
+   "album": "The Dream (Deluxe)",
+   "videoId": "KTdNmKvcYII",
+   "duration": "6:30"
+  },
+  {
+   "title": "Philadelphia",
+   "artist": "alt-J",
+   "album": "The Dream (Deluxe)",
+   "videoId": "XMRV4mVYLX0",
+   "duration": "3:39"
+  },
+  {
+   "title": "Chicago",
+   "artist": "alt-J",
+   "album": "The Dream (Deluxe)",
+   "videoId": "VTgohrtcda4",
+   "duration": "3:56"
   },
   {
    "title": "U&ME",
@@ -28880,6 +29111,13 @@
    "duration": "3:11"
   },
   {
+   "title": "Robson Girl",
+   "artist": "Mac DeMarco",
+   "album": "2",
+   "videoId": "diid-c8OR_g",
+   "duration": "2:57"
+  },
+  {
    "title": "Ode to Viceroy",
    "artist": "Mac DeMarco",
    "album": "2",
@@ -28899,6 +29137,13 @@
    "album": "2",
    "videoId": "LbYwT6TULjg",
    "duration": "2:54"
+  },
+  {
+   "title": "Feels Like We Only Go Backwards",
+   "artist": "Tame Impala",
+   "album": "Lonerism",
+   "videoId": "f8_EpxhNEsA",
+   "duration": "3:13"
   },
   {
    "title": "Mind Mischief",
@@ -28929,6 +29174,20 @@
    "duration": "9:52"
   },
   {
+   "title": "Mr. Carter (feat. JAŸ-Z)",
+   "artist": "Lil Wayne",
+   "album": "Tha Carter III (MTV Bonus Version)",
+   "videoId": "6HIuYgMIqVc",
+   "duration": "5:17"
+  },
+  {
+   "title": "Comfortable (feat. Babyface)",
+   "artist": "Lil Wayne",
+   "album": "Tha Carter III (MTV Bonus Version)",
+   "videoId": "CJvUrFMSUbQ",
+   "duration": "4:26"
+  },
+  {
    "title": "Wheaties",
    "artist": "Mach-Hommy",
    "album": "F.Y.I. (2022 Digital Remaster)",
@@ -28957,11 +29216,46 @@
    "duration": "5:19"
   },
   {
+   "title": "Faust Arp",
+   "artist": "Radiohead",
+   "album": "In Rainbows",
+   "videoId": "PRc0iMRoIoc",
+   "duration": "2:10"
+  },
+  {
    "title": "15 Step",
    "artist": "Radiohead",
    "album": "In Rainbows",
    "videoId": "bgsmr7t8zGE",
    "duration": "3:58"
+  },
+  {
+   "title": "Insomniak (feat. Rick Ross)",
+   "artist": "Mac Miller",
+   "album": "Faces",
+   "videoId": "G8WB8155AMo",
+   "duration": "4:00"
+  },
+  {
+   "title": "Rain (feat. Vince Staples)",
+   "artist": "Mac Miller",
+   "album": "Faces",
+   "videoId": "Z9GpnyBoDZU",
+   "duration": "2:34"
+  },
+  {
+   "title": "Rock The Boat",
+   "artist": "Aaliyah",
+   "album": "I Care 4 U",
+   "videoId": "BO1_HeN3yPg",
+   "duration": "4:36"
+  },
+  {
+   "title": "LONDON (feat. J. Cole)",
+   "artist": "BIA",
+   "album": "LONDON",
+   "videoId": "mN5CzkiBv-M",
+   "duration": "4:11"
   },
   {
    "title": "She Said (Big Jet Plane)",
@@ -28990,6 +29284,13 @@
    "album": "Pray for Paris",
    "videoId": "-wIggLXTPLY",
    "duration": "4:13"
+  },
+  {
+   "title": "New To You",
+   "artist": "Calvin Harris;Normani;Tinashe;Offset",
+   "album": "Funk Wav Bounces Vol. 2",
+   "videoId": "ukLumYYO8QE",
+   "duration": "5:03"
   },
   {
    "title": "No Police",
@@ -29025,6 +29326,55 @@
    "album": "Sober Thoughts (Chris McClenney Remix)",
    "videoId": "Nn9PqV-LCk0",
    "duration": "3:00"
+  },
+  {
+   "title": "Again",
+   "artist": "Fetty Wap",
+   "album": "Fetty Wap",
+   "videoId": "tz5bW5j8KBE",
+   "duration": "5:13"
+  },
+  {
+   "title": "Beautiful",
+   "artist": "Doja Cat",
+   "album": "Purrr!",
+   "videoId": "I19nrQ7qrbo",
+   "duration": "3:47"
+  },
+  {
+   "title": "KEEP IT BURNIN (feat. Kanye West)",
+   "artist": "Future",
+   "album": "I NEVER LIKED YOU",
+   "videoId": "xpqtk2MqxYc",
+   "duration": "3:28"
+  },
+  {
+   "title": "The Root Of All Evil",
+   "artist": "Rx Papi",
+   "album": "The Root Of All Evil",
+   "videoId": "KWZ7AV2KozE",
+   "duration": "2:49"
+  },
+  {
+   "title": "Under The Influence",
+   "artist": "Chris Brown",
+   "album": "Indigo (Extended)",
+   "videoId": "BLFGsxijRHg",
+   "duration": "3:05"
+  },
+  {
+   "title": "Bitch Don't Kill My Vibe",
+   "artist": "Sly5thAve;The ClubCasa Chamber Orchestra",
+   "album": "Bitch Don't Kill My Vibe / Get Free",
+   "videoId": "P6_52z-RcBg",
+   "duration": "3:12"
+  },
+  {
+   "title": "Elite",
+   "artist": "Deftones",
+   "album": "White Pony",
+   "videoId": "m9Wtoc5Lhpw",
+   "duration": "4:02"
   },
   {
    "title": "If I Get Caught",
@@ -31381,8 +31731,8 @@
   {
    "title": "In My Room",
    "artist": "Jacob Collier",
-   "album": "In My Room",
-   "videoId": "neI0gDIilfM",
+   "album": "In My Room (10 Year Anniversary Edition)",
+   "videoId": "P8GJErAYGV4",
    "duration": "4:50"
   },
   {

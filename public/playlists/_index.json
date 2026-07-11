@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 266,
- "totalTracks": 102179,
- "syncedAt": "2026-07-10T10:54:57.099748Z",
+ "playlistCount": 267,
+ "totalTracks": 102524,
+ "syncedAt": "2026-07-11T09:39:05.951763Z",
  "playlists": [
+  {
+   "playlistId": "PLZ_kZR08Pzmk",
+   "title": "Pool Party: 90s/2000s Bangers",
+   "trackCount": 294
+  },
+  {
+   "playlistId": "PLJBxb1mUYE9U",
+   "title": "July 26",
+   "trackCount": 12
+  },
   {
    "playlistId": "PLEAgKYMfcO1k",
    "title": "Color mix",
@@ -18,11 +28,6 @@
    "playlistId": "PLeUck5qlo-go",
    "title": "Pyaar Chill Mix",
    "trackCount": 194
-  },
-  {
-   "playlistId": "PLJBxb1mUYE9U",
-   "title": "July 26",
-   "trackCount": 11
   },
   {
    "playlistId": "PLRwIjhs5XQ9Q",
@@ -232,7 +237,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
    "title": "Favorite Songs",
-   "trackCount": 4947
+   "trackCount": 4997
   },
   {
    "playlistId": "PL6LTKg9AoNs1veKZzsP5GZ9wHIEBloS8E",

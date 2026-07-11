@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-07-10T10:54:57.099748Z",
+ "syncedAt": "2026-07-11T09:39:05.951763Z",
  "tracks": [
   {
    "title": "magic",
@@ -160,7 +160,7 @@
   },
   {
    "title": "Just When You Need Yourself Most",
-   "artist": "Brad Oberhofer;Oberhofer",
+   "artist": "Brad Oberhofer",
    "album": "The Andy Warhol Diaries (Soundtrack from the Netflix Series)",
    "videoId": "iB0wgnogOaA",
    "duration": "1:36"
@@ -474,10 +474,10 @@
    "duration": "2:46"
   },
   {
-   "title": "In The Real Early Morning",
+   "title": "In the Real Early Morning",
    "artist": "Jacob Collier",
-   "album": "In My Room",
-   "videoId": "uorjHMV-9Js",
+   "album": "In My Room (10 Year Anniversary Edition)",
+   "videoId": "BSfPfQQwEag",
    "duration": "6:10"
   },
   {
@@ -1224,7 +1224,7 @@
   },
   {
    "title": "Cool Today (Mixed)",
-   "artist": "Prescribe Da Vibe",
+   "artist": "Prescribe da Vibe",
    "album": "The Kiwi Sound (DJ Mix)",
    "videoId": "n67nP9zPiR8",
    "duration": "2:08"

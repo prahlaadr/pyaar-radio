@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3521,
- "totalTracks": 44900,
- "syncedAt": "2026-07-10T10:54:51.026729Z",
+ "albumCount": 3525,
+ "totalTracks": 44955,
+ "syncedAt": "2026-07-11T09:39:02.585045Z",
  "albums": [
+  {
+   "browseId": "MPREb_H4Nf1uxDUfs",
+   "title": "Zakir Hussain and The Rhythm Experience",
+   "artist": "Zakir Hussain",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_55N0EV8uEHD",
+   "title": "Sunflower",
+   "artist": "Mall Grab",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_tln8FstIiFz",
+   "title": "WORSHIP FRIENDSHIP",
+   "artist": "Mall Grab",
+   "trackCount": 20
+  },
+  {
+   "browseId": "MPREb_h3Cy38DNyuS",
+   "title": "Dust",
+   "artist": "Mall Grab",
+   "trackCount": 21
+  },
   {
    "browseId": "MPREb_dNCCmdwegvj",
    "title": "The Real Me",
