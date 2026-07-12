@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1466,
- "syncedAt": "2026-07-11T09:39:05.951763Z",
+ "trackCount": 1469,
+ "syncedAt": "2026-07-12T09:51:53.256846Z",
  "tracks": [
+  {
+   "title": "Aston Martin Music (Edit) (feat. Chrisette Michele & Drake)",
+   "artist": "Rick Ross",
+   "album": "Teflon Don",
+   "videoId": "AF-ie6gWNpo",
+   "duration": "4:31"
+  },
+  {
+   "title": "Wonderwall",
+   "artist": "Oasis",
+   "album": "(What's The Story) Morning Glory?",
+   "videoId": "hpSrLjc5SMs",
+   "duration": "4:19"
+  },
+  {
+   "title": "Peaches (feat. Daniel Caesar & Giveon)",
+   "artist": "Justin Bieber",
+   "album": "Justice",
+   "videoId": "5rnawnfK2sQ",
+   "duration": "3:19"
+  },
   {
    "title": "Weak for Your Love",
    "artist": "Thee Sacred Souls",
@@ -6768,7 +6789,7 @@
   },
   {
    "title": "Naturally",
-   "artist": "Selena Gomez & The Scene",
+   "artist": "Selena Gomez",
    "album": "Kiss & Tell",
    "videoId": "50gktcuxdAA",
    "duration": "3:23"

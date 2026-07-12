@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3525,
- "totalTracks": 44955,
- "syncedAt": "2026-07-11T09:39:02.585045Z",
+ "albumCount": 3528,
+ "totalTracks": 44990,
+ "syncedAt": "2026-07-12T09:51:49.280372Z",
  "albums": [
+  {
+   "browseId": "MPREb_PDeG3NDFdbK",
+   "title": "Reading, Writing And Arithmetic",
+   "artist": "The Sundays",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_ZkDMLOTkdr7",
+   "title": "Blind",
+   "artist": "The Sundays",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_ti9ZLQDxLDz",
+   "title": "All I Want Is You",
+   "artist": "Miguel",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_H4Nf1uxDUfs",
    "title": "Zakir Hussain and The Rhythm Experience",

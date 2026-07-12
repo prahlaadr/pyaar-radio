@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-07-11T09:39:05.951763Z",
+ "syncedAt": "2026-07-12T09:51:53.256846Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -670,10 +670,10 @@
    "duration": "5:02"
   },
   {
-   "title": "Hard (feat. David Rodigan & Newham Generals)",
+   "title": "Hard",
    "artist": "Breakage",
    "album": "Foundation",
-   "videoId": "YR1wiGF1G1g",
+   "videoId": "DxKEgNmkois",
    "duration": "3:44"
   },
   {
@@ -2323,7 +2323,7 @@
   },
   {
    "title": "Siyam",
-   "artist": "Gantz",
+   "artist": "Release - Topic",
    "album": "Enso / Siyam",
    "videoId": "tq7e-KKIuQA",
    "duration": "5:23"
@@ -5725,7 +5725,7 @@
   },
   {
    "title": "Spooky Action at A Distance",
-   "artist": "Gantz",
+   "artist": "Release - Topic",
    "album": "Elmo Rehab / Spooky Action at A Distance",
    "videoId": "NC6aQLrJPew",
    "duration": "5:12"
@@ -12529,7 +12529,7 @@
   },
   {
    "title": "Lyrical Trick",
-   "artist": "Gantz",
+   "artist": "Release - Topic",
    "album": "Stayer / Lyrical Trick",
    "videoId": "gcMxEeQ5oR4",
    "duration": "5:02"

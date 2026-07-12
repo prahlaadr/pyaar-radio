@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 267,
- "totalTracks": 102524,
- "syncedAt": "2026-07-11T09:39:05.951763Z",
+ "totalTracks": 102527,
+ "syncedAt": "2026-07-12T09:51:53.256846Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1469
+  },
   {
    "playlistId": "PLZ_kZR08Pzmk",
    "title": "Pool Party: 90s/2000s Bangers",
@@ -18,11 +23,6 @@
    "playlistId": "PLEAgKYMfcO1k",
    "title": "Color mix",
    "trackCount": 4
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1466
   },
   {
    "playlistId": "PLeUck5qlo-go",

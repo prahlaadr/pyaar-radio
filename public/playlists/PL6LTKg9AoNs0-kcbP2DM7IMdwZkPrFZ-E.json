@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-07-11T09:39:05.951763Z",
+ "syncedAt": "2026-07-12T09:51:53.256846Z",
  "tracks": [
   {
    "title": "Lately",
@@ -181,7 +181,7 @@
   },
   {
    "title": "THE GLADE",
-   "artist": "Sean Leon & Daniel Caesar",
+   "artist": "Sean Leon;Daniel Caesar",
    "album": "IN LOVING MEMORY",
    "videoId": "9PSYpck4lU8",
    "duration": "3:43"
@@ -7797,7 +7797,7 @@
   },
   {
    "title": "Text Me When You Get Home",
-   "artist": "DJ Beverage & pbeatgirl",
+   "artist": "DJ Beverage;pbeatgirl",
    "album": "My Way Home",
    "videoId": "sburLIG09QE",
    "duration": "3:55"
