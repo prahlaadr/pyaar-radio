@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs3cYPF4MUZyBNRC8HDF52Ay",
  "title": "Arab Hits",
  "trackCount": 55,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "MAKU MTHLA",
-   "artist": "Waleed Jaff;Zrng",
-   "album": "MAKU MTHLA",
+   "artist": "Waleed Jaff - Topic",
+   "album": "",
    "videoId": "Ku6iQJhBgks",
    "duration": "2:11"
   },
@@ -20,22 +20,22 @@
   },
   {
    "title": "Mashalla Mashalla",
-   "artist": "Hesen Zîrek;Zrng",
-   "album": "Mashalla Mashalla",
+   "artist": "Hesen Zîrek - Topic",
+   "album": "",
    "videoId": "DBQYQrB-zvg",
    "duration": "2:50"
   },
   {
    "title": "Awel Marra",
-   "artist": "Abdel Halim Hafez",
-   "album": "Rawaeaa Abd El Halim 1",
+   "artist": "Abdelhalim Hafez - Topic",
+   "album": "",
    "videoId": "lVjIfHXjr7o",
    "duration": "3:44"
   },
   {
    "title": "NAZDAR NAZDAR",
-   "artist": "Zrng",
-   "album": "NAZDAR NAZDAR",
+   "artist": "Zrng - Topic",
+   "album": "",
    "videoId": "FTafqA3QazM",
    "duration": "2:03"
   },
@@ -146,8 +146,8 @@
   },
   {
    "title": "Faker",
-   "artist": "Elissa",
-   "album": "Asaad Wahda",
+   "artist": "Elissa - Topic",
+   "album": "",
    "videoId": "xrPgT2DqtE0",
    "duration": "5:45"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "Hob Kol Hayaty",
-   "artist": "Elissa",
-   "album": "Halet Hob",
+   "artist": "Elissa - Topic",
+   "album": "",
    "videoId": "BAi4VHhXUkY",
    "duration": "3:35"
   },
@@ -223,8 +223,8 @@
   },
   {
    "title": "Khalik Ma'aya",
-   "artist": "Amr Diab",
-   "album": "El Lilady (Tonight)",
+   "artist": "Amr Diab - Topic",
+   "album": "",
    "videoId": "bmbHfXq2CAc",
    "duration": "3:53"
   },
@@ -265,8 +265,8 @@
   },
   {
    "title": "Zeidini Ishqan",
-   "artist": "Kazem Al Saher",
-   "album": "Fi Madrasat Al Hob",
+   "artist": "Kadim Al Sahir - Topic",
+   "album": "",
    "videoId": "g6arw7AKVNk",
    "duration": "7:29"
   },
@@ -279,8 +279,8 @@
   },
   {
    "title": "Al Mahkama",
-   "artist": "Kazem Al Saher",
-   "album": "Al Rassem Bil Kalimat (Drawing With Words)",
+   "artist": "Kadim Al Sahir - Topic",
+   "album": "",
    "videoId": "vzx4rVW4vKU",
    "duration": "7:29"
   },
@@ -356,8 +356,8 @@
   },
   {
    "title": "Yana Yana",
-   "artist": "Sabah",
-   "album": "Sabah",
+   "artist": "Sabah - Topic",
+   "album": "",
    "videoId": "qDI-zWe4CTk",
    "duration": "5:11"
   },

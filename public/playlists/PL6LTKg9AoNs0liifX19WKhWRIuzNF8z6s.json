@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
  "title": "DAR DISKU FM",
  "trackCount": 931,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "Helel Yos",
@@ -2386,7 +2386,7 @@
   },
   {
    "title": "Yekfaky",
-   "artist": "Ahmed El Haggar",
+   "artist": "Ahmed Al Hagar",
    "album": "Etmanet",
    "videoId": "6Wh5bXNqRPA",
    "duration": "3:58"
@@ -6313,8 +6313,8 @@
   },
   {
    "title": "هوى الأحباب",
-   "artist": "Mohamed Tharwat",
-   "album": "البوم لحظة حب",
+   "artist": "Mohamed Tharwat - Topic",
+   "album": "",
    "videoId": "Iqq5NZhdbiA",
    "duration": "4:35"
   },
@@ -6327,8 +6327,8 @@
   },
   {
    "title": "لحظة حب",
-   "artist": "Mohamed Tharwat",
-   "album": "البوم لحظة حب",
+   "artist": "Mohamed Tharwat - Topic",
+   "album": "",
    "videoId": "1ByrYVauMKI",
    "duration": "3:36"
   },
@@ -6341,15 +6341,15 @@
   },
   {
    "title": "لحظة حب (موسيقى)",
-   "artist": "Mohamed Tharwat",
-   "album": "لحظة حب (موسيقى)",
+   "artist": "Mohamed Tharwat - Topic",
+   "album": "",
    "videoId": "qiwJpnmMiec",
    "duration": "3:44"
   },
   {
    "title": "Take Me With U",
-   "artist": "Balout Krew & laxfilet",
-   "album": "Darbuka King",
+   "artist": "Release - Topic",
+   "album": "",
    "videoId": "71DOFkLJOCY",
    "duration": "4:21"
   },
@@ -6397,8 +6397,8 @@
   },
   {
    "title": "ANA LEEK",
-   "artist": "EHAB TAWFIK",
-   "album": "ADA EL LEIL",
+   "artist": "Ehab Tawfik - Topic",
+   "album": "",
    "videoId": "lFWrKARdHDM",
    "duration": "4:56"
   },
@@ -6418,8 +6418,8 @@
   },
   {
    "title": "Marhaba Ahlen",
-   "artist": "Kazdoura",
-   "album": "Ghoyoum",
+   "artist": "Kazdoura - Topic",
+   "album": "",
    "videoId": "z4kEoZVqw-s",
    "duration": "3:05"
   },
@@ -6446,15 +6446,15 @@
   },
   {
    "title": "DON’T LISTEN",
-   "artist": "corto.alto",
-   "album": "DON’T LISTEN",
+   "artist": "corto.alto - Topic",
+   "album": "",
    "videoId": "4KfV--s5ZYc",
    "duration": "2:58"
   },
   {
    "title": "Rio Grande (Space Version)",
-   "artist": "Gigi Testa",
-   "album": "Rio Grande",
+   "artist": "Gigi Testa - Topic",
+   "album": "",
    "videoId": "sYP394u8s3Y",
    "duration": "6:05"
   },
@@ -6487,9 +6487,9 @@
    "duration": "5:09"
   },
   {
-   "title": "Sahnoon Rog Laan Walia (Remix) (feat. Bally Sagoo)",
-   "artist": "Nusrat Fateh Ali Khan",
-   "album": "All Time Greatest Remixes, Vol. 2",
+   "title": "Sahnoon Rog Laan Walia (Remix)",
+   "artist": "Nusrat Fateh Ali Khan - Topic",
+   "album": "",
    "videoId": "p17EFirwW04",
    "duration": "8:20"
   },
@@ -6501,9 +6501,9 @@
    "duration": "4:39"
   },
   {
-   "title": "Dum Dum Ali Ali (Remix) (feat. Bally Sagoo)",
-   "artist": "Nusrat Fateh Ali Khan",
-   "album": "All Time Greatest Remixes, Vol. 1",
+   "title": "Dum Dum Ali Ali (Remix)",
+   "artist": "Nusrat Fateh Ali Khan - Topic",
+   "album": "",
    "videoId": "JFQTW3ndA4k",
    "duration": "6:14"
   },

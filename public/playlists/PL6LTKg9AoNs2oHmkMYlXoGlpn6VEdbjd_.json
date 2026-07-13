@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -55,8 +55,8 @@
   },
   {
    "title": "The Percocet & Stripper Joint",
-   "artist": "Future",
-   "album": "DS2 (Deluxe)",
+   "artist": "Future - Topic",
+   "album": "",
    "videoId": "v54io9f0Wfk",
    "duration": "2:29"
   },
@@ -153,8 +153,8 @@
   },
   {
    "title": "cz",
-   "artist": "Mk.gee",
-   "album": "A Museum Of Contradiction",
+   "artist": "Mk.gee - Topic",
+   "album": "",
    "videoId": "5bjqvmThDbk",
    "duration": "4:10"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "In My Room",
-   "artist": "Twinkle Twinkle Little Rock Star",
-   "album": "Lullaby Versions of Frank Ocean",
+   "artist": "Twinkle Twinkle Little Rock Star - Topic",
+   "album": "",
    "videoId": "YvteZFNzjPQ",
    "duration": "2:51"
   },
@@ -321,8 +321,8 @@
   },
   {
    "title": "The Hillbillies",
-   "artist": "Baby Keem;Kendrick Lamar",
-   "album": "The Hillbillies",
+   "artist": "Baby Keem - Topic",
+   "album": "",
    "videoId": "nsCsM1xqiTY",
    "duration": "3:25"
   },
@@ -496,8 +496,8 @@
   },
   {
    "title": "Blue Boy",
-   "artist": "Mac DeMarco",
-   "album": "Salad Days",
+   "artist": "Mac DeMarco - Topic",
+   "album": "",
    "videoId": "GXuIWm12S24",
    "duration": "2:07"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Bluebird",
-   "artist": "Beach House",
-   "album": "Depression Cherry",
+   "artist": "Beach House - Topic",
+   "album": "",
    "videoId": "JsmZRbBLNT0",
    "duration": "3:56"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Butterfly",
-   "artist": "이달의 소녀 LOONA",
-   "album": "[X X]",
+   "artist": "LOONA - Topic",
+   "album": "",
    "videoId": "r9xpHzbhvyc",
    "duration": "3:58"
   },
@@ -559,8 +559,8 @@
   },
   {
    "title": "Catch Me Outside",
-   "artist": "Ski Mask The Slump God",
-   "album": "You Will Regret (Reloaded)",
+   "artist": "Ski Mask The Slump God - Topic",
+   "album": "",
    "videoId": "PgjCy-ltkLE",
    "duration": "2:26"
   },
@@ -628,9 +628,9 @@
    "duration": "4:03"
   },
   {
-   "title": "Crew (feat. Brent Faiyaz & Shy Glizzy)",
-   "artist": "GoldLink",
-   "album": "At What Cost",
+   "title": "Crew",
+   "artist": "GoldLink - Topic",
+   "album": "",
    "videoId": "sRrImOO1bug",
    "duration": "2:57"
   },
@@ -643,8 +643,8 @@
   },
   {
    "title": "Dancing in the Moonlight (It's Caught Me in It's Spotlight)",
-   "artist": "Áine O'Doherty",
-   "album": "Áine O'Doherty",
+   "artist": "Aine O'doherty - Topic",
+   "album": "",
    "videoId": "RPXdIaeq7G0",
    "duration": "2:21"
   },
@@ -8784,7 +8784,7 @@
   },
   {
    "title": "Hoe Cakes",
-   "artist": "MF DOOM",
+   "artist": "MF Doom",
    "album": "MM..FOOD",
    "videoId": "rNB5eIiIsUc",
    "duration": "3:55"
@@ -11332,7 +11332,7 @@
   },
   {
    "title": "One Beer",
-   "artist": "MF DOOM",
+   "artist": "MF Doom",
    "album": "MM..FOOD",
    "videoId": "ypClJkPhx8o",
    "duration": "4:19"
@@ -29609,7 +29609,7 @@
   },
   {
    "title": "Thick Skull (Re: Julien Baker)",
-   "artist": "Paramore & Julien Baker",
+   "artist": "Paramore;Julien Baker",
    "album": "Re: This Is Why",
    "videoId": "CqjsTKs6F38",
    "duration": "4:55"

@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs2FDxuoBwmI8ul1pEk5YCwO",
  "title": "THIS IS POST BOSSA",
  "trackCount": 106,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "Kurayami",
-   "artist": "Mei Semones",
-   "album": "Kurayami/Get used to it",
+   "artist": "Mei Semones - Topic",
+   "album": "",
    "videoId": "whT81GgPsvw",
    "duration": "3:39"
   },
@@ -20,15 +20,15 @@
   },
   {
    "title": "Muchuu",
-   "artist": "Mei Semones",
-   "album": "Muchuu",
+   "artist": "Mei Semones - Topic",
+   "album": "",
    "videoId": "JngAtNw4X_c",
    "duration": "2:26"
   },
   {
    "title": "A word becomes a sound",
-   "artist": "Kate Bollinger",
-   "album": "A word becomes a sound",
+   "artist": "Kate Bollinger - Topic",
+   "album": "",
    "videoId": "4aoqjH0M3Go",
    "duration": "3:39"
   },
@@ -111,8 +111,8 @@
   },
   {
    "title": "Habitual (feat. Ava Rocha)",
-   "artist": "Kiko Dinucci",
-   "album": "Rastilho (Deluxe Version)",
+   "artist": "Kiko Dinucci - Topic",
+   "album": "",
    "videoId": "r6eL6WwCLcQ",
    "duration": "2:06"
   },
@@ -125,8 +125,8 @@
   },
   {
    "title": "La Nuit Des Temps (feat. Lizzy and the Palm)",
-   "artist": "John Roseboro",
-   "album": "La Nuit Des Temps",
+   "artist": "John Roseboro - Topic",
+   "album": "",
    "videoId": "iuzsLmqdRJA",
    "duration": "3:05"
   },
@@ -342,8 +342,8 @@
   },
   {
    "title": "Estate",
-   "artist": "Erlend Øye",
-   "album": "Estate",
+   "artist": "Erlend Øye - Topic",
+   "album": "",
    "videoId": "HUe7aQ8HdNA",
    "duration": "2:31"
   },
@@ -481,9 +481,9 @@
    "duration": "2:57"
   },
   {
-   "title": "Caminhante (feat. Dedê Bonitto, Deivid Santos, Tutuca & Eduardo Sueitt)",
-   "artist": "Clayton Prosperi",
-   "album": "Cativo",
+   "title": "Caminhante",
+   "artist": "Clayton Prosperi - Topic",
+   "album": "",
    "videoId": "uCZqJEi64E4",
    "duration": "2:23"
   },
@@ -503,8 +503,8 @@
   },
   {
    "title": "Morena Má",
-   "artist": "Caco Mendes",
-   "album": "Sou Eu",
+   "artist": "Caco Mendes - Topic",
+   "album": "",
    "videoId": "mRgcQ9U6x4w",
    "duration": "3:32"
   },
@@ -586,9 +586,9 @@
    "duration": "2:58"
   },
   {
-   "title": "Catholic Country (feat. Feist)",
-   "artist": "Kings Of Convenience",
-   "album": "Peace Or Love",
+   "title": "Catholic Country",
+   "artist": "Kings Of Convenience - Topic",
+   "album": "",
    "videoId": "NzZdYniYjME",
    "duration": "3:02"
   },
@@ -671,8 +671,8 @@
   },
   {
    "title": "Johnny",
-   "artist": "John Roseboro;Mei Semones",
-   "album": "Fools",
+   "artist": "John Roseboro - Topic",
+   "album": "",
    "videoId": "YogQpleSVfU",
    "duration": "3:59"
   },

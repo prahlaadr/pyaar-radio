@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 12,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "trackCount": 13,
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -87,6 +87,13 @@
    "album": "Running",
    "videoId": "vEMzt6fisHk",
    "duration": "4:13"
+  },
+  {
+   "title": "I Feel Hope Coming",
+   "artist": "Alabama Shakes",
+   "album": "I Feel Hope Coming",
+   "videoId": "whJgwIpE3qE",
+   "duration": "5:12"
   }
  ]
 }

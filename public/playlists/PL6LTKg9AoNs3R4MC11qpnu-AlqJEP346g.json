@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1469,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "trackCount": 1472,
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
+  {
+   "title": "I Feel Hope Coming",
+   "artist": "Alabama Shakes",
+   "album": "I Feel Hope Coming",
+   "videoId": "whJgwIpE3qE",
+   "duration": "5:12"
+  },
+  {
+   "title": "Frank Ocean - We All Try",
+   "artist": "Jon Hunt Playlists",
+   "album": "",
+   "videoId": "lFeUtzNlJ9I",
+   "duration": "2:52"
+  },
+  {
+   "title": "Loser",
+   "artist": "Tame Impala",
+   "album": "Deadbeat",
+   "videoId": "MX7FSAnRPug",
+   "duration": "3:44"
+  },
   {
    "title": "Aston Martin Music (Edit) (feat. Chrisette Michele & Drake)",
    "artist": "Rick Ross",
@@ -1454,7 +1475,7 @@
    "duration": "4:47"
   },
   {
-   "title": "What We Do (feat. Beanie Sigel & JAŸ-Z)",
+   "title": "What We Do (feat. Beanie Sigel & JAY-Z)",
    "artist": "Freeway",
    "album": "Philadelphia Freeway",
    "videoId": "ITSVEXkuadk",
@@ -6712,7 +6733,7 @@
   },
   {
    "title": "Bang Bang",
-   "artist": "Jessie J;Ariana Grande;Nicki Minaj",
+   "artist": "Ariana Grande;Nicki Minaj;Jessie J",
    "album": "Sweet Talker (Deluxe Version)",
    "videoId": "EkeyidUo_bI",
    "duration": "3:20"
@@ -7236,7 +7257,7 @@
    "duration": "2:38"
   },
   {
-   "title": "Umbrella (feat. JAŸ-Z)",
+   "title": "Umbrella (feat. JAY-Z)",
    "artist": "Rihanna",
    "album": "Good Girl Gone Bad: Reloaded",
    "videoId": "xXD5tltX9Pg",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3d0t33vbW7nZt5A8NIOeAJ",
  "title": "PETI PACK (RELEASED)",
  "trackCount": 65,
- "syncedAt": "2026-07-12T09:51:53.256846Z",
+ "syncedAt": "2026-07-13T11:11:57.143472Z",
  "tracks": [
   {
    "title": "Ucha Pahado Maa",
@@ -19,9 +19,9 @@
    "duration": "3:02"
   },
   {
-   "title": "Aahe (feat. 2FISTD & FlamboyBeatz)",
-   "artist": "Aniket Raturi;Dakait;Panther",
-   "album": "Rum, Racks & Roses",
+   "title": "Aahe (feat. 2FISTD, FlamboyBeatz)",
+   "artist": "Aniket Raturi - Topic",
+   "album": "",
    "videoId": "7MX15ers-OA",
    "duration": "3:37"
   },
@@ -62,8 +62,8 @@
   },
   {
    "title": "No Rules",
-   "artist": "saksham dhyani;Syric Bawa",
-   "album": "No Rules",
+   "artist": "saksham dhyani - Topic",
+   "album": "",
    "videoId": "csezrE-0GlE",
    "duration": "2:54"
   },
@@ -111,8 +111,8 @@
   },
   {
    "title": "ATTHAARA FREESTYLE",
-   "artist": "GHILDIYAL;Leonik",
-   "album": "A-TEEN",
+   "artist": "GHILDIYAL - Topic",
+   "album": "",
    "videoId": "l0yn4LwT48o",
    "duration": "2:31"
   },
@@ -138,9 +138,9 @@
    "duration": "3:43"
   },
   {
-   "title": "ICONIC (feat. 2FISTD, Akshr, Ayushi Joshi & Baajewala)",
-   "artist": "Akash Raturi;GHILDIYAL;Kriday",
-   "album": "7 MOD PAAR",
+   "title": "ICONIC",
+   "artist": "Akash Raturi - Topic",
+   "album": "",
    "videoId": "cH3QuMr7MVs",
    "duration": "4:59"
   },
@@ -166,16 +166,16 @@
    "duration": "2:26"
   },
   {
-   "title": "BANNED (feat. Abhijay Sharma)",
-   "artist": "Dakait & GHILDIYAL",
-   "album": "A-TEEN",
+   "title": "BANNED",
+   "artist": "Release - Topic",
+   "album": "",
    "videoId": "lvlQiVC9igI",
    "duration": "3:35"
   },
   {
    "title": "Burreh",
-   "artist": "Dakait;Aniket Raturi",
-   "album": "396",
+   "artist": "Dakait - Topic",
+   "album": "",
    "videoId": "uPm9lVZNHEU",
    "duration": "3:47"
   },
@@ -202,15 +202,15 @@
   },
   {
    "title": "Bawa Bajte Hain",
-   "artist": "Aniket Raturi;Dakait;2FISTD",
-   "album": "Black Label Mixtape I",
+   "artist": "Aniket Raturi - Topic",
+   "album": "",
    "videoId": "VGByxBhdfWY",
    "duration": "2:23"
   },
   {
    "title": "KAALA JAADU",
-   "artist": "Chen-K",
-   "album": "5:55",
+   "artist": "Chen-K - Topic",
+   "album": "",
    "videoId": "wXR9wJVzozE",
    "duration": "5:44"
   },
@@ -257,16 +257,16 @@
    "duration": "2:35"
   },
   {
-   "title": "Wakhi Maya (feat. Maven Music)",
-   "artist": "Shadow evergreen;Rakesh manral",
-   "album": "Wakhi Maya",
+   "title": "Wakhi Maya",
+   "artist": "shadow evergreen - Topic",
+   "album": "",
    "videoId": "C5WebPCRBlI",
    "duration": "3:25"
   },
   {
    "title": "My Old Diary",
-   "artist": "Onnu;TVZ&iiEE;saksham dhyani",
-   "album": "My Old Diary",
+   "artist": "Onnu - Topic",
+   "album": "",
    "videoId": "2EDs3SnmjVI",
    "duration": "3:14"
   },
@@ -363,8 +363,8 @@
   },
   {
    "title": "Jeena Hi Akele",
-   "artist": "Kobi Dai",
-   "album": "Jeena Hi Akele",
+   "artist": "Kobi Dai - Topic",
+   "album": "",
    "videoId": "Kt8o_xNYiEI",
    "duration": "2:58"
   },
@@ -397,16 +397,16 @@
    "duration": "3:26"
   },
   {
-   "title": "Rota Pahad (feat. Devashish Dangwal)",
-   "artist": "saksham dhyani;TVZZ & iiEE",
-   "album": "Rota Pahad",
+   "title": "Rota Pahad",
+   "artist": "saksham dhyani - Topic",
+   "album": "",
    "videoId": "2830tuPZZzU",
    "duration": "2:53"
   },
   {
    "title": "Jai dev bhoomi",
-   "artist": "Shadow evergreen;Soumya Rawat",
-   "album": "Jai dev bhoomi",
+   "artist": "shadow evergreen - Topic",
+   "album": "",
    "videoId": "bN8EYyvbmIc",
    "duration": "1:44"
   },
@@ -419,8 +419,8 @@
   },
   {
    "title": "Devbhoomi Maya",
-   "artist": "Tarun",
-   "album": "Bisht Ji",
+   "artist": "Tarun - Topic",
+   "album": "",
    "videoId": "MpeArlsWRDI",
    "duration": "2:42"
   },
@@ -433,8 +433,8 @@
   },
   {
    "title": "Dev Nagri",
-   "artist": "Dakait;Sez on the Beat;Aniket Raturi",
-   "album": "Dev Nagri Aur Main",
+   "artist": "Dakait - Topic",
+   "album": "",
    "videoId": "vyHRo1JEtJs",
    "duration": "4:26"
   },
