@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0jE-zXY8jGdMQY38qi9HXY",
  "title": "Flannel long sleeve",
  "trackCount": 235,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "In On It",
@@ -27,15 +27,15 @@
   },
   {
    "title": "Eddie Vedder",
-   "artist": "Local H - Topic",
-   "album": "",
+   "artist": "Local H",
+   "album": "As Good As Dead",
    "videoId": "wPkUseNFM7A",
    "duration": "3:30"
   },
   {
    "title": "Famine Asylum",
-   "artist": "Nothing - Topic",
-   "album": "",
+   "artist": "Nothing",
+   "album": "The Great Dismal",
    "videoId": "ixoqSm28wUg",
    "duration": "4:11"
   },
@@ -76,8 +76,8 @@
   },
   {
    "title": "Nothing Else",
-   "artist": "Superbloom - Topic",
-   "album": "",
+   "artist": "Superbloom",
+   "album": "Pollen",
    "videoId": "PKgVyW7TnAw",
    "duration": "3:26"
   },
@@ -173,9 +173,9 @@
    "duration": "1:13"
   },
   {
-   "title": "Today (2011 Remaster)",
-   "artist": "The Smashing Pumpkins - Topic",
-   "album": "",
+   "title": "Today",
+   "artist": "Smashing Pumpkins",
+   "album": "Siamese Dream (Deluxe Edition)",
    "videoId": "zAgvyL9-usc",
    "duration": "3:22"
   },
@@ -216,15 +216,15 @@
   },
   {
    "title": "Generator",
-   "artist": "Turnstile - Topic",
-   "album": "",
+   "artist": "Turnstile",
+   "album": "Time & Space",
    "videoId": "X1GeDARiOtA",
    "duration": "3:15"
   },
   {
    "title": "Disconnect",
-   "artist": "Basement - Topic",
-   "album": "",
+   "artist": "Basement",
+   "album": "Beside Myself",
    "videoId": "_9t-xpXyAB0",
    "duration": "3:30"
   },
@@ -237,8 +237,8 @@
   },
   {
    "title": "Breed",
-   "artist": "Nirvana - Topic",
-   "album": "",
+   "artist": "Nirvana",
+   "album": "Nevermind",
    "videoId": "HSMk4zw0Fa8",
    "duration": "3:05"
   },
@@ -272,8 +272,8 @@
   },
   {
    "title": "Celebrity Skin",
-   "artist": "Hole - Topic",
-   "album": "",
+   "artist": "Hole",
+   "album": "Celebrity Skin",
    "videoId": "Bv9d27d1Byg",
    "duration": "2:43"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "Fixed It All",
-   "artist": "Paerish - Topic",
-   "album": "",
+   "artist": "PÆRISH",
+   "album": "Fixed It All",
    "videoId": "Ibhjx--kznI",
    "duration": "4:22"
   },
@@ -363,15 +363,15 @@
   },
   {
    "title": "Flipside",
-   "artist": "Sleepwalk - Topic",
-   "album": "",
+   "artist": "Sleepwalk",
+   "album": "Underneath The Shade",
    "videoId": "UGAJCM5wILs",
    "duration": "3:39"
   },
   {
-   "title": "Slide Away (Remastered)",
-   "artist": "Oasis - Topic",
-   "album": "",
+   "title": "Slide Away",
+   "artist": "Oasis",
+   "album": "Definitely Maybe (30th Anniversary Deluxe Edition)",
    "videoId": "6kazLPL1GwU",
    "duration": "6:33"
   },
@@ -391,8 +391,8 @@
   },
   {
    "title": "Beautiful Disaster",
-   "artist": "311 - Topic",
-   "album": "",
+   "artist": "311",
+   "album": "Transistor",
    "videoId": "wNPnbzptCRY",
    "duration": "3:59"
   },
@@ -419,8 +419,8 @@
   },
   {
    "title": "Touch of Life",
-   "artist": "Turquoise - Topic",
-   "album": "",
+   "artist": "Turquoise",
+   "album": "Touch of Life",
    "videoId": "9wenCc7wngg",
    "duration": "4:06"
   },
@@ -433,8 +433,8 @@
   },
   {
    "title": "Your Only One",
-   "artist": "Camera Shy - Topic",
-   "album": "",
+   "artist": "Camera Shy",
+   "album": "Camera Shy",
    "videoId": "gtz0Fz3FXkQ",
    "duration": "4:01"
   },
@@ -447,8 +447,8 @@
   },
   {
    "title": "Crumble",
-   "artist": "Dinosaur Jr - Topic",
-   "album": "",
+   "artist": "Dinosaur Jr",
+   "album": "Beyond",
    "videoId": "MwmkErJ35O4",
    "duration": "4:05"
   },
@@ -468,8 +468,8 @@
   },
   {
    "title": "Kaleidoscope",
-   "artist": "Ringo Deathstarr - Topic",
-   "album": "",
+   "artist": "Ringo Deathstarr",
+   "album": "Colour Trip",
    "videoId": "ZadttCQennw",
    "duration": "2:06"
   },
@@ -517,8 +517,8 @@
   },
   {
    "title": "Fine Day",
-   "artist": "Narrow Head - Topic",
-   "album": "",
+   "artist": "Narrow Head",
+   "album": "Moments of Clarity",
    "videoId": "Pv85GW1MhVI",
    "duration": "5:26"
   },
@@ -552,15 +552,15 @@
   },
   {
    "title": "Right to Be",
-   "artist": "Turnstile - Topic",
-   "album": "",
+   "artist": "Turnstile",
+   "album": "Time & Space",
    "videoId": "hHnaPGhwNwc",
    "duration": "2:06"
   },
   {
    "title": "Make A Dime",
-   "artist": "Webbed Wing - Topic",
-   "album": "",
+   "artist": "Webbed Wing",
+   "album": "What's So Fucking Funny?",
    "videoId": "MgJZt-WE-wE",
    "duration": "2:57"
   },
@@ -622,8 +622,8 @@
   },
   {
    "title": "Promised Land",
-   "artist": "Turquoise - Topic",
-   "album": "",
+   "artist": "Turquoise",
+   "album": "Promised Land",
    "videoId": "AXRwuOcKp3A",
    "duration": "3:20"
   },
@@ -727,8 +727,8 @@
   },
   {
    "title": "Secret Society",
-   "artist": "Title Fight - Topic",
-   "album": "",
+   "artist": "Title Fight",
+   "album": "Floral Green",
    "videoId": "5N6EH3VmH7E",
    "duration": "3:07"
   },
@@ -769,8 +769,8 @@
   },
   {
    "title": "Live Scene",
-   "artist": "SPICE - Topic",
-   "album": "",
+   "artist": "SPICE",
+   "album": "Viv",
    "videoId": "AY_gn2N5-DI",
    "duration": "3:46"
   },
@@ -817,9 +817,9 @@
    "duration": "3:15"
   },
   {
-   "title": "Plush (2017 Remaster)",
-   "artist": "Stone Temple Pilots - Topic",
-   "album": "",
+   "title": "Plush",
+   "artist": "Stone Temple Pilots",
+   "album": "Core (Super Deluxe Edition)",
    "videoId": "eb3kAUQxinQ",
    "duration": "5:14"
   },
@@ -839,8 +839,8 @@
   },
   {
    "title": "Hot Air Balloon",
-   "artist": "Turquoise - Topic",
-   "album": "",
+   "artist": "Turquoise",
+   "album": "Hot Air Balloon",
    "videoId": "ONACpLaf7D0",
    "duration": "3:12"
   },
@@ -895,8 +895,8 @@
   },
   {
    "title": "When You Sleep (Live at The Murmrr Theatre)",
-   "artist": "DIIV - Topic",
-   "album": "",
+   "artist": "DIIV",
+   "album": "Live at The Murmrr Theatre",
    "videoId": "_CnpMcyz2oI",
    "duration": "4:03"
   },
@@ -992,16 +992,16 @@
    "duration": "3:56"
   },
   {
-   "title": "Live Forever (Remastered)",
-   "artist": "Oasis - Topic",
-   "album": "",
+   "title": "Live Forever",
+   "artist": "Oasis",
+   "album": "Definitely Maybe (Deluxe Edition Remastered)",
    "videoId": "485CSGur7YE",
    "duration": "4:37"
   },
   {
    "title": "Supersonic",
-   "artist": "Oasis - Topic",
-   "album": "",
+   "artist": "Oasis",
+   "album": "Definitely Maybe",
    "videoId": "2n5OwsJtrfg",
    "duration": "4:44"
   },
@@ -1063,8 +1063,8 @@
   },
   {
    "title": "Vensosa",
-   "artist": "Amusement Parks on Fire - Topic",
-   "album": "",
+   "artist": "Amusement Parks On Fire",
+   "album": "Amusement Parks On Fire",
    "videoId": "u9ViSOU1hpk",
    "duration": "4:23"
   },
@@ -1140,8 +1140,8 @@
   },
   {
    "title": "Meaningless",
-   "artist": "Whirr - Topic",
-   "album": "",
+   "artist": "Whirr",
+   "album": "Distressor",
    "videoId": "RstruCs4jlw",
    "duration": "2:26"
   },
@@ -1196,8 +1196,8 @@
   },
   {
    "title": "I'm Gone",
-   "artist": "TAMARYN - Topic",
-   "album": "",
+   "artist": "Tamaryn",
+   "album": "Tender New Signs",
    "videoId": "CL0hnr9qXeI",
    "duration": "4:45"
   },

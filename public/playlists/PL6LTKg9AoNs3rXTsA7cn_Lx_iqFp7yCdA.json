@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3rXTsA7cn_Lx_iqFp7yCdA",
  "title": "Kizomba Top Hits",
  "trackCount": 107,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Leva Tudo",
@@ -139,7 +139,7 @@
   },
   {
    "title": "Não Me Importa",
-   "artist": "Afro Connexion, Tommy Guitar, & Brada",
+   "artist": "Afro Connexion & Tommy Guitar",
    "album": "Não Me Importa",
    "videoId": "8FHqow_Xchk",
    "duration": "3:16"
@@ -237,7 +237,7 @@
   },
   {
    "title": "One Day",
-   "artist": "Jayson Diaz;Brada",
+   "artist": "Jayson Diaz",
    "album": "One Day",
    "videoId": "Jtdvg-LEPeg",
    "duration": "3:20"
@@ -257,9 +257,9 @@
    "duration": "2:54"
   },
   {
-   "title": "Tarraxinha",
-   "artist": "Black Spygo - Topic",
-   "album": "",
+   "title": "Tarraxinha (feat. CEF Tanzy & Black Vision)",
+   "artist": "Black Spygo",
+   "album": "Tarraxinha",
    "videoId": "D3dzC4BpDNw",
    "duration": "2:25"
   },
@@ -307,8 +307,8 @@
   },
   {
    "title": "Perfume",
-   "artist": "Calema - Topic",
-   "album": "",
+   "artist": "Calema",
+   "album": "Perfume",
    "videoId": "REXQVIzZjQM",
    "duration": "3:41"
   },
@@ -383,9 +383,9 @@
    "duration": "4:01"
   },
   {
-   "title": "Milena (Ela é do Job)",
-   "artist": "O.L.D - Topic",
-   "album": "",
+   "title": "Milena (Ela é do Job) (feat. Sérgio Maposse)",
+   "artist": "O.L.D, Brada, Daytonbeatz, and MCZ",
+   "album": "Milena (Ela é do Job)",
    "videoId": "aH5yoKQLmHY",
    "duration": "2:41"
   },
@@ -433,7 +433,7 @@
   },
   {
    "title": "Bobo (Isso Tá Me a Doer)",
-   "artist": "Afro Connexion;Gasso",
+   "artist": "Afro Connexion;Gasso Franco",
    "album": "Bobo (Isso Tá Me a Doer)",
    "videoId": "bYP-EVFvI7k",
    "duration": "2:36"
@@ -496,22 +496,22 @@
   },
   {
    "title": "Tu",
-   "artist": "Afro Connexion;Brada",
+   "artist": "Afro Connexion",
    "album": "Tu",
    "videoId": "fXICit3Sz0Q",
    "duration": "2:11"
   },
   {
    "title": "A Nossa Dança",
-   "artist": "Calema - Topic",
-   "album": "",
+   "artist": "Calema",
+   "album": "A Nossa Dança",
    "videoId": "rYtWIIXEVxQ",
    "duration": "3:03"
   },
   {
    "title": "Anita (feat. Filho Do Zua)",
-   "artist": "DJ J'Larious - Topic",
-   "album": "",
+   "artist": "DJ J'Larious",
+   "album": "Anita",
    "videoId": "eaZ3htic_IQ",
    "duration": "3:20"
   },
@@ -566,15 +566,15 @@
   },
   {
    "title": "Babe",
-   "artist": "Afro Connexion - Topic",
-   "album": "",
+   "artist": "Afro Connexion",
+   "album": "Babe",
    "videoId": "KJIFUcVa8h4",
    "duration": "2:28"
   },
   {
    "title": "KBB",
-   "artist": "Edgar Domingos - Topic",
-   "album": "",
+   "artist": "Edgar Domingos;Djodje",
+   "album": "Às de Copas",
    "videoId": "9GW5RusB9E8",
    "duration": "3:44"
   },
@@ -601,8 +601,8 @@
   },
   {
    "title": "Volta",
-   "artist": "No Maka - Topic",
-   "album": "",
+   "artist": "No Maka;Pedro Gonçalves",
+   "album": "Volta",
    "videoId": "6OdgBFZxbsE",
    "duration": "2:58"
   },
@@ -629,8 +629,8 @@
   },
   {
    "title": "Jungle Fever",
-   "artist": "Nelson Freitas - Topic",
-   "album": "",
+   "artist": "Nelson Freitas",
+   "album": "Jungle Fever",
    "videoId": "jVh5NgfmKk4",
    "duration": "3:16"
   },
@@ -677,9 +677,9 @@
    "duration": "3:13"
   },
   {
-   "title": "Única",
-   "artist": "Garry - Topic",
-   "album": "",
+   "title": "Única (feat. Loony Johnson)",
+   "artist": "Garry",
+   "album": "Única",
    "videoId": "G8htf7E9O5I",
    "duration": "3:55"
   },

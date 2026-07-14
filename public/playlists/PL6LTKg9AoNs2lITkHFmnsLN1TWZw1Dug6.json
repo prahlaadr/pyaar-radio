@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "REM",
@@ -1882,7 +1882,7 @@
   },
   {
    "title": "Interlude",
-   "artist": "CHASETHEMONEY & LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "jrHJA0CRoFw",
    "duration": "1:07"
@@ -2169,7 +2169,7 @@
   },
   {
    "title": "get off my dick",
-   "artist": "Zack Fox & Kenny Beats",
+   "artist": "Zack Fox;Kenny Beats",
    "album": "shut the fuck up talking to me",
    "videoId": "yWRkmzsJwk0",
    "duration": "2:44"
@@ -2211,7 +2211,7 @@
   },
   {
    "title": "2012 Summer",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "qFlD2uldq8w",
    "duration": "1:38"
@@ -6964,7 +6964,7 @@
   },
   {
    "title": "All In",
-   "artist": "Earl Sweatshirt & LUCKI",
+   "artist": " LUCKI;Earl Sweatshirt",
    "album": "Freewave 3",
    "videoId": "UYlpTQZZK5A",
    "duration": "1:46"
@@ -6978,7 +6978,7 @@
   },
   {
    "title": "Peach Dream",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "iGGebaVRyTg",
    "duration": "2:08"
@@ -10142,7 +10142,7 @@
   },
   {
    "title": "Mega Xerecation",
-   "artist": "Sanchezz DJ, DJ NARDINI, & JHONA!",
+   "artist": "Sanchezz DJ;DJ NARDINI;JHONA!",
    "album": "Mega Xerecation",
    "videoId": "xzQWWzk2cQ4",
    "duration": "2:50"
@@ -10499,8 +10499,8 @@
   },
   {
    "title": "Merlot",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab",
+   "album": "Fidget E.P",
    "videoId": "7M5YmZkTaLw",
    "duration": "3:40"
   },
@@ -10527,8 +10527,8 @@
   },
   {
    "title": "Late Night Fit",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab",
+   "album": "Infinite Falling Ground",
    "videoId": "HrxhVY7oSgA",
    "duration": "3:03"
   },
@@ -10569,8 +10569,8 @@
   },
   {
    "title": "A & E",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab",
+   "album": "Death Don't Always Taste Good",
    "videoId": "PxrUD-oF3tE",
    "duration": "4:18"
   },
@@ -10639,8 +10639,8 @@
   },
   {
    "title": "Mashoor",
-   "artist": "Sheherazaad - Topic",
-   "album": "",
+   "artist": "Sheherazaad",
+   "album": "Mashoor",
    "videoId": "qFGuy3BE9lg",
    "duration": "4:31"
   },
@@ -10744,8 +10744,8 @@
   },
   {
    "title": "LIL DEMON",
-   "artist": "Future - Topic",
-   "album": "",
+   "artist": "Future",
+   "album": "MIXTAPE PLUTO",
    "videoId": "ow7Tu_nsm0g",
    "duration": "2:20"
   },
@@ -10765,8 +10765,8 @@
   },
   {
    "title": "Memory Box",
-   "artist": "Peter Cat Recording Co. - Topic",
-   "album": "",
+   "artist": "Peter Cat Recording Co.",
+   "album": "Bismillah",
    "videoId": "ZoSD4l32m2I",
    "duration": "8:04"
   },
@@ -10806,9 +10806,9 @@
    "duration": "6:58"
   },
   {
-   "title": "Décollage",
-   "artist": "Thievery Corporation - Topic",
-   "album": "",
+   "title": "Décollage (feat. Lou Lou Gehlickhani)",
+   "artist": "Thievery Corporation",
+   "album": "Saudade",
    "videoId": "iUIT6gUhzHw",
    "duration": "3:24"
   },
@@ -10884,8 +10884,8 @@
   },
   {
    "title": "Together Forever",
-   "artist": "STRFKR - Topic",
-   "album": "",
+   "artist": "STRFKR",
+   "album": "Parallel Realms (Deluxe Edition)",
    "videoId": "qn49EN7rPN4",
    "duration": "4:38"
   },
@@ -10905,8 +10905,8 @@
   },
   {
    "title": "Rapha",
-   "artist": "Prabh Deep - Topic",
-   "album": "",
+   "artist": "Prabh Deep & Scuti",
+   "album": "DSP",
    "videoId": "zv-sUXLiaUE",
    "duration": "3:58"
   },
@@ -10940,8 +10940,8 @@
   },
   {
    "title": "Sixty-Seven Turbo Jet",
-   "artist": "Curren$y - Topic",
-   "album": "",
+   "artist": "Curren$y;Harry Fraud",
+   "album": "Cigarette Boats",
    "videoId": "bEN35hgtOBQ",
    "duration": "3:20"
   },
@@ -10961,8 +10961,8 @@
   },
   {
    "title": "baddest in the room",
-   "artist": "Cash Cobain - Topic",
-   "album": "",
+   "artist": "Cash Cobain",
+   "album": "PLAY CASH COBAIN",
    "videoId": "jadyY-lY0iE",
    "duration": "2:19"
   },
@@ -10996,8 +10996,8 @@
   },
   {
    "title": "I Don’t Know About Him (Mixed)",
-   "artist": "Roy Blair - Topic",
-   "album": "",
+   "artist": "Roy Blair",
+   "album": "Graffiti: A Mix By Roy Blair",
    "videoId": "Fw7sfD_aRWc",
    "duration": "3:30"
   },
@@ -11024,8 +11024,8 @@
   },
   {
    "title": "What Is Life?",
-   "artist": " Sakré - Topic",
-   "album": "",
+   "artist": "Sakré",
+   "album": "What Is Life?",
    "videoId": "Djt2qXWVXG8",
    "duration": "1:49"
   },
@@ -11059,8 +11059,8 @@
   },
   {
    "title": "Lesson Learned",
-   "artist": "Lord Sko - Topic",
-   "album": "",
+   "artist": "Lord Sko;Statik Selektah",
+   "album": "Lesson Learned",
    "videoId": "HTfunbIOiEs",
    "duration": "2:28"
   },
@@ -11080,15 +11080,15 @@
   },
   {
    "title": "Shawn vs. Flair",
-   "artist": "Westside Gunn - Topic",
-   "album": "",
+   "artist": "Westside Gunn",
+   "album": "Pray for Paris",
    "videoId": "NgWEMu0XOpI",
    "duration": "2:22"
   },
   {
    "title": "I See It I Want It",
-   "artist": "Juicy J - Topic",
-   "album": "",
+   "artist": "Juicy J",
+   "album": "TGOD Mafia: Rude Awakening",
    "videoId": "F9HHlr9OxKs",
    "duration": "4:34"
   },
@@ -11101,8 +11101,8 @@
   },
   {
    "title": "VEENA",
-   "artist": "Heems - Topic",
-   "album": "",
+   "artist": "Heems, RAM DULARI, Sid Vashi, and Lapgan",
+   "album": "VEENA",
    "videoId": "srXYFZSvBaY",
    "duration": "2:27"
   },
@@ -11122,15 +11122,15 @@
   },
   {
    "title": "Better in the Dark",
-   "artist": "Jordana - Topic",
-   "album": "",
+   "artist": "Jordana;TV Girl",
+   "album": "Summer's Over",
    "videoId": "pqZOj9O8bxc",
    "duration": "2:36"
   },
   {
    "title": "Need You Now",
-   "artist": "Miti - Topic",
-   "album": "",
+   "artist": "Miti",
+   "album": "Need You Now",
    "videoId": "T9AelT93DzM",
    "duration": "2:55"
   },
@@ -11143,8 +11143,8 @@
   },
   {
    "title": "Sweet Robbery",
-   "artist": "Three 6 Mafia - Topic",
-   "album": "",
+   "artist": "Three-6 Mafia",
+   "album": "Mystic Stylez",
    "videoId": "Hqw3mRjPByY",
    "duration": "4:46"
   },
@@ -12158,7 +12158,7 @@
   },
   {
    "title": "FIELD TRIP",
-   "artist": "ravenv;feelose;seer;term",
+   "artist": "ravenv, feelose, seer, and term",
    "album": "garip dist",
    "videoId": "8TTK4hEaLaE",
    "duration": "2:48"
@@ -15210,7 +15210,7 @@
   },
   {
    "title": "Out My Way",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "toJgX41iafQ",
    "duration": "1:21"
@@ -15826,7 +15826,7 @@
   },
   {
    "title": "Kiliye Kiliye - RHYTHOM Version",
-   "artist": "RHYTHOM & S. Janaki",
+   "artist": "RHYTHOM;S. Janaki",
    "album": "Kiliye Kiliye - RHYTHOM Version",
    "videoId": "M1789mNFSyM",
    "duration": "2:47"

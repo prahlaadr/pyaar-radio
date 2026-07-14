@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3wiaGkGea79esMmaooc2E8",
  "title": "2025",
  "trackCount": 155,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "One Fm",
@@ -713,8 +713,8 @@
   },
   {
    "title": "End Of Summer",
-   "artist": "Tame Impala - Topic",
-   "album": "",
+   "artist": "Tame Impala",
+   "album": "End Of Summer",
    "videoId": "BF0gGqk5mZs",
    "duration": "7:13"
   },
@@ -727,15 +727,15 @@
   },
   {
    "title": "NO LOVE FOR THE BOUNCE",
-   "artist": "DON JB - Topic",
-   "album": "",
+   "artist": "DON JB",
+   "album": "NO LOVE FOR THE BOUNCE",
    "videoId": "npnnuW_v9Aw",
    "duration": "3:34"
   },
   {
    "title": "Mood Swings",
-   "artist": "Little Simz - Topic",
-   "album": "",
+   "artist": "Little Simz",
+   "album": "Drop 7",
    "videoId": "ZwIg6eWbcjI",
    "duration": "2:21"
   },
@@ -755,64 +755,64 @@
   },
   {
    "title": "Dil Diyan Gallan (From \"Tiger Zinda Hai\")",
-   "artist": "Vishal - Shekhar - Topic",
-   "album": "",
+   "artist": "Vishal and Sheykhar;Atif Aslam",
+   "album": "Tiger Zinda Hai",
    "videoId": "u5DCgnh8S9M",
    "duration": "4:21"
   },
   {
    "title": "LA COVACHA",
-   "artist": "INVT - Topic",
-   "album": "",
+   "artist": "INVT",
+   "album": "LA COVACHA",
    "videoId": "l2Ub6vO0XUU",
    "duration": "5:48"
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel - Topic",
-   "album": "",
+   "artist": "Sam Gendel;Sam Wilkes",
+   "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
   },
   {
    "title": "Scanners",
-   "artist": "Anthony Naples - Topic",
-   "album": "",
+   "artist": "Anthony Naples",
+   "album": "Scanners",
    "videoId": "T9Zskn44ZrA",
    "duration": "5:38"
   },
   {
    "title": "Light",
-   "artist": "Identified Patient - Topic",
-   "album": "",
+   "artist": "Identified Patient",
+   "album": "Reset",
    "videoId": "OEzkkaAmWLg",
    "duration": "4:02"
   },
   {
    "title": "Business",
-   "artist": "FOLD - Topic",
-   "album": "",
+   "artist": "Fold;cu.rve",
+   "album": "Business",
    "videoId": "pbd7-sMeEKo",
    "duration": "4:52"
   },
   {
    "title": "Lose My Mind",
-   "artist": "Champion - Topic",
-   "album": "",
+   "artist": "Champion;Interplanetary Criminal;Crookers",
+   "album": "Lose My Mind",
    "videoId": "RU5TZ_w-of4",
    "duration": "3:20"
   },
   {
-   "title": "So Close (To He4ven) (Mixed)",
-   "artist": "TDJ - Topic",
-   "album": "",
+   "title": "So Close (To He4ven) (Mixed) (feat. fknsyd)",
+   "artist": "TDJ;SPF INFINI",
+   "album": "SPF INFINI: GENESIS",
    "videoId": "Lbb0gtMYA7Y",
    "duration": "3:21"
   },
   {
    "title": "Culture",
-   "artist": "Breach - Topic",
-   "album": "",
+   "artist": "Breach",
+   "album": "Culture",
    "videoId": "Zx8o7pI7xJo",
    "duration": "10:12"
   },
@@ -832,8 +832,8 @@
   },
   {
    "title": "VIEWS",
-   "artist": "Mild Minds - Topic",
-   "album": "",
+   "artist": "Mild Minds",
+   "album": "MOOD",
    "videoId": "CpBW8TfW1Y8",
    "duration": "4:49"
   },
@@ -853,8 +853,8 @@
   },
   {
    "title": "Ooo",
-   "artist": "Skin On Skin - Topic",
-   "album": "",
+   "artist": "Skin On Skin",
+   "album": "Ooo",
    "videoId": "WNXEHhHTk64",
    "duration": "4:00"
   },
@@ -874,15 +874,15 @@
   },
   {
    "title": "Brokenheart",
-   "artist": "Louke Man - Topic",
-   "album": "",
+   "artist": "Loukeman",
+   "album": "Sd-2",
    "videoId": "sy50C9K81Xg",
    "duration": "3:08"
   },
   {
    "title": "Max",
-   "artist": "Kenton Slash Demon - Topic",
-   "album": "",
+   "artist": "Kenton Slash Demon",
+   "album": "Max / Red",
    "videoId": "qQcRkUAkZhg",
    "duration": "4:12"
   },
@@ -902,29 +902,29 @@
   },
   {
    "title": "Mouse on Keys",
-   "artist": "Human Safari - Topic",
-   "album": "",
+   "artist": "Human Safari",
+   "album": "Culture Shock",
    "videoId": "wiB6wAmyaPw",
    "duration": "5:25"
   },
   {
    "title": "Janus Modal",
-   "artist": "Clark - Topic",
-   "album": "",
+   "artist": "Clark",
+   "album": "Janus Modal",
    "videoId": "jmh16vYKhuc",
    "duration": "6:27"
   },
   {
    "title": "DUMMY",
-   "artist": "Parris Goebel - Topic",
-   "album": "",
+   "artist": "Parris Goebel;SadBoi",
+   "album": "A GIRL IS A DRUG",
    "videoId": "kJuSJN-9mJQ",
    "duration": "2:09"
   },
   {
    "title": "Car Crash Baby",
-   "artist": "Madeon - Topic",
-   "album": "",
+   "artist": "Madeon",
+   "album": "Car Crash Baby",
    "videoId": "4qwq-BgvS1o",
    "duration": "3:18"
   },
@@ -944,15 +944,15 @@
   },
   {
    "title": "Tomorrow Will Be Different",
-   "artist": "Dismantle - Topic",
-   "album": "",
+   "artist": "Dismantle",
+   "album": "Tomorrow Will Be Different",
    "videoId": "ldsiVBmZQow",
    "duration": "3:47"
   },
   {
    "title": "Catch My Breath (feat. Wilf Petherbridge)",
-   "artist": "Footshooter - Topic",
-   "album": "",
+   "artist": "Footshooter",
+   "album": "Libations & Movement",
    "videoId": "1VniVTsbRYg",
    "duration": "5:15"
   },
@@ -978,16 +978,16 @@
    "duration": "0:30"
   },
   {
-   "title": "Sugar Water (feat. Hollie Cook) (Mungo's Hi Fi Mix)",
-   "artist": "Prince Fatty - Topic",
-   "album": "",
+   "title": "Sugar Water [Mungo's Hi Fi Mix] (feat. Hollie Cook)",
+   "artist": "Prince Fatty;Mungo's Hi Fi",
+   "album": "Prince Fatty Versus Mungo's Hi Fi",
    "videoId": "UGKBNBdzneg",
    "duration": "4:05"
   },
   {
    "title": "Rumours",
-   "artist": "Fixate - Topic",
-   "album": "",
+   "artist": "Fixate",
+   "album": "What Goes Around",
    "videoId": "IeI7l7gCX0c",
    "duration": "5:09"
   },
@@ -1014,22 +1014,22 @@
   },
   {
    "title": "The Movement",
-   "artist": "4th Sign - Topic",
-   "album": "",
+   "artist": "4th Sign;Joss Moog;Around7",
+   "album": "Éloge de la lenteur, pt. 2",
    "videoId": "AA6k5g4VU2o",
    "duration": "3:29"
   },
   {
    "title": "aaahh give me some more time",
-   "artist": "Mietze Conte - Topic",
-   "album": "",
+   "artist": "Mietze Conte",
+   "album": "Mietzee",
    "videoId": "jpb6ekLv-oA",
    "duration": "2:12"
   },
   {
    "title": "Nerves",
-   "artist": "ear - Topic",
-   "album": "",
+   "artist": "ear",
+   "album": "Nerves",
    "videoId": "--vlQCBA3r4",
    "duration": "3:05"
   },
@@ -1042,8 +1042,8 @@
   },
   {
    "title": "nanana",
-   "artist": "Mietze Conte - Topic",
-   "album": "",
+   "artist": "mietze conte",
+   "album": "nanana",
    "videoId": "aZL0SCEHpgQ",
    "duration": "2:03"
   },
@@ -1056,15 +1056,15 @@
   },
   {
    "title": "Hard Refresh [DJ_Dave Remix]",
-   "artist": "DJ_Dave - Topic",
-   "album": "",
+   "artist": "DJ_Dave",
+   "album": "Hard Refresh [DJ_Dave Remix]",
    "videoId": "x4ErS1hKABk",
    "duration": "3:40"
   },
   {
    "title": "Come Find Me (with Clementine Douglas) (Danny L Harle Remix)",
-   "artist": "MK - Topic",
-   "album": "",
+   "artist": "MK;Clementine Douglas",
+   "album": "Come Find Me (Danny L Harle Remix)",
    "videoId": "KlKWjdSeVA8",
    "duration": "4:23"
   },

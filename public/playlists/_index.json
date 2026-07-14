@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 267,
- "totalTracks": 102531,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "playlistCount": 269,
+ "totalTracks": 105223,
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "playlists": [
+  {
+   "playlistId": "PLUU31rWF7cOI",
+   "title": "avalanches fanbase suggestions",
+   "trackCount": 2673
+  },
+  {
+   "playlistId": "PLXiSFnCNRKa8",
+   "title": "(Soulwax Remix) Faves",
+   "trackCount": 19
+  },
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",

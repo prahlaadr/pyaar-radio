@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2rX0De_HNLXFBzzCo_heLP",
  "title": "JYOTY RADIO",
  "trackCount": 104,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Dopamine",
@@ -62,8 +62,8 @@
   },
   {
    "title": "Abena",
-   "artist": "BenjiFlow - Topic",
-   "album": "",
+   "artist": "BenjiFlow",
+   "album": "Abena",
    "videoId": "mPp2CMgcMvo",
    "duration": "2:16"
   },
@@ -83,8 +83,8 @@
   },
   {
    "title": "Jugni",
-   "artist": "Juss Nandhra - Topic",
-   "album": "",
+   "artist": "Juss Nandhra & Jungli",
+   "album": "Jugni",
    "videoId": "SeRzMrY5e_E",
    "duration": "3:41"
   },
@@ -139,8 +139,8 @@
   },
   {
    "title": "Came To Dance",
-   "artist": "Izza Gara - Topic",
-   "album": "",
+   "artist": "Izza Gara;Venus Anon",
+   "album": "YOUNG",
    "videoId": "N3uNbd7TPyA",
    "duration": "3:19"
   },
@@ -153,22 +153,22 @@
   },
   {
    "title": "I've Tried",
-   "artist": "Eljé - Topic",
-   "album": "",
+   "artist": "Eljé",
+   "album": "I've Tried",
    "videoId": "Oe5kdnZEsnM",
    "duration": "2:45"
   },
   {
-   "title": "Heartbeat (NameBrandSound Remix)",
-   "artist": "T. Williams - Topic",
-   "album": "",
+   "title": "Heartbeat (NameBrandSound Remix) (feat. Terri Walker)",
+   "artist": "T. Williams",
+   "album": "Heartbeat (Remixes)",
    "videoId": "_CooVEv_4jA",
    "duration": "5:05"
   },
   {
    "title": "3AM",
-   "artist": "Sophie Castillo - Topic",
-   "album": "",
+   "artist": "Sophie Castillo",
+   "album": "3AM",
    "videoId": "JlEpvf0cfA8",
    "duration": "3:46"
   },
@@ -209,8 +209,8 @@
   },
   {
    "title": "Love Express",
-   "artist": "TTeo - Topic",
-   "album": "",
+   "artist": "TTeo",
+   "album": "Lovexpress77",
    "videoId": "mJY-sEgMhgo",
    "duration": "3:43"
   },
@@ -342,8 +342,8 @@
   },
   {
    "title": "Try Me (feat. Ego Ella May)",
-   "artist": "IAMNOBODI - Topic",
-   "album": "",
+   "artist": "IAMNOBODI",
+   "album": "Snapshots from Berlin",
    "videoId": "4wtm1s-KP-4",
    "duration": "3:46"
   },
@@ -489,8 +489,8 @@
   },
   {
    "title": "My Work",
-   "artist": "Raybekah - Topic",
-   "album": "",
+   "artist": "Raybekah",
+   "album": "My Work",
    "videoId": "bCcRL8eOY5Y",
    "duration": "2:41"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Money",
-   "artist": "Moonchild - Topic",
-   "album": "",
+   "artist": "Moonchild",
+   "album": "Little Ghost",
    "videoId": "if0sVDx3X98",
    "duration": "4:41"
   },

@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3528,
- "totalTracks": 44990,
- "syncedAt": "2026-07-13T11:11:54.461118Z",
+ "albumCount": 3529,
+ "totalTracks": 45003,
+ "syncedAt": "2026-07-14T09:59:04.946359Z",
  "albums": [
+  {
+   "browseId": "MPREb_TaMEXhl9jeo",
+   "title": "Eclipse",
+   "artist": "Amarjit Sidhu",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_x3UT2sdBf1w",
+   "title": "Gut Feeling",
+   "artist": "Bickle",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_PDeG3NDFdbK",
    "title": "Reading, Writing And Arithmetic",
@@ -19719,12 +19731,6 @@
    "title": "Tropicoqueta",
    "artist": "KAROL G",
    "trackCount": 20
-  },
-  {
-   "browseId": "MPREb_VY7ByPAOY1r",
-   "title": "Amxn Edits 003",
-   "artist": "DJ AMXN",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_lrWfPzTf4x6",

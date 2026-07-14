@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1SfSDRCnhTiHRMStUHehas",
  "title": "20/20 LDN Recordings Catalogue",
  "trackCount": 551,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Rorschach",
@@ -762,15 +762,15 @@
   },
   {
    "title": "James Woods",
-   "artist": "Deft - Topic",
-   "album": "",
+   "artist": "Deft",
+   "album": "Pressure E.P",
    "videoId": "3J-nACifqMI",
    "duration": "2:12"
   },
   {
    "title": "Zimma",
-   "artist": "Deft - Topic",
-   "album": "",
+   "artist": "Deft",
+   "album": "Pressure E.P",
    "videoId": "dyxhPcyX9c0",
    "duration": "2:18"
   },
@@ -818,8 +818,8 @@
   },
   {
    "title": "Deadline",
-   "artist": "Sumgii - Topic",
-   "album": "",
+   "artist": "Sumgii",
+   "album": "Deadline",
    "videoId": "4nlcDVsDBSg",
    "duration": "4:14"
   },
@@ -944,8 +944,8 @@
   },
   {
    "title": "Stacked",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab",
+   "album": "Everythingmustchange E.P",
    "videoId": "mtDFvO630RQ",
    "duration": "3:32"
   },
@@ -1000,8 +1000,8 @@
   },
   {
    "title": "Butter & Gold",
-   "artist": "OAKK - Topic",
-   "album": "",
+   "artist": "OAKK",
+   "album": "Butter & Gold",
    "videoId": "xwoa60E33Qg",
    "duration": "3:01"
   },
@@ -1084,8 +1084,8 @@
   },
   {
    "title": "HOTPOT",
-   "artist": "Deft - Topic",
-   "album": "",
+   "artist": "Deft",
+   "album": "Skin",
    "videoId": "Vi-H3LIbrK4",
    "duration": "3:21"
   },
@@ -1224,8 +1224,8 @@
   },
   {
    "title": "NOVV",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab",
+   "album": "Infinite Falling Ground",
    "videoId": "GK2DJi77QDI",
    "duration": "4:19"
   },
@@ -1266,8 +1266,8 @@
   },
   {
    "title": "From Nout",
-   "artist": "Nah Eeto - Topic",
-   "album": "",
+   "artist": "Nah Eeto;Black Josh;Hyroglifics",
+   "album": "From Nout X Songa",
    "videoId": "ze0ZiyObf40",
    "duration": "3:36"
   },
@@ -1280,8 +1280,8 @@
   },
   {
    "title": "Creep",
-   "artist": "The Northaze - Topic",
-   "album": "",
+   "artist": "The Northaze",
+   "album": "Creep",
    "videoId": "UeR1KyK6z7A",
    "duration": "3:54"
   },
@@ -1336,8 +1336,8 @@
   },
   {
    "title": "Hiya (feat. Havelock)",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab;Halogenix",
+   "album": "20/20 Vol. One",
    "videoId": "VCs-w4ZZa1w",
    "duration": "2:58"
   },

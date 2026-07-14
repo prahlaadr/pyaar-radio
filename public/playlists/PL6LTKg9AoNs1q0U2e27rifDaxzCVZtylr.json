@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1q0U2e27rifDaxzCVZtylr",
  "title": "Confession: Mei Semones",
  "trackCount": 45,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Tora Moyo - A COLORS SHOW",
@@ -13,22 +13,22 @@
   },
   {
    "title": "Zarigani",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Zarigani",
    "videoId": "Le1aWS8RtL8",
    "duration": "4:34"
   },
   {
    "title": "I can do what I want",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Zarigani",
    "videoId": "ffgY4-iiIBA",
    "duration": "3:01"
   },
   {
    "title": "Dumb Feeling",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Dumb Feeling",
    "videoId": "jv6WEgSjPhU",
    "duration": "3:11"
   },
@@ -48,8 +48,8 @@
   },
   {
    "title": "Tegami",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Kabutomushi",
    "videoId": "RZEM1NE8a_k",
    "duration": "3:24"
   },
@@ -69,8 +69,8 @@
   },
   {
    "title": "Inaka",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Inaka",
    "videoId": "mO2Ib49b5ec",
    "duration": "3:06"
   },
@@ -90,8 +90,8 @@
   },
   {
    "title": "Inaka",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Inaka",
    "videoId": "mO2Ib49b5ec",
    "duration": "3:06"
   },
@@ -230,29 +230,29 @@
   },
   {
    "title": "I can do what I want",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Animaru",
    "videoId": "8f_1sVQdKM4",
    "duration": "3:01"
   },
   {
    "title": "Dumb Feeling",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Animaru",
    "videoId": "anfVwqnLZfU",
    "duration": "3:11"
   },
   {
    "title": "Animaru",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Animaru",
    "videoId": "wHJ-_dSjTTQ",
    "duration": "2:42"
   },
   {
    "title": "Dangomushi",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Animaru",
    "videoId": "ClhTKHqmBPI",
    "duration": "3:20"
   },
@@ -307,8 +307,8 @@
   },
   {
    "title": "Itsumo",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Itsumo",
    "videoId": "0ZuWyJD-zZM",
    "duration": "4:12"
   },

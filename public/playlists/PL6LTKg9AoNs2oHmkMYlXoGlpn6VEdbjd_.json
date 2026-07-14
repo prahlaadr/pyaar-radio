@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -55,8 +55,8 @@
   },
   {
    "title": "The Percocet & Stripper Joint",
-   "artist": "Future - Topic",
-   "album": "",
+   "artist": "Future",
+   "album": "DS2 (Deluxe)",
    "videoId": "v54io9f0Wfk",
    "duration": "2:29"
   },
@@ -153,8 +153,8 @@
   },
   {
    "title": "cz",
-   "artist": "Mk.gee - Topic",
-   "album": "",
+   "artist": "Mk.gee",
+   "album": "A Museum Of Contradiction",
    "videoId": "5bjqvmThDbk",
    "duration": "4:10"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "In My Room",
-   "artist": "Twinkle Twinkle Little Rock Star - Topic",
-   "album": "",
+   "artist": "Twinkle Twinkle Little Rock Star",
+   "album": "Lullaby Versions of Frank Ocean",
    "videoId": "YvteZFNzjPQ",
    "duration": "2:51"
   },
@@ -321,8 +321,8 @@
   },
   {
    "title": "The Hillbillies",
-   "artist": "Baby Keem - Topic",
-   "album": "",
+   "artist": "Baby Keem;Kendrick Lamar",
+   "album": "The Hillbillies",
    "videoId": "nsCsM1xqiTY",
    "duration": "3:25"
   },
@@ -496,8 +496,8 @@
   },
   {
    "title": "Blue Boy",
-   "artist": "Mac DeMarco - Topic",
-   "album": "",
+   "artist": "Mac DeMarco",
+   "album": "Salad Days",
    "videoId": "GXuIWm12S24",
    "duration": "2:07"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Bluebird",
-   "artist": "Beach House - Topic",
-   "album": "",
+   "artist": "Beach House",
+   "album": "Depression Cherry",
    "videoId": "JsmZRbBLNT0",
    "duration": "3:56"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Butterfly",
-   "artist": "LOONA - Topic",
-   "album": "",
+   "artist": "이달의 소녀 LOONA",
+   "album": "[X X]",
    "videoId": "r9xpHzbhvyc",
    "duration": "3:58"
   },
@@ -559,8 +559,8 @@
   },
   {
    "title": "Catch Me Outside",
-   "artist": "Ski Mask The Slump God - Topic",
-   "album": "",
+   "artist": "Ski Mask The Slump God",
+   "album": "You Will Regret (Reloaded)",
    "videoId": "PgjCy-ltkLE",
    "duration": "2:26"
   },
@@ -628,9 +628,9 @@
    "duration": "4:03"
   },
   {
-   "title": "Crew",
-   "artist": "GoldLink - Topic",
-   "album": "",
+   "title": "Crew (feat. Brent Faiyaz & Shy Glizzy)",
+   "artist": "GoldLink",
+   "album": "At What Cost",
    "videoId": "sRrImOO1bug",
    "duration": "2:57"
   },
@@ -643,8 +643,8 @@
   },
   {
    "title": "Dancing in the Moonlight (It's Caught Me in It's Spotlight)",
-   "artist": "Aine O'doherty - Topic",
-   "album": "",
+   "artist": "Áine O'Doherty",
+   "album": "Áine O'Doherty",
    "videoId": "RPXdIaeq7G0",
    "duration": "2:21"
   },
@@ -1553,7 +1553,7 @@
   },
   {
    "title": "2012 Summer",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "qFlD2uldq8w",
    "duration": "1:38"
@@ -2946,7 +2946,7 @@
   },
   {
    "title": "Kiliye Kiliye - RHYTHOM Version",
-   "artist": "RHYTHOM & S. Janaki",
+   "artist": "RHYTHOM;S. Janaki",
    "album": "Kiliye Kiliye - RHYTHOM Version",
    "videoId": "M1789mNFSyM",
    "duration": "2:47"
@@ -13340,9 +13340,9 @@
    "duration": "1:10"
   },
   {
-   "title": "Sweet Serenade (feat. Chris Brown)",
-   "artist": "Pusha T",
-   "album": "My Name Is My Name",
+   "title": "Sweet Serenade",
+   "artist": "Pusha T - Topic",
+   "album": "",
    "videoId": "OF6irQtj3M8",
    "duration": "3:40"
   },
@@ -13383,8 +13383,8 @@
   },
   {
    "title": "Switch (DEVAULT Remix)",
-   "artist": "6LACK",
-   "album": "Switch (DEVAULT Remix)",
+   "artist": "6LACK - Topic",
+   "album": "",
    "videoId": "FGrlGN3o5Ng",
    "duration": "3:50"
   },
@@ -13418,8 +13418,8 @@
   },
   {
    "title": "Episode 56 - Wahine Tahiti (1948-07-05)",
-   "artist": "Wyllis Cooper",
-   "album": "Quiet Please - Old Time Radio Show - Vol. Two",
+   "artist": "Wyllis Cooper - Topic",
+   "album": "",
    "videoId": "I7ChMYjitfA",
    "duration": "24:18"
   },
@@ -13453,15 +13453,15 @@
   },
   {
    "title": "Tape You",
-   "artist": "N.E.R.D.",
-   "album": "In Search Of...",
+   "artist": "N.E.R.D. - Topic",
+   "album": "",
    "videoId": "_3GO3fLzCEY",
    "duration": "4:52"
   },
   {
    "title": "Taqat",
-   "artist": "Prabh Deep",
-   "album": "Tabia",
+   "artist": "Prabh Deep - Topic",
+   "album": "",
    "videoId": "cNILcCmkLlc",
    "duration": "3:27"
   },
@@ -13487,9 +13487,9 @@
    "duration": "2:31"
   },
   {
-   "title": "Teen Scene (feat. Buddy)",
-   "artist": "Maeta",
-   "album": "Teen Scene",
+   "title": "Teen Scene",
+   "artist": "Maeta - Topic",
+   "album": "",
    "videoId": "8T3rj6xxXGo",
    "duration": "4:11"
   },
@@ -13691,8 +13691,8 @@
   },
   {
    "title": "The Great Pumpkin Waltz",
-   "artist": "Vince Guaraldi",
-   "album": "It's The Great Pumpkin, Charlie Brown (Original Soundtrack Recording)",
+   "artist": "Vince Guaraldi - Topic",
+   "album": "",
    "videoId": "uINn4mkqL0M",
    "duration": "2:37"
   },
@@ -13760,9 +13760,9 @@
    "duration": "3:25"
   },
   {
-   "title": "The Palisades (feat. Christian Rich)",
-   "artist": "Childish Gambino",
-   "album": "Kauai",
+   "title": "The Palisades",
+   "artist": "Childish Gambino - Topic",
+   "album": "",
    "videoId": "cauPUjG5P14",
    "duration": "3:11"
   },
@@ -13831,8 +13831,8 @@
   },
   {
    "title": "The Tired Influencer",
-   "artist": "Gorillaz",
-   "album": "Cracker Island",
+   "artist": "Gorillaz - Topic",
+   "album": "",
    "videoId": "eVFS-9QO6Dc",
    "duration": "3:32"
   },
@@ -13970,9 +13970,9 @@
    "duration": "3:27"
   },
   {
-   "title": "This Must Be the Place (Naive Melody) (feat. Norah Jones)",
-   "artist": "BADBADNOTGOOD",
-   "album": "Everyone's Getting Involved: A Tribute to Talking Heads' Stop Making Sense",
+   "title": "This Must Be the Place (Naive Melody)",
+   "artist": "BADBADNOTGOOD - Topic",
+   "album": "",
    "videoId": "fCtMB6bAtww",
    "duration": "4:32"
   },
@@ -16050,7 +16050,7 @@
   },
   {
    "title": "All In",
-   "artist": "Earl Sweatshirt & LUCKI",
+   "artist": " LUCKI;Earl Sweatshirt",
    "album": "Freewave 3",
    "videoId": "UYlpTQZZK5A",
    "duration": "1:46"
@@ -21461,7 +21461,7 @@
   },
   {
    "title": "get off my dick",
-   "artist": "Zack Fox & Kenny Beats",
+   "artist": "Zack Fox;Kenny Beats",
    "album": "shut the fuck up talking to me",
    "videoId": "yWRkmzsJwk0",
    "duration": "2:44"
@@ -22966,7 +22966,7 @@
   },
   {
    "title": "Interlude",
-   "artist": "CHASETHEMONEY & LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "jrHJA0CRoFw",
    "duration": "1:07"
@@ -25780,7 +25780,7 @@
   },
   {
    "title": "Out My Way",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "toJgX41iafQ",
    "duration": "1:21"
@@ -26011,7 +26011,7 @@
   },
   {
    "title": "Peach Dream",
-   "artist": "LUCKI",
+   "artist": " LUCKI",
    "album": "Freewave 3",
    "videoId": "iGGebaVRyTg",
    "duration": "2:08"
@@ -31170,7 +31170,7 @@
   },
   {
    "title": "Mega Xerecation",
-   "artist": "Sanchezz DJ, DJ NARDINI, & JHONA!",
+   "artist": "Sanchezz DJ;DJ NARDINI;JHONA!",
    "album": "Mega Xerecation",
    "videoId": "xzQWWzk2cQ4",
    "duration": "2:50"

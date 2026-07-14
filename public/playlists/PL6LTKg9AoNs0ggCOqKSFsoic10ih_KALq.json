@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
-   "artist": "Broken Lip - Topic",
-   "album": "",
+   "artist": "Broken Lip",
+   "album": "Gazpachuelo (VOL.1)",
    "videoId": "TB1hIrFtKf4",
    "duration": "3:54"
   },
@@ -97,8 +97,8 @@
   },
   {
    "title": "Heretic",
-   "artist": "Oli XL - Topic",
-   "album": "",
+   "artist": "Oli XL",
+   "album": "Mono No Aware",
    "videoId": "Aa0qQHa5zDA",
    "duration": "4:18"
   },
@@ -188,8 +188,8 @@
   },
   {
    "title": "Moiré (Piano & Organ)",
-   "artist": "Jan Jelinek - Topic",
-   "album": "",
+   "artist": "Jan Jelinek",
+   "album": "Loop-Finding-Jazz-Records",
    "videoId": "OsSQONAJRm4",
    "duration": "6:55"
   },
@@ -244,8 +244,8 @@
   },
   {
    "title": "After Light",
-   "artist": "Rustie - Topic",
-   "album": "",
+   "artist": "Rustie",
+   "album": "Glass Swords",
    "videoId": "SMlmyvc8XB0",
    "duration": "3:43"
   },
@@ -258,8 +258,8 @@
   },
   {
    "title": "Bucky Done Gun",
-   "artist": "M.I.A. - Topic",
-   "album": "",
+   "artist": "M.I.A.",
+   "album": "Arular",
    "videoId": "XNzU_4R_6K4",
    "duration": "3:47"
   },
@@ -272,15 +272,15 @@
   },
   {
    "title": "Innervisions (Pilot)",
-   "artist": "Dj Shufflemaster - Topic",
-   "album": "",
+   "artist": "DJ Shufflemaster",
+   "album": "EXP",
    "videoId": "NNwkS_5vgsk",
    "duration": "5:44"
   },
   {
    "title": "Slip Inside You",
-   "artist": "Dj Shufflemaster - Topic",
-   "album": "",
+   "artist": "DJ Shufflemaster",
+   "album": "EXP",
    "videoId": "QwjKMCrcFts",
    "duration": "5:33"
   },
@@ -391,8 +391,8 @@
   },
   {
    "title": "Time: The Donut of the Heart",
-   "artist": "J Dilla - Topic",
-   "album": "",
+   "artist": "J Dilla",
+   "album": "Donuts",
    "videoId": "0vmhgotEByc",
    "duration": "1:39"
   },
@@ -530,9 +530,9 @@
    "duration": "5:56"
   },
   {
-   "title": "Drop It Down (Feat. Singing Fats)",
-   "artist": "Calibre - Topic",
-   "album": "",
+   "title": "Drop It Down (feat. Singing Fats)",
+   "artist": "Calibre",
+   "album": "Second Sun",
    "videoId": "dtgDw3WoPTM",
    "duration": "5:33"
   },
@@ -650,8 +650,8 @@
   },
   {
    "title": "A1",
-   "artist": "Dynamo Dreesen, SVN & A Made Up Sound - Topic",
-   "album": "",
+   "artist": "Dynamo Dreesen;SVN;A Made Up Sound",
+   "album": "Acido 20",
    "videoId": "F0XddRh9EBg",
    "duration": "8:38"
   },
@@ -804,8 +804,8 @@
   },
   {
    "title": "Love",
-   "artist": "Mica Levi - Topic",
-   "album": "",
+   "artist": "Mica Levi",
+   "album": "Under the Skin (Original Soundtrack Album)",
    "videoId": "iyfsb0rjFM0",
    "duration": "5:11"
   },
@@ -881,8 +881,8 @@
   },
   {
    "title": "If I Had a Heart",
-   "artist": "Fever Ray - Topic",
-   "album": "",
+   "artist": "Fever Ray",
+   "album": "Fever Ray",
    "videoId": "F6KsfDcCSWg",
    "duration": "3:50"
   },
@@ -902,8 +902,8 @@
   },
   {
    "title": "Phantom Pt. II",
-   "artist": "Justice - Topic",
-   "album": "",
+   "artist": "Justice",
+   "album": "Cross",
    "videoId": "Dn-WFH6tpCU",
    "duration": "3:21"
   },
@@ -1000,8 +1000,8 @@
   },
   {
    "title": "movies for guys",
-   "artist": "Jane Remover - Topic",
-   "album": "",
+   "artist": "Jane Remover",
+   "album": "Frailty",
    "videoId": "hoFNK6O3QvE",
    "duration": "5:46"
   },
@@ -1063,8 +1063,8 @@
   },
   {
    "title": "Caves of Paradise",
-   "artist": "Actress - Topic",
-   "album": "",
+   "artist": "Actress",
+   "album": "R.I.P.",
    "videoId": "zDhGm1b5OX8",
    "duration": "4:16"
   },
@@ -1168,8 +1168,8 @@
   },
   {
    "title": "Caged in Aly's Body",
-   "artist": "Simo Cell - Topic",
-   "album": "",
+   "artist": "Simo Cell;Abdullah Miniawy",
+   "album": "Kill Me or Negociate",
    "videoId": "07R3rKGqejU",
    "duration": "4:35"
   },
@@ -1245,8 +1245,8 @@
   },
   {
    "title": "We Been Troddin",
-   "artist": "Rhythm & Sound - Topic",
-   "album": "",
+   "artist": "Rhythm & Sound",
+   "album": "With the Artists",
    "videoId": "hu-E4nJqxuk",
    "duration": "7:04"
   },
@@ -1266,8 +1266,8 @@
   },
   {
    "title": "Your Sweet Lovin",
-   "artist": "moodymann - Topic",
-   "album": "",
+   "artist": "Moodymann",
+   "album": "Forevernevermore",
    "videoId": "htoEpUvme04",
    "duration": "4:21"
   },
@@ -1329,8 +1329,8 @@
   },
   {
    "title": "MindKilla",
-   "artist": "Gang Gang Dance - Topic",
-   "album": "",
+   "artist": "Gang Gang Dance",
+   "album": "Eye Contact",
    "videoId": "JiqTOJOJixs",
    "duration": "5:17"
   },
@@ -1350,8 +1350,8 @@
   },
   {
    "title": "Paranoia",
-   "artist": "James Ruskin - Topic",
-   "album": "",
+   "artist": "James Ruskin",
+   "album": "Into Submission",
    "videoId": "zZM7tlEpJWM",
    "duration": "7:29"
   },
@@ -1427,8 +1427,8 @@
   },
   {
    "title": "Poltergeist (Terror Danjah V.I.P. Remix)",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "DJ Target",
+   "album": "Terror Danjah: Gremlinz (The Instrumentals 2003-2009)",
    "videoId": "ugtjeF_JZ_w",
    "duration": "3:32"
   },
@@ -1504,8 +1504,8 @@
   },
   {
    "title": "Shaper of the Unknown",
-   "artist": "Surgeon - Topic",
-   "album": "",
+   "artist": "Surgeon",
+   "album": "Screw the Roses",
    "videoId": "IDloOrBvgXE",
    "duration": "5:28"
   },
@@ -1539,8 +1539,8 @@
   },
   {
    "title": "Paleta",
-   "artist": "Wisin & Yandel - Topic",
-   "album": "",
+   "artist": "Wisin & Yandel;Daddy Yankee",
+   "album": "Pa'l Mundo",
    "videoId": "bh02H0TZVvY",
    "duration": "2:56"
   },
@@ -1552,9 +1552,9 @@
    "duration": "2:56"
   },
   {
-   "title": "Deo (Original Mix)",
-   "artist": "Roman Flügel - Topic",
-   "album": "",
+   "title": "Deo",
+   "artist": "Roman Flügel",
+   "album": "Fatty Folders",
    "videoId": "k5c779IvuGI",
    "duration": "6:42"
   },
@@ -1686,8 +1686,8 @@
   },
   {
    "title": "Naive Response",
-   "artist": "Daniel Avery - Topic",
-   "album": "",
+   "artist": "Daniel Avery",
+   "album": "Drone Logic",
    "videoId": "Uvd4fD5pkZE",
    "duration": "5:24"
   },
@@ -1721,8 +1721,8 @@
   },
   {
    "title": "I Feel Space",
-   "artist": "Lindstrøm - Topic",
-   "album": "",
+   "artist": "Lindstrøm",
+   "album": "It's a Feedelity Affair",
    "videoId": "cMpUjOpqB0g",
    "duration": "6:00"
   },
@@ -1742,8 +1742,8 @@
   },
   {
    "title": "I Wanna Know",
-   "artist": "Dillinja - Topic",
-   "album": "",
+   "artist": "Dillinja",
+   "album": "My Sound (1993 - 2004)",
    "videoId": "xNtyNPkngq8",
    "duration": "6:06"
   },
@@ -1868,8 +1868,8 @@
   },
   {
    "title": "Like Sun",
-   "artist": "Toasty - Topic",
-   "album": "",
+   "artist": "Toasty",
+   "album": "The Knowledge",
    "videoId": "OP_Qz-iFUbE",
    "duration": "4:46"
   },
@@ -1882,8 +1882,8 @@
   },
   {
    "title": "Speek",
-   "artist": "Perc - Topic",
-   "album": "",
+   "artist": "Perc",
+   "album": "The Power and the Glory",
    "videoId": "OVkxSZ6rF4g",
    "duration": "5:48"
   },
@@ -2092,8 +2092,8 @@
   },
   {
    "title": "Bunny Is A Rider",
-   "artist": "Caroline Polachek - Topic",
-   "album": "",
+   "artist": "Caroline Polachek",
+   "album": "Desire, I Want To Turn Into You: Everasking Edition",
    "videoId": "e5czQyCssno",
    "duration": "3:14"
   },
@@ -2120,8 +2120,8 @@
   },
   {
    "title": "Goes By",
-   "artist": "Emeralds - Topic",
-   "album": "",
+   "artist": "Emeralds",
+   "album": "Does It Look Like I'm Here?",
    "videoId": "lwiYcmv7Em0",
    "duration": "4:11"
   },
@@ -2147,9 +2147,9 @@
    "duration": "7:27"
   },
   {
-   "title": "Love On Fire",
-   "artist": "Black Coffee - Topic",
-   "album": "",
+   "title": "Love On Fire (feat. Lungi Naidoo & Ribatone)",
+   "artist": "Black Coffee",
+   "album": "Pieces Of Me",
    "videoId": "0pCng5-l4BM",
    "duration": "8:11"
   },
@@ -2218,8 +2218,8 @@
   },
   {
    "title": "Mysterons",
-   "artist": "Swayzak - Topic",
-   "album": "",
+   "artist": "Swayzak",
+   "album": "Himawari",
    "videoId": "1Tjap0hdznU",
    "duration": "4:32"
   },
@@ -2246,8 +2246,8 @@
   },
   {
    "title": "Don't Mug Yourself",
-   "artist": "The Streets - Topic",
-   "album": "",
+   "artist": "The Streets",
+   "album": "Original Pirate Material",
    "videoId": "UGWPg2z3x_4",
    "duration": "2:38"
   },
@@ -2267,8 +2267,8 @@
   },
   {
    "title": "Infinite",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Bliss Inc.",
+   "album": "Hacking The Planet",
    "videoId": "CHd8wYAfCoU",
    "duration": "7:24"
   },
@@ -2344,8 +2344,8 @@
   },
   {
    "title": "This Country",
-   "artist": "Fever Ray - Topic",
-   "album": "",
+   "artist": "Fever Ray",
+   "album": "Plunge",
    "videoId": "d5vobfFuR7I",
    "duration": "3:13"
   },
@@ -2470,15 +2470,15 @@
   },
   {
    "title": "Take Me Apart",
-   "artist": "Kelela - Topic",
-   "album": "",
+   "artist": "Kelela",
+   "album": "Take Me Apart",
    "videoId": "3-Iiidlx9gQ",
    "duration": "4:03"
   },
   {
    "title": "Waitin",
-   "artist": "Kelela - Topic",
-   "album": "",
+   "artist": "Kelela",
+   "album": "Take Me Apart",
    "videoId": "FjiGvD_yUo8",
    "duration": "3:16"
   },
@@ -2673,8 +2673,8 @@
   },
   {
    "title": "Hazyville",
-   "artist": "Actress - Topic",
-   "album": "",
+   "artist": "Actress",
+   "album": "Hazyville",
    "videoId": "PsL9H2L10LY",
    "duration": "5:31"
   },
@@ -2756,9 +2756,9 @@
    "duration": "4:38"
   },
   {
-   "title": "Brighter Day",
-   "artist": "Pinch - Topic",
-   "album": "",
+   "title": "Brighter Day (feat. Juakali)",
+   "artist": "Pinch",
+   "album": "Underwater Dancehall",
    "videoId": "q2WEcPIXrcQ",
    "duration": "5:22"
   },

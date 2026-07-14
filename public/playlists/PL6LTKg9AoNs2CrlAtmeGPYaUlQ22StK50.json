@@ -2,19 +2,19 @@
  "playlistId": "PL6LTKg9AoNs2CrlAtmeGPYaUlQ22StK50",
  "title": "Shreya Ghoshal old songs",
  "trackCount": 86,
- "syncedAt": "2026-07-13T11:11:57.143472Z",
+ "syncedAt": "2026-07-14T09:59:08.909850Z",
  "tracks": [
   {
    "title": "Yeh Kya Hua",
-   "artist": "Prem & Hardeep - Topic",
-   "album": "",
+   "artist": "Prem & Hardeep;Shreya Ghoshal",
+   "album": "Tera Mera Pyar",
    "videoId": "QYxcCf9f300",
    "duration": "5:04"
   },
   {
    "title": "Pyar Ki Baatein",
-   "artist": "Prem & Hardeep - Topic",
-   "album": "",
+   "artist": "Prem & Hardeep;Shreya Ghoshal",
+   "album": "Tera Mera Pyar",
    "videoId": "XzNblhMuDD0",
    "duration": "6:05"
   },
@@ -27,8 +27,8 @@
   },
   {
    "title": "HAR TARAF",
-   "artist": "Kay Kay - Topic",
-   "album": "",
+   "artist": "K.K., SHREYA GHOSHAL, ANU MALIK, and SAYEED QUADRI",
+   "album": "SAAYA",
    "videoId": "oSzARJmmedQ",
    "duration": "6:19"
   },
@@ -90,8 +90,8 @@
   },
   {
    "title": "Hamesha",
-   "artist": "Vishal Dadlani - Topic",
-   "album": "",
+   "artist": "Vishal Dadlani",
+   "album": "Krishna Cottage (Original Motion Picture Soundtrack)",
    "videoId": "OQiSCoc-f_E",
    "duration": "6:21"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "Silsila Ye Chahat Ka (From \"Devdas\")",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "Shreya Ghosal",
+   "album": "Celebrating 21 Years of Devdas",
    "videoId": "bfZi9kYCmzo",
    "duration": "5:27"
   },
@@ -132,8 +132,8 @@
   },
   {
    "title": "AYE MERI ZINDAGI",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "SHREYA GHOSHAL, ANU MALIK, & SAYEED QUADRI",
+   "album": "SAAYA",
    "videoId": "YYy94KgojVA",
    "duration": "6:29"
   },
@@ -146,8 +146,8 @@
   },
   {
    "title": "MOHABBAT ZINDAGI HAI",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "SHREYA GHOSHAL, ANU MALIK, & SAEED QADRI",
+   "album": "NAZAR",
    "videoId": "Dic2N6Frj90",
    "duration": "5:41"
   },
@@ -167,8 +167,8 @@
   },
   {
    "title": "Aahi Re Mahi",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "Shreya Ghoshal & Chorus",
+   "album": "Police Force An Inside Story",
    "videoId": "sA38Dw202cU",
    "duration": "6:12"
   },
@@ -181,8 +181,8 @@
   },
   {
    "title": "EK DIL NE",
-   "artist": "Vishal - Shekhar - Topic",
-   "album": "",
+   "artist": "VISHAL-SHEKHAR;KUNAL GANJAWALA;SHREYA GHOSHAL",
+   "album": "MUSAFIR",
    "videoId": "_YM_zJ2dEII",
    "duration": "4:57"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "KOI PYAR NA KARE",
-   "artist": "Sonu Nigam - Topic",
-   "album": "",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;ANU MALIK;SAMEER",
+   "album": "AAN - MEN AT WORK",
    "videoId": "yHcD6F5YYjc",
    "duration": "5:01"
   },
@@ -370,15 +370,15 @@
   },
   {
    "title": "Tera Libaas, Pt. 1",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "Shreya Ghoshal;Sonu Nigam",
+   "album": "Hawas (Original Motion Picture Soundtrack)",
    "videoId": "i-ipefTY4fI",
    "duration": "5:56"
   },
   {
    "title": "Tera Libaas, Pt. 2",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "Shreya Ghoshal;Sonu Nigam",
+   "album": "Hawas (Original Motion Picture Soundtrack)",
    "videoId": "cNQhCZIZzeE",
    "duration": "5:56"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "AGAR DIL KAHE",
-   "artist": "Sonu Nigam - Topic",
-   "album": "",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;NIKHIL;VINAY",
+   "album": "KAUN HAI JO SAPNO MEIN AAYA",
    "videoId": "moLwu_G6NvE",
    "duration": "6:15"
   },
@@ -447,8 +447,8 @@
   },
   {
    "title": "DIL KI SEEDHI LAMBI SADAK",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "SHREYA GHOSHAL, SONU KAKKAR, SANJEEV SRIVASTAVA, and SHAHIN IQBAL",
+   "album": "MEN NOT ALLOWED",
    "videoId": "kyw_PkVRZug",
    "duration": "5:26"
   },
@@ -468,8 +468,8 @@
   },
   {
    "title": "DHEERE JALNA",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "SHREYA GHOSHAL;SONU NIGAM;M.M. KAREEM;GULZAR",
+   "album": "PAHELI",
    "videoId": "ekgnNMwne2w",
    "duration": "6:08"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Aahista Aahista (From \"Bachna Ae Haseeno\")",
-   "artist": "Vishal - Shekhar - Topic",
-   "album": "",
+   "artist": "Vishal and Sheykhar;Lucky Ali;Shreya Ghoshal",
+   "album": "Bachna Ae Haseeno",
    "videoId": "P0YdL4p7aWc",
    "duration": "5:50"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Shikdum",
-   "artist": "Shaan - Topic",
-   "album": "",
+   "artist": "Shaan;Shreya Ghoshal",
+   "album": "Dhoom",
    "videoId": "38NGA6jRZCQ",
    "duration": "5:28"
   },
@@ -566,15 +566,15 @@
   },
   {
    "title": "Koi Bachao Mujhe",
-   "artist": "Vinod Rathod - Topic",
-   "album": "",
+   "artist": "Vinod Rathod;Shreya Ghoshal",
+   "album": "Time Pass (Original Motion Picture Soundtrack)",
    "videoId": "Z_0bGjrxR9g",
    "duration": "4:14"
   },
   {
    "title": "Chahenge Tumhein",
-   "artist": "Udit Narayan - Topic",
-   "album": "",
+   "artist": "Udit Narayan;Shreya Ghoshal",
+   "album": "Vaah Life Ho Toh Aisi (Original Motion Picture Soundtrack)",
    "videoId": "Acgkh8OnohY",
    "duration": "5:52"
   },
@@ -594,8 +594,8 @@
   },
   {
    "title": "Mujhe Tumse Mohabbat Hai",
-   "artist": "Shreya Ghoshal - Topic",
-   "album": "",
+   "artist": "Shreya Ghoshal;Shaan",
+   "album": "Tumsa Nahin Dekha - A Love Story",
    "videoId": "-BsRKH3KCaw",
    "duration": "5:52"
   },
