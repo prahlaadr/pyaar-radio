@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3529,
- "totalTracks": 45003,
- "syncedAt": "2026-07-14T09:59:04.946359Z",
+ "albumCount": 3526,
+ "totalTracks": 44958,
+ "syncedAt": "2026-07-15T10:03:45.485151Z",
  "albums": [
   {
    "browseId": "MPREb_TaMEXhl9jeo",
@@ -8735,12 +8735,6 @@
    "trackCount": 19
   },
   {
-   "browseId": "MPREb_1kRfnlBllyr",
-   "title": "Only Diamonds Cut Diamonds",
-   "artist": "Vegyn",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_Ev9nLGLm8Lt",
    "title": "Elf-Titled",
    "artist": "The Advantage",
@@ -16631,12 +16625,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_fXLE7BLQBxY",
-   "title": "Marbled",
-   "artist": "Abhi The Nomad",
-   "trackCount": 12
-  },
-  {
    "browseId": "MPREb_gp4dcm15NGu",
    "title": "DEADSTOCK",
    "artist": "Devin Malik",
@@ -19281,12 +19269,6 @@
    "title": "Galore",
    "artist": "Oklou",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_93XmR4KD7Fg",
-   "title": "choke enough (Deluxe)",
-   "artist": "Oklou",
-   "trackCount": 17
   },
   {
    "browseId": "MPREb_Km0Hamkf4Uh",

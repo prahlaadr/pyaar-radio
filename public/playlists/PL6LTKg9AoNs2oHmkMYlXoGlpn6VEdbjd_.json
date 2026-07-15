@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-14T09:59:08.909850Z",
+ "syncedAt": "2026-07-15T10:03:48.191102Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -316,7 +316,7 @@
    "title": "So Long",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "-LCqQY_Vxsc",
+   "videoId": "3IzOJEcvf_k",
    "duration": "3:30"
   },
   {
@@ -1254,7 +1254,7 @@
    "title": "Somebody To Love",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "ZjvOAqY82yk",
+   "videoId": "WdYQRawAeCk",
    "duration": "4:10"
   },
   {
@@ -3694,10 +3694,10 @@
    "duration": "4:31"
   },
   {
-   "title": "Planes (feat. Tyler Coolidge, Natty Reeves, Hooligan Lou & Harrison Sands)",
+   "title": "Planes (feat. tyler coolidge, Natty Reeves, Hooligan Lou & Harrison Sands)",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "wUox-AgggxA",
+   "videoId": "4Shv3eUIS7E",
    "duration": "4:14"
   },
   {
@@ -7692,7 +7692,7 @@
   },
   {
    "title": "Fallen",
-   "artist": "Mya",
+   "artist": "Mýa",
    "album": "Moodring",
    "videoId": "lcjtk5MdS6M",
    "duration": "3:35"
@@ -8597,7 +8597,7 @@
    "title": "harvest sky",
    "artist": "Oklou;underscores",
    "album": "choke enough (Deluxe)",
-   "videoId": "H3pdus03U8A",
+   "videoId": "JmzyzpdZUQw",
    "duration": "3:54"
   },
   {
@@ -8639,7 +8639,7 @@
    "title": "Headcase (feat. Foster Cazz)",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "CWo9fCDgk1w",
+   "videoId": "ckbOyFDOrRQ",
    "duration": "4:25"
   },
   {
@@ -10494,7 +10494,7 @@
    "title": "Marbled",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "Aj8kl0dsqIo",
+   "videoId": "tk_qjRUNpT0",
    "duration": "4:03"
   },
   {
@@ -10662,7 +10662,7 @@
    "title": "Mindset",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "DwCddXM0k7s",
+   "videoId": "jTH7zn_xIYo",
    "duration": "3:57"
   },
   {
@@ -12937,7 +12937,7 @@
    "title": "Spacecraft (feat. Foster Cazz)",
    "artist": "Abhi The Nomad;Harrison Sands",
    "album": "Marbled",
-   "videoId": "UCjzpdIyoDI",
+   "videoId": "BvFHgUTS3XA",
    "duration": "2:56"
   },
   {
@@ -13340,9 +13340,9 @@
    "duration": "1:10"
   },
   {
-   "title": "Sweet Serenade",
-   "artist": "Pusha T - Topic",
-   "album": "",
+   "title": "Sweet Serenade (feat. Chris Brown)",
+   "artist": "Pusha T",
+   "album": "My Name Is My Name",
    "videoId": "OF6irQtj3M8",
    "duration": "3:40"
   },
@@ -13383,8 +13383,8 @@
   },
   {
    "title": "Switch (DEVAULT Remix)",
-   "artist": "6LACK - Topic",
-   "album": "",
+   "artist": "6LACK",
+   "album": "Switch (DEVAULT Remix)",
    "videoId": "FGrlGN3o5Ng",
    "duration": "3:50"
   },
@@ -13418,8 +13418,8 @@
   },
   {
    "title": "Episode 56 - Wahine Tahiti (1948-07-05)",
-   "artist": "Wyllis Cooper - Topic",
-   "album": "",
+   "artist": "Wyllis Cooper",
+   "album": "Quiet Please - Old Time Radio Show - Vol. Two",
    "videoId": "I7ChMYjitfA",
    "duration": "24:18"
   },
@@ -13453,15 +13453,15 @@
   },
   {
    "title": "Tape You",
-   "artist": "N.E.R.D. - Topic",
-   "album": "",
+   "artist": "N.E.R.D.",
+   "album": "In Search Of...",
    "videoId": "_3GO3fLzCEY",
    "duration": "4:52"
   },
   {
    "title": "Taqat",
-   "artist": "Prabh Deep - Topic",
-   "album": "",
+   "artist": "Prabh Deep",
+   "album": "Tabia",
    "videoId": "cNILcCmkLlc",
    "duration": "3:27"
   },
@@ -13487,9 +13487,9 @@
    "duration": "2:31"
   },
   {
-   "title": "Teen Scene",
-   "artist": "Maeta - Topic",
-   "album": "",
+   "title": "Teen Scene (feat. Buddy)",
+   "artist": "Maeta",
+   "album": "Teen Scene",
    "videoId": "8T3rj6xxXGo",
    "duration": "4:11"
   },
@@ -13691,8 +13691,8 @@
   },
   {
    "title": "The Great Pumpkin Waltz",
-   "artist": "Vince Guaraldi - Topic",
-   "album": "",
+   "artist": "Vince Guaraldi",
+   "album": "It's The Great Pumpkin, Charlie Brown (Original Soundtrack Recording)",
    "videoId": "uINn4mkqL0M",
    "duration": "2:37"
   },
@@ -13760,9 +13760,9 @@
    "duration": "3:25"
   },
   {
-   "title": "The Palisades",
-   "artist": "Childish Gambino - Topic",
-   "album": "",
+   "title": "The Palisades (feat. Christian Rich)",
+   "artist": "Childish Gambino",
+   "album": "Kauai",
    "videoId": "cauPUjG5P14",
    "duration": "3:11"
   },
@@ -13831,8 +13831,8 @@
   },
   {
    "title": "The Tired Influencer",
-   "artist": "Gorillaz - Topic",
-   "album": "",
+   "artist": "Gorillaz",
+   "album": "Cracker Island",
    "videoId": "eVFS-9QO6Dc",
    "duration": "3:32"
   },
@@ -13970,9 +13970,9 @@
    "duration": "3:27"
   },
   {
-   "title": "This Must Be the Place (Naive Melody)",
-   "artist": "BADBADNOTGOOD - Topic",
-   "album": "",
+   "title": "This Must Be the Place (Naive Melody) (feat. Norah Jones)",
+   "artist": "BADBADNOTGOOD",
+   "album": "Everyone's Getting Involved: A Tribute to Talking Heads' Stop Making Sense",
    "videoId": "fCtMB6bAtww",
    "duration": "4:32"
   },
@@ -19276,11 +19276,11 @@
    "duration": "3:18"
   },
   {
-   "title": "Dogs (feat. Chef Sherm & Dani Rae)",
-   "artist": "Abhi The Nomad",
+   "title": "Dogs (feat. Dani Rae)",
+   "artist": "Abhi The Nomad & Chef Sherm",
    "album": "Marbled",
-   "videoId": "e2afS5dhpWY",
-   "duration": "3:49"
+   "videoId": "7CylnnSfMXs",
+   "duration": "3:48"
   },
   {
    "title": "Dogtown",
@@ -22966,7 +22966,7 @@
   },
   {
    "title": "Interlude",
-   "artist": " LUCKI",
+   "artist": "LUCKI",
    "album": "Freewave 3",
    "videoId": "jrHJA0CRoFw",
    "duration": "1:07"
@@ -23787,7 +23787,7 @@
    "title": "Letter For God",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "-yGs423B82Q",
+   "videoId": "9JkztSLgLpE",
    "duration": "4:34"
   },
   {
@@ -24305,7 +24305,7 @@
    "title": "Mama Bling",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "ZfHb_-YfK1M",
+   "videoId": "H_p1EqxLLIs",
    "duration": "3:43"
   },
   {
@@ -26426,8 +26426,8 @@
    "title": "Pressure (feat. Dylan Montayne & Shota Lodi)",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "stI0W1dJbVU",
-   "duration": "4:00"
+   "videoId": "LZm0SzmDy7E",
+   "duration": "3:59"
   },
   {
    "title": "PRETTY",
@@ -26871,7 +26871,7 @@
    "duration": "1:50"
   },
   {
-   "title": "Renaissance (Main Title Theme) [Extended Version] [from “The White Lotus: Season 2”]",
+   "title": "Renaissance (Main Title Theme) [Extended Version][from \"The White Lotus: Season 2\"] (Extended Version] [from “The White Lotus: Season 2”)",
    "artist": "Cristobal Tapia De Veer",
    "album": "The White Lotus: Season 2 (Soundtrack from the HBO® Original Series)",
    "videoId": "KEzIWjx62ls",
@@ -27546,7 +27546,7 @@
    "title": "Sex n' Drugs (feat. Copper King)",
    "artist": "Abhi The Nomad;Harrison Sands",
    "album": "Marbled",
-   "videoId": "A8Baxd4b1fg",
+   "videoId": "5OwQW59Ah0M",
    "duration": "3:38"
   },
   {

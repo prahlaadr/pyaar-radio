@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-07-14T09:59:08.909850Z",
+ "syncedAt": "2026-07-15T10:03:48.191102Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -467,7 +467,7 @@
    "duration": "3:53"
   },
   {
-   "title": "No Diggity (feat. Dr. Dre & Queen Pen)",
+   "title": "No Diggity (feat. Queen Pen & Dr. Dre)",
    "artist": "Blackstreet",
    "album": "Another Level",
    "videoId": "Fiu9h8ZTPoQ",
@@ -1476,7 +1476,7 @@
   },
   {
    "title": "She Knows (feat. Juicy J)",
-   "artist": "Ne-Yo",
+   "artist": "NE-YO",
    "album": "Non-Fiction (Deluxe)",
    "videoId": "GNYQPsw0z6w",
    "duration": "3:35"
@@ -1812,7 +1812,7 @@
   },
   {
    "title": "A Whole New World",
-   "artist": "Lea Salonga;Brad Kane;Disney",
+   "artist": "Lea Salonga;Brad Kane",
    "album": "Aladdin Special Edition",
    "videoId": "cD29dFgW26M",
    "duration": "2:41"
@@ -4660,8 +4660,8 @@
    "duration": "5:42"
   },
   {
-   "title": "It's All About Me (feat. Sisqo)",
-   "artist": "Mya",
+   "title": "It's All About Me (feat. Sisqó)",
+   "artist": "Mýa",
    "album": "Mya",
    "videoId": "2LZ_EQuSSXc",
    "duration": "4:25"
@@ -4941,7 +4941,7 @@
   },
   {
    "title": "Fallen",
-   "artist": "Mya",
+   "artist": "Mýa",
    "album": "Moodring",
    "videoId": "lcjtk5MdS6M",
    "duration": "3:35"
@@ -6250,7 +6250,7 @@
   },
   {
    "title": "Movin' On",
-   "artist": "Mya",
+   "artist": "Mýa",
    "album": "Mya",
    "videoId": "2yOtVlq8qGc",
    "duration": "4:31"
@@ -10715,10 +10715,10 @@
    "duration": "2:52"
   },
   {
-   "title": "Cut The Jazz",
+   "title": "Cut the Jazz",
    "artist": "De-Phazz",
-   "album": "Best Of De-Phazz: Beyond Lounge",
-   "videoId": "9Pq6ue3B-qE",
+   "album": "Detunized Gravity",
+   "videoId": "ZrkzZ3OEkyc",
    "duration": "5:13"
   },
   {
@@ -11717,7 +11717,7 @@
   },
   {
    "title": "Make Me Smile (Come up and See Me)",
-   "artist": "Steve Harley",
+   "artist": "Steve Harley & Cockney Rebel",
    "album": "Make Me Smile: The Best of Steve Harley & Cockney Rebel",
    "videoId": "qJ58EJ6dbdE",
    "duration": "3:57"
