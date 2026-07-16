@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 269,
- "totalTracks": 105223,
- "syncedAt": "2026-07-15T10:03:48.191102Z",
+ "totalTracks": 105224,
+ "syncedAt": "2026-07-16T10:09:43.794584Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1473
+  },
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
@@ -18,11 +23,6 @@
    "playlistId": "PLXiSFnCNRKa8",
    "title": "(Soulwax Remix) Faves",
    "trackCount": 19
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1472
   },
   {
    "playlistId": "PLZ_kZR08Pzmk",
