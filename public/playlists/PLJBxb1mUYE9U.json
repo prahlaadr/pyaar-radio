@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 14,
- "syncedAt": "2026-07-17T09:58:11.549745Z",
+ "trackCount": 16,
+ "syncedAt": "2026-07-18T09:26:22.274545Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -101,6 +101,20 @@
    "album": "2 LIVE!",
    "videoId": "uvCjbKheyyY",
    "duration": "2:52"
+  },
+  {
+   "title": "The Reason",
+   "artist": "Nick Hakim",
+   "album": "Endlessly Waiting / The Reason",
+   "videoId": "Vjc1Ycifqg8",
+   "duration": "6:58"
+  },
+  {
+   "title": "Endlessly Waiting",
+   "artist": "Nick Hakim",
+   "album": "Endlessly Waiting / The Reason",
+   "videoId": "VgFNay-9Q68",
+   "duration": "4:41"
   }
  ]
 }
