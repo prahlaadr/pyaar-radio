@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3529,
- "totalTracks": 45007,
- "syncedAt": "2026-07-18T09:26:19.305838Z",
+ "albumCount": 3530,
+ "totalTracks": 45012,
+ "syncedAt": "2026-07-19T09:52:49.933966Z",
  "albums": [
+  {
+   "browseId": "MPREb_yg8ZVJyjays",
+   "title": "Papicodone - EP",
+   "artist": "Father",
+   "trackCount": 5
+  },
   {
    "browseId": "MPREb_OA5VhetxmcF",
    "title": "Oh yeah?",
