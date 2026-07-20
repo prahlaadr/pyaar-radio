@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
  "title": "Four tet’s crate (goated)",
  "trackCount": 3339,
- "syncedAt": "2026-07-19T09:52:52.894867Z",
+ "syncedAt": "2026-07-20T10:53:11.318505Z",
  "tracks": [
   {
    "title": "A Thousand Miles",
@@ -978,10 +978,10 @@
    "duration": "3:22"
   },
   {
-   "title": "My Baby's Got It Out For Me (feat. Alias Error)",
-   "artist": "a.s.o.",
+   "title": "My Baby's Got It Out For Me",
+   "artist": "a.s.o.;Alias Error;Tornado Wallace",
    "album": "a.s.o.",
-   "videoId": "Q-HG2HY_LIk",
+   "videoId": "caWsTziylK0",
    "duration": "3:49"
   },
   {
@@ -1769,11 +1769,11 @@
    "duration": "2:12"
   },
   {
-   "title": "Go On (feat. Alias Error)",
+   "title": "Go On",
    "artist": "a.s.o.",
-   "album": "a.s.o.",
-   "videoId": "Jm8mtpwXvUg",
-   "duration": "2:55"
+   "album": "Go On",
+   "videoId": "IDE-QmCSboE",
+   "duration": "2:52"
   },
   {
    "title": "Dangerous (Mixed)",
