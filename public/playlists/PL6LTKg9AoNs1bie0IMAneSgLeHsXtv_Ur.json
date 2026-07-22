@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
  "title": "Timeboy LIKED SONGS  3",
  "trackCount": 2398,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "Love Is the Message (Live at Abbey Road Studios) (feat. Alfa Mist, Mansur Brown & Rocco Palladino)",
@@ -286,7 +286,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -692,7 +692,7 @@
   },
   {
    "title": "(flake)",
-   "artist": "Jameszoo;Metropole Orkest;Jules Buckley",
+   "artist": "Jules Buckley;Jameszoo;Metropole Orkest",
    "album": "Melkweg",
    "videoId": "9G5lseb2Z9M",
    "duration": "7:35"
@@ -6355,14 +6355,14 @@
   },
   {
    "title": "Richter: Dream 3 (in the midst of my life)",
-   "artist": "Ben Russell;Yuki Numata Resnick;Max Richter",
+   "artist": "Max Richter;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "i8WLNz1IkZw",
    "duration": "10:04"
   },
   {
    "title": "Path 5 (delta)",
-   "artist": "Grace Davidson;Max Richter",
+   "artist": "Max Richter;Grace Davidson",
    "album": "From Sleep",
    "videoId": "1Qd0jeVSes8",
    "duration": "11:15"
@@ -6376,28 +6376,28 @@
   },
   {
    "title": "Richter: Dream 13 (minus even)",
-   "artist": "Clarice Jensen;Ben Russell;Yuki Numata Resnick;Max Richter",
+   "artist": "Max Richter;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "UOUC73lj5qo",
    "duration": "8:53"
   },
   {
    "title": "Richter: Space 21 (petrichor)",
-   "artist": "Ben Russell;Yuki Numata Resnick;Caleb Burhans;Brian Snow",
+   "artist": "Brian Snow;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "rF8L-Zt07rI",
    "duration": "4:48"
   },
   {
    "title": "Richter: Path 19 (yet frailest)",
-   "artist": "Ben Russell;Max Richter",
+   "artist": "Max Richter;Ben Russell",
    "album": "From Sleep",
    "videoId": "nCNa7CMlz3M",
    "duration": "7:51"
   },
   {
    "title": "Dream 8 (late and soon)",
-   "artist": "Grace Davidson;Ben Russell;Yuki Numata Resnick;Caleb Burhans",
+   "artist": "Brian Snow;Max Richter;Clarice Jensen;Ben Russell",
    "album": "From Sleep",
    "videoId": "MSvJj6bKwUc",
    "duration": "11:54"
@@ -10127,7 +10127,7 @@
    "duration": "3:40"
   },
   {
-   "title": "Late night phone calls (feat. Laz)",
+   "title": "Late night phone calls (feat. LAZ)",
    "artist": "Shabazz Palaces",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "clJgzHIl9rw",
@@ -15385,63 +15385,63 @@
   },
   {
    "title": "Self Defense",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "wQTIjfGPnY0",
    "duration": "2:21"
   },
   {
    "title": "Fortune",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "Ry9R2iP-6KI",
    "duration": "3:25"
   },
   {
    "title": "Maiden Voyage",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "WDcWqOlxj1I",
    "duration": "2:37"
   },
   {
    "title": "2 Blunted",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "-hpfBxnjy_E",
    "duration": "1:48"
   },
   {
    "title": "Tapped in",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "TaTQC1xlGHs",
    "duration": "2:35"
   },
   {
    "title": "Strung",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "TfgQM4wEjPY",
    "duration": "2:21"
   },
   {
    "title": "Brokeup",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "bTP4J2VKZ44",
    "duration": "2:53"
   },
   {
    "title": "Meditation",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "uHwJexUqAj0",
    "duration": "4:12"
   },
   {
    "title": "Manners",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "i8tkBlyfaxQ",
    "duration": "4:42"
@@ -16694,7 +16694,7 @@
   },
   {
    "title": "Sun",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "XmmmxjJTd7s",
    "duration": "4:04"
@@ -16715,7 +16715,7 @@
   },
   {
    "title": "In Your",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "Ol_ICU9rHew",
    "duration": "10:24"

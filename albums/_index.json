@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3530,
- "totalTracks": 45012,
- "syncedAt": "2026-07-21T10:26:34.037615Z",
+ "totalTracks": 45007,
+ "syncedAt": "2026-07-22T10:26:10.802621Z",
  "albums": [
+  {
+   "browseId": "MPREb_xqxz87ZIhzx",
+   "title": "XXYYXX",
+   "artist": "Xxyyxx",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_yg8ZVJyjays",
    "title": "Papicodone - EP",
@@ -11551,7 +11557,7 @@
   {
    "browseId": "MPREb_DHJ6NBQ95w4",
    "title": "froge.mp3",
-   "artist": "piri & tommy",
+   "artist": "piri",
    "trackCount": 12
   },
   {
@@ -12435,12 +12441,6 @@
    "title": "Zoospa",
    "artist": "J-E-T-S",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_8OgHddrGcaI",
-   "title": "Made in Jaffna",
-   "artist": "SVDP",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_2UQsNFTvFWR",

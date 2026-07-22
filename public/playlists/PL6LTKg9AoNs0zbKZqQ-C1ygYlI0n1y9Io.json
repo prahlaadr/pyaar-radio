@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "Fly Me To The Moon (In Other Words)",
-   "artist": "Frank Sinatra;Count Basie",
+   "artist": "Count Basie;Frank Sinatra",
    "album": "Sinatra/Basie: The Complete Reprise Studio Recordings",
    "videoId": "e1KxnVua17I",
    "duration": "2:27"
@@ -2036,7 +2036,7 @@
   },
   {
    "title": "I Luv Your Girl",
-   "artist": "The-Dream",
+   "artist": "THE-DREAM",
    "album": "Love/Hate",
    "videoId": "G4zu73py4CE",
    "duration": "4:28"
@@ -2582,7 +2582,7 @@
   },
   {
    "title": "Shawty Is Da Shit (feat. Fabolous)",
-   "artist": "The-Dream",
+   "artist": "THE-DREAM",
    "album": "Love/Hate",
    "videoId": "LsR-PnBJgRs",
    "duration": "4:23"
@@ -3387,7 +3387,7 @@
   },
   {
    "title": "Falsetto",
-   "artist": "The-Dream",
+   "artist": "THE-DREAM",
    "album": "Love/Hate",
    "videoId": "ml9iWPINczA",
    "duration": "4:32"
@@ -3912,7 +3912,7 @@
   },
   {
    "title": "Bluebird",
-   "artist": "One Self;DJ Vadim;Yarah Bravo;Blu Rum 13",
+   "artist": "Yarah Bravo;One Self;BluRum13;DJ Vadim",
    "album": "Children of Possibility",
    "videoId": "x9FZox4YOT8",
    "duration": "3:41"
@@ -5487,7 +5487,7 @@
   },
   {
    "title": "Ev'rybody Wants to Be a Cat (From \"The Aristocats\" Soundtrack)",
-   "artist": "Scatman Crothers;Phil Harris;Thurl Ravenscroft;Liz English",
+   "artist": "Phil Harris;Scatman Crothers;Liz English;Thurl Ravenscroft",
    "album": "Disney's Greatest Vol. 3",
    "videoId": "Pn9xG9W5rto",
    "duration": "2:02"
@@ -5655,14 +5655,14 @@
   },
   {
    "title": "Who's Got The Bacon?",
-   "artist": "Howie B.",
+   "artist": "Howie B",
    "album": "Turn The Dark Off",
    "videoId": "kNdgvlm6zw0",
    "duration": "4:25"
   },
   {
-   "title": "Ryde Or Die, B**** (feat. Timbaland & Eve)",
-   "artist": "L.O.X.",
+   "title": "Ryde Or Die, B**** (feat. Eve & Timbaland)",
+   "artist": "Eve;Timbaland",
    "album": "We Are The Streets",
    "videoId": "MBJgegimHDs",
    "duration": "4:50"
@@ -6263,7 +6263,7 @@
    "duration": "4:13"
   },
   {
-   "title": "My Chick Bad Remix (feat. Diamond, Trina & Eve)",
+   "title": "My Chick Bad Remix (feat. Eve, Trina & Diamond)",
    "artist": "Ludacris",
    "album": "Battle Of The Sexes (Deluxe)",
    "videoId": "sjM6DjB4GmY",
@@ -9162,7 +9162,7 @@
   },
   {
    "title": "They Don't Want Music (Pete Rock Remix) (feat. James Brown)",
-   "artist": "The Black Eyed Peas",
+   "artist": "Black Eyed Peas",
    "album": "Renegotiations: The Remixes",
    "videoId": "nBMXReXuURA",
    "duration": "6:26"
@@ -11465,7 +11465,7 @@
   },
   {
    "title": "Ziarre",
-   "artist": "Lewlewal de Podor",
+   "artist": "Lewlewal De Podor",
    "album": "Yiilo Jaam",
    "videoId": "__xtPWJQpLc",
    "duration": "3:11"
@@ -13110,7 +13110,7 @@
   },
   {
    "title": "Loving Spirit",
-   "artist": "The Maytals",
+   "artist": "Toots & The Maytals",
    "album": "From the Roots",
    "videoId": "DnZeIxyb4dI",
    "duration": "3:05"
@@ -14293,7 +14293,7 @@
   },
   {
    "title": "A Little Piano",
-   "artist": "DJ Mitsu the Beats",
+   "artist": "DJ Mitsu The Beats",
    "album": "Beat Installments",
    "videoId": "pESrqdcbEfY",
    "duration": "2:29"
@@ -15014,7 +15014,7 @@
   },
   {
    "title": "Change",
-   "artist": "DJ Mitsu the Beats",
+   "artist": "DJ Mitsu The Beats",
    "album": "Beat Installments",
    "videoId": "FrSBgqG-TR4",
    "duration": "4:59"
@@ -16134,7 +16134,7 @@
   },
   {
    "title": "Samba Da Minha Terra (Live At Carnegie Hall/1964)",
-   "artist": "Stan Getz;João Gilberto",
+   "artist": "João Gilberto;Stan Getz",
    "album": "Getz/Gilberto #2",
    "videoId": "RBfncyp4BA0",
    "duration": "3:09"
@@ -16484,7 +16484,7 @@
   },
   {
    "title": "The Awakening",
-   "artist": "Ahmad Jamal Trio",
+   "artist": "Ahmad Jamal",
    "album": "The Awakening",
    "videoId": "L34b0ut8Loc",
    "duration": "6:22"

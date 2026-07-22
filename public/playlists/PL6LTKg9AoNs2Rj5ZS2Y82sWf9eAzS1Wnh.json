@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
  "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
- "trackCount": 1,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "trackCount": 2,
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "Sonho",
@@ -10,6 +10,13 @@
    "album": "SANGOZINHO",
    "videoId": "lXhmawYOQ0g",
    "duration": "3:13"
+  },
+  {
+   "title": "Cape Reinga",
+   "artist": "Alix Perez",
+   "album": "Cape Reinga",
+   "videoId": "vvbPvfQuvwk",
+   "duration": "5:50"
   }
  ]
 }

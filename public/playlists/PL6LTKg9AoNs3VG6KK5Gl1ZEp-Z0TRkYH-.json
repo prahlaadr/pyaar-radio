@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -3646,7 +3646,7 @@
   },
   {
    "title": "Stay (Petit Biscuit Remix)",
-   "artist": "Zedd;Alessia Cara;Petit Biscuit",
+   "artist": "Petit Biscuit;Zedd;Alessia Cara",
    "album": "Stay (Remixes)",
    "videoId": "8fpKAvyTD94",
    "duration": "4:02"
@@ -4304,7 +4304,7 @@
   },
   {
    "title": "Only (Kaskade x Lipless Remix)",
-   "artist": "RY X;Kaskade;Lipless",
+   "artist": "Lipless;RY X;Kaskade",
    "album": "Only (Kaskade x Lipless Remix)",
    "videoId": "WDMErDSiGU8",
    "duration": "4:13"
@@ -4605,7 +4605,7 @@
   },
   {
    "title": "Strangers (feat. Tove Lo)",
-   "artist": "Seven Lions;Shane 54",
+   "artist": "Shane 54;Seven Lions",
    "album": "Worlds Apart",
    "videoId": "oJskC1G29Vo",
    "duration": "3:25"
@@ -5277,7 +5277,7 @@
   },
   {
    "title": "Brokeup",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "bTP4J2VKZ44",
    "duration": "2:53"

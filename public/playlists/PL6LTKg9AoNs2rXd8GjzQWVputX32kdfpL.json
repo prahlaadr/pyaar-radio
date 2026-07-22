@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
  "title": "prahboy (goated)",
  "trackCount": 3067,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "HUMBLE.",
@@ -1714,7 +1714,7 @@
   },
   {
    "title": "Glass Chime",
-   "artist": "Inoyamaland",
+   "artist": "INOYAMALAND",
    "album": "Danzindan-Pojidon [New Master Edition]",
    "videoId": "COgrFSkHfq4",
    "duration": "3:27"
@@ -1784,7 +1784,7 @@
   },
   {
    "title": "San Franciscan Nights",
-   "artist": "Gábor Szabó;The California Dreamers",
+   "artist": "The California Dreamers;Gábor Szabó",
    "album": "Wind, Sky And Diamonds",
    "videoId": "oIoCR74EHJU",
    "duration": "3:24"
@@ -2869,7 +2869,7 @@
   },
   {
    "title": "Richter: Dream 3 (in the midst of my life)",
-   "artist": "Ben Russell;Yuki Numata Resnick;Max Richter",
+   "artist": "Max Richter;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "i8WLNz1IkZw",
    "duration": "10:04"
@@ -3625,7 +3625,7 @@
   },
   {
    "title": "Path 5 (delta)",
-   "artist": "Grace Davidson;Max Richter",
+   "artist": "Max Richter;Grace Davidson",
    "album": "From Sleep",
    "videoId": "1Qd0jeVSes8",
    "duration": "11:15"
@@ -3856,7 +3856,7 @@
   },
   {
    "title": "Richter: Dream 13 (minus even)",
-   "artist": "Clarice Jensen;Ben Russell;Yuki Numata Resnick;Max Richter",
+   "artist": "Max Richter;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "UOUC73lj5qo",
    "duration": "8:53"
@@ -4080,7 +4080,7 @@
   },
   {
    "title": "Richter: Path 19 (yet frailest)",
-   "artist": "Ben Russell;Max Richter",
+   "artist": "Max Richter;Ben Russell",
    "album": "From Sleep",
    "videoId": "nCNa7CMlz3M",
    "duration": "7:51"
@@ -5053,7 +5053,7 @@
   },
   {
    "title": "(flake)",
-   "artist": "Jameszoo;Metropole Orkest;Jules Buckley",
+   "artist": "Jules Buckley;Jameszoo;Metropole Orkest",
    "album": "Melkweg",
    "videoId": "9G5lseb2Z9M",
    "duration": "7:35"
@@ -5235,7 +5235,7 @@
   },
   {
    "title": "Fang Jai Viangjan",
-   "artist": "Thepporn Petchubon",
+   "artist": "เทพพร เพชรอุบล",
    "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "aBn3OOxs2Pk",
    "duration": "4:09"
@@ -5298,14 +5298,14 @@
   },
   {
    "title": "Richter: Space 21 (petrichor)",
-   "artist": "Ben Russell;Yuki Numata Resnick;Caleb Burhans;Brian Snow",
+   "artist": "Brian Snow;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
    "album": "From Sleep",
    "videoId": "rF8L-Zt07rI",
    "duration": "4:48"
   },
   {
    "title": "Dream 8 (late and soon)",
-   "artist": "Grace Davidson;Ben Russell;Yuki Numata Resnick;Caleb Burhans",
+   "artist": "Brian Snow;Max Richter;Clarice Jensen;Ben Russell",
    "album": "From Sleep",
    "videoId": "MSvJj6bKwUc",
    "duration": "11:54"
@@ -11521,7 +11521,7 @@
   },
   {
    "title": "Underground Root (Jamaican Mix)",
-   "artist": "Lee Perry;Full Experience",
+   "artist": "Full Experience;Lee \"Scratch\" Perry",
    "album": "Lee 'Scratch' Perry & The Upsetters: Super Ape & Return of the Super Ape",
    "videoId": "HoeHqYnU0gM",
    "duration": "2:55"
@@ -12116,7 +12116,7 @@
   },
   {
    "title": "Sun",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "XmmmxjJTd7s",
    "duration": "4:04"
@@ -12130,7 +12130,7 @@
   },
   {
    "title": "In Your",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "Ol_ICU9rHew",
    "duration": "10:24"
@@ -12277,7 +12277,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk;Mndsgn",
+   "artist": "Mndsgn;Lionmilk",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -19017,7 +19017,7 @@
    "duration": "3:40"
   },
   {
-   "title": "Late night phone calls (feat. Laz)",
+   "title": "Late night phone calls (feat. LAZ)",
    "artist": "Shabazz Palaces",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "clJgzHIl9rw",
@@ -21076,56 +21076,56 @@
   },
   {
    "title": "Self Defense",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "wQTIjfGPnY0",
    "duration": "2:21"
   },
   {
    "title": "Fortune",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "Ry9R2iP-6KI",
    "duration": "3:25"
   },
   {
    "title": "Maiden Voyage",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "WDcWqOlxj1I",
    "duration": "2:37"
   },
   {
    "title": "Tapped in",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "TaTQC1xlGHs",
    "duration": "2:35"
   },
   {
    "title": "Strung",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "TfgQM4wEjPY",
    "duration": "2:21"
   },
   {
    "title": "Brokeup",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "bTP4J2VKZ44",
    "duration": "2:53"
   },
   {
    "title": "Meditation",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "uHwJexUqAj0",
    "duration": "4:12"
   },
   {
    "title": "Manners",
-   "artist": "ARCA",
+   "artist": "Arca",
    "album": "Stretch 2",
    "videoId": "i8tkBlyfaxQ",
    "duration": "4:42"

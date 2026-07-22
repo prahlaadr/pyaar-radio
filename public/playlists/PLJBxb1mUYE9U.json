@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 16,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "trackCount": 20,
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -103,18 +103,46 @@
    "duration": "2:52"
   },
   {
-   "title": "The Reason",
-   "artist": "Nick Hakim",
-   "album": "Endlessly Waiting / The Reason",
-   "videoId": "Vjc1Ycifqg8",
-   "duration": "6:58"
-  },
-  {
    "title": "Endlessly Waiting",
    "artist": "Nick Hakim",
    "album": "Endlessly Waiting / The Reason",
    "videoId": "VgFNay-9Q68",
    "duration": "4:41"
+  },
+  {
+   "title": "Hail Mary",
+   "artist": "GLAIR",
+   "album": "Hail Mary",
+   "videoId": "cZnV_CGRRiA",
+   "duration": "1:15"
+  },
+  {
+   "title": "Joestar",
+   "artist": "Father",
+   "album": "Hu$band",
+   "videoId": "LPKweFAYBwM",
+   "duration": "2:14"
+  },
+  {
+   "title": "summer rain in july",
+   "artist": "Avara",
+   "album": "a softer place to land",
+   "videoId": "M9edK3anm4M",
+   "duration": "2:35"
+  },
+  {
+   "title": "LONDON FOG",
+   "artist": "Rahul",
+   "album": "DEPRESSED BUT MAKE IT COOL",
+   "videoId": "mvwi-3BhXeQ",
+   "duration": "4:52"
+  },
+  {
+   "title": "Gossip",
+   "artist": "Ivy Lab",
+   "album": "Point Five E.P",
+   "videoId": "pJ3F_YYO0Jg",
+   "duration": "2:57"
   }
  ]
 }

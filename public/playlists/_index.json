@@ -1,18 +1,33 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 270,
- "totalTracks": 105232,
- "syncedAt": "2026-07-21T10:26:36.601147Z",
+ "playlistCount": 272,
+ "totalTracks": 105259,
+ "syncedAt": "2026-07-22T10:26:13.973832Z",
  "playlists": [
+  {
+   "playlistId": "PLJBxb1mUYE9U",
+   "title": "July 26",
+   "trackCount": 20
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
+   "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
+   "trackCount": 2
+  },
+  {
+   "playlistId": "PLM2bpHtwl2mc",
+   "title": "pyaar radio [post so called dubstep]",
+   "trackCount": 20
+  },
+  {
+   "playlistId": "PLXPssb2s4taM",
+   "title": "pyaar radio",
+   "trackCount": 2
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
    "trackCount": 1477
-  },
-  {
-   "playlistId": "PLJBxb1mUYE9U",
-   "title": "July 26",
-   "trackCount": 16
   },
   {
    "playlistId": "PLYrtwY21U4ZA",
@@ -108,11 +123,6 @@
    "playlistId": "PL6LTKg9AoNs2QW_h4K50maBJWTWV9ea9e",
    "title": "dublaad",
    "trackCount": 6
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
-   "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
-   "trackCount": 1
   },
   {
    "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",
