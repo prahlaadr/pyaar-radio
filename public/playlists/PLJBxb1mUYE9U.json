@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 20,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "trackCount": 21,
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -143,6 +143,13 @@
    "album": "Point Five E.P",
    "videoId": "pJ3F_YYO0Jg",
    "duration": "2:57"
+  },
+  {
+   "title": "Asleep Talking",
+   "artist": "Magnus Ferrell",
+   "album": "Asleep Talking",
+   "videoId": "Wdsis7yiRGg",
+   "duration": "2:37"
   }
  ]
 }

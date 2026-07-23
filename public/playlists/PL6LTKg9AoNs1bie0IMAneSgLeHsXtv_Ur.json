@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
  "title": "Timeboy LIKED SONGS  3",
  "trackCount": 2398,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Love Is the Message (Live at Abbey Road Studios) (feat. Alfa Mist, Mansur Brown & Rocco Palladino)",
@@ -397,7 +397,7 @@
    "duration": "3:53"
   },
   {
-   "title": "Atoms Song (feat. Thomas Stankiewicz)",
+   "title": "Atoms Song",
    "artist": "Teebs",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
@@ -1118,7 +1118,7 @@
    "duration": "5:18"
   },
   {
-   "title": "Atoms Song (feat. Thomas Stankiewicz)",
+   "title": "Atoms Song",
    "artist": "Teebs",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
@@ -1167,14 +1167,14 @@
    "duration": "3:36"
   },
   {
-   "title": "Muted (feat. Thomas Stankiewicz)",
+   "title": "Muted",
    "artist": "Teebs",
    "album": "Anicca",
    "videoId": "7QhSpkMv3Po",
    "duration": "3:23"
   },
   {
-   "title": "Atoms Song (Capsule) (feat. Thomas Stankiewicz)",
+   "title": "Atoms Song (Capsule)",
    "artist": "Teebs",
    "album": "Anicca",
    "videoId": "-Ma4nYEqpi4",
@@ -1314,7 +1314,7 @@
    "duration": "3:04"
   },
   {
-   "title": "Vision Quest (feat. Mono/Poly)",
+   "title": "Vision Quest",
    "artist": "Mono/Poly",
    "album": "MONOTOMIC",
    "videoId": "n0gxr4OYwK4",
@@ -1378,7 +1378,7 @@
   },
   {
    "title": "Epiphany",
-   "artist": "Ross from Friends",
+   "artist": "Ross From Friends",
    "album": "Epiphany",
    "videoId": "0YtNJoHr2Xo",
    "duration": "5:25"
@@ -1875,14 +1875,14 @@
   },
   {
    "title": "Reach Out I'll Be There",
-   "artist": "Four Tops",
+   "artist": "The Four Tops ",
    "album": "20th Century Masters: The Millennium Collection: Best Of The Four Tops",
    "videoId": "JoylmpPkEB0",
    "duration": "3:03"
   },
   {
    "title": "Bernadette",
-   "artist": "Four Tops",
+   "artist": "The Four Tops ",
    "album": "20th Century Masters: The Millennium Collection: Best Of The Four Tops",
    "videoId": "Y9l4MGwpQS0",
    "duration": "3:06"
@@ -3226,28 +3226,28 @@
   },
   {
    "title": "Yek 128-12",
-   "artist": "Burnt Friedman;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
    "album": "Yek",
    "videoId": "r_vtjFQ_YN4",
    "duration": "4:51"
   },
   {
    "title": "Yek 64-11",
-   "artist": "Burnt Friedman;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
    "album": "Yek",
    "videoId": "gJjSngik7CE",
    "duration": "3:15"
   },
   {
    "title": "Yek 132-11",
-   "artist": "Burnt Friedman;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
    "album": "Yek",
    "videoId": "e6xaWYJM8qo",
    "duration": "4:37"
   },
   {
    "title": "Yek 122-12",
-   "artist": "Burnt Friedman;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
    "album": "Yek",
    "videoId": "daPT1nVknOA",
    "duration": "4:41"
@@ -5249,7 +5249,7 @@
   },
   {
    "title": "Purple T Shirts",
-   "artist": "Mndsgn;Rejoicer",
+   "artist": "Rejoicer;Mndsgn",
    "album": "Energy Dreams",
    "videoId": "LYWvw5HoAr4",
    "duration": "3:18"
@@ -6984,7 +6984,7 @@
    "duration": "4:36"
   },
   {
-   "title": "Challenge Me Foolish (feat. Kazumi)",
+   "title": "Challenge Me Foolish (feat. kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "dWboK1Csl5M",
@@ -7012,7 +7012,7 @@
    "duration": "4:15"
   },
   {
-   "title": "Durian (feat. Kazumi)",
+   "title": "Durian (feat. kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "ApWO9euDgMw",
@@ -7026,7 +7026,7 @@
    "duration": "2:48"
   },
   {
-   "title": "Lexicon (feat. Kazumi)",
+   "title": "Lexicon (feat. kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "tqpvYR85eTU",
@@ -7047,7 +7047,7 @@
    "duration": "4:53"
   },
   {
-   "title": "Sad Inlay (feat. Kazumi)",
+   "title": "Sad Inlay (feat. kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "-2tfhuIXNeY",
@@ -7061,7 +7061,7 @@
    "duration": "4:40"
   },
   {
-   "title": "DoDaDu (feat. Kazumi)",
+   "title": "DoDaDu (feat. kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "h7xeZJyQSF4",
@@ -10022,7 +10022,7 @@
    "duration": "2:46"
   },
   {
-   "title": "Parallax (feat. The Palaceer Lazaro)",
+   "title": "Parallax (feat. Palaceer Lazaro)",
    "artist": "Shabazz Palaces",
    "album": "Quazarz: Born on a Gangster Star",
    "videoId": "KqUtp0E--H4",
@@ -10051,7 +10051,7 @@
   },
   {
    "title": "Moon Whip Quäz",
-   "artist": "Shabazz Palaces;Darrius",
+   "artist": "Darrius;Shabazz Palaces",
    "album": "Quazarz: Born on a Gangster Star",
    "videoId": "kZZAMH3qra8",
    "duration": "5:15"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Smile",
-   "artist": "Rhythm & Sound & Savage",
+   "artist": "Release - Topic",
    "album": "Rhythm & Sound",
    "videoId": "ePa9gJ9YQR0",
    "duration": "9:13"
@@ -12123,7 +12123,7 @@
   },
   {
    "title": "Roll Off",
-   "artist": "Rhythm & Sound",
+   "artist": "Release - Topic",
    "album": "Rhythm & Sound",
    "videoId": "W23f2-2EPLo",
    "duration": "9:35"
@@ -14706,7 +14706,7 @@
   },
   {
    "title": "Desire (feat. Wolfert Brederode, Joost Lijbaart, Gulli Gudmundsson & Yuri Honing)",
-   "artist": "Yuri Honing",
+   "artist": "Wolfert Brederode;Joost Lijbaart;Gulli Gudmundsson;Yuri Honing",
    "album": "Desire",
    "videoId": "9YDLLoh_XVM",
    "duration": "4:45"
@@ -15965,7 +15965,7 @@
    "duration": "10:20"
   },
   {
-   "title": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+   "title": "Institutionalized (feat. Anna Wise, Bilal & Snoop Dogg)",
    "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "7L1POXocFIQ",
@@ -15979,7 +15979,7 @@
    "duration": "4:29"
   },
   {
-   "title": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
+   "title": "These Walls (feat. Thundercat & Anna Wise)",
    "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "AHNK4k3Cr24",
@@ -16337,7 +16337,7 @@
   },
   {
    "title": "Phantom Ratio",
-   "artist": "Ross from Friends",
+   "artist": "Ross From Friends",
    "album": "Epiphany",
    "videoId": "cHsaiUJeTB8",
    "duration": "6:16"
@@ -16596,7 +16596,7 @@
   },
   {
    "title": "Breathe",
-   "artist": "Alfa Mist;Kaya Thomas-Dyke",
+   "artist": "Kaya Thomas-Dyke;Alfa Mist",
    "album": "Antiphon",
    "videoId": "5-hQsfSoxmI",
    "duration": "7:27"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0msIqeLmVoZ-zJOI22Ltex",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1168,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -314,7 +314,7 @@
   },
   {
    "title": "Candy Rain",
-   "artist": "Soul For Real",
+   "artist": "Soul for Real",
    "album": "Candy Rain",
    "videoId": "j0rT2vq9g80",
    "duration": "4:37"
@@ -502,7 +502,7 @@
    "duration": "3:27"
   },
   {
-   "title": "Next Levels (feat. John Robinson, Stahhr, Stacy Epps & Invizible Handz)",
+   "title": "Next Levels (feat. Stacy Epps, Invizible Handz, Stahhr & John Robinson)",
    "artist": "King Geedorah",
    "album": "Take Me To Your Leader",
    "videoId": "vvtfSYmjFXc",
@@ -741,7 +741,7 @@
   },
   {
    "title": "Petit pays",
-   "artist": "Cesária Evora",
+   "artist": "Cesaria Evora",
    "album": "Cesaria",
    "videoId": "LK8hUsxPUMU",
    "duration": "3:45"
@@ -1000,7 +1000,7 @@
   },
   {
    "title": "Arrow Through Me (Remastered 1993)",
-   "artist": "Paul McCartney & Wings",
+   "artist": "Paul McCartney",
    "album": "Back To The Egg",
    "videoId": "_zcYw3f2k44",
    "duration": "3:37"
@@ -2561,7 +2561,7 @@
   },
   {
    "title": "Wise One",
-   "artist": "John Coltrane Quartet",
+   "artist": "John Coltrane",
    "album": "Crescent",
    "videoId": "yagO50i6O5E",
    "duration": "9:04"
@@ -2785,7 +2785,7 @@
   },
   {
    "title": "Sometimes",
-   "artist": "Release - Topic",
+   "artist": "Bilal",
    "album": "1st Born Second",
    "videoId": "QCSZHTyV3Sw",
    "duration": "7:11"
@@ -3653,7 +3653,7 @@
   },
   {
    "title": "Canto de Yemanjá",
-   "artist": "Baden Powell;Quarteto em Cy",
+   "artist": "Quarteto em Cy;Baden Powell",
    "album": "Os Afro-Sambas",
    "videoId": "RxIkg-GFpKE",
    "duration": "6:04"
@@ -3863,7 +3863,7 @@
   },
   {
    "title": "Fever",
-   "artist": "James Brown & The Famous Flames",
+   "artist": "James Brown",
    "album": "Cold Sweat",
    "videoId": "W_9iq6vb24E",
    "duration": "3:04"
@@ -3919,7 +3919,7 @@
   },
   {
    "title": "Eujoaideen",
-   "artist": "Scorpios",
+   "artist": "The Scorpios",
    "album": "The Scorpios",
    "videoId": "psoNG0DZQ64",
    "duration": "4:40"
@@ -4108,7 +4108,7 @@
   },
   {
    "title": "Moi je suis découragé",
-   "artist": "Balla Et Ses Balladins",
+   "artist": "Balla et ses Balladins",
    "album": "Discothèque 70",
    "videoId": "7WVLncYwb-o",
    "duration": "5:44"
@@ -4172,8 +4172,8 @@
   {
    "title": "Apo Mesa Pethamenos",
    "artist": "Danai",
-   "album": "Danai - Olokliromenes Ichografiseis 1957-1977",
-   "videoId": "IRSyQnrYopg",
+   "album": "Danai  Olokliromenes Ichografiseis 1957-1977",
+   "videoId": "4WyXqYhqqm0",
    "duration": "3:07"
   },
   {
@@ -4220,7 +4220,7 @@
   },
   {
    "title": "Samba De Orfeo",
-   "artist": "Luiz Bonfá",
+   "artist": "Luiz Bonfá  ",
    "album": "Black Orpheus (Original Motion Picture Soundtrack)",
    "videoId": "JZnYgdDI2WY",
    "duration": "1:59"
@@ -5186,14 +5186,14 @@
   },
   {
    "title": "Talassa",
-   "artist": "Kélétigui et ses Tambourinis",
+   "artist": "Keletigui Et Ses Tambourinis",
    "album": "Kélétigui et ses Tambourinis",
    "videoId": "LSb4_M1NN9U",
    "duration": "4:53"
   },
   {
    "title": "Africa Centre of the World",
-   "artist": "Fela Kuti;Roy Ayers",
+   "artist": "Roy Ayers;Fela Kuti",
    "album": "Music of Many Colours",
    "videoId": "mO_fr6oxEtQ",
    "duration": "17:32"
@@ -5235,7 +5235,7 @@
   },
   {
    "title": "Scène de la Macumba",
-   "artist": "Various Artists",
+   "artist": "Release - Topic",
    "album": "Orfeu Negro",
    "videoId": "t0d3V_yKAu8",
    "duration": "13:01"
@@ -5291,7 +5291,7 @@
   },
   {
    "title": "Army of Me",
-   "artist": "Bjork",
+   "artist": "Björk",
    "album": "Post",
    "videoId": "VaLfiKq_Kvw",
    "duration": "3:55"
@@ -5347,7 +5347,7 @@
   },
   {
    "title": "Radio Mali Broadcast (Tape 1)",
-   "artist": "Les Ambassadeurs du Motel de Bamako",
+   "artist": "Les Ambassadeurs",
    "album": "Les ambassadeurs du motel de Bamako, Vol. 2",
    "videoId": "4hjEes8cveE",
    "duration": "2:47"
@@ -5494,7 +5494,7 @@
   },
   {
    "title": "Construção",
-   "artist": "Chico Buarque",
+   "artist": " Chico Buarque",
    "album": "Construção",
    "videoId": "wBfVsucRe1w",
    "duration": "6:24"
@@ -5690,7 +5690,7 @@
   },
   {
    "title": "Cello Concerto, Op. 91, \"Centaurus Unit\": I. Moderato",
-   "artist": "Sachio Fujioka;BBC Philharmonic Orchestra;Peter Dixon",
+   "artist": "Sachio Fujioka;BBC Philharmonic Orchestra;Peter Dixon;Takashi Yoshimatsu",
    "album": "Yoshimatsu: The Age of Birds, Cello Concerto & Chikap",
    "videoId": "MSGldvd51UM",
    "duration": "15:08"
@@ -5774,7 +5774,7 @@
   },
   {
    "title": "Mouths Cradle",
-   "artist": "Bjork",
+   "artist": "Björk",
    "album": "Medulla",
    "videoId": "deR7EuZySvQ",
    "duration": "4:00"
@@ -5879,7 +5879,7 @@
   },
   {
    "title": "Mas, Que Nada!",
-   "artist": "Jorge Ben",
+   "artist": "Jorge Ben Jor",
    "album": "Samba Esquema Novo",
    "videoId": "hg0XftC43Zo",
    "duration": "3:00"
@@ -6228,7 +6228,7 @@
    "duration": "5:54"
   },
   {
-   "title": "Street Talkin' (feat. OutKast)",
+   "title": "Street Talkin' (feat. Outkast)",
    "artist": "Slick Rick",
    "album": "The Art Of Storytelling",
    "videoId": "czRr7oIqwfA",
@@ -6320,7 +6320,7 @@
   },
   {
    "title": "Rosa, Menina Rosa",
-   "artist": "Jorge Ben",
+   "artist": "Jorge Ben Jor",
    "album": "Samba Esquema Novo",
    "videoId": "Z6nJMAG8NoQ",
    "duration": "2:14"
@@ -6530,7 +6530,7 @@
   },
   {
    "title": "Ruby",
-   "artist": "Ali Farka Touré;Toumani Diabaté",
+   "artist": "Toumani Diabaté;Ali Farka Touré",
    "album": "Ali & Toumani",
    "videoId": "1GEjsxkyNG0",
    "duration": "5:56"
@@ -6670,7 +6670,7 @@
   },
   {
    "title": "Ram On",
-   "artist": "Paul McCartney;Linda McCartney",
+   "artist": "Linda McCartney;Paul McCartney",
    "album": "RAM",
    "videoId": "Q3wlxujmD3A",
    "duration": "2:30"
@@ -6859,7 +6859,7 @@
   },
   {
    "title": "Sitra",
-   "artist": "DARKSIDE",
+   "artist": "Darkside",
    "album": "Psychic",
    "videoId": "gyLykTtbxgc",
    "duration": "1:23"
@@ -7454,7 +7454,7 @@
   },
   {
    "title": "Mirrors",
-   "artist": "Dâm-Funk",
+   "artist": "Dam-Funk",
    "album": "Toeachizown",
    "videoId": "miVDEXlY7DQ",
    "duration": "3:20"
@@ -7545,7 +7545,7 @@
   },
   {
    "title": "Hail Mary",
-   "artist": "2Pac",
+   "artist": "Makaveli",
    "album": "The Don Killuminati: The 7 Day Theory",
    "videoId": "x9bPGZIBt7Y",
    "duration": "5:10"
@@ -7909,7 +7909,7 @@
   },
   {
    "title": "Oceania",
-   "artist": "Bjork",
+   "artist": "Björk",
    "album": "Medulla",
    "videoId": "XKAUjPO9vAc",
    "duration": "3:23"

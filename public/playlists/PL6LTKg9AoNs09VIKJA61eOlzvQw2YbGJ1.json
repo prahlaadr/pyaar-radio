@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "magic",
@@ -1266,7 +1266,7 @@
   },
   {
    "title": "Call on Me Feat. Chara (Knxwledge Remix) (feat. Chara)",
-   "artist": "Mabanua",
+   "artist": "mabanua",
    "album": "Call on Me Feat. Chara (Knxwledge Remix)",
    "videoId": "bRzMc3KBpuM",
    "duration": "2:30"
@@ -1727,7 +1727,7 @@
    "duration": "7:37"
   },
   {
-   "title": "Flyin' Bamboo (feat. MNDSGN)",
+   "title": "Flyin' Bamboo (feat. Mndsgn)",
    "artist": "Nitai Hershkovits",
    "album": "Puzzles, Vol. 3",
    "videoId": "UJFsujreGt8",
@@ -1791,7 +1791,7 @@
   },
   {
    "title": "Expensive Shit",
-   "artist": "Fela Kuti;Africa 70",
+   "artist": "Africa 70;Fela Kuti",
    "album": "Expensive Shit (Edit)",
    "videoId": "sjbNSVgD9wY",
    "duration": "13:14"
@@ -2092,7 +2092,7 @@
   },
   {
    "title": "Movement 6",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Pharoah Sanders;Floating Points;London Symphony Orchestra",
    "album": "Promises",
    "videoId": "Sp251kcTARY",
    "duration": "8:51"

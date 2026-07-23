@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3530,
- "totalTracks": 45007,
- "syncedAt": "2026-07-22T10:26:10.802621Z",
+ "albumCount": 3528,
+ "totalTracks": 44973,
+ "syncedAt": "2026-07-23T10:23:22.928932Z",
  "albums": [
   {
    "browseId": "MPREb_xqxz87ZIhzx",
@@ -5425,7 +5425,7 @@
   {
    "browseId": "MPREb_jCYABR4q0Nq",
    "title": "Huncho Jack, Jack Huncho",
-   "artist": "Quavo",
+   "artist": "HUNCHO JACK",
    "trackCount": 13
   },
   {
@@ -6541,7 +6541,7 @@
   {
    "browseId": "MPREb_CKqTUA9lx1U",
    "title": "The Don Killuminati: The 7 Day Theory",
-   "artist": "2Pac",
+   "artist": "Makaveli",
    "trackCount": 12
   },
   {
@@ -10299,12 +10299,6 @@
    "title": "Slow Morning & Sore Throat",
    "artist": "parth tunes",
    "trackCount": 2
-  },
-  {
-   "browseId": "MPREb_YIKIzofV613",
-   "title": "Suburb Superhero: The Villain Within",
-   "artist": "Jarreau Vandal",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_abPsKl8nAFP",
@@ -18363,12 +18357,6 @@
    "title": "Diary of an Afro Warrior (Expanded Edition)",
    "artist": "Benga",
    "trackCount": 19
-  },
-  {
-   "browseId": "MPREb_KLhILDE94tP",
-   "title": "Letting Go of Forever",
-   "artist": "SHOLTO",
-   "trackCount": 26
   },
   {
    "browseId": "MPREb_XoUPmCbotET",

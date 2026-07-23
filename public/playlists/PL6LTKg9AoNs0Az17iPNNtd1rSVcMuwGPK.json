@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0Az17iPNNtd1rSVcMuwGPK",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -370,7 +370,7 @@
   },
   {
    "title": "The Big Bang",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Eyes Down",
    "videoId": "tl2mbmC63W8",
    "duration": "6:06"
@@ -524,7 +524,7 @@
   },
   {
    "title": "You're My (feat. Phephe)",
-   "artist": "Von D & Mr Lager",
+   "artist": "Von D & Mr. Lager",
    "album": "Daydreaming",
    "videoId": "4wbKh-gngOA",
    "duration": "5:46"
@@ -776,7 +776,7 @@
   },
   {
    "title": "Struggle",
-   "artist": "Leo James;J Appiah",
+   "artist": "J.Appiah;Leo James",
    "album": "Struggle",
    "videoId": "kkxcgFA1hak",
    "duration": "6:25"
@@ -1014,7 +1014,7 @@
   },
   {
    "title": "Icebörg (SubMarine Remix)",
-   "artist": "Stizzla;Eater",
+   "artist": "Stizzla, Eater;Eater",
    "album": "Schlachthaus",
    "videoId": "iOybAZ9wfaY",
    "duration": "5:02"
@@ -1385,7 +1385,7 @@
   },
   {
    "title": "No Escape",
-   "artist": "Ghast",
+   "artist": "Ghäst",
    "album": "ENC022",
    "videoId": "gg_zsCyfc6c",
    "duration": "4:18"
@@ -1637,7 +1637,7 @@
   },
   {
    "title": "A Result of Sound",
-   "artist": "Distance",
+   "artist": "Greg",
    "album": "A Result of Sound / Deserted",
    "videoId": "xp1E_md1UIs",
    "duration": "5:07"
@@ -1847,7 +1847,7 @@
   },
   {
    "title": "Sigil",
-   "artist": "Sibla;Zygos",
+   "artist": "Zygos;Sibla",
    "album": "The Path",
    "videoId": "pJwjOEXyk60",
    "duration": "5:33"
@@ -1987,7 +1987,7 @@
   },
   {
    "title": "So Familia",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "ohpO6e06u_g",
    "duration": "2:58"
@@ -2141,7 +2141,7 @@
   },
   {
    "title": "Crystal Collect",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "jxlP6aWZxE4",
    "duration": "4:59"
@@ -2575,7 +2575,7 @@
   },
   {
    "title": "Lesson",
-   "artist": "LAS",
+   "artist": "Las",
    "album": "Your Eyes EP",
    "videoId": "-q9nz-4j8_M",
    "duration": "4:24"
@@ -2834,7 +2834,7 @@
   },
   {
    "title": "Niagra",
-   "artist": "Biome",
+   "artist": "Release - Topic",
    "album": "View From The Edge",
    "videoId": "jK_nnHund6Y",
    "duration": "5:10"
@@ -3114,7 +3114,7 @@
   },
   {
    "title": "Lost & Found",
-   "artist": "Leo James;J Appiah",
+   "artist": "J.Appiah;Leo James",
    "album": "Struggle",
    "videoId": "TfUz_7NXqig",
    "duration": "5:35"
@@ -4150,7 +4150,7 @@
   },
   {
    "title": "Soundman",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Soundman / Diablo",
    "videoId": "l67XmvCd2Dc",
    "duration": "6:02"
@@ -4339,7 +4339,7 @@
   },
   {
    "title": "Your Eyes",
-   "artist": "LAS",
+   "artist": "Las",
    "album": "Your Eyes EP",
    "videoId": "pS8yQrwemAM",
    "duration": "4:38"
@@ -4402,7 +4402,7 @@
   },
   {
    "title": "Aspect",
-   "artist": "LAS",
+   "artist": "Las",
    "album": "Your Eyes EP",
    "videoId": "owW9ph0ISNQ",
    "duration": "4:56"
@@ -4808,7 +4808,7 @@
   },
   {
    "title": "Kairophobia (Dayzero Remix)",
-   "artist": "Stizzla;Eater",
+   "artist": "Eater;Stizzla, Eater",
    "album": "Schlachthaus",
    "videoId": "CIhx5GxiLqM",
    "duration": "4:42"
@@ -5032,7 +5032,7 @@
   },
   {
    "title": "Bitchcraft",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "pyVUgWBTxBM",
    "duration": "4:09"
@@ -5529,7 +5529,7 @@
   },
   {
    "title": "Human Pattern",
-   "artist": "Mønic",
+   "artist": "Monic",
    "album": "Human Pattern",
    "videoId": "7xgBRPukwCw",
    "duration": "4:55"
@@ -5725,7 +5725,7 @@
   },
   {
    "title": "Spooky Action at A Distance",
-   "artist": "Release - Topic",
+   "artist": "Gantz",
    "album": "Elmo Rehab / Spooky Action at A Distance",
    "videoId": "NC6aQLrJPew",
    "duration": "5:12"
@@ -6719,7 +6719,7 @@
   },
   {
    "title": "Diablo",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Soundman / Diablo",
    "videoId": "C-t-cMBf7Cc",
    "duration": "6:01"
@@ -7131,7 +7131,7 @@
    "duration": "3:38"
   },
   {
-   "title": "In The Sky (feat. Jehst & Stig of the Dump)",
+   "title": "In The Sky (feat. Jehst & Stig Of The Dump)",
    "artist": "Author",
    "album": "Forward Forever",
    "videoId": "MSlgWcqW54U",
@@ -7216,7 +7216,7 @@
   },
   {
    "title": "Unmistakable",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "I27TTEMc4Io",
    "duration": "3:32"
@@ -7531,7 +7531,7 @@
   },
   {
    "title": "Can't Stay (feat. Simetra)",
-   "artist": "Feonix;Deafblind",
+   "artist": "Deafblind;Feonix",
    "album": "Feonix",
    "videoId": "1S5_BkuJr2o",
    "duration": "4:36"
@@ -7727,7 +7727,7 @@
   },
   {
    "title": "Rituals",
-   "artist": "Release - Topic",
+   "artist": "Mershak",
    "album": "ENC012",
    "videoId": "PLU2r7I3QEU",
    "duration": "5:17"
@@ -7944,7 +7944,7 @@
   },
   {
    "title": "Searching",
-   "artist": "Distance",
+   "artist": "Greg",
    "album": "Blue Meanie / Searching",
    "videoId": "VRBKBijGNK8",
    "duration": "5:09"
@@ -8448,7 +8448,7 @@
   },
   {
    "title": "Artesh",
-   "artist": "Ghast;Issa",
+   "artist": "Ghast;I$$A",
    "album": "ENC022",
    "videoId": "wq64DUKvyTQ",
    "duration": "3:13"
@@ -8896,7 +8896,7 @@
   },
   {
    "title": "Dread Come Again",
-   "artist": "Digid & Dubbing Sun",
+   "artist": "Dubbing Sun;Digid",
    "album": "Rainbow Dub",
    "videoId": "VD7b3-NMd8U",
    "duration": "4:17"
@@ -9379,7 +9379,7 @@
   },
   {
    "title": "Taken For A Ride",
-   "artist": "Cardopusher",
+   "artist": "Safety Trance",
    "album": "Schematic Blocks",
    "videoId": "Jp_RiS4_Frw",
    "duration": "5:08"
@@ -10807,7 +10807,7 @@
   },
   {
    "title": "Schlachthaus (feat. Vanta Black)",
-   "artist": "Stizzla;Eater;Nøsq",
+   "artist": "Nøsq;Eater;Stizzla, Eater",
    "album": "Schlachthaus",
    "videoId": "0twdl8u8ZCA",
    "duration": "4:21"
@@ -10940,14 +10940,14 @@
   },
   {
    "title": "Can You Dub",
-   "artist": "Distance",
+   "artist": "Greg",
    "album": "Long Live The Groove",
    "videoId": "Q5lL-mAruJc",
    "duration": "5:00"
   },
   {
    "title": "New Epoch",
-   "artist": "Goth-Trad",
+   "artist": "GOTH-TRAD",
    "album": "New Epoch",
    "videoId": "7Bpjc7_-FJw",
    "duration": "6:14"
@@ -11339,7 +11339,7 @@
   },
   {
    "title": "Half the Battle",
-   "artist": "Om Unit;Distance",
+   "artist": "Om Unit",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "amPuopcoAAU",
    "duration": "3:32"
@@ -11409,7 +11409,7 @@
   },
   {
    "title": "Kibosh",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "L3p1hMHiqY8",
    "duration": "3:37"
@@ -11905,7 +11905,7 @@
    "duration": "3:14"
   },
   {
-   "title": "Lust (feat. Riya & Total Science)",
+   "title": "Lust (feat. riya & Total Science)",
    "artist": "Kaiju",
    "album": "Seven Sins",
    "videoId": "F2gsbBrfB14",
@@ -12200,7 +12200,7 @@
   },
   {
    "title": "Central",
-   "artist": "Feonix & Na Kika",
+   "artist": "Na Kika & Feonix",
    "album": "Feonix",
    "videoId": "j4rOzgN0vsE",
    "duration": "5:09"
@@ -12347,7 +12347,7 @@
   },
   {
    "title": "Bum Rush Dub",
-   "artist": "Shlump",
+   "artist": "Shlump and Holly",
    "album": "System Crash EP",
    "videoId": "mDPQMD5vRGw",
    "duration": "2:50"
@@ -12522,7 +12522,7 @@
   },
   {
    "title": "Remembrance",
-   "artist": "Biome",
+   "artist": "Release - Topic",
    "album": "View From The Edge",
    "videoId": "nEqO6NYL1-Y",
    "duration": "5:36"
@@ -12844,7 +12844,7 @@
   },
   {
    "title": "Undastand",
-   "artist": "Moresounds;DJ Madd",
+   "artist": "DJ Madd;Moresounds",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "tac1MkqTwvU",
    "duration": "8:10"
@@ -13299,7 +13299,7 @@
   },
   {
    "title": "Spread Love",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Eyes Down",
    "videoId": "y-59UN5cWD0",
    "duration": "6:31"
@@ -13432,7 +13432,7 @@
   },
   {
    "title": "Eyes Down",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Eyes Down",
    "videoId": "nIKoFga761w",
    "duration": "6:03"
@@ -13530,7 +13530,7 @@
   },
   {
    "title": "Rising",
-   "artist": "Gantz & El Mahdy Jr.",
+   "artist": "Gantz;El Mahdy Jr.",
    "album": "Sinister Rising",
    "videoId": "lJN688xV4TA",
    "duration": "6:18"
@@ -13628,7 +13628,7 @@
   },
   {
    "title": "Sirens",
-   "artist": "V.I.V.E.K",
+   "artist": "Vivek",
    "album": "Eyes Down",
    "videoId": "uZFx7_D7vV0",
    "duration": "5:46"
@@ -13747,7 +13747,7 @@
   },
   {
    "title": "AMK",
-   "artist": "Commodo;Gantz;Kahn",
+   "artist": "Gantz;Commodo;Kahn",
    "album": "Volume One",
    "videoId": "b9wf1qc29gs",
    "duration": "4:52"
@@ -14363,7 +14363,7 @@
   },
   {
    "title": "Changes",
-   "artist": "Mala",
+   "artist": "MALA",
    "album": "Forgive / Changes",
    "videoId": "DfCAE4ZrjhY",
    "duration": "6:51"

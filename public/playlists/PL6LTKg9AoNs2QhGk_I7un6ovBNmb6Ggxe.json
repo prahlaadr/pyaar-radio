@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -258,7 +258,7 @@
   },
   {
    "title": "Fairytale",
-   "artist": "Harry Gregson-Williams;John Powell",
+   "artist": "John Powell;Harry Gregson-Williams",
    "album": "Shrek (Original Motion Picture Score)",
    "videoId": "tbBAZ50bWJg",
    "duration": "1:27"
@@ -3247,7 +3247,7 @@
   },
   {
    "title": "A Dream Is a Wish Your Heart Makes (From \"Cinderella\"/Soundtrack Version)",
-   "artist": "Ilene Woods;Cinderella's Mice Chorus",
+   "artist": "Ilene Woods;Disney - Cinderella",
    "album": "Julie Andrews Selects Her Favorite Disney Songs",
    "videoId": "va8NteiQ6Qw",
    "duration": "4:37"
@@ -3618,7 +3618,7 @@
   },
   {
    "title": "Motivo di giorgia",
-   "artist": "Fred Bongusto;Gianfranco Plenizio",
+   "artist": "Gianfranco Plenizio;Fred Bongusto",
    "album": "Gli Ordini Sono Ordini",
    "videoId": "Y_D0mie5IvU",
    "duration": "1:21"
@@ -6642,7 +6642,7 @@
   },
   {
    "title": "Bunsen Burner",
-   "artist": "CUTS",
+   "artist": "cuts",
    "album": "Ex Machina (Original Motion Picture Soundtrack)",
    "videoId": "4OmwjCX08l8",
    "duration": "4:03"
@@ -6831,7 +6831,7 @@
   },
   {
    "title": "Final Titles",
-   "artist": "Andrey Dergatchev",
+   "artist": "Andrey Dergachev",
    "album": "The Return - Film by Andrey Zvyagintsev",
    "videoId": "eJ83ef5CZJc",
    "duration": "5:03"
@@ -7209,7 +7209,7 @@
   },
   {
    "title": "Ava",
-   "artist": "Ben Salisbury;Geoff Barrow",
+   "artist": "Geoff Barrow;Ben Salisbury",
    "album": "Ex Machina (Original Motion Picture Soundtrack)",
    "videoId": "KCIyl3BIj1s",
    "duration": "2:23"
@@ -10212,7 +10212,7 @@
   },
   {
    "title": "Huit",
-   "artist": "Sky H1",
+   "artist": "SKY H1",
    "album": "Mono No Aware",
    "videoId": "TlV0c2eN2w8",
    "duration": "3:51"

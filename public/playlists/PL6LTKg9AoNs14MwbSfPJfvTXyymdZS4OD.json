@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs14MwbSfPJfvTXyymdZS4OD",
  "title": "Jan 24",
  "trackCount": 113,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "Marudaani",
@@ -47,7 +47,7 @@
    "duration": "4:15"
   },
   {
-   "title": "We Major (feat. Kanye West & Really Doe)",
+   "title": "We Major (feat. Really Doe)",
    "artist": "Kanye West",
    "album": "Late Registration",
    "videoId": "_fr4SV4fGAw",
@@ -699,7 +699,7 @@
   },
   {
    "title": "Can’t Stop",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"

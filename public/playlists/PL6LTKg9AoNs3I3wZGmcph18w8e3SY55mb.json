@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3I3wZGmcph18w8e3SY55mb",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "REM",
@@ -209,7 +209,7 @@
   },
   {
    "title": "I'm a Dog",
-   "artist": "Gucci Mane",
+   "artist": "Release - Topic",
    "album": "Gucci Classics 2",
    "videoId": "UYp0TbnN2UU",
    "duration": "4:21"
@@ -5053,7 +5053,7 @@
   },
   {
    "title": "Significant Others",
-   "artist": "Chaos In the CBD",
+   "artist": "Chaos In The CBD",
    "album": "Invisible Spectrum",
    "videoId": "mNqAYFkAqTM",
    "duration": "5:20"
@@ -6292,7 +6292,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Chaos In the CBD & Isaac Aesili",
+   "artist": "Isaac Aesili;Chaos In The CBD",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -6648,14 +6648,14 @@
    "duration": "4:08"
   },
   {
-   "title": "Spiritual State (feat. Uyama Hiroto)",
+   "title": "Spiritual State (feat. uyama hiroto)",
    "artist": "Nujabes",
    "album": "Spiritual State",
    "videoId": "L95z7M8uU9k",
    "duration": "6:32"
   },
   {
-   "title": "Gone Are The Days (feat. Uyama Hiroto)",
+   "title": "Gone Are The Days (feat. uyama hiroto)",
    "artist": "Nujabes",
    "album": "Spiritual State",
    "videoId": "-9cr2EkhP4E",
@@ -8546,7 +8546,7 @@
   },
   {
    "title": "Hornsfire (feat. James Mollison)",
-   "artist": "Joe Armon-Jones & James Mollison",
+   "artist": "Joe Armon-Jones;James Mollison",
    "album": "Ceasefire",
    "videoId": "YDa8aQo4wyI",
    "duration": "5:00"
@@ -11941,14 +11941,14 @@
   },
   {
    "title": "U Know What It Is",
-   "artist": "Young Jeezy",
+   "artist": "Jeezy",
    "album": "The Inspiration",
    "videoId": "pFLsftK4wkA",
    "duration": "3:45"
   },
   {
    "title": "Mr. 17.5",
-   "artist": "Young Jeezy",
+   "artist": "Jeezy",
    "album": "The Inspiration",
    "videoId": "lZDzJbgX4Vg",
    "duration": "3:31"
@@ -17226,7 +17226,7 @@
   },
   {
    "title": "Echidna's Arf (Of You) (Live At The Roxy, Hollywood/1973)",
-   "artist": "Frank Zappa;The Mothers",
+   "artist": "Frank Zappa;The Mothers of Invention",
    "album": "Roxy & Elsewhere",
    "videoId": "Bb5AKjDlDxo",
    "duration": "3:54"
@@ -18479,7 +18479,7 @@
   },
   {
    "title": "Mirrors",
-   "artist": "Dâm-Funk",
+   "artist": "Dam-Funk",
    "album": "Toeachizown",
    "videoId": "miVDEXlY7DQ",
    "duration": "3:20"
@@ -23547,7 +23547,7 @@
   },
   {
    "title": "All There (feat. Bankroll Fresh)",
-   "artist": "Jeezy",
+   "artist": "Young Jeezy",
    "album": "Trap Or Die 3",
    "videoId": "6K16Y895WvQ",
    "duration": "3:19"
@@ -23757,56 +23757,56 @@
   },
   {
    "title": "Fkku",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "x1MktwNkpLU",
    "duration": "2:12"
   },
   {
    "title": "Sidepiece",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "A8RAM9GUYRk",
    "duration": "3:47"
   },
   {
    "title": "Suede",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "PFjXLgU_6Fo",
    "duration": "2:55"
   },
   {
    "title": "H.A.N.",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "sycTZ9lGk-o",
    "duration": "2:50"
   },
   {
    "title": "Can’t Stop",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"
   },
   {
    "title": "Kutless",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "6YSR91Ixy1c",
    "duration": "2:08"
   },
   {
    "title": "Wngs",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "u1yV7znGIik",
    "duration": "1:37"
   },
   {
    "title": "What More Can I Say",
-   "artist": "NxWorries;Anderson .Paak;Knxwledge",
+   "artist": "Anderson .Paak;NxWorries;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "nvUjbMSqlZY",
    "duration": "2:37"
@@ -24449,7 +24449,7 @@
    "duration": "3:27"
   },
   {
-   "title": "Throw Sum Mo (feat. Nicki Minaj & Young Thug)",
+   "title": "Throw Sum Mo (feat. Young Thug & Nicki Minaj)",
    "artist": "Rae Sremmurd",
    "album": "SremmLife",
    "videoId": "-Y_3s3AGMnE",
@@ -26249,7 +26249,7 @@
   },
   {
    "title": "Promiscuous (feat. Timbaland)",
-   "artist": "Nelly Furtado",
+   "artist": "Timbaland",
    "album": "Loose",
    "videoId": "BO7FQnegW1o",
    "duration": "4:03"
@@ -31436,7 +31436,7 @@
   },
   {
    "title": "Say It Right",
-   "artist": "Nelly Furtado",
+   "artist": "Release - Topic",
    "album": "Loose",
    "videoId": "7JFtfM9rVvQ",
    "duration": "3:44"
@@ -32170,7 +32170,7 @@
    "duration": "2:57"
   },
   {
-   "title": "Mrs. Officer (feat. Lil Wayne & Bobby V.)",
+   "title": "Mrs. Officer (feat. Bobby V.)",
    "artist": "Lil Wayne",
    "album": "Tha Carter III (MTV Bonus Version)",
    "videoId": "DKkpS1mYt9k",
@@ -33419,7 +33419,7 @@
    "title": "Bad Shit",
    "artist": "Jarreau Vandal",
    "album": "Suburb Superhero: The Villain Within",
-   "videoId": "gdZOJw1VtIE",
+   "videoId": "Z7fR3lQApjE",
    "duration": "3:12"
   },
   {
@@ -33608,7 +33608,7 @@
    "title": "Bad Shit",
    "artist": "Jarreau Vandal",
    "album": "Bad Shit",
-   "videoId": "YrwQV_sxYws",
+   "videoId": "kooTOyjsuVY",
    "duration": "3:12"
   },
   {

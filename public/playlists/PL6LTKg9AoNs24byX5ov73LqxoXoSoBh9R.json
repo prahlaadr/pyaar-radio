@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs24byX5ov73LqxoXoSoBh9R",
  "title": "dar disku fm",
  "trackCount": 923,
- "syncedAt": "2026-07-22T10:26:13.973832Z",
+ "syncedAt": "2026-07-23T10:23:25.692716Z",
  "tracks": [
   {
    "title": "La nuit (DJ version longue)",
@@ -1210,7 +1210,7 @@
   },
   {
    "title": "Eujoaideen",
-   "artist": "Scorpios",
+   "artist": "The Scorpios",
    "album": "The Scorpios",
    "videoId": "psoNG0DZQ64",
    "duration": "4:40"
@@ -1546,7 +1546,7 @@
   },
   {
    "title": "Laila O Laila (Toda Mix)",
-   "artist": "Amit Kumar;Kanchan",
+   "artist": "Kanchan;Amit Kumar",
    "album": "Bichhoo Bite",
    "videoId": "qcdBhtHeXe4",
    "duration": "5:50"
@@ -4101,7 +4101,7 @@
   },
   {
    "title": "Makiyaj",
-   "artist": "Jules-Henry Malaki",
+   "artist": "Jules Henry Malaki",
    "album": "Makiyaj",
    "videoId": "mzEr5HW-Vpw",
    "duration": "4:30"
@@ -4521,7 +4521,7 @@
   },
   {
    "title": "Xibiyana",
-   "artist": "Ntombi Marhumbini",
+   "artist": "Ntombi marhumbini",
    "album": "Jelani-Jelani",
    "videoId": "VIPWUupMSQk",
    "duration": "5:46"
@@ -5509,8 +5509,8 @@
   {
    "title": "Tany Tany",
    "artist": "Hanan Mady",
-   "album": "Moseeqa Rewind, Vol. 3 (Arabic Pop Songs of the Past)",
-   "videoId": "4al20Atk2Ug",
+   "album": "Asfoor El Mattar",
+   "videoId": "hMs99Tq9aII",
    "duration": "4:22"
   },
   {
