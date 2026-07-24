@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 272,
- "totalTracks": 105260,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "totalTracks": 105261,
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "playlists": [
   {
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
-   "trackCount": 21
+   "trackCount": 22
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1478
   },
   {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
@@ -23,11 +28,6 @@
    "playlistId": "PLXPssb2s4taM",
    "title": "pyaar radio",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1477
   },
   {
    "playlistId": "PLYrtwY21U4ZA",
@@ -782,7 +782,7 @@
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",
    "title": "shake ya ass (goated)",
-   "trackCount": 472
+   "trackCount": 471
   },
   {
    "playlistId": "PL6LTKg9AoNs05fv2a7e2af9kB5UQqvVxv",

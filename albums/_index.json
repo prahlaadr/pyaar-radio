@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3528,
- "totalTracks": 44973,
- "syncedAt": "2026-07-23T10:23:22.928932Z",
+ "albumCount": 3527,
+ "totalTracks": 44972,
+ "syncedAt": "2026-07-24T10:17:58.549485Z",
  "albums": [
   {
    "browseId": "MPREb_xqxz87ZIhzx",
@@ -2595,12 +2595,6 @@
    "title": "Ö",
    "artist": "Fcukers",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_DXEQbV2Miwt",
-   "title": "Mirage",
-   "artist": "Glass Beams",
-   "trackCount": 1
   },
   {
    "browseId": "MPREb_1Y1uRirqqEd",

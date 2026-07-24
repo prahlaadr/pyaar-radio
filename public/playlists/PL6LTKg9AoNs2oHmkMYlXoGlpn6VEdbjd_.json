@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -3310,7 +3310,7 @@
   },
   {
    "title": "The Motive/Used to the Melody",
-   "artist": "Sango;Xavier Omär",
+   "artist": "Xavier Omär;Sango",
    "album": "Hours Spent Loving You",
    "videoId": "jqrpiDUXXl0",
    "duration": "6:26"
@@ -11555,8 +11555,8 @@
    "duration": "4:29"
   },
   {
-   "title": "PCH",
-   "artist": "Jaden Smith",
+   "title": "PCH (feat. WILLOW)",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "13d4ezQmoRs",
    "duration": "5:52"
@@ -11856,8 +11856,8 @@
    "duration": "3:49"
   },
   {
-   "title": "pulling the pin (feat. Josh Homme & Mavis Staples)",
-   "artist": "Run The Jewels;El-P;Killer Mike",
+   "title": "pulling the pin (feat. Mavis Staples & Josh Homme)",
+   "artist": "Run The Jewels;Killer Mike;El-P",
    "album": "RTJ4",
    "videoId": "30jj4vktSNA",
    "duration": "3:38"
@@ -13390,7 +13390,7 @@
   },
   {
    "title": "Symba",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "dtfp33LepjE",
    "duration": "3:06"
@@ -15867,7 +15867,7 @@
    "duration": "4:50"
   },
   {
-   "title": "Afterwards (Bring Yo Friends) (feat. Michael Bolton & King Chip)",
+   "title": "Afterwards (Bring Yo Friends) (feat. King Chip & Michael Bolton)",
    "artist": "Kid Cudi",
    "album": "Indicud",
    "videoId": "KujBSjJbb-M",
@@ -19753,7 +19753,7 @@
   },
   {
    "title": "Electric",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "dcXBtp5eutM",
    "duration": "3:42"
@@ -20355,7 +20355,7 @@
   },
   {
    "title": "Fire",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "wqvTdn5iN9w",
    "duration": "2:14"
@@ -20992,7 +20992,7 @@
   },
   {
    "title": "How Do You Love Me",
-   "artist": "Sango;Xavier Omär",
+   "artist": "Xavier Omär;Sango",
    "album": "Hours Spent Loving You",
    "videoId": "IPR_QXyGXRw",
    "duration": "2:47"
@@ -21041,7 +21041,7 @@
   },
   {
    "title": "Mimosa 2000",
-   "artist": "Furacão 2000;Nyasia;Tony Garcia;Peter Fontaine",
+   "artist": "Furacão 2000;Nyasia",
    "album": "Mimosa 2000 (Remixes)",
    "videoId": "73u6V_4iTwY",
    "duration": "2:21"
@@ -23330,7 +23330,7 @@
   },
   {
    "title": "Keep Ya Love",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "MJA90olR8qg",
    "duration": "2:36"
@@ -23764,7 +23764,7 @@
   },
   {
    "title": "Let It Breathe",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "-YO5lXSAuyg",
    "duration": "10:34"
@@ -31415,7 +31415,7 @@
   },
   {
    "title": "Young & Reckless",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "YOPj5vuS4fU",
    "duration": "2:44"
@@ -31506,7 +31506,7 @@
   },
   {
    "title": "Zoned",
-   "artist": "Jaden Smith",
+   "artist": "Jaden",
    "album": "CTV2",
    "videoId": "_4LtL-4h-U4",
    "duration": "3:40"

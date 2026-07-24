@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
  "title": "Four tet’s crate (goated)",
  "trackCount": 3339,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "A Thousand Miles",
@@ -314,7 +314,7 @@
   },
   {
    "title": "It Never Entered My Mind",
-   "artist": "The Miles Davis Quintet",
+   "artist": "Miles Davis",
    "album": "Workin'",
    "videoId": "r8UkDE8mJbk",
    "duration": "5:24"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "Afro Blue",
-   "artist": "Mongo Santamaría",
+   "artist": "Mongo Santamaria",
    "album": "Afro Roots",
    "videoId": "jv3Xi98RaGo",
    "duration": "3:56"
@@ -1889,7 +1889,7 @@
   },
   {
    "title": "Trenchtown Rock (Live At The Lyceum, London/1975)",
-   "artist": "Bob Marley & The Wailers",
+   "artist": "Bob Marley",
    "album": "Natural Mystic",
    "videoId": "iNV3JoyI8eY",
    "duration": "4:13"
@@ -2862,7 +2862,7 @@
   },
   {
    "title": "Muranyi",
-   "artist": "Pryda",
+   "artist": "Eric Prydz",
    "album": "Muranyi / Balaton",
    "videoId": "Z0C_nhvQ2ZQ",
    "duration": "8:03"
@@ -5823,7 +5823,7 @@
   },
   {
    "title": "Start",
-   "artist": "Bill Frisell;Arild Andersen",
+   "artist": "Arild Andersen;Bill Frisell",
    "album": "In Line",
    "videoId": "JNT_1X9ApbI",
    "duration": "5:54"
@@ -6726,7 +6726,7 @@
   },
   {
    "title": "Lady Orange Peel",
-   "artist": "The Attack",
+   "artist": "For Attack",
    "album": "Hi Ho Silver Lining - The Decca Recordings",
    "videoId": "_h-XALzA7_g",
    "duration": "2:29"
@@ -7426,7 +7426,7 @@
   },
   {
    "title": "Land Of The Lonely",
-   "artist": "McCoy Tyner",
+   "artist": "McCoy Tyner Trio",
    "album": "Trident",
    "videoId": "MTOORj0DsIs",
    "duration": "7:33"
@@ -7503,7 +7503,7 @@
   },
   {
    "title": "Water-Wonder",
-   "artist": "Tibor SZEMZŐ & Group 180",
+   "artist": "Group 180;Tibor Szemző",
    "album": "Group 180",
    "videoId": "1yu04czRd4E",
    "duration": "5:56"
@@ -9113,7 +9113,7 @@
   },
   {
    "title": "Mr. Lawman",
-   "artist": "Diegojah",
+   "artist": "DiegoJah",
    "album": "Hög Tid För Varianter",
    "videoId": "hyfEbQZwdbk",
    "duration": "2:32"
@@ -10968,7 +10968,7 @@
   },
   {
    "title": "Yermande (Kick and Bass Mix)",
-   "artist": "Mark Ernestus’ Ndagga Rhythm Force",
+   "artist": "Mark Ernestus' Ndagga Rhythm Force",
    "album": "Yermande",
    "videoId": "04_OxW-Vau0",
    "duration": "6:10"
@@ -11388,9 +11388,9 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala",
+   "artist": "Mala & James Blake",
    "album": "Changes (James Blake Harmonimix)",
-   "videoId": "5-azQvuZMAc",
+   "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
   },
   {
@@ -13362,7 +13362,7 @@
   },
   {
    "title": "Conference Of The Birds",
-   "artist": "Dave Holland Quartet",
+   "artist": "Dave Holland",
    "album": "Conference Of The Birds",
    "videoId": "v-a8LQxAjPE",
    "duration": "4:38"
@@ -14902,7 +14902,7 @@
   },
   {
    "title": "The Parakeet Beat",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "i07umwbW_rg",
    "duration": "4:58"
@@ -15707,7 +15707,7 @@
   },
   {
    "title": "All Caps",
-   "artist": "Madvillain;Madlib;MF Doom",
+   "artist": "Madlib;Madvillain;MF Doom",
    "album": "Madvillainy",
    "videoId": "NPiAK33CfxQ",
    "duration": "2:11"
@@ -16260,7 +16260,7 @@
   },
   {
    "title": "What Color Is the Sky in the World You Live In?",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "4-rV3Jvgnng",
    "duration": "5:00"
@@ -16302,7 +16302,7 @@
   },
   {
    "title": "Woman's Dub",
-   "artist": "Lee Perry",
+   "artist": "Lee \"Scratch\" Perry",
    "album": "Dub-Triptych",
    "videoId": "eAl3dGaksXQ",
    "duration": "3:26"
@@ -17016,7 +17016,7 @@
   },
   {
    "title": "Dead Limit",
-   "artist": "Noisia;The Upbeats",
+   "artist": "The Upbeats;Noisia",
    "album": "Dead Limit",
    "videoId": "h_kHOvqjDhI",
    "duration": "6:02"

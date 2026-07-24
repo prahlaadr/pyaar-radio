@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -650,14 +650,14 @@
   },
   {
    "title": "A1",
-   "artist": "Dynamo Dreesen;SVN;A Made Up Sound",
+   "artist": "Dynamo Dreesen, SVN & A Made Up Sound;SVN;A Made Up Sound",
    "album": "Acido 20",
    "videoId": "F0XddRh9EBg",
    "duration": "8:38"
   },
   {
    "title": "B1",
-   "artist": "Dynamo Dreesen;SVN;A Made Up Sound",
+   "artist": "SVN;Dynamo Dreesen, SVN & A Made Up Sound;A Made Up Sound",
    "album": "Acido 20",
    "videoId": "pvxZH-ZsPj0",
    "duration": "5:02"
@@ -1714,7 +1714,7 @@
   },
   {
    "title": "4 DEGREES",
-   "artist": "ANOHNI",
+   "artist": "Anohni",
    "album": "4 DEGREES",
    "videoId": "-a0C93FGYFE",
    "duration": "3:52"

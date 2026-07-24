@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
  "title": "Four Tet's Crate (goated) ",
  "trackCount": 4998,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "Utopia and Visions",
@@ -174,7 +174,7 @@
   },
   {
    "title": "Water-Wonder",
-   "artist": "Tibor SZEMZŐ & Group 180",
+   "artist": "Group 180;Tibor Szemző",
    "album": "Group 180",
    "videoId": "1yu04czRd4E",
    "duration": "5:56"
@@ -209,7 +209,7 @@
   },
   {
    "title": "Water-Wonder",
-   "artist": "Tibor SZEMZŐ & Group 180",
+   "artist": "Group 180;Tibor Szemző",
    "album": "Group 180",
    "videoId": "1yu04czRd4E",
    "duration": "5:56"
@@ -1231,7 +1231,7 @@
   },
   {
    "title": "Yermande (Kick and Bass Mix)",
-   "artist": "Mark Ernestus’ Ndagga Rhythm Force",
+   "artist": "Mark Ernestus' Ndagga Rhythm Force",
    "album": "Yermande",
    "videoId": "04_OxW-Vau0",
    "duration": "6:10"
@@ -1896,9 +1896,9 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala",
+   "artist": "Mala & James Blake",
    "album": "Changes (James Blake Harmonimix)",
-   "videoId": "5-azQvuZMAc",
+   "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
   },
   {
@@ -2841,7 +2841,7 @@
   },
   {
    "title": "Yermande (Kick and Bass Mix)",
-   "artist": "Mark Ernestus’ Ndagga Rhythm Force",
+   "artist": "Mark Ernestus' Ndagga Rhythm Force",
    "album": "Yermande",
    "videoId": "04_OxW-Vau0",
    "duration": "6:10"
@@ -3954,9 +3954,9 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala",
+   "artist": "Mala & James Blake",
    "album": "Changes (James Blake Harmonimix)",
-   "videoId": "5-azQvuZMAc",
+   "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
   },
   {
@@ -6614,7 +6614,7 @@
   },
   {
    "title": "Conference Of The Birds",
-   "artist": "Dave Holland Quartet",
+   "artist": "Dave Holland",
    "album": "Conference Of The Birds",
    "videoId": "v-a8LQxAjPE",
    "duration": "4:38"
@@ -7286,7 +7286,7 @@
   },
   {
    "title": "Conference Of The Birds",
-   "artist": "Dave Holland Quartet",
+   "artist": "Dave Holland",
    "album": "Conference Of The Birds",
    "videoId": "v-a8LQxAjPE",
    "duration": "4:38"
@@ -9505,7 +9505,7 @@
   },
   {
    "title": "The Parakeet Beat",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "i07umwbW_rg",
    "duration": "4:58"
@@ -10184,7 +10184,7 @@
   },
   {
    "title": "The Parakeet Beat",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "i07umwbW_rg",
    "duration": "4:58"
@@ -10989,7 +10989,7 @@
   },
   {
    "title": "All Caps",
-   "artist": "Madvillain;Madlib;MF Doom",
+   "artist": "Madlib;Madvillain;MF Doom",
    "album": "Madvillainy",
    "videoId": "NPiAK33CfxQ",
    "duration": "2:11"
@@ -11682,7 +11682,7 @@
   },
   {
    "title": "All Caps",
-   "artist": "Madvillain;Madlib;MF Doom",
+   "artist": "Madlib;Madvillain;MF Doom",
    "album": "Madvillainy",
    "videoId": "NPiAK33CfxQ",
    "duration": "2:11"
@@ -12235,7 +12235,7 @@
   },
   {
    "title": "What Color Is the Sky in the World You Live In?",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "4-rV3Jvgnng",
    "duration": "5:00"
@@ -12277,7 +12277,7 @@
   },
   {
    "title": "Woman's Dub",
-   "artist": "Lee Perry",
+   "artist": "Lee \"Scratch\" Perry",
    "album": "Dub-Triptych",
    "videoId": "eAl3dGaksXQ",
    "duration": "3:26"
@@ -12914,7 +12914,7 @@
   },
   {
    "title": "What Color Is the Sky in the World You Live In?",
-   "artist": "Sunburned Hand Of The Man",
+   "artist": "Sunburned Hand of the Man",
    "album": "Fire Escape",
    "videoId": "4-rV3Jvgnng",
    "duration": "5:00"
@@ -12956,7 +12956,7 @@
   },
   {
    "title": "Woman's Dub",
-   "artist": "Lee Perry",
+   "artist": "Lee \"Scratch\" Perry",
    "album": "Dub-Triptych",
    "videoId": "eAl3dGaksXQ",
    "duration": "3:26"
@@ -19739,7 +19739,7 @@
   },
   {
    "title": "Mr. Lawman",
-   "artist": "Diegojah",
+   "artist": "DiegoJah",
    "album": "Hög Tid För Varianter",
    "videoId": "hyfEbQZwdbk",
    "duration": "2:32"
@@ -19858,7 +19858,7 @@
   },
   {
    "title": "Mr. Lawman",
-   "artist": "Diegojah",
+   "artist": "DiegoJah",
    "album": "Hög Tid För Varianter",
    "videoId": "hyfEbQZwdbk",
    "duration": "2:32"
@@ -23757,7 +23757,7 @@
   },
   {
    "title": "Land Of The Lonely",
-   "artist": "McCoy Tyner",
+   "artist": "McCoy Tyner Trio",
    "album": "Trident",
    "videoId": "MTOORj0DsIs",
    "duration": "7:33"
@@ -24044,7 +24044,7 @@
   },
   {
    "title": "Land Of The Lonely",
-   "artist": "McCoy Tyner",
+   "artist": "McCoy Tyner Trio",
    "album": "Trident",
    "videoId": "MTOORj0DsIs",
    "duration": "7:33"
@@ -25332,7 +25332,7 @@
   },
   {
    "title": "Lady Orange Peel",
-   "artist": "The Attack",
+   "artist": "For Attack",
    "album": "Hi Ho Silver Lining - The Decca Recordings",
    "videoId": "_h-XALzA7_g",
    "duration": "2:29"
@@ -25696,7 +25696,7 @@
   },
   {
    "title": "Lady Orange Peel",
-   "artist": "The Attack",
+   "artist": "For Attack",
    "album": "Hi Ho Silver Lining - The Decca Recordings",
    "videoId": "_h-XALzA7_g",
    "duration": "2:29"
@@ -28307,7 +28307,7 @@
   },
   {
    "title": "Start",
-   "artist": "Bill Frisell;Arild Andersen",
+   "artist": "Arild Andersen;Bill Frisell",
    "album": "In Line",
    "videoId": "JNT_1X9ApbI",
    "duration": "5:54"
@@ -28517,7 +28517,7 @@
   },
   {
    "title": "Start",
-   "artist": "Bill Frisell;Arild Andersen",
+   "artist": "Arild Andersen;Bill Frisell",
    "album": "In Line",
    "videoId": "JNT_1X9ApbI",
    "duration": "5:54"

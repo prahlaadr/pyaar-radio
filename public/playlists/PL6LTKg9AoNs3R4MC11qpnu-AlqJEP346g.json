@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1477,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "trackCount": 1478,
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
+  {
+   "title": "Camera",
+   "artist": "Charli xcx",
+   "album": "Camera",
+   "videoId": "LlD8-j7ddDg",
+   "duration": "2:32"
+  },
   {
    "title": "Kernkraft 400 (Original Radio Edit) (feat. DJ Gius)",
    "artist": "Zombie Nation",
@@ -489,7 +496,7 @@
   },
   {
    "title": "Love You Like A Love Song",
-   "artist": "Selena Gomez & The Scene",
+   "artist": "Selena Gomez",
    "album": "When the Sun Goes Down",
    "videoId": "XhGior4O2eM",
    "duration": "3:09"
@@ -8500,7 +8507,7 @@
    "artist": "The Everly Brothers",
    "album": "The Very Best of The Everly Brothers",
    "videoId": "hOb_0glD2cM",
-   "duration": "2:04"
+   "duration": "2:05"
   },
   {
    "title": "Mrs. Robinson (From \"The Graduate\" Soundtrack)",

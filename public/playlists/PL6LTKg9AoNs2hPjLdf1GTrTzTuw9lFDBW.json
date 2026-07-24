@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
  "title": "Soup To Nuts w/ Anu - NTS",
  "trackCount": 2579,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "In The Rain",
@@ -650,7 +650,7 @@
   },
   {
    "title": "It Never Entered My Mind",
-   "artist": "The Miles Davis Quintet",
+   "artist": "Miles Davis",
    "album": "Workin'",
    "videoId": "r8UkDE8mJbk",
    "duration": "5:24"
@@ -3604,7 +3604,7 @@
   },
   {
    "title": "Pleasure Comes And Pleasure Goes",
-   "artist": "Earth To Mickey",
+   "artist": "Earth To Mickey;Delroy Edwards",
    "album": "Brace & Bit",
    "videoId": "ZnFMHpaTxNs",
    "duration": "4:17"
@@ -6173,7 +6173,7 @@
   },
   {
    "title": "Bistro",
-   "artist": "Madvillain;Madlib;MF Doom",
+   "artist": "Madlib;Madvillain;MF Doom",
    "album": "Madvillainy",
    "videoId": "ziDFbUtMF0I",
    "duration": "1:08"
@@ -6313,7 +6313,7 @@
   },
   {
    "title": "Spanish Eyes",
-   "artist": "Junko Ohashi & Minoya Central Station",
+   "artist": "Junko Ohashi",
    "album": "Hot Life",
    "videoId": "o7bIOqA45mI",
    "duration": "4:48"
@@ -8987,7 +8987,7 @@
   },
   {
    "title": "It Never Entered My Mind",
-   "artist": "The Miles Davis Quintet",
+   "artist": "Miles Davis",
    "album": "Workin'",
    "videoId": "r8UkDE8mJbk",
    "duration": "5:24"
@@ -15875,7 +15875,7 @@
   },
   {
    "title": "All Caps",
-   "artist": "Madvillain;Madlib;MF Doom",
+   "artist": "Madlib;Madvillain;MF Doom",
    "album": "Madvillainy",
    "videoId": "NPiAK33CfxQ",
    "duration": "2:11"

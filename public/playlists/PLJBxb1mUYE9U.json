@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 21,
- "syncedAt": "2026-07-23T10:23:25.692716Z",
+ "trackCount": 22,
+ "syncedAt": "2026-07-24T10:18:01.199343Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -150,6 +150,13 @@
    "album": "Asleep Talking",
    "videoId": "Wdsis7yiRGg",
    "duration": "2:37"
+  },
+  {
+   "title": "Still Summer",
+   "artist": "Jamie xx",
+   "album": "In Waves",
+   "videoId": "ayfGcnqGShg",
+   "duration": "3:26"
   }
  ]
 }
