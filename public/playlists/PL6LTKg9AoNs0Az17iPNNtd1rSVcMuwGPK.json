@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0Az17iPNNtd1rSVcMuwGPK",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-07-24T10:18:01.199343Z",
+ "syncedAt": "2026-07-25T09:47:54.024332Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -839,7 +839,7 @@
   },
   {
    "title": "Lights Off",
-   "artist": "Orson;Skratch",
+   "artist": "Skratch;Orson + Skratch",
    "album": "Nucleus / Lights Off",
    "videoId": "mhj2WeS3Y5I",
    "duration": "6:31"
@@ -1707,7 +1707,7 @@
   },
   {
    "title": "Living in Unity (Wonderful World Mix)",
-   "artist": "Rob Smith",
+   "artist": "RSD",
    "album": "B Line Fi Blo / Living in Unity",
    "videoId": "ePgS5Fb_YF4",
    "duration": "6:13"
@@ -1994,7 +1994,7 @@
   },
   {
    "title": "Nucleus",
-   "artist": "Orson;Skratch",
+   "artist": "Skratch;Orson + Skratch",
    "album": "Nucleus / Lights Off",
    "videoId": "MnLixQl9d6U",
    "duration": "6:15"
@@ -2386,7 +2386,7 @@
   },
   {
    "title": "Knowing",
-   "artist": "Distance",
+   "artist": "Greg",
    "album": "Meanstreak EP",
    "videoId": "tOf123La-9Q",
    "duration": "5:24"
@@ -5081,7 +5081,7 @@
   },
   {
    "title": "Thug",
-   "artist": "Glume",
+   "artist": "Glüme",
    "album": "Thug",
    "videoId": "xSgGbMbVOIs",
    "duration": "3:18"
@@ -9617,7 +9617,7 @@
   },
   {
    "title": "Death",
-   "artist": "Proc Friskal",
+   "artist": "Proc Fiskal",
    "album": "Death",
    "videoId": "2wqZEVDkfuA",
    "duration": "4:06"
@@ -12179,7 +12179,7 @@
   },
   {
    "title": "Signals (Crypticz Remix)",
-   "artist": "Primer",
+   "artist": "T.A.R, Primer",
    "album": "Amplivagant (Jack Sparrow Remix) / Signals (Crypticz Remix)",
    "videoId": "IphB1JHGQ9Q",
    "duration": "4:33"

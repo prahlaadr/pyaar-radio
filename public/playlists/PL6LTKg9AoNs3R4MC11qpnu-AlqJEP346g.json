@@ -1,9 +1,51 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1478,
- "syncedAt": "2026-07-24T10:18:01.199343Z",
+ "trackCount": 1484,
+ "syncedAt": "2026-07-25T09:47:54.024332Z",
  "tracks": [
+  {
+   "title": "Gasoline",
+   "artist": "HAIM;Taylor Swift",
+   "album": "Women In Music Pt. III",
+   "videoId": "o6cZ7CMKtKE",
+   "duration": "3:14"
+  },
+  {
+   "title": "The Steps",
+   "artist": "HAIM",
+   "album": "Women In Music Pt. III",
+   "videoId": "f919ORjoSCA",
+   "duration": "4:08"
+  },
+  {
+   "title": "Want You Back",
+   "artist": "HAIM",
+   "album": "Something to Tell You",
+   "videoId": "FgsIaAsNNYs",
+   "duration": "3:53"
+  },
+  {
+   "title": "If I Could Change Your Mind",
+   "artist": "HAIM",
+   "album": "Days Are Gone",
+   "videoId": "WICmzq_JV0k",
+   "duration": "3:50"
+  },
+  {
+   "title": "Exopa",
+   "artist": "Joey B;Odunsi (the engine)",
+   "album": "Exopa",
+   "videoId": "mgVBk63MufE",
+   "duration": "3:11"
+  },
+  {
+   "title": "Raised on Country",
+   "artist": "Chris Young",
+   "album": "Famous Friends",
+   "videoId": "xqOMJhdLMxI",
+   "duration": "2:58"
+  },
   {
    "title": "Camera",
    "artist": "Charli xcx",

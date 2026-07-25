@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3527,
- "totalTracks": 44972,
- "syncedAt": "2026-07-24T10:17:58.549485Z",
+ "albumCount": 3528,
+ "totalTracks": 44981,
+ "syncedAt": "2026-07-25T09:47:51.268370Z",
  "albums": [
+  {
+   "browseId": "MPREb_leKRuEeVETU",
+   "title": "Hejira",
+   "artist": "Joni Mitchell",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_xqxz87ZIhzx",
    "title": "XXYYXX",
