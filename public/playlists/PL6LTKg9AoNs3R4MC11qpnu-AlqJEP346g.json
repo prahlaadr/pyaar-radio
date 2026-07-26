@@ -1,9 +1,37 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1484,
- "syncedAt": "2026-07-25T09:47:54.024332Z",
+ "trackCount": 1488,
+ "syncedAt": "2026-07-26T10:00:08.735243Z",
  "tracks": [
+  {
+   "title": "Give It To Me Baby",
+   "artist": "Rick James",
+   "album": "Street Songs (Expanded Edition)",
+   "videoId": "zYV6zZc_9jI",
+   "duration": "4:09"
+  },
+  {
+   "title": "My Love",
+   "artist": "Syd",
+   "album": "Beard",
+   "videoId": "ITenOvTq1AA",
+   "duration": "4:31"
+  },
+  {
+   "title": "Jasmin 17",
+   "artist": "Syd",
+   "album": "Beard",
+   "videoId": "jwLu9A1yCOM",
+   "duration": "4:03"
+  },
+  {
+   "title": "Drops of Jupiter (Tell Me)",
+   "artist": "Train",
+   "album": "Drops Of Jupiter",
+   "videoId": "qthko5ppHcM",
+   "duration": "4:20"
+  },
   {
    "title": "Gasoline",
    "artist": "HAIM;Taylor Swift",

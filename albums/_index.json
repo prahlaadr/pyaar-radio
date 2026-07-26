@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3528,
- "totalTracks": 44981,
- "syncedAt": "2026-07-25T09:47:51.268370Z",
+ "albumCount": 3530,
+ "totalTracks": 45004,
+ "syncedAt": "2026-07-26T10:00:05.654429Z",
  "albums": [
+  {
+   "browseId": "MPREb_r65bAN2HXCj",
+   "title": "Beard",
+   "artist": "Syd",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_dfI6HY3TdEX",
+   "title": "Drops Of Jupiter",
+   "artist": "Train",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_leKRuEeVETU",
    "title": "Hejira",
