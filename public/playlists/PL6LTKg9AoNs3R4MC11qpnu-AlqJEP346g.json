@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1488,
- "syncedAt": "2026-07-26T10:00:08.735243Z",
+ "trackCount": 1491,
+ "syncedAt": "2026-07-27T11:21:46.416368Z",
  "tracks": [
+  {
+   "title": "Amoeba",
+   "artist": "Clairo",
+   "album": "Sling",
+   "videoId": "7WXXaIz3uds",
+   "duration": "3:49"
+  },
+  {
+   "title": "There Is a Light That Never Goes Out (Take 1)",
+   "artist": "The Smiths",
+   "album": "The Queen Is Dead (Deluxe Edition)",
+   "videoId": "HZFdP5cEz74",
+   "duration": "4:26"
+  },
+  {
+   "title": "Summer Nights",
+   "artist": "Dana and Alden",
+   "album": "Summer Nights",
+   "videoId": "PRg69bmdX8E",
+   "duration": "3:30"
+  },
   {
    "title": "Give It To Me Baby",
    "artist": "Rick James",

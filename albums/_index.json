@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3530,
- "totalTracks": 45004,
- "syncedAt": "2026-07-26T10:00:05.654429Z",
+ "albumCount": 3531,
+ "totalTracks": 45015,
+ "syncedAt": "2026-07-27T11:21:43.254258Z",
  "albums": [
+  {
+   "browseId": "MPREb_SUouDNu7qf5",
+   "title": "Music, Fashion, Film",
+   "artist": "Charli xcx",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_r65bAN2HXCj",
    "title": "Beard",
