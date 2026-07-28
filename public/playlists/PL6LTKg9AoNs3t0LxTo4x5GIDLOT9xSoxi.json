@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3t0LxTo4x5GIDLOT9xSoxi",
  "title": "Nov 23",
  "trackCount": 51,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Who Do You Love?",
@@ -13,14 +13,14 @@
   },
   {
    "title": "This Is Not About Us",
-   "artist": "BANKS",
+   "artist": "BANKS - Topic",
    "album": "The Altar",
    "videoId": "5WqfpaEhXVI",
    "duration": "3:04"
   },
   {
    "title": "Haunt",
-   "artist": "BANKS",
+   "artist": "BANKS - Topic",
    "album": "The Altar",
    "videoId": "CuuebkbSKhU",
    "duration": "3:43"
@@ -201,8 +201,8 @@
    "duration": "3:48"
   },
   {
-   "title": "Losers (feat. Labrinth)",
-   "artist": "The Weeknd",
+   "title": "Losers",
+   "artist": "The Weeknd;Labrinth",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0BBPtTMEv-aErYYBdNvEZc",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Lately",
@@ -201,7 +201,7 @@
    "duration": "4:12"
   },
   {
-   "title": "Beautiful (feat. Pharrell & Charlie Wilson)",
+   "title": "Beautiful (feat. Pharrell & Uncle Charlie Wilson)",
    "artist": "Snoop Dogg",
    "album": "Paid Tha Cost To Be Da Bo$$",
    "videoId": "nI6jSRgvfjI",
@@ -223,7 +223,7 @@
   },
   {
    "title": "Oh Boy (feat. Juelz Santana)",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron",
    "album": "Come Home With Me",
    "videoId": "GVTXRkGWqsU",
    "duration": "3:25"
@@ -306,7 +306,7 @@
    "duration": "4:52"
   },
   {
-   "title": "Signs (feat. Justin Timberlake & Charlie Wilson)",
+   "title": "Signs (feat. Charlie Wilson & Justin Timberlake)",
    "artist": "Snoop Dogg",
    "album": "R&G (Rhythm & Gangsta): The Masterpiece",
    "videoId": "Cs2d7qrVbB8",
@@ -327,7 +327,7 @@
    "duration": "4:17"
   },
   {
-   "title": "Do For Love",
+   "title": "Do For Love (feat. Eric Williams)",
    "artist": "2Pac",
    "album": "R U Still Down? [Remember Me]",
    "videoId": "Y2cWHiKaFjc",
@@ -391,13 +391,13 @@
   },
   {
    "title": "Lucifer",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "Oy9LHIDtmGc",
    "duration": "3:13"
   },
   {
-   "title": "GO!",
+   "title": "GO! (feat. Joy Denalane)",
    "artist": "Common",
    "album": "Be",
    "videoId": "zAuCbjLviJY",
@@ -531,7 +531,7 @@
   },
   {
    "title": "Change Clothes",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "71-qWbczSmc",
    "duration": "4:19"
@@ -607,8 +607,8 @@
    "duration": "1:52"
   },
   {
-   "title": "Eye",
-   "artist": "Stacy Epps;Madlib;Madvillain;MF Doom",
+   "title": "Eye (feat. Stacy Epps)",
+   "artist": "Madvillain;Madlib;MF Doom;Stacy Epps",
    "album": "Madvillainy",
    "videoId": "4hw2XL7LlyY",
    "duration": "1:58"
@@ -629,14 +629,14 @@
   },
   {
    "title": "Fancy Clown (feat. Viktor Vaughn)",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;Madlib;MF Doom",
    "album": "Madvillainy",
    "videoId": "yEYCCiXLPTw",
    "duration": "1:56"
   },
   {
    "title": "Sickfit (Instrumental)",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;Madlib;MF Doom",
    "album": "Madvillainy",
    "videoId": "hFhFkrgYkuY",
    "duration": "1:22"
@@ -769,13 +769,13 @@
   },
   {
    "title": "Hard Knock Life (Ghetto Anthem)",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "Vol.2... Hard Knock Life",
    "videoId": "3iiC_tQk2nE",
    "duration": "3:59"
   },
   {
-   "title": "The Light",
+   "title": "The Light (feat. Erykah Badu)",
    "artist": "Common",
    "album": "Like Water For Chocolate",
    "videoId": "pK76GKkEc9o",
@@ -783,7 +783,7 @@
   },
   {
    "title": "Dear Summer",
-   "artist": "JAY-Z;Memphis Bleek",
+   "artist": "Memphis Bleek & JAŸ-Z",
    "album": "534",
    "videoId": "LBOmocitDfA",
    "duration": "2:54"
@@ -824,8 +824,8 @@
    "duration": "3:47"
   },
   {
-   "title": "5月ー12月 - May-December",
-   "artist": "Mos Def",
+   "title": "May-December",
+   "artist": "Mos Def - Topic",
    "album": "Black On Both Sides",
    "videoId": "u3Rg09NRabc",
    "duration": "3:30"
@@ -916,7 +916,7 @@
   },
   {
    "title": "untitled 08 | 09.06.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "JXikcHwPolM",
    "duration": "3:56"
@@ -1098,7 +1098,7 @@
   },
   {
    "title": "U Don't Know",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint",
    "videoId": "jjCPc-47NmI",
    "duration": "3:20"
@@ -1217,7 +1217,7 @@
   },
   {
    "title": "Different This Time",
-   "artist": "Cornelia Murr",
+   "artist": "Cornelia Murr - Topic",
    "album": "Lake Tear of the Clouds",
    "videoId": "VTgIEaxTYhI",
    "duration": "3:54"
@@ -1476,7 +1476,7 @@
   },
   {
    "title": "Belongs To",
-   "artist": "Жером Томас",
+   "artist": "Jerome Thomas - Topic",
    "album": "Mood Swings, Vol. 1",
    "videoId": "F-bIiPUm_Y0",
    "duration": "2:03"
@@ -1538,8 +1538,8 @@
    "duration": "3:52"
   },
   {
-   "title": "Teleport 2 Me, Jamie (feat. Desire)",
-   "artist": "WZRD",
+   "title": "Teleport 2 Me, Jamie",
+   "artist": "WZRD - Topic",
    "album": "WZRD",
    "videoId": "aOC1poTmcMM",
    "duration": "3:59"
@@ -1601,7 +1601,7 @@
    "duration": "3:06"
   },
   {
-   "title": "Street Talkin' (feat. Outkast)",
+   "title": "Street Talkin' (feat. OutKast)",
    "artist": "Slick Rick",
    "album": "The Art Of Storytelling",
    "videoId": "czRr7oIqwfA",
@@ -1615,7 +1615,7 @@
    "duration": "2:39"
   },
   {
-   "title": "Foolish",
+   "title": "Foolish (feat. The Notorious B.I.G.)",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "6rrNR2YdF8c",
@@ -1657,8 +1657,8 @@
    "duration": "5:27"
   },
   {
-   "title": "You Got Me (feat. Eve & Erykah Badu)",
-   "artist": "Black Thought;The Roots",
+   "title": "You Got Me (feat. Erykah Badu & Eve)",
+   "artist": "The Roots & Tariq Trotter",
    "album": "Things Fall Apart",
    "videoId": "y5DFHx_EUTg",
    "duration": "4:20"
@@ -1896,7 +1896,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -2085,7 +2085,7 @@
   },
   {
    "title": "Never Change",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint",
    "videoId": "zpJVMALzap4",
    "duration": "3:58"
@@ -2344,7 +2344,7 @@
   },
   {
    "title": "Keep The Beat",
-   "artist": "Eric B. & Rakim;Rakim",
+   "artist": "Eric B. - Topic",
    "album": "Don't Sweat The Technique",
    "videoId": "VlOcX_5NAWQ",
    "duration": "4:16"
@@ -2505,7 +2505,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D.",
+   "artist": "N.E.R.D. - Topic",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"
@@ -2651,7 +2651,7 @@
    "duration": "4:20"
   },
   {
-   "title": "Growing Pains (feat. Fate Wilson & Keon Bryce)",
+   "title": "Growing Pains (feat. Keon Bryce)",
    "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "DCfvSOVtTSI",
@@ -2722,7 +2722,7 @@
   },
   {
    "title": "We Might Even Be Falling In Love (Interlude)",
-   "artist": "Victoria Monét",
+   "artist": "Victoria Monét - Topic",
    "album": "JAGUAR",
    "videoId": "N6QHhkLRfco",
    "duration": "0:52"
@@ -2918,7 +2918,7 @@
   },
   {
    "title": "Keep The Beat",
-   "artist": "Eric B. & Rakim;Rakim",
+   "artist": "Eric B. - Topic",
    "album": "Don't Sweat The Technique",
    "videoId": "VlOcX_5NAWQ",
    "duration": "4:16"
@@ -2931,8 +2931,8 @@
    "duration": "1:31"
   },
   {
-   "title": "Next Levels (feat. Stacy Epps, Invizible Handz, Stahhr & John Robinson)",
-   "artist": "King Geedorah",
+   "title": "Next Levels",
+   "artist": "King Geedorah - Topic",
    "album": "Take Me To Your Leader",
    "videoId": "vvtfSYmjFXc",
    "duration": "3:50"
@@ -2966,8 +2966,8 @@
    "duration": "2:03"
   },
   {
-   "title": "Next Levels (feat. Stacy Epps, Invizible Handz, Stahhr & John Robinson)",
-   "artist": "King Geedorah",
+   "title": "Next Levels",
+   "artist": "King Geedorah - Topic",
    "album": "Take Me To Your Leader",
    "videoId": "vvtfSYmjFXc",
    "duration": "3:50"
@@ -3127,8 +3127,8 @@
    "duration": "3:11"
   },
   {
-   "title": "There's a New Day Coming (feat. Saundra Williams)",
-   "artist": "Menahan Street Band",
+   "title": "There's a New Day Coming",
+   "artist": "Menahan Street Band - Topic",
    "album": "There's a New Day Coming / Tommy Don't",
    "videoId": "4krBxo66tv4",
    "duration": "2:24"
@@ -3366,7 +3366,7 @@
   },
   {
    "title": "Love Speakeasy",
-   "artist": "Reflection Eternal",
+   "artist": "Reflection Eternal - Topic",
    "album": "Train Of Thought",
    "videoId": "1QQACSqMS5Q",
    "duration": "1:39"
@@ -3883,7 +3883,7 @@
    "duration": "3:07"
   },
   {
-   "title": "Girl, so confusing featuring lorde (feat. Lorde)",
+   "title": "Girl, so confusing featuring lorde",
    "artist": "Charli xcx;Lorde",
    "album": "Girl, so confusing featuring lorde",
    "videoId": "QLHrgM8JNDg",
@@ -3891,7 +3891,7 @@
   },
   {
    "title": "March",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Aphelion EP",
    "videoId": "VKJKltYxAZA",
    "duration": "6:56"
@@ -4542,7 +4542,7 @@
   },
   {
    "title": "Baby It's You",
-   "artist": "Bully",
+   "artist": "Smith",
    "album": "A Group Called Smith",
    "videoId": "wTu3SaIcZSc",
    "duration": "3:28"
@@ -4619,7 +4619,7 @@
   },
   {
    "title": "Lyk Dis",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "HdImM__iStg",
    "duration": "2:31"
@@ -4850,14 +4850,14 @@
   },
   {
    "title": "Suede",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "PFjXLgU_6Fo",
    "duration": "2:55"
   },
   {
    "title": "Stay High",
-   "artist": "Brittany Howard;Childish Gambino",
+   "artist": "Childish Gambino;Brittany Howard",
    "album": "Jaime (Reimagined)",
    "videoId": "bTKcFXvqnw0",
    "duration": "3:39"
@@ -4892,7 +4892,7 @@
   },
   {
    "title": "Gonna Make Time",
-   "artist": "The Frightnrs",
+   "artist": "The Frightnrs - Topic",
    "album": "Nothing More to Say",
    "videoId": "ltNuahQo79w",
    "duration": "3:35"
@@ -4920,7 +4920,7 @@
   },
   {
    "title": "Baby My Love",
-   "artist": "The IT Crowd;Jah Stitch",
+   "artist": "The IT Crowd - Topic",
    "album": "His Majesty Is Coming",
    "videoId": "YCj9PPrFqZI",
    "duration": "7:57"
@@ -5038,7 +5038,7 @@
    "duration": "5:05"
   },
   {
-   "title": "Hyyerr (feat. King Chip)",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "kwhTmdff1rs",
@@ -5165,7 +5165,7 @@
   },
   {
    "title": "I'll Call U Back",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "l5LWXCSD9hs",
    "duration": "1:58"
@@ -5277,7 +5277,7 @@
   },
   {
    "title": "Saddic Gladdic",
-   "artist": "Luke Vibert",
+   "artist": "Wagon Christ",
    "album": "Sorry I Make You Lush",
    "videoId": "hWxMmKzX9NA",
    "duration": "4:53"
@@ -5312,7 +5312,7 @@
   },
   {
    "title": "UMI Says",
-   "artist": "Mos Def",
+   "artist": "Mos Def - Topic",
    "album": "Black On Both Sides",
    "videoId": "1W9yr_3p63o",
    "duration": "5:06"
@@ -5578,7 +5578,7 @@
   },
   {
    "title": "The Knife",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "AIlOzfQlcIA",
    "duration": "3:34"
@@ -5753,7 +5753,7 @@
   },
   {
    "title": "On the Line",
-   "artist": "Kindness & Blood Orange",
+   "artist": "Blood Orange & Kindness",
    "album": "Cupid Deluxe",
    "videoId": "EpnYJ7ldjAM",
    "duration": "5:08"
@@ -5809,7 +5809,7 @@
   },
   {
    "title": "The Blonde",
-   "artist": "TV Girl",
+   "artist": "TV Girl - Topic",
    "album": "French Exit",
    "videoId": "oRqJ0EFXmgo",
    "duration": "3:48"
@@ -6068,7 +6068,7 @@
   },
   {
    "title": "Imperfect Circle",
-   "artist": "Jorja Smith",
+   "artist": "Jorja Smith - Topic",
    "album": "Project 11",
    "videoId": "7g1ozPfX3Kg",
    "duration": "4:35"
@@ -6173,14 +6173,14 @@
   },
   {
    "title": "Unluck",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "buHJNloNa7Q",
    "duration": "3:01"
   },
   {
    "title": "Laurie's Machine",
-   "artist": "Silk Rhodes",
+   "artist": "Silk Rhodes - Topic",
    "album": "Silk Rhodes",
    "videoId": "5XR3-Eh0ksA",
    "duration": "1:30"
@@ -6271,7 +6271,7 @@
   },
   {
    "title": "2012 Summer",
-   "artist": " LUCKI",
+   "artist": "LUCKI",
    "album": "Freewave 3",
    "videoId": "qFlD2uldq8w",
    "duration": "1:38"
@@ -6467,7 +6467,7 @@
   },
   {
    "title": "Catch Feels Get High",
-   "artist": "Shaolin Cowboy",
+   "artist": "Shaolin Cowboy - Topic",
    "album": "Catch Feels Get High",
    "videoId": "ztzucZzIT_Y",
    "duration": "3:43"
@@ -6502,7 +6502,7 @@
   },
   {
    "title": "Harlem Streets",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron",
    "album": "Purple Haze",
    "videoId": "tQrCfSgS1u4",
    "duration": "3:42"
@@ -6550,7 +6550,7 @@
    "duration": "4:31"
   },
   {
-   "title": "Played Like A Piano (feat. Breeze & Ice Cube)",
+   "title": "Played Like A Piano (feat. Ice Cube & Breeze)",
    "artist": "King Tee",
    "album": "At Your Own Risk",
    "videoId": "GlvdcZSlhEU",
@@ -6600,7 +6600,7 @@
   },
   {
    "title": "Curls",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;MF Doom;Madlib",
    "album": "Curls & All Caps",
    "videoId": "OVIp03CXjKY",
    "duration": "1:38"
@@ -6999,14 +6999,14 @@
   },
   {
    "title": "Some How Some Way (feat. Beanie Sigel & Scarface)",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint 2: The Gift & The Curse",
    "videoId": "Vnh96dpr-fc",
    "duration": "5:37"
   },
   {
    "title": "Girls, Girls, Girls",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint",
    "videoId": "Evpc2pRHX9I",
    "duration": "4:36"
@@ -7022,7 +7022,7 @@
    "title": "Moonlight on the River",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "1VYbKamjB-4",
+   "videoId": "kXC8kzgY9tw",
    "duration": "7:03"
   },
   {
@@ -7201,8 +7201,8 @@
    "duration": "4:46"
   },
   {
-   "title": "03' Bonnie & Clyde (feat. Beyoncé)",
-   "artist": "JAY-Z",
+   "title": "03' Bonnie & Clyde (feat. Beyoncé Knowles)",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint 2: The Gift & The Curse",
    "videoId": "hWYX1d1xGm8",
    "duration": "3:26"
@@ -7292,7 +7292,7 @@
    "duration": "5:33"
   },
   {
-   "title": "Brown Sugar",
+   "title": "Brown Sugar (feat. Kool G Rap)",
    "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "-DNm9jn5z1w",
@@ -7468,7 +7468,7 @@
   },
   {
    "title": "Soul Sista",
-   "artist": "Bilal Oliver",
+   "artist": "Bilal",
    "album": "1st Born Second",
    "videoId": "E2eXLCFMDVg",
    "duration": "5:19"
@@ -8140,14 +8140,14 @@
   },
   {
    "title": "Our Lives Are Shaped By What We Love",
-   "artist": "Odyssey",
+   "artist": "Odyssey - Topic",
    "album": "Our Lives Are Shaped By What We Love: Motown's Mowest Story 1971-73",
    "videoId": "vGbac0bJDM8",
    "duration": "3:37"
   },
   {
    "title": "Our Lives Are Shaped By What We Love",
-   "artist": "Odyssey",
+   "artist": "Odyssey - Topic",
    "album": "Our Lives Are Shaped By What We Love: Motown's Mowest Story 1971-73",
    "videoId": "vGbac0bJDM8",
    "duration": "3:37"
@@ -8420,7 +8420,7 @@
   },
   {
    "title": "Step By Step",
-   "artist": "Discognosis",
+   "artist": "Discognosis - Topic",
    "album": "Discognosis",
    "videoId": "E_E61DNwkPM",
    "duration": "2:54"
@@ -8546,7 +8546,7 @@
   },
   {
    "title": "Dancin' & Prancin'",
-   "artist": "Cândido",
+   "artist": "Candido",
    "album": "Dancin' & Prancin'",
    "videoId": "mm-lvN6bJLk",
    "duration": "6:53"
@@ -8805,7 +8805,7 @@
   },
   {
    "title": "Dip-Set Forever",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron",
    "album": "Purple Haze",
    "videoId": "GhmkifqJ8N4",
    "duration": "3:55"
@@ -8972,8 +8972,8 @@
    "duration": "4:16"
   },
   {
-   "title": "There's Never Been No One Like You (Medlar Edit) (feat. Bobby Youngblood)",
-   "artist": "Kenix",
+   "title": "There's Never Been No One Like You (Medlar Edit)",
+   "artist": "Release - Topic",
    "album": "West End Edits: Medlar",
    "videoId": "f_yMNVpctv0",
    "duration": "7:25"
@@ -9371,7 +9371,7 @@
    "duration": "6:18"
   },
   {
-   "title": "Pound Cake / Paris Morton Music 2 (feat. JAY-Z)",
+   "title": "Pound Cake / Paris Morton Music 2 (feat. JAŸ-Z)",
    "artist": "Drake",
    "album": "Nothing Was The Same (Deluxe)",
    "videoId": "Qz3LK267YVI",

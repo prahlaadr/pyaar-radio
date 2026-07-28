@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1VhgbZTSoWnY5DGK0NoL-I",
  "title": "swoler bear 🐻❄️",
  "trackCount": 443,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Money Trees (feat. Jay Rock)",
@@ -40,8 +40,8 @@
    "duration": "3:10"
   },
   {
-   "title": "On The Come Up (feat. Big Sean)",
-   "artist": "Mike WiLL Made-It",
+   "title": "On The Come Up",
+   "artist": "Mike WiLL Made-It - Topic",
    "album": "Ransom 2",
    "videoId": "wBqZF40Bc5U",
    "duration": "3:56"
@@ -146,7 +146,7 @@
   },
   {
    "title": "Minute (feat. Playboi Carti & Offset)",
-   "artist": "Metro Boomin;NAV",
+   "artist": "NAV;Metro Boomin",
    "album": "Perfect Timing",
    "videoId": "WV3IoQeBrVw",
    "duration": "4:26"
@@ -236,7 +236,7 @@
    "duration": "5:11"
   },
   {
-   "title": "The Devil Is A Lie (feat. JAY-Z)",
+   "title": "The Devil Is A Lie (feat. JAŸ-Z)",
    "artist": "Rick Ross",
    "album": "Mastermind",
    "videoId": "CxR-T72nyQQ",
@@ -250,7 +250,7 @@
    "duration": "5:21"
   },
   {
-   "title": "Bitch, Don’t Kill My Vibe (Remix) (feat. JAY-Z)",
+   "title": "Bitch, Don’t Kill My Vibe (Remix) (feat. JAŸ-Z)",
    "artist": "Kendrick Lamar",
    "album": "good kid, m.A.A.d. city",
    "videoId": "NFxpwF6z9Lo",
@@ -258,7 +258,7 @@
   },
   {
    "title": "untitled 07 | levitate",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled 07 | levitate",
    "videoId": "WlVT5bvAlcY",
    "duration": "2:27"
@@ -279,7 +279,7 @@
   },
   {
    "title": "Modern Slavery",
-   "artist": "HUNCHO JACK;Travis Scott;Quavo",
+   "artist": "HUNCHO JACK",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "lLfBfsaGMlM",
    "duration": "2:29"
@@ -768,8 +768,8 @@
    "duration": "1:48"
   },
   {
-   "title": "The Load (feat. MaRLo)",
-   "artist": "Gucci Mane;Quality Control;Lil Baby",
+   "title": "The Load (feat. Marlo)",
+   "artist": "Quality Control;Gucci Mane;Lil Baby",
    "album": "Quality Control: Control The Streets Volume 1",
    "videoId": "t_cnMojd4NQ",
    "duration": "4:08"
@@ -902,7 +902,7 @@
   },
   {
    "title": "K.R.I.T. HERE",
-   "artist": "Big K.R.I.T.",
+   "artist": "Big K.R.I.T. - Topic",
    "album": "K.R.I.T. HERE",
    "videoId": "5h1nYaiAr_4",
    "duration": "3:21"
@@ -1511,7 +1511,7 @@
   },
   {
    "title": "I'm The Plug",
-   "artist": "Drake;Future",
+   "artist": "Drake - Topic",
    "album": "What a Time to Be Alive",
    "videoId": "DdJlpvo_YQU",
    "duration": "3:00"
@@ -1637,7 +1637,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Drake;Eminem;Lil Wayne;Kanye West",
+   "artist": "Drake;Kanye West;Lil Wayne;Eminem",
    "album": "More Than A Game",
    "videoId": "x7liVI9ozI4",
    "duration": "5:58"
@@ -1790,15 +1790,15 @@
    "duration": "3:26"
   },
   {
-   "title": "Blessings (feat. Drake & Kanye West)",
+   "title": "Blessings (feat. Drake)",
    "artist": "Big Sean",
    "album": "Blessings (Extended Version)",
    "videoId": "mUXI4R8Hv-0",
    "duration": "5:02"
   },
   {
-   "title": "Stay Schemin (feat. Drake)",
-   "artist": "French Montana;Rick Ross",
+   "title": "Stay Schemin (feat. French Montana & Drake)",
+   "artist": "Rick Ross",
    "album": "Stay Schemin",
    "videoId": "6b3GU_6YxB8",
    "duration": "4:28"
@@ -1868,14 +1868,14 @@
   },
   {
    "title": "Soul Survivor (feat. Akon)",
-   "artist": "Jeezy",
+   "artist": "Young Jeezy",
    "album": "Let's Get It: Thug Motivation 101",
    "videoId": "x1Rghrr9FUk",
    "duration": "4:41"
   },
   {
    "title": "Crazy World",
-   "artist": "Jeezy",
+   "artist": "Young Jeezy",
    "album": "The Recession",
    "videoId": "sIrNuGUepaY",
    "duration": "3:58"
@@ -1888,7 +1888,7 @@
    "duration": "5:22"
   },
   {
-   "title": "Seen It All (feat. JAY-Z)",
+   "title": "Seen It All (feat. JAŸ-Z)",
    "artist": "Jeezy",
    "album": "Seen It All: The Autobiography",
    "videoId": "FDuvoYoNMB4",
@@ -1909,7 +1909,7 @@
    "duration": "4:32"
   },
   {
-   "title": "Monster (feat. JAY-Z, Nicki Minaj, Rick Ross & Bon Iver)",
+   "title": "Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)",
    "artist": "Kanye West",
    "album": "My Beautiful Dark Twisted Fantasy",
    "videoId": "x3VSILX4-8o",
@@ -1917,28 +1917,28 @@
   },
   {
    "title": "Clique",
-   "artist": "Kanye West;JAY-Z;Big Sean",
+   "artist": "Kanye West;JAŸ-Z;Big Sean",
    "album": "Kanye West Presents Good Music Cruel Summer",
    "videoId": "3fKaGfKSsOo",
    "duration": "4:54"
   },
   {
    "title": "Public Service Announcement (Interlude)",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "gA2I9Nkn-7Y",
    "duration": "2:53"
   },
   {
-   "title": "Run This Town (feat. Kanye West & Rihanna)",
-   "artist": "JAY-Z",
+   "title": "Run This Town",
+   "artist": "JAY-Z - Topic",
    "album": "The Hits Collection Volume One",
    "videoId": "0YjTony3CH8",
    "duration": "4:29"
   },
   {
    "title": "Threat",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "r3-2E2AIcKY",
    "duration": "4:06"
@@ -2336,7 +2336,7 @@
    "duration": "3:29"
   },
   {
-   "title": "B.M.F. (Blowin' Money Fast) (feat. Styles)",
+   "title": "B.M.F. (Blowin' Money Fast) (feat. Styles P)",
    "artist": "Rick Ross",
    "album": "Teflon Don",
    "videoId": "h2d8C6ElZNk",
@@ -2553,8 +2553,8 @@
    "duration": "3:28"
   },
   {
-   "title": "Should've Ducked (feat. Pooh Shiesty)",
-   "artist": "Lil Durk",
+   "title": "Should've Ducked",
+   "artist": "Lil Durk - Topic",
    "album": "The Voice (Deluxe)",
    "videoId": "NELtzplzu1g",
    "duration": "3:12"
@@ -2931,7 +2931,7 @@
    "duration": "2:26"
   },
   {
-   "title": "Baby Scale (with Yung Gleesh) (Bonus Track) (feat. Gleesh)",
+   "title": "Baby Scale (with Yung Gleesh) (Bonus Track) (feat. Yung Gleesh)",
    "artist": "IDK",
    "album": "IWASVERYBAD",
    "videoId": "SlIwi9JLid0",
@@ -2953,7 +2953,7 @@
   },
   {
    "title": "Medellin",
-   "artist": "Activa;Aly & Fila",
+   "artist": "Aly & Fila;Activa",
    "album": "Rising Sun",
    "videoId": "bSTIYfiBoeo",
    "duration": "3:36"

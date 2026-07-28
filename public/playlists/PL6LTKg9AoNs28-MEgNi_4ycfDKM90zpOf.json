@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs28-MEgNi_4ycfDKM90zpOf",
  "title": "Riding (Night)",
  "trackCount": 263,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Nights",
@@ -187,8 +187,8 @@
    "duration": "4:01"
   },
   {
-   "title": "Losers (feat. Labrinth)",
-   "artist": "The Weeknd",
+   "title": "Losers",
+   "artist": "The Weeknd;Labrinth",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"
@@ -293,7 +293,7 @@
   },
   {
    "title": "Hold On, We're Going Home",
-   "artist": "Majid Jordan;Drake",
+   "artist": "Drake;Majid Jordan",
    "album": "Nothing Was The Same (Deluxe)",
    "videoId": "7a7zz1rKFsw",
    "duration": "3:48"
@@ -678,7 +678,7 @@
   },
   {
    "title": "Falling for U",
-   "artist": "Peachy!;mxmtoon",
+   "artist": "Peachy! - Topic",
    "album": "Falling for U",
    "videoId": "3x6Dk42ndGM",
    "duration": "2:04"
@@ -755,7 +755,7 @@
   },
   {
    "title": "bellyache",
-   "artist": "Billie Eilish",
+   "artist": "Billie Eilish - Topic",
    "album": "dont smile at me",
    "videoId": "Vg18eeEugOQ",
    "duration": "3:00"
@@ -1098,14 +1098,14 @@
   },
   {
    "title": "I See A Darkness",
-   "artist": "ROSALÍA",
+   "artist": "ROSALÍA - Topic",
    "album": "Los Ángeles",
    "videoId": "fg7GJghu4Zo",
    "duration": "4:09"
   },
   {
-   "title": "Narcissist (feat. The 1975)",
-   "artist": "No Rome",
+   "title": "Narcissist",
+   "artist": "No Rome - Topic",
    "album": "RIP Indo Hisashi",
    "videoId": "4zGX2NAqTVE",
    "duration": "3:16"
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "9 (feat. SZA)",
-   "artist": "WILLOW",
+   "artist": "Willow",
    "album": "3",
    "videoId": "FFYZ-mR-XUE",
    "duration": "4:14"
@@ -1238,7 +1238,7 @@
   },
   {
    "title": "8",
-   "artist": "WILLOW",
+   "artist": "WILLOW - Topic",
    "album": "3",
    "videoId": "qqVX5aQy-8A",
    "duration": "3:43"
@@ -1391,8 +1391,8 @@
    "duration": "3:49"
   },
   {
-   "title": "Lust For Life (The Avener Rework) (feat. The Weeknd)",
-   "artist": "Lana Del Rey;The Avener",
+   "title": "Lust For Life (The Avener Rework)",
+   "artist": "Lana Del Rey - Topic",
    "album": "Lust For Life (The Avener Rework)",
    "videoId": "0NFY_PR-kyI",
    "duration": "4:13"
@@ -1769,7 +1769,7 @@
    "duration": "3:59"
   },
   {
-   "title": "Hyyerr (feat. King Chip)",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "kwhTmdff1rs",

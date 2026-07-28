@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -13,7 +13,7 @@
   },
   {
    "title": "Everybody Wants To Rule The World",
-   "artist": "Tears for Fears",
+   "artist": "Tears For Fears",
    "album": "Songs From The Big Chair",
    "videoId": "U4zA0xnBEJU",
    "duration": "4:12"
@@ -76,7 +76,7 @@
   },
   {
    "title": "At Last",
-   "artist": "Etta James",
+   "artist": "Etta James - Topic",
    "album": "At Last!",
    "videoId": "1qJU8G7gR_g",
    "duration": "3:00"
@@ -306,7 +306,7 @@
    "duration": "4:51"
   },
   {
-   "title": "Stormy Weather",
+   "title": "Stormy Weather (feat. Peaches)",
    "artist": "Etta James",
    "album": "At Last!",
    "videoId": "9jDpI5-NzXI",
@@ -314,7 +314,7 @@
   },
   {
    "title": "Candy Rain",
-   "artist": "Soul for Real",
+   "artist": "Soul For Real",
    "album": "Candy Rain",
    "videoId": "j0rT2vq9g80",
    "duration": "4:37"
@@ -460,7 +460,7 @@
    "duration": "4:04"
   },
   {
-   "title": "Get It Together",
+   "title": "Get It Together (feat. Doug Lazy)",
    "artist": "702",
    "album": "No Doubt",
    "videoId": "HxGNLsz9V5c",
@@ -502,8 +502,8 @@
    "duration": "3:27"
   },
   {
-   "title": "Next Levels (feat. Stacy Epps, Invizible Handz, Stahhr & John Robinson)",
-   "artist": "King Geedorah",
+   "title": "Next Levels",
+   "artist": "King Geedorah - Topic",
    "album": "Take Me To Your Leader",
    "videoId": "vvtfSYmjFXc",
    "duration": "3:50"
@@ -657,20 +657,20 @@
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo",
+   "artist": "D'Angelo - Topic",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"
   },
   {
    "title": "Raid (feat. MED)",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;Madlib;MF Doom",
    "album": "Madvillainy",
    "videoId": "Y8eopWPE0Vg",
    "duration": "2:31"
   },
   {
-   "title": "Brown Sugar",
+   "title": "Brown Sugar (feat. Kool G Rap)",
    "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "-DNm9jn5z1w",
@@ -684,7 +684,7 @@
    "duration": "2:41"
   },
   {
-   "title": "Soon as I Get Home",
+   "title": "Soon as I Get Home (feat. Aaron Hall)",
    "artist": "Faith Evans",
    "album": "Faith",
    "videoId": "VKxZ7Mdhnyo",
@@ -741,7 +741,7 @@
   },
   {
    "title": "Petit pays",
-   "artist": "Cesaria Evora",
+   "artist": "Cesária Evora",
    "album": "Cesaria",
    "videoId": "LK8hUsxPUMU",
    "duration": "3:45"
@@ -769,7 +769,7 @@
   },
   {
    "title": "Debussy: Rêverie, CD 76",
-   "artist": "Claude Debussy;Jean-Yves Thibaudet",
+   "artist": "Jean-Yves Thibaudet;Claude Debussy",
    "album": "Debussy: Complete Works for Solo Piano, Vol.1",
    "videoId": "D5Ypbt_USRg",
    "duration": "4:17"
@@ -993,14 +993,14 @@
   },
   {
    "title": "UMI Says",
-   "artist": "Mos Def",
+   "artist": "Mos Def - Topic",
    "album": "Black On Both Sides",
    "videoId": "1W9yr_3p63o",
    "duration": "5:06"
   },
   {
    "title": "Arrow Through Me (Remastered 1993)",
-   "artist": "Paul McCartney",
+   "artist": "Paul McCartney - Topic",
    "album": "Back To The Egg",
    "videoId": "_zcYw3f2k44",
    "duration": "3:37"
@@ -1049,7 +1049,7 @@
   },
   {
    "title": "Venus In Furs",
-   "artist": "Nico;The Velvet Underground",
+   "artist": "The Velvet Underground;Nico",
    "album": "The Velvet Underground & Nico 45th Anniversary",
    "videoId": "KR7Lv8XZtkk",
    "duration": "5:13"
@@ -1112,7 +1112,7 @@
   },
   {
    "title": "You Used to Love Me",
-   "artist": "Faith Evans",
+   "artist": "Faith Evans - Topic",
    "album": "Faith",
    "videoId": "4k70tEVi69o",
    "duration": "4:30"
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Crazy Baldhead",
-   "artist": "Bob Marley",
+   "artist": "Bob Marley & The Wailers - Topic",
    "album": "Rastaman Vibration",
    "videoId": "NURbkMNM4Fc",
    "duration": "3:12"
@@ -1399,7 +1399,7 @@
   },
   {
    "title": "Gone Baby, Don't Be Long",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "New Amerykah Part Two: Return Of The Ankh",
    "videoId": "Vnt9XZjqxsc",
    "duration": "4:40"
@@ -1602,7 +1602,7 @@
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Cherrelle",
+   "artist": "Cherrelle - Topic",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -1783,8 +1783,8 @@
    "duration": "2:36"
   },
   {
-   "title": "I'll Stay (feat. D'Angelo)",
-   "artist": "The RH Factor",
+   "title": "I'll Stay",
+   "artist": "The RH Factor - Topic",
    "album": "Hard Groove",
    "videoId": "i8rCzk1Q1Ys",
    "duration": "7:51"
@@ -1847,7 +1847,7 @@
   },
   {
    "title": "Breakin' My Heart (Pretty Brown Eyes)",
-   "artist": "Mint Condition",
+   "artist": "Mint Condition - Topic",
    "album": "The Best Of Mint Condition 20th Century Masters The Millennium Collection",
    "videoId": "2SSuQpAlrFI",
    "duration": "5:56"
@@ -1888,15 +1888,15 @@
    "duration": "3:32"
   },
   {
-   "title": "Ain't No Love In The Heart Of The City (Single Version)",
-   "artist": "Bobby \"Blue\" Bland",
+   "title": "Ain't No Love In The Heart Of The City (Single Version) (feat. Michael Omartian)",
+   "artist": "Bobby Bland",
    "album": "Dreamer",
    "videoId": "38OOUDTsqM0",
    "duration": "3:54"
   },
   {
    "title": "Brighton Rock",
-   "artist": "Queen",
+   "artist": "Queen - Topic",
    "album": "Sheer Heart Attack",
    "videoId": "mtTaMwYr7-A",
    "duration": "5:11"
@@ -2043,7 +2043,7 @@
   },
   {
    "title": "Running Away (12-Inch Long Version)",
-   "artist": "Roy Ayers Ubiquity",
+   "artist": "Roy Ayers Ubiquity - Topic",
    "album": "Lifeline",
    "videoId": "G2L4vri6vM4",
    "duration": "6:54"
@@ -2288,7 +2288,7 @@
   },
   {
    "title": "Never Fight A Man With A Perm",
-   "artist": "IDLES",
+   "artist": "IDLES - Topic",
    "album": "Joy as an Act of Resistance.",
    "videoId": "7qWm9KXfz7E",
    "duration": "3:49"
@@ -2414,7 +2414,7 @@
   },
   {
    "title": "My Autumn's Done Come",
-   "artist": "Lee Hazlewood",
+   "artist": "Lee Hazlewood - Topic",
    "album": "The Very Special World Of Lee Hazlewood (Expanded Edition)",
    "videoId": "Qo24xN9mj8Q",
    "duration": "4:07"
@@ -2463,7 +2463,7 @@
   },
   {
    "title": "Paramahansa Lake",
-   "artist": "Alice Coltrane",
+   "artist": "Alice Coltrane - Topic",
    "album": "Huntington Ashram Monastery",
    "videoId": "03ue9Nii41g",
    "duration": "4:32"
@@ -2526,7 +2526,7 @@
   },
   {
    "title": "Cornerstone",
-   "artist": "Benjamin Clementine",
+   "artist": "Benjamin Clementine - Topic",
    "album": "At Least For Now",
    "videoId": "THGpEbV2TbA",
    "duration": "4:32"
@@ -2645,7 +2645,7 @@
   },
   {
    "title": "Satie: Gymnopédie No. 2. Lent et triste",
-   "artist": "Erik Satie;Pascal Rogé",
+   "artist": "Erik Satie - Topic",
    "album": "Satie: 3 Gymnopédies; 6 Gnossiennes etc.",
    "videoId": "IrXMXNUqnKk",
    "duration": "2:33"
@@ -2693,8 +2693,8 @@
    "duration": "10:54"
   },
   {
-   "title": "Stop On By (feat. Chaka Khan)",
-   "artist": "Rufus",
+   "title": "Stop On By",
+   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
    "album": "Rufusized",
    "videoId": "Be6RyTPT9fI",
    "duration": "4:54"
@@ -2855,7 +2855,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Orlando Julius",
+   "artist": "Orlando Julius - Topic",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -3009,7 +3009,7 @@
   },
   {
    "title": "Title Music from Merchant Ivory's film BOMBAY TALKIE",
-   "artist": " Shankar-Jaikishan",
+   "artist": "Shankar Jaikishan",
    "album": "The Darjeeling Limited",
    "videoId": "yUL1ANXP7kw",
    "duration": "2:33"
@@ -3176,7 +3176,7 @@
    "duration": "2:22"
   },
   {
-   "title": "A Peace Of Light (feat. Haley Dekle, Deradoorian & Amber Coffman)",
+   "title": "A Peace Of Light (feat. Amber Coffman, Angel Deradoorian & Haley Dekle)",
    "artist": "The Roots",
    "album": "How I Got Over",
    "videoId": "bvpMlr7Uxms",
@@ -3317,7 +3317,7 @@
   },
   {
    "title": "Renegade",
-   "artist": "The Zodiacs & The Baba Brooks Band",
+   "artist": "The Zodiacs;The Baba Brooks Band",
    "album": "Treasure Isle Presents: Ska",
    "videoId": "hU2k98dt10A",
    "duration": "2:41"
@@ -3415,7 +3415,7 @@
   },
   {
    "title": "Turn Left",
-   "artist": "Little Dragon",
+   "artist": "Little Dragon - Topic",
    "album": "Little Dragon",
    "videoId": "AToAysg5YZo",
    "duration": "4:06"
@@ -3520,7 +3520,7 @@
   },
   {
    "title": "Fang Jai Viangjan",
-   "artist": "เทพพร เพชรอุบล",
+   "artist": "Thepporn Petchubon",
    "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "aBn3OOxs2Pk",
    "duration": "4:09"
@@ -3653,7 +3653,7 @@
   },
   {
    "title": "Canto de Yemanjá",
-   "artist": "Quarteto em Cy;Baden Powell",
+   "artist": "QUARTETO EM CY - Topic",
    "album": "Os Afro-Sambas",
    "videoId": "RxIkg-GFpKE",
    "duration": "6:04"
@@ -3709,7 +3709,7 @@
   },
   {
    "title": "Farewell To Earnest from Merchant Ivory's film THE HOUSEHOLDER",
-   "artist": "Jyotirindra Moitra & Akbar Khan",
+   "artist": "Jyotirindra Moitra & Ustad Ali Akbar Khan",
    "album": "The Darjeeling Limited",
    "videoId": "SzPuofUgqGA",
    "duration": "2:00"
@@ -3800,7 +3800,7 @@
   },
   {
    "title": "Title Music from Merchant Ivory's film THE HOUSEHOLDER",
-   "artist": "Jyotirindra Moitra & Mamady Keïta",
+   "artist": "Jyotirindra Moitra & Ustad Ali Akbar Khan",
    "album": "The Darjeeling Limited",
    "videoId": "wZMD_j1lYWU",
    "duration": "1:38"
@@ -3863,7 +3863,7 @@
   },
   {
    "title": "Fever",
-   "artist": "James Brown",
+   "artist": "James Brown - Topic",
    "album": "Cold Sweat",
    "videoId": "W_9iq6vb24E",
    "duration": "3:04"
@@ -3884,7 +3884,7 @@
   },
   {
    "title": "Looking Through The Eyes Of Love",
-   "artist": "Marlena Shaw",
+   "artist": "Marlena Shaw - Topic",
    "album": "The Spice Of Life",
    "videoId": "bW7TPMaMj_U",
    "duration": "2:58"
@@ -3919,7 +3919,7 @@
   },
   {
    "title": "Eujoaideen",
-   "artist": "The Scorpios",
+   "artist": "Scorpios",
    "album": "The Scorpios",
    "videoId": "psoNG0DZQ64",
    "duration": "4:40"
@@ -4101,14 +4101,14 @@
   },
   {
    "title": "鉄鎖",
-   "artist": "Mid-Air Thief",
+   "artist": "Mid-Air Thief - Topic",
    "album": "Crumbling",
    "videoId": "WjQKPf1qkeY",
    "duration": "5:08"
   },
   {
    "title": "Moi je suis découragé",
-   "artist": "Balla et ses Balladins",
+   "artist": "Balla et ses Balladins - Topic",
    "album": "Discothèque 70",
    "videoId": "7WVLncYwb-o",
    "duration": "5:44"
@@ -4143,7 +4143,7 @@
   },
   {
    "title": "Lonnie's Lament",
-   "artist": "John Coltrane",
+   "artist": "John Coltrane Quartet",
    "album": "The Classic Quartet-Complete Impulse! Studio Recordings",
    "videoId": "G3Zrh38wJwo",
    "duration": "11:48"
@@ -4220,7 +4220,7 @@
   },
   {
    "title": "Samba De Orfeo",
-   "artist": "Luiz Bonfá  ",
+   "artist": "Luiz Bonfá",
    "album": "Black Orpheus (Original Motion Picture Soundtrack)",
    "videoId": "JZnYgdDI2WY",
    "duration": "1:59"
@@ -4234,7 +4234,7 @@
   },
   {
    "title": "Christmas Time Is Here",
-   "artist": "Vince Guaraldi",
+   "artist": "Vince Guaraldi Trio",
    "album": "Peanuts Greatest Hits (Music From The TV Specials)",
    "videoId": "YH3iitaoNao",
    "duration": "2:47"
@@ -4437,7 +4437,7 @@
   },
   {
    "title": "Overture To A Holiday In Berlin",
-   "artist": "Frank Zappa;The Mothers of Invention",
+   "artist": "Frank Zappa - Topic",
    "album": "Burnt Weeny Sandwich",
    "videoId": "VKtJxWtM2xY",
    "duration": "1:28"
@@ -4703,7 +4703,7 @@
   },
   {
    "title": "A Felicidade (Non mixé)",
-   "artist": "Agostinho dos Santos",
+   "artist": "Agostinho Dos Santos",
    "album": "Black Orpheus (US Edition)",
    "videoId": "0FNTYWdEDGw",
    "duration": "2:45"
@@ -4787,7 +4787,7 @@
   },
   {
    "title": "Sakhodougou",
-   "artist": "Balla et ses Balladins",
+   "artist": "Balla Et Ses Balladins",
    "album": "The Syliphone Years",
    "videoId": "2JlfEBHXU28",
    "duration": "5:06"
@@ -5074,7 +5074,7 @@
   },
   {
    "title": "GO",
-   "artist": "Tekno",
+   "artist": "Tekno - Topic",
    "album": "GO",
    "videoId": "k-FsZk8kPHs",
    "duration": "4:03"
@@ -5088,7 +5088,7 @@
   },
   {
    "title": "Do You Believe",
-   "artist": "The Supreme Jubilees",
+   "artist": "The Supreme Jubilees - Topic",
    "album": "It'll All Be Over",
    "videoId": "lcywOhqZrSg",
    "duration": "4:02"
@@ -5158,7 +5158,7 @@
   },
   {
    "title": "Moi ça ma fout",
-   "artist": "Balla et ses Balladins",
+   "artist": "Balla Et Ses Balladins",
    "album": "The Syliphone Years",
    "videoId": "bzB0PquSsKg",
    "duration": "4:00"
@@ -5186,14 +5186,14 @@
   },
   {
    "title": "Talassa",
-   "artist": "Keletigui Et Ses Tambourinis",
+   "artist": "Kélétigui et ses Tambourinis",
    "album": "Kélétigui et ses Tambourinis",
    "videoId": "LSb4_M1NN9U",
    "duration": "4:53"
   },
   {
    "title": "Africa Centre of the World",
-   "artist": "Roy Ayers;Fela Kuti",
+   "artist": "Fela Kuti;Roy Ayers",
    "album": "Music of Many Colours",
    "videoId": "mO_fr6oxEtQ",
    "duration": "17:32"
@@ -5207,7 +5207,7 @@
   },
   {
    "title": "P.D.G.",
-   "artist": "Balla et ses Balladins",
+   "artist": "Balla et ses Balladins - Topic",
    "album": "Grand tierce musical",
    "videoId": "C40B0jBUFnY",
    "duration": "4:49"
@@ -5235,7 +5235,7 @@
   },
   {
    "title": "Scène de la Macumba",
-   "artist": "Release - Topic",
+   "artist": "Various Artists",
    "album": "Orfeu Negro",
    "videoId": "t0d3V_yKAu8",
    "duration": "13:01"
@@ -5279,7 +5279,7 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "pQsF3pzOc54",
+   "videoId": "MJoSyNdffGo",
    "duration": "3:52"
   },
   {
@@ -5291,7 +5291,7 @@
   },
   {
    "title": "Army of Me",
-   "artist": "Björk",
+   "artist": "Bjork",
    "album": "Post",
    "videoId": "VaLfiKq_Kvw",
    "duration": "3:55"
@@ -5312,7 +5312,7 @@
   },
   {
    "title": "Kolobok",
-   "artist": "Slava Grigoryan & Leonard Grigoryan",
+   "artist": "Slava Grigoryan - Topic",
    "album": "Play",
    "videoId": "PlFcIThh264",
    "duration": "12:20"
@@ -5333,7 +5333,7 @@
   },
   {
    "title": "Kije's Ouija",
-   "artist": "The Free Design",
+   "artist": "The Free Design - Topic",
    "album": "The Best Of The Free Design: Kites Are Fun",
    "videoId": "tTqBpqvvkaM",
    "duration": "3:14"
@@ -5347,7 +5347,7 @@
   },
   {
    "title": "Radio Mali Broadcast (Tape 1)",
-   "artist": "Les Ambassadeurs",
+   "artist": "Les Ambassadeurs du Motel de Bamako",
    "album": "Les ambassadeurs du motel de Bamako, Vol. 2",
    "videoId": "4hjEes8cveE",
    "duration": "2:47"
@@ -5522,7 +5522,7 @@
   },
   {
    "title": "Do You Love What You Feel",
-   "artist": "Rufus",
+   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
    "album": "Masterjam",
    "videoId": "XK0TiqUTcZY",
    "duration": "4:30"
@@ -5556,15 +5556,15 @@
    "duration": "3:33"
   },
   {
-   "title": "Skin Tight",
-   "artist": "Mr Eazi;Efya",
+   "title": "Skin Tight (feat. Terry G.)",
+   "artist": "Mr Eazi",
    "album": "Skin Tight",
    "videoId": "6KY5S3Opyxo",
    "duration": "4:09"
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Cherrelle",
+   "artist": "Cherrelle - Topic",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -5592,7 +5592,7 @@
   },
   {
    "title": "Beasts of No Nation",
-   "artist": "Fela Kuti",
+   "artist": "Fela Kuti - Topic",
    "album": "Beasts of No Nation",
    "videoId": "4PnYibv4TE8",
    "duration": "28:20"
@@ -5620,7 +5620,7 @@
   },
   {
    "title": "Magnólia",
-   "artist": "Jorge Ben Jor",
+   "artist": "Jorge Ben",
    "album": "A Tabua De Esmeralda",
    "videoId": "NE0FAmjSE_8",
    "duration": "3:15"
@@ -5661,8 +5661,8 @@
    "duration": "3:02"
   },
   {
-   "title": "Close The Door (feat. Chaka Khan)",
-   "artist": "Rufus",
+   "title": "Close The Door",
+   "artist": "Rufus Featuring Chaka Khan;Chaka Khan",
    "album": "Ask Rufus",
    "videoId": "i9NbcYv4DUg",
    "duration": "3:26"
@@ -5683,7 +5683,7 @@
   },
   {
    "title": "Change Clothes",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "71-qWbczSmc",
    "duration": "4:19"
@@ -5760,7 +5760,7 @@
   },
   {
    "title": "Back in Brazil",
-   "artist": "Karriem Riggins",
+   "artist": "Karriem Riggins - Topic",
    "album": "Alone Together",
    "videoId": "B1ZvmzfUJv0",
    "duration": "1:00"
@@ -5774,14 +5774,14 @@
   },
   {
    "title": "Mouths Cradle",
-   "artist": "Björk",
+   "artist": "Bjork",
    "album": "Medulla",
    "videoId": "deR7EuZySvQ",
    "duration": "4:00"
   },
   {
-   "title": "Come Through And Chill (feat. Miguel)",
-   "artist": "Salaam Remi",
+   "title": "Come Through And Chill (feat. J. Cole & Salaam Remi)",
+   "artist": "Miguel",
    "album": "Come Through and Chill",
    "videoId": "ooWlX3DYALs",
    "duration": "4:39"
@@ -5808,7 +5808,7 @@
    "duration": "3:34"
   },
   {
-   "title": "Do For Love",
+   "title": "Do For Love (feat. Eric Williams)",
    "artist": "2Pac",
    "album": "R U Still Down? [Remember Me]",
    "videoId": "Y2cWHiKaFjc",
@@ -5879,14 +5879,14 @@
   },
   {
    "title": "Mas, Que Nada!",
-   "artist": "Jorge Ben Jor",
+   "artist": "Jorge Ben",
    "album": "Samba Esquema Novo",
    "videoId": "hg0XftC43Zo",
    "duration": "3:00"
   },
   {
-   "title": "Stop On By (feat. Chaka Khan)",
-   "artist": "Rufus",
+   "title": "Stop On By",
+   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
    "album": "Rufusized",
    "videoId": "Be6RyTPT9fI",
    "duration": "4:54"
@@ -5907,7 +5907,7 @@
   },
   {
    "title": "Diamonds Are a Girl's Best Friend (From \"Gentlemen Prefer Blondes\")",
-   "artist": "Marilyn Monroe",
+   "artist": "Marilyn Monroe - Topic",
    "album": "Diamonds Are a Girl's Best Friend",
    "videoId": "WRhc-GY9opg",
    "duration": "3:32"
@@ -5956,7 +5956,7 @@
   },
   {
    "title": "Mama (feat. Wizkid)",
-   "artist": "Tekno",
+   "artist": "Wizkid",
    "album": "Mama",
    "videoId": "XH4HD2vBT4Y",
    "duration": "4:11"
@@ -5970,7 +5970,7 @@
   },
   {
    "title": "Ain't No Woman (Like The One I've Got)",
-   "artist": "The Four Tops ",
+   "artist": "Four Tops",
    "album": "Keeper Of The Castle",
    "videoId": "kGNEYd7eClE",
    "duration": "3:08"
@@ -6005,7 +6005,7 @@
   },
   {
    "title": "Curls",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;Madlib;MF Doom",
    "album": "Madvillainy",
    "videoId": "tv2q9vQ7GOI",
    "duration": "1:36"
@@ -6110,14 +6110,14 @@
   },
   {
    "title": "Yur Luv",
-   "artist": "Tekno",
+   "artist": "Tekno - Topic",
    "album": "Yur Luv",
    "videoId": "M73UMQiJ3dA",
    "duration": "3:52"
   },
   {
    "title": "Come Wander With Me",
-   "artist": "Benjamin Roskams & VOCES8",
+   "artist": "VOCES8 & Benjamin Roskams",
    "album": "Winter",
    "videoId": "ZIjOXsZUrMA",
    "duration": "4:06"
@@ -6145,14 +6145,14 @@
   },
   {
    "title": "Peace Piece",
-   "artist": "Bill Evans",
+   "artist": "Bill Evans Trio",
    "album": "Everybody Digs Bill Evans",
    "videoId": "ocAf1rK3fxE",
    "duration": "6:41"
   },
   {
    "title": "My People...Hold On",
-   "artist": "Eddie Kendricks",
+   "artist": "Eddie Kendricks - Topic",
    "album": "Keep On Truckin’: The Motown Solo Albums, Vol. 1",
    "videoId": "cUNyukMyfdA",
    "duration": "5:39"
@@ -6166,14 +6166,14 @@
   },
   {
    "title": "Holst: The Planets, Op. 32: II. Venus, the Bringer of Peace",
-   "artist": "Herbert von Karajan;Berliner Philharmoniker;Gustav Holst",
+   "artist": "Berliner Philharmoniker;Herbert von Karajan;Gustav Holst",
    "album": "Holst: The Planets",
    "videoId": "nK47lebKTXY",
    "duration": "8:37"
   },
   {
    "title": "A7 Mix",
-   "artist": "Karriem Riggins",
+   "artist": "Karriem Riggins - Topic",
    "album": "Alone Together",
    "videoId": "kmsX_7tH5Sk",
    "duration": "1:17"
@@ -6201,7 +6201,7 @@
   },
   {
    "title": "Frogs Tears",
-   "artist": "JAALA",
+   "artist": "Jaala",
    "album": "Joonya Spirit",
    "videoId": "SuBfqp4lTNE",
    "duration": "4:53"
@@ -6228,7 +6228,7 @@
    "duration": "5:54"
   },
   {
-   "title": "Street Talkin' (feat. Outkast)",
+   "title": "Street Talkin' (feat. OutKast)",
    "artist": "Slick Rick",
    "album": "The Art Of Storytelling",
    "videoId": "czRr7oIqwfA",
@@ -6320,7 +6320,7 @@
   },
   {
    "title": "Rosa, Menina Rosa",
-   "artist": "Jorge Ben Jor",
+   "artist": "Jorge Ben",
    "album": "Samba Esquema Novo",
    "videoId": "Z6nJMAG8NoQ",
    "duration": "2:14"
@@ -6502,7 +6502,7 @@
   },
   {
    "title": "Lam Plearn Mee Mia Laew Pai",
-   "artist": "อังคนางค์ คุณไชย",
+   "artist": "Angkanang Kunchai",
    "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "3UXX1-Le3zU",
    "duration": "3:46"
@@ -6530,7 +6530,7 @@
   },
   {
    "title": "Ruby",
-   "artist": "Toumani Diabaté;Ali Farka Touré",
+   "artist": "Ali Farka Touré;Toumani Diabaté",
    "album": "Ali & Toumani",
    "videoId": "1GEjsxkyNG0",
    "duration": "5:56"
@@ -6670,7 +6670,7 @@
   },
   {
    "title": "Ram On",
-   "artist": "Linda McCartney;Paul McCartney",
+   "artist": "Paul McCartney;Linda McCartney",
    "album": "RAM",
    "videoId": "Q3wlxujmD3A",
    "duration": "2:30"
@@ -6726,7 +6726,7 @@
   },
   {
    "title": "Fai Yen",
-   "artist": "เรียม ดาราน้อย",
+   "artist": "Ream Daranoi",
    "album": "Sound of Siam, Vol. 1 - Leftfield Luk Thung, Jazz & Molam in Thailand 1964-1975",
    "videoId": "ZV2-inun1ZU",
    "duration": "4:35"
@@ -6816,8 +6816,8 @@
    "duration": "12:28"
   },
   {
-   "title": "Turn Up (feat. Wizkid & Reekado Banks)",
-   "artist": "DJ Tunez",
+   "title": "Turn Up",
+   "artist": "DJ Tunez - Topic",
    "album": "Turn Up",
    "videoId": "OL7cF6Spk10",
    "duration": "4:10"
@@ -6866,7 +6866,7 @@
   },
   {
    "title": "Sitra",
-   "artist": "Darkside",
+   "artist": "DARKSIDE - Topic",
    "album": "Psychic",
    "videoId": "gyLykTtbxgc",
    "duration": "1:23"
@@ -6957,21 +6957,21 @@
   },
   {
    "title": "Lam Plearn Kon Baa Huay",
-   "artist": "บานเย็น ศรีวงษา",
+   "artist": "Banyen Sriwongsa",
    "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "-pZ7h2Nti-E",
    "duration": "3:45"
   },
   {
    "title": "Kid Hod Chu",
-   "artist": "อังคนางค์ คุณไชย",
+   "artist": "Angkanang Kunchai",
    "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "6nddpX04cwc",
    "duration": "2:41"
   },
   {
    "title": "Powaline",
-   "artist": "Liv.e",
+   "artist": "Liv.e - Topic",
    "album": "Hoopdreams",
    "videoId": "zVx9NhlXfsk",
    "duration": "2:34"
@@ -7048,7 +7048,7 @@
   },
   {
    "title": "Never Dreamed You'd Leave In Summer",
-   "artist": "Stevie Wonder",
+   "artist": "Stevie Wonder - Topic",
    "album": "Where I'm Coming From",
    "videoId": "FrLDXORRDpo",
    "duration": "2:53"
@@ -7090,7 +7090,7 @@
   },
   {
    "title": "New Track (Populette Remix)",
-   "artist": "Francis Bebey",
+   "artist": "Francis Bebey - Topic",
    "album": "Francis Bebey Remix",
    "videoId": "p74Rvs5d1p0",
    "duration": "6:22"
@@ -7461,7 +7461,7 @@
   },
   {
    "title": "Mirrors",
-   "artist": "Dam-Funk",
+   "artist": "Dâm-Funk",
    "album": "Toeachizown",
    "videoId": "miVDEXlY7DQ",
    "duration": "3:20"
@@ -7531,7 +7531,7 @@
   },
   {
    "title": "Kubali",
-   "artist": "Debmaster;MC Yallah",
+   "artist": "Debmaster - Topic",
    "album": "Kubali",
    "videoId": "1Kt--pMV7Ws",
    "duration": "2:24"
@@ -7587,14 +7587,14 @@
   },
   {
    "title": "54-46 Was My Number",
-   "artist": "Toots & The Maytals",
+   "artist": "The Maytals",
    "album": "Ska & Reggae Classics",
    "videoId": "c2ZMknReLRU",
    "duration": "3:11"
   },
   {
    "title": "Sincerely, Yours",
-   "artist": "sophie meiers",
+   "artist": "Sophie Meiers - Topic",
    "album": "Candle Glow",
    "videoId": "sfTukc9zun8",
    "duration": "2:33"
@@ -7622,7 +7622,7 @@
   },
   {
    "title": "Lumumba",
-   "artist": "Balla et ses Balladins",
+   "artist": "Balla Et Ses Balladins",
    "album": "The Syliphone Years",
    "videoId": "6Fz4d81AmcQ",
    "duration": "5:57"
@@ -7741,7 +7741,7 @@
   },
   {
    "title": "Hope You're Doin' Better",
-   "artist": "Mndsgn",
+   "artist": "MNDSGN - Topic",
    "album": "Hope You're Doin' Better",
    "videoId": "gzjhfZ3ZJnI",
    "duration": "4:36"
@@ -7783,7 +7783,7 @@
   },
   {
    "title": "Soy Gitano",
-   "artist": "Royal Philharmonic Orchestra;Camarón De La Isla",
+   "artist": "Royal Philharmonic Orchestra - Topic",
    "album": "Autorretrato",
    "videoId": "Buc6eanwRys",
    "duration": "4:16"
@@ -7888,7 +7888,7 @@
   },
   {
    "title": "Haira Yo",
-   "artist": "Afel Bocoum",
+   "artist": "Afel Bocoum - Topic",
    "album": "Alkibar",
    "videoId": "r2ftXW3ynZQ",
    "duration": "5:10"
@@ -7916,7 +7916,7 @@
   },
   {
    "title": "Oceania",
-   "artist": "Björk",
+   "artist": "Bjork",
    "album": "Medulla",
    "videoId": "XKAUjPO9vAc",
    "duration": "3:23"
@@ -7937,7 +7937,7 @@
   },
   {
    "title": "Ffunny Ffrends",
-   "artist": "Unknown Mortal Orchestra",
+   "artist": "Unknown Mortal Orchestra - Topic",
    "album": "Unknown Mortal Orchestra",
    "videoId": "kCgZXZU8TQk",
    "duration": "4:17"
@@ -7986,7 +7986,7 @@
   },
   {
    "title": "African Herbman",
-   "artist": "Release - Topic",
+   "artist": "Bob Marley & The Wailers",
    "album": "The Wonderman Years",
    "videoId": "BU-LjjPQ3LM",
    "duration": "2:24"

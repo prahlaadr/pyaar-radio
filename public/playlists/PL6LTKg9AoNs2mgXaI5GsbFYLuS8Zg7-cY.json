@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -125,7 +125,7 @@
   },
   {
    "title": "No Signal",
-   "artist": "Escapism Refuge",
+   "artist": "Escapism Refuge - Topic",
    "album": "Smokin' Sessions, Vol. 31",
    "videoId": "fWO5MqOsonw",
    "duration": "4:41"
@@ -195,7 +195,7 @@
   },
   {
    "title": "Halfworld Projects",
-   "artist": "Mershak",
+   "artist": "Mershak - Topic",
    "album": "ENC003",
    "videoId": "yabi1ksQMGI",
    "duration": "5:46"
@@ -230,7 +230,7 @@
   },
   {
    "title": "CWSG",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "KeKgGLxgr8Y",
    "duration": "4:40"
@@ -377,7 +377,7 @@
   },
   {
    "title": "Life Through Sepia",
-   "artist": "The Things They Left Behind",
+   "artist": "The Things They Left Behind - Topic",
    "album": "Life Through Sepia",
    "videoId": "nfdHsMedmWI",
    "duration": "6:37"
@@ -405,7 +405,7 @@
   },
   {
    "title": "Establishment",
-   "artist": "Indiji",
+   "artist": "Release - Topic",
    "album": "Surgeon",
    "videoId": "Win7ZCNblBU",
    "duration": "5:34"
@@ -454,7 +454,7 @@
   },
   {
    "title": "Recoome",
-   "artist": "Binary",
+   "artist": "Binary - Topic",
    "album": "ENC25D",
    "videoId": "MEtLNxbpW-w",
    "duration": "5:02"
@@ -524,7 +524,7 @@
   },
   {
    "title": "You're My (feat. Phephe)",
-   "artist": "Von D & Mr. Lager",
+   "artist": "Von D & Mr Lager",
    "album": "Daydreaming",
    "videoId": "4wbKh-gngOA",
    "duration": "5:46"
@@ -538,7 +538,7 @@
   },
   {
    "title": "Questions",
-   "artist": "Content",
+   "artist": "Content - Topic",
    "album": "ENC008",
    "videoId": "e2VDITmSogs",
    "duration": "5:06"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Slugfest",
-   "artist": "SP:MC",
+   "artist": "SP:MC - Topic",
    "album": "Vintage / Slugfest",
    "videoId": "lkrcLFFgfec",
    "duration": "5:45"
@@ -664,7 +664,7 @@
   },
   {
    "title": "Locking Up",
-   "artist": "District",
+   "artist": "District - Topic",
    "album": "Drowsy",
    "videoId": "jvFeoFxF38A",
    "duration": "5:02"
@@ -678,7 +678,7 @@
   },
   {
    "title": "Revolutions",
-   "artist": "About An Author",
+   "artist": "Author",
    "album": "Author",
    "videoId": "5Q4OM7FmeRU",
    "duration": "4:57"
@@ -755,7 +755,7 @@
   },
   {
    "title": "Blow My Smoke (Bukez Finezt Remix)",
-   "artist": "Juss B",
+   "artist": "Juss B - Topic",
    "album": "Bussin / Blow My Smoke (Bukez Finezt Remix)",
    "videoId": "2_msipXVyHA",
    "duration": "5:11"
@@ -776,7 +776,7 @@
   },
   {
    "title": "Struggle",
-   "artist": "J.Appiah;Leo James",
+   "artist": "J.Appiah - Topic",
    "album": "Struggle",
    "videoId": "kkxcgFA1hak",
    "duration": "6:25"
@@ -796,7 +796,7 @@
    "duration": "4:55"
   },
   {
-   "title": "K.S.P. (feat. Eprom & Alix Perez)",
+   "title": "K.S.P. (feat. Alix Perez & Eprom)",
    "artist": "Shades",
    "album": "Night The Dreadless Angel",
    "videoId": "bEVd_6WH6cw",
@@ -839,7 +839,7 @@
   },
   {
    "title": "Lights Off",
-   "artist": "Skratch;Orson + Skratch",
+   "artist": "Orson;Skratch",
    "album": "Nucleus / Lights Off",
    "videoId": "mhj2WeS3Y5I",
    "duration": "6:31"
@@ -950,15 +950,15 @@
    "duration": "3:31"
   },
   {
-   "title": "On The Boil (feat. Quantum Soul)",
-   "artist": "Author",
+   "title": "On The Boil",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "LA7NbFAeUDg",
    "duration": "5:59"
   },
   {
    "title": "Rost",
-   "artist": "Soukah, T.A.R, & Primer",
+   "artist": "Primer;Soukah;Tar",
    "album": "RARE7",
    "videoId": "N406t2qA6RM",
    "duration": "4:28"
@@ -1014,7 +1014,7 @@
   },
   {
    "title": "Icebörg (SubMarine Remix)",
-   "artist": "Stizzla, Eater;Eater",
+   "artist": "Stizzla;Eater",
    "album": "Schlachthaus",
    "videoId": "iOybAZ9wfaY",
    "duration": "5:02"
@@ -1083,8 +1083,8 @@
    "duration": "4:11"
   },
   {
-   "title": "Chant (feat. June Miller & Rider Shafique)",
-   "artist": "Author",
+   "title": "Chant (feat. Rider Shafique)",
+   "artist": "Rider Shafique",
    "album": "Forward Forever",
    "videoId": "FKlvZofdahI",
    "duration": "5:29"
@@ -1098,14 +1098,14 @@
   },
   {
    "title": "Noughties Riddim",
-   "artist": "Icicle",
+   "artist": "Release - Topic",
    "album": "Raising The Dead",
    "videoId": "ILm4MFuHX9A",
    "duration": "3:57"
   },
   {
    "title": "V1",
-   "artist": "Epoch",
+   "artist": "Release - Topic",
    "album": "V1",
    "videoId": "4vLJxkRTixg",
    "duration": "5:09"
@@ -1196,7 +1196,7 @@
   },
   {
    "title": "Clickers",
-   "artist": "Kamikaze Space Programme",
+   "artist": "Kamikaze Space Programme - Topic",
    "album": "Humanoid EP",
    "videoId": "ahZLTsLaO6Y",
    "duration": "6:36"
@@ -1315,7 +1315,7 @@
   },
   {
    "title": "Hask",
-   "artist": "Kloudmen",
+   "artist": "Kloudmen - Topic",
    "album": "ENC002",
    "videoId": "PSyOJgxpBoA",
    "duration": "5:06"
@@ -1385,7 +1385,7 @@
   },
   {
    "title": "No Escape",
-   "artist": "Ghäst",
+   "artist": "Ghäst - Topic",
    "album": "ENC022",
    "videoId": "gg_zsCyfc6c",
    "duration": "4:18"
@@ -1531,7 +1531,7 @@
    "duration": "5:56"
   },
   {
-   "title": "Creepin' (feat. Eprom & Alix Perez)",
+   "title": "Creepin' (feat. Alix Perez & Eprom)",
    "artist": "Shades",
    "album": "Night The Dreadless Angel",
    "videoId": "IjbEvjPLYlE",
@@ -1637,7 +1637,7 @@
   },
   {
    "title": "A Result of Sound",
-   "artist": "Greg",
+   "artist": "Greg - Topic",
    "album": "A Result of Sound / Deserted",
    "videoId": "xp1E_md1UIs",
    "duration": "5:07"
@@ -1700,14 +1700,14 @@
   },
   {
    "title": "Low Rider",
-   "artist": "Juss B",
+   "artist": "Juss B - Topic",
    "album": "Vain",
    "videoId": "AMPv1vDOLxQ",
    "duration": "5:17"
   },
   {
    "title": "Living in Unity (Wonderful World Mix)",
-   "artist": "RSD",
+   "artist": "RSD - Topic",
    "album": "B Line Fi Blo / Living in Unity",
    "videoId": "ePgS5Fb_YF4",
    "duration": "6:13"
@@ -1847,7 +1847,7 @@
   },
   {
    "title": "Sigil",
-   "artist": "Zygos;Sibla",
+   "artist": "Zygos - Topic",
    "album": "The Path",
    "videoId": "pJwjOEXyk60",
    "duration": "5:33"
@@ -1994,7 +1994,7 @@
   },
   {
    "title": "Nucleus",
-   "artist": "Skratch;Orson + Skratch",
+   "artist": "Orson;Skratch",
    "album": "Nucleus / Lights Off",
    "videoId": "MnLixQl9d6U",
    "duration": "6:15"
@@ -2015,7 +2015,7 @@
   },
   {
    "title": "Provoker",
-   "artist": "Zygos",
+   "artist": "Zygos - Topic",
    "album": "ENC014",
    "videoId": "g2Nngu6e6EM",
    "duration": "4:35"
@@ -2085,7 +2085,7 @@
   },
   {
    "title": "Level 3",
-   "artist": "Dayzero",
+   "artist": "Dayzero - Topic",
    "album": "ENC036D",
    "videoId": "-S1iL_6wZ4c",
    "duration": "5:17"
@@ -2148,7 +2148,7 @@
   },
   {
    "title": "Huckster",
-   "artist": "Sibla",
+   "artist": "Sibla - Topic",
    "album": "You Know What",
    "videoId": "HGs4ZPtloU4",
    "duration": "5:41"
@@ -2211,7 +2211,7 @@
   },
   {
    "title": "Texers",
-   "artist": "Beneath",
+   "artist": "Release - Topic",
    "album": "Duty / Texers",
    "videoId": "268ZFLzadAs",
    "duration": "5:57"
@@ -2323,7 +2323,7 @@
   },
   {
    "title": "Siyam",
-   "artist": "Release - Topic",
+   "artist": "Gantz",
    "album": "Enso / Siyam",
    "videoId": "tq7e-KKIuQA",
    "duration": "5:23"
@@ -2435,7 +2435,7 @@
   },
   {
    "title": "Orgones",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "06hSgrGQetY",
    "duration": "4:46"
@@ -2575,7 +2575,7 @@
   },
   {
    "title": "Lesson",
-   "artist": "Las",
+   "artist": "LAS",
    "album": "Your Eyes EP",
    "videoId": "-q9nz-4j8_M",
    "duration": "4:24"
@@ -2623,8 +2623,8 @@
    "duration": "4:55"
   },
   {
-   "title": "Jah Live (feat. Dan Man)",
-   "artist": "Author",
+   "title": "Jah Live",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "6cqgeQgNy6A",
    "duration": "5:40"
@@ -2659,7 +2659,7 @@
   },
   {
    "title": "Keep Moving (feat. Rider Shafique)",
-   "artist": "Author",
+   "artist": "Rider Shafique",
    "album": "Forward Forever",
    "videoId": "la1YWr5J0uQ",
    "duration": "6:11"
@@ -2694,7 +2694,7 @@
   },
   {
    "title": "Clickers (Mønic Version)",
-   "artist": "Kamikaze Space Programme",
+   "artist": "Kamikaze Space Programme - Topic",
    "album": "Humanoid EP",
    "videoId": "hPlcWQwr0Ww",
    "duration": "5:44"
@@ -2799,7 +2799,7 @@
   },
   {
    "title": "Stillness",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "WFPlCFEZIc8",
    "duration": "6:16"
@@ -2834,7 +2834,7 @@
   },
   {
    "title": "Niagra",
-   "artist": "Release - Topic",
+   "artist": "Biome",
    "album": "View From The Edge",
    "videoId": "jK_nnHund6Y",
    "duration": "5:10"
@@ -2862,7 +2862,7 @@
   },
   {
    "title": "Ozone",
-   "artist": "Kloudmen",
+   "artist": "Kloudmen - Topic",
    "album": "Kloudmen",
    "videoId": "PV11xhmervY",
    "duration": "5:57"
@@ -3086,7 +3086,7 @@
   },
   {
    "title": "Drumspeak",
-   "artist": "Mikael;LAS",
+   "artist": "LAS;Mikael",
    "album": "Outlaw EP",
    "videoId": "c1ThB3zp7dU",
    "duration": "4:37"
@@ -3114,7 +3114,7 @@
   },
   {
    "title": "Lost & Found",
-   "artist": "J.Appiah;Leo James",
+   "artist": "J.Appiah - Topic",
    "album": "Struggle",
    "videoId": "TfUz_7NXqig",
    "duration": "5:35"
@@ -3177,7 +3177,7 @@
   },
   {
    "title": "False Imprint",
-   "artist": "Thelem",
+   "artist": "Thelem - Topic",
    "album": "Bring Me Down",
    "videoId": "mr1ps8ZfFf8",
    "duration": "6:18"
@@ -3324,7 +3324,7 @@
   },
   {
    "title": "Forward (Bukkha Remix)",
-   "artist": "Dutchie",
+   "artist": "Release - Topic",
    "album": "Easy",
    "videoId": "V0fQVUi4uok",
    "duration": "3:32"
@@ -3380,14 +3380,14 @@
   },
   {
    "title": "Temple",
-   "artist": "TMSV",
+   "artist": "TMSV - Topic",
    "album": "No Sleep",
    "videoId": "pWSNs3wOU4g",
    "duration": "5:38"
   },
   {
    "title": "I'd Give Everything",
-   "artist": "Numbernin6",
+   "artist": "Release - Topic",
    "album": "Smokin Sessions, Vol. 16",
    "videoId": "qMRx4U-HRjk",
    "duration": "3:48"
@@ -3422,7 +3422,7 @@
   },
   {
    "title": "Gong Tau",
-   "artist": "Hypho",
+   "artist": "Hypho - Topic",
    "album": "Gong Tau: EP",
    "videoId": "ZrTi4eMKTHk",
    "duration": "3:24"
@@ -3470,15 +3470,15 @@
    "duration": "4:10"
   },
   {
-   "title": "Gathered (feat. Quantum Soul)",
-   "artist": "Author",
+   "title": "Gathered",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "pUyTV-sEiR4",
    "duration": "4:47"
   },
   {
    "title": "In Pieces (Jack Sparrow Remix)",
-   "artist": "Jafu & Vaun",
+   "artist": "Vaun & Jafu",
    "album": "In Pieces",
    "videoId": "oIUfqipjxjs",
    "duration": "5:08"
@@ -3779,7 +3779,7 @@
   },
   {
    "title": "Street Knowledge",
-   "artist": "District",
+   "artist": "District - Topic",
    "album": "Drowsy",
    "videoId": "l0MPbY-Tr1o",
    "duration": "5:16"
@@ -3856,7 +3856,7 @@
   },
   {
    "title": "Come Dung",
-   "artist": "Digid",
+   "artist": "Digid - Topic",
    "album": "Rainbow Dub",
    "videoId": "4KPrmTHBd2M",
    "duration": "5:40"
@@ -3870,7 +3870,7 @@
   },
   {
    "title": "New Age",
-   "artist": "Pessimist",
+   "artist": "Pessimist - Topic",
    "album": "Austerity: EP",
    "videoId": "yLtUhvybhLA",
    "duration": "6:27"
@@ -4108,7 +4108,7 @@
   },
   {
    "title": "Dubwise 07",
-   "artist": "Indiji",
+   "artist": "Indiji - Topic",
    "album": "Original Pressing / Dubwise 07",
    "videoId": "kBLvZAnqbwM",
    "duration": "5:10"
@@ -4128,8 +4128,8 @@
    "duration": "5:19"
   },
   {
-   "title": "After Dark (feat. Jay Spaker)",
-   "artist": "DJ Madd",
+   "title": "After Dark",
+   "artist": "DJ Madd - Topic",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "QKfKasFhS80",
    "duration": "4:28"
@@ -4213,7 +4213,7 @@
   },
   {
    "title": "Oblivion",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "EXiPfukpTYk",
    "duration": "4:40"
@@ -4318,7 +4318,7 @@
   },
   {
    "title": "Flashin'",
-   "artist": "Ago",
+   "artist": "Release - Topic",
    "album": "Why Won't You",
    "videoId": "_HYzFka-Vno",
    "duration": "3:59"
@@ -4339,7 +4339,7 @@
   },
   {
    "title": "Your Eyes",
-   "artist": "Las",
+   "artist": "LAS",
    "album": "Your Eyes EP",
    "videoId": "pS8yQrwemAM",
    "duration": "4:38"
@@ -4402,7 +4402,7 @@
   },
   {
    "title": "Aspect",
-   "artist": "Las",
+   "artist": "LAS",
    "album": "Your Eyes EP",
    "videoId": "owW9ph0ISNQ",
    "duration": "4:56"
@@ -4451,7 +4451,7 @@
   },
   {
    "title": "Pocosink",
-   "artist": "LAS",
+   "artist": "Release - Topic",
    "album": "Jungle Kitchen",
    "videoId": "GJzoGWMPmE8",
    "duration": "5:11"
@@ -4521,14 +4521,14 @@
   },
   {
    "title": "Loko-Motiv",
-   "artist": "Razor Rekta",
+   "artist": "Razor Rekta - Topic",
    "album": "Loko-Motiv",
    "videoId": "oh8qbLnZvs0",
    "duration": "4:10"
   },
   {
    "title": "I Feel Sick",
-   "artist": "Spec",
+   "artist": "Spec - Topic",
    "album": "I Feel Sick",
    "videoId": "RWkrjftiGH4",
    "duration": "6:05"
@@ -4647,7 +4647,7 @@
   },
   {
    "title": "Reflections",
-   "artist": "Om Unit;Synkro",
+   "artist": "Various Artists - Topic",
    "album": "Om Unit Presents: Cosmology - Dark Matter",
    "videoId": "YoNI61ROk8c",
    "duration": "5:17"
@@ -4681,8 +4681,8 @@
    "duration": "4:25"
   },
   {
-   "title": "Bring Me Down (feat. T-Man)",
-   "artist": "Thelem",
+   "title": "Bring Me Down",
+   "artist": "Thelem - Topic",
    "album": "Bring Me Down",
    "videoId": "Y2VqmIjjSYY",
    "duration": "5:16"
@@ -4731,7 +4731,7 @@
   },
   {
    "title": "Painting The Mind",
-   "artist": "District",
+   "artist": "District - Topic",
    "album": "Painting The Mind / Modulate",
    "videoId": "N8x4W8C7nzw",
    "duration": "5:06"
@@ -4745,7 +4745,7 @@
   },
   {
    "title": "Hello Boss",
-   "artist": "Proc Fiskal",
+   "artist": "PROC FISKAL - Topic",
    "album": "Hello Boss",
    "videoId": "TzeRtoLMoRg",
    "duration": "4:01"
@@ -4808,7 +4808,7 @@
   },
   {
    "title": "Kairophobia (Dayzero Remix)",
-   "artist": "Eater;Stizzla, Eater",
+   "artist": "Stizzla;Eater",
    "album": "Schlachthaus",
    "videoId": "CIhx5GxiLqM",
    "duration": "4:42"
@@ -4913,7 +4913,7 @@
   },
   {
    "title": "The Crescent",
-   "artist": "Feonix;Simetra",
+   "artist": "Feonix - Topic",
    "album": "Feonix",
    "videoId": "Xhr_HfGh97c",
    "duration": "1:50"
@@ -4941,7 +4941,7 @@
   },
   {
    "title": "Gunfam",
-   "artist": "Las",
+   "artist": "LAS - Topic",
    "album": "Gunfam / This Morning",
    "videoId": "1DyDkkqXnwg",
    "duration": "4:00"
@@ -5018,7 +5018,7 @@
   },
   {
    "title": "Adapt",
-   "artist": "Traces",
+   "artist": "Release - Topic",
    "album": "Adapt",
    "videoId": "tnkGl2fw4YE",
    "duration": "4:11"
@@ -5081,7 +5081,7 @@
   },
   {
    "title": "Thug",
-   "artist": "Glüme",
+   "artist": "Glume - Topic",
    "album": "Thug",
    "videoId": "xSgGbMbVOIs",
    "duration": "3:18"
@@ -5207,7 +5207,7 @@
   },
   {
    "title": "That's What I Was Talking About In '96",
-   "artist": "Ago",
+   "artist": "Release - Topic",
    "album": "So Mi Seh",
    "videoId": "rO8iC8cYE_8",
    "duration": "4:23"
@@ -5221,7 +5221,7 @@
   },
   {
    "title": "Outlaw",
-   "artist": "Mikael;LAS",
+   "artist": "LAS;Mikael",
    "album": "Outlaw EP",
    "videoId": "_BWr6tXSJKs",
    "duration": "4:51"
@@ -5263,7 +5263,7 @@
   },
   {
    "title": "Flex'd",
-   "artist": "DJ Madd",
+   "artist": "DJ Madd - Topic",
    "album": "Better With You",
    "videoId": "19ien1ziUi4",
    "duration": "5:35"
@@ -5403,7 +5403,7 @@
   },
   {
    "title": "Ol' Dirty",
-   "artist": "Mr.K!",
+   "artist": "Mr.K",
    "album": "Ol' Dirty / Forever",
    "videoId": "aDXilKeCGH8",
    "duration": "5:05"
@@ -5452,7 +5452,7 @@
   },
   {
    "title": "I Know It's You",
-   "artist": "DJ Madd",
+   "artist": "DJ Madd - Topic",
    "album": "Better With You",
    "videoId": "YhpHY5ewUuE",
    "duration": "5:34"
@@ -5473,7 +5473,7 @@
   },
   {
    "title": "The Judge",
-   "artist": "Headland",
+   "artist": "Headland - Topic",
    "album": "The Judge",
    "videoId": "JcIAtVaQMe4",
    "duration": "4:44"
@@ -5529,7 +5529,7 @@
   },
   {
    "title": "Human Pattern",
-   "artist": "Monic",
+   "artist": "Mønic",
    "album": "Human Pattern",
    "videoId": "7xgBRPukwCw",
    "duration": "4:55"
@@ -5725,7 +5725,7 @@
   },
   {
    "title": "Spooky Action at A Distance",
-   "artist": "Gantz",
+   "artist": "Gantz - Topic",
    "album": "Elmo Rehab / Spooky Action at A Distance",
    "videoId": "NC6aQLrJPew",
    "duration": "5:12"
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Gone For Never",
-   "artist": "AxH & LSN",
+   "artist": "AxH - Topic",
    "album": "Oscillator - EP",
    "videoId": "2cpzI58efH0",
    "duration": "5:36"
@@ -5921,7 +5921,7 @@
   },
   {
    "title": "We Are Ghosts Now",
-   "artist": "Margari's Kid",
+   "artist": "Margari's Kid - Topic",
    "album": "We Are Ghosts Now",
    "videoId": "KxSF5FtvyAI",
    "duration": "2:39"
@@ -5991,7 +5991,7 @@
   },
   {
    "title": "Jak Fou",
-   "artist": "Soukah",
+   "artist": "Soukah - Topic",
    "album": "Jak Fou / Loner",
    "videoId": "nh0RBTHJPpg",
    "duration": "4:06"
@@ -6229,7 +6229,7 @@
   },
   {
    "title": "Cold Light",
-   "artist": "Rygby",
+   "artist": "Rygby - Topic",
    "album": "ENC021",
    "videoId": "2C7ZD-X9dio",
    "duration": "5:05"
@@ -6501,8 +6501,8 @@
    "duration": "5:06"
   },
   {
-   "title": "After Time (feat. Quark)",
-   "artist": "Author",
+   "title": "After Time",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "scsJjzZOrg8",
    "duration": "5:58"
@@ -6537,7 +6537,7 @@
   },
   {
    "title": "Windowlicka",
-   "artist": "Soukah",
+   "artist": "Soukah - Topic",
    "album": "RARE7",
    "videoId": "mQLNqLZqzck",
    "duration": "5:04"
@@ -6754,7 +6754,7 @@
   },
   {
    "title": "Select & Operate",
-   "artist": "Submotion Orchestra",
+   "artist": "Submotion Orchestra - Topic",
    "album": "III",
    "videoId": "EZsRVlA7Uu4",
    "duration": "4:04"
@@ -6775,7 +6775,7 @@
   },
   {
    "title": "Beckoning",
-   "artist": "Whatley",
+   "artist": "Whatley - Topic",
    "album": "ENC017",
    "videoId": "kqZTD469No8",
    "duration": "3:30"
@@ -6880,7 +6880,7 @@
   },
   {
    "title": "Tears VIP",
-   "artist": "Indigo",
+   "artist": "Indigo - Topic",
    "album": "Zero Point",
    "videoId": "Djc3VlTssf0",
    "duration": "5:43"
@@ -6936,7 +6936,7 @@
   },
   {
    "title": "Take The Bridge Home",
-   "artist": "Author",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "SXlyAzIw9Jk",
    "duration": "4:51"
@@ -7006,7 +7006,7 @@
   },
   {
    "title": "Divad Nitram",
-   "artist": "Kloudmen",
+   "artist": "Kloudmen - Topic",
    "album": "ENC013",
    "videoId": "BjeP03WqDRc",
    "duration": "5:40"
@@ -7062,7 +7062,7 @@
   },
   {
    "title": "For the Head",
-   "artist": "Orson",
+   "artist": "Orson - Topic",
    "album": "For the Head / The Past Is a Dream",
    "videoId": "EMgvGmZywDE",
    "duration": "4:52"
@@ -7131,8 +7131,8 @@
    "duration": "3:38"
   },
   {
-   "title": "In The Sky (feat. Jehst & Stig Of The Dump)",
-   "artist": "Author",
+   "title": "In The Sky (feat. Stig Of The Dump & Jehst)",
+   "artist": "Stig Of The Dump;Jehst",
    "album": "Forward Forever",
    "videoId": "MSlgWcqW54U",
    "duration": "4:27"
@@ -7398,7 +7398,7 @@
   },
   {
    "title": "Bxxed",
-   "artist": "Siskiyou",
+   "artist": "Siskiyou - Topic",
    "album": "Mirrors",
    "videoId": "wQ-fsgqLcEA",
    "duration": "3:40"
@@ -7461,7 +7461,7 @@
   },
   {
    "title": "Jah Hear Me",
-   "artist": "Fiend",
+   "artist": "Fiend - Topic",
    "album": "Jah Hear Me / Missing Link",
    "videoId": "iBzoYJmkTTM",
    "duration": "5:36"
@@ -7530,8 +7530,8 @@
    "duration": "4:48"
   },
   {
-   "title": "Can't Stay (feat. Simetra)",
-   "artist": "Deafblind;Feonix",
+   "title": "Can't Stay",
+   "artist": "Deafblind - Topic",
    "album": "Feonix",
    "videoId": "1S5_BkuJr2o",
    "duration": "4:36"
@@ -7874,7 +7874,7 @@
   },
   {
    "title": "Kompakt",
-   "artist": "Kloudmen",
+   "artist": "Release - Topic",
    "album": "ENC002",
    "videoId": "DMJCvUUPUlg",
    "duration": "4:35"
@@ -7944,7 +7944,7 @@
   },
   {
    "title": "Searching",
-   "artist": "Greg",
+   "artist": "Greg - Topic",
    "album": "Blue Meanie / Searching",
    "videoId": "VRBKBijGNK8",
    "duration": "5:09"
@@ -7965,7 +7965,7 @@
   },
   {
    "title": "HMS Death",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "ppWvevrU8nE",
    "duration": "4:40"
@@ -7978,8 +7978,8 @@
    "duration": "4:38"
   },
   {
-   "title": "Paint by Numbers (feat. Quark)",
-   "artist": "Author",
+   "title": "Paint by Numbers",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "I1M7khYnnUw",
    "duration": "5:31"
@@ -7993,7 +7993,7 @@
   },
   {
    "title": "Do You Have the Chime?",
-   "artist": "Kyrist",
+   "artist": "Kyrist - Topic",
    "album": "Parallel EP",
    "videoId": "VNPQnEFbj9E",
    "duration": "4:09"
@@ -8098,7 +8098,7 @@
   },
   {
    "title": "Trust Me",
-   "artist": "Ziplokk",
+   "artist": "Ziplokk - Topic",
    "album": "Trust Me",
    "videoId": "k3ewUWbt-TI",
    "duration": "5:02"
@@ -8392,7 +8392,7 @@
   },
   {
    "title": "Loose Control",
-   "artist": "TeeFreqs",
+   "artist": "Teefreqs - Topic",
    "album": "Smokin Sessions, Vol. 25",
    "videoId": "qlgJdNlLn0k",
    "duration": "5:25"
@@ -8448,7 +8448,7 @@
   },
   {
    "title": "Artesh",
-   "artist": "Ghast;I$$A",
+   "artist": "Ghäst - Topic",
    "album": "ENC022",
    "videoId": "wq64DUKvyTQ",
    "duration": "3:13"
@@ -8462,7 +8462,7 @@
   },
   {
    "title": "Somnipath",
-   "artist": "Surreal",
+   "artist": "Surreal - Topic",
    "album": "Somnipath / Don't Fall Asleep",
    "videoId": "SqM47W--nR0",
    "duration": "5:32"
@@ -8560,14 +8560,14 @@
   },
   {
    "title": "True King",
-   "artist": "Pugilist",
+   "artist": "Pugilist - Topic",
    "album": "Zulu Blues",
    "videoId": "T5JyaS_axDQ",
    "duration": "6:33"
   },
   {
    "title": "So Mi Seh",
-   "artist": "Ago",
+   "artist": "Release - Topic",
    "album": "So Mi Seh",
    "videoId": "sDvtr_f2Vm0",
    "duration": "4:17"
@@ -8672,7 +8672,7 @@
   },
   {
    "title": "This Morning",
-   "artist": "Las",
+   "artist": "LAS - Topic",
    "album": "Gunfam / This Morning",
    "videoId": "6ZoL2imAHm0",
    "duration": "5:06"
@@ -8798,7 +8798,7 @@
   },
   {
    "title": "Roacher",
-   "artist": "Epoch",
+   "artist": "Release - Topic",
    "album": "V1",
    "videoId": "f6Ga97xXKG4",
    "duration": "5:12"
@@ -8881,8 +8881,8 @@
    "duration": "5:17"
   },
   {
-   "title": "Late Night Blues (Gorgon Sound Version) (feat. Rider Shafique)",
-   "artist": "Kahn",
+   "title": "Late Night Blues (Gorgon Sound Version)",
+   "artist": "Kahn - Topic",
    "album": "Dread / Late Night Blues (Gorgon Sound Versions)",
    "videoId": "bW80PDYkAFw",
    "duration": "5:44"
@@ -8896,7 +8896,7 @@
   },
   {
    "title": "Dread Come Again",
-   "artist": "Dubbing Sun;Digid",
+   "artist": "Dubbing Sun - Topic",
    "album": "Rainbow Dub",
    "videoId": "VD7b3-NMd8U",
    "duration": "4:17"
@@ -9379,7 +9379,7 @@
   },
   {
    "title": "Taken For A Ride",
-   "artist": "Safety Trance",
+   "artist": "Safety Trance - Topic",
    "album": "Schematic Blocks",
    "videoId": "Jp_RiS4_Frw",
    "duration": "5:08"
@@ -9400,7 +9400,7 @@
   },
   {
    "title": "Green & Blue",
-   "artist": "About An Author",
+   "artist": "Author",
    "album": "Author",
    "videoId": "g2RCfP9zHXo",
    "duration": "6:21"
@@ -9617,7 +9617,7 @@
   },
   {
    "title": "Death",
-   "artist": "Proc Fiskal",
+   "artist": "PROC FISKAL - Topic",
    "album": "Death",
    "videoId": "2wqZEVDkfuA",
    "duration": "4:06"
@@ -9701,7 +9701,7 @@
   },
   {
    "title": "Coral",
-   "artist": "Kloudmen",
+   "artist": "Release - Topic",
    "album": "ENC013",
    "videoId": "9RdHNVqQS94",
    "duration": "5:57"
@@ -9946,7 +9946,7 @@
   },
   {
    "title": "I'm From The Balkans",
-   "artist": "Egoless",
+   "artist": "Egoless - Topic",
    "album": "I'm From The Balkans",
    "videoId": "RmPDUp1aThU",
    "duration": "2:02"
@@ -10023,7 +10023,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Mr.K!",
+   "artist": "Mr.K",
    "album": "Ol' Dirty / Forever",
    "videoId": "cI21KoJMKjE",
    "duration": "5:11"
@@ -10240,7 +10240,7 @@
   },
   {
    "title": "My Only",
-   "artist": "Author",
+   "artist": "Author - Topic",
    "album": "Forward Forever",
    "videoId": "z8gzgtQAhr4",
    "duration": "5:43"
@@ -10359,7 +10359,7 @@
   },
   {
    "title": "3.5 Grams",
-   "artist": "District",
+   "artist": "District - Topic",
    "album": "Haymaker / 3.5 Grams",
    "videoId": "7Slk_QmqhxI",
    "duration": "5:31"
@@ -10520,7 +10520,7 @@
   },
   {
    "title": "Fallen (Synkro remix)",
-   "artist": "Indigo",
+   "artist": "Indigo - Topic",
    "album": "Zero Point",
    "videoId": "J98EjvR1VPo",
    "duration": "5:42"
@@ -10604,7 +10604,7 @@
   },
   {
    "title": "Come With Me",
-   "artist": "Synkro",
+   "artist": "Synkro - Topic",
    "album": "Autumn",
    "videoId": "SaJtaDuaG00",
    "duration": "5:40"
@@ -10632,7 +10632,7 @@
   },
   {
    "title": "Gnosis",
-   "artist": "Mershak",
+   "artist": "Mershak - Topic",
    "album": "ENC012",
    "videoId": "SRTTT_ir4Yw",
    "duration": "5:08"
@@ -10653,14 +10653,14 @@
   },
   {
    "title": "Vintage",
-   "artist": "SP:MC",
+   "artist": "Release - Topic",
    "album": "Vintage / Slugfest",
    "videoId": "U2PXQwz8z-0",
    "duration": "5:48"
   },
   {
    "title": "Fluid Foundation (Dubnius Remix)",
-   "artist": "Gnischrew",
+   "artist": "Gnischrew - Topic",
    "album": "SUBA001",
    "videoId": "22L1XrA9xWU",
    "duration": "5:12"
@@ -10737,7 +10737,7 @@
   },
   {
    "title": "Cold Warning",
-   "artist": "Headland",
+   "artist": "Headland - Topic",
    "album": "Levy",
    "videoId": "cBoBQSr3Clk",
    "duration": "4:14"
@@ -10765,7 +10765,7 @@
   },
   {
    "title": "Tribute",
-   "artist": "Perverse",
+   "artist": "perverse - Topic",
    "album": "Tribute / Seismic",
    "videoId": "UOCxgGa4_2o",
    "duration": "4:48"
@@ -10807,7 +10807,7 @@
   },
   {
    "title": "Schlachthaus (feat. Vanta Black)",
-   "artist": "Nøsq;Eater;Stizzla, Eater",
+   "artist": "Stizzla;Eater;Nøsq",
    "album": "Schlachthaus",
    "videoId": "0twdl8u8ZCA",
    "duration": "4:21"
@@ -10870,7 +10870,7 @@
   },
   {
    "title": "Uck Foff",
-   "artist": "Egoless",
+   "artist": "Egoless - Topic",
    "album": "I'm From The Balkans",
    "videoId": "6fgDA_v9Ydw",
    "duration": "4:41"
@@ -10940,7 +10940,7 @@
   },
   {
    "title": "Can You Dub",
-   "artist": "Greg",
+   "artist": "Greg - Topic",
    "album": "Long Live The Groove",
    "videoId": "Q5lL-mAruJc",
    "duration": "5:00"
@@ -11024,7 +11024,7 @@
   },
   {
    "title": "In Pieces",
-   "artist": "Jafu & Vaun",
+   "artist": "Vaun & Jafu",
    "album": "In Pieces",
    "videoId": "EIAicsjnYpo",
    "duration": "4:14"
@@ -11052,7 +11052,7 @@
   },
   {
    "title": "Strays",
-   "artist": "Headland",
+   "artist": "Headland - Topic",
    "album": "The Judge",
    "videoId": "PihHXIMtaNo",
    "duration": "4:12"
@@ -11178,7 +11178,7 @@
   },
   {
    "title": "Always Love",
-   "artist": "Asylum",
+   "artist": "Asylum - Topic",
    "album": "Always Love / Bad Habit",
    "videoId": "56MlEQWG2j4",
    "duration": "6:01"
@@ -11268,8 +11268,8 @@
    "duration": "4:00"
   },
   {
-   "title": "Worldwide Dub (feat. Danny Ranks)",
-   "artist": "Scooped",
+   "title": "Worldwide Dub",
+   "artist": "Scooped - Topic",
    "album": "Worldwide Slaughter",
    "videoId": "B4RlcIea6Lk",
    "duration": "4:02"
@@ -11339,7 +11339,7 @@
   },
   {
    "title": "Half the Battle",
-   "artist": "Om Unit;Distance",
+   "artist": "Various Artists - Topic",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "amPuopcoAAU",
    "duration": "3:32"
@@ -11507,7 +11507,7 @@
   },
   {
    "title": "Conscious Choice (Bonus Track)",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "D_7SkOJPb4I",
    "duration": "5:26"
@@ -11535,7 +11535,7 @@
   },
   {
    "title": "Fix",
-   "artist": "About An Author",
+   "artist": "Author",
    "album": "Author",
    "videoId": "MnKH2v-xGM4",
    "duration": "6:35"
@@ -11681,8 +11681,8 @@
    "duration": "5:00"
   },
   {
-   "title": "Shift (feat. JME)",
-   "artist": "Commodo",
+   "title": "Shift",
+   "artist": "Commodo - Topic",
    "album": "Shift",
    "videoId": "kJugRX7YwJQ",
    "duration": "3:30"
@@ -11752,7 +11752,7 @@
   },
   {
    "title": "Gwari",
-   "artist": "Zygos",
+   "artist": "Zygos - Topic",
    "album": "Shivering / Gwari",
    "videoId": "iw2wmrgVprA",
    "duration": "4:44"
@@ -11948,7 +11948,7 @@
   },
   {
    "title": "Titan",
-   "artist": "Spec",
+   "artist": "Spec - Topic",
    "album": "Titan EP",
    "videoId": "yvXHaesJMds",
    "duration": "6:01"
@@ -12025,7 +12025,7 @@
   },
   {
    "title": "Elemental Fears",
-   "artist": "Thelem",
+   "artist": "Thelem - Topic",
    "album": "Tarnished / Elemental Fears",
    "videoId": "2Wif6MiQO1c",
    "duration": "5:45"
@@ -12081,7 +12081,7 @@
   },
   {
    "title": "Rigel 7 (V.I.P)",
-   "artist": "Danny Scrilla",
+   "artist": "Danny Scrilla - Topic",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "EAkZ5A0zhd8",
    "duration": "4:48"
@@ -12179,7 +12179,7 @@
   },
   {
    "title": "Signals (Crypticz Remix)",
-   "artist": "T.A.R, Primer",
+   "artist": "Primer",
    "album": "Amplivagant (Jack Sparrow Remix) / Signals (Crypticz Remix)",
    "videoId": "IphB1JHGQ9Q",
    "duration": "4:33"
@@ -12200,7 +12200,7 @@
   },
   {
    "title": "Central",
-   "artist": "Na Kika & Feonix",
+   "artist": "Release - Topic",
    "album": "Feonix",
    "videoId": "j4rOzgN0vsE",
    "duration": "5:09"
@@ -12291,7 +12291,7 @@
   },
   {
    "title": "White Nights",
-   "artist": "Orson",
+   "artist": "Orson - Topic",
    "album": "White Nights / Rise 6",
    "videoId": "0dR6yJRN3Xo",
    "duration": "5:12"
@@ -12347,14 +12347,14 @@
   },
   {
    "title": "Bum Rush Dub",
-   "artist": "Shlump and Holly",
+   "artist": "Shlump - Topic",
    "album": "System Crash EP",
    "videoId": "mDPQMD5vRGw",
    "duration": "2:50"
   },
   {
    "title": "Origins (Kloudmen Remix)",
-   "artist": "Content",
+   "artist": "Content - Topic",
    "album": "ENC011",
    "videoId": "YTcVXBHT2gM",
    "duration": "4:58"
@@ -12382,7 +12382,7 @@
   },
   {
    "title": "Transgression",
-   "artist": "Binary",
+   "artist": "Binary - Topic",
    "album": "ENC25D",
    "videoId": "s_rpUZR4tcM",
    "duration": "5:16"
@@ -12424,7 +12424,7 @@
   },
   {
    "title": "Head Get Spun",
-   "artist": "LX ONE;Cimm",
+   "artist": "LX ONE - Topic",
    "album": "Head Get Spun",
    "videoId": "nOLNdZ4k9jQ",
    "duration": "4:11"
@@ -12452,7 +12452,7 @@
   },
   {
    "title": "Zulu Blues",
-   "artist": "Pugilist;Mystik",
+   "artist": "Pugilist - Topic",
    "album": "Zulu Blues",
    "videoId": "QYOy5pXgxk8",
    "duration": "5:43"
@@ -12508,7 +12508,7 @@
   },
   {
    "title": "Serrana Love",
-   "artist": "Mercy",
+   "artist": "Mercy - Topic",
    "album": "Mercy On Smokin Sessions",
    "videoId": "SUc3-JBilE0",
    "duration": "5:08"
@@ -12522,14 +12522,14 @@
   },
   {
    "title": "Remembrance",
-   "artist": "Release - Topic",
+   "artist": "Biome",
    "album": "View From The Edge",
    "videoId": "nEqO6NYL1-Y",
    "duration": "5:36"
   },
   {
    "title": "Lyrical Trick",
-   "artist": "Gantz",
+   "artist": "Gantz - Topic",
    "album": "Stayer / Lyrical Trick",
    "videoId": "gcMxEeQ5oR4",
    "duration": "5:02"
@@ -12613,7 +12613,7 @@
   },
   {
    "title": "Oksana (Ivy Lab Remix)",
-   "artist": "Eprom",
+   "artist": "EPROM",
    "album": "Edition 1",
    "videoId": "bbNdSRr52Ck",
    "duration": "3:47"
@@ -12669,7 +12669,7 @@
   },
   {
    "title": "Positive Yourself",
-   "artist": "Moresounds",
+   "artist": "Moresounds - Topic",
    "album": "Mutation Experts",
    "videoId": "Wie0hkre3Wg",
    "duration": "4:51"
@@ -12704,7 +12704,7 @@
   },
   {
    "title": "Shelter",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "CErrEOXlIRE",
    "duration": "5:58"
@@ -12718,7 +12718,7 @@
   },
   {
    "title": "Deadly Habit",
-   "artist": "Foamplate",
+   "artist": "Foamplate - Topic",
    "album": "Tabula / Deadly Habit",
    "videoId": "1ZW6p0znmc8",
    "duration": "4:30"
@@ -12844,7 +12844,7 @@
   },
   {
    "title": "Undastand",
-   "artist": "DJ Madd;Moresounds",
+   "artist": "DJ Madd - Topic",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "tac1MkqTwvU",
    "duration": "8:10"
@@ -12872,7 +12872,7 @@
   },
   {
    "title": "Sunday On Spaceship",
-   "artist": "Dayzero",
+   "artist": "Dayzero - Topic",
    "album": "Sunday On Spaceship / Down by Law",
    "videoId": "xFoUZDP3mOY",
    "duration": "4:08"
@@ -12914,7 +12914,7 @@
   },
   {
    "title": "Turn",
-   "artist": "About An Author",
+   "artist": "Author",
    "album": "Author",
    "videoId": "RxOqEFvK0Xo",
    "duration": "5:42"
@@ -12949,7 +12949,7 @@
   },
   {
    "title": "Lost One",
-   "artist": "Crypticz",
+   "artist": "Crypticz - Topic",
    "album": "The Path",
    "videoId": "GJcTrgtG2IE",
    "duration": "4:56"
@@ -12970,7 +12970,7 @@
   },
   {
    "title": "Pocosink (Commodo Remix)",
-   "artist": "LAS",
+   "artist": "Release - Topic",
    "album": "Jungle Kitchen",
    "videoId": "eBWzoEebB1E",
    "duration": "3:36"
@@ -12991,7 +12991,7 @@
   },
   {
    "title": "Jungle Kitchen",
-   "artist": "LAS",
+   "artist": "Release - Topic",
    "album": "Jungle Kitchen",
    "videoId": "lZryaxNyTA8",
    "duration": "5:09"
@@ -13040,7 +13040,7 @@
   },
   {
    "title": "Around Me",
-   "artist": "Argo",
+   "artist": "Argo - Topic",
    "album": "ENC005",
    "videoId": "PgWuRVTNS78",
    "duration": "5:25"
@@ -13271,7 +13271,7 @@
   },
   {
    "title": "Source",
-   "artist": "Feonix",
+   "artist": "Feonix - Topic",
    "album": "Feonix",
    "videoId": "PpSbaLchZCg",
    "duration": "5:07"
@@ -13558,7 +13558,7 @@
   },
   {
    "title": "Duty",
-   "artist": "Beneath",
+   "artist": "Release - Topic",
    "album": "Duty / Texers",
    "videoId": "fKH9OZmGLNk",
    "duration": "6:24"
@@ -13621,7 +13621,7 @@
   },
   {
    "title": "Astrous",
-   "artist": "Pessimist",
+   "artist": "Pessimist - Topic",
    "album": "Pagans",
    "videoId": "PdB97IkawtY",
    "duration": "9:16"
@@ -13677,7 +13677,7 @@
   },
   {
    "title": "Rib Cage, Pt. II",
-   "artist": "Epoch",
+   "artist": "Release - Topic",
    "album": "V1",
    "videoId": "d4tqydZGVPY",
    "duration": "5:02"
@@ -13908,7 +13908,7 @@
   },
   {
    "title": "Shoulda Rolla",
-   "artist": "Pinch;Roska",
+   "artist": "Pinch - Topic",
    "album": "Shoulda Rolla / Asbestos",
    "videoId": "wWnaXn5_aq0",
    "duration": "4:50"
@@ -13992,14 +13992,14 @@
   },
   {
    "title": "Zero Shift",
-   "artist": "Ago",
+   "artist": "Release - Topic",
    "album": "Why Won't You",
    "videoId": "1kQ8NAJT07Q",
    "duration": "5:18"
   },
   {
    "title": "Don't Fall Asleep",
-   "artist": "Surreal",
+   "artist": "Surreal - Topic",
    "album": "Somnipath / Don't Fall Asleep",
    "videoId": "HPhki4SKLLU",
    "duration": "5:39"
@@ -14209,7 +14209,7 @@
   },
   {
    "title": "Terminus",
-   "artist": "Matta",
+   "artist": "Matta - Topic",
    "album": "Terminus / Oracle",
    "videoId": "DWdUMyvlTaY",
    "duration": "4:40"
@@ -14258,7 +14258,7 @@
   },
   {
    "title": "Parallels",
-   "artist": "Headhunter",
+   "artist": "Addison Groove",
    "album": "Parallels / Stand Alone",
    "videoId": "2x1vxH5vMoU",
    "duration": "4:45"
@@ -14475,7 +14475,7 @@
   },
   {
    "title": "Unidentified",
-   "artist": "Youngsta;SP:MC",
+   "artist": "Youngsta - Topic",
    "album": "Foreseen / Unidentified",
    "videoId": "2DQfvGpm_k4",
    "duration": "5:45"
@@ -14678,7 +14678,7 @@
   },
   {
    "title": "SMBU",
-   "artist": "LSN",
+   "artist": "LSN - Topic",
    "album": "Oblivion",
    "videoId": "4KDEzDH1MQ8",
    "duration": "4:34"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -979,7 +979,7 @@
   },
   {
    "title": "sun drums and soil",
-   "artist": "Four Tet",
+   "artist": "Four Tet - Topic",
    "album": "Sun Drums and Soil",
    "videoId": "G0ZAxrVk41o",
    "duration": "6:21"
@@ -1147,7 +1147,7 @@
   },
   {
    "title": "Significant Others",
-   "artist": "Chaos In The CBD",
+   "artist": "Chaos in the CBD - Topic",
    "album": "Invisible Spectrum",
    "videoId": "mNqAYFkAqTM",
    "duration": "5:20"
@@ -1308,7 +1308,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Isaac Aesili;Chaos In The CBD",
+   "artist": "Isaac Aesili - Topic",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -1952,7 +1952,7 @@
   },
   {
    "title": "Black Sands",
-   "artist": "Bonobo",
+   "artist": "Bonobo - Topic",
    "album": "Black Sands",
    "videoId": "50QkaRiUJvU",
    "duration": "6:49"
@@ -1980,7 +1980,7 @@
   },
   {
    "title": "Infinite Us",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "gU5bb4aCoho",
    "duration": "7:12"
@@ -3149,7 +3149,7 @@
   },
   {
    "title": "Y.A.L.A.",
-   "artist": "M.I.A.",
+   "artist": "Ray 7 & B. Calloway",
    "album": "Matangi",
    "videoId": "0Mq5UPdTu64",
    "duration": "4:24"
@@ -3170,7 +3170,7 @@
   },
   {
    "title": "Mirrors",
-   "artist": "Dam-Funk",
+   "artist": "Dâm-Funk",
    "album": "Toeachizown",
    "videoId": "miVDEXlY7DQ",
    "duration": "3:20"
@@ -3274,8 +3274,8 @@
    "duration": "2:32"
   },
   {
-   "title": "Sleaze (feat. Eprom & Alix Perez)",
-   "artist": "Ivy Lab;Shades",
+   "title": "Sleaze (feat. Alix Perez & Eprom)",
+   "artist": "Shades;Ivy Lab",
    "album": "Night The Dreadless Angel",
    "videoId": "ZeHqUfh3qjs",
    "duration": "3:47"
@@ -3646,7 +3646,7 @@
   },
   {
    "title": "Stay (Petit Biscuit Remix)",
-   "artist": "Petit Biscuit;Zedd;Alessia Cara",
+   "artist": "Alessia Cara;Petit Biscuit",
    "album": "Stay (Remixes)",
    "videoId": "8fpKAvyTD94",
    "duration": "4:02"
@@ -3765,7 +3765,7 @@
   },
   {
    "title": "Matangi",
-   "artist": "SLUMBERJACK;MEMBA",
+   "artist": "SLUMBERJACK - Topic",
    "album": "Matangi",
    "videoId": "efp-ofHT_5k",
    "duration": "3:18"
@@ -3800,7 +3800,7 @@
   },
   {
    "title": "Prayers ii",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "BOGL-YjGBmY",
    "duration": "3:38"
@@ -4296,15 +4296,15 @@
    "duration": "3:43"
   },
   {
-   "title": "Desire (Gryffin Remix)",
-   "artist": "Olly Alexander (Years & Years)",
+   "title": "Desire (Gryffin Remix) (feat. Tove Lo)",
+   "artist": "Olly Alexander (Years & Years);Years & Years",
    "album": "Desire (Gryffin Remix)",
    "videoId": "tN6YYPs3g3c",
    "duration": "4:29"
   },
   {
    "title": "Only (Kaskade x Lipless Remix)",
-   "artist": "Lipless;RY X;Kaskade",
+   "artist": "Lipless - Topic",
    "album": "Only (Kaskade x Lipless Remix)",
    "videoId": "WDMErDSiGU8",
    "duration": "4:13"
@@ -4331,8 +4331,8 @@
    "duration": "3:05"
   },
   {
-   "title": "Colours (feat. Pauline Herr)",
-   "artist": "Juelz",
+   "title": "Colours",
+   "artist": "Pauline Herr;Juelz",
    "album": "Colours",
    "videoId": "mCXZHEBtwt4",
    "duration": "3:24"
@@ -4409,7 +4409,7 @@
   },
   {
    "title": "Overthinker",
-   "artist": "INZO",
+   "artist": "INZO - Topic",
    "album": "Overthinker",
    "videoId": "_DlHKsQpm9k",
    "duration": "4:28"
@@ -4604,8 +4604,8 @@
    "duration": "3:27"
   },
   {
-   "title": "Strangers (feat. Tove Lo)",
-   "artist": "Shane 54;Seven Lions",
+   "title": "Strangers",
+   "artist": "Shane 54 - Topic",
    "album": "Worlds Apart",
    "videoId": "oJskC1G29Vo",
    "duration": "3:25"
@@ -4626,7 +4626,7 @@
   },
   {
    "title": "Whole Heart",
-   "artist": "Gryffin;Bipolar Sunshine",
+   "artist": "Gryffin - Topic",
    "album": "Whole Heart",
    "videoId": "Pswq7PNDB4Y",
    "duration": "3:46"
@@ -4759,7 +4759,7 @@
   },
   {
    "title": "Stand Off",
-   "artist": "MEMBA;Ehiorobo",
+   "artist": "MEMBA - Topic",
    "album": "Stand Off",
    "videoId": "PL0fyyA6F7E",
    "duration": "3:25"
@@ -4926,7 +4926,7 @@
    "duration": "3:46"
   },
   {
-   "title": "Habits (Stay High) (Hippie Sabotage Remix)",
+   "title": "Habits (Stay High) (Hippie Sabotage Remix) (feat. Hippie Sabotage)",
    "artist": "Tove Lo",
    "album": "Queen Of The Clouds",
    "videoId": "Vg8_Yj8szdA",
@@ -5179,7 +5179,7 @@
   },
   {
    "title": "Stingray",
-   "artist": "Quiet Bison",
+   "artist": "QUIET BISON - Topic",
    "album": "Sequence",
    "videoId": "vL1Bt8Ryhus",
    "duration": "3:18"
@@ -5277,7 +5277,7 @@
   },
   {
    "title": "Brokeup",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "bTP4J2VKZ44",
    "duration": "2:53"
@@ -5340,7 +5340,7 @@
   },
   {
    "title": "SeeSea",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "3XHl8W--LaQ",
    "duration": "4:17"
@@ -6228,8 +6228,8 @@
    "duration": "5:00"
   },
   {
-   "title": "forever free",
-   "artist": "Duskus;San Holo",
+   "title": "forever free (feat. Duskus)",
+   "artist": "San Holo",
    "album": "album1",
    "videoId": "lLn2yc3kYSU",
    "duration": "6:23"
@@ -6600,7 +6600,7 @@
   },
   {
    "title": "Unluck",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "buHJNloNa7Q",
    "duration": "3:01"
@@ -6614,7 +6614,7 @@
   },
   {
    "title": "I Never Learnt To Share",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "BZSoMagoqtI",
    "duration": "4:52"
@@ -6628,7 +6628,7 @@
   },
   {
    "title": "Lindisfarne II",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "qizKSsfwots",
    "duration": "2:59"
@@ -6642,35 +6642,35 @@
   },
   {
    "title": "Give Me My Month",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "-MuWcwBFQkU",
    "duration": "1:54"
   },
   {
    "title": "To Care (Like You)",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "uoSdVejquiE",
    "duration": "3:53"
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
   },
   {
    "title": "I Mind",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "mD4cAPxFwpQ",
    "duration": "3:32"
   },
   {
    "title": "Measurements",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "KbvYyNkzNKM",
    "duration": "4:20"
@@ -7299,8 +7299,8 @@
    "duration": "3:46"
   },
   {
-   "title": "Nuggets (feat. Bonzai)",
-   "artist": "Mura Masa",
+   "title": "Nuggets",
+   "artist": "Mura Masa - Topic",
    "album": "Mura Masa",
    "videoId": "heevLS3vukw",
    "duration": "3:30"
@@ -7313,14 +7313,14 @@
    "duration": "3:28"
   },
   {
-   "title": "What If I Go? (feat. Bonzai)",
-   "artist": "Mura Masa",
+   "title": "What If I Go?",
+   "artist": "Mura Masa - Topic",
    "album": "Mura Masa",
    "videoId": "__EDZIxYpT4",
    "duration": "3:16"
   },
   {
-   "title": "Firefly (feat. NAO)",
+   "title": "Firefly (feat. Nao)",
    "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "QZOrPPRfXVY",
@@ -7334,15 +7334,15 @@
    "duration": "3:27"
   },
   {
-   "title": "Second 2 None (feat. Christine and the Queens)",
-   "artist": "Mura Masa",
+   "title": "Second 2 None",
+   "artist": "Release - Topic",
    "album": "Mura Masa",
    "videoId": "GCIWlZ9W5W8",
    "duration": "4:11"
   },
   {
-   "title": "Who Is It Gonna B (feat. A. K. Paul)",
-   "artist": "Mura Masa",
+   "title": "Who Is It Gonna B",
+   "artist": "Mura Masa - Topic",
    "album": "Mura Masa",
    "videoId": "WtgYt68vbrc",
    "duration": "4:59"

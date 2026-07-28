@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs25SQkAc-kABkzsQQJJ40yG",
  "title": "HEY! RIOT!",
  "trackCount": 47,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "out of sight (feat. 2 Chainz)",
@@ -19,8 +19,8 @@
    "duration": "3:59"
   },
   {
-   "title": "JU$T (feat. Pharrell & Zack De La Rocha)",
-   "artist": "Run The Jewels;El-P;Killer Mike",
+   "title": "JU$T (feat. Zack De La Rocha & Pharrell)",
+   "artist": "Killer Mike;Run The Jewels;El-P",
    "album": "RTJ4",
    "videoId": "EzVRQ6RiRDQ",
    "duration": "3:26"
@@ -152,8 +152,8 @@
    "duration": "3:18"
   },
   {
-   "title": "Please Forgive (feat. Zombie Juice, ZillaKami, Denzel Curry & IDK)",
-   "artist": "powers pleasant",
+   "title": "Please Forgive (feat. Denzel Curry, IDK, Zombie Juice & ZillaKami)",
+   "artist": "Powers Pleasant",
    "album": "Life Is Beautiful",
    "videoId": "1PF83nPvKjI",
    "duration": "3:13"
@@ -328,7 +328,7 @@
   },
   {
    "title": "15th and the 1st (feat. YG Hootie)",
-   "artist": "Waka Flocka Flame;Gucci Mane",
+   "artist": "Gucci Mane;Waka Flocka Flame",
    "album": "Ferrari Boyz",
    "videoId": "65PWg3kVyGY",
    "duration": "4:12"

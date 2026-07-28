@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3wvXsLzgUPOryJbCREVDnb",
  "title": "Reverie",
  "trackCount": 111,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Piñata (feat. BIA, Justin Quiles & Kap G)",
@@ -230,7 +230,7 @@
   },
   {
    "title": "Afterglow",
-   "artist": "Becky Hill;Wilkinson",
+   "artist": "Wilkinson;Becky Hill",
    "album": "Lazers Not Included",
    "videoId": "gAjrbR7_iMY",
    "duration": "3:46"
@@ -342,7 +342,7 @@
   },
   {
    "title": "Catch & Release (Deepend Remix)",
-   "artist": "Matt Simons",
+   "artist": "Matt Simons - Topic",
    "album": "When The Lights Go Down",
    "videoId": "5YAnQZW6Vio",
    "duration": "3:16"
@@ -369,8 +369,8 @@
    "duration": "3:38"
   },
   {
-   "title": "Body Cry (feat. Fatherdude)",
-   "artist": "SLUMBERJACK",
+   "title": "Body Cry",
+   "artist": "SLUMBERJACK - Topic",
    "album": "SLUMBERJACK",
    "videoId": "rNkTvrOp9dk",
    "duration": "3:38"
@@ -432,8 +432,8 @@
    "duration": "4:21"
   },
   {
-   "title": "The Sweetest Meditation (feat. Mara TK)",
-   "artist": "Lord Echo",
+   "title": "The Sweetest Meditation",
+   "artist": "Lord Echo - Topic",
    "album": "Sweetest Meditation",
    "videoId": "pYtR69K9kEQ",
    "duration": "5:55"
@@ -461,7 +461,7 @@
   },
   {
    "title": "Ngeke (Andhim Remix)",
-   "artist": "Armonica;Toshi",
+   "artist": "Release - Topic",
    "album": "Ngeke",
    "videoId": "ALPseFy8vsI",
    "duration": "6:24"
@@ -650,7 +650,7 @@
   },
   {
    "title": "Fade Out Lines (The Avener Rework)",
-   "artist": "Phoebe Killdeer;The Avener",
+   "artist": "The Avener;Phoebe Killdeer",
    "album": "The Wanderings Of The Avener",
    "videoId": "vfRYLnFTzp8",
    "duration": "4:37"

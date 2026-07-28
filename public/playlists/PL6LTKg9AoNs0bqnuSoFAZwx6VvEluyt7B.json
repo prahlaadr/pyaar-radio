@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0bqnuSoFAZwx6VvEluyt7B",
  "title": "feeb 23",
  "trackCount": 105,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Human Nature",
@@ -111,7 +111,7 @@
   },
   {
    "title": "Sundown Syndrome",
-   "artist": "Tame Impala",
+   "artist": "Tame Impala - Topic",
    "album": "Sundown Syndrome / Remember Me",
    "videoId": "pWqueQ8JO9E",
    "duration": "5:50"
@@ -230,7 +230,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkeys - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -503,7 +503,7 @@
   },
   {
    "title": "Gook",
-   "artist": "Denzel Curry",
+   "artist": "Denzel Curry - Topic",
    "album": "Imperial",
    "videoId": "JXKhklil3iA",
    "duration": "2:47"

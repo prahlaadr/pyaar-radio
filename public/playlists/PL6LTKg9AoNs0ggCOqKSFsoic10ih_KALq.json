@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -34,14 +34,14 @@
   },
   {
    "title": "You Rock Me (Long Version)",
-   "artist": "Mr. White;Larry Heard Presents Mr. White",
+   "artist": "Larry Heard Presents Mr. White",
    "album": "E.P.",
    "videoId": "ElyCxjDii_E",
    "duration": "6:13"
   },
   {
    "title": "The Sun Can't Compare (Long Version)",
-   "artist": "Mr. White;Larry Heard Presents Mr. White",
+   "artist": "Mr.White - Topic",
    "album": "E.P.",
    "videoId": "a1qXc36b7wk",
    "duration": "7:48"
@@ -650,14 +650,14 @@
   },
   {
    "title": "A1",
-   "artist": "Dynamo Dreesen, SVN & A Made Up Sound;SVN;A Made Up Sound",
+   "artist": "Dynamo Dreesen, SVN & A Made Up Sound - Topic",
    "album": "Acido 20",
    "videoId": "F0XddRh9EBg",
    "duration": "8:38"
   },
   {
    "title": "B1",
-   "artist": "SVN;Dynamo Dreesen, SVN & A Made Up Sound;A Made Up Sound",
+   "artist": "SVN - Topic",
    "album": "Acido 20",
    "videoId": "pvxZH-ZsPj0",
    "duration": "5:02"
@@ -706,21 +706,21 @@
   },
   {
    "title": "Aurora",
-   "artist": "Ryuichi Sakamoto;Alva Noto",
+   "artist": "Ryuichi Sakamoto - Topic",
    "album": "Insen",
    "videoId": "jXGU8TSDdg0",
    "duration": "8:52"
   },
   {
    "title": "Moon",
-   "artist": "Ryuichi Sakamoto;Alva Noto",
+   "artist": "Ryuichi Sakamoto - Topic",
    "album": "Insen",
    "videoId": "phqek7yqQHo",
    "duration": "6:08"
   },
   {
    "title": "Whea Yo Ghost At, Whea Yo Dead Man",
-   "artist": "DJ Elmoe",
+   "artist": "Release - Topic",
    "album": "Bangs & Works, Vol.1: A Chicago Footwork Compilation",
    "videoId": "69jV9AP4TJ8",
    "duration": "2:30"
@@ -1196,14 +1196,14 @@
   },
   {
    "title": "Chapter 4",
-   "artist": "Heinrich Köbberling;Laurel Halo;Moritz von Oswald Trio",
+   "artist": "Moritz von Oswald Trio;Heinrich Köbberling;Laurel Halo",
    "album": "Dissent",
    "videoId": "_CDBzvYUb7Q",
    "duration": "6:17"
   },
   {
    "title": "Chapter 6",
-   "artist": "Heinrich Köbberling;Laurel Halo;Moritz von Oswald Trio",
+   "artist": "Moritz von Oswald Trio;Heinrich Köbberling;Laurel Halo",
    "album": "Dissent",
    "videoId": "nHaR_GBAukI",
    "duration": "6:16"
@@ -1350,7 +1350,7 @@
   },
   {
    "title": "Paranoia",
-   "artist": "James Ruskin",
+   "artist": "James Ruskin - Topic",
    "album": "Into Submission",
    "videoId": "zZM7tlEpJWM",
    "duration": "7:29"
@@ -1434,7 +1434,7 @@
   },
   {
    "title": "Stiff",
-   "artist": "Terror Danjah & Champion",
+   "artist": "Terror Danjah",
    "album": "Terror Danjah: Gremlinz (The Instrumentals 2003-2009)",
    "videoId": "LfkeEd4bKMM",
    "duration": "4:00"
@@ -1623,14 +1623,14 @@
   },
   {
    "title": "La Neta",
-   "artist": "Fatima",
+   "artist": "Fatima - Topic",
    "album": "Yellow Memories",
    "videoId": "Hb13npDBV3Y",
    "duration": "5:37"
   },
   {
    "title": "Do Better",
-   "artist": "Fatima",
+   "artist": "Fatima - Topic",
    "album": "Yellow Memories",
    "videoId": "agb9PlaPF0E",
    "duration": "6:46"
@@ -1714,7 +1714,7 @@
   },
   {
    "title": "4 DEGREES",
-   "artist": "Anohni",
+   "artist": "Anthony Hegarty",
    "album": "4 DEGREES",
    "videoId": "-a0C93FGYFE",
    "duration": "3:52"
@@ -2386,14 +2386,14 @@
   },
   {
    "title": "Lava Lava",
-   "artist": "Boys Noize",
+   "artist": "Boys Noize - Topic",
    "album": "Oi Oi Oi",
    "videoId": "5HLImwTx7Vc",
    "duration": "4:01"
   },
   {
    "title": "Let's Buy Happiness",
-   "artist": "Boys Noize",
+   "artist": "Boys Noize - Topic",
    "album": "Oi Oi Oi",
    "videoId": "a5R-98xXlaU",
    "duration": "4:53"
@@ -2561,14 +2561,14 @@
   },
   {
    "title": "Fruit Bleed Juice",
-   "artist": "Ecco2K",
+   "artist": "Ecco2k",
    "album": "E",
    "videoId": "efb5Djc3XRg",
    "duration": "1:13"
   },
   {
    "title": "Peroxide",
-   "artist": "Ecco2K",
+   "artist": "Ecco2k",
    "album": "E",
    "videoId": "K59AkkHgnGk",
    "duration": "3:35"
@@ -2687,14 +2687,14 @@
   },
   {
    "title": "Sniper Baby",
-   "artist": "Oli XL",
+   "artist": "oli xl",
    "album": "Rogue Intruder, Soul Enhancer",
    "videoId": "CkC4ITGJBAs",
    "duration": "2:23"
   },
   {
    "title": "Clumsy",
-   "artist": "Oli XL",
+   "artist": "oli xl",
    "album": "Rogue Intruder, Soul Enhancer",
    "videoId": "1CyWcaHYlnI",
    "duration": "4:30"

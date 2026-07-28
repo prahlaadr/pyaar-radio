@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0P6V6IlTLk7BNkvAJYhi0P",
  "title": "Mellow West Coast [pyaar radio]",
  "trackCount": 50,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Ordinary Pleasure",
@@ -43,28 +43,28 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "pQsF3pzOc54",
+   "videoId": "MJoSyNdffGo",
    "duration": "3:52"
   },
   {
    "title": "My Kind of Woman",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "1_tjOgqG8Yc",
+   "videoId": "88mooKbT61A",
    "duration": "3:11"
   },
   {
    "title": "Salad Days",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "csJZ_9KOtNY",
+   "videoId": "PpW5nn6L0U4",
    "duration": "2:26"
   },
   {
    "title": "On the Level",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "WOV3c0t-Mwk",
+   "videoId": "8PwDtOXlnRI",
    "duration": "3:48"
   },
   {
@@ -265,14 +265,14 @@
   },
   {
    "title": "Chosen",
-   "artist": "Caroline Polachek;Blood Orange",
+   "artist": "Blood Orange;Caroline Polachek",
    "album": "Cupid Deluxe",
    "videoId": "yP9JsIhHxSg",
    "duration": "6:45"
   },
   {
    "title": "You're Not Good Enough",
-   "artist": "Blood Orange;Samantha Urbani",
+   "artist": "Blood Orange & Samantha Urbani",
    "album": "Cupid Deluxe",
    "videoId": "WKO2miOFFuc",
    "duration": "4:22"
@@ -351,7 +351,7 @@
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   }
  ]

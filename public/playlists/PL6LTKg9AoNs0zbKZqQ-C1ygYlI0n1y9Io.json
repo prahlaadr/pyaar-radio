@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Everybody Wants To Rule The World",
-   "artist": "Tears for Fears",
+   "artist": "Tears For Fears",
    "album": "Songs From The Big Chair",
    "videoId": "U4zA0xnBEJU",
    "duration": "4:12"
@@ -62,7 +62,7 @@
   },
   {
    "title": "Promiscuous (feat. Timbaland)",
-   "artist": "Timbaland",
+   "artist": "Nelly Furtado",
    "album": "Loose",
    "videoId": "BO7FQnegW1o",
    "duration": "4:03"
@@ -117,7 +117,7 @@
    "duration": "4:03"
   },
   {
-   "title": "Umbrella (feat. JAY-Z)",
+   "title": "Umbrella (feat. JAŸ-Z)",
    "artist": "Rihanna",
    "album": "Good Girl Gone Bad: Reloaded",
    "videoId": "xXD5tltX9Pg",
@@ -159,7 +159,7 @@
    "duration": "4:52"
   },
   {
-   "title": "The Way I Are (feat. Doe & Keri Hilson)",
+   "title": "The Way I Are (feat. Keri Hilson & D.O.E.)",
    "artist": "Timbaland",
    "album": "Shock Value",
    "videoId": "iM6iO8TD3tM",
@@ -292,7 +292,7 @@
    "duration": "4:57"
   },
   {
-   "title": "Sweet Home Alabama",
+   "title": "Sweet Home Alabama (feat. Hank Williams Jr., 3 Doors Down & Bo Bice)",
    "artist": "Lynyrd Skynyrd",
    "album": "Second Helping (Expanded Edition)",
    "videoId": "iL-jC7XyLeo",
@@ -335,7 +335,7 @@
   },
   {
    "title": "You (feat. Lil Wayne)",
-   "artist": "Lloyd",
+   "artist": "Lloyd Polite Jr.",
    "album": "Street Love",
    "videoId": "gfoD2ILKEYk",
    "duration": "4:34"
@@ -384,7 +384,7 @@
   },
   {
    "title": "Miss Independent",
-   "artist": "NE-YO",
+   "artist": "Release - Topic",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "qXIIoN5X3YU",
    "duration": "3:52"
@@ -447,14 +447,14 @@
   },
   {
    "title": "Stayin' Alive (From \"Saturday Night Fever\" Soundtrack)",
-   "artist": "Bee Gees",
+   "artist": "Bee Gees - Topic",
    "album": "Greatest",
    "videoId": "UlLX7a1QH8Y",
    "duration": "4:46"
   },
   {
    "title": "So Sick",
-   "artist": "NE-YO",
+   "artist": "Ne-Yo",
    "album": "In My Own Words",
    "videoId": "CR4VBJWtVck",
    "duration": "3:28"
@@ -467,7 +467,7 @@
    "duration": "3:53"
   },
   {
-   "title": "No Diggity (feat. Queen Pen & Dr. Dre)",
+   "title": "No Diggity (feat. Dr. Dre & Queen Pen)",
    "artist": "Blackstreet",
    "album": "Another Level",
    "videoId": "Fiu9h8ZTPoQ",
@@ -622,7 +622,7 @@
   },
   {
    "title": "Good Time",
-   "artist": "Carly Rae Jepsen;Owl City",
+   "artist": "Owl City;Carly Rae Jepsen",
    "album": "The Midsummer Station",
    "videoId": "zGipbUYrUCQ",
    "duration": "3:26"
@@ -649,8 +649,8 @@
    "duration": "3:55"
   },
   {
-   "title": "Because Of You",
-   "artist": "NE-YO",
+   "title": "Because Of You (feat. Kanye West)",
+   "artist": "Ne-Yo",
    "album": "Because Of You",
    "videoId": "-r85WmKI9Uo",
    "duration": "4:27"
@@ -705,7 +705,7 @@
    "duration": "2:19"
   },
   {
-   "title": "Drop It Like It's Hot (feat. Pharrell)",
+   "title": "Drop It Like It's Hot (feat. Pharrell Williams)",
    "artist": "Snoop Dogg",
    "album": "R&G (Rhythm & Gangsta): The Masterpiece",
    "videoId": "ldjajgAHAu4",
@@ -736,7 +736,7 @@
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
@@ -811,7 +811,7 @@
   },
   {
    "title": "At Last",
-   "artist": "Etta James",
+   "artist": "Etta James - Topic",
    "album": "At Last!",
    "videoId": "1qJU8G7gR_g",
    "duration": "3:00"
@@ -944,7 +944,7 @@
   },
   {
    "title": "Cold Little Heart (Radio Edit)",
-   "artist": "Michael Kiwanuka",
+   "artist": "Michael Kiwanuka - Topic",
    "album": "Cold Little Heart (Radio Edit)",
    "videoId": "NuEghDO_j0o",
    "duration": "3:31"
@@ -971,7 +971,7 @@
    "duration": "3:14"
   },
   {
-   "title": "Foolish",
+   "title": "Foolish (feat. The Notorious B.I.G.)",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "6rrNR2YdF8c",
@@ -1006,7 +1006,7 @@
    "duration": "4:19"
   },
   {
-   "title": "Umbrella (feat. JAY-Z)",
+   "title": "Umbrella (feat. JAŸ-Z)",
    "artist": "Rihanna",
    "album": "Good Girl Gone Bad: Reloaded",
    "videoId": "xXD5tltX9Pg",
@@ -1093,7 +1093,7 @@
    "title": "Still Beating",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "Z1zPvvh3KxU",
+   "videoId": "ve9Kf7uO85s",
    "duration": "3:02"
   },
   {
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "Fly Me To The Moon (In Other Words)",
-   "artist": "Count Basie;Frank Sinatra",
+   "artist": "Frank Sinatra;Count Basie",
    "album": "Sinatra/Basie: The Complete Reprise Studio Recordings",
    "videoId": "e1KxnVua17I",
    "duration": "2:27"
@@ -1175,7 +1175,7 @@
   },
   {
    "title": "Sexy Love",
-   "artist": "NE-YO",
+   "artist": "Ne-Yo",
    "album": "In My Own Words",
    "videoId": "b5UQ-pz16Nk",
    "duration": "3:41"
@@ -1209,7 +1209,7 @@
    "duration": "4:12"
   },
   {
-   "title": "We Belong Together",
+   "title": "We Belong Together (feat. Styles & Jadakiss)",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -1223,8 +1223,8 @@
    "duration": "5:21"
   },
   {
-   "title": "Glamorous (feat. Ludacris)",
-   "artist": "Fergie",
+   "title": "Glamorous",
+   "artist": "Ludacris;Fergie",
    "album": "The Dutchess",
    "videoId": "kE4a0xJb2yA",
    "duration": "4:07"
@@ -1559,8 +1559,8 @@
    "duration": "4:43"
   },
   {
-   "title": "03' Bonnie & Clyde (feat. Beyoncé)",
-   "artist": "JAY-Z",
+   "title": "03' Bonnie & Clyde (feat. Beyoncé Knowles)",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint 2: The Gift & The Curse",
    "videoId": "hWYX1d1xGm8",
    "duration": "3:26"
@@ -1651,7 +1651,7 @@
   },
   {
    "title": "Closer",
-   "artist": "NE-YO",
+   "artist": "Ne-Yo - Topic",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "DIWMD0-DdsE",
    "duration": "3:55"
@@ -1693,7 +1693,7 @@
   },
   {
    "title": "Sitting, Waiting, Wishing",
-   "artist": "Jack Johnson",
+   "artist": "Jack Johnson - Topic",
    "album": "In Between Dreams",
    "videoId": "8chU09dsPWU",
    "duration": "3:04"
@@ -1784,7 +1784,7 @@
   },
   {
    "title": "Get It Shawty",
-   "artist": "Lloyd",
+   "artist": "Lloyd Polite Jr.",
    "album": "Street Love",
    "videoId": "mjZQIHiKiuY",
    "duration": "3:30"
@@ -1812,7 +1812,7 @@
   },
   {
    "title": "A Whole New World",
-   "artist": "Lea Salonga;Brad Kane",
+   "artist": "Lea Salonga;Brad Kane;Disney",
    "album": "Aladdin Special Edition",
    "videoId": "cD29dFgW26M",
    "duration": "2:41"
@@ -1881,7 +1881,7 @@
    "duration": "4:29"
   },
   {
-   "title": "Unfoolish",
+   "title": "Unfoolish (feat. The Notorious B.I.G.)",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "9NXVRraVK5A",
@@ -2036,7 +2036,7 @@
   },
   {
    "title": "I Luv Your Girl",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love/Hate",
    "videoId": "G4zu73py4CE",
    "duration": "4:28"
@@ -2071,7 +2071,7 @@
   },
   {
    "title": "Rockin' That Shit",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream - Topic",
    "album": "Love Vs Money",
    "videoId": "dtxth_aj450",
    "duration": "3:42"
@@ -2259,8 +2259,8 @@
    "duration": "3:42"
   },
   {
-   "title": "Move Bitch (feat. Mystikal)",
-   "artist": "Ludacris",
+   "title": "Move Bitch (feat. I-20 & Mystikal)",
+   "artist": "Ludacris;Disturbing Tha Peace",
    "album": "Word Of Mouf",
    "videoId": "StdEPZaNPPI",
    "duration": "4:31"
@@ -2546,7 +2546,7 @@
    "duration": "4:23"
   },
   {
-   "title": "Shake Ya Tailfeather (Radio Edit) (feat. Diddy & Nelly)",
+   "title": "Shake Ya Tailfeather (Radio Edit) (feat. Nelly & P. Diddy)",
    "artist": "Murphy Lee",
    "album": "Murphy's Law",
    "videoId": "_DiU4xeWahc",
@@ -2582,7 +2582,7 @@
   },
   {
    "title": "Shawty Is Da Shit (feat. Fabolous)",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love/Hate",
    "videoId": "LsR-PnBJgRs",
    "duration": "4:23"
@@ -2764,7 +2764,7 @@
   },
   {
    "title": "The Girl From Ipanema (2008 Remastered)",
-   "artist": "Antonio Carlos Jobim;Frank Sinatra",
+   "artist": "Frank Sinatra;Antonio Carlos Jobim",
    "album": "Nothing But The Best (2008 Remastered)",
    "videoId": "mD6pbCSeWLs",
    "duration": "3:15"
@@ -2833,7 +2833,7 @@
    "duration": "5:34"
   },
   {
-   "title": "Make Me Better (feat. NE-YO)",
+   "title": "Make Me Better (feat. Ne-Yo)",
    "artist": "Fabolous",
    "album": "From Nothin' To Somethin' (Bonus Track Version)",
    "videoId": "WYmLp7ZLHlM",
@@ -2848,7 +2848,7 @@
   },
   {
    "title": "Bounce (feat. Dr. Dre)",
-   "artist": "Missy \"Misdemeanor\" Elliott;Justin Timberlake;Timbaland",
+   "artist": "Timbaland;Missy Elliott;Justin Timberlake",
    "album": "Shock Value",
    "videoId": "cscRi0fkcTs",
    "duration": "4:05"
@@ -2918,7 +2918,7 @@
   },
   {
    "title": "Rollout (My Business)",
-   "artist": "Ludacris",
+   "artist": "Ludacris - Topic",
    "album": "Word Of Mouf",
    "videoId": "lUphaGuaRLg",
    "duration": "4:57"
@@ -3043,7 +3043,7 @@
    "duration": "3:51"
   },
   {
-   "title": "Throw It In The Bag (feat. THE-DREAM)",
+   "title": "Throw It In The Bag (feat. The-Dream)",
    "artist": "Fabolous",
    "album": "Loso's Way",
    "videoId": "mMeDmSAmgl4",
@@ -3057,7 +3057,7 @@
    "duration": "4:57"
   },
   {
-   "title": "Baby",
+   "title": "Baby (feat. Crooked I)",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "bNMkLWk1IEk",
@@ -3387,7 +3387,7 @@
   },
   {
    "title": "Falsetto",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love/Hate",
    "videoId": "ml9iWPINczA",
    "duration": "4:32"
@@ -3520,7 +3520,7 @@
   },
   {
    "title": "La vie en rose (Single Version)",
-   "artist": "Louis Armstrong",
+   "artist": "Louis Armstrong And His Orchestra",
    "album": "The Best Of The Decca Years Volume One: The Singer",
    "videoId": "ClkwZsr5kyg",
    "duration": "3:25"
@@ -3639,7 +3639,7 @@
   },
   {
    "title": "Case Of The Ex (Whatcha Gonna Do)",
-   "artist": "Mýa",
+   "artist": "Mya",
    "album": "Fear Of Flying",
    "videoId": "3gJMor7UXFk",
    "duration": "3:57"
@@ -3702,7 +3702,7 @@
   },
   {
    "title": "Let's Straighten It Out",
-   "artist": "O. V. Wright",
+   "artist": "O.V. Wright",
    "album": "The Bottom Line",
    "videoId": "7V6DcU8dHZI",
    "duration": "3:53"
@@ -3849,7 +3849,7 @@
   },
   {
    "title": "Lady Marmalade (From \"Moulin Rouge\" Soundtrack)",
-   "artist": "Christina Aguilera;P!nk;Lil' Kim;Mya",
+   "artist": "Christina Aguilera;Lil' Kim;Mya;P!nk",
    "album": "Moulin Rouge",
    "videoId": "hGi6dy_ixGk",
    "duration": "4:25"
@@ -3912,7 +3912,7 @@
   },
   {
    "title": "Bluebird",
-   "artist": "Yarah Bravo;One Self;BluRum13;DJ Vadim",
+   "artist": "One Self;DJ Vadim;Yarah Bravo;Blu Rum 13",
    "album": "Children of Possibility",
    "videoId": "x9FZox4YOT8",
    "duration": "3:41"
@@ -4086,14 +4086,14 @@
    "duration": "3:34"
   },
   {
-   "title": "Touch Me Tease Me (feat. Foxy Brown & Mary J. Blige)",
+   "title": "Touch Me Tease Me (feat. Foxy Brown)",
    "artist": "Case",
    "album": "Case",
    "videoId": "Rv03EpWtZXQ",
    "duration": "3:48"
   },
   {
-   "title": "Growing Pains (feat. Fate Wilson & Keon Bryce)",
+   "title": "Growing Pains (feat. Keon Bryce)",
    "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "DCfvSOVtTSI",
@@ -4241,7 +4241,7 @@
   },
   {
    "title": "Endless Love (From \"The Endless Love\" Soundtrack)",
-   "artist": "Diana Ross;Lionel Richie",
+   "artist": "Lionel Richie;Diana Ross",
    "album": "Back To Front",
    "videoId": "ss_olrbGX-I",
    "duration": "4:29"
@@ -4346,7 +4346,7 @@
   },
   {
    "title": "Much Better Off",
-   "artist": "Smokey Robinson",
+   "artist": "Smokey Robinson & The Miracles",
    "album": "Special Occasion",
    "videoId": "B7LehRUlIhI",
    "duration": "2:51"
@@ -4381,7 +4381,7 @@
   },
   {
    "title": "No Other Way",
-   "artist": "Jack Johnson",
+   "artist": "Jack Johnson - Topic",
    "album": "In Between Dreams",
    "videoId": "bekkZK3OqMM",
    "duration": "3:10"
@@ -4478,8 +4478,8 @@
    "duration": "4:36"
   },
   {
-   "title": "The Keeper (feat. Andreya Triana)",
-   "artist": "Bonobo",
+   "title": "The Keeper",
+   "artist": "Bonobo - Topic",
    "album": "Black Sands",
    "videoId": "MjKorY6VOfA",
    "duration": "4:49"
@@ -4660,8 +4660,8 @@
    "duration": "5:42"
   },
   {
-   "title": "It's All About Me (feat. Sisqó)",
-   "artist": "Mýa",
+   "title": "It's All About Me (feat. Sisqo)",
+   "artist": "Mya",
    "album": "Mya",
    "videoId": "2LZ_EQuSSXc",
    "duration": "4:25"
@@ -4696,7 +4696,7 @@
   },
   {
    "title": "All Right Now",
-   "artist": "Free",
+   "artist": "Free - Topic",
    "album": "20th Century Masters: The Millennium Collection: Best Of Free",
    "videoId": "7cQ4jNDRTOo",
    "duration": "5:34"
@@ -4941,7 +4941,7 @@
   },
   {
    "title": "Fallen",
-   "artist": "Mýa",
+   "artist": "Mya",
    "album": "Moodring",
    "videoId": "lcjtk5MdS6M",
    "duration": "3:35"
@@ -5018,7 +5018,7 @@
   },
   {
    "title": "Honey Dove",
-   "artist": "Lee Fields;The Expressions",
+   "artist": "The Expressions",
    "album": "My World",
    "videoId": "ZkBCu4Vz6_s",
    "duration": "4:07"
@@ -5137,7 +5137,7 @@
   },
   {
    "title": "Just Ain't Gonna Work Out",
-   "artist": "Mayer Hawthorne",
+   "artist": "Mayer Hawthorne - Topic",
    "album": "Just Ain't Gonna Work Out",
    "videoId": "8OYVNVj7p80",
    "duration": "2:29"
@@ -5248,7 +5248,7 @@
    "duration": "2:29"
   },
   {
-   "title": "Tequila Makes Her Clothes Fall Off",
+   "title": "Tequila Makes Her Clothes Fall Off (feat. Colt Ford)",
    "artist": "Joe Nichols",
    "album": "Greatest Hits",
    "videoId": "k_1KjKy7yZU",
@@ -5263,7 +5263,7 @@
   },
   {
    "title": "Despacito",
-   "artist": "Luis Fonsi;Daddy Yankee",
+   "artist": "Luis Fonsi - Topic",
    "album": "Despacito",
    "videoId": "FXovf5dsRTw",
    "duration": "3:49"
@@ -5437,7 +5437,7 @@
    "duration": "4:08"
   },
   {
-   "title": "It's Murda (feat. DMX & JAY-Z)",
+   "title": "It's Murda (feat. JAŸ-Z & DMX)",
    "artist": "Ja Rule",
    "album": "Venni Vetti Vecci",
    "videoId": "es993xICQNg",
@@ -5487,7 +5487,7 @@
   },
   {
    "title": "Ev'rybody Wants to Be a Cat (From \"The Aristocats\" Soundtrack)",
-   "artist": "Phil Harris;Scatman Crothers;Liz English;Thurl Ravenscroft",
+   "artist": "Scatman Crothers;Phil Harris;Thurl Ravenscroft;Liz English",
    "album": "Disney's Greatest Vol. 3",
    "videoId": "Pn9xG9W5rto",
    "duration": "2:02"
@@ -5529,7 +5529,7 @@
   },
   {
    "title": "El Toro",
-   "artist": "Bonobo",
+   "artist": "Bonobo - Topic",
    "album": "Black Sands",
    "videoId": "20ETYA2-o40",
    "duration": "3:45"
@@ -5655,14 +5655,14 @@
   },
   {
    "title": "Who's Got The Bacon?",
-   "artist": "Howie B",
+   "artist": "Howie B.",
    "album": "Turn The Dark Off",
    "videoId": "kNdgvlm6zw0",
    "duration": "4:25"
   },
   {
-   "title": "Ryde Or Die, B**** (feat. Eve & Timbaland)",
-   "artist": "Eve;Timbaland",
+   "title": "Ryde Or Die, B**** (feat. Timbaland & Eve)",
+   "artist": "L.O.X.",
    "album": "We Are The Streets",
    "videoId": "MBJgegimHDs",
    "duration": "4:50"
@@ -5809,7 +5809,7 @@
   },
   {
    "title": "Our Lives Are Shaped By What We Love",
-   "artist": "Odyssey",
+   "artist": "Odyssey - Topic",
    "album": "Our Lives Are Shaped By What We Love: Motown's Mowest Story 1971-73",
    "videoId": "vGbac0bJDM8",
    "duration": "3:37"
@@ -5836,7 +5836,7 @@
    "duration": "2:54"
   },
   {
-   "title": "Ruff Ryders Anthem (feat. Eve, DMX, Drag-On & Styles)",
+   "title": "Ruff Ryders Anthem (feat. DMX, Jadakiss, Styles & Eve)",
    "artist": "DJ Clue",
    "album": "The Professional",
    "videoId": "1woVI3mMEPM",
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Touch It or Not",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron - Topic",
    "album": "Killa Season",
    "videoId": "jMtoNW434yQ",
    "duration": "3:42"
@@ -6145,7 +6145,7 @@
   },
   {
    "title": "Constant Surprises",
-   "artist": "Little Dragon",
+   "artist": "Little Dragon - Topic",
    "album": "Little Dragon",
    "videoId": "YClEH8Lt3tE",
    "duration": "4:34"
@@ -6180,7 +6180,7 @@
   },
   {
    "title": "It Ain't Me Babe",
-   "artist": "Reese Witherspoon;Joaquin Phoenix",
+   "artist": "Joaquin Phoenix;Reese Witherspoon",
    "album": "Walk The Line (Original Motion Picture Soundtrack)",
    "videoId": "z6vw9plZBVY",
    "duration": "3:06"
@@ -6201,7 +6201,7 @@
   },
   {
    "title": "Lonnie's Lament",
-   "artist": "John Coltrane",
+   "artist": "John Coltrane - Topic",
    "album": "Crescent",
    "videoId": "japCux4wals",
    "duration": "11:48"
@@ -6250,7 +6250,7 @@
   },
   {
    "title": "Movin' On",
-   "artist": "Mýa",
+   "artist": "Mya",
    "album": "Mya",
    "videoId": "2yOtVlq8qGc",
    "duration": "4:31"
@@ -6263,14 +6263,14 @@
    "duration": "4:13"
   },
   {
-   "title": "My Chick Bad Remix (feat. Eve, Trina & Diamond)",
+   "title": "My Chick Bad Remix (feat. Diamond, Trina & Eve)",
    "artist": "Ludacris",
    "album": "Battle Of The Sexes (Deluxe)",
    "videoId": "sjM6DjB4GmY",
    "duration": "3:24"
   },
   {
-   "title": "Round Here (feat. Trick Daddy & T.I.)",
+   "title": "Round Here (feat. T.I. & Trick Daddy)",
    "artist": "Memphis Bleek",
    "album": "M.A.D.E.",
    "videoId": "fgdygd3ADLs",
@@ -6439,7 +6439,7 @@
   },
   {
    "title": "Destroy The Empire",
-   "artist": "Pachyman",
+   "artist": "Release - Topic",
    "album": "The Return of…",
    "videoId": "-r8FVsaIa68",
    "duration": "3:25"
@@ -6459,7 +6459,7 @@
    "duration": "3:30"
   },
   {
-   "title": "Going To A Town",
+   "title": "Going To A Town (feat. Anthony Hegarty)",
    "artist": "Rufus Wainwright",
    "album": "Release The Stars",
    "videoId": "6GksivLVyDw",
@@ -6924,7 +6924,7 @@
    "title": "Everything Is Simple",
    "artist": "Widowspeak",
    "album": "The Jacket",
-   "videoId": "zGxxvlNh0GA",
+   "videoId": "WEDw-uz_4R8",
    "duration": "4:20"
   },
   {
@@ -6985,7 +6985,7 @@
   },
   {
    "title": "Jackson",
-   "artist": "Reese Witherspoon;Joaquin Phoenix",
+   "artist": "Joaquin Phoenix;Reese Witherspoon",
    "album": "Walk The Line (Original Motion Picture Soundtrack)",
    "videoId": "flfWkqxMn-c",
    "duration": "2:50"
@@ -7237,7 +7237,7 @@
   },
   {
    "title": "Spandex Man",
-   "artist": "Mr. Scruff",
+   "artist": "Mr. Scruff - Topic",
    "album": "Keep It Unreal (10th Anniversary Analogue Remaster Edition)",
    "videoId": "fYa4u6G3PM4",
    "duration": "4:42"
@@ -7320,7 +7320,7 @@
    "duration": "2:34"
   },
   {
-   "title": "Ain't That A Kick In The Head (RJD2 Remix)",
+   "title": "Ain't That A Kick In The Head (RJD2 Remix) (feat. Nelson Riddle and his Orchestra)",
    "artist": "Dean Martin",
    "album": "Ain't That A Kick In The Head (RJD2 Remix)",
    "videoId": "muMQsU9UjO0",
@@ -7398,7 +7398,7 @@
   },
   {
    "title": "After Midnight",
-   "artist": "JJ Cale",
+   "artist": "J.J. Cale",
    "album": "Naturally",
    "videoId": "2x0JK8vhmcc",
    "duration": "2:24"
@@ -7545,7 +7545,7 @@
   },
   {
    "title": "Biggest Joke Of All",
-   "artist": "Fatima",
+   "artist": "Fatima - Topic",
    "album": "Yellow Memories",
    "videoId": "1d_dED6l_qI",
    "duration": "5:26"
@@ -8140,7 +8140,7 @@
   },
   {
    "title": "Blackpool Roll",
-   "artist": "Mr. Scruff",
+   "artist": "Mr. Scruff - Topic",
    "album": "Keep It Unreal (10th Anniversary Analogue Remaster Edition)",
    "videoId": "6sfa90HEKwg",
    "duration": "4:48"
@@ -8217,7 +8217,7 @@
   },
   {
    "title": "Freezee Pops",
-   "artist": "Sam Evian",
+   "artist": "Sam Evian - Topic",
    "album": "Time to Melt",
    "videoId": "njCYNv_qyZE",
    "duration": "3:44"
@@ -8770,7 +8770,7 @@
   },
   {
    "title": "Regards from Freddie Horrowitz",
-   "artist": "The Dave Pike Set",
+   "artist": "Dave Pike Set",
    "album": "Masterpieces",
    "videoId": "xrb80Sb4S20",
    "duration": "4:41"
@@ -9161,8 +9161,8 @@
    "duration": "4:15"
   },
   {
-   "title": "They Don't Want Music (Pete Rock Remix) (feat. James Brown)",
-   "artist": "Black Eyed Peas",
+   "title": "They Don't Want Music (Pete Rock Remix)",
+   "artist": "The Black Eyed Peas - Topic",
    "album": "Renegotiations: The Remixes",
    "videoId": "nBMXReXuURA",
    "duration": "6:26"
@@ -9428,7 +9428,7 @@
   },
   {
    "title": "Love vs. Money",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream - Topic",
    "album": "Love Vs Money",
    "videoId": "t3-nw-nEGDM",
    "duration": "4:12"
@@ -9477,7 +9477,7 @@
   },
   {
    "title": "No Church In The Wild (feat. Frank Ocean & The-Dream)",
-   "artist": "JAY-Z;Kanye West",
+   "artist": "JAŸ-Z;Kanye West",
    "album": "Watch The Throne",
    "videoId": "oRAIA_F_sZs",
    "duration": "4:33"
@@ -9526,7 +9526,7 @@
   },
   {
    "title": "Burning Spear",
-   "artist": "Kenny Burrell",
+   "artist": "Kenny Burrell - Topic",
    "album": "Blues - The Common Ground",
    "videoId": "7UeYTqJW5Z4",
    "duration": "2:48"
@@ -9540,7 +9540,7 @@
   },
   {
    "title": "Love vs. Money: Pt. 2",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream - Topic",
    "album": "Love Vs Money",
    "videoId": "keGETsRTSEk",
    "duration": "4:13"
@@ -9686,8 +9686,8 @@
    "duration": "2:53"
   },
   {
-   "title": "Let Me See The Booty (feat. Lil Jon)",
-   "artist": "THE-DREAM",
+   "title": "Let Me See The Booty",
+   "artist": "Release - Topic",
    "album": "Love Vs Money",
    "videoId": "56vEn7hnaS4",
    "duration": "3:35"
@@ -10128,7 +10128,7 @@
   },
   {
    "title": "Oh Boy (feat. Juelz Santana)",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron",
    "album": "Come Home With Me",
    "videoId": "GVTXRkGWqsU",
    "duration": "3:25"
@@ -10170,7 +10170,7 @@
   },
   {
    "title": "Ain't No Mountain High Enough",
-   "artist": "Tammi Terrell;Marvin Gaye",
+   "artist": "Marvin Gaye;Tammi Terrell",
    "album": "Greatest Hits",
    "videoId": "Gq-Ufl_dNwk",
    "duration": "2:28"
@@ -10239,7 +10239,7 @@
    "duration": "4:28"
   },
   {
-   "title": "Jolene",
+   "title": "Jolene (feat. Måneskin)",
    "artist": "Dolly Parton",
    "album": "Jolene",
    "videoId": "ZCwWAD6ZuPk",
@@ -10260,7 +10260,7 @@
    "duration": "3:30"
   },
   {
-   "title": "You Know I'm No Good",
+   "title": "You Know I'm No Good (feat. Ghostface Killah)",
    "artist": "Amy Winehouse",
    "album": "Back To Black (Deluxe Edition)",
    "videoId": "t-FhyZrncqA",
@@ -10303,14 +10303,14 @@
   },
   {
    "title": "Call The Doctor",
-   "artist": "JJ Cale",
+   "artist": "J.J. Cale",
    "album": "Naturally",
    "videoId": "rdRFdZdsdH0",
    "duration": "2:28"
   },
   {
    "title": "Somethin' Stupid",
-   "artist": "Frank Sinatra;Nancy Sinatra",
+   "artist": "Frank Sinatra - Topic",
    "album": "The World We Knew",
    "videoId": "LWXUdqvVO8Y",
    "duration": "2:43"
@@ -10331,7 +10331,7 @@
   },
   {
    "title": "Sense",
-   "artist": "King Gizzard & the Lizard Wizard",
+   "artist": "King Gizzard & The Lizard Wizard",
    "album": "Paper Mâché Dream Balloon",
    "videoId": "bNpEUbWOBiM",
    "duration": "3:31"
@@ -10359,7 +10359,7 @@
   },
   {
    "title": "Put A Lid On It",
-   "artist": "Squirrel Nut Zippers",
+   "artist": "Squirrel Nut Zippers - Topic",
    "album": "The Best of Squirrel Nut Zippers",
    "videoId": "GEMd1ANMKrU",
    "duration": "2:38"
@@ -10457,7 +10457,7 @@
   },
   {
    "title": "Tonight",
-   "artist": "Sleepdealer, TheGoodPerry;TheGoodPerry",
+   "artist": "Sleepdealer, TheGoodPerry - Topic",
    "album": "Tonight",
    "videoId": "AKNQxM3imaM",
    "duration": "2:27"
@@ -10527,7 +10527,7 @@
   },
   {
    "title": "A Date with the Devil in Africa",
-   "artist": "Figub Brazlevič",
+   "artist": "Figub Brazlevic",
    "album": "Oldschool Future",
    "videoId": "rIUUJ-Qrx7o",
    "duration": "3:20"
@@ -10562,7 +10562,7 @@
   },
   {
    "title": "Tôzen",
-   "artist": "GYVUS",
+   "artist": "GYVUS - Topic",
    "album": "Tôzen",
    "videoId": "MeNqXPgYFfw",
    "duration": "2:51"
@@ -11310,8 +11310,8 @@
    "duration": "3:44"
   },
   {
-   "title": "Ain't Gonna Give It Up (feat. Saun & Starr & Menahan Street Band)",
-   "artist": "Charles Bradley",
+   "title": "Ain't Gonna Give It Up",
+   "artist": "Charles Bradley - Topic",
    "album": "Changes",
    "videoId": "b4NAta5J8tI",
    "duration": "3:54"
@@ -11332,7 +11332,7 @@
   },
   {
    "title": "And Then",
-   "artist": "James Tillman",
+   "artist": "James Tillman - Topic",
    "album": "Shangri La EP",
    "videoId": "64evDH_ETvA",
    "duration": "4:22"
@@ -11436,8 +11436,8 @@
    "duration": "3:32"
   },
   {
-   "title": "Changes (feat. The Budos Band)",
-   "artist": "Charles Bradley",
+   "title": "Changes",
+   "artist": "The Budos Band;Charles Bradley",
    "album": "Changes",
    "videoId": "JuFAwcoG8VI",
    "duration": "5:43"
@@ -11465,7 +11465,7 @@
   },
   {
    "title": "Ziarre",
-   "artist": "Lewlewal De Podor",
+   "artist": "Lewlewal de Podor",
    "album": "Yiilo Jaam",
    "videoId": "__xtPWJQpLc",
    "duration": "3:11"
@@ -11493,7 +11493,7 @@
   },
   {
    "title": "Wish You Still Felt This Way",
-   "artist": "sophie meiers",
+   "artist": "Sophie Meiers - Topic",
    "album": "Candle Glow",
    "videoId": "MMk8cP-53mQ",
    "duration": "2:27"
@@ -11521,7 +11521,7 @@
   },
   {
    "title": "Pressure Drop",
-   "artist": "Toots & The Maytals",
+   "artist": "The Maytals",
    "album": "The Best of The Maytals",
    "videoId": "X6ue9a6RdJU",
    "duration": "3:01"
@@ -11717,7 +11717,7 @@
   },
   {
    "title": "Make Me Smile (Come up and See Me)",
-   "artist": "Steve Harley & Cockney Rebel",
+   "artist": "Steve Harley",
    "album": "Make Me Smile: The Best of Steve Harley & Cockney Rebel",
    "videoId": "qJ58EJ6dbdE",
    "duration": "3:57"
@@ -11920,7 +11920,7 @@
   },
   {
    "title": "Father And Son",
-   "artist": "Yusuf / Cat Stevens",
+   "artist": "Cat Stevens",
    "album": "The Very Best Of Cat Stevens",
    "videoId": "7SLY4seJzh0",
    "duration": "3:41"
@@ -12039,7 +12039,7 @@
   },
   {
    "title": "On N'a Pas Besoin",
-   "artist": "Paris Combo",
+   "artist": "Paris Combo - Topic",
    "album": "Paris Combo",
    "videoId": "CXWALHoF44Y",
    "duration": "4:08"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Open My Eyes",
-   "artist": "The Sha La Das",
+   "artist": "The Sha La Das - Topic",
    "album": "Love in the Wind",
    "videoId": "iAsTlxJlvos",
    "duration": "3:46"
@@ -12200,14 +12200,14 @@
   },
   {
    "title": "Sunday Table",
-   "artist": "Thomas M. Lauderdale;Pink Martini;China Forbes",
+   "artist": "Thomas M. Lauderdale - Topic",
    "album": "Splendor in the Grass",
    "videoId": "eqIgb8VPLzE",
    "duration": "4:32"
   },
   {
    "title": "Moonshadow",
-   "artist": "Yusuf / Cat Stevens",
+   "artist": "Cat Stevens",
    "album": "The Very Best Of Cat Stevens",
    "videoId": "C9v8fStNnhk",
    "duration": "2:51"
@@ -12363,7 +12363,7 @@
    "title": "All Yours",
    "artist": "Widowspeak",
    "album": "All Yours",
-   "videoId": "TRDR44b-KP4",
+   "videoId": "GZYyfysKstY",
    "duration": "3:43"
   },
   {
@@ -12410,7 +12410,7 @@
   },
   {
    "title": "Gin & Tonic",
-   "artist": "The Fonxionaires;Brandy Butler",
+   "artist": "Brandy Butler;The Fonxionaires",
    "album": "Don't Want Nothing",
    "videoId": "IkB2Vpw6HzY",
    "duration": "3:24"
@@ -12433,7 +12433,7 @@
    "title": "Caller No. 99",
    "artist": "Chris Cohen",
    "album": "Overgrown Path",
-   "videoId": "V73vcDoQlVU",
+   "videoId": "iFDPEgdnnI4",
    "duration": "3:43"
   },
   {
@@ -12535,7 +12535,7 @@
    "duration": "3:05"
   },
   {
-   "title": "Going To A Town",
+   "title": "Going To A Town (feat. Anthony Hegarty)",
    "artist": "Rufus Wainwright",
    "album": "Vibrate: The Best Of (Deluxe Edition)",
    "videoId": "DdpR-v_BRg0",
@@ -12753,7 +12753,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Orlando Julius",
+   "artist": "Orlando Julius - Topic",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -12774,7 +12774,7 @@
   },
   {
    "title": "Papa Was a Rolling Stone",
-   "artist": "George Dekker, Jackie Robinson, & Sidney Crooks",
+   "artist": "Sidney Crooks, George Agard, & Jackie Robinson",
    "album": "Give and Take - The Best of The Pioneers",
    "videoId": "8JztSFEYoTk",
    "duration": "4:50"
@@ -12900,7 +12900,7 @@
   },
   {
    "title": "In The Blue",
-   "artist": "Break",
+   "artist": "Break - Topic",
    "album": "Symmetry",
    "videoId": "5FFeg6XFNa0",
    "duration": "3:00"
@@ -13040,7 +13040,7 @@
   },
   {
    "title": "Dumb Love",
-   "artist": "NEIL FRANCES",
+   "artist": "NEIL FRANCES - Topic",
    "album": "Dumb Love",
    "videoId": "2Tfut8oyb4s",
    "duration": "4:43"
@@ -13061,7 +13061,7 @@
   },
   {
    "title": "Singe (Nu-Skool Mix)",
-   "artist": "Metropolitan Jazz Affair",
+   "artist": "Metropolitan Jazz Affair - Topic",
    "album": "Mja",
    "videoId": "kfOD9YGi_T8",
    "duration": "6:33"
@@ -13110,7 +13110,7 @@
   },
   {
    "title": "Loving Spirit",
-   "artist": "Toots & The Maytals",
+   "artist": "The Maytals",
    "album": "From the Roots",
    "videoId": "DnZeIxyb4dI",
    "duration": "3:05"
@@ -13530,7 +13530,7 @@
   },
   {
    "title": "Another Case",
-   "artist": "Tora",
+   "artist": "Tora - Topic",
    "album": "Another Case",
    "videoId": "EhJHeyqAir8",
    "duration": "3:21"
@@ -13999,7 +13999,7 @@
   },
   {
    "title": "The Bare Necessities (From \"The Jungle Book\" Soundtrack)",
-   "artist": "Phil Harris;Bruce Reitherman",
+   "artist": "Phil Harris - Topic",
    "album": "Julie Andrews Selects Her Favorite Disney Songs",
    "videoId": "QID0v2oGvZU",
    "duration": "4:51"
@@ -14181,14 +14181,14 @@
   },
   {
    "title": "Woman Of The Ghetto",
-   "artist": "Marlena Shaw",
+   "artist": "Marlena Shaw - Topic",
    "album": "The Spice Of Life",
    "videoId": "WaQTwVPvCAU",
    "duration": "6:03"
   },
   {
    "title": "Monticello",
-   "artist": "Release - Topic",
+   "artist": "Monty Alexander",
    "album": "The Verve Grooves Vol. 1",
    "videoId": "Vk53fsdW8BQ",
    "duration": "3:51"
@@ -14230,7 +14230,7 @@
   },
   {
    "title": "A coup de rêves",
-   "artist": "Ben l'Oncle Soul",
+   "artist": "Ben L'Oncle Soul",
    "album": "Walk The Line",
    "videoId": "vVvhaeFrzKA",
    "duration": "4:04"
@@ -14281,7 +14281,7 @@
    "title": "Cooking Up Something Good",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "2WZ5X0AMdK4",
+   "videoId": "m_lK-jJW1Y4",
    "duration": "2:42"
   },
   {
@@ -14293,7 +14293,7 @@
   },
   {
    "title": "A Little Piano",
-   "artist": "DJ Mitsu The Beats",
+   "artist": "DJ Mitsu The Beats - Topic",
    "album": "Beat Installments",
    "videoId": "pESrqdcbEfY",
    "duration": "2:29"
@@ -14356,7 +14356,7 @@
   },
   {
    "title": "City Of Stars",
-   "artist": "Ryan Gosling;Emma Stone",
+   "artist": "Ryan Gosling",
    "album": "La La Land - The Complete Musical Experience",
    "videoId": "bSXXXUtErt8",
    "duration": "1:52"
@@ -14593,7 +14593,7 @@
    "duration": "2:45"
   },
   {
-   "title": "California Soul",
+   "title": "California Soul (feat. Rich Rocka)",
    "artist": "Marlena Shaw",
    "album": "The Spice Of Life",
    "videoId": "CUosSQZSw5c",
@@ -14678,7 +14678,7 @@
   },
   {
    "title": "The Good Life",
-   "artist": "Ben l'Oncle Soul",
+   "artist": "Ben L'Oncle Soul",
    "album": "Under My Skin",
    "videoId": "BvgsTxm6P8A",
    "duration": "4:12"
@@ -14804,7 +14804,7 @@
   },
   {
    "title": "Elderberry",
-   "artist": "Josh Hey, Swarvy, & Matthew Houston",
+   "artist": "Swarvy, Josh Hey, & Matthew Houston",
    "album": "Elderberry",
    "videoId": "IotTI2ULNPQ",
    "duration": "3:08"
@@ -14881,7 +14881,7 @@
   },
   {
    "title": "Zimbap",
-   "artist": "Stay Classy;The Jazz Jousters",
+   "artist": "Stay Classy - Topic",
    "album": "Locations: Brazil",
    "videoId": "lIH2Xg8FYh8",
    "duration": "2:35"
@@ -14909,7 +14909,7 @@
   },
   {
    "title": "Down for the Fifth Time",
-   "artist": "Flamingosis",
+   "artist": "Flamingosis - Topic",
    "album": "Pleasure Palette",
    "videoId": "_zJsoeBODfc",
    "duration": "3:24"
@@ -15000,7 +15000,7 @@
   },
   {
    "title": "Soul Caliver 9mm",
-   "artist": "Figub Brazlevič",
+   "artist": "Figub Brazlevic",
    "album": "Oldschool Future",
    "videoId": "bChabEWoVJs",
    "duration": "2:16"
@@ -15014,7 +15014,7 @@
   },
   {
    "title": "Change",
-   "artist": "DJ Mitsu The Beats",
+   "artist": "DJ Mitsu The Beats - Topic",
    "album": "Beat Installments",
    "videoId": "FrSBgqG-TR4",
    "duration": "4:59"
@@ -15056,7 +15056,7 @@
   },
   {
    "title": "Cold Night",
-   "artist": "BIAS",
+   "artist": "BIAS - Topic",
    "album": "Time & Tide",
    "videoId": "5bnni0urJYo",
    "duration": "4:31"
@@ -15084,7 +15084,7 @@
   },
   {
    "title": "Butter Theory",
-   "artist": "Stay Classy;The Jazz Jousters",
+   "artist": "The Jazz Jousters;Stay Classy",
    "album": "Fourth Base",
    "videoId": "VW4rP3xbBGI",
    "duration": "2:24"
@@ -15175,7 +15175,7 @@
   },
   {
    "title": "Classy's Café",
-   "artist": "Stay Classy;Millennium Jazz Music;The Jazz Jousters",
+   "artist": "The Jazz Jousters;Stay Classy;Millennium Jazz Music",
    "album": "Endurance",
    "videoId": "o1AOzOG2Bl8",
    "duration": "2:37"
@@ -15280,7 +15280,7 @@
   },
   {
    "title": "Theme for \"Shaft\"",
-   "artist": "Luviia",
+   "artist": "Luviia - Topic",
    "album": "P2P Feelings",
    "videoId": "-VoeSHqa7rM",
    "duration": "2:58"
@@ -15322,7 +15322,7 @@
   },
   {
    "title": "Questions",
-   "artist": "Luviia",
+   "artist": "Luviia - Topic",
    "album": "P2P Feelings",
    "videoId": "UIGgHVGxXeE",
    "duration": "1:34"
@@ -15399,7 +15399,7 @@
   },
   {
    "title": "Because You're Near",
-   "artist": "BIAS",
+   "artist": "BIAS - Topic",
    "album": "Time & Tide",
    "videoId": "DDGSz6U6Oc4",
    "duration": "4:36"
@@ -15413,7 +15413,7 @@
   },
   {
    "title": "Starry Night",
-   "artist": "Erik Jackson;The Jazz Jousters",
+   "artist": "The Jazz Jousters;Erik Jackson",
    "album": "Fourth Base",
    "videoId": "nVFENrBj6RI",
    "duration": "3:23"
@@ -15504,7 +15504,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee",
+   "artist": "Mk.gee - Topic",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -15532,7 +15532,7 @@
   },
   {
    "title": "Vibes Tribes",
-   "artist": "Roman Rauch",
+   "artist": "Release - Topic",
    "album": "Heliocentric",
    "videoId": "rIjqZZmvDX0",
    "duration": "5:18"
@@ -15553,7 +15553,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -15735,7 +15735,7 @@
   },
   {
    "title": "Okay My Love",
-   "artist": "The Sha La Das",
+   "artist": "The Sha La Das - Topic",
    "album": "Love in the Wind",
    "videoId": "iYpqFblj4-s",
    "duration": "3:38"
@@ -15748,8 +15748,8 @@
    "duration": "1:26"
   },
   {
-   "title": "Darkest (Dim) (feat. Gavin Turek)",
-   "artist": "TOKiMONSTA",
+   "title": "Darkest (Dim)",
+   "artist": "TOKiMONSTA - Topic",
    "album": "Creature Dreams",
    "videoId": "Urfs96K8Bic",
    "duration": "5:10"
@@ -15763,7 +15763,7 @@
   },
   {
    "title": "Transparency",
-   "artist": "Flamingosis",
+   "artist": "Flamingosis - Topic",
    "album": "Pleasure Palette",
    "videoId": "xvcdAptqdwQ",
    "duration": "4:33"
@@ -15889,7 +15889,7 @@
   },
   {
    "title": "One Mile Loop",
-   "artist": "B3NBi;The Jazz Jousters",
+   "artist": "The Jazz Jousters;B 3 N B i",
    "album": "The Vault: The Best of the Jazz Jousters",
    "videoId": "MgflWRJgzE4",
    "duration": "2:37"
@@ -16134,7 +16134,7 @@
   },
   {
    "title": "Samba Da Minha Terra (Live At Carnegie Hall/1964)",
-   "artist": "João Gilberto;Stan Getz",
+   "artist": "Stan Getz;João Gilberto",
    "album": "Getz/Gilberto #2",
    "videoId": "RBfncyp4BA0",
    "duration": "3:09"
@@ -16155,7 +16155,7 @@
   },
   {
    "title": "Lovely You",
-   "artist": "Monster Rally",
+   "artist": "Monster Rally - Topic",
    "album": "Return to Paradise",
    "videoId": "QZFD6IGY9ak",
    "duration": "2:08"
@@ -16183,7 +16183,7 @@
   },
   {
    "title": "Fu Man Chu",
-   "artist": "Desmond Dekker",
+   "artist": "Desmond Dekker & The Aces",
    "album": "The Definitive Collection: You Can Get It If You Really Want",
    "videoId": "cDbI9NJbdpU",
    "duration": "3:20"
@@ -16217,7 +16217,7 @@
    "duration": "1:46"
   },
   {
-   "title": "Brown Sugar",
+   "title": "Brown Sugar (feat. Kool G Rap)",
    "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "-DNm9jn5z1w",
@@ -16231,7 +16231,7 @@
    "duration": "3:13"
   },
   {
-   "title": "Doobies (Instrumental Version)",
+   "title": "Doobies (Instrumental Version) (feat. Mädness)",
    "artist": "Dexter",
    "album": "Palmen & Beats",
    "videoId": "7KWBd7gfznE",
@@ -16295,7 +16295,7 @@
   },
   {
    "title": "The Man",
-   "artist": "Gibmafuffi",
+   "artist": "Gibmafuffi - Topic",
    "album": "Spielschulden",
    "videoId": "6Xy7bzamvLw",
    "duration": "2:10"
@@ -16385,7 +16385,7 @@
    "duration": "2:14"
   },
   {
-   "title": "Chardonnay (Instrumental Version)",
+   "title": "Chardonnay (Instrumental Version) (feat. Jaques Shure)",
    "artist": "Dexter",
    "album": "Palmen & Beats",
    "videoId": "kvz1fqLYt0M",
@@ -16533,7 +16533,7 @@
   },
   {
    "title": "Sincerely, Yours",
-   "artist": "sophie meiers",
+   "artist": "Sophie Meiers - Topic",
    "album": "Candle Glow",
    "videoId": "sfTukc9zun8",
    "duration": "2:33"
@@ -16547,7 +16547,7 @@
   },
   {
    "title": "Heigh-Ho (The Dwarf's Marching Song)",
-   "artist": "Louis Armstrong",
+   "artist": "Louis Armstrong - Topic",
    "album": "Disney Songs The Satchmo Way",
    "videoId": "VuBK0XoZeZ4",
    "duration": "2:37"
@@ -16694,7 +16694,7 @@
   },
   {
    "title": "Happysad Sunday",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "Kickinit Alone",
    "videoId": "lD-zkj0eELA",
    "duration": "2:48"
@@ -16729,7 +16729,7 @@
   },
   {
    "title": "Beautiful and Dangerous",
-   "artist": "Desmond Dekker",
+   "artist": "Desmond Dekker & The Aces",
    "album": "This Is Desmond Dekker (Enhanced Edition)",
    "videoId": "cY7kKngMIic",
    "duration": "2:50"
@@ -16757,7 +16757,7 @@
   },
   {
    "title": "Turnin' Me Up",
-   "artist": "B.J. The Chicago Kid",
+   "artist": "BJ The Chicago Kid",
    "album": "In My Mind",
    "videoId": "QgzTaKA7MnM",
    "duration": "4:30"

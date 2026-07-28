@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
  "title": "001",
  "trackCount": 188,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "ANGULIMAAL",
@@ -145,8 +145,8 @@
    "duration": "4:23"
   },
   {
-   "title": "Soul Safety Administration (feat. Feugzy McGaegazy & Foster Cazz)",
-   "artist": "Abhi The Nomad",
+   "title": "Soul Safety Administration",
+   "artist": "Abhi The Nomad - Topic",
    "album": "Where Are My Friends",
    "videoId": "MnKI8RLa9YI",
    "duration": "2:49"
@@ -342,7 +342,7 @@
   },
   {
    "title": "Y.A.L.A.",
-   "artist": "M.I.A.",
+   "artist": "Ray 7 & B. Calloway",
    "album": "Matangi",
    "videoId": "0Mq5UPdTu64",
    "duration": "4:24"
@@ -957,7 +957,7 @@
    "duration": "2:34"
   },
   {
-   "title": "Wanna Love You Girl (Main) (feat. Pharrell)",
+   "title": "Wanna Love You Girl (Main) (feat. Pharrell Williams)",
    "artist": "Robin Thicke",
    "album": "The Evolution of Robin Thicke",
    "videoId": "WJxj8lO2_Go",
@@ -971,8 +971,8 @@
    "duration": "3:46"
   },
   {
-   "title": "Losers (feat. Labrinth)",
-   "artist": "The Weeknd",
+   "title": "Losers",
+   "artist": "The Weeknd;Labrinth",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"
@@ -1034,7 +1034,7 @@
    "duration": "2:51"
   },
   {
-   "title": "Candy Shop (feat. O.L.I.V.I.A)",
+   "title": "Candy Shop (feat. Olivia)",
    "artist": "50 Cent",
    "album": "The Massacre",
    "videoId": "RWuW6-OE4VY",
@@ -1091,7 +1091,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D.",
+   "artist": "N.E.R.D. - Topic",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"

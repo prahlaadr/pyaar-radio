@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95",
  "title": "Houselaad Savage Video Game Nights [pyaar radio]",
  "trackCount": 160,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Breathing Underwater (DJ Spinna Galactic Soul Remix)",
@@ -328,7 +328,7 @@
   },
   {
    "title": "Sinnerman (Felix Da Housecat's Heavenly House Mix)",
-   "artist": "Felix Da Housecat;Nina Simone",
+   "artist": "Nina Simone;Felix Da Housecat",
    "album": "Verve Remixed 2",
    "videoId": "zh970Ofz86o",
    "duration": "4:36"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Superluminal",
-   "artist": "Jesper Ryom",
+   "artist": "Jesper Ryom - Topic",
    "album": "The Two of Us",
    "videoId": "ZboRFSGfnHE",
    "duration": "7:17"
@@ -608,7 +608,7 @@
   },
   {
    "title": "Joy & Happiness",
-   "artist": "Daniel Steinberg",
+   "artist": "Daniel Steinberg - Topic",
    "album": "Joy & Happiness EP",
    "videoId": "dhZ8OksCGRI",
    "duration": "6:05"
@@ -755,7 +755,7 @@
   },
   {
    "title": "Groove On",
-   "artist": "Borrowed Identity",
+   "artist": "Borrowed Identity - Topic",
    "album": "Caps and Chords EP",
    "videoId": "E7USDTLD79g",
    "duration": "7:36"
@@ -888,7 +888,7 @@
   },
   {
    "title": "Venus Requiem",
-   "artist": "The Blessed Madonna",
+   "artist": "The Blessed Madonna - Topic",
    "album": "Stay",
    "videoId": "LslkE5PhjHA",
    "duration": "5:58"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "Evening Call",
-   "artist": "Project Pablo",
+   "artist": "Project Pablo - Topic",
    "album": "Priorities",
    "videoId": "JZ9Cq_Y6OcA",
    "duration": "5:31"

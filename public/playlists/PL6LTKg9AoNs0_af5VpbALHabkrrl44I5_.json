@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0_af5VpbALHabkrrl44I5_",
  "title": "Dub Crate (Dub, calm UKG, deep bass) (goated) [pyaar radio]",
  "trackCount": 509,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Midnight Request Line",
@@ -68,7 +68,7 @@
    "duration": "5:57"
   },
   {
-   "title": "Cockney Thug (Caspa Remix) (feat. Caspa)",
+   "title": "Cockney Thug (Caspa Remix)",
    "artist": "Rusko",
    "album": "Cockney Thug",
    "videoId": "mi-0NlSRnmw",
@@ -90,14 +90,14 @@
   },
   {
    "title": "Down",
-   "artist": "Release - Topic",
+   "artist": "DZ",
    "album": "Blow Your Head: Diplo Presents Dubstep",
    "videoId": "2DRvNEHfG9o",
    "duration": "5:38"
   },
   {
    "title": "Gunshotta",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "2Qqsec6ifkI",
    "duration": "5:47"
@@ -195,7 +195,7 @@
   },
   {
    "title": "Traffic",
-   "artist": "Greg",
+   "artist": "Distance",
    "album": "My Demons",
    "videoId": "Q-NnkgLkUDk",
    "duration": "5:22"
@@ -265,7 +265,7 @@
   },
   {
    "title": "Klavierwerke",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "Klavierwerke EP",
    "videoId": "hnU-6KYf874",
    "duration": "5:07"
@@ -335,21 +335,21 @@
   },
   {
    "title": "3rd Choice (Loefah Remix)",
-   "artist": "Vex'd",
+   "artist": "Vex'd - Topic",
    "album": "3rd Choice",
    "videoId": "zEsr9kTdk-Y",
    "duration": "4:56"
   },
   {
    "title": "Killing Floor",
-   "artist": "Vex'd",
+   "artist": "Vex'd - Topic",
    "album": "Bombardment of Saturn",
    "videoId": "USCwcofa4JI",
    "duration": "6:57"
   },
   {
    "title": "Qawwali",
-   "artist": "Pinch",
+   "artist": "Pinch - Topic",
    "album": "Qawwali",
    "videoId": "DIqeK3otin0",
    "duration": "3:49"
@@ -426,7 +426,7 @@
   },
   {
    "title": "Cross Polarity",
-   "artist": "J:Kenzo",
+   "artist": "J:Kenzo - Topic",
    "album": "Cross Polarity",
    "videoId": "iEx2Qocw5Zg",
    "duration": "5:36"
@@ -489,14 +489,14 @@
   },
   {
    "title": "Gravity (feat. RY X)",
-   "artist": "Maya Jane Coles",
+   "artist": "Nocturnal Sunshine",
    "album": "Full Circle",
    "videoId": "C7RWLwOEHIk",
    "duration": "4:48"
   },
   {
    "title": "Don’t 1 2 Lose U",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "RG2sYR9Ohj4",
    "duration": "4:18"
@@ -615,14 +615,14 @@
   },
   {
    "title": "Sais",
-   "artist": "Floating Points",
+   "artist": "Floating Points - Topic",
    "album": "Shadows",
    "videoId": "7g9nmf0Gscg",
    "duration": "8:04"
   },
   {
    "title": "Railroad",
-   "artist": "Pariah",
+   "artist": "Pariah - Topic",
    "album": "Safehouses EP",
    "videoId": "2wuUML8b-VA",
    "duration": "3:36"
@@ -908,8 +908,8 @@
    "duration": "4:32"
   },
   {
-   "title": "If",
-   "artist": "Laurelle;Himalia",
+   "title": "If (feat. Laurelle)",
+   "artist": "Himalia;Laurelle",
    "album": "Distances",
    "videoId": "KUTvt_cnFj0",
    "duration": "5:06"
@@ -965,7 +965,7 @@
   },
   {
    "title": "Torminator Original Mix",
-   "artist": "Eskimo",
+   "artist": "Eskimo - Topic",
    "album": "Balloonatic Part One",
    "videoId": "jjWxZQxDIag",
    "duration": "7:21"
@@ -1441,7 +1441,7 @@
   },
   {
    "title": "Manna",
-   "artist": "Audialist",
+   "artist": "Audialist - Topic",
    "album": "Burning / Manna",
    "videoId": "u-DqJN10O7Q",
    "duration": "6:20"
@@ -2147,8 +2147,8 @@
    "duration": "4:47"
   },
   {
-   "title": "Hollow (feat. Elle Chante)",
-   "artist": "Dawncall",
+   "title": "Hollow",
+   "artist": "Dawncall - Topic",
    "album": "Hollow",
    "videoId": "phIlLmkSLlE",
    "duration": "3:51"
@@ -2386,7 +2386,7 @@
   },
   {
    "title": "SeeSea",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "3XHl8W--LaQ",
    "duration": "4:17"
@@ -2820,7 +2820,7 @@
   },
   {
    "title": "You Stand Uncertain",
-   "artist": "FaltyDL",
+   "artist": "FaltyDL - Topic",
    "album": "You Stand Uncertain",
    "videoId": "zW1CYp2Q3dI",
    "duration": "4:14"
@@ -2911,7 +2911,7 @@
   },
   {
    "title": "Wide Eyed",
-   "artist": "Billy Lockett",
+   "artist": "Billy Lockett - Topic",
    "album": "Wide Eyed",
    "videoId": "tZ4tRn6Mj_I",
    "duration": "2:42"
@@ -2939,7 +2939,7 @@
   },
   {
    "title": "The Slump",
-   "artist": "Pariah",
+   "artist": "Pariah - Topic",
    "album": "Safehouses EP",
    "videoId": "b_CwDiLCvyE",
    "duration": "6:08"
@@ -3058,7 +3058,7 @@
   },
   {
    "title": "Foundation",
-   "artist": "Maya Jane Coles",
+   "artist": "Maya Jane Coles - Topic",
    "album": "Foundation",
    "videoId": "DNOloMxOud4",
    "duration": "4:28"
@@ -3079,14 +3079,14 @@
   },
   {
    "title": "Crossed Out",
-   "artist": "Pariah",
+   "artist": "Pariah - Topic",
    "album": "Safehouses EP",
    "videoId": "xQ14J5qqQkM",
    "duration": "5:42"
   },
   {
    "title": "Bride",
-   "artist": "Amplifier",
+   "artist": "Amplifier - Topic",
    "album": "Mystoria",
    "videoId": "gcHLx8WR9tI",
    "duration": "3:57"
@@ -3135,7 +3135,7 @@
   },
   {
    "title": "Tension",
-   "artist": "DjRUM",
+   "artist": "DjRUM - Topic",
    "album": "St Martin",
    "videoId": "U_ZqYbu0g0U",
    "duration": "8:51"
@@ -3239,8 +3239,8 @@
    "duration": "5:09"
   },
   {
-   "title": "Inhale",
-   "artist": "Faib & Synkro",
+   "title": "Inhale (feat. Faib)",
+   "artist": "Synkro",
    "album": "Inhale",
    "videoId": "4XSFb5ZK_eI",
    "duration": "5:45"
@@ -3317,7 +3317,7 @@
   },
   {
    "title": "Air Pie",
-   "artist": "Brackles",
+   "artist": "Release - Topic",
    "album": "Rawkus",
    "videoId": "_NnSq87YvsA",
    "duration": "4:33"
@@ -3422,7 +3422,7 @@
   },
   {
    "title": "A&E",
-   "artist": "Inga Copeland",
+   "artist": "Inga Copeland - Topic",
    "album": "Don't Look Back, That's Not Where You're Going",
    "videoId": "8xhxdTlV9P4",
    "duration": "4:31"

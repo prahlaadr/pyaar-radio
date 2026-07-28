@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2tDJVhb4Ig5Kc1ITpzFGOa",
  "title": "punch bowl social",
  "trackCount": 59,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Can I Call You Rose?",
@@ -48,7 +48,7 @@
   },
   {
    "title": "Throw Sum Mo (feat. Young Thug & Nicki Minaj)",
-   "artist": "Rae Sremmurd",
+   "artist": "Young Thug;Nicki Minaj",
    "album": "SremmLife",
    "videoId": "-Y_3s3AGMnE",
    "duration": "4:21"
@@ -61,7 +61,7 @@
    "duration": "2:59"
   },
   {
-   "title": "We Belong Together",
+   "title": "We Belong Together (feat. Styles & Jadakiss)",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -160,7 +160,7 @@
   },
   {
    "title": "My Humps",
-   "artist": "Black Eyed Peas",
+   "artist": "The Black Eyed Peas - Topic",
    "album": "Monkey Business",
    "videoId": "opnZlnd3d7U",
    "duration": "5:27"
@@ -188,7 +188,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D.",
+   "artist": "N.E.R.D. - Topic",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"
@@ -229,7 +229,7 @@
    "duration": "3:37"
   },
   {
-   "title": "Wanna Love You Girl (Main) (feat. Pharrell)",
+   "title": "Wanna Love You Girl (Main) (feat. Pharrell Williams)",
    "artist": "Robin Thicke",
    "album": "The Evolution of Robin Thicke",
    "videoId": "WJxj8lO2_Go",
@@ -391,7 +391,7 @@
   },
   {
    "title": "Allure",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "o_e8CAZC3Tw",
    "duration": "4:53"

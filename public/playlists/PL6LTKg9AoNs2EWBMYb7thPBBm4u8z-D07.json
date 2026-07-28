@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -418,7 +418,7 @@
    "duration": "4:09"
   },
   {
-   "title": "Sunset",
+   "title": "Sunset (feat. Nicki Wells, Samidha Joglekar & Ashwin Srinivasan)",
    "artist": "Nitin Sawhney",
    "album": "Prophesy",
    "videoId": "UWYeGfahOzo",
@@ -489,7 +489,7 @@
   },
   {
    "title": "Peace Piece",
-   "artist": "Bill Evans",
+   "artist": "Bill Evans Trio",
    "album": "Everybody Digs Bill Evans",
    "videoId": "ocAf1rK3fxE",
    "duration": "6:41"
@@ -580,7 +580,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee",
+   "artist": "Mk.gee - Topic",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Isaac Aesili;Chaos In The CBD",
+   "artist": "Isaac Aesili - Topic",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -1153,14 +1153,14 @@
    "duration": "4:08"
   },
   {
-   "title": "Spiritual State (feat. uyama hiroto)",
+   "title": "Spiritual State (feat. Uyama Hiroto)",
    "artist": "Nujabes",
    "album": "Spiritual State",
    "videoId": "L95z7M8uU9k",
    "duration": "6:32"
   },
   {
-   "title": "Gone Are The Days (feat. uyama hiroto)",
+   "title": "Gone Are The Days (feat. Uyama Hiroto)",
    "artist": "Nujabes",
    "album": "Spiritual State",
    "videoId": "-9cr2EkhP4E",
@@ -1293,8 +1293,8 @@
    "duration": "2:08"
   },
   {
-   "title": "Lovely (feat. Pusha T)",
-   "artist": "John West",
+   "title": "Lovely",
+   "artist": "John West - Topic",
    "album": "John West",
    "videoId": "AqBaRG35iek",
    "duration": "4:06"
@@ -1588,7 +1588,7 @@
   },
   {
    "title": "Early Prayer",
-   "artist": "Kamaal Williams",
+   "artist": "Kamaal Williams - Topic",
    "album": "Wu Hen",
    "videoId": "33arQc-yI1U",
    "duration": "4:58"
@@ -1819,7 +1819,7 @@
   },
   {
    "title": "Black Sands",
-   "artist": "Bonobo",
+   "artist": "Bonobo - Topic",
    "album": "Black Sands",
    "videoId": "50QkaRiUJvU",
    "duration": "6:49"
@@ -2015,7 +2015,7 @@
   },
   {
    "title": "Louise",
-   "artist": "TV Girl",
+   "artist": "TV Girl - Topic",
    "album": "French Exit",
    "videoId": "qMwRRV_mFQE",
    "duration": "3:15"
@@ -2568,7 +2568,7 @@
   },
   {
    "title": "Blindsided",
-   "artist": "Bon Iver",
+   "artist": "Bon Iver - Topic",
    "album": "For Emma, Forever Ago",
    "videoId": "vschq2SYrFE",
    "duration": "5:30"
@@ -2750,7 +2750,7 @@
   },
   {
    "title": "Deep Chimes Meditation",
-   "artist": "Laraaji",
+   "artist": "Laraaji - Topic",
    "album": "Celestrana Deep Chimes Meditation",
    "videoId": "JYSWoBZdRPs",
    "duration": "32:01"
@@ -3884,7 +3884,7 @@
   },
   {
    "title": "Soon Enough",
-   "artist": "Xavier Omär;Sango",
+   "artist": "Release - Topic",
    "album": "Hours Spent Loving You",
    "videoId": "5GabqCpPJnU",
    "duration": "3:25"
@@ -4614,7 +4614,7 @@
    "title": "My Kind of Woman",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "1_tjOgqG8Yc",
+   "videoId": "88mooKbT61A",
    "duration": "3:11"
   },
   {
@@ -4759,7 +4759,7 @@
   },
   {
    "title": "Camelblues",
-   "artist": "Mndsgn",
+   "artist": "MNDSGN - Topic",
    "album": "Yawn Zen",
    "videoId": "pIrGHTLvM0s",
    "duration": "2:33"
@@ -5298,42 +5298,42 @@
   },
   {
    "title": "Fkku",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "x1MktwNkpLU",
    "duration": "2:12"
   },
   {
    "title": "Sidepiece",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "A8RAM9GUYRk",
    "duration": "3:47"
   },
   {
    "title": "Can’t Stop",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"
   },
   {
    "title": "Kutless",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "6YSR91Ixy1c",
    "duration": "2:08"
   },
   {
    "title": "Wngs",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "u1yV7znGIik",
    "duration": "1:37"
   },
   {
    "title": "What More Can I Say",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "nvUjbMSqlZY",
    "duration": "2:37"
@@ -5382,7 +5382,7 @@
   },
   {
    "title": "Hazey",
-   "artist": "Glass Animals",
+   "artist": "Glass Animals - Topic",
    "album": "ZABA",
    "videoId": "o3miaGiB3JI",
    "duration": "4:26"
@@ -5703,8 +5703,8 @@
    "duration": "4:46"
   },
   {
-   "title": "Lady Brown (feat. Cise Star)",
-   "artist": "Nujabes",
+   "title": "Lady Brown",
+   "artist": "Release - Topic",
    "album": "Metaphorical Music",
    "videoId": "V8Xh5ErjIyM",
    "duration": "3:20"
@@ -5732,7 +5732,7 @@
   },
   {
    "title": "Prayers ii",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "BOGL-YjGBmY",
    "duration": "3:38"
@@ -5949,14 +5949,14 @@
   },
   {
    "title": "Vinta",
-   "artist": "Crumb",
+   "artist": "Release - Topic",
    "album": "Crumb",
    "videoId": "BAH2EX1fpGY",
    "duration": "5:00"
   },
   {
    "title": "Bones",
-   "artist": "Crumb",
+   "artist": "Crumb - Topic",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
@@ -6152,7 +6152,7 @@
   },
   {
    "title": "Muthu Mazhaiye",
-   "artist": "Sagar S",
+   "artist": "Sagar S - Topic",
    "album": "Mazhai",
    "videoId": "py-PbV8IENU",
    "duration": "1:24"
@@ -6679,7 +6679,7 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "pQsF3pzOc54",
+   "videoId": "MJoSyNdffGo",
    "duration": "3:52"
   },
   {
@@ -6966,35 +6966,35 @@
    "title": "My Kind of Woman",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "1_tjOgqG8Yc",
+   "videoId": "88mooKbT61A",
    "duration": "3:11"
   },
   {
    "title": "Robson Girl",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "diid-c8OR_g",
+   "videoId": "AKfCB-d_Dcw",
    "duration": "2:57"
   },
   {
    "title": "Ode to Viceroy",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "oVctwNqAUrs",
+   "videoId": "FaQXLEox09Y",
    "duration": "3:54"
   },
   {
    "title": "Annie",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "V0kat9dfjrE",
+   "videoId": "UWhG48NqRzI",
    "duration": "3:11"
   },
   {
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
@@ -7938,8 +7938,8 @@
   {
    "title": "Vacuum",
    "artist": "Homeshake",
-   "album": "Under the Weather",
-   "videoId": "cQ-okIAVmHM",
+   "album": "Under The Weather",
+   "videoId": "GnQ1ul9-qzw",
    "duration": "3:03"
   },
   {
@@ -9183,7 +9183,7 @@
   },
   {
    "title": "Je te laisserai des mots",
-   "artist": "Patrick Watson",
+   "artist": "Patrick Watson - Topic",
    "album": "Je te laisserai des mots",
    "videoId": "mcdO9UP0hp8",
    "duration": "2:41"
@@ -9234,7 +9234,7 @@
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
@@ -9274,7 +9274,7 @@
   },
   {
    "title": "Fall In Love (Your Funeral)",
-   "artist": "Erykah Badu",
+   "artist": "Release - Topic",
    "album": "New Amerykah Part Two: Return Of The Ankh",
    "videoId": "HRH8WDpGfFo",
    "duration": "6:07"
@@ -9484,14 +9484,14 @@
   },
   {
    "title": "Zebra",
-   "artist": "Beach House",
+   "artist": "Release - Topic",
    "album": "Teen Dream",
    "videoId": "_5Jt_ULYSr4",
    "duration": "4:49"
   },
   {
    "title": "Walk in the Park",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "t8TRH1t5dWw",
    "duration": "5:23"
@@ -10170,7 +10170,7 @@
   },
   {
    "title": "I Wanna Be Yours",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkey",
    "album": "AM",
    "videoId": "nyuo9-OjNNg",
    "duration": "3:04"
@@ -10226,7 +10226,7 @@
   },
   {
    "title": "Plants",
-   "artist": "Crumb",
+   "artist": "Crumb - Topic",
    "album": "Locket",
    "videoId": "ajyBZVSNCiI",
    "duration": "3:12"
@@ -10235,7 +10235,7 @@
    "title": "Blue Boy",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "GXuIWm12S24",
+   "videoId": "qjVXUneBsjg",
    "duration": "2:07"
   },
   {
@@ -10396,7 +10396,7 @@
    "title": "Go Easy",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "GrmhZlZmNfo",
+   "videoId": "CtwrnFog_EQ",
    "duration": "3:25"
   },
   {
@@ -10443,7 +10443,7 @@
   },
   {
    "title": "Stay High",
-   "artist": "Brittany Howard;Childish Gambino",
+   "artist": "Childish Gambino;Brittany Howard",
    "album": "Jaime (Reimagined)",
    "videoId": "bTKcFXvqnw0",
    "duration": "3:39"
@@ -10792,8 +10792,8 @@
    "duration": "4:17"
   },
   {
-   "title": "Lust For Life (The Avener Rework) (feat. The Weeknd)",
-   "artist": "Lana Del Rey;The Avener",
+   "title": "Lust For Life (The Avener Rework)",
+   "artist": "Lana Del Rey - Topic",
    "album": "Lust For Life (The Avener Rework)",
    "videoId": "0NFY_PR-kyI",
    "duration": "4:13"
@@ -10842,7 +10842,7 @@
   },
   {
    "title": "I See A Darkness",
-   "artist": "ROSALÍA",
+   "artist": "ROSALÍA - Topic",
    "album": "Los Ángeles",
    "videoId": "fg7GJghu4Zo",
    "duration": "4:09"
@@ -10898,7 +10898,7 @@
   },
   {
    "title": "8",
-   "artist": "WILLOW",
+   "artist": "WILLOW - Topic",
    "album": "3",
    "videoId": "qqVX5aQy-8A",
    "duration": "3:43"
@@ -10912,7 +10912,7 @@
   },
   {
    "title": "9 (feat. SZA)",
-   "artist": "WILLOW",
+   "artist": "Willow",
    "album": "3",
    "videoId": "FFYZ-mR-XUE",
    "duration": "4:14"
@@ -11255,7 +11255,7 @@
   },
   {
    "title": "As You Are",
-   "artist": "The Weeknd",
+   "artist": "The Weeknd - Topic",
    "album": "Beauty Behind The Madness",
    "videoId": "8CWy_-afIpY",
    "duration": "5:41"
@@ -11296,7 +11296,7 @@
    "duration": "5:28"
   },
   {
-   "title": "Sativa (feat. Rae Sremmurd)",
+   "title": "Sativa (feat. Swae Lee)",
    "artist": "Jhené Aiko",
    "album": "Sativa",
    "videoId": "GzbwIyKeTEc",
@@ -11317,7 +11317,7 @@
    "duration": "4:36"
   },
   {
-   "title": "Hyyerr (feat. King Chip)",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "kwhTmdff1rs",
@@ -11430,7 +11430,7 @@
   },
   {
    "title": "Lights Out, Words Gone",
-   "artist": "Bombay Bicycle Club",
+   "artist": "Bombay Bicycle Club - Topic",
    "album": "A Different Kind Of Fix",
    "videoId": "7hvWbYsr1HM",
    "duration": "5:02"
@@ -11485,8 +11485,8 @@
    "duration": "3:15"
   },
   {
-   "title": "The Ways (feat. Swae Lee)",
-   "artist": "Khalid",
+   "title": "The Ways",
+   "artist": "Khalid;Swae Lee",
    "album": "Black Panther The Album Music From And Inspired By",
    "videoId": "fRjlMaaYrtM",
    "duration": "3:59"
@@ -11619,14 +11619,14 @@
   },
   {
    "title": "Bones",
-   "artist": "Crumb",
+   "artist": "Crumb - Topic",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
   },
   {
    "title": "Vinta",
-   "artist": "Crumb",
+   "artist": "Release - Topic",
    "album": "Crumb",
    "videoId": "BAH2EX1fpGY",
    "duration": "5:00"
@@ -11682,7 +11682,7 @@
   },
   {
    "title": "Drawing Myself",
-   "artist": "Early Eyes",
+   "artist": "Early Eyes - Topic",
    "album": "Drawing Myself",
    "videoId": "XiPBaH4V90k",
    "duration": "3:26"
@@ -11723,8 +11723,8 @@
    "duration": "2:14"
   },
   {
-   "title": "Hold On (feat. Lauren Faith)",
-   "artist": "Kamaal Williams",
+   "title": "Hold On",
+   "artist": "Kamaal Williams - Topic",
    "album": "Wu Hen",
    "videoId": "P_ZnfuKi5bE",
    "duration": "3:21"
@@ -11814,7 +11814,7 @@
    "duration": "5:47"
   },
   {
-   "title": "Across The Universe (Remix)",
+   "title": "Across The Universe (Remix) (feat. Sean Ono Lennon & Moby)",
    "artist": "Rufus Wainwright",
    "album": "Poses (Expanded Edition)",
    "videoId": "75XDN5Zf7-Q",
@@ -11927,7 +11927,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkeys - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -13278,14 +13278,14 @@
   },
   {
    "title": "Despair In The Departure Lounge",
-   "artist": "Arctic Monkeys",
+   "artist": "Release - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "cUNmEBOHxz8",
    "duration": "3:25"
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkeys - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -13467,42 +13467,42 @@
   },
   {
    "title": "Zebra",
-   "artist": "Beach House",
+   "artist": "Release - Topic",
    "album": "Teen Dream",
    "videoId": "_5Jt_ULYSr4",
    "duration": "4:49"
   },
   {
    "title": "Norway",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "cv5Sc361d60",
    "duration": "3:55"
   },
   {
    "title": "Walk in the Park",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "t8TRH1t5dWw",
    "duration": "5:23"
   },
   {
    "title": "Lover of Mine",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "INH4wE6nkVI",
    "duration": "5:07"
   },
   {
    "title": "Better Times",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "DQt1G8oGnhI",
    "duration": "4:24"
   },
   {
    "title": "Real Love",
-   "artist": "Beach House",
+   "artist": "Beach House - Topic",
    "album": "Teen Dream",
    "videoId": "d8T9UDkxS1A",
    "duration": "5:21"
@@ -13607,14 +13607,14 @@
   },
   {
    "title": "Caint Use My Phone (Suite)",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "KaxDXs58XlA",
    "duration": "3:35"
   },
   {
    "title": "Hi",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "Hz7TP4Itc8U",
    "duration": "0:36"
@@ -13628,7 +13628,7 @@
   },
   {
    "title": "U Use To Call Me",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "6103flMrkas",
    "duration": "1:14"
@@ -13642,14 +13642,14 @@
   },
   {
    "title": "What’s Yo Phone Number / Telephone (Medley / Ghost Of Screw Mix)",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "9piNK32ZeOM",
    "duration": "5:11"
   },
   {
    "title": "I'll Call U Back",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "l5LWXCSD9hs",
    "duration": "1:58"
@@ -14929,7 +14929,7 @@
    "duration": "3:19"
   },
   {
-   "title": "Hyyerr (feat. King Chip)",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day",
    "videoId": "fmA4UJYuyIU",
@@ -14979,7 +14979,7 @@
   },
   {
    "title": "Last Words of a Shooting Star",
-   "artist": "Mitski",
+   "artist": "Mitski - Topic",
    "album": "Bury Me At Makeout Creek",
    "videoId": "ssVf326Ox9g",
    "duration": "2:45"
@@ -15098,7 +15098,7 @@
   },
   {
    "title": "Unluck",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "buHJNloNa7Q",
    "duration": "3:01"
@@ -15112,7 +15112,7 @@
   },
   {
    "title": "I Never Learnt To Share",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "BZSoMagoqtI",
    "duration": "4:52"
@@ -15126,7 +15126,7 @@
   },
   {
    "title": "Lindisfarne II",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "qizKSsfwots",
    "duration": "2:59"
@@ -15140,35 +15140,35 @@
   },
   {
    "title": "Give Me My Month",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "-MuWcwBFQkU",
    "duration": "1:54"
   },
   {
    "title": "To Care (Like You)",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "uoSdVejquiE",
    "duration": "3:53"
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
   },
   {
    "title": "I Mind",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "mD4cAPxFwpQ",
    "duration": "3:32"
   },
   {
    "title": "Measurements",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "KbvYyNkzNKM",
    "duration": "4:20"
@@ -15539,70 +15539,70 @@
   },
   {
    "title": "To Be",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "pWOgL606rbA",
    "duration": "2:55"
   },
   {
    "title": "Lost In A Dream",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "o_ZVSAjYJnk",
    "duration": "2:56"
   },
   {
    "title": "Everything Apart",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "4N43XRzc2i0",
    "duration": "4:17"
   },
   {
    "title": "In Another Life",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "E_5os1NBqAQ",
    "duration": "3:00"
   },
   {
    "title": "I'll Be Alright",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "PT1bquwogWA",
    "duration": "2:34"
   },
   {
    "title": "Lost On You",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "-aFIdl32k2s",
    "duration": "4:21"
   },
   {
    "title": "Your Small Town",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "q-13CfqkDa0",
    "duration": "2:49"
   },
   {
    "title": "Sunset Canyon",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "LtieDKyqlzU",
    "duration": "4:21"
   },
   {
    "title": "Fall Into A Dream",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "O4aWvPEolw0",
    "duration": "4:57"
   },
   {
    "title": "Give It A Chance",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "jtk1XA8q4SQ",
    "duration": "3:46"
@@ -17044,84 +17044,84 @@
   },
   {
    "title": "Wngs",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "u1yV7znGIik",
    "duration": "1:37"
   },
   {
    "title": "Best One",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "HnghCNaXg7w",
    "duration": "3:15"
   },
   {
    "title": "What More Can I Say",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "nvUjbMSqlZY",
    "duration": "2:37"
   },
   {
    "title": "Kutless",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "6YSR91Ixy1c",
    "duration": "2:08"
   },
   {
    "title": "Lyk Dis",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "HdImM__iStg",
    "duration": "2:31"
   },
   {
    "title": "Can’t Stop",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"
   },
   {
    "title": "Get Bigger / Do U Luv",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "J37T5ZGVFWQ",
    "duration": "4:04"
   },
   {
    "title": "Starlite",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "MpAX3GTmJjU",
    "duration": "3:24"
   },
   {
    "title": "Sidepiece",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "A8RAM9GUYRk",
    "duration": "3:47"
   },
   {
    "title": "Jodi",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "eLajfEKbAe4",
    "duration": "1:10"
   },
   {
    "title": "Another Time",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "s4WIwTLxDlM",
    "duration": "2:28"
   },
   {
    "title": "Fkku",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "x1MktwNkpLU",
    "duration": "2:12"
@@ -17205,7 +17205,7 @@
   },
   {
    "title": "bellyache",
-   "artist": "Billie Eilish",
+   "artist": "Billie Eilish - Topic",
    "album": "dont smile at me",
    "videoId": "Vg18eeEugOQ",
    "duration": "3:00"
@@ -17324,21 +17324,21 @@
   },
   {
    "title": "The Gold",
-   "artist": "Manchester Orchestra",
+   "artist": "Phoebe Bridgers;Manchester Orchestra",
    "album": "A Black Mile To The Surface",
    "videoId": "P9zXzy8d9w4",
    "duration": "4:34"
   },
   {
    "title": "The Alien",
-   "artist": "Manchester Orchestra",
+   "artist": "Manchester Orchestra - Topic",
    "album": "A Black Mile To The Surface",
    "videoId": "PC-hXmsz6Mw",
    "duration": "5:29"
   },
   {
    "title": "The Sunshine",
-   "artist": "Manchester Orchestra",
+   "artist": "Manchester Orchestra - Topic",
    "album": "A Black Mile To The Surface",
    "videoId": "ueGt3At-Lz4",
    "duration": "1:58"
@@ -17352,7 +17352,7 @@
   },
   {
    "title": "The Mistake",
-   "artist": "Manchester Orchestra",
+   "artist": "Manchester Orchestra - Topic",
    "album": "A Black Mile To The Surface",
    "videoId": "EyEZcSjxetI",
    "duration": "3:55"
@@ -17709,7 +17709,7 @@
   },
   {
    "title": "West",
-   "artist": "River Tiber",
+   "artist": "River Tiber - Topic",
    "album": "West",
    "videoId": "z47xeb5r-Rs",
    "duration": "2:34"
@@ -18290,14 +18290,14 @@
   },
   {
    "title": "Coffee & Cigarettes",
-   "artist": "VIC MENSA",
+   "artist": "VIC MENSA - Topic",
    "album": "The Autobiography",
    "videoId": "ojKy5UKD3OM",
    "duration": "4:31"
   },
   {
-   "title": "We Could Be Free (feat. Ty Dolla $ign)",
-   "artist": "VIC MENSA",
+   "title": "We Could Be Free",
+   "artist": "VIC MENSA - Topic",
    "album": "The Autobiography",
    "videoId": "gMnsK4n0eJU",
    "duration": "4:56"
@@ -19097,91 +19097,91 @@
    "title": "My Old Man",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "NbngFp3FJSQ",
+   "videoId": "R58dDpdeh3Q",
    "duration": "3:42"
   },
   {
    "title": "This Old Dog",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "egINTUn5Pug",
+   "videoId": "XNm6weGYVmg",
    "duration": "2:31"
   },
   {
    "title": "Baby You're Out",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "Oh-tvbCB62U",
+   "videoId": "tiozpjKYGxg",
    "duration": "2:38"
   },
   {
    "title": "For the First Time",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "cZCm_i6YvAk",
+   "videoId": "463ychC4qIM",
    "duration": "3:03"
   },
   {
    "title": "One Another",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "q2uXeS1luT4",
+   "videoId": "kGKOdKb71zA",
    "duration": "2:47"
   },
   {
    "title": "Still Beating",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "Z1zPvvh3KxU",
+   "videoId": "ve9Kf7uO85s",
    "duration": "3:02"
   },
   {
    "title": "Sister",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "IlyoBA7E910",
+   "videoId": "aTkTY1gwQo0",
    "duration": "1:19"
   },
   {
    "title": "Dreams from Yesterday",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "uci501SHsfE",
+   "videoId": "fwxQE4n1sOA",
    "duration": "3:28"
   },
   {
    "title": "A Wolf Who Wears Sheeps Clothes",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "cc0QKce5_dk",
+   "videoId": "pd66hC7EDZo",
    "duration": "2:50"
   },
   {
    "title": "One More Love Song",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "eMztEjtPm4o",
+   "videoId": "G8poELjNExI",
    "duration": "4:02"
   },
   {
    "title": "On the Level",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "WOV3c0t-Mwk",
+   "videoId": "8PwDtOXlnRI",
    "duration": "3:48"
   },
   {
    "title": "Moonlight on the River",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "1VYbKamjB-4",
+   "videoId": "kXC8kzgY9tw",
    "duration": "7:03"
   },
   {
    "title": "Watching Him Fade Away",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "x8cFcSq4EIs",
+   "videoId": "i5zMbhVFcAw",
    "duration": "2:24"
   },
   {
@@ -20733,14 +20733,14 @@
   },
   {
    "title": "Up There",
-   "artist": "Post Malone",
+   "artist": "Post Malone - Topic",
    "album": "Stoney (Deluxe)",
    "videoId": "ycbcPqeN85U",
    "duration": "3:15"
   },
   {
    "title": "Yours Truly, Austin Post",
-   "artist": "Post Malone",
+   "artist": "Post Malone - Topic",
    "album": "Stoney (Deluxe)",
    "videoId": "lG5aId8FshY",
    "duration": "3:40"
@@ -20782,84 +20782,84 @@
   },
   {
    "title": "Wngs",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "u1yV7znGIik",
    "duration": "1:37"
   },
   {
    "title": "Best One",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "HnghCNaXg7w",
    "duration": "3:15"
   },
   {
    "title": "What More Can I Say",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "nvUjbMSqlZY",
    "duration": "2:37"
   },
   {
    "title": "Kutless",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "6YSR91Ixy1c",
    "duration": "2:08"
   },
   {
    "title": "Lyk Dis",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "HdImM__iStg",
    "duration": "2:31"
   },
   {
    "title": "Can’t Stop",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"
   },
   {
    "title": "Get Bigger / Do U Luv",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "J37T5ZGVFWQ",
    "duration": "4:04"
   },
   {
    "title": "Starlite",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "MpAX3GTmJjU",
    "duration": "3:24"
   },
   {
    "title": "Sidepiece",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "A8RAM9GUYRk",
    "duration": "3:47"
   },
   {
    "title": "Jodi",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "eLajfEKbAe4",
    "duration": "1:10"
   },
   {
    "title": "Another Time",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "s4WIwTLxDlM",
    "duration": "2:28"
   },
   {
    "title": "Fkku",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "x1MktwNkpLU",
    "duration": "2:12"
@@ -20903,77 +20903,77 @@
    "title": "Cooking Up Something Good",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "2WZ5X0AMdK4",
+   "videoId": "m_lK-jJW1Y4",
    "duration": "2:42"
   },
   {
    "title": "Dreaming",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "JYI7yzibP0o",
+   "videoId": "vAmYoeCVXA4",
    "duration": "2:28"
   },
   {
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
    "title": "Annie",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "V0kat9dfjrE",
+   "videoId": "UWhG48NqRzI",
    "duration": "3:11"
   },
   {
    "title": "Ode to Viceroy",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "oVctwNqAUrs",
+   "videoId": "FaQXLEox09Y",
    "duration": "3:54"
   },
   {
    "title": "Robson Girl",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "diid-c8OR_g",
+   "videoId": "AKfCB-d_Dcw",
    "duration": "2:57"
   },
   {
    "title": "The Stars Keep On Calling My Name",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "9JAGckajLns",
+   "videoId": "WeqWGLkxCDI",
    "duration": "2:23"
   },
   {
    "title": "My Kind of Woman",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "1_tjOgqG8Yc",
+   "videoId": "88mooKbT61A",
    "duration": "3:11"
   },
   {
    "title": "Boe Zaah",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "W23E7lGJu54",
+   "videoId": "vqYlzNCRrfs",
    "duration": "1:42"
   },
   {
    "title": "Sherrill",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "iw2HjEsZVKY",
+   "videoId": "U0sPpiMPmkw",
    "duration": "2:30"
   },
   {
    "title": "Still Together",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "5eerwfNyBkw",
+   "videoId": "73HJNdXCfXs",
    "duration": "3:40"
   },
   {
@@ -21188,14 +21188,14 @@
   },
   {
    "title": "Let It Breathe",
-   "artist": "Jaden",
+   "artist": "Jaden Smith",
    "album": "CTV2",
    "videoId": "-YO5lXSAuyg",
    "duration": "10:34"
   },
   {
-   "title": "PCH (feat. WILLOW)",
-   "artist": "Jaden",
+   "title": "PCH",
+   "artist": "Jaden Smith",
    "album": "CTV2",
    "videoId": "13d4ezQmoRs",
    "duration": "5:52"
@@ -21334,7 +21334,7 @@
    "duration": "2:43"
   },
   {
-   "title": "Diddy Bop (feat. Cam O'bi & Raury)",
+   "title": "Diddy Bop (feat. Raury & Cam O’bi)",
    "artist": "Noname",
    "album": "Little (Original Motion Picture Soundtrack)",
    "videoId": "tCCFcgUhwGY",

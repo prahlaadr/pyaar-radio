@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -404,8 +404,8 @@
    "duration": "4:16"
   },
   {
-   "title": "Who Is It Gonna B (feat. A. K. Paul)",
-   "artist": "Mura Masa",
+   "title": "Who Is It Gonna B",
+   "artist": "Mura Masa - Topic",
    "album": "Mura Masa",
    "videoId": "WtgYt68vbrc",
    "duration": "4:59"
@@ -461,7 +461,7 @@
   },
   {
    "title": "15th and the 1st (feat. YG Hootie)",
-   "artist": "Waka Flocka Flame;Gucci Mane",
+   "artist": "Gucci Mane;Waka Flocka Flame",
    "album": "Ferrari Boyz",
    "videoId": "65PWg3kVyGY",
    "duration": "4:12"
@@ -727,7 +727,7 @@
   },
   {
    "title": "Where Is My Knife?",
-   "artist": "Amazing Snakeheads",
+   "artist": "Amazing Snakeheads - Topic",
    "album": "Amphetamine Ballads",
    "videoId": "1bpU5YYEKB0",
    "duration": "4:45"
@@ -874,7 +874,7 @@
   },
   {
    "title": "Marcory Gasoil",
-   "artist": "Zitany Neil",
+   "artist": "Zitany Neil - Topic",
    "album": "Marcory Gasoil",
    "videoId": "tw9UIBfci_0",
    "duration": "6:50"
@@ -2274,7 +2274,7 @@
   },
   {
    "title": "Y.A.L.A.",
-   "artist": "M.I.A.",
+   "artist": "Ray 7 & B. Calloway",
    "album": "Matangi",
    "videoId": "0Mq5UPdTu64",
    "duration": "4:24"
@@ -2561,14 +2561,14 @@
   },
   {
    "title": "Encore",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "7VksyVUAwi8",
    "duration": "4:11"
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -2960,7 +2960,7 @@
   },
   {
    "title": "Allure",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Black Album",
    "videoId": "o_e8CAZC3Tw",
    "duration": "4:53"
@@ -3589,8 +3589,8 @@
    "duration": "2:55"
   },
   {
-   "title": "You (feat. Snoop Dogg & Q-Tip)",
-   "artist": "Lucy Pearl",
+   "title": "You",
+   "artist": "Lucy Pearl - Topic",
    "album": "Lucy Pearl",
    "videoId": "S13LsfMO4TQ",
    "duration": "4:27"
@@ -3618,13 +3618,13 @@
   },
   {
    "title": "Can’t Stop",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "GDr3H_1DZQM",
    "duration": "2:02"
   },
   {
-   "title": "So Amazing (feat. O.L.I.V.I.A)",
+   "title": "So Amazing (feat. Olivia)",
    "artist": "50 Cent",
    "album": "The Massacre",
    "videoId": "9feQ635FkSM",
@@ -3751,7 +3751,7 @@
   },
   {
    "title": "Vinta",
-   "artist": "Crumb",
+   "artist": "Release - Topic",
    "album": "Crumb",
    "videoId": "BAH2EX1fpGY",
    "duration": "5:00"
@@ -4150,14 +4150,14 @@
   },
   {
    "title": "This Is Not About Us",
-   "artist": "BANKS",
+   "artist": "BANKS - Topic",
    "album": "The Altar",
    "videoId": "5WqfpaEhXVI",
    "duration": "3:04"
   },
   {
    "title": "Haunt",
-   "artist": "BANKS",
+   "artist": "BANKS - Topic",
    "album": "The Altar",
    "videoId": "CuuebkbSKhU",
    "duration": "3:43"
@@ -4324,8 +4324,8 @@
    "duration": "3:48"
   },
   {
-   "title": "Losers (feat. Labrinth)",
-   "artist": "The Weeknd",
+   "title": "Losers",
+   "artist": "The Weeknd;Labrinth",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"
@@ -5129,7 +5129,7 @@
    "duration": "3:36"
   },
   {
-   "title": "Make Her Say (feat. Common & Kanye West)",
+   "title": "Make Her Say (feat. Kanye West & Common)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "xcvO1uPD4VA",
@@ -5584,8 +5584,8 @@
    "duration": "2:50"
   },
   {
-   "title": "All There (feat. Bankroll Fresh)",
-   "artist": "Young Jeezy",
+   "title": "All There",
+   "artist": "Young Jeezy - Topic",
    "album": "Trap Or Die 3",
    "videoId": "6K16Y895WvQ",
    "duration": "3:19"
@@ -5921,7 +5921,7 @@
   },
   {
    "title": "Going To The Ceremony",
-   "artist": "Kid Cudi",
+   "artist": "Kid Cudi - Topic",
    "album": "KiD CuDi presents SATELLITE FLIGHT: The journey to Mother Moon",
    "videoId": "RkcJSOmKsvI",
    "duration": "3:49"
@@ -6004,7 +6004,7 @@
    "duration": "3:53"
   },
   {
-   "title": "Nostalgic Montage",
+   "title": "Nostalgic Montage (feat. Tone Whitfield, Nazir Ebo & Flanafi)",
    "artist": "Salami Rose Joe Louis",
    "album": "Nostalgic Montage",
    "videoId": "iP4ZTYHaWPo",
@@ -6235,8 +6235,8 @@
    "duration": "3:23"
   },
   {
-   "title": "Lady Brown (feat. Cise Star)",
-   "artist": "Nujabes",
+   "title": "Lady Brown",
+   "artist": "Release - Topic",
    "album": "Metaphorical Music",
    "videoId": "V8Xh5ErjIyM",
    "duration": "3:20"
@@ -6431,8 +6431,8 @@
    "duration": "3:30"
   },
   {
-   "title": "Soul Safety Administration (feat. Feugzy McGaegazy & Foster Cazz)",
-   "artist": "Abhi The Nomad",
+   "title": "Soul Safety Administration",
+   "artist": "Abhi The Nomad - Topic",
    "album": "Where Are My Friends",
    "videoId": "MnKI8RLa9YI",
    "duration": "2:49"
@@ -6712,7 +6712,7 @@
   },
   {
    "title": "Sundown Syndrome",
-   "artist": "Tame Impala",
+   "artist": "Tame Impala - Topic",
    "album": "Sundown Syndrome / Remember Me",
    "videoId": "pWqueQ8JO9E",
    "duration": "5:50"
@@ -6817,7 +6817,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkeys - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -7076,7 +7076,7 @@
   },
   {
    "title": "Gook",
-   "artist": "Denzel Curry",
+   "artist": "Denzel Curry - Topic",
    "album": "Imperial",
    "videoId": "JXKhklil3iA",
    "duration": "2:47"
@@ -7286,7 +7286,7 @@
   },
   {
    "title": "Unluck",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "buHJNloNa7Q",
    "duration": "3:01"
@@ -7321,7 +7321,7 @@
   },
   {
    "title": "Promiscuous (feat. Timbaland)",
-   "artist": "Timbaland",
+   "artist": "Nelly Furtado",
    "album": "Loose",
    "videoId": "BO7FQnegW1o",
    "duration": "4:03"
@@ -7804,7 +7804,7 @@
   },
   {
    "title": "dothatshit!",
-   "artist": "Playboi Carti",
+   "artist": "Playboi Carti - Topic",
    "album": "Playboi Carti",
    "videoId": "SMNFIZ2pg0o",
    "duration": "3:05"
@@ -7838,7 +7838,7 @@
    "duration": "7:25"
   },
   {
-   "title": "Foolish",
+   "title": "Foolish (feat. The Notorious B.I.G.)",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "6rrNR2YdF8c",
@@ -7916,7 +7916,7 @@
   },
   {
    "title": "Fall In Love (Your Funeral)",
-   "artist": "Erykah Badu",
+   "artist": "Release - Topic",
    "album": "New Amerykah Part Two: Return Of The Ankh",
    "videoId": "HRH8WDpGfFo",
    "duration": "6:07"
@@ -8021,7 +8021,7 @@
   },
   {
    "title": "NO. 9",
-   "artist": "Playboi Carti",
+   "artist": "Playboi Carti - Topic",
    "album": "Playboi Carti",
    "videoId": "PXbCv17DXgI",
    "duration": "3:20"
@@ -8245,7 +8245,7 @@
   },
   {
    "title": "The Motive/Used to the Melody",
-   "artist": "Xavier Omär;Sango",
+   "artist": "Xavier Omär - Topic",
    "album": "Hours Spent Loving You",
    "videoId": "jqrpiDUXXl0",
    "duration": "6:26"
@@ -8345,7 +8345,7 @@
    "title": "Go Easy",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "GrmhZlZmNfo",
+   "videoId": "CtwrnFog_EQ",
    "duration": "3:25"
   },
   {
@@ -8434,7 +8434,7 @@
   },
   {
    "title": "Certainly",
-   "artist": "Erykah Badu",
+   "artist": "Erykah Badu - Topic",
    "album": "Baduizm",
    "videoId": "SWf6M467OsQ",
    "duration": "4:44"
@@ -8898,7 +8898,7 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "pQsF3pzOc54",
+   "videoId": "MJoSyNdffGo",
    "duration": "3:52"
   },
   {
@@ -8910,7 +8910,7 @@
   },
   {
    "title": "Yeah You",
-   "artist": "N.E.R.D.",
+   "artist": "N.E.R.D. - Topic",
    "album": "Seeing Sounds",
    "videoId": "2OHV0gnq7EE",
    "duration": "4:06"
@@ -8959,7 +8959,7 @@
   },
   {
    "title": "Symba",
-   "artist": "Jaden",
+   "artist": "Jaden Smith",
    "album": "CTV2",
    "videoId": "dtfp33LepjE",
    "duration": "3:06"
@@ -9008,7 +9008,7 @@
   },
   {
    "title": "I'll Be Alright",
-   "artist": "Foxwarren;Darryl Kissick;Andy Shauf",
+   "artist": "Foxwarren",
    "album": "Foxwarren",
    "videoId": "PT1bquwogWA",
    "duration": "2:34"
@@ -9253,7 +9253,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D.",
+   "artist": "N.E.R.D. - Topic",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"
@@ -9302,7 +9302,7 @@
   },
   {
    "title": "Saint Laurent Mask",
-   "artist": "Travis Scott;Huncho Jack;Quavo",
+   "artist": "Travis Scott;Quavo",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "LzRfwzukXso",
    "duration": "3:11"
@@ -9959,7 +9959,7 @@
    "duration": "4:50"
   },
   {
-   "title": "Wanna Love You Girl (Main) (feat. Pharrell)",
+   "title": "Wanna Love You Girl (Main) (feat. Pharrell Williams)",
    "artist": "Robin Thicke",
    "album": "The Evolution of Robin Thicke",
    "videoId": "WJxj8lO2_Go",
@@ -11234,7 +11234,7 @@
   },
   {
    "title": "Sooner or Later",
-   "artist": "N.E.R.D.",
+   "artist": "Release - Topic",
    "album": "Seeing Sounds",
    "videoId": "9wA83r8Bw2k",
    "duration": "6:42"
@@ -11360,7 +11360,7 @@
   },
   {
    "title": "untitled 03 | 05.28.2013.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "o4M4qssoaWU",
    "duration": "2:35"
@@ -11425,7 +11425,7 @@
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
@@ -11535,7 +11535,7 @@
   },
   {
    "title": "untitled 08 | 09.06.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "JXikcHwPolM",
    "duration": "3:56"
@@ -11555,8 +11555,8 @@
    "duration": "2:40"
   },
   {
-   "title": "Drug Dealers Anonymous (feat. JAY-Z)",
-   "artist": "Pusha T",
+   "title": "Drug Dealers Anonymous",
+   "artist": "Pusha T - Topic",
    "album": "Drug Dealers Anonymous",
    "videoId": "W3ay0XTL7bw",
    "duration": "4:14"
@@ -11612,7 +11612,7 @@
   },
   {
    "title": "SeeSea",
-   "artist": "Machinedrum",
+   "artist": "Machinedrum - Topic",
    "album": "Vapor City",
    "videoId": "3XHl8W--LaQ",
    "duration": "4:17"
@@ -12046,7 +12046,7 @@
   },
   {
    "title": "Zebra",
-   "artist": "Beach House",
+   "artist": "Release - Topic",
    "album": "Teen Dream",
    "videoId": "_5Jt_ULYSr4",
    "duration": "4:49"
@@ -12151,7 +12151,7 @@
   },
   {
    "title": "Bones",
-   "artist": "Crumb",
+   "artist": "Crumb - Topic",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
@@ -12235,7 +12235,7 @@
   },
   {
    "title": "Silver Soul",
-   "artist": "Beach House",
+   "artist": "Release - Topic",
    "album": "Teen Dream",
    "videoId": "NYPNiL_ud10",
    "duration": "4:59"
@@ -12620,7 +12620,7 @@
   },
   {
    "title": "Let's Forget That I Was Ever Even Here",
-   "artist": "The Wind And The Wave",
+   "artist": "The Wind and The Wave - Topic",
    "album": "Happiness Is Not A Place",
    "videoId": "m0fdUq0L_ak",
    "duration": "3:27"
@@ -12634,14 +12634,14 @@
   },
   {
    "title": "Flexicution",
-   "artist": "Logic",
+   "artist": "Logic - Topic",
    "album": "Flexicution",
    "videoId": "SRJppJxgBaA",
    "duration": "3:40"
   },
   {
    "title": "Whole Heart",
-   "artist": "Gryffin;Bipolar Sunshine",
+   "artist": "Gryffin - Topic",
    "album": "Whole Heart",
    "videoId": "Pswq7PNDB4Y",
    "duration": "3:46"
@@ -12759,7 +12759,7 @@
    "duration": "3:22"
   },
   {
-   "title": "The Devil Is A Lie (feat. JAY-Z)",
+   "title": "The Devil Is A Lie (feat. JAŸ-Z)",
    "artist": "Rick Ross",
    "album": "Mastermind",
    "videoId": "CxR-T72nyQQ",
@@ -12823,7 +12823,7 @@
   },
   {
    "title": "Watch Out",
-   "artist": "2 Chainz",
+   "artist": "2 Chainz - Topic",
    "album": "Watch Out",
    "videoId": "YXxwO7pm4ec",
    "duration": "3:28"
@@ -12949,7 +12949,7 @@
   },
   {
    "title": "Tarova",
-   "artist": "Snarky Puppy",
+   "artist": "Snarky Puppy - Topic",
    "album": "Culcha Vulcha",
    "videoId": "Tx2o1t6EFiY",
    "duration": "3:40"
@@ -12997,8 +12997,8 @@
    "duration": "5:10"
   },
   {
-   "title": "California Heaven (feat. ScHoolboy Q)",
-   "artist": "JAHKOY",
+   "title": "California Heaven",
+   "artist": "Jahkoy - Topic",
    "album": "Foreign Water",
    "videoId": "sqLUc9JpS1g",
    "duration": "4:03"
@@ -13110,7 +13110,7 @@
   },
   {
    "title": "Kill You",
-   "artist": "Eminem",
+   "artist": "Eminem - Topic",
    "album": "The Marshall Mathers LP",
    "videoId": "D1I1x2pYMK0",
    "duration": "4:25"
@@ -13368,7 +13368,7 @@
    "duration": "3:41"
   },
   {
-   "title": "Bitch, Don’t Kill My Vibe (Remix) (feat. JAY-Z)",
+   "title": "Bitch, Don’t Kill My Vibe (Remix) (feat. JAŸ-Z)",
    "artist": "Kendrick Lamar",
    "album": "good kid, m.A.A.d. city",
    "videoId": "NFxpwF6z9Lo",
@@ -13385,7 +13385,7 @@
    "title": "Freaking Out the Neighborhood",
    "artist": "Mac DeMarco",
    "album": "2",
-   "videoId": "LbYwT6TULjg",
+   "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
   {
@@ -13424,7 +13424,7 @@
    "duration": "5:03"
   },
   {
-   "title": "Hyyerr (feat. King Chip)",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "kwhTmdff1rs",
@@ -13438,8 +13438,8 @@
    "duration": "2:16"
   },
   {
-   "title": "On The Come Up (feat. Big Sean)",
-   "artist": "Mike WiLL Made-It",
+   "title": "On The Come Up",
+   "artist": "Mike WiLL Made-It - Topic",
    "album": "Ransom 2",
    "videoId": "wBqZF40Bc5U",
    "duration": "3:56"
@@ -13474,7 +13474,7 @@
   },
   {
    "title": "Call Me",
-   "artist": "Metro Boomin;NAV",
+   "artist": "NAV;Metro Boomin",
    "album": "Perfect Timing",
    "videoId": "n6ALhq36rgQ",
    "duration": "3:36"
@@ -13518,7 +13518,7 @@
    "title": "Still Beating",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "Z1zPvvh3KxU",
+   "videoId": "ve9Kf7uO85s",
    "duration": "3:02"
   },
   {
@@ -13613,7 +13613,7 @@
    "duration": "3:30"
   },
   {
-   "title": "Diddy Bop (feat. Cam O'bi & Raury)",
+   "title": "Diddy Bop (feat. Raury & Cam O’bi)",
    "artist": "Noname",
    "album": "Little (Original Motion Picture Soundtrack)",
    "videoId": "tCCFcgUhwGY",
@@ -13929,7 +13929,7 @@
   },
   {
    "title": "Hold Me",
-   "artist": "Mickey Singh;UpsideDown",
+   "artist": "Mickey Singh - Topic",
    "album": "Hold Me",
    "videoId": "2wPjW7rVTC4",
    "duration": "3:25"
@@ -14048,7 +14048,7 @@
   },
   {
    "title": "What More Can I Say",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "nvUjbMSqlZY",
    "duration": "2:37"
@@ -14279,7 +14279,7 @@
   },
   {
    "title": "Modern Slavery",
-   "artist": "HUNCHO JACK;Travis Scott;Quavo",
+   "artist": "HUNCHO JACK",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "lLfBfsaGMlM",
    "duration": "2:29"
@@ -14299,8 +14299,8 @@
    "duration": "2:14"
   },
   {
-   "title": "The Ways (feat. Swae Lee)",
-   "artist": "Khalid",
+   "title": "The Ways",
+   "artist": "Khalid;Swae Lee",
    "album": "Black Panther The Album Music From And Inspired By",
    "videoId": "fRjlMaaYrtM",
    "duration": "3:59"
@@ -14489,7 +14489,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys",
+   "artist": "Arctic Monkeys - Topic",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -14601,14 +14601,14 @@
   },
   {
    "title": "Cashmoney",
-   "artist": "No Rome",
+   "artist": "No Rome - Topic",
    "album": "Cashmoney",
    "videoId": "dmXxWWL5ECc",
    "duration": "3:19"
   },
   {
    "title": "Suede",
-   "artist": "Anderson .Paak;NxWorries;Knxwledge",
+   "artist": "NxWorries;Anderson .Paak;Knxwledge",
    "album": "Yes Lawd!",
    "videoId": "PFjXLgU_6Fo",
    "duration": "2:55"
@@ -15371,7 +15371,7 @@
   },
   {
    "title": "Whiskeyclone, Hotel City 1997",
-   "artist": "Beck",
+   "artist": "Beck - Topic",
    "album": "Mellow Gold",
    "videoId": "g45jqK9Fh_U",
    "duration": "3:28"
@@ -15777,7 +15777,7 @@
   },
   {
    "title": "Louise",
-   "artist": "TV Girl",
+   "artist": "TV Girl - Topic",
    "album": "French Exit",
    "videoId": "qMwRRV_mFQE",
    "duration": "3:15"
@@ -16490,8 +16490,8 @@
    "duration": "2:47"
   },
   {
-   "title": "Bussin’ (Cold) (feat. Turich Benjy)",
-   "artist": "Pink Siifu",
+   "title": "Bussin’ (Cold)",
+   "artist": "Pink Siifu - Topic",
    "album": "GUMBO'!",
    "videoId": "1VcbtC3rrGc",
    "duration": "3:45"
@@ -16708,7 +16708,7 @@
   },
   {
    "title": "I'm Like A Bird",
-   "artist": "Release - Topic",
+   "artist": "Nelly Furtado",
    "album": "Whoa, Nelly!",
    "videoId": "QPvpSMkQsO4",
    "duration": "4:04"
@@ -17372,8 +17372,8 @@
    "duration": "2:47"
   },
   {
-   "title": "Bussin’ (Cold) (feat. Turich Benjy)",
-   "artist": "Pink Siifu",
+   "title": "Bussin’ (Cold)",
+   "artist": "Pink Siifu - Topic",
    "album": "GUMBO'!",
    "videoId": "1VcbtC3rrGc",
    "duration": "3:45"
@@ -17928,7 +17928,7 @@
    "title": "Blue Boy",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "GXuIWm12S24",
+   "videoId": "qjVXUneBsjg",
    "duration": "2:07"
   },
   {
@@ -18122,7 +18122,7 @@
   },
   {
    "title": "Ponta De Areia",
-   "artist": "Esperanza Spalding",
+   "artist": "Release - Topic",
    "album": "Esperanza",
    "videoId": "0h7jEUbD9K8",
    "duration": "5:37"
@@ -18199,7 +18199,7 @@
   },
   {
    "title": "Whiskeyclone, Hotel City 1997",
-   "artist": "Beck",
+   "artist": "Beck - Topic",
    "album": "Mellow Gold",
    "videoId": "g45jqK9Fh_U",
    "duration": "3:28"
@@ -18934,7 +18934,7 @@
   },
   {
    "title": "Hoe Cakes",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "rNB5eIiIsUc",
    "duration": "3:55"
@@ -19081,7 +19081,7 @@
   },
   {
    "title": "MONALISA",
-   "artist": "DJ Lycox;TYSON",
+   "artist": "DJ Lycox & STIWANI;TYSON",
    "album": "SEMANA MALUCA",
    "videoId": "aF3OBVJ-G6s",
    "duration": "2:41"
@@ -19277,7 +19277,7 @@
   },
   {
    "title": "DEIXA O MEU BEST VIVER",
-   "artist": "DJ Lycox",
+   "artist": "DJ Lycox;STIWANI",
    "album": "DEIXA O MEU BEST VIVER",
    "videoId": "sI3jPnSY6yM",
    "duration": "2:32"
@@ -19986,7 +19986,7 @@
    "title": "Blue Boy",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "GXuIWm12S24",
+   "videoId": "qjVXUneBsjg",
    "duration": "2:07"
   },
   {
@@ -20299,7 +20299,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee",
+   "artist": "Mk.gee - Topic",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -20516,7 +20516,7 @@
   },
   {
    "title": "2012 Summer",
-   "artist": " LUCKI",
+   "artist": "LUCKI",
    "album": "Freewave 3",
    "videoId": "qFlD2uldq8w",
    "duration": "1:38"
@@ -20607,7 +20607,7 @@
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo",
+   "artist": "D'Angelo - Topic",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"

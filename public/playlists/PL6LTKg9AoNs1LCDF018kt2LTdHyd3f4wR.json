@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
  "title": "June 24",
  "trackCount": 115,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Authority Figure (feat. Valee)",
@@ -299,8 +299,8 @@
    "duration": "4:16"
   },
   {
-   "title": "Who Is It Gonna B (feat. A. K. Paul)",
-   "artist": "Mura Masa",
+   "title": "Who Is It Gonna B",
+   "artist": "Mura Masa - Topic",
    "album": "Mura Masa",
    "videoId": "WtgYt68vbrc",
    "duration": "4:59"
@@ -356,7 +356,7 @@
   },
   {
    "title": "15th and the 1st (feat. YG Hootie)",
-   "artist": "Waka Flocka Flame;Gucci Mane",
+   "artist": "Gucci Mane;Waka Flocka Flame",
    "album": "Ferrari Boyz",
    "videoId": "65PWg3kVyGY",
    "duration": "4:12"
@@ -622,7 +622,7 @@
   },
   {
    "title": "Where Is My Knife?",
-   "artist": "Amazing Snakeheads",
+   "artist": "Amazing Snakeheads - Topic",
    "album": "Amphetamine Ballads",
    "videoId": "1bpU5YYEKB0",
    "duration": "4:45"
@@ -776,7 +776,7 @@
   },
   {
    "title": "Marcory Gasoil",
-   "artist": "Zitany Neil",
+   "artist": "Zitany Neil - Topic",
    "album": "Marcory Gasoil",
    "videoId": "tw9UIBfci_0",
    "duration": "6:50"

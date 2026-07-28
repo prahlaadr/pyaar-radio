@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0yFhpOhVaXQcVTsFlqCKVF",
  "title": "Timeboy LOFI BEETZ",
  "trackCount": 148,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Noodling",
@@ -104,7 +104,7 @@
   },
   {
    "title": "Purple T Shirts",
-   "artist": "Rejoicer;Mndsgn",
+   "artist": "Mndsgn;Rejoicer",
    "album": "Energy Dreams",
    "videoId": "LYWvw5HoAr4",
    "duration": "3:18"
@@ -180,7 +180,7 @@
    "duration": "4:59"
   },
   {
-   "title": "Pariah (Kiefer Remix)",
+   "title": "Pariah (Kiefer Remix) (feat. Samora Pinderhughes)",
    "artist": "Braxton Cook",
    "album": "Somewhere in Between: Remixes & Outtakes",
    "videoId": "l6ajSTLkaA4",
@@ -279,14 +279,14 @@
   },
   {
    "title": "Klavierwerke",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "Klavierwerke EP",
    "videoId": "hnU-6KYf874",
    "duration": "5:07"
   },
   {
    "title": "Tell Her Safe",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "Klavierwerke EP",
    "videoId": "xKlLlyldIrg",
    "duration": "3:15"
@@ -342,14 +342,14 @@
   },
   {
    "title": "Happysad Sunday",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "Kickinit Alone",
    "videoId": "lD-zkj0eELA",
    "duration": "2:48"
   },
   {
    "title": "Kickinit Alone",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "Kickinit Alone",
    "videoId": "tzl8pCT4K4U",
    "duration": "3:14"
@@ -405,7 +405,7 @@
   },
   {
    "title": "Homewards",
-   "artist": "Mndsgn",
+   "artist": "MNDSGN - Topic",
    "album": "Yawn Zen",
    "videoId": "7d3jo8CqVBI",
    "duration": "2:32"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Fazers",
-   "artist": "King Geedorah",
+   "artist": "King Geedorah - Topic",
    "album": "Take Me To Your Leader",
    "videoId": "LWN0vQpwcKM",
    "duration": "3:18"

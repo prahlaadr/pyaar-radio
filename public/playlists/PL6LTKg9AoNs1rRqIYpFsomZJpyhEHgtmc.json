@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",
  "title": "Black Women R&B",
  "trackCount": 196,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "On My Mind",
@@ -748,7 +748,7 @@
   },
   {
    "title": "Tried Up",
-   "artist": "Ama ",
+   "artist": "Ama",
    "album": "DDD",
    "videoId": "IXFRQlszTQs",
    "duration": "2:57"
@@ -761,7 +761,7 @@
    "duration": "3:39"
   },
   {
-   "title": "Rehab",
+   "title": "Rehab (feat. JAY-Z)",
    "artist": "Amy Winehouse",
    "album": "Back To Black",
    "videoId": "t2TKqJ2FXGM",
@@ -776,7 +776,7 @@
   },
   {
    "title": "You Know I'm No Good",
-   "artist": "Amy Winehouse",
+   "artist": "Amy Winehouse - Topic",
    "album": "Back To Black",
    "videoId": "Pr3g9TPPuH4",
    "duration": "4:17"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "Boo'd Up",
-   "artist": "Ella Mai",
+   "artist": "Ella Mai - Topic",
    "album": "READY",
    "videoId": "VLIDBkskLvI",
    "duration": "4:17"

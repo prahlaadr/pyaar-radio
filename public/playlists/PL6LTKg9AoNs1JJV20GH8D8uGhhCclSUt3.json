@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1JJV20GH8D8uGhhCclSUt3",
  "title": "WORST SONGS EVER",
  "trackCount": 429,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Radioactive",
@@ -12,7 +12,7 @@
    "duration": "3:07"
   },
   {
-   "title": "Friday",
+   "title": "Friday (feat. Dorian Electra, Big Freedia & 3OH!3)",
    "artist": "Rebecca Black",
    "album": "Friday",
    "videoId": "Sw9X43IerL0",
@@ -236,7 +236,7 @@
    "duration": "2:51"
   },
   {
-   "title": "Prom Queen",
+   "title": "Prom Queen (feat. Shanell)",
    "artist": "Lil Wayne",
    "album": "Prom Queen",
    "videoId": "1xTyskZHYTw",
@@ -923,7 +923,7 @@
   },
   {
    "title": "My Pal Foot Foot",
-   "artist": "The Shaggs",
+   "artist": "The Shaggs - Topic",
    "album": "Philosophy of the World",
    "videoId": "QXflk5OJlbA",
    "duration": "2:34"
@@ -1027,8 +1027,8 @@
    "duration": "4:08"
   },
   {
-   "title": "T.H.E (The Hardest Ever) (feat. Mick Jagger & Jennifer Lopez)",
-   "artist": "will.i.am",
+   "title": "T.H.E (The Hardest Ever)",
+   "artist": "will.i.am - Topic",
    "album": "T.H.E (The Hardest Ever)",
    "videoId": "MEv-bf2XjoY",
    "duration": "4:48"
@@ -1133,7 +1133,7 @@
   },
   {
    "title": "Well, Everybody's Fucking In A U.F.O.",
-   "artist": "Rob Zombie",
+   "artist": "Rob Zombie - Topic",
    "album": "The Electric Warlock Acid Witch Satanic Orgy Celebration Dispenser",
    "videoId": "VsmjQ740n0M",
    "duration": "2:44"
@@ -1210,7 +1210,7 @@
   },
   {
    "title": "The Kids Are Alt-Right",
-   "artist": "Bad Religion",
+   "artist": "Bad Religion - Topic",
    "album": "The Kids Are Alt-Right",
    "videoId": "Z3TbzwaO1J4",
    "duration": "2:44"
@@ -1378,7 +1378,7 @@
   },
   {
    "title": "Chin up high",
-   "artist": "Ame Bibabi",
+   "artist": "Ame Bibabi - Topic",
    "album": "Chin up high",
    "videoId": "FMbnI4IYngQ",
    "duration": "2:35"
@@ -2246,7 +2246,7 @@
   },
   {
    "title": "Gangnam Style (강남스타일)",
-   "artist": "PSY",
+   "artist": "Psy",
    "album": "Gangnam Style",
    "videoId": "CVxMTl6cUSE",
    "duration": "3:40"
@@ -2350,7 +2350,7 @@
    "duration": "4:06"
   },
   {
-   "title": "Blurred Lines (feat. Pharrell & T.I.)",
+   "title": "Blurred Lines (feat. T.I. & Pharrell)",
    "artist": "Robin Thicke",
    "album": "Blurred Lines (Deluxe)",
    "videoId": "yWbSdj0UaGU",
@@ -2358,7 +2358,7 @@
   },
   {
    "title": "Thong Song",
-   "artist": "Sisqó",
+   "artist": "Sisqo",
    "album": "Unleash The Dragon",
    "videoId": "XMT9DRTS6mY",
    "duration": "4:14"
@@ -2484,7 +2484,7 @@
   },
   {
    "title": "My Humps",
-   "artist": "Black Eyed Peas",
+   "artist": "The Black Eyed Peas - Topic",
    "album": "Monkey Business",
    "videoId": "opnZlnd3d7U",
    "duration": "5:27"
@@ -2680,7 +2680,7 @@
   },
   {
    "title": "Gucci Gang",
-   "artist": "Drake Bell",
+   "artist": "Drake Bell - Topic",
    "album": "Gucci Gang",
    "videoId": "wupMBpi7VJ8",
    "duration": "2:41"
@@ -2841,7 +2841,7 @@
   },
   {
    "title": "Chin up high",
-   "artist": "Ame Bibabi",
+   "artist": "Ame Bibabi - Topic",
    "album": "Chin up high",
    "videoId": "FMbnI4IYngQ",
    "duration": "2:35"
@@ -2966,7 +2966,7 @@
    "duration": "3:32"
   },
   {
-   "title": "Cruise",
+   "title": "Cruise (feat. Nelly)",
    "artist": "Florida Georgia Line",
    "album": "Here's To The Good Times",
    "videoId": "KvGOMhsQiiI",

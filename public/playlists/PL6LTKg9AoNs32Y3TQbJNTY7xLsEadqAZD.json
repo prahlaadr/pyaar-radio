@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
  "title": "SNAPS & DRUMS",
  "trackCount": 244,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Big Mouth",
@@ -26,8 +26,8 @@
    "duration": "4:03"
   },
   {
-   "title": "Brothers (feat. King Chip & A$AP Rocky)",
-   "artist": "Kid Cudi",
+   "title": "Brothers (feat. A$AP Rocky)",
+   "artist": "Kid Cudi;King Chip",
    "album": "Indicud",
    "videoId": "2SL-1yfS3rk",
    "duration": "4:42"
@@ -41,7 +41,7 @@
   },
   {
    "title": "Heartless",
-   "artist": "Kanye West",
+   "artist": "Kanye West - Topic",
    "album": "808s & Heartbreak",
    "videoId": "s40BTpfAELs",
    "duration": "3:31"
@@ -271,15 +271,15 @@
    "duration": "6:11"
   },
   {
-   "title": "Make Her Feel Good",
-   "artist": "Teairra Mari",
+   "title": "Make Her Feel Good (feat. Joe Budden)",
+   "artist": "Teairra Marí",
    "album": "Roc-A-Fella Records Presents Teairra Marí",
    "videoId": "4IH5hBPnoj0",
    "duration": "3:47"
   },
   {
    "title": "Rollout (My Business)",
-   "artist": "Ludacris",
+   "artist": "Ludacris - Topic",
    "album": "Word Of Mouf",
    "videoId": "lUphaGuaRLg",
    "duration": "4:57"
@@ -299,7 +299,7 @@
    "duration": "4:02"
   },
   {
-   "title": "Ching Ching",
+   "title": "Ching Ching (feat. Nelly Furtado)",
    "artist": "Ms. Jade",
    "album": "Girl Interrupted",
    "videoId": "KrBy1Nsb5GY",
@@ -383,8 +383,8 @@
    "duration": "3:38"
   },
   {
-   "title": "Everyone Nose (All The Girls Standing In The Line For The Bathroom)",
-   "artist": "N.E.R.D.",
+   "title": "Everyone Nose (All The Girls Standing In The Line For The Bathroom) (feat. Pusha T, Lupe Fiasco & Kanye West)",
+   "artist": "Pusha T;Lupe Fiasco;Kanye West",
    "album": "Seeing Sounds",
    "videoId": "2U5_f1ju8tg",
    "duration": "3:28"
@@ -453,8 +453,8 @@
    "duration": "2:20"
   },
   {
-   "title": "So Ambitious (feat. Pharrell)",
-   "artist": "JAY-Z",
+   "title": "So Ambitious",
+   "artist": "JAY-Z - Topic",
    "album": "The Blueprint 3",
    "videoId": "RipuJZ5HS-4",
    "duration": "4:13"
@@ -580,7 +580,7 @@
   },
   {
    "title": "Coldest Winter",
-   "artist": "Kanye West",
+   "artist": "Kanye West - Topic",
    "album": "808s & Heartbreak",
    "videoId": "tpT7H7qIHIo",
    "duration": "2:45"
@@ -663,8 +663,8 @@
    "duration": "3:40"
   },
   {
-   "title": "You Ain't No DJ (feat. Yelawolf)",
-   "artist": "Big Boi",
+   "title": "You Ain't No DJ",
+   "artist": "Release - Topic",
    "album": "Sir Lucious Left Foot...The Son Of Chico Dusty",
    "videoId": "eJMJpImR8fs",
    "duration": "5:32"
@@ -685,7 +685,7 @@
   },
   {
    "title": "Love Lockdown",
-   "artist": "Kanye West",
+   "artist": "Kanye West - Topic",
    "album": "808s & Heartbreak",
    "videoId": "ek_T6atbfe0",
    "duration": "4:31"
@@ -825,7 +825,7 @@
   },
   {
    "title": "Tom Ford",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "Magna Carta... Holy Grail",
    "videoId": "oqvLUZBZotk",
    "duration": "3:10"
@@ -846,7 +846,7 @@
   },
   {
    "title": "Big Hoops (Bigger The Better)",
-   "artist": "Release - Topic",
+   "artist": "Nelly Furtado",
    "album": "The Spirit Indestructible",
    "videoId": "pYkSXOvrcpM",
    "duration": "3:47"
@@ -866,8 +866,8 @@
    "duration": "3:37"
   },
   {
-   "title": "No Daddy",
-   "artist": "Teairra Mari",
+   "title": "No Daddy (feat. Eve)",
+   "artist": "Teairra Marí",
    "album": "Roc-A-Fella Records PresentsTeairra Mari",
    "videoId": "RFkMW2S1x9s",
    "duration": "3:45"
@@ -1055,7 +1055,7 @@
    "duration": "3:25"
   },
   {
-   "title": "Make Her Say (feat. Common & Kanye West)",
+   "title": "Make Her Say (feat. Kanye West & Common)",
    "artist": "Kid Cudi",
    "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "xcvO1uPD4VA",
@@ -1069,7 +1069,7 @@
    "duration": "4:39"
   },
   {
-   "title": "Monster (feat. JAY-Z, Nicki Minaj, Rick Ross & Bon Iver)",
+   "title": "Monster (feat. JAŸ-Z, Rick Ross, Nicki Minaj & Bon Iver)",
    "artist": "Kanye West",
    "album": "My Beautiful Dark Twisted Fantasy",
    "videoId": "pS6HRKZQLFA",
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Blue Magic",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "American Gangster",
    "videoId": "bEH-m7wPWi4",
    "duration": "4:09"
@@ -1293,7 +1293,7 @@
    "duration": "4:38"
   },
   {
-   "title": "Make Me Better (feat. NE-YO)",
+   "title": "Make Me Better (feat. Ne-Yo)",
    "artist": "Fabolous",
    "album": "From Nothin' To Somethin' (Bonus Track Version)",
    "videoId": "WYmLp7ZLHlM",
@@ -1357,7 +1357,7 @@
   },
   {
    "title": "Nolita Fairytale (Main)",
-   "artist": "Vanessa Carlton",
+   "artist": "Release - Topic",
    "album": "Heroes & Thieves",
    "videoId": "HEYz7g91caE",
    "duration": "3:27"
@@ -1448,7 +1448,7 @@
   },
   {
    "title": "An External Force",
-   "artist": "Hellogoodbye",
+   "artist": "Hellogoodbye - Topic",
    "album": "Everything Is Debatable",
    "videoId": "HHDIJOXg_QA",
    "duration": "2:54"
@@ -1478,11 +1478,11 @@
    "title": "Anything at All",
    "artist": "Homeshake",
    "album": "Helium",
-   "videoId": "KpwWgwe869g",
+   "videoId": "K7FdSDD4He8",
    "duration": "3:02"
   },
   {
-   "title": "Flight At First Sight/Advanced (feat. Pharrell)",
+   "title": "Flight At First Sight/Advanced (feat. Pharrell Williams)",
    "artist": "Kid Cudi",
    "album": "Passion, Pain & Demon Slayin'",
    "videoId": "IMGdPvC9AEw",
@@ -1630,7 +1630,7 @@
   },
   {
    "title": "Fuck With Myself",
-   "artist": "BANKS",
+   "artist": "BANKS - Topic",
    "album": "The Altar",
    "videoId": "nL_Bza4Z7DU",
    "duration": "2:56"
@@ -1685,8 +1685,8 @@
    "duration": "4:05"
   },
   {
-   "title": "Fergalicious (feat. will.i.am)",
-   "artist": "Fergie",
+   "title": "Fergalicious",
+   "artist": "Fergie;will.i.am",
    "album": "The Dutchess",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"

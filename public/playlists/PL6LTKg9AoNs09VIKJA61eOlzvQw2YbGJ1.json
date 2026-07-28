@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "magic",
@@ -601,21 +601,21 @@
   },
   {
    "title": "Discipline 99 Pt. 0",
-   "artist": "Quasimoto & Mr. Herb",
+   "artist": "Quasimoto - Topic",
    "album": "The Unseen",
    "videoId": "sXtrsUXPr74",
    "duration": "2:33"
   },
   {
    "title": "MHB's",
-   "artist": "Quasimoto",
+   "artist": "Quasimoto - Topic",
    "album": "The Unseen",
    "videoId": "rdvVAYKBTPU",
    "duration": "2:03"
   },
   {
    "title": "Astro Travellin",
-   "artist": "Quasimoto",
+   "artist": "Quasimoto - Topic",
    "album": "The Unseen",
    "videoId": "C_S2zYW-oYc",
    "duration": "2:59"
@@ -867,7 +867,7 @@
   },
   {
    "title": "Football Head",
-   "artist": "Flamingosis",
+   "artist": "Flamingosis - Topic",
    "album": "Pleasure Palette",
    "videoId": "sCcIJbEqCuc",
    "duration": "3:45"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Mndsgn;Lionmilk",
+   "artist": "MNDSGN - Topic",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -1195,8 +1195,8 @@
    "duration": "5:42"
   },
   {
-   "title": "Animal (feat. Coco PM)",
-   "artist": "Beau Diako",
+   "title": "Animal",
+   "artist": "Beau Diako - Topic",
    "album": "Animal",
    "videoId": "TfekxE2yFHA",
    "duration": "2:34"
@@ -1224,7 +1224,7 @@
   },
   {
    "title": "Cool Today (Mixed)",
-   "artist": "Prescribe da Vibe",
+   "artist": "Prescribe Da Vibe",
    "album": "The Kiwi Sound (DJ Mix)",
    "videoId": "n67nP9zPiR8",
    "duration": "2:08"
@@ -1490,7 +1490,7 @@
   },
   {
    "title": "Rhinestone Cowboy",
-   "artist": "Madlib;Madvillain;MF Doom",
+   "artist": "Madvillain;Madlib;MF Doom",
    "album": "Madvillainy",
    "videoId": "WoxHqRPvZJE",
    "duration": "4:00"
@@ -1560,14 +1560,14 @@
   },
   {
    "title": "One Beer",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "ypClJkPhx8o",
    "duration": "4:19"
   },
   {
    "title": "Hoe Cakes",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "rNB5eIiIsUc",
    "duration": "3:55"
@@ -1665,7 +1665,7 @@
   },
   {
    "title": "Nutville (2024 Remastered Version)",
-   "artist": "Buddy Rich Quintet",
+   "artist": "Buddy Rich",
    "album": "The Roar of '74 (2024 Remastered Version)",
    "videoId": "8pF0xG912VY",
    "duration": "4:47"
@@ -1727,7 +1727,7 @@
    "duration": "7:37"
   },
   {
-   "title": "Flyin' Bamboo (feat. Mndsgn)",
+   "title": "Flyin' Bamboo (feat. MNDSGN)",
    "artist": "Nitai Hershkovits",
    "album": "Puzzles, Vol. 3",
    "videoId": "UJFsujreGt8",
@@ -1791,7 +1791,7 @@
   },
   {
    "title": "Expensive Shit",
-   "artist": "Africa 70;Fela Kuti",
+   "artist": "Africa 70 - Topic",
    "album": "Expensive Shit (Edit)",
    "videoId": "sjbNSVgD9wY",
    "duration": "13:14"
@@ -1826,7 +1826,7 @@
   },
   {
    "title": "Fear Not for Man",
-   "artist": "Fela Kuti",
+   "artist": "Fela Kuti - Topic",
    "album": "Fear Not for Man",
    "videoId": "adFGRTDOyoE",
    "duration": "14:15"
@@ -2092,7 +2092,7 @@
   },
   {
    "title": "Movement 6",
-   "artist": "Pharoah Sanders;Floating Points;London Symphony Orchestra",
+   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "Sp251kcTARY",
    "duration": "8:51"
@@ -2183,7 +2183,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee",
+   "artist": "Mk.gee - Topic",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -2757,7 +2757,7 @@
   },
   {
    "title": "Today It's You",
-   "artist": "Triste Janero",
+   "artist": "Triste Janero - Topic",
    "album": "Meet Triste Janero",
    "videoId": "01PDVPL0kVs",
    "duration": "2:56"
@@ -2820,7 +2820,7 @@
   },
   {
    "title": "crybaby",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "When There's Love Around",
    "videoId": "cNtiS1yvt-g",
    "duration": "4:47"

@@ -2,7 +2,7 @@
  "playlistId": "PLZ_kZR08Pzmk",
  "title": "Pool Party: 90s/2000s Bangers",
  "trackCount": 294,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "This Is How We Do It",
@@ -19,7 +19,7 @@
    "duration": "3:34"
   },
   {
-   "title": "No Diggity (feat. Queen Pen & Dr. Dre)",
+   "title": "No Diggity (feat. Dr. Dre & Queen Pen)",
    "artist": "Blackstreet",
    "album": "Another Level",
    "videoId": "Fiu9h8ZTPoQ",
@@ -160,7 +160,7 @@
   },
   {
    "title": "Love You Like A Love Song",
-   "artist": "Selena Gomez",
+   "artist": "Selena Gomez & The Scene",
    "album": "When the Sun Goes Down",
    "videoId": "XhGior4O2eM",
    "duration": "3:09"
@@ -446,7 +446,7 @@
    "duration": "5:35"
   },
   {
-   "title": "Drop It Like It's Hot (feat. Pharrell)",
+   "title": "Drop It Like It's Hot (feat. Pharrell Williams)",
    "artist": "Snoop Dogg",
    "album": "R&G (Rhythm & Gangsta): The Masterpiece",
    "videoId": "ldjajgAHAu4",
@@ -531,7 +531,7 @@
   },
   {
    "title": "Crank That (Soulja Boy)",
-   "artist": "Soulja Boy",
+   "artist": "Soulja Boy Tell'em",
    "album": "souljaboytellem.com",
    "videoId": "I-zEHyHXpbY",
    "duration": "3:42"
@@ -552,14 +552,14 @@
   },
   {
    "title": "Promiscuous (feat. Timbaland)",
-   "artist": "Timbaland",
+   "artist": "Nelly Furtado",
    "album": "Loose",
    "videoId": "BO7FQnegW1o",
    "duration": "4:03"
   },
   {
    "title": "Maneater",
-   "artist": "Release - Topic",
+   "artist": "Nelly Furtado",
    "album": "Loose",
    "videoId": "nVq_Gua4wsQ",
    "duration": "4:19"
@@ -579,7 +579,7 @@
    "duration": "4:28"
   },
   {
-   "title": "The Way I Are (feat. Doe & Keri Hilson)",
+   "title": "The Way I Are (feat. Keri Hilson & D.O.E.)",
    "artist": "Timbaland",
    "album": "Shock Value",
    "videoId": "iM6iO8TD3tM",
@@ -650,7 +650,7 @@
   },
   {
    "title": "Oh Boy (feat. Juelz Santana)",
-   "artist": "Cam'ron",
+   "artist": "Cam'Ron",
    "album": "Come Home With Me",
    "videoId": "GVTXRkGWqsU",
    "duration": "3:25"
@@ -852,7 +852,7 @@
    "duration": "4:47"
   },
   {
-   "title": "Buttons",
+   "title": "Buttons (feat. Snoop Dogg)",
    "artist": "The Pussycat Dolls",
    "album": "PCD",
    "videoId": "R67_mMSyGRg",
@@ -866,15 +866,15 @@
    "duration": "3:30"
   },
   {
-   "title": "Fergalicious (feat. will.i.am)",
-   "artist": "Fergie",
+   "title": "Fergalicious",
+   "artist": "Fergie;will.i.am",
    "album": "The Dutchess",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"
   },
   {
-   "title": "Glamorous (feat. Ludacris)",
-   "artist": "Fergie",
+   "title": "Glamorous",
+   "artist": "Ludacris;Fergie",
    "album": "The Dutchess",
    "videoId": "kE4a0xJb2yA",
    "duration": "4:07"
@@ -986,7 +986,7 @@
   },
   {
    "title": "Don't Phunk With My Heart",
-   "artist": "Black Eyed Peas",
+   "artist": "The Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "UvgOT91-3Po",
    "duration": "4:00"
@@ -1132,7 +1132,7 @@
    "duration": "3:29"
   },
   {
-   "title": "Finally",
+   "title": "Finally (feat. Joyriders)",
    "artist": "CeCe Peniston",
    "album": "Finally",
    "videoId": "aa2f0lW5GR8",
@@ -1244,7 +1244,7 @@
    "duration": "3:39"
   },
   {
-   "title": "Diamonds",
+   "title": "Diamonds (feat. Kanye West)",
    "artist": "Rihanna",
    "album": "Diamonds",
    "videoId": "gcglTcjsYQ0",
@@ -1308,7 +1308,7 @@
   },
   {
    "title": "Teenage Dirtbag",
-   "artist": "Wheatus",
+   "artist": "Wheatus - Topic",
    "album": "Wheatus",
    "videoId": "dSlYFtXENPo",
    "duration": "4:02"
@@ -1350,13 +1350,13 @@
   },
   {
    "title": "Gimme All Your Love",
-   "artist": "Alabama Shakes",
+   "artist": "Alabama Shakes - Topic",
    "album": "Sound & Color",
    "videoId": "3TotIeYatDE",
    "duration": "4:04"
   },
   {
-   "title": "Sweet Home Alabama",
+   "title": "Sweet Home Alabama (feat. Hank Williams Jr., 3 Doors Down & Bo Bice)",
    "artist": "Lynyrd Skynyrd",
    "album": "Second Helping (Expanded Edition)",
    "videoId": "iL-jC7XyLeo",
@@ -1560,7 +1560,7 @@
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer",
+   "artist": "Weezer - Topic",
    "album": "Weezer (Green Album)",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "Dog Days Are Over",
-   "artist": "Florence + the Machine",
+   "artist": "Florence + The Machine",
    "album": "Lungs (Deluxe Edition)",
    "videoId": "mHJUSQVGXAE",
    "duration": "4:12"
@@ -1826,14 +1826,14 @@
   },
   {
    "title": "Got To Be There",
-   "artist": "Michael Jackson",
+   "artist": "Michael Jackson - Topic",
    "album": "20th Century Masters: The Millennium Collection: Best of Michael Jackson",
    "videoId": "Y9cixo-iXAE",
    "duration": "3:26"
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo",
+   "artist": "D'Angelo - Topic",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"
@@ -1882,7 +1882,7 @@
   },
   {
    "title": "Wine Glass Woman",
-   "artist": "Mayer Hawthorne",
+   "artist": "Mayer Hawthorne - Topic",
    "album": "Where Does This Door Go (Deluxe Edition)",
    "videoId": "8DXyZyQCPtI",
    "duration": "3:48"

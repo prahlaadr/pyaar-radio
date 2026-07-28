@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
  "title": "Timeboy LIKED SONGS  3",
  "trackCount": 2398,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "Love Is the Message (Live at Abbey Road Studios) (feat. Alfa Mist, Mansur Brown & Rocco Palladino)",
@@ -286,7 +286,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Mndsgn;Lionmilk",
+   "artist": "MNDSGN - Topic",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -384,7 +384,7 @@
   },
   {
    "title": "Opto File 1",
-   "artist": "Alva Noto;Opiate;Opto",
+   "artist": "Opto;Opiate;Alva Noto",
    "album": "Opto Files",
    "videoId": "_pbzinynLc8",
    "duration": "5:09"
@@ -397,8 +397,8 @@
    "duration": "3:53"
   },
   {
-   "title": "Atoms Song (feat. Thomas Stankiewicz)",
-   "artist": "Teebs",
+   "title": "Atoms Song",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
    "duration": "7:41"
@@ -411,8 +411,8 @@
    "duration": "4:44"
   },
   {
-   "title": "Calimayan (feat. Nate Morgan & Yaakov Levy)",
-   "artist": "Carlos Niño;Carlos Nino & Friends",
+   "title": "Calimayan",
+   "artist": "Carlos Niño - Topic",
    "album": "Flutes, Echoes, It's All Happening!",
    "videoId": "6GS64Nt7Lfc",
    "duration": "2:32"
@@ -454,7 +454,7 @@
   },
   {
    "title": "Summer Maddness S.A.",
-   "artist": "Karriem Riggins",
+   "artist": "Karriem Riggins - Topic",
    "album": "Alone Together",
    "videoId": "x4KRz_okX3o",
    "duration": "2:06"
@@ -489,7 +489,7 @@
   },
   {
    "title": "Bass.int",
-   "artist": "Daniel Aged",
+   "artist": "Daniel Aged - Topic",
    "album": "Daniel Aged",
    "videoId": "fI1waNXcNFE",
    "duration": "1:38"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Journey in Satchidananda",
-   "artist": "The Gondwana Orchestra;Matthew Halsall",
+   "artist": "The Gondwana Orchestra - Topic",
    "album": "Journey in Satchidananda / Blue Nile",
    "videoId": "K3wVQrbHw9w",
    "duration": "6:47"
@@ -671,7 +671,7 @@
   },
   {
    "title": "Recently Played",
-   "artist": "Crumb",
+   "artist": "Crumb - Topic",
    "album": "Locket",
    "videoId": "77W8byh7144",
    "duration": "2:01"
@@ -692,7 +692,7 @@
   },
   {
    "title": "(flake)",
-   "artist": "Jules Buckley;Jameszoo;Metropole Orkest",
+   "artist": "Jules Buckley - Topic",
    "album": "Melkweg",
    "videoId": "9G5lseb2Z9M",
    "duration": "7:35"
@@ -1118,43 +1118,43 @@
    "duration": "5:18"
   },
   {
-   "title": "Atoms Song (feat. Thomas Stankiewicz)",
-   "artist": "Teebs",
+   "title": "Atoms Song",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
    "duration": "7:41"
   },
   {
    "title": "Shells",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "5pfWFlBPH4U",
    "duration": "2:39"
   },
   {
    "title": "Mirror Memory",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "5rFhBOzGYjo",
    "duration": "2:38"
   },
   {
    "title": "Prayers i",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "lbr4K6SJebI",
    "duration": "1:58"
   },
   {
    "title": "Prayers ii",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "BOGL-YjGBmY",
    "duration": "3:38"
   },
   {
    "title": "Marcel",
-   "artist": "Teebs",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "yLQ2O6mRXck",
    "duration": "1:27"
@@ -1167,15 +1167,15 @@
    "duration": "3:36"
   },
   {
-   "title": "Muted (feat. Thomas Stankiewicz)",
+   "title": "Muted",
    "artist": "Teebs",
    "album": "Anicca",
    "videoId": "7QhSpkMv3Po",
    "duration": "3:23"
   },
   {
-   "title": "Atoms Song (Capsule) (feat. Thomas Stankiewicz)",
-   "artist": "Teebs",
+   "title": "Atoms Song (Capsule)",
+   "artist": "Teebs - Topic",
    "album": "Anicca",
    "videoId": "-Ma4nYEqpi4",
    "duration": "4:43"
@@ -1203,7 +1203,7 @@
   },
   {
    "title": "Back in Brazil",
-   "artist": "Karriem Riggins",
+   "artist": "Karriem Riggins - Topic",
    "album": "Alone Together",
    "videoId": "B1ZvmzfUJv0",
    "duration": "1:00"
@@ -1252,7 +1252,7 @@
   },
   {
    "title": "Quadraluv",
-   "artist": "Overmono",
+   "artist": "Overmono - Topic",
    "album": "Whities 019",
    "videoId": "gkJie4Vgyn8",
    "duration": "6:57"
@@ -1762,8 +1762,8 @@
    "duration": "7:10"
   },
   {
-   "title": "Change for the World (feat. The Gospel Queens & Menahan Street Band)",
-   "artist": "Charles Bradley",
+   "title": "Change for the World",
+   "artist": "Charles Bradley - Topic",
    "album": "Changes",
    "videoId": "WWWx4g9QKsE",
    "duration": "3:33"
@@ -1854,14 +1854,14 @@
   },
   {
    "title": "Sowiesoso",
-   "artist": "Cluster",
+   "artist": "Cluster - Topic",
    "album": "Sowiesoso",
    "videoId": "MD3Q3PaxMa4",
    "duration": "8:12"
   },
   {
    "title": "Star Shroom",
-   "artist": "Buttering Trio",
+   "artist": "Buttering Trio - Topic",
    "album": "Threesome",
    "videoId": "AFRHeBJfDe0",
    "duration": "2:55"
@@ -1875,14 +1875,14 @@
   },
   {
    "title": "Reach Out I'll Be There",
-   "artist": "The Four Tops ",
+   "artist": "Four Tops",
    "album": "20th Century Masters: The Millennium Collection: Best Of The Four Tops",
    "videoId": "JoylmpPkEB0",
    "duration": "3:03"
   },
   {
    "title": "Bernadette",
-   "artist": "The Four Tops ",
+   "artist": "Four Tops",
    "album": "20th Century Masters: The Millennium Collection: Best Of The Four Tops",
    "videoId": "Y9l4MGwpQS0",
    "duration": "3:06"
@@ -2546,8 +2546,8 @@
    "duration": "2:55"
   },
   {
-   "title": "Avocado Dance (feat. Nomok)",
-   "artist": "Sefi Zisling",
+   "title": "Avocado Dance",
+   "artist": "Sefi Zisling - Topic",
    "album": "Beyond the Things I Know",
    "videoId": "AySkUBUsk44",
    "duration": "5:30"
@@ -2568,7 +2568,7 @@
   },
   {
    "title": "Sais (Egypt)",
-   "artist": "Lonnie Liston Smith;The Cosmic Echoes",
+   "artist": "Lonnie Liston Smith - Topic",
    "album": "Cosmic Funk",
    "videoId": "eeAgPisSi88",
    "duration": "8:13"
@@ -3191,7 +3191,7 @@
   },
   {
    "title": "Love Song",
-   "artist": "Jack DeJohnette New Directions;John Abercrombie;Jan Hammer",
+   "artist": "Jack DeJohnette New Directions - Topic",
    "album": "Timeless",
    "videoId": "c5pb8oVZFSA",
    "duration": "4:35"
@@ -3205,7 +3205,7 @@
   },
   {
    "title": "Timeless",
-   "artist": "Jack DeJohnette New Directions;John Abercrombie;Jan Hammer",
+   "artist": "Jack DeJohnette New Directions - Topic",
    "album": "Timeless",
    "videoId": "9khSUIMjBuk",
    "duration": "11:58"
@@ -3226,28 +3226,28 @@
   },
   {
    "title": "Yek 128-12",
-   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis - Topic",
    "album": "Yek",
    "videoId": "r_vtjFQ_YN4",
    "duration": "4:51"
   },
   {
    "title": "Yek 64-11",
-   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis - Topic",
    "album": "Yek",
    "videoId": "gJjSngik7CE",
    "duration": "3:15"
   },
   {
    "title": "Yek 132-11",
-   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis - Topic",
    "album": "Yek",
    "videoId": "e6xaWYJM8qo",
    "duration": "4:37"
   },
   {
    "title": "Yek 122-12",
-   "artist": "Burnt Friedman & Daniel Dodd-Ellis;Mohammad Reza Mortazavi",
+   "artist": "Burnt Friedman & Daniel Dodd-Ellis - Topic",
    "album": "Yek",
    "videoId": "daPT1nVknOA",
    "duration": "4:41"
@@ -3352,7 +3352,7 @@
   },
   {
    "title": "Homo Deus III",
-   "artist": "Deantoni Parks",
+   "artist": "Deantoni Parks - Topic",
    "album": "Homo Deus",
    "videoId": "shRHFvBfpHc",
    "duration": "4:06"
@@ -4045,7 +4045,7 @@
   },
   {
    "title": "Mbr / Northbound",
-   "artist": "Ametsub",
+   "artist": "Ametsub - Topic",
    "album": "Mbira Lights 1 EP",
    "videoId": "jjuGiLtXbPc",
    "duration": "6:00"
@@ -4297,7 +4297,7 @@
   },
   {
    "title": "Debussy: Rêverie, CD 76",
-   "artist": "Claude Debussy;Jean-Yves Thibaudet",
+   "artist": "Jean-Yves Thibaudet;Claude Debussy",
    "album": "Debussy: Complete Works for Solo Piano, Vol.1",
    "videoId": "D5Ypbt_USRg",
    "duration": "4:17"
@@ -4702,7 +4702,7 @@
    "duration": "1:54"
   },
   {
-   "title": "The Twist",
+   "title": "The Twist (feat. Dee Dee Sharp)",
    "artist": "Chubby Checker",
    "album": "25 Original Greatest Hits- Cameo Parkway",
    "videoId": "F6oAiPQr6e8",
@@ -4836,14 +4836,14 @@
   },
   {
    "title": "My World",
-   "artist": "Lee Fields;The Expressions",
+   "artist": "The Expressions",
    "album": "My World",
    "videoId": "apJu0qJv4pw",
    "duration": "3:28"
   },
   {
    "title": "Ladies",
-   "artist": "Lee Fields;The Expressions",
+   "artist": "The Expressions",
    "album": "My World",
    "videoId": "4IFmpzv7zp8",
    "duration": "4:18"
@@ -4997,7 +4997,7 @@
   },
   {
    "title": "Autumn Leaves",
-   "artist": "Bill Evans;Paul Motian;Scott LaFaro",
+   "artist": "Bill Evans;Scott LaFaro;Paul Motian",
    "album": "Portrait In Jazz [Keepnews Collection]",
    "videoId": "C1mMsz2I1c8",
    "duration": "6:01"
@@ -5039,7 +5039,7 @@
   },
   {
    "title": "Blue In Green (Take 3)",
-   "artist": "Bill Evans",
+   "artist": "Bill Evans Trio",
    "album": "Portrait In Jazz [Keepnews Collection]",
    "videoId": "kSXeZrjWrs8",
    "duration": "5:26"
@@ -5249,7 +5249,7 @@
   },
   {
    "title": "Purple T Shirts",
-   "artist": "Rejoicer;Mndsgn",
+   "artist": "Mndsgn;Rejoicer",
    "album": "Energy Dreams",
    "videoId": "LYWvw5HoAr4",
    "duration": "3:18"
@@ -5269,8 +5269,8 @@
    "duration": "2:54"
   },
   {
-   "title": "Calimayan (feat. Nate Morgan & Yaakov Levy)",
-   "artist": "Carlos Niño;Carlos Nino & Friends",
+   "title": "Calimayan",
+   "artist": "Carlos Niño - Topic",
    "album": "Flutes, Echoes, It's All Happening!",
    "videoId": "6GS64Nt7Lfc",
    "duration": "2:32"
@@ -5284,7 +5284,7 @@
   },
   {
    "title": "Beasts of No Nation",
-   "artist": "Fela Kuti",
+   "artist": "Fela Kuti - Topic",
    "album": "Beasts of No Nation",
    "videoId": "4PnYibv4TE8",
    "duration": "28:20"
@@ -5298,7 +5298,7 @@
   },
   {
    "title": "Peace Piece",
-   "artist": "Bill Evans",
+   "artist": "Bill Evans Trio",
    "album": "Everybody Digs Bill Evans",
    "videoId": "ocAf1rK3fxE",
    "duration": "6:41"
@@ -5417,13 +5417,13 @@
   },
   {
    "title": "Happysad Sunday",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "Kickinit Alone",
    "videoId": "lD-zkj0eELA",
    "duration": "2:48"
   },
   {
-   "title": "Pariah (Kiefer Remix)",
+   "title": "Pariah (Kiefer Remix) (feat. Samora Pinderhughes)",
    "artist": "Braxton Cook",
    "album": "Somewhere in Between: Remixes & Outtakes",
    "videoId": "l6ajSTLkaA4",
@@ -5704,14 +5704,14 @@
   },
   {
    "title": "Happy Birthday Nick",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "CXRtjyiudso",
    "duration": "1:38"
   },
   {
    "title": "Thank God I'm A Lizard",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "t8PaEC63MyI",
    "duration": "5:07"
@@ -5725,21 +5725,21 @@
   },
   {
    "title": "The Knife",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "AIlOzfQlcIA",
    "duration": "3:34"
   },
   {
    "title": "Project Cybersyn",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "laW13iruInQ",
    "duration": "5:10"
   },
   {
    "title": "Family Portrait",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "MkBKztt58GE",
    "duration": "1:43"
@@ -5753,28 +5753,28 @@
   },
   {
    "title": "Back Into Space",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "9UHeyIHckio",
    "duration": "3:12"
   },
   {
    "title": "Parallel Sequence",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "tdKKyrH2ILY",
    "duration": "5:24"
   },
   {
    "title": "R.A.T.S.",
-   "artist": "Ross From Friends",
+   "artist": "Release - Topic",
    "album": "Family Portrait",
    "videoId": "1Pv3qQbLgGU",
    "duration": "5:30"
   },
   {
    "title": "Don't Wake Dad",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Family Portrait",
    "videoId": "EEybHMz8N1Y",
    "duration": "6:53"
@@ -5991,7 +5991,7 @@
   },
   {
    "title": "Jan Mayen",
-   "artist": "Boozoo Bajou",
+   "artist": "Boozoo Bajou - Topic",
    "album": "4",
    "videoId": "hOMJznTKpsw",
    "duration": "7:29"
@@ -6355,49 +6355,49 @@
   },
   {
    "title": "Richter: Dream 3 (in the midst of my life)",
-   "artist": "Max Richter;Ben Russell;Yuki Numata Resnick",
+   "artist": "Ben Russell;Yuki Numata Resnick;Max Richter",
    "album": "From Sleep",
    "videoId": "i8WLNz1IkZw",
    "duration": "10:04"
   },
   {
    "title": "Path 5 (delta)",
-   "artist": "Max Richter;Grace Davidson",
+   "artist": "Grace Davidson;Max Richter",
    "album": "From Sleep",
    "videoId": "1Qd0jeVSes8",
    "duration": "11:15"
   },
   {
    "title": "Richter: Space 11 (Invisible Pages Over)",
-   "artist": "Brian Snow;Clarice Jensen;Ben Russell;Caleb Burhans",
+   "artist": "Release - Topic",
    "album": "Music For Mindfulness",
    "videoId": "K6zLn34hmjE",
    "duration": "5:09"
   },
   {
    "title": "Richter: Dream 13 (minus even)",
-   "artist": "Max Richter;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
+   "artist": "Clarice Jensen;Ben Russell;Yuki Numata Resnick;Max Richter",
    "album": "From Sleep",
    "videoId": "UOUC73lj5qo",
    "duration": "8:53"
   },
   {
    "title": "Richter: Space 21 (petrichor)",
-   "artist": "Brian Snow;Clarice Jensen;Ben Russell;Yuki Numata Resnick",
+   "artist": "Ben Russell;Yuki Numata Resnick;Caleb Burhans;Brian Snow",
    "album": "From Sleep",
    "videoId": "rF8L-Zt07rI",
    "duration": "4:48"
   },
   {
    "title": "Richter: Path 19 (yet frailest)",
-   "artist": "Max Richter;Ben Russell",
+   "artist": "Ben Russell;Max Richter",
    "album": "From Sleep",
    "videoId": "nCNa7CMlz3M",
    "duration": "7:51"
   },
   {
    "title": "Dream 8 (late and soon)",
-   "artist": "Brian Snow;Max Richter;Clarice Jensen;Ben Russell",
+   "artist": "Grace Davidson;Ben Russell;Yuki Numata Resnick;Caleb Burhans",
    "album": "From Sleep",
    "videoId": "MSvJj6bKwUc",
    "duration": "11:54"
@@ -6551,14 +6551,14 @@
   },
   {
    "title": "Klavierwerke",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "Klavierwerke EP",
    "videoId": "hnU-6KYf874",
    "duration": "5:07"
   },
   {
    "title": "Tell Her Safe",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "Klavierwerke EP",
    "videoId": "xKlLlyldIrg",
    "duration": "3:15"
@@ -6572,7 +6572,7 @@
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "James Blake",
+   "artist": "James Blake - Topic",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
@@ -6607,7 +6607,7 @@
   },
   {
    "title": "In Liebe dein",
-   "artist": "Hans-Joachim Roedelius",
+   "artist": "Roedelius - Topic",
    "album": "Selbstportrait I",
    "videoId": "lk4gQMrBMek",
    "duration": "3:47"
@@ -6984,7 +6984,7 @@
    "duration": "4:36"
   },
   {
-   "title": "Challenge Me Foolish (feat. kazumi)",
+   "title": "Challenge Me Foolish (feat. Kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "dWboK1Csl5M",
@@ -7012,7 +7012,7 @@
    "duration": "4:15"
   },
   {
-   "title": "Durian (feat. kazumi)",
+   "title": "Durian (feat. Kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "ApWO9euDgMw",
@@ -7026,7 +7026,7 @@
    "duration": "2:48"
   },
   {
-   "title": "Lexicon (feat. kazumi)",
+   "title": "Lexicon (feat. Kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "tqpvYR85eTU",
@@ -7047,7 +7047,7 @@
    "duration": "4:53"
   },
   {
-   "title": "Sad Inlay (feat. kazumi)",
+   "title": "Sad Inlay (feat. Kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "-2tfhuIXNeY",
@@ -7061,7 +7061,7 @@
    "duration": "4:40"
   },
   {
-   "title": "DoDaDu (feat. kazumi)",
+   "title": "DoDaDu (feat. Kazumi)",
    "artist": "µ-Ziq",
    "album": "Challenge Me Foolish",
    "videoId": "h7xeZJyQSF4",
@@ -7342,7 +7342,7 @@
   },
   {
    "title": "Winona",
-   "artist": "DJ Boring",
+   "artist": "DJ BORING - Topic",
    "album": "Winona",
    "videoId": "kuggtL-bQzc",
    "duration": "8:32"
@@ -8245,7 +8245,7 @@
   },
   {
    "title": "Kamee",
-   "artist": "Hans-Joachim Roedelius",
+   "artist": "Roedelius - Topic",
    "album": "Selbstportrait I",
    "videoId": "McvKY2Mp3A0",
    "duration": "3:43"
@@ -8280,7 +8280,7 @@
   },
   {
    "title": "Wiese",
-   "artist": "Arnold Kasar;Roedelius",
+   "artist": "Arnold Kasar - Topic",
    "album": "Einfluss",
    "videoId": "dh4ujL3OwVs",
    "duration": "6:30"
@@ -8973,7 +8973,7 @@
   },
   {
    "title": "Fear Not Of Man",
-   "artist": "Mos Def",
+   "artist": "Release - Topic",
    "album": "Black On Both Sides",
    "videoId": "zbjhH1AQYTE",
    "duration": "4:29"
@@ -8982,7 +8982,7 @@
    "title": "On the Level",
    "artist": "Mac DeMarco",
    "album": "This Old Dog",
-   "videoId": "WOV3c0t-Mwk",
+   "videoId": "8PwDtOXlnRI",
    "duration": "3:48"
   },
   {
@@ -9281,7 +9281,7 @@
   },
   {
    "title": "Staunen im Fjord",
-   "artist": "Hans-Joachim Roedelius",
+   "artist": "Roedelius - Topic",
    "album": "Selbstportrait I",
    "videoId": "-4YY6Ehz2Cs",
    "duration": "3:37"
@@ -10022,7 +10022,7 @@
    "duration": "2:46"
   },
   {
-   "title": "Parallax (feat. Palaceer Lazaro)",
+   "title": "Parallax (feat. The Palaceer Lazaro)",
    "artist": "Shabazz Palaces",
    "album": "Quazarz: Born on a Gangster Star",
    "videoId": "KqUtp0E--H4",
@@ -10051,7 +10051,7 @@
   },
   {
    "title": "Moon Whip Quäz",
-   "artist": "Darrius;Shabazz Palaces",
+   "artist": "Shabazz Palaces;Darrius",
    "album": "Quazarz: Born on a Gangster Star",
    "videoId": "kZZAMH3qra8",
    "duration": "5:15"
@@ -10065,69 +10065,69 @@
   },
   {
    "title": "Welcome to Quazarz",
-   "artist": "Shabazz Palaces",
+   "artist": "Release - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "9P-bccIVJYc",
    "duration": "3:49"
   },
   {
    "title": "Self-Made Follownaire",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "WAElwfosGGk",
    "duration": "4:15"
   },
   {
    "title": "Atlaantis",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "sIcE85r_Hgs",
    "duration": "2:19"
   },
   {
-   "title": "Effeminence (feat. Fly Guy Dai & Chimurenga Renaissance)",
-   "artist": "Shabazz Palaces",
+   "title": "Effeminence",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "pkJXhFtijBE",
    "duration": "5:43"
   },
   {
-   "title": "Julian's Dream (ode to a bad) (feat. The Shogun Shot)",
-   "artist": "Shabazz Palaces",
+   "title": "Julian's Dream (ode to a bad)",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "X1nCRI6FgIE",
    "duration": "4:13"
   },
   {
    "title": "30 Clip Extension",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "SyQt_5tecic",
    "duration": "5:08"
   },
   {
    "title": "Love in the time of Kanye",
-   "artist": "Shabazz Palaces;Purple Tape Nate",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "AhQpq_e5Alk",
    "duration": "2:19"
   },
   {
    "title": "Sabonim in the Saab on 'em",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "gv8XKkfKZSc",
    "duration": "2:24"
   },
   {
    "title": "The SS Quintessence",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "JxlZXD1xrn0",
    "duration": "3:40"
   },
   {
-   "title": "Late night phone calls (feat. LAZ)",
+   "title": "Late night phone calls",
    "artist": "Shabazz Palaces",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "clJgzHIl9rw",
@@ -10135,7 +10135,7 @@
   },
   {
    "title": "Quazarz on 23rd",
-   "artist": "Shabazz Palaces",
+   "artist": "Shabazz Palaces - Topic",
    "album": "Quazarz vs. The Jealous Machines",
    "videoId": "9jY_pIb-OrE",
    "duration": "2:50"
@@ -11339,7 +11339,7 @@
   },
   {
    "title": "Pacing",
-   "artist": "Julianna Barwick",
+   "artist": "Julianna Barwick - Topic",
    "album": "Pacing",
    "videoId": "1AigG-1Aa_Y",
    "duration": "4:23"
@@ -11395,7 +11395,7 @@
   },
   {
    "title": "Prizewinning",
-   "artist": "Julianna Barwick",
+   "artist": "Julianna Barwick - Topic",
    "album": "The Magic Place",
    "videoId": "7HSifVbthNM",
    "duration": "6:43"
@@ -11416,7 +11416,7 @@
   },
   {
    "title": "Kickinit Alone",
-   "artist": "Kiefer",
+   "artist": "Kiefer - Topic",
    "album": "Kickinit Alone",
    "videoId": "tzl8pCT4K4U",
    "duration": "3:14"
@@ -11654,21 +11654,21 @@
   },
   {
    "title": "La La Bam-Bam",
-   "artist": "The Congos",
+   "artist": "The Congos - Topic",
    "album": "Heart Of The Congos",
    "videoId": "77brfCK6sUw",
    "duration": "3:56"
   },
   {
    "title": "Can't Come In",
-   "artist": "The Congos",
+   "artist": "The Congos - Topic",
    "album": "Heart Of The Congos",
    "videoId": "SKKV49J2GeY",
    "duration": "5:52"
   },
   {
    "title": "Sodom & Gomorrow",
-   "artist": "The Congos",
+   "artist": "Release - Topic",
    "album": "Heart Of The Congos",
    "videoId": "CVtQDr8Fsz4",
    "duration": "6:12"
@@ -11934,7 +11934,7 @@
   },
   {
    "title": "Sundown Syndrome",
-   "artist": "Tame Impala",
+   "artist": "Tame Impala - Topic",
    "album": "Sundown Syndrome / Remember Me",
    "videoId": "pWqueQ8JO9E",
    "duration": "5:50"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Smile",
-   "artist": "Release - Topic",
+   "artist": "Rhythm & Sound & Savage",
    "album": "Rhythm & Sound",
    "videoId": "ePa9gJ9YQR0",
    "duration": "9:13"
@@ -12123,7 +12123,7 @@
   },
   {
    "title": "Roll Off",
-   "artist": "Release - Topic",
+   "artist": "Rhythm & Sound",
    "album": "Rhythm & Sound",
    "videoId": "W23f2-2EPLo",
    "duration": "9:35"
@@ -12213,8 +12213,8 @@
    "duration": "3:01"
   },
   {
-   "title": "Preach (feat. PARTYNEXTDOOR)",
-   "artist": "Drake",
+   "title": "Preach",
+   "artist": "Release - Topic",
    "album": "If You're Reading This It's Too Late",
    "videoId": "lOhZl4tD744",
    "duration": "3:57"
@@ -12256,7 +12256,7 @@
   },
   {
    "title": "You & The 6",
-   "artist": "Drake",
+   "artist": "Drake - Topic",
    "album": "If You're Reading This It's Too Late",
    "videoId": "LcdcJ1jMW4k",
    "duration": "4:25"
@@ -12270,7 +12270,7 @@
   },
   {
    "title": "6PM In New York",
-   "artist": "Drake",
+   "artist": "Drake - Topic",
    "album": "If You're Reading This It's Too Late",
    "videoId": "_06iJrd0IbY",
    "duration": "4:44"
@@ -12501,7 +12501,7 @@
   },
   {
    "title": "untitled 03 | 05.28.2013.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "o4M4qssoaWU",
    "duration": "2:35"
@@ -12522,7 +12522,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -12536,7 +12536,7 @@
   },
   {
    "title": "untitled 08 | 09.06.2014.",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "untitled unmastered.",
    "videoId": "JXikcHwPolM",
    "duration": "3:56"
@@ -14083,7 +14083,7 @@
   },
   {
    "title": "Hourglass",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "XMBUkvtTlVY",
    "duration": "5:14"
@@ -14104,14 +14104,14 @@
   },
   {
    "title": "Bending Moon",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "r6bPyiRs0rg",
    "duration": "2:11"
   },
   {
    "title": "Slow Knife",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "cpwfkE7NT60",
    "duration": "3:55"
@@ -14125,28 +14125,28 @@
   },
   {
    "title": "Love Theme",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "wg-pG940m_4",
    "duration": "1:58"
   },
   {
    "title": "Approaching",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "Pht21h6cpF8",
    "duration": "4:17"
   },
   {
    "title": "Broken Fox - Black Hole",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "XVAtHyPXrn8",
    "duration": "3:45"
   },
   {
    "title": "Breaking The Surface",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "XohGvkX0o2Y",
    "duration": "4:39"
@@ -14160,21 +14160,21 @@
   },
   {
    "title": "Warmer Light",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "mYl5U2dfXjs",
    "duration": "4:14"
   },
   {
    "title": "Halogen Light",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "MZBAt2SHS6g",
    "duration": "2:13"
   },
   {
    "title": "Lathe",
-   "artist": "Kuedo",
+   "artist": "KUEDO - Topic",
    "album": "Slow Knife",
    "videoId": "TAWQOwtf-FE",
    "duration": "2:28"
@@ -15056,7 +15056,7 @@
   },
   {
    "title": "Peaks",
-   "artist": "Dictaphone",
+   "artist": "Release - Topic",
    "album": "Nacht EP",
    "videoId": "FfNuCAydMXQ",
    "duration": "5:22"
@@ -15385,63 +15385,63 @@
   },
   {
    "title": "Self Defense",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "wQTIjfGPnY0",
    "duration": "2:21"
   },
   {
    "title": "Fortune",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "Ry9R2iP-6KI",
    "duration": "3:25"
   },
   {
    "title": "Maiden Voyage",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "WDcWqOlxj1I",
    "duration": "2:37"
   },
   {
    "title": "2 Blunted",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "-hpfBxnjy_E",
    "duration": "1:48"
   },
   {
    "title": "Tapped in",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "TaTQC1xlGHs",
    "duration": "2:35"
   },
   {
    "title": "Strung",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "TfgQM4wEjPY",
    "duration": "2:21"
   },
   {
    "title": "Brokeup",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "bTP4J2VKZ44",
    "duration": "2:53"
   },
   {
    "title": "Meditation",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "uHwJexUqAj0",
    "duration": "4:12"
   },
   {
    "title": "Manners",
-   "artist": "Arca",
+   "artist": "ARCA",
    "album": "Stretch 2",
    "videoId": "i8tkBlyfaxQ",
    "duration": "4:42"
@@ -15847,77 +15847,77 @@
   },
   {
    "title": "Toe Games Made Her Giggle",
-   "artist": "Dorian Concept",
+   "artist": "Dorian Concept - Topic",
    "album": "Her Tears Taste Like Pears",
    "videoId": "dLa21omHZbk",
    "duration": "4:15"
   },
   {
    "title": "Moog River",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "AK0m8NrMaAw",
    "duration": "3:16"
   },
   {
    "title": "This aint the way to live",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "RUU6WciJjkE",
    "duration": "4:53"
   },
   {
    "title": "Belisha Beacon",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "7YNozIh3io4",
    "duration": "3:51"
   },
   {
    "title": "Undermud",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "wlXI5hUq3Jw",
    "duration": "4:59"
   },
   {
    "title": "On an Inconsequential Afternoon",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "bLlc4hSoNyE",
    "duration": "2:27"
   },
   {
    "title": "The 3rd Man",
-   "artist": "Funki Porcini",
+   "artist": "Release - Topic",
    "album": "On",
    "videoId": "7z9IJ_E9LVU",
    "duration": "5:55"
   },
   {
    "title": "Bright Little Things.",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "7kIQgOMcYXg",
    "duration": "3:19"
   },
   {
    "title": "Robert Crumb's Natural Gait",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "U0AYu71fze0",
    "duration": "2:56"
   },
   {
    "title": "The Magic Hands Of Fernando Del Rey",
-   "artist": "Funki Porcini",
+   "artist": "Funki Porcini - Topic",
    "album": "On",
    "videoId": "ttbX5IQJurw",
    "duration": "5:52"
   },
   {
    "title": "Waking Up",
-   "artist": "Funki Porcini",
+   "artist": "Release - Topic",
    "album": "On",
    "videoId": "fDeZtac7a34",
    "duration": "6:24"
@@ -15965,8 +15965,8 @@
    "duration": "10:20"
   },
   {
-   "title": "Institutionalized (feat. Anna Wise, Bilal & Snoop Dogg)",
-   "artist": "Kendrick Lamar",
+   "title": "Institutionalized",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "7L1POXocFIQ",
    "duration": "4:32"
@@ -15986,15 +15986,15 @@
    "duration": "5:01"
   },
   {
-   "title": "Wesley's Theory (feat. George Clinton & Thundercat)",
-   "artist": "Kendrick Lamar",
+   "title": "Wesley's Theory",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "l9fN-8NjrvI",
    "duration": "4:48"
   },
   {
    "title": "You Ain't Gotta Lie (Momma Said)",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "78bSAKX_4vs",
    "duration": "4:02"
@@ -16036,7 +16036,7 @@
   },
   {
    "title": "For Free? (Interlude)",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "qh4nXtTpTEE",
    "duration": "2:11"
@@ -16049,22 +16049,22 @@
    "duration": "4:53"
   },
   {
-   "title": "How Much A Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
-   "artist": "Kendrick Lamar",
+   "title": "How Much A Dollar Cost",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "y8kEiL81_R4",
    "duration": "4:22"
   },
   {
    "title": "The Blacker The Berry",
-   "artist": "Kendrick Lamar",
+   "artist": "Kendrick Lamar - Topic",
    "album": "To Pimp A Butterfly",
    "videoId": "VdPtVZDspIY",
    "duration": "5:29"
   },
   {
-   "title": "Complexion (A Zulu Love) (feat. Rapsody)",
-   "artist": "Kendrick Lamar",
+   "title": "Complexion (A Zulu Love)",
+   "artist": "Kendrick Lamar;Rapsody",
    "album": "To Pimp A Butterfly",
    "videoId": "Wt4dUK4uce0",
    "duration": "4:24"
@@ -16232,35 +16232,35 @@
   },
   {
    "title": "Fig Leaf Bi-Carbonate",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "CXzE7Ix97Ss",
    "duration": "3:20"
   },
   {
    "title": "Gumbo",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "6KQRgYjAVJA",
    "duration": "0:50"
   },
   {
    "title": "Deep Fried Frenz",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "dLBrhd1yqN4",
    "duration": "5:00"
   },
   {
    "title": "One Beer",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "ypClJkPhx8o",
    "duration": "4:19"
   },
   {
    "title": "Beef Rapp",
-   "artist": "MF Doom",
+   "artist": "MF DOOM",
    "album": "MM..FOOD",
    "videoId": "NcHrGCcXU74",
    "duration": "4:40"
@@ -16337,7 +16337,7 @@
   },
   {
    "title": "Phantom Ratio",
-   "artist": "Ross From Friends",
+   "artist": "Ross From Friends - Topic",
    "album": "Epiphany",
    "videoId": "cHsaiUJeTB8",
    "duration": "6:16"
@@ -16449,7 +16449,7 @@
   },
   {
    "title": "Paramahansa Lake",
-   "artist": "Alice Coltrane",
+   "artist": "Alice Coltrane - Topic",
    "album": "Huntington Ashram Monastery",
    "videoId": "03ue9Nii41g",
    "duration": "4:32"
@@ -16477,7 +16477,7 @@
   },
   {
    "title": "Senegal Seduction",
-   "artist": "Charlotte Adigéry",
+   "artist": "Charlotte Adigery - Topic",
    "album": "Charlotte Adigéry",
    "videoId": "o8T8YIgB9NM",
    "duration": "5:07"
@@ -16540,7 +16540,7 @@
   },
   {
    "title": "Key to Love (Is Understanding)",
-   "artist": "MAJESTICS",
+   "artist": "Majestics - Topic",
    "album": "Key to Love (Is Understanding)",
    "videoId": "tPRi0cNwROk",
    "duration": "3:56"
@@ -16595,8 +16595,8 @@
    "duration": "6:08"
   },
   {
-   "title": "Breathe",
-   "artist": "Kaya Thomas-Dyke;Alfa Mist",
+   "title": "Breathe (feat. Kaya Thomas-Dyke)",
+   "artist": "Alfa Mist",
    "album": "Antiphon",
    "videoId": "5-hQsfSoxmI",
    "duration": "7:27"
@@ -16694,7 +16694,7 @@
   },
   {
    "title": "Sun",
-   "artist": "Mndsgn;Lionmilk",
+   "artist": "MNDSGN - Topic",
    "album": "Forever In Your Sun",
    "videoId": "XmmmxjJTd7s",
    "duration": "4:04"
@@ -16715,7 +16715,7 @@
   },
   {
    "title": "In Your",
-   "artist": "Mndsgn;Lionmilk",
+   "artist": "Release - Topic",
    "album": "Forever In Your Sun",
    "videoId": "Ol_ICU9rHew",
    "duration": "10:24"
@@ -16784,7 +16784,7 @@
    "duration": "3:58"
   },
   {
-   "title": "Kirwani (feat. Jaubi)",
+   "title": "Kirwani",
    "artist": "Tenderlonious",
    "album": "Tender in Lahore",
    "videoId": "u8QsoqJJGnI",

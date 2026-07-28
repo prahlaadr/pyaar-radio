@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2vsGj9OrlUISnPkOnlDaqa",
  "title": "2 X chromosomes",
  "trackCount": 256,
- "syncedAt": "2026-07-27T11:21:46.416368Z",
+ "syncedAt": "2026-07-28T10:35:57.786133Z",
  "tracks": [
   {
    "title": "On Your Own",
@@ -61,7 +61,7 @@
    "duration": "1:39"
   },
   {
-   "title": "Anita",
+   "title": "Anita (feat. T-Pain)",
    "artist": "Smino",
    "album": "Anita",
    "videoId": "dfwzOlDq9bk",
@@ -96,8 +96,8 @@
    "duration": "2:45"
   },
   {
-   "title": "Hold On (feat. Lauren Faith)",
-   "artist": "Kamaal Williams",
+   "title": "Hold On",
+   "artist": "Kamaal Williams - Topic",
    "album": "Wu Hen",
    "videoId": "P_ZnfuKi5bE",
    "duration": "3:21"
@@ -222,14 +222,14 @@
    "duration": "4:33"
   },
   {
-   "title": "Fergalicious (feat. will.i.am)",
-   "artist": "Fergie",
+   "title": "Fergalicious",
+   "artist": "Fergie;will.i.am",
    "album": "The Dutchess",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"
   },
   {
-   "title": "Umbrella (feat. JAY-Z)",
+   "title": "Umbrella (feat. JAŸ-Z)",
    "artist": "Rihanna",
    "album": "Good Girl Gone Bad: Reloaded",
    "videoId": "xXD5tltX9Pg",
@@ -272,7 +272,7 @@
   },
   {
    "title": "Say It Right",
-   "artist": "Release - Topic",
+   "artist": "Nelly Furtado",
    "album": "Loose",
    "videoId": "7JFtfM9rVvQ",
    "duration": "3:44"
@@ -440,7 +440,7 @@
   },
   {
    "title": "Pretty Boy Swag",
-   "artist": "Soulja Boy",
+   "artist": "Soulja Boy Tell'em - Topic",
    "album": "The DeAndre Way (Deluxe Explicit Version)",
    "videoId": "Co0DShfOTZg",
    "duration": "3:57"
@@ -537,7 +537,7 @@
    "duration": "3:21"
   },
   {
-   "title": "Umbrella (feat. JAY-Z)",
+   "title": "Umbrella (feat. JAŸ-Z)",
    "artist": "Rihanna",
    "album": "Good Girl Gone Bad: Reloaded",
    "videoId": "xXD5tltX9Pg",
@@ -552,7 +552,7 @@
   },
   {
    "title": "Kiss Me Thru The Phone (feat. Sammie)",
-   "artist": "Soulja Boy",
+   "artist": "Soulja Boy Tell'em",
    "album": "iSouljaBoyTellem",
    "videoId": "7BlM4aPnf2k",
    "duration": "3:14"
@@ -817,7 +817,7 @@
    "duration": "3:17"
   },
   {
-   "title": "Yellow Hearts",
+   "title": "Yellow Hearts (feat. Audrey Mika)",
    "artist": "Ant Saunders",
    "album": "Yellow Hearts",
    "videoId": "yz7yU3f8Qt8",
@@ -852,8 +852,8 @@
    "duration": "3:32"
   },
   {
-   "title": "Woah (feat. D3Mstreet)",
-   "artist": "Krypto9095",
+   "title": "Woah",
+   "artist": "D3Mstreet;Krypto9095",
    "album": "Woah",
    "videoId": "DAB9gJYYcUs",
    "duration": "2:04"
@@ -1343,7 +1343,7 @@
   },
   {
    "title": "Cashmoney",
-   "artist": "No Rome",
+   "artist": "No Rome - Topic",
    "album": "Cashmoney",
    "videoId": "dmXxWWL5ECc",
    "duration": "3:19"
@@ -1553,7 +1553,7 @@
   },
   {
    "title": "9 (feat. SZA)",
-   "artist": "WILLOW",
+   "artist": "Willow",
    "album": "3",
    "videoId": "FFYZ-mR-XUE",
    "duration": "4:14"
@@ -1580,8 +1580,8 @@
    "duration": "3:58"
   },
   {
-   "title": "The Ways (feat. Swae Lee)",
-   "artist": "Khalid",
+   "title": "The Ways",
+   "artist": "Khalid;Swae Lee",
    "album": "Black Panther The Album Music From And Inspired By",
    "videoId": "fRjlMaaYrtM",
    "duration": "3:59"

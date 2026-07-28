@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3531,
- "totalTracks": 45015,
- "syncedAt": "2026-07-27T11:21:43.254258Z",
+ "albumCount": 3527,
+ "totalTracks": 44972,
+ "syncedAt": "2026-07-28T10:35:55.145627Z",
  "albums": [
   {
    "browseId": "MPREb_SUouDNu7qf5",
@@ -5663,12 +5663,6 @@
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_yqW8Fq7FHrp",
-   "title": "This Old Dog",
-   "artist": "Mac DeMarco",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_gh5ElO4c4o9",
    "title": "Nü Religion: HYENA",
    "artist": "THEY.",
@@ -11021,12 +11015,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_FHbnjfeVGQt",
-   "title": "2",
-   "artist": "Mac DeMarco",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_FWxUF6muFdO",
    "title": "The Dream",
    "artist": "alt-J",
@@ -11925,12 +11913,6 @@
    "title": "raja's sun",
    "artist": "Iblss",
    "trackCount": 17
-  },
-  {
-   "browseId": "MPREb_hH6kqzCgrAc",
-   "title": "Salad Days",
-   "artist": "Mac DeMarco",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_pIXrOowBDfo",
@@ -18789,12 +18771,6 @@
    "title": "Kind Of Blue",
    "artist": "Miles Davis",
    "trackCount": 5
-  },
-  {
-   "browseId": "MPREb_NZ1vedCH383",
-   "title": "I Don't Wanna Be Too Cool (Expanded Edition)",
-   "artist": "Kate Fagan",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_j8lvfioqMlS",
