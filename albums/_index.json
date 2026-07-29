@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3527,
- "totalTracks": 44972,
- "syncedAt": "2026-07-28T10:35:55.145627Z",
+ "totalTracks": 44974,
+ "syncedAt": "2026-07-29T10:39:12.955476Z",
  "albums": [
+  {
+   "browseId": "MPREb_CG30YLQ2aKz",
+   "title": "Coyote, You're My Star",
+   "artist": "Dana and Alden",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_SUouDNu7qf5",
    "title": "Music, Fashion, Film",
@@ -20625,12 +20631,6 @@
    "title": "RRoxket",
    "artist": "RRoxket",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_wlb6TaXNjP1",
-   "title": "Richie Rich 2",
-   "artist": "RRoxket",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_YN2abRdr6Nx",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs28-MEgNi_4ycfDKM90zpOf",
  "title": "Riding (Night)",
  "trackCount": 263,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Nights",
@@ -187,8 +187,8 @@
    "duration": "4:01"
   },
   {
-   "title": "Losers",
-   "artist": "The Weeknd;Labrinth",
+   "title": "Losers (feat. Labrinth)",
+   "artist": "The Weeknd",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"
@@ -1098,7 +1098,7 @@
   },
   {
    "title": "I See A Darkness",
-   "artist": "ROSALÍA - Topic",
+   "artist": "ROSALÍA",
    "album": "Los Ángeles",
    "videoId": "fg7GJghu4Zo",
    "duration": "4:09"

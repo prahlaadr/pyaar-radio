@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -3470,7 +3470,7 @@
    "duration": "2:30"
   },
   {
-   "title": "waitstop (feat. Vayda)",
+   "title": "waitstop",
    "artist": "S P A C E",
    "album": "KALI MA",
    "videoId": "gC6Udh40r84",
@@ -4604,8 +4604,8 @@
    "duration": "3:27"
   },
   {
-   "title": "Strangers",
-   "artist": "Shane 54 - Topic",
+   "title": "Strangers (feat. Tove Lo)",
+   "artist": "Seven Lions;Shane 54",
    "album": "Worlds Apart",
    "videoId": "oJskC1G29Vo",
    "duration": "3:25"
@@ -6228,8 +6228,8 @@
    "duration": "5:00"
   },
   {
-   "title": "forever free (feat. Duskus)",
-   "artist": "San Holo",
+   "title": "forever free",
+   "artist": "San Holo and Duskus;Duskus",
    "album": "album1",
    "videoId": "lLn2yc3kYSU",
    "duration": "6:23"
@@ -6628,7 +6628,7 @@
   },
   {
    "title": "Lindisfarne II",
-   "artist": "James Blake - Topic",
+   "artist": "Release - Topic",
    "album": "James Blake",
    "videoId": "qizKSsfwots",
    "duration": "2:59"
@@ -6656,7 +6656,7 @@
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "James Blake - Topic",
+   "artist": "Release - Topic",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
@@ -7299,8 +7299,8 @@
    "duration": "3:46"
   },
   {
-   "title": "Nuggets",
-   "artist": "Mura Masa - Topic",
+   "title": "Nuggets (feat. Bonzai)",
+   "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "heevLS3vukw",
    "duration": "3:30"
@@ -7313,14 +7313,14 @@
    "duration": "3:28"
   },
   {
-   "title": "What If I Go?",
-   "artist": "Mura Masa - Topic",
+   "title": "What If I Go? (feat. Bonzai)",
+   "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "__EDZIxYpT4",
    "duration": "3:16"
   },
   {
-   "title": "Firefly (feat. Nao)",
+   "title": "Firefly (feat. NAO)",
    "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "QZOrPPRfXVY",
@@ -7334,15 +7334,15 @@
    "duration": "3:27"
   },
   {
-   "title": "Second 2 None",
-   "artist": "Release - Topic",
+   "title": "Second 2 None (feat. Christine and the Queens)",
+   "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "GCIWlZ9W5W8",
    "duration": "4:11"
   },
   {
-   "title": "Who Is It Gonna B",
-   "artist": "Mura Masa - Topic",
+   "title": "Who Is It Gonna B (feat. A. K. Paul)",
+   "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "WtgYt68vbrc",
    "duration": "4:59"

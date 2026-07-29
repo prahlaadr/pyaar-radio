@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oP0reiqq8y9EjqWIiqOS8",
  "title": "Grammy Nominees Records 1995-2020",
  "trackCount": 480,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "I'll Make Love To You",
@@ -1245,7 +1245,7 @@
   },
   {
    "title": "Sitting, Waiting, Wishing",
-   "artist": "Jack Johnson - Topic",
+   "artist": "Release - Topic",
    "album": "In Between Dreams",
    "videoId": "8chU09dsPWU",
    "duration": "3:04"
@@ -1266,7 +1266,7 @@
   },
   {
    "title": "From The Bottom Of My Heart",
-   "artist": "Stevie Wonder - Topic",
+   "artist": "Release - Topic",
    "album": "A Time To Love",
    "videoId": "84r1OCbuI0Y",
    "duration": "5:12"
@@ -1280,7 +1280,7 @@
   },
   {
    "title": "Good Is Good",
-   "artist": "Sheryl Crow - Topic",
+   "artist": "Release - Topic",
    "album": "Wildflower",
    "videoId": "WnK-ZirNJfs",
    "duration": "4:18"
@@ -1448,7 +1448,7 @@
   },
   {
    "title": "My Humps",
-   "artist": "The Black Eyed Peas - Topic",
+   "artist": "The Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "opnZlnd3d7U",
    "duration": "5:27"
@@ -1489,7 +1489,7 @@
    "duration": "7:29"
   },
   {
-   "title": "Rehab (feat. JAY-Z)",
+   "title": "Rehab",
    "artist": "Amy Winehouse",
    "album": "Back To Black (Deluxe Edition)",
    "videoId": "CcWoE6CxM_w",

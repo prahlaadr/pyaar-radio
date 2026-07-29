@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2CrlAtmeGPYaUlQ22StK50",
  "title": "Shreya Ghoshal old songs",
  "trackCount": 86,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Yeh Kya Hua",
@@ -27,14 +27,14 @@
   },
   {
    "title": "HAR TARAF",
-   "artist": "K.K., SHREYA GHOSHAL, ANU MALIK, and SAYEED QUADRI",
+   "artist": "K.K.;SHREYA GHOSHAL;ANU MALIK;SAYEED QUADRI",
    "album": "SAAYA",
    "videoId": "oSzARJmmedQ",
    "duration": "6:19"
   },
   {
    "title": "SEENA PADA",
-   "artist": "SHREYA GHOSHAL, ANU MALIK, & SAYEED QUADRI",
+   "artist": "SHREYA GHOSHAL;ANU MALIK;SAYEED QUADRI",
    "album": "SAAYA",
    "videoId": "DRwVEqejzqE",
    "duration": "7:08"
@@ -132,7 +132,7 @@
   },
   {
    "title": "AYE MERI ZINDAGI",
-   "artist": "SHREYA GHOSHAL, ANU MALIK, & SAYEED QUADRI",
+   "artist": "SHREYA GHOSHAL;ANU MALIK;SAYEED QUADRI",
    "album": "SAAYA",
    "videoId": "YYy94KgojVA",
    "duration": "6:29"

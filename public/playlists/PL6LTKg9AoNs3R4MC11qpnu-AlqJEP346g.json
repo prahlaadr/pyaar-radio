@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1491,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "trackCount": 1492,
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
+  {
+   "title": "Asleep Talking",
+   "artist": "Magnus Ferrell",
+   "album": "Asleep Talking",
+   "videoId": "Wdsis7yiRGg",
+   "duration": "2:37"
+  },
+  {
+   "title": "Frigate Bay",
+   "artist": "Dana and Alden",
+   "album": "Coyote, You're My Star",
+   "videoId": "HO0b6wJQI5Q",
+   "duration": "3:38"
+  },
   {
    "title": "Amoeba",
    "artist": "Clairo",
@@ -52,13 +66,6 @@
    "album": "Drops Of Jupiter",
    "videoId": "qthko5ppHcM",
    "duration": "4:20"
-  },
-  {
-   "title": "Gasoline",
-   "artist": "HAIM;Taylor Swift",
-   "album": "Women In Music Pt. III",
-   "videoId": "o6cZ7CMKtKE",
-   "duration": "3:14"
   },
   {
    "title": "The Steps",
@@ -495,7 +502,7 @@
    "duration": "6:56"
   },
   {
-   "title": "Sweet Home Alabama (feat. Hank Williams Jr., 3 Doors Down & Bo Bice)",
+   "title": "Sweet Home Alabama",
    "artist": "Lynyrd Skynyrd",
    "album": "Second Helping (Expanded Edition)",
    "videoId": "iL-jC7XyLeo",
@@ -2645,7 +2652,7 @@
   },
   {
    "title": "Fireside",
-   "artist": "Arctic Monkeys - Topic",
+   "artist": "Arctic Monkeys",
    "album": "AM",
    "videoId": "8-LewaeKejM",
    "duration": "3:02"
@@ -3681,7 +3688,7 @@
   },
   {
    "title": "Funk Funk",
-   "artist": "Cameo - Topic",
+   "artist": "Cameo",
    "album": "Cardiac Arrest",
    "videoId": "pVsqH4y3E-0",
    "duration": "4:48"
@@ -3827,7 +3834,7 @@
    "duration": "4:40"
   },
   {
-   "title": "Fooled Around And Fell In Love (feat. John Németh)",
+   "title": "Fooled Around And Fell In Love",
    "artist": "Elvin Bishop",
    "album": "Struttin' My Stuff",
    "videoId": "k33x_Efa5Lk",
@@ -4199,7 +4206,7 @@
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo - Topic",
+   "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"
@@ -4584,7 +4591,7 @@
   },
   {
    "title": "Somewhere Only We Know",
-   "artist": "Keane - Topic",
+   "artist": "Release - Topic",
    "album": "Somewhere Only We Know",
    "videoId": "q5sVys7jk2I",
    "duration": "3:59"
@@ -4710,7 +4717,7 @@
   },
   {
    "title": "Our Lives Are Shaped By What We Love",
-   "artist": "Odyssey - Topic",
+   "artist": "Odyssey",
    "album": "Our Lives Are Shaped By What We Love: Motown's Mowest Story 1971-73",
    "videoId": "vGbac0bJDM8",
    "duration": "3:37"
@@ -6775,7 +6782,7 @@
   },
   {
    "title": "Love Me Like You Do",
-   "artist": "Ellie Goulding - Topic",
+   "artist": "Ellie Goulding",
    "album": "Fifty Shades Freed (Original Motion Picture Soundtrack)",
    "videoId": "k3smYB3Nfqc",
    "duration": "4:14"
@@ -7692,7 +7699,7 @@
   },
   {
    "title": "Jackie Onassis",
-   "artist": "Sammy Rae - Topic",
+   "artist": "Release - Topic",
    "album": "Jackie Onassis",
    "videoId": "tD8xsC2NAFg",
    "duration": "4:54"
@@ -7818,7 +7825,7 @@
   },
   {
    "title": "Carol",
-   "artist": "The Rolling Stones - Topic",
+   "artist": "Release - Topic",
    "album": "The Rolling Stones",
    "videoId": "jwgZ8Xj1Og4",
    "duration": "2:35"
@@ -8328,7 +8335,7 @@
    "duration": "4:50"
   },
   {
-   "title": "Lay Down Sally (feat. Vince Gill)",
+   "title": "Lay Down Sally",
    "artist": "Eric Clapton",
    "album": "Slowhand 35th Anniversary (Super Deluxe)",
    "videoId": "uNaetTfAyaw",
@@ -8763,7 +8770,7 @@
   },
   {
    "title": "Mary",
-   "artist": "Zac Brown Band - Topic",
+   "artist": "Release - Topic",
    "album": "The Foundation",
    "videoId": "DEFY8XpnIuI",
    "duration": "2:48"
@@ -8973,7 +8980,7 @@
   },
   {
    "title": "Delilah",
-   "artist": "Tom Jones - Topic",
+   "artist": "Release - Topic",
    "album": "Delilah",
    "videoId": "Qvo5SeAwz88",
    "duration": "3:25"

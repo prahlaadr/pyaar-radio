@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -76,7 +76,7 @@
   },
   {
    "title": "At Last",
-   "artist": "Etta James - Topic",
+   "artist": "Etta James",
    "album": "At Last!",
    "videoId": "1qJU8G7gR_g",
    "duration": "3:00"
@@ -306,7 +306,7 @@
    "duration": "4:51"
   },
   {
-   "title": "Stormy Weather (feat. Peaches)",
+   "title": "Stormy Weather",
    "artist": "Etta James",
    "album": "At Last!",
    "videoId": "9jDpI5-NzXI",
@@ -657,7 +657,7 @@
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo - Topic",
+   "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"
@@ -670,7 +670,7 @@
    "duration": "2:31"
   },
   {
-   "title": "Brown Sugar (feat. Kool G Rap)",
+   "title": "Brown Sugar",
    "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "-DNm9jn5z1w",
@@ -1602,7 +1602,7 @@
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Cherrelle - Topic",
+   "artist": "Release - Topic",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -1847,7 +1847,7 @@
   },
   {
    "title": "Breakin' My Heart (Pretty Brown Eyes)",
-   "artist": "Mint Condition - Topic",
+   "artist": "Mint Condition",
    "album": "The Best Of Mint Condition 20th Century Masters The Millennium Collection",
    "videoId": "2SSuQpAlrFI",
    "duration": "5:56"
@@ -2036,7 +2036,7 @@
   },
   {
    "title": "Suite Bergamasque, L. 75: III. Clair De Lune",
-   "artist": "Steve Anderson",
+   "artist": "Steve Anderson;Claude Debussy",
    "album": "Classics for the Heart",
    "videoId": "1o9hxfqag8w",
    "duration": "5:16"
@@ -2645,7 +2645,7 @@
   },
   {
    "title": "Satie: Gymnopédie No. 2. Lent et triste",
-   "artist": "Erik Satie - Topic",
+   "artist": "Pascal Rogé;Erik Satie",
    "album": "Satie: 3 Gymnopédies; 6 Gnossiennes etc.",
    "videoId": "IrXMXNUqnKk",
    "duration": "2:33"
@@ -2708,7 +2708,7 @@
   },
   {
    "title": "Satie: Gymnopédie No. 3. Lent et grave",
-   "artist": "Erik Satie;Pascal Rogé",
+   "artist": "Pascal Rogé;Erik Satie",
    "album": "Satie: 3 Gymnopédies; 6 Gnossiennes etc.",
    "videoId": "BsFyz5aBZZE",
    "duration": "2:35"
@@ -2855,7 +2855,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Orlando Julius - Topic",
+   "artist": "Release - Topic",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -5564,7 +5564,7 @@
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Cherrelle - Topic",
+   "artist": "Release - Topic",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -5760,7 +5760,7 @@
   },
   {
    "title": "Back in Brazil",
-   "artist": "Karriem Riggins - Topic",
+   "artist": "Karriem Riggins",
    "album": "Alone Together",
    "videoId": "B1ZvmzfUJv0",
    "duration": "1:00"
@@ -5808,7 +5808,7 @@
    "duration": "3:34"
   },
   {
-   "title": "Do For Love (feat. Eric Williams)",
+   "title": "Do For Love",
    "artist": "2Pac",
    "album": "R U Still Down? [Remember Me]",
    "videoId": "Y2cWHiKaFjc",
@@ -6110,7 +6110,7 @@
   },
   {
    "title": "Yur Luv",
-   "artist": "Tekno - Topic",
+   "artist": "Release - Topic",
    "album": "Yur Luv",
    "videoId": "M73UMQiJ3dA",
    "duration": "3:52"
@@ -6173,7 +6173,7 @@
   },
   {
    "title": "A7 Mix",
-   "artist": "Karriem Riggins - Topic",
+   "artist": "Karriem Riggins",
    "album": "Alone Together",
    "videoId": "kmsX_7tH5Sk",
    "duration": "1:17"
@@ -6866,7 +6866,7 @@
   },
   {
    "title": "Sitra",
-   "artist": "DARKSIDE - Topic",
+   "artist": "DARKSIDE",
    "album": "Psychic",
    "videoId": "gyLykTtbxgc",
    "duration": "1:23"
@@ -7090,7 +7090,7 @@
   },
   {
    "title": "New Track (Populette Remix)",
-   "artist": "Francis Bebey - Topic",
+   "artist": "Release - Topic",
    "album": "Francis Bebey Remix",
    "videoId": "p74Rvs5d1p0",
    "duration": "6:22"

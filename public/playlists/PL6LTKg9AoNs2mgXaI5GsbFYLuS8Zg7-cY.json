@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -125,7 +125,7 @@
   },
   {
    "title": "No Signal",
-   "artist": "Escapism Refuge - Topic",
+   "artist": "Release - Topic",
    "album": "Smokin' Sessions, Vol. 31",
    "videoId": "fWO5MqOsonw",
    "duration": "4:41"
@@ -195,7 +195,7 @@
   },
   {
    "title": "Halfworld Projects",
-   "artist": "Mershak - Topic",
+   "artist": "Release - Topic",
    "album": "ENC003",
    "videoId": "yabi1ksQMGI",
    "duration": "5:46"
@@ -950,8 +950,8 @@
    "duration": "3:31"
   },
   {
-   "title": "On The Boil",
-   "artist": "Author - Topic",
+   "title": "On The Boil (feat. Quantum Soul)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "LA7NbFAeUDg",
    "duration": "5:59"
@@ -1083,8 +1083,8 @@
    "duration": "4:11"
   },
   {
-   "title": "Chant (feat. Rider Shafique)",
-   "artist": "Rider Shafique",
+   "title": "Chant (feat. June Miller & Rider Shafique)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "FKlvZofdahI",
    "duration": "5:29"
@@ -1707,7 +1707,7 @@
   },
   {
    "title": "Living in Unity (Wonderful World Mix)",
-   "artist": "RSD - Topic",
+   "artist": "Release - Topic",
    "album": "B Line Fi Blo / Living in Unity",
    "videoId": "ePgS5Fb_YF4",
    "duration": "6:13"
@@ -2435,7 +2435,7 @@
   },
   {
    "title": "Orgones",
-   "artist": "LSN - Topic",
+   "artist": "Release - Topic",
    "album": "Oblivion",
    "videoId": "06hSgrGQetY",
    "duration": "4:46"
@@ -2623,8 +2623,8 @@
    "duration": "4:55"
   },
   {
-   "title": "Jah Live",
-   "artist": "Author - Topic",
+   "title": "Jah Live (feat. Dan Man)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "6cqgeQgNy6A",
    "duration": "5:40"
@@ -2659,7 +2659,7 @@
   },
   {
    "title": "Keep Moving (feat. Rider Shafique)",
-   "artist": "Rider Shafique",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "la1YWr5J0uQ",
    "duration": "6:11"
@@ -3380,7 +3380,7 @@
   },
   {
    "title": "Temple",
-   "artist": "TMSV - Topic",
+   "artist": "Release - Topic",
    "album": "No Sleep",
    "videoId": "pWSNs3wOU4g",
    "duration": "5:38"
@@ -3470,8 +3470,8 @@
    "duration": "4:10"
   },
   {
-   "title": "Gathered",
-   "artist": "Author - Topic",
+   "title": "Gathered (feat. Quantum Soul)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "pUyTV-sEiR4",
    "duration": "4:47"
@@ -4682,7 +4682,7 @@
   },
   {
    "title": "Bring Me Down",
-   "artist": "Thelem - Topic",
+   "artist": "Release - Topic",
    "album": "Bring Me Down",
    "videoId": "Y2VqmIjjSYY",
    "duration": "5:16"
@@ -4745,7 +4745,7 @@
   },
   {
    "title": "Hello Boss",
-   "artist": "PROC FISKAL - Topic",
+   "artist": "Release - Topic",
    "album": "Hello Boss",
    "videoId": "TzeRtoLMoRg",
    "duration": "4:01"
@@ -5473,7 +5473,7 @@
   },
   {
    "title": "The Judge",
-   "artist": "Headland - Topic",
+   "artist": "Release - Topic",
    "album": "The Judge",
    "videoId": "JcIAtVaQMe4",
    "duration": "4:44"
@@ -6501,8 +6501,8 @@
    "duration": "5:06"
   },
   {
-   "title": "After Time",
-   "artist": "Author - Topic",
+   "title": "After Time (feat. Quark)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "scsJjzZOrg8",
    "duration": "5:58"
@@ -6775,7 +6775,7 @@
   },
   {
    "title": "Beckoning",
-   "artist": "Whatley - Topic",
+   "artist": "Release - Topic",
    "album": "ENC017",
    "videoId": "kqZTD469No8",
    "duration": "3:30"
@@ -6936,7 +6936,7 @@
   },
   {
    "title": "Take The Bridge Home",
-   "artist": "Author - Topic",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "SXlyAzIw9Jk",
    "duration": "4:51"
@@ -7131,8 +7131,8 @@
    "duration": "3:38"
   },
   {
-   "title": "In The Sky (feat. Stig Of The Dump & Jehst)",
-   "artist": "Stig Of The Dump;Jehst",
+   "title": "In The Sky (feat. Jehst & Stig of the Dump)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "MSlgWcqW54U",
    "duration": "4:27"
@@ -7978,8 +7978,8 @@
    "duration": "4:38"
   },
   {
-   "title": "Paint by Numbers",
-   "artist": "Author - Topic",
+   "title": "Paint by Numbers (feat. Quark)",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "I1M7khYnnUw",
    "duration": "5:31"
@@ -8560,7 +8560,7 @@
   },
   {
    "title": "True King",
-   "artist": "Pugilist - Topic",
+   "artist": "Release - Topic",
    "album": "Zulu Blues",
    "videoId": "T5JyaS_axDQ",
    "duration": "6:33"
@@ -8882,7 +8882,7 @@
   },
   {
    "title": "Late Night Blues (Gorgon Sound Version)",
-   "artist": "Kahn - Topic",
+   "artist": "Release - Topic",
    "album": "Dread / Late Night Blues (Gorgon Sound Versions)",
    "videoId": "bW80PDYkAFw",
    "duration": "5:44"
@@ -10240,7 +10240,7 @@
   },
   {
    "title": "My Only",
-   "artist": "Author - Topic",
+   "artist": "Author",
    "album": "Forward Forever",
    "videoId": "z8gzgtQAhr4",
    "duration": "5:43"
@@ -10359,7 +10359,7 @@
   },
   {
    "title": "3.5 Grams",
-   "artist": "District - Topic",
+   "artist": "Release - Topic",
    "album": "Haymaker / 3.5 Grams",
    "videoId": "7Slk_QmqhxI",
    "duration": "5:31"
@@ -10737,7 +10737,7 @@
   },
   {
    "title": "Cold Warning",
-   "artist": "Headland - Topic",
+   "artist": "Release - Topic",
    "album": "Levy",
    "videoId": "cBoBQSr3Clk",
    "duration": "4:14"
@@ -10940,7 +10940,7 @@
   },
   {
    "title": "Can You Dub",
-   "artist": "Greg - Topic",
+   "artist": "Release - Topic",
    "album": "Long Live The Groove",
    "videoId": "Q5lL-mAruJc",
    "duration": "5:00"
@@ -11269,7 +11269,7 @@
   },
   {
    "title": "Worldwide Dub",
-   "artist": "Scooped - Topic",
+   "artist": "Release - Topic",
    "album": "Worldwide Slaughter",
    "videoId": "B4RlcIea6Lk",
    "duration": "4:02"
@@ -11682,7 +11682,7 @@
   },
   {
    "title": "Shift",
-   "artist": "Commodo - Topic",
+   "artist": "Release - Topic",
    "album": "Shift",
    "videoId": "kJugRX7YwJQ",
    "duration": "3:30"
@@ -12081,7 +12081,7 @@
   },
   {
    "title": "Rigel 7 (V.I.P)",
-   "artist": "Danny Scrilla - Topic",
+   "artist": "Release - Topic",
    "album": "Om Unit presents Cosmology, Vol. 2",
    "videoId": "EAkZ5A0zhd8",
    "duration": "4:48"
@@ -13621,7 +13621,7 @@
   },
   {
    "title": "Astrous",
-   "artist": "Pessimist - Topic",
+   "artist": "Release - Topic",
    "album": "Pagans",
    "videoId": "PdB97IkawtY",
    "duration": "9:16"
@@ -14678,7 +14678,7 @@
   },
   {
    "title": "SMBU",
-   "artist": "LSN - Topic",
+   "artist": "Release - Topic",
    "album": "Oblivion",
    "videoId": "4KDEzDH1MQ8",
    "duration": "4:34"

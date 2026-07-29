@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
  "title": "Timeboy LIKED SONGS  3",
  "trackCount": 2398,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Love Is the Message (Live at Abbey Road Studios) (feat. Alfa Mist, Mansur Brown & Rocco Palladino)",
@@ -398,7 +398,7 @@
   },
   {
    "title": "Atoms Song",
-   "artist": "Teebs - Topic",
+   "artist": "Release - Topic",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
    "duration": "7:41"
@@ -454,7 +454,7 @@
   },
   {
    "title": "Summer Maddness S.A.",
-   "artist": "Karriem Riggins - Topic",
+   "artist": "Karriem Riggins",
    "album": "Alone Together",
    "videoId": "x4KRz_okX3o",
    "duration": "2:06"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Journey in Satchidananda",
-   "artist": "The Gondwana Orchestra - Topic",
+   "artist": "Release - Topic",
    "album": "Journey in Satchidananda / Blue Nile",
    "videoId": "K3wVQrbHw9w",
    "duration": "6:47"
@@ -671,7 +671,7 @@
   },
   {
    "title": "Recently Played",
-   "artist": "Crumb - Topic",
+   "artist": "Release - Topic",
    "album": "Locket",
    "videoId": "77W8byh7144",
    "duration": "2:01"
@@ -1119,7 +1119,7 @@
   },
   {
    "title": "Atoms Song",
-   "artist": "Teebs - Topic",
+   "artist": "Release - Topic",
    "album": "Anicca",
    "videoId": "jx3aTcvByzQ",
    "duration": "7:41"
@@ -1133,7 +1133,7 @@
   },
   {
    "title": "Mirror Memory",
-   "artist": "Teebs - Topic",
+   "artist": "Release - Topic",
    "album": "Anicca",
    "videoId": "5rFhBOzGYjo",
    "duration": "2:38"
@@ -1203,7 +1203,7 @@
   },
   {
    "title": "Back in Brazil",
-   "artist": "Karriem Riggins - Topic",
+   "artist": "Karriem Riggins",
    "album": "Alone Together",
    "videoId": "B1ZvmzfUJv0",
    "duration": "1:00"
@@ -1762,8 +1762,8 @@
    "duration": "7:10"
   },
   {
-   "title": "Change for the World",
-   "artist": "Charles Bradley - Topic",
+   "title": "Change for the World (feat. Menahan Street Band & The Gospel Queens)",
+   "artist": "Charles Bradley",
    "album": "Changes",
    "videoId": "WWWx4g9QKsE",
    "duration": "3:33"
@@ -5725,7 +5725,7 @@
   },
   {
    "title": "The Knife",
-   "artist": "Ross From Friends - Topic",
+   "artist": "Release - Topic",
    "album": "Family Portrait",
    "videoId": "AIlOzfQlcIA",
    "duration": "3:34"
@@ -6369,7 +6369,7 @@
   },
   {
    "title": "Richter: Space 11 (Invisible Pages Over)",
-   "artist": "Release - Topic",
+   "artist": "Ben Russell;Yuki Numata Resnick;Caleb Burhans;Brian Snow",
    "album": "Music For Mindfulness",
    "videoId": "K6zLn34hmjE",
    "duration": "5:09"
@@ -6558,7 +6558,7 @@
   },
   {
    "title": "Tell Her Safe",
-   "artist": "James Blake - Topic",
+   "artist": "Release - Topic",
    "album": "Klavierwerke EP",
    "videoId": "xKlLlyldIrg",
    "duration": "3:15"
@@ -6572,7 +6572,7 @@
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "James Blake - Topic",
+   "artist": "Release - Topic",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
@@ -8280,7 +8280,7 @@
   },
   {
    "title": "Wiese",
-   "artist": "Arnold Kasar - Topic",
+   "artist": "Roedelius;Arnold Kasar",
    "album": "Einfluss",
    "videoId": "dh4ujL3OwVs",
    "duration": "6:30"
@@ -11395,7 +11395,7 @@
   },
   {
    "title": "Prizewinning",
-   "artist": "Julianna Barwick - Topic",
+   "artist": "Release - Topic",
    "album": "The Magic Place",
    "videoId": "7HSifVbthNM",
    "duration": "6:43"
@@ -12213,8 +12213,8 @@
    "duration": "3:01"
   },
   {
-   "title": "Preach",
-   "artist": "Release - Topic",
+   "title": "Preach (feat. PARTYNEXTDOOR)",
+   "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "lOhZl4tD744",
    "duration": "3:57"
@@ -12248,7 +12248,7 @@
    "duration": "4:42"
   },
   {
-   "title": "Company (feat. Travis Scott)",
+   "title": "Company (feat. Travi$ Scott)",
    "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "uhhyQKNasXo",
@@ -12256,7 +12256,7 @@
   },
   {
    "title": "You & The 6",
-   "artist": "Drake - Topic",
+   "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "LcdcJ1jMW4k",
    "duration": "4:25"
@@ -12270,7 +12270,7 @@
   },
   {
    "title": "6PM In New York",
-   "artist": "Drake - Topic",
+   "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "_06iJrd0IbY",
    "duration": "4:44"
@@ -12501,7 +12501,7 @@
   },
   {
    "title": "untitled 03 | 05.28.2013.",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Release - Topic",
    "album": "untitled unmastered.",
    "videoId": "o4M4qssoaWU",
    "duration": "2:35"
@@ -12522,7 +12522,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Release - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -14083,7 +14083,7 @@
   },
   {
    "title": "Hourglass",
-   "artist": "KUEDO - Topic",
+   "artist": "Release - Topic",
    "album": "Slow Knife",
    "videoId": "XMBUkvtTlVY",
    "duration": "5:14"
@@ -14160,7 +14160,7 @@
   },
   {
    "title": "Warmer Light",
-   "artist": "KUEDO - Topic",
+   "artist": "Release - Topic",
    "album": "Slow Knife",
    "videoId": "mYl5U2dfXjs",
    "duration": "4:14"
@@ -14174,7 +14174,7 @@
   },
   {
    "title": "Lathe",
-   "artist": "KUEDO - Topic",
+   "artist": "Release - Topic",
    "album": "Slow Knife",
    "videoId": "TAWQOwtf-FE",
    "duration": "2:28"
@@ -15854,7 +15854,7 @@
   },
   {
    "title": "Moog River",
-   "artist": "Funki Porcini - Topic",
+   "artist": "Release - Topic",
    "album": "On",
    "videoId": "AK0m8NrMaAw",
    "duration": "3:16"
@@ -15868,7 +15868,7 @@
   },
   {
    "title": "Belisha Beacon",
-   "artist": "Funki Porcini - Topic",
+   "artist": "Release - Topic",
    "album": "On",
    "videoId": "7YNozIh3io4",
    "duration": "3:51"
@@ -15882,7 +15882,7 @@
   },
   {
    "title": "On an Inconsequential Afternoon",
-   "artist": "Funki Porcini - Topic",
+   "artist": "Release - Topic",
    "album": "On",
    "videoId": "bLlc4hSoNyE",
    "duration": "2:27"
@@ -15965,8 +15965,8 @@
    "duration": "10:20"
   },
   {
-   "title": "Institutionalized",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "7L1POXocFIQ",
    "duration": "4:32"
@@ -15979,22 +15979,22 @@
    "duration": "4:29"
   },
   {
-   "title": "These Walls (feat. Bilal, Thundercat & Anna Wise)",
+   "title": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
    "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "AHNK4k3Cr24",
    "duration": "5:01"
   },
   {
-   "title": "Wesley's Theory",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "Wesley's Theory (feat. George Clinton & Thundercat)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "l9fN-8NjrvI",
    "duration": "4:48"
   },
   {
    "title": "You Ain't Gotta Lie (Momma Said)",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "78bSAKX_4vs",
    "duration": "4:02"
@@ -16036,7 +16036,7 @@
   },
   {
    "title": "For Free? (Interlude)",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "qh4nXtTpTEE",
    "duration": "2:11"
@@ -16049,22 +16049,22 @@
    "duration": "4:53"
   },
   {
-   "title": "How Much A Dollar Cost",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "How Much A Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "y8kEiL81_R4",
    "duration": "4:22"
   },
   {
    "title": "The Blacker The Berry",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "VdPtVZDspIY",
    "duration": "5:29"
   },
   {
-   "title": "Complexion (A Zulu Love)",
-   "artist": "Kendrick Lamar;Rapsody",
+   "title": "Complexion (A Zulu Love) (feat. Rapsody)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "Wt4dUK4uce0",
    "duration": "4:24"

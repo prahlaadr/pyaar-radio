@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3sUkDtKZB59KivuJZT4aYV",
  "title": "Beats",
  "trackCount": 1166,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -4457,7 +4457,7 @@
    "duration": "3:16"
   },
   {
-   "title": "waitstop (feat. Vayda)",
+   "title": "waitstop",
    "artist": "S P A C E",
    "album": "KALI MA",
    "videoId": "gC6Udh40r84",
@@ -5689,8 +5689,8 @@
    "duration": "3:52"
   },
   {
-   "title": "Strangers",
-   "artist": "Shane 54 - Topic",
+   "title": "Strangers (feat. Tove Lo)",
+   "artist": "Seven Lions;Shane 54",
    "album": "Worlds Apart",
    "videoId": "oJskC1G29Vo",
    "duration": "3:25"
@@ -7299,8 +7299,8 @@
    "duration": "4:23"
   },
   {
-   "title": "forever free (feat. Duskus)",
-   "artist": "San Holo",
+   "title": "forever free",
+   "artist": "San Holo and Duskus;Duskus",
    "album": "album1",
    "videoId": "lLn2yc3kYSU",
    "duration": "6:23"
@@ -7901,8 +7901,8 @@
    "duration": "3:46"
   },
   {
-   "title": "Nuggets",
-   "artist": "Mura Masa - Topic",
+   "title": "Nuggets (feat. Bonzai)",
+   "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "heevLS3vukw",
    "duration": "3:30"
@@ -7915,7 +7915,7 @@
    "duration": "3:13"
   },
   {
-   "title": "Firefly (feat. Nao)",
+   "title": "Firefly (feat. NAO)",
    "artist": "Mura Masa",
    "album": "Mura Masa",
    "videoId": "QZOrPPRfXVY",

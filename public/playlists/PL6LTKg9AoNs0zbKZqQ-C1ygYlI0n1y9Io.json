@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -292,7 +292,7 @@
    "duration": "4:57"
   },
   {
-   "title": "Sweet Home Alabama (feat. Hank Williams Jr., 3 Doors Down & Bo Bice)",
+   "title": "Sweet Home Alabama",
    "artist": "Lynyrd Skynyrd",
    "album": "Second Helping (Expanded Edition)",
    "videoId": "iL-jC7XyLeo",
@@ -811,7 +811,7 @@
   },
   {
    "title": "At Last",
-   "artist": "Etta James - Topic",
+   "artist": "Etta James",
    "album": "At Last!",
    "videoId": "1qJU8G7gR_g",
    "duration": "3:00"
@@ -1076,7 +1076,7 @@
    "duration": "3:15"
   },
   {
-   "title": "Suga Suga (feat. Frankiee J)",
+   "title": "Suga Suga (feat. Frankie J)",
    "artist": "Baby Bash",
    "album": "Tha Smokin' Nephew",
    "videoId": "lUb34agCjG4",
@@ -1693,7 +1693,7 @@
   },
   {
    "title": "Sitting, Waiting, Wishing",
-   "artist": "Jack Johnson - Topic",
+   "artist": "Release - Topic",
    "album": "In Between Dreams",
    "videoId": "8chU09dsPWU",
    "duration": "3:04"
@@ -2071,7 +2071,7 @@
   },
   {
    "title": "Rockin' That Shit",
-   "artist": "The-Dream - Topic",
+   "artist": "Release - Topic",
    "album": "Love Vs Money",
    "videoId": "dtxth_aj450",
    "duration": "3:42"
@@ -4023,7 +4023,7 @@
    "duration": "5:08"
   },
   {
-   "title": "I'll Be (feat. JAY-Z)",
+   "title": "I'll Be (feat. JAŸ-Z)",
    "artist": "Foxy Brown",
    "album": "Ill Na Na",
    "videoId": "OuLuomtfLB4",
@@ -4381,7 +4381,7 @@
   },
   {
    "title": "No Other Way",
-   "artist": "Jack Johnson - Topic",
+   "artist": "Release - Topic",
    "album": "In Between Dreams",
    "videoId": "bekkZK3OqMM",
    "duration": "3:10"
@@ -4479,7 +4479,7 @@
   },
   {
    "title": "The Keeper",
-   "artist": "Bonobo - Topic",
+   "artist": "Release - Topic",
    "album": "Black Sands",
    "videoId": "MjKorY6VOfA",
    "duration": "4:49"
@@ -5137,7 +5137,7 @@
   },
   {
    "title": "Just Ain't Gonna Work Out",
-   "artist": "Mayer Hawthorne - Topic",
+   "artist": "Release - Topic",
    "album": "Just Ain't Gonna Work Out",
    "videoId": "8OYVNVj7p80",
    "duration": "2:29"
@@ -5809,7 +5809,7 @@
   },
   {
    "title": "Our Lives Are Shaped By What We Love",
-   "artist": "Odyssey - Topic",
+   "artist": "Odyssey",
    "album": "Our Lives Are Shaped By What We Love: Motown's Mowest Story 1971-73",
    "videoId": "vGbac0bJDM8",
    "duration": "3:37"
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Touch It or Not",
-   "artist": "Cam'Ron - Topic",
+   "artist": "Release - Topic",
    "album": "Killa Season",
    "videoId": "jMtoNW434yQ",
    "duration": "3:42"
@@ -6459,7 +6459,7 @@
    "duration": "3:30"
   },
   {
-   "title": "Going To A Town (feat. Anthony Hegarty)",
+   "title": "Going To A Town",
    "artist": "Rufus Wainwright",
    "album": "Release The Stars",
    "videoId": "6GksivLVyDw",
@@ -9540,7 +9540,7 @@
   },
   {
    "title": "Love vs. Money: Pt. 2",
-   "artist": "The-Dream - Topic",
+   "artist": "Release - Topic",
    "album": "Love Vs Money",
    "videoId": "keGETsRTSEk",
    "duration": "4:13"
@@ -10260,7 +10260,7 @@
    "duration": "3:30"
   },
   {
-   "title": "You Know I'm No Good (feat. Ghostface Killah)",
+   "title": "You Know I'm No Good",
    "artist": "Amy Winehouse",
    "album": "Back To Black (Deluxe Edition)",
    "videoId": "t-FhyZrncqA",
@@ -11310,8 +11310,8 @@
    "duration": "3:44"
   },
   {
-   "title": "Ain't Gonna Give It Up",
-   "artist": "Charles Bradley - Topic",
+   "title": "Ain't Gonna Give It Up (feat. Menahan Street Band & Saun & Starr)",
+   "artist": "Charles Bradley",
    "album": "Changes",
    "videoId": "b4NAta5J8tI",
    "duration": "3:54"
@@ -11436,8 +11436,8 @@
    "duration": "3:32"
   },
   {
-   "title": "Changes",
-   "artist": "The Budos Band;Charles Bradley",
+   "title": "Changes (feat. The Budos Band)",
+   "artist": "Charles Bradley",
    "album": "Changes",
    "videoId": "JuFAwcoG8VI",
    "duration": "5:43"
@@ -12039,7 +12039,7 @@
   },
   {
    "title": "On N'a Pas Besoin",
-   "artist": "Paris Combo - Topic",
+   "artist": "Paris Combo",
    "album": "Paris Combo",
    "videoId": "CXWALHoF44Y",
    "duration": "4:08"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Open My Eyes",
-   "artist": "The Sha La Das - Topic",
+   "artist": "Release - Topic",
    "album": "Love in the Wind",
    "videoId": "iAsTlxJlvos",
    "duration": "3:46"
@@ -12200,7 +12200,7 @@
   },
   {
    "title": "Sunday Table",
-   "artist": "Thomas M. Lauderdale - Topic",
+   "artist": "Release - Topic",
    "album": "Splendor in the Grass",
    "videoId": "eqIgb8VPLzE",
    "duration": "4:32"
@@ -12535,7 +12535,7 @@
    "duration": "3:05"
   },
   {
-   "title": "Going To A Town (feat. Anthony Hegarty)",
+   "title": "Going To A Town",
    "artist": "Rufus Wainwright",
    "album": "Vibrate: The Best Of (Deluxe Edition)",
    "videoId": "DdpR-v_BRg0",
@@ -12753,7 +12753,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Orlando Julius - Topic",
+   "artist": "Release - Topic",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -13061,7 +13061,7 @@
   },
   {
    "title": "Singe (Nu-Skool Mix)",
-   "artist": "Metropolitan Jazz Affair - Topic",
+   "artist": "Metropolitan Jazz Affair",
    "album": "Mja",
    "videoId": "kfOD9YGi_T8",
    "duration": "6:33"
@@ -15553,7 +15553,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Release - Topic",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -16217,7 +16217,7 @@
    "duration": "1:46"
   },
   {
-   "title": "Brown Sugar (feat. Kool G Rap)",
+   "title": "Brown Sugar",
    "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "-DNm9jn5z1w",
@@ -16547,7 +16547,7 @@
   },
   {
    "title": "Heigh-Ho (The Dwarf's Marching Song)",
-   "artist": "Louis Armstrong - Topic",
+   "artist": "Release - Topic",
    "album": "Disney Songs The Satchmo Way",
    "videoId": "VuBK0XoZeZ4",
    "duration": "2:37"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "REM",
@@ -307,7 +307,7 @@
   },
   {
    "title": "Lady",
-   "artist": "D'Angelo - Topic",
+   "artist": "D'Angelo",
    "album": "Brown Sugar",
    "videoId": "m1WkZtA6QVk",
    "duration": "5:47"
@@ -4033,7 +4033,7 @@
    "title": "Beautiful Dancer",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "zNzokCDa4x4",
+   "videoId": "snsEh1Ee12Y",
    "duration": "2:30"
   },
   {
@@ -5265,14 +5265,14 @@
    "title": "Kids",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "wsiIxCjNQPo",
+   "videoId": "O4VehjBPl_k",
    "duration": "2:55"
   },
   {
    "title": "Deuce",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "E6kFNDFXT4s",
+   "videoId": "_Lin4qHTzJA",
    "duration": "2:26"
   },
   {
@@ -10051,7 +10051,7 @@
   },
   {
    "title": "Louise",
-   "artist": "TV Girl - Topic",
+   "artist": "Release - Topic",
    "album": "French Exit",
    "videoId": "qMwRRV_mFQE",
    "duration": "3:15"
@@ -11898,7 +11898,7 @@
    "duration": "3:44"
   },
   {
-   "title": "Rehab (feat. JAY-Z)",
+   "title": "Rehab",
    "artist": "Amy Winehouse",
    "album": "Back To Black (Deluxe Edition)",
    "videoId": "CcWoE6CxM_w",
@@ -12228,14 +12228,14 @@
   },
   {
    "title": "My Humps",
-   "artist": "The Black Eyed Peas - Topic",
+   "artist": "The Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "opnZlnd3d7U",
    "duration": "5:27"
   },
   {
-   "title": "My Style",
-   "artist": "The Black Eyed Peas - Topic",
+   "title": "My Style (feat. Justin Timberlake & Timbaland)",
+   "artist": "The Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "ruNHpkWTopY",
    "duration": "4:29"
@@ -13795,8 +13795,8 @@
    "duration": "4:12"
   },
   {
-   "title": "You Ain't No DJ",
-   "artist": "Release - Topic",
+   "title": "You Ain't No DJ (feat. Yelawolf)",
+   "artist": "Big Boi",
    "album": "Sir Lucious Left Foot...The Son Of Chico Dusty",
    "videoId": "eJMJpImR8fs",
    "duration": "5:32"
@@ -18472,7 +18472,7 @@
   },
   {
    "title": "You",
-   "artist": "Lucy Pearl - Topic",
+   "artist": "Release - Topic",
    "album": "Lucy Pearl",
    "videoId": "S13LsfMO4TQ",
    "duration": "4:27"
@@ -18549,7 +18549,7 @@
   },
   {
    "title": "Yur Luv",
-   "artist": "Tekno - Topic",
+   "artist": "Release - Topic",
    "album": "Yur Luv",
    "videoId": "M73UMQiJ3dA",
    "duration": "3:52"
@@ -21355,7 +21355,7 @@
    "duration": "3:16"
   },
   {
-   "title": "waitstop (feat. Vayda)",
+   "title": "waitstop",
    "artist": "S P A C E",
    "album": "KALI MA",
    "videoId": "gC6Udh40r84",
@@ -21930,7 +21930,7 @@
   },
   {
    "title": "Camelblues",
-   "artist": "MNDSGN - Topic",
+   "artist": "Release - Topic",
    "album": "Yawn Zen",
    "videoId": "pIrGHTLvM0s",
    "duration": "2:33"
@@ -23504,8 +23504,8 @@
    "duration": "5:38"
   },
   {
-   "title": "Bout That",
-   "artist": "Young Jeezy - Topic",
+   "title": "Bout That (feat. Lil Wayne)",
+   "artist": "Jeezy",
    "album": "Trap Or Die 3",
    "videoId": "0bkxhfVe9J8",
    "duration": "3:47"
@@ -23553,8 +23553,8 @@
    "duration": "2:32"
   },
   {
-   "title": "All There",
-   "artist": "Young Jeezy - Topic",
+   "title": "All There (feat. Bankroll Fresh)",
+   "artist": "Jeezy",
    "album": "Trap Or Die 3",
    "videoId": "6K16Y895WvQ",
    "duration": "3:19"
@@ -23995,7 +23995,7 @@
   },
   {
    "title": "Hazey",
-   "artist": "Glass Animals - Topic",
+   "artist": "Release - Topic",
    "album": "ZABA",
    "videoId": "o3miaGiB3JI",
    "duration": "4:26"
@@ -25787,7 +25787,7 @@
   },
   {
    "title": "Bones",
-   "artist": "Crumb - Topic",
+   "artist": "Release - Topic",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
@@ -30344,7 +30344,7 @@
   },
   {
    "title": "Ass Like That",
-   "artist": "Eminem - Topic",
+   "artist": "Eminem",
    "album": "Encore",
    "videoId": "rm4vsbU7KDo",
    "duration": "4:26"
@@ -31925,8 +31925,8 @@
    "duration": "3:27"
   },
   {
-   "title": "Strangers",
-   "artist": "Shane 54 - Topic",
+   "title": "Strangers (feat. Tove Lo)",
+   "artist": "Seven Lions;Shane 54",
    "album": "Worlds Apart",
    "videoId": "oJskC1G29Vo",
    "duration": "3:25"
@@ -32688,8 +32688,8 @@
    "duration": "3:40"
   },
   {
-   "title": "Presidential",
-   "artist": "Rick Ross - Topic",
+   "title": "Presidential (feat. Elijah Blake)",
+   "artist": "Rick Ross",
    "album": "God Forgives, I Don't (Deluxe Edition)",
    "videoId": "ZmEyTAMvjuU",
    "duration": "4:10"
@@ -33585,7 +33585,7 @@
   },
   {
    "title": "Do You Love Me",
-   "artist": "Jay Sean - Topic",
+   "artist": "Release - Topic",
    "album": "Do You Love Me",
    "videoId": "eyq1rBHTl8I",
    "duration": "3:07"

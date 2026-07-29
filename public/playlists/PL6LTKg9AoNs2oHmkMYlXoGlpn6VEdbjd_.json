@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
  "title": "Favorite Songs Part 2",
  "trackCount": 4505,
- "syncedAt": "2026-07-28T10:35:57.786133Z",
+ "syncedAt": "2026-07-29T10:39:16.450040Z",
  "tracks": [
   {
    "title": "Str8 Outta Mumbai",
@@ -236,8 +236,8 @@
    "duration": "5:55"
   },
   {
-   "title": "Losers",
-   "artist": "The Weeknd;Labrinth",
+   "title": "Losers (feat. Labrinth)",
+   "artist": "The Weeknd",
    "album": "Beauty Behind The Madness",
    "videoId": "xNKOrBA9Sp0",
    "duration": "4:42"
@@ -593,7 +593,7 @@
    "duration": "1:42"
   },
   {
-   "title": "Company (feat. Travis Scott)",
+   "title": "Company (feat. Travi$ Scott)",
    "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "uhhyQKNasXo",
@@ -5206,8 +5206,8 @@
    "duration": "1:11"
   },
   {
-   "title": "All There",
-   "artist": "Young Jeezy - Topic",
+   "title": "All There (feat. Bankroll Fresh)",
+   "artist": "Jeezy",
    "album": "Trap Or Die 3",
    "videoId": "6K16Y895WvQ",
    "duration": "3:19"
@@ -5311,7 +5311,7 @@
    "duration": "3:06"
   },
   {
-   "title": "Annoying",
+   "title": "Annoying (feat. T.I.)",
    "artist": "Dave East",
    "album": "P2",
    "videoId": "AdMPpisABzE",
@@ -5403,7 +5403,7 @@
   },
   {
    "title": "As You Are",
-   "artist": "The Weeknd - Topic",
+   "artist": "The Weeknd",
    "album": "Beauty Behind The Madness",
    "videoId": "8CWy_-afIpY",
    "duration": "5:41"
@@ -5748,7 +5748,7 @@
    "title": "Beautiful Dancer",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "zNzokCDa4x4",
+   "videoId": "snsEh1Ee12Y",
    "duration": "2:30"
   },
   {
@@ -6816,8 +6816,8 @@
    "duration": "2:48"
   },
   {
-   "title": "Complexion (A Zulu Love)",
-   "artist": "Kendrick Lamar;Rapsody",
+   "title": "Complexion (A Zulu Love) (feat. Rapsody)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "Wt4dUK4uce0",
    "duration": "4:24"
@@ -7099,7 +7099,7 @@
    "title": "Deuce",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "E6kFNDFXT4s",
+   "videoId": "_Lin4qHTzJA",
    "duration": "2:26"
   },
   {
@@ -7342,7 +7342,7 @@
   },
   {
    "title": "Dubai Shit",
-   "artist": "Travis Scott - Topic",
+   "artist": "Release - Topic",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "CEIiRCuBrSA",
    "duration": "3:49"
@@ -7643,7 +7643,7 @@
   },
   {
    "title": "Eye 2 Eye",
-   "artist": "Travis Scott - Topic",
+   "artist": "Release - Topic",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "idT_L42PYRM",
    "duration": "3:11"
@@ -8902,8 +8902,8 @@
    "duration": "3:36"
   },
   {
-   "title": "How Much A Dollar Cost",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "How Much A Dollar Cost (feat. James Fauntleroy & Ronald Isley)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "y8kEiL81_R4",
    "duration": "4:22"
@@ -9392,8 +9392,8 @@
    "duration": "3:51"
   },
   {
-   "title": "Institutionalized",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "Institutionalized (feat. Bilal, Anna Wise & Snoop Dogg)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "7L1POXocFIQ",
    "duration": "4:32"
@@ -10191,7 +10191,7 @@
   },
   {
    "title": "Louise",
-   "artist": "TV Girl - Topic",
+   "artist": "Release - Topic",
    "album": "French Exit",
    "videoId": "qMwRRV_mFQE",
    "duration": "3:15"
@@ -11758,8 +11758,8 @@
    "duration": "3:48"
   },
   {
-   "title": "Preach",
-   "artist": "Release - Topic",
+   "title": "Preach (feat. PARTYNEXTDOOR)",
+   "artist": "Drake",
    "album": "If You're Reading This It's Too Late",
    "videoId": "lOhZl4tD744",
    "duration": "3:57"
@@ -13935,7 +13935,7 @@
    "duration": "3:23"
   },
   {
-   "title": "These Walls (feat. Bilal, Thundercat & Anna Wise)",
+   "title": "These Walls (feat. Bilal, Anna Wise & Thundercat)",
    "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "AHNK4k3Cr24",
@@ -14307,7 +14307,7 @@
   },
   {
    "title": "U",
-   "artist": "DJ Seinfeld - Topic",
+   "artist": "DJ Seinfeld",
    "album": "Time Spent Away From U",
    "videoId": "6F6Sxrd7rw4",
    "duration": "6:09"
@@ -14726,8 +14726,8 @@
    "duration": "3:17"
   },
   {
-   "title": "Wesley's Theory",
-   "artist": "Kendrick Lamar - Topic",
+   "title": "Wesley's Theory (feat. George Clinton & Thundercat)",
+   "artist": "Kendrick Lamar",
    "album": "To Pimp A Butterfly",
    "videoId": "l9fN-8NjrvI",
    "duration": "4:48"
@@ -15140,7 +15140,7 @@
   },
   {
    "title": "You",
-   "artist": "Lucy Pearl - Topic",
+   "artist": "Release - Topic",
    "album": "Lucy Pearl",
    "videoId": "S13LsfMO4TQ",
    "duration": "4:27"
@@ -16182,8 +16182,8 @@
    "duration": "3:44"
   },
   {
-   "title": "always on my mind",
-   "artist": "San Holo - Topic",
+   "title": "always on my mind (feat. James Vincent McMorrow & Yvette Young)",
+   "artist": "San Holo featuring James Vincent McMorrow and Yvette Young",
    "album": "album1",
    "videoId": "qFU4TdUqFXU",
    "duration": "3:42"
@@ -17414,8 +17414,8 @@
    "duration": "2:21"
   },
   {
-   "title": "Bout That",
-   "artist": "Young Jeezy - Topic",
+   "title": "Bout That (feat. Lil Wayne)",
+   "artist": "Jeezy",
    "album": "Trap Or Die 3",
    "videoId": "0bkxhfVe9J8",
    "duration": "3:47"
@@ -17492,7 +17492,7 @@
   },
   {
    "title": "brighter days",
-   "artist": "Bipolar Sunshine;San Holo",
+   "artist": "San Holo and Bipolar Sunshine;Bipolar Sunshine",
    "album": "album1",
    "videoId": "M8tZnz44t00",
    "duration": "3:57"
@@ -19256,7 +19256,7 @@
   },
   {
    "title": "Do It Now",
-   "artist": "Mos Def - Topic",
+   "artist": "Release - Topic",
    "album": "Black On Both Sides",
    "videoId": "KJLML-VpFcE",
    "duration": "3:50"
@@ -19809,7 +19809,7 @@
   },
   {
    "title": "Endeavors for Never (The last time we spoke you said you were not here. I saw you though.)",
-   "artist": "Shabazz Palaces - Topic",
+   "artist": "Release - Topic",
    "album": "Black Up",
    "videoId": "yHFF7aLE6k8",
    "duration": "2:52"
@@ -20592,8 +20592,8 @@
    "duration": "3:39"
   },
   {
-   "title": "forever free (feat. Duskus)",
-   "artist": "San Holo",
+   "title": "forever free",
+   "artist": "San Holo and Duskus;Duskus",
    "album": "album1",
    "videoId": "lLn2yc3kYSU",
    "duration": "6:23"
@@ -21594,7 +21594,7 @@
   },
   {
    "title": "Glass House",
-   "artist": "Big K.R.I.T. - Topic",
+   "artist": "Release - Topic",
    "album": "K.R.I.T. Wuz Here",
    "videoId": "chMFFxQg354",
    "duration": "3:18"
@@ -21782,8 +21782,8 @@
    "duration": "6:01"
   },
   {
-   "title": "Grateful",
-   "artist": "Dave East - Topic",
+   "title": "Grateful (feat. Marsha Ambrosius)",
+   "artist": "Dave East",
    "album": "P2",
    "videoId": "y2FveFnxBPM",
    "duration": "6:25"
@@ -22042,7 +22042,7 @@
   },
   {
    "title": "Hazey",
-   "artist": "Glass Animals - Topic",
+   "artist": "Release - Topic",
    "album": "ZABA",
    "videoId": "o3miaGiB3JI",
    "duration": "4:26"
@@ -23395,7 +23395,7 @@
    "title": "Kids",
    "artist": "RRoxket",
    "album": "Richie Rich 2",
-   "videoId": "wsiIxCjNQPo",
+   "videoId": "O4VehjBPl_k",
    "duration": "2:55"
   },
   {
@@ -24099,8 +24099,8 @@
    "duration": "4:24"
   },
   {
-   "title": "love (wip)",
-   "artist": "San Holo - Topic",
+   "title": "love (wip) (feat. Cassini)",
+   "artist": "San Holo featuring Cassini",
    "album": "album1",
    "videoId": "ZQgFpkVlaMA",
    "duration": "4:23"
@@ -24260,7 +24260,7 @@
    "duration": "3:56"
   },
   {
-   "title": "Maintain",
+   "title": "Maintain (feat. Bino Rideaux)",
    "artist": "Dave East",
    "album": "P2",
    "videoId": "_jV1KbJtZk8",
@@ -24953,8 +24953,8 @@
    "duration": "3:04"
   },
   {
-   "title": "My Style",
-   "artist": "The Black Eyed Peas - Topic",
+   "title": "My Style (feat. Justin Timberlake & Timbaland)",
+   "artist": "The Black Eyed Peas",
    "album": "Monkey Business",
    "videoId": "ruNHpkWTopY",
    "duration": "4:29"
@@ -25086,8 +25086,8 @@
    "duration": "4:37"
   },
   {
-   "title": "Never Been",
-   "artist": "Dave East - Topic",
+   "title": "Never Been (feat. Matt Patterson)",
+   "artist": "Dave East",
    "album": "P2",
    "videoId": "e-Xivg3PBL4",
    "duration": "3:47"
@@ -28642,8 +28642,8 @@
    "duration": "2:48"
   },
   {
-   "title": "surface",
-   "artist": "San Holo - Topic",
+   "title": "surface (feat. Caspian)",
+   "artist": "San Holo featuring Caspian",
    "album": "album1",
    "videoId": "H_86LH9GhMs",
    "duration": "6:03"
@@ -29266,7 +29266,7 @@
   },
   {
    "title": "The Greatest",
-   "artist": "Alabama Shakes - Topic",
+   "artist": "Release - Topic",
    "album": "Sound & Color",
    "videoId": "mw-MtJxs2Fc",
    "duration": "3:50"
@@ -30350,7 +30350,7 @@
    "duration": "4:02"
   },
   {
-   "title": "Violent",
+   "title": "Violent (feat. Lloyd Banks)",
    "artist": "Dave East",
    "album": "P2",
    "videoId": "z_Zld8sTRBg",
@@ -30414,7 +30414,7 @@
   },
   {
    "title": "voices in my head (feat. The Nicholas)",
-   "artist": "San Holo",
+   "artist": "San Holo featuring The Nicholas",
    "album": "album1",
    "videoId": "boCxIUq8PY8",
    "duration": "4:53"
@@ -30490,7 +30490,7 @@
    "duration": "4:20"
   },
   {
-   "title": "waitstop (feat. Vayda)",
+   "title": "waitstop",
    "artist": "S P A C E",
    "album": "KALI MA",
    "videoId": "gC6Udh40r84",
@@ -31295,8 +31295,8 @@
    "duration": "4:45"
   },
   {
-   "title": "You Ain't No DJ",
-   "artist": "Release - Topic",
+   "title": "You Ain't No DJ (feat. Yelawolf)",
+   "artist": "Big Boi",
    "album": "Sir Lucious Left Foot...The Son Of Chico Dusty",
    "videoId": "eJMJpImR8fs",
    "duration": "5:32"
