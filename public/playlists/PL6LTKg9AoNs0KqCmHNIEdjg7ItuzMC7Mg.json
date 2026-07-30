@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0KqCmHNIEdjg7ItuzMC7Mg",
  "title": "shroomy (goated)",
  "trackCount": 496,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "MY IMAGINATION 상상",
@@ -538,7 +538,7 @@
   },
   {
    "title": "Dust and Smoke",
-   "artist": "Gold Celeste - Topic",
+   "artist": "Gold Celeste",
    "album": "The Gentle Maverick",
    "videoId": "9Vf8A2I5Rtg",
    "duration": "4:19"
@@ -657,7 +657,7 @@
   },
   {
    "title": "Homage",
-   "artist": "Mild High Club - Topic",
+   "artist": "Mild High Club",
    "album": "Skiptracing",
    "videoId": "4u7kNELI76A",
    "duration": "2:58"
@@ -685,7 +685,7 @@
   },
   {
    "title": "Obstacle Eyes",
-   "artist": "Morgan Delt - Topic",
+   "artist": "Morgan Delt",
    "album": "Morgan Delt",
    "videoId": "R0IGWOM5Jek",
    "duration": "3:28"
@@ -776,7 +776,7 @@
   },
   {
    "title": "Barbarian Kings",
-   "artist": "Morgan Delt - Topic",
+   "artist": "Morgan Delt",
    "album": "Morgan Delt",
    "videoId": "NyZSUSzyTGA",
    "duration": "3:54"
@@ -888,7 +888,7 @@
   },
   {
    "title": "Together in Silence",
-   "artist": "Saafi Brothers - Topic",
+   "artist": "Saafi Brothers",
    "album": "Mystic Cigarettes",
    "videoId": "ZjCn-EHWIZ8",
    "duration": "10:42"
@@ -943,8 +943,8 @@
    "duration": "7:19"
   },
   {
-   "title": "Star Dwellers",
-   "artist": "Dreamers Delight - Topic",
+   "title": "Star Dwellers (feat. Vaughn Trace)",
+   "artist": "Dreamers Delight",
    "album": "Lucid Anatomy",
    "videoId": "eb73zttedzc",
    "duration": "3:08"
@@ -1468,8 +1468,8 @@
    "duration": "3:58"
   },
   {
-   "title": "Holiest",
-   "artist": "Glass Animals - Topic",
+   "title": "Holiest (feat. Tei Shi)",
+   "artist": "Glass Animals",
    "album": "Gooey",
    "videoId": "-LGrh_IuAIw",
    "duration": "3:22"
@@ -1511,7 +1511,7 @@
   },
   {
    "title": "Blue Coupe",
-   "artist": "Twin Peaks - Topic",
+   "artist": "Twin Peaks",
    "album": "Sweet '17 Singles",
    "videoId": "R05s97kmyrU",
    "duration": "3:43"
@@ -1525,7 +1525,7 @@
   },
   {
    "title": "Ozma",
-   "artist": "Shannon and the Clams",
+   "artist": "Shannon & The Clams",
    "album": "Dreams in the Rat House",
    "videoId": "ZNoOLqnPSek",
    "duration": "3:28"
@@ -1651,7 +1651,7 @@
   },
   {
    "title": "Out Here with Us",
-   "artist": "Parra For Cuva - Topic",
+   "artist": "Parra for Cuva",
    "album": "Paspatou",
    "videoId": "teOpL4319E8",
    "duration": "4:08"
@@ -1987,7 +1987,7 @@
   },
   {
    "title": "Trouble Every Day",
-   "artist": "The Mothers - Topic",
+   "artist": "The Mothers Of Invention",
    "album": "Freak Out!",
    "videoId": "rFNkacckLBU",
    "duration": "5:51"
@@ -2274,7 +2274,7 @@
   },
   {
    "title": "In The Past",
-   "artist": "The Chocolate Watchband",
+   "artist": "The Chocolate Watch Band",
    "album": "Inner Mystique",
    "videoId": "RKY0UXcOWGo",
    "duration": "3:08"
@@ -2302,14 +2302,14 @@
   },
   {
    "title": "Rainy Day Mushroom Pillow",
-   "artist": "Strawberry Alarm Clock - Topic",
+   "artist": "Strawberry Alarm Clock",
    "album": "Incense And Peppermints",
    "videoId": "50LPTiI-0eY",
    "duration": "3:05"
   },
   {
    "title": "Pass Time With The SAC",
-   "artist": "Release - Topic",
+   "artist": "Strawberry Alarm Clock",
    "album": "Incense And Peppermints",
    "videoId": "XgKmeGvG3pQ",
    "duration": "1:22"
@@ -2603,7 +2603,7 @@
   },
   {
    "title": "Nànnuflày",
-   "artist": "Release - Topic",
+   "artist": "Tinariwen",
    "album": "Elwan",
    "videoId": "f_MlL2uDBZ8",
    "duration": "5:04"
@@ -2869,7 +2869,7 @@
   },
   {
    "title": "Ocean Road",
-   "artist": "Melody's Echo Chamber - Topic",
+   "artist": "Melody's Echo Chamber",
    "album": "Unfold",
    "videoId": "qqUAY6sGDAQ",
    "duration": "2:41"
@@ -2924,7 +2924,7 @@
    "duration": "5:17"
   },
   {
-   "title": "Hellbound Train (feat. Kim Simmonds)",
+   "title": "Hellbound Train",
    "artist": "Savoy Brown",
    "album": "Hellbound Train",
    "videoId": "N6TkCLDcC7o",
@@ -3289,21 +3289,21 @@
   },
   {
    "title": "Movie Finale",
-   "artist": "Release - Topic",
+   "artist": "Madlib",
    "album": "Beat Konducta Vol. 3 & 4: In India",
    "videoId": "CLdaSAQ8RNY",
    "duration": "1:45"
   },
   {
    "title": "Wallflower",
-   "artist": "Tim Atlas - Topic",
+   "artist": "Tim Atlas",
    "album": "Wallflower",
    "videoId": "G1Amtf-bfyg",
    "duration": "2:58"
   },
   {
-   "title": "Dawn Of New Day",
-   "artist": "John Carroll Kirby - Topic",
+   "title": "Dawn Of New Day (feat. Laraaji)",
+   "artist": "John Carroll Kirby",
    "album": "Dance Ancestral",
    "videoId": "GESDvdQJ7vc",
    "duration": "3:42"

@@ -1,9 +1,33 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3527,
- "totalTracks": 44974,
- "syncedAt": "2026-07-29T10:39:12.955476Z",
+ "albumCount": 3530,
+ "totalTracks": 45019,
+ "syncedAt": "2026-07-30T10:25:56.042279Z",
  "albums": [
+  {
+   "browseId": "MPREb_gw1VjJH7UaH",
+   "title": "ATMANS",
+   "artist": "Samant",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_i24p21VHdA2",
+   "title": "Lightning McQueen",
+   "artist": "Curtis Williams",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_soJU5CpVkei",
+   "title": "Lake Effect",
+   "artist": "Sango",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_wNWwZqM8Pi4",
+   "title": "RHYTHM & MELODY",
+   "artist": "Sango",
+   "trackCount": 20
+  },
   {
    "browseId": "MPREb_CG30YLQ2aKz",
    "title": "Coyote, You're My Star",
@@ -20625,12 +20649,6 @@
    "title": "Lost to Love",
    "artist": "Freeman Leverett",
    "trackCount": 6
-  },
-  {
-   "browseId": "MPREb_CQreFHExnmj",
-   "title": "RRoxket",
-   "artist": "RRoxket",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_YN2abRdr6Nx",

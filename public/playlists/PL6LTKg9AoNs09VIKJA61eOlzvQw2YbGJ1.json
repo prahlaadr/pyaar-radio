@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "magic",
@@ -867,7 +867,7 @@
   },
   {
    "title": "Football Head",
-   "artist": "Flamingosis - Topic",
+   "artist": "Flamingosis",
    "album": "Pleasure Palette",
    "videoId": "sCcIJbEqCuc",
    "duration": "3:45"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "Forever",
-   "artist": "MNDSGN - Topic",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -1195,8 +1195,8 @@
    "duration": "5:42"
   },
   {
-   "title": "Animal",
-   "artist": "Beau Diako - Topic",
+   "title": "Animal (feat. Coco PM)",
+   "artist": "Beau Diako",
    "album": "Animal",
    "videoId": "TfekxE2yFHA",
    "duration": "2:34"
@@ -1791,7 +1791,7 @@
   },
   {
    "title": "Expensive Shit",
-   "artist": "Africa 70 - Topic",
+   "artist": "Fela Kuti;Africa 70",
    "album": "Expensive Shit (Edit)",
    "videoId": "sjbNSVgD9wY",
    "duration": "13:14"
@@ -1826,7 +1826,7 @@
   },
   {
    "title": "Fear Not for Man",
-   "artist": "Fela Kuti - Topic",
+   "artist": "Fela Kuti",
    "album": "Fear Not for Man",
    "videoId": "adFGRTDOyoE",
    "duration": "14:15"
@@ -2183,7 +2183,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee - Topic",
+   "artist": "Mk.gee",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -2757,7 +2757,7 @@
   },
   {
    "title": "Today It's You",
-   "artist": "Triste Janero - Topic",
+   "artist": "Triste Janero",
    "album": "Meet Triste Janero",
    "videoId": "01PDVPL0kVs",
    "duration": "2:56"
@@ -2820,7 +2820,7 @@
   },
   {
    "title": "crybaby",
-   "artist": "Kiefer - Topic",
+   "artist": "Kiefer",
    "album": "When There's Love Around",
    "videoId": "cNtiS1yvt-g",
    "duration": "4:47"

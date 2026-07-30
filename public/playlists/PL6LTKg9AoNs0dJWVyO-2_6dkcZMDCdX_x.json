@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
  "title": "July 24",
  "trackCount": 108,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -328,7 +328,7 @@
   },
   {
    "title": "Blindsided",
-   "artist": "Bon Iver - Topic",
+   "artist": "Bon Iver",
    "album": "For Emma, Forever Ago",
    "videoId": "vschq2SYrFE",
    "duration": "5:30"
@@ -489,7 +489,7 @@
   },
   {
    "title": "Whiskeyclone, Hotel City 1997",
-   "artist": "Beck - Topic",
+   "artist": "Beck",
    "album": "Mellow Gold",
    "videoId": "g45jqK9Fh_U",
    "duration": "3:28"

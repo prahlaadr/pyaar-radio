@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 24,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "trackCount": 26,
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -171,6 +171,20 @@
    "album": "SS26",
    "videoId": "3XODTHJGXk4",
    "duration": "2:48"
+  },
+  {
+   "title": "DUET",
+   "artist": "Sango & Smino",
+   "album": "RHYTHM & MELODY",
+   "videoId": "7x54ql26-bg",
+   "duration": "1:48"
+  },
+  {
+   "title": "6REASONSWHY",
+   "artist": "Samant",
+   "album": "ATMANS",
+   "videoId": "9czQGYiuM34",
+   "duration": "2:29"
   }
  ]
 }

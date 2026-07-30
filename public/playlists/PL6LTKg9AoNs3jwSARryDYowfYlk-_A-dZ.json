@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3jwSARryDYowfYlk-_A-dZ",
  "title": "☄️",
  "trackCount": 119,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Dontcha",
@@ -139,7 +139,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys - Topic",
+   "artist": "Arctic Monkeys",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -167,7 +167,7 @@
   },
   {
    "title": "Walk in the Park",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "t8TRH1t5dWw",
    "duration": "5:23"
@@ -230,7 +230,7 @@
   },
   {
    "title": "Threat of Joy",
-   "artist": "Release - Topic",
+   "artist": "The Strokes",
    "album": "Future Present Past",
    "videoId": "GZyr711PgXk",
    "duration": "4:25"
@@ -468,14 +468,14 @@
   },
   {
    "title": "Chemtrails",
-   "artist": "Beck - Topic",
+   "artist": "Beck",
    "album": "Modern Guilt",
    "videoId": "7o3NQnSvJZI",
    "duration": "4:39"
   },
   {
    "title": "Hazey (Stripped)",
-   "artist": "Glass Animals - Topic",
+   "artist": "Glass Animals",
    "album": "ZABA (Deluxe)",
    "videoId": "ScNB2hOhOZk",
    "duration": "3:49"
@@ -530,7 +530,7 @@
    "duration": "2:59"
   },
   {
-   "title": "Young At Heart (feat. Axel Stordahl & His Orchestra, Ray Anthony & Nelson Riddle & His Orchestra)",
+   "title": "Young At Heart",
    "artist": "Frank Sinatra",
    "album": "Sinatra's Sinatra",
    "videoId": "ZPT1oV-vEJM",
@@ -629,13 +629,13 @@
   },
   {
    "title": "Drawing Myself",
-   "artist": "Early Eyes - Topic",
+   "artist": "Early Eyes",
    "album": "Drawing Myself",
    "videoId": "XiPBaH4V90k",
    "duration": "3:26"
   },
   {
-   "title": "Across The Universe (Remix) (feat. Sean Ono Lennon & Moby)",
+   "title": "Across The Universe (Remix)",
    "artist": "Rufus Wainwright",
    "album": "Poses (Expanded Edition)",
    "videoId": "75XDN5Zf7-Q",
@@ -734,7 +734,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys - Topic",
+   "artist": "Arctic Monkeys",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"

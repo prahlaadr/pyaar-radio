@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs28-MEgNi_4ycfDKM90zpOf",
  "title": "Riding (Night)",
  "trackCount": 263,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Nights",
@@ -678,7 +678,7 @@
   },
   {
    "title": "Falling for U",
-   "artist": "Peachy! - Topic",
+   "artist": "Peachy!;Mxmtoon",
    "album": "Falling for U",
    "videoId": "3x6Dk42ndGM",
    "duration": "2:04"
@@ -755,7 +755,7 @@
   },
   {
    "title": "bellyache",
-   "artist": "Billie Eilish - Topic",
+   "artist": "Billie Eilish",
    "album": "dont smile at me",
    "videoId": "Vg18eeEugOQ",
    "duration": "3:00"
@@ -1104,8 +1104,8 @@
    "duration": "4:09"
   },
   {
-   "title": "Narcissist",
-   "artist": "No Rome - Topic",
+   "title": "Narcissist (feat. The 1975)",
+   "artist": "No Rome",
    "album": "RIP Indo Hisashi",
    "videoId": "4zGX2NAqTVE",
    "duration": "3:16"
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "9 (feat. SZA)",
-   "artist": "Willow",
+   "artist": "WILLOW",
    "album": "3",
    "videoId": "FFYZ-mR-XUE",
    "duration": "4:14"
@@ -1238,7 +1238,7 @@
   },
   {
    "title": "8",
-   "artist": "WILLOW - Topic",
+   "artist": "WILLOW",
    "album": "3",
    "videoId": "qqVX5aQy-8A",
    "duration": "3:43"
@@ -1391,8 +1391,8 @@
    "duration": "3:49"
   },
   {
-   "title": "Lust For Life (The Avener Rework)",
-   "artist": "Lana Del Rey - Topic",
+   "title": "Lust For Life (The Avener Rework) (feat. The Weeknd)",
+   "artist": "Lana Del Rey;The Avener",
    "album": "Lust For Life (The Avener Rework)",
    "videoId": "0NFY_PR-kyI",
    "duration": "4:13"

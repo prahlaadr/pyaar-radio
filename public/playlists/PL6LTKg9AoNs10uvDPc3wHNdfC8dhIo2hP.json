@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs10uvDPc3wHNdfC8dhIo2hP",
  "title": "Indie Listen [pyaar radio]",
  "trackCount": 213,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Adwa",
@@ -797,7 +797,7 @@
   },
   {
    "title": "Homage",
-   "artist": "Mild High Club - Topic",
+   "artist": "Mild High Club",
    "album": "Skiptracing",
    "videoId": "4u7kNELI76A",
    "duration": "2:58"
@@ -811,14 +811,14 @@
   },
   {
    "title": "Skiptracing",
-   "artist": "Release - Topic",
+   "artist": "Mild High Club",
    "album": "Skiptracing",
    "videoId": "i-9A1XmPAdM",
    "duration": "3:40"
   },
   {
    "title": "Tesselation",
-   "artist": "Release - Topic",
+   "artist": "Mild High Club",
    "album": "Skiptracing",
    "videoId": "OeNID491JiQ",
    "duration": "2:33"
@@ -1147,7 +1147,7 @@
   },
   {
    "title": "Plants",
-   "artist": "Crumb - Topic",
+   "artist": "Crumb",
    "album": "Locket",
    "videoId": "ajyBZVSNCiI",
    "duration": "3:12"
@@ -1217,14 +1217,14 @@
   },
   {
    "title": "Brian",
-   "artist": "Alfa Mist - Topic",
+   "artist": "Alfa Mist",
    "album": "Antiphon",
    "videoId": "DjYZ0enekbQ",
    "duration": "2:35"
   },
   {
    "title": "7th October",
-   "artist": "Alfa Mist - Topic",
+   "artist": "Alfa Mist",
    "album": "Antiphon",
    "videoId": "GR-JKk_Hlbs",
    "duration": "4:10"
@@ -1490,7 +1490,7 @@
   },
   {
    "title": "Kokopelli",
-   "artist": "Mild High Club - Topic",
+   "artist": "Mild High Club",
    "album": "Skiptracing",
    "videoId": "1R68zGwdcdU",
    "duration": "2:56"

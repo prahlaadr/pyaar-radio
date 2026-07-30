@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1VhgbZTSoWnY5DGK0NoL-I",
  "title": "swoler bear 🐻❄️",
  "trackCount": 443,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Money Trees (feat. Jay Rock)",
@@ -40,8 +40,8 @@
    "duration": "3:10"
   },
   {
-   "title": "On The Come Up",
-   "artist": "Mike WiLL Made-It - Topic",
+   "title": "On The Come Up (feat. Big Sean)",
+   "artist": "Mike WiLL Made-It",
    "album": "Ransom 2",
    "videoId": "wBqZF40Bc5U",
    "duration": "3:56"
@@ -258,7 +258,7 @@
   },
   {
    "title": "untitled 07 | levitate",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "untitled 07 | levitate",
    "videoId": "WlVT5bvAlcY",
    "duration": "2:27"
@@ -279,7 +279,7 @@
   },
   {
    "title": "Modern Slavery",
-   "artist": "HUNCHO JACK",
+   "artist": "HUNCHO JACK;Travis Scott;Quavo",
    "album": "Huncho Jack, Jack Huncho",
    "videoId": "lLfBfsaGMlM",
    "duration": "2:29"
@@ -902,7 +902,7 @@
   },
   {
    "title": "K.R.I.T. HERE",
-   "artist": "Big K.R.I.T. - Topic",
+   "artist": "Big K.R.I.T.",
    "album": "K.R.I.T. HERE",
    "videoId": "5h1nYaiAr_4",
    "duration": "3:21"
@@ -1511,7 +1511,7 @@
   },
   {
    "title": "I'm The Plug",
-   "artist": "Drake - Topic",
+   "artist": "Drake;Future",
    "album": "What a Time to Be Alive",
    "videoId": "DdJlpvo_YQU",
    "duration": "3:00"
@@ -1930,8 +1930,8 @@
    "duration": "2:53"
   },
   {
-   "title": "Run This Town",
-   "artist": "JAY-Z - Topic",
+   "title": "Run This Town (feat. Rihanna & Kanye West)",
+   "artist": "JAŸ-Z",
    "album": "The Hits Collection Volume One",
    "videoId": "0YjTony3CH8",
    "duration": "4:29"
@@ -2553,8 +2553,8 @@
    "duration": "3:28"
   },
   {
-   "title": "Should've Ducked",
-   "artist": "Lil Durk - Topic",
+   "title": "Should've Ducked (feat. Pooh Shiesty)",
+   "artist": "Lil Durk",
    "album": "The Voice (Deluxe)",
    "videoId": "NELtzplzu1g",
    "duration": "3:12"

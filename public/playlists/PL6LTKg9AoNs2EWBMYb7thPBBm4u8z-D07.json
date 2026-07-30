@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -418,7 +418,7 @@
    "duration": "4:09"
   },
   {
-   "title": "Sunset (feat. Nicki Wells, Samidha Joglekar & Ashwin Srinivasan)",
+   "title": "Sunset",
    "artist": "Nitin Sawhney",
    "album": "Prophesy",
    "videoId": "UWYeGfahOzo",
@@ -580,7 +580,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee - Topic",
+   "artist": "Mk.gee",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Isaac Aesili - Topic",
+   "artist": "Chaos In the CBD & Isaac Aesili",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -1293,8 +1293,8 @@
    "duration": "2:08"
   },
   {
-   "title": "Lovely",
-   "artist": "John West - Topic",
+   "title": "Lovely (feat. Pusha T)",
+   "artist": "John West",
    "album": "John West",
    "videoId": "AqBaRG35iek",
    "duration": "4:06"
@@ -1819,7 +1819,7 @@
   },
   {
    "title": "Black Sands",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "50QkaRiUJvU",
    "duration": "6:49"
@@ -2015,7 +2015,7 @@
   },
   {
    "title": "Louise",
-   "artist": "Release - Topic",
+   "artist": "TV Girl",
    "album": "French Exit",
    "videoId": "qMwRRV_mFQE",
    "duration": "3:15"
@@ -2568,7 +2568,7 @@
   },
   {
    "title": "Blindsided",
-   "artist": "Bon Iver - Topic",
+   "artist": "Bon Iver",
    "album": "For Emma, Forever Ago",
    "videoId": "vschq2SYrFE",
    "duration": "5:30"
@@ -2750,7 +2750,7 @@
   },
   {
    "title": "Deep Chimes Meditation",
-   "artist": "Laraaji - Topic",
+   "artist": "Laraaji",
    "album": "Celestrana Deep Chimes Meditation",
    "videoId": "JYSWoBZdRPs",
    "duration": "32:01"
@@ -3884,7 +3884,7 @@
   },
   {
    "title": "Soon Enough",
-   "artist": "Release - Topic",
+   "artist": "Sango;Xavier Omär",
    "album": "Hours Spent Loving You",
    "videoId": "5GabqCpPJnU",
    "duration": "3:25"
@@ -4759,7 +4759,7 @@
   },
   {
    "title": "Camelblues",
-   "artist": "Release - Topic",
+   "artist": "Mndsgn",
    "album": "Yawn Zen",
    "videoId": "pIrGHTLvM0s",
    "duration": "2:33"
@@ -5382,7 +5382,7 @@
   },
   {
    "title": "Hazey",
-   "artist": "Release - Topic",
+   "artist": "Glass Animals",
    "album": "ZABA",
    "videoId": "o3miaGiB3JI",
    "duration": "4:26"
@@ -5703,8 +5703,8 @@
    "duration": "4:46"
   },
   {
-   "title": "Lady Brown",
-   "artist": "Release - Topic",
+   "title": "Lady Brown (feat. Cise Starr)",
+   "artist": "Nujabes",
    "album": "Metaphorical Music",
    "videoId": "V8Xh5ErjIyM",
    "duration": "3:20"
@@ -5732,7 +5732,7 @@
   },
   {
    "title": "Prayers ii",
-   "artist": "Teebs - Topic",
+   "artist": "Teebs",
    "album": "Anicca",
    "videoId": "BOGL-YjGBmY",
    "duration": "3:38"
@@ -5949,14 +5949,14 @@
   },
   {
    "title": "Vinta",
-   "artist": "Release - Topic",
+   "artist": "Crumb",
    "album": "Crumb",
    "videoId": "BAH2EX1fpGY",
    "duration": "5:00"
   },
   {
    "title": "Bones",
-   "artist": "Release - Topic",
+   "artist": "Crumb",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
@@ -6152,7 +6152,7 @@
   },
   {
    "title": "Muthu Mazhaiye",
-   "artist": "Sagar S - Topic",
+   "artist": "Sagar, Sumangali",
    "album": "Mazhai",
    "videoId": "py-PbV8IENU",
    "duration": "1:24"
@@ -9183,7 +9183,7 @@
   },
   {
    "title": "Je te laisserai des mots",
-   "artist": "Patrick Watson - Topic",
+   "artist": "Patrick Watson",
    "album": "Je te laisserai des mots",
    "videoId": "mcdO9UP0hp8",
    "duration": "2:41"
@@ -9274,7 +9274,7 @@
   },
   {
    "title": "Fall In Love (Your Funeral)",
-   "artist": "Release - Topic",
+   "artist": "Erykah Badu",
    "album": "New Amerykah Part Two: Return Of The Ankh",
    "videoId": "HRH8WDpGfFo",
    "duration": "6:07"
@@ -9484,14 +9484,14 @@
   },
   {
    "title": "Zebra",
-   "artist": "Release - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "_5Jt_ULYSr4",
    "duration": "4:49"
   },
   {
    "title": "Walk in the Park",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "t8TRH1t5dWw",
    "duration": "5:23"
@@ -10226,7 +10226,7 @@
   },
   {
    "title": "Plants",
-   "artist": "Crumb - Topic",
+   "artist": "Crumb",
    "album": "Locket",
    "videoId": "ajyBZVSNCiI",
    "duration": "3:12"
@@ -10792,8 +10792,8 @@
    "duration": "4:17"
   },
   {
-   "title": "Lust For Life (The Avener Rework)",
-   "artist": "Lana Del Rey - Topic",
+   "title": "Lust For Life (The Avener Rework) (feat. The Weeknd)",
+   "artist": "Lana Del Rey;The Avener",
    "album": "Lust For Life (The Avener Rework)",
    "videoId": "0NFY_PR-kyI",
    "duration": "4:13"
@@ -10898,7 +10898,7 @@
   },
   {
    "title": "8",
-   "artist": "WILLOW - Topic",
+   "artist": "WILLOW",
    "album": "3",
    "videoId": "qqVX5aQy-8A",
    "duration": "3:43"
@@ -10912,7 +10912,7 @@
   },
   {
    "title": "9 (feat. SZA)",
-   "artist": "Willow",
+   "artist": "WILLOW",
    "album": "3",
    "videoId": "FFYZ-mR-XUE",
    "duration": "4:14"
@@ -11430,7 +11430,7 @@
   },
   {
    "title": "Lights Out, Words Gone",
-   "artist": "Bombay Bicycle Club - Topic",
+   "artist": "Bombay Bicycle Club",
    "album": "A Different Kind Of Fix",
    "videoId": "7hvWbYsr1HM",
    "duration": "5:02"
@@ -11619,14 +11619,14 @@
   },
   {
    "title": "Bones",
-   "artist": "Release - Topic",
+   "artist": "Crumb",
    "album": "Crumb",
    "videoId": "r7JWHuGFUeI",
    "duration": "3:14"
   },
   {
    "title": "Vinta",
-   "artist": "Release - Topic",
+   "artist": "Crumb",
    "album": "Crumb",
    "videoId": "BAH2EX1fpGY",
    "duration": "5:00"
@@ -11682,7 +11682,7 @@
   },
   {
    "title": "Drawing Myself",
-   "artist": "Early Eyes - Topic",
+   "artist": "Early Eyes",
    "album": "Drawing Myself",
    "videoId": "XiPBaH4V90k",
    "duration": "3:26"
@@ -11814,7 +11814,7 @@
    "duration": "5:47"
   },
   {
-   "title": "Across The Universe (Remix) (feat. Sean Ono Lennon & Moby)",
+   "title": "Across The Universe (Remix)",
    "artist": "Rufus Wainwright",
    "album": "Poses (Expanded Edition)",
    "videoId": "75XDN5Zf7-Q",
@@ -11927,7 +11927,7 @@
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys - Topic",
+   "artist": "Arctic Monkeys",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -13278,14 +13278,14 @@
   },
   {
    "title": "Despair In The Departure Lounge",
-   "artist": "Release - Topic",
+   "artist": "Arctic Monkeys",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "cUNmEBOHxz8",
    "duration": "3:25"
   },
   {
    "title": "No Buses",
-   "artist": "Arctic Monkeys - Topic",
+   "artist": "Arctic Monkeys",
    "album": "Who The F*** Are Arctic Monkeys?",
    "videoId": "Whl9WgP-g7s",
    "duration": "3:20"
@@ -13467,42 +13467,42 @@
   },
   {
    "title": "Zebra",
-   "artist": "Release - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "_5Jt_ULYSr4",
    "duration": "4:49"
   },
   {
    "title": "Norway",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "cv5Sc361d60",
    "duration": "3:55"
   },
   {
    "title": "Walk in the Park",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "t8TRH1t5dWw",
    "duration": "5:23"
   },
   {
    "title": "Lover of Mine",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "INH4wE6nkVI",
    "duration": "5:07"
   },
   {
    "title": "Better Times",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "DQt1G8oGnhI",
    "duration": "4:24"
   },
   {
    "title": "Real Love",
-   "artist": "Beach House - Topic",
+   "artist": "Beach House",
    "album": "Teen Dream",
    "videoId": "d8T9UDkxS1A",
    "duration": "5:21"
@@ -13607,14 +13607,14 @@
   },
   {
    "title": "Caint Use My Phone (Suite)",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "KaxDXs58XlA",
    "duration": "3:35"
   },
   {
    "title": "Hi",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "Hz7TP4Itc8U",
    "duration": "0:36"
@@ -13628,7 +13628,7 @@
   },
   {
    "title": "U Use To Call Me",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "6103flMrkas",
    "duration": "1:14"
@@ -13642,14 +13642,14 @@
   },
   {
    "title": "What’s Yo Phone Number / Telephone (Medley / Ghost Of Screw Mix)",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "9piNK32ZeOM",
    "duration": "5:11"
   },
   {
    "title": "I'll Call U Back",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "But You Caint Use My Phone (Mixtape)",
    "videoId": "l5LWXCSD9hs",
    "duration": "1:58"
@@ -14979,7 +14979,7 @@
   },
   {
    "title": "Last Words of a Shooting Star",
-   "artist": "Mitski - Topic",
+   "artist": "Mitski",
    "album": "Bury Me At Makeout Creek",
    "videoId": "ssVf326Ox9g",
    "duration": "2:45"
@@ -15098,7 +15098,7 @@
   },
   {
    "title": "Unluck",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "buHJNloNa7Q",
    "duration": "3:01"
@@ -15112,7 +15112,7 @@
   },
   {
    "title": "I Never Learnt To Share",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "BZSoMagoqtI",
    "duration": "4:52"
@@ -15126,7 +15126,7 @@
   },
   {
    "title": "Lindisfarne II",
-   "artist": "Release - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "qizKSsfwots",
    "duration": "2:59"
@@ -15140,35 +15140,35 @@
   },
   {
    "title": "Give Me My Month",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "-MuWcwBFQkU",
    "duration": "1:54"
   },
   {
    "title": "To Care (Like You)",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "uoSdVejquiE",
    "duration": "3:53"
   },
   {
    "title": "Why Don't You Call Me",
-   "artist": "Release - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "MGkfwphzyA4",
    "duration": "1:33"
   },
   {
    "title": "I Mind",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "mD4cAPxFwpQ",
    "duration": "3:32"
   },
   {
    "title": "Measurements",
-   "artist": "James Blake - Topic",
+   "artist": "James Blake",
    "album": "James Blake",
    "videoId": "KbvYyNkzNKM",
    "duration": "4:20"
@@ -17205,7 +17205,7 @@
   },
   {
    "title": "bellyache",
-   "artist": "Billie Eilish - Topic",
+   "artist": "Billie Eilish",
    "album": "dont smile at me",
    "videoId": "Vg18eeEugOQ",
    "duration": "3:00"
@@ -17324,21 +17324,21 @@
   },
   {
    "title": "The Gold",
-   "artist": "Phoebe Bridgers;Manchester Orchestra",
+   "artist": "Manchester Orchestra",
    "album": "A Black Mile To The Surface",
    "videoId": "P9zXzy8d9w4",
    "duration": "4:34"
   },
   {
    "title": "The Alien",
-   "artist": "Manchester Orchestra - Topic",
+   "artist": "Manchester Orchestra",
    "album": "A Black Mile To The Surface",
    "videoId": "PC-hXmsz6Mw",
    "duration": "5:29"
   },
   {
    "title": "The Sunshine",
-   "artist": "Manchester Orchestra - Topic",
+   "artist": "Manchester Orchestra",
    "album": "A Black Mile To The Surface",
    "videoId": "ueGt3At-Lz4",
    "duration": "1:58"
@@ -17352,7 +17352,7 @@
   },
   {
    "title": "The Mistake",
-   "artist": "Manchester Orchestra - Topic",
+   "artist": "Manchester Orchestra",
    "album": "A Black Mile To The Surface",
    "videoId": "EyEZcSjxetI",
    "duration": "3:55"
@@ -17709,7 +17709,7 @@
   },
   {
    "title": "West",
-   "artist": "River Tiber - Topic",
+   "artist": "River Tiber",
    "album": "West",
    "videoId": "z47xeb5r-Rs",
    "duration": "2:34"
@@ -18290,14 +18290,14 @@
   },
   {
    "title": "Coffee & Cigarettes",
-   "artist": "VIC MENSA - Topic",
+   "artist": "VIC MENSA",
    "album": "The Autobiography",
    "videoId": "ojKy5UKD3OM",
    "duration": "4:31"
   },
   {
-   "title": "We Could Be Free",
-   "artist": "VIC MENSA - Topic",
+   "title": "We Could Be Free (feat. Ty Dolla $ign)",
+   "artist": "VIC MENSA",
    "album": "The Autobiography",
    "videoId": "gMnsK4n0eJU",
    "duration": "4:56"
@@ -20733,14 +20733,14 @@
   },
   {
    "title": "Up There",
-   "artist": "Post Malone - Topic",
+   "artist": "Post Malone",
    "album": "Stoney (Deluxe)",
    "videoId": "ycbcPqeN85U",
    "duration": "3:15"
   },
   {
    "title": "Yours Truly, Austin Post",
-   "artist": "Post Malone - Topic",
+   "artist": "Post Malone",
    "album": "Stoney (Deluxe)",
    "videoId": "lG5aId8FshY",
    "duration": "3:40"

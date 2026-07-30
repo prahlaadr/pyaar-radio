@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
  "title": "SNAPS & DRUMS",
  "trackCount": 244,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Big Mouth",
@@ -26,8 +26,8 @@
    "duration": "4:03"
   },
   {
-   "title": "Brothers (feat. A$AP Rocky)",
-   "artist": "Kid Cudi;King Chip",
+   "title": "Brothers (feat. King Chip & A$AP Rocky)",
+   "artist": "Kid Cudi",
    "album": "Indicud",
    "videoId": "2SL-1yfS3rk",
    "duration": "4:42"
@@ -41,7 +41,7 @@
   },
   {
    "title": "Heartless",
-   "artist": "Kanye West - Topic",
+   "artist": "Kanye West",
    "album": "808s & Heartbreak",
    "videoId": "s40BTpfAELs",
    "duration": "3:31"
@@ -271,7 +271,7 @@
    "duration": "6:11"
   },
   {
-   "title": "Make Her Feel Good (feat. Joe Budden)",
+   "title": "Make Her Feel Good",
    "artist": "Teairra Marí",
    "album": "Roc-A-Fella Records Presents Teairra Marí",
    "videoId": "4IH5hBPnoj0",
@@ -279,7 +279,7 @@
   },
   {
    "title": "Rollout (My Business)",
-   "artist": "Ludacris - Topic",
+   "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "lUphaGuaRLg",
    "duration": "4:57"
@@ -383,15 +383,15 @@
    "duration": "3:38"
   },
   {
-   "title": "Everyone Nose (All The Girls Standing In The Line For The Bathroom) (feat. Pusha T, Lupe Fiasco & Kanye West)",
-   "artist": "Pusha T;Lupe Fiasco;Kanye West",
+   "title": "Everyone Nose (All The Girls Standing In The Line For The Bathroom)",
+   "artist": "N.E.R.D.",
    "album": "Seeing Sounds",
    "videoId": "2U5_f1ju8tg",
    "duration": "3:28"
   },
   {
    "title": "My Love (feat. Mariah Carey)",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "J6masnpuIJ0",
    "duration": "3:25"
@@ -453,8 +453,8 @@
    "duration": "2:20"
   },
   {
-   "title": "So Ambitious",
-   "artist": "JAY-Z - Topic",
+   "title": "So Ambitious (feat. Pharrell Williams)",
+   "artist": "JAŸ-Z",
    "album": "The Blueprint 3",
    "videoId": "RipuJZ5HS-4",
    "duration": "4:13"
@@ -580,7 +580,7 @@
   },
   {
    "title": "Coldest Winter",
-   "artist": "Kanye West - Topic",
+   "artist": "Kanye West",
    "album": "808s & Heartbreak",
    "videoId": "tpT7H7qIHIo",
    "duration": "2:45"
@@ -685,7 +685,7 @@
   },
   {
    "title": "Love Lockdown",
-   "artist": "Kanye West - Topic",
+   "artist": "Kanye West",
    "album": "808s & Heartbreak",
    "videoId": "ek_T6atbfe0",
    "duration": "4:31"
@@ -866,7 +866,7 @@
    "duration": "3:37"
   },
   {
-   "title": "No Daddy (feat. Eve)",
+   "title": "No Daddy",
    "artist": "Teairra Marí",
    "album": "Roc-A-Fella Records PresentsTeairra Mari",
    "videoId": "RFkMW2S1x9s",
@@ -1357,7 +1357,7 @@
   },
   {
    "title": "Nolita Fairytale (Main)",
-   "artist": "Release - Topic",
+   "artist": "Vanessa Carlton",
    "album": "Heroes & Thieves",
    "videoId": "HEYz7g91caE",
    "duration": "3:27"
@@ -1448,7 +1448,7 @@
   },
   {
    "title": "An External Force",
-   "artist": "Hellogoodbye - Topic",
+   "artist": "Hellogoodbye",
    "album": "Everything Is Debatable",
    "videoId": "HHDIJOXg_QA",
    "duration": "2:54"
@@ -1630,7 +1630,7 @@
   },
   {
    "title": "Fuck With Myself",
-   "artist": "BANKS - Topic",
+   "artist": "BANKS",
    "album": "The Altar",
    "videoId": "nL_Bza4Z7DU",
    "duration": "2:56"
@@ -1685,8 +1685,8 @@
    "duration": "4:05"
   },
   {
-   "title": "Fergalicious",
-   "artist": "Fergie;will.i.am",
+   "title": "Fergalicious (feat. will.i.am)",
+   "artist": "Fergie",
    "album": "The Dutchess",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"

@@ -2,18 +2,18 @@
  "playlistId": "PL6LTKg9AoNs1qV3rOZlBGSWBuUcAXiIdA",
  "title": "Beat Tape [pyaar radio]",
  "trackCount": 51,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Camelblues",
-   "artist": "Release - Topic",
+   "artist": "Mndsgn",
    "album": "Yawn Zen",
    "videoId": "pIrGHTLvM0s",
    "duration": "2:33"
   },
   {
    "title": "Yawn",
-   "artist": "MNDSGN",
+   "artist": "Mndsgn",
    "album": "Yawn Zen",
    "videoId": "a9WglMi420w",
    "duration": "2:09"
@@ -34,7 +34,7 @@
   },
   {
    "title": "Convert",
-   "artist": "MNDSGN",
+   "artist": "Mndsgn",
    "album": "Yawn Zen",
    "videoId": "3niaOWU29AQ",
    "duration": "2:34"
@@ -195,7 +195,7 @@
   },
   {
    "title": "The Motive/Used to the Melody",
-   "artist": "Xavier Omär - Topic",
+   "artist": "Sango;Xavier Omär",
    "album": "Hours Spent Loving You",
    "videoId": "jqrpiDUXXl0",
    "duration": "6:26"
@@ -265,7 +265,7 @@
   },
   {
    "title": "Black Sands",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "50QkaRiUJvU",
    "duration": "6:49"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -34,14 +34,14 @@
   },
   {
    "title": "You Rock Me (Long Version)",
-   "artist": "Larry Heard Presents Mr. White",
+   "artist": "Larry Heard Presents Mr. White;Mr. White",
    "album": "E.P.",
    "videoId": "ElyCxjDii_E",
    "duration": "6:13"
   },
   {
    "title": "The Sun Can't Compare (Long Version)",
-   "artist": "Mr.White - Topic",
+   "artist": "Larry Heard Presents Mr. White;Mr. White",
    "album": "E.P.",
    "videoId": "a1qXc36b7wk",
    "duration": "7:48"
@@ -650,14 +650,14 @@
   },
   {
    "title": "A1",
-   "artist": "Dynamo Dreesen, SVN & A Made Up Sound - Topic",
+   "artist": "Dynamo Dreesen;SVN;A Made Up Sound",
    "album": "Acido 20",
    "videoId": "F0XddRh9EBg",
    "duration": "8:38"
   },
   {
    "title": "B1",
-   "artist": "SVN - Topic",
+   "artist": "Dynamo Dreesen;SVN;A Made Up Sound",
    "album": "Acido 20",
    "videoId": "pvxZH-ZsPj0",
    "duration": "5:02"
@@ -706,14 +706,14 @@
   },
   {
    "title": "Aurora",
-   "artist": "Ryuichi Sakamoto - Topic",
+   "artist": "Alva Noto;Ryuichi Sakamoto",
    "album": "Insen",
    "videoId": "jXGU8TSDdg0",
    "duration": "8:52"
   },
   {
    "title": "Moon",
-   "artist": "Ryuichi Sakamoto - Topic",
+   "artist": "Alva Noto;Ryuichi Sakamoto",
    "album": "Insen",
    "videoId": "phqek7yqQHo",
    "duration": "6:08"
@@ -1350,7 +1350,7 @@
   },
   {
    "title": "Paranoia",
-   "artist": "James Ruskin - Topic",
+   "artist": "James Ruskin",
    "album": "Into Submission",
    "videoId": "zZM7tlEpJWM",
    "duration": "7:29"
@@ -1623,14 +1623,14 @@
   },
   {
    "title": "La Neta",
-   "artist": "Fatima - Topic",
+   "artist": "Fatima",
    "album": "Yellow Memories",
    "videoId": "Hb13npDBV3Y",
    "duration": "5:37"
   },
   {
    "title": "Do Better",
-   "artist": "Fatima - Topic",
+   "artist": "Fatima",
    "album": "Yellow Memories",
    "videoId": "agb9PlaPF0E",
    "duration": "6:46"
@@ -2386,14 +2386,14 @@
   },
   {
    "title": "Lava Lava",
-   "artist": "Boys Noize - Topic",
+   "artist": "Boys Noize",
    "album": "Oi Oi Oi",
    "videoId": "5HLImwTx7Vc",
    "duration": "4:01"
   },
   {
    "title": "Let's Buy Happiness",
-   "artist": "Boys Noize - Topic",
+   "artist": "Boys Noize",
    "album": "Oi Oi Oi",
    "videoId": "a5R-98xXlaU",
    "duration": "4:53"

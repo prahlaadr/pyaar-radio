@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0vlCRSqshHveacEILER1IJ",
  "title": "punch bowl social",
  "trackCount": 59,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Can I Call You Rose?",
@@ -47,8 +47,8 @@
    "duration": "3:47"
   },
   {
-   "title": "Throw Sum Mo (feat. Young Thug & Nicki Minaj)",
-   "artist": "Young Thug;Nicki Minaj",
+   "title": "Throw Sum Mo (feat. Nicki Minaj & Young Thug)",
+   "artist": "Rae Sremmurd",
    "album": "SremmLife",
    "videoId": "-Y_3s3AGMnE",
    "duration": "4:21"
@@ -61,7 +61,7 @@
    "duration": "2:59"
   },
   {
-   "title": "We Belong Together (feat. Styles & Jadakiss)",
+   "title": "We Belong Together",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -188,7 +188,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D. - Topic",
+   "artist": "N.E.R.D.",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"

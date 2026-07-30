@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs03sfaMRMheWRwosA39w5hD",
  "title": "PRODUCED BY KENNY BEATS",
  "trackCount": 305,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Taxes",
@@ -825,14 +825,14 @@
   },
   {
    "title": "A Hymn",
-   "artist": "IDLES - Topic",
+   "artist": "IDLES",
    "album": "A Hymn",
    "videoId": "f3V4i65jr20",
    "duration": "5:19"
   },
   {
    "title": "TRICK DADDY",
-   "artist": "ICECOLDBISHOP - Topic",
+   "artist": "ICECOLDBISHOP;Kenny Beats",
    "album": "TRICK DADDY",
    "videoId": "R_c9mBZK89g",
    "duration": "2:46"
@@ -923,7 +923,7 @@
   },
   {
    "title": "Mr. Motivator",
-   "artist": "Release - Topic",
+   "artist": "IDLES",
    "album": "Mr. Motivator",
    "videoId": "jmdxlT4TkQ0",
    "duration": "3:16"
@@ -937,7 +937,7 @@
   },
   {
    "title": "DICKIES SUIT",
-   "artist": "ICECOLDBISHOP - Topic",
+   "artist": "ICECOLDBISHOP;Kenny Beats",
    "album": "DICKIES SUIT",
    "videoId": "cnYJkN7_aOQ",
    "duration": "2:32"
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "GYAKUSOU",
-   "artist": "kZm - Topic",
+   "artist": "kZm",
    "album": "DISTORTION",
    "videoId": "qhaRbzzeF9I",
    "duration": "2:05"

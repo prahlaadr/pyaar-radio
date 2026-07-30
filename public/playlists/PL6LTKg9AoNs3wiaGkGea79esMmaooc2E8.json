@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3wiaGkGea79esMmaooc2E8",
  "title": "2025",
  "trackCount": 155,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "One Fm",
@@ -538,7 +538,7 @@
   },
   {
    "title": "elvis has left the building",
-   "artist": "Vladimir Dubyshkin - Topic",
+   "artist": "Vladimir Dubyshkin",
    "album": "Budni Nashego Kolhoza",
    "videoId": "xU1QdaGOtDA",
    "duration": "5:06"
@@ -832,7 +832,7 @@
   },
   {
    "title": "VIEWS",
-   "artist": "Mild Minds - Topic",
+   "artist": "Mild Minds",
    "album": "MOOD",
    "videoId": "CpBW8TfW1Y8",
    "duration": "4:49"

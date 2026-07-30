@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3LzI5cMtqYIv8mKimggwAP",
  "title": "Savage Pizza [pyaar radio]",
  "trackCount": 151,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Lose My Mind (feat. Mr Gabriel)",
@@ -76,7 +76,7 @@
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer - Topic",
+   "artist": "Weezer",
    "album": "Weezer (Green Album)",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
@@ -230,7 +230,7 @@
   },
   {
    "title": "untitled 08 | 09.06.2014.",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "untitled unmastered.",
    "videoId": "JXikcHwPolM",
    "duration": "3:56"
@@ -502,7 +502,7 @@
    "duration": "4:53"
   },
   {
-   "title": "We Belong Together (feat. Styles & Jadakiss)",
+   "title": "We Belong Together",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -804,7 +804,7 @@
   },
   {
    "title": "The Winner Takes It All",
-   "artist": "ABBA - Topic",
+   "artist": "ABBA",
    "album": "Super Trouper",
    "videoId": "WbnG3eAGb6Y",
    "duration": "4:55"

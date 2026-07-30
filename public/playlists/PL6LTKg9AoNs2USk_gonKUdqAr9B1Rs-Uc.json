@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
  "title": "NTS LIVE",
  "trackCount": 1034,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Once Again (Kuniyuki Version) (Mix Cut)",
@@ -307,7 +307,7 @@
   },
   {
    "title": "Gettin Up",
-   "artist": "Q-Tip - Topic",
+   "artist": "Q-Tip",
    "album": "The Renaissance",
    "videoId": "RgX5ZLO-2ks",
    "duration": "3:18"
@@ -447,7 +447,7 @@
   },
   {
    "title": "State Of Independence",
-   "artist": "Jon and Vangelis",
+   "artist": "Jon & Vangelis",
    "album": "The Friends Of Mister Cairo",
    "videoId": "TO0PZ-ujUQg",
    "duration": "7:54"
@@ -1000,7 +1000,7 @@
   },
   {
    "title": "What I Done Wrong",
-   "artist": "Big Lee Dowell",
+   "artist": "Big Lee Dowell And The Cannonballs feat. Maxim Moston",
    "album": "What I Done Wrong",
    "videoId": "0dKUUR5b3DA",
    "duration": "7:06"
@@ -1105,7 +1105,7 @@
   },
   {
    "title": "Ulla Dulla",
-   "artist": "Release - Topic",
+   "artist": "Traffik Island",
    "album": "Ulla Dulla",
    "videoId": "Nq5-8R6BR-Y",
    "duration": "2:35"
@@ -1174,8 +1174,8 @@
    "duration": "6:17"
   },
   {
-   "title": "Spies Are Watching Me",
-   "artist": "Voilaaa - Topic",
+   "title": "Spies Are Watching Me (feat. Sir Jean)",
+   "artist": "Voilaaa",
    "album": "On te l'avait dit",
    "videoId": "C2D9BKrK64U",
    "duration": "7:13"
@@ -1266,7 +1266,7 @@
   },
   {
    "title": "Zeke The Freak",
-   "artist": "Isaac Hayes - Topic",
+   "artist": "Isaac Hayes",
    "album": "For The Sake Of Love (Expanded Edition)",
    "videoId": "bPQEmoJH1pw",
    "duration": "4:31"
@@ -1349,8 +1349,8 @@
    "duration": "5:45"
   },
   {
-   "title": "2000 Blacks Got to Be Free (Edit)",
-   "artist": "Fela Kuti - Topic",
+   "title": "2000 Blacks Got to Be Free (Edit) (feat. Roy Ayers)",
+   "artist": "Fela Kuti",
    "album": "2000 Blacks Got to Be Free",
    "videoId": "KSUR88xZssE",
    "duration": "4:54"
@@ -1448,7 +1448,7 @@
   },
   {
    "title": "Kazuko (Instrumental)",
-   "artist": "Pharoah Sanders - Topic",
+   "artist": "Pharoah Sanders",
    "album": "Save Our Children",
    "videoId": "n73MeSWkQ9w",
    "duration": "10:16"
@@ -1553,7 +1553,7 @@
   },
   {
    "title": "Happy House",
-   "artist": "The Juan MacLean - Topic",
+   "artist": "The Juan Maclean",
    "album": "The Future Will Come",
    "videoId": "FbtYV8IRdsI",
    "duration": "12:28"
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "Empty Dancefloor",
-   "artist": "Release - Topic",
+   "artist": "Soulwax",
    "album": "Empty Dancefloor",
    "videoId": "5CW68EgYkQA",
    "duration": "4:12"
@@ -1763,7 +1763,7 @@
   },
   {
    "title": "Brown Oxford",
-   "artist": "Archie Pelago - Topic",
+   "artist": "Archie Pelago",
    "album": "The Archie Pelago EP",
    "videoId": "caZoRN8XDHo",
    "duration": "4:22"
@@ -2050,7 +2050,7 @@
   },
   {
    "title": "Out Here with Us",
-   "artist": "Parra For Cuva - Topic",
+   "artist": "Parra for Cuva",
    "album": "Paspatou",
    "videoId": "teOpL4319E8",
    "duration": "4:08"
@@ -2218,7 +2218,7 @@
   },
   {
    "title": "East African Calling",
-   "artist": "Release - Topic",
+   "artist": "Vidza",
    "album": "Kingdom",
    "videoId": "TVibUjliCpg",
    "duration": "7:46"
@@ -2253,7 +2253,7 @@
   },
   {
    "title": "How Long (Tensnake Late Night Dub)",
-   "artist": "Release - Topic",
+   "artist": "Sugardaddy",
    "album": "How Long",
    "videoId": "UiQBScmG0Uo",
    "duration": "6:29"
@@ -2448,7 +2448,7 @@
    "duration": "4:06"
   },
   {
-   "title": "Der Kommissar (feat. Fettes Brot)",
+   "title": "Der Kommissar",
    "artist": "Falco",
    "album": "Einzelhaft",
    "videoId": "eKaGZdY2WTU",
@@ -2777,7 +2777,7 @@
    "duration": "5:26"
   },
   {
-   "title": "Standing In The Rain (feat. Brendan Reilly)",
+   "title": "Standing In The Rain",
    "artist": "Cerrone",
    "album": "Don Ray - Garden of Love",
    "videoId": "qmsyjNMFCmw",
@@ -2946,7 +2946,7 @@
   },
   {
    "title": "You Rock Me (Long Version)",
-   "artist": "Larry Heard Presents Mr. White",
+   "artist": "Larry Heard Presents Mr. White;Mr. White",
    "album": "E.P.",
    "videoId": "ElyCxjDii_E",
    "duration": "6:13"
@@ -3380,7 +3380,7 @@
   },
   {
    "title": "Jericho Jerk (St. Germain Mix)",
-   "artist": "Release - Topic",
+   "artist": "Pierre Henry",
    "album": "Pierre Henry - Métamorphose-Messe pour le temps présent",
    "videoId": "qCfzd_FWzVM",
    "duration": "8:24"
@@ -3436,7 +3436,7 @@
   },
   {
    "title": "Invisible Spectrum",
-   "artist": "Isaac Aesili - Topic",
+   "artist": "Chaos In the CBD & Isaac Aesili",
    "album": "Invisible Spectrum",
    "videoId": "IS7Kw-Vh26c",
    "duration": "10:37"
@@ -3989,7 +3989,7 @@
   },
   {
    "title": "Tyrkisk Pepper (Dolle Jolle Remix)",
-   "artist": "Blackbelt Andersen - Topic",
+   "artist": "Blackbelt Andersen",
    "album": "Tyrkisk Pepper",
    "videoId": "2tZ0Ls6KloQ",
    "duration": "8:03"
@@ -4150,7 +4150,7 @@
   },
   {
    "title": "Misinterpretations of Reality",
-   "artist": "Function - Topic",
+   "artist": "Function",
    "album": "Awakening from the Illusory Self",
    "videoId": "Wp8gfWlhIos",
    "duration": "6:19"
@@ -4535,7 +4535,7 @@
   },
   {
    "title": "Waterfalls (3 A.M. Mix)",
-   "artist": "After Hours - Topic",
+   "artist": "After Hours",
    "album": "Feel It / Waterfalls",
    "videoId": "jtUTW4sLJ9Q",
    "duration": "5:59"
@@ -4709,15 +4709,15 @@
    "duration": "4:28"
   },
   {
-   "title": "To Be There With You feat. Kicki Halmos (Disco Mix)",
-   "artist": "Release - Topic",
+   "title": "To Be There With You feat. Kicki Halmos (Disco Mix) (feat. Kicki Halmos)",
+   "artist": "Aksel Friberg",
    "album": "To Be There With You (Extended Disco Mixes)",
    "videoId": "19bdsoizp3A",
    "duration": "8:22"
   },
   {
-   "title": "You Got The Love",
-   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
+   "title": "You Got The Love (feat. Chaka Khan)",
+   "artist": "Rufus",
    "album": "Rags To Rufus",
    "videoId": "YIrSSivTF8A",
    "duration": "4:39"
@@ -4786,8 +4786,8 @@
    "duration": "3:06"
   },
   {
-   "title": "Girls and Boys",
-   "artist": "Ernst Eielsen - Topic",
+   "title": "Girls and Boys (feat. Marlen Tjøsvoll & Arne Emil G Tollaksen)",
+   "artist": "Ernst Eielsen",
    "album": "Girls and Boys",
    "videoId": "7T2GXYRHTCc",
    "duration": "3:09"
@@ -4899,7 +4899,7 @@
   },
   {
    "title": "Make U Mine",
-   "artist": "Toyin Agbetu",
+   "artist": "Toyin Agbetu presents Shades Of Black",
    "album": "Deepest Shades",
    "videoId": "Qj442WXrZ8A",
    "duration": "5:50"
@@ -5074,7 +5074,7 @@
   },
   {
    "title": "Cosmetic Ecstasy",
-   "artist": "Daniel Watts - Topic",
+   "artist": "Daniel Watts",
    "album": "Cosmetic Ecstasy",
    "videoId": "qQOByazEhZE",
    "duration": "6:09"
@@ -5200,7 +5200,7 @@
   },
   {
    "title": "Addiction (Kike Am Radar Remix)",
-   "artist": "Pardon Moi - Topic",
+   "artist": "Pardon Moi",
    "album": "Addiction",
    "videoId": "N7asnxppeQk",
    "duration": "5:55"
@@ -5759,7 +5759,7 @@
    "duration": "3:28"
   },
   {
-   "title": "Can You Feel It (feat. Robert Owens)",
+   "title": "Can You Feel It",
    "artist": "Mr. Fingers",
    "album": "Amnesia",
    "videoId": "p2XxyBViBog",
@@ -6621,7 +6621,7 @@
   },
   {
    "title": "You Rock Me (Long Version)",
-   "artist": "Larry Heard Presents Mr. White",
+   "artist": "Larry Heard Presents Mr. White;Mr. White",
    "album": "E.P.",
    "videoId": "ElyCxjDii_E",
    "duration": "6:13"

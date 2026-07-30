@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -90,7 +90,7 @@
   },
   {
    "title": "Einaudi: Experience",
-   "artist": "Daniel Hope;I Virtuosi Italiani;Ludovico Einaudi",
+   "artist": "Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani",
    "album": "In A Time Lapse",
    "videoId": "DHjXaASKzqM",
    "duration": "5:16"
@@ -475,7 +475,7 @@
   },
   {
    "title": "I Wanted to Leave",
-   "artist": "SYML - Topic",
+   "artist": "SYML",
    "album": "You Knew It Was Me",
    "videoId": "i4_oVobD3Pg",
    "duration": "3:24"
@@ -1798,7 +1798,7 @@
   },
   {
    "title": "I Wanted to Leave",
-   "artist": "SYML - Topic",
+   "artist": "SYML",
    "album": "You Knew It Was Me",
    "videoId": "i4_oVobD3Pg",
    "duration": "3:24"
@@ -3611,14 +3611,14 @@
   },
   {
    "title": "Lazy Afternoon",
-   "artist": "Jackie Gleason - Topic",
+   "artist": "Jackie Gleason",
    "album": "The Last Dance...For Lovers Only",
    "videoId": "XVADmW2Eq7s",
    "duration": "2:48"
   },
   {
    "title": "Motivo di giorgia",
-   "artist": "Gianfranco Plenizio - Topic",
+   "artist": "Fred Bongusto;Gianfranco Plenizio",
    "album": "Gli Ordini Sono Ordini",
    "videoId": "Y_D0mie5IvU",
    "duration": "1:21"
@@ -4514,28 +4514,28 @@
   },
   {
    "title": "Greenleaf",
-   "artist": "Duke Hugh - Topic",
+   "artist": "Duke Hugh",
    "album": "Canvas",
    "videoId": "TNkXinAWC5U",
    "duration": "4:30"
   },
   {
    "title": "Home",
-   "artist": "Duke Hugh - Topic",
+   "artist": "Duke Hugh",
    "album": "Canvas",
    "videoId": "qjwN7BUtz7Y",
    "duration": "5:37"
   },
   {
    "title": "2005",
-   "artist": "Duke Hugh - Topic",
+   "artist": "Duke Hugh",
    "album": "Canvas",
    "videoId": "hLhfL8xDxfY",
    "duration": "3:54"
   },
   {
    "title": "Your Number",
-   "artist": "Release - Topic",
+   "artist": "Duke Hugh",
    "album": "Canvas",
    "videoId": "8pwwoDnEajg",
    "duration": "5:06"
@@ -4563,7 +4563,7 @@
   },
   {
    "title": "Church in the Wild",
-   "artist": "Duke Hugh - Topic",
+   "artist": "Duke Hugh",
    "album": "Canvas",
    "videoId": "17yQSAlQThI",
    "duration": "1:16"
@@ -5893,7 +5893,7 @@
   },
   {
    "title": "Stones Start Spinning",
-   "artist": "David Darling - Topic",
+   "artist": "David Darling",
    "album": "Prayer For Compassion",
    "videoId": "2shq7HrN3ok",
    "duration": "4:16"
@@ -5949,7 +5949,7 @@
   },
   {
    "title": "Untold Stories",
-   "artist": "David Darling - Topic",
+   "artist": "David Darling",
    "album": "Prayer For Compassion",
    "videoId": "OERAtmITnqE",
    "duration": "4:50"
@@ -6649,7 +6649,7 @@
   },
   {
    "title": "Diamond Child",
-   "artist": "Ital Tek - Topic",
+   "artist": "Ital Tek",
    "album": "Outland",
    "videoId": "m8wZmU_lowo",
    "duration": "5:35"
@@ -6984,7 +6984,7 @@
    "duration": "3:04"
   },
   {
-   "title": "The Humming / The Ghost (feat. Maxime Barlag)",
+   "title": "The Humming / The Ghost",
    "artist": "Binkbeats",
    "album": "Private Matter Previously Unavailable, Pt. 2",
    "videoId": "UCr_RNiWSGA",
@@ -7055,7 +7055,7 @@
   },
   {
    "title": "Hanna's Theme",
-   "artist": "The Chemical Brothers - Topic",
+   "artist": "The Chemical Brothers",
    "album": "Hanna (Original Motion Picture Soundtrack)",
    "videoId": "heBBrE0DAXE",
    "duration": "2:09"
@@ -7160,7 +7160,7 @@
   },
   {
    "title": "Theory of Colours",
-   "artist": "Dauwd - Topic",
+   "artist": "Dauwd",
    "album": "Theory of Colours",
    "videoId": "XvjUupXNsCM",
    "duration": "5:28"
@@ -8336,7 +8336,7 @@
   },
   {
    "title": "Prelude",
-   "artist": "Release - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "0wdJNhhe9WA",
    "duration": "1:19"
@@ -8364,35 +8364,35 @@
   },
   {
    "title": "El Toro",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "20ETYA2-o40",
    "duration": "3:45"
   },
   {
    "title": "We Could Forever",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "1cXpf25SpHo",
    "duration": "4:20"
   },
   {
    "title": "1009",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "2bnqUKqaMZI",
    "duration": "4:31"
   },
   {
    "title": "All In Forms",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "cV7RIiDyqT0",
    "duration": "4:52"
   },
   {
-   "title": "The Keeper",
-   "artist": "Release - Topic",
+   "title": "The Keeper (feat. Andreya Triana)",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "MjKorY6VOfA",
    "duration": "4:49"
@@ -8406,14 +8406,14 @@
   },
   {
    "title": "Animals",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "CH5v-Ot4moI",
    "duration": "6:46"
   },
   {
    "title": "Black Sands",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "50QkaRiUJvU",
    "duration": "6:49"
@@ -8476,13 +8476,13 @@
   },
   {
    "title": "'Round Midnight",
-   "artist": "Joe Pass - Topic",
+   "artist": "Joe Pass",
    "album": "Virtuoso",
    "videoId": "lrO8gd--WPc",
    "duration": "3:37"
   },
   {
-   "title": "All The Things You Are (feat. Red Mitchell)",
+   "title": "All The Things You Are",
    "artist": "Joe Pass",
    "album": "Virtuoso",
    "videoId": "XIPmwvRK1jc",
@@ -8490,7 +8490,7 @@
   },
   {
    "title": "Blues For Alican",
-   "artist": "Release - Topic",
+   "artist": "Joe Pass",
    "album": "Virtuoso",
    "videoId": "ph9FyauTXmY",
    "duration": "5:27"
@@ -9848,7 +9848,7 @@
   },
   {
    "title": "The House that Hårga Built",
-   "artist": "Bobby Krlic - Topic",
+   "artist": "Bobby Krlic",
    "album": "Midsommar (Original Motion Picture Score)",
    "videoId": "fHtN960pw5U",
    "duration": "3:34"
@@ -10268,7 +10268,7 @@
   },
   {
    "title": "Saudade",
-   "artist": "Release - Topic",
+   "artist": "Hammock",
    "album": "Silencia",
    "videoId": "SYY671zgmsY",
    "duration": "5:19"
@@ -10401,7 +10401,7 @@
   },
   {
    "title": "Fire Temple",
-   "artist": "Release - Topic",
+   "artist": "Bobby Krlic",
    "album": "Midsommar (Original Motion Picture Score)",
    "videoId": "9cg19uV8nB0",
    "duration": "9:35"
@@ -10653,14 +10653,14 @@
   },
   {
    "title": "Timeless",
-   "artist": "Jack DeJohnette New Directions - Topic",
+   "artist": "John Abercrombie;Jan Hammer;Jack DeJohnette",
    "album": "Timeless",
    "videoId": "9khSUIMjBuk",
    "duration": "11:58"
   },
   {
    "title": "Komorebi, Pt. 3",
-   "artist": "Release - Topic",
+   "artist": "Library Tapes",
    "album": "Komorebi",
    "videoId": "0gvsfnRGXrw",
    "duration": "4:11"
@@ -10681,7 +10681,7 @@
   },
   {
    "title": "The Peach Tree Next Door Grew over Our Fence",
-   "artist": "Dylan Henner - Topic",
+   "artist": "Dylan Henner",
    "album": "The Invention of the Human",
    "videoId": "OHYPCyMv-v0",
    "duration": "5:39"
@@ -10940,7 +10940,7 @@
   },
   {
    "title": "First Communication",
-   "artist": "Release - Topic",
+   "artist": "Agitation Free",
    "album": "2Nd",
    "videoId": "2JoJPnBcm9w",
    "duration": "8:11"
@@ -12053,7 +12053,7 @@
   },
   {
    "title": "Peaks",
-   "artist": "Release - Topic",
+   "artist": "Dictaphone",
    "album": "Nacht EP",
    "videoId": "FfNuCAydMXQ",
    "duration": "5:22"
@@ -12137,7 +12137,7 @@
   },
   {
    "title": "Forever",
-   "artist": "MNDSGN - Topic",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "iiRhbON3xVc",
    "duration": "12:51"
@@ -12171,8 +12171,8 @@
    "duration": "5:14"
   },
   {
-   "title": "Calimayan",
-   "artist": "Carlos Niño - Topic",
+   "title": "Calimayan (feat. Nate Morgan & Yaakov Levy)",
+   "artist": "Carlos Niño & Friends;Carlos Niño",
    "album": "Flutes, Echoes, It's All Happening!",
    "videoId": "6GS64Nt7Lfc",
    "duration": "2:32"
@@ -12228,14 +12228,14 @@
   },
   {
    "title": "In Liebe dein",
-   "artist": "Roedelius - Topic",
+   "artist": "Roedelius",
    "album": "Selbstportrait I",
    "videoId": "lk4gQMrBMek",
    "duration": "3:47"
   },
   {
    "title": "Kamee",
-   "artist": "Roedelius - Topic",
+   "artist": "Roedelius",
    "album": "Selbstportrait I",
    "videoId": "McvKY2Mp3A0",
    "duration": "3:43"
@@ -12851,7 +12851,7 @@
   },
   {
    "title": "Sonnengeflecht",
-   "artist": "Release - Topic",
+   "artist": "Roedelius",
    "album": "Wenn der Südwind weht",
    "videoId": "BE1qGVYfKUo",
    "duration": "3:30"
@@ -12899,8 +12899,8 @@
    "duration": "4:11"
   },
   {
-   "title": "Todo Homem (Ao Vivo)",
-   "artist": "Caetano Veloso - Topic",
+   "title": "Todo Homem (Ao Vivo) (feat. Tom Veloso)",
+   "artist": "Zeca Veloso;Caetano Veloso;Moreno Veloso",
    "album": "Todo Homem (Ao Vivo)",
    "videoId": "zENQOrnH5RA",
    "duration": "3:37"
@@ -13250,7 +13250,7 @@
   },
   {
    "title": "Prayers i",
-   "artist": "Teebs - Topic",
+   "artist": "Teebs",
    "album": "Anicca",
    "videoId": "lbr4K6SJebI",
    "duration": "1:58"
@@ -14062,7 +14062,7 @@
   },
   {
    "title": "Timeless",
-   "artist": "Jack DeJohnette New Directions - Topic",
+   "artist": "John Abercrombie;Jan Hammer;Jack DeJohnette",
    "album": "Timeless",
    "videoId": "9khSUIMjBuk",
    "duration": "11:58"

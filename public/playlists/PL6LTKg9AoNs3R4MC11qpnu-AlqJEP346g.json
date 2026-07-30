@@ -1,9 +1,51 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1492,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "trackCount": 1497,
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
+  {
+   "title": "Right Thurr",
+   "artist": "Chingy",
+   "album": "Jackpot",
+   "videoId": "0T4gqGW4yTY",
+   "duration": "4:11"
+  },
+  {
+   "title": "Mansard Roof",
+   "artist": "Vampire Weekend",
+   "album": "Vampire Weekend",
+   "videoId": "bECAsAL6fpM",
+   "duration": "2:08"
+  },
+  {
+   "title": "Help Me",
+   "artist": "Joni Mitchell",
+   "album": "Court and Spark",
+   "videoId": "edUhlRxyGOY",
+   "duration": "3:25"
+  },
+  {
+   "title": "Please, Please, Please, Let Me Get What I Want",
+   "artist": "The Smiths",
+   "album": "Hatful of Hollow",
+   "videoId": "r2cbOdNLQuQ",
+   "duration": "1:53"
+  },
+  {
+   "title": "I'm on My Way",
+   "artist": "The Proclaimers",
+   "album": "Sunshine on Leith",
+   "videoId": "lS2LeS6Om3E",
+   "duration": "3:41"
+  },
+  {
+   "title": "Camera",
+   "artist": "Charli xcx",
+   "album": "Music, Fashion, Film",
+   "videoId": "YFt6aqFboKQ",
+   "duration": "2:32"
+  },
   {
    "title": "Asleep Talking",
    "artist": "Magnus Ferrell",
@@ -101,13 +143,6 @@
    "album": "Famous Friends",
    "videoId": "xqOMJhdLMxI",
    "duration": "2:58"
-  },
-  {
-   "title": "Camera",
-   "artist": "Charli xcx",
-   "album": "Camera",
-   "videoId": "LlD8-j7ddDg",
-   "duration": "2:32"
   },
   {
    "title": "Kernkraft 400 (Original Radio Edit) (feat. DJ Gius)",
@@ -412,7 +447,7 @@
   },
   {
    "title": "Miracle Aligner",
-   "artist": "The Last Shadow Puppets - Topic",
+   "artist": "The Last Shadow Puppets",
    "album": "Miracle Aligner",
    "videoId": "fcHcysyw3oQ",
    "duration": "4:06"
@@ -440,7 +475,7 @@
   },
   {
    "title": "Gimme All Your Love",
-   "artist": "Alabama Shakes - Topic",
+   "artist": "Alabama Shakes",
    "album": "Sound & Color",
    "videoId": "3TotIeYatDE",
    "duration": "4:04"
@@ -1433,7 +1468,7 @@
    "duration": "4:22"
   },
   {
-   "title": "Finally (feat. Joyriders)",
+   "title": "Finally",
    "artist": "CeCe Peniston",
    "album": "Finally",
    "videoId": "aa2f0lW5GR8",
@@ -1531,7 +1566,7 @@
    "duration": "3:24"
   },
   {
-   "title": "I Was Made For Lovin' You (feat. Melbourne Symphony Orchestra)",
+   "title": "I Was Made For Lovin' You",
    "artist": "Kiss",
    "album": "Dynasty",
    "videoId": "12fJAnaif34",
@@ -1560,7 +1595,7 @@
   },
   {
    "title": "The Winner Takes It All",
-   "artist": "ABBA - Topic",
+   "artist": "ABBA",
    "album": "Super Trouper",
    "videoId": "WbnG3eAGb6Y",
    "duration": "4:55"
@@ -1861,7 +1896,7 @@
   },
   {
    "title": "We Might Even Be Falling In Love (Interlude)",
-   "artist": "Victoria Monét - Topic",
+   "artist": "Victoria Monét",
    "album": "JAGUAR",
    "videoId": "N6QHhkLRfco",
    "duration": "0:52"
@@ -2154,7 +2189,7 @@
    "duration": "3:52"
   },
   {
-   "title": "This Is The Life (feat. Helen Darling)",
+   "title": "This Is The Life",
    "artist": "Hannah Montana",
    "album": "Hannah Montana",
    "videoId": "6CIyQWDpCEg",
@@ -2281,7 +2316,7 @@
   },
   {
    "title": "Teenage Dirtbag",
-   "artist": "Wheatus - Topic",
+   "artist": "Wheatus",
    "album": "Wheatus",
    "videoId": "dSlYFtXENPo",
    "duration": "4:02"
@@ -3128,7 +3163,7 @@
   },
   {
    "title": "Rainbow City",
-   "artist": "Cloud Control - Topic",
+   "artist": "Cloud Control",
    "album": "Zone",
    "videoId": "e0ixZA0Q7E0",
    "duration": "3:10"
@@ -3142,7 +3177,7 @@
   },
   {
    "title": "Too Tough Terry",
-   "artist": "Dune Rats - Topic",
+   "artist": "Dune Rats",
    "album": "Too Tough Terry",
    "videoId": "Wo-Xh8br0vU",
    "duration": "2:38"
@@ -3219,7 +3254,7 @@
   },
   {
    "title": "Check Yes, Juliet",
-   "artist": "We the Kings",
+   "artist": "We The Kings",
    "album": "We The Kings",
    "videoId": "2bCV43NlEDk",
    "duration": "3:41"
@@ -3275,7 +3310,7 @@
   },
   {
    "title": "Bulls on Parade (triple j Like A Version)",
-   "artist": "Denzel Curry - Topic",
+   "artist": "Denzel Curry",
    "album": "Bulls on Parade (triple j Like A Version)",
    "videoId": "njRcJr6O1po",
    "duration": "4:30"
@@ -3618,7 +3653,7 @@
   },
   {
    "title": "Wine Glass Woman",
-   "artist": "Mayer Hawthorne - Topic",
+   "artist": "Mayer Hawthorne",
    "album": "Where Does This Door Go (Deluxe Edition)",
    "videoId": "8DXyZyQCPtI",
    "duration": "3:48"
@@ -4430,7 +4465,7 @@
   },
   {
    "title": "Super Trouper",
-   "artist": "ABBA - Topic",
+   "artist": "ABBA",
    "album": "Super Trouper",
    "videoId": "cBjAZvpJDQs",
    "duration": "4:13"
@@ -4458,7 +4493,7 @@
   },
   {
    "title": "Got To Be There",
-   "artist": "Michael Jackson - Topic",
+   "artist": "Michael Jackson",
    "album": "20th Century Masters: The Millennium Collection: Best of Michael Jackson",
    "videoId": "Y9cixo-iXAE",
    "duration": "3:26"
@@ -4591,7 +4626,7 @@
   },
   {
    "title": "Somewhere Only We Know",
-   "artist": "Release - Topic",
+   "artist": "Keane",
    "album": "Somewhere Only We Know",
    "videoId": "q5sVys7jk2I",
    "duration": "3:59"
@@ -4626,7 +4661,7 @@
   },
   {
    "title": "Lovers Rock",
-   "artist": "TV Girl - Topic",
+   "artist": "TV Girl",
    "album": "French Exit",
    "videoId": "j_sG_Juncn8",
    "duration": "3:34"
@@ -5018,7 +5053,7 @@
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer - Topic",
+   "artist": "Weezer",
    "album": "Weezer (Green Album)",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
@@ -5347,7 +5382,7 @@
   },
   {
    "title": "What Do You Mean?",
-   "artist": "Release - Topic",
+   "artist": "Justin Bieber",
    "album": "Purpose",
    "videoId": "DcDbKDAb7go",
    "duration": "3:26"
@@ -5388,8 +5423,8 @@
    "duration": "4:29"
   },
   {
-   "title": "Clarity",
-   "artist": "Zedd - Topic",
+   "title": "Clarity (feat. Foxes)",
+   "artist": "Zedd",
    "album": "Clarity",
    "videoId": "Lur-rvf6A1c",
    "duration": "4:32"
@@ -5661,7 +5696,7 @@
    "duration": "3:44"
   },
   {
-   "title": "Give Your Heart a Break (feat. Bert McCracken)",
+   "title": "Give Your Heart a Break",
    "artist": "Demi Lovato",
    "album": "Unbroken",
    "videoId": "ne_jRAHABx0",
@@ -5760,7 +5795,7 @@
   },
   {
    "title": "Empire State Of Mind (feat. Alicia Keys)",
-   "artist": "JAY-Z",
+   "artist": "JAŸ-Z",
    "album": "The Hits Collection Volume One (Deluxe)",
    "videoId": "V77kerTr3ok",
    "duration": "4:38"
@@ -6011,7 +6046,7 @@
    "duration": "4:02"
   },
   {
-   "title": "Somebody To Love (feat. USHER)",
+   "title": "Somebody To Love",
    "artist": "Justin Bieber",
    "album": "My World 2.0",
    "videoId": "bp5SRjnAjrw",
@@ -6194,7 +6229,7 @@
   },
   {
    "title": "untitled 08 | 09.06.2014.",
-   "artist": "Kendrick Lamar - Topic",
+   "artist": "Kendrick Lamar",
    "album": "untitled unmastered.",
    "videoId": "JXikcHwPolM",
    "duration": "3:56"
@@ -6718,7 +6753,7 @@
    "duration": "3:25"
   },
   {
-   "title": "Because Of You (feat. Kanye West)",
+   "title": "Because Of You",
    "artist": "Ne-Yo",
    "album": "Because Of You",
    "videoId": "-r85WmKI9Uo",
@@ -7201,7 +7236,7 @@
    "duration": "2:03"
   },
   {
-   "title": "S&M (feat. Britney Spears)",
+   "title": "S&M",
    "artist": "Rihanna",
    "album": "Loud",
    "videoId": "rCF8BLm6gKA",
@@ -7699,7 +7734,7 @@
   },
   {
    "title": "Jackie Onassis",
-   "artist": "Release - Topic",
+   "artist": "Sammy Rae & The Friends",
    "album": "Jackie Onassis",
    "videoId": "tD8xsC2NAFg",
    "duration": "4:54"
@@ -7825,7 +7860,7 @@
   },
   {
    "title": "Carol",
-   "artist": "Release - Topic",
+   "artist": "The Rolling Stones",
    "album": "The Rolling Stones",
    "videoId": "jwgZ8Xj1Og4",
    "duration": "2:35"
@@ -8741,7 +8776,7 @@
    "duration": "2:06"
   },
   {
-   "title": "Jolene (feat. Måneskin)",
+   "title": "Jolene",
    "artist": "Dolly Parton",
    "album": "Jolene",
    "videoId": "ZCwWAD6ZuPk",
@@ -8770,7 +8805,7 @@
   },
   {
    "title": "Mary",
-   "artist": "Release - Topic",
+   "artist": "Zac Brown Band",
    "album": "The Foundation",
    "videoId": "DEFY8XpnIuI",
    "duration": "2:48"
@@ -8917,7 +8952,7 @@
   },
   {
    "title": "Amoreena",
-   "artist": "Elton John - Topic",
+   "artist": "Elton John",
    "album": "Tumbleweed Connection",
    "videoId": "KfDvlzMz_-c",
    "duration": "5:03"
@@ -8980,7 +9015,7 @@
   },
   {
    "title": "Delilah",
-   "artist": "Release - Topic",
+   "artist": "Tom Jones",
    "album": "Delilah",
    "videoId": "Qvo5SeAwz88",
    "duration": "3:25"
@@ -8993,7 +9028,7 @@
    "duration": "3:46"
   },
   {
-   "title": "Beth (feat. Eric Carr)",
+   "title": "Beth",
    "artist": "Kiss",
    "album": "Destroyer",
    "videoId": "cWFc1yUy1lM",
@@ -9294,7 +9329,7 @@
    "duration": "4:10"
   },
   {
-   "title": "We Belong Together (feat. Styles & Jadakiss)",
+   "title": "We Belong Together",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -9449,7 +9484,7 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D. - Topic",
+   "artist": "N.E.R.D.",
    "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"
@@ -9834,7 +9869,7 @@
   },
   {
    "title": "Yeah You",
-   "artist": "N.E.R.D. - Topic",
+   "artist": "N.E.R.D.",
    "album": "Seeing Sounds",
    "videoId": "2OHV0gnq7EE",
    "duration": "4:06"

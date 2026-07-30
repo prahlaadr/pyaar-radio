@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3sUkDtKZB59KivuJZT4aYV",
  "title": "Beats",
  "trackCount": 1166,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -103,7 +103,7 @@
    "duration": "3:17"
   },
   {
-   "title": "Get Started (feat. Talib Kweli)",
+   "title": "Get Started",
    "artist": "Strong Arm Steady",
    "album": "In Search Of Stoney Jackson",
    "videoId": "3dQomITdCTQ",
@@ -937,7 +937,7 @@
   },
   {
    "title": "MONALISA",
-   "artist": "DJ Lycox & STIWANI;TYSON",
+   "artist": "DJ Lycox;TYSON",
    "album": "SEMANA MALUCA",
    "videoId": "aF3OBVJ-G6s",
    "duration": "2:41"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "sun drums and soil",
-   "artist": "Four Tet - Topic",
+   "artist": "Four Tet",
    "album": "Sun Drums and Soil",
    "videoId": "G0ZAxrVk41o",
    "duration": "6:21"
@@ -1077,7 +1077,7 @@
   },
   {
    "title": "DEIXA O MEU BEST VIVER",
-   "artist": "DJ Lycox;STIWANI",
+   "artist": "DJ Lycox",
    "album": "DEIXA O MEU BEST VIVER",
    "videoId": "sI3jPnSY6yM",
    "duration": "2:32"
@@ -1441,7 +1441,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Isaac Aesili - Topic",
+   "artist": "Chaos In the CBD & Isaac Aesili",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -1742,7 +1742,7 @@
   },
   {
    "title": "Fazers",
-   "artist": "King Geedorah - Topic",
+   "artist": "King Geedorah",
    "album": "Take Me To Your Leader",
    "videoId": "LWN0vQpwcKM",
    "duration": "3:18"
@@ -2351,7 +2351,7 @@
   },
   {
    "title": "Infinite Us",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "gU5bb4aCoho",
    "duration": "7:12"
@@ -3898,7 +3898,7 @@
   },
   {
    "title": "Y.A.L.A.",
-   "artist": "Ray 7 & B. Calloway",
+   "artist": "M.I.A.",
    "album": "Matangi",
    "videoId": "0Mq5UPdTu64",
    "duration": "4:24"
@@ -3940,7 +3940,7 @@
   },
   {
    "title": "GO",
-   "artist": "Tekno - Topic",
+   "artist": "Tekno",
    "album": "GO",
    "videoId": "k-FsZk8kPHs",
    "duration": "4:03"
@@ -4647,7 +4647,7 @@
   },
   {
    "title": "Stay (Petit Biscuit Remix)",
-   "artist": "Alessia Cara;Petit Biscuit",
+   "artist": "Zedd;Alessia Cara;Petit Biscuit",
    "album": "Stay (Remixes)",
    "videoId": "8fpKAvyTD94",
    "duration": "4:02"
@@ -4878,14 +4878,14 @@
   },
   {
    "title": "Matangi",
-   "artist": "SLUMBERJACK - Topic",
+   "artist": "MEMBA;SLUMBERJACK",
    "album": "Matangi",
    "videoId": "efp-ofHT_5k",
    "duration": "3:18"
   },
   {
-   "title": "Lady Brown",
-   "artist": "Release - Topic",
+   "title": "Lady Brown (feat. Cise Starr)",
+   "artist": "Nujabes",
    "album": "Metaphorical Music",
    "videoId": "V8Xh5ErjIyM",
    "duration": "3:20"
@@ -4927,7 +4927,7 @@
   },
   {
    "title": "Prayers ii",
-   "artist": "Teebs - Topic",
+   "artist": "Teebs",
    "album": "Anicca",
    "videoId": "BOGL-YjGBmY",
    "duration": "3:38"
@@ -5445,7 +5445,7 @@
   },
   {
    "title": "Only (Kaskade x Lipless Remix)",
-   "artist": "Lipless - Topic",
+   "artist": "RY X",
    "album": "Only (Kaskade x Lipless Remix)",
    "videoId": "WDMErDSiGU8",
    "duration": "4:13"
@@ -5550,7 +5550,7 @@
   },
   {
    "title": "Overthinker",
-   "artist": "INZO - Topic",
+   "artist": "INZO",
    "album": "Overthinker",
    "videoId": "_DlHKsQpm9k",
    "duration": "4:28"
@@ -5802,7 +5802,7 @@
   },
   {
    "title": "Stand Off",
-   "artist": "MEMBA - Topic",
+   "artist": "MEMBA;Ehiorobo",
    "album": "Stand Off",
    "videoId": "PL0fyyA6F7E",
    "duration": "3:25"
@@ -5920,7 +5920,7 @@
    "duration": "3:46"
   },
   {
-   "title": "Habits (Stay High) (Hippie Sabotage Remix) (feat. Hippie Sabotage)",
+   "title": "Habits (Stay High) (Hippie Sabotage Remix)",
    "artist": "Tove Lo",
    "album": "Queen Of The Clouds",
    "videoId": "Vg8_Yj8szdA",
@@ -6047,7 +6047,7 @@
   },
   {
    "title": "Strapped",
-   "artist": "J Dilla - Topic",
+   "artist": "Jaylib;Madlib;J Dilla;Guilty Simpson",
    "album": "Champion Sound",
    "videoId": "lykvrnCD_pw",
    "duration": "3:14"
@@ -6145,14 +6145,14 @@
   },
   {
    "title": "Ultramarine",
-   "artist": "Quiet Bison",
+   "artist": "QUIET BISON",
    "album": "Sequence",
    "videoId": "Fa5KTPcMOv0",
    "duration": "3:51"
   },
   {
    "title": "Stingray",
-   "artist": "QUIET BISON - Topic",
+   "artist": "QUIET BISON",
    "album": "Sequence",
    "videoId": "vL1Bt8Ryhus",
    "duration": "3:18"
@@ -6474,7 +6474,7 @@
   },
   {
    "title": "SeeSea",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "3XHl8W--LaQ",
    "duration": "4:17"
@@ -7447,7 +7447,7 @@
   },
   {
    "title": "free press and curl",
-   "artist": "Shabazz Palaces - Topic",
+   "artist": "Shabazz Palaces",
    "album": "Black Up",
    "videoId": "yjOrbNFVnNY",
    "duration": "4:16"
@@ -7461,7 +7461,7 @@
   },
   {
    "title": "Swerve... the reeping of all that is worthwhile (Noir not withstanding)",
-   "artist": "Shabazz Palaces - Topic",
+   "artist": "Shabazz Palaces",
    "album": "Black Up",
    "videoId": "PNAv9COs4yE",
    "duration": "5:11"
@@ -7474,8 +7474,8 @@
    "duration": "3:31"
   },
   {
-   "title": "May-December",
-   "artist": "Mos Def - Topic",
+   "title": "5月ー12月 - May-December",
+   "artist": "Mos Def",
    "album": "Black On Both Sides",
    "videoId": "u3Rg09NRabc",
    "duration": "3:30"
@@ -7496,7 +7496,7 @@
   },
   {
    "title": "New York City Rage Fest",
-   "artist": "Kid Cudi - Topic",
+   "artist": "Kid Cudi",
    "album": "Indicud",
    "videoId": "Wo6Oayh4PIY",
    "duration": "1:54"

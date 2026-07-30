@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1wDyKHMyX7ysdsfFNsoEOT",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -460,7 +460,7 @@
    "duration": "4:04"
   },
   {
-   "title": "Get It Together (feat. Doug Lazy)",
+   "title": "Get It Together",
    "artist": "702",
    "album": "No Doubt",
    "videoId": "HxGNLsz9V5c",
@@ -502,8 +502,8 @@
    "duration": "3:27"
   },
   {
-   "title": "Next Levels",
-   "artist": "King Geedorah - Topic",
+   "title": "Next Levels (feat. John Robinson, Stahhr, Stacy Epps & Invizible Handz)",
+   "artist": "King Geedorah",
    "album": "Take Me To Your Leader",
    "videoId": "vvtfSYmjFXc",
    "duration": "3:50"
@@ -684,7 +684,7 @@
    "duration": "2:41"
   },
   {
-   "title": "Soon as I Get Home (feat. Aaron Hall)",
+   "title": "Soon as I Get Home",
    "artist": "Faith Evans",
    "album": "Faith",
    "videoId": "VKxZ7Mdhnyo",
@@ -993,14 +993,14 @@
   },
   {
    "title": "UMI Says",
-   "artist": "Mos Def - Topic",
+   "artist": "Mos Def",
    "album": "Black On Both Sides",
    "videoId": "1W9yr_3p63o",
    "duration": "5:06"
   },
   {
    "title": "Arrow Through Me (Remastered 1993)",
-   "artist": "Paul McCartney - Topic",
+   "artist": "Paul McCartney & Wings",
    "album": "Back To The Egg",
    "videoId": "_zcYw3f2k44",
    "duration": "3:37"
@@ -1112,7 +1112,7 @@
   },
   {
    "title": "You Used to Love Me",
-   "artist": "Faith Evans - Topic",
+   "artist": "Faith Evans",
    "album": "Faith",
    "videoId": "4k70tEVi69o",
    "duration": "4:30"
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Crazy Baldhead",
-   "artist": "Bob Marley & The Wailers - Topic",
+   "artist": "Bob Marley & The Wailers",
    "album": "Rastaman Vibration",
    "videoId": "NURbkMNM4Fc",
    "duration": "3:12"
@@ -1399,7 +1399,7 @@
   },
   {
    "title": "Gone Baby, Don't Be Long",
-   "artist": "Erykah Badu - Topic",
+   "artist": "Erykah Badu",
    "album": "New Amerykah Part Two: Return Of The Ankh",
    "videoId": "Vnt9XZjqxsc",
    "duration": "4:40"
@@ -1602,7 +1602,7 @@
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Release - Topic",
+   "artist": "Cherrelle",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -1783,8 +1783,8 @@
    "duration": "2:36"
   },
   {
-   "title": "I'll Stay",
-   "artist": "The RH Factor - Topic",
+   "title": "I'll Stay (feat. D'Angelo)",
+   "artist": "The RH Factor",
    "album": "Hard Groove",
    "videoId": "i8rCzk1Q1Ys",
    "duration": "7:51"
@@ -1888,15 +1888,15 @@
    "duration": "3:32"
   },
   {
-   "title": "Ain't No Love In The Heart Of The City (Single Version) (feat. Michael Omartian)",
-   "artist": "Bobby Bland",
+   "title": "Ain't No Love In The Heart Of The City (Single Version)",
+   "artist": "Bobby \"Blue\" Bland",
    "album": "Dreamer",
    "videoId": "38OOUDTsqM0",
    "duration": "3:54"
   },
   {
    "title": "Brighton Rock",
-   "artist": "Queen - Topic",
+   "artist": "Queen",
    "album": "Sheer Heart Attack",
    "videoId": "mtTaMwYr7-A",
    "duration": "5:11"
@@ -2043,7 +2043,7 @@
   },
   {
    "title": "Running Away (12-Inch Long Version)",
-   "artist": "Roy Ayers Ubiquity - Topic",
+   "artist": "Roy Ayers Ubiquity",
    "album": "Lifeline",
    "videoId": "G2L4vri6vM4",
    "duration": "6:54"
@@ -2288,7 +2288,7 @@
   },
   {
    "title": "Never Fight A Man With A Perm",
-   "artist": "IDLES - Topic",
+   "artist": "IDLES",
    "album": "Joy as an Act of Resistance.",
    "videoId": "7qWm9KXfz7E",
    "duration": "3:49"
@@ -2414,7 +2414,7 @@
   },
   {
    "title": "My Autumn's Done Come",
-   "artist": "Lee Hazlewood - Topic",
+   "artist": "Lee Hazlewood",
    "album": "The Very Special World Of Lee Hazlewood (Expanded Edition)",
    "videoId": "Qo24xN9mj8Q",
    "duration": "4:07"
@@ -2463,7 +2463,7 @@
   },
   {
    "title": "Paramahansa Lake",
-   "artist": "Alice Coltrane - Topic",
+   "artist": "Alice Coltrane",
    "album": "Huntington Ashram Monastery",
    "videoId": "03ue9Nii41g",
    "duration": "4:32"
@@ -2526,7 +2526,7 @@
   },
   {
    "title": "Cornerstone",
-   "artist": "Benjamin Clementine - Topic",
+   "artist": "Benjamin Clementine",
    "album": "At Least For Now",
    "videoId": "THGpEbV2TbA",
    "duration": "4:32"
@@ -2561,7 +2561,7 @@
   },
   {
    "title": "Wise One",
-   "artist": "John Coltrane",
+   "artist": "John Coltrane Quartet",
    "album": "Crescent",
    "videoId": "yagO50i6O5E",
    "duration": "9:04"
@@ -2693,8 +2693,8 @@
    "duration": "10:54"
   },
   {
-   "title": "Stop On By",
-   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
+   "title": "Stop On By (feat. Chaka Khan)",
+   "artist": "Rufus",
    "album": "Rufusized",
    "videoId": "Be6RyTPT9fI",
    "duration": "4:54"
@@ -2855,7 +2855,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Release - Topic",
+   "artist": "Orlando Julius",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -3415,7 +3415,7 @@
   },
   {
    "title": "Turn Left",
-   "artist": "Little Dragon - Topic",
+   "artist": "Little Dragon",
    "album": "Little Dragon",
    "videoId": "AToAysg5YZo",
    "duration": "4:06"
@@ -3653,7 +3653,7 @@
   },
   {
    "title": "Canto de Yemanjá",
-   "artist": "QUARTETO EM CY - Topic",
+   "artist": "Baden Powell;Quarteto em Cy",
    "album": "Os Afro-Sambas",
    "videoId": "RxIkg-GFpKE",
    "duration": "6:04"
@@ -3737,7 +3737,7 @@
   },
   {
    "title": "It's in Our Hands",
-   "artist": "Björk",
+   "artist": "Bjork",
    "album": "Greatest Hits",
    "videoId": "PZP6wr3_NDM",
    "duration": "4:15"
@@ -3863,7 +3863,7 @@
   },
   {
    "title": "Fever",
-   "artist": "James Brown - Topic",
+   "artist": "James Brown & The Famous Flames",
    "album": "Cold Sweat",
    "videoId": "W_9iq6vb24E",
    "duration": "3:04"
@@ -3884,7 +3884,7 @@
   },
   {
    "title": "Looking Through The Eyes Of Love",
-   "artist": "Marlena Shaw - Topic",
+   "artist": "Marlena Shaw",
    "album": "The Spice Of Life",
    "videoId": "bW7TPMaMj_U",
    "duration": "2:58"
@@ -4101,7 +4101,7 @@
   },
   {
    "title": "鉄鎖",
-   "artist": "Mid-Air Thief - Topic",
+   "artist": "Mid-Air Thief",
    "album": "Crumbling",
    "videoId": "WjQKPf1qkeY",
    "duration": "5:08"
@@ -4437,7 +4437,7 @@
   },
   {
    "title": "Overture To A Holiday In Berlin",
-   "artist": "Frank Zappa - Topic",
+   "artist": "Frank Zappa;The Mothers Of Invention",
    "album": "Burnt Weeny Sandwich",
    "videoId": "VKtJxWtM2xY",
    "duration": "1:28"
@@ -5074,7 +5074,7 @@
   },
   {
    "title": "GO",
-   "artist": "Tekno - Topic",
+   "artist": "Tekno",
    "album": "GO",
    "videoId": "k-FsZk8kPHs",
    "duration": "4:03"
@@ -5088,7 +5088,7 @@
   },
   {
    "title": "Do You Believe",
-   "artist": "The Supreme Jubilees - Topic",
+   "artist": "The Supreme Jubilees",
    "album": "It'll All Be Over",
    "videoId": "lcywOhqZrSg",
    "duration": "4:02"
@@ -5312,7 +5312,7 @@
   },
   {
    "title": "Kolobok",
-   "artist": "Slava Grigoryan - Topic",
+   "artist": "Leonard Grigoryan;Slava Grigoryan",
    "album": "Play",
    "videoId": "PlFcIThh264",
    "duration": "12:20"
@@ -5333,7 +5333,7 @@
   },
   {
    "title": "Kije's Ouija",
-   "artist": "The Free Design - Topic",
+   "artist": "The Free Design",
    "album": "The Best Of The Free Design: Kites Are Fun",
    "videoId": "tTqBpqvvkaM",
    "duration": "3:14"
@@ -5494,7 +5494,7 @@
   },
   {
    "title": "Construção",
-   "artist": " Chico Buarque",
+   "artist": "Chico Buarque",
    "album": "Construção",
    "videoId": "wBfVsucRe1w",
    "duration": "6:24"
@@ -5522,7 +5522,7 @@
   },
   {
    "title": "Do You Love What You Feel",
-   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
+   "artist": "Rufus & Chaka Khan",
    "album": "Masterjam",
    "videoId": "XK0TiqUTcZY",
    "duration": "4:30"
@@ -5564,7 +5564,7 @@
   },
   {
    "title": "I Didn't Mean To Turn You On",
-   "artist": "Release - Topic",
+   "artist": "Cherrelle",
    "album": "Fragile",
    "videoId": "f1i_RJOCXVA",
    "duration": "7:03"
@@ -5592,7 +5592,7 @@
   },
   {
    "title": "Beasts of No Nation",
-   "artist": "Fela Kuti - Topic",
+   "artist": "Fela Kuti",
    "album": "Beasts of No Nation",
    "videoId": "4PnYibv4TE8",
    "duration": "28:20"
@@ -5661,8 +5661,8 @@
    "duration": "3:02"
   },
   {
-   "title": "Close The Door",
-   "artist": "Rufus Featuring Chaka Khan;Chaka Khan",
+   "title": "Close The Door (feat. Chaka Khan)",
+   "artist": "Rufus",
    "album": "Ask Rufus",
    "videoId": "i9NbcYv4DUg",
    "duration": "3:26"
@@ -5885,8 +5885,8 @@
    "duration": "3:00"
   },
   {
-   "title": "Stop On By",
-   "artist": "Chaka Khan;Rufus Featuring Chaka Khan",
+   "title": "Stop On By (feat. Chaka Khan)",
+   "artist": "Rufus",
    "album": "Rufusized",
    "videoId": "Be6RyTPT9fI",
    "duration": "4:54"
@@ -5907,7 +5907,7 @@
   },
   {
    "title": "Diamonds Are a Girl's Best Friend (From \"Gentlemen Prefer Blondes\")",
-   "artist": "Marilyn Monroe - Topic",
+   "artist": "Marilyn Monroe",
    "album": "Diamonds Are a Girl's Best Friend",
    "videoId": "WRhc-GY9opg",
    "duration": "3:32"
@@ -6110,7 +6110,7 @@
   },
   {
    "title": "Yur Luv",
-   "artist": "Release - Topic",
+   "artist": "Tekno",
    "album": "Yur Luv",
    "videoId": "M73UMQiJ3dA",
    "duration": "3:52"
@@ -6152,7 +6152,7 @@
   },
   {
    "title": "My People...Hold On",
-   "artist": "Eddie Kendricks - Topic",
+   "artist": "Eddie Kendricks",
    "album": "Keep On Truckin’: The Motown Solo Albums, Vol. 1",
    "videoId": "cUNyukMyfdA",
    "duration": "5:39"
@@ -6816,8 +6816,8 @@
    "duration": "12:28"
   },
   {
-   "title": "Turn Up",
-   "artist": "DJ Tunez - Topic",
+   "title": "Turn Up (feat. Wizkid & Reekado Banks)",
+   "artist": "DJ Tunez",
    "album": "Turn Up",
    "videoId": "OL7cF6Spk10",
    "duration": "4:10"
@@ -6971,7 +6971,7 @@
   },
   {
    "title": "Powaline",
-   "artist": "Liv.e - Topic",
+   "artist": "Liv.e",
    "album": "Hoopdreams",
    "videoId": "zVx9NhlXfsk",
    "duration": "2:34"
@@ -7048,7 +7048,7 @@
   },
   {
    "title": "Never Dreamed You'd Leave In Summer",
-   "artist": "Stevie Wonder - Topic",
+   "artist": "Stevie Wonder",
    "album": "Where I'm Coming From",
    "videoId": "FrLDXORRDpo",
    "duration": "2:53"
@@ -7090,7 +7090,7 @@
   },
   {
    "title": "New Track (Populette Remix)",
-   "artist": "Release - Topic",
+   "artist": "Francis Bebey",
    "album": "Francis Bebey Remix",
    "videoId": "p74Rvs5d1p0",
    "duration": "6:22"
@@ -7531,7 +7531,7 @@
   },
   {
    "title": "Kubali",
-   "artist": "Debmaster - Topic",
+   "artist": "MC Yallah;Debmaster",
    "album": "Kubali",
    "videoId": "1Kt--pMV7Ws",
    "duration": "2:24"
@@ -7594,7 +7594,7 @@
   },
   {
    "title": "Sincerely, Yours",
-   "artist": "Sophie Meiers - Topic",
+   "artist": "sophie meiers",
    "album": "Candle Glow",
    "videoId": "sfTukc9zun8",
    "duration": "2:33"
@@ -7741,7 +7741,7 @@
   },
   {
    "title": "Hope You're Doin' Better",
-   "artist": "MNDSGN - Topic",
+   "artist": "Mndsgn",
    "album": "Hope You're Doin' Better",
    "videoId": "gzjhfZ3ZJnI",
    "duration": "4:36"
@@ -7762,7 +7762,7 @@
   },
   {
    "title": "Christmas Time Is Here (Vocal)",
-   "artist": "Vince Guaraldi",
+   "artist": "Vince Guaraldi Trio",
    "album": "A Charlie Brown Christmas [2012 Remastered & Expanded Edition]",
    "videoId": "grMwyDNCpyo",
    "duration": "2:47"
@@ -7783,7 +7783,7 @@
   },
   {
    "title": "Soy Gitano",
-   "artist": "Royal Philharmonic Orchestra - Topic",
+   "artist": "Camarón De La Isla;Royal Philharmonic Orchestra",
    "album": "Autorretrato",
    "videoId": "Buc6eanwRys",
    "duration": "4:16"
@@ -7888,7 +7888,7 @@
   },
   {
    "title": "Haira Yo",
-   "artist": "Afel Bocoum - Topic",
+   "artist": "Afel Bocoum",
    "album": "Alkibar",
    "videoId": "r2ftXW3ynZQ",
    "duration": "5:10"
@@ -7937,7 +7937,7 @@
   },
   {
    "title": "Ffunny Ffrends",
-   "artist": "Unknown Mortal Orchestra - Topic",
+   "artist": "Unknown Mortal Orchestra",
    "album": "Unknown Mortal Orchestra",
    "videoId": "kCgZXZU8TQk",
    "duration": "4:17"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1fVLeknGKCclMyzlacpqNy",
  "title": "sparkl ",
  "trackCount": 117,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Sweet Life",
@@ -111,7 +111,7 @@
   },
   {
    "title": "Significant Others",
-   "artist": "Chaos in the CBD - Topic",
+   "artist": "Chaos In the CBD",
    "album": "Invisible Spectrum",
    "videoId": "mNqAYFkAqTM",
    "duration": "5:20"
@@ -153,7 +153,7 @@
   },
   {
    "title": "Hummin' In The Sun",
-   "artist": "Roy Ayers - Topic",
+   "artist": "Roy Ayers",
    "album": "Ubiquity",
    "videoId": "yy81WqEQL8g",
    "duration": "3:45"
@@ -377,7 +377,7 @@
   },
   {
    "title": "Daylight",
-   "artist": "Ramp - Topic",
+   "artist": "Ramp",
    "album": "Come Into Knowledge",
    "videoId": "LvahMZLYwlU",
    "duration": "4:13"
@@ -530,8 +530,8 @@
    "duration": "3:12"
   },
   {
-   "title": "Calimayan",
-   "artist": "Carlos Niño - Topic",
+   "title": "Calimayan (feat. Nate Morgan & Yaakov Levy)",
+   "artist": "Carlos Niño & Friends;Carlos Niño",
    "album": "Flutes, Echoes, It's All Happening!",
    "videoId": "6GS64Nt7Lfc",
    "duration": "2:32"
@@ -552,7 +552,7 @@
   },
   {
    "title": "Galaxy In Turiya",
-   "artist": "Alice Coltrane - Topic",
+   "artist": "Alice Coltrane",
    "album": "World Galaxy",
    "videoId": "9JNTH65qebA",
    "duration": "9:55"
@@ -776,7 +776,7 @@
   },
   {
    "title": "Different This Time",
-   "artist": "Cornelia Murr - Topic",
+   "artist": "Cornelia Murr",
    "album": "Lake Tear of the Clouds",
    "videoId": "VTgIEaxTYhI",
    "duration": "3:54"

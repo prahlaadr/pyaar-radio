@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs1soWGE3VpTBVucstJzvTov",
  "title": "melt (goated)",
  "trackCount": 679,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
-   "title": "Move Higher",
-   "artist": "Sub Focus - Topic",
+   "title": "Move Higher (feat. Culture Shock)",
+   "artist": "Sub Focus",
    "album": "Sub Focus",
    "videoId": "cwtKF3Gc3W8",
    "duration": "4:13"
@@ -188,7 +188,7 @@
   },
   {
    "title": "Emeralds",
-   "artist": "Deft - Topic",
+   "artist": "Deft",
    "album": "Always Greener",
    "videoId": "QtsMUPKlgQ0",
    "duration": "4:54"
@@ -398,7 +398,7 @@
   },
   {
    "title": "Dead Limit",
-   "artist": "The Upbeats - Topic",
+   "artist": "Noisia;The Upbeats",
    "album": "Dead Limit",
    "videoId": "h_kHOvqjDhI",
    "duration": "6:02"
@@ -706,35 +706,35 @@
   },
   {
    "title": "Gunshotta",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "2Qqsec6ifkI",
    "duration": "5:47"
   },
   {
    "title": "Infinite Us",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "gU5bb4aCoho",
    "duration": "7:12"
   },
   {
    "title": "Don’t 1 2 Lose U",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "RG2sYR9Ohj4",
    "duration": "4:18"
   },
   {
    "title": "Vizion",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "mk9VkEhwdfk",
    "duration": "2:39"
   },
   {
    "title": "Baby It's U",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "5ZuZquat7ds",
    "duration": "7:24"
@@ -1399,7 +1399,7 @@
   },
   {
    "title": "Happy Birthday Nick",
-   "artist": "Ross From Friends - Topic",
+   "artist": "Ross from Friends",
    "album": "Family Portrait",
    "videoId": "CXRtjyiudso",
    "duration": "1:38"
@@ -2463,7 +2463,7 @@
   },
   {
    "title": "Reality Tune",
-   "artist": "Moresounds - Topic",
+   "artist": "Moresounds",
    "album": "Pure Niceness",
    "videoId": "T-eWmfbkn04",
    "duration": "3:47"
@@ -2484,7 +2484,7 @@
   },
   {
    "title": "Vizion",
-   "artist": "Machinedrum - Topic",
+   "artist": "Machinedrum",
    "album": "Vapor City",
    "videoId": "mk9VkEhwdfk",
    "duration": "2:39"
@@ -2512,7 +2512,7 @@
   },
   {
    "title": "Trust Issues",
-   "artist": "Coco Bryce - Topic",
+   "artist": "Coco Bryce",
    "album": "Livin Without Trust Issues",
    "videoId": "nuxz51Lm1vs",
    "duration": "5:18"
@@ -2561,14 +2561,14 @@
   },
   {
    "title": "Ra Rise",
-   "artist": "Mono - Topic",
+   "artist": "Mono/Poly",
    "album": "Golden Skies",
    "videoId": "UEgCj-We4qw",
    "duration": "3:48"
   },
   {
    "title": "Loqux & Past",
-   "artist": "Deft - Topic",
+   "artist": "Deft",
    "album": "The Motions EP",
    "videoId": "ZsbwFVbM6vY",
    "duration": "4:30"
@@ -3037,7 +3037,7 @@
   },
   {
    "title": "Ruins",
-   "artist": "Various Artists - Topic",
+   "artist": "Om Unit;Djrum",
    "album": "Ruins",
    "videoId": "qsGSf-yrhD8",
    "duration": "5:09"
@@ -3352,7 +3352,7 @@
   },
   {
    "title": "Beauts (Junglist Remix)",
-   "artist": "Shygirl - Topic",
+   "artist": "Shygirl",
    "album": "Beauts",
    "videoId": "VxltEkWyo2c",
    "duration": "3:53"
@@ -3429,7 +3429,7 @@
   },
   {
    "title": "Tension",
-   "artist": "DjRUM - Topic",
+   "artist": "DjRUM",
    "album": "St Martin",
    "videoId": "U_ZqYbu0g0U",
    "duration": "8:51"
@@ -3716,7 +3716,7 @@
   },
   {
    "title": "Can't Lie (Ivy Lab Remix)",
-   "artist": "Fine Print - Topic",
+   "artist": "Fine Print",
    "album": "Can't Lie (Ivy Lab Remix)",
    "videoId": "D6nu3ZNoT5w",
    "duration": "4:00"

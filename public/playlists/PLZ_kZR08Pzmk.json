@@ -2,7 +2,7 @@
  "playlistId": "PLZ_kZR08Pzmk",
  "title": "Pool Party: 90s/2000s Bangers",
  "trackCount": 294,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "This Is How We Do It",
@@ -866,15 +866,15 @@
    "duration": "3:30"
   },
   {
-   "title": "Fergalicious",
-   "artist": "Fergie;will.i.am",
+   "title": "Fergalicious (feat. will.i.am)",
+   "artist": "Fergie",
    "album": "The Dutchess",
    "videoId": "9AOYTybjIso",
    "duration": "4:53"
   },
   {
-   "title": "Glamorous",
-   "artist": "Ludacris;Fergie",
+   "title": "Glamorous (feat. Ludacris)",
+   "artist": "Fergie",
    "album": "The Dutchess",
    "videoId": "kE4a0xJb2yA",
    "duration": "4:07"
@@ -1132,7 +1132,7 @@
    "duration": "3:29"
   },
   {
-   "title": "Finally (feat. Joyriders)",
+   "title": "Finally",
    "artist": "CeCe Peniston",
    "album": "Finally",
    "videoId": "aa2f0lW5GR8",
@@ -1308,7 +1308,7 @@
   },
   {
    "title": "Teenage Dirtbag",
-   "artist": "Wheatus - Topic",
+   "artist": "Wheatus",
    "album": "Wheatus",
    "videoId": "dSlYFtXENPo",
    "duration": "4:02"
@@ -1350,7 +1350,7 @@
   },
   {
    "title": "Gimme All Your Love",
-   "artist": "Alabama Shakes - Topic",
+   "artist": "Alabama Shakes",
    "album": "Sound & Color",
    "videoId": "3TotIeYatDE",
    "duration": "4:04"
@@ -1560,7 +1560,7 @@
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer - Topic",
+   "artist": "Weezer",
    "album": "Weezer (Green Album)",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
@@ -1826,7 +1826,7 @@
   },
   {
    "title": "Got To Be There",
-   "artist": "Michael Jackson - Topic",
+   "artist": "Michael Jackson",
    "album": "20th Century Masters: The Millennium Collection: Best of Michael Jackson",
    "videoId": "Y9cixo-iXAE",
    "duration": "3:26"
@@ -1882,7 +1882,7 @@
   },
   {
    "title": "Wine Glass Woman",
-   "artist": "Mayer Hawthorne - Topic",
+   "artist": "Mayer Hawthorne",
    "album": "Where Does This Door Go (Deluxe Edition)",
    "videoId": "8DXyZyQCPtI",
    "duration": "3:48"

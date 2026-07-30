@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2oP0reiqq8y9EjqWIiqOS8",
  "title": "Grammy Nominees Records 1995-2020",
  "trackCount": 480,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "I'll Make Love To You",
@@ -418,7 +418,7 @@
    "duration": "8:35"
   },
   {
-   "title": "Anytime (feat. Eightball)",
+   "title": "Anytime",
    "artist": "Brian McKnight",
    "album": "1989-2002 From There To Here",
    "videoId": "7taZi5NBDWM",
@@ -803,7 +803,7 @@
    "duration": "3:49"
   },
   {
-   "title": "Foolish (feat. The Notorious B.I.G.)",
+   "title": "Foolish",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "6rrNR2YdF8c",
@@ -1202,7 +1202,7 @@
    "duration": "8:14"
   },
   {
-   "title": "It's Like That (feat. Fat Joe)",
+   "title": "It's Like That (feat. Jermaine Dupri & Fatman Scoop)",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "0aZnIrhNVtQ",
@@ -1245,7 +1245,7 @@
   },
   {
    "title": "Sitting, Waiting, Wishing",
-   "artist": "Release - Topic",
+   "artist": "Jack Johnson",
    "album": "In Between Dreams",
    "videoId": "8chU09dsPWU",
    "duration": "3:04"
@@ -1266,7 +1266,7 @@
   },
   {
    "title": "From The Bottom Of My Heart",
-   "artist": "Release - Topic",
+   "artist": "Stevie Wonder",
    "album": "A Time To Love",
    "videoId": "84r1OCbuI0Y",
    "duration": "5:12"
@@ -1280,7 +1280,7 @@
   },
   {
    "title": "Good Is Good",
-   "artist": "Release - Topic",
+   "artist": "Sheryl Crow",
    "album": "Wildflower",
    "videoId": "WnK-ZirNJfs",
    "duration": "4:18"
@@ -1328,7 +1328,7 @@
    "duration": "3:51"
   },
   {
-   "title": "Do You Want To (feat. Johnny Marr)",
+   "title": "Do You Want To",
    "artist": "Franz Ferdinand",
    "album": "You Could Have It So Much Better",
    "videoId": "LjrKPlKW9Kk",
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "Closer",
-   "artist": "Ne-Yo - Topic",
+   "artist": "Ne-Yo",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "DIWMD0-DdsE",
    "duration": "3:55"
@@ -2687,7 +2687,7 @@
   },
   {
    "title": "Traveller",
-   "artist": "Chris Stapleton - Topic",
+   "artist": "Chris Stapleton",
    "album": "Traveller",
    "videoId": "ct2JWXh5NCA",
    "duration": "3:43"
@@ -2806,7 +2806,7 @@
   },
   {
    "title": "Love Yourself",
-   "artist": "Justin Bieber - Topic",
+   "artist": "Justin Bieber",
    "album": "Purpose",
    "videoId": "p-IXgwqhfmg",
    "duration": "3:54"
@@ -2932,7 +2932,7 @@
   },
   {
    "title": "Despacito",
-   "artist": "Luis Fonsi - Topic",
+   "artist": "Luis Fonsi;Daddy Yankee",
    "album": "Despacito",
    "videoId": "FXovf5dsRTw",
    "duration": "3:49"
@@ -2967,7 +2967,7 @@
   },
   {
    "title": "Stay",
-   "artist": "Zedd - Topic",
+   "artist": "Zedd;Alessia Cara",
    "album": "Stay",
    "videoId": "I6etAHfECXc",
    "duration": "3:31"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-07-29T10:39:16.450040Z",
+ "syncedAt": "2026-07-30T10:25:59.801992Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -335,7 +335,7 @@
   },
   {
    "title": "You (feat. Lil Wayne)",
-   "artist": "Lloyd Polite Jr.",
+   "artist": "Lloyd",
    "album": "Street Love",
    "videoId": "gfoD2ILKEYk",
    "duration": "4:34"
@@ -384,7 +384,7 @@
   },
   {
    "title": "Miss Independent",
-   "artist": "Release - Topic",
+   "artist": "Ne-Yo",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "qXIIoN5X3YU",
    "duration": "3:52"
@@ -447,7 +447,7 @@
   },
   {
    "title": "Stayin' Alive (From \"Saturday Night Fever\" Soundtrack)",
-   "artist": "Bee Gees - Topic",
+   "artist": "Bee Gees",
    "album": "Greatest",
    "videoId": "UlLX7a1QH8Y",
    "duration": "4:46"
@@ -649,7 +649,7 @@
    "duration": "3:55"
   },
   {
-   "title": "Because Of You (feat. Kanye West)",
+   "title": "Because Of You",
    "artist": "Ne-Yo",
    "album": "Because Of You",
    "videoId": "-r85WmKI9Uo",
@@ -944,7 +944,7 @@
   },
   {
    "title": "Cold Little Heart (Radio Edit)",
-   "artist": "Michael Kiwanuka - Topic",
+   "artist": "Michael Kiwanuka",
    "album": "Cold Little Heart (Radio Edit)",
    "videoId": "NuEghDO_j0o",
    "duration": "3:31"
@@ -971,7 +971,7 @@
    "duration": "3:14"
   },
   {
-   "title": "Foolish (feat. The Notorious B.I.G.)",
+   "title": "Foolish",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "6rrNR2YdF8c",
@@ -1014,7 +1014,7 @@
   },
   {
    "title": "Mad",
-   "artist": "NE-YO",
+   "artist": "Ne-Yo",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "eoTh9nsjgeU",
    "duration": "4:15"
@@ -1209,7 +1209,7 @@
    "duration": "4:12"
   },
   {
-   "title": "We Belong Together (feat. Styles & Jadakiss)",
+   "title": "We Belong Together",
    "artist": "Mariah Carey",
    "album": "The Emancipation of Mimi",
    "videoId": "PrRj_FXclKQ",
@@ -1223,8 +1223,8 @@
    "duration": "5:21"
   },
   {
-   "title": "Glamorous",
-   "artist": "Ludacris;Fergie",
+   "title": "Glamorous (feat. Ludacris)",
+   "artist": "Fergie",
    "album": "The Dutchess",
    "videoId": "kE4a0xJb2yA",
    "duration": "4:07"
@@ -1476,7 +1476,7 @@
   },
   {
    "title": "She Knows (feat. Juicy J)",
-   "artist": "NE-YO",
+   "artist": "Ne-Yo",
    "album": "Non-Fiction (Deluxe)",
    "videoId": "GNYQPsw0z6w",
    "duration": "3:35"
@@ -1651,7 +1651,7 @@
   },
   {
    "title": "Closer",
-   "artist": "Ne-Yo - Topic",
+   "artist": "Ne-Yo",
    "album": "Year Of The Gentleman (Bonus Track Edition)",
    "videoId": "DIWMD0-DdsE",
    "duration": "3:55"
@@ -1693,7 +1693,7 @@
   },
   {
    "title": "Sitting, Waiting, Wishing",
-   "artist": "Release - Topic",
+   "artist": "Jack Johnson",
    "album": "In Between Dreams",
    "videoId": "8chU09dsPWU",
    "duration": "3:04"
@@ -1784,7 +1784,7 @@
   },
   {
    "title": "Get It Shawty",
-   "artist": "Lloyd Polite Jr.",
+   "artist": "Lloyd",
    "album": "Street Love",
    "videoId": "mjZQIHiKiuY",
    "duration": "3:30"
@@ -1881,7 +1881,7 @@
    "duration": "4:29"
   },
   {
-   "title": "Unfoolish (feat. The Notorious B.I.G.)",
+   "title": "Unfoolish",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "9NXVRraVK5A",
@@ -1896,7 +1896,7 @@
   },
   {
    "title": "Soul Survivor (feat. Akon)",
-   "artist": "Jeezy",
+   "artist": "Young Jeezy",
    "album": "Let's Get It: Thug Motivation 101",
    "videoId": "2tzDrC-eEHA",
    "duration": "4:41"
@@ -1916,7 +1916,7 @@
    "duration": "4:46"
   },
   {
-   "title": "Body On Me (feat. Akon & Nelly)",
+   "title": "Body On Me (feat. Nelly & Akon)",
    "artist": "Ashanti",
    "album": "The Declaration",
    "videoId": "YNmaKSq3Gqk",
@@ -2071,7 +2071,7 @@
   },
   {
    "title": "Rockin' That Shit",
-   "artist": "Release - Topic",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "dtxth_aj450",
    "duration": "3:42"
@@ -2259,8 +2259,8 @@
    "duration": "3:42"
   },
   {
-   "title": "Move Bitch (feat. I-20 & Mystikal)",
-   "artist": "Ludacris;Disturbing Tha Peace",
+   "title": "Move Bitch (feat. Mystikal)",
+   "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "StdEPZaNPPI",
    "duration": "4:31"
@@ -2539,7 +2539,7 @@
    "duration": "4:01"
   },
   {
-   "title": "Happy (feat. Ja Rule)",
+   "title": "Happy",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "UY-cIYtv5r0",
@@ -2918,7 +2918,7 @@
   },
   {
    "title": "Rollout (My Business)",
-   "artist": "Ludacris - Topic",
+   "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "lUphaGuaRLg",
    "duration": "4:57"
@@ -3057,7 +3057,7 @@
    "duration": "4:57"
   },
   {
-   "title": "Baby (feat. Crooked I)",
+   "title": "Baby",
    "artist": "Ashanti",
    "album": "Ashanti",
    "videoId": "bNMkLWk1IEk",
@@ -4086,14 +4086,14 @@
    "duration": "3:34"
   },
   {
-   "title": "Touch Me Tease Me (feat. Foxy Brown)",
+   "title": "Touch Me Tease Me (feat. Foxy Brown & Mary J. Blige)",
    "artist": "Case",
    "album": "Case",
    "videoId": "Rv03EpWtZXQ",
    "duration": "3:48"
   },
   {
-   "title": "Growing Pains (feat. Keon Bryce)",
+   "title": "Growing Pains (feat. Fate Wilson & Keon Bryce)",
    "artist": "Ludacris",
    "album": "Word Of Mouf",
    "videoId": "DCfvSOVtTSI",
@@ -4381,7 +4381,7 @@
   },
   {
    "title": "No Other Way",
-   "artist": "Release - Topic",
+   "artist": "Jack Johnson",
    "album": "In Between Dreams",
    "videoId": "bekkZK3OqMM",
    "duration": "3:10"
@@ -4478,8 +4478,8 @@
    "duration": "4:36"
   },
   {
-   "title": "The Keeper",
-   "artist": "Release - Topic",
+   "title": "The Keeper (feat. Andreya Triana)",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "MjKorY6VOfA",
    "duration": "4:49"
@@ -4696,7 +4696,7 @@
   },
   {
    "title": "All Right Now",
-   "artist": "Free - Topic",
+   "artist": "Free",
    "album": "20th Century Masters: The Millennium Collection: Best Of Free",
    "videoId": "7cQ4jNDRTOo",
    "duration": "5:34"
@@ -4954,7 +4954,7 @@
    "duration": "3:50"
   },
   {
-   "title": "#1 Stunna (feat. Lil Wayne & Juvenile)",
+   "title": "#1 Stunna (feat. Juvenile & Lil Wayne)",
    "artist": "Big Tymers",
    "album": "I Got That Work",
    "videoId": "_rKDWcv_Lqc",
@@ -5018,7 +5018,7 @@
   },
   {
    "title": "Honey Dove",
-   "artist": "The Expressions",
+   "artist": "Lee Fields;The Expressions",
    "album": "My World",
    "videoId": "ZkBCu4Vz6_s",
    "duration": "4:07"
@@ -5137,14 +5137,14 @@
   },
   {
    "title": "Just Ain't Gonna Work Out",
-   "artist": "Release - Topic",
+   "artist": "Mayer Hawthorne",
    "album": "Just Ain't Gonna Work Out",
    "videoId": "8OYVNVj7p80",
    "duration": "2:29"
   },
   {
-   "title": "Always Be My Sunshine (feat. Foxy Brown & Babyface)",
-   "artist": "JAY-Z",
+   "title": "Always Be My Sunshine (feat. Babyface & Foxy Brown)",
+   "artist": "JAŸ-Z",
    "album": "In My Lifetime, Vol.1",
    "videoId": "B5nDuUpF1bo",
    "duration": "4:44"
@@ -5248,7 +5248,7 @@
    "duration": "2:29"
   },
   {
-   "title": "Tequila Makes Her Clothes Fall Off (feat. Colt Ford)",
+   "title": "Tequila Makes Her Clothes Fall Off",
    "artist": "Joe Nichols",
    "album": "Greatest Hits",
    "videoId": "k_1KjKy7yZU",
@@ -5263,7 +5263,7 @@
   },
   {
    "title": "Despacito",
-   "artist": "Luis Fonsi - Topic",
+   "artist": "Luis Fonsi;Daddy Yankee",
    "album": "Despacito",
    "videoId": "FXovf5dsRTw",
    "duration": "3:49"
@@ -5529,7 +5529,7 @@
   },
   {
    "title": "El Toro",
-   "artist": "Bonobo - Topic",
+   "artist": "Bonobo",
    "album": "Black Sands",
    "videoId": "20ETYA2-o40",
    "duration": "3:45"
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Touch It or Not",
-   "artist": "Release - Topic",
+   "artist": "Cam'ron",
    "album": "Killa Season",
    "videoId": "jMtoNW434yQ",
    "duration": "3:42"
@@ -6145,7 +6145,7 @@
   },
   {
    "title": "Constant Surprises",
-   "artist": "Little Dragon - Topic",
+   "artist": "Little Dragon",
    "album": "Little Dragon",
    "videoId": "YClEH8Lt3tE",
    "duration": "4:34"
@@ -6201,7 +6201,7 @@
   },
   {
    "title": "Lonnie's Lament",
-   "artist": "John Coltrane - Topic",
+   "artist": "John Coltrane Quartet",
    "album": "Crescent",
    "videoId": "japCux4wals",
    "duration": "11:48"
@@ -6439,7 +6439,7 @@
   },
   {
    "title": "Destroy The Empire",
-   "artist": "Release - Topic",
+   "artist": "Pachyman",
    "album": "The Return of…",
    "videoId": "-r8FVsaIa68",
    "duration": "3:25"
@@ -7237,7 +7237,7 @@
   },
   {
    "title": "Spandex Man",
-   "artist": "Mr. Scruff - Topic",
+   "artist": "Mr. Scruff",
    "album": "Keep It Unreal (10th Anniversary Analogue Remaster Edition)",
    "videoId": "fYa4u6G3PM4",
    "duration": "4:42"
@@ -7363,7 +7363,7 @@
   },
   {
    "title": "Sofa",
-   "artist": "Release - Topic",
+   "artist": "Collard",
    "album": "Sofa",
    "videoId": "22Jvj6yHSFw",
    "duration": "3:36"
@@ -7482,7 +7482,7 @@
   },
   {
    "title": "Fancy",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "2K4-snw22h8",
    "duration": "6:30"
@@ -7545,7 +7545,7 @@
   },
   {
    "title": "Biggest Joke Of All",
-   "artist": "Fatima - Topic",
+   "artist": "Fatima",
    "album": "Yellow Memories",
    "videoId": "1d_dED6l_qI",
    "duration": "5:26"
@@ -8140,7 +8140,7 @@
   },
   {
    "title": "Blackpool Roll",
-   "artist": "Mr. Scruff - Topic",
+   "artist": "Mr. Scruff",
    "album": "Keep It Unreal (10th Anniversary Analogue Remaster Edition)",
    "videoId": "6sfa90HEKwg",
    "duration": "4:48"
@@ -8217,7 +8217,7 @@
   },
   {
    "title": "Freezee Pops",
-   "artist": "Sam Evian - Topic",
+   "artist": "Sam Evian",
    "album": "Time to Melt",
    "videoId": "njCYNv_qyZE",
    "duration": "3:44"
@@ -9161,8 +9161,8 @@
    "duration": "4:15"
   },
   {
-   "title": "They Don't Want Music (Pete Rock Remix)",
-   "artist": "The Black Eyed Peas - Topic",
+   "title": "They Don't Want Music (Pete Rock Remix) (feat. James Brown)",
+   "artist": "The Black Eyed Peas",
    "album": "Renegotiations: The Remixes",
    "videoId": "nBMXReXuURA",
    "duration": "6:26"
@@ -9288,7 +9288,7 @@
   },
   {
    "title": "Put It Down",
-   "artist": "THE-DREAM",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "vmcxxZFbjPc",
    "duration": "5:02"
@@ -9428,7 +9428,7 @@
   },
   {
    "title": "Love vs. Money",
-   "artist": "The-Dream - Topic",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "t3-nw-nEGDM",
    "duration": "4:12"
@@ -9526,7 +9526,7 @@
   },
   {
    "title": "Burning Spear",
-   "artist": "Kenny Burrell - Topic",
+   "artist": "Kenny Burrell",
    "album": "Blues - The Common Ground",
    "videoId": "7UeYTqJW5Z4",
    "duration": "2:48"
@@ -9540,7 +9540,7 @@
   },
   {
    "title": "Love vs. Money: Pt. 2",
-   "artist": "Release - Topic",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "keGETsRTSEk",
    "duration": "4:13"
@@ -9686,8 +9686,8 @@
    "duration": "2:53"
   },
   {
-   "title": "Let Me See The Booty",
-   "artist": "Release - Topic",
+   "title": "Let Me See The Booty (feat. Lil Jon)",
+   "artist": "The-Dream",
    "album": "Love Vs Money",
    "videoId": "56vEn7hnaS4",
    "duration": "3:35"
@@ -10239,7 +10239,7 @@
    "duration": "4:28"
   },
   {
-   "title": "Jolene (feat. Måneskin)",
+   "title": "Jolene",
    "artist": "Dolly Parton",
    "album": "Jolene",
    "videoId": "ZCwWAD6ZuPk",
@@ -10310,7 +10310,7 @@
   },
   {
    "title": "Somethin' Stupid",
-   "artist": "Frank Sinatra - Topic",
+   "artist": "Frank Sinatra;Nancy Sinatra",
    "album": "The World We Knew",
    "videoId": "LWXUdqvVO8Y",
    "duration": "2:43"
@@ -10359,7 +10359,7 @@
   },
   {
    "title": "Put A Lid On It",
-   "artist": "Squirrel Nut Zippers - Topic",
+   "artist": "Squirrel Nut Zippers",
    "album": "The Best of Squirrel Nut Zippers",
    "videoId": "GEMd1ANMKrU",
    "duration": "2:38"
@@ -10450,14 +10450,14 @@
   },
   {
    "title": "Flat Reality",
-   "artist": "Release - Topic",
+   "artist": "SomehowArt",
    "album": "Flat Reality",
    "videoId": "Lfc5eSNTa9A",
    "duration": "3:32"
   },
   {
    "title": "Tonight",
-   "artist": "Sleepdealer, TheGoodPerry - Topic",
+   "artist": "Sleepdealer;TheGoodPerry",
    "album": "Tonight",
    "videoId": "AKNQxM3imaM",
    "duration": "2:27"
@@ -10562,7 +10562,7 @@
   },
   {
    "title": "Tôzen",
-   "artist": "GYVUS - Topic",
+   "artist": "Gyvus",
    "album": "Tôzen",
    "videoId": "MeNqXPgYFfw",
    "duration": "2:51"
@@ -11332,7 +11332,7 @@
   },
   {
    "title": "And Then",
-   "artist": "James Tillman - Topic",
+   "artist": "James Tillman",
    "album": "Shangri La EP",
    "videoId": "64evDH_ETvA",
    "duration": "4:22"
@@ -11493,7 +11493,7 @@
   },
   {
    "title": "Wish You Still Felt This Way",
-   "artist": "Sophie Meiers - Topic",
+   "artist": "sophie meiers",
    "album": "Candle Glow",
    "videoId": "MMk8cP-53mQ",
    "duration": "2:27"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Open My Eyes",
-   "artist": "Release - Topic",
+   "artist": "The Sha La Das",
    "album": "Love in the Wind",
    "videoId": "iAsTlxJlvos",
    "duration": "3:46"
@@ -12200,7 +12200,7 @@
   },
   {
    "title": "Sunday Table",
-   "artist": "Release - Topic",
+   "artist": "Pink Martini;China Forbes;Thomas M. Lauderdale",
    "album": "Splendor in the Grass",
    "videoId": "eqIgb8VPLzE",
    "duration": "4:32"
@@ -12753,7 +12753,7 @@
   },
   {
    "title": "Disco Hi - Life",
-   "artist": "Release - Topic",
+   "artist": "Orlando Julius",
    "album": "Disco Hi-Life",
    "videoId": "g4GjqpAyM5g",
    "duration": "9:01"
@@ -12900,7 +12900,7 @@
   },
   {
    "title": "In The Blue",
-   "artist": "Break - Topic",
+   "artist": "Break",
    "album": "Symmetry",
    "videoId": "5FFeg6XFNa0",
    "duration": "3:00"
@@ -13040,7 +13040,7 @@
   },
   {
    "title": "Dumb Love",
-   "artist": "NEIL FRANCES - Topic",
+   "artist": "NEIL FRANCES",
    "album": "Dumb Love",
    "videoId": "2Tfut8oyb4s",
    "duration": "4:43"
@@ -13243,7 +13243,7 @@
   },
   {
    "title": "Lose Yourself (Intro)",
-   "artist": "Release - Topic",
+   "artist": "SomehowArt",
    "album": "Flat Reality",
    "videoId": "6UCoTj_tZEc",
    "duration": "2:59"
@@ -13530,7 +13530,7 @@
   },
   {
    "title": "Another Case",
-   "artist": "Tora - Topic",
+   "artist": "Tora",
    "album": "Another Case",
    "videoId": "EhJHeyqAir8",
    "duration": "3:21"
@@ -14062,7 +14062,7 @@
   },
   {
    "title": "Listening",
-   "artist": "Release - Topic",
+   "artist": "The Jazz Jousters;Gadget",
    "album": "New Genesis",
    "videoId": "0GBdgfUzPH0",
    "duration": "2:37"
@@ -14181,7 +14181,7 @@
   },
   {
    "title": "Woman Of The Ghetto",
-   "artist": "Marlena Shaw - Topic",
+   "artist": "Marlena Shaw",
    "album": "The Spice Of Life",
    "videoId": "WaQTwVPvCAU",
    "duration": "6:03"
@@ -14293,7 +14293,7 @@
   },
   {
    "title": "A Little Piano",
-   "artist": "DJ Mitsu The Beats - Topic",
+   "artist": "DJ Mitsu the Beats",
    "album": "Beat Installments",
    "videoId": "pESrqdcbEfY",
    "duration": "2:29"
@@ -14593,7 +14593,7 @@
    "duration": "2:45"
   },
   {
-   "title": "California Soul (feat. Rich Rocka)",
+   "title": "California Soul",
    "artist": "Marlena Shaw",
    "album": "The Spice Of Life",
    "videoId": "CUosSQZSw5c",
@@ -14881,7 +14881,7 @@
   },
   {
    "title": "Zimbap",
-   "artist": "Stay Classy - Topic",
+   "artist": "The Jazz Jousters;Stay Classy",
    "album": "Locations: Brazil",
    "videoId": "lIH2Xg8FYh8",
    "duration": "2:35"
@@ -14909,7 +14909,7 @@
   },
   {
    "title": "Down for the Fifth Time",
-   "artist": "Flamingosis - Topic",
+   "artist": "Flamingosis",
    "album": "Pleasure Palette",
    "videoId": "_zJsoeBODfc",
    "duration": "3:24"
@@ -15014,7 +15014,7 @@
   },
   {
    "title": "Change",
-   "artist": "DJ Mitsu The Beats - Topic",
+   "artist": "DJ Mitsu the Beats",
    "album": "Beat Installments",
    "videoId": "FrSBgqG-TR4",
    "duration": "4:59"
@@ -15056,7 +15056,7 @@
   },
   {
    "title": "Cold Night",
-   "artist": "BIAS - Topic",
+   "artist": "Bias",
    "album": "Time & Tide",
    "videoId": "5bnni0urJYo",
    "duration": "4:31"
@@ -15203,7 +15203,7 @@
   },
   {
    "title": "Walking Down",
-   "artist": "Release - Topic",
+   "artist": "SomehowArt",
    "album": "Flat Reality",
    "videoId": "KnUIkSbJIas",
    "duration": "4:09"
@@ -15280,7 +15280,7 @@
   },
   {
    "title": "Theme for \"Shaft\"",
-   "artist": "Luviia - Topic",
+   "artist": "Luviia",
    "album": "P2P Feelings",
    "videoId": "-VoeSHqa7rM",
    "duration": "2:58"
@@ -15322,7 +15322,7 @@
   },
   {
    "title": "Questions",
-   "artist": "Luviia - Topic",
+   "artist": "Luviia",
    "album": "P2P Feelings",
    "videoId": "UIGgHVGxXeE",
    "duration": "1:34"
@@ -15399,7 +15399,7 @@
   },
   {
    "title": "Because You're Near",
-   "artist": "BIAS - Topic",
+   "artist": "Bias",
    "album": "Time & Tide",
    "videoId": "DDGSz6U6Oc4",
    "duration": "4:36"
@@ -15504,7 +15504,7 @@
   },
   {
    "title": "You",
-   "artist": "Mk.gee - Topic",
+   "artist": "Mk.gee",
    "album": "Pronounced McGee",
    "videoId": "qpCzai0wZM8",
    "duration": "5:11"
@@ -15532,7 +15532,7 @@
   },
   {
    "title": "Vibes Tribes",
-   "artist": "Release - Topic",
+   "artist": "Roman Rauch",
    "album": "Heliocentric",
    "videoId": "rIjqZZmvDX0",
    "duration": "5:18"
@@ -15553,7 +15553,7 @@
   },
   {
    "title": "untitled 06 | 06.30.2014.",
-   "artist": "Release - Topic",
+   "artist": "Kendrick Lamar",
    "album": "untitled unmastered.",
    "videoId": "fZ2pXyBBwsQ",
    "duration": "3:29"
@@ -15735,7 +15735,7 @@
   },
   {
    "title": "Okay My Love",
-   "artist": "The Sha La Das - Topic",
+   "artist": "The Sha La Das",
    "album": "Love in the Wind",
    "videoId": "iYpqFblj4-s",
    "duration": "3:38"
@@ -15748,8 +15748,8 @@
    "duration": "1:26"
   },
   {
-   "title": "Darkest (Dim)",
-   "artist": "TOKiMONSTA - Topic",
+   "title": "Darkest (Dim) (feat. Gavin Turek)",
+   "artist": "TOKiMONSTA",
    "album": "Creature Dreams",
    "videoId": "Urfs96K8Bic",
    "duration": "5:10"
@@ -15763,7 +15763,7 @@
   },
   {
    "title": "Transparency",
-   "artist": "Flamingosis - Topic",
+   "artist": "Flamingosis",
    "album": "Pleasure Palette",
    "videoId": "xvcdAptqdwQ",
    "duration": "4:33"
@@ -16155,7 +16155,7 @@
   },
   {
    "title": "Lovely You",
-   "artist": "Monster Rally - Topic",
+   "artist": "Monster Rally",
    "album": "Return to Paradise",
    "videoId": "QZFD6IGY9ak",
    "duration": "2:08"
@@ -16231,7 +16231,7 @@
    "duration": "3:13"
   },
   {
-   "title": "Doobies (Instrumental Version) (feat. Mädness)",
+   "title": "Doobies (Instrumental Version)",
    "artist": "Dexter",
    "album": "Palmen & Beats",
    "videoId": "7KWBd7gfznE",
@@ -16295,7 +16295,7 @@
   },
   {
    "title": "The Man",
-   "artist": "Gibmafuffi - Topic",
+   "artist": "Gibmafuffi",
    "album": "Spielschulden",
    "videoId": "6Xy7bzamvLw",
    "duration": "2:10"
@@ -16385,7 +16385,7 @@
    "duration": "2:14"
   },
   {
-   "title": "Chardonnay (Instrumental Version) (feat. Jaques Shure)",
+   "title": "Chardonnay (Instrumental Version)",
    "artist": "Dexter",
    "album": "Palmen & Beats",
    "videoId": "kvz1fqLYt0M",
@@ -16484,7 +16484,7 @@
   },
   {
    "title": "The Awakening",
-   "artist": "Ahmad Jamal",
+   "artist": "Ahmad Jamal Trio",
    "album": "The Awakening",
    "videoId": "L34b0ut8Loc",
    "duration": "6:22"
@@ -16533,7 +16533,7 @@
   },
   {
    "title": "Sincerely, Yours",
-   "artist": "Sophie Meiers - Topic",
+   "artist": "sophie meiers",
    "album": "Candle Glow",
    "videoId": "sfTukc9zun8",
    "duration": "2:33"
@@ -16547,7 +16547,7 @@
   },
   {
    "title": "Heigh-Ho (The Dwarf's Marching Song)",
-   "artist": "Release - Topic",
+   "artist": "Louis Armstrong",
    "album": "Disney Songs The Satchmo Way",
    "videoId": "VuBK0XoZeZ4",
    "duration": "2:37"
@@ -16694,7 +16694,7 @@
   },
   {
    "title": "Happysad Sunday",
-   "artist": "Kiefer - Topic",
+   "artist": "Kiefer",
    "album": "Kickinit Alone",
    "videoId": "lD-zkj0eELA",
    "duration": "2:48"
