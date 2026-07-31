@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 26,
- "syncedAt": "2026-07-30T10:25:59.801992Z",
+ "trackCount": 27,
+ "syncedAt": "2026-07-31T10:39:52.963876Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -166,13 +166,6 @@
    "duration": "2:00"
   },
   {
-   "title": "SS26",
-   "artist": "Charli xcx",
-   "album": "SS26",
-   "videoId": "3XODTHJGXk4",
-   "duration": "2:48"
-  },
-  {
    "title": "DUET",
    "artist": "Sango & Smino",
    "album": "RHYTHM & MELODY",
@@ -185,6 +178,20 @@
    "album": "ATMANS",
    "videoId": "9czQGYiuM34",
    "duration": "2:29"
+  },
+  {
+   "title": "Rabbit Vision",
+   "artist": "Freddie Gibbs",
+   "album": "$oul $old $eparately",
+   "videoId": "Tn5dxHLdyGo",
+   "duration": "3:14"
+  },
+  {
+   "title": "Camera",
+   "artist": "Charli xcx",
+   "album": "Camera",
+   "videoId": "LlD8-j7ddDg",
+   "duration": "2:32"
   }
  ]
 }
