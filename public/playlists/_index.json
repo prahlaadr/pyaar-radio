@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 272,
- "totalTracks": 105285,
- "syncedAt": "2026-07-31T10:39:52.963876Z",
+ "totalTracks": 105293,
+ "syncedAt": "2026-08-01T10:00:08.227783Z",
  "playlists": [
-  {
-   "playlistId": "PLJBxb1mUYE9U",
-   "title": "July 26",
-   "trackCount": 27
-  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1497
+   "trackCount": 1499
+  },
+  {
+   "playlistId": "PLJBxb1mUYE9U",
+   "title": "July 26",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
+   "title": "Jinja [pyaar radio]",
+   "trackCount": 19
   },
   {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
@@ -78,11 +83,6 @@
    "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
    "title": "Southside Rami",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
-   "title": "Jinja [pyaar radio]",
-   "trackCount": 17
   },
   {
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",

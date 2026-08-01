@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
  "title": "Jinja [pyaar radio]",
- "trackCount": 17,
- "syncedAt": "2026-07-31T10:39:52.963876Z",
+ "trackCount": 19,
+ "syncedAt": "2026-08-01T10:00:08.227783Z",
  "tracks": [
   {
    "title": "Turtles",
@@ -103,13 +103,6 @@
    "duration": "3:10"
   },
   {
-   "title": "Avril 14th",
-   "artist": "Aphex Twin",
-   "album": "Drukqs",
-   "videoId": "uxTdTaNIUxo",
-   "duration": "2:06"
-  },
-  {
    "title": "Dragonfly",
    "artist": "Dana and Alden",
    "album": "Quiet Music for Young People",
@@ -117,11 +110,32 @@
    "duration": "5:58"
   },
   {
-   "title": "Thinking",
+   "title": "Turtles",
+   "artist": "Flying Lotus",
+   "album": "You're Dead!",
+   "videoId": "-EgwsooE-F8",
+   "duration": "2:07"
+  },
+  {
+   "title": "Tonight",
    "artist": "Waleed",
    "album": "MAGDALENA",
-   "videoId": "DyyYf7RmA90",
-   "duration": "6:57"
+   "videoId": "yHO-zjUPaps",
+   "duration": "2:23"
+  },
+  {
+   "title": "KOYALIA",
+   "artist": "EXCISE DEPT",
+   "album": "SAB KUCH MIL GAYA MUJHE VOL 1",
+   "videoId": "DfFeqybchUU",
+   "duration": "6:07"
+  },
+  {
+   "title": "Kirpa",
+   "artist": "Baalti",
+   "album": "Better Together",
+   "videoId": "sFjNGpSk4dg",
+   "duration": "5:57"
   }
  ]
 }

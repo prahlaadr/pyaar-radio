@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3530,
- "totalTracks": 45019,
- "syncedAt": "2026-07-31T10:39:50.312419Z",
+ "albumCount": 3531,
+ "totalTracks": 45031,
+ "syncedAt": "2026-08-01T10:00:05.335299Z",
  "albums": [
+  {
+   "browseId": "MPREb_LRfu61MqLoU",
+   "title": "petal",
+   "artist": "Ariana Grande",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_gw1VjJH7UaH",
    "title": "ATMANS",
