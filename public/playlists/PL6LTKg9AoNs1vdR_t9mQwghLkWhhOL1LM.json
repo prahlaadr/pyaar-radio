@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1vdR_t9mQwghLkWhhOL1LM",
  "title": "Charcoal (goated)",
  "trackCount": 307,
- "syncedAt": "2026-08-01T10:00:08.227783Z",
+ "syncedAt": "2026-08-02T09:57:57.686034Z",
  "tracks": [
   {
    "title": "Muchh",
@@ -1833,7 +1833,7 @@
   },
   {
    "title": "Gandi Baat",
-   "artist": "Pritam, Mika Singh, & Kalpana Patowary",
+   "artist": "Pritam;Mika Singh;Kalpana Patowary",
    "album": "R...Rajkumar (Original Motion Picture Soundtrack)",
    "videoId": "Q_SUAMBaMhY",
    "duration": "4:10"
@@ -2113,7 +2113,7 @@
   },
   {
    "title": "Gandi Baat",
-   "artist": "Pritam, Mika Singh, & Kalpana Patowary",
+   "artist": "Pritam;Mika Singh;Kalpana Patowary",
    "album": "R...Rajkumar (Original Motion Picture Soundtrack)",
    "videoId": "Q_SUAMBaMhY",
    "duration": "4:10"

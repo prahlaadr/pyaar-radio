@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-08-01T10:00:08.227783Z",
+ "syncedAt": "2026-08-02T09:57:57.686034Z",
  "tracks": [
   {
    "title": "Lately",
@@ -6971,7 +6971,7 @@
   },
   {
    "title": "Kaya",
-   "artist": "Bob Marley & The Wailers",
+   "artist": "Bob Marley;The Wailers",
    "album": "Kaya",
    "videoId": "vbED91NU4vE",
    "duration": "3:16"
@@ -8176,7 +8176,7 @@
   {
    "title": "Nostalgia (Synth Version)",
    "artist": "Piero Umiliani",
-   "album": "La ragazza fuori strada",
+   "album": "La ragazza fuori strada (From \"La ragazza fuori strada\")",
    "videoId": "JO5CQtRxWhc",
    "duration": "3:23"
   },

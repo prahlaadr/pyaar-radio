@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1499,
- "syncedAt": "2026-08-01T10:00:08.227783Z",
+ "trackCount": 1502,
+ "syncedAt": "2026-08-02T09:57:57.686034Z",
  "tracks": [
+  {
+   "title": "Lucid Dreams",
+   "artist": "Shred Meyer",
+   "album": "Shrovers III",
+   "videoId": "dyviJxg1kgA",
+   "duration": "3:02"
+  },
+  {
+   "title": "Replay",
+   "artist": "Shred Meyer",
+   "album": "Shrovers III",
+   "videoId": "dqwPfXke8p0",
+   "duration": "3:13"
+  },
+  {
+   "title": "Boyfriend",
+   "artist": "Shred Meyer",
+   "album": "Shrovers III",
+   "videoId": "zMh-yC_QTLY",
+   "duration": "3:33"
+  },
   {
    "title": "Bailando (Spanish Version) (feat. Descemer Bueno & Gente De Zona)",
    "artist": "Enrique Iglesias",

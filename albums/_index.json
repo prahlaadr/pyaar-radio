@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3531,
- "totalTracks": 45031,
- "syncedAt": "2026-08-01T10:00:05.335299Z",
+ "albumCount": 3534,
+ "totalTracks": 45080,
+ "syncedAt": "2026-08-02T09:57:54.632477Z",
  "albums": [
+  {
+   "browseId": "MPREb_XbgumyfS4Am",
+   "title": "3001: A Laced Odyssey",
+   "artist": "Flatbush Zombies",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_oXruaWcodP1",
+   "title": "Vacation In Hell",
+   "artist": "Flatbush Zombies",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_aPdKmuVJHD9",
+   "title": "BetterOffDead",
+   "artist": "Flatbush Zombies",
+   "trackCount": 18
+  },
   {
    "browseId": "MPREb_LRfu61MqLoU",
    "title": "petal",
