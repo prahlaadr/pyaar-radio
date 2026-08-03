@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJBxb1mUYE9U",
  "title": "July 26",
- "trackCount": 31,
- "syncedAt": "2026-08-02T09:57:57.686034Z",
+ "trackCount": 32,
+ "syncedAt": "2026-08-03T11:23:44.571431Z",
  "tracks": [
   {
    "title": "Wisco",
@@ -220,6 +220,13 @@
    "album": "Cry Baby",
    "videoId": "IZB0099MIKM",
    "duration": "4:09"
+  },
+  {
+   "title": "Blinkmoth (July Mix)",
+   "artist": "james K",
+   "album": "Friend",
+   "videoId": "PR2yh7MqHeE",
+   "duration": "7:04"
   }
  ]
 }

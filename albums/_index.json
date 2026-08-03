@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3534,
- "totalTracks": 45080,
- "syncedAt": "2026-08-02T09:57:54.632477Z",
+ "albumCount": 3537,
+ "totalTracks": 45112,
+ "syncedAt": "2026-08-03T11:23:41.089766Z",
  "albums": [
+  {
+   "browseId": "MPREb_m10p72SqUTN",
+   "title": "Cash Romantic",
+   "artist": "Overmono",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_vkXhwfmpK95",
+   "title": "Tectonic Plates, Vol. 2",
+   "artist": "Various Artists",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_b3PtsJo40Mh",
+   "title": "Friend",
+   "artist": "james K",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_XbgumyfS4Am",
    "title": "3001: A Laced Odyssey",
