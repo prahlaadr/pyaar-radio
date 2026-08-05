@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3537,
- "totalTracks": 45112,
- "syncedAt": "2026-08-04T10:39:45.210638Z",
+ "albumCount": 3535,
+ "totalTracks": 45091,
+ "syncedAt": "2026-08-05T10:35:17.307336Z",
  "albums": [
+  {
+   "browseId": "MPREb_d3e0LPQlEIv",
+   "title": "Dream Trio",
+   "artist": "Sam Gendel",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_m10p72SqUTN",
    "title": "Cash Romantic",
@@ -14855,12 +14861,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_bhCH1yPI4Fm",
-   "title": "BB/ANG3L",
-   "artist": "Tinashe",
-   "trackCount": 7
-  },
-  {
    "browseId": "MPREb_qOexpG5qCmk",
    "title": "Sunbeam",
    "artist": "Alina Baraz",
@@ -16235,12 +16235,6 @@
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_TRYuMM9eBV7",
-   "title": "MUMU 8818 (+2)",
-   "artist": "TisaKorean",
-   "trackCount": 12
-  },
-  {
    "browseId": "MPREb_E1cG25yt0mF",
    "title": "mr.siLLyfLow",
    "artist": "TisaKorean",
@@ -17601,12 +17595,6 @@
    "title": "LYFESTYLE",
    "artist": "Yeat",
    "trackCount": 22
-  },
-  {
-   "browseId": "MPREb_BKochK182vy",
-   "title": "In Silly We Trust",
-   "artist": "TisaKorean",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_TVO0bV9fFls",

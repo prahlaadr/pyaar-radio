@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 1,
- "syncedAt": "2026-08-04T10:39:47.848688Z",
+ "trackCount": 4,
+ "syncedAt": "2026-08-05T10:35:20.052946Z",
  "tracks": [
   {
    "title": "COOL !",
@@ -10,6 +10,27 @@
    "album": "COOL !",
    "videoId": "nKDfC7Hywc8",
    "duration": "4:50"
+  },
+  {
+   "title": "Human Voice",
+   "artist": "Four Tet",
+   "album": "Human Voice",
+   "videoId": "JfTiwC7RSFo",
+   "duration": "6:37"
+  },
+  {
+   "title": "June Guitar",
+   "artist": "Alex G",
+   "album": "Headlights",
+   "videoId": "FQrtMWDEiB4",
+   "duration": "3:53"
+  },
+  {
+   "title": "All Ways",
+   "artist": "Joe Armon-Jones;Mala",
+   "album": "A Way Back",
+   "videoId": "zHBXo17P2bc",
+   "duration": "4:16"
   }
  ]
 }
