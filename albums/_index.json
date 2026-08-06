@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3535,
- "totalTracks": 45091,
- "syncedAt": "2026-08-05T10:35:17.307336Z",
+ "albumCount": 3537,
+ "totalTracks": 45109,
+ "syncedAt": "2026-08-06T10:38:55.088227Z",
  "albums": [
+  {
+   "browseId": "MPREb_8y4ZGYHaQTP",
+   "title": "Another One",
+   "artist": "Mac DeMarco",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_29hPfalF27Z",
+   "title": "Animal Magic",
+   "artist": "Bonobo",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_d3e0LPQlEIv",
    "title": "Dream Trio",

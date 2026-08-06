@@ -1,0 +1,58 @@
+{
+ "title": "Another One",
+ "artist": "Mac DeMarco",
+ "year": "2015",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "The Way You'd Love Her",
+   "artist": "Mac DeMarco",
+   "videoId": "u51TkfgrKNY",
+   "duration": "2:37"
+  },
+  {
+   "title": "Another One",
+   "artist": "Mac DeMarco",
+   "videoId": "64pvLwwZ1ow",
+   "duration": "2:41"
+  },
+  {
+   "title": "No Other Heart",
+   "artist": "Mac DeMarco",
+   "videoId": "hvYVZqbBq4w",
+   "duration": "2:54"
+  },
+  {
+   "title": "Just to Put Me Down",
+   "artist": "Mac DeMarco",
+   "videoId": "U6qcXU1DT1E",
+   "duration": "3:19"
+  },
+  {
+   "title": "A Heart Like Hers",
+   "artist": "Mac DeMarco",
+   "videoId": "WXp-iAsxYBU",
+   "duration": "4:02"
+  },
+  {
+   "title": "I've Been Waiting for Her",
+   "artist": "Mac DeMarco",
+   "videoId": "3j82JRYwERU",
+   "duration": "2:48"
+  },
+  {
+   "title": "Without Me",
+   "artist": "Mac DeMarco",
+   "videoId": "XwKNwpBYCrg",
+   "duration": "2:58"
+  },
+  {
+   "title": "My House by the Water",
+   "artist": "Mac DeMarco",
+   "videoId": "2ZP1ls3YhXI",
+   "duration": "2:35"
+  }
+ ],
+ "browseId": "MPREb_8y4ZGYHaQTP",
+ "syncedAt": "2026-08-06T10:38:55.088227Z"
+}

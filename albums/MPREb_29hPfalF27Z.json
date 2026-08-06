@@ -1,0 +1,70 @@
+{
+ "title": "Animal Magic",
+ "artist": "Bonobo",
+ "year": "2000",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Intro",
+   "artist": "Bonobo",
+   "videoId": "7ooOt2NBNPA",
+   "duration": "0:47"
+  },
+  {
+   "title": "Sleepy Seven",
+   "artist": "Bonobo",
+   "videoId": "4Rn6vhKap-Q",
+   "duration": "5:23"
+  },
+  {
+   "title": "Dinosaurs",
+   "artist": "Bonobo",
+   "videoId": "YeJbLc0Zokc",
+   "duration": "4:02"
+  },
+  {
+   "title": "Kota",
+   "artist": "Bonobo",
+   "videoId": "JlmR-fOdsd0",
+   "duration": "5:25"
+  },
+  {
+   "title": "Terrapin",
+   "artist": "Bonobo",
+   "videoId": "gkfhheVdNLg",
+   "duration": "4:40"
+  },
+  {
+   "title": "The Plug",
+   "artist": "Bonobo",
+   "videoId": "GJXWRTgfeAU",
+   "duration": "5:19"
+  },
+  {
+   "title": "Shadowtricks",
+   "artist": "Bonobo",
+   "videoId": "ST5_D1Ifsl0",
+   "duration": "4:09"
+  },
+  {
+   "title": "Gypsy",
+   "artist": "Bonobo",
+   "videoId": "goGZbmhH4rs",
+   "duration": "3:39"
+  },
+  {
+   "title": "Sugar Rhyme",
+   "artist": "Bonobo",
+   "videoId": "FX8FQdodyvs",
+   "duration": "4:48"
+  },
+  {
+   "title": "Silver",
+   "artist": "Bonobo",
+   "videoId": "P-n2ZBc6yc0",
+   "duration": "6:34"
+  }
+ ],
+ "browseId": "MPREb_29hPfalF27Z",
+ "syncedAt": "2026-08-06T10:38:55.088227Z"
+}

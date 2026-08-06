@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 4,
- "syncedAt": "2026-08-05T10:35:20.052946Z",
+ "trackCount": 9,
+ "syncedAt": "2026-08-06T10:38:58.389491Z",
  "tracks": [
   {
    "title": "COOL !",
@@ -31,6 +31,41 @@
    "album": "A Way Back",
    "videoId": "zHBXo17P2bc",
    "duration": "4:16"
+  },
+  {
+   "title": "TAX",
+   "artist": "Yashraj;aywy",
+   "album": "TAX",
+   "videoId": "uPuxcTpHNpw",
+   "duration": "2:38"
+  },
+  {
+   "title": "Eyesdown (feat. Andreya Triana)",
+   "artist": "Bonobo",
+   "album": "Eyesdown",
+   "videoId": "tOxEmkQlENE",
+   "duration": "5:27"
+  },
+  {
+   "title": "This Time (Four Tet Remix)",
+   "artist": "Nina Kraviz",
+   "album": "This Time (Four Tet Remix)",
+   "videoId": "5coYtOkefPU",
+   "duration": "4:21"
+  },
+  {
+   "title": "This Thing We Call Love",
+   "artist": "Thundercat;Channel Tres",
+   "album": "Distracted",
+   "videoId": "7N4OOUAzMIg",
+   "duration": "3:16"
+  },
+  {
+   "title": "No Other Heart",
+   "artist": "Mac DeMarco",
+   "album": "Another One",
+   "videoId": "hvYVZqbBq4w",
+   "duration": "2:54"
   }
  ]
 }
