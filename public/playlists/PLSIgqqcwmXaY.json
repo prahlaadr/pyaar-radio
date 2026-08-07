@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 9,
- "syncedAt": "2026-08-06T10:38:58.389491Z",
+ "trackCount": 10,
+ "syncedAt": "2026-08-07T08:59:37.816824Z",
  "tracks": [
   {
    "title": "COOL !",
@@ -66,6 +66,13 @@
    "album": "Another One",
    "videoId": "hvYVZqbBq4w",
    "duration": "2:54"
+  },
+  {
+   "title": "Grace",
+   "artist": "IDLES",
+   "album": "TANGK",
+   "videoId": "ZAhBqlwo_Mw",
+   "duration": "3:54"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3537,
- "totalTracks": 45109,
- "syncedAt": "2026-08-06T10:38:55.088227Z",
+ "albumCount": 3534,
+ "totalTracks": 45054,
+ "syncedAt": "2026-08-07T08:59:35.324951Z",
  "albums": [
   {
    "browseId": "MPREb_8y4ZGYHaQTP",
@@ -1923,12 +1923,6 @@
    "title": "Emily’s D+Evolution (Deluxe Edition)",
    "artist": "Esperanza Spalding",
    "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_SGaZSXW50mw",
-   "title": "Sax & Romance",
-   "artist": "Various Artists",
-   "trackCount": 30
   },
   {
    "browseId": "MPREb_8FBmWbj6T9t",
@@ -17827,7 +17821,7 @@
   {
    "browseId": "MPREb_2C2T9ACzXMg",
    "title": "Aeroplane Flies High (Deluxe Edition)",
-   "artist": "The Smashing Pumpkins",
+   "artist": "Smashing Pumpkins",
    "trackCount": 90
   },
   {
@@ -19611,18 +19605,6 @@
    "title": "Tropical Gold",
    "artist": "Sumohair",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_eE9tJmjCO5s",
-   "title": "Ornithology",
-   "artist": "Ornithology",
-   "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_aFgTllzZQSN",
-   "title": "Ethereal Nights",
-   "artist": "Ornithology",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_Hp9dlcqNmz9",
