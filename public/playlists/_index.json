@@ -1,13 +1,33 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 273,
- "totalTracks": 105725,
- "syncedAt": "2026-08-07T08:59:37.816824Z",
+ "playlistCount": 276,
+ "totalTracks": 105740,
+ "syncedAt": "2026-08-08T08:41:33.235941Z",
  "playlists": [
+  {
+   "playlistId": "PLVMJJo57_qlc",
+   "title": "001 Pyaar Crate Sparklmami (jazz soul rnb)",
+   "trackCount": 11
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1503
+  },
+  {
+   "playlistId": "PLZEqW4FkfFJQ",
+   "title": "001 Pyaar Crate (kartik sample)",
+   "trackCount": 1
+  },
   {
    "playlistId": "PLSIgqqcwmXaY",
    "title": "Aug 26",
-   "trackCount": 10
+   "trackCount": 11
+  },
+  {
+   "playlistId": "PLXNngiNQFXW4",
+   "title": "001 Pyaar Create (Four Tet house)",
+   "trackCount": 1
   },
   {
    "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia",
@@ -23,11 +43,6 @@
    "playlistId": "PLJBxb1mUYE9U",
    "title": "July 26",
    "trackCount": 32
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1502
   },
   {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",

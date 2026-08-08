@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1502,
- "syncedAt": "2026-08-07T08:59:37.816824Z",
+ "trackCount": 1503,
+ "syncedAt": "2026-08-08T08:41:33.235941Z",
  "tracks": [
+  {
+   "title": "That's Us/Wild Combination",
+   "artist": "Arthur Russell",
+   "album": "Calling Out Of Context",
+   "videoId": "H9bGD-ThDyM",
+   "duration": "6:59"
+  },
   {
    "title": "Lucid Dreams",
    "artist": "Shred Meyer",
@@ -140,9 +147,9 @@
   {
    "title": "Drops of Jupiter (Tell Me)",
    "artist": "Train",
-   "album": "Drops Of Jupiter",
-   "videoId": "qthko5ppHcM",
-   "duration": "4:20"
+   "album": "Drops of Jupiter (20th Anniversary Edition)",
+   "videoId": "10rw7IKHv2g",
+   "duration": "4:21"
   },
   {
    "title": "The Steps",
@@ -1930,11 +1937,11 @@
    "duration": "3:22"
   },
   {
-   "title": "We Might Even Be Falling In Love (Interlude)",
-   "artist": "Victoria Monét",
-   "album": "JAGUAR",
-   "videoId": "N6QHhkLRfco",
-   "duration": "0:52"
+   "title": "We Might Even Be Falling In Love (Duet)",
+   "artist": "Victoria Monét;Bryson Tiller",
+   "album": "JAGUAR II : Deluxe",
+   "videoId": "wtCpkWilPsw",
+   "duration": "1:31"
   },
   {
    "title": "Kiss It",

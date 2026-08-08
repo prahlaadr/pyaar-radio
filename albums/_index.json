@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3534,
- "totalTracks": 45054,
- "syncedAt": "2026-08-07T08:59:35.324951Z",
+ "totalTracks": 45049,
+ "syncedAt": "2026-08-08T08:41:29.516010Z",
  "albums": [
+  {
+   "browseId": "MPREb_DelIReF45bE",
+   "title": "Black Boy (Alternative)",
+   "artist": "Dahi",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_8y4ZGYHaQTP",
    "title": "Another One",
@@ -19449,12 +19455,6 @@
    "title": "VAYTRIX RELOADED",
    "artist": "Vayda",
    "trackCount": 19
-  },
-  {
-   "browseId": "MPREb_519ERvMiZ0X",
-   "title": "Rangeela (Original Motion Picture Soundtrack)",
-   "artist": "A. R. Rahman",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_7zyOgyk8RqC",
