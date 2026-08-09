@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3534,
- "totalTracks": 45049,
- "syncedAt": "2026-08-08T08:41:29.516010Z",
+ "albumCount": 3535,
+ "totalTracks": 45057,
+ "syncedAt": "2026-08-09T08:43:15.259315Z",
  "albums": [
+  {
+   "browseId": "MPREb_6veO7FFYngk",
+   "title": "A Certain Smile, a Certain Sadness",
+   "artist": "Rocketship",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_DelIReF45bE",
    "title": "Black Boy (Alternative)",
