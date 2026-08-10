@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 276,
- "totalTracks": 105740,
- "syncedAt": "2026-08-09T08:43:18.345024Z",
+ "totalTracks": 105741,
+ "syncedAt": "2026-08-10T09:21:22.820913Z",
  "playlists": [
+  {
+   "playlistId": "PLSIgqqcwmXaY",
+   "title": "Aug 26",
+   "trackCount": 11
+  },
+  {
+   "playlistId": "PLZEqW4FkfFJQ",
+   "title": "001 Pyaar Crate (kartik sample)",
+   "trackCount": 2
+  },
   {
    "playlistId": "PLVMJJo57_qlc",
    "title": "001 Pyaar Crate Sparklmami (jazz soul rnb)",
@@ -13,16 +23,6 @@
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
    "trackCount": 1503
-  },
-  {
-   "playlistId": "PLZEqW4FkfFJQ",
-   "title": "001 Pyaar Crate (kartik sample)",
-   "trackCount": 1
-  },
-  {
-   "playlistId": "PLSIgqqcwmXaY",
-   "title": "Aug 26",
-   "trackCount": 11
   },
   {
    "playlistId": "PLXNngiNQFXW4",

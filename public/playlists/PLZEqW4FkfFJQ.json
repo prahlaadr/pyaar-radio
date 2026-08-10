@@ -1,8 +1,8 @@
 {
  "playlistId": "PLZEqW4FkfFJQ",
  "title": "001 Pyaar Crate (kartik sample)",
- "trackCount": 1,
- "syncedAt": "2026-08-09T08:43:18.345024Z",
+ "trackCount": 2,
+ "syncedAt": "2026-08-10T09:21:22.820913Z",
  "tracks": [
   {
    "title": "loosechnge.",
@@ -10,6 +10,13 @@
    "album": "",
    "videoId": "c9KdfFCL7f8",
    "duration": "2:10"
+  },
+  {
+   "title": "Tumeric",
+   "artist": "DJ Grumble",
+   "album": "WestsideGunn",
+   "videoId": "obNWUKq-dkg",
+   "duration": "2:29"
   }
  ]
 }
