@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 276,
- "totalTracks": 105741,
- "syncedAt": "2026-08-10T09:21:22.820913Z",
+ "totalTracks": 105693,
+ "syncedAt": "2026-08-11T08:56:05.662727Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1505
+  },
   {
    "playlistId": "PLSIgqqcwmXaY",
    "title": "Aug 26",
@@ -18,11 +23,6 @@
    "playlistId": "PLVMJJo57_qlc",
    "title": "001 Pyaar Crate Sparklmami (jazz soul rnb)",
    "trackCount": 11
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1503
   },
   {
    "playlistId": "PLXNngiNQFXW4",
@@ -747,7 +747,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 1315
+   "trackCount": 1265
   },
   {
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
