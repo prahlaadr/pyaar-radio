@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3535,
- "totalTracks": 45057,
- "syncedAt": "2026-08-11T08:56:02.837044Z",
+ "albumCount": 3520,
+ "totalTracks": 44841,
+ "syncedAt": "2026-08-12T09:11:59.332846Z",
  "albums": [
+  {
+   "browseId": "MPREb_dLqoYXGj9yu",
+   "title": "The New Heritage",
+   "artist": "Telemakus",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_fgmJ1Fv4Qbr",
+   "title": "Seven of Eight",
+   "artist": "Telemakus",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_6veO7FFYngk",
    "title": "A Certain Smile, a Certain Sadness",
@@ -473,12 +485,6 @@
    "trackCount": 7
   },
   {
-   "browseId": "MPREb_McunLdlBbDw",
-   "title": "Well Done",
-   "artist": "Statik Selektah",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_n0yWstOvyBk",
    "title": "Just Like Fire",
    "artist": "E.VAX",
@@ -489,12 +495,6 @@
    "title": "Dr*gs R Bad",
    "artist": "LUCKI",
    "trackCount": 26
-  },
-  {
-   "browseId": "MPREb_RfHjR5PnKE5",
-   "title": "Victory Garden",
-   "artist": "Young The Giant",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_sG5DSKTtVhR",
@@ -537,18 +537,6 @@
    "title": "Soulja Hate Repellant",
    "artist": "Niontay",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_L7mpKq3gj4y",
-   "title": "Plus Ultra",
-   "artist": "Laron",
-   "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_MIxZc0xjQcZ",
-   "title": "PROJECT X",
-   "artist": "Key Glock",
-   "trackCount": 20
   },
   {
    "browseId": "MPREb_vSLFj1tf5ik",
@@ -605,18 +593,6 @@
    "trackCount": 11
   },
   {
-   "browseId": "MPREb_PZueTdMYS2O",
-   "title": "When The City Sleeps",
-   "artist": "Alex Isley",
-   "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_SjZuMdl2VUb",
-   "title": "Roulette",
-   "artist": "Alfa Mist",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_pJpbsdVarY9",
    "title": "PERSPECTIVE",
    "artist": "Terrace Martin",
@@ -627,12 +603,6 @@
    "title": "Strictly 4 The Scythe",
    "artist": "Denzel Curry",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_L8lJOcjPHex",
-   "title": "Hour Sessions",
-   "artist": "Clever Austin",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_dRYPw66xkym",
@@ -683,22 +653,10 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_Lavf8m7rnJB",
-   "title": "Epiphany Man",
-   "artist": "Key!",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_r39HooEYnSX",
    "title": "Grady Baby",
    "artist": "Anycia",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_U88X5vLx2dT",
-   "title": "7 piano sketches",
-   "artist": "André 3000",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_HPO7BrsOlE6",
@@ -729,12 +687,6 @@
    "title": "The Art of Loving",
    "artist": "Olivia Dean",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_MPEzgsKfRHp",
-   "title": "EXPERIMENTAL RAP",
-   "artist": "JPEGMAFIA",
-   "trackCount": 25
   },
   {
    "browseId": "MPREb_BonDf94gThq",
@@ -2665,7 +2617,7 @@
   {
    "browseId": "MPREb_JG1Hk06hwK6",
    "title": "FREE SPIRITS",
-   "artist": "CA7RIEL & Paco Amoroso",
+   "artist": "CA7RIEL",
    "trackCount": 12
   },
   {
@@ -8831,12 +8783,6 @@
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_dXMS60wHEyn",
-   "title": "Persona",
-   "artist": "Mello Music Group",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_5zQW04s175z",
    "title": "ZZZ",
    "artist": "Zion.T",
@@ -8967,12 +8913,6 @@
    "title": "Odd Cure",
    "artist": "Oddisee",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_q4DbUjZH3wF",
-   "title": "Tangible Dream",
-   "artist": "Oddisee",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_mVy6LfFUzWQ",
@@ -10497,12 +10437,6 @@
    "title": "Tana Talk 4",
    "artist": "Benny The Butcher",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_MDBM3Y2OY9H",
-   "title": "souvenir",
-   "artist": "Jonah Yano",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_2NAKIrJ40g7",
@@ -13707,12 +13641,6 @@
    "title": "breeze",
    "artist": "Vayda",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_Ri95KpIsaob",
-   "title": "portrait of a dog",
-   "artist": "Jonah Yano",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_A63KYsPgDBj",
@@ -18515,12 +18443,6 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_65ThWuvPI4i",
-   "title": "VWETO II",
-   "artist": "Georgia Anne Muldrow",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_nCMtOJJ1Ymd",
    "title": "AAA",
    "artist": "HYUKOH",
@@ -18777,12 +18699,6 @@
    "title": "Dream Bwoy",
    "artist": "ICYTWAT",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_AqIadjprX3y",
-   "title": "Xistence.",
-   "artist": "JELEEL!",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_BK5ijayIYHv",
@@ -20733,12 +20649,6 @@
    "title": "LETHAL",
    "artist": "Rico Nasty",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_TLCjXszgomM",
-   "title": "All the Brilliant Things",
-   "artist": "Skyzoo",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_Jac39Ctu8m4",

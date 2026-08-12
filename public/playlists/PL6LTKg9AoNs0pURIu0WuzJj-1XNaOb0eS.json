@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
  "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
- "trackCount": 1265,
- "syncedAt": "2026-08-11T08:56:05.662727Z",
+ "trackCount": 1315,
+ "syncedAt": "2026-08-12T09:12:02.842236Z",
  "tracks": [
   {
    "title": "Bikini",
@@ -239,7 +239,7 @@
    "title": "One Touch",
    "artist": "BAMBII",
    "album": "One Touch",
-   "videoId": "zlKjXx9TAlg",
+   "videoId": "MuSFIaqDZnE",
    "duration": "3:01"
   },
   {
@@ -2805,11 +2805,32 @@
    "duration": "7:15"
   },
   {
+   "title": "Sidi Mansour",
+   "artist": "Cheba Yamina;Moving Still",
+   "album": "Sidi Mansour",
+   "videoId": "r18FyY_cdyo",
+   "duration": "4:33"
+  },
+  {
    "title": "Ocean",
    "artist": "Sir E.U;Dolo Percussion",
    "album": "Timeism",
    "videoId": "NyGRhT5qY1o",
    "duration": "2:42"
+  },
+  {
+   "title": "Phiom Enhah",
+   "artist": "Rikhter",
+   "album": "Rik1",
+   "videoId": "AEZSJENnJVc",
+   "duration": "5:32"
+  },
+  {
+   "title": "Only Human (Extended)",
+   "artist": "KH;Nelly Furtado",
+   "album": "Only Human",
+   "videoId": "BPbmqXRWdOU",
+   "duration": "7:57"
   },
   {
    "title": "Han Pan",
@@ -2833,6 +2854,20 @@
    "duration": "5:38"
   },
   {
+   "title": "Sizzling (feat. Paradise)",
+   "artist": "Daphni",
+   "album": "Sizzling EP",
+   "videoId": "E8eAYth5Ac0",
+   "duration": "5:22"
+  },
+  {
+   "title": "Hold Me (T4T Embrace Mix)",
+   "artist": "Eris Drew",
+   "album": "Devotion",
+   "videoId": "hsNmwmt7qtw",
+   "duration": "5:57"
+  },
+  {
    "title": "Keflavik",
    "artist": "Kasper Marott",
    "album": "Keflavik EP",
@@ -2854,11 +2889,32 @@
    "duration": "4:45"
   },
   {
+   "title": "Look How Hard I've Tried",
+   "artist": "Barker",
+   "album": "Debiasing EP",
+   "videoId": "RhfSRm4W4Pk",
+   "duration": "5:17"
+  },
+  {
    "title": "If The Car Beside You Moves Ahead",
    "artist": "James Blake",
    "album": "If The Car Beside You Moves Ahead",
    "videoId": "IkMbaI-pWCs",
    "duration": "4:23"
+  },
+  {
+   "title": "It Makes You Forget (Itgehane) (Edit)",
+   "artist": "Peggy Gou",
+   "album": "It Makes You Forget (Itgehane)",
+   "videoId": "BACnvj5jAh0",
+   "duration": "3:57"
+  },
+  {
+   "title": "Cosmic Slop (feat. Moor Mother & DJ Haram)",
+   "artist": "700 Bliss",
+   "album": "Spa 700",
+   "videoId": "cZqrj9mrGNc",
+   "duration": "3:28"
   },
   {
    "title": "Pick Up (12\" Extended Disco Version)",
@@ -2875,11 +2931,32 @@
    "duration": "6:37"
   },
   {
+   "title": "Cleo",
+   "artist": "Donato Dozzy",
+   "album": "Mindless Fullness",
+   "videoId": "FJ2Mr8lcPbc",
+   "duration": "8:22"
+  },
+  {
+   "title": "Marry Me",
+   "artist": "DJ Call Me",
+   "album": "Marry Me EP",
+   "videoId": "09sy39MC6nk",
+   "duration": "5:07"
+  },
+  {
    "title": "106 Slipper",
    "artist": "GILA",
    "album": "Shedskin Pt.33",
    "videoId": "f950qsQb8Nw",
    "duration": "5:32"
+  },
+  {
+   "title": "Daisy Chain",
+   "artist": "Overmono",
+   "album": "Raft Living",
+   "videoId": "XwftW1z8how",
+   "duration": "6:47"
   },
   {
    "title": "Bone Sucka",
@@ -2910,6 +2987,20 @@
    "duration": "6:28"
   },
   {
+   "title": "Flash React",
+   "artist": "Batu",
+   "album": "Rebuilt",
+   "videoId": "xqm4OC682O0",
+   "duration": "4:29"
+  },
+  {
+   "title": "Mythical Technology",
+   "artist": "rRoxymore",
+   "album": "Thoughts of an Introvert, Pt. 2",
+   "videoId": "2OxrvOOBLYs",
+   "duration": "6:31"
+  },
+  {
    "title": "Silky",
    "artist": "Peach",
    "album": "Introduction",
@@ -2924,11 +3015,25 @@
    "duration": "3:53"
   },
   {
+   "title": "What (feat. Riderman)",
+   "artist": "Bruce The 1st",
+   "album": "Sad Boys",
+   "videoId": "8Fo2__MNINQ",
+   "duration": "2:31"
+  },
+  {
    "title": "Transition 2",
    "artist": "Joy Orbison;Ben Vince",
    "album": "Transition 2 / Systems Align",
    "videoId": "HHorfOutpcc",
    "duration": "7:18"
+  },
+  {
+   "title": "Quick Eternity (Four Tet Remix)",
+   "artist": "Daniel Avery",
+   "album": "Quick Eternity (Four Tet Remix)",
+   "videoId": "yGxnRk4MWp8",
+   "duration": "9:22"
   },
   {
    "title": "Nine O' Three",
@@ -2938,6 +3043,20 @@
    "duration": "4:42"
   },
   {
+   "title": "Sex",
+   "artist": "DjRUM",
+   "album": "Portrait with Firewood",
+   "videoId": "9jf9eL8kqJo",
+   "duration": "8:28"
+  },
+  {
+   "title": "Caught in a Lie",
+   "artist": "Fatima",
+   "album": "Caught in a Lie",
+   "videoId": "vLiKUZV6UjA",
+   "duration": "3:33"
+  },
+  {
    "title": "Plaything",
    "artist": "Róisín Murphy",
    "album": "Plaything Like",
@@ -2945,11 +3064,39 @@
    "duration": "6:04"
   },
   {
+   "title": "Problem Solving Program",
+   "artist": "Beta Librae",
+   "album": "Subspecies",
+   "videoId": "BRTlBrgWOo8",
+   "duration": "7:20"
+  },
+  {
+   "title": "Tasser",
+   "artist": "Blawan",
+   "album": "Wet Will Always Dry",
+   "videoId": "e-KSb8D_Pug",
+   "duration": "6:22"
+  },
+  {
+   "title": "God",
+   "artist": "Sinjin Hawke;Zora Jones",
+   "album": "Vicious Circles",
+   "videoId": "P0-bVew0kdI",
+   "duration": "2:55"
+  },
+  {
    "title": "Brainstorm (Gerd Janson & Shan House Mix)",
    "artist": "Special Request",
    "album": "Special Request X Gerd Janson & Shan",
    "videoId": "7SqJvBasAgM",
    "duration": "6:33"
+  },
+  {
+   "title": "Dins El Llit (Superpitcher Remix)",
+   "artist": "Talaboman",
+   "album": "The Night Land Remixed",
+   "videoId": "eUno9PkAOa8",
+   "duration": "11:07"
   },
   {
    "title": "Uni Blue",
@@ -2966,6 +3113,13 @@
    "duration": "7:10"
   },
   {
+   "title": "Raw Silk Uncut Wood",
+   "artist": "Laurel Halo",
+   "album": "Raw Silk Uncut Wood",
+   "videoId": "vEVvKGDiAq0",
+   "duration": "10:01"
+  },
+  {
    "title": "Theme from Q",
    "artist": "Objekt",
    "album": "Objekt #4",
@@ -2980,11 +3134,39 @@
    "duration": "3:22"
   },
   {
+   "title": "Regret",
+   "artist": "Shinichi Atobe",
+   "album": "From the Heart, It's a Start, A Work of Art",
+   "videoId": "ZHifSSwElx0",
+   "duration": "9:48"
+  },
+  {
    "title": "Dengue Drums",
    "artist": "Superfície",
    "album": "Hélices",
    "videoId": "hVsXCSNxvAo",
    "duration": "4:36"
+  },
+  {
+   "title": "Camile from Ohm Makes Me Feel Loved",
+   "artist": "Machine Woman",
+   "album": "When Lobster Comes Home",
+   "videoId": "68bmWNTzBD0",
+   "duration": "4:17"
+  },
+  {
+   "title": "Stand Up! (Pangaea's Mix)",
+   "artist": "Loleatta Holloway",
+   "album": "Stand Up! (Pangaea's Mix)",
+   "videoId": "uGFpiWG5hho",
+   "duration": "5:46"
+  },
+  {
+   "title": "Routine",
+   "artist": "Skee Mask",
+   "album": "Iss002",
+   "videoId": "uHZJu9GAP-Q",
+   "duration": "5:45"
   },
   {
    "title": "Glue",
@@ -3001,11 +3183,39 @@
    "duration": "3:00"
   },
   {
+   "title": "Possession/Control",
+   "artist": "Samuel Kerridge",
+   "album": "The Silence Between Us",
+   "videoId": "whjLqHztcBA",
+   "duration": "6:06"
+  },
+  {
+   "title": "Marius",
+   "artist": "Batu",
+   "album": "Marius",
+   "videoId": "9Kpmr_OgvlE",
+   "duration": "5:06"
+  },
+  {
    "title": "Dubelle Oh XX (JVIP)",
    "artist": "Denis Sulta",
    "album": "Nein Fortiate EP",
    "videoId": "oxetwnMswyM",
    "duration": "6:01"
+  },
+  {
+   "title": "Praise Jah (Vocal)",
+   "artist": "Oluko Imo",
+   "album": "Praise Jah",
+   "videoId": "yGnMHBmB01A",
+   "duration": "6:11"
+  },
+  {
+   "title": "日出東方 唯我不敗",
+   "artist": "Tzusing",
+   "album": "東方不敗",
+   "videoId": "01WOpAG5rd0",
+   "duration": "5:12"
   },
   {
    "title": "Motion Keeper",
@@ -3022,6 +3232,13 @@
    "duration": "2:45"
   },
   {
+   "title": "T'Raenon (Version)",
+   "artist": "Photek",
+   "album": "T'Raenon (Remastered Edition)",
+   "videoId": "g2yL5WksP4s",
+   "duration": "8:58"
+  },
+  {
    "title": "Claws",
    "artist": "Detboi",
    "album": "Secrets",
@@ -3029,11 +3246,60 @@
    "duration": "6:36"
   },
   {
+   "title": "Volumes",
+   "artist": "Minor Science",
+   "album": "Whities 012",
+   "videoId": "U7AdI3MjahU",
+   "duration": "7:15"
+  },
+  {
+   "title": "Blue Pedro",
+   "artist": "Bullion",
+   "album": "Blue Pedro",
+   "videoId": "ijsgdqYW36I",
+   "duration": "5:13"
+  },
+  {
+   "title": "Congo Get Slap (Mark Ernestus Remix)",
+   "artist": "Equiknoxx;Mark Ernestus",
+   "album": "Mark Ernestus Remixes",
+   "videoId": "OZGzkuaQtOE",
+   "duration": "7:11"
+  },
+  {
+   "title": "Moments In Love",
+   "artist": "Kara-Lis Coverdale",
+   "album": "Late Night Tales: Floating Points",
+   "videoId": "ozCwSIrxrfQ",
+   "duration": "9:24"
+  },
+  {
    "title": "Your Kiss Is Sour",
    "artist": "Parris",
    "album": "Your Kiss Is Sour EP",
    "videoId": "huIyS-a_5rw",
    "duration": "4:45"
+  },
+  {
+   "title": "Adrift (Avalon Emerson's Furiously Awake Version)",
+   "artist": "Octo Octa",
+   "album": "Adrift",
+   "videoId": "hV8RgInxIns",
+   "duration": "7:21"
+  },
+  {
+   "title": "Static",
+   "artist": "Forest Drive West",
+   "album": "Static / Escape",
+   "videoId": "d_UAuJP1t_o",
+   "duration": "8:11"
+  },
+  {
+   "title": "I'm Interesting, Cheerful & Sociable",
+   "artist": "Errorsmith",
+   "album": "Superlative Fatigue",
+   "videoId": "iSjA1R3Luvc",
+   "duration": "4:58"
   },
   {
    "title": "Make Time",
@@ -3055,6 +3321,20 @@
    "album": "Blue Dream",
    "videoId": "ytHWJSsJpd0",
    "duration": "6:15"
+  },
+  {
+   "title": "Tail Lift",
+   "artist": "Joe",
+   "album": "Tail Lift / MPH",
+   "videoId": "EjFLrD0Z1eQ",
+   "duration": "5:47"
+  },
+  {
+   "title": "Born of Ashes",
+   "artist": "Ancient Methods",
+   "album": "The First Siren",
+   "videoId": "96mtmiOBz7I",
+   "duration": "7:03"
   },
   {
    "title": "Solteiro",
@@ -3099,6 +3379,20 @@
    "duration": "6:35"
   },
   {
+   "title": "Sicut Erat",
+   "artist": "natural/electronic.system.",
+   "album": "Sicut Erat",
+   "videoId": "9WVkNNYYjVw",
+   "duration": "7:08"
+  },
+  {
+   "title": "Elevate (Go Off Mix)",
+   "artist": "Ciel",
+   "album": "Electrical Encounters EP",
+   "videoId": "NjQdzZPQFRg",
+   "duration": "6:48"
+  },
+  {
    "title": "The Idea (Frankey & Sandrino Remix) (feat. Lazarusman)",
    "artist": "Hyenah",
    "album": "The Idea EP",
@@ -3106,11 +3400,32 @@
    "duration": "7:29"
   },
   {
+   "title": "Shadows",
+   "artist": "&ME",
+   "album": "Shadows",
+   "videoId": "E-k3wZpxgO4",
+   "duration": "11:56"
+  },
+  {
+   "title": "Necessity",
+   "artist": "Rampa",
+   "album": "Secret Weapons (Part 8)",
+   "videoId": "6YfElHYsqx0",
+   "duration": "7:50"
+  },
+  {
    "title": "Mutter",
    "artist": "Konstantin Sibold",
    "album": "Mutter",
    "videoId": "hX-L42FGLZI",
    "duration": "10:30"
+  },
+  {
+   "title": "Pelican's Flight",
+   "artist": "Baikal",
+   "album": "Pelican's Flight",
+   "videoId": "-ELmcpWMtjo",
+   "duration": "10:16"
   },
   {
    "title": "Pentimento (Joaquin Joe Claussell's Divergent Mix)",
@@ -3127,6 +3442,13 @@
    "duration": "9:49"
   },
   {
+   "title": "Soak It (Andre Lodemann Remix) (feat. Nonku)",
+   "artist": "Hyenah",
+   "album": "Mami Wata EP",
+   "videoId": "ulpmsEG2Fug",
+   "duration": "8:28"
+  },
+  {
    "title": "Warg",
    "artist": "Recondite",
    "album": "Phalanx",
@@ -3134,11 +3456,32 @@
    "duration": "7:02"
   },
   {
+   "title": "Dry Me",
+   "artist": "Heiko Laux",
+   "album": "Klockworks 17",
+   "videoId": "pFqIsfLbz8w",
+   "duration": "8:23"
+  },
+  {
    "title": "Moorthon II",
    "artist": "Frank Wiedemann",
    "album": "Moorthon EP",
    "videoId": "ajAnUYKAAf8",
    "duration": "8:56"
+  },
+  {
+   "title": "Cape Coast",
+   "artist": "&ME",
+   "album": "One on One EP",
+   "videoId": "iTB0cB-TpLI",
+   "duration": "8:10"
+  },
+  {
+   "title": "Search",
+   "artist": "Surgeon",
+   "album": "Search Deep Inside Yourself",
+   "videoId": "0093ww7LdYA",
+   "duration": "6:02"
   },
   {
    "title": "9 Years (DJ Koze Remix)",
@@ -3153,6 +3496,13 @@
    "album": "Deep Thing",
    "videoId": "Kto4WxqVnoM",
    "duration": "7:53"
+  },
+  {
+   "title": "Do It",
+   "artist": "D.Y.A",
+   "album": "Do It",
+   "videoId": "TMjLnsjpbgk",
+   "duration": "6:58"
   },
   {
    "title": "Final Credits",
@@ -8476,7 +8826,7 @@
   },
   {
    "title": "Sandcastles",
-   "artist": "Ferrer & Sydenham Inc.",
+   "artist": "Jerome Sydenham;Dennis Ferrer",
    "album": "Pan-African Electro, Vol. 2",
    "videoId": "i-3UhONZOLQ",
    "duration": "8:27"
