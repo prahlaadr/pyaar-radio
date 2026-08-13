@@ -1,9 +1,57 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3520,
- "totalTracks": 44841,
- "syncedAt": "2026-08-12T09:11:59.332846Z",
+ "albumCount": 3538,
+ "totalTracks": 45068,
+ "syncedAt": "2026-08-13T09:12:33.284744Z",
  "albums": [
+  {
+   "browseId": "MPREb_9ljGV2vdzz6",
+   "title": "Fishing for Fishies",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_bLMQYMo8xAE",
+   "title": "Paper Mâché Dream Balloon",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_9ocyrjhOihG",
+   "title": "Phantom Island",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_6MdAjtp6ZRn",
+   "title": "TANGK",
+   "artist": "IDLES",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_1u3hDEW69lR",
+   "title": "Good People",
+   "artist": "Majid Jordan",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_Rj8kgNq4EwI",
+   "title": "Majid Jordan",
+   "artist": "Majid Jordan",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_fQN45SccDoI",
+   "title": "Flying Away",
+   "artist": "Smoke City",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_fcLZNJ0BTki",
+   "title": "Voices from the Dustbowl",
+   "artist": "Fragile State",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_dLqoYXGj9yu",
    "title": "The New Heritage",
@@ -485,6 +533,12 @@
    "trackCount": 7
   },
   {
+   "browseId": "MPREb_McunLdlBbDw",
+   "title": "Well Done",
+   "artist": "Statik Selektah",
+   "trackCount": 15
+  },
+  {
    "browseId": "MPREb_n0yWstOvyBk",
    "title": "Just Like Fire",
    "artist": "E.VAX",
@@ -495,6 +549,12 @@
    "title": "Dr*gs R Bad",
    "artist": "LUCKI",
    "trackCount": 26
+  },
+  {
+   "browseId": "MPREb_RfHjR5PnKE5",
+   "title": "Victory Garden",
+   "artist": "Young The Giant",
+   "trackCount": 11
   },
   {
    "browseId": "MPREb_sG5DSKTtVhR",
@@ -537,6 +597,18 @@
    "title": "Soulja Hate Repellant",
    "artist": "Niontay",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_L7mpKq3gj4y",
+   "title": "Plus Ultra",
+   "artist": "Laron",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_MIxZc0xjQcZ",
+   "title": "PROJECT X",
+   "artist": "Key Glock",
+   "trackCount": 20
   },
   {
    "browseId": "MPREb_vSLFj1tf5ik",
@@ -593,6 +665,18 @@
    "trackCount": 11
   },
   {
+   "browseId": "MPREb_PZueTdMYS2O",
+   "title": "When The City Sleeps",
+   "artist": "Alex Isley",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_SjZuMdl2VUb",
+   "title": "Roulette",
+   "artist": "Alfa Mist",
+   "trackCount": 15
+  },
+  {
    "browseId": "MPREb_pJpbsdVarY9",
    "title": "PERSPECTIVE",
    "artist": "Terrace Martin",
@@ -603,6 +687,12 @@
    "title": "Strictly 4 The Scythe",
    "artist": "Denzel Curry",
    "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_L8lJOcjPHex",
+   "title": "Hour Sessions",
+   "artist": "Clever Austin",
+   "trackCount": 11
   },
   {
    "browseId": "MPREb_dRYPw66xkym",
@@ -653,10 +743,22 @@
    "trackCount": 12
   },
   {
+   "browseId": "MPREb_Lavf8m7rnJB",
+   "title": "Epiphany Man",
+   "artist": "Key!",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_r39HooEYnSX",
    "title": "Grady Baby",
    "artist": "Anycia",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_U88X5vLx2dT",
+   "title": "7 piano sketches",
+   "artist": "André 3000",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_HPO7BrsOlE6",
@@ -687,6 +789,12 @@
    "title": "The Art of Loving",
    "artist": "Olivia Dean",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_MPEzgsKfRHp",
+   "title": "EXPERIMENTAL RAP",
+   "artist": "JPEGMAFIA",
+   "trackCount": 25
   },
   {
    "browseId": "MPREb_BonDf94gThq",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 11,
- "syncedAt": "2026-08-12T09:12:02.842236Z",
+ "trackCount": 24,
+ "syncedAt": "2026-08-13T09:12:40.463901Z",
  "tracks": [
   {
    "title": "COOL !",
@@ -80,6 +80,97 @@
    "album": "SPILL YOUR TIME",
    "videoId": "crHGhY-iTsA",
    "duration": "3:14"
+  },
+  {
+   "title": "Cleo",
+   "artist": "Fragile State",
+   "album": "Voices from the Dustbowl",
+   "videoId": "6UoeT7umkHU",
+   "duration": "6:21"
+  },
+  {
+   "title": "The Limit To Your Love",
+   "artist": "Feist",
+   "album": "The Reminder",
+   "videoId": "YW5hhrhkdNQ",
+   "duration": "4:21"
+  },
+  {
+   "title": "All I Need",
+   "artist": "Lloyd",
+   "album": "All I Need",
+   "videoId": "15zse5jbU-Q",
+   "duration": "3:59"
+  },
+  {
+   "title": "You Know You Want to Be Loved (7\")",
+   "artist": "Keith Barrow",
+   "album": "Physical Attraction",
+   "videoId": "bTJzqX0RBPE",
+   "duration": "3:38"
+  },
+  {
+   "title": "The Jump",
+   "artist": "The Alchemist",
+   "album": "Cycles (Original Score)",
+   "videoId": "yTeKTBe-oGM",
+   "duration": "2:57"
+  },
+  {
+   "title": "India",
+   "artist": "Sam Gendel;Benny Bock;Hans P. Kjorstad",
+   "album": "Dream Trio",
+   "videoId": "86X8fb5eHZ8",
+   "duration": "4:47"
+  },
+  {
+   "title": "? (Interlude)",
+   "artist": "RM;DOMi & JD BECK",
+   "album": "Right Place, Wrong Person",
+   "videoId": "eC1txOJS_pc",
+   "duration": "1:54"
+  },
+  {
+   "title": "Brakhage",
+   "artist": "Stereolab",
+   "album": "Dots And Loops",
+   "videoId": "OZA1vKv2SAk",
+   "duration": "5:31"
+  },
+  {
+   "title": "oh well",
+   "artist": "Ariana Grande",
+   "album": "petal",
+   "videoId": "4YQ06rGPfOc",
+   "duration": "3:17"
+  },
+  {
+   "title": "Five Hands Pt. 1",
+   "artist": "Telemakus, Swarvy, & SUMIN",
+   "album": "2054",
+   "videoId": "yPLhbHiipwM",
+   "duration": "1:38"
+  },
+  {
+   "title": "Give Me A Reason (For Lovin' You)",
+   "artist": "Majid Jordan",
+   "album": "Good People / Afterhours",
+   "videoId": "PIEUJ4w9yf8",
+   "duration": "5:49"
+  },
+  {
+   "title": "Family Garden (feat. Melanie Charles)",
+   "artist": "Dana and Alden",
+   "album": "Coyote, You're My Star",
+   "videoId": "hXm2izTM0cI",
+   "duration": "4:11"
+  },
+  {
+   "title": "Real's Not Real",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "Fishing for Fishies",
+   "videoId": "HFIitg0_Ij0",
+   "duration": "3:41"
   }
  ]
 }

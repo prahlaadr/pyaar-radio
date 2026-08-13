@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1505,
- "syncedAt": "2026-08-12T09:12:02.842236Z",
+ "trackCount": 1508,
+ "syncedAt": "2026-08-13T09:12:40.463901Z",
  "tracks": [
+  {
+   "title": "Family Garden (feat. Melanie Charles)",
+   "artist": "Dana and Alden",
+   "album": "Coyote, You're My Star",
+   "videoId": "hXm2izTM0cI",
+   "duration": "4:11"
+  },
+  {
+   "title": "Give Me A Reason (For Lovin' You)",
+   "artist": "Majid Jordan",
+   "album": "Good People / Afterhours",
+   "videoId": "PIEUJ4w9yf8",
+   "duration": "5:49"
+  },
+  {
+   "title": "All I Need",
+   "artist": "Lloyd",
+   "album": "All I Need",
+   "videoId": "15zse5jbU-Q",
+   "duration": "3:59"
+  },
   {
    "title": "hate that i made you love me",
    "artist": "Ariana Grande",
