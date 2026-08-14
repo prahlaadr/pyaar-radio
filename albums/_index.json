@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3538,
- "totalTracks": 45068,
- "syncedAt": "2026-08-13T09:12:33.284744Z",
+ "albumCount": 3541,
+ "totalTracks": 45105,
+ "syncedAt": "2026-08-14T09:07:36.798532Z",
  "albums": [
+  {
+   "browseId": "MPREb_nJfRs3O6GeW",
+   "title": "ANYWHERE HERE IS PERFECT (DELUXE)",
+   "artist": "Sam Gellaitry",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_v8d53Xtb2wV",
+   "title": "Pure Devotion",
+   "artist": "Overmono",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_9ljGV2vdzz6",
    "title": "Fishing for Fishies",
@@ -19485,6 +19497,12 @@
    "title": "VAYTRIX RELOADED",
    "artist": "Vayda",
    "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_CNI7At8aHeK",
+   "title": "Rangeela (Original Motion Picture Soundtrack)",
+   "artist": "A. R. Rahman & Mehboob",
+   "trackCount": 9
   },
   {
    "browseId": "MPREb_7zyOgyk8RqC",

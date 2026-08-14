@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2vsGj9OrlUISnPkOnlDaqa",
  "title": "2 X chromosomes",
  "trackCount": 256,
- "syncedAt": "2026-08-13T09:12:40.463901Z",
+ "syncedAt": "2026-08-14T09:07:41.108402Z",
  "tracks": [
   {
    "title": "On Your Own",
@@ -615,7 +615,7 @@
   },
   {
    "title": "Morni Banke",
-   "artist": "Guru Randhawa;Neha Kakkar",
+   "artist": "Guru Randhawa;Neha Kakkar;Tanishk Bagchi;Panjabi Mc",
    "album": "Badhaai Ho",
    "videoId": "rhkYIWsjQKk",
    "duration": "3:19"
@@ -642,16 +642,16 @@
    "duration": "3:27"
   },
   {
-   "title": "BADTAMEEZ DIL",
-   "artist": "BENNY DAYAL;SHEFALI ALVARES;PRITAM;AMITABH BHATTACHARYA",
-   "album": "YEH JAWAANI HAI DEEWANI",
+   "title": "Badtameez Dil",
+   "artist": "Pritam;Benny Dayal;Shefali Alvares;Amitabh Bhattacharya",
+   "album": "Yeh Jawaani Hai Deewani",
    "videoId": "pwKmLIPvEjI",
    "duration": "4:13"
   },
   {
-   "title": "BALAM PICHKARI",
-   "artist": "VISHAL DADLANI;SHALMALI KHOLGADE;PRITAM;AMITABH BHATTACHARYA",
-   "album": "YEH JAWAANI HAI DEEWANI",
+   "title": "Balam Pichkari",
+   "artist": "Pritam;Vishal Dadlani;Shalmali Kholgade;Amitabh Bhattacharya",
+   "album": "Yeh Jawaani Hai Deewani",
    "videoId": "d3nBjAuBmME",
    "duration": "4:49"
   },
@@ -684,9 +684,9 @@
    "duration": "5:07"
   },
   {
-   "title": "DILLIWAALI GIRLFRIEND",
-   "artist": "ARIJIT SINGH;SUNIDHI CHAUHAN;PRITAM;KUMAAR",
-   "album": "YEH JAWAANI HAI DEEWANI",
+   "title": "Dilliwaali Girlfriend",
+   "artist": "Pritam;Arijit Singh;Sunidhi Chauhan;Kumaar",
+   "album": "Yeh Jawaani Hai Deewani",
    "videoId": "y-eC2ExeFeQ",
    "duration": "4:21"
   },
