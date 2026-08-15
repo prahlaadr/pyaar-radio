@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3541,
- "totalTracks": 45105,
- "syncedAt": "2026-08-14T09:07:36.798532Z",
+ "albumCount": 3543,
+ "totalTracks": 45133,
+ "syncedAt": "2026-08-15T08:29:01.933302Z",
  "albums": [
+  {
+   "browseId": "MPREb_7ow4uzHBbHp",
+   "title": "Emotional Junglist",
+   "artist": "Nia Archives",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_O7TsmHQdFlL",
+   "title": "In Motion",
+   "artist": "Rubba",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_nJfRs3O6GeW",
    "title": "ANYWHERE HERE IS PERFECT (DELUXE)",
