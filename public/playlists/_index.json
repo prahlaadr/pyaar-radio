@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 277,
- "totalTracks": 105791,
- "syncedAt": "2026-08-15T08:29:05.279407Z",
+ "playlistCount": 279,
+ "totalTracks": 105801,
+ "syncedAt": "2026-08-16T08:29:39.504050Z",
  "playlists": [
+  {
+   "playlistId": "PLWGaVhzIrX9o",
+   "title": "001 Pyaar Carnathicc Dub",
+   "trackCount": 4
+  },
+  {
+   "playlistId": "PLZ3M7y8Ifh6o",
+   "title": "001 Pyaar Mood Ring",
+   "trackCount": 6
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
