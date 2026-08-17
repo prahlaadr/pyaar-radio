@@ -2,15 +2,8 @@
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
  "trackCount": 24,
- "syncedAt": "2026-08-16T08:29:39.504050Z",
+ "syncedAt": "2026-08-17T08:43:22.870475Z",
  "tracks": [
-  {
-   "title": "COOL !",
-   "artist": "Gami",
-   "album": "COOL !",
-   "videoId": "nKDfC7Hywc8",
-   "duration": "4:50"
-  },
   {
    "title": "Human Voice",
    "artist": "Four Tet",
@@ -171,6 +164,13 @@
    "album": "Fishing for Fishies",
    "videoId": "HFIitg0_Ij0",
    "duration": "3:41"
+  },
+  {
+   "title": "Beachy Head (Bonobo Mix)",
+   "artist": "Mechanical Me",
+   "album": "One Offs (Remixes & B Sides)",
+   "videoId": "iASDej2P2iU",
+   "duration": "3:48"
   }
  ]
 }

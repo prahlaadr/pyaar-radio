@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3543,
- "totalTracks": 45133,
- "syncedAt": "2026-08-16T08:29:36.600264Z",
+ "albumCount": 3546,
+ "totalTracks": 45182,
+ "syncedAt": "2026-08-17T08:43:19.724814Z",
  "albums": [
+  {
+   "browseId": "MPREb_6pfjWo9uutw",
+   "title": "Love Is Overtaking Me (Redux)",
+   "artist": "Arthur Russell",
+   "trackCount": 23
+  },
+  {
+   "browseId": "MPREb_HOCJNhTbimb",
+   "title": "Sunshine",
+   "artist": "Jungle",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_79tNnQR6A2f",
+   "title": "Papa's Boat",
+   "artist": "Dana and Alden",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_7ow4uzHBbHp",
    "title": "Emotional Junglist",
