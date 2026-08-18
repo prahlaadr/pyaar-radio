@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3546,
- "totalTracks": 45182,
- "syncedAt": "2026-08-17T08:43:19.724814Z",
+ "albumCount": 3545,
+ "totalTracks": 45173,
+ "syncedAt": "2026-08-18T08:37:19.567034Z",
  "albums": [
   {
    "browseId": "MPREb_6pfjWo9uutw",
@@ -17481,12 +17481,6 @@
    "title": "Back to the Woodlands",
    "artist": "Ernest Hood",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_YkrCg1lWPhw",
-   "title": "The Crying Nudes",
-   "artist": "The Crying Nudes",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_JSYafMb7Dwk",
