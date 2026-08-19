@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 279,
- "totalTracks": 105801,
- "syncedAt": "2026-08-18T08:37:22.541925Z",
+ "totalTracks": 103225,
+ "syncedAt": "2026-08-19T08:37:21.127233Z",
  "playlists": [
+  {
+   "playlistId": "PLZ3M7y8Ifh6o",
+   "title": "001 Pyaar Mood Ring",
+   "trackCount": 8
+  },
   {
    "playlistId": "PLSIgqqcwmXaY",
    "title": "Aug 26",
@@ -13,11 +18,6 @@
    "playlistId": "PLWGaVhzIrX9o",
    "title": "001 Pyaar Carnathicc Dub",
    "trackCount": 4
-  },
-  {
-   "playlistId": "PLZ3M7y8Ifh6o",
-   "title": "001 Pyaar Mood Ring",
-   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
@@ -1132,7 +1132,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1BWj6JLgte3GyRNgQYmnu3",
    "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 2578
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs2uLPjO4r_dnMpaBKFFgcQw",

@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3545,
- "totalTracks": 45173,
- "syncedAt": "2026-08-18T08:37:19.567034Z",
+ "albumCount": 3546,
+ "totalTracks": 45179,
+ "syncedAt": "2026-08-19T08:37:18.287220Z",
  "albums": [
+  {
+   "browseId": "MPREb_9FKtR2omfKk",
+   "title": "BL00MS",
+   "artist": "Machinedrum",
+   "trackCount": 6
+  },
   {
    "browseId": "MPREb_6pfjWo9uutw",
    "title": "Love Is Overtaking Me (Redux)",

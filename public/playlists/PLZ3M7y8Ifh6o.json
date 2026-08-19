@@ -1,8 +1,8 @@
 {
  "playlistId": "PLZ3M7y8Ifh6o",
  "title": "001 Pyaar Mood Ring",
- "trackCount": 6,
- "syncedAt": "2026-08-18T08:37:22.541925Z",
+ "trackCount": 8,
+ "syncedAt": "2026-08-19T08:37:21.127233Z",
  "tracks": [
   {
    "title": "Star (feat. Mono/Poly & Tanerélle)",
@@ -45,6 +45,20 @@
    "album": "Sitara",
    "videoId": "9k9VLd5eyyo",
    "duration": "4:06"
+  },
+  {
+   "title": "FADE AWAY",
+   "artist": "Machinedrum",
+   "album": "BL00MS",
+   "videoId": "P4a6fdI-8Uo",
+   "duration": "3:05"
+  },
+  {
+   "title": "Changuito",
+   "artist": "Mala",
+   "album": "Mala in Cuba",
+   "videoId": "bK6Hq6Xyv-g",
+   "duration": "4:24"
   }
  ]
 }
