@@ -2077,18 +2077,23 @@ export default function Home() {
                 <span className="ml-1.5 text-[#999]">{browserSetlistsList.length}</span>
               )}
             </button>
-            <button
-              onClick={() => { setTab("nts"); handleSelectArtist(null); }}
-              className={`px-3 py-1 text-[10px] uppercase tracking-wider font-bold transition-colors ${
-                tab === "nts"
-                  ? "bg-[#e32636] text-white"
-                  : "bg-[#111] text-[#888] hover:text-white"
-              }`}
-              title="Saved NTS hosts + episodes"
-            >
-              NTS
-            </button>
           </div>
+        </div>
+
+        {/* Platform sources — external accounts synced into Pyaar Radio */}
+        <div className="px-3 md:px-5 py-2 border-b border-[#222] flex items-center gap-1 flex-wrap">
+          <span className="text-[9px] uppercase tracking-wider text-[#555] mr-1.5">Sources</span>
+          <button
+            onClick={() => { setTab("nts"); handleSelectArtist(null); }}
+            className={`px-3 py-1 text-[10px] uppercase tracking-wider font-bold transition-colors ${
+              tab === "nts"
+                ? "bg-[#e32636] text-white"
+                : "bg-[#111] text-[#888] hover:text-white"
+            }`}
+            title="Saved NTS hosts + episodes"
+          >
+            NTS
+          </button>
         </div>
 
         {tab === "nts" ? (
