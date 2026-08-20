@@ -1,0 +1,41 @@
+name: Sync SoundCloud Likes
+
+on:
+  schedule:
+    - cron: '30 8 * * *'    # Daily, just after the NTS sync
+  workflow_dispatch:        # On-demand: run right after liking something on SoundCloud
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Sync SoundCloud likes
+        run: python scripts/sync_sc.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add public/data/sc.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "sync: update SoundCloud likes"
+          git push
