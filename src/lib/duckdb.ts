@@ -2,9 +2,16 @@ import * as duckdb from "@duckdb/duckdb-wasm";
 
 let db: duckdb.AsyncDuckDB | null = null;
 let conn: duckdb.AsyncDuckDBConnection | null = null;
-let initPromise: Promise<void> | null = null;
+// Two-phase init: the artist grid (first paint) only needs artists.csv, so it's
+// loaded and gated separately from the 9.7 MB / 84K-row masterlist. The masterlist
+// (plus tamil/ilaiyaraaja) loads in the background; any query that touches those
+// tables must await `masterlistPromise` (see `query()` / `ensureMasterlist()`).
+let artistsPromise: Promise<void> | null = null;
+let masterlistPromise: Promise<void> | null = null;
 
-async function init() {
+// Phase 1 — instantiate DuckDB and load only artists.csv (44 KB). Unblocks the
+// browse grid without waiting on the masterlist.
+async function initArtists() {
   // Use local WASM files copied by webpack plugin
   const MANUAL_BUNDLES: duckdb.DuckDBBundles = {
     mvp: {
@@ -23,42 +30,11 @@ async function init() {
   db = new duckdb.AsyncDuckDB(logger, worker);
   await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
 
-  // Fetch and register CSVs
-  const [artistsResp, masterlistResp] = await Promise.all([
-    fetch("/data/artists.csv"),
-    fetch("/data/masterlist.csv"),
-  ]);
-
+  const artistsResp = await fetch("/data/artists.csv");
   const artistsBufRaw = new Uint8Array(await artistsResp.arrayBuffer());
-  const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
-
   // Normalize line endings to \n — mixed \r\n and \n breaks DuckDB's strict parser
   const artistsBuf = artistsBufRaw.filter((b) => b !== 0x0d);
-
   await db.registerFileBuffer("artists.csv", artistsBuf);
-  await db.registerFileBuffer("masterlist.csv", masterlistBuf);
-
-  // Tamil CSV — non-blocking so failures don't break the main app
-  try {
-    const tamilResp = await fetch("/data/tamil.csv");
-    if (tamilResp.ok) {
-      const tamilBuf = new Uint8Array(await tamilResp.arrayBuffer());
-      await db.registerFileBuffer("tamil.csv", tamilBuf);
-    }
-  } catch {
-    console.warn("Failed to fetch tamil.csv");
-  }
-
-  // Ilaiyaraaja CSV — non-blocking
-  try {
-    const irResp = await fetch("/data/ilaiyaraaja.csv");
-    if (irResp.ok) {
-      const irBuf = new Uint8Array(await irResp.arrayBuffer());
-      await db.registerFileBuffer("ilaiyaraaja.csv", irBuf);
-    }
-  } catch {
-    console.warn("Failed to fetch ilaiyaraaja.csv");
-  }
 
   conn = await db.connect();
 
@@ -77,20 +53,55 @@ async function init() {
     )
     FROM read_csv('artists.csv', delim=',', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
-  await conn.query(`
-    CREATE TABLE masterlist AS SELECT * FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
+}
+
+// Phase 2 — load the masterlist (+ tamil/ilaiyaraaja) in the background. Requires
+// phase 1 to have created `conn`.
+async function initMasterlist() {
+  await artistsPromise;
+  const c = conn!;
+
+  const masterlistResp = await fetch("/data/masterlist.csv");
+  const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
+  await db!.registerFileBuffer("masterlist.csv", masterlistBuf);
+
+  // Tamil CSV — non-blocking so failures don't break the main app
+  try {
+    const tamilResp = await fetch("/data/tamil.csv");
+    if (tamilResp.ok) {
+      const tamilBuf = new Uint8Array(await tamilResp.arrayBuffer());
+      await db!.registerFileBuffer("tamil.csv", tamilBuf);
+    }
+  } catch {
+    console.warn("Failed to fetch tamil.csv");
+  }
+
+  // Ilaiyaraaja CSV — non-blocking
+  try {
+    const irResp = await fetch("/data/ilaiyaraaja.csv");
+    if (irResp.ok) {
+      const irBuf = new Uint8Array(await irResp.arrayBuffer());
+      await db!.registerFileBuffer("ilaiyaraaja.csv", irBuf);
+    }
+  } catch {
+    console.warn("Failed to fetch ilaiyaraaja.csv");
+  }
+
+  // Compute the lowercase-artist match column in the same pass as the load
+  // (one scan, vs a separate ALTER + full-table UPDATE rewrite).
+  await c.query(`
+    CREATE TABLE masterlist AS
+    SELECT *, ';' || LOWER("Artist Name(s)") || ';' AS _artists_lower
+    FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
   `);
-  // Add pre-computed lowercase artist column for faster matching
-  await conn.query(`ALTER TABLE masterlist ADD COLUMN _artists_lower VARCHAR`);
-  await conn.query(`UPDATE masterlist SET _artists_lower = ';' || LOWER("Artist Name(s)") || ';'`);
   // Ensure Bandcamp ID column exists (may be missing from CSV)
   try {
-    await conn.query(`ALTER TABLE masterlist ADD COLUMN "Bandcamp ID" VARCHAR DEFAULT ''`);
+    await c.query(`ALTER TABLE masterlist ADD COLUMN "Bandcamp ID" VARCHAR DEFAULT ''`);
   } catch { /* column already exists */ }
   // Ensure Liked Position column exists (added 2026-04 for ♥ Liked recency sort).
   // Empty until next sync runs and backfills.
   try {
-    await conn.query(`ALTER TABLE masterlist ADD COLUMN "Liked Position" VARCHAR DEFAULT ''`);
+    await c.query(`ALTER TABLE masterlist ADD COLUMN "Liked Position" VARCHAR DEFAULT ''`);
   } catch { /* column already exists */ }
   // Spotify-export hydration columns (added 2026-04-27). First Liked At is the
   // true date-liked timestamp (beats Liked Position which has YT Music's API
@@ -102,43 +113,67 @@ async function init() {
     "Spotify URI",
   ]) {
     try {
-      await conn.query(`ALTER TABLE masterlist ADD COLUMN "${col}" VARCHAR DEFAULT ''`);
+      await c.query(`ALTER TABLE masterlist ADD COLUMN "${col}" VARCHAR DEFAULT ''`);
     } catch { /* column already exists */ }
   }
   try {
     // Explicit params instead of read_csv_auto — auto-sniffing fails on CSVs with
     // embedded escaped quotes ("foo ""bar"" baz") on DuckDB WASM.
-    await conn.query(`
+    await c.query(`
       CREATE TABLE tamil AS SELECT * FROM read_csv('tamil.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
     `);
   } catch (e) {
     console.warn("Failed to load tamil.csv:", e);
-    await conn.query(`CREATE TABLE tamil (
+    await c.query(`CREATE TABLE tamil (
       "Track Name" VARCHAR, "Artist" VARCHAR, "Album" VARCHAR,
       "Tempo" VARCHAR, "Duration" VARCHAR, "Video ID" VARCHAR
     )`);
   }
   try {
-    await conn.query(`
+    await c.query(`
       CREATE TABLE ilaiyaraaja AS SELECT * FROM read_csv('ilaiyaraaja.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
     `);
   } catch (e) {
     console.warn("Failed to load ilaiyaraaja.csv:", e);
-    await conn.query(`CREATE TABLE ilaiyaraaja (
+    await c.query(`CREATE TABLE ilaiyaraaja (
       "Track Name" VARCHAR, "Film" VARCHAR, "Video ID" VARCHAR
     )`);
   }
 }
 
+// Resolves once artists.csv is loaded (phase 1). Kicks off the background
+// masterlist load (phase 2) as a side effect so it's ready by the time the user
+// clicks into a track view.
 export async function getConnection(): Promise<duckdb.AsyncDuckDBConnection> {
-  if (!initPromise) {
-    initPromise = init();
+  if (!artistsPromise) {
+    artistsPromise = initArtists();
+    masterlistPromise = artistsPromise.then(initMasterlist);
   }
-  await initPromise;
+  await artistsPromise;
   return conn!;
 }
 
+// Resolves once the masterlist/tamil/ilaiyaraaja tables exist (phase 2). Any query
+// that reads those tables must go through this (or through `query()`, which does).
+export async function ensureMasterlist(): Promise<duckdb.AsyncDuckDBConnection> {
+  if (!masterlistPromise) await getConnection();
+  await masterlistPromise;
+  return conn!;
+}
+
+// Full-fidelity query — waits for the masterlist so any table is safe to reference.
+// This is the safe default for every track-level query.
 export async function query<T = Record<string, unknown>>(
+  sql: string
+): Promise<T[]> {
+  const c = await ensureMasterlist();
+  const result = await c.query(sql);
+  return result.toArray().map((row) => row.toJSON() as T);
+}
+
+// Artists-only query — waits only for phase 1, so the browse grid renders without
+// blocking on the masterlist. Never reference masterlist/tamil/ilaiyaraaja here.
+export async function queryArtists<T = Record<string, unknown>>(
   sql: string
 ): Promise<T[]> {
   const c = await getConnection();

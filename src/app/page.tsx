@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
-import { query, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
+import { query, queryArtists, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
 import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery, buildLikedTracksQuery, buildAlbumTracksQuery } from "@/lib/queries";
 
 type SavedAlbum = { position: number | null; browseId: string; title: string; artist: string; year: string; trackCount: number };
@@ -490,7 +490,7 @@ export default function Home() {
   const fetchArtists = useCallback(async () => {
     try {
       const sql = buildArtistQuery(structuralFilters);
-      const rows = await query<{
+      const rows = await queryArtists<{
         artist: string;
         aliases: string | null;
         channel: string;
