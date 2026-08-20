@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 279,
- "totalTracks": 103225,
- "syncedAt": "2026-08-19T08:37:21.127233Z",
+ "totalTracks": 105809,
+ "syncedAt": "2026-08-20T08:38:29.328016Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1511
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
+   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
+   "trackCount": 40
+  },
   {
    "playlistId": "PLZ3M7y8Ifh6o",
    "title": "001 Pyaar Mood Ring",
@@ -18,11 +28,6 @@
    "playlistId": "PLWGaVhzIrX9o",
    "title": "001 Pyaar Carnathicc Dub",
    "trackCount": 4
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1509
   },
   {
    "playlistId": "PL5I_ZIj7O2U2c4cXDmFdy3xWVqUGYB0Ba",
@@ -123,11 +128,6 @@
    "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
    "title": "Southside Rami",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
-   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
-   "trackCount": 36
   },
   {
    "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
@@ -1132,7 +1132,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1BWj6JLgte3GyRNgQYmnu3",
    "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 0
+   "trackCount": 2578
   },
   {
    "playlistId": "PL6LTKg9AoNs2uLPjO4r_dnMpaBKFFgcQw",

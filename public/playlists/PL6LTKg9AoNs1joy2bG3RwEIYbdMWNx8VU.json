@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
  "title": "under the bridge (sway, wrist flick, nodders) (goated)",
- "trackCount": 36,
- "syncedAt": "2026-08-19T08:37:21.127233Z",
+ "trackCount": 40,
+ "syncedAt": "2026-08-20T08:38:29.328016Z",
  "tracks": [
   {
    "title": "right away",
@@ -255,6 +255,34 @@
    "album": "Pull Up",
    "videoId": "vp6HlCSIMhg",
    "duration": "2:36"
+  },
+  {
+   "title": "FADE AWAY",
+   "artist": "Machinedrum",
+   "album": "BL00MS",
+   "videoId": "P4a6fdI-8Uo",
+   "duration": "3:05"
+  },
+  {
+   "title": "Bone Mics",
+   "artist": "Overmono",
+   "album": "Cash Romantic",
+   "videoId": "KswwpMS2U9c",
+   "duration": "3:35"
+  },
+  {
+   "title": "Girl Like You",
+   "artist": "Chaos In The CBD",
+   "album": "Dusty Sundays",
+   "videoId": "HHWKfHRW8eQ",
+   "duration": "5:51"
+  },
+  {
+   "title": "Dancer",
+   "artist": "IDLES;LCD Soundsystem",
+   "album": "TANGK",
+   "videoId": "2q5DjsmeWOQ",
+   "duration": "3:10"
   }
  ]
 }

@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3546,
- "totalTracks": 45179,
- "syncedAt": "2026-08-19T08:37:18.287220Z",
+ "albumCount": 3548,
+ "totalTracks": 45194,
+ "syncedAt": "2026-08-20T08:38:25.722975Z",
  "albums": [
+  {
+   "browseId": "MPREb_eEsWAEdAoYI",
+   "title": "Alien Metal",
+   "artist": "King Gizzard & the Lizard Wizard",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_3CpSf1qnPIy",
+   "title": "lucre",
+   "artist": "Dean Blunt",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_9FKtR2omfKk",
    "title": "BL00MS",
