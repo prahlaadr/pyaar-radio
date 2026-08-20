@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import type { Track } from "@/lib/types";
 
 interface ScTrack {
@@ -59,6 +59,18 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   const [playlist, setPlaylist] = useState<ScPlaylist | null>(null);
   const [plTracks, setPlTracks] = useState<ScTrack[] | null>(null);
   const [loadingPl, setLoadingPl] = useState(false);
+  const [subtab, setSubtab] = useState<"likes" | "playlists">("likes");
+  const [q, setQ] = useState("");
+
+  const filteredLikes = useMemo(() => {
+    const likes = data?.likes || [];
+    const needle = q.trim().toLowerCase();
+    if (!needle) return likes;
+    return likes.filter((t) =>
+      t.title.toLowerCase().includes(needle) ||
+      t.user.toLowerCase().includes(needle) ||
+      t.genre.toLowerCase().includes(needle));
+  }, [data, q]);
 
   useEffect(() => {
     fetch("/data/sc.json")
@@ -135,30 +147,48 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
       )}
 
       {!playlist && (
-        <div className="p-5 space-y-6">
-          <section>
-            <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
-              Playlists <span className="text-[#555]">{data.playlists.length}</span>
-              <span className="text-[#555] normal-case tracking-normal ml-2">· click to open</span>
-            </h2>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-              {data.playlists.map((p) => (
-                <Card key={p.id} image={art(p.artwork)} title={p.title} subtitle={`${p.user} · ${p.trackCount}`}
-                  badge={p.isAlbum ? "Album" : undefined} onClick={() => openPlaylist(p)} />
-              ))}
-            </div>
-          </section>
+        <div>
+          {/* Subtabs */}
+          <div className="px-5 pt-4 pb-3 flex items-center gap-4 border-b border-[#222] sticky top-0 bg-background z-10">
+            {(["likes", "playlists"] as const).map((s) => (
+              <button key={s} onClick={() => setSubtab(s)}
+                className={`text-[11px] uppercase tracking-wider transition-colors ${
+                  subtab === s ? "text-white border-b-2 border-[#ff5500] pb-1" : "text-[#888] hover:text-white pb-1"
+                }`}>
+                {s === "likes" ? "Liked Tracks" : "Playlists"}
+                <span className="text-[#555] ml-1.5">{s === "likes" ? data.likes.length : data.playlists.length}</span>
+              </button>
+            ))}
+            {subtab === "likes" && (
+              <input
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                placeholder="Filter by title, artist, genre…"
+                className="ml-auto w-56 max-w-[45%] bg-[#111] border border-[#222] px-3 py-1 text-xs text-white placeholder-[#666] focus:outline-none focus:border-[#ff5500]"
+              />
+            )}
+          </div>
 
-          <section>
-            <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
-              Liked Tracks <span className="text-[#555]">{data.likes.length}</span>
-            </h2>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-              {data.likes.map((t) => (
-                <Card key={t.id} image={art(t.artwork)} title={t.title} subtitle={t.user} onClick={() => onPlay(scToTrack(t))} />
-              ))}
-            </div>
-          </section>
+          <div className="p-5">
+            {subtab === "likes" ? (
+              filteredLikes.length > 0 ? (
+                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+                  {filteredLikes.map((t) => (
+                    <Card key={t.id} image={art(t.artwork)} title={t.title} subtitle={t.user} onClick={() => onPlay(scToTrack(t))} />
+                  ))}
+                </div>
+              ) : (
+                <div className="text-[#888] text-xs py-8 text-center">No liked tracks match &ldquo;{q}&rdquo;.</div>
+              )
+            ) : (
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+                {data.playlists.map((p) => (
+                  <Card key={p.id} image={art(p.artwork)} title={p.title} subtitle={`${p.user} · ${p.trackCount}`}
+                    badge={p.isAlbum ? "Album" : undefined} onClick={() => openPlaylist(p)} />
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       )}
     </div>
