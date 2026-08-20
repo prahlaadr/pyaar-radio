@@ -43,6 +43,10 @@ export interface Track {
   videoId: string;
   soundcloudId: string;
   bandcampId: string;
+  // NTS episodes play in-place via the source NTS itself uses: a SoundCloud
+  // permalink (widget) or a Mixcloud feed path (widget). Set only for NTS tracks.
+  soundcloudUrl?: string;
+  mixcloudKey?: string;
   likedPosition?: number | null;
   releaseDate?: string;
   firstLikedAt?: string | null;

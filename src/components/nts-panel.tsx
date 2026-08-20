@@ -1,0 +1,188 @@
+"use client";
+
+import { useEffect, useState, useCallback } from "react";
+import type { Track } from "@/lib/types";
+
+interface AudioSource { url: string; source: string }
+interface NtsShow { alias: string; name: string; description: string; location: string; image: string | null; url: string }
+interface NtsEpisode {
+  show: string; alias: string; name: string; description: string; date: string;
+  location: string; image: string | null; audioSources: AudioSource[]; url: string;
+}
+interface NtsData { syncedAt: string; shows: NtsShow[]; episodes: NtsEpisode[] }
+
+// Build a player Track from an NTS episode, routing to the same source NTS uses
+// (SoundCloud permalink or Mixcloud feed). Returns null if the episode has no
+// playable audio yet (e.g. a show that just aired and isn't posted).
+function episodeToTrack(name: string, showName: string, sources: AudioSource[]): Track | null {
+  const src = sources?.[0];
+  if (!src) return null;
+  const base: Track = {
+    trackName: name, artistNames: showName, albumName: "NTS", genres: [],
+    tempo: 0, duration: "", key: 0, popularity: 0, videoId: "", soundcloudId: "", bandcampId: "",
+  };
+  if (src.source === "soundcloud") return { ...base, soundcloudUrl: src.url };
+  if (src.source === "mixcloud") {
+    try { return { ...base, mixcloudKey: new URL(src.url).pathname }; } catch { return null; }
+  }
+  return null;
+}
+
+function fmtDate(iso: string): string {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return isNaN(d.getTime()) ? "" : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+}
+
+function Card({ image, title, subtitle, badge, onClick, disabled }: {
+  image: string | null; title: string; subtitle?: string; badge?: string;
+  onClick?: () => void; disabled?: boolean;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className={`group text-left flex flex-col ${disabled ? "opacity-40 cursor-default" : "cursor-pointer"}`}
+    >
+      <div className="relative aspect-square w-full overflow-hidden bg-[#111]">
+        {image && (
+          <img src={image} alt="" loading="lazy"
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
+        )}
+        {badge && (
+          <span className="absolute top-1.5 left-1.5 px-1.5 py-0.5 text-[9px] uppercase tracking-wider bg-black/70 text-white">
+            {badge}
+          </span>
+        )}
+        {!disabled && (
+          <span className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/30">
+            <span className="text-white text-2xl">▶</span>
+          </span>
+        )}
+      </div>
+      <div className="mt-1.5 text-xs text-white leading-tight line-clamp-2">{title}</div>
+      {subtitle && <div className="text-[10px] text-[#888] mt-0.5 truncate">{subtitle}</div>}
+    </button>
+  );
+}
+
+export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
+  const [data, setData] = useState<NtsData | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [host, setHost] = useState<NtsShow | null>(null);
+  const [hostEpisodes, setHostEpisodes] = useState<NtsEpisode[] | null>(null);
+  const [loadingHost, setLoadingHost] = useState(false);
+
+  useEffect(() => {
+    fetch("/data/nts.json")
+      .then((r) => { if (!r.ok) throw new Error("nts.json not found"); return r.json(); })
+      .then(setData)
+      .catch((e) => setError(e.message));
+  }, []);
+
+  // Drill into a host: fetch its most recent episodes live from NTS's public API.
+  const openHost = useCallback(async (show: NtsShow) => {
+    setHost(show); setHostEpisodes(null); setLoadingHost(true);
+    try {
+      const r = await fetch(`https://www.nts.live/api/v2/shows/${show.alias}/episodes?limit=24`);
+      const j = await r.json();
+      const eps: NtsEpisode[] = (j.results || []).map((e: Record<string, unknown>) => ({
+        show: show.alias,
+        alias: (e.episode_alias as string) || "",
+        name: (e.name as string) || "",
+        description: (e.description as string) || "",
+        date: (e.broadcast as string) || "",
+        location: "",
+        image: pickImage(e.media as Record<string, string> | undefined),
+        audioSources: (e.audio_sources as AudioSource[]) || [],
+        url: `https://www.nts.live/shows/${show.alias}/episodes/${e.episode_alias}`,
+      }));
+      setHostEpisodes(eps);
+    } catch {
+      setHostEpisodes([]);
+    } finally {
+      setLoadingHost(false);
+    }
+  }, []);
+
+  const playEpisode = useCallback((ep: NtsEpisode) => {
+    const t = episodeToTrack(ep.name, ep.show, ep.audioSources);
+    if (t) onPlay(t);
+    else window.open(ep.url, "_blank"); // not yet posted → open on NTS
+  }, [onPlay]);
+
+  if (error) return <div className="flex-1 flex items-center justify-center text-[#888] text-sm">NTS: {error}</div>;
+  if (!data) return <div className="flex-1 flex items-center justify-center text-[#888] text-sm">Loading NTS favourites…</div>;
+
+  return (
+    <div className="flex-1 overflow-y-auto">
+      {/* Host drill-down overlay */}
+      {host && (
+        <div className="px-5 py-3 border-b border-[#222] bg-[#0a0a0a]">
+          <div className="flex items-center gap-3 mb-3">
+            <button onClick={() => { setHost(null); setHostEpisodes(null); }}
+              className="text-[10px] text-[#888] hover:text-white uppercase tracking-wider">← Hosts</button>
+            <div className="text-sm text-white">{host.name}</div>
+            {host.location && <div className="text-[10px] text-[#888]">{host.location}</div>}
+            <a href={host.url} target="_blank" rel="noreferrer" className="text-[10px] text-[#e32636] hover:underline ml-auto">Open on NTS ↗</a>
+          </div>
+          {loadingHost ? (
+            <div className="text-[#888] text-xs py-6">Loading recent episodes…</div>
+          ) : hostEpisodes && hostEpisodes.length > 0 ? (
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+              {hostEpisodes.map((ep) => {
+                const src = ep.audioSources?.[0]?.source;
+                return <Card key={ep.alias} image={ep.image} title={ep.name} subtitle={fmtDate(ep.date)}
+                  badge={src === "mixcloud" ? "Mixcloud" : undefined}
+                  disabled={!ep.audioSources?.length} onClick={() => playEpisode(ep)} />;
+              })}
+            </div>
+          ) : (
+            <div className="text-[#888] text-xs py-6">No recent episodes found.</div>
+          )}
+        </div>
+      )}
+
+      {!host && (
+        <div className="p-5 space-y-6">
+          <section>
+            <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
+              Hosts <span className="text-[#555]">{data.shows.length}</span>
+              <span className="text-[#555] normal-case tracking-normal ml-2">· click to dig into recent episodes</span>
+            </h2>
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+              {data.shows.map((s) => (
+                <Card key={s.alias} image={s.image} title={s.name} subtitle={s.location || undefined}
+                  onClick={() => openHost(s)} />
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
+              Saved Episodes <span className="text-[#555]">{data.episodes.length}</span>
+            </h2>
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
+              {data.episodes.map((ep) => {
+                const src = ep.audioSources?.[0]?.source;
+                return <Card key={`${ep.show}/${ep.alias}`} image={ep.image} title={ep.name}
+                  subtitle={fmtDate(ep.date)}
+                  badge={src === "mixcloud" ? "Mixcloud" : undefined}
+                  disabled={!ep.audioSources?.length} onClick={() => playEpisode(ep)} />;
+              })}
+            </div>
+          </section>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function pickImage(media?: Record<string, string>): string | null {
+  if (!media) return null;
+  for (const k of ["picture_medium_large", "picture_large", "background_large", "picture_medium"]) {
+    if (media[k]) return media[k];
+  }
+  return null;
+}

@@ -157,8 +157,9 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   const containerRef = useRef<HTMLDivElement>(null);
   const scIframeRef = useRef<HTMLIFrameElement>(null);
   const scWidgetRef = useRef<SCWidget | null>(null);
-  const activeSource = useRef<"youtube" | "soundcloud" | "bandcamp" | null>(null);
+  const activeSource = useRef<"youtube" | "soundcloud" | "bandcamp" | "mixcloud" | null>(null);
   const bcIframeRef = useRef<HTMLIFrameElement>(null);
+  const mcIframeRef = useRef<HTMLIFrameElement>(null);
   const bcEndTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const currentVideoId = useRef<string | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -340,6 +341,33 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     if (bcIframeRef.current) bcIframeRef.current.src = "";
   }, []);
 
+  const stopMixcloud = useCallback(() => {
+    if (mcIframeRef.current) mcIframeRef.current.src = "";
+  }, []);
+
+  // NTS episodes hosted on Mixcloud. Mimics NTS itself, which embeds the
+  // Mixcloud widget. Like Bandcamp, it's an embed iframe with no programmatic
+  // play/pause/seek. `feedKey` is the Mixcloud path, e.g. /NTSRadio/vayda-.../.
+  const playMixcloud = useCallback((feedKey: string) => {
+    try { playerRef.current?.pauseVideo(); } catch {}
+    try { scWidgetRef.current?.pause(); } catch {}
+    if (scIframeRef.current) scIframeRef.current.src = "";
+    scWidgetRef.current = null;
+    if (bcIframeRef.current) bcIframeRef.current.src = "";
+    activeSource.current = "mixcloud";
+    currentVideoId.current = null;
+    setCurrentTime(0);
+    setDuration(0);
+    setPlaying(true);
+    setError(null);
+    setIsSC(false);
+    setIsBC(true); // reuse BC's "external widget" UI treatment (no scrub/progress)
+    if (mcIframeRef.current) {
+      const feed = encodeURIComponent(feedKey);
+      mcIframeRef.current.src = `https://www.mixcloud.com/widget/iframe/?feed=${feed}&hide_cover=1&autoplay=1`;
+    }
+  }, []);
+
   const playBandcamp = useCallback((bcId: string, durationStr?: string) => {
     // Pause YouTube + SoundCloud if active
     try { playerRef.current?.pauseVideo(); } catch {}
@@ -387,10 +415,11 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     }
   }, [stopTracking]);
 
-  const playSoundCloud = useCallback((scId: string) => {
+  const playSoundCloud = useCallback((scIdOrUrl: string) => {
     // Pause YouTube + Bandcamp if active
     try { playerRef.current?.pauseVideo(); } catch {}
     stopBandcamp();
+    stopMixcloud();
     activeSource.current = "soundcloud";
     currentVideoId.current = null;
     setCurrentTime(0);
@@ -402,7 +431,10 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
     ensureSCAPI(() => {
       if (!scIframeRef.current) return;
-      const url = `https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F${scId}&auto_play=true&show_artwork=false&color=ff0000`;
+      // Accept either a numeric SC track id or a full soundcloud.com permalink
+      // (NTS episodes give permalinks). The widget resolves either.
+      const inner = /^https?:/.test(scIdOrUrl) ? scIdOrUrl : `https://api.soundcloud.com/tracks/${scIdOrUrl}`;
+      const url = `https://w.soundcloud.com/player/?url=${encodeURIComponent(inner)}&auto_play=true&show_artwork=false&color=ff0000`;
       scIframeRef.current.src = url;
 
       const widget = window.SC.Widget(scIframeRef.current);
@@ -437,8 +469,22 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
     if (t.videoId) {
       stopSoundCloud();
       stopBandcamp();
+      stopMixcloud();
       activeSource.current = "youtube";
       playVideoId(t.videoId);
+      return;
+    }
+
+    // 1b. NTS episode → play the exact source NTS uses (no YouTube search).
+    if (t.mixcloudKey) {
+      setSearching(false);
+      stopSoundCloud();
+      playMixcloud(t.mixcloudKey);
+      return;
+    }
+    if (t.soundcloudUrl) {
+      setSearching(false);
+      playSoundCloud(t.soundcloudUrl);
       return;
     }
 
@@ -480,7 +526,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       setError("Not found");
       setPlaying(false);
     }
-  }, [playVideoId, playSoundCloud, stopSoundCloud, playBandcamp, stopBandcamp]);
+  }, [playVideoId, playSoundCloud, stopSoundCloud, playBandcamp, stopBandcamp, playMixcloud, stopMixcloud]);
 
   useEffect(() => {
     if (!track) return;
@@ -494,14 +540,16 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       playerRef.current = null;
       stopSoundCloud();
       stopBandcamp();
+      stopMixcloud();
     };
-  }, [stopTracking, stopSoundCloud, stopBandcamp]);
+  }, [stopTracking, stopSoundCloud, stopBandcamp, stopMixcloud]);
 
   const handleClose = () => {
     stopTracking();
     playerRef.current?.pauseVideo();
     stopSoundCloud();
     stopBandcamp();
+    stopMixcloud();
     activeSource.current = null;
     currentVideoId.current = null;
     setError(null);
@@ -512,7 +560,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
   if (!track) return null;
 
   const handlePlayPause = () => {
-    if (activeSource.current === "bandcamp") return; // Bandcamp iframes don't support programmatic play/pause
+    if (activeSource.current === "bandcamp" || activeSource.current === "mixcloud") return; // external widget iframes: no programmatic play/pause
     if (activeSource.current === "soundcloud") {
       const w = scWidgetRef.current;
       if (!w) return;
@@ -627,6 +675,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
       {/* Hidden Bandcamp embed iframe */}
       <iframe
         ref={bcIframeRef}
+        src=""
+        className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
+        allow="autoplay"
+      />
+      {/* Hidden Mixcloud widget iframe (NTS episodes hosted on Mixcloud) */}
+      <iframe
+        ref={mcIframeRef}
         src=""
         className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
         allow="autoplay"
