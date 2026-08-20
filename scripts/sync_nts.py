@@ -125,8 +125,17 @@ def scrape_favourites():
         shows, episodes, seen_s, seen_e = [], [], set(), set()
         import re
         for path, kind in (("shows", "show"), ("episodes", "episode")):
-            page.goto(f"https://www.nts.live/my-nts/favourites/{path}", wait_until="networkidle")
-            page.wait_for_timeout(2500)
+            # NTS keeps persistent Firestore connections open, so "networkidle"
+            # never fires. Wait for DOM, then for the favourite anchors to render
+            # (they appear client-side once Firebase auth resolves).
+            page.goto(f"https://www.nts.live/my-nts/favourites/{path}", wait_until="domcontentloaded", timeout=60000)
+            if "/sign-in" in page.url:
+                sys.exit("auth failed: redirected to sign-in (NTS_REFRESH_TOKEN invalid/expired)")
+            try:
+                page.wait_for_selector("a[href*='/shows/']", timeout=25000)
+            except Exception:
+                pass  # an empty favourites list is legal — scrape whatever rendered
+            page.wait_for_timeout(1500)
             hrefs = page.eval_on_selector_all("a[href*='/shows/']", "els=>els.map(a=>a.getAttribute('href'))")
             for h in hrefs or []:
                 em = re.search(r"/shows/([^/]+)/episodes/([^/?#]+)", h or "")

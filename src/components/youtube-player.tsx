@@ -679,12 +679,13 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
         className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
         allow="autoplay"
       />
-      {/* Hidden Mixcloud widget iframe (NTS episodes hosted on Mixcloud) */}
+      {/* Hidden Mixcloud widget iframe (NTS episodes hosted on Mixcloud).
+          Mixcloud's player uses EME, so it needs encrypted-media delegated. */}
       <iframe
         ref={mcIframeRef}
         src=""
         className="absolute top-0 left-0 w-12 h-10 overflow-hidden opacity-0 pointer-events-none"
-        allow="autoplay"
+        allow="autoplay; encrypted-media"
       />
 
       {/* === Desktop: single row === */}
