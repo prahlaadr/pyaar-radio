@@ -1,0 +1,325 @@
+{
+  "syncedAt": "2026-08-20T19:40:51Z",
+  "shows": [
+    {
+      "alias": "yu-su",
+      "name": "Yu Su",
+      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
+      "location": "Kaifeng",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
+      "url": "https://www.nts.live/shows/yu-su"
+    },
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "otaku",
+      "name": "Otaku",
+      "description": "Anime and video game soundtrack music from across the decades.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4f50e8bb-3fac-474e-bc59-7736dfa7ac3d_1657584000.jpeg",
+      "url": "https://www.nts.live/shows/otaku"
+    },
+    {
+      "alias": "music-4-lovers",
+      "name": "Music 4 Lovers w/ Jabu & Andy Payback",
+      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
+      "location": "Bristol",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/96f7fce5-d784-4e2b-9f3a-93a105f0c8b8_1641600000.jpeg",
+      "url": "https://www.nts.live/shows/music-4-lovers"
+    },
+    {
+      "alias": "tana-yonas",
+      "name": "Wabi Sabi w/ Tana Yonas",
+      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
+      "url": "https://www.nts.live/shows/tana-yonas"
+    },
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "url": "https://www.nts.live/shows/in-focus"
+    },
+    {
+      "alias": "sic-records",
+      "name": "SIC Records",
+      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
+      "url": "https://www.nts.live/shows/sic-records"
+    },
+    {
+      "alias": "tommasi",
+      "name": "Tommasi",
+      "description": "In Iceland, Thomas Stankiewicz contemplates the constant flux of the elements. A composer & musician in his own right, he selectively weaves in between soundtracks, classical music, and evocative ambient sounds, symphonically unveiling untold stories from past and future…\n@tommmasi",
+      "location": "Iceland",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
+      "url": "https://www.nts.live/shows/tommasi"
+    },
+    {
+      "alias": "loraine-james",
+      "name": "Loraine James",
+      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
+      "url": "https://www.nts.live/shows/loraine-james"
+    },
+    {
+      "alias": "raji-rags",
+      "name": "Raji Rags",
+      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
+      "url": "https://www.nts.live/shows/raji-rags"
+    },
+    {
+      "alias": "homeshake",
+      "name": "Homeshake",
+      "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
+      "location": "Toronto",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/b48164c8-6a29-4404-ad0c-431eee21b146_1471910400.png",
+      "url": "https://www.nts.live/shows/homeshake"
+    },
+    {
+      "alias": "abby-imperial",
+      "name": "ABBY IMPERIAL",
+      "description": "The eclectic and diverse frequencies from a true East Bay Area native, Abby Imperial is ready to bring the soulful sounds of Rnb, g-funk, deep house, jungle & more..",
+      "location": "Oakland",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/55c1f87e-7dba-4f4d-a86d-b1a525810d4c_1731974400.jpeg",
+      "url": "https://www.nts.live/shows/abby-imperial"
+    },
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
+    },
+    {
+      "alias": "nabihah-iqbal",
+      "name": "Nabihah Iqbal ",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "url": "https://www.nts.live/shows/nabihah-iqbal"
+    },
+    {
+      "alias": "sendspaace",
+      "name": "Sendspaace ",
+      "description": "Jamie Hudson brings a monthly hour of hyper-terrestial, futuristic sounds straight from the information superhighway.",
+      "location": "Stockholm",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/c0e55b42-f813-4fd9-bbae-e71b84750674_1509580800.jpeg",
+      "url": "https://www.nts.live/shows/sendspaace"
+    },
+    {
+      "alias": "sacred-space",
+      "name": "Sacred Space w/ Radha",
+      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
+      "url": "https://www.nts.live/shows/sacred-space"
+    },
+    {
+      "alias": "coltrane-day",
+      "name": "Coltrane Day",
+      "description": "NTS presents a special all-day broadcast dedicated to one of the most influential and acclaimed figures in the history of jazz and 20th century music: John Coltrane.\nAcross 12 hours of radio, we're enlisting the help of admirers and collaborators of Coltrane - We explore his musical beginnings, influences, and notable eras of his prolific composing and performing life. Featuring interviews and explorations by noted Coltrane experts, admirers, and NTS residents, including music journalist Ben Ratliff and Coltrane's jazz contemporary Ron Carter.",
+      "location": "North Carolina",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/47d58ce3-7b9c-4be1-ba5d-9f57467f738b_1695168000.jpeg",
+      "url": "https://www.nts.live/shows/coltrane-day"
+    }
+  ],
+  "episodes": [
+    {
+      "show": "impey",
+      "alias": "impey-20th-august-2026",
+      "name": "Ghost Notes Worldwide W/ Nicky Soft Touch",
+      "description": "Tune into Ghost Notes Worldwide for that post-twilight sound. Night time music of all strains, with blunted R&B and hip hop instrumentals, neo-downtempo productions, slow jams, and hazy dancefloor sounds.",
+      "date": "2026-08-20T19:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/ce0a5a29-509f-4618-9c7b-58991f1c218e_1787184000.jpeg",
+      "audioSources": [],
+      "url": "https://www.nts.live/shows/impey/episodes/impey-20th-august-2026"
+    },
+    {
+      "show": "dark-entries-record",
+      "alias": "dark-entries-record-20th-august-2026",
+      "name": "DARK ENTRIES w/ Josh Cheon",
+      "description": "Dark Entries reissues archival and contemporary gems that prove to be crucial to our modern idea of bodily music that exists out of time. Electro, italo, cold wave, new beat, house, techno from a one-of-a-kind digger who visits dusty basements to rescue lost tapes.",
+      "date": "2026-08-20T19:00:00+00:00",
+      "location": "San Francisco",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/dc481e5c-9106-44af-bb2f-e1e5092ffcae_1787184000.jpeg",
+      "audioSources": [],
+      "url": "https://www.nts.live/shows/dark-entries-record/episodes/dark-entries-record-20th-august-2026"
+    },
+    {
+      "show": "guests",
+      "alias": "a-k-paul---landcruisin-10y-and-the-dawn-of-organic-systems-9th-april-2026",
+      "name": "A. K. PAUL  - LANDCRUISIN' 10Y AND THE DAWN OF ORGANIC SYSTEMS",
+      "description": "A. K. Paul celebrates the 10 year anniversary of Paul Institute classic “Landcruisin’”, and the dawn of new label Organic Systems, with a guest mix featuring a full hour of A. K. Paul business – including unheard album cuts, tracks from the archive and more.",
+      "date": "2026-05-01T18:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/1dbcf7d0-db6b-437a-9e7b-84042f39eec8_1775606400.jpeg",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-202286394-991268468/a-k-paul-landcruisin-10y-and?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/guests/episodes/a-k-paul---landcruisin-10y-and-the-dawn-of-organic-systems-9th-april-2026"
+    },
+    {
+      "show": "sacred-space",
+      "alias": "sacred-space-31st-january-2026",
+      "name": "Sacred Space w/ Radha",
+      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
+      "date": "2026-01-31T00:00:00+00:00",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/c6b9ff5d-8946-4d7c-92a9-c348ec374d32_1769731200.jpeg",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-202286394-991268468/sacred-space-w-radha-310126?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/sacred-space/episodes/sacred-space-31st-january-2026"
+    },
+    {
+      "show": "the-nts-guide-to",
+      "alias": "the-nts-guide-to-indian-classical-influence-on-jazz-26th-may-2025",
+      "name": "NTS Guide to: Indian Classical Influence on Jazz",
+      "description": "In the mid-1950s musicians such as Yusuf Lateef and John Coltrane started to use instruments, structure and patterns based on traditional Indian music.  Artists sought to expand the boundaries of jazz by incorporating the modal structures, improvisational depth, and spiritual ethos of Indian music. Listen to two hours of Jazz inspired by Indian Classical.",
+      "date": "2025-05-26T10:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/ac5c6d1d-6022-40c7-9f89-206d295a5962_1751241600.png",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/nts-guide-to-indian-classical",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/the-nts-guide-to/episodes/the-nts-guide-to-indian-classical-influence-on-jazz-26th-may-2025"
+    },
+    {
+      "show": "guests",
+      "alias": "baalti-19th-february-2025",
+      "name": "BAALTI",
+      "description": "Indian-born, Brooklyn-based duo Baalti chart a path from UK-inspired club sounds to the vibrant musical traditions of West Bengal and Delhi, shining a light on the vivid and explosive rhythms of Indian soundsystem culture and it's impact on contemporary club sounds.",
+      "date": "2025-02-19T20:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4e6cf5a5-2fb0-41d1-8da0-8e80428b375d_1739923200.jpeg",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/baalti-190225",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/guests/episodes/baalti-19th-february-2025"
+    },
+    {
+      "show": "soup-to-nuts-anu",
+      "alias": "soup-to-nuts-anu-7th-january-2025",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "date": "2025-01-07T11:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0486a0ae-53d7-47d8-baf3-1d4a7664415d_1737331200.png",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/soup-to-nuts-w-anu-070125",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-7th-january-2025"
+    },
+    {
+      "show": "guests",
+      "alias": "vayda-28th-january-2025",
+      "name": "Vayda",
+      "description": "The in-demand Atlanta rapper / producer returns to NTS with another jam-packed hour or R&B and rap new and old, also featuring some new and unreleased original tracks.",
+      "date": "2025-01-28T17:00:00+00:00",
+      "location": "ATLANTA",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/d26876fd-df3a-4dd3-b814-5f61419f1e69_1737417600.jpeg",
+      "audioSources": [
+        {
+          "url": "https://www.mixcloud.com/NTSRadio/vayda-28th-january-2025/",
+          "source": "mixcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/guests/episodes/vayda-28th-january-2025"
+    },
+    {
+      "show": "nabihah-iqbal",
+      "alias": "nabihah-iqbal-6th-april-2021",
+      "name": "Nabihah Iqbal - Flute Special",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Every other Tuesday, midday-1pm. You can listen back to previous Throwing Shade episodes here\nImage credit: Bobbi Humphrey [ GAB Archive / Contributor] via Getty Images",
+      "date": "2021-04-06T11:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/950a4dde-82d5-4919-8ff1-cfe7c186a0d6_1617753600.jpeg",
+      "audioSources": [
+        {
+          "url": "https://www.mixcloud.com/NTSRadio/nabihah-iqbal-flute-special-6th-april-2021/",
+          "source": "mixcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/nabihah-iqbal/episodes/nabihah-iqbal-6th-april-2021"
+    },
+    {
+      "show": "homeshake",
+      "alias": "homeshake-25th-september-2024",
+      "name": "Homeshake - The Same Dream",
+      "description": "Homeshake serves up an hour of original material this month - 'mostly built from juno 60 loops, movie samples, field recordings, and a little bit of singing and talking.'",
+      "date": "2024-09-25T18:00:00+00:00",
+      "location": "Toronto",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/05233705-81e9-4434-bcc2-315d0ef65950_1727136000.jpeg",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/homeshake-the-same-dream",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/homeshake/episodes/homeshake-25th-september-2024"
+    },
+    {
+      "show": "otaku",
+      "alias": "ostaku-legend-of-zelda-1st-may-2021",
+      "name": "Otaku: Legend of Zelda",
+      "description": "Thierry Phung selects some of the best soundtrack cuts from Nintendo's iconic Legend of Zelda series.",
+      "date": "2020-04-30T23:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/1c689b47-2dd8-4a27-bb2a-14a343963fbf_1588291200.png",
+      "audioSources": [
+        {
+          "url": "https://www.mixcloud.com/NTSRadio/ostaku-legend-of-zelda-1st-may-2020/",
+          "source": "mixcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/otaku/episodes/ostaku-legend-of-zelda-1st-may-2021"
+    },
+    {
+      "show": "sic-records",
+      "alias": "lil-creep-shows-crazy-house-20th-february-2019",
+      "name": "Lil Creep Shows Crazy House: J Dilla Special",
+      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.",
+      "date": "2019-02-21T04:00:00+00:00",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
+      "audioSources": [
+        {
+          "url": "https://www.mixcloud.com/NTSRadio/lil-creep-shows-crazy-house-j-dilla-special-20th-february-2019/",
+          "source": "mixcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/sic-records/episodes/lil-creep-shows-crazy-house-20th-february-2019"
+    }
+  ]
+}

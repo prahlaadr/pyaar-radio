@@ -1,0 +1,48 @@
+name: Sync NTS Favourites
+
+on:
+  schedule:
+    - cron: '0 8 * * *'    # Daily at 4 AM EST (UTC-4) — a while after you've saved the day's finds
+  workflow_dispatch:        # On-demand: run it right after saving something new on NTS
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Sync NTS favourites
+        env:
+          NTS_REFRESH_TOKEN: ${{ secrets.NTS_REFRESH_TOKEN }}
+        run: python scripts/sync_nts.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add public/data/nts.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "sync: update NTS favourites"
+          git push
