@@ -79,39 +79,20 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
       .catch((e) => setError(e.message));
   }, []);
 
-  // Drill into a playlist: fetch its tracks, hydrating the id-only entries.
+  // Drill into a playlist. api-v2 blocks cross-origin fetches, so tracks come
+  // through our server-side proxy (/api/sc-playlist).
   const openPlaylist = useCallback(async (pl: ScPlaylist) => {
     setPlaylist(pl); setPlTracks(null); setLoadingPl(true);
-    const cid = data?.clientId;
-    // Map a raw api-v2 track object (artwork_url / permalink_url / user.username)
-    // to our compact ScTrack shape.
-    type RawTrack = { id: number; title?: string; artwork_url?: string; permalink_url?: string;
-      duration?: number; genre?: string; streamable?: boolean; user?: { username?: string } };
-    const toSc = (t: RawTrack): ScTrack => ({
-      id: t.id, title: t.title || "", user: t.user?.username || "", artwork: t.artwork_url || null,
-      permalink: t.permalink_url || "", duration: t.duration || 0, genre: t.genre || "", streamable: !!t.streamable,
-    });
     try {
-      const detail = await fetch(`https://api-v2.soundcloud.com/playlists/${pl.id}?client_id=${cid}`).then((r) => r.json());
-      const raw: RawTrack[] = (detail.tracks || []).slice(0, 100);
-      const hydrated: RawTrack[] = raw.filter((t) => t.title);
-      const missing = raw.filter((t) => !t.title).map((t) => t.id);
-      // Resolve id-only tracks in batches of 50.
-      for (let i = 0; i < missing.length; i += 50) {
-        const ids = missing.slice(i, i + 50).join(",");
-        const got = await fetch(`https://api-v2.soundcloud.com/tracks?ids=${ids}&client_id=${cid}`).then((r) => r.json());
-        hydrated.push(...(got || []));
-      }
-      // Preserve playlist order.
-      const order = new Map(raw.map((t, i) => [t.id, i]));
-      hydrated.sort((a, b) => (order.get(a.id) ?? 999) - (order.get(b.id) ?? 999));
-      setPlTracks(hydrated.map(toSc));
+      const r = await fetch(`/api/sc-playlist?id=${pl.id}`);
+      const j = await r.json();
+      setPlTracks(j.tracks || []);
     } catch {
       setPlTracks([]);
     } finally {
       setLoadingPl(false);
     }
-  }, [data]);
+  }, []);
 
   if (error) return <div className="flex-1 flex items-center justify-center text-[#888] text-sm">SoundCloud: {error}</div>;
   if (!data) return <div className="flex-1 flex items-center justify-center text-[#888] text-sm">Loading SoundCloud…</div>;
