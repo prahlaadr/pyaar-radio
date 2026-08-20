@@ -18,11 +18,14 @@ function art(url: string | null): string | null {
   return url ? url.replace("-large.", "-t500x500.") : null;
 }
 
-// A liked SC track → a player Track. Plays via the existing SC widget (numeric id).
+// A liked SC track → a player Track. Route via soundcloudUrl (the permalink) so
+// the player hands it straight to the SC widget — playTrack checks soundcloudUrl
+// BEFORE its YouTube-search fallback, which a bare numeric soundcloudId would hit.
 function scToTrack(t: ScTrack): Track {
   return {
     trackName: t.title, artistNames: t.user, albumName: "SoundCloud", genres: t.genre ? [t.genre] : [],
     tempo: 0, duration: "", key: 0, popularity: 0, videoId: "", soundcloudId: String(t.id), bandcampId: "",
+    soundcloudUrl: t.permalink || undefined,
   };
 }
 
@@ -68,10 +71,18 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   const openPlaylist = useCallback(async (pl: ScPlaylist) => {
     setPlaylist(pl); setPlTracks(null); setLoadingPl(true);
     const cid = data?.clientId;
+    // Map a raw api-v2 track object (artwork_url / permalink_url / user.username)
+    // to our compact ScTrack shape.
+    type RawTrack = { id: number; title?: string; artwork_url?: string; permalink_url?: string;
+      duration?: number; genre?: string; streamable?: boolean; user?: { username?: string } };
+    const toSc = (t: RawTrack): ScTrack => ({
+      id: t.id, title: t.title || "", user: t.user?.username || "", artwork: t.artwork_url || null,
+      permalink: t.permalink_url || "", duration: t.duration || 0, genre: t.genre || "", streamable: !!t.streamable,
+    });
     try {
       const detail = await fetch(`https://api-v2.soundcloud.com/playlists/${pl.id}?client_id=${cid}`).then((r) => r.json());
-      const raw: ScTrack[] = (detail.tracks || []).slice(0, 100);
-      const hydrated = raw.filter((t) => t.title);
+      const raw: RawTrack[] = (detail.tracks || []).slice(0, 100);
+      const hydrated: RawTrack[] = raw.filter((t) => t.title);
       const missing = raw.filter((t) => !t.title).map((t) => t.id);
       // Resolve id-only tracks in batches of 50.
       for (let i = 0; i < missing.length; i += 50) {
@@ -81,11 +92,8 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
       }
       // Preserve playlist order.
       const order = new Map(raw.map((t, i) => [t.id, i]));
-      hydrated.sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0));
-      setPlTracks(hydrated.map((t) => ({
-        id: t.id, title: t.title, user: (t.user as unknown as { username?: string })?.username || t.user || "",
-        artwork: t.artwork, permalink: t.permalink, duration: t.duration, genre: t.genre, streamable: t.streamable,
-      })));
+      hydrated.sort((a, b) => (order.get(a.id) ?? 999) - (order.get(b.id) ?? 999));
+      setPlTracks(hydrated.map(toSc));
     } catch {
       setPlTracks([]);
     } finally {
