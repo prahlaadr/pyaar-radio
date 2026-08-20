@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-20T20:49:58Z",
+  "syncedAt": "2026-08-20T20:56:04Z",
   "shows": [
     {
       "alias": "yu-su",
@@ -136,295 +136,9 @@
       "location": "North Carolina",
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/47d58ce3-7b9c-4be1-ba5d-9f57467f738b_1695168000.jpeg",
       "url": "https://www.nts.live/shows/coltrane-day"
-    },
-    {
-      "alias": "guests",
-      "name": "Guests",
-      "description": "Special guest shows from around the world.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/d630068c-82f8-45ff-9b3d-853e09cbc612_1746576000.jpeg",
-      "url": "https://www.nts.live/shows/guests"
     }
   ],
   "episodes": [
-    {
-      "show": "impey",
-      "alias": "impey-20th-august-2026",
-      "name": "Ghost Notes Worldwide W/ Nicky Soft Touch",
-      "description": "Tune into Ghost Notes Worldwide for that post-twilight sound. Night time music of all strains, with blunted R&B and hip hop instrumentals, neo-downtempo productions, slow jams, and hazy dancefloor sounds.",
-      "date": "2026-08-20T19:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/ce0a5a29-509f-4618-9c7b-58991f1c218e_1787184000.jpeg",
-      "audioSources": [],
-      "url": "https://www.nts.live/shows/impey/episodes/impey-20th-august-2026"
-    },
-    {
-      "show": "piper-durabo",
-      "alias": "piper-durabo-20th-august-2026",
-      "name": "Kiss Cafe: Summer Love-In w/ Maraschino",
-      "description": "Piper Durabo AKA Maraschino serves up an assortment of hyperdelic jams from her NYC HQ",
-      "date": "2026-08-20T20:00:00+00:00",
-      "location": "New York",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/e7344bc5-49a6-4fd4-8669-8c31465ea26f_1787184000.jpeg",
-      "audioSources": [],
-      "url": "https://www.nts.live/shows/piper-durabo/episodes/piper-durabo-20th-august-2026"
-    },
-    {
-      "show": "yu-su",
-      "alias": "yu-su-18th-august-2026",
-      "name": "Yu Su",
-      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
-      "date": "2026-08-18T16:00:00+00:00",
-      "location": "Kaifeng",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0e926cc7-ae2e-46fd-915c-0a249fdb0fe8_1787011200.png",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/yu-su-180826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/yu-su/episodes/yu-su-18th-august-2026"
-    },
-    {
-      "show": "the-nts-guide-to",
-      "alias": "the-nts-guide-to-rebetiko-18th-august-2026",
-      "name": "NTS Guide to: Rebetiko",
-      "description": "Birthed in the port cities of Thessaloniki and Piraeus in the 1800s, Rebetiko is Greece's answer to the blues – a popular folk music that tells tales of love, loss, and the daily hardships of the common man. \nSelected and mixed by Aki Yamouridis.",
-      "date": "2026-08-17T23:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/2bf1113e-3f2c-4c14-8b5f-0b8164d09d13_1786492800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/nts-guide-to-rebetiko-180826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/the-nts-guide-to/episodes/the-nts-guide-to-rebetiko-18th-august-2026"
-    },
-    {
-      "show": "otaku",
-      "alias": "otaku-donkey-kong-ost-17th-august-2026",
-      "name": "Otaku: Donkey Kong Country OST",
-      "description": "Soundtrack selections from the classic Donkey Kong Country series of video games.",
-      "date": "2026-08-17T15:00:00+00:00",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/be33fb8e-eac5-40a5-a351-951beb4e39ec_1786924800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/otaku-donkey-kong-country-ost?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/otaku/episodes/otaku-donkey-kong-ost-17th-august-2026"
-    },
-    {
-      "show": "music-4-lovers",
-      "alias": "music-4-lovers-15th-august-2026",
-      "name": "Music 4 Lovers w/ Regina Collage",
-      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.\nFrom the host: \"dream pop, post punk and exclusive tracks with special guest Regina Collage ahead of her upcoming debut album 'Horizont' due to be released by Do You Have Peace?\"",
-      "date": "2026-08-15T17:00:00+00:00",
-      "location": "Bristol",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/d0e7273a-ec3c-486e-a45b-11570709dcc8_1786665600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/music-4-lovers-w-regina?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/music-4-lovers/episodes/music-4-lovers-15th-august-2026"
-    },
-    {
-      "show": "tana-yonas",
-      "alias": "tana-yonas-14th-august-2026",
-      "name": "Wabi Sabi w/ Tana Yonas",
-      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
-      "date": "2026-08-14T20:00:00+00:00",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/f6bcd7cc-21c4-4aa5-86ed-112734018390_1786665600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/wabi-sabi-w-tana-yonas-140826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/tana-yonas/episodes/tana-yonas-14th-august-2026"
-    },
-    {
-      "show": "in-focus",
-      "alias": "in-focus-cecil-taylor-14th-august-2026",
-      "name": "In Focus: Cecil Taylor",
-      "description": "Soon after he first emerged in the mid-’50s, pianist Cecil Taylor was the most advanced improviser in jazz; five decades later he is still the most radical. Although in his early days he used some standards as vehicles for improvisation, since the early ’60s Taylor has stuck exclusively to originals. To simplify describing his style, one could say that Taylor’s intense atonal percussive approach involves playing the piano as if it were a set of drums. He generally emphasizes dense clusters of sound played with remarkable technique and endurance, often during marathon performances. Suffice it to say that Cecil Taylor’s music is not for everyone.\" - Blue Note\nCreated by Claire Rousay",
-      "date": "2026-08-14T10:00:00+00:00",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/ca532b14-0e37-4b78-9303-7d363679e808_1786492800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/in-focus-cecil-taylor-140826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/in-focus/episodes/in-focus-cecil-taylor-14th-august-2026"
-    },
-    {
-      "show": "sic-records",
-      "alias": "sic-records-13th-august-2026",
-      "name": "SIC Records",
-      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.\n\"Celebrating the second flagship release of SIC RECORDS signature sound - PLAYAWAVE\"\n\"Playawave Vol. 2 blends smooth jazz, R&B, vaporwave, and G-funk into another deep late-night experience.\"",
-      "date": "2026-08-13T00:00:00+00:00",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/715d9137-c023-4285-b1cd-8354aa7057df_1786492800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/sic-records-130826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/sic-records/episodes/sic-records-13th-august-2026"
-    },
-    {
-      "show": "tommasi",
-      "alias": "tommasi-9th-august-2026",
-      "name": "Tommasi - Summer Special ",
-      "description": "In Iceland, Thomas Stankiewicz contemplates the constant flux of the elements. A composer & musician in his own right, he selectively weaves in between soundtracks, classical music, and evocative ambient sounds, symphonically unveiling untold stories from past and future…\n@tommmasi",
-      "date": "2026-08-09T11:00:00+00:00",
-      "location": "Iceland",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/tommasi-summer-special-090826?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/tommasi/episodes/tommasi-9th-august-2026"
-    },
-    {
-      "show": "loraine-james",
-      "alias": "loraine-james-4th-august-2026",
-      "name": "Loraine James - live at Silent Green ",
-      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.\nFrom the host: \"live set from moi with distorted audio\"",
-      "date": "2026-08-04T13:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/2418ec8d-ef9c-4b52-87d1-0eab0e1e2817_1785801600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/loraine-james-live-at-silent?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/loraine-james/episodes/loraine-james-4th-august-2026"
-    },
-    {
-      "show": "raji-rags",
-      "alias": "raji-rags-31st-july-2026",
-      "name": "Raji Rags w/ Vigro Deep & Aayna",
-      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
-      "date": "2026-07-31T12:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/raji-rags-w-vigro-deep-aayna?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/raji-rags/episodes/raji-rags-31st-july-2026"
-    },
-    {
-      "show": "homeshake",
-      "alias": "homeshake-29th-july-2026",
-      "name": "Homeshake",
-      "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.\nFrom the host: \"I went mothing a couple weeks ago this show is about moths\"",
-      "date": "2026-07-29T18:00:00+00:00",
-      "location": "Toronto",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/549b1e0d-bcff-4214-bd79-ebc0c231cd57_1785283200.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/homeshake-290726?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/homeshake/episodes/homeshake-29th-july-2026"
-    },
-    {
-      "show": "abby-imperial",
-      "alias": "abby-imperial-28th-july-2026",
-      "name": "ABBY IMPERIAL w/ The Alaia",
-      "description": "The eclectic and diverse frequencies from a true East Bay Area native, Abby Imperial is ready to bring the soulful sounds of Rnb, g-funk, deep house, jungle & more..\nFrom the host: \"Special collaborative mix with the lovely Alaia! You may know her from her own show on NTS, Day Care. We made an all-women artists mix for y'all, so please enjoy! Much love from the Bay to LA! <3\"",
-      "date": "2026-07-28T22:00:00+00:00",
-      "location": "Oakland",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0fd77e64-bd8c-49ea-9565-f1563861b59b_1785196800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/abby-imperial-w-the-alaia?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/abby-imperial/episodes/abby-imperial-28th-july-2026"
-    },
-    {
-      "show": "soup-to-nuts-anu",
-      "alias": "soup-to-nuts-anu-14th-july-2026",
-      "name": "Soup To Nuts w/ Anu - We're On The Beach",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "date": "2026-07-14T10:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/soup-to-nuts-w-anu-were-on-the?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu/episodes/soup-to-nuts-anu-14th-july-2026"
-    },
-    {
-      "show": "nabihah-iqbal",
-      "alias": "nabihah-iqbal-4th-july-2026",
-      "name": "Nabihah Iqbal ",
-      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
-      "date": "2026-07-04T13:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/nabihah-iqbal-040726?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/nabihah-iqbal/episodes/nabihah-iqbal-4th-july-2026"
-    },
-    {
-      "show": "sendspaace",
-      "alias": "sendspaace-20th-june-2026",
-      "name": "Sendspaace - 10TH ANNIVERSARY SPECIAL w/ Sharp Veins",
-      "description": "Jamie Hudson brings a monthly hour of hyper-terrestial, futuristic sounds straight from the information superhighway.\nFrom the host: \"Celebrating 10 years of Sendspaace with a collaborative mix featuring Sharp Veins. Out to the listeners <3\"",
-      "date": "2026-06-20T18:00:00+00:00",
-      "location": "Stockholm",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/cd58a976-2358-4db0-b0f5-6a02abcf462a_1781827200.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/sendspaace-10th-anniversary?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/sendspaace/episodes/sendspaace-20th-june-2026"
-    },
-    {
-      "show": "sacred-space",
-      "alias": "sacred-space-20th-june-2026",
-      "name": "Sacred Space w/ Radha",
-      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.\nFrom the host: \"lock in this month to a dark, dubby, glitchy, other worldly ep of sacred space… ft a sample from a youtube ab workout that bangs\nx\"",
-      "date": "2026-06-19T23:00:00+00:00",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/433ad39f-fc63-49c3-a995-577f3340c42a_1781913600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/sacred-space-w-radha-200626?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/sacred-space/episodes/sacred-space-20th-june-2026"
-    },
     {
       "show": "guests",
       "alias": "a-k-paul---landcruisin-10y-and-the-dawn-of-organic-systems-9th-april-2026",
@@ -440,102 +154,6 @@
         }
       ],
       "url": "https://www.nts.live/shows/guests/episodes/a-k-paul---landcruisin-10y-and-the-dawn-of-organic-systems-9th-april-2026"
-    },
-    {
-      "show": "guests",
-      "alias": "truant-20th-january-2026",
-      "name": "Truant",
-      "description": "A fresh take on dubstep from London producer Truant.",
-      "date": "2026-01-20T20:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/f32e4dfb-0fdd-44f8-b406-be6d3b5341b1_1768780800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-202286394-991268468/truant-200126?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/guests/episodes/truant-20th-january-2026"
-    },
-    {
-      "show": "guests",
-      "alias": "say-red-tell-the-truth-25th-may-2025",
-      "name": "Ss.Sylver: Say Red Tell The Truth",
-      "description": "“A selection of songs Based on A True Story by: Audrey…”",
-      "date": "2025-05-25T21:00:00+00:00",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/cd52b7a2-f812-4ad7-b918-db862fd6fd76_1747785600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/ss-sylver-say-red-tell-the",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/guests/episodes/say-red-tell-the-truth-25th-may-2025"
-    },
-    {
-      "show": "guests",
-      "alias": "hyukoh-sunset-rollercoaster-20th-february-2025",
-      "name": "HYUKOH & Sunset Rollercoaster",
-      "description": "Collaborators on last year’s acclaimed album AAA, South Korean indie band HYUKOH and Taiwanese rockers Sunset Rollercoaster come together for a joint broadcast, colliding their musical tastes.",
-      "date": "2025-04-10T11:00:00+00:00",
-      "location": "Seoul",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/65dba3ee-2f27-4a04-bf86-1aed557c0c08_1743984000.png",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/hyukoh-sunset-rollercoaster",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/guests/episodes/hyukoh-sunset-rollercoaster-20th-february-2025"
-    },
-    {
-      "show": "guests",
-      "alias": "baalti-19th-february-2025",
-      "name": "BAALTI",
-      "description": "Indian-born, Brooklyn-based duo Baalti chart a path from UK-inspired club sounds to the vibrant musical traditions of West Bengal and Delhi, shining a light on the vivid and explosive rhythms of Indian soundsystem culture and it's impact on contemporary club sounds.",
-      "date": "2025-02-19T20:00:00+00:00",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4e6cf5a5-2fb0-41d1-8da0-8e80428b375d_1739923200.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/baalti-190225",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/guests/episodes/baalti-19th-february-2025"
-    },
-    {
-      "show": "coltrane-day",
-      "alias": "coltrane-day-in-praise-of-coltranes-smile-23rd-september-2023",
-      "name": "Coltrane Day: In Praise of Coltrane's Smile w/ Harmony Holiday",
-      "description": "Closing the special broadcast exploring Coltrane's spirtuliaty in his musical approach, interspersed with Harmony Holiday reading her 2021 piece ‘In Praise of John Coltrane's Smile’",
-      "date": "2023-09-23T22:30:00+00:00",
-      "location": "North Carolina",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/3f05d00c-95ba-4d04-8326-2f384634f5c6_1695686400.jpeg",
-      "audioSources": [
-        {
-          "url": "https://soundcloud.com/user-612196404/coltrane-day-in-praise-of",
-          "source": "soundcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/coltrane-day/episodes/coltrane-day-in-praise-of-coltranes-smile-23rd-september-2023"
-    },
-    {
-      "show": "guests",
-      "alias": "mdou-moctar-14th-april-2021",
-      "name": "Mdou Moctar",
-      "description": "Tuareg guitarist and bandleader Mdou Moctar picks out some most played tracks from his phone, including music from Sierra Leone, Mali and Niger.",
-      "date": "2021-04-14T13:00:00+00:00",
-      "location": "Abalak",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9f201b49-29cf-4782-877a-22a637ad900d_1618444800.jpeg",
-      "audioSources": [
-        {
-          "url": "https://www.mixcloud.com/NTSRadio/mdou-moctar-14th-april-2021/",
-          "source": "mixcloud"
-        }
-      ],
-      "url": "https://www.nts.live/shows/guests/episodes/mdou-moctar-14th-april-2021"
     },
     {
       "show": "sacred-space",
@@ -568,6 +186,22 @@
         }
       ],
       "url": "https://www.nts.live/shows/the-nts-guide-to/episodes/the-nts-guide-to-indian-classical-influence-on-jazz-26th-may-2025"
+    },
+    {
+      "show": "guests",
+      "alias": "baalti-19th-february-2025",
+      "name": "BAALTI",
+      "description": "Indian-born, Brooklyn-based duo Baalti chart a path from UK-inspired club sounds to the vibrant musical traditions of West Bengal and Delhi, shining a light on the vivid and explosive rhythms of Indian soundsystem culture and it's impact on contemporary club sounds.",
+      "date": "2025-02-19T20:00:00+00:00",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4e6cf5a5-2fb0-41d1-8da0-8e80428b375d_1739923200.jpeg",
+      "audioSources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/baalti-190225",
+          "source": "soundcloud"
+        }
+      ],
+      "url": "https://www.nts.live/shows/guests/episodes/baalti-19th-february-2025"
     },
     {
       "show": "soup-to-nuts-anu",
