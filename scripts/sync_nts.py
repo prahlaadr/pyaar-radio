@@ -110,12 +110,34 @@ def scrape_favourites():
         ".put({fbase_key:'firebase:authUser:'+u.apiKey+':[DEFAULT]',value:u});}catch(e){}};"
     )
 
-    def scrape(page, selector_kind):
-        anchors = page.eval_on_selector_all(
-            "a[href*='/shows/']",
-            "els => els.map(a => a.getAttribute('href'))",
-        )
-        return anchors
+    import re
+    # Only the favourites list itself. The page also renders "Up Next", the live
+    # header, and a "Personalised Recommendations" carousel, all of which contain
+    # /shows/ and /episodes/ links — scoping to this container excludes them.
+    LIST = ".my-nts__list-container"
+
+    def load_hrefs(page, path, link_sel):
+        sel = f"{LIST} {link_sel}"
+        # NTS holds persistent Firestore connections open, so "networkidle" never
+        # fires. Wait for DOM, then for the favourites list to render (client-side,
+        # after Firebase auth resolves).
+        page.goto(f"https://www.nts.live/my-nts/favourites/{path}", wait_until="domcontentloaded", timeout=60000)
+        if "/sign-in" in page.url:
+            sys.exit("auth failed: redirected to sign-in (NTS_REFRESH_TOKEN invalid/expired)")
+        try:
+            page.wait_for_selector(sel, timeout=25000)
+        except Exception:
+            return []  # an empty favourites list is legal
+        # Scroll until the list stops growing (it lazy-loads on scroll).
+        prev = -1
+        for _ in range(20):
+            count = page.eval_on_selector_all(sel, "els=>els.length")
+            if count == prev:
+                break
+            prev = count
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(1200)
+        return page.eval_on_selector_all(sel, "els=>els.map(a=>a.getAttribute('href'))")
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -123,29 +145,18 @@ def scrape_favourites():
         ctx.add_init_script(init_js)
         page = ctx.new_page()
         shows, episodes, seen_s, seen_e = [], [], set(), set()
-        import re
-        for path, kind in (("shows", "show"), ("episodes", "episode")):
-            # NTS keeps persistent Firestore connections open, so "networkidle"
-            # never fires. Wait for DOM, then for the favourite anchors to render
-            # (they appear client-side once Firebase auth resolves).
-            page.goto(f"https://www.nts.live/my-nts/favourites/{path}", wait_until="domcontentloaded", timeout=60000)
-            if "/sign-in" in page.url:
-                sys.exit("auth failed: redirected to sign-in (NTS_REFRESH_TOKEN invalid/expired)")
-            try:
-                page.wait_for_selector("a[href*='/shows/']", timeout=25000)
-            except Exception:
-                pass  # an empty favourites list is legal — scrape whatever rendered
-            page.wait_for_timeout(1500)
-            hrefs = page.eval_on_selector_all("a[href*='/shows/']", "els=>els.map(a=>a.getAttribute('href'))")
-            for h in hrefs or []:
-                em = re.search(r"/shows/([^/]+)/episodes/([^/?#]+)", h or "")
-                sm = re.match(r"^/shows/([^/?#]+)$", h or "")
-                if em:
-                    key = em.group(1) + "/" + em.group(2)
-                    if key not in seen_e:
-                        seen_e.add(key); episodes.append([em.group(1), em.group(2)])
-                elif sm and sm.group(1) not in seen_s:
-                    seen_s.add(sm.group(1)); shows.append(sm.group(1))
+
+        for h in load_hrefs(page, "shows", "a[href*='/shows/']"):
+            m = re.match(r"^/shows/([^/?#]+)$", h or "")
+            if m and m.group(1) not in seen_s:
+                seen_s.add(m.group(1)); shows.append(m.group(1))
+
+        for h in load_hrefs(page, "episodes", "a[href*='/episodes/']"):
+            m = re.search(r"/shows/([^/]+)/episodes/([^/?#]+)", h or "")
+            if m:
+                key = m.group(1) + "/" + m.group(2)
+                if key not in seen_e:
+                    seen_e.add(key); episodes.append([m.group(1), m.group(2)])
         browser.close()
     if not shows and not episodes:
         sys.exit("scrape returned no favourites (auth or render failure)")
