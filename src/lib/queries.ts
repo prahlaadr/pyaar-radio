@@ -1,14 +1,20 @@
 import type { ArtistFilters, ChapterType } from "./types";
-import { NTS_GENRE_TOKENS } from "./nts-genre-map";
+import { NTS_GENRE_TOKENS, NTS_SUBGENRES, NTS_SUBGENRE_TOKENS } from "./nts-genre-map";
 
-// Filter tracks by NTS top-genre. Each selected NTS bucket expands to the raw
-// Spotify Genre tokens that roll up to it (see nts-genre-map.ts); we match them
-// whole-token against the comma-separated Genres column so "dub" never matches
-// "dub techno". Returns null when nothing is selected.
-export function ntsGenreClause(ntsGenres: string[]): string | null {
-  if (!ntsGenres?.length) return null;
+// Filter tracks by NTS genre, two levels deep (mirrors nts.live/explore/genre).
+// A selected top-genre expands to all its Spotify tokens UNLESS one of its
+// subgenres is also selected, in which case only the chosen subgenres apply
+// (drill-down narrows). Subgenres whose top isn't selected still count. Tokens
+// match whole-word against the comma-separated Genres column so "dub" never
+// matches "dub techno". Returns null when nothing is selected.
+export function ntsGenreClause(ntsGenres: string[], ntsSubgenres: string[] = []): string | null {
+  const subs = new Set(ntsSubgenres);
   const tokens = new Set<string>();
-  for (const g of ntsGenres) for (const t of NTS_GENRE_TOKENS[g] || []) tokens.add(t);
+  for (const sub of subs) for (const t of NTS_SUBGENRE_TOKENS[sub] || []) tokens.add(t);
+  for (const top of ntsGenres || []) {
+    const hasRefiningSub = (NTS_SUBGENRES[top] || []).some((s) => subs.has(s));
+    if (!hasRefiningSub) for (const t of NTS_GENRE_TOKENS[top] || []) tokens.add(t);
+  }
   if (tokens.size === 0) return null;
   const norm = `(',' || REPLACE(LOWER(Genres), ', ', ',') || ',')`;
   const conds = [...tokens].map((t) => `${norm} LIKE '%,${t.replace(/'/g, "''")},%'`);
@@ -208,6 +214,7 @@ export function buildFilteredTracksQuery(
   bpmMax = 300,
   halfTime = false,
   ntsGenres: string[] = [],
+  ntsSubgenres: string[] = [],
 ): string {
   const artistConditions = artists.map((a) => {
     const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
@@ -235,7 +242,7 @@ export function buildFilteredTracksQuery(
     }
   }
 
-  const ntsClause = ntsGenreClause(ntsGenres);
+  const ntsClause = ntsGenreClause(ntsGenres, ntsSubgenres);
   if (ntsClause) conditions.push(ntsClause);
 
   return `

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ArtistFilters } from "@/lib/types";
-import { NTS_GENRES } from "@/lib/nts-genre-map";
+import { NTS_GENRES, NTS_SUBGENRES } from "@/lib/nts-genre-map";
 
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 
@@ -10,9 +10,6 @@ const GENRES = [
   "Ambient", "Soul", "Indie", "Future Beats", "Boom Bap", "Electronica", "Club", "Garage",
   "Afro", "Bass", "Dub", "Dubstep", "DnB", "Rave", "Trap", "Pop",
 ] as const;
-
-// Mood = secondary "feel" tags.
-const MOODS = ["Groove", "Soulful", "Rowdy", "Nodders", "Dark", "Percussive"] as const;
 
 export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
 
@@ -71,6 +68,9 @@ export function FilterPanel({
   hidden,
 }: Props) {
   const [expanded, setExpanded] = useState(false);
+  const [ntsExpanded, setNtsExpanded] = useState<string[]>([]);
+  const toggleNtsExpand = (top: string) =>
+    setNtsExpanded((cur) => (cur.includes(top) ? cur.filter((t) => t !== top) : [...cur, top]));
 
   const toggle = (key: keyof ArtistFilters, value: string) => {
     if (key === "channels") {
@@ -94,6 +94,11 @@ export function FilterPanel({
         ? filters.ntsGenres.filter((g) => g !== value)
         : [...filters.ntsGenres, value];
       onChange({ ...filters, ntsGenres });
+    } else if (key === "ntsSubgenres") {
+      const ntsSubgenres = filters.ntsSubgenres.includes(value)
+        ? filters.ntsSubgenres.filter((g) => g !== value)
+        : [...filters.ntsSubgenres, value];
+      onChange({ ...filters, ntsSubgenres });
     } else if (key === "samay") {
       onChange({ ...filters, samay: filters.samay === value ? null : value });
     } else if (key === "desi") {
@@ -106,6 +111,7 @@ export function FilterPanel({
     filters.channels.length +
     filters.vibes.length +
     filters.ntsGenres.length +
+    filters.ntsSubgenres.length +
     (filters.samay ? 1 : 0) +
     (filters.desi ? 1 : 0) +
     (filters.bpmMin > 0 ? 1 : 0) +
@@ -177,39 +183,59 @@ export function FilterPanel({
               ))}
             </div>
 
-            {/* Mood — secondary */}
-            <div className="flex gap-1 flex-wrap">
-              {MOODS.map((v) => (
-                <button
-                  key={v}
-                  onClick={() => toggle("vibes", v)}
-                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-                    filters.vibes.includes(v)
-                      ? "bg-red-600 text-white"
-                      : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
-                  }`}
-                >
-                  {v}
-                </button>
-              ))}
-            </div>
+            {/* NTS genre ontology — mirrors nts.live/explore/genre. Top-genre chips
+                drill into the subgenres your library actually has (chevron). Selecting
+                a top filters broadly; a subgenre narrows. Track-level lens → Tracks view. */}
+            <div className="space-y-1.5">
+              <div className="flex gap-1 flex-wrap items-center">
+                <span className="text-[9px] uppercase tracking-wider text-[#e32636] font-bold mr-0.5">NTS</span>
+                {NTS_GENRES.map((top) => {
+                  const subs = NTS_SUBGENRES[top] || [];
+                  const sel = filters.ntsGenres.includes(top);
+                  const exp = ntsExpanded.includes(top);
+                  return (
+                    <span key={top} className="inline-flex items-stretch">
+                      <button
+                        onClick={() => toggle("ntsGenres", top)}
+                        className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                          sel ? "bg-[#e32636] text-white" : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
+                        }`}
+                      >
+                        {top}
+                      </button>
+                      {subs.length > 0 && (
+                        <button
+                          onClick={() => toggleNtsExpand(top)}
+                          aria-label={`${exp ? "Collapse" : "Expand"} ${top} subgenres`}
+                          className={`px-1 text-[9px] border-l border-black/30 transition-colors ${
+                            sel ? "bg-[#e32636] text-white" : "bg-[#0a0a0a] text-[#777] hover:text-white"
+                          }`}
+                        >
+                          {exp ? "▴" : "▾"}
+                        </button>
+                      )}
+                    </span>
+                  );
+                })}
+              </div>
 
-            {/* NTS genre — labels the library with NTS's vocabulary, shared with
-                the NTS tab. Track-level lens; selecting one opens the Tracks view. */}
-            <div className="flex gap-1 flex-wrap items-center">
-              <span className="text-[9px] uppercase tracking-wider text-[#e32636] font-bold mr-0.5">NTS</span>
-              {NTS_GENRES.map((v) => (
-                <button
-                  key={v}
-                  onClick={() => toggle("ntsGenres", v)}
-                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
-                    filters.ntsGenres.includes(v)
-                      ? "bg-[#e32636] text-white"
-                      : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
-                  }`}
-                >
-                  {v}
-                </button>
+              {NTS_GENRES.filter((t) => ntsExpanded.includes(t) && (NTS_SUBGENRES[t] || []).length > 0).map((top) => (
+                <div key={top} className="flex gap-1 flex-wrap items-center pl-2 ml-1 border-l border-[#333]">
+                  <span className="text-[8px] uppercase tracking-wider text-[#666] mr-1">{top}</span>
+                  {(NTS_SUBGENRES[top] || []).map((sub) => (
+                    <button
+                      key={sub}
+                      onClick={() => toggle("ntsSubgenres", sub)}
+                      className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                        filters.ntsSubgenres.includes(sub)
+                          ? "bg-[#e32636] text-white"
+                          : "bg-[#111] text-[#999] hover:text-[#ccc]"
+                      }`}
+                    >
+                      {sub}
+                    </button>
+                  ))}
+                </div>
               ))}
             </div>
 

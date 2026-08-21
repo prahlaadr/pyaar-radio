@@ -110,6 +110,7 @@ export interface ArtistFilters {
   tags: string[];
   pillars: string[];
   ntsGenres: string[];
+  ntsSubgenres: string[];
   bpmMin: number;
   bpmMax: number;
   halfTime: boolean;
