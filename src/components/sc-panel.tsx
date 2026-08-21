@@ -129,15 +129,17 @@ export function ScPanel({ onPlay }: { onPlay: (t: Track) => void }) {
 
       {!playlist && (
         <div>
-          {/* Subtabs */}
-          <div className="px-5 pt-4 pb-3 flex items-center gap-4 border-b border-[#222] sticky top-0 bg-background z-10">
+          {/* Subtab toggle */}
+          <div className="px-5 pt-4 pb-3 flex items-center gap-1.5 border-b border-[#222] sticky top-0 bg-background z-10 flex-wrap">
             {(["likes", "playlists"] as const).map((s) => (
               <button key={s} onClick={() => setSubtab(s)}
-                className={`text-[11px] uppercase tracking-wider transition-colors ${
-                  subtab === s ? "text-white border-b-2 border-[#ff5500] pb-1" : "text-[#888] hover:text-white pb-1"
+                className={`px-3 py-1 text-[10px] uppercase tracking-wider font-bold transition-colors ${
+                  subtab === s ? "bg-[#ff5500] text-white" : "bg-[#111] text-[#888] hover:text-white"
                 }`}>
-                {s === "likes" ? "Liked Tracks" : "Playlists"}
-                <span className="text-[#555] ml-1.5">{s === "likes" ? data.likes.length : data.playlists.length}</span>
+                {s === "likes" ? "♥ Liked Tracks" : "Playlists"}
+                <span className={`ml-1.5 ${subtab === s ? "text-white/70" : "text-[#555]"}`}>
+                  {s === "likes" ? data.likes.length : data.playlists.length}
+                </span>
               </button>
             ))}
             {subtab === "likes" && (
