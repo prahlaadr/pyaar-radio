@@ -42,6 +42,33 @@ def _img(media):
     return next((v for v in media.values() if isinstance(v, str) and v.startswith("http")), None)
 
 
+_GROUP_TO_TOP = None
+
+
+def _group_to_top():
+    """Map NTS genre group-ids to top-genre names (fetched once from the taxonomy)."""
+    global _GROUP_TO_TOP
+    if _GROUP_TO_TOP is None:
+        try:
+            tax = _get(f"{API}/genres")
+            _GROUP_TO_TOP = {g["id"]: g["name"] for g in tax["results"]}
+        except Exception:
+            _GROUP_TO_TOP = {}
+    return _GROUP_TO_TOP
+
+
+def _nts_genres(d):
+    """Roll an item's subgenre objects up to distinct NTS top-genre names."""
+    g2t = _group_to_top()
+    out = []
+    for g in d.get("genres") or []:
+        gid = (g.get("id") or "").split("-")  # genres-<group>-<sub>
+        top = g2t.get(gid[1]) if len(gid) > 1 else None
+        if top and top not in out:
+            out.append(top)
+    return out
+
+
 def enrich_show(alias):
     try:
         d = _get(f"{API}/shows/{alias}")
@@ -54,6 +81,7 @@ def enrich_show(alias):
         "description": (d.get("description") or "").strip(),
         "location": d.get("location_long") or d.get("location_short") or "",
         "image": _img(d.get("media")),
+        "ntsGenres": _nts_genres(d),
         "url": f"https://www.nts.live/shows/{alias}",
     }
 
@@ -73,6 +101,7 @@ def enrich_episode(show, slug):
         "location": d.get("location_long") or d.get("location_short") or "",
         "image": _img(d.get("media")),
         "audioSources": d.get("audio_sources") or [],
+        "ntsGenres": _nts_genres(d),
         "url": f"https://www.nts.live/shows/{show}/episodes/{slug}",
     }
 

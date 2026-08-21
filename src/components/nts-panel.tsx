@@ -1,13 +1,26 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import type { Track } from "@/lib/types";
+import { NTS_GENRES, NTS_GROUP_TO_TOP } from "@/lib/nts-genre-map";
 
 interface AudioSource { url: string; source: string }
-interface NtsShow { alias: string; name: string; description: string; location: string; image: string | null; url: string }
+interface NtsShow { alias: string; name: string; description: string; location: string; image: string | null; ntsGenres?: string[]; url: string }
 interface NtsEpisode {
   show: string; alias: string; name: string; description: string; date: string;
-  location: string; image: string | null; audioSources: AudioSource[]; url: string;
+  location: string; image: string | null; audioSources: AudioSource[]; ntsGenres?: string[]; url: string;
+}
+
+// NTS episode/show genres arrive as {id: "genres-<group>-<sub>"} objects; roll
+// each up to its NTS top-genre so they share the library's filter vocabulary.
+function rollupGenres(genres: unknown): string[] {
+  const out: string[] = [];
+  for (const g of (genres as { id?: string }[]) || []) {
+    const parts = (g.id || "").split("-");
+    const top = parts.length > 1 ? NTS_GROUP_TO_TOP[parts[1]] : undefined;
+    if (top && !out.includes(top)) out.push(top);
+  }
+  return out;
 }
 interface NtsData { syncedAt: string; shows: NtsShow[]; episodes: NtsEpisode[] }
 
@@ -75,6 +88,18 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   const [loadingHost, setLoadingHost] = useState(false);
   const [hostTotal, setHostTotal] = useState(0);
   const [loadingMore, setLoadingMore] = useState(false);
+  const [genre, setGenre] = useState<string | null>(null);
+
+  // Genre chips = the NTS top-genres actually present across saved hosts +
+  // episodes, in NTS's canonical order.
+  const genresPresent = useMemo(() => {
+    if (!data) return [];
+    const set = new Set<string>();
+    data.shows.forEach((s) => (s.ntsGenres || []).forEach((g) => set.add(g)));
+    data.episodes.forEach((e) => (e.ntsGenres || []).forEach((g) => set.add(g)));
+    return NTS_GENRES.filter((g) => set.has(g));
+  }, [data]);
+  const matchesGenre = useCallback((g?: string[]) => !genre || (g || []).includes(genre), [genre]);
 
   useEffect(() => {
     fetch("/data/nts.json")
@@ -122,6 +147,20 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
 
   return (
     <div className="flex-1 overflow-y-auto">
+      {/* NTS genre filter (same vocabulary as the track library) */}
+      {genresPresent.length > 0 && (
+        <div className="px-5 py-2.5 border-b border-[#222] sticky top-0 bg-background z-10 flex items-center gap-1.5 flex-wrap">
+          <button onClick={() => setGenre(null)}
+            className={`px-2.5 py-1 text-[10px] uppercase tracking-wider transition-colors ${
+              !genre ? "bg-[#e32636] text-white" : "bg-[#111] text-[#888] hover:text-white"}`}>All</button>
+          {genresPresent.map((g) => (
+            <button key={g} onClick={() => setGenre(genre === g ? null : g)}
+              className={`px-2.5 py-1 text-[10px] uppercase tracking-wider transition-colors ${
+                genre === g ? "bg-[#e32636] text-white" : "bg-[#111] text-[#888] hover:text-white"}`}>{g}</button>
+          ))}
+        </div>
+      )}
+
       {/* Host drill-down overlay */}
       {host && (
         <div className="px-5 py-3 border-b border-[#222] bg-[#0a0a0a]">
@@ -137,7 +176,7 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
           ) : hostEpisodes && hostEpisodes.length > 0 ? (
             <>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-                {hostEpisodes.map((ep) => {
+                {hostEpisodes.filter((ep) => matchesGenre(ep.ntsGenres)).map((ep) => {
                   const src = ep.audioSources?.[0]?.source;
                   return <Card key={`${ep.alias}`} image={ep.image} title={ep.name} subtitle={fmtDate(ep.date)}
                     badge={src === "mixcloud" ? "Mixcloud" : undefined}
@@ -161,11 +200,11 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
         <div className="p-5 space-y-6">
           <section>
             <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
-              Hosts <span className="text-[#555]">{data.shows.length}</span>
+              Hosts <span className="text-[#555]">{data.shows.filter((s) => matchesGenre(s.ntsGenres)).length}</span>
               <span className="text-[#555] normal-case tracking-normal ml-2">· click to dig into recent episodes</span>
             </h2>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-              {data.shows.map((s) => (
+              {data.shows.filter((s) => matchesGenre(s.ntsGenres)).map((s) => (
                 <Card key={s.alias} image={s.image} title={s.name} subtitle={s.location || undefined}
                   onClick={() => openHost(s)} />
               ))}
@@ -174,10 +213,10 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
 
           <section>
             <h2 className="text-[11px] uppercase tracking-wider text-[#888] mb-3">
-              Saved Episodes <span className="text-[#555]">{data.episodes.length}</span>
+              Saved Episodes <span className="text-[#555]">{data.episodes.filter((e) => matchesGenre(e.ntsGenres)).length}</span>
             </h2>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-              {data.episodes.map((ep) => {
+              {data.episodes.filter((e) => matchesGenre(e.ntsGenres)).map((ep) => {
                 const src = ep.audioSources?.[0]?.source;
                 return <Card key={`${ep.show}/${ep.alias}`} image={ep.image} title={ep.name}
                   subtitle={fmtDate(ep.date)}
@@ -202,6 +241,7 @@ function mapHostEpisodes(alias: string, results: unknown): NtsEpisode[] {
     location: "",
     image: pickImage(e.media as Record<string, string> | undefined),
     audioSources: (e.audio_sources as AudioSource[]) || [],
+    ntsGenres: rollupGenres(e.genres),
     url: `https://www.nts.live/shows/${alias}/episodes/${e.episode_alias}`,
   }));
 }

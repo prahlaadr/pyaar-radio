@@ -1,4 +1,19 @@
 import type { ArtistFilters, ChapterType } from "./types";
+import { NTS_GENRE_TOKENS } from "./nts-genre-map";
+
+// Filter tracks by NTS top-genre. Each selected NTS bucket expands to the raw
+// Spotify Genre tokens that roll up to it (see nts-genre-map.ts); we match them
+// whole-token against the comma-separated Genres column so "dub" never matches
+// "dub techno". Returns null when nothing is selected.
+export function ntsGenreClause(ntsGenres: string[]): string | null {
+  if (!ntsGenres?.length) return null;
+  const tokens = new Set<string>();
+  for (const g of ntsGenres) for (const t of NTS_GENRE_TOKENS[g] || []) tokens.add(t);
+  if (tokens.size === 0) return null;
+  const norm = `(',' || REPLACE(LOWER(Genres), ', ', ',') || ',')`;
+  const conds = [...tokens].map((t) => `${norm} LIKE '%,${t.replace(/'/g, "''")},%'`);
+  return `(Genres IS NOT NULL AND Genres <> '' AND (${conds.join(" OR ")}))`;
+}
 
 export function buildArtistQuery(filters: ArtistFilters): string {
   const conditions: string[] = [];
@@ -192,6 +207,7 @@ export function buildFilteredTracksQuery(
   bpmMin = 0,
   bpmMax = 300,
   halfTime = false,
+  ntsGenres: string[] = [],
 ): string {
   const artistConditions = artists.map((a) => {
     const allNames = [a.artist, ...a.aliases.filter((n) => !n.startsWith("~"))];
@@ -218,6 +234,9 @@ export function buildFilteredTracksQuery(
       if (bpmMax < 300) conditions.push(`${tempo} <= ${max}`);
     }
   }
+
+  const ntsClause = ntsGenreClause(ntsGenres);
+  if (ntsClause) conditions.push(ntsClause);
 
   return `
     SELECT

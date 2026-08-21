@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { ArtistFilters } from "@/lib/types";
+import { NTS_GENRES } from "@/lib/nts-genre-map";
 
 const SAMAY = ["Day", "Night", "Day/Night"] as const;
 
@@ -88,6 +89,11 @@ export function FilterPanel({
         ? cur.filter((p) => p !== value)
         : [...cur, value];
       onChange({ ...filters, pillars });
+    } else if (key === "ntsGenres") {
+      const ntsGenres = filters.ntsGenres.includes(value)
+        ? filters.ntsGenres.filter((g) => g !== value)
+        : [...filters.ntsGenres, value];
+      onChange({ ...filters, ntsGenres });
     } else if (key === "samay") {
       onChange({ ...filters, samay: filters.samay === value ? null : value });
     } else if (key === "desi") {
@@ -99,6 +105,7 @@ export function FilterPanel({
     (filters.pillars?.length || 0) +
     filters.channels.length +
     filters.vibes.length +
+    filters.ntsGenres.length +
     (filters.samay ? 1 : 0) +
     (filters.desi ? 1 : 0) +
     (filters.bpmMin > 0 ? 1 : 0) +
@@ -179,6 +186,25 @@ export function FilterPanel({
                   className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                     filters.vibes.includes(v)
                       ? "bg-red-600 text-white"
+                      : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
+                  }`}
+                >
+                  {v}
+                </button>
+              ))}
+            </div>
+
+            {/* NTS genre — labels the library with NTS's vocabulary, shared with
+                the NTS tab. Track-level lens; selecting one opens the Tracks view. */}
+            <div className="flex gap-1 flex-wrap items-center">
+              <span className="text-[9px] uppercase tracking-wider text-[#e32636] font-bold mr-0.5">NTS</span>
+              {NTS_GENRES.map((v) => (
+                <button
+                  key={v}
+                  onClick={() => toggle("ntsGenres", v)}
+                  className={`px-2 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
+                    filters.ntsGenres.includes(v)
+                      ? "bg-[#e32636] text-white"
                       : "bg-[#0a0a0a] text-[#999] hover:text-[#ccc]"
                   }`}
                 >

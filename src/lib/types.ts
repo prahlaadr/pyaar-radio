@@ -109,6 +109,7 @@ export interface ArtistFilters {
   vibes: string[];
   tags: string[];
   pillars: string[];
+  ntsGenres: string[];
   bpmMin: number;
   bpmMax: number;
   halfTime: boolean;

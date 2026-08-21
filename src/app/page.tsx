@@ -42,6 +42,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   vibes: [],
   tags: [],
   pillars: [],
+  ntsGenres: [],
   bpmMin: 0,
   bpmMax: 300,
   halfTime: false,
@@ -64,6 +65,9 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
 
   const vibe = p.get("vibe");
   if (vibe) filters.vibes = vibe.split(",").filter(Boolean);
+
+  const nts = p.get("nts");
+  if (nts) filters.ntsGenres = nts.split(",").filter(Boolean);
 
   const pillar = p.get("pillar");
   if (pillar) filters.pillars = pillar.split(",").filter(Boolean);
@@ -114,6 +118,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (filters.samay) p.set("samay", filters.samay);
   if (filters.desi) p.set("desi", filters.desi);
   if (filters.vibes.length > 0) p.set("vibe", filters.vibes.join(","));
+  if (filters.ntsGenres.length > 0) p.set("nts", filters.ntsGenres.join(","));
   if (filters.pillars && filters.pillars.length > 0) p.set("pillar", filters.pillars.join(","));
   if (filters.bpmMin > 0 || filters.bpmMax < 300) {
     p.set("bpm", filters.bpmMin === filters.bpmMax ? `${filters.bpmMin}` : `${filters.bpmMin}-${filters.bpmMax}`);
@@ -365,6 +370,7 @@ export default function Home() {
       filters.search.length > 0 ||
       filters.channels.length > 0 ||
       filters.vibes.length > 0 ||
+      filters.ntsGenres.length > 0 ||
       filters.samay !== null ||
       filters.desi !== null ||
       filters.bpmMin > 0 ||
@@ -656,6 +662,13 @@ export default function Home() {
     })();
   }, [ilaiyaraajaMode, ilaiyaraajaSearch]);
 
+  // NTS-genre is a track-level lens, so surface it in the Tracks view.
+  useEffect(() => {
+    if (filters.ntsGenres.length > 0 && browseView === "artists" && !selectedArtist && !tamilMode && sectionMode === "browse") {
+      setBrowseView("tracks");
+    }
+  }, [filters.ntsGenres, browseView, selectedArtist, tamilMode, sectionMode]);
+
   // Filtered tracks view: all tracks for current filtered artists + BPM
   useEffect(() => {
     if (browseView !== "tracks" || artists.length === 0 || selectedArtist || tamilMode || sectionMode !== "browse") {
@@ -667,7 +680,7 @@ export default function Home() {
     }
     setFilteredTracksLoading(true);
     const radioArtists: RadioArtist[] = artists.map((a) => ({ artist: a.artist, aliases: a.aliases }));
-    const sql = buildFilteredTracksQuery(radioArtists, filters.bpmMin, filters.bpmMax, filters.halfTime);
+    const sql = buildFilteredTracksQuery(radioArtists, filters.bpmMin, filters.bpmMax, filters.halfTime, filters.ntsGenres);
     (async () => {
       try {
         const rows = await query<{
@@ -694,7 +707,7 @@ export default function Home() {
       }
       setFilteredTracksLoading(false);
     })();
-  }, [browseView, artists, filters.bpmMin, filters.bpmMax, filters.halfTime, selectedArtist, tamilMode, sectionMode]);
+  }, [browseView, artists, filters.bpmMin, filters.bpmMax, filters.halfTime, filters.ntsGenres, selectedArtist, tamilMode, sectionMode]);
 
   // Section mode (Downtempo / Ambient): query masterlist by tag
   useEffect(() => {
