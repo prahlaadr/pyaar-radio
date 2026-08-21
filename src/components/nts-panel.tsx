@@ -73,6 +73,8 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   const [host, setHost] = useState<NtsShow | null>(null);
   const [hostEpisodes, setHostEpisodes] = useState<NtsEpisode[] | null>(null);
   const [loadingHost, setLoadingHost] = useState(false);
+  const [hostTotal, setHostTotal] = useState(0);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   useEffect(() => {
     fetch("/data/nts.json")
@@ -81,30 +83,33 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
       .catch((e) => setError(e.message));
   }, []);
 
-  // Drill into a host: fetch its most recent episodes live from NTS's public API.
+  // Drill into a host: fetch its recent episodes live from NTS's public API.
+  // NTS returns a fixed 12 per page, so paginate via offset (metadata has the total).
   const openHost = useCallback(async (show: NtsShow) => {
-    setHost(show); setHostEpisodes(null); setLoadingHost(true);
+    setHost(show); setHostEpisodes(null); setLoadingHost(true); setHostTotal(0);
     try {
-      const r = await fetch(`https://www.nts.live/api/v2/shows/${show.alias}/episodes?limit=24`);
+      const r = await fetch(`https://www.nts.live/api/v2/shows/${show.alias}/episodes?offset=0`);
       const j = await r.json();
-      const eps: NtsEpisode[] = (j.results || []).map((e: Record<string, unknown>) => ({
-        show: show.alias,
-        alias: (e.episode_alias as string) || "",
-        name: (e.name as string) || "",
-        description: (e.description as string) || "",
-        date: (e.broadcast as string) || "",
-        location: "",
-        image: pickImage(e.media as Record<string, string> | undefined),
-        audioSources: (e.audio_sources as AudioSource[]) || [],
-        url: `https://www.nts.live/shows/${show.alias}/episodes/${e.episode_alias}`,
-      }));
-      setHostEpisodes(eps);
+      setHostEpisodes(mapHostEpisodes(show.alias, j.results));
+      setHostTotal(j?.metadata?.resultset?.count || 0);
     } catch {
       setHostEpisodes([]);
     } finally {
       setLoadingHost(false);
     }
   }, []);
+
+  const loadMoreEpisodes = useCallback(async () => {
+    if (!host || !hostEpisodes) return;
+    setLoadingMore(true);
+    try {
+      const r = await fetch(`https://www.nts.live/api/v2/shows/${host.alias}/episodes?offset=${hostEpisodes.length}`);
+      const j = await r.json();
+      setHostEpisodes((prev) => [...(prev || []), ...mapHostEpisodes(host.alias, j.results)]);
+    } catch { /* keep what we have */ } finally {
+      setLoadingMore(false);
+    }
+  }, [host, hostEpisodes]);
 
   const playEpisode = useCallback((ep: NtsEpisode) => {
     const t = episodeToTrack(ep.name, ep.show, ep.audioSources);
@@ -130,14 +135,22 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
           {loadingHost ? (
             <div className="text-[#888] text-xs py-6">Loading recent episodes…</div>
           ) : hostEpisodes && hostEpisodes.length > 0 ? (
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-              {hostEpisodes.map((ep) => {
-                const src = ep.audioSources?.[0]?.source;
-                return <Card key={ep.alias} image={ep.image} title={ep.name} subtitle={fmtDate(ep.date)}
-                  badge={src === "mixcloud" ? "Mixcloud" : undefined}
-                  disabled={!ep.audioSources?.length} onClick={() => playEpisode(ep)} />;
-              })}
-            </div>
+            <>
+              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+                {hostEpisodes.map((ep) => {
+                  const src = ep.audioSources?.[0]?.source;
+                  return <Card key={`${ep.alias}`} image={ep.image} title={ep.name} subtitle={fmtDate(ep.date)}
+                    badge={src === "mixcloud" ? "Mixcloud" : undefined}
+                    disabled={!ep.audioSources?.length} onClick={() => playEpisode(ep)} />;
+                })}
+              </div>
+              {hostEpisodes.length < hostTotal && (
+                <button onClick={loadMoreEpisodes} disabled={loadingMore}
+                  className="mt-4 px-4 py-1.5 text-[10px] uppercase tracking-wider bg-[#111] text-[#888] hover:text-white border border-[#222] transition-colors">
+                  {loadingMore ? "Loading…" : `Load more (${hostEpisodes.length} of ${hostTotal})`}
+                </button>
+              )}
+            </>
           ) : (
             <div className="text-[#888] text-xs py-6">No recent episodes found.</div>
           )}
@@ -177,6 +190,20 @@ export function NtsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
       )}
     </div>
   );
+}
+
+function mapHostEpisodes(alias: string, results: unknown): NtsEpisode[] {
+  return ((results as Record<string, unknown>[]) || []).map((e) => ({
+    show: alias,
+    alias: (e.episode_alias as string) || "",
+    name: (e.name as string) || "",
+    description: (e.description as string) || "",
+    date: (e.broadcast as string) || "",
+    location: "",
+    image: pickImage(e.media as Record<string, string> | undefined),
+    audioSources: (e.audio_sources as AudioSource[]) || [],
+    url: `https://www.nts.live/shows/${alias}/episodes/${e.episode_alias}`,
+  }));
 }
 
 function pickImage(media?: Record<string, string>): string | null {
