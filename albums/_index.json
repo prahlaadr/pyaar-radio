@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3548,
- "totalTracks": 45194,
- "syncedAt": "2026-08-20T08:38:25.722975Z",
+ "albumCount": 3549,
+ "totalTracks": 45206,
+ "syncedAt": "2026-08-21T08:41:00.109840Z",
  "albums": [
+  {
+   "browseId": "MPREb_eEzdLRwvLnh",
+   "title": "Trash Generator",
+   "artist": "Tera Melos",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_eEsWAEdAoYI",
    "title": "Alien Metal",

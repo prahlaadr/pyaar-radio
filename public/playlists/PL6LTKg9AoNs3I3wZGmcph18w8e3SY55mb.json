@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3I3wZGmcph18w8e3SY55mb",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-08-20T08:38:29.328016Z",
+ "syncedAt": "2026-08-21T08:41:03.271475Z",
  "tracks": [
   {
    "title": "REM",
@@ -3884,7 +3884,7 @@
   },
   {
    "title": "Eyes Down",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Peninsula EP",
    "videoId": "y4K0xpBiy6g",
    "duration": "3:56"
@@ -3926,7 +3926,7 @@
   },
   {
    "title": "No One Else",
-   "artist": "Alix Perez;Ivy Lab",
+   "artist": "Alix Perez;Ivy Lab;Halogenix",
    "album": "Arkestra EP",
    "videoId": "qbNwULIZ13A",
    "duration": "4:15"
@@ -4234,7 +4234,7 @@
   },
   {
    "title": "Gomeisa",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Twenty Questions EP",
    "videoId": "eqOmXp6TJfQ",
    "duration": "5:49"
@@ -10541,14 +10541,14 @@
   },
   {
    "title": "Stop It",
-   "artist": "Alix Perez;Ivy Lab",
+   "artist": "Alix Perez;Ivy Lab;Halogenix",
    "album": "Arkestra EP",
    "videoId": "vp-dcR2sUuM",
    "duration": "3:38"
   },
   {
    "title": "Arkestra",
-   "artist": "Alix Perez;Ivy Lab",
+   "artist": "Alix Perez;Ivy Lab;Halogenix",
    "album": "Arkestra EP",
    "videoId": "WEJ6puHTGzc",
    "duration": "4:54"
@@ -10569,14 +10569,14 @@
   },
   {
    "title": "Gomeisa",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Twenty Questions EP",
    "videoId": "eqOmXp6TJfQ",
    "duration": "5:49"
   },
   {
    "title": "Eyes Down",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Peninsula EP",
    "videoId": "y4K0xpBiy6g",
    "duration": "3:56"
@@ -10590,7 +10590,7 @@
   },
   {
    "title": "No One Else",
-   "artist": "Alix Perez;Ivy Lab",
+   "artist": "Alix Perez;Ivy Lab;Halogenix",
    "album": "Arkestra EP",
    "videoId": "qbNwULIZ13A",
    "duration": "4:15"
@@ -10660,14 +10660,14 @@
   },
   {
    "title": "Magikess",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Peninsula EP",
    "videoId": "8u-e9PuHPPs",
    "duration": "4:08"
   },
   {
    "title": "Two By Two",
-   "artist": "Ivy Lab",
+   "artist": "Ivy Lab;Halogenix",
    "album": "Twenty Questions EP",
    "videoId": "vRiw481zDQ0",
    "duration": "3:50"

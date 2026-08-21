@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 279,
- "totalTracks": 105809,
- "syncedAt": "2026-08-20T08:38:29.328016Z",
+ "playlistCount": 280,
+ "totalTracks": 105810,
+ "syncedAt": "2026-08-21T08:41:03.271475Z",
  "playlists": [
+  {
+   "playlistId": "PLG8qpG-vDHJU",
+   "title": "001 in the living room",
+   "trackCount": 1
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
