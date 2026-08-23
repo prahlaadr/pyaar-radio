@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3549,
- "totalTracks": 45206,
- "syncedAt": "2026-08-21T08:41:00.109840Z",
+ "albumCount": 3551,
+ "totalTracks": 45223,
+ "syncedAt": "2026-08-23T08:30:12.740161Z",
  "albums": [
+  {
+   "browseId": "MPREb_6xLoSMT3JjB",
+   "title": "Like A Good Old Friend",
+   "artist": "Vegyn",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_3PWasnkICgJ",
+   "title": "Inferno",
+   "artist": "Jxggi",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_eEzdLRwvLnh",
    "title": "Trash Generator",

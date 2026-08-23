@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1511,
- "syncedAt": "2026-08-21T08:41:03.271475Z",
+ "trackCount": 1512,
+ "syncedAt": "2026-08-23T08:30:15.785142Z",
  "tracks": [
+  {
+   "title": "Kiss Me",
+   "artist": "Sixpence None The Richer",
+   "album": "Sixpence None The Richer",
+   "videoId": "K2tbQ_g2VbQ",
+   "duration": "3:29"
+  },
   {
    "title": "Summertime",
    "artist": "The Sundays",
@@ -1468,9 +1475,9 @@
    "duration": "3:33"
   },
   {
-   "title": "Dracula (JENNIE Remix)",
-   "artist": "Tame Impala;JENNIE",
-   "album": "Dracula (Remix)",
+   "title": "Dracula (feat. JENNIE)",
+   "artist": "Tame Impala",
+   "album": "Dracula",
    "videoId": "6KjVYeQ9SRw",
    "duration": "3:30"
   },
@@ -2415,9 +2422,9 @@
   {
    "title": "Teenage Dirtbag",
    "artist": "Wheatus",
-   "album": "Teenage Dirtbag",
-   "videoId": "vj6attxE5Gw",
-   "duration": "4:03"
+   "album": "Wheatus",
+   "videoId": "dSlYFtXENPo",
+   "duration": "4:02"
   },
   {
    "title": "Love Me Not",
