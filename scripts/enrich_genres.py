@@ -34,6 +34,8 @@ STAGING = REPO / "scripts" / "enrich-staging.json"
 UA = "PyaarRadio/1.0 (prahlaadram@gmail.com)"
 TOKEN = os.environ.get("DISCOGS_TOKEN", "")
 SLEEP = 1.1 if TOKEN else 2.5  # Discogs: 60/min authed, 25/min unauth
+LASTFM_KEY = os.environ.get("LASTFM_API_KEY", "6dd04270e3049b0100d626c154d39079")
+LASTFM_SLEEP = 0.25
 
 # Live/bootleg/remix/comp/reissue titles are not the artist's studio styling.
 DROP_RE = re.compile(
@@ -77,6 +79,13 @@ DISCOGS_ALIAS = {
     "deep house": "deep house", "tech house": "tech house", "dub techno": "dub techno",
     "future jazz": "nu jazz", "jazz-funk": "jazz funk", "soul-jazz": "soul jazz",
     "drum n bass": "drum & bass", "drum and bass": "drum & bass",
+    # Last.fm tag spellings / shorthands
+    "hip-hop": "hip hop", "electronic": "electronica", "indie": "indie rock",
+    "fusion": "jazz fusion", "post-bop": "post bop", "trip-hop": "trip hop",
+    "uk garage": "garage", "future garage": "garage", "nu-jazz": "nu jazz",
+    "psychedelic": "psychedelic rock", "post-punk": "post punk", "new-wave": "new wave",
+    "dnb": "drum & bass", "alternative hip-hop": "alternative hip hop",
+    "rnb": "rnb", "r&b": "rnb", "neo-soul": "soul",
 }
 # Non-genre / production descriptors — never a genre.
 DROP = {"instrumental", "acoustic", "vocal", "ballad", "spoken word", "score",
@@ -112,6 +121,38 @@ def discogs_get(url):
             print(f"    net error: {e}", flush=True)
             time.sleep(5)
     return None
+
+
+_LFM_CACHE = {}  # artist(lower) → [nts tokens]
+
+def lastfm_nts(artist):
+    """Last.fm artist-level top tags → NTS tokens (cached per artist). Coverage
+    fallback for tracks Discogs misses; genre ≈ artist's genre. Only tags with
+    real weight that survive the NTS crosswalk are kept (noise like 'seen live',
+    'atlanta' is dropped)."""
+    key = artist.lower()
+    if key in _LFM_CACHE:
+        return _LFM_CACHE[key]
+    url = (f"https://ws.audioscrobbler.com/2.0/?method=artist.getTopTags"
+           f"&artist={urllib.parse.quote(artist)}&api_key={LASTFM_KEY}&format=json&autocorrect=1")
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    tags = []
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            tags = json.loads(r.read().decode()).get("toptags", {}).get("tag", [])
+    except Exception:
+        pass
+    nts, seen = [], set()
+    for t in tags:
+        if int(t.get("count", 0)) < 15:  # weak/noise weight
+            continue
+        m = style_to_nts(t.get("name", ""))
+        if m and m not in seen:
+            seen.add(m); nts.append(m)
+        if len(nts) >= 4:
+            break
+    _LFM_CACHE[key] = nts
+    return nts
 
 
 def styles_for(artist, track):
@@ -160,14 +201,15 @@ def target_rows(rows):
             yield i, r
 
 
-def cmd_fetch(sample):
+def cmd_fetch(sample, lastfm):
     with open(MASTERLIST, newline="") as f:
         rows = list(csv.DictReader(f))
     staging = json.loads(STAGING.read_text()) if STAGING.exists() else {}
     targets = list(target_rows(rows))
     if sample:
         targets = targets[:sample]
-    print(f"targets: {len(targets)} liked+blank tracks | already staged: {len(staging)}", flush=True)
+    src = "last.fm (artist tags)" if lastfm else "discogs (release styles)"
+    print(f"targets: {len(targets)} liked+blank | already staged: {len(staging)} | source: {src}", flush=True)
     done = hit = 0
     for idx, r in targets:
         vid = (r.get("Video ID") or "").strip()
@@ -175,21 +217,22 @@ def cmd_fetch(sample):
             continue
         artist = (r.get("Artist Name(s)") or "").split(";")[0].strip()
         track = (r.get("Track Name") or "").strip()
-        nts, raw, rel = styles_for(artist, track)
+        if lastfm:
+            nts = lastfm_nts(artist); raw, rel = nts, None
+        else:
+            nts, raw, rel = styles_for(artist, track)
         done += 1
         if nts:
             hit += 1
             if not sample:
                 staging[vid] = ",".join(nts)
         if sample:
-            print(f"  {artist} - {track}", flush=True)
-            print(f"      release: {rel or 'none verified'}", flush=True)
-            print(f"      discogs: {', '.join(raw) if raw else '—'}", flush=True)
-            print(f"      NTS:     {', '.join(nts) if nts else '— (dropped/blank)'}", flush=True)
+            print(f"  {artist} - {track}\n      {'lastfm' if lastfm else 'discogs'}: {', '.join(raw) if raw else '—'}"
+                  f"  →  NTS: {', '.join(nts) if nts else '— (blank)'}", flush=True)
         elif done % 25 == 0:
             STAGING.write_text(json.dumps(staging, indent=0))
-            print(f"    {done}/{len(targets)} processed, {hit} matched", flush=True)
-        time.sleep(SLEEP)
+            print(f"    {done} processed, {hit} matched", flush=True)
+        time.sleep(LASTFM_SLEEP if lastfm else SLEEP)
     if not sample:
         STAGING.write_text(json.dumps(staging, indent=0))
     print(f"done: {done} processed, {hit} matched ({100*hit//max(done,1)}%)", flush=True)
@@ -219,8 +262,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["fetch", "merge"])
     ap.add_argument("--sample", type=int, default=0, help="process only N, report, no writes")
+    ap.add_argument("--lastfm", action="store_true", help="use Last.fm artist tags (coverage pass)")
     a = ap.parse_args()
     if a.cmd == "fetch":
-        cmd_fetch(a.sample)
+        cmd_fetch(a.sample, a.lastfm)
     else:
         cmd_merge()
