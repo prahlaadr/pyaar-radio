@@ -142,6 +142,19 @@ for disp in sorted(sub_display, key=lambda d: (sub_display[d], -sub_count[d])):
     lines.append(f"  {json.dumps(disp)}: {json.dumps(sorted(sub_tokens[disp]))},")
 lines.append("};")
 lines.append("")
+lines.append("// Full-taxonomy token→top map (every NTS subgenre + top name, lowercased).")
+lines.append("// Used to filter items whose genres are already NTS names (e.g. albums")
+lines.append("// enriched from Discogs) regardless of what the track library covers.")
+full_t2t = {}
+for g in tax['results']:
+    full_t2t[g['name'].strip().lower()] = g['name']
+    for s in g.get('subgenres', []):
+        full_t2t[s['name'].strip().lower()] = g['name']
+lines.append("export const NTS_TOKEN_TO_TOP: Record<string, string> = {")
+for k in sorted(full_t2t):
+    lines.append(f"  {json.dumps(k)}: {json.dumps(full_t2t[k])},")
+lines.append("};")
+lines.append("")
 open('src/lib/nts-genre-map.ts','w').write("\n".join(lines)+"\n")
 
 print(f"coverage: {covered}/{tagged} tagged tracks ({100*covered//tagged}%), {100*covered//tot}% of all {tot}")

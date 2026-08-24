@@ -30,6 +30,8 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 MASTERLIST = REPO / "public" / "data" / "masterlist.csv"
 STAGING = REPO / "scripts" / "enrich-staging.json"
+ALBUMS_INDEX = REPO / "albums" / "_index.json"
+ALBUM_GENRES = REPO / "public" / "data" / "album-genres.json"  # browseId → NTS genres
 
 UA = "PyaarRadio/1.0 (prahlaadram@gmail.com)"
 TOKEN = os.environ.get("DISCOGS_TOKEN", "")
@@ -155,11 +157,13 @@ def lastfm_nts(artist):
     return nts
 
 
-def styles_for(artist, track):
-    """Return (styles, chosen_release_title) for the artist's own official release
-    of this track, or ([], None) when nothing verifies. Styles are voted across
-    matching releases (freq desc) so a one-off comp mislabel can't dominate."""
-    q = f"https://api.discogs.com/database/search?artist={urllib.parse.quote(artist)}&track={urllib.parse.quote(track)}&type=release&per_page=25"
+def styles_for(artist, value, field="track"):
+    """Return (nts_tokens, raw_styles, chosen_release_title) for the artist's own
+    official release matching `value` on Discogs `field` (track name or
+    release_title for albums), or ([], [], None) when nothing verifies. Styles are
+    voted across matching releases (freq desc) so a one-off comp mislabel can't
+    dominate, then gated through the NTS crosswalk."""
+    q = f"https://api.discogs.com/database/search?artist={urllib.parse.quote(artist)}&{field}={urllib.parse.quote(value)}&type=release&per_page=25"
     if TOKEN:
         q += f"&token={TOKEN}"
     data = discogs_get(q)
@@ -258,13 +262,54 @@ def cmd_merge():
     print(f"merged: filled {filled} blank Genres from {len(staging)} staged")
 
 
+def cmd_albums(sample, lastfm):
+    """Album-level enrichment: one Discogs (release_title) or Last.fm (artist)
+    lookup per saved album → NTS genres, applied to the whole album. Writes the
+    deployable public/data/album-genres.json {browseId → genres} directly
+    (resumable, no masterlist involvement)."""
+    albums = json.loads(ALBUMS_INDEX.read_text()).get("albums", [])
+    out = json.loads(ALBUM_GENRES.read_text()) if ALBUM_GENRES.exists() else {}
+    if sample:
+        albums = albums[:sample]
+    src = "last.fm (artist tags)" if lastfm else "discogs (release styles)"
+    print(f"albums: {len(albums)} | already done: {len(out)} | source: {src}", flush=True)
+    done = hit = 0
+    for a in albums:
+        bid = a.get("browseId", "")
+        if not bid or (bid in out and not sample):
+            continue
+        artist = (a.get("artist") or "").split(",")[0].strip()
+        title = (a.get("title") or "").strip()
+        if lastfm:
+            nts = lastfm_nts(artist); raw, rel = nts, None
+        else:
+            nts, raw, rel = styles_for(artist, title, "release_title")
+        done += 1
+        if nts:
+            hit += 1
+            if not sample:
+                out[bid] = ",".join(nts)
+        if sample:
+            print(f"  {artist} - {title}\n      {'lastfm' if lastfm else 'discogs'}: {', '.join(raw) if raw else '—'}"
+                  f"  →  NTS: {', '.join(nts) if nts else '— (blank)'}", flush=True)
+        elif done % 25 == 0:
+            ALBUM_GENRES.write_text(json.dumps(out, indent=0))
+            print(f"    {done} processed, {hit} matched", flush=True)
+        time.sleep(LASTFM_SLEEP if lastfm else SLEEP)
+    if not sample:
+        ALBUM_GENRES.write_text(json.dumps(out, indent=0))
+    print(f"done: {done} processed, {hit} matched ({100*hit//max(done,1)}%)", flush=True)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["fetch", "merge"])
+    ap.add_argument("cmd", choices=["fetch", "merge", "albums"])
     ap.add_argument("--sample", type=int, default=0, help="process only N, report, no writes")
     ap.add_argument("--lastfm", action="store_true", help="use Last.fm artist tags (coverage pass)")
     a = ap.parse_args()
     if a.cmd == "fetch":
         cmd_fetch(a.sample, a.lastfm)
+    elif a.cmd == "albums":
+        cmd_albums(a.sample, a.lastfm)
     else:
         cmd_merge()

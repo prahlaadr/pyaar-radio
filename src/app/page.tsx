@@ -5,13 +5,14 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { query, queryArtists, fetchSetlistManifest, fetchSetlistCSV } from "@/lib/duckdb";
 import { buildArtistQuery, buildTracksQuery, buildTrackSearchQuery, buildBatchTrackLookupQuery, buildScoredRandomQuery, buildTamilQuery, buildIlaiyaraajaQuery, buildTagSectionQuery, buildFilteredTracksQuery, buildChapterSuggestionQuery, buildLikedTracksQuery, buildAlbumTracksQuery } from "@/lib/queries";
 
-type SavedAlbum = { position: number | null; browseId: string; title: string; artist: string; year: string; trackCount: number };
+type SavedAlbum = { position: number | null; browseId: string; title: string; artist: string; year: string; trackCount: number; genres: string[] };
 type AlbumSort = "recency" | "release" | "title" | "artist";
 import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { NtsGenreFilter } from "@/components/nts-genre-filter";
+import { NTS_SUBGENRES, NTS_TOKEN_TO_TOP } from "@/lib/nts-genre-map";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
 import { LibraryTrackList } from "@/components/library-track-list";
@@ -956,9 +957,11 @@ export default function Home() {
 
   useEffect(() => {
     if (tab !== "albums" || savedAlbums.length > 0) return;
-    fetch("/data/albums.csv")
-      .then((r) => r.text())
-      .then((csv) => {
+    Promise.all([
+      fetch("/data/albums.csv").then((r) => r.text()),
+      fetch("/data/album-genres.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    ])
+      .then(([csv, albumGenres]: [string, Record<string, string>]) => {
         const allLines = csv.trim().split("\n");
         const header = (allLines[0] || "").split(",");
         const hasPosition = header[0] === "position";
@@ -977,13 +980,16 @@ export default function Home() {
           const offset = hasPosition ? 1 : 0;
           const positionStr = hasPosition ? cells[0] : "";
           const position = positionStr ? parseInt(positionStr, 10) : null;
+          const browseId = cells[offset] || "";
+          const g = albumGenres[browseId];
           return {
             position: Number.isFinite(position as number) ? position : null,
-            browseId: cells[offset] || "",
+            browseId,
             title: cells[offset + 1] || "",
             artist: cells[offset + 2] || "",
             year: cells[offset + 3] || "",
             trackCount: parseInt(cells[offset + 4] || "0", 10),
+            genres: g ? g.split(",").map((x) => x.trim()).filter(Boolean) : [],
           };
         }).filter((a) => a.title && a.artist);
         setSavedAlbums(albums);
@@ -1022,12 +1028,26 @@ export default function Home() {
 
   const filteredAlbums = useMemo(() => {
     const q = albumsSearch.trim().toLowerCase();
-    const filtered = q
-      ? savedAlbums.filter((a) =>
-          a.title.toLowerCase().includes(q) ||
-          a.artist.toLowerCase().includes(q)
-        )
-      : savedAlbums;
+    const ng = filters.ntsGenres, ns = filters.ntsSubgenres;
+    const ntsActive = ng.length > 0 || ns.length > 0;
+    const subsLower = new Set(ns.map((s) => s.toLowerCase()));
+    // Album matches the NTS filter if its (NTS-name) genre tokens hit a selected
+    // subgenre, or a selected top-genre that has no chosen subgenre. Mirrors the
+    // ntsGenreClause drill-down semantics, client-side.
+    const albumMatchesNts = (al: SavedAlbum) => {
+      if (!ntsActive) return true;
+      const toks = new Set(al.genres.map((t) => t.toLowerCase()));
+      for (const s of subsLower) if (toks.has(s)) return true;
+      for (const top of ng) {
+        if ((NTS_SUBGENRES[top] || []).some((sd) => subsLower.has(sd.toLowerCase()))) continue;
+        for (const t of toks) if (NTS_TOKEN_TO_TOP[t] === top) return true;
+      }
+      return false;
+    };
+    const filtered = savedAlbums.filter((a) =>
+      (!q || a.title.toLowerCase().includes(q) || a.artist.toLowerCase().includes(q)) &&
+      albumMatchesNts(a)
+    );
     const sorted = [...filtered];
     sorted.sort((a, b) => {
       switch (albumsSort) {
@@ -1050,7 +1070,7 @@ export default function Home() {
       }
     });
     return sorted;
-  }, [savedAlbums, albumsSearch, albumsSort]);
+  }, [savedAlbums, albumsSearch, albumsSort, filters.ntsGenres, filters.ntsSubgenres]);
 
   const albumsVirtualizer = useVirtualizer({
     count: filteredAlbums.length,
@@ -2191,7 +2211,7 @@ export default function Home() {
                 <div className="flex items-baseline gap-2 shrink-0">
                   <span className="text-sm font-medium text-white">Saved Albums</span>
                   <span className="text-[10px] text-[#999] uppercase tracking-wider">
-                    {albumsSearch ? `${filteredAlbums.length}/` : ""}{savedAlbums.length.toLocaleString()}
+                    {(albumsSearch || filters.ntsGenres.length > 0 || filters.ntsSubgenres.length > 0) ? `${filteredAlbums.length}/` : ""}{savedAlbums.length.toLocaleString()}
                   </span>
                 </div>
                 <input
@@ -2215,10 +2235,18 @@ export default function Home() {
                   </select>
                 </div>
               </div>
+              <div className="px-5 py-2.5 border-b border-[#222]">
+                <NtsGenreFilter
+                  genres={filters.ntsGenres}
+                  subgenres={filters.ntsSubgenres}
+                  onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
+                  onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
+                />
+              </div>
               <div ref={albumsScrollRef} className="flex-1 overflow-y-auto">
                 {filteredAlbums.length === 0 ? (
                   <div className="px-5 py-8 text-center text-xs text-[#666]">
-                    {albumsSearch ? "No albums match search" : "No saved albums"}
+                    {(albumsSearch || filters.ntsGenres.length > 0 || filters.ntsSubgenres.length > 0) ? "No albums match filter" : "No saved albums"}
                   </div>
                 ) : (
                   <div style={{ height: `${albumsVirtualizer.getTotalSize()}px`, position: "relative", width: "100%" }}>
