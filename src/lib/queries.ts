@@ -470,12 +470,14 @@ export function buildAlbumTracksQuery(albumTitle: string, artistName: string): s
 }
 
 
-export function buildLikedTracksQuery(searchTerm = ""): string {
+export function buildLikedTracksQuery(searchTerm = "", ntsGenres: string[] = [], ntsSubgenres: string[] = []): string {
   const conditions = [`Liked = 'Yes'`];
   if (searchTerm.trim()) {
     const s = searchTerm.replace(/'/g, "''").toLowerCase();
     conditions.push(`(LOWER("Track Name") LIKE '%${s}%' OR LOWER("Artist Name(s)") LIKE '%${s}%' OR LOWER("Album Name") LIKE '%${s}%')`);
   }
+  const ntsClause = ntsGenreClause(ntsGenres, ntsSubgenres);
+  if (ntsClause) conditions.push(ntsClause);
   return `
     SELECT
       "Track Name" as trackName,
