@@ -14,6 +14,11 @@ else
   exit 1
 fi
 
+# Build the masterlist Parquet (columnar → ~5-10x faster browser load than CSV).
+# Regenerated on every build/dev so it stays fresh with the daily masterlist sync.
+echo "Building masterlist.parquet..."
+bun "$SCRIPT_DIR/build-parquet.mjs" || echo "WARN: parquet build failed — app will fall back to CSV"
+
 # Copy DuckDB WASM files
 cp "$DUCKDB_DIST/duckdb-mvp.wasm" "$PROJECT_DIR/public/"
 cp "$DUCKDB_DIST/duckdb-eh.wasm" "$PROJECT_DIR/public/"

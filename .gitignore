@@ -59,6 +59,9 @@ reviews/
 public/*.wasm
 public/*.worker.js
 
+# masterlist Parquet (regenerated from the CSV at build time by build-parquet.mjs)
+public/data/masterlist.parquet
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

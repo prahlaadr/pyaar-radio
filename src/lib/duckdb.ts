@@ -61,9 +61,19 @@ async function initMasterlist() {
   await artistsPromise;
   const c = conn!;
 
-  const masterlistResp = await fetch("/data/masterlist.csv");
-  const masterlistBuf = new Uint8Array(await masterlistResp.arrayBuffer());
-  await db!.registerFileBuffer("masterlist.csv", masterlistBuf);
+  // Parquet (columnar, typed, ZSTD) parses ~5-10x faster than the 9.7 MB CSV.
+  // Built at prebuild time by scripts/build-parquet.mjs (see copy-data.sh). Fall
+  // back to the CSV if the parquet is missing so a build glitch can't blank the app.
+  let masterlistFrom: string;
+  const pqResp = await fetch("/data/masterlist.parquet").catch(() => null);
+  if (pqResp?.ok) {
+    await db!.registerFileBuffer("masterlist.parquet", new Uint8Array(await pqResp.arrayBuffer()));
+    masterlistFrom = `read_parquet('masterlist.parquet')`;
+  } else {
+    const csvResp = await fetch("/data/masterlist.csv");
+    await db!.registerFileBuffer("masterlist.csv", new Uint8Array(await csvResp.arrayBuffer()));
+    masterlistFrom = `read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)`;
+  }
 
   // Tamil CSV — non-blocking so failures don't break the main app
   try {
@@ -92,7 +102,7 @@ async function initMasterlist() {
   await c.query(`
     CREATE TABLE masterlist AS
     SELECT *, ';' || LOWER("Artist Name(s)") || ';' AS _artists_lower
-    FROM read_csv('masterlist.csv', delim=',', quote='"', escape='"', header=true, all_varchar=true, strict_mode=false, null_padding=true)
+    FROM ${masterlistFrom}
   `);
   // Ensure Bandcamp ID column exists (may be missing from CSV)
   try {
