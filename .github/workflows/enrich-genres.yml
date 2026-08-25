@@ -1,0 +1,65 @@
+name: Enrich Genres
+
+# Genre enrichment is a batch: new liked songs land blank until enriched. This
+# tops up any blank liked songs twice a week (Discogs styles -> NTS ontology,
+# Last.fm artist tags as fallback) so filter coverage stays fresh.
+
+on:
+  schedule:
+    - cron: '0 9 * * 2,5'   # Tue + Fri 09:00 UTC (after the 3AM masterlist sync)
+  workflow_dispatch:         # On-demand top-up
+
+permissions:
+  contents: write
+
+concurrency: enrich-genres
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      # Discogs (curated release styles) — unauth 25/min, DISCOGS_TOKEN doubles it.
+      - name: Discogs pass (blank liked songs)
+        run: python scripts/enrich_genres.py fetch
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+
+      # Last.fm (artist tags) fills the tracks Discogs misses. Key has a fallback
+      # in the script, so the secret is optional.
+      - name: Last.fm pass (coverage fallback)
+        run: python scripts/enrich_genres.py fetch --lastfm
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+
+      # Pull first so the fill-blank merge lands on the latest masterlist (the 3AM
+      # sync may have appended rows); staging is keyed by Video ID so it still maps.
+      - name: Merge into masterlist + regenerate NTS map
+        run: |
+          git pull --rebase --autostash origin main
+          python scripts/enrich_genres.py merge
+          python scripts/gen_nts_genre_map.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add public/data/masterlist.csv src/lib/nts-genre-map.ts
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "enrich: top up blank liked-song genres"
+          git push

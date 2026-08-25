@@ -71,3 +71,6 @@ __pycache__/
 *.pyc
 public/data/_backups/
 .playwright-mcp/
+
+# Genre enrichment staging (per-run cache; masterlist is the source of truth)
+scripts/enrich-staging.json
