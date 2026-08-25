@@ -39,14 +39,14 @@ export const NTS_GENRE_TOKENS: Record<string, string[]> = {
   "alternative rock / punk": ["alternative rock", "art rock", "dream pop", "emo", "garage rock", "grunge", "hardcore punk", "indie", "indie rock", "lo-fi indie", "math rock", "neo-psychedelic", "noise rock", "post rock", "post-rock", "punk", "shibuya-kei", "shoegaze", "slowcore", "space rock"],
   "rock": ["classic rock", "country", "folk", "hard rock", "krautrock", "power pop", "prog rock", "progressive rock", "psychedelic folk", "psychedelic rock", "rock", "rockabilly", "soft rock", "surf", "visual kei", "yacht rock"],
   "metal": ["black metal", "death metal", "djent", "grindcore", "heavy metal", "metal", "metalcore", "nu metal", "progressive metal", "sludge"],
-  "avant garde": ["avant-garde", "dark ambient", "drone", "electroacoustic", "experimental", "musique concr\u00e8te", "noise", "plunderphonics"],
+  "avant garde": ["avant-garde", "dark ambient", "drone", "electroacoustic", "experimental", "freak folk", "musique concr\u00e8te", "noise", "plunderphonics"],
   "caribbean": ["calypso", "dancehall", "dembow", "dub", "lovers rock", "ragga", "reggae", "rocksteady", "roots reggae", "shatta", "ska", "soca", "zouk"],
   "latin / brazilian": ["bachata", "bolero", "bossa nova", "champeta", "chicha", "corrido", "cumbia", "flamenco", "forr\u00f3", "freestyle", "guaracha", "latin", "latin jazz", "mariachi", "merengue", "mpb", "norte\u00f1o", "nueva trova", "salsa", "samba", "tango", "urbano latino", "vallenato"],
   "jazz": ["acid jazz", "afro cuban jazz", "ambient jazz", "bebop", "brazilian jazz", "contemporary jazz", "cool jazz", "experimental jazz", "free jazz", "hard bop", "indie jazz", "jazz", "jazz ballads", "jazz beats", "jazz funk", "jazz fusion", "nu jazz", "soul jazz", "spiritual jazz", "swing", "vocal jazz"],
   "soul / rhythm & blues": ["alternative r&b", "blues", "classic soul", "funk", "gospel", "indie soul", "motown", "neo soul", "northern soul", "quiet storm", "r&b", "retro soul", "rhythm & blues", "slow jams", "soul", "uk r&b"],
   "disco / boogie": ["boogie", "bubblegum", "classic disco", "cosmic disco", "disco", "nu disco", "post-disco"],
   "african / middle eastern": ["afro r&b", "afro soul", "afrobeat", "afropop", "afroswing", "alt\u00e9", "anatolian rock", "arabic pop", "azonto", "bikutsi", "egyptian pop", "ethiopian jazz", "gnawa", "highlife", "hiplife", "khaleeji", "kizomba", "mahraganat", "maloya", "persian traditional", "ra\u00ef", "rumba", "soukous"],
-  "asia": ["asia", "bangla pop", "bhangra", "bollywood", "budots", "c-pop", "city pop", "dangdut", "desi", "desi hip hop", "desi pop", "devotional", "gamelan", "ghazal", "hindi hip hop", "hindi indie", "hindi pop", "indian classical", "indian indie", "j-pop", "japanese classical", "k-pop", "kannada pop", "kollywood", "kundiman", "luk thung", "malayalam pop", "marathi pop", "mollywood", "punjabi hip hop", "punjabi pop", "sandalwood", "sufi", "tamil dance", "tamil hip hop", "tamil pop", "telugu pop", "tollywood", "v-pop"],
+  "asia": ["asia", "bangla pop", "bhangra", "bollywood", "budots", "c-pop", "city pop", "dangdut", "desi", "desi hip hop", "desi pop", "devotional", "gamelan", "ghazal", "hindi hip hop", "hindi indie", "hindi pop", "indian classical", "indian indie", "j-pop", "japanese classical", "k-pop", "kannada pop", "kollywood", "kundiman", "lollywood", "luk thung", "malayalam pop", "marathi pop", "mollywood", "punjabi hip hop", "punjabi pop", "sandalwood", "sufi", "tamil dance", "tamil hip hop", "tamil pop", "telugu pop", "tollywood", "v-pop"],
   "classical / opera": ["baroque", "chamber music", "classical", "minimalism", "modern classical", "neoclassical", "opera"],
   "other": ["art pop", "baroque pop", "bedroom pop", "bhajan", "bluegrass", "chanson", "christmas", "pop", "qawwali", "soundtrack", "spoken word", "video game music"],
 };
@@ -84,13 +84,13 @@ export const NTS_GROUP_TO_TOP: Record<string, string> = {
 export const NTS_SUBGENRES: Record<string, string[]> = {
   "ambient / new age": ["Ambient", "New Age", "Vaporwave"],
   "electronica / downtempo": ["Electronica", "Trip Hop", "Glitch", "Witch House", "Beats"],
-  "hip-hop / r'n'b": ["Rap", "Hip Hop ", "Experimental Hip Hop", "Trap", "Cloud Rap", "Drill", "New Jack Swing ", "Emo Rap", "RNB", "G-Funk", "Gangsta Rap", "Dirty South"],
+  "hip-hop / r'n'b": ["Rap", "Hip Hop ", "Experimental Hip Hop", "Trap", "Cloud Rap", "Drill", "New Jack Swing ", "RNB", "Emo Rap", "G-Funk", "Gangsta Rap", "Dirty South"],
   "new club": ["Afrobeats", "Footwork", "EDM", "Reggaeton", "Hyperpop", "Afro House", "Jersey Club", "Kuduro", "Amapiano ", "Baltimore Club", "Gqom", "Singeli", "Bass", "Ndombolo"],
   "uk dance / grime": ["Dubstep", "Jungle", "Grime", "UK Funky", "Breakcore", "Bassline", "Garage", "Drum & Bass"],
-  "house / techno": ["Dub Techno", "House", "Techno", "Deep House", "Electro", "Tech House", "Chicago House", "Trance", "Breaks", "Minimal"],
+  "house / techno": ["Dub Techno", "House", "Techno", "Deep House", "Tech House", "Electro", "Chicago House", "Trance", "Breaks", "Minimal"],
   "post punk / new wave": ["Electroclash", "New Wave", "Industrial ", "EBM"],
   "alternative rock / punk": ["Indie Rock", "Dream Pop", "Shoegaze", "Math Rock", "Space Rock", "Art Rock", "Garage Rock", "Emo", "SHIBUYA-KEI", "Grunge", "Punk", "Noise Rock", "Hardcore Punk", "Post Rock"],
-  "rock": ["Psychedelic Rock", "Classic Rock", "Folk", "Krautrock", "Soft Rock", "Yacht Rock ", "Country", "Hard Rock", "Power Pop", "Rockabilly"],
+  "rock": ["Psychedelic Rock", "Classic Rock", "Folk", "Krautrock", "Soft Rock", "Yacht Rock ", "Country", "Hard Rock", "Power Pop", "Rockabilly", "Prog Rock"],
   "metal": ["Nu Metal", "Heavy Metal "],
   "avant garde": ["Experimental", "Drone", "Dark Ambient"],
   "caribbean": ["Dub", "Reggae", "Dancehall", "Rocksteady", "Lovers Rock", "Ska", "Soca", "Dembow", "Shatta", "Zouk", "Calypso"],
@@ -151,10 +151,12 @@ export const NTS_SUBGENRE_TOKENS: Record<string, string[]> = {
   "Budots": ["budots"],
   "Dangdut": ["dangdut"],
   "Gamelan": ["gamelan"],
+  "Lollywood": ["lollywood"],
   "Experimental": ["experimental"],
   "Drone": ["drone"],
   "Dark Ambient": ["dark ambient"],
   "Noise": ["noise"],
+  "Freak Folk": ["freak folk"],
   "Dub": ["dub"],
   "Reggae": ["reggae"],
   "Dancehall": ["dancehall"],
@@ -188,8 +190,8 @@ export const NTS_SUBGENRE_TOKENS: Record<string, string[]> = {
   "Cloud Rap": ["cloud rap"],
   "Drill": ["drill"],
   "New Jack Swing ": ["new jack swing"],
-  "Emo Rap": ["emo rap"],
   "RNB": ["rnb"],
+  "Emo Rap": ["emo rap"],
   "G-Funk": ["g-funk"],
   "Gangsta Rap": ["gangsta rap"],
   "Dirty South": ["dirty south"],
@@ -198,15 +200,15 @@ export const NTS_SUBGENRE_TOKENS: Record<string, string[]> = {
   "House": ["house"],
   "Techno": ["techno"],
   "Deep House": ["deep house"],
-  "Electro": ["electro"],
   "Tech House": ["tech house"],
+  "Electro": ["electro"],
   "Chicago House": ["chicago house"],
   "Trance": ["trance"],
   "Breaks": ["breaks"],
   "Minimal": ["minimal"],
   "Gabber": ["gabber"],
-  "Happy Hardcore": ["happy hardcore"],
   "Hip-House": ["hip-house"],
+  "Happy Hardcore": ["happy hardcore"],
   "Broken Beat": ["broken beat"],
   "Hardstyle": ["hardstyle"],
   "Euro House": ["euro house"],
@@ -782,7 +784,7 @@ export const NTS_TOKEN_TO_TOP: Record<string, string> = {
 // Per-surface facet presence ("T:top"/"S:sub") — the NTS facets that
 // actually have songs in your liked set / curated-artist library. Used to
 // prune the filter chips per surface so playlist-only genres don't show.
-export const NTS_FACETS_LIKED: string[] = ["S:Afro Cuban Jazz", "S:Afro House", "S:Afrobeat", "S:Afrobeats", "S:Amapiano ", "S:Ambient", "S:Ambient Jazz", "S:Arabic Pop", "S:Art Rock", "S:Bachata", "S:Ballroom", "S:Baltimore Club", "S:Bass", "S:Bassline", "S:Beats", "S:Bhajan", "S:Bhangra ", "S:Bikutsi", "S:Black Metal", "S:Bluegrass", "S:Blues", "S:Bolero", "S:Bollywood", "S:Boogie", "S:Bossa Nova", "S:Breakcore", "S:Breaks", "S:Broken Beat", "S:Bubblegum", "S:Calypso", "S:Champeta", "S:Chanson", "S:Chicago House", "S:Christmas", "S:City Pop", "S:Classic Disco", "S:Classic Rock", "S:Classical", "S:Cloud Rap", "S:Club", "S:Contemporary Jazz", "S:Corrido", "S:Cosmic Disco", "S:Country", "S:Dancehall", "S:Dark Ambient", "S:Death Metal", "S:Deep House", "S:Dembow", "S:Dirty South", "S:Dream Pop", "S:Drill", "S:Drone", "S:Drum & Bass", "S:Dub", "S:Dub Techno", "S:Dubstep", "S:EDM", "S:Electro", "S:Electroclash", "S:Electronica", "S:Emo", "S:Emo Rap", "S:Ethiopian Jazz", "S:Euro House", "S:Experimental", "S:Experimental Hip Hop", "S:Flamenco", "S:Folk", "S:Footwork", "S:Free Jazz", "S:Funk", "S:G-Funk", "S:Gabber", "S:Gamelan", "S:Gangsta Rap", "S:Garage", "S:Garage Rock", "S:Gengetone", "S:Ghazal", "S:Ghettotech", "S:Glitch", "S:Gnawa", "S:Gospel", "S:Gqom", "S:Grime", "S:Grindcore", "S:Grunge", "S:Hard Bop", "S:Hard Rock", "S:Hardcore Punk", "S:Heavy Metal ", "S:Highlife", "S:Hip Hop ", "S:Hip-House", "S:House", "S:Hyperpop", "S:Indian Classical", "S:Indie Rock", "S:Industrial ", "S:J-Pop", "S:Jazz Fusion", "S:Jersey Club", "S:Jungle", "S:K-Pop", "S:Kizomba", "S:Krautrock", "S:Kuduro", "S:Kundiman", "S:Latin Jazz", "S:Lovers Rock", "S:Mahraganat", "S:Math Rock", "S:Memphis", "S:Merengue", "S:Metalcore", "S:Minimal", "S:Minimalism", "S:Modern Classical", "S:Ndombolo", "S:New Age", "S:New Jack Swing ", "S:New Wave", "S:Noise", "S:Noise Rock", "S:Norte\u00f1o", "S:Nu Metal", "S:Nueva Trova", "S:Opera", "S:Persian Traditional", "S:Pop", "S:Post Punk", "S:Post Rock", "S:Power Pop", "S:Prog Rock", "S:Psychedelic Folk", "S:Psychedelic Rock", "S:Punk", "S:Qawwali", "S:RNB", "S:Rap", "S:Reggae", "S:Reggaeton", "S:Rhythm & Blues", "S:Rocksteady", "S:Rumba", "S:SHIBUYA-KEI", "S:Salsa", "S:Samba", "S:Shatta", "S:Shoegaze", "S:Singeli", "S:Ska", "S:Slow Jams", "S:Sludge", "S:Soca", "S:Soft Rock", "S:Soukous", "S:Soul", "S:Soul Jazz", "S:Soundtrack", "S:Space Rock", "S:Speed Garage", "S:Spiritual Jazz", "S:Spoken Word", "S:Surf", "S:Swing", "S:Tango", "S:Tech House", "S:Techno", "S:Trance", "S:Trap", "S:Trip Hop", "S:UK Funky", "S:Vaporwave", "S:Video Game Music", "S:Witch House", "S:Yacht Rock ", "S:visual kei", "T:african / middle eastern", "T:alternative rock / punk", "T:ambient / new age", "T:asia", "T:avant garde", "T:caribbean", "T:classical / opera", "T:disco / boogie", "T:electronica / downtempo", "T:hip-hop / r'n'b", "T:house / techno", "T:jazz", "T:latin / brazilian", "T:metal", "T:new club", "T:other", "T:post punk / new wave", "T:rock", "T:soul / rhythm & blues", "T:uk dance / grime"];
+export const NTS_FACETS_LIKED: string[] = ["S:Afro Cuban Jazz", "S:Afro House", "S:Afrobeat", "S:Afrobeats", "S:Amapiano ", "S:Ambient", "S:Ambient Jazz", "S:Arabic Pop", "S:Art Rock", "S:Bachata", "S:Ballroom", "S:Baltimore Club", "S:Bass", "S:Bassline", "S:Beats", "S:Bhajan", "S:Bhangra ", "S:Bikutsi", "S:Black Metal", "S:Bluegrass", "S:Blues", "S:Bolero", "S:Bollywood", "S:Boogie", "S:Bossa Nova", "S:Breakcore", "S:Breaks", "S:Broken Beat", "S:Bubblegum", "S:Calypso", "S:Champeta", "S:Chanson", "S:Chicago House", "S:Christmas", "S:City Pop", "S:Classic Disco", "S:Classic Rock", "S:Classical", "S:Cloud Rap", "S:Club", "S:Contemporary Jazz", "S:Corrido", "S:Cosmic Disco", "S:Country", "S:Dancehall", "S:Dark Ambient", "S:Death Metal", "S:Deep House", "S:Dembow", "S:Dirty South", "S:Dream Pop", "S:Drill", "S:Drone", "S:Drum & Bass", "S:Dub", "S:Dub Techno", "S:Dubstep", "S:EDM", "S:Electro", "S:Electroclash", "S:Electronica", "S:Emo", "S:Emo Rap", "S:Ethiopian Jazz", "S:Euro House", "S:Experimental", "S:Experimental Hip Hop", "S:Flamenco", "S:Folk", "S:Footwork", "S:Freak Folk", "S:Free Jazz", "S:Funk", "S:G-Funk", "S:Gabber", "S:Gamelan", "S:Gangsta Rap", "S:Garage", "S:Garage Rock", "S:Gengetone", "S:Ghazal", "S:Ghettotech", "S:Glitch", "S:Gnawa", "S:Gospel", "S:Gqom", "S:Grime", "S:Grindcore", "S:Grunge", "S:Hard Bop", "S:Hard Rock", "S:Hardcore Punk", "S:Heavy Metal ", "S:Highlife", "S:Hip Hop ", "S:Hip-House", "S:House", "S:Hyperpop", "S:Indian Classical", "S:Indie Rock", "S:Industrial ", "S:J-Pop", "S:Jazz Fusion", "S:Jersey Club", "S:Jungle", "S:K-Pop", "S:Kizomba", "S:Krautrock", "S:Kuduro", "S:Kundiman", "S:Latin Jazz", "S:Lollywood", "S:Lovers Rock", "S:Mahraganat", "S:Math Rock", "S:Memphis", "S:Merengue", "S:Metalcore", "S:Minimal", "S:Minimalism", "S:Modern Classical", "S:Ndombolo", "S:New Age", "S:New Jack Swing ", "S:New Wave", "S:Noise", "S:Noise Rock", "S:Norte\u00f1o", "S:Nu Metal", "S:Nueva Trova", "S:Opera", "S:Persian Traditional", "S:Pop", "S:Post Punk", "S:Post Rock", "S:Power Pop", "S:Prog Rock", "S:Psychedelic Folk", "S:Psychedelic Rock", "S:Punk", "S:Qawwali", "S:RNB", "S:Rap", "S:Reggae", "S:Reggaeton", "S:Rhythm & Blues", "S:Rocksteady", "S:Rumba", "S:SHIBUYA-KEI", "S:Salsa", "S:Samba", "S:Shatta", "S:Shoegaze", "S:Singeli", "S:Ska", "S:Slow Jams", "S:Sludge", "S:Soca", "S:Soft Rock", "S:Soukous", "S:Soul", "S:Soul Jazz", "S:Soundtrack", "S:Space Rock", "S:Speed Garage", "S:Spiritual Jazz", "S:Spoken Word", "S:Surf", "S:Swing", "S:Tango", "S:Tech House", "S:Techno", "S:Trance", "S:Trap", "S:Trip Hop", "S:UK Funky", "S:Vaporwave", "S:Video Game Music", "S:Witch House", "S:Yacht Rock ", "S:visual kei", "T:african / middle eastern", "T:alternative rock / punk", "T:ambient / new age", "T:asia", "T:avant garde", "T:caribbean", "T:classical / opera", "T:disco / boogie", "T:electronica / downtempo", "T:hip-hop / r'n'b", "T:house / techno", "T:jazz", "T:latin / brazilian", "T:metal", "T:new club", "T:other", "T:post punk / new wave", "T:rock", "T:soul / rhythm & blues", "T:uk dance / grime"];
 
 export const NTS_FACETS_BROWSE: string[] = ["S:Afro House", "S:Afrobeat", "S:Afrobeats", "S:Amapiano ", "S:Ambient", "S:Ambient Jazz", "S:Art Rock", "S:Bachata", "S:Ballroom", "S:Baltimore Club", "S:Bass", "S:Bassline", "S:Beats", "S:Bebop", "S:Bhajan", "S:Bhangra ", "S:Blues", "S:Bollywood", "S:Boogie", "S:Bossa Nova", "S:Breakcore", "S:Breaks", "S:Broken Beat", "S:Calypso", "S:Chamber Music", "S:Chicago House", "S:City Pop", "S:Classic Disco", "S:Classical", "S:Cloud Rap", "S:Club", "S:Contemporary Jazz", "S:Corrido", "S:Cosmic Disco", "S:Country", "S:Dancehall", "S:Dark Ambient", "S:Deep House", "S:Dembow", "S:Dirty South", "S:Dream Pop", "S:Drill", "S:Drone", "S:Drum & Bass", "S:Dub", "S:Dub Techno", "S:Dubstep", "S:EBM", "S:EDM", "S:Electro", "S:Electroclash", "S:Electronica", "S:Emo", "S:Emo Rap", "S:Euro House", "S:Experimental", "S:Experimental Hip Hop", "S:Flamenco", "S:Folk", "S:Footwork", "S:Free Jazz", "S:Funk", "S:G-Funk", "S:Gangsta Rap", "S:Garage", "S:Garage Rock", "S:Ghazal", "S:Glitch", "S:Gnawa", "S:Gospel", "S:Gqom", "S:Grime", "S:Happy Hardcore", "S:Hard Bop", "S:Hard Rock", "S:Hardcore Punk", "S:Hardstyle", "S:Heavy Metal ", "S:Highlife", "S:Hip Hop ", "S:Hip-House", "S:House", "S:Hyperpop", "S:Indian Classical", "S:Indie Rock", "S:Industrial ", "S:Jazz Fusion", "S:Jersey Club", "S:Jungle", "S:K-Pop", "S:KHALEEJI", "S:Kizomba", "S:Krautrock", "S:Kuduro", "S:Latin Jazz", "S:Lovers Rock", "S:Mahraganat", "S:Math Rock", "S:Memphis", "S:Metalcore", "S:Minimal", "S:Minimalism", "S:Ndombolo", "S:New Age", "S:New Jack Swing ", "S:New Wave", "S:Noise Rock", "S:Nu Metal", "S:Nueva Trova", "S:Opera", "S:Pop", "S:Post Punk", "S:Prog Rock", "S:Psychedelic Rock", "S:Punk", "S:Qawwali", "S:RNB", "S:Rap", "S:Ra\u00ef", "S:Reggae", "S:Reggaeton", "S:Rhythm & Blues", "S:SHIBUYA-KEI", "S:Salsa", "S:Shatta", "S:Shoegaze", "S:Singeli", "S:Ska", "S:Soca", "S:Soft Rock", "S:Soul", "S:Soul Jazz", "S:Soundtrack", "S:Space Rock", "S:Speed Garage", "S:Spoken Word", "S:Tango", "S:Tech House", "S:Techno", "S:Trap", "S:Trip Hop", "S:UK Funky", "S:Vaporwave", "S:Witch House", "S:Yacht Rock ", "T:african / middle eastern", "T:alternative rock / punk", "T:ambient / new age", "T:asia", "T:avant garde", "T:caribbean", "T:classical / opera", "T:disco / boogie", "T:electronica / downtempo", "T:hip-hop / r'n'b", "T:house / techno", "T:jazz", "T:latin / brazilian", "T:metal", "T:new club", "T:other", "T:post punk / new wave", "T:rock", "T:soul / rhythm & blues", "T:uk dance / grime"];
 
