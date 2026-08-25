@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3553,
- "totalTracks": 45248,
- "syncedAt": "2026-08-24T08:47:57.950959Z",
+ "albumCount": 3555,
+ "totalTracks": 45282,
+ "syncedAt": "2026-08-25T08:42:21.681841Z",
  "albums": [
+  {
+   "browseId": "MPREb_ly6hIqbI6xo",
+   "title": "La Isla Bonita",
+   "artist": "Deerhoof",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_UaEWWp6uqgy",
+   "title": "Britpop",
+   "artist": "A. G. Cook",
+   "trackCount": 24
+  },
   {
    "browseId": "MPREb_NqXa3Im9PPO",
    "title": "Isles",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 24,
- "syncedAt": "2026-08-24T08:48:00.987612Z",
+ "trackCount": 29,
+ "syncedAt": "2026-08-25T08:42:24.830239Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -117,13 +117,6 @@
    "duration": "4:47"
   },
   {
-   "title": "? (Interlude)",
-   "artist": "RM;DOMi & JD BECK",
-   "album": "Right Place, Wrong Person",
-   "videoId": "eC1txOJS_pc",
-   "duration": "1:54"
-  },
-  {
    "title": "Brakhage",
    "artist": "Stereolab",
    "album": "Dots And Loops",
@@ -171,6 +164,48 @@
    "album": "One Offs (Remixes & B Sides)",
    "videoId": "iASDej2P2iU",
    "duration": "3:48"
+  },
+  {
+   "title": "Oh Bummer",
+   "artist": "Deerhoof",
+   "album": "La Isla Bonita",
+   "videoId": "S6PSYjCpxNQ",
+   "duration": "4:26"
+  },
+  {
+   "title": "With You",
+   "artist": "Smoke City",
+   "album": "Flying Away",
+   "videoId": "SyjZ0mXEsUM",
+   "duration": "4:51"
+  },
+  {
+   "title": "Herberts",
+   "artist": "Hudson Mohawke",
+   "album": "B.B.H.E.",
+   "videoId": "v1aDUTqUcGE",
+   "duration": "1:30"
+  },
+  {
+   "title": "FADE AWAY",
+   "artist": "Machinedrum",
+   "album": "BL00MS",
+   "videoId": "P4a6fdI-8Uo",
+   "duration": "3:05"
+  },
+  {
+   "title": "Dancer",
+   "artist": "IDLES;LCD Soundsystem",
+   "album": "TANGK",
+   "videoId": "2q5DjsmeWOQ",
+   "duration": "3:10"
+  },
+  {
+   "title": "Crooklyn",
+   "artist": "Alix Perez",
+   "album": "Allegiance EP",
+   "videoId": "oyjAXyPofx4",
+   "duration": "5:33"
   }
  ]
 }

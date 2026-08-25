@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 1,
- "syncedAt": "2026-08-24T08:48:00.987612Z",
+ "trackCount": 9,
+ "syncedAt": "2026-08-25T08:42:24.830239Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -10,6 +10,62 @@
    "album": "MAGDALENA",
    "videoId": "yHO-zjUPaps",
    "duration": "2:23"
+  },
+  {
+   "title": "The Path Less Travelled",
+   "artist": "Vegyn",
+   "album": "The Road To Hell Is Paved With Good Intentions",
+   "videoId": "J2CtYBVyC2I",
+   "duration": "3:45"
+  },
+  {
+   "title": "Jigsaw Falling Into Place",
+   "artist": "Radiohead",
+   "album": "In Rainbows",
+   "videoId": "CvjRlYpXS5U",
+   "duration": "4:09"
+  },
+  {
+   "title": "Black Tooth",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "Willoughby’s Beach",
+   "videoId": "_mYUhEgqxjI",
+   "duration": "2:31"
+  },
+  {
+   "title": "benadryl submarine",
+   "artist": "Lil Ugly Mane",
+   "album": "volcanic bird enemy and the voiced concern",
+   "videoId": "-2t1oC1LUpI",
+   "duration": "3:41"
+  },
+  {
+   "title": "hypnic jerks",
+   "artist": "SPIRIT OF THE BEEHIVE",
+   "album": "Hypnic Jerks",
+   "videoId": "0JeLDSva58Q",
+   "duration": "3:43"
+  },
+  {
+   "title": "Dancer",
+   "artist": "IDLES;LCD Soundsystem",
+   "album": "TANGK",
+   "videoId": "2q5DjsmeWOQ",
+   "duration": "3:10"
+  },
+  {
+   "title": "Alien Metal",
+   "artist": "King Gizzard & the Lizard Wizard",
+   "album": "Alien Metal",
+   "videoId": "YpgaYp0lOV8",
+   "duration": "5:09"
+  },
+  {
+   "title": "Cleo",
+   "artist": "Fragile State",
+   "album": "Voices from the Dustbowl",
+   "videoId": "6UoeT7umkHU",
+   "duration": "6:21"
   }
  ]
 }

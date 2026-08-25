@@ -1,9 +1,37 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1512,
- "syncedAt": "2026-08-24T08:48:00.987612Z",
+ "trackCount": 1516,
+ "syncedAt": "2026-08-25T08:42:24.830239Z",
  "tracks": [
+  {
+   "title": "Feeder",
+   "artist": "R.M.F.C.",
+   "album": "Hive, Vol. 2",
+   "videoId": "JVWiTVPUr9c",
+   "duration": "2:46"
+  },
+  {
+   "title": "Bottle",
+   "artist": "Remi Wolf",
+   "album": "Bottle",
+   "videoId": "yVo577gYGEE",
+   "duration": "4:19"
+  },
+  {
+   "title": "Be Sweet",
+   "artist": "Japanese Breakfast",
+   "album": "Jubilee",
+   "videoId": "yNUO6MFaUnM",
+   "duration": "3:16"
+  },
+  {
+   "title": "Living Zoo",
+   "artist": "Built To Spill",
+   "album": "Untethered Moon",
+   "videoId": "Z1C8xFsimyI",
+   "duration": "4:23"
+  },
   {
    "title": "Kiss Me",
    "artist": "Sixpence None The Richer",

@@ -1,13 +1,28 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 281,
- "totalTracks": 105862,
- "syncedAt": "2026-08-24T08:48:00.987612Z",
+ "playlistCount": 282,
+ "totalTracks": 105880,
+ "syncedAt": "2026-08-25T08:42:24.830239Z",
  "playlists": [
+  {
+   "playlistId": "PLSIgqqcwmXaY",
+   "title": "Aug 26",
+   "trackCount": 29
+  },
+  {
+   "playlistId": "PLG8qpG-vDHJU",
+   "title": "001 in the living room",
+   "trackCount": 9
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1512
+   "trackCount": 1516
+  },
+  {
+   "playlistId": "PLXhf9u4ZLH38",
+   "title": "001 Pyaar Radio NTS 1",
+   "trackCount": 1
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -20,11 +35,6 @@
    "trackCount": 50
   },
   {
-   "playlistId": "PLG8qpG-vDHJU",
-   "title": "001 in the living room",
-   "trackCount": 1
-  },
-  {
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
    "title": "under the bridge (sway, wrist flick, nodders) (goated)",
    "trackCount": 40
@@ -33,11 +43,6 @@
    "playlistId": "PLZ3M7y8Ifh6o",
    "title": "001 Pyaar Mood Ring",
    "trackCount": 8
-  },
-  {
-   "playlistId": "PLSIgqqcwmXaY",
-   "title": "Aug 26",
-   "trackCount": 24
   },
   {
    "playlistId": "PLWGaVhzIrX9o",
