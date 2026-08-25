@@ -49,6 +49,19 @@ HAND = {
   'plunderphonics':AVANT,'electroacoustic':AVANT,'musique concrète':AVANT,
   'afropop':AFRICAN,'afro r&b':AFRICAN,'afroswing':AFRICAN,'afropiano':NEWCLUB,
   'roots reggae':CARIB,
+  # residual sweep (2026-08-25): high-frequency tokens that mapped to nothing
+  'disco house':HOUSE,'progressive house':HOUSE,'acid techno':HOUSE,'french house':HOUSE,
+  'nu disco':DISCO,'post-disco':DISCO,'disco':DISCO,
+  'gangster rap':HIPHOP,'chicago drill':HIPHOP,'hardcore hip hop':HIPHOP,
+  'progressive rock':ROCK,'post-rock':ALTROCK,'progressive metal':METAL,'djent':METAL,
+  'cool jazz':JAZZ,'vocal jazz':JAZZ,'jazz ballads':JAZZ,'brazilian jazz':JAZZ,
+  'mpb':LATIN,'urbano latino':LATIN,'latin':LATIN,
+  'northern soul':SOUL,'uk r&b':SOUL,'afro soul':AFRICAN,
+  'edm trap':NEWCLUB,'miami bass':HOUSE,'ballroom vogue':NEWCLUB,
+  'alté':AFRICAN,'azonto':AFRICAN,'hiplife':AFRICAN,'egyptian pop':AFRICAN,'ragga':CARIB,
+  'desi pop':ASIA,'hindi indie':ASIA,'hindi hip hop':ASIA,'sandalwood':ASIA,'japanese classical':ASIA,
+  'neoclassical':CLASS,'ambient folk':AMBIENT,'space music':AMBIENT,
+  'avant-garde':AVANT,'lo-fi indie':ALTROCK,'slowcore':ALTROCK,'electronic':ELEC,
 }
 fwd.update(HAND)
 
