@@ -52,6 +52,21 @@ def normalize(s):
     return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
 
 
+def primary_artist(s):
+    """First/primary artist from a multi-artist credit, for Discogs/Last.fm lookup.
+    `;` is the masterlist's separator (comma stays inside a name), so split there
+    first. Otherwise split on ` & ` or a comma-LIST (>=2 commas or ', and ') — but
+    NOT a single comma, so a name like 'Tyler, The Creator' survives intact."""
+    s = (s or "").strip()
+    if ";" in s:
+        return s.split(";")[0].strip()
+    if " & " in s:
+        return s.split(" & ")[0].strip()
+    if ", and " in s or s.count(",") >= 2:
+        return s.split(",")[0].strip()
+    return s
+
+
 # --- Discogs style → NTS ontology crosswalk (accuracy gate) -------------------
 # Only styles that resolve to a real NTS subgenre/top get written; everything else
 # is dropped, so every enriched label is NTS-accurate by construction.
@@ -221,7 +236,7 @@ def cmd_fetch(sample, lastfm):
         vid = (r.get("Video ID") or "").strip()
         if not vid or (vid in staging and not sample):
             continue
-        artist = (r.get("Artist Name(s)") or "").split(";")[0].strip()
+        artist = primary_artist(r.get("Artist Name(s)") or "")
         track = (r.get("Track Name") or "").strip()
         if lastfm:
             nts = lastfm_nts(artist); raw, rel = nts, None
