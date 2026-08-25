@@ -11,7 +11,7 @@ import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
-import { NtsGenreFilter, availableFacets } from "@/components/nts-genre-filter";
+import { NtsGenreFilter, availableFacets, matchesNtsFilter } from "@/components/nts-genre-filter";
 import { NTS_SUBGENRES, NTS_TOKEN_TO_TOP, NTS_FACETS_LIKED, NTS_FACETS_BROWSE } from "@/lib/nts-genre-map";
 
 // NTS facets each surface actually has songs for — prunes the filter chips so
@@ -1103,6 +1103,16 @@ export default function Home() {
   const browseNtsAvailable = useMemo(
     () => (ntsFilterActive ? availableFacets(filteredTracks.map((t) => t.genres)) : undefined),
     [filteredTracks, ntsFilterActive],
+  );
+  // Artist detail: filter the artist's own tracks by the NTS selection.
+  const artistNtsTracks = useMemo(
+    () => (ntsFilterActive ? tracks.filter((t) => matchesNtsFilter(t.genres, filters.ntsGenres, filters.ntsSubgenres)) : tracks),
+    [tracks, ntsFilterActive, filters.ntsGenres, filters.ntsSubgenres],
+  );
+  const artistNtsPresent = useMemo(() => availableFacets(tracks.map((t) => t.genres)), [tracks]);
+  const artistNtsAvailable = useMemo(
+    () => (ntsFilterActive ? availableFacets(artistNtsTracks.map((t) => t.genres)) : undefined),
+    [artistNtsTracks, ntsFilterActive],
   );
 
   const albumsVirtualizer = useVirtualizer({
@@ -2577,9 +2587,21 @@ export default function Home() {
                     <AdminArtistEditor artist={selectedArtist} onSaved={fetchArtists} />
                   </div>
                 )}
+                {artistNtsPresent.size > 0 && (
+                  <div className="px-5 py-2.5 border-b border-[#222] shrink-0">
+                    <NtsGenreFilter
+                      genres={filters.ntsGenres}
+                      subgenres={filters.ntsSubgenres}
+                      present={artistNtsPresent}
+                      available={artistNtsAvailable}
+                      onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
+                      onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
+                    />
+                  </div>
+                )}
                 <TrackList
                   artist={selectedArtist}
-                  tracks={tracks}
+                  tracks={artistNtsTracks}
                   loading={tracksLoading}
                   onBack={() => { handleSelectArtist(null); if (prevSectionMode.current !== "browse") { setSectionMode(prevSectionMode.current); } }}
                   onAddToSetlist={addToSetlist}

@@ -11,6 +11,28 @@ for (const [top, toks] of Object.entries(NTS_GENRE_TOKENS)) for (const t of toks
 const TOKEN_SUB: Record<string, string> = {};
 for (const [sub, toks] of Object.entries(NTS_SUBGENRE_TOKENS)) for (const t of toks) if (!TOKEN_SUB[t]) TOKEN_SUB[t] = sub;
 
+// Does a track/album's genre tokens satisfy the NTS filter (AND across facets,
+// mirroring ntsGenreClause)? Library-aware (handles raw Spotify tokens + album
+// NTS-name tokens). Empty selection matches everything.
+export function matchesNtsFilter(genres: string[], ntsGenres: string[], ntsSubgenres: string[]): boolean {
+  if (ntsGenres.length === 0 && ntsSubgenres.length === 0) return true;
+  const toks = genres.map((g) => g.trim().toLowerCase());
+  const tops = new Set(toks.map((t) => TOKEN_TOP[t]).filter(Boolean));
+  const subs = new Set(toks.map((t) => TOKEN_SUB[t]).filter(Boolean));
+  const subSel = new Set(ntsSubgenres);
+  for (const top of ntsGenres) {
+    const chosen = (NTS_SUBGENRES[top] || []).filter((s) => subSel.has(s));
+    const ok = chosen.length ? chosen.some((s) => subs.has(s)) : tops.has(top);
+    if (!ok) return false;
+  }
+  for (const s of ntsSubgenres) {
+    const parent = Object.keys(NTS_SUBGENRES).find((t) => (NTS_SUBGENRES[t] || []).includes(s));
+    if (parent && ntsGenres.includes(parent)) continue;
+    if (!subs.has(s)) return false;
+  }
+  return true;
+}
+
 // Which NTS facets (top genres + subgenres) are present across a set of items'
 // genre tokens. Keys: "T:<top>" and "S:<subDisplay>". Used to grey out filter
 // chips that would yield zero results given the current selection (faceted).
