@@ -36,7 +36,9 @@ ALBUM_GENRES = REPO / "public" / "data" / "album-genres.json"  # browseId → NT
 UA = "PyaarRadio/1.0 (prahlaadram@gmail.com)"
 TOKEN = os.environ.get("DISCOGS_TOKEN", "")
 SLEEP = 1.1 if TOKEN else 2.5  # Discogs: 60/min authed, 25/min unauth
-LASTFM_KEY = os.environ.get("LASTFM_API_KEY", "6dd04270e3049b0100d626c154d39079")
+# `or` (not get-default): CI sets LASTFM_API_KEY to "" when the secret is absent,
+# which would otherwise beat the fallback and leave Last.fm keyless.
+LASTFM_KEY = os.environ.get("LASTFM_API_KEY") or "6dd04270e3049b0100d626c154d39079"
 LASTFM_SLEEP = 0.25
 
 # Live/bootleg/remix/comp/reissue titles are not the artist's studio styling.
