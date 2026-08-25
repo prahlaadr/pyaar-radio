@@ -2084,7 +2084,20 @@ export default function Home() {
         <div className="px-3 md:px-5 py-3 border-b border-[#222] flex items-center justify-between gap-2 flex-wrap">
           <h1
             className="text-sm font-bold uppercase tracking-[0.2em] cursor-pointer hover:text-red-400 transition-colors shrink-0"
-            onClick={() => { handleSelectArtist(null); setTab("browse"); setSectionMode("browse"); prevSectionMode.current = "browse"; }}
+            onClick={() => {
+              // Full reset to the default browse state (artist, tab, section,
+              // all filters incl. NTS/search, view, tamil/album drill-downs).
+              handleSelectArtist(null);
+              setTab("browse");
+              setSectionMode("browse");
+              prevSectionMode.current = "browse";
+              setFilters(DEFAULT_FILTERS);
+              setBrowseView("artists");
+              setTamilMode(false);
+              setIlaiyaraajaMode(false);
+              setSelectedAlbum(null);
+              setAlbumsSearch("");
+            }}
           >{sectionMode === "tv" ? "Pyaar TV" : "Pyaar Radio"}</h1>
           <button
             onClick={() => { setSectionMode("tv"); setTamilMode(false); setIlaiyaraajaMode(false); }}
