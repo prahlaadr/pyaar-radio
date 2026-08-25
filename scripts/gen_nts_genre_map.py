@@ -90,12 +90,42 @@ for g in tax['results']:
             sub_display[disp] = g['name']
             sub_tokens.setdefault(disp, set()).add(key)
             sub_count[disp] = sub_count.get(disp, 0) + tok_count[key]
-# top genre -> its covered subgenres, ordered by track-token count desc
+# top genre -> its covered subgenres (>=10 songs), ordered by count desc. Sparse
+# subgenres roll UP into their top: no dedicated chip, but their songs still
+# surface when you pick the top genre (its token set includes them).
+MIN_SUBGENRE_SONGS = 10
 top_subs = {t: [] for t in TOPS}
 for disp, top in sub_display.items():
-    top_subs[top].append(disp)
+    if sub_count[disp] >= MIN_SUBGENRE_SONGS:
+        top_subs[top].append(disp)
 for t in top_subs:
     top_subs[t].sort(key=lambda d: -sub_count[d])
+
+# Per-surface facet presence ("T:top"/"S:sub"): which NTS facets actually have
+# songs among (a) liked songs, (b) curated artists' tracks. The filter shows the
+# whole-masterlist ontology otherwise, so playlist-only genres (e.g. Luk Thung by
+# artists you don't follow) leak in. These scope the chip list per surface.
+cur_artists = set()
+with open('public/data/artists.csv') as f:
+    for r in csv.DictReader(f):
+        cur_artists.add((r.get('artist') or '').strip().lower())
+        for a in (r.get('aliases') or '').split('|'):
+            if a.strip(): cur_artists.add(a.strip().lower())
+tok2sub = {}
+for disp, tks in sub_tokens.items():
+    for tk in tks: tok2sub.setdefault(tk, disp)
+facets_liked, facets_browse = set(), set()
+with open('public/data/masterlist.csv') as f:
+    for r in csv.DictReader(f):
+        g = (r.get('Genres') or '').strip().lower()
+        if not g: continue
+        facets = set()
+        for t in (x.strip() for x in g.split(',') if x.strip()):
+            if t in fwd: facets.add('T:' + fwd[t])
+            if t in tok2sub: facets.add('S:' + tok2sub[t])
+        if (r.get('Liked') or '').strip().lower() == 'yes': facets_liked |= facets
+        arts = [a.strip().lower() for a in (r.get('Artist Name(s)') or '').replace(';', ',').split(',')]
+        if any(a in cur_artists for a in arts): facets_browse |= facets
 
 # emit TS
 lines=[]
@@ -154,6 +184,13 @@ lines.append("export const NTS_TOKEN_TO_TOP: Record<string, string> = {")
 for k in sorted(full_t2t):
     lines.append(f"  {json.dumps(k)}: {json.dumps(full_t2t[k])},")
 lines.append("};")
+lines.append("")
+lines.append("// Per-surface facet presence (\"T:top\"/\"S:sub\") — the NTS facets that")
+lines.append("// actually have songs in your liked set / curated-artist library. Used to")
+lines.append("// prune the filter chips per surface so playlist-only genres don't show.")
+lines.append(f"export const NTS_FACETS_LIKED: string[] = {json.dumps(sorted(facets_liked))};")
+lines.append("")
+lines.append(f"export const NTS_FACETS_BROWSE: string[] = {json.dumps(sorted(facets_browse))};")
 lines.append("")
 open('src/lib/nts-genre-map.ts','w').write("\n".join(lines)+"\n")
 

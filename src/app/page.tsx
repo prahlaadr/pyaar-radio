@@ -12,7 +12,12 @@ import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/c
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
 import { NtsGenreFilter, availableFacets } from "@/components/nts-genre-filter";
-import { NTS_SUBGENRES, NTS_TOKEN_TO_TOP } from "@/lib/nts-genre-map";
+import { NTS_SUBGENRES, NTS_TOKEN_TO_TOP, NTS_FACETS_LIKED, NTS_FACETS_BROWSE } from "@/lib/nts-genre-map";
+
+// NTS facets each surface actually has songs for — prunes the filter chips so
+// playlist-only genres (by artists you don't follow) don't appear on Liked/Browse.
+const LIKED_PRESENT = new Set(NTS_FACETS_LIKED);
+const BROWSE_PRESENT = new Set(NTS_FACETS_BROWSE);
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
 import { LibraryTrackList } from "@/components/library-track-list";
@@ -1085,6 +1090,10 @@ export default function Home() {
   const albumsNtsAvailable = useMemo(
     () => availableFacets(filteredAlbums.map((a) => a.genres)),
     [filteredAlbums],
+  );
+  const albumsNtsPresent = useMemo(
+    () => availableFacets(savedAlbums.map((a) => a.genres)),
+    [savedAlbums],
   );
   const ntsFilterActive = filters.ntsGenres.length > 0 || filters.ntsSubgenres.length > 0;
   const likedNtsAvailable = useMemo(
@@ -2277,6 +2286,7 @@ export default function Home() {
                   genres={filters.ntsGenres}
                   subgenres={filters.ntsSubgenres}
                   available={albumsNtsAvailable}
+                  present={albumsNtsPresent}
                   onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
                   onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
                 />
@@ -2326,6 +2336,7 @@ export default function Home() {
                 genres={filters.ntsGenres}
                 subgenres={filters.ntsSubgenres}
                 available={likedNtsAvailable}
+                present={LIKED_PRESENT}
                 onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
                 onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
               />
@@ -2432,6 +2443,7 @@ export default function Home() {
               filters={filters}
               onChange={setFilters}
               ntsAvailable={browseNtsAvailable}
+              ntsPresent={BROWSE_PRESENT}
               artistCount={artists.length}
               hidden={!!selectedArtist}
               tamilMode={tamilMode}

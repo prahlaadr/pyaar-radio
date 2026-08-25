@@ -30,12 +30,13 @@ export function availableFacets(itemGenres: string[][]): Set<string> {
 // drill into the library's covered subgenres via a chevron. Shared by the browse
 // filter panel, the Liked tab, and the Albums page. When `available` is provided,
 // chips not present in the current (already-filtered) result set are greyed out.
-export function NtsGenreFilter({ genres, subgenres, onToggleGenre, onToggleSub, available }: {
+export function NtsGenreFilter({ genres, subgenres, onToggleGenre, onToggleSub, available, present }: {
   genres: string[];
   subgenres: string[];
   onToggleGenre: (g: string) => void;
   onToggleSub: (s: string) => void;
   available?: Set<string>;
+  present?: Set<string>;
 }) {
   const [expanded, setExpanded] = useState<string[]>([]);
   const toggleExpand = (t: string) =>
@@ -43,13 +44,17 @@ export function NtsGenreFilter({ genres, subgenres, onToggleGenre, onToggleSub, 
 
   const topActive = (top: string) => !available || genres.includes(top) || available.has("T:" + top);
   const subActive = (sub: string) => !available || subgenres.includes(sub) || available.has("S:" + sub);
+  // `present` prunes chips to the genres this surface actually has songs for.
+  const tops = present ? NTS_GENRES.filter((t) => present.has("T:" + t)) : NTS_GENRES;
+  const subsFor = (top: string) =>
+    (NTS_SUBGENRES[top] || []).filter((s) => !present || present.has("S:" + s));
 
   return (
     <div className="space-y-1.5">
       <div className="flex gap-1 flex-wrap items-center">
         <span className="text-[9px] uppercase tracking-wider text-[#e32636] font-bold mr-0.5">NTS</span>
-        {NTS_GENRES.map((top) => {
-          const subs = NTS_SUBGENRES[top] || [];
+        {tops.map((top) => {
+          const subs = subsFor(top);
           const sel = genres.includes(top);
           const exp = expanded.includes(top);
           const on = topActive(top);
@@ -80,10 +85,10 @@ export function NtsGenreFilter({ genres, subgenres, onToggleGenre, onToggleSub, 
         })}
       </div>
 
-      {NTS_GENRES.filter((t) => expanded.includes(t) && (NTS_SUBGENRES[t] || []).length > 0).map((top) => (
+      {tops.filter((t) => expanded.includes(t) && subsFor(t).length > 0).map((top) => (
         <div key={top} className="flex gap-1 flex-wrap items-center pl-2 ml-1 border-l border-[#333]">
           <span className="text-[8px] uppercase tracking-wider text-[#666] mr-1">{top}</span>
-          {(NTS_SUBGENRES[top] || []).map((sub) => {
+          {subsFor(top).map((sub) => {
             const sel = subgenres.includes(sub);
             const on = subActive(sub);
             return (
