@@ -2,23 +2,35 @@ import type { ArtistFilters, ChapterType } from "./types";
 import { NTS_GENRE_TOKENS, NTS_SUBGENRES, NTS_SUBGENRE_TOKENS } from "./nts-genre-map";
 
 // Filter tracks by NTS genre, two levels deep (mirrors nts.live/explore/genre).
-// A selected top-genre expands to all its Spotify tokens UNLESS one of its
-// subgenres is also selected, in which case only the chosen subgenres apply
-// (drill-down narrows). Subgenres whose top isn't selected still count. Tokens
-// match whole-word against the comma-separated Genres column so "dub" never
+// Each selected genre is its own FACET; a song must match ALL facets (AND / set
+// intersection — selecting jazz + hip-hop yields jazz-rap, songs that are both).
+// A facet's tokens are OR'd within it: a top-genre uses all its tokens UNLESS one
+// of its subgenres is selected, in which case only those subgenres apply
+// (drill-down narrows). Subgenres whose top isn't selected are their own facet.
+// Tokens match whole-word against the comma-separated Genres so "dub" never
 // matches "dub techno". Returns null when nothing is selected.
 export function ntsGenreClause(ntsGenres: string[], ntsSubgenres: string[] = []): string | null {
   const subs = new Set(ntsSubgenres);
-  const tokens = new Set<string>();
-  for (const sub of subs) for (const t of NTS_SUBGENRE_TOKENS[sub] || []) tokens.add(t);
-  for (const top of ntsGenres || []) {
-    const hasRefiningSub = (NTS_SUBGENRES[top] || []).some((s) => subs.has(s));
-    if (!hasRefiningSub) for (const t of NTS_GENRE_TOKENS[top] || []) tokens.add(t);
-  }
-  if (tokens.size === 0) return null;
   const norm = `(',' || REPLACE(LOWER(Genres), ', ', ',') || ',')`;
-  const conds = [...tokens].map((t) => `${norm} LIKE '%,${t.replace(/'/g, "''")},%'`);
-  return `(Genres IS NOT NULL AND Genres <> '' AND (${conds.join(" OR ")}))`;
+  const orOf = (toks: string[]) =>
+    `(${toks.map((t) => `${norm} LIKE '%,${t.replace(/'/g, "''")},%'`).join(" OR ")})`;
+  const facets: string[] = [];
+  for (const top of ntsGenres || []) {
+    const chosen = (NTS_SUBGENRES[top] || []).filter((s) => subs.has(s));
+    const toks = chosen.length
+      ? chosen.flatMap((s) => NTS_SUBGENRE_TOKENS[s] || [])
+      : NTS_GENRE_TOKENS[top] || [];
+    if (toks.length) facets.push(orOf(toks));
+  }
+  const topOf = (sub: string) => Object.keys(NTS_SUBGENRES).find((t) => (NTS_SUBGENRES[t] || []).includes(sub));
+  for (const sub of subs) {
+    const parent = topOf(sub);
+    if (parent && ntsGenres.includes(parent)) continue; // folded into that top's facet
+    const toks = NTS_SUBGENRE_TOKENS[sub] || [];
+    if (toks.length) facets.push(orOf(toks));
+  }
+  if (facets.length === 0) return null;
+  return `(Genres IS NOT NULL AND Genres <> '' AND ${facets.join(" AND ")})`;
 }
 
 export function buildArtistQuery(filters: ArtistFilters): string {

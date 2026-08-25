@@ -11,7 +11,7 @@ import type { RadioArtist } from "@/lib/queries";
 import { getCompatibleKeys, sortByHarmonicFlow, getMostCommonKey } from "@/lib/camelot";
 import type { Artist, Track, SetlistTrack, ArtistFilters, SavedSetlists, SetlistManifestEntry, SetlistChapter, ChapterType } from "@/lib/types";
 import { FilterPanel, type SectionMode } from "@/components/filter-panel";
-import { NtsGenreFilter } from "@/components/nts-genre-filter";
+import { NtsGenreFilter, availableFacets } from "@/components/nts-genre-filter";
 import { NTS_SUBGENRES, NTS_TOKEN_TO_TOP } from "@/lib/nts-genre-map";
 import { ArtistList } from "@/components/artist-list";
 import { TrackList } from "@/components/track-list";
@@ -1030,19 +1030,26 @@ export default function Home() {
     const q = albumsSearch.trim().toLowerCase();
     const ng = filters.ntsGenres, ns = filters.ntsSubgenres;
     const ntsActive = ng.length > 0 || ns.length > 0;
-    const subsLower = new Set(ns.map((s) => s.toLowerCase()));
-    // Album matches the NTS filter if its (NTS-name) genre tokens hit a selected
-    // subgenre, or a selected top-genre that has no chosen subgenre. Mirrors the
-    // ntsGenreClause drill-down semantics, client-side.
+    const subsLower = new Set(ns.map((s) => s.trim().toLowerCase()));
+    // Album matches iff it satisfies EVERY selected facet (AND / intersection),
+    // mirroring ntsGenreClause: each top is a facet (refined to its chosen
+    // subgenres if any), each subgenre whose top isn't selected is its own facet.
     const albumMatchesNts = (al: SavedAlbum) => {
       if (!ntsActive) return true;
-      const toks = new Set(al.genres.map((t) => t.toLowerCase()));
-      for (const s of subsLower) if (toks.has(s)) return true;
+      const toks = new Set(al.genres.map((t) => t.trim().toLowerCase()));
       for (const top of ng) {
-        if ((NTS_SUBGENRES[top] || []).some((sd) => subsLower.has(sd.toLowerCase()))) continue;
-        for (const t of toks) if (NTS_TOKEN_TO_TOP[t] === top) return true;
+        const chosen = (NTS_SUBGENRES[top] || []).filter((sd) => subsLower.has(sd.trim().toLowerCase()));
+        const ok = chosen.length
+          ? chosen.some((sd) => toks.has(sd.trim().toLowerCase()))
+          : [...toks].some((t) => NTS_TOKEN_TO_TOP[t] === top);
+        if (!ok) return false;
       }
-      return false;
+      for (const s of ns) {
+        const parent = Object.keys(NTS_SUBGENRES).find((t) => (NTS_SUBGENRES[t] || []).includes(s));
+        if (parent && ng.includes(parent)) continue;
+        if (!toks.has(s.trim().toLowerCase())) return false;
+      }
+      return true;
     };
     const filtered = savedAlbums.filter((a) =>
       (!q || a.title.toLowerCase().includes(q) || a.artist.toLowerCase().includes(q)) &&
@@ -1071,6 +1078,23 @@ export default function Home() {
     });
     return sorted;
   }, [savedAlbums, albumsSearch, albumsSort, filters.ntsGenres, filters.ntsSubgenres]);
+
+  // Faceted availability: which NTS chips still yield results given the current
+  // selection. Computed from the already-filtered set so adding a genre that
+  // doesn't co-occur greys out. Undefined = all clickable (no genre data yet).
+  const albumsNtsAvailable = useMemo(
+    () => availableFacets(filteredAlbums.map((a) => a.genres)),
+    [filteredAlbums],
+  );
+  const ntsFilterActive = filters.ntsGenres.length > 0 || filters.ntsSubgenres.length > 0;
+  const likedNtsAvailable = useMemo(
+    () => (ntsFilterActive ? availableFacets(likedTracks.map((t) => t.genres)) : undefined),
+    [likedTracks, ntsFilterActive],
+  );
+  const browseNtsAvailable = useMemo(
+    () => (ntsFilterActive ? availableFacets(filteredTracks.map((t) => t.genres)) : undefined),
+    [filteredTracks, ntsFilterActive],
+  );
 
   const albumsVirtualizer = useVirtualizer({
     count: filteredAlbums.length,
@@ -2239,6 +2263,7 @@ export default function Home() {
                 <NtsGenreFilter
                   genres={filters.ntsGenres}
                   subgenres={filters.ntsSubgenres}
+                  available={albumsNtsAvailable}
                   onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
                   onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
                 />
@@ -2287,6 +2312,7 @@ export default function Home() {
               <NtsGenreFilter
                 genres={filters.ntsGenres}
                 subgenres={filters.ntsSubgenres}
+                available={likedNtsAvailable}
                 onToggleGenre={(g) => setFilters((f) => ({ ...f, ntsGenres: f.ntsGenres.includes(g) ? f.ntsGenres.filter((x) => x !== g) : [...f.ntsGenres, g] }))}
                 onToggleSub={(s) => setFilters((f) => ({ ...f, ntsSubgenres: f.ntsSubgenres.includes(s) ? f.ntsSubgenres.filter((x) => x !== s) : [...f.ntsSubgenres, s] }))}
               />
@@ -2392,6 +2418,7 @@ export default function Home() {
             <FilterPanel
               filters={filters}
               onChange={setFilters}
+              ntsAvailable={browseNtsAvailable}
               artistCount={artists.length}
               hidden={!!selectedArtist}
               tamilMode={tamilMode}

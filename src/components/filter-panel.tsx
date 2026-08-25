@@ -16,6 +16,7 @@ export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
 interface Props {
   filters: ArtistFilters;
   onChange: (filters: ArtistFilters) => void;
+  ntsAvailable?: Set<string>;
   artistCount?: number;
   tamilMode?: boolean;
   onTamilToggle?: () => void;
@@ -52,7 +53,7 @@ const SECTION_STYLES: Record<string, { hover: string; active: string; text: stri
 };
 
 export function FilterPanel({
-  filters, onChange, artistCount,
+  filters, onChange, ntsAvailable, artistCount,
   tamilMode, onTamilToggle,
   tamilSearch, onTamilSearchChange,
   tamilBpmMin = 0, tamilBpmMax = 300, onTamilBpmChange,
@@ -186,6 +187,7 @@ export function FilterPanel({
             <NtsGenreFilter
               genres={filters.ntsGenres}
               subgenres={filters.ntsSubgenres}
+              available={ntsAvailable}
               onToggleGenre={(g) => toggle("ntsGenres", g)}
               onToggleSub={(s) => toggle("ntsSubgenres", s)}
             />
