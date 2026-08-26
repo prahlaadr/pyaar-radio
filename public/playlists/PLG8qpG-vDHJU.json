@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 9,
- "syncedAt": "2026-08-25T08:42:24.830239Z",
+ "trackCount": 10,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -66,6 +66,13 @@
    "album": "Voices from the Dustbowl",
    "videoId": "6UoeT7umkHU",
    "duration": "6:21"
+  },
+  {
+   "title": "Visions",
+   "artist": "Stevie Wonder",
+   "album": "Innervisions",
+   "videoId": "fy4fMlLj_B8",
+   "duration": "5:24"
   }
  ]
 }

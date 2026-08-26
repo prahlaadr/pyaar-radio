@@ -1,14 +1,14 @@
 {
  "playlistId": "PL3OQBBfO527aVyfTeSdSOASaw9X1Gth1O",
  "title": "Honkyoku",
- "trackCount": 34,
- "syncedAt": "2026-03-15T08:38:20.492878Z",
+ "trackCount": 35,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
-   "title": "Suizen (Honkyoku Ajikan)",
-   "artist": "Ungern Sternberg",
-   "album": "",
-   "videoId": "8N_exgJCZ7Q",
+   "title": "阿字観",
+   "artist": "Koku Nishimura",
+   "album": "Kyotak",
+   "videoId": "JqGZyUzHEsY",
    "duration": "9:48"
   },
   {
@@ -19,11 +19,11 @@
    "duration": "15:40"
   },
   {
-   "title": "Saji (Honkyoku)",
-   "artist": "Ungern Sternberg",
-   "album": "",
-   "videoId": "D1F3KvAWstE",
-   "duration": "10:52"
+   "title": "薩慈",
+   "artist": "Koku Nishimura",
+   "album": "Kyotak",
+   "videoId": "EO9wD86i-zk",
+   "duration": "10:53"
   },
   {
    "title": "San'an (Honkyoku set to Zen art)",
@@ -55,7 +55,7 @@
   },
   {
    "title": "Koten Honkyoku: Tamuke & San’an",
-   "artist": "Steven Casano - Kōchiku Shakuhachi 光竹尺八",
+   "artist": "Steven Casano | Kōchiku Shakuhachi 光竹尺八",
    "album": "",
    "videoId": "QwblwKDRJoc",
    "duration": "10:20"
@@ -69,7 +69,7 @@
   },
   {
    "title": "Shakuhachi Koten Honkyoku: Kyushu Reibo",
-   "artist": "Steven Casano - Kōchiku Shakuhachi 光竹尺八",
+   "artist": "Steven Casano | Kōchiku Shakuhachi 光竹尺八",
    "album": "",
    "videoId": "xFQRdd51Fys",
    "duration": "5:10"
@@ -97,14 +97,14 @@
   },
   {
    "title": "Shakuhachi Koten Honkyoku: Tehodoki Reibo",
-   "artist": "Steven Casano - Kōchiku Shakuhachi 光竹尺八",
+   "artist": "Steven Casano | Kōchiku Shakuhachi 光竹尺八",
    "album": "",
    "videoId": "Kk_WrJIHR_w",
    "duration": "3:30"
   },
   {
    "title": "San’an Shakuhachi koten honkyoku www.shakuhachi.us",
-   "artist": "www.shakuhachi.us",
+   "artist": "Shawn ChikuShin ",
    "album": "",
    "videoId": "IMs8Kj-MO2k",
    "duration": "5:20"
@@ -132,7 +132,7 @@
   },
   {
    "title": "Shakuhachi honkyoku Echigo Sanya",
-   "artist": "Hélène Seiyu Shakuhachi",
+   "artist": "Shakuhachi for Peace | Hélène Seiyu 聖 優 ",
    "album": "",
    "videoId": "PtcvdN42QHY",
    "duration": "13:00"
@@ -159,6 +159,13 @@
    "duration": "3:37"
   },
   {
+   "title": "A Shakuhachi Honkyoku",
+   "artist": "jbockman3rd",
+   "album": "",
+   "videoId": "_R4-nu93i_A",
+   "duration": "3:06"
+  },
+  {
    "title": "Daniel Mantey - 'Spirit Moon' - (Japanese Shakuhachi Honkyoku!)",
    "artist": "Daniel Mantey",
    "album": "",
@@ -167,7 +174,7 @@
   },
   {
    "title": "Koten Honkyoku: Nezasaha Hachigaeshi performed by Chikuho Sakai II",
-   "artist": "Steven Casano - Kōchiku Shakuhachi 光竹尺八",
+   "artist": "Steven Casano | Kōchiku Shakuhachi 光竹尺八",
    "album": "",
    "videoId": "IRvGij1menk",
    "duration": "6:49"
@@ -195,7 +202,7 @@
   },
   {
    "title": "Koten Honkyoku: Ajikan performed by Chikuho Sakai II",
-   "artist": "Steven Casano - Kōchiku Shakuhachi 光竹尺八",
+   "artist": "Steven Casano | Kōchiku Shakuhachi 光竹尺八",
    "album": "",
    "videoId": "wuezJdSAtn4",
    "duration": "7:28"
@@ -209,7 +216,7 @@
   },
   {
    "title": "Cicadas + Zen Nature Shakuhachi Neo Honkyoku",
-   "artist": "Ron Collins - Tampa Taiko - Swims & Prone Paddling",
+   "artist": "Ron Collins",
    "album": "",
    "videoId": "kOSSNOujrlg",
    "duration": "9:00"

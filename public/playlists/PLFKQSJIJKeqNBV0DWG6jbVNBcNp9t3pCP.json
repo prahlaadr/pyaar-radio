@@ -1,8 +1,8 @@
 {
  "playlistId": "PLFKQSJIJKeqNBV0DWG6jbVNBcNp9t3pCP",
  "title": "@ peace. {frisson}",
- "trackCount": 74,
- "syncedAt": "2026-03-15T08:38:20.492878Z",
+ "trackCount": 78,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
    "title": "Dawn in the Adan",
@@ -54,9 +54,9 @@
    "duration": "3:58"
   },
   {
-   "title": "golden hour (piano instrumental)",
+   "title": "golden hour (Piano Instrumental)",
    "artist": "Chilled Pig",
-   "album": "golden hour (piano instrumental)",
+   "album": "golden hour (Piano Instrumental)",
    "videoId": "ZkUQcn1DU5I",
    "duration": "1:51"
   },
@@ -64,7 +64,7 @@
    "title": "Teahouse Spirits",
    "artist": "Kalaido",
    "album": "Ghosts of the Floating World",
-   "videoId": "XZh6ZudQ7mo",
+   "videoId": "oVm0rXvQxLA",
    "duration": "3:41"
   },
   {
@@ -140,8 +140,8 @@
   {
    "title": "Stay (With Me).",
    "artist": "Montell Fish",
-   "album": "#GodIsWithMe",
-   "videoId": "XImXeQ7fkH8",
+   "album": "Stay (With Me).",
+   "videoId": "q3hzlP22zi4",
    "duration": "5:04"
   },
   {
@@ -418,6 +418,13 @@
    "duration": "5:34"
   },
   {
+   "title": "The Sound of Nothingness",
+   "artist": "Izmi Maruf",
+   "album": "The Sound of Nothingness",
+   "videoId": "eeW1maz-_XA",
+   "duration": "1:53"
+  },
+  {
    "title": "Near My Heart",
    "artist": "Koshun Nakao",
    "album": "Near My Heart",
@@ -441,7 +448,7 @@
   {
    "title": "Volto di donna (Trumpet Version)",
    "artist": "Piero Umiliani",
-   "album": "La ragazza fuori strada",
+   "album": "La ragazza fuori strada (From \"La ragazza fuori strada\")",
    "videoId": "tP85jhSgqhw",
    "duration": "3:29"
   },
@@ -495,7 +502,7 @@
    "duration": "4:25"
   },
   {
-   "title": "SPILL YOUR TIME",
+   "title": "SPILL YOUR TIME (LIVE)",
    "artist": "KatzPascale",
    "album": "",
    "videoId": "DYeBlXsa22U",
@@ -521,6 +528,27 @@
    "album": "Even Closer",
    "videoId": "HPJHKZ-0VkE",
    "duration": "3:50"
+  },
+  {
+   "title": "Ocean of Jazz",
+   "artist": "Siberia",
+   "album": "Ocean of Jazz",
+   "videoId": "mMBofF5c99Y",
+   "duration": "2:28"
+  },
+  {
+   "title": "Mound Bayou / Proper Black Folks (feat. Christone \"Kingfish\" Ingram)",
+   "artist": "Ludwig Göransson;Sinners Movie",
+   "album": "Sinners (Original Motion Picture Score)",
+   "videoId": "De0LEPUda0c",
+   "duration": "3:27"
+  },
+  {
+   "title": "Mystery",
+   "artist": "Miles Davis",
+   "album": "Doo-Bop",
+   "videoId": "Hs7NjK7twXU",
+   "duration": "3:57"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 29,
- "syncedAt": "2026-08-25T08:42:24.830239Z",
+ "trackCount": 31,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -206,6 +206,20 @@
    "album": "Allegiance EP",
    "videoId": "oyjAXyPofx4",
    "duration": "5:33"
+  },
+  {
+   "title": "Maria",
+   "artist": "Greg Mendez",
+   "album": "Greg Mendez",
+   "videoId": "A5x9uwbCfGA",
+   "duration": "1:59"
+  },
+  {
+   "title": "Quakin'",
+   "artist": "DJ Seinfeld",
+   "album": "If This Is It",
+   "videoId": "GUuV5Zct5rQ",
+   "duration": "3:58"
   }
  ]
 }

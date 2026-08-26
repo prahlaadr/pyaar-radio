@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3555,
- "totalTracks": 45282,
- "syncedAt": "2026-08-25T08:42:21.681841Z",
+ "albumCount": 3558,
+ "totalTracks": 45319,
+ "syncedAt": "2026-08-26T08:43:30.059241Z",
  "albums": [
+  {
+   "browseId": "MPREb_IrTVSodLnvP",
+   "title": "Lost Weekend",
+   "artist": "Phoebe Bridgers",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_bsxckV1CW9J",
+   "title": "If This Is It",
+   "artist": "DJ Seinfeld",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_x6RQBWhEk2k",
+   "title": "Greg Mendez",
+   "artist": "Greg Mendez",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_ly6hIqbI6xo",
    "title": "La Isla Bonita",

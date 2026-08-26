@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
  "title": "Nyege nyege set",
- "trackCount": 8,
- "syncedAt": "2026-08-25T08:42:24.830239Z",
+ "trackCount": 9,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
    "title": "Ile Ye (feat. Jadson Xabla & Gabriel Santana)",
@@ -59,6 +59,13 @@
    "album": "Fasokan",
    "videoId": "qEurdAHZ-O8",
    "duration": "5:10"
+  },
+  {
+   "title": "Stand",
+   "artist": "Quest",
+   "album": "Stand / Eden",
+   "videoId": "yGBef8bATP0",
+   "duration": "9:00"
   }
  ]
 }

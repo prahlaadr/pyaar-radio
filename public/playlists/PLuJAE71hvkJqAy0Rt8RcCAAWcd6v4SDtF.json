@@ -1,8 +1,8 @@
 {
  "playlistId": "PLuJAE71hvkJqAy0Rt8RcCAAWcd6v4SDtF",
  "title": "Four Tet Remixes",
- "trackCount": 141,
- "syncedAt": "2026-03-15T08:38:20.492878Z",
+ "trackCount": 143,
+ "syncedAt": "2026-08-26T08:43:35.615994Z",
  "tracks": [
   {
    "title": "Head Rush On Lafayette (Fridge Remix)",
@@ -23,7 +23,7 @@
    "artist": "Dancejams5555",
    "album": "",
    "videoId": "2VJNXIsPxVk",
-   "duration": "8:13"
+   "duration": "8:14"
   },
   {
    "title": "The Cardigans - Erase/Rewind (Fridge Remix)",
@@ -52,13 +52,6 @@
    "album": "Channel 1 Suite / Ode To The..",
    "videoId": "zJj68EprheY",
    "duration": "7:31"
-  },
-  {
-   "title": "Aphex Twin = Untitled [SAW2 CD1 Track1] (Four Tet Mix) {1999}",
-   "artist": "House Forever",
-   "album": "",
-   "videoId": "yfgdMh7Ew24",
-   "duration": "7:05"
   },
   {
    "title": "Another Pearl (Fridge Mix)",
@@ -541,7 +534,7 @@
    "artist": "Dancejams5555",
    "album": "",
    "videoId": "S7fP-2M9S38",
-   "duration": "4:44"
+   "duration": "4:45"
   },
   {
    "title": "Guv'ner - Baby's Way Cruel (Four Tet Remix)",
@@ -558,11 +551,11 @@
    "duration": "8:06"
   },
   {
-   "title": "Four Tet Version of 'Stick to My Side'",
+   "title": "Stick to My Side (Four Tet Version)",
    "artist": "Pantha Du Prince",
-   "album": "XI versions of Black Noise",
-   "videoId": "SuwH7MdYBXs",
-   "duration": "6:48"
+   "album": "Stick to My Side",
+   "videoId": "odQxI57vYcI",
+   "duration": "6:47"
   },
   {
    "title": "Alligator (Four Tet Remix)",
@@ -894,6 +887,13 @@
    "duration": "4:38"
   },
   {
+   "title": "Four Tet  - SoSick KH",
+   "artist": "Supermarkt",
+   "album": "",
+   "videoId": "T8mt9H6gWGM",
+   "duration": "7:26"
+  },
+  {
    "title": "Never Come Back (Four Tet Remix)",
    "artist": "Caribou;Four Tet",
    "album": "Suddenly Remixes",
@@ -971,11 +971,25 @@
    "duration": "3:31"
   },
   {
+   "title": "KH - Let Me Check My Itinerary",
+   "artist": "Music Archive.",
+   "album": "",
+   "videoId": "K42Bl68Qewo",
+   "duration": "4:20"
+  },
+  {
    "title": "Alone (Four Tet Remix)",
    "artist": "The Cure",
    "album": "Alone (Four Tet Remix)",
    "videoId": "sELb-wHV2_0",
    "duration": "6:17"
+  },
+  {
+   "title": "Into Dust (Still Falling)",
+   "artist": "Four Tet",
+   "album": "Into Dust (Still Falling)",
+   "videoId": "QCquV3A7kdY",
+   "duration": "5:34"
   },
   {
    "title": "925 (Four Tet Remix)",
