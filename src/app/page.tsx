@@ -234,6 +234,7 @@ export default function Home() {
   const [crates, setCrates] = useState<CrateSlot[]>(loadCrates);
   const [activeCrate, setActiveCrate] = useState(0);
   const [cratePickerSlot, setCratePickerSlot] = useState<number | null>(null);
+  const [cratePickerQuery, setCratePickerQuery] = useState("");
   const [importOpen, setImportOpen] = useState(false);
   const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums" | "nts" | "sc">(urlInit.current.tab || "browse");
   const [likedTracks, setLikedTracks] = useState<Track[]>([]);
@@ -2905,34 +2906,46 @@ export default function Home() {
         {crateMode ? (
           <div className="flex-1 flex flex-col gap-2 p-2 overflow-y-auto min-h-0">
             {crates.map((c, i) => (
-              <div key={i} className="flex-1 min-h-0 relative">
+              <div key={i} className={`relative ${activeCrate === i ? "flex-[3] min-h-[16rem]" : "flex-1 min-h-[8rem]"}`}>
                 <Crate
                   name={c.name} tracks={c.tracks} active={activeCrate === i}
                   onActivate={() => setActiveCrate(i)}
                   onDropTrack={(t) => addToCrate(i, t)}
                   onRemove={(id) => removeFromCrate(i, id)}
                   onPlay={(t) => playFromCrate(t)}
-                  onOpen={() => setCratePickerSlot(cratePickerSlot === i ? null : i)}
+                  onOpen={() => { setCratePickerQuery(""); setCratePickerSlot(cratePickerSlot === i ? null : i); }}
                   onNew={() => newCrate(i)}
                   onSave={() => saveCrate(i)}
                   onRename={(name) => renameCrate(i, name)}
                 />
-                {cratePickerSlot === i && (
+                {cratePickerSlot === i && (() => {
+                  const q = cratePickerQuery.trim().toLowerCase();
+                  const matches = Object.entries(savedSetlists.setlists)
+                    .filter(([, s]) => !q || s.name.toLowerCase().includes(q));
+                  return (
                   <div className="absolute inset-x-2 top-9 z-20 bg-[#111] border border-[#333] max-h-52 overflow-y-auto shadow-xl">
-                    <div className="px-2 py-1 text-[9px] uppercase tracking-wider text-[#666] border-b border-[#222] flex justify-between sticky top-0 bg-[#111]">
-                      <span>Load a setlist</span>
-                      <button onClick={() => setCratePickerSlot(null)} className="hover:text-white">✕</button>
+                    <div className="px-2 py-1 border-b border-[#222] flex items-center gap-2 sticky top-0 bg-[#111]">
+                      <span className="text-[9px] uppercase tracking-wider text-[#666] shrink-0">Load</span>
+                      <input
+                        autoFocus value={cratePickerQuery}
+                        onChange={(e) => setCratePickerQuery(e.target.value)}
+                        onClick={(e) => e.stopPropagation()}
+                        placeholder="search setlists…"
+                        className="flex-1 min-w-0 bg-[#0a0a0a] border border-[#333] px-2 py-0.5 text-[10px] text-white placeholder-[#555] focus:outline-none focus:border-[#e32636]"
+                      />
+                      <button onClick={() => setCratePickerSlot(null)} className="text-[#666] hover:text-white shrink-0">✕</button>
                     </div>
-                    {Object.keys(savedSetlists.setlists).length === 0 ? (
-                      <div className="px-2 py-2 text-[10px] text-[#555]">No saved setlists yet</div>
-                    ) : Object.entries(savedSetlists.setlists).map(([id, s]) => (
+                    {matches.length === 0 ? (
+                      <div className="px-2 py-2 text-[10px] text-[#555]">{Object.keys(savedSetlists.setlists).length === 0 ? "No saved setlists yet" : "No matches"}</div>
+                    ) : matches.map(([id, s]) => (
                       <button key={id} onClick={() => openCrateInto(i, id)}
                         className="w-full text-left px-2 py-1.5 text-[11px] text-[#ccc] hover:bg-[#1a1a1a] flex justify-between gap-2">
                         <span className="truncate">{s.name}</span><span className="text-[#666] shrink-0">{s.tracks.length}</span>
                       </button>
                     ))}
                   </div>
-                )}
+                  );
+                })()}
               </div>
             ))}
           </div>
