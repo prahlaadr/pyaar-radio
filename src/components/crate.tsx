@@ -42,7 +42,7 @@ export function Crate({
         const raw = e.dataTransfer.getData("application/x-track");
         if (raw) { try { onDropTrack(JSON.parse(raw)); } catch {} }
       }}
-      className={`flex flex-col min-h-0 border transition-colors cursor-pointer ${
+      className={`flex-1 flex flex-col min-h-0 border transition-colors cursor-pointer ${
         over ? "border-[#e32636] bg-[#e32636]/10"
         : active ? "border-[#e32636]/60 bg-[#0a0a0a]" : "border-[#222] bg-[#080808] hover:border-[#333]"
       }`}
@@ -79,7 +79,7 @@ export function Crate({
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto min-h-[3rem]">
+      <div className="flex-1 overflow-y-auto min-h-0">
         {tracks.length === 0 ? (
           <div className="h-full flex items-center justify-center px-3 py-6 text-center text-[10px] text-[#555] uppercase tracking-wider">
             {over ? "drop to add" : active ? "drop or + tracks here" : "drop tracks here"}

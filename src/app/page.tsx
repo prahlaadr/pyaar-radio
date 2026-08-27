@@ -2904,9 +2904,9 @@ export default function Home() {
             className={`px-2.5 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${crateMode ? "bg-[#e32636] text-white" : "bg-[#111] text-[#888] hover:text-white"}`}>3 Crates</button>
         </div>
         {crateMode ? (
-          <div className="flex-1 flex flex-col gap-2 p-2 overflow-y-auto min-h-0">
+          <div className="flex-1 flex flex-col gap-2 p-2 overflow-hidden min-h-0">
             {crates.map((c, i) => (
-              <div key={i} className={`relative ${activeCrate === i ? "flex-[3] min-h-[16rem]" : "flex-1 min-h-[8rem]"}`}>
+              <div key={i} className={`relative flex flex-col min-h-0 ${activeCrate === i ? "flex-[4]" : "flex-1"}`}>
                 <Crate
                   name={c.name} tracks={c.tracks} active={activeCrate === i}
                   onActivate={() => setActiveCrate(i)}
