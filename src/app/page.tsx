@@ -23,6 +23,7 @@ import { TrackList } from "@/components/track-list";
 import { LibraryTrackList } from "@/components/library-track-list";
 import { SectionTrackList } from "@/components/section-track-list";
 import { SetlistPanel } from "@/components/setlist";
+import { Crate } from "@/components/crate";
 import { ImportModal } from "@/components/import-modal";
 import { PlaylistPicker } from "@/components/playlist-picker";
 import { fetchPlaylistIndex, fetchPlaylist } from "@/lib/playlists";
@@ -199,6 +200,19 @@ function saveSavedSetlists(data: SavedSetlists) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
+// Crate mode: three lightweight crates you sort tracks into at once.
+type CrateSlot = { name: string; tracks: SetlistTrack[]; setlistId: string | null };
+const CRATES_KEY = "pyaar-crates";
+const defaultCrates = (): CrateSlot[] => [0, 1, 2].map((i) => ({ name: `Crate ${i + 1}`, tracks: [], setlistId: null }));
+function loadCrates(): CrateSlot[] {
+  if (typeof window === "undefined") return defaultCrates();
+  try {
+    const raw = localStorage.getItem(CRATES_KEY);
+    if (raw) { const c = JSON.parse(raw); if (Array.isArray(c) && c.length === 3) return c; }
+  } catch {}
+  return defaultCrates();
+}
+
 export default function Home() {
   const urlInit = useRef(parseUrlParams());
   const [loading, setLoading] = useState(true);
@@ -213,6 +227,13 @@ export default function Home() {
   const [setlist, setSetlist] = useState<SetlistTrack[]>([]);
   const [setlistName, setSetlistName] = useState<string | null>(null);
   const [setlistId, setSetlistId] = useState<string | null>(null);
+  const [crateMode, setCrateMode] = useState(false);
+  // Lazy init from localStorage (SSR-safe: returns defaults server-side). Safe from
+  // hydration mismatch because crate mode is off by default, so crates aren't in the
+  // initial DOM. A load effect would race the persist effect and wipe saved crates.
+  const [crates, setCrates] = useState<CrateSlot[]>(loadCrates);
+  const [activeCrate, setActiveCrate] = useState(0);
+  const [cratePickerSlot, setCratePickerSlot] = useState<number | null>(null);
   const [importOpen, setImportOpen] = useState(false);
   const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums" | "nts" | "sc">(urlInit.current.tab || "browse");
   const [likedTracks, setLikedTracks] = useState<Track[]>([]);
@@ -1212,7 +1233,47 @@ export default function Home() {
     }
   }, [filters.bpmMin, filters.bpmMax, filters.halfTime]);
 
+  // --- Crate mode ------------------------------------------------------------
+  const cratesRef = useRef(crates);
+  useEffect(() => { cratesRef.current = crates; }, [crates]);
+  useEffect(() => {
+    if (typeof window !== "undefined") localStorage.setItem(CRATES_KEY, JSON.stringify(crates));
+  }, [crates]);
+
+  const addToCrate = useCallback((slot: number, track: Track) => {
+    setCrates((prev) => prev.map((c, i) => i === slot
+      ? { ...c, tracks: [...c.tracks, { ...track, id: `${track.trackName}-${Date.now()}-${c.tracks.length}`, position: c.tracks.length }] }
+      : c));
+  }, []);
+  const removeFromCrate = useCallback((slot: number, id: string) => {
+    setCrates((prev) => prev.map((c, i) => i === slot
+      ? { ...c, tracks: c.tracks.filter((t) => t.id !== id).map((t, p) => ({ ...t, position: p })) } : c));
+  }, []);
+  const renameCrate = useCallback((slot: number, name: string) => {
+    setCrates((prev) => prev.map((c, i) => (i === slot ? { ...c, name } : c)));
+  }, []);
+  const newCrate = useCallback((slot: number) => {
+    setCrates((prev) => prev.map((c, i) => (i === slot ? { name: `Crate ${slot + 1}`, tracks: [], setlistId: null } : c)));
+  }, []);
+  const saveCrate = useCallback((slot: number) => {
+    const c = cratesRef.current[slot];
+    if (!c || c.tracks.length === 0) return;
+    const id = c.setlistId || `crate-${Date.now()}`;
+    const saved = loadSavedSetlists();
+    saved.setlists[id] = { name: c.name, tracks: c.tracks };
+    saveSavedSetlists(saved);
+    setSavedSetlists(saved);
+    setCrates((prev) => prev.map((x, i) => (i === slot ? { ...x, setlistId: id } : x)));
+  }, []);
+  const openCrateInto = useCallback((slot: number, id: string) => {
+    const s = loadSavedSetlists().setlists[id];
+    if (s) setCrates((prev) => prev.map((c, i) => (i === slot ? { name: s.name, tracks: s.tracks, setlistId: id } : c)));
+    setCratePickerSlot(null);
+  }, []);
+  const playFromCrate = useCallback((track: SetlistTrack) => { setSetlistMode(false); setNowPlaying(track); }, []);
+
   const addToSetlist = useCallback((track: Track) => {
+    if (crateMode) { addToCrate(activeCrate, track); return; }
     setSetlist((prev) => {
       // Auto-create intro chapter when first track is added
       if (prev.length === 0) {
@@ -1221,7 +1282,7 @@ export default function Home() {
       const id = `${track.trackName}-${track.artistNames}-${Date.now()}`;
       return [...prev, { ...track, id, position: prev.length }];
     });
-  }, []);
+  }, [crateMode, activeCrate, addToCrate]);
 
   const removeFromSetlist = useCallback((id: string) => {
     setSetlist((prev) => {
@@ -2676,6 +2737,8 @@ export default function Home() {
                         return (
                         <div
                           key={`${track.trackName}-${i}`}
+                          draggable
+                          onDragStart={(e) => { e.dataTransfer.setData("application/x-track", JSON.stringify(track)); e.dataTransfer.effectAllowed = "copy"; }}
                           className={`px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
                             isPlaying ? "bg-red-950/40" : ""
                           }`}
@@ -2771,6 +2834,8 @@ export default function Home() {
                             return (
                               <div
                                 key={`ft-${track.trackName}-${track.artistNames}-${i}`}
+                                draggable
+                                onDragStart={(e) => { e.dataTransfer.setData("application/x-track", JSON.stringify(track)); e.dataTransfer.effectAllowed = "copy"; }}
                                 className={`px-3 md:px-5 py-1.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-2 md:gap-3 group cursor-pointer transition-colors ${
                                   isPlaying ? "bg-red-950/40" : ""
                                 }`}
@@ -2829,6 +2894,49 @@ export default function Home() {
 
       {/* Right: Setlist — desktop (hidden in TV mode) */}
       <div className={`${sectionMode === "tv" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-background`}>
+        {/* Sidebar mode: single Set builder vs 3-crate sorting stack */}
+        <div className="px-3 py-2 border-b border-[#222] flex items-center gap-2 shrink-0">
+          <span className="text-[9px] uppercase tracking-wider text-[#666] mr-auto">Sidebar</span>
+          <button onClick={() => setCrateMode(false)}
+            className={`px-2.5 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${!crateMode ? "bg-[#e32636] text-white" : "bg-[#111] text-[#888] hover:text-white"}`}>Set</button>
+          <button onClick={() => setCrateMode(true)}
+            className={`px-2.5 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${crateMode ? "bg-[#e32636] text-white" : "bg-[#111] text-[#888] hover:text-white"}`}>3 Crates</button>
+        </div>
+        {crateMode ? (
+          <div className="flex-1 flex flex-col gap-2 p-2 overflow-y-auto min-h-0">
+            {crates.map((c, i) => (
+              <div key={i} className="flex-1 min-h-0 relative">
+                <Crate
+                  name={c.name} tracks={c.tracks} active={activeCrate === i}
+                  onActivate={() => setActiveCrate(i)}
+                  onDropTrack={(t) => addToCrate(i, t)}
+                  onRemove={(id) => removeFromCrate(i, id)}
+                  onPlay={(t) => playFromCrate(t)}
+                  onOpen={() => setCratePickerSlot(cratePickerSlot === i ? null : i)}
+                  onNew={() => newCrate(i)}
+                  onSave={() => saveCrate(i)}
+                  onRename={(name) => renameCrate(i, name)}
+                />
+                {cratePickerSlot === i && (
+                  <div className="absolute inset-x-2 top-9 z-20 bg-[#111] border border-[#333] max-h-52 overflow-y-auto shadow-xl">
+                    <div className="px-2 py-1 text-[9px] uppercase tracking-wider text-[#666] border-b border-[#222] flex justify-between sticky top-0 bg-[#111]">
+                      <span>Load a setlist</span>
+                      <button onClick={() => setCratePickerSlot(null)} className="hover:text-white">✕</button>
+                    </div>
+                    {Object.keys(savedSetlists.setlists).length === 0 ? (
+                      <div className="px-2 py-2 text-[10px] text-[#555]">No saved setlists yet</div>
+                    ) : Object.entries(savedSetlists.setlists).map(([id, s]) => (
+                      <button key={id} onClick={() => openCrateInto(i, id)}
+                        className="w-full text-left px-2 py-1.5 text-[11px] text-[#ccc] hover:bg-[#1a1a1a] flex justify-between gap-2">
+                        <span className="truncate">{s.name}</span><span className="text-[#666] shrink-0">{s.tracks.length}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
         <SetlistPanel
           tracks={setlist}
           setlistName={setlistName}
@@ -2851,6 +2959,7 @@ export default function Home() {
           onAddSuggestion={handleAddSuggestion}
           onToggleSeed={handleToggleSeed}
         />
+        )}
         {recentlyPlayed.length > 0 && (
           <div className="border-t border-[#222]">
             <button

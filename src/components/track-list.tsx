@@ -341,6 +341,11 @@ export function TrackList({ artist, tracks, loading, onBack, onAddToSetlist, onP
                     key={`${track.trackName}-${i}`}
                     data-index={i}
                     ref={rowVirtualizer.measureElement}
+                    draggable
+                    onDragStart={(e) => {
+                      e.dataTransfer.setData("application/x-track", JSON.stringify(track));
+                      e.dataTransfer.effectAllowed = "copy";
+                    }}
                     className={`border-b border-[#111] hover:bg-[#0a0a0a] group cursor-pointer transition-colors ${
                       isPlaying ? "bg-red-950/40" :
                       swipeFlash?.index === i ? (swipeFlash.action === "add" ? "bg-green-900/30" : "bg-blue-900/30") : ""

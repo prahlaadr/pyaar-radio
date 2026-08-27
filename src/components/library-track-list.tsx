@@ -242,6 +242,11 @@ export function LibraryTrackList({
                     key={`${track.videoId}-${vr.index}`}
                     data-index={vr.index}
                     ref={rowVirtualizer.measureElement}
+                    draggable
+                    onDragStart={(e) => {
+                      e.dataTransfer.setData("application/x-track", JSON.stringify(track));
+                      e.dataTransfer.effectAllowed = "copy";
+                    }}
                     className={`border-b border-[#111] hover:bg-[#0a0a0a] group transition-colors ${
                       isPlaying ? "bg-red-950/40" : ""
                     }`}
