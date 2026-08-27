@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0CGniAtrP3BiCH5Vya3IFJ",
  "title": "Sustain Release | 2025 | Year 11",
  "trackCount": 118,
- "syncedAt": "2026-08-26T08:43:35.615994Z",
+ "syncedAt": "2026-08-27T18:54:20.957835Z",
  "tracks": [
   {
    "title": "Liquid Sky",
@@ -41,8 +41,8 @@
   },
   {
    "title": "Thick Air (Loidis Reconfiguration)",
-   "artist": "Priori;Loidis",
-   "album": "This but More (Loidis Reconfiguration)",
+   "artist": "Priori - Topic",
+   "album": "",
    "videoId": "0xvY86DVt8I",
    "duration": "7:07"
   },
@@ -146,8 +146,8 @@
   },
   {
    "title": "Teke Teke",
-   "artist": "Mor Elian",
-   "album": "Glue Kit",
+   "artist": "Mor Elian - Topic",
+   "album": "",
    "videoId": "RB9gmZ0Xl30",
    "duration": "4:49"
   },
@@ -237,8 +237,8 @@
   },
   {
    "title": "Buzzz",
-   "artist": "Ayesha",
-   "album": "Rhythm Is Memory",
+   "artist": "Ayesha - Topic",
+   "album": "",
    "videoId": "cOWoJTSCSLQ",
    "duration": "4:32"
   },
@@ -286,8 +286,8 @@
   },
   {
    "title": "Monolith",
-   "artist": "Reptant",
-   "album": "Freq Accident",
+   "artist": "Reptant - Topic",
+   "album": "",
    "videoId": "Gi8fm6uJjfk",
    "duration": "5:19"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "Vaporware 01",
-   "artist": "Donato Dozzy",
-   "album": "Plays Bee Mask",
+   "artist": "Donato Dozzy - Topic",
+   "album": "",
    "videoId": "Bx492SGTEJg",
    "duration": "5:50"
   },
@@ -411,9 +411,9 @@
    "duration": "2:48"
   },
   {
-   "title": "Chimera (feat. Scott Li)",
-   "artist": "Ben Shirken;Ex Wiish",
-   "album": "H.D. Reliquary",
+   "title": "Chimera",
+   "artist": "Ben Shirken - Topic",
+   "album": "",
    "videoId": "ItW0V7KIAC8",
    "duration": "4:42"
   },
@@ -482,22 +482,22 @@
   },
   {
    "title": "dYn",
-   "artist": "Voice Actor;Squu",
-   "album": "Lust (1)",
+   "artist": "Voice Actor - Topic",
+   "album": "",
    "videoId": "r72I_gpcGe4",
    "duration": "4:51"
   },
   {
    "title": "Stab Culture",
-   "artist": "Ruff Stuff",
-   "album": "Slothboogie Pres. Dancing with Friends, Vol. 3",
+   "artist": "Ruff Stuff - Topic",
+   "album": "",
    "videoId": "RGB15PyQZNM",
    "duration": "6:58"
   },
   {
    "title": "Fantasy (Sweet Dub Mix)",
-   "artist": "Mariah Carey",
-   "album": "Fantasy EP",
+   "artist": "Mariah Carey - Topic",
+   "album": "",
    "videoId": "mRFqEoXMjIU",
    "duration": "8:13"
   },
@@ -586,9 +586,9 @@
    "duration": "4:49"
   },
   {
-   "title": "Not Giving Up",
-   "artist": "Meilgaarden",
-   "album": "Not Giving Up",
+   "title": "Not Giving Up (Original Mix)",
+   "artist": "Release - Topic",
+   "album": "",
    "videoId": "OW26SmMFvaI",
    "duration": "4:45"
   },

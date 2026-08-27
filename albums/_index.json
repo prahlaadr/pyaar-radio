@@ -2,8 +2,14 @@
  "account": "Pyaar Radio",
  "albumCount": 3558,
  "totalTracks": 45319,
- "syncedAt": "2026-08-26T08:43:30.059241Z",
+ "syncedAt": "2026-08-27T18:54:16.218284Z",
  "albums": [
+  {
+   "browseId": "MPREb_ny3OUElE8i8",
+   "title": "An Offering",
+   "artist": "Photay",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_IrTVSodLnvP",
    "title": "Lost Weekend",
@@ -3537,12 +3543,6 @@
    "title": "The Doober",
    "artist": "Sam Gendel",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_kpPQZBGuuLL",
-   "title": "Music for Saxofone & Bass Guitar More Songs",
-   "artist": "Sam Gendel",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_mQjUVNvKyb7",
