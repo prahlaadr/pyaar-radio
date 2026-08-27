@@ -8,7 +8,7 @@ import type { SetlistTrack, Track } from "@/lib/types";
 // several sets at once. The full DJ builder (chapters/arc/harmonic) stays on the
 // Setlists tab. Drop is native HTML5 DnD (track rows set an x-track payload).
 export function Crate({
-  name, tracks, active, onActivate, onDropTrack, onRemove, onPlay, onOpen, onNew, onSave, onRename,
+  name, tracks, active, onActivate, onDropTrack, onRemove, onPlay, onOpen, onNew, onSave,
 }: {
   name: string;
   tracks: SetlistTrack[];
@@ -20,10 +20,8 @@ export function Crate({
   onOpen: () => void;
   onNew: () => void;
   onSave: () => void;
-  onRename: (name: string) => void;
 }) {
   const [over, setOver] = useState(false);
-  const [editing, setEditing] = useState(false);
 
   const mins = Math.round(
     tracks.reduce((s, t) => {
@@ -49,23 +47,8 @@ export function Crate({
     >
       <div className="px-3 py-2 border-b border-[#1a1a1a] shrink-0">
         <div className="flex items-center gap-2">
-          {editing ? (
-            <input
-              autoFocus defaultValue={name}
-              onClick={(e) => e.stopPropagation()}
-              onBlur={(e) => { onRename(e.target.value.trim() || name); setEditing(false); }}
-              onKeyDown={(e) => { if (e.key === "Enter") (e.target as HTMLInputElement).blur(); }}
-              className="flex-1 bg-[#111] border border-[#333] px-2 py-0.5 text-[11px] uppercase tracking-wider text-white focus:outline-none focus:border-[#e32636]"
-            />
-          ) : (
-            <button
-              onClick={(e) => { e.stopPropagation(); setEditing(true); }}
-              className="flex-1 text-left text-[11px] font-bold uppercase tracking-wider text-white truncate hover:text-[#e32636]"
-              title="Rename crate"
-            >
-              {name}
-            </button>
-          )}
+          {/* Plain label — clicking it activates the crate (rename lives on the Setlists page). */}
+          <span className="flex-1 text-[11px] font-bold uppercase tracking-wider text-white truncate">{name}</span>
           {active && <span className="text-[8px] uppercase tracking-wider text-[#e32636] shrink-0">active</span>}
         </div>
         <div className="flex items-center justify-between mt-1">

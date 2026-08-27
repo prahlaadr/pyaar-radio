@@ -1250,9 +1250,6 @@ export default function Home() {
     setCrates((prev) => prev.map((c, i) => i === slot
       ? { ...c, tracks: c.tracks.filter((t) => t.id !== id).map((t, p) => ({ ...t, position: p })) } : c));
   }, []);
-  const renameCrate = useCallback((slot: number, name: string) => {
-    setCrates((prev) => prev.map((c, i) => (i === slot ? { ...c, name } : c)));
-  }, []);
   const newCrate = useCallback((slot: number) => {
     setCrates((prev) => prev.map((c, i) => (i === slot ? { name: `Crate ${slot + 1}`, tracks: [], setlistId: null } : c)));
   }, []);
@@ -2916,7 +2913,6 @@ export default function Home() {
                   onOpen={() => { setCratePickerQuery(""); setCratePickerSlot(cratePickerSlot === i ? null : i); }}
                   onNew={() => newCrate(i)}
                   onSave={() => saveCrate(i)}
-                  onRename={(name) => renameCrate(i, name)}
                 />
                 {cratePickerSlot === i && (() => {
                   const q = cratePickerQuery.trim().toLowerCase();
