@@ -1,9 +1,51 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3558,
- "totalTracks": 45319,
- "syncedAt": "2026-08-27T18:54:16.218284Z",
+ "albumCount": 3555,
+ "totalTracks": 45310,
+ "syncedAt": "2026-08-28T19:57:04.712756Z",
  "albums": [
+  {
+   "browseId": "MPREb_OdLW9ha9ifB",
+   "title": "Before The World Blows",
+   "artist": "Erykah Badu",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_bv1e761xbys",
+   "title": "Songs For A Blue Guitar",
+   "artist": "Red House Painters",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_fsSVh9yMFC8",
+   "title": "Retrospective",
+   "artist": "Red House Painters",
+   "trackCount": 27
+  },
+  {
+   "browseId": "MPREb_Qw2s3iAQiP5",
+   "title": "Old Ramon",
+   "artist": "Red House Painters",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_MmmTHk2YNDD",
+   "title": "RXK JUICE LORD 2",
+   "artist": "RXKNephew, Yung Deco, Young Dre, and BannedBoiWorm",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_7jwpj5AnZd7",
+   "title": "Whole lotta RXK",
+   "artist": "RXKNephew",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_UfDA6YpuvpQ",
+   "title": "Fuck Making Friends Die Sliding",
+   "artist": "RXKNephew",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_ny3OUElE8i8",
    "title": "An Offering",
@@ -2801,12 +2843,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_DtqWN4yRQFu",
-   "title": "U",
-   "artist": "Baauer",
-   "trackCount": 1
-  },
-  {
    "browseId": "MPREb_QafG5FR9oMG",
    "title": "Slimeball",
    "artist": "Young Nudy",
@@ -2837,21 +2873,9 @@
    "trackCount": 27
   },
   {
-   "browseId": "MPREb_NyHbCIR5RTW",
-   "title": "Patchwork",
-   "artist": "Charlotte Day Wilson",
-   "trackCount": 7
-  },
-  {
    "browseId": "MPREb_nIPJHyH3k2S",
    "title": "Juniper",
    "artist": "Joy Crookes",
-   "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_JG1Hk06hwK6",
-   "title": "FREE SPIRITS",
-   "artist": "CA7RIEL",
    "trackCount": 12
   },
   {
@@ -2859,18 +2883,6 @@
    "title": "Superbloom",
    "artist": "Jessie Ware",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_MIuUt1U35kv",
-   "title": "M.I.7",
-   "artist": "M.I.A.",
-   "trackCount": 16
-  },
-  {
-   "browseId": "MPREb_JyHOdHEnv5E",
-   "title": "KONNAKOL",
-   "artist": "ZAYN",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_uNXbNR4m5Ly",
@@ -2909,12 +2921,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_Kac2DMxpKeB",
-   "title": "Terra Nocturne",
-   "artist": "Lynn Stokes & Sol Surfers",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_vXF0RZXotqk",
    "title": "Hu$band",
    "artist": "Father",
@@ -2925,12 +2931,6 @@
    "title": "Young Hot Ebony",
    "artist": "Father",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_G9FRIPvanjQ",
-   "title": "Forbidden Feelingz",
-   "artist": "Nia Archives",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_jjblyPDdFie",
@@ -2981,12 +2981,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_DjjdtYrEt8o",
-   "title": "Days To Come",
-   "artist": "Bonobo",
-   "trackCount": 18
-  },
-  {
    "browseId": "MPREb_RiSwvOlN8Ym",
    "title": "Beautiful Rewind",
    "artist": "Four Tet",
@@ -2997,12 +2991,6 @@
    "title": "Pause",
    "artist": "Four Tet",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_LWHJ72geOrH",
-   "title": "Rival Dealer",
-   "artist": "Burial",
-   "trackCount": 3
   },
   {
    "browseId": "MPREb_obE6jxamYyQ",
@@ -3021,12 +3009,6 @@
    "title": "Blue Chips 1 & 2",
    "artist": "Action Bronson",
    "trackCount": 52
-  },
-  {
-   "browseId": "MPREb_KLIEUw1ECRb",
-   "title": "Take Me To Your Leader",
-   "artist": "King Geedorah",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_2bfZmvHIAUQ",

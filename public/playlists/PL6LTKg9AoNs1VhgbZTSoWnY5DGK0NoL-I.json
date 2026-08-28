@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1VhgbZTSoWnY5DGK0NoL-I",
  "title": "swoler bear 🐻❄️",
  "trackCount": 443,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "syncedAt": "2026-08-28T19:57:09.048717Z",
  "tracks": [
   {
    "title": "Money Trees (feat. Jay Rock)",
@@ -69,15 +69,15 @@
   },
   {
    "title": "Rent Money",
-   "artist": "Future",
-   "album": "FUTURE",
+   "artist": "Future - Topic",
+   "album": "",
    "videoId": "P3s5HW3A8yA",
    "duration": "4:26"
   },
   {
-   "title": "RAF (feat. A$AP Rocky, Playboi Carti, Quavo & Lil Uzi Vert)",
-   "artist": "A$AP Mob",
-   "album": "RAF",
+   "title": "RAF",
+   "artist": "A$AP Mob - Topic",
+   "album": "",
    "videoId": "JHUhFN3G4T8",
    "duration": "4:16"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "15th and the 1st (feat. YG Hootie)",
-   "artist": "Gucci Mane;Waka Flocka Flame",
-   "album": "Ferrari Boyz",
+   "artist": "Gucci Mane - Topic",
+   "album": "",
    "videoId": "YHW6E44V7ts",
    "duration": "3:54"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "way back",
-   "artist": "Travis Scott",
-   "album": "Birds in the Trap Sing McKnight",
+   "artist": "Travis Scott - Topic",
+   "album": "",
    "videoId": "1kgw0vubj9U",
    "duration": "4:33"
   },
@@ -369,9 +369,9 @@
    "duration": "3:53"
   },
   {
-   "title": "Talk Up (feat. JAY-Z)",
-   "artist": "Drake",
-   "album": "Scorpion",
+   "title": "Talk Up",
+   "artist": "Drake - Topic",
+   "album": "",
    "videoId": "IXgao663-RE",
    "duration": "3:44"
   },
@@ -398,15 +398,15 @@
   },
   {
    "title": "Jersey",
-   "artist": "Future",
-   "album": "What A Time To Be Alive",
+   "artist": "Future - Topic",
+   "album": "",
    "videoId": "CDvn9e9r2Bc",
    "duration": "3:09"
   },
   {
    "title": "Fly Shit Only",
-   "artist": "Future",
-   "album": "EVOL",
+   "artist": "Future - Topic",
+   "album": "",
    "videoId": "IMMrprklAPc",
    "duration": "3:33"
   },
@@ -559,8 +559,8 @@
   },
   {
    "title": "Rigamortus",
-   "artist": "Kendrick Lamar",
-   "album": "Section.80",
+   "artist": "Kendrick Lamar - Topic",
+   "album": "",
    "videoId": "19-HvOxlo1g",
    "duration": "2:49"
   },
@@ -663,9 +663,9 @@
    "duration": "2:28"
   },
   {
-   "title": "Wow Freestyle (feat. Kendrick Lamar)",
-   "artist": "Jay Rock",
-   "album": "Redemption",
+   "title": "Wow Freestyle",
+   "artist": "Jay Rock - Topic",
+   "album": "",
    "videoId": "IxCBDijMMwk",
    "duration": "2:56"
   },
@@ -678,8 +678,8 @@
   },
   {
    "title": "a lot",
-   "artist": "21 Savage",
-   "album": "i am > i was",
+   "artist": "21 Savage - Topic",
+   "album": "",
    "videoId": "qkDqCSgbluI",
    "duration": "4:49"
   },

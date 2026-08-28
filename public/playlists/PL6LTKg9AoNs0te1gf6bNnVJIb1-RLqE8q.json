@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0te1gf6bNnVJIb1-RLqE8q",
  "title": "Sufi & Soul [pyaar radio]",
  "trackCount": 49,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "syncedAt": "2026-08-28T19:57:09.048717Z",
  "tracks": [
   {
    "title": "Mohabbat",
@@ -13,8 +13,8 @@
   },
   {
    "title": "Suroor",
-   "artist": "Arooj Aftab",
-   "album": "Vulture Prince",
+   "artist": "Arooj Aftab - Topic",
+   "album": "",
    "videoId": "CkTG45CbFII",
    "duration": "5:13"
   },
@@ -55,8 +55,8 @@
   },
   {
    "title": "Aaqa",
-   "artist": "Abida Parveen & Ali Sethi",
-   "album": "Coke Studio Season 9: Sound of the Nation",
+   "artist": "Abida Parveen - Topic",
+   "album": "",
    "videoId": "YDtWSjIekMk",
    "duration": "8:27"
   },
@@ -83,8 +83,8 @@
   },
   {
    "title": "Adiga Adiga",
-   "artist": "Sid Sriram",
-   "album": "Ninnu Kori",
+   "artist": "Sid Sriram - Topic",
+   "album": "",
    "videoId": "zrGs4AkqNyk",
    "duration": "3:30"
   },
@@ -139,22 +139,22 @@
   },
   {
    "title": "Komal Komal",
-   "artist": "Nazia Hassan",
-   "album": "Disco Deewane",
+   "artist": "Nazia Hassan - Topic",
+   "album": "",
    "videoId": "fAugaLFlxNc",
    "duration": "3:58"
   },
   {
    "title": "Gangubai",
-   "artist": "Sakré",
-   "album": "Bangalore Sonic Archives (Beat Tape)",
+   "artist": " Sakré - Topic",
+   "album": "",
    "videoId": "i7yBzd3jbdI",
    "duration": "2:40"
   },
   {
    "title": "Speak In The Dark",
-   "artist": "Tara Lily",
-   "album": "Speak In The Dark",
+   "artist": "Tara Lily - Topic",
+   "album": "",
    "videoId": "GeY1g6gF60w",
    "duration": "3:23"
   },
@@ -167,15 +167,15 @@
   },
   {
    "title": "It's Never the End",
-   "artist": "Tara Lily",
-   "album": "Quiet Nights (Early Takes)",
+   "artist": "Tara Lily - Topic",
+   "album": "",
    "videoId": "Zo4eZX_qtOg",
    "duration": "3:14"
   },
   {
    "title": "Oolong",
-   "artist": "Jatinder Singh Durhailay & David Edren",
-   "album": "Tea Notes",
+   "artist": "Jatinder Singh Durhailay - Topic",
+   "album": "",
    "videoId": "2Wmr1zPuFZc",
    "duration": "2:45"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "Doobey (From \"Gehraiyaan\")",
-   "artist": "OAFF;Savera;Lothika;Kausar Munir",
-   "album": "Doobey (From \"Gehraiyaan\")",
+   "artist": "OAFF - Topic",
+   "album": "",
    "videoId": "724BgFjKM08",
    "duration": "3:40"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "NEU",
-   "artist": "OAFF;Divyam Sodhi",
-   "album": "Between Flowers",
+   "artist": "OAFF - Topic",
+   "album": "",
    "videoId": "WG4ba8HF_lM",
    "duration": "1:59"
   },

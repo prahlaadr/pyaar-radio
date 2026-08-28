@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 31,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "trackCount": 32,
+ "syncedAt": "2026-08-28T19:57:09.048717Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -194,13 +194,6 @@
    "duration": "3:05"
   },
   {
-   "title": "Dancer",
-   "artist": "IDLES;LCD Soundsystem",
-   "album": "TANGK",
-   "videoId": "2q5DjsmeWOQ",
-   "duration": "3:10"
-  },
-  {
    "title": "Crooklyn",
    "artist": "Alix Perez",
    "album": "Allegiance EP",
@@ -220,6 +213,20 @@
    "album": "If This Is It",
    "videoId": "GUuV5Zct5rQ",
    "duration": "3:58"
+  },
+  {
+   "title": "Broke Da Bank (feat. Boldy James)",
+   "artist": "RXKNephew",
+   "album": "Whole lotta RXK",
+   "videoId": "K-N_dpF90Qo",
+   "duration": "2:29"
+  },
+  {
+   "title": "What The People Say (Apostle 1)",
+   "artist": "Erykah Badu;The Alchemist",
+   "album": "Before The World Blows",
+   "videoId": "lFuyQ7-MkEI",
+   "duration": "2:33"
   }
  ]
 }

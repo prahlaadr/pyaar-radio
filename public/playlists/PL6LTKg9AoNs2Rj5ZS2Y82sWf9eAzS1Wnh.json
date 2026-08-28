@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
  "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
- "trackCount": 2,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "trackCount": 3,
+ "syncedAt": "2026-08-28T19:57:09.048717Z",
  "tracks": [
   {
    "title": "Sonho",
@@ -17,6 +17,13 @@
    "album": "Cape Reinga",
    "videoId": "vvbPvfQuvwk",
    "duration": "5:50"
+  },
+  {
+   "title": "Stand",
+   "artist": "Quest",
+   "album": "Stand / Eden",
+   "videoId": "yGBef8bATP0",
+   "duration": "9:00"
   }
  ]
 }

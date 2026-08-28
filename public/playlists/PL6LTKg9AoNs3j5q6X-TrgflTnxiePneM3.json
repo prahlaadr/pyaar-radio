@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3j5q6X-TrgflTnxiePneM3",
  "title": "Cole Bennett - Lyrical Lemonade",
  "trackCount": 435,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "syncedAt": "2026-08-28T19:57:09.048717Z",
  "tracks": [
   {
    "title": "Gucci Chanel",
@@ -2120,8 +2120,8 @@
   },
   {
    "title": "No Go",
-   "artist": "Young Nudy",
-   "album": "No Go",
+   "artist": "Young Nudy - Topic",
+   "album": "",
    "videoId": "lvvF4BQCPbA",
    "duration": "3:13"
   },
@@ -2189,9 +2189,9 @@
    "duration": "3:28"
   },
   {
-   "title": "Commercial (feat. Lil Uzi Vert)",
-   "artist": "Lil Baby",
-   "album": "My Turn",
+   "title": "Commercial",
+   "artist": "Lil Baby - Topic",
+   "album": "",
    "videoId": "mmXC09jfQeo",
    "duration": "3:35"
   },
@@ -2252,9 +2252,9 @@
    "duration": "4:30"
   },
   {
-   "title": "Rain (feat. Tay Keith)",
-   "artist": "Aitch;AJ Tracey",
-   "album": "Rain",
+   "title": "Rain",
+   "artist": "Aitch - Topic",
+   "album": "",
    "videoId": "GIdEHNTdeHk",
    "duration": "3:04"
   },
@@ -2344,8 +2344,8 @@
   },
   {
    "title": "If I Got To",
-   "artist": "Comethazine",
-   "album": "Bawskee",
+   "artist": "Comethazine - Topic",
+   "album": "",
    "videoId": "rAOy57R3O9Q",
    "duration": "1:37"
   },
@@ -2358,8 +2358,8 @@
   },
   {
    "title": "Cookies & Runts",
-   "artist": "Ninja Byrto;Lightskin Bobby",
-   "album": "Worldwide",
+   "artist": "Ninja Byrto - Topic",
+   "album": "",
    "videoId": "v8wxQI_ig0c",
    "duration": "4:34"
   },
@@ -2386,8 +2386,8 @@
   },
   {
    "title": "Lvl Up (feat. Moe)",
-   "artist": "Aaron Gordon",
-   "album": "Lvl Up",
+   "artist": "Aaron Gordon - Topic",
+   "album": "",
    "videoId": "NKA46Ng4Il4",
    "duration": "3:45"
   },
@@ -2414,8 +2414,8 @@
   },
   {
    "title": "Wavy",
-   "artist": "Lil Keed",
-   "album": "Wavy",
+   "artist": "Lil Keed - Topic",
+   "album": "",
    "videoId": "x40SQ4Uq-dI",
    "duration": "4:00"
   },
@@ -2533,8 +2533,8 @@
   },
   {
    "title": "UNDA ARMOR",
-   "artist": "BEAM",
-   "album": "95",
+   "artist": "BEAM - Topic",
+   "album": "",
    "videoId": "FjnMY9317g0",
    "duration": "2:36"
   },
@@ -2645,15 +2645,15 @@
   },
   {
    "title": "Quicksand",
-   "artist": "Morray",
-   "album": "Quicksand",
+   "artist": "Morray - Topic",
+   "album": "",
    "videoId": "OmvWRSRamtM",
    "duration": "3:44"
   },
   {
-   "title": "Crash Out (feat. Stunna 4 Vegas)",
-   "artist": "Blac Youngsta",
-   "album": "F*ck Everybody 3",
+   "title": "Crash Out",
+   "artist": "Blac Youngsta - Topic",
+   "album": "",
    "videoId": "jMIsVGimvCE",
    "duration": "3:10"
   },
