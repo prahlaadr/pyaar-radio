@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-08-27T18:57:55Z",
+  "syncedAt": "2026-08-28T19:59:23Z",
   "shows": [
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/in-focus"
+    },
     {
       "alias": "abby-imperial",
       "name": "ABBY IMPERIAL",
@@ -23,15 +32,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/the-nts-guide-to"
-    },
-    {
-      "alias": "in-focus",
-      "name": "In Focus",
-      "description": "A deeper look into the back catalogs of various artists.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "yu-su",
