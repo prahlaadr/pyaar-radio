@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs10uvDPc3wHNdfC8dhIo2hP",
  "title": "Indie Listen [pyaar radio]",
  "trackCount": 213,
- "syncedAt": "2026-08-28T19:57:09.048717Z",
+ "syncedAt": "2026-08-29T13:40:42.794293Z",
  "tracks": [
   {
    "title": "Adwa",
@@ -720,8 +720,8 @@
   },
   {
    "title": "Losing You",
-   "artist": "boy pablo - Topic",
-   "album": "",
+   "artist": "boy pablo",
+   "album": "Soy Pablo",
    "videoId": "_sDatYPjnFQ",
    "duration": "3:07"
   },
@@ -762,8 +762,8 @@
   },
   {
    "title": "Forever Dolphin Love",
-   "artist": "Connan Mockasin - Topic",
-   "album": "",
+   "artist": "Connan Mockasin",
+   "album": "Forever Dolphin Love",
    "videoId": "IchhVeTkqXI",
    "duration": "10:00"
   },
@@ -832,8 +832,8 @@
   },
   {
    "title": "Change",
-   "artist": "Djo - Topic",
-   "album": "",
+   "artist": "Djo",
+   "album": "DECIDE",
    "videoId": "8yUlFSZ2Bz8",
    "duration": "2:58"
   },
@@ -895,8 +895,8 @@
   },
   {
    "title": "Heat Wave",
-   "artist": "Snail Mail - Topic",
-   "album": "",
+   "artist": "Snail Mail",
+   "album": "Lush",
    "videoId": "-kbtWBWCJaI",
    "duration": "5:09"
   },
@@ -979,8 +979,8 @@
   },
   {
    "title": "Little Things",
-   "artist": "Big Thief - Topic",
-   "album": "",
+   "artist": "Big Thief",
+   "album": "Dragon New Warm Mountain I Believe in You",
    "videoId": "a9po5DeTGXo",
    "duration": "5:45"
   },
@@ -1000,8 +1000,8 @@
   },
   {
    "title": "Dust Bowl Dreamin'",
-   "artist": "Núria Graham - Topic",
-   "album": "",
+   "artist": "Núria Graham",
+   "album": "Cyclamen",
    "videoId": "ZA3HTFsyUFo",
    "duration": "1:35"
   },
@@ -1021,8 +1021,8 @@
   },
   {
    "title": "The Waterway",
-   "artist": "Núria Graham - Topic",
-   "album": "",
+   "artist": "Núria Graham",
+   "album": "Cyclamen",
    "videoId": "4_Iz0do4MF4",
    "duration": "3:29"
   },
@@ -1035,8 +1035,8 @@
   },
   {
    "title": "People Everywhere (Still Alive)",
-   "artist": "Khruangbin - Topic",
-   "album": "",
+   "artist": "Khruangbin",
+   "album": "The Universe Smiles Upon You",
    "videoId": "WzlJwEqT9PA",
    "duration": "2:40"
   },
@@ -1224,8 +1224,8 @@
   },
   {
    "title": "7th October",
-   "artist": "Alfa Mist - Topic",
-   "album": "",
+   "artist": "Alfa Mist",
+   "album": "Antiphon",
    "videoId": "GR-JKk_Hlbs",
    "duration": "4:10"
   },
@@ -1273,8 +1273,8 @@
   },
   {
    "title": "What Kinda Music",
-   "artist": "Tom Misch - Topic",
-   "album": "",
+   "artist": "Tom Misch;Yussef Dayes",
+   "album": "What Kinda Music",
    "videoId": "x30wgUCt72k",
    "duration": "3:51"
   },

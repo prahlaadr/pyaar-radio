@@ -2,15 +2,105 @@
  "title": "U",
  "artist": "Baauer",
  "year": "2026",
- "trackCount": 1,
+ "trackCount": 16,
  "tracks": [
+  {
+   "title": "Do U Wanna Get Down",
+   "artist": "Baauer",
+   "videoId": "UW8fUna_bnc",
+   "duration": "0:32"
+  },
+  {
+   "title": "Kno U",
+   "artist": "Baauer",
+   "videoId": "0GvtVbvHg_k",
+   "duration": "1:26"
+  },
+  {
+   "title": "Way U Do It",
+   "artist": "Baauer",
+   "videoId": "-ae5aJK7d8Y",
+   "duration": "1:39"
+  },
+  {
+   "title": "Supersonic",
+   "artist": "Baauer",
+   "videoId": "uwqvE6gwiow",
+   "duration": "2:14"
+  },
+  {
+   "title": "Kiss on the Lips (ft Brazy)",
+   "artist": "Baauer & Brazy",
+   "videoId": "7qUyP6JMPwY",
+   "duration": "1:07"
+  },
+  {
+   "title": "One Last Time (feat. Aluna)",
+   "artist": "Baauer & Brazy",
+   "videoId": "c6TJLXQXNhs",
+   "duration": "2:13"
+  },
+  {
+   "title": "Calling Out For U",
+   "artist": "Baauer",
+   "videoId": "23rBzRv-2Go",
+   "duration": "3:04"
+  },
+  {
+   "title": "U Give Me Love",
+   "artist": "Baauer;Supafly",
+   "videoId": "NpdkhpSXSM4",
+   "duration": "2:54"
+  },
+  {
+   "title": "Closer Together",
+   "artist": "Baauer",
+   "videoId": "StXPnX47P7w",
+   "duration": "2:46"
+  },
+  {
+   "title": "Gravity/Chaos Flow (ft KUČKA)",
+   "artist": "Baauer;KUČKA",
+   "videoId": "mVe878YgcUo",
+   "duration": "2:37"
+  },
+  {
+   "title": "Meldy (Want U So Bad)",
+   "artist": "Baauer",
+   "videoId": "_ibbl0K3nYY",
+   "duration": "1:13"
+  },
   {
    "title": "Better",
    "artist": "Baauer",
    "videoId": "F4CCUIf3IsU",
    "duration": "3:51"
+  },
+  {
+   "title": "Nothing's Ever Real (U Mix) (ft Betsy)",
+   "artist": "Baauer & Betsy",
+   "videoId": "WFmOq-LbpUg",
+   "duration": "3:05"
+  },
+  {
+   "title": "Somebody",
+   "artist": "Baauer",
+   "videoId": "K1jW2BHdPg4",
+   "duration": "3:21"
+  },
+  {
+   "title": "U Know It's Real",
+   "artist": "Baauer",
+   "videoId": "8zSyoV9MRtU",
+   "duration": "1:53"
+  },
+  {
+   "title": "Follow U",
+   "artist": "Baauer",
+   "videoId": "1UcFGNS4NSI",
+   "duration": "2:26"
   }
  ],
  "browseId": "MPREb_DtqWN4yRQFu",
- "syncedAt": "2026-04-27T03:18:26.258950Z"
+ "syncedAt": "2026-08-29T13:40:36.299426Z"
 }

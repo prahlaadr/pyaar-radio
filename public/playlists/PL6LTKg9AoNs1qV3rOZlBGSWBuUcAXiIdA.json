@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1qV3rOZlBGSWBuUcAXiIdA",
  "title": "Beat Tape [pyaar radio]",
  "trackCount": 51,
- "syncedAt": "2026-08-28T19:57:09.048717Z",
+ "syncedAt": "2026-08-29T13:40:42.794293Z",
  "tracks": [
   {
    "title": "Camelblues",
@@ -13,8 +13,8 @@
   },
   {
    "title": "Yawn",
-   "artist": "MNDSGN - Topic",
-   "album": "",
+   "artist": "Mndsgn",
+   "album": "Yawn Zen",
    "videoId": "a9WglMi420w",
    "duration": "2:09"
   },
@@ -69,15 +69,15 @@
   },
   {
    "title": "Getonup",
-   "artist": "Knxwledge - Topic",
-   "album": "",
+   "artist": "Knxwledge",
+   "album": "Anthology",
    "videoId": "UTsfc7c2HQw",
    "duration": "1:14"
   },
   {
    "title": "Skyline",
-   "artist": "FKJ - Topic",
-   "album": "",
+   "artist": "FKJ",
+   "album": "French Kiwi Juice",
    "videoId": "iLWR9ZlMyZg",
    "duration": "4:10"
   },
@@ -118,22 +118,22 @@
   },
   {
    "title": "Wound Up",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin",
+   "album": "Rare.wavs (Vol. 1)",
    "videoId": "nr6kaHw7Q4I",
    "duration": "3:12"
   },
   {
    "title": "magic",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "artist": "Medasin, MAE.SUN, & Sara Kawai",
+   "album": "sounds",
    "videoId": "9ytiyD_QA2s",
    "duration": "5:57"
   },
   {
-   "title": "Always Afternoon",
-   "artist": "Medasin - Topic",
-   "album": "",
+   "title": "Always Afternoon (feat. Kathleen)",
+   "artist": "Medasin",
+   "album": "Always Afternoon",
    "videoId": "xLnHeIfCDhk",
    "duration": "3:04"
   },
@@ -167,8 +167,8 @@
   },
   {
    "title": "Massage Situation",
-   "artist": "Flying Lotus - Topic",
-   "album": "",
+   "artist": "Flying Lotus",
+   "album": "Reset EP",
    "videoId": "9fzGGbiJags",
    "duration": "2:48"
   },
@@ -188,8 +188,8 @@
   },
   {
    "title": "A Chamada (Ritmo Muleke)",
-   "artist": "Sango - Topic",
-   "album": "",
+   "artist": "Sango",
+   "album": "De Mim, Pra Você",
    "videoId": "Jx_xomc3b-w",
    "duration": "2:17"
   },
@@ -222,9 +222,9 @@
    "duration": "3:51"
   },
   {
-   "title": "GLOWED UP",
-   "artist": "KAYTRANADA - Topic",
-   "album": "",
+   "title": "GLOWED UP (feat. Anderson .Paak)",
+   "artist": "KAYTRANADA",
+   "album": "99.9%",
    "videoId": "MxyoldF3dfw",
    "duration": "4:59"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "Queen Tings (feat. Tiffany Gouché)",
-   "artist": "Masego - Topic",
-   "album": "",
+   "artist": "Masego",
+   "album": "Lady Lady",
    "videoId": "flU8o3-h1mY",
    "duration": "3:09"
   },

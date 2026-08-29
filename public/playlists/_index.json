@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 282,
- "totalTracks": 105737,
- "syncedAt": "2026-08-28T19:57:09.048717Z",
+ "playlistCount": 283,
+ "totalTracks": 105895,
+ "syncedAt": "2026-08-29T13:40:42.794293Z",
  "playlists": [
+  {
+   "playlistId": "PLPNa6b49-GLM",
+   "title": "001 zone one",
+   "trackCount": 2
+  },
   {
    "playlistId": "PLSIgqqcwmXaY",
    "title": "Aug 26",
-   "trackCount": 32
+   "trackCount": 33
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -1387,7 +1392,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3wiaGkGea79esMmaooc2E8",
    "title": "2025",
-   "trackCount": 0
+   "trackCount": 155
   },
   {
    "playlistId": "PL6LTKg9AoNs1SfSDRCnhTiHRMStUHehas",

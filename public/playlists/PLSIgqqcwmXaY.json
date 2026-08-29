@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 32,
- "syncedAt": "2026-08-28T19:57:09.048717Z",
+ "trackCount": 33,
+ "syncedAt": "2026-08-29T13:40:42.794293Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -227,6 +227,13 @@
    "album": "Before The World Blows",
    "videoId": "lFuyQ7-MkEI",
    "duration": "2:33"
+  },
+  {
+   "title": "Drowning",
+   "artist": "Dahi, Elmiene, & Ravyn Lenae",
+   "album": "Black Boy (Alternative)",
+   "videoId": "3q1Xzh28Wjg",
+   "duration": "4:06"
   }
  ]
 }
