@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 33,
- "syncedAt": "2026-08-29T13:40:42.794293Z",
+ "trackCount": 34,
+ "syncedAt": "2026-08-30T13:37:05.069079Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -234,6 +234,13 @@
    "album": "Black Boy (Alternative)",
    "videoId": "3q1Xzh28Wjg",
    "duration": "4:06"
+  },
+  {
+   "title": "New York, I Love You but You're Bringing Me Down",
+   "artist": "LCD Soundsystem",
+   "album": "Sound of Silver",
+   "videoId": "c5kM3iwYVi0",
+   "duration": "5:36"
   }
  ]
 }
