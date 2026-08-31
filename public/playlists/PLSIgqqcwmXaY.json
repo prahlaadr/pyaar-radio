@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSIgqqcwmXaY",
  "title": "Aug 26",
- "trackCount": 34,
- "syncedAt": "2026-08-30T13:37:05.069079Z",
+ "trackCount": 36,
+ "syncedAt": "2026-08-31T15:54:49.501231Z",
  "tracks": [
   {
    "title": "Human Voice",
@@ -230,7 +230,7 @@
   },
   {
    "title": "Drowning",
-   "artist": "Dahi, Elmiene, & Ravyn Lenae",
+   "artist": "Dahi;Elmiene;Ravyn Lenae",
    "album": "Black Boy (Alternative)",
    "videoId": "3q1Xzh28Wjg",
    "duration": "4:06"
@@ -241,6 +241,20 @@
    "album": "Sound of Silver",
    "videoId": "c5kM3iwYVi0",
    "duration": "5:36"
+  },
+  {
+   "title": "Still Ill",
+   "artist": "The Alchemist",
+   "album": "Retarded Alligator Beats",
+   "videoId": "SGNyndRIF6k",
+   "duration": "1:21"
+  },
+  {
+   "title": "Opendoors",
+   "artist": "Jitwam",
+   "album": "Honeycomb",
+   "videoId": "39iCgeO3aYE",
+   "duration": "2:43"
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 10,
- "syncedAt": "2026-08-30T13:37:05.069079Z",
+ "trackCount": 11,
+ "syncedAt": "2026-08-31T15:54:49.501231Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -73,6 +73,13 @@
    "album": "Innervisions",
    "videoId": "fy4fMlLj_B8",
    "duration": "5:24"
+  },
+  {
+   "title": "Without",
+   "artist": "A. G. Cook",
+   "album": "Britpop",
+   "videoId": "t5FN_7Qb1XE",
+   "duration": "2:41"
   }
  ]
 }

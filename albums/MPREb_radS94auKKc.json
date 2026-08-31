@@ -1,0 +1,34 @@
+{
+ "title": "Blue Moods",
+ "artist": "Miles Davis",
+ "year": "1990",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Nature Boy",
+   "artist": "Miles Davis",
+   "videoId": "gubBgDb5maw",
+   "duration": "6:15"
+  },
+  {
+   "title": "Alone Together",
+   "artist": "Miles Davis",
+   "videoId": "wEHV7Z1bSko",
+   "duration": "7:17"
+  },
+  {
+   "title": "There's No You",
+   "artist": "Miles Davis",
+   "videoId": "K4rCmr6IJyI",
+   "duration": "8:05"
+  },
+  {
+   "title": "Easy Living",
+   "artist": "Miles Davis",
+   "videoId": "KuqM9QYQab4",
+   "duration": "5:04"
+  }
+ ],
+ "browseId": "MPREb_radS94auKKc",
+ "syncedAt": "2026-08-31T15:54:44.735905Z"
+}

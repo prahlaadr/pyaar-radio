@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1518,
- "syncedAt": "2026-08-30T13:37:05.069079Z",
+ "trackCount": 1519,
+ "syncedAt": "2026-08-31T15:54:49.501231Z",
  "tracks": [
+  {
+   "title": "Opendoors",
+   "artist": "Jitwam",
+   "album": "Honeycomb",
+   "videoId": "39iCgeO3aYE",
+   "duration": "2:43"
+  },
   {
    "title": "Living For The City",
    "artist": "Stevie Wonder",

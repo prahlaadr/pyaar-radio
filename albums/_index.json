@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3568,
- "totalTracks": 45493,
- "syncedAt": "2026-08-30T13:37:02.297811Z",
+ "albumCount": 3574,
+ "totalTracks": 45543,
+ "syncedAt": "2026-08-31T15:54:44.735905Z",
  "albums": [
+  {
+   "browseId": "MPREb_Dt9ufBLXe1b",
+   "title": "Honeycomb",
+   "artist": "Jitwam",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_wx38N4zfWjn",
+   "title": "Soft Echoes",
+   "artist": "Sharada Shashidhar",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_D2tn0jpI6lg",
+   "title": "A Foot On The Ground",
+   "artist": "Sharada Shashidhar",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_oQXYNbFAKcK",
+   "title": "Raag Digitaal",
+   "artist": "TJ Rehmi",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_wnx01ajk5v6",
+   "title": "Axis of Ignorance",
+   "artist": "Tj Rehmi",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_radS94auKKc",
+   "title": "Blue Moods",
+   "artist": "Miles Davis",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_9urdKP0wm9I",
    "title": "Slime Language 3",

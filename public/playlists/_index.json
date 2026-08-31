@@ -1,23 +1,33 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 283,
- "totalTracks": 105846,
- "syncedAt": "2026-08-30T13:37:05.069079Z",
+ "playlistCount": 282,
+ "totalTracks": 105884,
+ "syncedAt": "2026-08-31T15:54:49.501231Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1519
+  },
   {
    "playlistId": "PLSIgqqcwmXaY",
    "title": "Aug 26",
-   "trackCount": 34
+   "trackCount": 36
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
+   "title": "Intros/Interludes/Loops/Waves/Fillers",
+   "trackCount": 30
+  },
+  {
+   "playlistId": "PLG8qpG-vDHJU",
+   "title": "001 in the living room",
+   "trackCount": 11
   },
   {
    "playlistId": "PLPNa6b49-GLM",
    "title": "001 zone one",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
-   "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 27
   },
   {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
@@ -28,16 +38,6 @@
    "playlistId": "PLPcnSN8hhXko",
    "title": "bolly disco",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1518
-  },
-  {
-   "playlistId": "PLG8qpG-vDHJU",
-   "title": "001 in the living room",
-   "trackCount": 10
   },
   {
    "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
@@ -118,11 +118,6 @@
    "playlistId": "PLUU31rWF7cOI",
    "title": "avalanches fanbase suggestions",
    "trackCount": 2673
-  },
-  {
-   "playlistId": "PLXiSFnCNRKa8",
-   "title": "(Soulwax Remix) Faves",
-   "trackCount": 19
   },
   {
    "playlistId": "PLZ_kZR08Pzmk",
@@ -412,7 +407,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2YPrW7bjZIzMEe9jnTzkTx",
    "title": "DJ prahloud (boots cats) (real estate investment) (goated) [pyaar radio]",
-   "trackCount": 986
+   "trackCount": 1036
   },
   {
    "playlistId": "PL6LTKg9AoNs0yFhpOhVaXQcVTsFlqCKVF",
