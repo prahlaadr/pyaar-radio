@@ -29,6 +29,11 @@ PROJECT_DIR = Path(__file__).parent
 PLAYLISTS_DIR = PROJECT_DIR / "public" / "playlists"
 INDEX_PATH = PLAYLISTS_DIR / "_index.json"
 
+# YouTube now 403s plain yt-dlp, so downloads need a cookies file. Exported from
+# Chrome to a keychain-independent path so launchd jobs can read it headlessly:
+#   yt-dlp --cookies-from-browser chrome --cookies <path> --skip-download <url>
+COOKIES_PATH = Path.home() / ".config" / "pyaar-radio" / "yt-cookies.txt"
+
 # Make pyaar_drives importable
 sys.path.insert(0, str(PROJECT_DIR))
 from pyaar_drives import get_write_root  # noqa: E402
@@ -291,15 +296,17 @@ def download_ytdlp(video_id, name, dest_folder):
 
     with tempfile.TemporaryDirectory() as tmpdir:
         outpath = os.path.join(tmpdir, f"{safe_name}.mp3")
+        # YouTube 403s plain yt-dlp; pass the cookies file (and -f bestaudio,
+        # which the cookie'd formats require) when it exists.
+        cmd = ["yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0"]
+        if COOKIES_PATH.exists():
+            cmd += ["--cookies", str(COOKIES_PATH), "-f", "bestaudio"]
+        cmd += ["-o", outpath, f"https://music.youtube.com/watch?v={video_id}"]
         # A single slow/stuck download must not crash the whole sync — catch the
         # timeout (and any subprocess error) and report the track as failed so
         # the loop moves on to the next track and the remaining months still run.
         try:
-            subprocess.run([
-                "yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0",
-                "-o", outpath,
-                f"https://music.youtube.com/watch?v={video_id}"
-            ], capture_output=True, text=True, timeout=120)
+            subprocess.run(cmd, capture_output=True, text=True, timeout=120)
         except (subprocess.TimeoutExpired, OSError):
             return False
 

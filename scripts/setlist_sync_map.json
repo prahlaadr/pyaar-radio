@@ -1,0 +1,19 @@
+{
+  "_comment": "Maps YT Music playlists to Lexar folders for scripts/sync_folder.py. base = /Volumes/vision 1/DJ. additive: keep existing, only fetch missing. aggregate: multiple playlists may feed one folder. autoMount: re-synced on USB plug via launchd.",
+  "base": "/Volumes/vision 1/DJ",
+  "mappings": [
+    { "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g", "title": "trivia night", "folder": "Crates/Trivia Night", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs0_af5VpbALHabkrrl44I5_", "title": "Dub Crate (Dub, calm UKG, deep bass)", "folder": "Setlists/001PYAARDUB (140)", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k", "title": "Intros/Interludes/Loops/Waves/Fillers", "folder": "Crates/Intros, Interludes, Loops, Waves", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU", "title": "under the bridge", "folder": "Setlists/001Pyaar (Electronic:House:Garage)", "additive": true, "aggregate": true },
+    { "playlistId": "PLZ3M7y8Ifh6o", "title": "001 Pyaar Mood Ring", "folder": "Setlists/001Pyaar Mood Ring", "additive": true, "autoMount": true },
+    { "playlistId": "PLG8qpG-vDHJU", "title": "001 in the living room", "folder": "Setlists/001 in the living room", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs3Tys14UYiFR6Q1p2RYQ2Ia", "title": "Jinja", "folder": "Setlists/001Pyaar Jinja", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W", "title": "KALKI (future carnatic)", "folder": "PYAAR.Radio/002 KALKI", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh", "title": "PANDO (deep earthy percussive connected dub)", "folder": "Setlists/001Pyaar PANDO", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0", "title": "in the uber home", "folder": "Setlists/001 in the uber home/in the uber home", "additive": true, "aggregate": true },
+    { "playlistId": "PLeUck5qlo-go", "title": "Pyaar Chill Mix", "folder": "Setlists/001 in the uber home/Pyaar Chill Mix", "additive": true, "aggregate": true },
+    { "playlistId": "PLVMJJo57_qlc", "title": "001 Pyaar Crate Sparklmami (jazz soul rnb)", "folder": "Setlists/001 Pyaar Crate Sparklmami (jazz soul rnb)", "additive": true },
+    { "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95", "title": "Houselaad Savage Video Game Nights", "folder": "Setlists/savage-videogame-nights/Houselaad Savage Video Game Nights", "additive": true, "autoMount": true }
+  ]
+}

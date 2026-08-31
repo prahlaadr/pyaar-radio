@@ -142,6 +142,20 @@ month-named YT Music playlists and downloads missing tracks to
 chain, operations, troubleshooting, and the planned any-playlist / two-way sync
 design.
 
+**Any playlist → any folder.** `scripts/sync_folder.py <playlistId> "<folder>"`
+downloads a playlist into an arbitrary Lexar folder as `Artist - Title.mp3`
+(additive, no numbering). `scripts/setlist_sync_map.json` registers
+playlist→folder mappings and `scripts/sync_setlists.py [--only ID | --auto-only]`
+drives them; entries flagged `autoMount` are re-synced by the
+`com.pyaar.setlist-automount` LaunchAgent on drive mount (so an interrupted sync
+resumes on reconnect).
+
+> yt-dlp downloads need a **current** binary — a stale one 403s. Keep it updated
+> (`brew upgrade yt-dlp`). For headless/launchd runs a keychain-independent
+> `~/.config/pyaar-radio/yt-cookies.txt` (exported via
+> `yt-dlp --cookies-from-browser chrome --cookies <path> --skip-download <url>`)
+> is used as a throttle fallback when present.
+
 ### Auth
 
 Both workflows use YT Music browser cookies stored as `YTMUSIC_BROWSER_AUTH` GitHub Secret. Cookies last ~2 years. See `CLAUDE.md` for refresh steps.
