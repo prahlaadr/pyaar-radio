@@ -1,6 +1,28 @@
 {
-  "syncedAt": "2026-08-30T13:40:22Z",
+  "syncedAt": "2026-08-31T15:58:06Z",
   "shows": [
+    {
+      "alias": "nabihah-iqbal",
+      "name": "Nabihah Iqbal ",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/nabihah-iqbal"
+    },
+    {
+      "alias": "raji-rags",
+      "name": "Raji Rags",
+      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
+      "ntsGenres": [
+        "hip-hop / r'n'b",
+        "electronica / downtempo",
+        "house / techno"
+      ],
+      "url": "https://www.nts.live/shows/raji-rags"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -9,6 +31,15 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/in-focus"
+    },
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "abby-imperial",
@@ -23,15 +54,6 @@
         "uk dance / grime"
       ],
       "url": "https://www.nts.live/shows/abby-imperial"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "yu-su",
@@ -102,19 +124,6 @@
       "url": "https://www.nts.live/shows/loraine-james"
     },
     {
-      "alias": "raji-rags",
-      "name": "Raji Rags",
-      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
-      "ntsGenres": [
-        "hip-hop / r'n'b",
-        "electronica / downtempo",
-        "house / techno"
-      ],
-      "url": "https://www.nts.live/shows/raji-rags"
-    },
-    {
       "alias": "homeshake",
       "name": "Homeshake",
       "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
@@ -135,15 +144,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/soup-to-nuts-anu"
-    },
-    {
-      "alias": "nabihah-iqbal",
-      "name": "Nabihah Iqbal ",
-      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/nabihah-iqbal"
     },
     {
       "alias": "sendspaace",
