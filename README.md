@@ -148,7 +148,11 @@ downloads a playlist into an arbitrary Lexar folder as `Artist - Title.mp3`
 playlist→folder mappings and `scripts/sync_setlists.py [--only ID | --auto-only]`
 drives them; entries flagged `autoMount` are re-synced by the
 `com.pyaar.setlist-automount` LaunchAgent on drive mount (so an interrupted sync
-resumes on reconnect).
+resumes on reconnect). Private/self-made playlists resolve via `browser.json`
+(ytmusicapi) when yt-dlp can't list them. As a safety net, a sync skips a folder
+that is already full but where a large fraction of the playlist doesn't match by
+name (filled by another pipeline under different filenames) — override with
+`--force`.
 
 > yt-dlp downloads need a **current** binary — a stale one 403s. Keep it updated
 > (`brew upgrade yt-dlp`). For headless/launchd runs a keychain-independent

@@ -56,13 +56,24 @@ def get_tracks(playlist_id):
             title, vid = parts[0], parts[1]
             artist = strip_topic(parts[2]) if len(parts) > 2 else ""
             tracks.append((artist, title, vid))
-    return tracks
+    if tracks:
+        return tracks
+    # Private / self-created playlist: yt-dlp can't list it. Fall back to
+    # ytmusicapi with the repo's browser.json auth (the videos are still public).
+    try:
+        from ytmusicapi import YTMusic
+        pl = YTMusic(str(PROJECT_DIR / "browser.json")).get_playlist(playlist_id, limit=None)
+        return [(", ".join(a["name"] for a in t.get("artists", []) if a.get("name")),
+                 t.get("title", ""), t.get("videoId"))
+                for t in pl["tracks"] if t.get("videoId")]
+    except Exception:
+        return tracks
 
 
 def existing_norm_stems(folder):
     stems = []
     for p in folder.rglob("*"):
-        if p.suffix.lower() in AUDIO_EXT:
+        if p.suffix.lower() in AUDIO_EXT and not p.name.startswith("._"):
             stems.append(norm(p.stem))
     return stems
 
@@ -101,6 +112,8 @@ def main():
     ap.add_argument("folder")
     ap.add_argument("--cookies", default=str(DEFAULT_COOKIES))
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--force", action="store_true",
+                    help="download even if the folder looks filled under different naming")
     args = ap.parse_args()
 
     folder = Path(args.folder)
@@ -114,6 +127,15 @@ def main():
     if args.dry:
         for a, t, v in missing:
             print(f"    - {a} - {t}")
+        return
+
+    # Safety: if the folder is already full yet a big fraction of the playlist
+    # doesn't match by name, it was filled by another pipeline with different
+    # filenames — downloading would just spam duplicates. Skip unless --force.
+    if (not args.force and tracks and len(stems) >= 0.8 * len(tracks)
+            and len(missing) > 0.3 * len(tracks)):
+        print(f"  SKIP: folder has {len(stems)} files but {len(missing)}/{len(tracks)} "
+              f"don't match by name — likely different naming. Use --force to override.")
         return
 
     ok = fail = 0
