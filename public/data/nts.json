@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T15:58:06Z",
+  "syncedAt": "2026-09-01T13:15:13Z",
   "shows": [
     {
       "alias": "nabihah-iqbal",
@@ -9,6 +9,15 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/nabihah-iqbal"
+    },
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "raji-rags",
@@ -31,15 +40,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/in-focus"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "abby-imperial",
