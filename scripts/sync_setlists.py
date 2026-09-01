@@ -51,6 +51,13 @@ def main():
     for m in picks:
         target = base / m["folder"]
         print(f"\n===== {m['title']} -> {m['folder']} =====")
+        # Auto-mount maintains existing folders; it never re-creates a moved one.
+        # If the recorded path is gone, the folder was relocated — skip so we
+        # don't resurrect the old path and re-download into it. Fix the registry
+        # path to resume syncing at the new location.
+        if args.auto_only and not target.exists():
+            print(f"  SKIP: folder not found (moved?) — update its path in setlist_sync_map.json")
+            continue
         cmd = [sys.executable, str(HERE / "sync_folder.py"), m["playlistId"], str(target)]
         if args.dry:
             cmd.append("--dry")

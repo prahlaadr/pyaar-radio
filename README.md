@@ -152,7 +152,9 @@ resumes on reconnect). Private/self-made playlists resolve via `browser.json`
 (ytmusicapi) when yt-dlp can't list them. As a safety net, a sync skips a folder
 that is already full but where a large fraction of the playlist doesn't match by
 name (filled by another pipeline under different filenames) — override with
-`--force`.
+`--force`. Folders can be moved freely: on auto-mount a mapping whose recorded
+path is missing is skipped (the old path is never re-created); update its `folder`
+in `setlist_sync_map.json` to resume syncing at the new location.
 
 > yt-dlp downloads need a **current** binary — a stale one 403s. Keep it updated
 > (`brew upgrade yt-dlp`). For headless/launchd runs a keychain-independent

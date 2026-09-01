@@ -1,5 +1,5 @@
 {
-  "_comment": "Maps YT Music playlists to Lexar folders for scripts/sync_folder.py. base = /Volumes/vision 1/DJ. additive: keep existing, only fetch missing. aggregate: multiple playlists may feed one folder. private: self-made playlist, needs ytmusicapi (browser.json). movable: folder may relocate; update this path if it does. autoMount: re-synced on USB plug via com.pyaar.setlist-automount. Dub Crate is intentionally NOT autoMount (509 tracks, parked).",
+  "_comment": "Maps YT Music playlists to Lexar folders for scripts/sync_folder.py. base = /Volumes/vision 1/DJ. additive: keep existing, only fetch missing. aggregate: multiple playlists may feed one folder. private: self-made playlist, needs ytmusicapi (browser.json). autoMount: re-synced on USB plug via com.pyaar.setlist-automount. Any folder may be moved — autoMount skips a mapping whose folder path is missing (won't re-create the old path); update the path here to resume syncing at the new location. Dub Crate is intentionally NOT autoMount (509 tracks, parked).",
   "base": "/Volumes/vision 1/DJ",
   "mappings": [
     { "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g", "title": "trivia night", "folder": "Crates/Trivia Night", "additive": true, "autoMount": true },
