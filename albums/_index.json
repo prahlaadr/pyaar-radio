@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3574,
- "totalTracks": 45543,
- "syncedAt": "2026-08-31T15:54:44.735905Z",
+ "albumCount": 3563,
+ "totalTracks": 45406,
+ "syncedAt": "2026-09-01T13:10:04.442431Z",
  "albums": [
+  {
+   "browseId": "MPREb_hj9z1rqqLyZ",
+   "title": "Sympathy for Life",
+   "artist": "Parquet Courts",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_Dt9ufBLXe1b",
    "title": "Honeycomb",
@@ -171,12 +177,6 @@
    "title": "Alien Metal",
    "artist": "King Gizzard & the Lizard Wizard",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_3CpSf1qnPIy",
-   "title": "lucre",
-   "artist": "Dean Blunt",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_9FKtR2omfKk",
@@ -773,12 +773,6 @@
    "trackCount": 26
   },
   {
-   "browseId": "MPREb_RfHjR5PnKE5",
-   "title": "Victory Garden",
-   "artist": "Young The Giant",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_sG5DSKTtVhR",
    "title": "Nothing's About to Happen to Me",
    "artist": "Mitski",
@@ -839,28 +833,10 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_VVXHCvetDgw",
-   "title": "Människobarn",
-   "artist": "Dina Ögon",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_rwxXbGEygVu",
    "title": "While The Iron Is Hot",
    "artist": "Ovrkast.",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_eGhRvhSXOCv",
-   "title": "Tuff Times Never Last",
-   "artist": "Kokoroko",
-   "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_gBx8NZHvazO",
-   "title": "Croak Dream",
-   "artist": "Puma Blue",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_pfGOlmFT7ex",
@@ -875,12 +851,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_YAUGEBoLeEX",
-   "title": "Chemistry",
-   "artist": "Chris Lake",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_xd3OKWcgPZj",
    "title": "Dust",
    "artist": "Karsh Kale",
@@ -890,12 +860,6 @@
    "browseId": "MPREb_PZueTdMYS2O",
    "title": "When The City Sleeps",
    "artist": "Alex Isley",
-   "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_SjZuMdl2VUb",
-   "title": "Roulette",
-   "artist": "Alfa Mist",
    "trackCount": 15
   },
   {
@@ -915,12 +879,6 @@
    "title": "Hour Sessions",
    "artist": "Clever Austin",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_dRYPw66xkym",
-   "title": "Exile",
-   "artist": "Chronixx",
-   "trackCount": 17
   },
   {
    "browseId": "MPREb_tvb5MaBx1GT",
@@ -977,12 +935,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_U88X5vLx2dT",
-   "title": "7 piano sketches",
-   "artist": "André 3000",
-   "trackCount": 7
-  },
-  {
    "browseId": "MPREb_HPO7BrsOlE6",
    "title": "LIVE FAST",
    "artist": "33 Below",
@@ -999,12 +951,6 @@
    "title": "The Trippy Tapes Vol. 1",
    "artist": "Juicy J",
    "trackCount": 31
-  },
-  {
-   "browseId": "MPREb_VzsPFo1nIDc",
-   "title": "Full Circle",
-   "artist": "Tom Misch",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_nd1jk6JOu9E",
@@ -1041,12 +987,6 @@
    "title": "Kodak The Blessing",
    "artist": "Kodak Black",
    "trackCount": 26
-  },
-  {
-   "browseId": "MPREb_UY9nxRRWTm8",
-   "title": "You Only Die 1nce (Deluxe)",
-   "artist": "Freddie Gibbs",
-   "trackCount": 22
   },
   {
    "browseId": "MPREb_wnQWYX4ii4v",
@@ -16893,12 +16833,6 @@
    "title": "JOHANN SEBASTIAN BACHLAVA THE DOCTOR",
    "artist": "Action Bronson",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_0MFma86P1nU",
-   "title": "Backstage Raver",
-   "artist": "Joanne Robertson",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_ZDv5Q31fwIU",
