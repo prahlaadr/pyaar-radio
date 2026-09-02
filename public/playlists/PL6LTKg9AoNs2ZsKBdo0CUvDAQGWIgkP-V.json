@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2ZsKBdo0CUvDAQGWIgkP-V",
  "title": "melt🩸🔊 🕶️8)))",
  "trackCount": 756,
- "syncedAt": "2026-09-01T13:10:07.741437Z",
+ "syncedAt": "2026-09-02T12:37:08.894241Z",
  "tracks": [
   {
    "title": "Move Higher (feat. Culture Shock)",
@@ -538,7 +538,7 @@
   },
   {
    "title": "Step Up",
-   "artist": "gum.mp3;Dazegxd",
+   "artist": "gum.mp3 & Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "zCmOytV5mjA",
    "duration": "3:33"
@@ -546,29 +546,29 @@
   {
    "title": "Mania",
    "artist": "gum.mp3 & dazegxd",
-   "album": "Girls Love Jungle",
-   "videoId": "Yk7UqYq3m-U",
+   "album": "Mania",
+   "videoId": "wq4ja3Et_g0",
    "duration": "3:36"
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3;Dazegxd",
-   "album": "Girls Love Jungle",
-   "videoId": "OYfZpH6PAEQ",
+   "artist": "gum.mp3 & Dazegxd",
+   "album": "Bad 4 Us",
+   "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
   },
   {
    "title": "Imitator",
-   "artist": "gum.mp3;Dazegxd",
+   "artist": "gum.mp3 & Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "2Mv1lY8xUAI",
    "duration": "4:32"
   },
   {
    "title": "Thinking About U",
-   "artist": "gum.mp3;Dazegxd",
-   "album": "Girls Love Jungle",
-   "videoId": "ZGBrIYTzoTw",
+   "artist": "gum.mp3 & Dazegxd",
+   "album": "Thinking About U",
+   "videoId": "0YaPGNfmzbI",
    "duration": "4:32"
   },
   {
@@ -2050,9 +2050,9 @@
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3;Dazegxd",
-   "album": "Mania",
-   "videoId": "D947sf2hX8U",
+   "artist": "gum.mp3 & Dazegxd",
+   "album": "Bad 4 Us",
+   "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
   },
   {
@@ -4177,10 +4177,10 @@
    "duration": "4:07"
   },
   {
-   "title": "Strip Game (feat. Leon English)",
-   "artist": "Swami Sound;gum.mp3",
-   "album": "Strip Game",
-   "videoId": "91oLtZOn9GE",
+   "title": "Strip Game",
+   "artist": "Swami Sound & gum.mp3",
+   "album": "State of Emergency",
+   "videoId": "NjR-z4w94ok",
    "duration": "6:00"
   },
   {
@@ -4408,10 +4408,10 @@
    "duration": "5:29"
   },
   {
-   "title": "Strip Game (feat. Leon English)",
-   "artist": "Swami Sound;gum.mp3",
-   "album": "State of Emergency",
-   "videoId": "NjR-z4w94ok",
+   "title": "Strip Game",
+   "artist": "Swami Sound & gum.mp3",
+   "album": "Strip Game",
+   "videoId": "91oLtZOn9GE",
    "duration": "6:00"
   },
   {
@@ -5157,8 +5157,8 @@
    "duration": "4:35"
   },
   {
-   "title": "Second Time Around (feat. kamaal)",
-   "artist": "Swami Sound;gum.mp3",
+   "title": "Second Time Around",
+   "artist": "Swami Sound & gum.mp3",
    "album": "State of Emergency",
    "videoId": "swHjRzK9bbk",
    "duration": "5:06"
