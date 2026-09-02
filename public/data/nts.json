@@ -1,14 +1,23 @@
 {
-  "syncedAt": "2026-09-01T13:15:13Z",
+  "syncedAt": "2026-09-02T12:38:44Z",
   "shows": [
     {
-      "alias": "nabihah-iqbal",
-      "name": "Nabihah Iqbal ",
-      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "alias": "loraine-james",
+      "name": "Loraine James",
+      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
       "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
       "ntsGenres": [],
-      "url": "https://www.nts.live/shows/nabihah-iqbal"
+      "url": "https://www.nts.live/shows/loraine-james"
+    },
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "the-nts-guide-to",
@@ -18,6 +27,15 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "nabihah-iqbal",
+      "name": "Nabihah Iqbal ",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/nabihah-iqbal"
     },
     {
       "alias": "raji-rags",
@@ -115,15 +133,6 @@
       "url": "https://www.nts.live/shows/tommasi"
     },
     {
-      "alias": "loraine-james",
-      "name": "Loraine James",
-      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/loraine-james"
-    },
-    {
       "alias": "homeshake",
       "name": "Homeshake",
       "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
@@ -135,15 +144,6 @@
         "hip-hop / r'n'b"
       ],
       "url": "https://www.nts.live/shows/homeshake"
-    },
-    {
-      "alias": "soup-to-nuts-anu",
-      "name": "Soup To Nuts w/ Anu",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "sendspaace",
