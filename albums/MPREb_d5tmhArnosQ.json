@@ -1,0 +1,40 @@
+{
+ "title": "LOTUS",
+ "artist": "tea room",
+ "year": "2026",
+ "trackCount": 5,
+ "tracks": [
+  {
+   "title": "LOTUS",
+   "artist": "tea room",
+   "videoId": "v0sfo70nYHc",
+   "duration": "2:22"
+  },
+  {
+   "title": "FEEL",
+   "artist": "tea room",
+   "videoId": "OeFVeJCF3VM",
+   "duration": "1:07"
+  },
+  {
+   "title": "BREATHE",
+   "artist": "tea room",
+   "videoId": "zPOjub3t7Ho",
+   "duration": "1:30"
+  },
+  {
+   "title": "CITIES",
+   "artist": "tea room",
+   "videoId": "8IeC9z84GdY",
+   "duration": "1:45"
+  },
+  {
+   "title": "MOVE",
+   "artist": "tea room",
+   "videoId": "8c2i88LVD_Y",
+   "duration": "2:13"
+  }
+ ],
+ "browseId": "MPREb_d5tmhArnosQ",
+ "syncedAt": "2026-09-03T12:39:39.003217Z"
+}

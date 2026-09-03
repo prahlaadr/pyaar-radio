@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
  "title": "Favorite Songs",
  "trackCount": 4997,
- "syncedAt": "2026-09-02T12:37:08.894241Z",
+ "syncedAt": "2026-09-03T12:39:43.099477Z",
  "tracks": [
   {
    "title": "REM",
@@ -2294,8 +2294,8 @@
    "duration": "4:55"
   },
   {
-   "title": "MOB",
-   "artist": "Kal Banx;SiR",
+   "title": "MOB (feat. SiR)",
+   "artist": "Kal Banx",
    "album": "RHODA",
    "videoId": "jvbZVeMISYY",
    "duration": "2:38"
@@ -2371,15 +2371,15 @@
    "duration": "2:57"
   },
   {
-   "title": "Sunstory",
-   "artist": "Kal Banx;Isaiah Rashad",
+   "title": "Sunstory (feat. Isaiah Rashad)",
+   "artist": "Kal Banx",
    "album": "Sunstory",
    "videoId": "lqylBlACjF0",
    "duration": "4:05"
   },
   {
-   "title": "0022ZAY",
-   "artist": "Kal Banx;Isaiah Rashad",
+   "title": "0022ZAY (feat. Isaiah Rashad)",
+   "artist": "Kal Banx",
    "album": "RHODA",
    "videoId": "Xl_uMKjDTzc",
    "duration": "2:19"
@@ -3540,8 +3540,8 @@
    "duration": "3:04"
   },
   {
-   "title": "MOB",
-   "artist": "Kal Banx;SiR",
+   "title": "MOB (feat. SiR)",
+   "artist": "Kal Banx",
    "album": "MOB",
    "videoId": "ABzpngFAgbg",
    "duration": "2:38"
@@ -23422,8 +23422,8 @@
   {
    "title": "Middy Titty",
    "artist": "Paulie Leparik",
-   "album": "Neon Daydream",
-   "videoId": "xxtQ8jwsE04",
+   "album": "Middy Titty",
+   "videoId": "xshsYQGZvlQ",
    "duration": "1:35"
   },
   {
