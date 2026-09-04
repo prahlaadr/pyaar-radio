@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3579,
- "totalTracks": 45611,
- "syncedAt": "2026-09-03T12:39:39.003217Z",
+ "albumCount": 3582,
+ "totalTracks": 45648,
+ "syncedAt": "2026-09-04T12:33:47.788576Z",
  "albums": [
+  {
+   "browseId": "MPREb_mpyPR22QlRT",
+   "title": "Empire Central",
+   "artist": "Snarky Puppy",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_Kehj0aPXITi",
+   "title": "Somni",
+   "artist": "Snarky Puppy",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_RAIMOGGkqdN",
+   "title": "A Sunflower Garden In Harlem Is Hard To Find",
+   "artist": "Liim",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_d5tmhArnosQ",
    "title": "LOTUS",

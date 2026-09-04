@@ -1,0 +1,57 @@
+{
+ "playlistId": "PLPVuU0Y_h_GA",
+ "title": "Sept 2026",
+ "trackCount": 7,
+ "syncedAt": "2026-09-04T12:33:51.660100Z",
+ "tracks": [
+  {
+   "title": "Wanna Be With You",
+   "artist": "Liim",
+   "album": "A Sunflower Garden In Harlem Is Hard To Find",
+   "videoId": "PI5mr4dzt-c",
+   "duration": "3:54"
+  },
+  {
+   "title": "Ammohead",
+   "artist": "Shelf Life",
+   "album": "Nothing Rhymes with Rock and Roll",
+   "videoId": "FLGdrOf4KR0",
+   "duration": "2:28"
+  },
+  {
+   "title": "Napa 86",
+   "artist": "Dana and Alden",
+   "album": "Papa's Boat",
+   "videoId": "7TF4922u9_Q",
+   "duration": "3:17"
+  },
+  {
+   "title": "The Fruits of Conquest",
+   "artist": "The Strokes",
+   "album": "Reality Awaits",
+   "videoId": "2CdWz6AcUbQ",
+   "duration": "5:09"
+  },
+  {
+   "title": "Abuelita",
+   "artist": "Hermanos Gutiérrez",
+   "album": "Sonido Cósmico",
+   "videoId": "PcjWDBQBvVk",
+   "duration": "3:33"
+  },
+  {
+   "title": "Escape",
+   "artist": "Hagop Tchaparian",
+   "album": "Bolts",
+   "videoId": "ZKmwE6Qf8KY",
+   "duration": "2:45"
+  },
+  {
+   "title": "Plant Life",
+   "artist": "Parquet Courts",
+   "album": "Sympathy for Life",
+   "videoId": "p8H7Reu-hiY",
+   "duration": "5:51"
+  }
+ ]
+}

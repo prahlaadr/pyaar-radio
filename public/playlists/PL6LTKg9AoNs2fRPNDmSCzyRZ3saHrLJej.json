@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2fRPNDmSCzyRZ3saHrLJej",
  "title": "NTS LIVE",
- "trackCount": 985,
- "syncedAt": "2026-09-03T12:39:43.099477Z",
+ "trackCount": 1034,
+ "syncedAt": "2026-09-04T12:33:51.660100Z",
  "tracks": [
   {
    "title": "Once Again (Kuniyuki Version) (Mix Cut)",
@@ -712,6 +712,20 @@
    "duration": "5:23"
   },
   {
+   "title": "Dreams Never End",
+   "artist": "New Order",
+   "album": "Movement",
+   "videoId": "qGHDPbDYJdY",
+   "duration": "3:16"
+  },
+  {
+   "title": "Mam Yinne Wa",
+   "artist": "Alogte Oho & His Sounds of Joy",
+   "album": "Mam Yinne Wa",
+   "videoId": "ApiN7K7ViQ4",
+   "duration": "3:56"
+  },
+  {
    "title": "Baby, Don't You Do It",
    "artist": "Nicolette Larson",
    "album": "The Complete Warner Albums",
@@ -724,6 +738,13 @@
    "album": "Blue Spring",
    "videoId": "P00VlWEcj-Q",
    "duration": "4:15"
+  },
+  {
+   "title": "Follow Me (feat. Plunky)",
+   "artist": "Okyerema Asante;Black Fire",
+   "album": "Soul Love Now: The Black Fire Records Story, 1975-1993",
+   "videoId": "mgpB0rmsIx8",
+   "duration": "5:27"
   },
   {
    "title": "Rockledge 3A",
@@ -740,11 +761,32 @@
    "duration": "5:11"
   },
   {
+   "title": "Regrets",
+   "artist": "Sonic Future",
+   "album": "Regrets",
+   "videoId": "Ot0wpyA_o3Q",
+   "duration": "7:02"
+  },
+  {
+   "title": "E.V.A.",
+   "artist": "Jean Jacques Perrey",
+   "album": "Moog Indigo",
+   "videoId": "HqEz6PuQS08",
+   "duration": "3:11"
+  },
+  {
    "title": "James (Sonic Boom Remix)",
    "artist": "MGMT",
    "album": "James (Sonic Boom Remix)",
    "videoId": "R7jvN-OQJhM",
    "duration": "3:52"
+  },
+  {
+   "title": "Time",
+   "artist": "Twylyte '81",
+   "album": "The First Coming",
+   "videoId": "_rrUoXxPvU0",
+   "duration": "3:13"
   },
   {
    "title": "Disco Funk",
@@ -768,6 +810,13 @@
    "duration": "3:48"
   },
   {
+   "title": "Getting Nasty",
+   "artist": "Ike Turner & The Kings of Rhythm",
+   "album": "A Black Man's Soul",
+   "videoId": "xCdvh7fUXQE",
+   "duration": "3:08"
+  },
+  {
    "title": "Village Tap",
    "artist": "Red Snapper",
    "album": "Hyena",
@@ -780,6 +829,20 @@
    "album": "Ibiza Chill, Vol. 1",
    "videoId": "gMPolIg7y9U",
    "duration": "4:01"
+  },
+  {
+   "title": "I'm Gonna Tear Your Playhouse Down",
+   "artist": "Ann Peebles",
+   "album": "Greatest Hits",
+   "videoId": "gGys3DWqcqw",
+   "duration": "2:46"
+  },
+  {
+   "title": "Mother Theresa",
+   "artist": "Auntie Flo",
+   "album": "Highlife World Series: Cuba",
+   "videoId": "ndcrC60F9D4",
+   "duration": "5:57"
   },
   {
    "title": "Grown Up",
@@ -817,6 +880,20 @@
    "duration": "7:18"
   },
   {
+   "title": "Let's Go Get Stoned",
+   "artist": "Booker T. & The MG's",
+   "album": "Doin' Our Thing",
+   "videoId": "tG6tTyCNPN0",
+   "duration": "2:55"
+  },
+  {
+   "title": "Early Byrd",
+   "artist": "Theo Parrish",
+   "album": "Baby Steps",
+   "videoId": "nv5gxgVvfWA",
+   "duration": "11:26"
+  },
+  {
    "title": "Arpman",
    "artist": "Red Axes",
    "album": "Red Axes",
@@ -838,11 +915,46 @@
    "duration": "3:01"
   },
   {
+   "title": "Nova",
+   "artist": "NOMO",
+   "album": "Ghost Rock",
+   "videoId": "QQnAUfABOxA",
+   "duration": "3:13"
+  },
+  {
+   "title": "4:00A.M. - 4:00 A.M.",
+   "artist": "Taeko Onuki",
+   "album": "Mignonne (Mastered by Bernie Grundman)",
+   "videoId": "_sOKkON_UnQ",
+   "duration": "5:37"
+  },
+  {
+   "title": "Sun After Rain (Radio Edit)",
+   "artist": "Folamour;Jitwam",
+   "album": "Sun After Rain (Radio Edit)",
+   "videoId": "5GewH5sDLz4",
+   "duration": "4:07"
+  },
+  {
    "title": "Here with Me (feat. Diviniti)",
    "artist": "Omar S",
    "album": "Here with Me.",
    "videoId": "GuVhvmkfTL4",
    "duration": "6:24"
+  },
+  {
+   "title": "6AM Take Off",
+   "artist": "Oden & Fatzo",
+   "album": "From da Split #1",
+   "videoId": "AIj0Yam9naw",
+   "duration": "5:56"
+  },
+  {
+   "title": "Spend the Night",
+   "artist": "Pal Joey",
+   "album": "Loop-D-Loop #3",
+   "videoId": "MPE56ha-gJs",
+   "duration": "5:27"
   },
   {
    "title": "Just Me and You",
@@ -866,6 +978,27 @@
    "duration": "2:31"
   },
   {
+   "title": "Barbès",
+   "artist": "Teenage Mutants",
+   "album": "Suara Summer Hit 2015",
+   "videoId": "64LGXAd_cbs",
+   "duration": "5:59"
+  },
+  {
+   "title": "Never Gonna Let You Go (Theo Parrish Edit)",
+   "artist": "Made in U.S.A.",
+   "album": "Never Gonna Let You Go (Theo Parrish Edit)",
+   "videoId": "Gnb4xzgfx-o",
+   "duration": "10:05"
+  },
+  {
+   "title": "Brother's Gonna Work It Out (The Mack/Soundtrack Version)",
+   "artist": "Willie Hutch",
+   "album": "The Mack - Original Motion Picture Soundtrack",
+   "videoId": "iBvTU-dSuAY",
+   "duration": "4:48"
+  },
+  {
    "title": "What I Done Wrong",
    "artist": "Big Lee Dowell And The Cannonballs feat. Maxim Moston",
    "album": "What I Done Wrong",
@@ -880,11 +1013,32 @@
    "duration": "5:11"
   },
   {
+   "title": "Breeze",
+   "artist": "Jiro Inagaki and His Soul Media",
+   "album": "Funky Stuff",
+   "videoId": "BTn6YZIF0vg",
+   "duration": "4:38"
+  },
+  {
+   "title": "リンズ・ガーデン・ブルース - LIN'S GARDEN BLUES",
+   "artist": "TAKEHIRO HONDA",
+   "album": "DIGGIN VICTOR Deep Into The Vaults Of Japanese Fusion",
+   "videoId": "QAW43F6foYE",
+   "duration": "3:49"
+  },
+  {
    "title": "ビハインド・ザ・マスク - Behind the Mask",
    "artist": "Yellow Magic Orchestra",
    "album": "YMO",
    "videoId": "eOxogrOn3n4",
    "duration": "3:37"
+  },
+  {
+   "title": "Quiet Town of Tokyo",
+   "artist": "Shinichiro Yokota",
+   "album": "Shinichiro Yokota Presents Do It Again and Again",
+   "videoId": "usuBhrmeVZ0",
+   "duration": "6:07"
   },
   {
    "title": "Remember Me",
@@ -901,6 +1055,13 @@
    "duration": "4:21"
   },
   {
+   "title": "You're Slipping Away",
+   "artist": "24-Carat Black;Vicki Gray",
+   "album": "III",
+   "videoId": "miW4q33XkCI",
+   "duration": "5:46"
+  },
+  {
    "title": "Arch Enemy",
    "artist": "Everything Everything",
    "album": "RE-ANIMATOR",
@@ -915,6 +1076,13 @@
    "duration": "4:12"
   },
   {
+   "title": "Never Let You Go",
+   "artist": "andhim",
+   "album": "Never Let You Go",
+   "videoId": "MbzawxAnaSQ",
+   "duration": "6:08"
+  },
+  {
    "title": "Homesick",
    "artist": "Black Loops",
    "album": "Homesick",
@@ -922,11 +1090,60 @@
    "duration": "6:39"
   },
   {
+   "title": "House On The Rock",
+   "artist": "Rob Mehl",
+   "album": "Boat Club presents Yacht Rock",
+   "videoId": "WPFCy1VsYKM",
+   "duration": "3:26"
+  },
+  {
+   "title": "Sea Fluorescent",
+   "artist": "Alain Bellaïche",
+   "album": "Late Night Tales: Floating Points",
+   "videoId": "3YOJGJ0JjA0",
+   "duration": "6:31"
+  },
+  {
+   "title": "Ulla Dulla",
+   "artist": "Traffik Island",
+   "album": "Ulla Dulla",
+   "videoId": "Nq5-8R6BR-Y",
+   "duration": "2:35"
+  },
+  {
+   "title": "Primavera",
+   "artist": "PPJ",
+   "album": "Primavera",
+   "videoId": "w3zZl75Z3XI",
+   "duration": "4:53"
+  },
+  {
+   "title": "Dance With Me (Al Kent Version)",
+   "artist": "Wild Fire",
+   "album": "Tropical Disco Hustle, Vol. 1 and 2",
+   "videoId": "RilEA2zvDVk",
+   "duration": "4:48"
+  },
+  {
+   "title": "46 Rue du Fort (Sivey Remix)",
+   "artist": "Nikitch;Kuna Maze",
+   "album": "Zeweed 03 (Flower Power Green Culture)",
+   "videoId": "nBFc97kEp40",
+   "duration": "5:39"
+  },
+  {
    "title": "Shimmer",
    "artist": "Hanna",
    "album": "Schematic of Tron",
    "videoId": "zLncwoC_T48",
    "duration": "6:32"
+  },
+  {
+   "title": "Chains",
+   "artist": "William S. Fischer",
+   "album": "Circles",
+   "videoId": "wViblF3pj4U",
+   "duration": "4:34"
   },
   {
    "title": "Give the Drummer Some (feat. The Real Live Show & Nappy G)",
@@ -950,6 +1167,13 @@
    "duration": "4:09"
   },
   {
+   "title": "Be Yourself",
+   "artist": "Air Power",
+   "album": "Open Soul",
+   "videoId": "ihdnFLjjlgQ",
+   "duration": "6:17"
+  },
+  {
    "title": "Spies Are Watching Me (feat. Sir Jean)",
    "artist": "Voilaaa",
    "album": "On te l'avait dit",
@@ -971,6 +1195,27 @@
    "duration": "4:23"
   },
   {
+   "title": "The Shit Baby (feat. D Taylor)",
+   "artist": "Omar S",
+   "album": "Thank You for Letting Me Be Myself",
+   "videoId": "ftdMfGqwaC8",
+   "duration": "6:54"
+  },
+  {
+   "title": "Soleil Soleil",
+   "artist": "Ahmed Fakroun",
+   "album": "Compilation",
+   "videoId": "RUXCgUJyD68",
+   "duration": "4:00"
+  },
+  {
+   "title": "Thinking About Your Love (Original 12 Inch Version)",
+   "artist": "Skipworth;Turner",
+   "album": "Thinking About Your Love",
+   "videoId": "bAGzcjC0oUk",
+   "duration": "5:51"
+  },
+  {
    "title": "Drums and Claps",
    "artist": "Harmonious Thelonious",
    "album": "International Dance Record",
@@ -978,11 +1223,88 @@
    "duration": "5:09"
   },
   {
+   "title": "Water No Get Enemy",
+   "artist": "Fela Kuti",
+   "album": "The Best of The Black President",
+   "videoId": "3Jx2qcKd1-0",
+   "duration": "9:52"
+  },
+  {
+   "title": "Sweet Sticky",
+   "artist": "Theo Parrish",
+   "album": "First Floor",
+   "videoId": "5OifOanTlKo",
+   "duration": "7:16"
+  },
+  {
+   "title": "I Never Loved a Man (The Way I Love You)",
+   "artist": "Gary Burton",
+   "album": "Good Vibes",
+   "videoId": "HC_S0fNkX4U",
+   "duration": "5:15"
+  },
+  {
+   "title": "Lady",
+   "artist": "Hugh Masekela",
+   "album": "Live in Concert",
+   "videoId": "Zd8juSAml4o",
+   "duration": "11:06"
+  },
+  {
+   "title": "Whirl-Y-Reel 2",
+   "artist": "Afro Celt Sound System",
+   "album": "Vol. 1: Sound Magic (Real World Gold)",
+   "videoId": "j0pGl0Q69P0",
+   "duration": "5:28"
+  },
+  {
+   "title": "H.E.R.O.I.N. (Nemesi Remix)",
+   "artist": "Motel Connection",
+   "album": "Movement: Torino Music Festival (Off Series) [Issue I]",
+   "videoId": "dSMT15FbuWc",
+   "duration": "7:26"
+  },
+  {
    "title": "Zeke The Freak",
    "artist": "Isaac Hayes",
    "album": "For The Sake Of Love (Expanded Edition)",
    "videoId": "bPQEmoJH1pw",
    "duration": "4:31"
+  },
+  {
+   "title": "The Garden",
+   "artist": "Blaze",
+   "album": "Basic Blaze",
+   "videoId": "B8rasqkxojY",
+   "duration": "6:00"
+  },
+  {
+   "title": "Living in Ecstasy (FK Groove Mix Edit)",
+   "artist": "Mood II Swing feat. Fonda Rae",
+   "album": "90's House & Garage compiled by Joey Negro",
+   "videoId": "bRb-0FSLhSw",
+   "duration": "9:17"
+  },
+  {
+   "title": "Scattered Dreams [Boom Chocka-Boom Mix]",
+   "artist": "280 West",
+   "album": "Volume II",
+   "videoId": "cCc-GrV_WIA",
+   "duration": "5:30"
+  },
+  {
+   "title": "How Do I Love Thee",
+   "artist": "Queen Latifah",
+   "album": "Nature of a Sista'",
+   "videoId": "lmRfgaEEapc",
+   "duration": "5:02"
+  },
+  {
+   "title": "Express",
+   "artist": "52nd Street",
+   "album": "Factory Dance",
+   "videoId": "fm2Y8WFb1qw",
+   "duration": "5:03"
   },
   {
    "title": "Dirty Disco",
@@ -1041,6 +1363,20 @@
    "duration": "8:28"
   },
   {
+   "title": "Church Lady (Extended Mix) (feat. Danil Wright)",
+   "artist": "Dennis Ferrer",
+   "album": "The World As I See It",
+   "videoId": "4129P_ESDwI",
+   "duration": "7:30"
+  },
+  {
+   "title": "Let's Go Back",
+   "artist": "Fish Go Deep;Rebecca Meagher",
+   "album": "So Far so Deep, Vol. 1",
+   "videoId": "s-MtLr-v9w8",
+   "duration": "6:15"
+  },
+  {
    "title": "Pain Killa (Vocal Mix)",
    "artist": "Tiawa",
    "album": "Pain Killa",
@@ -1060,6 +1396,13 @@
    "album": "Niun Niggung",
    "videoId": "7NAvIGZwdLs",
    "duration": "2:29"
+  },
+  {
+   "title": "Time (Remix)",
+   "artist": "Light Of The World",
+   "album": "The Best of the Light of the World",
+   "videoId": "A8b0ERg-2v4",
+   "duration": "6:57"
   },
   {
    "title": "Ndolo Embe Mulema",
