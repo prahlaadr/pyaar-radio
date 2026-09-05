@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-04T12:35:52Z",
+  "syncedAt": "2026-09-05T11:43:39Z",
   "shows": [
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/in-focus"
+    },
     {
       "alias": "the-nts-guide-to",
       "name": "NTS Guide to…",
@@ -49,15 +58,6 @@
         "house / techno"
       ],
       "url": "https://www.nts.live/shows/raji-rags"
-    },
-    {
-      "alias": "in-focus",
-      "name": "In Focus",
-      "description": "A deeper look into the back catalogs of various artists.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "abby-imperial",
