@@ -1,9 +1,51 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3582,
- "totalTracks": 45648,
- "syncedAt": "2026-09-04T12:33:47.788576Z",
+ "albumCount": 3588,
+ "totalTracks": 45714,
+ "syncedAt": "2026-09-05T11:41:42.141060Z",
  "albums": [
+  {
+   "browseId": "MPREb_TXPtOi3WOtt",
+   "title": "The Work",
+   "artist": "Gold Panda",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_Yw3VB0Qbr4a",
+   "title": "TON UP",
+   "artist": "Gold Panda",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_lPtFCaa1Cua",
+   "title": "White Claw Addict",
+   "artist": "Brat Star",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_toIt4X0dvBY",
+   "title": "What It's Like to Be a Bat",
+   "artist": "Finn Streuper",
+   "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_NMJcOiAV5Sh",
+   "title": "Immunity",
+   "artist": "Clairo",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_yVEbn4x43f7",
+   "title": "OST",
+   "artist": "wev",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_Z827l0Ce93d",
+   "title": "Rosy Roti",
+   "artist": "Galat Admi",
+   "trackCount": 6
+  },
   {
    "browseId": "MPREb_mpyPR22QlRT",
    "title": "Empire Central",
@@ -476,12 +518,6 @@
    "browseId": "MPREb_leKRuEeVETU",
    "title": "Hejira",
    "artist": "Joni Mitchell",
-   "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_xqxz87ZIhzx",
-   "title": "XXYYXX",
-   "artist": "Xxyyxx",
    "trackCount": 9
   },
   {

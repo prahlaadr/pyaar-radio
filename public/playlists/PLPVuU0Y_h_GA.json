@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 2026",
- "trackCount": 7,
- "syncedAt": "2026-09-04T12:33:51.660100Z",
+ "trackCount": 13,
+ "syncedAt": "2026-09-05T11:41:46.223270Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -40,18 +40,60 @@
    "duration": "3:33"
   },
   {
-   "title": "Escape",
-   "artist": "Hagop Tchaparian",
-   "album": "Bolts",
-   "videoId": "ZKmwE6Qf8KY",
-   "duration": "2:45"
-  },
-  {
    "title": "Plant Life",
    "artist": "Parquet Courts",
    "album": "Sympathy for Life",
    "videoId": "p8H7Reu-hiY",
    "duration": "5:51"
+  },
+  {
+   "title": "Always Returning",
+   "artist": "Sharada Shashidhar",
+   "album": "A Foot On The Ground",
+   "videoId": "kzaGwHJ4QYM",
+   "duration": "3:27"
+  },
+  {
+   "title": "Preacherman",
+   "artist": "Samant;Lou Val",
+   "album": "Preacherman",
+   "videoId": "YntYaeAdFzU",
+   "duration": "2:13"
+  },
+  {
+   "title": "Round",
+   "artist": "Hagop Tchaparian",
+   "album": "Bolts",
+   "videoId": "uaqpvJ4TETQ",
+   "duration": "4:01"
+  },
+  {
+   "title": "COME UNDONE",
+   "artist": "wev & frau",
+   "album": "OST",
+   "videoId": "X_N_yc8pIBQ",
+   "duration": "3:11"
+  },
+  {
+   "title": "I Wouldn't Ask You",
+   "artist": "Clairo",
+   "album": "Immunity",
+   "videoId": "0y96nTb3okM",
+   "duration": "6:57"
+  },
+  {
+   "title": "Dirty Hokas",
+   "artist": "Brat Star",
+   "album": "White Claw Addict",
+   "videoId": "K_P2KwRlXhM",
+   "duration": "4:17"
+  },
+  {
+   "title": "Lotus Flower",
+   "artist": "Radiohead",
+   "album": "The King Of Limbs",
+   "videoId": "HgMAwBZ2M3w",
+   "duration": "5:01"
   }
  ]
 }

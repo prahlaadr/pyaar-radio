@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 11,
- "syncedAt": "2026-09-04T12:33:51.660100Z",
+ "trackCount": 13,
+ "syncedAt": "2026-09-05T11:41:46.223270Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -80,6 +80,20 @@
    "album": "Britpop",
    "videoId": "t5FN_7Qb1XE",
    "duration": "2:41"
+  },
+  {
+   "title": "Dirty Hokas",
+   "artist": "Brat Star",
+   "album": "Dirty Hokas",
+   "videoId": "6Ln-d5JMs_k",
+   "duration": "4:17"
+  },
+  {
+   "title": "Dirty Hokas",
+   "artist": "Brat Star",
+   "album": "White Claw Addict",
+   "videoId": "K_P2KwRlXhM",
+   "duration": "4:17"
   }
  ]
 }
