@@ -1,7 +1,17 @@
 {
-  "syncedAt": "2026-09-05T11:53:25Z",
+  "syncedAt": "2026-09-06T12:12:48Z",
   "clientId": "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo",
   "likes": [
+    {
+      "id": 1760072031,
+      "title": "Chief Keef Faneto (AS.98 Dub)",
+      "user": "AS.98",
+      "artwork": "https://i1.sndcdn.com/artworks-V01xJZm0UGqz8JDM-WlPPdQ-large.jpg",
+      "permalink": "https://soundcloud.com/as-98/chief-keef-faneto-as98-dub",
+      "duration": 164617,
+      "genre": "Dance & EDM",
+      "streamable": true
+    },
     {
       "id": 2393172456,
       "title": "Baalti @ Nowadays, GROOVY GROOVY Nonstop [Aug 16th 2026]",
