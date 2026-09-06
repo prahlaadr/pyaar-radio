@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3588,
- "totalTracks": 45714,
- "syncedAt": "2026-09-05T11:41:42.141060Z",
+ "albumCount": 3594,
+ "totalTracks": 45772,
+ "syncedAt": "2026-09-06T12:00:26.090502Z",
  "albums": [
+  {
+   "browseId": "MPREb_4U9OUuT3GNg",
+   "title": "Every Posse",
+   "artist": "Ooklah the Moc",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_turjfio1BAJ",
+   "title": "Vaults",
+   "artist": "Ooklah the Moc",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_3vpOVvMLh3h",
+   "title": "Total Blue",
+   "artist": "Total Blue",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_PJs3buvLflg",
+   "title": "DAISY",
+   "artist": "rusowsky",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_HZOvn91Yayq",
+   "title": "The Reverberating Sound of an Absent Metropolis",
+   "artist": "Minaxi",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_zfOSyMqIhFO",
+   "title": "Z of A",
+   "artist": "Minaxi",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_TXPtOi3WOtt",
    "title": "The Work",

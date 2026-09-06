@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 285,
- "totalTracks": 105962,
- "syncedAt": "2026-09-05T11:41:46.223270Z",
+ "playlistCount": 286,
+ "totalTracks": 105967,
+ "syncedAt": "2026-09-06T12:00:30.712734Z",
  "playlists": [
+  {
+   "playlistId": "PLdf2E3J981oA",
+   "title": "001 birthday 29 mix",
+   "trackCount": 1
+  },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 2026",
-   "trackCount": 13
+   "trackCount": 17
   },
   {
    "playlistId": "PLG8qpG-vDHJU",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 2026",
- "trackCount": 13,
- "syncedAt": "2026-09-05T11:41:46.223270Z",
+ "trackCount": 17,
+ "syncedAt": "2026-09-06T12:00:30.712734Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -94,6 +94,34 @@
    "album": "The King Of Limbs",
    "videoId": "HgMAwBZ2M3w",
    "duration": "5:01"
+  },
+  {
+   "title": "The Corner",
+   "artist": "Gold Panda",
+   "album": "The Work",
+   "videoId": "TIAbnyMt-sY",
+   "duration": "3:41"
+  },
+  {
+   "title": "Corsair (feat. Sam Wilkes)",
+   "artist": "Total Blue",
+   "album": "Total Blue",
+   "videoId": "T_G5dfQARiY",
+   "duration": "4:04"
+  },
+  {
+   "title": "Duk Koo Kim",
+   "artist": "Sun Kil Moon",
+   "album": "Ghosts of the Great Highway",
+   "videoId": "8-RjqU3T2x4",
+   "duration": "14:33"
+  },
+  {
+   "title": "Sweet Spot",
+   "artist": "Ooklah the Moc",
+   "album": "Vaults",
+   "videoId": "u3VwnOwuUEE",
+   "duration": "3:29"
   }
  ]
 }
