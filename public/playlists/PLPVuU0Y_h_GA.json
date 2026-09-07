@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 2026",
- "trackCount": 17,
- "syncedAt": "2026-09-06T12:00:30.712734Z",
+ "trackCount": 18,
+ "syncedAt": "2026-09-07T14:01:49.471306Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -122,6 +122,13 @@
    "album": "Vaults",
    "videoId": "u3VwnOwuUEE",
    "duration": "3:29"
+  },
+  {
+   "title": "Lichen Trip",
+   "artist": "Bibio;Dorian Concept",
+   "album": "Answers",
+   "videoId": "5Q6PpdIDQpA",
+   "duration": "2:51"
   }
  ]
 }

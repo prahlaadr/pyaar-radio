@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3594,
- "totalTracks": 45772,
- "syncedAt": "2026-09-06T12:00:26.090502Z",
+ "albumCount": 3596,
+ "totalTracks": 45783,
+ "syncedAt": "2026-09-07T14:01:46.088868Z",
  "albums": [
+  {
+   "browseId": "MPREb_MLrVZn6kLuG",
+   "title": "Answers",
+   "artist": "Bibio",
+   "trackCount": 2
+  },
   {
    "browseId": "MPREb_4U9OUuT3GNg",
    "title": "Every Posse",
@@ -554,6 +560,12 @@
    "browseId": "MPREb_leKRuEeVETU",
    "title": "Hejira",
    "artist": "Joni Mitchell",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_xqxz87ZIhzx",
+   "title": "XXYYXX",
+   "artist": "Xxyyxx",
    "trackCount": 9
   },
   {
