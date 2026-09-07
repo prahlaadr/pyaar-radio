@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-06T12:02:11Z",
+  "syncedAt": "2026-09-07T14:05:10Z",
   "shows": [
+    {
+      "alias": "tommasi",
+      "name": "Tommasi",
+      "description": "In Iceland, Thomas Stankiewicz contemplates the constant flux of the elements. A composer & musician in his own right, he selectively weaves in between soundtracks, classical music, and evocative ambient sounds, symphonically unveiling untold stories from past and future…\n@tommmasi",
+      "location": "Iceland",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/tommasi"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -122,15 +131,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/sic-records"
-    },
-    {
-      "alias": "tommasi",
-      "name": "Tommasi",
-      "description": "In Iceland, Thomas Stankiewicz contemplates the constant flux of the elements. A composer & musician in his own right, he selectively weaves in between soundtracks, classical music, and evocative ambient sounds, symphonically unveiling untold stories from past and future…\n@tommmasi",
-      "location": "Iceland",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/tommasi"
     },
     {
       "alias": "homeshake",
