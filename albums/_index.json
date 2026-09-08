@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3596,
- "totalTracks": 45783,
- "syncedAt": "2026-09-07T14:01:46.088868Z",
+ "albumCount": 3599,
+ "totalTracks": 45812,
+ "syncedAt": "2026-09-08T12:40:32.033644Z",
  "albums": [
+  {
+   "browseId": "MPREb_pWwMpjgx4if",
+   "title": "super low",
+   "artist": "Warehouse",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_gQmVsEEf8aL",
+   "title": "Fading Frontier",
+   "artist": "Deerhunter",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_MptQsA1yzDB",
+   "title": "Why Hasn't Everything Already Disappeared?",
+   "artist": "Deerhunter",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_MLrVZn6kLuG",
    "title": "Answers",

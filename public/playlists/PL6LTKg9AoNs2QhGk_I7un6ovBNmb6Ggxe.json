@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
- "trackCount": 2010,
- "syncedAt": "2026-09-07T14:01:49.471306Z",
+ "trackCount": 1960,
+ "syncedAt": "2026-09-08T12:40:35.745330Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -4905,13 +4905,6 @@
    "duration": "5:28"
   },
   {
-   "title": "Noonday Yellows",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "3uc280C-eTs",
-   "duration": "4:23"
-  },
-  {
    "title": "Rain",
    "artist": "Ernest Hood",
    "album": "Back to the Woodlands",
@@ -4926,46 +4919,11 @@
    "duration": "3:14"
   },
   {
-   "title": "The Jantzen Rag (Raccoons)",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "zWzrFIK4Mn4",
-   "duration": "0:56"
-  },
-  {
-   "title": "Pleasant, This Garden",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "2WA6A9OmM5U",
-   "duration": "3:34"
-  },
-  {
    "title": "Bedroom of the Absent Child",
    "artist": "Ernest Hood",
    "album": "Back to the Woodlands",
    "videoId": "LHNMSnWOW3k",
    "duration": "3:02"
-  },
-  {
-   "title": "Into the Groves",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "orV1ziuz9mo",
-   "duration": "1:43"
-  },
-  {
-   "title": "Warm Pathways",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "PAjJveuS4K8",
-   "duration": "3:12"
-  },
-  {
-   "title": "Sunny Banks",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "1YFtjUneXCU",
-   "duration": "2:29"
   },
   {
    "title": "Fragrant Duff",
@@ -4982,34 +4940,6 @@
    "duration": "0:57"
   },
   {
-   "title": "Untitled",
-   "artist": "Ernest Hood",
-   "album": "Back to the Woodlands",
-   "videoId": "0DJz_rd1EbU",
-   "duration": "4:29"
-  },
-  {
-   "title": "Prince of the Sea",
-   "artist": "Chihei Hatakeyama",
-   "album": "Moon Light Reflecting over Mountains",
-   "videoId": "5KtqAI-6uLY",
-   "duration": "7:40"
-  },
-  {
-   "title": "Silent Motels",
-   "artist": "Brian McBride",
-   "album": "When the Detail Lost Its Freedom",
-   "videoId": "0etxfSvqbcI",
-   "duration": "3:57"
-  },
-  {
-   "title": "Shinsen",
-   "artist": "Susumu Yokota",
-   "album": "Sakura",
-   "videoId": "zbvg7m1_ORg",
-   "duration": "4:34"
-  },
-  {
    "title": "Blue Orb I",
    "artist": "Sigur Rós",
    "album": "Liminal 3",
@@ -5017,25 +4947,11 @@
    "duration": "2:51"
   },
   {
-   "title": ". . . on reflection (four)",
-   "artist": "William Basinski;Janek Schaefer",
-   "album": "“ . . . on reflection “",
-   "videoId": "PWenaQG-Feo",
-   "duration": "10:12"
-  },
-  {
    "title": "Sleeping Summer",
    "artist": "Jónsi;Alex Somers",
    "album": "Lost and Found",
    "videoId": "oXDXVHnvL94",
    "duration": "11:30"
-  },
-  {
-   "title": "Zucht 2",
-   "artist": "Machinefabriek",
-   "album": "Slaapzucht",
-   "videoId": "FrtmGE-yH3Y",
-   "duration": "9:22"
   },
   {
    "title": "Atlas",
@@ -5052,27 +4968,6 @@
    "duration": "7:29"
   },
   {
-   "title": "Still Possible (feat. Vanessa Amara)",
-   "artist": "Croatian Amor",
-   "album": "A Part of You in Everything",
-   "videoId": "WdnXDTyNfJE",
-   "duration": "3:18"
-  },
-  {
-   "title": "Teimo (Schluss)",
-   "artist": "Thomas Köner",
-   "album": "Teimo",
-   "videoId": "wHJPn_xdwdM",
-   "duration": "4:23"
-  },
-  {
-   "title": "Morning Arrive On The Island",
-   "artist": "Chihei Hatakeyama",
-   "album": "A Long Journey",
-   "videoId": "v32eT2kCJB4",
-   "duration": "2:03"
-  },
-  {
    "title": "#19",
    "artist": "Aphex Twin",
    "album": "#19",
@@ -5085,20 +4980,6 @@
    "album": "Water Memory",
    "videoId": "hzn18mCoiVQ",
    "duration": "13:26"
-  },
-  {
-   "title": "From a Solid To a Liquid",
-   "artist": "Biosphere",
-   "album": "Dropsonde",
-   "videoId": "81GSJokYleE",
-   "duration": "5:19"
-  },
-  {
-   "title": "Parallel 10",
-   "artist": "Four Tet",
-   "album": "Parallel",
-   "videoId": "4UaAetaS29Q",
-   "duration": "6:32"
   },
   {
    "title": "Tree Memories",
@@ -5115,20 +4996,6 @@
    "duration": "1:42"
   },
   {
-   "title": "Boy 1904 (Liminal Remix)",
-   "artist": "Jónsi;Alex Somers",
-   "album": "Liminal",
-   "videoId": "iAbiG52FEgg",
-   "duration": "5:05"
-  },
-  {
-   "title": "Minism",
-   "artist": "Taylor Deupree",
-   "album": "Somi",
-   "videoId": "XiUBcS0TXjg",
-   "duration": "3:48"
-  },
-  {
    "title": "Watching It Unfold",
    "artist": "Lawrence English",
    "album": "A Colour For Autumn",
@@ -5141,13 +5008,6 @@
    "album": "And Their Refinement of the Decline",
    "videoId": "rlC1I2EAFEk",
    "duration": "5:05"
-  },
-  {
-   "title": "Straumnes",
-   "artist": "Sigur Rós",
-   "album": "Með suð í eyrum við spilum endalaust",
-   "videoId": "lY8kLBXDnVg",
-   "duration": "2:02"
   },
   {
    "title": "Aralkum",
@@ -5164,13 +5024,6 @@
    "duration": "9:09"
   },
   {
-   "title": "Drawing Water On Matching Teal Surfaces",
-   "artist": "Abul Mogard;KMRU",
-   "album": "Drawing Water",
-   "videoId": "CtpUyQ00iLc",
-   "duration": "17:26"
-  },
-  {
    "title": "SFTLB9",
    "artist": "Frakkur",
    "album": "2000 - 2004",
@@ -5185,32 +5038,11 @@
    "duration": "7:26"
   },
   {
-   "title": "Tahoe",
-   "artist": "Dedekind Cut",
-   "album": "Tahoe",
-   "videoId": "SVhGPqoo-f4",
-   "duration": "5:00"
-  },
-  {
    "title": "Life at Ouri",
    "artist": "Kmru",
    "album": "Jar",
    "videoId": "LQFX_C_8NRE",
    "duration": "7:20"
-  },
-  {
-   "title": "Why Are You Here",
-   "artist": "KMRU",
-   "album": "Peel",
-   "videoId": "LoZ6c3RUax4",
-   "duration": "15:10"
-  },
-  {
-   "title": "Varðeldur",
-   "artist": "Sigur Rós",
-   "album": "Valtari",
-   "videoId": "sVx_MI0ub7I",
-   "duration": "6:08"
   },
   {
    "title": "Bryars: The Sinking of the Titanic - 3. Hymn II",
@@ -5241,53 +5073,11 @@
    "duration": "4:51"
   },
   {
-   "title": "Quiet Friend (30th Anniversary Remaster)",
-   "artist": "Steve Roach",
-   "album": "Structures From Silence (30th Anniversary Remaster)",
-   "videoId": "98BOCFiRkH8",
-   "duration": "13:23"
-  },
-  {
-   "title": "Beatrice Part 2",
-   "artist": "The Dead Texan",
-   "album": "The Dead Texan",
-   "videoId": "w-zW00pDMho",
-   "duration": "4:05"
-  },
-  {
-   "title": "I Would Have Waited",
-   "artist": "Bvdub",
-   "album": "Songs for a Friend I Left Behind",
-   "videoId": "ETssYl42UnE",
-   "duration": "12:30"
-  },
-  {
    "title": "Mên-an-Tol",
    "artist": "Mark Pritchard",
    "album": "The Four Worlds",
    "videoId": "u-ajXdhBZMs",
    "duration": "1:33"
-  },
-  {
-   "title": "12 Hours Before",
-   "artist": "Hildur Guðnadóttir",
-   "album": "Chernobyl (Music from the Original TV Series)",
-   "videoId": "NPoeV9Vgx_Q",
-   "duration": "2:32"
-  },
-  {
-   "title": "Rembihnútur (Liminal re-work by Paul Corley)",
-   "artist": "Sigur Rós",
-   "album": "@0",
-   "videoId": "Y-0y0X5-SiU",
-   "duration": "7:25"
-  },
-  {
-   "title": "Star Ray",
-   "artist": "Julianna Barwick",
-   "album": "@0",
-   "videoId": "fjliTY62YOU",
-   "duration": "4:13"
   },
   {
    "title": "Live Room Out",
@@ -5302,13 +5092,6 @@
    "album": "Postcards",
    "videoId": "0fuBO548iko",
    "duration": "5:37"
-  },
-  {
-   "title": "TO THE AIR／空へ",
-   "artist": "細野晴臣",
-   "album": "MERCURIC DANCE（マーキュリック・ダンス～躍動の踊り）",
-   "videoId": "tNxK5dvu8k8",
-   "duration": "5:12"
   },
   {
    "title": "Do While",
@@ -5332,46 +5115,11 @@
    "duration": "2:37"
   },
   {
-   "title": "Untitled 6 (Paul Corley Remix)",
-   "artist": "Sigur Rós",
-   "album": "Liminal",
-   "videoId": "sRsUGFtopJU",
-   "duration": "8:01"
-  },
-  {
-   "title": "Hundslappadrífa",
-   "artist": "Jónsi;Alex Somers",
-   "album": "Lost and Found",
-   "videoId": "sM_MukNalfU",
-   "duration": "6:10"
-  },
-  {
    "title": "Dissolving Clouds",
    "artist": "Biosphere",
    "album": "Dropsonde",
    "videoId": "Vdr1z-vKGP4",
    "duration": "4:29"
-  },
-  {
-   "title": "14:31",
-   "artist": "Global Communication",
-   "album": "76:14",
-   "videoId": "SlxTlBPvJD8",
-   "duration": "14:32"
-  },
-  {
-   "title": "Catchy DAAD",
-   "artist": "Oval",
-   "album": "Systemisch",
-   "videoId": "38QIWiyk2_U",
-   "duration": "6:15"
-  },
-  {
-   "title": "Time after time",
-   "artist": "Hiroshi Yoshimura",
-   "album": "Surround",
-   "videoId": "2z2nzne8fFQ",
-   "duration": "11:05"
   },
   {
    "title": "Tintinnabulation (Contemplative Sound)",
@@ -5381,32 +5129,11 @@
    "duration": "30:11"
   },
   {
-   "title": "Piano Abg",
-   "artist": "Brian McBride",
-   "album": "When the Detail Lost Its Freedom",
-   "videoId": "qRydskMJ04g",
-   "duration": "4:34"
-  },
-  {
-   "title": "Suiren",
-   "artist": "Pauline Oliveros, Stuart Dempster & Panaiotis",
-   "album": "Deep Listening",
-   "videoId": "AojNqS9rWCk",
-   "duration": "10:02"
-  },
-  {
    "title": "Against The Sky (2005 Digital Remaster)",
    "artist": "Harold Budd;Brian Eno",
    "album": "The Pearl",
    "videoId": "vwMFMHfEoh4",
    "duration": "4:53"
-  },
-  {
-   "title": "Daníell In The Sea",
-   "artist": "Jónsi;Alex Somers",
-   "album": "Riceboy Sleeps",
-   "videoId": "pK2gvZ9Uubg",
-   "duration": "7:08"
   },
   {
    "title": "#3",
@@ -5423,32 +5150,11 @@
    "duration": "7:10"
   },
   {
-   "title": "A Study in Vastness",
-   "artist": "Ana Roxanne",
-   "album": "Because of a Flower",
-   "videoId": "yvqHzdk8ZLc",
-   "duration": "6:50"
-  },
-  {
-   "title": "Iliad",
-   "artist": "Malibu",
-   "album": "Palaces of Pity",
-   "videoId": "T1OHk5_h4UA",
-   "duration": "9:00"
-  },
-  {
    "title": "Far (Paul Corley Remix)",
    "artist": "Sigur Rós",
    "album": "Liminal 3",
    "videoId": "6erJvTnHmYM",
    "duration": "4:38"
-  },
-  {
-   "title": "One Life",
-   "artist": "Malibu",
-   "album": "One Life",
-   "videoId": "m2T4PE4S7us",
-   "duration": "7:11"
   },
   {
    "title": "Sleep 8",
@@ -5463,20 +5169,6 @@
    "album": "The Disintegration Loops (Arcadia Archive Edition)",
    "videoId": "JDuL6INVFxo",
    "duration": "8:28"
-  },
-  {
-   "title": "Piano Aquieu",
-   "artist": "Stars of the Lid",
-   "album": "The Tired Sounds of Stars of the Lid",
-   "videoId": "a6MPVIbEp_w",
-   "duration": "10:57"
-  },
-  {
-   "title": "Summer, Pt. II",
-   "artist": "Pete Namlook",
-   "album": "Seasons Greetings (Summer)",
-   "videoId": "OQF8uB8Dq_s",
-   "duration": "14:55"
   },
   {
    "title": "Bryars: One Last Bar Then Joe Can sing: (Bar 238) Freely",
@@ -5521,25 +5213,11 @@
    "duration": "17:22"
   },
   {
-   "title": "Window Seat",
-   "artist": "Stella Le Page",
-   "album": "Échafaudages",
-   "videoId": "hF6HfR-kExs",
-   "duration": "2:25"
-  },
-  {
    "title": "Pflanzenwuchs",
    "artist": "Novisad",
    "album": "Seleya (2025 Edition)",
    "videoId": "-UCRgR4kMZI",
    "duration": "2:45"
-  },
-  {
-   "title": "Meditation No. 1",
-   "artist": "Laraaji;Brian Eno",
-   "album": "Ambient 3: Day Of Radiance",
-   "videoId": "X6DxwTi2FNU",
-   "duration": "18:48"
   },
   {
    "title": "Love Flows Over Us In Prismatic Waves",
@@ -5554,34 +5232,6 @@
    "album": "Talk Amongst the Trees",
    "videoId": "XD7Pe8L8d4k",
    "duration": "10:48"
-  },
-  {
-   "title": "Sleep 3",
-   "artist": "Sigur Rós",
-   "album": "Sigur Rós Presents Liminal Sleep",
-   "videoId": "Q4UmwbY0Wjg",
-   "duration": "19:18"
-  },
-  {
-   "title": "Mutism",
-   "artist": "Basic Channel",
-   "album": "Bcd",
-   "videoId": "GdR9Okss8cc",
-   "duration": "5:57"
-  },
-  {
-   "title": "Zauberberg 7",
-   "artist": "GAS",
-   "album": "Zauberberg",
-   "videoId": "hnJYnWezGt0",
-   "duration": "11:59"
-  },
-  {
-   "title": "The Harbinger (Alex Somers Remix)",
-   "artist": "Julianna Barwick",
-   "album": "Liminal 2",
-   "videoId": "8aKh6swrFd8",
-   "duration": "5:07"
   },
   {
    "title": "2/2 (Remastered 2004)",
