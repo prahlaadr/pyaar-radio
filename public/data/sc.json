@@ -1,7 +1,17 @@
 {
-  "syncedAt": "2026-09-08T12:57:03Z",
+  "syncedAt": "2026-09-09T13:02:33Z",
   "clientId": "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo",
   "likes": [
+    {
+      "id": 2396945061,
+      "title": "Lapgan | Desi Experimental, Electronic, Disco, Unreleased, & more. | DOST's ELSEWHERE Takeover [NYC]",
+      "user": "DOST",
+      "artwork": "https://i1.sndcdn.com/artworks-KXelrQSu1om8Ku41-AH3u0A-large.jpg",
+      "permalink": "https://soundcloud.com/dostmeansfriend/lapgan-dost-elsewhere-takeover",
+      "duration": 5327493,
+      "genre": "",
+      "streamable": true
+    },
     {
       "id": 2395734903,
       "title": "DJ DUCKY b2b MANO SUNDARESAN LIVE AT GROUPHUG MAG ISSUE 4 LAUNCH PARTY (9/5/26)",
@@ -6385,7 +6395,7 @@
       "title": "Desi & Techo",
       "user": "Desidakuduck",
       "artwork": "https://i1.sndcdn.com/artworks-AyLTE7DQizLJ51CU-XNuQZQ-large.jpg",
-      "trackCount": 116,
+      "trackCount": 115,
       "permalink": "https://soundcloud.com/desidakuduck/sets/desi-tech",
       "isAlbum": false
     },
