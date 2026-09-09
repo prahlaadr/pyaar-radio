@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-08T12:42:40Z",
+  "syncedAt": "2026-09-09T12:49:00Z",
   "shows": [
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
+    },
     {
       "alias": "tommasi",
       "name": "Tommasi",
@@ -36,15 +45,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/loraine-james"
-    },
-    {
-      "alias": "soup-to-nuts-anu",
-      "name": "Soup To Nuts w/ Anu",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "nabihah-iqbal",
