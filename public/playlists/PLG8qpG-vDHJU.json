@@ -2,7 +2,7 @@
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
  "trackCount": 13,
- "syncedAt": "2026-09-08T12:40:35.745330Z",
+ "syncedAt": "2026-09-09T12:47:13.397066Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -84,16 +84,16 @@
   {
    "title": "Dirty Hokas",
    "artist": "Brat Star",
-   "album": "Dirty Hokas",
-   "videoId": "6Ln-d5JMs_k",
-   "duration": "4:17"
-  },
-  {
-   "title": "Dirty Hokas",
-   "artist": "Brat Star",
    "album": "White Claw Addict",
    "videoId": "K_P2KwRlXhM",
    "duration": "4:17"
+  },
+  {
+   "title": "Breaker",
+   "artist": "Deerhunter",
+   "album": "Fading Frontier",
+   "videoId": "33BJD7fiGIs",
+   "duration": "3:32"
   }
  ]
 }

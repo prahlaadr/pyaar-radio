@@ -1,23 +1,28 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 286,
- "totalTracks": 105918,
- "syncedAt": "2026-09-08T12:40:35.745330Z",
+ "totalTracks": 105756,
+ "syncedAt": "2026-09-09T12:47:13.397066Z",
  "playlists": [
   {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 2026",
-   "trackCount": 18
-  },
-  {
-   "playlistId": "PLdf2E3J981oA",
-   "title": "001 birthday 29 mix",
-   "trackCount": 1
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1520
   },
   {
    "playlistId": "PLG8qpG-vDHJU",
    "title": "001 in the living room",
    "trackCount": 13
+  },
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 2026",
+   "trackCount": 21
+  },
+  {
+   "playlistId": "PLdf2E3J981oA",
+   "title": "001 birthday 29 mix",
+   "trackCount": 1
   },
   {
    "playlistId": "PLTqe9a0cMAvA",
@@ -28,11 +33,6 @@
    "playlistId": "PLNOhjgsNozE0",
    "title": "Putting the \"W\" in Woman - P284",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1518
   },
   {
    "playlistId": "PLPcnSN8hhXko",
@@ -82,7 +82,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
    "title": "under the bridge (sway, wrist flick, nodders) (goated)",
-   "trackCount": 40
+   "trackCount": 30
   },
   {
    "playlistId": "PLZ3M7y8Ifh6o",
@@ -332,7 +332,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
    "title": "Favorite Songs",
-   "trackCount": 4997
+   "trackCount": 4947
   },
   {
    "playlistId": "PL6LTKg9AoNs1veKZzsP5GZ9wHIEBloS8E",
@@ -742,7 +742,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
    "title": "Lounge (for a chill ambience)",
-   "trackCount": 1960
+   "trackCount": 2010
   },
   {
    "playlistId": "PL6LTKg9AoNs2oP0reiqq8y9EjqWIiqOS8",
@@ -1042,7 +1042,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3qtNHUS7dXuUb8paPVjgh5",
    "title": "Best of ICYTWAT",
-   "trackCount": 38
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs10ijrKuRBjS-oOKlB44Ch0",
@@ -1242,7 +1242,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3jwSARryDYowfYlk-_A-dZ",
    "title": "☄️",
-   "trackCount": 119
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs0N0-S6TNmPr7SUuF6O6bj9",
