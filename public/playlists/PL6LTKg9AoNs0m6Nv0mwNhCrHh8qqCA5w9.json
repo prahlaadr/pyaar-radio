@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
  "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
- "trackCount": 469,
- "syncedAt": "2026-09-09T12:47:13.397066Z",
+ "trackCount": 471,
+ "syncedAt": "2026-09-10T12:45:18.895318Z",
  "tracks": [
   {
    "title": "All The Stars (From \"Black Panther: The Album\")",
@@ -3286,6 +3286,20 @@
    "album": "GIRL",
    "videoId": "gM_yjMJKdLg",
    "duration": "4:06"
+  },
+  {
+   "title": "Save Tonight",
+   "artist": "Eagle-Eye Cherry",
+   "album": "Classic Rock BBQ",
+   "videoId": "-7xQQFylrAk",
+   "duration": "3:57"
+  },
+  {
+   "title": "I Kissed A Girl",
+   "artist": "Katy Perry",
+   "album": "I Kissed A Girl (3-Track)",
+   "videoId": "usvTbqTHwyw",
+   "duration": "3:00"
   }
  ]
 }

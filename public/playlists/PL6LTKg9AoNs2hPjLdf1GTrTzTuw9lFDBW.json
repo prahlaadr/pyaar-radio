@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
  "title": "Soup To Nuts w/ Anu - NTS",
- "trackCount": 2579,
- "syncedAt": "2026-09-09T12:47:13.397066Z",
+ "trackCount": 2580,
+ "syncedAt": "2026-09-10T12:45:18.895318Z",
  "tracks": [
   {
    "title": "In The Rain",
@@ -797,7 +797,7 @@
   },
   {
    "title": "Doubt",
-   "artist": "Joanne Robertson & Oliver Coates",
+   "artist": "Joanne Robertson;Oliver Coates",
    "album": "Blurrr",
    "videoId": "WujkuZV36MY",
    "duration": "4:01"
@@ -9302,8 +9302,8 @@
   },
   {
    "title": "Be Quiet and Drive (Far Away)",
-   "artist": "Deftones - Topic",
-   "album": "",
+   "artist": "Deftones",
+   "album": "Around the Fur",
    "videoId": "_t1vqLwqbyA",
    "duration": "5:00"
   },
@@ -16235,7 +16235,7 @@
    "artist": "Queen Latifah",
    "album": "Nature of a Sista'",
    "videoId": "RejGH3uvQmo",
-   "duration": "4:28"
+   "duration": "4:27"
   },
   {
    "title": "We Can Change This World (Yoruba Soul Mix) (feat. Heavy & Osunlade)",
@@ -18056,6 +18056,13 @@
    "album": "samurai champloo music record departure",
    "videoId": "qYcoJpqCha4",
    "duration": "4:11"
+  },
+  {
+   "title": "Morning",
+   "artist": "Azymuth",
+   "album": "Butterfly",
+   "videoId": "_6fxHLI0ET0",
+   "duration": "5:54"
   }
  ]
 }

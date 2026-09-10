@@ -1,9 +1,99 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 286,
- "totalTracks": 105756,
- "syncedAt": "2026-09-09T12:47:13.397066Z",
+ "playlistCount": 270,
+ "totalTracks": 77918,
+ "syncedAt": "2026-09-10T12:45:18.895318Z",
  "playlists": [
+  {
+   "playlistId": "PLDl3Nrdr8sNQ",
+   "title": "Favorite Songs (unliked keepers)",
+   "trackCount": 964
+  },
+  {
+   "playlistId": "PLJIHWFRb5JG0",
+   "title": "Disco Funk House + Deep House",
+   "trackCount": 635
+  },
+  {
+   "playlistId": "PLMoUVJEmUblE",
+   "title": "140 Dubstep Garage Bass",
+   "trackCount": 618
+  },
+  {
+   "playlistId": "PLNjjSm_OXLjQ",
+   "title": "001 double trivia",
+   "trackCount": 24
+  },
+  {
+   "playlistId": "PLDdX1xQ9ujcc",
+   "title": "Z254 - Reasons",
+   "trackCount": 13
+  },
+  {
+   "playlistId": "PLSB2MuzbFcTQ",
+   "title": "Brazil",
+   "trackCount": 99
+  },
+  {
+   "playlistId": "PLEpziEnSggvA",
+   "title": "India",
+   "trackCount": 97
+  },
+  {
+   "playlistId": "PLZxWRGdRKvFM",
+   "title": "Folk / Indie / Pop",
+   "trackCount": 210
+  },
+  {
+   "playlistId": "PLKqV_PlbYRzY",
+   "title": "Ambient / Electronica",
+   "trackCount": 395
+  },
+  {
+   "playlistId": "PLKvjOOfELYNc",
+   "title": "Jazz Soul Samples",
+   "trackCount": 856
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
+   "title": "NTS LIVE",
+   "trackCount": 1037
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1vdR_t9mQwghLkWhhOL1LM",
+   "title": "Charcoal (goated)",
+   "trackCount": 309
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
+   "title": "Soup To Nuts w/ Anu - NTS",
+   "trackCount": 2580
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
+   "title": "DAR DISKU FM",
+   "trackCount": 933
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
+   "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
+   "trackCount": 471
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
+   "title": " southside rami ",
+   "trackCount": 87
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
+   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PLTqe9a0cMAvA",
+   "title": "4laad",
+   "trackCount": 13
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
@@ -23,11 +113,6 @@
    "playlistId": "PLdf2E3J981oA",
    "title": "001 birthday 29 mix",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PLTqe9a0cMAvA",
-   "title": "4laad",
-   "trackCount": 12
   },
   {
    "playlistId": "PLNOhjgsNozE0",
@@ -78,11 +163,6 @@
    "playlistId": "PLY-6YN2bm6GU",
    "title": "001 library jazz rock",
    "trackCount": 50
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
-   "title": "under the bridge (sway, wrist flick, nodders) (goated)",
-   "trackCount": 30
   },
   {
    "playlistId": "PLZ3M7y8Ifh6o",
@@ -140,6 +220,11 @@
    "trackCount": 2673
   },
   {
+   "playlistId": "PLXiSFnCNRKa8",
+   "title": "(Soulwax Remix) Faves",
+   "trackCount": 19
+  },
+  {
    "playlistId": "PLZ_kZR08Pzmk",
    "title": "Pool Party: 90s/2000s Bangers",
    "trackCount": 294
@@ -163,11 +248,6 @@
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
    "trackCount": 43
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs35tTmRqZi5e700W-xvdXT7",
-   "title": "Southside Rami",
-   "trackCount": 13
   },
   {
    "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
@@ -320,19 +400,9 @@
    "trackCount": 24
   },
   {
-   "playlistId": "PL6LTKg9AoNs2oHmkMYlXoGlpn6VEdbjd_",
-   "title": "Favorite Songs Part 2",
-   "trackCount": 4505
-  },
-  {
    "playlistId": "PL6LTKg9AoNs0KnOb2bY49vTu6rZx1bx7k",
    "title": "DJ jungle (goated)",
    "trackCount": 7
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2lITkHFmnsLN1TWZw1Dug6",
-   "title": "Favorite Songs",
-   "trackCount": 4947
   },
   {
    "playlistId": "PL6LTKg9AoNs1veKZzsP5GZ9wHIEBloS8E",
@@ -442,17 +512,12 @@
   {
    "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
    "title": "001",
-   "trackCount": 188
+   "trackCount": 138
   },
   {
    "playlistId": "PL6LTKg9AoNs2cgjYqXPUCRf5r4Ot7JenZ",
    "title": "roon’s garh ",
    "trackCount": 28
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
-   "title": " southside rami ",
-   "trackCount": 76
   },
   {
    "playlistId": "PL6LTKg9AoNs1btJ9frsqdpVjqNMvPkwJi",
@@ -765,21 +830,6 @@
    "trackCount": 3339
   },
   {
-   "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
-   "title": "NTS LIVE",
-   "trackCount": 1034
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1SeW1TnvgEIpXMnmETFVi3",
-   "title": "carnatic drummer boy ",
-   "trackCount": 113
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1vdR_t9mQwghLkWhhOL1LM",
-   "title": "Charcoal (goated)",
-   "trackCount": 307
-  },
-  {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
    "title": "shit nai palm listens to (goated)",
    "trackCount": 1169
@@ -790,11 +840,6 @@
    "trackCount": 679
   },
   {
-   "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
-   "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
-   "trackCount": 469
-  },
-  {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
    "trackCount": 1315
@@ -803,11 +848,6 @@
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
    "title": "SNAPS & DRUMS",
    "trackCount": 244
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs24byX5ov73LqxoXoSoBh9R",
-   "title": "dar disku fm",
-   "trackCount": 923
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
@@ -865,24 +905,9 @@
    "trackCount": 1341
   },
   {
-   "playlistId": "PL6LTKg9AoNs1Kus6unSCQ1wwR_70slTmY",
-   "title": "carnatic drummer boy ",
-   "trackCount": 113
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1nSn53_C5w6O4TT9NaZMd2",
-   "title": "Charcoal (goated)",
-   "trackCount": 307
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2nWNte2SOC5ey6HB6386qI",
    "title": "bov bootybounce",
    "trackCount": 16
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
-   "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 2579
   },
   {
    "playlistId": "PL6LTKg9AoNs2tDJVhb4Ig5Kc1ITpzFGOa",
@@ -900,29 +925,9 @@
    "trackCount": 117
   },
   {
-   "playlistId": "PL6LTKg9AoNs0msIqeLmVoZ-zJOI22Ltex",
-   "title": "shit nai palm listens to (goated)",
-   "trackCount": 1168
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1VQagPxVhuo1fVRhW7Ieot",
-   "title": "melt (goated)",
-   "trackCount": 679
-  },
-  {
    "playlistId": "PL6LTKg9AoNs219ZDXA4jJPxPWt58a5jmQ",
    "title": "Dark Drumfunk (Pinecone Moonshine and other dark / experimental / drum music)",
    "trackCount": 554
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs125G9izgRoQludwW5ja7zW",
-   "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 1315
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs33sJwywrRYEXvt7of4Tr1y",
-   "title": "20/20 LDN Recordings Catalogue",
-   "trackCount": 283
   },
   {
    "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
@@ -933,11 +938,6 @@
    "playlistId": "PL6LTKg9AoNs1EH4vRaGHdUEVueAfKDeYD",
    "title": "good ambler",
    "trackCount": 4
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0bDIbbDR1wq8Cso_gVMU6I",
-   "title": "Azhagiya Tamil Magan (goated)",
-   "trackCount": 761
   },
   {
    "playlistId": "PL6LTKg9AoNs0FRusS90CZLelyXGm17Z5y",
@@ -1000,11 +1000,6 @@
    "trackCount": 3089
   },
   {
-   "playlistId": "PL6LTKg9AoNs0BBPtTMEv-aErYYBdNvEZc",
-   "title": "le gazzz",
-   "trackCount": 1341
-  },
-  {
    "playlistId": "PL6LTKg9AoNs05NmeGU1DFT-A90YhqNiDD",
    "title": "jungle usb ordered by decreasing BPM",
    "trackCount": 216
@@ -1042,7 +1037,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3qtNHUS7dXuUb8paPVjgh5",
    "title": "Best of ICYTWAT",
-   "trackCount": 0
+   "trackCount": 38
   },
   {
    "playlistId": "PL6LTKg9AoNs10ijrKuRBjS-oOKlB44Ch0",
@@ -1053,11 +1048,6 @@
    "playlistId": "PL6LTKg9AoNs2CrlAtmeGPYaUlQ22StK50",
    "title": "Shreya Ghoshal old songs",
    "trackCount": 86
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs2fRPNDmSCzyRZ3saHrLJej",
-   "title": "NTS LIVE",
-   "trackCount": 1034
   },
   {
    "playlistId": "PL6LTKg9AoNs2_p1t_7aPyAKoJ_9Rw5tDa",
@@ -1093,11 +1083,6 @@
    "playlistId": "PL6LTKg9AoNs0JD1-UikMQNV-ipZtS7Why",
    "title": "Woo woo",
    "trackCount": 15
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1HfUcHxYp4HmdNoGHin0Lr",
-   "title": "Charcoal (goated)",
-   "trackCount": 307
   },
   {
    "playlistId": "PL6LTKg9AoNs3rXTsA7cn_Lx_iqFp7yCdA",
@@ -1140,11 +1125,6 @@
    "trackCount": 26
   },
   {
-   "playlistId": "PL6LTKg9AoNs2T_J0DLrTTqJ1a-79HkafD",
-   "title": "bov bootybounce",
-   "trackCount": 16
-  },
-  {
    "playlistId": "PL6LTKg9AoNs08zmmU4MtPSoebkxPD95v8",
    "title": "Angst",
    "trackCount": 2
@@ -1155,19 +1135,9 @@
    "trackCount": 46
   },
   {
-   "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
-   "title": "DAR DISKU FM",
-   "trackCount": 931
-  },
-  {
    "playlistId": "PL6LTKg9AoNs1hopxZWNxlzeqtRpO7Cecp",
    "title": "sheesha ",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1BWj6JLgte3GyRNgQYmnu3",
-   "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 2578
   },
   {
    "playlistId": "PL6LTKg9AoNs2uLPjO4r_dnMpaBKFFgcQw",
@@ -1175,19 +1145,9 @@
    "trackCount": 12
   },
   {
-   "playlistId": "PL6LTKg9AoNs0vlCRSqshHveacEILER1IJ",
-   "title": "punch bowl social",
-   "trackCount": 59
-  },
-  {
    "playlistId": "PL6LTKg9AoNs1oCjBvPtmXGfcDI2Dxm4O0",
    "title": "a warm embrace",
    "trackCount": 5
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3RNew43Ue6MQXLQpfq9g59",
-   "title": "fado",
-   "trackCount": 32
   },
   {
    "playlistId": "PL6LTKg9AoNs1trxndLMZsj3ycSs60osUn",
@@ -1198,11 +1158,6 @@
    "playlistId": "PL6LTKg9AoNs01i_d3b3e6QOatb8lg1Uyz",
    "title": "Boom prahp ",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0YVYvwFB0PdYMp8fZS0gq2",
-   "title": "sparkl ",
-   "trackCount": 117
   },
   {
    "playlistId": "PL6LTKg9AoNs1O3KRvU7iOcKmJp9Z-Tq94",
@@ -1242,7 +1197,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3jwSARryDYowfYlk-_A-dZ",
    "title": "☄️",
-   "trackCount": 0
+   "trackCount": 119
   },
   {
    "playlistId": "PL6LTKg9AoNs0N0-S6TNmPr7SUuF6O6bj9",
@@ -1253,16 +1208,6 @@
    "playlistId": "PL6LTKg9AoNs2ZsKBdo0CUvDAQGWIgkP-V",
    "title": "melt🩸🔊 🕶️8)))",
    "trackCount": 756
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1wDyKHMyX7ysdsfFNsoEOT",
-   "title": "shit nai palm listens to (goated)",
-   "trackCount": 1169
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs1soWGE3VpTBVucstJzvTov",
-   "title": "melt (goated)",
-   "trackCount": 679
   },
   {
    "playlistId": "PL6LTKg9AoNs1fXDKaFJhCJwupySCSiSSB",
@@ -1278,11 +1223,6 @@
    "playlistId": "PL6LTKg9AoNs1HRTE0UXqbSVfqmi_kD7em",
    "title": "002",
    "trackCount": 81
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs22j7x_IUZ26wJdZNM793ma",
-   "title": "Dark Drumfunk (Pinecone Moonshine and other dark / experimental / drum music)",
-   "trackCount": 554
   },
   {
    "playlistId": "PL6LTKg9AoNs2NH49SClXAOvM5pyQOSbjk",
@@ -1318,11 +1258,6 @@
    "playlistId": "PL6LTKg9AoNs2T3tatGXwHJR7sJZWwj_jD",
    "title": "rocky rap",
    "trackCount": 3
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0oluiPeE1Vv7HyG0edMyQz",
-   "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
-   "trackCount": 469
   },
   {
    "playlistId": "PL6LTKg9AoNs1T_X6BVVz_2Hb1SOCaHWQw",
@@ -1390,11 +1325,6 @@
    "trackCount": 8
   },
   {
-   "playlistId": "PL6LTKg9AoNs1tM3YZOlftIDsx51L1pBrE",
-   "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 1315
-  },
-  {
    "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
    "title": "The Best Electronic Records of 2000-25",
    "trackCount": 419
@@ -1415,19 +1345,9 @@
    "trackCount": 551
   },
   {
-   "playlistId": "PL6LTKg9AoNs0Az17iPNNtd1rSVcMuwGPK",
-   "title": "Leftfield Bass",
-   "trackCount": 2104
-  },
-  {
    "playlistId": "PL6LTKg9AoNs1fd9h9CXBvERvu2TfudM_I",
    "title": "Mridangam Lab",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3I3wZGmcph18w8e3SY55mb",
-   "title": "Favorite Songs",
-   "trackCount": 4997
   },
   {
    "playlistId": "SE",
