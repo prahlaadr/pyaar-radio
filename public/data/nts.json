@@ -1,6 +1,24 @@
 {
-  "syncedAt": "2026-09-10T12:47:58Z",
+  "syncedAt": "2026-09-11T12:42:13Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "sic-records",
+      "name": "SIC Records",
+      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/sic-records"
+    },
     {
       "alias": "soup-to-nuts-anu",
       "name": "Soup To Nuts w/ Anu",
@@ -27,15 +45,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/in-focus"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "loraine-james",
@@ -122,15 +131,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/tana-yonas"
-    },
-    {
-      "alias": "sic-records",
-      "name": "SIC Records",
-      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/sic-records"
     },
     {
       "alias": "homeshake",
