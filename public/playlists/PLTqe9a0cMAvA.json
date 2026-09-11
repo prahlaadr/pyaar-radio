@@ -2,8 +2,15 @@
  "playlistId": "PLTqe9a0cMAvA",
  "title": "4laad",
  "trackCount": 13,
- "syncedAt": "2026-09-10T12:45:18.895318Z",
+ "syncedAt": "2026-09-11T12:40:17.948822Z",
  "tracks": [
+  {
+   "title": "Introduction",
+   "artist": "Mala",
+   "album": "Mala in Cuba",
+   "videoId": "gEP7T_3SAeU",
+   "duration": "2:36"
+  },
   {
    "title": "Cocky",
    "artist": "Niles;Mirror Maze",
@@ -17,6 +24,13 @@
    "album": "Sósia",
    "videoId": "E_UxgqBl4kA",
    "duration": "3:38"
+  },
+  {
+   "title": "Pandemic is a Portal (PiaP)",
+   "artist": "Krithi & Smaran",
+   "album": "Pandemic is a Portal (PiaP)",
+   "videoId": "pKK0Rla7HgY",
+   "duration": "3:27"
   },
   {
    "title": "Siena (feat. Clara La San)",
@@ -61,25 +75,11 @@
    "duration": "3:05"
   },
   {
-   "title": "Gabapentin",
-   "artist": "Projektbau",
-   "album": "Gabapentin",
-   "videoId": "qY-Qdcb6kkI",
-   "duration": "2:00"
-  },
-  {
    "title": "To The Sky",
    "artist": "Loukeman",
    "album": "To The Sky",
    "videoId": "76gkj1VJ9u0",
    "duration": "3:52"
-  },
-  {
-   "title": "Luvr Girl",
-   "artist": "VELLE",
-   "album": "Luvr Girl / Scales",
-   "videoId": "GO-HERLIgOk",
-   "duration": "4:07"
   },
   {
    "title": "Reject",

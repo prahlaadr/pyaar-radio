@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
- "title": "Sept 2026",
- "trackCount": 21,
- "syncedAt": "2026-09-10T12:45:18.895318Z",
+ "title": "Sept 26",
+ "trackCount": 22,
+ "syncedAt": "2026-09-11T12:40:17.948822Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -150,6 +150,13 @@
    "album": "FutureSex / LoveSounds",
    "videoId": "0MuNbwGBtjg",
    "duration": "7:25"
+  },
+  {
+   "title": "Under the Bodhi Tree",
+   "artist": "Lapgan",
+   "album": "History",
+   "videoId": "II0TYVpfeIE",
+   "duration": "1:47"
   }
  ]
 }

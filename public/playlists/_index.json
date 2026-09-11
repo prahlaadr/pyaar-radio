@@ -1,9 +1,24 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 270,
- "totalTracks": 77918,
- "syncedAt": "2026-09-10T12:45:18.895318Z",
+ "playlistCount": 269,
+ "totalTracks": 77993,
+ "syncedAt": "2026-09-11T12:40:17.948822Z",
  "playlists": [
+  {
+   "playlistId": "PLTqe9a0cMAvA",
+   "title": "4laad",
+   "trackCount": 13
+  },
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 22
+  },
+  {
+   "playlistId": "PLAzh1aG0BkDM",
+   "title": "moopie mix",
+   "trackCount": 74
+  },
   {
    "playlistId": "PLDl3Nrdr8sNQ",
    "title": "Favorite Songs (unliked keepers)",
@@ -90,11 +105,6 @@
    "trackCount": 31
   },
   {
-   "playlistId": "PLTqe9a0cMAvA",
-   "title": "4laad",
-   "trackCount": 13
-  },
-  {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
    "trackCount": 1520
@@ -103,11 +113,6 @@
    "playlistId": "PLG8qpG-vDHJU",
    "title": "001 in the living room",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 2026",
-   "trackCount": 21
   },
   {
    "playlistId": "PLdf2E3J981oA",
@@ -175,11 +180,6 @@
    "trackCount": 4
   },
   {
-   "playlistId": "PL5I_ZIj7O2U2c4cXDmFdy3xWVqUGYB0Ba",
-   "title": "Hudson Mohawke Faves",
-   "trackCount": 31
-  },
-  {
    "playlistId": "PLZEqW4FkfFJQ",
    "title": "001 Pyaar Crate (kartik sample)",
    "trackCount": 2
@@ -218,11 +218,6 @@
    "playlistId": "PLUU31rWF7cOI",
    "title": "avalanches fanbase suggestions",
    "trackCount": 2673
-  },
-  {
-   "playlistId": "PLXiSFnCNRKa8",
-   "title": "(Soulwax Remix) Faves",
-   "trackCount": 19
   },
   {
    "playlistId": "PLZ_kZR08Pzmk",
@@ -512,7 +507,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
    "title": "001",
-   "trackCount": 138
+   "trackCount": 188
   },
   {
    "playlistId": "PL6LTKg9AoNs2cgjYqXPUCRf5r4Ot7JenZ",

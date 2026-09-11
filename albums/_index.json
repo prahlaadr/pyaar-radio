@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3600,
- "totalTracks": 45820,
- "syncedAt": "2026-09-10T12:45:15.907019Z",
+ "albumCount": 3593,
+ "totalTracks": 45771,
+ "syncedAt": "2026-09-11T12:40:14.279595Z",
  "albums": [
+  {
+   "browseId": "MPREb_ZAjcN1ciO5w",
+   "title": "Earth Below",
+   "artist": "Arutani",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_ygYJd96DZZV",
+   "title": "MY SKYSCRAPER",
+   "artist": "Nirosta Steel",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_PtxzIwEuqS1",
+   "title": "P ★ K I",
+   "artist": "Ahadadream",
+   "trackCount": 0
+  },
   {
    "browseId": "MPREb_7neotbThFjz",
    "title": "there's an atm inside",
@@ -1331,12 +1349,6 @@
    "trackCount": 13
   },
   {
-   "browseId": "MPREb_o5aYH23PppL",
-   "title": "Trying Times",
-   "artist": "James Blake",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_tv3FwLrPvA8",
    "title": "TANZPARTEI II (Mixtape)",
    "artist": "ATRIP",
@@ -1377,24 +1389,6 @@
    "title": "Papercut",
    "artist": "Imani Imani",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_ivI2Gtnavro",
-   "title": "Trick",
-   "artist": "Alex G",
-   "trackCount": 16
-  },
-  {
-   "browseId": "MPREb_aQTpJvxGGzp",
-   "title": "Footsteps",
-   "artist": "ROHO",
-   "trackCount": 5
-  },
-  {
-   "browseId": "MPREb_jzBzvZ4ZldS",
-   "title": "THE ZENITH",
-   "artist": "9th Wonder",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_2JjniLaRi3A",
@@ -1445,12 +1439,6 @@
    "trackCount": 6
   },
   {
-   "browseId": "MPREb_mMiPQuruxba",
-   "title": "BACK ON",
-   "artist": "SBTRKT",
-   "trackCount": 3
-  },
-  {
    "browseId": "MPREb_xJDglyRdrS9",
    "title": "OUTSPOKEN",
    "artist": "SBTRKT",
@@ -1478,12 +1466,6 @@
    "browseId": "MPREb_KkFznFBEIGS",
    "title": "OVAL 001",
    "artist": "Rohaan",
-   "trackCount": 4
-  },
-  {
-   "browseId": "MPREb_mzm5EdT8ADa",
-   "title": "Moving On",
-   "artist": "OAKK",
    "trackCount": 4
   },
   {
@@ -1571,22 +1553,10 @@
    "trackCount": 6
   },
   {
-   "browseId": "MPREb_rQIOqpuQmfe",
-   "title": "ATW007",
-   "artist": "Interplanetary Criminal",
-   "trackCount": 3
-  },
-  {
    "browseId": "MPREb_zmkI2uNOzQ4",
    "title": "Skanka (P Money Vocal Dub)",
    "artist": "Hamdi",
    "trackCount": 6
-  },
-  {
-   "browseId": "MPREb_leULiOTAkY8",
-   "title": "Abomination EP",
-   "artist": "Hamdi",
-   "trackCount": 5
   },
   {
    "browseId": "MPREb_Lds4Lx6uGT2",
@@ -1616,18 +1586,6 @@
    "browseId": "MPREb_QRDEnZZl5XM",
    "title": "Up The Place EP",
    "artist": "Cesco",
-   "trackCount": 4
-  },
-  {
-   "browseId": "MPREb_mHYgzPZgbU0",
-   "title": "Fake EP",
-   "artist": "Cesco",
-   "trackCount": 4
-  },
-  {
-   "browseId": "MPREb_cPSKrLdlrdW",
-   "title": "In Plain Sight",
-   "artist": "camoufly",
    "trackCount": 4
   },
   {

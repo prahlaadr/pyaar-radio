@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
  "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
  "trackCount": 1315,
- "syncedAt": "2026-09-10T12:45:18.895318Z",
+ "syncedAt": "2026-09-11T12:40:17.948822Z",
  "tracks": [
   {
    "title": "Bikini",
@@ -5606,8 +5606,8 @@
   },
   {
    "title": "After Dark",
-   "artist": "&ME - Topic",
-   "album": "",
+   "artist": "&ME",
+   "album": "After Dark",
    "videoId": "4s5R9Wy7P3g",
    "duration": "9:12"
   },
@@ -5697,8 +5697,8 @@
   },
   {
    "title": "Feelin'",
-   "artist": "Florian Kupfer - Topic",
-   "album": "",
+   "artist": "Florian Kupfer",
+   "album": "Music for Shut-Ins",
    "videoId": "ay1-JP-5G2I",
    "duration": "7:26"
   },
@@ -5991,15 +5991,15 @@
   },
   {
    "title": "Nobody Else",
-   "artist": "Dusky - Topic",
-   "album": "",
+   "artist": "Dusky",
+   "album": "Nobody Else",
    "videoId": "fKx2f5sZ7lE",
    "duration": "7:26"
   },
   {
-   "title": "Scala (Original)",
-   "artist": "Agoria - Topic",
-   "album": "",
+   "title": "Scala",
+   "artist": "Agoria",
+   "album": "Scala EP",
    "videoId": "wrbywh4MFyc",
    "duration": "8:23"
   },
@@ -6012,15 +6012,15 @@
   },
   {
    "title": "Imprint of Pleasure",
-   "artist": "Tube & Berger - Topic",
-   "album": "",
+   "artist": "Tube & Berger",
+   "album": "The Sound of St Barth, Vol. 2 (Selected & Mixed by Carole.G)",
    "videoId": "WQAtAaw6NtM",
    "duration": "7:23"
   },
   {
    "title": "Icon",
-   "artist": "Full Intention - Topic",
-   "album": "",
+   "artist": "Full Intention",
+   "album": "Rebirth Sessions - Full Intention",
    "videoId": "o1ncLU9TbPo",
    "duration": "7:15"
   },
@@ -6040,15 +6040,15 @@
   },
   {
    "title": "Finder",
-   "artist": "Ninetoes - Topic",
-   "album": "",
+   "artist": "Ninetoes",
+   "album": "Finder",
    "videoId": "NM5nQT5apvw",
    "duration": "5:50"
   },
   {
    "title": "Betrayal (Love is Misery) (Shield Re-Edit)",
-   "artist": "Jesse Futerman - Topic",
-   "album": "",
+   "artist": "Jesse Futerman",
+   "album": "Betrayal (Love is Misery)",
    "videoId": "Mzo0KkcLmTI",
    "duration": "5:27"
   },
@@ -6074,9 +6074,9 @@
    "duration": "8:04"
   },
   {
-   "title": "No Eyes",
-   "artist": "Claptone - Topic",
-   "album": "",
+   "title": "No Eyes (feat. Jaw)",
+   "artist": "Claptone",
+   "album": "No Eyes",
    "videoId": "xwfwIc3rYRk",
    "duration": "6:59"
   },
@@ -6179,9 +6179,9 @@
    "duration": "6:03"
   },
   {
-   "title": "Hat Baxx",
-   "artist": "tINI - Topic",
-   "album": "",
+   "title": "Hat Baxx (feat. Joe Le Groove)",
+   "artist": "tINI",
+   "album": "4th Street",
    "videoId": "-KLSQRVXQfM",
    "duration": "6:15"
   },

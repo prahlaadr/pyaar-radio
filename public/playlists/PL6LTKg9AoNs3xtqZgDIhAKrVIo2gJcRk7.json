@@ -1,15 +1,36 @@
 {
  "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
  "title": "001",
- "trackCount": 138,
- "syncedAt": "2026-09-10T12:45:18.895318Z",
+ "trackCount": 188,
+ "syncedAt": "2026-09-11T12:40:17.948822Z",
  "tracks": [
+  {
+   "title": "ANGULIMAAL",
+   "artist": "EXCISE DEPT",
+   "album": "SAB KUCH MIL GAYA MUJHE VOL 1",
+   "videoId": "DquB5oRfxcs",
+   "duration": "3:03"
+  },
   {
    "title": "Maya (feat. Archit Anand & Hashbass)",
    "artist": "Prabh Deep",
    "album": "Maya",
    "videoId": "M6GsjDQomTA",
    "duration": "4:35"
+  },
+  {
+   "title": "Bud Bud Ding Ding (feat. Pataka Boys)",
+   "artist": "PAV4N, Sonnyjim, Kartik, and Juss Nandhra",
+   "album": "Thugs From Amritsar",
+   "videoId": "uZLcEiJV9j0",
+   "duration": "1:48"
+  },
+  {
+   "title": "Roshni",
+   "artist": "Bharg;Chaar Diwaari",
+   "album": "NIKAMMA",
+   "videoId": "5HgOYB51BN0",
+   "duration": "3:52"
   },
   {
    "title": "Care For You",
@@ -31,6 +52,20 @@
    "album": "Pressure III",
    "videoId": "in35BRm3JFE",
    "duration": "0:59"
+  },
+  {
+   "title": "Mayajaal",
+   "artist": "Rhythom",
+   "album": "Mayajaal",
+   "videoId": "QUKZbhh_VxU",
+   "duration": "4:33"
+  },
+  {
+   "title": "Ustad",
+   "artist": "Baalti",
+   "album": "Baalti",
+   "videoId": "--l8mq6xj6A",
+   "duration": "6:12"
   },
   {
    "title": "Knock Me Out",
@@ -61,6 +96,27 @@
    "duration": "4:40"
   },
   {
+   "title": "Indra",
+   "artist": "Thievery Corporation",
+   "album": "Mirror Conspiracy",
+   "videoId": "RwPnlC6CPUI",
+   "duration": "5:23"
+  },
+  {
+   "title": "Deewana Deewana",
+   "artist": "Anish Kumar",
+   "album": "Deewana Deewana",
+   "videoId": "NTxojXpx-_k",
+   "duration": "5:43"
+  },
+  {
+   "title": "Maushi",
+   "artist": "Sneha Khanwalkar & RADA",
+   "album": "Monkey Man (Original Motion Picture Soundtrack)",
+   "videoId": "UrVzrnO94dU",
+   "duration": "2:34"
+  },
+  {
    "title": "BAARO MAALA",
    "artist": "EXCISE DEPT",
    "album": "SAB KUCH MIL GAYA MUJHE VOL 1",
@@ -80,6 +136,20 @@
    "album": "Silver",
    "videoId": "CU1B86gXQAE",
    "duration": "3:41"
+  },
+  {
+   "title": "Ajhussi",
+   "artist": "Flying Lotus",
+   "album": "Spirit Box",
+   "videoId": "IrtPZleWEvk",
+   "duration": "4:23"
+  },
+  {
+   "title": "Soul Safety Administration (feat. Foster Cazz & Feugzy McGaegazy)",
+   "artist": "Abhi The Nomad",
+   "album": "Where Are My Friends",
+   "videoId": "MnKI8RLa9YI",
+   "duration": "2:49"
   },
   {
    "title": "Woman (feat. Cleo Sol)",
@@ -117,6 +187,13 @@
    "duration": "2:34"
   },
   {
+   "title": "Take It Easy Freestyle",
+   "artist": "A$AP Rocky",
+   "album": "Peter Rosenberg x Ecko Present: The New York Renaissance",
+   "videoId": "dH2Qeu95EZM",
+   "duration": "1:22"
+  },
+  {
    "title": "People Never Change (Radio Edit)",
    "artist": "Peter Cat Recording Co.",
    "album": "People Never Change",
@@ -145,11 +222,74 @@
    "duration": "3:27"
   },
   {
+   "title": "Why Why Why Why Why",
+   "artist": "SAULT",
+   "album": "5",
+   "videoId": "ikzzkdBAack",
+   "duration": "3:59"
+  },
+  {
+   "title": "Dontcha",
+   "artist": "The Internet",
+   "album": "Feel Good",
+   "videoId": "EZRk1Ap2Z1w",
+   "duration": "3:22"
+  },
+  {
+   "title": "Angele Ni Fie",
+   "artist": "Juls;Sango",
+   "album": "Fufu & Grits",
+   "videoId": "3KGjq9nj0Z4",
+   "duration": "3:23"
+  },
+  {
    "title": "Nazar",
    "artist": "Darzi",
    "album": "Awaaz",
    "videoId": "0Wdgo6y_5P4",
    "duration": "4:58"
+  },
+  {
+   "title": "Baar Baar (feat. Asha Puthli)",
+   "artist": "Dar Disku",
+   "album": "Dar Disku",
+   "videoId": "kcCbgMyQ2yc",
+   "duration": "4:28"
+  },
+  {
+   "title": "Ek Zubani Tere Naam",
+   "artist": "Gunda;Gurbax",
+   "album": "Allah Rakha",
+   "videoId": "pM1c87e7akQ",
+   "duration": "3:11"
+  },
+  {
+   "title": "LOVESEXDHOKA!!!",
+   "artist": "Chaar Diwaari",
+   "album": "LOVESEXDHOKA!!!",
+   "videoId": "kbuQ10_wgHE",
+   "duration": "3:13"
+  },
+  {
+   "title": "Kolkata '78",
+   "artist": "Baalti",
+   "album": "Kolkata' 78",
+   "videoId": "Q7z664LhZV0",
+   "duration": "5:40"
+  },
+  {
+   "title": "Nans",
+   "artist": "Baalti",
+   "album": "Nans / Marigold",
+   "videoId": "xXmZJLtaY1o",
+   "duration": "5:06"
+  },
+  {
+   "title": "Modern Mirza",
+   "artist": "Raf Saperra",
+   "album": "Ruff Around The Edges",
+   "videoId": "QQwSAsFBvRY",
+   "duration": "3:46"
   },
   {
    "title": "Jimmy",
@@ -173,6 +313,13 @@
    "duration": "6:20"
   },
   {
+   "title": "Off the Wall",
+   "artist": "Michael Jackson",
+   "album": "Off the Wall",
+   "videoId": "g0ViBH7m4XA",
+   "duration": "4:06"
+  },
+  {
    "title": "Roll (Burbank Funk)",
    "artist": "The Internet",
    "album": "Hive Mind",
@@ -187,11 +334,39 @@
    "duration": "3:33"
   },
   {
+   "title": "Free Room (feat. Appleby)",
+   "artist": "Ravyn Lenae",
+   "album": "Moon Shoes EP",
+   "videoId": "LeQcADSpwM8",
+   "duration": "3:38"
+  },
+  {
+   "title": "Y.A.L.A.",
+   "artist": "M.I.A.",
+   "album": "Matangi",
+   "videoId": "0Mq5UPdTu64",
+   "duration": "4:24"
+  },
+  {
+   "title": "Kabhi",
+   "artist": "El Michels Affair;Piya Malik",
+   "album": "Kabhi",
+   "videoId": "TomMrveCGqo",
+   "duration": "2:35"
+  },
+  {
    "title": "Cybiko",
    "artist": "Princess Nokia",
    "album": "Metallic Butterfly",
    "videoId": "_ECXD2KJ4fo",
    "duration": "2:35"
+  },
+  {
+   "title": "Kompany",
+   "artist": "Monte Booker",
+   "album": "Kompany",
+   "videoId": "dR7FlL2NCCE",
+   "duration": "3:30"
   },
   {
    "title": "Rocky Road (feat. Cousin Stizz)",
@@ -222,6 +397,20 @@
    "duration": "4:24"
   },
   {
+   "title": "जीव",
+   "artist": "Moth Equals",
+   "album": "One Tusk",
+   "videoId": "MsRFsqFsozE",
+   "duration": "3:52"
+  },
+  {
+   "title": "deepika",
+   "artist": "KOAD",
+   "album": "deepika",
+   "videoId": "s8fCzMcWCuc",
+   "duration": "2:22"
+  },
+  {
    "title": "Jind Kadh Ke",
    "artist": "Beat Smuggler;Kuldeep Manak;K.S. Narula",
    "album": "Jind Kadh Ke",
@@ -229,11 +418,53 @@
    "duration": "2:54"
   },
   {
+   "title": "Item Song",
+   "artist": "Ganesh Talkies",
+   "album": "In Technicolor",
+   "videoId": "UmWeHs7h2kU",
+   "duration": "3:57"
+  },
+  {
+   "title": "Din Raat",
+   "artist": "Lifafa",
+   "album": "Jaago",
+   "videoId": "vup0mCsWag0",
+   "duration": "4:26"
+  },
+  {
    "title": "Irradon",
    "artist": "Lifafa",
    "album": "SUPERPOWER 2020",
    "videoId": "xDJimqGJT5Y",
    "duration": "7:23"
+  },
+  {
+   "title": "Haraka \"حركة\"",
+   "artist": "Moktar;Saad El Soghayar",
+   "album": "Haraka \"حركة\"",
+   "videoId": "HrOB6OEnXX4",
+   "duration": "5:02"
+  },
+  {
+   "title": "Satyam, Shivam, Sundaram",
+   "artist": "Sheila Chandra",
+   "album": "The Struggle",
+   "videoId": "M6cPiY-v3KE",
+   "duration": "6:25"
+  },
+  {
+   "title": "Hare Rama Hare Krishna",
+   "artist": "Usha Iyer, Asha Bhosle",
+   "album": "R.d. Burman Beats",
+   "videoId": "DXhEsxpvmVg",
+   "duration": "3:48"
+  },
+  {
+   "title": "TAKA",
+   "artist": "Ahadadream;Priya Ragu;Skrillex",
+   "album": "TAKA",
+   "videoId": "CAwTpysdDuY",
+   "duration": "2:55"
   },
   {
    "title": "Malika",
@@ -257,11 +488,32 @@
    "duration": "3:12"
   },
   {
+   "title": "Hari Om",
+   "artist": "Asha Puthli",
+   "album": "Hari Om",
+   "videoId": "Jxx-l0MFGPA",
+   "duration": "4:28"
+  },
+  {
+   "title": "Quiet 3",
+   "artist": "Sheila Chandra",
+   "album": "The Indipop Retrospective",
+   "videoId": "WS-T2gDfUxM",
+   "duration": "4:51"
+  },
+  {
    "title": "Phire Keu Na Ase",
    "artist": "Charanjit Singh",
    "album": "Bengali Modern Songs Charanjit Singh",
    "videoId": "8I9266x7NRw",
    "duration": "3:10"
+  },
+  {
+   "title": "Shanti, Shanti, Shanti",
+   "artist": "Sheila Chandra",
+   "album": "Roots and Wings",
+   "videoId": "H6bSk-hjhJ4",
+   "duration": "4:36"
   },
   {
    "title": "Tere Dil Mein Rehna Hai (Let Me Inside Your Heart)",
@@ -278,6 +530,20 @@
    "duration": "5:10"
   },
   {
+   "title": "Lament",
+   "artist": "Sheila Chandra",
+   "album": "The Struggle",
+   "videoId": "69NjcsnoWfk",
+   "duration": "6:25"
+  },
+  {
+   "title": "Merey Dil May",
+   "artist": "Asha Puthli",
+   "album": "Lost II",
+   "videoId": "i-CiReZkAjI",
+   "duration": "6:09"
+  },
+  {
    "title": "Ki Aachhe Tomar Monete",
    "artist": "Charanjit Singh",
    "album": "Bengali Modern Songs Charanjit Singh",
@@ -290,6 +556,48 @@
    "album": "Celebrating 37 Years of Janbaaz",
    "videoId": "5iK1O6zGTrU",
    "duration": "5:35"
+  },
+  {
+   "title": "Andhakare Path",
+   "artist": "Charanjit Singh",
+   "album": "Bengali Modern Songs Charanjit Singh",
+   "videoId": "VyyL5um1CWY",
+   "duration": "3:23"
+  },
+  {
+   "title": "Maiyella Ondu Romanchana",
+   "artist": "S.P Balasubrahmanyam",
+   "album": "Sri Ayyappa",
+   "videoId": "5HZmoMTV6P0",
+   "duration": "5:39"
+  },
+  {
+   "title": "Enthan Kannil (Saxophone)",
+   "artist": "Jadav - Topic",
+   "album": "",
+   "videoId": "5ZDlbhzNQ2w",
+   "duration": "5:11"
+  },
+  {
+   "title": "Prema, Shanti, Dharma, Satya",
+   "artist": "Sheila Chandra",
+   "album": "Out On My Own",
+   "videoId": "gqmNlKTJmo8",
+   "duration": "4:17"
+  },
+  {
+   "title": "He Macchan",
+   "artist": "S.P. Balasubrahmanyam;K. S. Chithra",
+   "album": "Thenpondi Cheemeyile",
+   "videoId": "pBqcnezmKjs",
+   "duration": "4:00"
+  },
+  {
+   "title": "Mysteries Of The East",
+   "artist": "Jhalib",
+   "album": "Mysteries of the East",
+   "videoId": "MoqiK19NgAI",
+   "duration": "5:40"
   },
   {
    "title": "Jane Kis Tarha",
@@ -320,11 +628,25 @@
    "duration": "3:06"
   },
   {
+   "title": "Dil Laga Ya Tha",
+   "artist": "Najma",
+   "album": "Qareeb",
+   "videoId": "i1BoepJjkDk",
+   "duration": "5:50"
+  },
+  {
    "title": "Mausam",
    "artist": "The Anirudh Varma Collective;Kavya Singh;Divyam Sodhi;Likhari",
    "album": "Sabr",
    "videoId": "AOegW0QkeGw",
    "duration": "4:52"
+  },
+  {
+   "title": "Dance Dance",
+   "artist": "Salma Agha, Bappi Lahiri, Chorus",
+   "album": "Badtameez Bomb",
+   "videoId": "trmOfTrEY4w",
+   "duration": "3:15"
   },
   {
    "title": "Kasam Paida Karnewale Ki",
@@ -341,11 +663,39 @@
    "duration": "6:16"
   },
   {
+   "title": "Disco 82",
+   "artist": "Kishore Kumar;Lata Mangeshkar",
+   "album": "Forever Lata Mangeshkar - Happy",
+   "videoId": "pbGusmDJ9zQ",
+   "duration": "3:48"
+  },
+  {
+   "title": "Tumse Milke",
+   "artist": "Lata Mangeshkar",
+   "album": "Chor-police",
+   "videoId": "FrtXKnP6KO8",
+   "duration": "3:52"
+  },
+  {
+   "title": "Aaj Mera Dil",
+   "artist": "Asha Bhosle",
+   "album": "Chor-police",
+   "videoId": "CZtAE8ZUiAk",
+   "duration": "5:35"
+  },
+  {
    "title": "Pyar Tera Ae Jane Jan",
    "artist": "Runa Laila",
    "album": "Runa Goes Disco",
    "videoId": "0IDGBGFD3io",
    "duration": "5:16"
+  },
+  {
+   "title": "Shyam Bina Radha",
+   "artist": "Usha Uthup",
+   "album": "Bengali Modern Songs Usha Uthup",
+   "videoId": "U1OhmlW4vQI",
+   "duration": "3:26"
   },
   {
    "title": "The Elephant Song",
