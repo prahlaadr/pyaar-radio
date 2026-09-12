@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
- "trackCount": 22,
- "syncedAt": "2026-09-11T12:40:17.948822Z",
+ "trackCount": 26,
+ "syncedAt": "2026-09-12T12:00:43.689611Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -157,6 +157,34 @@
    "album": "History",
    "videoId": "II0TYVpfeIE",
    "duration": "1:47"
+  },
+  {
+   "title": "Fire on the Water",
+   "artist": "Bonobo;Arooj Aftab",
+   "album": "Distance in Static",
+   "videoId": "BHPI26QscYA",
+   "duration": "3:04"
+  },
+  {
+   "title": "OF ALL THINGS",
+   "artist": "Villager",
+   "album": "NOWHERE FM: VIVA LA VILLAGER",
+   "videoId": "sLPeMZe_W6U",
+   "duration": "4:17"
+  },
+  {
+   "title": "Lichen Trip",
+   "artist": "Bibio;Dorian Concept",
+   "album": "Lichen Trip",
+   "videoId": "JH0W22fMS-4",
+   "duration": "2:51"
+  },
+  {
+   "title": "Insect Near Piha Beach",
+   "artist": "Four Tet",
+   "album": "Sixteen Oceans",
+   "videoId": "exYtXUxe5d4",
+   "duration": "5:16"
   }
  ]
 }

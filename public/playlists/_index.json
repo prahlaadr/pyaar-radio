@@ -1,18 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 269,
- "totalTracks": 77993,
- "syncedAt": "2026-09-11T12:40:17.948822Z",
+ "totalTracks": 77950,
+ "syncedAt": "2026-09-12T12:00:43.689611Z",
  "playlists": [
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 26
+  },
   {
    "playlistId": "PLTqe9a0cMAvA",
    "title": "4laad",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 22
   },
   {
    "playlistId": "PLAzh1aG0BkDM",
@@ -822,7 +822,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3339
+   "trackCount": 3292
   },
   {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
