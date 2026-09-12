@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T12:42:13Z",
+  "syncedAt": "2026-09-12T12:01:52Z",
   "shows": [
     {
       "alias": "the-nts-guide-to",
@@ -9,6 +9,24 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "tana-yonas",
+      "name": "Wabi Sabi w/ Tana Yonas",
+      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/tana-yonas"
+    },
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "sic-records",
@@ -36,15 +54,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/tommasi"
-    },
-    {
-      "alias": "in-focus",
-      "name": "In Focus",
-      "description": "A deeper look into the back catalogs of various artists.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "loraine-james",
@@ -122,15 +131,6 @@
         "disco / boogie"
       ],
       "url": "https://www.nts.live/shows/music-4-lovers"
-    },
-    {
-      "alias": "tana-yonas",
-      "name": "Wabi Sabi w/ Tana Yonas",
-      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/tana-yonas"
     },
     {
       "alias": "homeshake",
