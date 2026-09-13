@@ -61,7 +61,7 @@ MONTH_MAP = {
     "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
     "mirch": 3, "feeb": 2, "febyouary": 2, "jooli": 7, "joon": 6,
     "apreel": 4, "aprul": 4, "agust": 8, "ock": 10, "okt": 10,
-    "simptember": 9, "decembrrr": 12, "novemburr": 11, "mai": 5,
+    "sept": 9, "simptember": 9, "decembrrr": 12, "novemburr": 11, "mai": 5,
     "juun": 6, "deck": 12, "murch": 3, "march": 3, "june": 6,
     "july": 7, "august": 8, "april": 4, "november": 11, "september": 9,
     "october": 10, "february": 2, "january": 1, "december": 12,
