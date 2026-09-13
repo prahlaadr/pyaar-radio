@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
- "trackCount": 26,
- "syncedAt": "2026-09-12T12:00:43.689611Z",
+ "trackCount": 29,
+ "syncedAt": "2026-09-13T13:09:25.404419Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -185,6 +185,27 @@
    "album": "Sixteen Oceans",
    "videoId": "exYtXUxe5d4",
    "duration": "5:16"
+  },
+  {
+   "title": "What It Do",
+   "artist": "Young Stoner Life, Young Thug, & Unfoonk",
+   "album": "Slime Language 3",
+   "videoId": "i2pQYRzDBPc",
+   "duration": "2:28"
+  },
+  {
+   "title": "Connect",
+   "artist": "Vampire Weekend",
+   "album": "Only God Was Above Us",
+   "videoId": "ubyti-AHytA",
+   "duration": "5:11"
+  },
+  {
+   "title": "Drums Only",
+   "artist": "Chanel Beads",
+   "album": "Your Day Will Come",
+   "videoId": "bUXLUt-Tft0",
+   "duration": "4:33"
   }
  ]
 }

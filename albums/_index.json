@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3603,
- "totalTracks": 45824,
- "syncedAt": "2026-09-12T12:00:37.813883Z",
+ "albumCount": 3605,
+ "totalTracks": 45847,
+ "syncedAt": "2026-09-13T13:09:22.188462Z",
  "albums": [
+  {
+   "browseId": "MPREb_30z46kUYLns",
+   "title": "Your Day Will Come",
+   "artist": "Chanel Beads",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_chVb0q6NBHp",
+   "title": "Maestro",
+   "artist": "Moacir Santos",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_6OeWleEJMyA",
    "title": "NOWHERE FM: VIVA LA VILLAGER",

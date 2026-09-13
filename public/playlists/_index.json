@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 269,
- "totalTracks": 77950,
- "syncedAt": "2026-09-12T12:00:43.689611Z",
+ "totalTracks": 78005,
+ "syncedAt": "2026-09-13T13:09:25.404419Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1525
+  },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
-   "trackCount": 26
+   "trackCount": 29
   },
   {
    "playlistId": "PLTqe9a0cMAvA",
@@ -103,11 +108,6 @@
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
    "title": "under the bridge (sway, wrist flick, nodders) (goated)",
    "trackCount": 31
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1520
   },
   {
    "playlistId": "PLG8qpG-vDHJU",
@@ -822,7 +822,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3292
+   "trackCount": 3339
   },
   {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",

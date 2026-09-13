@@ -1,9 +1,44 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1520,
- "syncedAt": "2026-09-12T12:00:43.689611Z",
+ "trackCount": 1525,
+ "syncedAt": "2026-09-13T13:09:25.404419Z",
  "tracks": [
+  {
+   "title": "The Leap (feat. Machinedrum)",
+   "artist": "Angelica Bess",
+   "album": "The Leap",
+   "videoId": "SN0jsigX4aM",
+   "duration": "3:42"
+  },
+  {
+   "title": "Sail To The Sun (feat. Machinedrum)",
+   "artist": "Angelica Bess",
+   "album": "Sail To The Sun",
+   "videoId": "B24-aOK5MAk",
+   "duration": "3:29"
+  },
+  {
+   "title": "Like This (feat. Eve)",
+   "artist": "Kelly Rowland",
+   "album": "Essence Music Festival, Vol. 1: Songs From Our Triumphant Return to New Orleans",
+   "videoId": "Kir6EoJgwbY",
+   "duration": "3:39"
+  },
+  {
+   "title": "Connect",
+   "artist": "Vampire Weekend",
+   "album": "Only God Was Above Us",
+   "videoId": "ubyti-AHytA",
+   "duration": "5:11"
+  },
+  {
+   "title": "Classical",
+   "artist": "Vampire Weekend",
+   "album": "Only God Was Above Us",
+   "videoId": "TT8g3CLFuBI",
+   "duration": "4:20"
+  },
   {
    "title": "Breaker",
    "artist": "Deerhunter",
