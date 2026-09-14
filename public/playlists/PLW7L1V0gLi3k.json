@@ -1,0 +1,603 @@
+{
+ "playlistId": "PLW7L1V0gLi3k",
+ "title": "9laad:Gallery",
+ "trackCount": 85,
+ "syncedAt": "2026-09-14T14:47:23.886486Z",
+ "tracks": [
+  {
+   "title": "Home Maker",
+   "artist": "Sudan Archives",
+   "album": "Home Maker",
+   "videoId": "2imehl3BfhE",
+   "duration": "5:03"
+  },
+  {
+   "title": "NBPQ (Topless)",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "65z3TN_Rhpg",
+   "duration": "3:49"
+  },
+  {
+   "title": "Selfish Soul",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "K-3ciayveio",
+   "duration": "2:23"
+  },
+  {
+   "title": "Loyal (EDD)",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "FkHJAL3Wvso",
+   "duration": "2:28"
+  },
+  {
+   "title": "OMG BRITT",
+   "artist": "Sudan Archives",
+   "album": "OMG BRITT",
+   "videoId": "MKi41m5FUpU",
+   "duration": "2:53"
+  },
+  {
+   "title": "Ciara",
+   "artist": "Sudan Archives",
+   "album": "Ciara",
+   "videoId": "udYOTFh8p20",
+   "duration": "3:36"
+  },
+  {
+   "title": "Copycat (Broken Notions)",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "Ou6XBaGVLSs",
+   "duration": "2:26"
+  },
+  {
+   "title": "Freakalizer",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "Jdi5qf1ex98",
+   "duration": "3:51"
+  },
+  {
+   "title": "It's Already Done",
+   "artist": "Sudan Archives",
+   "album": "Natural Brown Prom Queen",
+   "videoId": "hDaJ82HpdQg",
+   "duration": "1:08"
+  },
+  {
+   "title": "Build a Nest (feat. Ruby Parker)",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "jouXlj50caU",
+   "duration": "2:14"
+  },
+  {
+   "title": "C'mon Now",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "d5suGU8SzQg",
+   "duration": "0:26"
+  },
+  {
+   "title": "Fusion Swirl",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "KDW5tQFycE0",
+   "duration": "5:33"
+  },
+  {
+   "title": "After the Rain",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "NJaob_FbJfo",
+   "duration": "4:46"
+  },
+  {
+   "title": "Metamorphoses",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "9pjo28pbAVI",
+   "duration": "1:49"
+  },
+  {
+   "title": "Gnarciss",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "6_rxU5i2aBk",
+   "duration": "2:13"
+  },
+  {
+   "title": "3 for L",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "854tP2dmzfs",
+   "duration": "4:48"
+  },
+  {
+   "title": "Max Brown",
+   "artist": "Jeff Parker",
+   "album": "Suite for Max Brown",
+   "videoId": "bF-9521i9ho",
+   "duration": "10:37"
+  },
+  {
+   "title": "A Queen's Intro (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "ChnFBXxzpj4",
+   "duration": "0:33"
+  },
+  {
+   "title": "Holy Lands (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "TidW5g0MZw0",
+   "duration": "5:15"
+  },
+  {
+   "title": "Young Genius (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "E5a7P7K3Aj4",
+   "duration": "5:33"
+  },
+  {
+   "title": "Black Lion (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "U1qDreJomAE",
+   "duration": "2:57"
+  },
+  {
+   "title": "Tall Tales (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "Es9WmNr4Brg",
+   "duration": "4:17"
+  },
+  {
+   "title": "Mantra (feat. Joel Ross, Dezron Douglas, Tomeka Reid & Brandee Younger)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "UCOJBNitm6g",
+   "duration": "3:49"
+  },
+  {
+   "title": "Pharaoh's Intro (feat. Shabaka Hutchings, Tomeka Reid & Junius Paul)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "YD6qUT4Pi3I",
+   "duration": "1:59"
+  },
+  {
+   "title": "Atlantic Black (feat. Shabaka Hutchings, Tomeka Reid & Junius Paul)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "EmBRF5vBpNE",
+   "duration": "9:10"
+  },
+  {
+   "title": "Inner Flight (feat. Shabaka Hutchings, Tomeka Reid & Junius Paul)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "n41dFHSiEQc",
+   "duration": "3:03"
+  },
+  {
+   "title": "The Fifth Monk (feat. Miguel Atwood-Ferguson, Carlos Niño, Josh Johnson & Anna Butterss)",
+   "artist": "Makaya McCraven",
+   "album": "Universal Beings",
+   "videoId": "5D7iQqV9qY8",
+   "duration": "8:02"
+  },
+  {
+   "title": "Don’t Forget You’re Precious",
+   "artist": "Alabaster DePlume",
+   "album": "GOLD",
+   "videoId": "2KozxaIoasY",
+   "duration": "3:42"
+  },
+  {
+   "title": "A Gente Acaba (Vento Em Rosa)",
+   "artist": "Alabaster DePlume",
+   "album": "GOLD",
+   "videoId": "hoF1DbQCNpA",
+   "duration": "2:45"
+  },
+  {
+   "title": "Sibomandi (feat. Falle Nioke)",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "sseOHj0xOPA",
+   "duration": "2:29"
+  },
+  {
+   "title": "To That Voice And Say",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "zx0WnqlUGww",
+   "duration": "2:45"
+  },
+  {
+   "title": "Give Me Away",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "-WE6CDWjbws",
+   "duration": "3:14"
+  },
+  {
+   "title": "Fall On Flowers",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "pd2h2cjvFxQ",
+   "duration": "4:54"
+  },
+  {
+   "title": "Did You Know (feat. Momoko Gill & MettaShiba)",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "WlYWD93OI48",
+   "duration": "3:55"
+  },
+  {
+   "title": "Levels of Human",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "uoQGvekTC7Y",
+   "duration": "1:53"
+  },
+  {
+   "title": "The Best Thing In The World",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "GARLhN8sQGM",
+   "duration": "4:41"
+  },
+  {
+   "title": "Naked Like Water (feat. Donna Thompson)",
+   "artist": "Alabaster DePlume",
+   "album": "Come With Fierce Grace",
+   "videoId": "daYGBstfV7c",
+   "duration": "2:55"
+  },
+  {
+   "title": "Rust (feat. Tom Misch)",
+   "artist": "Yussef Dayes",
+   "album": "Rust",
+   "videoId": "SiD0Pzf15VM",
+   "duration": "3:59"
+  },
+  {
+   "title": "Woman's Touch (feat. Jamilah Barry)",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "i_0D5GeB7n0",
+   "duration": "3:32"
+  },
+  {
+   "title": "Raisins Under the Sun (feat. Shabaka Hutchings)",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "7HREgOIzwpc",
+   "duration": "4:32"
+  },
+  {
+   "title": "Marching Band (feat. Masego)",
+   "artist": "Yussef Dayes",
+   "album": "Marching Band / Tioga Pass",
+   "videoId": "pHF9tcxOSVs",
+   "duration": "4:45"
+  },
+  {
+   "title": "Birds of Paradise",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "CvfgdL_uDQs",
+   "duration": "4:10"
+  },
+  {
+   "title": "Black Classical Music (feat. Venna & Charlie Stacey)",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "E0A2uzEpFZY",
+   "duration": "5:20"
+  },
+  {
+   "title": "Turquoise Galaxy",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "a9ImOdvh7LE",
+   "duration": "3:12"
+  },
+  {
+   "title": "Afro Cubanism",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
+   "videoId": "qyB6AKqc200",
+   "duration": "2:46"
+  },
+  {
+   "title": "Pon di Plaza",
+   "artist": "Yussef Dayes;Chronixx",
+   "album": "Pon di Plaza",
+   "videoId": "ZbwKt0VdQXw",
+   "duration": "3:50"
+  },
+  {
+   "title": "Istanbul [Live From Malibu] (feat. Elijah Fox)",
+   "artist": "Yussef Dayes",
+   "album": "The Yussef Dayes Experience (Live From Malibu)",
+   "videoId": "w5JAAhug4Ao",
+   "duration": "4:09"
+  },
+  {
+   "title": "Soft Echoes",
+   "artist": "Sharada Shashidhar",
+   "album": "Soft Echoes",
+   "videoId": "r5odhzVVMus",
+   "duration": "4:40"
+  },
+  {
+   "title": "By The Land",
+   "artist": "Sharada Shashidhar",
+   "album": "By The Land",
+   "videoId": "1dZPDO0ssic",
+   "duration": "3:58"
+  },
+  {
+   "title": "As I Am",
+   "artist": "Sharada Shashidhar",
+   "album": "Soft Echoes",
+   "videoId": "SWmJqove9Qo",
+   "duration": "5:08"
+  },
+  {
+   "title": "Canyon Song",
+   "artist": "Sharada Shashidhar",
+   "album": "Soft Echoes",
+   "videoId": "B_ajy3QL1ek",
+   "duration": "5:17"
+  },
+  {
+   "title": "Luckiest",
+   "artist": "Sharada Shashidhar",
+   "album": "Soft Echoes",
+   "videoId": "UbFBqHokxmE",
+   "duration": "4:06"
+  },
+  {
+   "title": "New Echoes",
+   "artist": "Sharada Shashidhar",
+   "album": "Soft Echoes",
+   "videoId": "jyz2UMni4v8",
+   "duration": "4:13"
+  },
+  {
+   "title": "Messages",
+   "artist": "Sharada Shashidhar",
+   "album": "Rahu",
+   "videoId": "C-Ja_MOYgxI",
+   "duration": "3:03"
+  },
+  {
+   "title": "Rotate",
+   "artist": "Sharada Shashidhar",
+   "album": "Rahu",
+   "videoId": "ST_faR3hd5U",
+   "duration": "2:02"
+  },
+  {
+   "title": "Present",
+   "artist": "Sharada Shashidhar",
+   "album": "Rahu",
+   "videoId": "w8y1B04Rr7A",
+   "duration": "3:30"
+  },
+  {
+   "title": "Vexed",
+   "artist": "Sharada Shashidhar",
+   "album": "Rahu",
+   "videoId": "tkzPoBFYaNA",
+   "duration": "2:00"
+  },
+  {
+   "title": "Youwillgetthroughthis, I promise (feat. Jamael Dean)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "sMKmxBMNkwk",
+   "duration": "6:47"
+  },
+  {
+   "title": "Mushroomeclipse (feat. Iasos)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "UULJ6GB1TMc",
+   "duration": "4:07"
+  },
+  {
+   "title": "Dreamsishappening (feat. Shabazz Palaces, Jamael Dean & Sharada)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "AYXAPyPckg8",
+   "duration": "4:32"
+  },
+  {
+   "title": "In the Moment (feat. Devin Daniels, Randy Gloss, Jamael Dean & Miguel Atwood-Ferguson)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "2NAytfvPZ7Q",
+   "duration": "3:29"
+  },
+  {
+   "title": "Actually (feat. Deantoni Parks, Jamael Dean & Nate Mercereau)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "zRsPFU21QQI",
+   "duration": "5:56"
+  },
+  {
+   "title": "for the Shapalaceer (feat. Sam Gendel & Nate Mercereau)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "b4wxHyXV-Nk",
+   "duration": "4:30"
+  },
+  {
+   "title": "Luis's Special Shells (feat. Jamael Dean & Jamire Williams)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "05d-_Q7QxBU",
+   "duration": "2:36"
+  },
+  {
+   "title": "AmazonianPulse (feat. Laraaji & Nate Mercereau)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "NYCHujlJ7Vc",
+   "duration": "5:14"
+  },
+  {
+   "title": "Recurrent Reiki Dreams (feat. Iasos)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "NyBxtBAqrM4",
+   "duration": "22:44"
+  },
+  {
+   "title": "WaterWavesArrival (feat. Jesse Peterson)",
+   "artist": "Carlos Niño & Friends",
+   "album": "Extra Presence",
+   "videoId": "gHMMr1OR8ts",
+   "duration": "3:25"
+  },
+  {
+   "title": "Satin Doll",
+   "artist": "Sam Gendel",
+   "album": "Satin Doll",
+   "videoId": "nlqZF_1ZsiM",
+   "duration": "3:46"
+  },
+  {
+   "title": "Infant Eyes (Live in Japan)",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "TcWJNEZpnLc",
+   "duration": "6:59"
+  },
+  {
+   "title": "Misty",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "1mmjIBr2qXU",
+   "duration": "3:54"
+  },
+  {
+   "title": "Miss U Sonny",
+   "artist": "Sam Gendel",
+   "album": "Live at Union Station",
+   "videoId": "dVslkVnm8n4",
+   "duration": "4:20"
+  },
+  {
+   "title": "Alto Voices",
+   "artist": "Sam Gendel",
+   "album": "Alto Voices",
+   "videoId": "AcMmr9bEQcc",
+   "duration": "3:08"
+  },
+  {
+   "title": "Eternal Loop",
+   "artist": "Sam Gendel",
+   "album": "Eternal Loop",
+   "videoId": "4IVquk6qCK8",
+   "duration": "4:45"
+  },
+  {
+   "title": "Waraku3",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "PZa_nJdcJp4",
+   "duration": "3:57"
+  },
+  {
+   "title": "Junk_Theem",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "egAtkSrvTmw",
+   "duration": "5:07"
+  },
+  {
+   "title": "They B All Like",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "7Q_T_HNGOI0",
+   "duration": "3:55"
+  },
+  {
+   "title": "Sometimes I Feel so Good",
+   "artist": "Sam Gendel",
+   "album": "Fresh Bread",
+   "videoId": "N69aDPH2-Og",
+   "duration": "4:55"
+  },
+  {
+   "title": "Beloved California Temple",
+   "artist": "Surya Botofasina",
+   "album": "Beloved California Temple",
+   "videoId": "gjcULb6PO10",
+   "duration": "4:40"
+  },
+  {
+   "title": "Surya Meditation (feat. Swamini Satsang)",
+   "artist": "Surya Botofasina",
+   "album": "Surya Meditation",
+   "videoId": "6Z8f5Wjy4KA",
+   "duration": "10:16"
+  },
+  {
+   "title": "Everyone's Children (feat. Mia Doi Todd)",
+   "artist": "Surya Botofasina",
+   "album": "Everyone's Children",
+   "videoId": "PmF5Fmm6t4g",
+   "duration": "4:51"
+  },
+  {
+   "title": "Sun Of Keshava",
+   "artist": "Surya Botofasina",
+   "album": "Sun Of Keshava",
+   "videoId": "Xvyv8DtGby4",
+   "duration": "15:18"
+  },
+  {
+   "title": "I Love Dew, Sophie",
+   "artist": "Surya Botofasina",
+   "album": "Everyone's Children",
+   "videoId": "JAdtXS3JKCM",
+   "duration": "9:58"
+  },
+  {
+   "title": "Waves For Margie (feat. Radha Botofasina)",
+   "artist": "Surya Botofasina",
+   "album": "Everyone's Children",
+   "videoId": "OVjXifHbzxU",
+   "duration": "4:47"
+  },
+  {
+   "title": "Meghan Jahnavi",
+   "artist": "Surya Botofasina",
+   "album": "Everyone's Children",
+   "videoId": "Dqjg9pHZM9w",
+   "duration": "18:30"
+  },
+  {
+   "title": "Surya Meditation (Reprise (Radio Edit))",
+   "artist": "Surya Botofasina",
+   "album": "Everyone's Children",
+   "videoId": "KEJXUbwjqCI",
+   "duration": "4:57"
+  }
+ ]
+}

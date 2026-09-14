@@ -1,18 +1,88 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 269,
- "totalTracks": 78005,
- "syncedAt": "2026-09-13T13:09:25.404419Z",
+ "playlistCount": 283,
+ "totalTracks": 80461,
+ "syncedAt": "2026-09-14T14:47:23.886486Z",
  "playlists": [
   {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1525
+   "playlistId": "PLBWyfTOMlrI4",
+   "title": "9laad:House / Techno",
+   "trackCount": 572
+  },
+  {
+   "playlistId": "PLTiV70ko1Mto",
+   "title": "9laad:Hip-hop / Soul / Funk",
+   "trackCount": 144
+  },
+  {
+   "playlistId": "PLKbZRuwVs-O0",
+   "title": "9laad:DnB",
+   "trackCount": 383
+  },
+  {
+   "playlistId": "PLePePEiePUwA",
+   "title": "9laad:Spoonerism",
+   "trackCount": 5
+  },
+  {
+   "playlistId": "PLa10wrJmyUPU",
+   "title": "9laad:Indie",
+   "trackCount": 234
+  },
+  {
+   "playlistId": "PLdb9fuwcxMLA",
+   "title": "9laad:Rap",
+   "trackCount": 77
+  },
+  {
+   "playlistId": "PLD4JnSC5NylI",
+   "title": "9laad:Desi",
+   "trackCount": 0
+  },
+  {
+   "playlistId": "PLSay2Tj5iY9Q",
+   "title": "9laad:Lisbon club",
+   "trackCount": 15
+  },
+  {
+   "playlistId": "PLJToNB1tqeuw",
+   "title": "9laad:Electronica",
+   "trackCount": 496
+  },
+  {
+   "playlistId": "PLLdiU_POigPI",
+   "title": "9laad:Jazz",
+   "trackCount": 200
+  },
+  {
+   "playlistId": "PLbYIyiDVhk-4",
+   "title": "9laad:Garage",
+   "trackCount": 12
+  },
+  {
+   "playlistId": "PLYGFgc7WLuHE",
+   "title": "9laad:140",
+   "trackCount": 141
+  },
+  {
+   "playlistId": "PLHoSQ5-c6fjc",
+   "title": "9laad:Park",
+   "trackCount": 98
+  },
+  {
+   "playlistId": "PLW7L1V0gLi3k",
+   "title": "9laad:Gallery",
+   "trackCount": 85
   },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
-   "trackCount": 29
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1525
   },
   {
    "playlistId": "PLTqe9a0cMAvA",
@@ -172,7 +242,7 @@
   {
    "playlistId": "PLZ3M7y8Ifh6o",
    "title": "001 Pyaar Mood Ring",
-   "trackCount": 8
+   "trackCount": 0
   },
   {
    "playlistId": "PLWGaVhzIrX9o",

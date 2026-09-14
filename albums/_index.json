@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3605,
- "totalTracks": 45847,
- "syncedAt": "2026-09-13T13:09:22.188462Z",
+ "albumCount": 3604,
+ "totalTracks": 45841,
+ "syncedAt": "2026-09-14T14:47:20.876596Z",
  "albums": [
+  {
+   "browseId": "MPREb_pzaOlGTduxN",
+   "title": "I Can See",
+   "artist": "Nick Hakim",
+   "trackCount": 12
+  },
   {
    "browseId": "MPREb_30z46kUYLns",
    "title": "Your Day Will Come",
@@ -2309,12 +2315,6 @@
    "trackCount": 9
   },
   {
-   "browseId": "MPREb_uVnxdCX6xXa",
-   "title": "ATW",
-   "artist": "All Them Witches",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_ERXcfII15p6",
    "title": "Sleeping Through the War",
    "artist": "All Them Witches",
@@ -2325,12 +2325,6 @@
    "title": "Nothing as the Ideal",
    "artist": "All Them Witches",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_gy2JSoOzxiq",
-   "title": "Lightning at the Door",
-   "artist": "All Them Witches",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_s21nlkuZolL",

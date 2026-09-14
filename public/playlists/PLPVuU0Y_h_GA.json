@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
- "trackCount": 29,
- "syncedAt": "2026-09-13T13:09:25.404419Z",
+ "trackCount": 31,
+ "syncedAt": "2026-09-14T14:47:23.886486Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -206,6 +206,20 @@
    "album": "Your Day Will Come",
    "videoId": "bUXLUt-Tft0",
    "duration": "4:33"
+  },
+  {
+   "title": "Land Of Make Believe (Live At Massey Hall, Toronto/1973) (feat. Hamilton Philharmonic Orchestra)",
+   "artist": "Chuck Mangione;Esther Satterfield",
+   "album": "Land Of Make Believe (Live)",
+   "videoId": "e-CtG4z9LPM",
+   "duration": "12:25"
+  },
+  {
+   "title": "Know My Name",
+   "artist": "Nick Hakim",
+   "album": "I Can See",
+   "videoId": "C_pe79dPS_o",
+   "duration": "4:58"
   }
  ]
 }
