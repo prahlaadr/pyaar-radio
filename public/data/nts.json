@@ -1,6 +1,30 @@
 {
-  "syncedAt": "2026-09-13T13:11:41Z",
+  "syncedAt": "2026-09-14T14:50:39Z",
   "shows": [
+    {
+      "alias": "music-4-lovers",
+      "name": "Music 4 Lovers w/ Jabu & Andy Payback",
+      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
+      "location": "Bristol",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/96f7fce5-d784-4e2b-9f3a-93a105f0c8b8_1641600000.jpeg",
+      "ntsGenres": [
+        "soul / rhythm & blues",
+        "disco / boogie"
+      ],
+      "url": "https://www.nts.live/shows/music-4-lovers"
+    },
+    {
+      "alias": "sendspaace",
+      "name": "Sendspaace ",
+      "description": "Jamie Hudson brings a monthly hour of hyper-terrestial, futuristic sounds straight from the information superhighway.",
+      "location": "Stockholm",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/c0e55b42-f813-4fd9-bbae-e71b84750674_1509580800.jpeg",
+      "ntsGenres": [
+        "avant garde",
+        "house / techno"
+      ],
+      "url": "https://www.nts.live/shows/sendspaace"
+    },
     {
       "alias": "the-nts-guide-to",
       "name": "NTS Guide to…",
@@ -121,18 +145,6 @@
       "url": "https://www.nts.live/shows/otaku"
     },
     {
-      "alias": "music-4-lovers",
-      "name": "Music 4 Lovers w/ Jabu & Andy Payback",
-      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
-      "location": "Bristol",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/96f7fce5-d784-4e2b-9f3a-93a105f0c8b8_1641600000.jpeg",
-      "ntsGenres": [
-        "soul / rhythm & blues",
-        "disco / boogie"
-      ],
-      "url": "https://www.nts.live/shows/music-4-lovers"
-    },
-    {
       "alias": "homeshake",
       "name": "Homeshake",
       "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
@@ -144,18 +156,6 @@
         "hip-hop / r'n'b"
       ],
       "url": "https://www.nts.live/shows/homeshake"
-    },
-    {
-      "alias": "sendspaace",
-      "name": "Sendspaace ",
-      "description": "Jamie Hudson brings a monthly hour of hyper-terrestial, futuristic sounds straight from the information superhighway.",
-      "location": "Stockholm",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/c0e55b42-f813-4fd9-bbae-e71b84750674_1509580800.jpeg",
-      "ntsGenres": [
-        "avant garde",
-        "house / techno"
-      ],
-      "url": "https://www.nts.live/shows/sendspaace"
     },
     {
       "alias": "sacred-space",
