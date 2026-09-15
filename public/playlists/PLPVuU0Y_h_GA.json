@@ -2,7 +2,7 @@
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
  "trackCount": 31,
- "syncedAt": "2026-09-14T14:47:23.886486Z",
+ "syncedAt": "2026-09-15T13:11:53.526779Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -173,13 +173,6 @@
    "duration": "4:17"
   },
   {
-   "title": "Lichen Trip",
-   "artist": "Bibio;Dorian Concept",
-   "album": "Lichen Trip",
-   "videoId": "JH0W22fMS-4",
-   "duration": "2:51"
-  },
-  {
    "title": "Insect Near Piha Beach",
    "artist": "Four Tet",
    "album": "Sixteen Oceans",
@@ -220,6 +213,13 @@
    "album": "I Can See",
    "videoId": "C_pe79dPS_o",
    "duration": "4:58"
+  },
+  {
+   "title": "Crystal Hole",
+   "artist": "OTTO",
+   "album": "Clam Day",
+   "videoId": "hdQkTScsEsE",
+   "duration": "2:57"
   }
  ]
 }

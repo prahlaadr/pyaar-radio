@@ -1,8 +1,8 @@
 {
  "playlistId": "PLbYIyiDVhk-4",
  "title": "9laad:Garage",
- "trackCount": 12,
- "syncedAt": "2026-09-14T14:47:23.886486Z",
+ "trackCount": 51,
+ "syncedAt": "2026-09-15T13:11:53.526779Z",
  "tracks": [
   {
    "title": "Has It Come to This?",
@@ -87,6 +87,279 @@
    "album": "Fantastic Formula 2",
    "videoId": "cqFjKRGgoT8",
    "duration": "5:19"
+  },
+  {
+   "title": "Assumptions",
+   "artist": "Sam Gellaitry",
+   "album": "IV",
+   "videoId": "Z28jtA4Cjvw",
+   "duration": "3:41"
+  },
+  {
+   "title": "LONG DISTANCE",
+   "artist": "Sam Gellaitry",
+   "album": "Escapism",
+   "videoId": "8Aa0SSWvWOE",
+   "duration": "3:40"
+  },
+  {
+   "title": "Duo",
+   "artist": "Sam Gellaitry",
+   "album": "Duo",
+   "videoId": "yZrPCbkoDxc",
+   "duration": "2:07"
+  },
+  {
+   "title": "NEW WAVE",
+   "artist": "Sam Gellaitry",
+   "album": "NEW WAVE",
+   "videoId": "1etP3kuWTlY",
+   "duration": "3:49"
+  },
+  {
+   "title": "SEROTONIN",
+   "artist": "Sam Gellaitry",
+   "album": "SEROTONIN",
+   "videoId": "Qk3YNtKtNmU",
+   "duration": "1:36"
+  },
+  {
+   "title": "START UP A RUMOUR",
+   "artist": "Sam Gellaitry",
+   "album": "START UP A RUMOUR",
+   "videoId": "9RlMOT_mlq0",
+   "duration": "3:21"
+  },
+  {
+   "title": "HYENA",
+   "artist": "Sam Gellaitry",
+   "album": "Escapism",
+   "videoId": "6heP8X0AYtk",
+   "duration": "3:37"
+  },
+  {
+   "title": "CURIOUS (feat. Toro y Moi)",
+   "artist": "Sam Gellaitry",
+   "album": "CURIOUS",
+   "videoId": "iZvMXFAm8-E",
+   "duration": "3:51"
+  },
+  {
+   "title": "Viewfinder",
+   "artist": "Sam Gellaitry",
+   "album": "Viewfinder Vol. 1: PHOSPHENE",
+   "videoId": "9heiS8CPTvk",
+   "duration": "4:26"
+  },
+  {
+   "title": "GULLIBLE",
+   "artist": "Sam Gellaitry",
+   "album": "GULLIBLE",
+   "videoId": "-mcXlJiPcv0",
+   "duration": "3:13"
+  },
+  {
+   "title": "So U Kno",
+   "artist": "Overmono",
+   "album": "Good Lies",
+   "videoId": "9NiJF638E2k",
+   "duration": "5:44"
+  },
+  {
+   "title": "Gunk",
+   "artist": "Overmono",
+   "album": "Gunk",
+   "videoId": "BoFt7GuCG5E",
+   "duration": "5:15"
+  },
+  {
+   "title": "Bby",
+   "artist": "Overmono",
+   "album": "Diamond Cut / Bby",
+   "videoId": "-c8m9GisuQg",
+   "duration": "5:44"
+  },
+  {
+   "title": "Freedom 2",
+   "artist": "Kwengface;Joy Orbison;Overmono",
+   "album": "Freedom 2",
+   "videoId": "WjL6BHvg9m0",
+   "duration": "3:27"
+  },
+  {
+   "title": "Good Lies",
+   "artist": "Overmono",
+   "album": "Good Lies",
+   "videoId": "ioGlU73zXMk",
+   "duration": "2:41"
+  },
+  {
+   "title": "Gfortune",
+   "artist": "Overmono",
+   "album": "Gfortune",
+   "videoId": "GTSbLxRuuBc",
+   "duration": "3:20"
+  },
+  {
+   "title": "If U Ever",
+   "artist": "Overmono",
+   "album": "If U Ever",
+   "videoId": "cteunFVU4kw",
+   "duration": "4:49"
+  },
+  {
+   "title": "Daisy Chain",
+   "artist": "Overmono",
+   "album": "Raft Living",
+   "videoId": "XwftW1z8how",
+   "duration": "6:47"
+  },
+  {
+   "title": "I Have a Love (Overmono Remix)",
+   "artist": "For Those I Love;Overmono",
+   "album": "I Have a Love (Overmono Remix)",
+   "videoId": "SP9E_CTCkc4",
+   "duration": "6:07"
+  },
+  {
+   "title": "Joy",
+   "artist": "salute",
+   "album": "Joy",
+   "videoId": "B9FxpLNDdts",
+   "duration": "4:42"
+  },
+  {
+   "title": "Peach",
+   "artist": "salute;Sammy Virji",
+   "album": "Peach",
+   "videoId": "4SOeAzErjxM",
+   "duration": "5:46"
+  },
+  {
+   "title": "Honey",
+   "artist": "Salute",
+   "album": "Condition",
+   "videoId": "JkE_vnjw934",
+   "duration": "4:35"
+  },
+  {
+   "title": "Wait For It",
+   "artist": "salute",
+   "album": "Wait For It",
+   "videoId": "GkCzrSRqtJ4",
+   "duration": "4:00"
+  },
+  {
+   "title": "All About U",
+   "artist": "Salute",
+   "album": "Condition II",
+   "videoId": "EPsZkh1Xl6k",
+   "duration": "3:46"
+  },
+  {
+   "title": "Feel The Same",
+   "artist": "Salute",
+   "album": "Feel The Same",
+   "videoId": "Wqzbne_NDwE",
+   "duration": "4:26"
+  },
+  {
+   "title": "Nostalgia '96",
+   "artist": "Salute",
+   "album": "Nostalgia '96",
+   "videoId": "MR7WzMcq-WU",
+   "duration": "3:49"
+  },
+  {
+   "title": "JTS",
+   "artist": "Salute",
+   "album": "JTS",
+   "videoId": "9oS4XRlRj7I",
+   "duration": "2:52"
+  },
+  {
+   "title": "Kudi",
+   "artist": "Salute",
+   "album": "Condition III",
+   "videoId": "oEcSlOYMX54",
+   "duration": "5:00"
+  },
+  {
+   "title": "Slow Burner",
+   "artist": "Interplanetary Criminal;Original Koffee",
+   "album": "Slow Burner",
+   "videoId": "odduJxGqmjQ",
+   "duration": "3:33"
+  },
+  {
+   "title": "Gunman (feat. Riko Dan)",
+   "artist": "Interplanetary Criminal",
+   "album": "ATW007",
+   "videoId": "swypbOyl7bU",
+   "duration": "3:32"
+  },
+  {
+   "title": "No Time (feat. SadBoi)",
+   "artist": "Interplanetary Criminal",
+   "album": "No Time",
+   "videoId": "ATlt8_8u898",
+   "duration": "2:52"
+  },
+  {
+   "title": "Races (feat. Blanco)",
+   "artist": "Interplanetary Criminal",
+   "album": "Races",
+   "videoId": "JwMJOiux9Gc",
+   "duration": "2:21"
+  },
+  {
+   "title": "Fón Póca (feat. Travy)",
+   "artist": "Interplanetary Criminal",
+   "album": "Fón Póca",
+   "videoId": "hD3SdqEInkQ",
+   "duration": "3:38"
+  },
+  {
+   "title": "Reckless (feat. Lily McKenzie)",
+   "artist": "Interplanetary Criminal;Todd Edwards",
+   "album": "Reckless",
+   "videoId": "4KSOIi14GLY",
+   "duration": "3:55"
+  },
+  {
+   "title": "Manchester",
+   "artist": "Interplanetary Criminal",
+   "album": "ATW007",
+   "videoId": "7nJ-tXmliN8",
+   "duration": "5:26"
+  },
+  {
+   "title": "In My Arms ",
+   "artist": "Interplanetary Criminal",
+   "album": "In My Arms ",
+   "videoId": "YeGbUJWJOfk",
+   "duration": "5:09"
+  },
+  {
+   "title": "Badman Control",
+   "artist": "Interplanetary Criminal, Main Phase, & ATW",
+   "album": "ATW018",
+   "videoId": "sHJ0z96BpUA",
+   "duration": "3:35"
+  },
+  {
+   "title": "Don't Hurt Me",
+   "artist": "Interplanetary Criminal;Porij",
+   "album": "Don't Hurt Me",
+   "videoId": "nJG-z5c2Ft4",
+   "duration": "3:32"
+  },
+  {
+   "title": "Wut",
+   "artist": "Girl Unit",
+   "album": "Wut",
+   "videoId": "XOj2z6UGr8Q",
+   "duration": "7:00"
   }
  ]
 }
