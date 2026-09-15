@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-14T14:50:39Z",
+  "syncedAt": "2026-09-15T13:17:21Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
     {
       "alias": "music-4-lovers",
       "name": "Music 4 Lovers w/ Jabu & Andy Payback",
@@ -24,15 +33,6 @@
         "house / techno"
       ],
       "url": "https://www.nts.live/shows/sendspaace"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "tana-yonas",
