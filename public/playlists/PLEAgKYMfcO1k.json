@@ -1,36 +1,7 @@
 {
  "playlistId": "PLEAgKYMfcO1k",
  "title": "Color mix",
- "trackCount": 4,
- "syncedAt": "2026-09-16T13:12:25.943463Z",
- "tracks": [
-  {
-   "title": "Lemonade",
-   "artist": "Gucci Mane",
-   "album": "The State vs. Radric Davis",
-   "videoId": "14CskUt_OjM",
-   "duration": "4:07"
-  },
-  {
-   "title": "Red Room",
-   "artist": "Hiatus Kaiyote",
-   "album": "Mood Valiant",
-   "videoId": "qaVrj19CltY",
-   "duration": "3:53"
-  },
-  {
-   "title": "Mr. Blue Sky",
-   "artist": "Electric Light Orchestra",
-   "album": "All Over The World: The Very Best Of ELO",
-   "videoId": "wuJIqmha2Hk",
-   "duration": "5:03"
-  },
-  {
-   "title": "Pink + White",
-   "artist": "Frank Ocean",
-   "album": "Blonde",
-   "videoId": "9cHbvRUALrc",
-   "duration": "3:05"
-  }
- ]
+ "trackCount": 0,
+ "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "tracks": []
 }

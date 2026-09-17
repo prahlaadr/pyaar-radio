@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 285,
- "totalTracks": 81063,
- "syncedAt": "2026-09-16T13:12:25.943463Z",
+ "playlistCount": 286,
+ "totalTracks": 80362,
+ "syncedAt": "2026-09-17T13:06:16.000583Z",
  "playlists": [
+  {
+   "playlistId": "PLCiZ2xFxWWEw",
+   "title": "Z255 - The Lone Star State",
+   "trackCount": 19
+  },
   {
    "playlistId": "PLWPAdWhoNE8E",
    "title": "Shark Species - P286",
@@ -297,7 +302,7 @@
   {
    "playlistId": "PLUU31rWF7cOI",
    "title": "avalanches fanbase suggestions",
-   "trackCount": 2673
+   "trackCount": 2000
   },
   {
    "playlistId": "PLZ_kZR08Pzmk",
@@ -307,7 +312,7 @@
   {
    "playlistId": "PLEAgKYMfcO1k",
    "title": "Color mix",
-   "trackCount": 4
+   "trackCount": 0
   },
   {
    "playlistId": "PLeUck5qlo-go",
@@ -322,7 +327,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1i7RM8-5nS1jd7wpafPCSb",
    "title": "June 26",
-   "trackCount": 43
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
