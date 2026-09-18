@@ -1,7 +1,37 @@
 {
-  "syncedAt": "2026-09-17T13:38:52Z",
+  "syncedAt": "2026-09-18T13:02:27Z",
   "clientId": "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo",
   "likes": [
+    {
+      "id": 1382989060,
+      "title": "Warrior (prod. GLAIR)",
+      "user": "GLAIR",
+      "artwork": "https://i1.sndcdn.com/artworks-jtLcmuNJTzGlWBay-krHWnQ-large.jpg",
+      "permalink": "https://soundcloud.com/glairforeal/warrior",
+      "duration": 100380,
+      "genre": "",
+      "streamable": true
+    },
+    {
+      "id": 2040287420,
+      "title": "In my zone [prod. rottendowntime]",
+      "user": "GLAIR",
+      "artwork": "https://i1.sndcdn.com/artworks-L2fKNyzxfFR8zQyK-FkrWXA-large.jpg",
+      "permalink": "https://soundcloud.com/glairforeal/in-my-zone",
+      "duration": 111915,
+      "genre": "Hip-hop & Rap",
+      "streamable": true
+    },
+    {
+      "id": 2379305111,
+      "title": "GLAIR - Ain't Gotta Rush It (prod. chop) {SHOKU RADIO EXCLUSIVE}",
+      "user": "SHOKU RADIO 2.0",
+      "artwork": "https://i1.sndcdn.com/artworks-LkpJgyAy66uYYw28-DTYOVg-large.jpg",
+      "permalink": "https://soundcloud.com/shokuradio2/glair-aint-gotta-rush-it-prod",
+      "duration": 82964,
+      "genre": "Hip-hop & Rap",
+      "streamable": true
+    },
     {
       "id": 2385791040,
       "title": "RA.1053 Public Service",
@@ -457,7 +487,7 @@
       "title": "DON'T WANT FAME (prod. roro)",
       "user": "roro",
       "artwork": "https://i1.sndcdn.com/artworks-x8AtaX1xgiACs0iP-T7cfQA-large.png",
-      "permalink": "https://soundcloud.com/official-prod-roro/dont-want-fame-prod-roro",
+      "permalink": "https://soundcloud.com/rorobefr/dont-want-fame-prod-roro",
       "duration": 180062,
       "genre": "",
       "streamable": true
