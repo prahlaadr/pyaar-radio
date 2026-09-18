@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3fkDBQh3jAUv2gNZOoi4Yy",
  "title": "april 24",
  "trackCount": 37,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Lemonade",
@@ -13,7 +13,7 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "JIYO",
    "videoId": "EmjWjS5jPTA",
    "duration": "4:08"
@@ -41,7 +41,7 @@
   },
   {
    "title": "Like That",
-   "artist": "Future, Metro Boomin, & Kendrick Lamar",
+   "artist": "Future;Metro Boomin;Kendrick Lamar",
    "album": "WE DON'T TRUST YOU",
    "videoId": "Rr1Cdli5nE8",
    "duration": "4:28"
@@ -174,7 +174,7 @@
   },
   {
    "title": "Sirukki Vaasam",
-   "artist": "Santhosh Narayanan, Anand Aravindakshan, Shweta Mohan, and Vivek",
+   "artist": "Santhosh Narayanan;Anand Aravindakshan;Shweta Mohan;Vivek",
    "album": "Kodi (Original Motion Picture Soundtrack)",
    "videoId": "4WSxp-9Eddw",
    "duration": "4:35"

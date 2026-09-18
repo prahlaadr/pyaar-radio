@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3tk90TCrW3CywxhtvS6a1o",
  "title": "the diaspora",
  "trackCount": 192,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Dhundhala",
@@ -167,7 +167,7 @@
   },
   {
    "title": "Kangna (feat. Master Rakesh, Shortie & Deepti)",
-   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti & Dr Zeus",
+   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti;Dr Zeus",
    "album": "Unda Da Influence",
    "videoId": "xJBXykszan0",
    "duration": "3:31"
@@ -328,7 +328,7 @@
   },
   {
    "title": "Kangna (feat. Master Rakesh, Shortie & Deepti)",
-   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti & Dr Zeus",
+   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti;Dr Zeus",
    "album": "Unda Da Influence",
    "videoId": "xJBXykszan0",
    "duration": "3:31"
@@ -412,7 +412,7 @@
   },
   {
    "title": "Dream",
-   "artist": "KSHMR, Ikka, & Karra",
+   "artist": "KSHMR;Ikka;Karra",
    "album": "KARAM",
    "videoId": "2b8EbHBZ4OA",
    "duration": "3:02"
@@ -545,7 +545,7 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "JIYO",
    "videoId": "EmjWjS5jPTA",
    "duration": "4:08"
@@ -573,7 +573,7 @@
   },
   {
    "title": "8 ASLE (feat. Gurlez Akhtar)",
-   "artist": "Sukha, Chani Nattan, & Prodgk",
+   "artist": "Sukha;Chani Nattan;Prodgk",
    "album": "UNDISPUTED",
    "videoId": "VIDdpvKFBLI",
    "duration": "2:41"
@@ -615,7 +615,7 @@
   },
   {
    "title": "Khwabida",
-   "artist": "Bharg, Rohh, & Badshah",
+   "artist": "Bharg;Rohh;Badshah",
    "album": "Crew (Original Motion Picture Soundtrack)",
    "videoId": "0E6OKz8567A",
    "duration": "3:13"
@@ -762,7 +762,7 @@
   },
   {
    "title": "Aaja (feat. The Rish)",
-   "artist": "Shreya Jain, Gravity, & Dropped Out",
+   "artist": "Shreya Jain;Gravity;Dropped Out",
    "album": "Bawari",
    "videoId": "pnuzrs5E3a4",
    "duration": "2:59"
@@ -867,7 +867,7 @@
   },
   {
    "title": "Wavy",
-   "artist": "Karan Aujla & Jay Trak",
+   "artist": "Karan Aujla;Jay Trak",
    "album": "Wavy",
    "videoId": "qlOwSBYKD6g",
    "duration": "2:41"
@@ -902,7 +902,7 @@
   },
   {
    "title": "HEAT",
-   "artist": "Jasmine Sandlas, Mofusion, & Kaptaan",
+   "artist": "Jasmine Sandlas;Mofusion;Kaptaan",
    "album": "HEAT",
    "videoId": "Vz-kHjIWx-o",
    "duration": "2:47"
@@ -951,7 +951,7 @@
   },
   {
    "title": "Tu Te Kehndi C",
-   "artist": "Bohemia & DIVINE",
+   "artist": "Bohemia;DIVINE",
    "album": "I Am ICON",
    "videoId": "PJbhFZcZwJY",
    "duration": "3:19"
@@ -1000,7 +1000,7 @@
   },
   {
    "title": "Vair (feat. Sukh Sandhu)",
-   "artist": "G. Sidhu, J-Statik, & Sukh Sandhu",
+   "artist": "G. Sidhu;J-Statik;Sukh Sandhu",
    "album": "Wildcard",
    "videoId": "5g6nC0PEsWY",
    "duration": "2:13"
@@ -1021,7 +1021,7 @@
   },
   {
    "title": "Dangerous",
-   "artist": "Vidya Vox & Nikhita Gandhi",
+   "artist": "Vidya Vox;Nikhita Gandhi",
    "album": "Sundari",
    "videoId": "isDWMCUYjpI",
    "duration": "2:09"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "BETWEEN FLOWERS",
-   "artist": "OAFF, Amira Gill, & Manreet Khara",
+   "artist": "OAFF;Amira Gill;Manreet Khara",
    "album": "Between Flowers",
    "videoId": "6fll5T6njmo",
    "duration": "3:01"
@@ -1105,7 +1105,7 @@
   },
   {
    "title": "Still Charming",
-   "artist": "Raf Saperra & JSK",
+   "artist": "Raf Saperra;JSK",
    "album": "She Loves Me, She Loves Me Not...",
    "videoId": "JN2AdzyfpYk",
    "duration": "3:11"
@@ -1196,7 +1196,7 @@
   },
   {
    "title": "car keys",
-   "artist": "Tsumyoki, venserto, & lil help",
+   "artist": "Tsumyoki;venserto;lil help",
    "album": "car keys",
    "videoId": "is8-KQFSLrg",
    "duration": "2:38"
@@ -1308,21 +1308,21 @@
   },
   {
    "title": "FOREVER",
-   "artist": "OAFF & Pratika Gopinath",
+   "artist": "OAFF;Pratika Gopinath",
    "album": "Between Flowers",
    "videoId": "3LwlwQ2fdmI",
    "duration": "2:04"
   },
   {
    "title": "TRIP",
-   "artist": "REHMA & Shreea Kaul",
+   "artist": "REHMA;Shreea Kaul",
    "album": "TRIP",
    "videoId": "N3Ed4bjbfhg",
    "duration": "3:07"
   },
   {
    "title": "Tera Mera",
-   "artist": "PRP, Prithvi Shetty, & Ku Karm",
+   "artist": "PRP;Prithvi Shetty;Ku Karm",
    "album": "Tera Mera",
    "videoId": "GGTKR15sp4c",
    "duration": "1:55"

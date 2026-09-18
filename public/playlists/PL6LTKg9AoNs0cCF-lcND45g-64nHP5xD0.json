@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",
  "title": "clubby (goated) ",
  "trackCount": 208,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Love Cry (Joy Orbison Remix)",
@@ -69,7 +69,7 @@
   },
   {
    "title": "A Break from the Ads",
-   "artist": "Blue Ringed Baby, PRI, & not ur bride",
+   "artist": "Blue Ringed Baby;PRI;not ur bride",
    "album": "Born Online",
    "videoId": "a2pLs6Ws7gU",
    "duration": "3:33"
@@ -286,7 +286,7 @@
   },
   {
    "title": "PLZR",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "State of Emergency",
    "videoId": "YnV9yXQ7MOM",
    "duration": "5:20"
@@ -559,7 +559,7 @@
   },
   {
    "title": "Badman Control",
-   "artist": "Interplanetary Criminal, Main Phase, & ATW",
+   "artist": "Interplanetary Criminal;Main Phase;ATW",
    "album": "ATW018",
    "videoId": "sHJ0z96BpUA",
    "duration": "3:35"
@@ -706,7 +706,7 @@
   },
   {
    "title": "So Lo Dici Te",
-   "artist": "Wax Thief & Xirita",
+   "artist": "Wax Thief;Xirita",
    "album": "Flip Side",
    "videoId": "-0Dx7QokXlM",
    "duration": "3:03"
@@ -839,14 +839,14 @@
   },
   {
    "title": "All My Friends (ATRIP Remix)",
-   "artist": "Barry Can’t Swim & ATRIP",
+   "artist": "Barry Can’t Swim;ATRIP",
    "album": "All My Friends (ATRIP Remix)",
    "videoId": "GmCh3F8TqZk",
    "duration": "3:48"
   },
   {
    "title": "Sweatbox (Enzo Siragusa Remix)",
-   "artist": "Harry Wills, Mikey Sebastian, & Enzo Siragusa",
+   "artist": "Harry Wills;Mikey Sebastian;Enzo Siragusa",
    "album": "Sweatbox (Enzo Siragusa Remix)",
    "videoId": "yPdREYnzMV8",
    "duration": "3:57"
@@ -937,7 +937,7 @@
   },
   {
    "title": "Make My Body Move",
-   "artist": "Franky Rizardo & Cara Melín",
+   "artist": "Franky Rizardo;Cara Melín",
    "album": "Make My Body Move",
    "videoId": "UAorlL9OWkk",
    "duration": "3:20"
@@ -972,7 +972,7 @@
   },
   {
    "title": "Last One Standing",
-   "artist": "Sidney Charles, Kolter, & Theo Nasa",
+   "artist": "Sidney Charles;Kolter;Theo Nasa",
    "album": "Let's Pardey EP",
    "videoId": "j-oijcGRyto",
    "duration": "3:27"
@@ -1077,7 +1077,7 @@
   },
   {
    "title": "Hands Together",
-   "artist": "DJ SWISHERMAN & MAHLWERK",
+   "artist": "DJ SWISHERMAN;MAHLWERK",
    "album": "FUNK MECHANICS MWK002",
    "videoId": "6jtorSpjzyc",
    "duration": "3:57"
@@ -1182,7 +1182,7 @@
   },
   {
    "title": "Different (SBTRKT Sirens Remix)",
-   "artist": "Barry Can’t Swim & SBTRKT",
+   "artist": "Barry Can’t Swim;SBTRKT",
    "album": "Different (SBTRKT Sirens Remix)",
    "videoId": "rUIlSCsVbZk",
    "duration": "3:42"

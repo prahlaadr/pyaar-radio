@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0CGniAtrP3BiCH5Vya3IFJ",
  "title": "Sustain Release | 2025 | Year 11",
  "trackCount": 118,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Liquid Sky",
@@ -27,7 +27,7 @@
   },
   {
    "title": "Back Innit",
-   "artist": "K Wata & Sputnik One",
+   "artist": "K Wata;Sputnik One",
    "album": "N-Face; By Hook or By Crook",
    "videoId": "9OZS6vHR0WE",
    "duration": "5:26"
@@ -132,7 +132,7 @@
   },
   {
    "title": "Cowlick",
-   "artist": "Mor Elian & Rhyw",
+   "artist": "Mor Elian;Rhyw",
    "album": "Cowlick",
    "videoId": "_lMYzDIj12s",
    "duration": "4:48"
@@ -209,7 +209,7 @@
   },
   {
    "title": "In The Groove (Ayesha's Drums Are Sex Dub)",
-   "artist": "Dj Babatr & Dj Deep RH",
+   "artist": "Dj Babatr;Dj Deep RH",
    "album": "In The Groove (Ayesha's Drums Are Sex Dub)",
    "videoId": "r5YKgzSb0V0",
    "duration": "4:09"
@@ -594,7 +594,7 @@
   },
   {
    "title": "timmy chalamet",
-   "artist": "Luis & Lis Dalton",
+   "artist": "Luis;Lis Dalton",
    "album": "timmy chalamet / or anyone said it",
    "videoId": "cxwyL50-Iqo",
    "duration": "5:24"

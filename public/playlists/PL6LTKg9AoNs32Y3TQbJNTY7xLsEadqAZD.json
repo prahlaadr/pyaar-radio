@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
  "title": "SNAPS & DRUMS",
  "trackCount": 244,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Big Mouth",
@@ -832,7 +832,7 @@
   },
   {
    "title": "Guy Man",
-   "artist": "LADIPOE & Bella Shmurda",
+   "artist": "LADIPOE;Bella Shmurda",
    "album": "Guy Man",
    "videoId": "tHbu-RptSBY",
    "duration": "2:47"
@@ -1532,7 +1532,7 @@
   },
   {
    "title": "Don't Play Games",
-   "artist": "Nite-Funk, DāM-FunK, & Nite Jewel",
+   "artist": "Nite-Funk;DāM-FunK;Nite Jewel",
    "album": "Nite-Funk",
    "videoId": "WA0OFdttEYQ",
    "duration": "4:58"

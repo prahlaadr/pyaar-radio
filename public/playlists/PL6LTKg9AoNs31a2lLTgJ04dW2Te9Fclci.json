@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
  "title": "The Sound of Indian Indie",
  "trackCount": 437,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Ovotaar (feat. Shankuraj Konwar)",
@@ -13,7 +13,7 @@
   },
   {
    "title": "Ghaib",
-   "artist": "Parvaaz, Khalid Ahamed, Mir Kashif Iqbal, Fidel Anish Dsouza, and Sachin Bk",
+   "artist": "Parvaaz;Khalid Ahamed;Mir Kashif Iqbal;Fidel Anish Dsouza",
    "album": "Baran",
    "videoId": "q-TJxeZZxpc",
    "duration": "3:56"
@@ -27,7 +27,7 @@
   },
   {
    "title": "Nanpagal Neram",
-   "artist": "Kapil Kapilan, Dhruv Visvanath, & Vignesh Srikanth",
+   "artist": "Kapil Kapilan;Dhruv Visvanath;Vignesh Srikanth",
    "album": "Por",
    "videoId": "ZJDlhr9cs50",
    "duration": "3:26"
@@ -384,7 +384,7 @@
   },
   {
    "title": "Manchala Dil",
-   "artist": "Sanjeeta Bhattacharya, Sanjana Devarajan, Utsavi Jha, and Akanksha Sethi",
+   "artist": "Sanjeeta Bhattacharya;Sanjana Devarajan;Utsavi Jha;Akanksha Sethi",
    "album": "women of the now",
    "videoId": "4icfIGUJrGQ",
    "duration": "3:21"
@@ -426,7 +426,7 @@
   },
   {
    "title": "Anjaana Anjaani Ki Kahani",
-   "artist": "Nikhil D'souza, Monali Thakur, Vishal-Shekhar, and Neelesh Misra",
+   "artist": "Nikhil D'souza;Monali Thakur;Vishal-Shekhar;Neelesh Misra",
    "album": "Anjaana Anjaani",
    "videoId": "CMTsD3npz-Q",
    "duration": "4:46"
@@ -720,7 +720,7 @@
   },
   {
    "title": "Pandora Ka Dabba",
-   "artist": "Piyush Kapoor & Skrat",
+   "artist": "Piyush Kapoor;Skrat",
    "album": "Friday Night Plan (Original Motion Picture Soundtrack)",
    "videoId": "C9XQBxUU4Uk",
    "duration": "2:58"
@@ -1525,7 +1525,7 @@
   },
   {
    "title": "Color White",
-   "artist": "Parvaaz, khalid Ahamed, Mir Kashif Iqbal, Sachin BK, and Fidel Anish Dsouza",
+   "artist": "Parvaaz;khalid Ahamed;Mir Kashif Iqbal;Sachin BK",
    "album": "Color White",
    "videoId": "HlyKrrTLrcI",
    "duration": "6:40"
@@ -1539,7 +1539,7 @@
   },
   {
    "title": "Bahaane",
-   "artist": "Rahul Pais, Dhruv Visvanath, & Siddhant Kaushal",
+   "artist": "Rahul Pais;Dhruv Visvanath;Siddhant Kaushal",
    "album": "Friday Night Plan (Original Motion Picture Soundtrack)",
    "videoId": "8TDHPA6gj2Y",
    "duration": "3:33"
@@ -1588,7 +1588,7 @@
   },
   {
    "title": "Va Va Voom (From \"The Archies\")",
-   "artist": "Tejas Menon, Shankar Ehsaan Loy, & Javed Akhtar",
+   "artist": "Tejas Menon;Shankar Ehsaan Loy;Javed Akhtar",
    "album": "Va Va Voom (From \"The Archies\")",
    "videoId": "WtYxzfM5JZY",
    "duration": "2:09"
@@ -2183,7 +2183,7 @@
   },
   {
    "title": "Prey",
-   "artist": "Sid Vashi, Soopy, & Divya Lewis",
+   "artist": "Sid Vashi;Soopy;Divya Lewis",
    "album": "Azuma Kazuma",
    "videoId": "jej-7p0Aacg",
    "duration": "5:42"
@@ -2288,7 +2288,7 @@
   },
   {
    "title": "Coming Home (feat. Akanksha Grover)",
-   "artist": "Anhad + Tanner & Akanksha Grover",
+   "artist": "Anhad + Tanner;Akanksha Grover",
    "album": "In Other Words",
    "videoId": "aAYx8kLE-HU",
    "duration": "4:55"
@@ -2407,7 +2407,7 @@
   },
   {
    "title": "Dhishoom Dhishoom",
-   "artist": "Dot., Javed Akhtar, Shankar Ehsaan Loy, and Kelly Dlima",
+   "artist": "Dot.;Javed Akhtar;Shankar Ehsaan Loy;Kelly Dlima",
    "album": "The Archies (Original Motion Picture Soundtrack)",
    "videoId": "fJw-y7WnLE8",
    "duration": "2:02"
@@ -2540,7 +2540,7 @@
   },
   {
    "title": "Manzile",
-   "artist": "Advait, P.n.d.a, & Sangeetha Ramanuj",
+   "artist": "Advait;P.n.d.a;Sangeetha Ramanuj",
    "album": "Manzile",
    "videoId": "Ja4a5GbCoRw",
    "duration": "2:18"
@@ -2561,7 +2561,7 @@
   },
   {
    "title": "Roz Roz",
-   "artist": "Parvaaz, Khalid Ahamed, Mir Kashif Iqbal, Sachin Bk, and Fidel Anish Dsouza",
+   "artist": "Parvaaz;Khalid Ahamed;Mir Kashif Iqbal;Sachin Bk",
    "album": "Baran",
    "videoId": "UIhl2nhwmas",
    "duration": "4:12"
@@ -2624,7 +2624,7 @@
   },
   {
    "title": "Jab Tum Na Theen",
-   "artist": "Tejas Menon, Shankar Ehsaan Loy, Javed Akhtar, Suhana Khan, and Dot.",
+   "artist": "Tejas Menon;Shankar Ehsaan Loy;Javed Akhtar;Suhana Khan",
    "album": "The Archies (Original Motion Picture Soundtrack)",
    "videoId": "HjLDWYjITCE",
    "duration": "2:44"
@@ -2799,7 +2799,7 @@
   },
   {
    "title": "Mutual",
-   "artist": "RANJ & Clifr",
+   "artist": "RANJ;Clifr",
    "album": "Mutual",
    "videoId": "N-mzpgUb6dQ",
    "duration": "2:37"
@@ -2967,7 +2967,7 @@
   },
   {
    "title": "ALVIDA",
-   "artist": "NIKHIL D'SOUZA, SUKHWINDER SINGH, SHRUTI HASSAN, LOY MENDONSA, SHANKAR-EHSAAN-LOY, and NIRANJAN IYENGAR",
+   "artist": "NIKHIL D'SOUZA;SUKHWINDER SINGH;SHRUTI HASSAN;LOY MENDONSA",
    "album": "D-DAY",
    "videoId": "ys4qAwWgd-w",
    "duration": "5:03"
@@ -3044,7 +3044,7 @@
   },
   {
    "title": "Sit Back",
-   "artist": "Till Apes & Mary Ann Alexander",
+   "artist": "Till Apes;Mary Ann Alexander",
    "album": "Sit Back",
    "videoId": "xwX-7_xio1I",
    "duration": "3:20"

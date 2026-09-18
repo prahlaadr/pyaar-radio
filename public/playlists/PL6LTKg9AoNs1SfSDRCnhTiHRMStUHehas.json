@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1SfSDRCnhTiHRMStUHehas",
  "title": "20/20 LDN Recordings Catalogue",
  "trackCount": 551,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Rorschach",
@@ -867,7 +867,7 @@
   },
   {
    "title": "Dark Horse",
-   "artist": "Ivy Lab & Rocks FOE",
+   "artist": "Ivy Lab;Rocks FOE",
    "album": "Teacup E.P",
    "videoId": "uE2oEuXBrt8",
    "duration": "2:22"
@@ -2246,7 +2246,7 @@
   },
   {
    "title": "Dark Horse",
-   "artist": "Ivy Lab & Rocks FOE",
+   "artist": "Ivy Lab;Rocks FOE",
    "album": "Teacup E.P",
    "videoId": "uE2oEuXBrt8",
    "duration": "2:22"
@@ -2855,7 +2855,7 @@
   },
   {
    "title": "Acerbic",
-   "artist": "Mutant Joe & Yvncc",
+   "artist": "Mutant Joe;Yvncc",
    "album": "20/20, Vol. 3",
    "videoId": "jc8XKZjWP2o",
    "duration": "2:44"
@@ -2869,7 +2869,7 @@
   },
   {
    "title": "The Crossbow",
-   "artist": "Brodinski & Shapednoise",
+   "artist": "Brodinski;Shapednoise",
    "album": "20/20, Vol. 3",
    "videoId": "F_vmQeWvfXA",
    "duration": "3:14"
@@ -3429,7 +3429,7 @@
   },
   {
    "title": "Acerbic",
-   "artist": "Mutant Joe & Yvncc",
+   "artist": "Mutant Joe;Yvncc",
    "album": "20/20, Vol. 3",
    "videoId": "jc8XKZjWP2o",
    "duration": "2:44"
@@ -3443,7 +3443,7 @@
   },
   {
    "title": "The Crossbow",
-   "artist": "Brodinski & Shapednoise",
+   "artist": "Brodinski;Shapednoise",
    "album": "20/20, Vol. 3",
    "videoId": "F_vmQeWvfXA",
    "duration": "3:14"

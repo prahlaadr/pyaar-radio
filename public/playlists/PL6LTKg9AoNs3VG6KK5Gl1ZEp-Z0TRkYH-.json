@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -125,7 +125,7 @@
   },
   {
    "title": "TELL ME ((MORE))",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "TELL ME ((MORE))",
    "videoId": "kyExamXjf6g",
    "duration": "3:17"
@@ -139,7 +139,7 @@
   },
   {
    "title": "King",
-   "artist": "LYNY & Elohim",
+   "artist": "LYNY;Elohim",
    "album": "Noise To Dance To",
    "videoId": "NM49ERCAg0Q",
    "duration": "3:03"
@@ -272,14 +272,14 @@
   },
   {
    "title": "DFAL (Break It Up)",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "State of Emergency",
    "videoId": "_o76PwM-WNM",
    "duration": "4:44"
   },
   {
    "title": "PLZR",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "State of Emergency",
    "videoId": "YnV9yXQ7MOM",
    "duration": "5:20"
@@ -601,21 +601,21 @@
   },
   {
    "title": "SERENDIPITY",
-   "artist": "WondaGurl & late year",
+   "artist": "WondaGurl;late year",
    "album": "METAL TAIL",
    "videoId": "mN2XmaRj-BA",
    "duration": "3:02"
   },
   {
    "title": "SAINT",
-   "artist": "WondaGurl & Hamzaa",
+   "artist": "WondaGurl;Hamzaa",
    "album": "METAL TAIL",
    "videoId": "OU9Kw_jl96s",
    "duration": "2:33"
   },
   {
    "title": "INFERNO",
-   "artist": "WondaGurl & Crush",
+   "artist": "WondaGurl;Crush",
    "album": "METAL TAIL",
    "videoId": "EULips9nJ7U",
    "duration": "4:23"
@@ -1308,7 +1308,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Chaos In the CBD & Isaac Aesili",
+   "artist": "Chaos In the CBD;Isaac Aesili",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -1658,14 +1658,14 @@
   },
   {
    "title": "ILLEST (REMIX)",
-   "artist": "Lapgan & EXCISE DEPT",
+   "artist": "Lapgan;EXCISE DEPT",
    "album": "HISTORY THE REMIX",
    "videoId": "iwMq8uWMI28",
    "duration": "2:26"
   },
   {
    "title": "Snake Charmer",
-   "artist": "Malfnktion & Madstarbase",
+   "artist": "Malfnktion;Madstarbase",
    "album": "No Dough EP",
    "videoId": "2zrtwO7fGxg",
    "duration": "2:47"
@@ -1707,7 +1707,7 @@
   },
   {
    "title": "perfect",
-   "artist": "salute & LEILAH",
+   "artist": "salute;LEILAH",
    "album": "TRUE MAGIC",
    "videoId": "6hiRqRHK93U",
    "duration": "4:20"
@@ -1749,14 +1749,14 @@
   },
   {
    "title": "Nothing Simple",
-   "artist": "Shigeto, Tammy Lakkis, & Cleveland Thrasher",
+   "artist": "Shigeto;Tammy Lakkis;Cleveland Thrasher",
    "album": "Cherry Blossom Baby",
    "videoId": "iAIUhXTJ6Y0",
    "duration": "3:33"
   },
   {
    "title": "Ready. Set. Flex.",
-   "artist": "Shigeto, ZelooperZ, & Ian Maciak",
+   "artist": "Shigeto;ZelooperZ;Ian Maciak",
    "album": "Cherry Blossom Baby",
    "videoId": "4zWDIhuqMpU",
    "duration": "4:00"
@@ -2484,7 +2484,7 @@
   },
   {
    "title": "The Spins",
-   "artist": "Mac Miller & Empire Of The Sun",
+   "artist": "Mac Miller;Empire Of The Sun",
    "album": "K.I.D.S.",
    "videoId": "dZ5v9ujG35A",
    "duration": "3:16"
@@ -2757,7 +2757,7 @@
   },
   {
    "title": "Peace",
-   "artist": "Sango & GoldLink",
+   "artist": "Sango;GoldLink",
    "album": "North Vol. 2 (Instrumentals)",
    "videoId": "jSRM7_CXjE8",
    "duration": "2:40"
@@ -2792,7 +2792,7 @@
   },
   {
    "title": "PCP (Rickyxsan Remix) (feat. Nick Row)",
-   "artist": "KRANE & B. Lewis",
+   "artist": "KRANE;B. Lewis",
    "album": "Fallout (The Remixes)",
    "videoId": "lN_GIVc9ABQ",
    "duration": "3:19"
@@ -2820,7 +2820,7 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "JIYO",
    "videoId": "EmjWjS5jPTA",
    "duration": "4:08"
@@ -2981,7 +2981,7 @@
   },
   {
    "title": "Chameleon",
-   "artist": "Malfnktion & MadStarbase",
+   "artist": "Malfnktion;MadStarbase",
    "album": "India Gets Physical, Vol. 1 - Mixed & Compiled by Todh Teri",
    "videoId": "W-ar6Cjnw6g",
    "duration": "3:28"
@@ -3261,7 +3261,7 @@
   },
   {
    "title": "Transcendence",
-   "artist": "MEMBA & Kahani",
+   "artist": "MEMBA;Kahani",
    "album": "East Meets West",
    "videoId": "eKcSfmb_GJc",
    "duration": "4:08"
@@ -3429,21 +3429,21 @@
   },
   {
    "title": "Slow Dive",
-   "artist": "RL Grime & Bea Miller",
+   "artist": "RL Grime;Bea Miller",
    "album": "PLAY",
    "videoId": "YKINZFkVH4Q",
    "duration": "3:49"
   },
   {
    "title": "Lose My Mind",
-   "artist": "RL Grime & Reo Cragun",
+   "artist": "RL Grime;Reo Cragun",
    "album": "PLAY",
    "videoId": "uQjKZ0UV4l0",
    "duration": "3:10"
   },
   {
    "title": "Street Sweeper",
-   "artist": "RL Grime & 1nonly",
+   "artist": "RL Grime;1nonly",
    "album": "PLAY",
    "videoId": "TT3aTGFvKT0",
    "duration": "2:50"
@@ -3716,7 +3716,7 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "UNI(*)N",
    "videoId": "IQPTKmEExss",
    "duration": "4:08"
@@ -3737,7 +3737,7 @@
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "album": "KAYTRAMINÉ",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
@@ -4136,7 +4136,7 @@
   },
   {
    "title": "Palaces [Mount Kimbie Die Cuts Remix] (feat. Damon Albarn, Zelooperz & Dom Maker)",
-   "artist": "Flume & Mount Kimbie",
+   "artist": "Flume;Mount Kimbie",
    "album": "Palaces : The Remixes, Pt. 1",
    "videoId": "rL6Ls6yqmgQ",
    "duration": "3:25"
@@ -4248,7 +4248,7 @@
   },
   {
    "title": "My Room is White (Flying Lotus Remix)",
-   "artist": "Mia Doi Todd & Flying Lotus",
+   "artist": "Mia Doi Todd;Flying Lotus",
    "album": "La Ninja: Amor and Other Dreams of Manzanita",
    "videoId": "CGH5IEJqDx8",
    "duration": "3:04"
@@ -5515,7 +5515,7 @@
   },
   {
    "title": "Walk Away",
-   "artist": "Duke & Jones & Nicole Millar",
+   "artist": "Duke & Jones;Nicole Millar",
    "album": "Walk Away",
    "videoId": "yidzTc49Tio",
    "duration": "3:10"

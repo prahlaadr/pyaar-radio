@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs1MBPqKPaxo0id9RdsFoBlE",
  "title": "Full Crate Essentials",
  "trackCount": 42,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Come Thru",
-   "artist": "Full Crate, Melo-X, & Narek Nikoghosyan",
+   "artist": "Full Crate;Melo-X;Narek Nikoghosyan",
    "album": "Come Thru",
    "videoId": "tY_AD4k47gk",
    "duration": "2:55"
@@ -237,7 +237,7 @@
   },
   {
    "title": "Deeper",
-   "artist": "Full Crate & Naomi Sharon",
+   "artist": "Full Crate;Naomi Sharon",
    "album": "Deeper",
    "videoId": "44lcQ3C0Ass",
    "duration": "3:12"
@@ -251,7 +251,7 @@
   },
   {
    "title": "I'll Ride (feat. Jaimes)",
-   "artist": "Full Crate & Jaimes",
+   "artist": "Full Crate;Jaimes",
    "album": "In All Honesty",
    "videoId": "Jd1_Iqhy3R4",
    "duration": "2:39"
@@ -265,14 +265,14 @@
   },
   {
    "title": "Tell Me Why",
-   "artist": "Full Crate & SABRI",
+   "artist": "Full Crate;SABRI",
    "album": "Tell Me Why",
    "videoId": "hhvCm0hKvT8",
    "duration": "3:09"
   },
   {
    "title": "Good To U (feat. T3 of slum village & Adam Flowers)",
-   "artist": "Full Crate, Susan Carol, & A-Trak",
+   "artist": "Full Crate;Susan Carol;A-Trak",
    "album": "Good To U",
    "videoId": "iGw4cx86B_g",
    "duration": "3:10"

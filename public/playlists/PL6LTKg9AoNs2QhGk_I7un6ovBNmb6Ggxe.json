@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -237,7 +237,7 @@
   },
   {
    "title": "Ylang Ylang",
-   "artist": "FKJ & ((( O )))",
+   "artist": "FKJ;((( O )))",
    "album": "Ylang Ylang EP",
    "videoId": "mM0AqVUrxaE",
    "duration": "3:33"
@@ -3219,7 +3219,7 @@
   },
   {
    "title": "Exploration",
-   "artist": "Bruno Coulais, Mathilde Pellegrini, Laurent Petitgirard, Hungrarian Symphony Orchestra Budapest, and Helene Breschand",
+   "artist": "Bruno Coulais;Mathilde Pellegrini;Laurent Petitgirard;Hungrarian Symphony Orchestra Budapest",
    "album": "Coraline (Original Motion Picture Soundtrack)",
    "videoId": "7YYT17AS8so",
    "duration": "2:02"
@@ -3528,8 +3528,8 @@
   {
    "title": "Mary's Theme (From The \"Femina Ridens\" Soundtrack)",
    "artist": "Stelvio Cipriani",
-   "album": "Italy in Love",
-   "videoId": "UYcInuxI_iw",
+   "album": "Coastal Grandmother",
+   "videoId": "0yINcYG28Fc",
    "duration": "2:11"
   },
   {
@@ -6852,7 +6852,7 @@
   },
   {
    "title": "Silk Road",
-   "artist": "Yo-Yo Ma, Tan Dun, Chen Xie Yang, David Cossin, Shanghai Symphony Orchestra, and Shanghai National Orchestra",
+   "artist": "Yo-Yo Ma;Tan Dun;Chen Xie Yang;David Cossin",
    "album": "Martial Arts Trilogy: Crouching Tiger, Hidden Dragon, The Banquet & Hero (Music from the Soundtracks)",
    "videoId": "--DgDr7DoDQ",
    "duration": "3:06"
@@ -7510,7 +7510,7 @@
   },
   {
    "title": "The Lark Ascending",
-   "artist": "Jennifer Pike, Martin Roscoe, & Ralph Vaughan Williams",
+   "artist": "Jennifer Pike;Martin Roscoe;Ralph Vaughan Williams",
    "album": "Elgar: The Lark Ascending",
    "videoId": "bB7po4VFmG0",
    "duration": "14:19"
@@ -7692,7 +7692,7 @@
   },
   {
    "title": "Astro",
-   "artist": "sepia tones, Hixon Foster, & frumhere",
+   "artist": "sepia tones;Hixon Foster;frumhere",
    "album": "Ethereal Nights",
    "videoId": "Yal-bT_Q0us",
    "duration": "2:03"
@@ -7734,7 +7734,7 @@
   },
   {
    "title": "Spacecraft",
-   "artist": "sepia tones & frumhere",
+   "artist": "sepia tones;frumhere",
    "album": "Ethereal Nights",
    "videoId": "gDbgWeNbE9w",
    "duration": "2:33"
@@ -7748,7 +7748,7 @@
   },
   {
    "title": "Moonshine",
-   "artist": "sepia tones & Hixon Foster",
+   "artist": "sepia tones;Hixon Foster",
    "album": "Ethereal Nights",
    "videoId": "rWSJXZJgCWU",
    "duration": "2:52"
@@ -7797,7 +7797,7 @@
   },
   {
    "title": "Swaying Trees",
-   "artist": "Ornithology & Lofi Girl",
+   "artist": "Ornithology;Lofi Girl",
    "album": "Best-of lofi hip-hop 2021",
    "videoId": "46YPfc4C8Qc",
    "duration": "2:06"
@@ -10163,7 +10163,7 @@
   },
   {
    "title": "Almost Beautiful",
-   "artist": "Anna Homler, The Pylon King, & Voices of Kwahn",
+   "artist": "Anna Homler;The Pylon King;Voices of Kwahn",
    "album": "Deliquium in C",
    "videoId": "gd1OX9EEwYU",
    "duration": "4:10"
@@ -10471,7 +10471,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -10870,7 +10870,7 @@
   },
   {
    "title": "Wind On Wind",
-   "artist": "Robert Fripp & Brian Eno",
+   "artist": "Robert Fripp;Brian Eno",
    "album": "Evening Star",
    "videoId": "BIFFwoAHBGw",
    "duration": "3:14"
@@ -10989,7 +10989,7 @@
   },
   {
    "title": "Klass (Robot Koch Rework)",
-   "artist": "Tom Ashbrook & Robot Koch",
+   "artist": "Tom Ashbrook;Robot Koch",
    "album": "k o : d a",
    "videoId": "FHQDWHite5c",
    "duration": "6:08"
@@ -11871,7 +11871,7 @@
   },
   {
    "title": "main menu",
-   "artist": "Medasin & MAE.SUN",
+   "artist": "Medasin;MAE.SUN",
    "album": "sounds",
    "videoId": "pm5EQbD8x7g",
    "duration": "3:04"
@@ -11885,21 +11885,21 @@
   },
   {
    "title": "gates",
-   "artist": "Medasin & MAE.SUN",
+   "artist": "Medasin;MAE.SUN",
    "album": "sounds",
    "videoId": "0OqJ-IYPkUs",
    "duration": "3:19"
   },
   {
    "title": "magic",
-   "artist": "Medasin, MAE.SUN, & Sara Kawai",
+   "artist": "Medasin;MAE.SUN;Sara Kawai",
    "album": "sounds",
    "videoId": "9ytiyD_QA2s",
    "duration": "5:57"
   },
   {
    "title": "remembering",
-   "artist": "Medasin, Sara Kawai, & Keyhan",
+   "artist": "Medasin;Sara Kawai;Keyhan",
    "album": "sounds",
    "videoId": "wsPetH2Fbho",
    "duration": "3:09"
@@ -12137,7 +12137,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "akz-HYpkwJA",
    "duration": "12:51"
@@ -12606,7 +12606,7 @@
   },
   {
    "title": "Belleville",
-   "artist": "Laurel Halo, Coby Sey, Lucy Railton, and James Underwood",
+   "artist": "Laurel Halo;Coby Sey;Lucy Railton;James Underwood",
    "album": "Atlas",
    "videoId": "qIApF87mjVI",
    "duration": "2:26"
@@ -12844,7 +12844,7 @@
   },
   {
    "title": "A Break from the Ads",
-   "artist": "Blue Ringed Baby, PRI, & not ur bride",
+   "artist": "Blue Ringed Baby;PRI;not ur bride",
    "album": "Born Online",
    "videoId": "a2pLs6Ws7gU",
    "duration": "3:33"
@@ -13278,7 +13278,7 @@
   },
   {
    "title": "close your eyes",
-   "artist": "tomcbumpz & Ivri",
+   "artist": "tomcbumpz;Ivri",
    "album": "comfortable silence",
    "videoId": "PjpZDv58ZvQ",
    "duration": "1:29"
@@ -13348,8 +13348,8 @@
   },
   {
    "title": "H8R",
-   "artist": "MADGE - Topic",
-   "album": "",
+   "artist": "Madge",
+   "album": "Ethanol",
    "videoId": "zBxpAN7BSu0",
    "duration": "2:17"
   },
@@ -13439,8 +13439,8 @@
   },
   {
    "title": "Waterdrum",
-   "artist": "Woo - Topic",
-   "album": "",
+   "artist": "Woo",
+   "album": "It's Cosy Inside",
    "videoId": "qLE_XUJmPXc",
    "duration": "2:26"
   },
@@ -13544,8 +13544,8 @@
   },
   {
    "title": "Zebra",
-   "artist": "Daniel Lopatin - Topic",
-   "album": "",
+   "artist": "Oneohtrix Point Never",
+   "album": "R Plus Seven",
    "videoId": "t9FT7bPvEBU",
    "duration": "6:45"
   },
@@ -13558,7 +13558,7 @@
   },
   {
    "title": "Girlfriend",
-   "artist": "Woesum & Yung Sherman",
+   "artist": "Woesum;Yung Sherman",
    "album": "Paradise Tree",
    "videoId": "6Y3zM3SToHo",
    "duration": "2:04"
@@ -13572,8 +13572,8 @@
   },
   {
    "title": "wreck",
-   "artist": "rei harakami - Topic",
-   "album": "",
+   "artist": "rei harakami",
+   "album": "Unrest",
    "videoId": "rjtS_lh3Vto",
    "duration": "1:28"
   },
@@ -13586,8 +13586,8 @@
   },
   {
    "title": "marche",
-   "artist": "Shuttle358 - Topic",
-   "album": "",
+   "artist": "Shuttle358",
+   "album": "Chessa",
    "videoId": "0xSBncbU2ak",
    "duration": "5:22"
   },
@@ -13796,8 +13796,8 @@
   },
   {
    "title": "What She Wants",
-   "artist": "Femme It Forward - Topic",
-   "album": "",
+   "artist": "Femme It Forward;Asiahn;ELHAE",
+   "album": "What She Wants",
    "videoId": "kl5e3gcZVrc",
    "duration": "3:24"
   },
@@ -13817,15 +13817,15 @@
   },
   {
    "title": "Fli",
-   "artist": "Other Nothing - Topic",
-   "album": "",
+   "artist": "Other Nothing",
+   "album": "Not Songs",
    "videoId": "OWMbDkN3cSo",
    "duration": "1:26"
   },
   {
    "title": "Take Me In",
-   "artist": "Joanne Robertson - Topic",
-   "album": "",
+   "artist": "Joanne Robertson",
+   "album": "Blue Car",
    "videoId": "0KJD0dhpc7o",
    "duration": "2:51"
   },
@@ -13859,8 +13859,8 @@
   },
   {
    "title": "Sakura",
-   "artist": "Devon Hendryx - Topic",
-   "album": "",
+   "artist": "Devon Hendryx",
+   "album": "The Ghost~Pop Tape (Remastered + Original)",
    "videoId": "cOtBFLuxp_Y",
    "duration": "2:05"
   },
@@ -13957,8 +13957,8 @@
   },
   {
    "title": "Moderato",
-   "artist": "Astrid Sonne - Topic",
-   "album": "",
+   "artist": "Astrid Sonne",
+   "album": "outside of your lifetime",
    "videoId": "SkEF0uO3PTc",
    "duration": "3:58"
   },
@@ -14013,7 +14013,7 @@
   },
   {
    "title": "0ffshoot",
-   "artist": "Blue Ringed Baby & psysphoria",
+   "artist": "Blue Ringed Baby;psysphoria",
    "album": "0ffshoot",
    "videoId": "0mnX04EAHfY",
    "duration": "3:51"
@@ -14048,7 +14048,7 @@
   },
   {
    "title": "EAr blow out [108.120 BPM]",
-   "artist": "Vegyn & Mk.Gee",
+   "artist": "Vegyn;Mk.Gee",
    "album": "Don't Follow Me Because I'm Lost Too!!",
    "videoId": "Bnq1gefEws4",
    "duration": "1:40"

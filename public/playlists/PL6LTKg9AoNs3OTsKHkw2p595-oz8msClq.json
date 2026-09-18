@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3OTsKHkw2p595-oz8msClq",
  "title": "master of booty innovation and development",
  "trackCount": 1021,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Can't Relate (feat. YBN Nahmir & YG)",
@@ -335,7 +335,7 @@
   },
   {
    "title": "Right Now (feat. Cochise)",
-   "artist": "Internet Money & TyFontaine",
+   "artist": "Internet Money;TyFontaine",
    "album": "B4 The Storm",
    "videoId": "6WHhnUAiPr8",
    "duration": "2:59"
@@ -3912,7 +3912,7 @@
   },
   {
    "title": "Diamonds",
-   "artist": "Lil Yachty, Danny Wolf, & Pollari",
+   "artist": "Lil Yachty;Danny Wolf;Pollari",
    "album": "Diamonds",
    "videoId": "vrqW_kcqkFo",
    "duration": "2:47"
@@ -6033,7 +6033,7 @@
   },
   {
    "title": "Unlimited Skills",
-   "artist": "Brandon Bill$ & DaniLeigh",
+   "artist": "Brandon Bill$;DaniLeigh",
    "album": "Unlimited Skills",
    "videoId": "0Kie1i-d8YQ",
    "duration": "1:51"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2WjKXxAiMEzx7rJ6Xm95eH",
  "title": "nov 24",
  "trackCount": 71,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Brandon Ingram",
@@ -139,7 +139,7 @@
   },
   {
    "title": "FAKE LOVE",
-   "artist": "Cochise & Veeze",
+   "artist": "Cochise;Veeze",
    "album": "WHY ALWAYS ME?",
    "videoId": "LwHJr0dwbrA",
    "duration": "2:59"
@@ -300,7 +300,7 @@
   },
   {
    "title": "Let's Get It",
-   "artist": "Rich The Kid, Kodak Black, & Lil Crix",
+   "artist": "Rich The Kid;Kodak Black;Lil Crix",
    "album": "Rich Forever 5",
    "videoId": "6XzeuJ8PsqA",
    "duration": "2:30"
@@ -433,7 +433,7 @@
   },
   {
    "title": "Ready. Set. Flex.",
-   "artist": "Shigeto, ZelooperZ, & Ian Maciak",
+   "artist": "Shigeto;ZelooperZ;Ian Maciak",
    "album": "Cherry Blossom Baby",
    "videoId": "4zWDIhuqMpU",
    "duration": "4:00"
@@ -475,7 +475,7 @@
   },
   {
    "title": "Nothing Simple",
-   "artist": "Shigeto, Tammy Lakkis, & Cleveland Thrasher",
+   "artist": "Shigeto;Tammy Lakkis;Cleveland Thrasher",
    "album": "Cherry Blossom Baby",
    "videoId": "iAIUhXTJ6Y0",
    "duration": "3:33"

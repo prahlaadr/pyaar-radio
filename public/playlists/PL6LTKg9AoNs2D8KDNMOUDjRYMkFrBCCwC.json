@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
  "title": " southside rami ",
  "trackCount": 87,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "O Let's Do It (feat. Cap)",
@@ -118,7 +118,7 @@
   },
   {
    "title": "FAKE LOVE",
-   "artist": "Cochise & Veeze",
+   "artist": "Cochise;Veeze",
    "album": "WHY ALWAYS ME?",
    "videoId": "LwHJr0dwbrA",
    "duration": "2:59"
@@ -132,7 +132,7 @@
   },
   {
    "title": "Let's Get It",
-   "artist": "Rich The Kid, Kodak Black, & Lil Crix",
+   "artist": "Rich The Kid;Kodak Black;Lil Crix",
    "album": "Rich Forever 5",
    "videoId": "6XzeuJ8PsqA",
    "duration": "2:30"
@@ -216,7 +216,7 @@
   },
   {
    "title": "MiKeToMlIn (feat. TiaCorine)",
-   "artist": "TisaKorean & Tia Corine",
+   "artist": "TisaKorean;Tia Corine",
    "album": "In Silly We Trust",
    "videoId": "ku7km1LwSFQ",
    "duration": "3:05"

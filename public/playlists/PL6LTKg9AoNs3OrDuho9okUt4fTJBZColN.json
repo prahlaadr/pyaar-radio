@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3OrDuho9okUt4fTJBZColN",
  "title": "bolly ween",
  "trackCount": 238,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "DESTINY",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Soundcloud 666",
-   "artist": "Synova & Acyan",
+   "artist": "Synova;Acyan",
    "album": "The Death of the Internet",
    "videoId": "65_TmprmvvM",
    "duration": "3:21"
@@ -62,7 +62,7 @@
   },
   {
    "title": "Shikayat",
-   "artist": "Archana Gore, Aditi Paul, Dipti, Trannum, Kalpana, Rucha, Archana, Pragti, and Sanjay Leela Bhansali",
+   "artist": "Archana Gore;Aditi Paul;Dipti;Trannum",
    "album": "Gangubai Kathiawadi",
    "videoId": "epDIIPkfCtE",
    "duration": "4:10"
@@ -146,7 +146,7 @@
   },
   {
    "title": "TITAN",
-   "artist": "Aroha & Schlnglein",
+   "artist": "Aroha;Schlnglein",
    "album": "TITAN",
    "videoId": "NT-3l8kJdi8",
    "duration": "3:49"
@@ -216,7 +216,7 @@
   },
   {
    "title": "S e x",
-   "artist": "George Riley & Hudson Mohawke",
+   "artist": "George Riley;Hudson Mohawke",
    "album": "S e x",
    "videoId": "_mOaOlMv8kg",
    "duration": "3:02"
@@ -265,7 +265,7 @@
   },
   {
    "title": "Could It Be",
-   "artist": "Hex Cougar, Malixe, & Rhode",
+   "artist": "Hex Cougar;Malixe;Rhode",
    "album": "Chemicals",
    "videoId": "sJIYjv-OxwM",
    "duration": "3:26"
@@ -314,7 +314,7 @@
   },
   {
    "title": "Mangta Hai Kya",
-   "artist": "A. R. Rahman, Shwetha Shetty, & Mehboob",
+   "artist": "A. R. Rahman;Shwetha Shetty;Mehboob",
    "album": "Rangeela (Original Motion Picture Soundtrack)",
    "videoId": "gB2gnujkHbY",
    "duration": "6:46"
@@ -377,7 +377,7 @@
   },
   {
    "title": "HAWT",
-   "artist": "Hydraulix & Oski",
+   "artist": "Hydraulix;Oski",
    "album": "HAWT",
    "videoId": "MBId-7j0sio",
    "duration": "3:50"
@@ -426,7 +426,7 @@
   },
   {
    "title": "No Boys Allowed (OG House Mix)",
-   "artist": "Mochakk & Tommy Genesis",
+   "artist": "Mochakk;Tommy Genesis",
    "album": "Locomotiva Ibiza 2099 II",
    "videoId": "P4hnwAjteuQ",
    "duration": "5:53"
@@ -454,7 +454,7 @@
   },
   {
    "title": "Chandni",
-   "artist": "Sachet Tandon, Parampara Tandon, & B Praak",
+   "artist": "Sachet Tandon;Parampara Tandon;B Praak",
    "album": "Chandni",
    "videoId": "F8BqasdahrM",
    "duration": "4:09"
@@ -524,7 +524,7 @@
   },
   {
    "title": "MAR JAWAAN",
-   "artist": "SHRUTI PATHAK, SALIM MERCHANT, & IRFAN SIDDIQUI",
+   "artist": "SHRUTI PATHAK;SALIM MERCHANT;IRFAN SIDDIQUI",
    "album": "FASHION",
    "videoId": "SJPo9PRSI2E",
    "duration": "3:57"
@@ -587,7 +587,7 @@
   },
   {
    "title": "DAMNED",
-   "artist": "Silcrow & Capshun",
+   "artist": "Silcrow;Capshun",
    "album": "Sable Valley Summer Vol. 5",
    "videoId": "E6yY9DvY10I",
    "duration": "3:11"
@@ -636,14 +636,14 @@
   },
   {
    "title": "Wajood",
-   "artist": "Prabh Deep & Scuti",
+   "artist": "Prabh Deep;Scuti",
    "album": "DSP",
    "videoId": "Yy8cugf12OU",
    "duration": "4:31"
   },
   {
    "title": "Rapha",
-   "artist": "Prabh Deep & Scuti",
+   "artist": "Prabh Deep;Scuti",
    "album": "DSP",
    "videoId": "zv-sUXLiaUE",
    "duration": "3:58"
@@ -685,7 +685,7 @@
   },
   {
    "title": "Dai Dai Dhamma",
-   "artist": "KK & Maha Lakshmi",
+   "artist": "KK;Maha Lakshmi",
    "album": "Indra",
    "videoId": "ljQrJSJvImM",
    "duration": "5:21"
@@ -902,7 +902,7 @@
   },
   {
    "title": "Bheegi",
-   "artist": "Shreea Kaul & Talal Qureshi",
+   "artist": "Shreea Kaul;Talal Qureshi",
    "album": "Cruel Intentions",
    "videoId": "hpoRt7EUSIc",
    "duration": "3:06"
@@ -972,7 +972,7 @@
   },
   {
    "title": "TRIP",
-   "artist": "REHMA & Shreea Kaul",
+   "artist": "REHMA;Shreea Kaul",
    "album": "TRIP",
    "videoId": "N3Ed4bjbfhg",
    "duration": "3:07"
@@ -993,7 +993,7 @@
   },
   {
    "title": "WESTWORLD 2025",
-   "artist": "EVAN GIIA & Tim Maggs",
+   "artist": "EVAN GIIA;Tim Maggs",
    "album": "WESTWORLD 2025",
    "videoId": "O0-ajtRsO_Q",
    "duration": "3:01"
@@ -1021,14 +1021,14 @@
   },
   {
    "title": "OXYGEN",
-   "artist": "EVAN GIIA & Moore Kismet",
+   "artist": "EVAN GIIA;Moore Kismet",
    "album": "OXYGEN",
    "videoId": "iGfgOALP5gs",
    "duration": "2:44"
   },
   {
    "title": "LIMIT",
-   "artist": "EVAN GIIA, Evan Giarrusso, & Nostalgix",
+   "artist": "EVAN GIIA;Evan Giarrusso;Nostalgix",
    "album": "LIMIT",
    "videoId": "utA0UIW5E_8",
    "duration": "3:38"
@@ -1070,7 +1070,7 @@
   },
   {
    "title": "Pulse",
-   "artist": "LYNY & FLY",
+   "artist": "LYNY;FLY",
    "album": "Pulse",
    "videoId": "aw1SVU-zhwg",
    "duration": "2:28"
@@ -1105,7 +1105,7 @@
   },
   {
    "title": "Deadweight",
-   "artist": "JAWNS & Party Favor",
+   "artist": "JAWNS;Party Favor",
    "album": "Deadweight",
    "videoId": "Xw6NPHXNu70",
    "duration": "3:08"
@@ -1189,7 +1189,7 @@
   },
   {
    "title": "DADADA",
-   "artist": "Zoey808 & Gentlemens Club",
+   "artist": "Zoey808;Gentlemens Club",
    "album": "DADADA",
    "videoId": "RSsbrGwSdFQ",
    "duration": "2:50"
@@ -1266,7 +1266,7 @@
   },
   {
    "title": "New-York Night Cab",
-   "artist": "Helmut Kraft, Steven CY & Steven C",
+   "artist": "Helmut Kraft, Steven CY;Steven C",
    "album": "New York Deep House 3",
    "videoId": "uwYJ32JOmT8",
    "duration": "6:29"
@@ -1287,7 +1287,7 @@
   },
   {
    "title": "DOWHATUWANT! (Preview)",
-   "artist": "Moore Kismet & six28",
+   "artist": "Moore Kismet;six28",
    "album": "SATURATE YOUR WORLD!",
    "videoId": "UyIs9g4ieXc",
    "duration": "0:30"
@@ -1581,14 +1581,14 @@
   },
   {
    "title": "Sajna",
-   "artist": "Shael, Yo Yo Honey Singh, Athar Hayat, Tahir Hayat, and The Shams",
+   "artist": "Shael;Yo Yo Honey Singh;Athar Hayat;Tahir Hayat",
    "album": "Sajna",
    "videoId": "A2gG9scmdfo",
    "duration": "3:37"
   },
   {
    "title": "Manzil",
-   "artist": "Boombox Cartel, MIRZHA, & Insowmya",
+   "artist": "Boombox Cartel;MIRZHA;Insowmya",
    "album": "Manzil",
    "videoId": "yYuHiL4Ev40",
    "duration": "4:20"
@@ -1609,7 +1609,7 @@
   },
   {
    "title": "BFF",
-   "artist": "Control Freak & Nyptane",
+   "artist": "Control Freak;Nyptane",
    "album": "EAT YOUR FRIENDZ",
    "videoId": "HyRR_1OAUbQ",
    "duration": "2:06"

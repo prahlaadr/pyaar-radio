@@ -2,11 +2,11 @@
  "playlistId": "PLHoSQ5-c6fjc",
  "title": "9laad:Park",
  "trackCount": 98,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Woman",
-   "artist": "Barry Can’t Swim & Låpsley",
+   "artist": "Barry Can’t Swim;Låpsley",
    "album": "When Will We Land?",
    "videoId": "PMFAHjfkLEM",
    "duration": "3:53"
@@ -97,14 +97,14 @@
   },
   {
    "title": "Canta el Agua",
-   "artist": "Captain Planet & De Mar y Rio",
+   "artist": "Captain Planet;De Mar y Rio",
    "album": "Canta el Agua",
    "videoId": "FyFjJ1qeb3A",
    "duration": "3:39"
   },
   {
    "title": "Tony's House",
-   "artist": "Captain Planet & Tony Allen",
+   "artist": "Captain Planet;Tony Allen",
    "album": "Tony's House",
    "videoId": "yFtFjJmJd1o",
    "duration": "5:12"
@@ -118,7 +118,7 @@
   },
   {
    "title": "Borracho Bailando Champeta",
-   "artist": "Kevin Florez & Captain Planet",
+   "artist": "Kevin Florez;Captain Planet",
    "album": "Borracho Bailando Champeta",
    "videoId": "GPJUSYdiBVo",
    "duration": "3:40"
@@ -181,7 +181,7 @@
   },
   {
    "title": "The Global Village",
-   "artist": "Nickodemus & Extrapolo",
+   "artist": "Nickodemus;Extrapolo",
    "album": "Endangered Species",
    "videoId": "ak0bx1TT0nk",
    "duration": "4:51"
@@ -237,7 +237,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Chaos In the CBD & Isaac Aesili",
+   "artist": "Chaos In the CBD;Isaac Aesili",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"

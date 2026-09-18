@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1jhVoey_WFTJ-xxX7-DmPE",
  "title": "stank face (stinkers, headbang, dark jumpers) (goated)",
  "trackCount": 132,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Jungle Waters",
@@ -237,7 +237,7 @@
   },
   {
    "title": "Perceptum",
-   "artist": "ANH & Olswel",
+   "artist": "ANH;Olswel",
    "album": "Perceptum",
    "videoId": "dEa_HSxM1TI",
    "duration": "2:23"
@@ -349,7 +349,7 @@
   },
   {
    "title": "shutdown",
-   "artist": "Lucid Monday, late year, julius, and jumpseut",
+   "artist": "Lucid Monday;late year;julius;jumpseut",
    "album": "LM027",
    "videoId": "NTlI5f7JlCM",
    "duration": "1:54"
@@ -860,7 +860,7 @@
   },
   {
    "title": "Snake Charmer",
-   "artist": "Malfnktion & Madstarbase",
+   "artist": "Malfnktion;Madstarbase",
    "album": "No Dough EP",
    "videoId": "2zrtwO7fGxg",
    "duration": "2:47"

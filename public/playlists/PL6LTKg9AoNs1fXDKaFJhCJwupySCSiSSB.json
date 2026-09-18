@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1fXDKaFJhCJwupySCSiSSB",
  "title": "melt ordered by decreasing popularity",
  "trackCount": 284,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "No Company",
@@ -13,7 +13,7 @@
   },
   {
    "title": "Care (Zero 7 Remix)",
-   "artist": "Byulah & Memblem",
+   "artist": "Byulah;Memblem",
    "album": "NTPM300",
    "videoId": "LyjjsAcguZU",
    "duration": "9:04"
@@ -454,7 +454,7 @@
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Bad 4 Us",
    "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "Can't Deal With This (Kid Loops Vocal)",
-   "artist": "Cool Breeze & Imaani",
+   "artist": "Cool Breeze;Imaani",
    "album": "Can't Deal With This",
    "videoId": "uzmQ6h6hkMA",
    "duration": "5:55"
@@ -1175,7 +1175,7 @@
   },
   {
    "title": "Low Life",
-   "artist": "Tsimba & DeeZ",
+   "artist": "Tsimba;DeeZ",
    "album": "Tsimba x Deez - Formless EP",
    "videoId": "0voEcI3-YUA",
    "duration": "5:56"
@@ -1434,7 +1434,7 @@
   },
   {
    "title": "Like A Tattoo",
-   "artist": "Don Arcadio & Sade",
+   "artist": "Don Arcadio;Sade",
    "album": "Like A Tattoo",
    "videoId": "F-4p6_S5u48",
    "duration": "4:21"
@@ -1959,7 +1959,7 @@
   },
   {
    "title": "NO! (Submarine Remix)",
-   "artist": "Phace & Rockwell",
+   "artist": "Phace;Rockwell",
    "album": "Neosignal X, Pt. 4",
    "videoId": "tvLd_zx38Tc",
    "duration": "4:55"

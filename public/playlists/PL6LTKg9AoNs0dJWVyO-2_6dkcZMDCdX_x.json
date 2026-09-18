@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
  "title": "July 24",
  "trackCount": 108,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -97,7 +97,7 @@
   },
   {
    "title": "Silence",
-   "artist": "J Rick & Merlyn Wood",
+   "artist": "J Rick;Merlyn Wood",
    "album": "6 AM",
    "videoId": "A812EGhPpMI",
    "duration": "1:59"
@@ -258,7 +258,7 @@
   },
   {
    "title": "Space Boy (feat. Lucki)",
-   "artist": "Manny Laurenko & Lucki",
+   "artist": "Manny Laurenko;Lucki",
    "album": "Storm Coming",
    "videoId": "VnpZfVZss8E",
    "duration": "2:46"
@@ -300,7 +300,7 @@
   },
   {
    "title": "Round Of Applause",
-   "artist": "2oo7 & Tony Shhnow",
+   "artist": "2oo7;Tony Shhnow",
    "album": "Round Of Applause",
    "videoId": "-t8DiOI7wA4",
    "duration": "2:38"

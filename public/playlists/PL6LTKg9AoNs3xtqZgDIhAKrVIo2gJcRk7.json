@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3xtqZgDIhAKrVIo2gJcRk7",
  "title": "001",
  "trackCount": 188,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "ANGULIMAAL",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Bud Bud Ding Ding (feat. Pataka Boys)",
-   "artist": "PAV4N, Sonnyjim, Kartik, and Juss Nandhra",
+   "artist": "PAV4N;Sonnyjim;Kartik;Juss Nandhra",
    "album": "Thugs From Amritsar",
    "videoId": "uZLcEiJV9j0",
    "duration": "1:48"
@@ -111,7 +111,7 @@
   },
   {
    "title": "Maushi",
-   "artist": "Sneha Khanwalkar & RADA",
+   "artist": "Sneha Khanwalkar;RADA",
    "album": "Monkey Man (Original Motion Picture Soundtrack)",
    "videoId": "UrVzrnO94dU",
    "duration": "2:34"
@@ -587,7 +587,7 @@
   },
   {
    "title": "He Macchan",
-   "artist": "S.P. Balasubrahmanyam & K S Chithra",
+   "artist": "S.P. Balasubrahmanyam;K S Chithra",
    "album": "Thenpondi Cheemeyile",
    "videoId": "pBqcnezmKjs",
    "duration": "4:00"
@@ -734,14 +734,14 @@
   },
   {
    "title": "Nachdi Di Guth Khulgaye Remix",
-   "artist": "Autar (Calibar), Danny (DCS), Mark, Premi Johal, and Ronit",
+   "artist": "Autar (Calibar);Danny (DCS);Mark;Premi Johal",
    "album": "Bhangra Force",
    "videoId": "onyiMFwPngs",
    "duration": "4:12"
   },
   {
    "title": "Bari Barsi Remix",
-   "artist": "Autar (Calibar), Danny (DCS), Dilruba, Mark, and Ronit",
+   "artist": "Autar (Calibar);Danny (DCS);Dilruba;Mark",
    "album": "Bhangra Force",
    "videoId": "AhtU9YsI2Ik",
    "duration": "5:53"
@@ -965,7 +965,7 @@
   },
   {
    "title": "Best to You",
-   "artist": "Blood Orange & Empress Of",
+   "artist": "Blood Orange;Empress Of",
    "album": "Freetown Sound",
    "videoId": "ACinCwmWalY",
    "duration": "3:46"
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "Snake Charmer",
-   "artist": "Malfnktion & Madstarbase",
+   "artist": "Malfnktion;Madstarbase",
    "album": "No Dough EP",
    "videoId": "2zrtwO7fGxg",
    "duration": "2:47"
@@ -1245,7 +1245,7 @@
   },
   {
    "title": "Pandemic is a Portal (PiaP)",
-   "artist": "Krithi & Smaran",
+   "artist": "Krithi;Smaran",
    "album": "Pandemic is a Portal (PiaP)",
    "videoId": "pKK0Rla7HgY",
    "duration": "3:27"

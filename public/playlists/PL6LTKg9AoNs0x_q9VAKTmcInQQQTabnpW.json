@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -2260,7 +2260,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -2568,7 +2568,7 @@
   },
   {
    "title": "Onda",
-   "artist": "Poolside & Fatnotronic",
+   "artist": "Poolside;Fatnotronic",
    "album": "Brazilian Compilation Series, Vol. 1",
    "videoId": "JdHl74xjsdQ",
    "duration": "7:00"
@@ -2666,7 +2666,7 @@
   },
   {
    "title": "You Don't Have To Worry",
-   "artist": "Doris & Kelley",
+   "artist": "Doris;Kelley",
    "album": "You Don't Have To Worry",
    "videoId": "ZrF-Ntkx5ao",
    "duration": "2:43"
@@ -3639,7 +3639,7 @@
   },
   {
    "title": "Lightworks",
-   "artist": "Dorothy Collins (vocal) & Raymond Scott",
+   "artist": "Dorothy Collins (vocal);Raymond Scott",
    "album": "Manhattan Research, Inc.",
    "videoId": "ye68IEJnI5w",
    "duration": "1:53"
@@ -3709,7 +3709,7 @@
   },
   {
    "title": "Farewell To Earnest from Merchant Ivory's film THE HOUSEHOLDER",
-   "artist": "Jyotirindra Moitra & Ustad Ali Akbar Khan",
+   "artist": "Jyotirindra Moitra;Ustad Ali Akbar Khan",
    "album": "The Darjeeling Limited",
    "videoId": "SzPuofUgqGA",
    "duration": "2:00"
@@ -3800,7 +3800,7 @@
   },
   {
    "title": "Title Music from Merchant Ivory's film THE HOUSEHOLDER",
-   "artist": "Jyotirindra Moitra & Ustad Ali Akbar Khan",
+   "artist": "Jyotirindra Moitra;Ustad Ali Akbar Khan",
    "album": "The Darjeeling Limited",
    "videoId": "wZMD_j1lYWU",
    "duration": "1:38"
@@ -4969,7 +4969,7 @@
   },
   {
    "title": "Takamba (Instrumental)",
-   "artist": "Almouner Ayouba & Mohamed Yaseen",
+   "artist": "Almouner Ayouba;Mohamed Yaseen",
    "album": "A Story of Sahel Sounds (Original Motion Picture Soundtrack)",
    "videoId": "Z0-ED6h4E7o",
    "duration": "5:49"
@@ -5256,7 +5256,7 @@
   },
   {
    "title": "Bugadi Mazi Sandli Ga",
-   "artist": "Asha Bhosle & Chorus",
+   "artist": "Asha Bhosle;Chorus",
    "album": "Bugadi Mazi Sandli Ga",
    "videoId": "SsaXmRfOYXw",
    "duration": "3:20"
@@ -5452,7 +5452,7 @@
   },
   {
    "title": "Ajoyio",
-   "artist": "Chief Commander Ebenezer Obey & His International Brothers",
+   "artist": "Chief Commander Ebenezer Obey;His International Brothers",
    "album": "Nigeria 70 - Sweet Times: Afro-Funk, Highlife & Juju from 1970s Lagos",
    "videoId": "ZgTOyMZTX-0",
    "duration": "6:40"
@@ -6117,7 +6117,7 @@
   },
   {
    "title": "Come Wander With Me",
-   "artist": "VOCES8 & Benjamin Roskams",
+   "artist": "VOCES8;Benjamin Roskams",
    "album": "Winter",
    "videoId": "ZIjOXsZUrMA",
    "duration": "4:06"
@@ -7265,7 +7265,7 @@
   },
   {
    "title": "Rang Pheka Rang Pheka",
-   "artist": "Asha Bhosle, Vitthal Shindhe, & Chorus",
+   "artist": "Asha Bhosle;Vitthal Shindhe;Chorus",
    "album": "Rang Pheka Rang Pheka",
    "videoId": "f5GXbS93mVs",
    "duration": "3:26"
@@ -7314,7 +7314,7 @@
   },
   {
    "title": "Kyenkyen Bi Adi M'awu",
-   "artist": "K. Frimpong & His Cubano Fiestas",
+   "artist": "K. Frimpong;His Cubano Fiestas",
    "album": "Afro-Rock Vol. 1",
    "videoId": "0Y6BMNju1IA",
    "duration": "6:55"
@@ -7427,8 +7427,8 @@
   {
    "title": "Mary's Theme (From The \"Femina Ridens\" Soundtrack)",
    "artist": "Stelvio Cipriani",
-   "album": "Italy in Love",
-   "videoId": "UYcInuxI_iw",
+   "album": "Coastal Grandmother",
+   "videoId": "0yINcYG28Fc",
    "duration": "2:11"
   },
   {

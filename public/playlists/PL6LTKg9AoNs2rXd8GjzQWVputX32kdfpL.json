@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
  "title": "prahboy (goated)",
  "trackCount": 3067,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "HUMBLE.",
@@ -1952,7 +1952,7 @@
   },
   {
    "title": "Three King Fishers",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "NYwfg_VLtao",
    "duration": "4:49"
@@ -3751,7 +3751,7 @@
   },
   {
    "title": "Espiral (冥丁 Remix)",
-   "artist": "Weste & Meitei",
+   "artist": "Weste;Meitei",
    "album": "Espiral (冥丁 Remix)",
    "videoId": "2AilIiFMRWo",
    "duration": "4:12"
@@ -4563,7 +4563,7 @@
   },
   {
    "title": "Love Is Blue",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "xClEUWA6Bdg",
    "duration": "4:19"
@@ -4899,7 +4899,7 @@
   },
   {
    "title": "Almost Beautiful",
-   "artist": "Anna Homler, The Pylon King, & Voices of Kwahn",
+   "artist": "Anna Homler;The Pylon King;Voices of Kwahn",
    "album": "Deliquium in C",
    "videoId": "gd1OX9EEwYU",
    "duration": "4:10"
@@ -4998,8 +4998,8 @@
   {
    "title": "L’Ultima Volta (From \"I malamondo\")",
    "artist": "Ennio Morricone;I Cantori Moderni Di Alessandroni",
-   "album": "Ennio Morricone - The Maestro (Secret Morricone)",
-   "videoId": "9JAy_LtAfco",
+   "album": "Morricone at the Oscars",
+   "videoId": "xB4Ca0oPPfw",
    "duration": "2:33"
   },
   {
@@ -5865,7 +5865,7 @@
   },
   {
    "title": "Bacchanal",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "yXKeZXBh9sc",
    "duration": "4:58"
@@ -6992,7 +6992,7 @@
   },
   {
    "title": "1stnite",
-   "artist": "Sir Froderick & Knxwledge",
+   "artist": "Sir Froderick;Knxwledge",
    "album": "AfrikanDivas.",
    "videoId": "h5_whfVQVBU",
    "duration": "1:09"
@@ -7468,7 +7468,7 @@
   },
   {
    "title": "N´Nijo",
-   "artist": "Amara Touré & Ensemble Black & White",
+   "artist": "Amara Touré;Ensemble Black & White",
    "album": "Amara TourÃ© 1973 - 1980 (Analog Africa No. 18)",
    "videoId": "P_z6gWXCZOI",
    "duration": "6:00"
@@ -7538,7 +7538,7 @@
   },
   {
    "title": "The Song Before",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "E67XBP09ee0",
    "duration": "2:40"
@@ -8154,7 +8154,7 @@
   },
   {
    "title": "I Hope The Goats Come Back (ze-hood de-sham lichdal)",
-   "artist": "Elijah Minnelli & Lansied Nechdelani",
+   "artist": "Elijah Minnelli;Lansied Nechdelani",
    "album": "Unlock Your Mind with Morning Glory - Compiled by James Endeacott",
    "videoId": "E39Wh9MGGV0",
    "duration": "4:24"
@@ -9169,7 +9169,7 @@
   },
   {
    "title": "Inside Out",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "vpiHS10NoCg",
    "duration": "4:30"
@@ -9540,7 +9540,7 @@
   },
   {
    "title": "Tuesday's Offering",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "_I1s9vnb9xI",
    "duration": "2:16"
@@ -11262,7 +11262,7 @@
   },
   {
    "title": "N´Nijo",
-   "artist": "Amara Touré & Ensemble Black & White",
+   "artist": "Amara Touré;Ensemble Black & White",
    "album": "Amara TourÃ© 1973 - 1980 (Analog Africa No. 18)",
    "videoId": "P_z6gWXCZOI",
    "duration": "6:00"
@@ -11724,7 +11724,7 @@
   },
   {
    "title": "Planet Rock",
-   "artist": "Afrika Bambaataa & Soulsonic Force",
+   "artist": "Afrika Bambaataa;Soulsonic Force",
    "album": "Planet Rock (Digital 45)",
    "videoId": "nGsQT3DAo7M",
    "duration": "5:20"
@@ -11843,7 +11843,7 @@
   },
   {
    "title": "Evensong",
-   "artist": "Robert Fripp & Brian Eno",
+   "artist": "Robert Fripp;Brian Eno",
    "album": "Evening Star",
    "videoId": "humH3GYYgE8",
    "duration": "2:56"
@@ -12116,7 +12116,7 @@
   },
   {
    "title": "Sun",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "7y0y9WSyUYw",
    "duration": "4:04"
@@ -12130,7 +12130,7 @@
   },
   {
    "title": "In Your",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "s-xTRlhSKCQ",
    "duration": "10:24"
@@ -12277,7 +12277,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "akz-HYpkwJA",
    "duration": "12:51"
@@ -13047,7 +13047,7 @@
   },
   {
    "title": "Victory",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "6kPic0VTRs8",
    "duration": "4:19"
@@ -13089,7 +13089,7 @@
   },
   {
    "title": "Love And Death",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "6xwtVBQpjCE",
    "duration": "8:18"
@@ -13117,7 +13117,7 @@
   },
   {
    "title": "What Is Life?",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "BE24E7Gz9hE",
    "duration": "4:38"
@@ -14881,42 +14881,42 @@
   },
   {
    "title": "THEEM AND VARIATIONS",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "j8Y2gbl9t7I",
    "duration": "3:35"
   },
   {
    "title": "TRACK ONE",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "P0Tg2k-OdVY",
    "duration": "5:52"
   },
   {
    "title": "GREETINGS TO IDRIS",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
-   "videoId": "XmmFpvIXeMw",
+   "videoId": "PttdpYS6E5A",
    "duration": "5:10"
   },
   {
    "title": "IRISH",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "CfYc3ql925A",
    "duration": "5:26"
   },
   {
    "title": "KIEFER NO MELODY",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "rM5joayzUzY",
    "duration": "4:06"
   },
   {
    "title": "YOU'LL NEVER GET TO HEAVEN",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "bUp0aOaFGN0",
    "duration": "2:47"
@@ -15805,7 +15805,7 @@
   },
   {
    "title": "Ajoyio",
-   "artist": "Chief Commander Ebenezer Obey & His International Brothers",
+   "artist": "Chief Commander Ebenezer Obey;His International Brothers",
    "album": "Nigeria 70 - Sweet Times: Afro-Funk, Highlife & Juju from 1970s Lagos",
    "videoId": "ZgTOyMZTX-0",
    "duration": "6:40"
@@ -16995,7 +16995,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -17079,7 +17079,7 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala & James Blake",
+   "artist": "Mala;James Blake",
    "album": "Changes (James Blake Harmonimix)",
    "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
@@ -17786,7 +17786,7 @@
   },
   {
    "title": "Twelve O'Clock Shadow (feat. Miguel Atwood-Ferguson)",
-   "artist": "Natureboy Flako & Miguel Atwood-Ferguson",
+   "artist": "Natureboy Flako;Miguel Atwood-Ferguson",
    "album": "Natureboy",
    "videoId": "F3fBEJD6oFo",
    "duration": "3:58"

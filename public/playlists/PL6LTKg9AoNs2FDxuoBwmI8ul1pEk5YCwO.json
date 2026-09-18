@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2FDxuoBwmI8ul1pEk5YCwO",
  "title": "THIS IS POST BOSSA",
  "trackCount": 106,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Kurayami",
@@ -454,7 +454,7 @@
   },
   {
    "title": "Waters of March",
-   "artist": "sogumm & Chawool",
+   "artist": "sogumm;Chawool",
    "album": "Salt Rain (Prod. By Alfie Hole)",
    "videoId": "cEWNfOnl5Fw",
    "duration": "3:38"
@@ -657,7 +657,7 @@
   },
   {
    "title": "Mistério do Planeta",
-   "artist": "Novos Baianos, Galvão, Moraes Moreira, Moraes Moreira, and Galvão",
+   "artist": "Novos Baianos;Galvão, Moraes Moreira;Moraes Moreira;Galvão",
    "album": "Acabou Chorare",
    "videoId": "Eb5E3TzO0bw",
    "duration": "3:38"
@@ -720,7 +720,7 @@
   },
   {
    "title": "Crumb",
-   "artist": "John Roseboro & Liana Flores",
+   "artist": "John Roseboro;Liana Flores",
    "album": "Fools",
    "videoId": "jtDl6ouHFB0",
    "duration": "4:16"

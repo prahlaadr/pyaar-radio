@@ -2,7 +2,7 @@
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
  "trackCount": 31,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -69,7 +69,7 @@
   },
   {
    "title": "COME UNDONE",
-   "artist": "wev & frau",
+   "artist": "wev;frau",
    "album": "OST",
    "videoId": "X_N_yc8pIBQ",
    "duration": "3:11"
@@ -181,7 +181,7 @@
   },
   {
    "title": "What It Do",
-   "artist": "Young Stoner Life, Young Thug, & Unfoonk",
+   "artist": "Young Stoner Life;Young Thug;Unfoonk",
    "album": "Slime Language 3",
    "videoId": "i2pQYRzDBPc",
    "duration": "2:28"

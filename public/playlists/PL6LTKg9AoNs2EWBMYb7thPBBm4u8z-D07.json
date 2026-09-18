@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -923,7 +923,7 @@
   },
   {
    "title": "Bump In The Road (with Sinéad Harnett)",
-   "artist": "Joe Kay & Sinead Harnett",
+   "artist": "Joe Kay;Sinead Harnett",
    "album": "If Not Now, Then When?",
    "videoId": "GlJdbPNYJbo",
    "duration": "2:50"
@@ -1084,7 +1084,7 @@
   },
   {
    "title": "Midnight in Peckham",
-   "artist": "Chaos In the CBD & Isaac Aesili",
+   "artist": "Chaos In the CBD;Isaac Aesili",
    "album": "Midnight in Peckham",
    "videoId": "1QojHX4_0e8",
    "duration": "7:01"
@@ -2757,7 +2757,7 @@
   },
   {
    "title": "That's Your Blue Home",
-   "artist": "Merz, Laraaji, & Shahzad Ismaily",
+   "artist": "Merz;Laraaji;Shahzad Ismaily",
    "album": "Dreams of Sleep and Wakes of Sound",
    "videoId": "AZzWdkGQ3wY",
    "duration": "8:02"
@@ -3093,7 +3093,7 @@
   },
   {
    "title": "Tell You Anything",
-   "artist": "Sango & Peyton",
+   "artist": "Sango;Peyton",
    "album": "North Vol. 2",
    "videoId": "LHuPpU1HrTE",
    "duration": "3:38"
@@ -3261,7 +3261,7 @@
   },
   {
    "title": "wherever u r (feat. V of BTS and NATURE)",
-   "artist": "UMI, NATURE, & V",
+   "artist": "UMI;NATURE;V",
    "album": "wherever u r (feat. V of BTS and NATURE)",
    "videoId": "AeN2TS_0ce0",
    "duration": "3:07"
@@ -4052,7 +4052,7 @@
   },
   {
    "title": "Marudaani",
-   "artist": "A.R. Rahman, Madhushree, Hentry Kuruvila, and Vaali",
+   "artist": "A.R. Rahman;Madhushree;Hentry Kuruvila;Vaali",
    "album": "Sakkarakatti (Original Motion Picture Soundtrack)",
    "videoId": "RKZNPx-K1AA",
    "duration": "6:28"
@@ -4339,7 +4339,7 @@
   },
   {
    "title": "Le Temple Volant",
-   "artist": "Melody’s Echo Chamber & Crumb",
+   "artist": "Melody’s Echo Chamber;Crumb",
    "album": "Le Temple Volant",
    "videoId": "b0plJHQBNh4",
    "duration": "2:06"
@@ -4423,7 +4423,7 @@
   },
   {
    "title": "Innum Konjam Neram",
-   "artist": "A.R. Rahman, Vijay Prakash, Shweta Mohan, and Kabilan",
+   "artist": "A.R. Rahman;Vijay Prakash;Shweta Mohan;Kabilan",
    "album": "Maryan (Original Motion Picture Soundtrack)",
    "videoId": "-zY2eMZwkdo",
    "duration": "5:14"
@@ -5403,7 +5403,7 @@
   },
   {
    "title": "esperança",
-   "artist": "Munir Hossn & Ganavya",
+   "artist": "Munir Hossn;Ganavya",
    "album": "sister, idea",
    "videoId": "xDQd5NYyJR0",
    "duration": "3:26"
@@ -5879,7 +5879,7 @@
   },
   {
    "title": "Closure",
-   "artist": "Kelela & Rahrah Gabor",
+   "artist": "Kelela;Rahrah Gabor",
    "album": "Raven",
    "videoId": "M1WAoB4-kFU",
    "duration": "3:30"
@@ -6250,7 +6250,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -8728,7 +8728,7 @@
   },
   {
    "title": "Funny (feat. Childish Major)",
-   "artist": "Benét & Childish Major",
+   "artist": "Benét;Childish Major",
    "album": "Funny (feat. Childish Major)",
    "videoId": "fIXDjfP-ba4",
    "duration": "2:43"
@@ -10240,7 +10240,7 @@
   },
   {
    "title": "GRAVITY",
-   "artist": "Brent Faiyaz, DJ Dahi, & Tyler the Creator",
+   "artist": "Brent Faiyaz;DJ Dahi;Tyler the Creator",
    "album": "Gravity",
    "videoId": "sfSKdG9MqKk",
    "duration": "3:41"
@@ -11402,7 +11402,7 @@
   },
   {
    "title": "Dancing in the Moonlight",
-   "artist": "Amy McKnight & Jaco Prince",
+   "artist": "Amy McKnight;Jaco Prince",
    "album": "Pop Candy",
    "videoId": "qD17cPs5r8E",
    "duration": "3:08"
@@ -12641,7 +12641,7 @@
   },
   {
    "title": "Love Ya",
-   "artist": "Blood Orange & Zuri Marley",
+   "artist": "Blood Orange;Zuri Marley",
    "album": "Freetown Sound",
    "videoId": "u_PjM0sRCjc",
    "duration": "2:48"

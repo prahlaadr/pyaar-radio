@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",
  "title": "Rally",
  "trackCount": 180,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "𝕭𝕿𝖂 - SHELL ♬",
@@ -559,7 +559,7 @@
   },
   {
    "title": "DIRTY WHEEL",
-   "artist": "GhostyPlaya & KXBRIGU",
+   "artist": "GhostyPlaya;KXBRIGU",
    "album": "DIRTY WHEEL",
    "videoId": "3SHlSSkuKrg",
    "duration": "2:29"
@@ -867,7 +867,7 @@
   },
   {
    "title": "RENAULT 5 TURBO",
-   "artist": "DXCD77 & HXAVENLY MXYHEM",
+   "artist": "DXCD77;HXAVENLY MXYHEM",
    "album": "RENAULT 5 TURBO",
    "videoId": "2hJ5jY1rqC8",
    "duration": "1:33"

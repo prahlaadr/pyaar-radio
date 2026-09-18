@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1vdR_t9mQwghLkWhhOL1LM",
  "title": "Charcoal (goated)",
  "trackCount": 309,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Muchh",
@@ -76,7 +76,7 @@
   },
   {
    "title": "Pyar Karke",
-   "artist": "Pritam, Labh Janjua, & Mayur Puri",
+   "artist": "Pritam;Labh Janjua;Mayur Puri",
    "album": "Pyar Ke Side Effects",
    "videoId": "otV2SK65MmA",
    "duration": "4:08"
@@ -118,14 +118,14 @@
   },
   {
    "title": "Love Mera Hit Hit",
-   "artist": "Pritam, Neeraj Shridhar, Tulsi Kumar, and Ashish Pandit",
+   "artist": "Pritam;Neeraj Shridhar;Tulsi Kumar;Ashish Pandit",
    "album": "Billu",
    "videoId": "o6ojv9uUezU",
    "duration": "4:47"
   },
   {
    "title": "Baawre",
-   "artist": "Mame Khan, Shankar Mahadevan, & Loy Mendonsa",
+   "artist": "Mame Khan;Shankar Mahadevan;Loy Mendonsa",
    "album": "Luck By Chance",
    "videoId": "BVfsrk6bY0A",
    "duration": "5:09"
@@ -146,7 +146,7 @@
   },
   {
    "title": "Mit Jaaye Gham (Dum Maaro Dum)",
-   "artist": "Pritam, Anushka Manchanda, & Jaideep Sahni",
+   "artist": "Pritam;Anushka Manchanda;Jaideep Sahni",
    "album": "Dum Maaro Dum",
    "videoId": "0Sq6Ffv5J44",
    "duration": "3:53"
@@ -160,7 +160,7 @@
   },
   {
    "title": "Baamulaiza",
-   "artist": "Pritam, Mika Singh, Domnique Cerejo, and Style Bhai",
+   "artist": "Pritam;Mika Singh;Domnique Cerejo;Style Bhai",
    "album": "De Dana Dan (Original Motion Picture Soundtrack)",
    "videoId": "PdHovNGs_yY",
    "duration": "4:51"
@@ -223,7 +223,7 @@
   },
   {
    "title": "LE LE MAZAA LE",
-   "artist": "SUZANNE,SAUMAYA RAO,HRISHIKESH KAMERKAR,NIKITA NIGAM, SAJID-WAJID, & WAJID,SHABIR AHMAD,CARLYTA MOUHINI",
+   "artist": "SUZANNE,SAUMAYA RAO,HRISHIKESH KAMERKAR,NIKITA NIGAM;SAJID-WAJID;WAJID,SHABIR AHMAD,CARLYTA MOUHINI",
    "album": "WANTED",
    "videoId": "cZT4CBztzyk",
    "duration": "4:11"
@@ -279,7 +279,7 @@
   },
   {
    "title": "Excuse Me",
-   "artist": "Nitin Raikwar, Nisha, & Simmie",
+   "artist": "Nitin Raikwar;Nisha;Simmie",
    "album": "Style",
    "videoId": "es5T4EZvyxU",
    "duration": "5:15"
@@ -314,14 +314,14 @@
   },
   {
    "title": "Kangna (feat. Master Rakesh, Shortie & Deepti)",
-   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti & Dr Zeus",
+   "artist": "Dr Zeus, Master Rakesh, Shortie & Deepti;Dr Zeus",
    "album": "Unda Da Influence",
    "videoId": "xJBXykszan0",
    "duration": "3:31"
   },
   {
    "title": "CHANDNI CHOWK TO CHINA",
-   "artist": "NEERAJ SHRIDHAR, ANUSHKA MANCHANDA, SHANKAR MAHADEVAN, SHANKAR-EHSAAN-LOY, and RAJAT ARORA",
+   "artist": "NEERAJ SHRIDHAR;ANUSHKA MANCHANDA;SHANKAR MAHADEVAN;SHANKAR-EHSAAN-LOY",
    "album": "CHANDNI CHOWK TO CHINA",
    "videoId": "oVzltGmO9rU",
    "duration": "4:02"
@@ -342,7 +342,7 @@
   },
   {
    "title": "Tha Kar Ke",
-   "artist": "Pritam, Neeraj Shridhar, Anveshaa, Aakariti, Earl D'souza, Indie, and Sameer",
+   "artist": "Pritam;Neeraj Shridhar;Anveshaa;Aakariti",
    "album": "Golmaal Returns",
    "videoId": "afEut0xo0MI",
    "duration": "4:28"
@@ -363,7 +363,7 @@
   },
   {
    "title": "Razia",
-   "artist": "Pritam, Master Saleem, Ritu Pathak, and Ashish Pandit",
+   "artist": "Pritam;Master Saleem;Ritu Pathak;Ashish Pandit",
    "album": "Thank You",
    "videoId": "6OtuQMbDSk0",
    "duration": "4:53"
@@ -377,14 +377,14 @@
   },
   {
    "title": "Lucky Boy (From \"Bachna Ae Haseeno\")",
-   "artist": "Vishal and Sheykhar, Sunidhi Chauhan, Hard Kaur, and Raja Hassan",
+   "artist": "Vishal and Sheykhar;Sunidhi Chauhan;Hard Kaur;Raja Hassan",
    "album": "Bachna Ae Haseeno",
    "videoId": "7E-27S-47t4",
    "duration": "4:14"
   },
   {
    "title": "LATOO",
-   "artist": "SHREYA GHOSHAL, A.R. RAHMAN, & PRASOON JOSHI",
+   "artist": "SHREYA GHOSHAL;A.R. RAHMAN;PRASOON JOSHI",
    "album": "GHAJINI",
    "videoId": "rpmwOFh0aek",
    "duration": "4:30"
@@ -426,14 +426,14 @@
   },
   {
    "title": "Bedardi Raja",
-   "artist": "Ram Sampath  & Imran Khan",
+   "artist": "Ram Sampath ;Imran Khan",
    "album": "Delhi Belly (Original Motion Picture Soundtrack)",
    "videoId": "HApiL-XsjTE",
    "duration": "2:58"
   },
   {
    "title": "Paisa (From \"De Dana Dan\")",
-   "artist": "RDB & Manak-E",
+   "artist": "RDB;Manak-E",
    "album": "For the Dance Floor - Bollywood Chartbusters",
    "videoId": "jKT90QvZyR4",
    "duration": "3:55"
@@ -538,7 +538,7 @@
   },
   {
    "title": "JEE LE",
-   "artist": "SHRUTI PATHAK, NARESH KAMATH, SALIM-SULAIMAN, and ANVITA DUTT GUPTAN",
+   "artist": "SHRUTI PATHAK;NARESH KAMATH;SALIM-SULAIMAN;ANVITA DUTT GUPTAN",
    "album": "LUCK",
    "videoId": "HSgXPBBHuD0",
    "duration": "4:26"
@@ -615,7 +615,7 @@
   },
   {
    "title": "Dil Garden Garden Ho Gaya",
-   "artist": "Vishal Dadlani, Sachin-Jigar, & Mayur Puri",
+   "artist": "Vishal Dadlani;Sachin-Jigar;Mayur Puri",
    "album": "Kyaa Super Kool Hain Hum",
    "videoId": "rhKqFwgb3as",
    "duration": "3:19"
@@ -636,14 +636,14 @@
   },
   {
    "title": "JUGNI",
-   "artist": "DES RAJ LACHKANI, SNEHA KHANWALKAR, DIBAKAR BANERJEE, and AMITOSH NAGPAL",
+   "artist": "DES RAJ LACHKANI;SNEHA KHANWALKAR;DIBAKAR BANERJEE;AMITOSH NAGPAL",
    "album": "OYE LUCKY! LUCKY OYE!",
    "videoId": "w-cVuUYf17Q",
    "duration": "5:06"
   },
   {
    "title": "DAMAA DAM MAST KALANDAR (TRADITIONAL)",
-   "artist": "MIKA SINGH, YO YO HONEY SINGH, TRADITIONAL, and KUMAAR",
+   "artist": "MIKA SINGH;YO YO HONEY SINGH;TRADITIONAL;KUMAAR",
    "album": "WELCOME BACK",
    "videoId": "IdXA0CFMZa8",
    "duration": "4:06"
@@ -678,7 +678,7 @@
   },
   {
    "title": "AYE BACHCHU",
-   "artist": "SUZANNE, A.R. RAHMAN, & PRASOON JOSHI",
+   "artist": "SUZANNE;A.R. RAHMAN;PRASOON JOSHI",
    "album": "GHAJINI",
    "videoId": "8-q-UHbTGGE",
    "duration": "3:48"
@@ -720,7 +720,7 @@
   },
   {
    "title": "Switty Tera Pyaar Chaida",
-   "artist": "Ram Sampath  & Imran Khan",
+   "artist": "Ram Sampath ;Imran Khan",
    "album": "Delhi Belly (Original Motion Picture Soundtrack)",
    "videoId": "MsjQa0N3Uwc",
    "duration": "2:52"
@@ -741,7 +741,7 @@
   },
   {
    "title": "OYE LUCKY",
-   "artist": "MIKA SINGH, AMITOSH NAGPAL, SNEHA KHANWALKAR, DIBAKAR BANERJEE, MANU RISHI, and KANU BEHL",
+   "artist": "MIKA SINGH;AMITOSH NAGPAL;SNEHA KHANWALKAR;DIBAKAR BANERJEE",
    "album": "OYE LUCKY! LUCKY OYE!",
    "videoId": "xj2-_aSKMGI",
    "duration": "4:00"
@@ -769,7 +769,7 @@
   },
   {
    "title": "Dil Mera Muft Ka",
-   "artist": "Pritam, Nandini Srikar, Muazzam, Rizwan, Shadab Faridi, Altamash Faridi, Shabab Sabri, and Neelesh Misra",
+   "artist": "Pritam;Nandini Srikar;Muazzam;Rizwan",
    "album": "Agent Vinod",
    "videoId": "u9W7FC0D-kg",
    "duration": "4:27"
@@ -818,7 +818,7 @@
   },
   {
    "title": "Pyar Ki",
-   "artist": "Shaarib & Toshi, Nakkash Aziz, Divya Kumar, Anmoll Mallik, and Earl Edgar",
+   "artist": "Shaarib & Toshi;Nakkash Aziz;Divya Kumar;Anmoll Mallik",
    "album": "Housefull 3",
    "videoId": "8fe1IZ3icbw",
    "duration": "3:48"
@@ -888,7 +888,7 @@
   },
   {
    "title": "Golmaal (Duet)",
-   "artist": "Anushka Manchanda, Vishal Dadlani, Vishal Shekhar, and Kumaar",
+   "artist": "Anushka Manchanda;Vishal Dadlani;Vishal Shekhar;Kumaar",
    "album": "Golmaal Returns",
    "videoId": "bni5YtS7jeo",
    "duration": "4:07"
@@ -909,14 +909,14 @@
   },
   {
    "title": "LOVE ME LOVE ME",
-   "artist": "WAJID,AMRITA KAK, SAJID-WAJID, & JALEES SHERWANI",
+   "artist": "WAJID,AMRITA KAK;SAJID-WAJID;JALEES SHERWANI",
    "album": "WANTED",
    "videoId": "bGNmNNZAU7c",
    "duration": "4:06"
   },
   {
    "title": "Ooh La La",
-   "artist": "Bappi Lahiri, Shreya Ghoshal, Vishal-Shekhar, and Rajat Arora",
+   "artist": "Bappi Lahiri;Shreya Ghoshal;Vishal-Shekhar;Rajat Arora",
    "album": "The Dirty Picture",
    "videoId": "jRSgZe8aSg0",
    "duration": "4:17"
@@ -937,14 +937,14 @@
   },
   {
    "title": "TERE MOHALLE",
-   "artist": "MAMTA SHARMA, AISHWARYA NIGAM, LALIT PANDIT, and NIKHAT KHAN",
+   "artist": "MAMTA SHARMA;AISHWARYA NIGAM;LALIT PANDIT;NIKHAT KHAN",
    "album": "BESHARAM",
    "videoId": "9yaLEwnqCY4",
    "duration": "4:31"
   },
   {
    "title": "Jab Bhi Koi Haseena",
-   "artist": "K Krishna Kumar & Chorus",
+   "artist": "K Krishna Kumar;Chorus",
    "album": "Hera Pheri",
    "videoId": "WyC4u-hDaOk",
    "duration": "6:43"
@@ -972,7 +972,7 @@
   },
   {
    "title": "DO U WANNA PARTNER",
-   "artist": "WAJID, SHAAN, UDIT NARAYAN, SUZI Q, CLINGTON, SAJID-WAJID, and SANJAY CHHEL",
+   "artist": "WAJID;SHAAN;UDIT NARAYAN;SUZI Q",
    "album": "PARTNER",
    "videoId": "TC57LNleCrA",
    "duration": "4:33"
@@ -1007,14 +1007,14 @@
   },
   {
    "title": "FASHION KA JALWA",
-   "artist": "SUKHWINDER SINGH, SATYA HINDUJA, ROBERT 'BOB' OMULO, SALIM SULAIMAN, and SANDEEP NATH",
+   "artist": "SUKHWINDER SINGH;SATYA HINDUJA;ROBERT 'BOB' OMULO;SALIM SULAIMAN",
    "album": "FASHION",
    "videoId": "bw4NdeiTb1Y",
    "duration": "4:39"
   },
   {
    "title": "Chaska",
-   "artist": "Krishna Beuraa & Url",
+   "artist": "Krishna Beuraa;Url",
    "album": "Badmaash Company",
    "videoId": "dvqw2GWsOqM",
    "duration": "5:15"
@@ -1091,7 +1091,7 @@
   },
   {
    "title": "Move Your Body Now",
-   "artist": "Pritam Chakraborty, Shaan, Suheil, Hard Kaur, and Akriti Kakar",
+   "artist": "Pritam Chakraborty;Shaan;Suheil;Hard Kaur",
    "album": "Kismat Konnection (Original Motion Picture Soundtrack)",
    "videoId": "mJ6x18RD-1A",
    "duration": "4:07"
@@ -1168,7 +1168,7 @@
   },
   {
    "title": "What Is Mobile Number",
-   "artist": "Anu Malik, Sonu Nigam, Alka Yagnik, Sameer Anjaan, and Suraj Ujjaini",
+   "artist": "Anu Malik;Sonu Nigam;Alka Yagnik;Sameer Anjaan",
    "album": "Haseena Maan Jaayegi (Original Motion Picture Soundtrack)",
    "videoId": "Rsm2Vdouu-I",
    "duration": "6:12"
@@ -1231,7 +1231,7 @@
   },
   {
    "title": "Bhagam Bhag",
-   "artist": "Pritam, Neeraj Shridhar, Sarim Momin, and Ashish Pandit",
+   "artist": "Pritam;Neeraj Shridhar;Sarim Momin;Ashish Pandit",
    "album": "Bhagam Bhag",
    "videoId": "llUw1AZ5ubI",
    "duration": "4:37"
@@ -1448,7 +1448,7 @@
   },
   {
    "title": "TENNU LE",
-   "artist": "OMER INAYAT & BAPPA LAHIRI",
+   "artist": "OMER INAYAT;BAPPA LAHIRI",
    "album": "JAI VEERU",
    "videoId": "7vwlX3jSToc",
    "duration": "5:06"
@@ -1476,14 +1476,14 @@
   },
   {
    "title": "Char Baj Gaye (Party Abhi Baaki Hai)",
-   "artist": "Sachin-Jigar & Hard Kaur",
+   "artist": "Sachin-Jigar;Hard Kaur",
    "album": "F.A.L.T.U (Original Motion Picture Soundtrack)",
    "videoId": "UiGitBK3_X8",
    "duration": "3:34"
   },
   {
    "title": "U-n-I (Mere Dil Vich Hum Tum)",
-   "artist": "Veronica Mehta & Juggy D.",
+   "artist": "Veronica Mehta;Juggy D.",
    "album": "Hum Tum",
    "videoId": "_IfsQzqSquY",
    "duration": "3:38"
@@ -1553,7 +1553,7 @@
   },
   {
    "title": "DJ",
-   "artist": "SUNIDHI CHAUHAN, FEAT. ALI ZAFAR, NITZ ‘N’ SONY, and PRANAV VATSA",
+   "artist": "SUNIDHI CHAUHAN;FEAT. ALI ZAFAR;NITZ ‘N’ SONY;PRANAV VATSA",
    "album": "HEY BRO",
    "videoId": "bTO5GwM_DVM",
    "duration": "4:40"
@@ -1574,7 +1574,7 @@
   },
   {
    "title": "KRAZZY 4",
-   "artist": "VISHAL DADLANI, RAJESH ROSHAN, & ASIF ALI BEG",
+   "artist": "VISHAL DADLANI;RAJESH ROSHAN;ASIF ALI BEG",
    "album": "KRAZZY 4",
    "videoId": "_JNVQxIx364",
    "duration": "3:08"
@@ -1630,7 +1630,7 @@
   },
   {
    "title": "Mauja Hi Mauja (Remix)",
-   "artist": "Pritam, Mika Singh, Bunty Rajput, and Irshad Kamil",
+   "artist": "Pritam;Mika Singh;Bunty Rajput;Irshad Kamil",
    "album": "Jab We Met",
    "videoId": "JBw2mB2H47A",
    "duration": "4:29"
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "Love Mera Hit Hit (House Mix)",
-   "artist": "Pritam, Neeraj Shridhar, Tulsi Kumar, Dj A-Myth, and Ashish Pandit",
+   "artist": "Pritam;Neeraj Shridhar;Tulsi Kumar;Dj A-Myth",
    "album": "Billu",
    "videoId": "8TFdQjIXPq8",
    "duration": "4:59"
@@ -1686,7 +1686,7 @@
   },
   {
    "title": "O Womaniya (Live)",
-   "artist": "Khushboo Raaj & Rekha Jha",
+   "artist": "Khushboo Raaj;Rekha Jha",
    "album": "Gangs Of Wasseypur",
    "videoId": "kK3Gms217v0",
    "duration": "4:50"
@@ -1700,7 +1700,7 @@
   },
   {
    "title": "Womaniya",
-   "artist": "Khushboo Raaj & Rekha Jha",
+   "artist": "Khushboo Raaj;Rekha Jha",
    "album": "Gangs Of Wasseypur",
    "videoId": "F4ecnJPeZ6U",
    "duration": "5:23"
@@ -1861,14 +1861,14 @@
   },
   {
    "title": "Allah Bachaye",
-   "artist": "Pritam, Alisha Chinai, Earl D'souza, and Mayur Puri",
+   "artist": "Pritam;Alisha Chinai;Earl D'souza;Mayur Puri",
    "album": "Pyar Ke Side Effects",
    "videoId": "F972kbDXGlo",
    "duration": "3:44"
   },
   {
    "title": "NOBODY LIKE YOU (REMIX)",
-   "artist": "NEERAJ SHRIDHAR, ANUSHKA, ISHQ BECTOR, CHIRRANTAN BHATT, and HAMZA FARUQUI",
+   "artist": "NEERAJ SHRIDHAR;ANUSHKA;ISHQ BECTOR;CHIRRANTAN BHATT",
    "album": "MISSION ISTAANBUL",
    "videoId": "WS9IyERnys4",
    "duration": "3:45"
@@ -1987,7 +1987,7 @@
   },
   {
    "title": "JUST DO IT",
-   "artist": "EARL EDGAR, SANDEEP SHIRODKAR, KEN GHOSH, and AMITABH BHATTACHARYA",
+   "artist": "EARL EDGAR;SANDEEP SHIRODKAR;KEN GHOSH;AMITABH BHATTACHARYA",
    "album": "CHANCE PE DANCE",
    "videoId": "xWkHI2mlu7I",
    "duration": "1:58"
@@ -2085,7 +2085,7 @@
   },
   {
    "title": "Jee Karda",
-   "artist": "Pritam, Labh Jan Jua, & Suzie.Q",
+   "artist": "Pritam;Labh Jan Jua;Suzie.Q",
    "album": "Singh Is Kinng",
    "videoId": "uyBS_vaVH4U",
    "duration": "4:52"

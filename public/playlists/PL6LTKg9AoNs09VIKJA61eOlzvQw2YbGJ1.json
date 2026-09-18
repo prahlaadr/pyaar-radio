@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs09VIKJA61eOlzvQw2YbGJ1",
  "title": "Hitters",
  "trackCount": 443,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "magic",
-   "artist": "Medasin, MAE.SUN, & Sara Kawai",
+   "artist": "Medasin;MAE.SUN;Sara Kawai",
    "album": "sounds",
    "videoId": "9ytiyD_QA2s",
    "duration": "5:57"
@@ -41,7 +41,7 @@
   },
   {
    "title": "remembering",
-   "artist": "Medasin, Sara Kawai, & Keyhan",
+   "artist": "Medasin;Sara Kawai;Keyhan",
    "album": "sounds",
    "videoId": "wsPetH2Fbho",
    "duration": "3:09"
@@ -55,7 +55,7 @@
   },
   {
    "title": "main menu",
-   "artist": "Medasin & MAE.SUN",
+   "artist": "Medasin;MAE.SUN",
    "album": "sounds",
    "videoId": "pm5EQbD8x7g",
    "duration": "3:04"
@@ -342,7 +342,7 @@
   },
   {
    "title": "I Went Outside Today",
-   "artist": "open mike eagle & Paul White",
+   "artist": "open mike eagle;Paul White",
    "album": "Hella Personal Film Festival",
    "videoId": "sQfzAzU2qfU",
    "duration": "2:44"
@@ -601,7 +601,7 @@
   },
   {
    "title": "Discipline 99 Pt. 0",
-   "artist": "Quasimoto & Mr. Herb",
+   "artist": "Quasimoto;Mr. Herb",
    "album": "The Unseen",
    "videoId": "sXtrsUXPr74",
    "duration": "2:33"
@@ -1035,7 +1035,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "akz-HYpkwJA",
    "duration": "12:51"
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Fuck The World (Summer In London) [Remix]",
-   "artist": "Brent Faiyaz & 2 Chainz",
+   "artist": "Brent Faiyaz;2 Chainz",
    "album": "Fuck The World (Summer In London) [Remix]",
    "videoId": "_KQGhlKG-_I",
    "duration": "4:58"
@@ -2092,7 +2092,7 @@
   },
   {
    "title": "Movement 6",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "Sp251kcTARY",
    "duration": "8:51"
@@ -2974,7 +2974,7 @@
   },
   {
    "title": "Propaganda",
-   "artist": "Salami Rose Joe Louis & Brijean",
+   "artist": "Salami Rose Joe Louis;Brijean",
    "album": "Akousmatikous / Propaganda",
    "videoId": "_LBffS91xvc",
    "duration": "2:33"

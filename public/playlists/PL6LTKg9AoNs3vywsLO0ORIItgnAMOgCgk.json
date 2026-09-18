@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3vywsLO0ORIItgnAMOgCgk",
  "title": "Oct 25",
  "trackCount": 24,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Gimme Some More",
@@ -76,7 +76,7 @@
   },
   {
    "title": "King",
-   "artist": "LYNY & Elohim",
+   "artist": "LYNY;Elohim",
    "album": "Noise To Dance To",
    "videoId": "NM49ERCAg0Q",
    "duration": "3:03"
@@ -139,7 +139,7 @@
   },
   {
    "title": "TELL ME ((MORE))",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "TELL ME ((MORE))",
    "videoId": "kyExamXjf6g",
    "duration": "3:17"

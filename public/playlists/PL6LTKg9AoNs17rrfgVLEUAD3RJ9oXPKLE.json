@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs17rrfgVLEUAD3RJ9oXPKLE",
  "title": "suddenly jersey ",
  "trackCount": 46,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Odyssey \"JerseyClub\"",
@@ -153,7 +153,7 @@
   },
   {
    "title": "Stadium",
-   "artist": "Amal & DJ Nativesun",
+   "artist": "Amal;DJ Nativesun",
    "album": "Stadium",
    "videoId": "74rgaZDM8Oc",
    "duration": "2:48"
@@ -209,7 +209,7 @@
   },
   {
    "title": "Ev3ryd4y Jersey Club",
-   "artist": "Pr0d.k4y, REDTABEATS, Salako, and prodbydr4ko",
+   "artist": "Pr0d.k4y;REDTABEATS;Salako;prodbydr4ko",
    "album": "Ev3ryd4y Jersey Club",
    "videoId": "98nYkZDwZ-g",
    "duration": "2:50"
@@ -286,14 +286,14 @@
   },
   {
    "title": "Always N Forever. (Jersey Club)",
-   "artist": "Stack!e & yvngsolo",
+   "artist": "Stack!e;yvngsolo",
    "album": "Always N Forever. (Jersey Club)",
    "videoId": "f8R13nXZ6VM",
    "duration": "2:07"
   },
   {
    "title": "YU YU HASKUSHO #zessbounce (feat. Spicefam Jay)",
-   "artist": "Ziahfyah & Djliltaj",
+   "artist": "Ziahfyah;Djliltaj",
    "album": "ZIAHFYAH",
    "videoId": "5SfXWF_VspY",
    "duration": "2:22"

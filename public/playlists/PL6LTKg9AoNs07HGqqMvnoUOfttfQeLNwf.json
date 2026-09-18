@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs07HGqqMvnoUOfttfQeLNwf",
  "title": "☻ PinkPantheress USB Stick (96% liquid lofi dnb jungle)",
  "trackCount": 369,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Blue Moon",
@@ -76,7 +76,7 @@
   },
   {
    "title": "Never Tell",
-   "artist": "Hier & vnon",
+   "artist": "Hier;vnon",
    "album": "Never Tell",
    "videoId": "NSSbIVMryvI",
    "duration": "5:13"
@@ -237,7 +237,7 @@
   },
   {
    "title": "Sweet Jungle",
-   "artist": "[ K S R ] & Dogger",
+   "artist": "[ K S R ];Dogger",
    "album": "Sweet Jungle",
    "videoId": "MxIadiyJbP4",
    "duration": "5:16"
@@ -496,7 +496,7 @@
   },
   {
    "title": "8 Doobies to the Face, I'm in a House Party",
-   "artist": "MDMAXEL & Sketchy",
+   "artist": "MDMAXEL;Sketchy",
    "album": "Crossing Paths",
    "videoId": "04dEbRcVsOk",
    "duration": "5:30"
@@ -615,7 +615,7 @@
   },
   {
    "title": "Lost Connections",
-   "artist": "Redeyes & DRS",
+   "artist": "Redeyes;DRS",
    "album": "This Must Be the Place",
    "videoId": "NHMaj_XYOuI",
    "duration": "4:33"
@@ -762,7 +762,7 @@
   },
   {
    "title": "This Time (Carl Craig Mix 1)",
-   "artist": "Jonny L & Carl Craig",
+   "artist": "Jonny L;Carl Craig",
    "album": "Remixes '96 - '97",
    "videoId": "sPwhN04elmM",
    "duration": "8:44"
@@ -1049,7 +1049,7 @@
   },
   {
    "title": "Higher",
-   "artist": "Groovy D, Anna Straker, & Interplanetary Criminal",
+   "artist": "Groovy D;Anna Straker;Interplanetary Criminal",
    "album": "Higher",
    "videoId": "rPkjVCqTwec",
    "duration": "4:48"
@@ -1791,7 +1791,7 @@
   },
   {
    "title": "Kiss on the Train",
-   "artist": "Araya & DJ_Dave",
+   "artist": "Araya;DJ_Dave",
    "album": "Ethos",
    "videoId": "CngKgbQSACw",
    "duration": "3:09"
@@ -2078,14 +2078,14 @@
   },
   {
    "title": "Rest Assured",
-   "artist": "Mystic State & Elysia Grace",
+   "artist": "Mystic State;Elysia Grace",
    "album": "We Can Help Each Other / Rest Assured",
    "videoId": "fgIHkhI85Og",
    "duration": "5:07"
   },
   {
    "title": "Freefall",
-   "artist": "Dexcell & LaMeduza",
+   "artist": "Dexcell;LaMeduza",
    "album": "Freefall",
    "videoId": "90wem0lBRUQ",
    "duration": "4:51"
@@ -2407,7 +2407,7 @@
   },
   {
    "title": "I'M DONE",
-   "artist": "Muddyoush & rashaad",
+   "artist": "Muddyoush;rashaad",
    "album": "BEAUTY:BEAT",
    "videoId": "0f3zw7oddD0",
    "duration": "2:35"
@@ -2519,7 +2519,7 @@
   },
   {
    "title": "sad robots don't cry",
-   "artist": "DESTROY BORING & Belis",
+   "artist": "DESTROY BORING;Belis",
    "album": "sad robots don't cry",
    "videoId": "eqwak6hXXds",
    "duration": "2:28"
@@ -2533,7 +2533,7 @@
   },
   {
    "title": "No Need 2 Be Sorry, Call Me? (feat. Maverick Sabre)",
-   "artist": "Nia Archives & Maverick Sabre",
+   "artist": "Nia Archives;Maverick Sabre",
    "album": "Sunrise Bang Ur Head Against Tha Wall",
    "videoId": "4UKjyhi4EPc",
    "duration": "3:28"

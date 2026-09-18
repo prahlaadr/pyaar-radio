@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs05NmeGU1DFT-A90YhqNiDD",
  "title": "jungle usb ordered by decreasing BPM",
  "trackCount": 216,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "paladin",
@@ -97,7 +97,7 @@
   },
   {
    "title": "Mania",
-   "artist": "gum.mp3 & dazegxd",
+   "artist": "gum.mp3;dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "Yk7UqYq3m-U",
    "duration": "3:36"
@@ -230,7 +230,7 @@
   },
   {
    "title": "Gargoyle",
-   "artist": "dreamstation & Downhill2k01",
+   "artist": "dreamstation;Downhill2k01",
    "album": "Dreamcore, Vol. 1",
    "videoId": "JhZhe8KXVHk",
    "duration": "3:08"
@@ -412,7 +412,7 @@
   },
   {
    "title": "Foregone Destruction (from \"Unreal Tournament\")",
-   "artist": "GameLark & MSH",
+   "artist": "GameLark;MSH",
    "album": "GameLark Records Volume 1 (Legacy Edition)",
    "videoId": "ZLKASteGWMQ",
    "duration": "4:20"
@@ -629,7 +629,7 @@
   },
   {
    "title": "companion cube",
-   "artist": "optic core & Woozie Face",
+   "artist": "optic core;Woozie Face",
    "album": "companion cube",
    "videoId": "aTX1-J3oRko",
    "duration": "8:03"

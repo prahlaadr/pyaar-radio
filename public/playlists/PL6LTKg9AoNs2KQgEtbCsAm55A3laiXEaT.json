@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2KQgEtbCsAm55A3laiXEaT",
  "title": "nurr",
  "trackCount": 44,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "I Been",
@@ -153,7 +153,7 @@
   },
   {
    "title": "FAKE LOVE",
-   "artist": "Cochise & Veeze",
+   "artist": "Cochise;Veeze",
    "album": "WHY ALWAYS ME?",
    "videoId": "LwHJr0dwbrA",
    "duration": "2:59"
@@ -181,7 +181,7 @@
   },
   {
    "title": "Gimme A Second 2",
-   "artist": "Rich The Kid & Kanye West",
+   "artist": "Rich The Kid;Kanye West",
    "album": "Gimme A Second 2",
    "videoId": "IxBQEQQhWbA",
    "duration": "2:52"
@@ -209,7 +209,7 @@
   },
   {
    "title": "Let's Get It",
-   "artist": "Rich The Kid, Kodak Black, & Lil Crix",
+   "artist": "Rich The Kid;Kodak Black;Lil Crix",
    "album": "Rich Forever 5",
    "videoId": "6XzeuJ8PsqA",
    "duration": "2:30"

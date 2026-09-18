@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -370,7 +370,7 @@
   },
   {
    "title": "Gimme A Second 2",
-   "artist": "Rich The Kid & Kanye West",
+   "artist": "Rich The Kid;Kanye West",
    "album": "Gimme A Second 2",
    "videoId": "IxBQEQQhWbA",
    "duration": "2:52"
@@ -426,7 +426,7 @@
   },
   {
    "title": "Best to You",
-   "artist": "Blood Orange & Empress Of",
+   "artist": "Blood Orange;Empress Of",
    "album": "Freetown Sound",
    "videoId": "ACinCwmWalY",
    "duration": "3:46"
@@ -1231,7 +1231,7 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "JIYO",
    "videoId": "EmjWjS5jPTA",
    "duration": "4:08"
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Like That",
-   "artist": "Future, Metro Boomin, & Kendrick Lamar",
+   "artist": "Future;Metro Boomin;Kendrick Lamar",
    "album": "WE DON'T TRUST YOU",
    "videoId": "Rr1Cdli5nE8",
    "duration": "4:28"
@@ -1378,7 +1378,7 @@
   },
   {
    "title": "Sirukki Vaasam",
-   "artist": "Santhosh Narayanan, Anand Aravindakshan, Shweta Mohan, and Vivek",
+   "artist": "Santhosh Narayanan;Anand Aravindakshan;Shweta Mohan;Vivek",
    "album": "Kodi (Original Motion Picture Soundtrack)",
    "videoId": "4WSxp-9Eddw",
    "duration": "4:35"
@@ -1546,7 +1546,7 @@
   },
   {
    "title": "Ramana Aei (feat. Mahesh Babu, Sreeleela & Meenakshii Chaudhary)",
-   "artist": "Thaman S, Kanakavva, & Mahesh Babu",
+   "artist": "Thaman S;Kanakavva;Mahesh Babu",
    "album": "Guntur Kaaram",
    "videoId": "u6wMaWbT7os",
    "duration": "2:36"
@@ -2218,7 +2218,7 @@
   },
   {
    "title": "magic",
-   "artist": "Medasin, MAE.SUN, & Sara Kawai",
+   "artist": "Medasin;MAE.SUN;Sara Kawai",
    "album": "sounds",
    "videoId": "9ytiyD_QA2s",
    "duration": "5:57"
@@ -2925,14 +2925,14 @@
   },
   {
    "title": "GET A GRIP",
-   "artist": "Kelvin Krash & A$AP Rocky",
+   "artist": "Kelvin Krash;A$AP Rocky",
    "album": "HARSH",
    "videoId": "5NVIk1HfRko",
    "duration": "1:18"
   },
   {
    "title": "Marudaani",
-   "artist": "A.R. Rahman, Madhushree, Hentry Kuruvila, and Vaali",
+   "artist": "A.R. Rahman;Madhushree;Hentry Kuruvila;Vaali",
    "album": "Sakkarakatti (Original Motion Picture Soundtrack)",
    "videoId": "RKZNPx-K1AA",
    "duration": "6:28"
@@ -3072,7 +3072,7 @@
   },
   {
    "title": "LIE BACK HARDER - A COLORS SHOW",
-   "artist": "Lavils & COLORS",
+   "artist": "Lavils;COLORS",
    "album": "LIE BACK HARDER - A COLORS SHOW",
    "videoId": "BTh3zd_DKSY",
    "duration": "2:02"
@@ -4381,7 +4381,7 @@
   },
   {
    "title": "Le Temple Volant",
-   "artist": "Melody’s Echo Chamber & Crumb",
+   "artist": "Melody’s Echo Chamber;Crumb",
    "album": "Le Temple Volant",
    "videoId": "b0plJHQBNh4",
    "duration": "2:06"
@@ -4696,7 +4696,7 @@
   },
   {
    "title": "HARJAIYAAN",
-   "artist": "NANDINI SRIKAR, AMIT TRIVEDI, & ANVITA DUTT GUPTAN",
+   "artist": "NANDINI SRIKAR;AMIT TRIVEDI;ANVITA DUTT GUPTAN",
    "album": "QUEEN",
    "videoId": "8-0b6QuUnCk",
    "duration": "4:48"
@@ -5480,7 +5480,7 @@
   },
   {
    "title": "19",
-   "artist": "Dean Blunt & A$AP Rocky & Sauce Walka, Dean Blunt, A$AP Rocky, and Sauce Walka",
+   "artist": "Dean Blunt & A$AP Rocky & Sauce Walka;Dean Blunt;A$AP Rocky;Sauce Walka",
    "album": "ZUSHI",
    "videoId": "DV6vKZCzLI4",
    "duration": "2:41"
@@ -5781,7 +5781,7 @@
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "album": "KAYTRAMINÉ",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
@@ -5914,7 +5914,7 @@
   },
   {
    "title": "esperança",
-   "artist": "Munir Hossn & Ganavya",
+   "artist": "Munir Hossn;Ganavya",
    "album": "sister, idea",
    "videoId": "xDQd5NYyJR0",
    "duration": "3:26"
@@ -5942,7 +5942,7 @@
   },
   {
    "title": "Round Of Applause",
-   "artist": "2oo7 & Tony Shhnow",
+   "artist": "2oo7;Tony Shhnow",
    "album": "Round Of Applause",
    "videoId": "-t8DiOI7wA4",
    "duration": "2:38"
@@ -7356,7 +7356,7 @@
   },
   {
    "title": "Finsta (feat. Miseye)",
-   "artist": "Ben Reilly & Abstract Media",
+   "artist": "Ben Reilly;Abstract Media",
    "album": "Freelance",
    "videoId": "b75Kfz6nUxA",
    "duration": "3:37"
@@ -8336,7 +8336,7 @@
   },
   {
    "title": "Mistério do Planeta",
-   "artist": "Novos Baianos, Galvão, Moraes Moreira, Moraes Moreira, and Galvão",
+   "artist": "Novos Baianos;Galvão, Moraes Moreira;Moraes Moreira;Galvão",
    "album": "Acabou Chorare",
    "videoId": "Eb5E3TzO0bw",
    "duration": "3:38"
@@ -9694,7 +9694,7 @@
   },
   {
    "title": "GRAVITY",
-   "artist": "Brent Faiyaz, DJ Dahi, & Tyler The Creator",
+   "artist": "Brent Faiyaz;DJ Dahi;Tyler The Creator",
    "album": "WASTELAND",
    "videoId": "Pp-pElPOeyA",
    "duration": "3:41"
@@ -9729,7 +9729,7 @@
   },
   {
    "title": "GHETTO GATSBY",
-   "artist": "Brent Faiyaz & Alicia Keys",
+   "artist": "Brent Faiyaz;Alicia Keys",
    "album": "WASTELAND",
    "videoId": "jfD-4XbPty8",
    "duration": "3:19"
@@ -9764,7 +9764,7 @@
   },
   {
    "title": "ADDICTIONS",
-   "artist": "Brent Faiyaz & Tre Amani",
+   "artist": "Brent Faiyaz;Tre Amani",
    "album": "WASTELAND",
    "videoId": "lpXcrot2vZY",
    "duration": "3:13"
@@ -10149,7 +10149,7 @@
   },
   {
    "title": "D'amour et d'eau fraiche",
-   "artist": "Youssgang & juana",
+   "artist": "Youssgang;juana",
    "album": "Youssgang Island, Vol. 1",
    "videoId": "ocAGfEvjqG0",
    "duration": "2:47"
@@ -15882,7 +15882,7 @@
   },
   {
    "title": "12 Etudes, W235: No. 9 in F-Sharp Minor, Très peu animé",
-   "artist": "Pedro Aguiar & Heitor Villa-Lobos",
+   "artist": "Pedro Aguiar;Heitor Villa-Lobos",
    "album": "Les années folles",
    "videoId": "J68yC0mlWC8",
    "duration": "3:59"
@@ -15919,7 +15919,7 @@
    "title": "wassup wya",
    "artist": "Cash Cobain",
    "album": "PLAY CASH COBAIN",
-   "videoId": "dZAYj6hpjfg",
+   "videoId": "yHcdCCgAz4k",
    "duration": "1:59"
   },
   {
@@ -16085,7 +16085,7 @@
   },
   {
    "title": "FAKE LOVE",
-   "artist": "Cochise & Veeze",
+   "artist": "Cochise;Veeze",
    "album": "WHY ALWAYS ME?",
    "videoId": "LwHJr0dwbrA",
    "duration": "2:59"
@@ -16232,7 +16232,7 @@
   },
   {
    "title": "Let's Get It",
-   "artist": "Rich The Kid, Kodak Black, & Lil Crix",
+   "artist": "Rich The Kid;Kodak Black;Lil Crix",
    "album": "Rich Forever 5",
    "videoId": "6XzeuJ8PsqA",
    "duration": "2:30"
@@ -16365,7 +16365,7 @@
   },
   {
    "title": "Ready. Set. Flex.",
-   "artist": "Shigeto, ZelooperZ, & Ian Maciak",
+   "artist": "Shigeto;ZelooperZ;Ian Maciak",
    "album": "Cherry Blossom Baby",
    "videoId": "4zWDIhuqMpU",
    "duration": "4:00"
@@ -16407,7 +16407,7 @@
   },
   {
    "title": "Nothing Simple",
-   "artist": "Shigeto, Tammy Lakkis, & Cleveland Thrasher",
+   "artist": "Shigeto;Tammy Lakkis;Cleveland Thrasher",
    "album": "Cherry Blossom Baby",
    "videoId": "iAIUhXTJ6Y0",
    "duration": "3:33"
@@ -16680,7 +16680,7 @@
   },
   {
    "title": "Bud Bud Ding Ding (feat. Pataka Boys)",
-   "artist": "PAV4N, Sonnyjim, Kartik, and Juss Nandhra",
+   "artist": "PAV4N;Sonnyjim;Kartik;Juss Nandhra",
    "album": "Thugs From Amritsar",
    "videoId": "uZLcEiJV9j0",
    "duration": "1:48"
@@ -16939,7 +16939,7 @@
   },
   {
    "title": "FAKE LOVE",
-   "artist": "Cochise & Veeze",
+   "artist": "Cochise;Veeze",
    "album": "WHY ALWAYS ME?",
    "videoId": "LwHJr0dwbrA",
    "duration": "2:59"
@@ -17100,7 +17100,7 @@
   },
   {
    "title": "Let's Get It",
-   "artist": "Rich The Kid, Kodak Black, & Lil Crix",
+   "artist": "Rich The Kid;Kodak Black;Lil Crix",
    "album": "Rich Forever 5",
    "videoId": "6XzeuJ8PsqA",
    "duration": "2:30"
@@ -17233,7 +17233,7 @@
   },
   {
    "title": "Ready. Set. Flex.",
-   "artist": "Shigeto, ZelooperZ, & Ian Maciak",
+   "artist": "Shigeto;ZelooperZ;Ian Maciak",
    "album": "Cherry Blossom Baby",
    "videoId": "4zWDIhuqMpU",
    "duration": "4:00"
@@ -17275,7 +17275,7 @@
   },
   {
    "title": "Nothing Simple",
-   "artist": "Shigeto, Tammy Lakkis, & Cleveland Thrasher",
+   "artist": "Shigeto;Tammy Lakkis;Cleveland Thrasher",
    "album": "Cherry Blossom Baby",
    "videoId": "iAIUhXTJ6Y0",
    "duration": "3:33"
@@ -17422,7 +17422,7 @@
   },
   {
    "title": "ILLEST (REMIX)",
-   "artist": "Lapgan & EXCISE DEPT",
+   "artist": "Lapgan;EXCISE DEPT",
    "album": "HISTORY THE REMIX",
    "videoId": "iwMq8uWMI28",
    "duration": "2:26"
@@ -18486,7 +18486,7 @@
   },
   {
    "title": "Dime",
-   "artist": "See You Next Year, Ben Reilly, Devon Parmer, Sherwin Davis, and Samuel DeAndre Harris",
+   "artist": "See You Next Year;Ben Reilly;Devon Parmer;Sherwin Davis",
    "album": "Pigeons & Planes & Big.Ass.Kids present: See You Next Year",
    "videoId": "EoDmYatiHtA",
    "duration": "3:32"
@@ -20089,7 +20089,7 @@
   },
   {
    "title": "Pandemic is a Portal (PiaP)",
-   "artist": "Krithi & Smaran",
+   "artist": "Krithi;Smaran",
    "album": "Pandemic is a Portal (PiaP)",
    "videoId": "pKK0Rla7HgY",
    "duration": "3:27"
@@ -20152,7 +20152,7 @@
   },
   {
    "title": "777",
-   "artist": "Real Trap Empire & Benzoo",
+   "artist": "Real Trap Empire;Benzoo",
    "album": "RTE4L",
    "videoId": "Cl9X7OHgHcM",
    "duration": "1:34"
@@ -20719,7 +20719,7 @@
   },
   {
    "title": "KEEP IT PLAYA",
-   "artist": "VER & Origami Beats",
+   "artist": "VER;Origami Beats",
    "album": "KEEP IT PLAYA",
    "videoId": "cHg5nR9f3co",
    "duration": "3:06"

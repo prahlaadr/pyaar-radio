@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1Jc2-8OfZCdduxCdAI5Kli",
  "title": "Feb 26",
  "trackCount": 21,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "I've Seen The Light / Inside Of Clouds",
@@ -48,7 +48,7 @@
   },
   {
    "title": "5 Star Residence",
-   "artist": "Lil Keed & Gunn",
+   "artist": "Lil Keed;Gunn",
    "album": "5 Star Residence",
    "videoId": "wR3tPpLzUgo",
    "duration": "2:45"
@@ -118,7 +118,7 @@
   },
   {
    "title": "Disrespectfully Decline",
-   "artist": "Foggieraw & Larry June",
+   "artist": "Foggieraw;Larry June",
    "album": "With No Due Respect",
    "videoId": "C8Mp-RJHbbA",
    "duration": "3:14"

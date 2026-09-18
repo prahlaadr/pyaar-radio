@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0vPQw5uYw6yb4hU0l3hwsx",
  "title": "carmack",
  "trackCount": 132,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Who Cares (feat. Mr. Carmack)",
@@ -426,14 +426,14 @@
   },
   {
    "title": "NEW SQUAD",
-   "artist": "Mr. Carmack & Falguni Shah",
+   "artist": "Mr. Carmack;Falguni Shah",
    "album": "Rebuild",
    "videoId": "In8TCbk0glg",
    "duration": "3:10"
   },
   {
    "title": "Hmm",
-   "artist": "Mr. Carmack & Goodnight Cody",
+   "artist": "Mr. Carmack;Goodnight Cody",
    "album": "Rebuild",
    "videoId": "D0Z3N5TQpw0",
    "duration": "2:48"
@@ -503,7 +503,7 @@
   },
   {
    "title": "Midnight",
-   "artist": "Mr. Carmack & Kenny Segal",
+   "artist": "Mr. Carmack;Kenny Segal",
    "album": "Rebuild",
    "videoId": "aaFZMWSNNPA",
    "duration": "2:28"
@@ -524,7 +524,7 @@
   },
   {
    "title": "Third Wheel",
-   "artist": "Tanizzle & Drill Manga",
+   "artist": "Tanizzle;Drill Manga",
    "album": "Three Is A Crowd",
    "videoId": "Kqd22BeuiyY",
    "duration": "3:22"
@@ -559,7 +559,7 @@
   },
   {
    "title": "Homebound",
-   "artist": "Jak Bannon & Mr.Carmack",
+   "artist": "Jak Bannon;Mr.Carmack",
    "album": "Homebound",
    "videoId": "CwDmuV7T_1A",
    "duration": "2:48"
@@ -769,7 +769,7 @@
   },
   {
    "title": "All Alone",
-   "artist": "Charlie Sweet & Mr. Carmack",
+   "artist": "Charlie Sweet;Mr. Carmack",
    "album": "All Alone",
    "videoId": "4YmoY4wNM4E",
    "duration": "3:27"

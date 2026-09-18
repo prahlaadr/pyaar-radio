@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs14MwbSfPJfvTXyymdZS4OD",
  "title": "Jan 24",
  "trackCount": 113,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Marudaani",
-   "artist": "A.R. Rahman, Madhushree, Hentry Kuruvila, and Vaali",
+   "artist": "A.R. Rahman;Madhushree;Hentry Kuruvila;Vaali",
    "album": "Sakkarakatti (Original Motion Picture Soundtrack)",
    "videoId": "RKZNPx-K1AA",
    "duration": "6:28"
@@ -146,7 +146,7 @@
   },
   {
    "title": "LIE BACK HARDER - A COLORS SHOW",
-   "artist": "Lavils & COLORS",
+   "artist": "Lavils;COLORS",
    "album": "LIE BACK HARDER - A COLORS SHOW",
    "videoId": "BTh3zd_DKSY",
    "duration": "2:02"

@@ -2,7 +2,7 @@
  "playlistId": "PLYGFgc7WLuHE",
  "title": "9laad:140",
  "trackCount": 215,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Dread",
@@ -342,7 +342,7 @@
   },
   {
    "title": "Connecta",
-   "artist": "Swindle & Ricardo China",
+   "artist": "Swindle;Ricardo China",
    "album": "Connecta - EP",
    "videoId": "xwgQhy_LkzM",
    "duration": "5:15"
@@ -650,7 +650,7 @@
   },
   {
    "title": "1 Sec",
-   "artist": "Novelist & Mumdance",
+   "artist": "Novelist;Mumdance",
    "album": "1 Sec",
    "videoId": "R6SZG0R5eGw",
    "duration": "3:22"
@@ -1210,7 +1210,7 @@
   },
   {
    "title": "Dutty So",
-   "artist": "Redders, Sam Binga, & Hyroglifics",
+   "artist": "Redders;Sam Binga;Hyroglifics",
    "album": "The Cow Foot EP",
    "videoId": "x2ea2IpIEQo",
    "duration": "4:47"

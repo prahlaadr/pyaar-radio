@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1bie0IMAneSgLeHsXtv_Ur",
  "title": "Timeboy LIKED SONGS  3",
  "trackCount": 2398,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Love Is the Message (Live at Abbey Road Studios) (feat. Alfa Mist, Mansur Brown & Rocco Palladino)",
@@ -286,7 +286,7 @@
   },
   {
    "title": "Forever",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "akz-HYpkwJA",
    "duration": "12:51"
@@ -1742,7 +1742,7 @@
   },
   {
    "title": "Almost Beautiful",
-   "artist": "Anna Homler, The Pylon King, & Voices of Kwahn",
+   "artist": "Anna Homler;The Pylon King;Voices of Kwahn",
    "album": "Deliquium in C",
    "videoId": "gd1OX9EEwYU",
    "duration": "4:10"
@@ -2393,42 +2393,42 @@
   },
   {
    "title": "THEEM AND VARIATIONS",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "j8Y2gbl9t7I",
    "duration": "3:35"
   },
   {
    "title": "TRACK ONE",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "P0Tg2k-OdVY",
    "duration": "5:52"
   },
   {
    "title": "GREETINGS TO IDRIS",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "PttdpYS6E5A",
    "duration": "5:10"
   },
   {
    "title": "IRISH",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "CfYc3ql925A",
    "duration": "5:26"
   },
   {
    "title": "KIEFER NO MELODY",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "rM5joayzUzY",
    "duration": "4:06"
   },
   {
    "title": "YOU'LL NEVER GET TO HEAVEN",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "bUp0aOaFGN0",
    "duration": "2:47"
@@ -3576,21 +3576,21 @@
   },
   {
    "title": "Inside Out",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "vpiHS10NoCg",
    "duration": "4:30"
   },
   {
    "title": "The Song Before",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "E67XBP09ee0",
    "duration": "2:40"
   },
   {
    "title": "Tuesday's Offering",
-   "artist": "Broadcast & The Focus Group",
+   "artist": "Broadcast;The Focus Group",
    "album": "Study Series 04: Familiar Shapes and Noises",
    "videoId": "_I1s9vnb9xI",
    "duration": "2:16"
@@ -4304,7 +4304,7 @@
   },
   {
    "title": "Ajoyio",
-   "artist": "Chief Commander Ebenezer Obey & His International Brothers",
+   "artist": "Chief Commander Ebenezer Obey;His International Brothers",
    "album": "Nigeria 70 - Sweet Times: Afro-Funk, Highlife & Juju from 1970s Lagos",
    "videoId": "ZgTOyMZTX-0",
    "duration": "6:40"
@@ -5361,7 +5361,7 @@
   },
   {
    "title": "Economy of Freedom",
-   "artist": "Yves Tumor & Croatian Amor",
+   "artist": "Yves Tumor;Croatian Amor",
    "album": "Safe In The Hands of Love",
    "videoId": "-eWDTxNVUiE",
    "duration": "4:56"
@@ -6033,7 +6033,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -6138,21 +6138,21 @@
   },
   {
    "title": "Bacchanal",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "yXKeZXBh9sc",
    "duration": "4:58"
   },
   {
    "title": "Three King Fishers",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "NYwfg_VLtao",
    "duration": "4:49"
   },
   {
    "title": "Love Is Blue",
-   "artist": "Gabor Szabo, Jim Stewart, Hal Gordon, Jimmy Keltner, and Louis Kabok",
+   "artist": "Gabor Szabo;Jim Stewart;Hal Gordon;Jimmy Keltner",
    "album": "Bacchanal",
    "videoId": "xClEUWA6Bdg",
    "duration": "4:19"
@@ -6187,7 +6187,7 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala & James Blake",
+   "artist": "Mala;James Blake",
    "album": "Changes (James Blake Harmonimix)",
    "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
@@ -7720,7 +7720,7 @@
   },
   {
    "title": "Twelve O'Clock Shadow (feat. Miguel Atwood-Ferguson)",
-   "artist": "Natureboy Flako & Miguel Atwood-Ferguson",
+   "artist": "Natureboy Flako;Miguel Atwood-Ferguson",
    "album": "Natureboy",
    "videoId": "F3fBEJD6oFo",
    "duration": "3:58"
@@ -12109,7 +12109,7 @@
   },
   {
    "title": "Smile",
-   "artist": "Rhythm & Sound & Savage",
+   "artist": "Rhythm & Sound;Savage",
    "album": "Rhythm & Sound",
    "videoId": "ePa9gJ9YQR0",
    "duration": "9:13"
@@ -12648,7 +12648,7 @@
   },
   {
    "title": "Victory",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "6kPic0VTRs8",
    "duration": "4:19"
@@ -12697,7 +12697,7 @@
   },
   {
    "title": "Love And Death",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "6xwtVBQpjCE",
    "duration": "8:18"
@@ -12725,7 +12725,7 @@
   },
   {
    "title": "What Is Life?",
-   "artist": "Ebo Taylor & Uhuru-Yenzu",
+   "artist": "Ebo Taylor;Uhuru-Yenzu",
    "album": "Life Stories",
    "videoId": "BE24E7Gz9hE",
    "duration": "4:38"
@@ -16694,7 +16694,7 @@
   },
   {
    "title": "Sun",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "7y0y9WSyUYw",
    "duration": "4:04"
@@ -16715,7 +16715,7 @@
   },
   {
    "title": "In Your",
-   "artist": "Lionmilk & Mndsgn",
+   "artist": "Lionmilk;Mndsgn",
    "album": "Forever In Your Sun",
    "videoId": "s-xTRlhSKCQ",
    "duration": "10:24"

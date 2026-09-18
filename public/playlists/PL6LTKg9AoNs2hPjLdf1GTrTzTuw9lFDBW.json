@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
  "title": "Soup To Nuts w/ Anu - NTS",
  "trackCount": 2580,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "In The Rain",
@@ -62,7 +62,7 @@
   },
   {
    "title": "Up the Dubs (feat. The Wino Boys)",
-   "artist": "Grape, Isle O' Man, & The Wino Boys",
+   "artist": "Grape;Isle O' Man;The Wino Boys",
    "album": "Vibe 3",
    "videoId": "wyIG1VMWgww",
    "duration": "5:26"
@@ -111,7 +111,7 @@
   },
   {
    "title": "The Rain",
-   "artist": "DJ Duke & Techdisco Vol 2 & Techdisco Vol 2",
+   "artist": "DJ Duke & Techdisco Vol 2;Techdisco Vol 2",
    "album": "The Lost Deep House Trax - Volume Two",
    "videoId": "6Vp6dw1QD1k",
    "duration": "5:41"
@@ -293,7 +293,7 @@
   },
   {
    "title": "Like a Magic Dream",
-   "artist": "Rene Costy & Jacqueline Henriette Van-Hal",
+   "artist": "Rene Costy;Jacqueline Henriette Van-Hal",
    "album": "Danger Suspense Et Eprouvettes",
    "videoId": "wvbrsFKjStw",
    "duration": "7:37"
@@ -538,7 +538,7 @@
   },
   {
    "title": "bassline",
-   "artist": "duendita & Noah Becker",
+   "artist": "duendita;Noah Becker",
    "album": "bassline / big one",
    "videoId": "v8YJrcXgj8A",
    "duration": "3:01"
@@ -1532,7 +1532,7 @@
   },
   {
    "title": "Badass",
-   "artist": "DJ Haram & Carmen Nebula",
+   "artist": "DJ Haram;Carmen Nebula",
    "album": "Beside Myself",
    "videoId": "Hm9XLzjlVqI",
    "duration": "1:42"
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "Product of Attraction",
-   "artist": "Nick León & Lavurn",
+   "artist": "Nick León;Lavurn",
    "album": "A Tropical Entropy",
    "videoId": "cGBgx5LuyKg",
    "duration": "3:53"
@@ -2519,7 +2519,7 @@
   },
   {
    "title": "High Street",
-   "artist": "Blood Orange & Skepta",
+   "artist": "Blood Orange;Skepta",
    "album": "Cupid Deluxe",
    "videoId": "GgKMLF2hsLI",
    "duration": "2:59"
@@ -2820,7 +2820,7 @@
   },
   {
    "title": "Darnell Can't Polish a Turd",
-   "artist": "Borez, Beau Wanzer, & Rezzett",
+   "artist": "Borez;Beau Wanzer;Rezzett",
    "album": "Borez",
    "videoId": "fdCS8L8Te8A",
    "duration": "3:42"
@@ -3177,7 +3177,7 @@
   },
   {
    "title": "Enough For Love (TAYHANA Remix)",
-   "artist": "Kelela & TAYHANA",
+   "artist": "Kelela;TAYHANA",
    "album": "RAVE:N, The Remixes",
    "videoId": "uJQVckR6oPw",
    "duration": "3:59"
@@ -4052,7 +4052,7 @@
   },
   {
    "title": "meatballs (feat. Syl DuBenion)",
-   "artist": "Arti Gollapudi, CanteenKilla, & Talk Bazaar",
+   "artist": "Arti Gollapudi;CanteenKilla;Talk Bazaar",
    "album": "food feed fed",
    "videoId": "F-1OexFwi2w",
    "duration": "6:24"
@@ -4213,7 +4213,7 @@
   },
   {
    "title": "You're Sweeter Than the Taste of Honey",
-   "artist": "Rocky Mizell & The Sugar Rock Band",
+   "artist": "Rocky Mizell;The Sugar Rock Band",
    "album": "Hey Sexy Dancer",
    "videoId": "8iuTxRTY3Ik",
    "duration": "4:29"
@@ -6516,7 +6516,7 @@
   },
   {
    "title": "take a hold",
-   "artist": "H31R, maassai, & JWords",
+   "artist": "H31R;maassai;JWords",
    "album": "ve·loc·i·ty",
    "videoId": "YqBOXYuiVRo",
    "duration": "2:05"
@@ -7335,7 +7335,7 @@
   },
   {
    "title": "Undercover Lover",
-   "artist": "Qendresa & Jamma-Dee",
+   "artist": "Qendresa;Jamma-Dee",
    "album": "Undercover Lover",
    "videoId": "fy9NlgVkOMI",
    "duration": "3:38"
@@ -7678,7 +7678,7 @@
   },
   {
    "title": "MOTION",
-   "artist": "Joanne Robertson & Dean Blunt",
+   "artist": "Joanne Robertson;Dean Blunt",
    "album": "Backstage Raver",
    "videoId": "EuK3uUR7pnU",
    "duration": "3:16"
@@ -8196,7 +8196,7 @@
   },
   {
    "title": "Drum Trak 101",
-   "artist": "DJ Pitch & MLE",
+   "artist": "DJ Pitch;MLE",
    "album": "Cheap Gifts For Your Boyfriend",
    "videoId": "MZNIWFrNx6o",
    "duration": "5:42"
@@ -8385,7 +8385,7 @@
   },
   {
    "title": "Drum Trak 101",
-   "artist": "DJ Pitch & MLE",
+   "artist": "DJ Pitch;MLE",
    "album": "Cheap Gifts For Your Boyfriend",
    "videoId": "MZNIWFrNx6o",
    "duration": "5:42"
@@ -8700,7 +8700,7 @@
   },
   {
    "title": "cheese cheese (feat. Syl DuBenion)",
-   "artist": "Arti Gollapudi, CanteenKilla, & Talk Bazaar",
+   "artist": "Arti Gollapudi;CanteenKilla;Talk Bazaar",
    "album": "food feed fed",
    "videoId": "1i7363iuogo",
    "duration": "13:29"
@@ -10555,7 +10555,7 @@
   },
   {
    "title": "Belleville",
-   "artist": "Laurel Halo, Coby Sey, Lucy Railton, and James Underwood",
+   "artist": "Laurel Halo;Coby Sey;Lucy Railton;James Underwood",
    "album": "Belleville",
    "videoId": "6JLjky47nsQ",
    "duration": "2:26"
@@ -11066,7 +11066,7 @@
   },
   {
    "title": "I LOVE YOUR GIRLFRIEND (LONG MIX)",
-   "artist": "Omar S & AF13",
+   "artist": "Omar S;AF13",
    "album": "I Love Your Girlfriend",
    "videoId": "owXHPXtyHAU",
    "duration": "5:06"
@@ -11696,7 +11696,7 @@
   },
   {
    "title": "I LOVE YOUR GIRLFRIEND (LONG MIX)",
-   "artist": "Omar S & AF13",
+   "artist": "Omar S;AF13",
    "album": "I Love Your Girlfriend",
    "videoId": "owXHPXtyHAU",
    "duration": "5:06"
@@ -12158,7 +12158,7 @@
   },
   {
    "title": "Graphic Bleed Outs",
-   "artist": "Quelle Chris & Chris Keys",
+   "artist": "Quelle Chris;Chris Keys",
    "album": "Innocent Country 2",
    "videoId": "bRACu7uT0VM",
    "duration": "4:36"
@@ -12732,7 +12732,7 @@
   },
   {
    "title": "What's Coming Over You?",
-   "artist": "Finn & Private Joy",
+   "artist": "Finn;Private Joy",
    "album": "What's Coming Over You?",
    "videoId": "ewuFHV4VquI",
    "duration": "4:39"
@@ -13215,7 +13215,7 @@
   },
   {
    "title": "Mother",
-   "artist": "Lady Lykez, Suku Ward, & Lunch Money Life",
+   "artist": "Lady Lykez;Suku Ward;Lunch Money Life",
    "album": "The God Phone",
    "videoId": "t0BKxKiJKAs",
    "duration": "2:48"
@@ -13348,7 +13348,7 @@
   },
   {
    "title": "cheese cheese (feat. Syl DuBenion)",
-   "artist": "Arti Gollapudi, CanteenKilla, & Talk Bazaar",
+   "artist": "Arti Gollapudi;CanteenKilla;Talk Bazaar",
    "album": "food feed fed",
    "videoId": "1i7363iuogo",
    "duration": "13:29"
@@ -13404,14 +13404,14 @@
   },
   {
    "title": "meatballs (feat. Syl DuBenion)",
-   "artist": "Arti Gollapudi, CanteenKilla, & Talk Bazaar",
+   "artist": "Arti Gollapudi;CanteenKilla;Talk Bazaar",
    "album": "food feed fed",
    "videoId": "F-1OexFwi2w",
    "duration": "6:24"
   },
   {
    "title": "TURNIN' HEADS",
-   "artist": "Kari Faux & BIG K.R.I.T.",
+   "artist": "Kari Faux;BIG K.R.I.T.",
    "album": "TURNIN' HEADS",
    "videoId": "qlGifIt4Klk",
    "duration": "2:57"
@@ -13649,7 +13649,7 @@
   },
   {
    "title": "Can We Do This?",
-   "artist": "Speakers Corner Quartet, Kwake Bass, Raven Bush, Peter Bennie, Biscuit, and Sampha",
+   "artist": "Speakers Corner Quartet;Kwake Bass;Raven Bush;Peter Bennie",
    "album": "Can We Do This?",
    "videoId": "j_few0bW-k0",
    "duration": "2:58"
@@ -13698,7 +13698,7 @@
   },
   {
    "title": "Tucked In",
-   "artist": "Nappy Nina, MAVI, & dane.zone",
+   "artist": "Nappy Nina;MAVI;dane.zone",
    "album": "Tucked In",
    "videoId": "BuoTOfqv7nA",
    "duration": "2:35"
@@ -13803,7 +13803,7 @@
   },
   {
    "title": "Stay Close",
-   "artist": "YukiHiro Takahashi & Steve Jansen",
+   "artist": "YukiHiro Takahashi;Steve Jansen",
    "album": "Stay Close",
    "videoId": "6gZLXah5HXY",
    "duration": "8:12"
@@ -13978,7 +13978,7 @@
   },
   {
    "title": "Merry Christmas Mr. Lawrence (Version for Piano Trio)",
-   "artist": "Ryuichi Sakamoto, Jaques Morelenbaum, & Everton Nelson",
+   "artist": "Ryuichi Sakamoto;Jaques Morelenbaum;Everton Nelson",
    "album": "1996",
    "videoId": "RQxOdTJcw1A",
    "duration": "4:47"
@@ -14027,7 +14027,7 @@
   },
   {
    "title": "Bibo No Aozora (Version for Piano Trio)",
-   "artist": "Ryuichi Sakamoto, Jaques Morelenbaum, & Everton Nelson",
+   "artist": "Ryuichi Sakamoto;Jaques Morelenbaum;Everton Nelson",
    "album": "1996",
    "videoId": "qpI9MheYHzY",
    "duration": "6:37"
@@ -14433,7 +14433,7 @@
   },
   {
    "title": "sumshit",
-   "artist": "H31R, maassai, & JWords",
+   "artist": "H31R;maassai;JWords",
    "album": "ve·loc·i·ty",
    "videoId": "gn8ksG9aYmg",
    "duration": "1:35"
@@ -16043,7 +16043,7 @@
   },
   {
    "title": "19-2000",
-   "artist": "Gorillaz, Miho Hatori, & Tina Weymouth",
+   "artist": "Gorillaz;Miho Hatori;Tina Weymouth",
    "album": "Gorillaz",
    "videoId": "kVBUdPR2vzI",
    "duration": "3:31"
@@ -16071,7 +16071,7 @@
   },
   {
    "title": "東京ブロンクス",
-   "artist": "TINNIE PUNX & いとうせいこう",
+   "artist": "TINNIE PUNX;いとうせいこう",
    "album": "建設的",
    "videoId": "Di2TsDpf0ac",
    "duration": "5:00"
@@ -16113,7 +16113,7 @@
   },
   {
    "title": "Elevation",
-   "artist": "Tiye Phoenix & Tiffany Goode",
+   "artist": "Tiye Phoenix;Tiffany Goode",
    "album": "Elevation",
    "videoId": "LwZW07_laxI",
    "duration": "3:28"
@@ -16197,7 +16197,7 @@
   },
   {
    "title": "take a hold",
-   "artist": "H31R, maassai, & JWords",
+   "artist": "H31R;maassai;JWords",
    "album": "ve·loc·i·ty",
    "videoId": "YqBOXYuiVRo",
    "duration": "2:05"
@@ -17023,7 +17023,7 @@
   },
   {
    "title": "You Got Me (feat. Erykah Badu & Eve)",
-   "artist": "The Roots & Tariq Trotter",
+   "artist": "The Roots;Tariq Trotter",
    "album": "Things Fall Apart",
    "videoId": "y5DFHx_EUTg",
    "duration": "4:20"
@@ -17828,7 +17828,7 @@
   },
   {
    "title": "Good Mourning (feat. YL)",
-   "artist": "Pink Siifu & YUNGMORPHEUS",
+   "artist": "Pink Siifu;YUNGMORPHEUS",
    "album": "BAG TALK DELUXE",
    "videoId": "zxeC8rkxAyo",
    "duration": "2:40"

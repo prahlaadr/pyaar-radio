@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs05fv2a7e2af9kB5UQqvVxv",
  "title": "Azhagiya Tamil Magan (goated)",
  "trackCount": 761,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Kannaana Kanne (From \"Naanum Rowdy Dhaan\")",
@@ -62,7 +62,7 @@
   },
   {
    "title": "Cinema Choopistha Mama",
-   "artist": "M.M. Manasi, Malavika, Simha, and Mm Monisha",
+   "artist": "M.M. Manasi;Malavika;Simha;Mm Monisha",
    "album": "Race Gurram",
    "videoId": "kiCsar38OJo",
    "duration": "4:30"
@@ -76,7 +76,7 @@
   },
   {
    "title": "Marudaani",
-   "artist": "A.R. Rahman, Madhushree, Hentry Kuruvila, and Vaali",
+   "artist": "A.R. Rahman;Madhushree;Hentry Kuruvila;Vaali",
    "album": "Sakkarakatti (Original Motion Picture Soundtrack)",
    "videoId": "RKZNPx-K1AA",
    "duration": "6:28"
@@ -118,7 +118,7 @@
   },
   {
    "title": "Ei Suzhali",
-   "artist": "Santhosh Narayanan, Vijaynarain, & Vivek",
+   "artist": "Santhosh Narayanan;Vijaynarain;Vivek",
    "album": "Kodi (Original Motion Picture Soundtrack)",
    "videoId": "6d3eVnF0CNg",
    "duration": "3:38"
@@ -132,7 +132,7 @@
   },
   {
    "title": "Sudum Nilavu",
-   "artist": "Vidyasagar, P Unni Krishnan, Harini, and Vairamuthu",
+   "artist": "Vidyasagar;P Unni Krishnan;Harini;Vairamuthu",
    "album": "Thambi (Original Motion Picture Soundtrack)",
    "videoId": "smSx9MqotCI",
    "duration": "4:16"
@@ -146,7 +146,7 @@
   },
   {
    "title": "En Mel Vizhunda",
-   "artist": "A.R. Rahman, Vairamuthu, P. Jayachandran, and K. S. Chithra",
+   "artist": "A.R. Rahman;Vairamuthu;P. Jayachandran;K. S. Chithra",
    "album": "May Maadham (Original Motion Picture Soundtrack)",
    "videoId": "dHV744VXD2U",
    "duration": "5:03"
@@ -174,14 +174,14 @@
   },
   {
    "title": "Jimikki Ponnu",
-   "artist": "Anirudh & Jonita Gandhi",
+   "artist": "Anirudh;Jonita Gandhi",
    "album": "Varisu",
    "videoId": "6NGgVDfMBXU",
    "duration": "3:45"
   },
   {
    "title": "Kaadu",
-   "artist": "Hariharan, Bharadwaj, Sadhana Sargam, and Vairamuthu",
+   "artist": "Hariharan;Bharadwaj;Sadhana Sargam;Vairamuthu",
    "album": "Vasool Raja MBBS (Original Motion Picture Soundtrack)",
    "videoId": "Idyw5tWZScc",
    "duration": "5:34"
@@ -223,7 +223,7 @@
   },
   {
    "title": "Velli Malare",
-   "artist": "S.P.Balasubramaniyam & Mahalakshmi",
+   "artist": "S.P.Balasubramaniyam;Mahalakshmi",
    "album": "Jodi",
    "videoId": "HUXkCSe-F3E",
    "duration": "6:30"
@@ -251,7 +251,7 @@
   },
   {
    "title": "Mughaiyazhi",
-   "artist": "Anand Aravindakshan & Radhika",
+   "artist": "Anand Aravindakshan;Radhika",
    "album": "Boomerang (Original Motion Picture Soundtrack)",
    "videoId": "0vzWNIXieSI",
    "duration": "3:11"
@@ -517,7 +517,7 @@
   },
   {
    "title": "Ennodu Nee Irundhaal",
-   "artist": "A.R. Rahman, Sid Sriram, Sunitha Sarathy, and Kabilan",
+   "artist": "A.R. Rahman;Sid Sriram;Sunitha Sarathy;Kabilan",
    "album": "I (Original Motion Picture Soundtrack)",
    "videoId": "_9r0-yosPF8",
    "duration": "5:53"
@@ -573,7 +573,7 @@
   },
   {
    "title": "Amma Amma (From \"Velai Illa Pattadhaari\")",
-   "artist": "Anirudh Ravichander, Dhanush, & S. Janaki",
+   "artist": "Anirudh Ravichander;Dhanush;S. Janaki",
    "album": "Velai Illa Pattadhaari (Original Motion Picture Soundtrack)",
    "videoId": "ewa8rdpG6LQ",
    "duration": "5:05"
@@ -853,7 +853,7 @@
   },
   {
    "title": "Kadhal Oru Aagayam",
-   "artist": "Hiphop Tamizha, TeeJay, Al Rufian, and Al - Rufian",
+   "artist": "Hiphop Tamizha;TeeJay;Al Rufian;Al - Rufian",
    "album": "Imaikkaa Nodigal (Original Motion Picture Soundtrack)",
    "videoId": "lOwLnk20tN0",
    "duration": "2:42"
@@ -881,7 +881,7 @@
   },
   {
    "title": "Kannukulle",
-   "artist": "Vidyasagar, Arivumathi, & Manicka Vinayagam",
+   "artist": "Vidyasagar;Arivumathi;Manicka Vinayagam",
    "album": "Dhill (Original Motion Picture Soundtrack)",
    "videoId": "YCoueQaSLck",
    "duration": "4:45"
@@ -937,7 +937,7 @@
   },
   {
    "title": "Devadhai",
-   "artist": "Dinesh K & Arul K",
+   "artist": "Dinesh K;Arul K",
    "album": "Aaryan",
    "videoId": "_ftVX03r2as",
    "duration": "5:31"
@@ -958,7 +958,7 @@
   },
   {
    "title": "Yenti Yenti",
-   "artist": "Devi Sri Prasad, Sagar, & Srinidhi Sriprakash",
+   "artist": "Devi Sri Prasad;Sagar;Srinidhi Sriprakash",
    "album": "Puli (Telugu) [Original Motion Picture Soundtrack]",
    "videoId": "PO_pU2m9G1Q",
    "duration": "4:15"
@@ -1035,14 +1035,14 @@
   },
   {
    "title": "Naan Nee",
-   "artist": "Santhosh Narayanan, Shakthishree, & Dhee",
+   "artist": "Santhosh Narayanan;Shakthishree;Dhee",
    "album": "Madras (Original Motion Picture Soundtrack)",
    "videoId": "uEyI7oAQOrY",
    "duration": "4:14"
   },
   {
    "title": "Vinnaithaandi Varuvaayaa",
-   "artist": "A.R. Rahman, Karthik, & Vivek Agrawal",
+   "artist": "A.R. Rahman;Karthik;Vivek Agrawal",
    "album": "Vinnaithaandi Varuvaayaa (Original Motion Picture Soundtrack)",
    "videoId": "0Pbfd80JcAI",
    "duration": "3:13"
@@ -1091,7 +1091,7 @@
   },
   {
    "title": "Therikkudhu Masss",
-   "artist": "Yuvan Shankar Raja, Shankar Mahadevan, & Ranjith",
+   "artist": "Yuvan Shankar Raja;Shankar Mahadevan;Ranjith",
    "album": "Masss (Original Motion Picture Soundtrack)",
    "videoId": "hRIJzwO5PXk",
    "duration": "4:44"
@@ -1126,7 +1126,7 @@
   },
   {
    "title": "Raajali (From \"2. 0\")",
-   "artist": "A.R. Rahman, Sid Sriram, Blaaze, and Arjun Chandy",
+   "artist": "A.R. Rahman;Sid Sriram;Blaaze;Arjun Chandy",
    "album": "2.0 (Tamil) [Original Motion Picture Soundtrack]",
    "videoId": "BPPE2hXb4DI",
    "duration": "4:11"
@@ -1182,7 +1182,7 @@
   },
   {
    "title": "Unnai Thaney Thanjam",
-   "artist": "K. J. Yesudas, Manjula, Vaali, Muthulingam, Gangai Amaran, and Na.Kamarajan",
+   "artist": "K. J. Yesudas;Manjula;Vaali;Muthulingam",
    "album": "Nallavanukku Nallavan (Original Motion Picture Soundtrack)",
    "videoId": "ETMZa9jb6kU",
    "duration": "4:12"
@@ -1238,14 +1238,14 @@
   },
   {
    "title": "Pudichirukku",
-   "artist": "Harris Jayaraj, Hariharan, Komal Ramesh, Mahathi, and Na. Muthukumar",
+   "artist": "Harris Jayaraj;Hariharan;Komal Ramesh;Mahathi",
    "album": "Saamy (Original Motion Picture Soundtrack)",
    "videoId": "T-XX38cUv4g",
    "duration": "5:04"
   },
   {
    "title": "Kannalay Miya Miya",
-   "artist": "Unni Menon & Srivarthini",
+   "artist": "Unni Menon;Srivarthini",
    "album": "Alli Thantha Vaanam (Original Motion Picture Soundtrack)",
    "videoId": "YU2XIzKDuRw",
    "duration": "4:55"
@@ -1280,7 +1280,7 @@
   },
   {
    "title": "Innum Konjam Neram",
-   "artist": "A.R. Rahman, Vijay Prakash, Shweta Mohan, and Kabilan",
+   "artist": "A.R. Rahman;Vijay Prakash;Shweta Mohan;Kabilan",
    "album": "Maryan (Original Motion Picture Soundtrack)",
    "videoId": "-zY2eMZwkdo",
    "duration": "5:14"
@@ -1469,7 +1469,7 @@
   },
   {
    "title": "Manasukkulea",
-   "artist": "Harish Raghavender & Reshma",
+   "artist": "Harish Raghavender;Reshma",
    "album": "Autograph",
    "videoId": "UGvC32wl6PI",
    "duration": "5:23"
@@ -1560,7 +1560,7 @@
   },
   {
    "title": "Sirukki Vaasam",
-   "artist": "Santhosh Narayanan, Anand Aravindakshan, Shweta Mohan, and Vivek",
+   "artist": "Santhosh Narayanan;Anand Aravindakshan;Shweta Mohan;Vivek",
    "album": "Kodi (Original Motion Picture Soundtrack)",
    "videoId": "4WSxp-9Eddw",
    "duration": "4:35"
@@ -1602,7 +1602,7 @@
   },
   {
    "title": "Theeratha Vilaiyattu",
-   "artist": "Yuvan Shankar Raja, Andrea Jeremiah, Tanvi Shah, K.G. Ranjith, and Vinaita Sivakumar",
+   "artist": "Yuvan Shankar Raja;Andrea Jeremiah;Tanvi Shah;K.G. Ranjith",
    "album": "Theeratha Vilayaatu Pillai (Original Motion Picture Soundtrack)",
    "videoId": "hXCXXbB3SOw",
    "duration": "4:56"
@@ -1665,7 +1665,7 @@
   },
   {
    "title": "Machakari",
-   "artist": "Shankar Mahadevan & Vasundradas",
+   "artist": "Shankar Mahadevan;Vasundradas",
    "album": "Sillunu Oru Kadhal",
    "videoId": "LLF0rCybnE0",
    "duration": "5:32"
@@ -1805,7 +1805,7 @@
   },
   {
    "title": "Mersalaayitten",
-   "artist": "A.R. Rahman, Anirudh Ravichander, Neeti Mohan, and Kabilan",
+   "artist": "A.R. Rahman;Anirudh Ravichander;Neeti Mohan;Kabilan",
    "album": "I (Original Motion Picture Soundtrack)",
    "videoId": "35E4DKnXXCg",
    "duration": "5:04"
@@ -1847,7 +1847,7 @@
   },
   {
    "title": "Ooru Sanam Thoongidichu (From \"Mella Thirandhadhu Kadhavu\")",
-   "artist": "S. P. Balasubrahmanyam, S. Janaki, Ilaiyaraaja, Gangai Amaran, and Vaali",
+   "artist": "S. P. Balasubrahmanyam;S. Janaki;Ilaiyaraaja;Gangai Amaran",
    "album": "Mella Thirandhadhu Kadhavu (Original Motion Picture Soundtrack)",
    "videoId": "XeUkGUlpVNw",
    "duration": "4:39"
@@ -1861,7 +1861,7 @@
   },
   {
    "title": "Holá Amigö (From \"Rum\")",
-   "artist": "Anirudh Ravichander, Balan Kashmir, & Madhan Karky",
+   "artist": "Anirudh Ravichander;Balan Kashmir;Madhan Karky",
    "album": "Holá Amigö (From \"Rum\")",
    "videoId": "3XSmOrcqwFE",
    "duration": "4:17"
@@ -1889,7 +1889,7 @@
   },
   {
    "title": "Ooru Sanam Thoongidichu (From \"Mella Thirandhadhu Kadhavu\")",
-   "artist": "S. P. Balasubrahmanyam, S. Janaki, Ilaiyaraaja, Gangai Amaran, and Vaali",
+   "artist": "S. P. Balasubrahmanyam;S. Janaki;Ilaiyaraaja;Gangai Amaran",
    "album": "Mella Thirandhadhu Kadhavu (Original Motion Picture Soundtrack)",
    "videoId": "XeUkGUlpVNw",
    "duration": "4:39"
@@ -1910,7 +1910,7 @@
   },
   {
    "title": "Kokkara Kokkarakko",
-   "artist": "Vidyasagar, Udit Narayan, Sujatha Mohan, and Yugabharathi",
+   "artist": "Vidyasagar;Udit Narayan;Sujatha Mohan;Yugabharathi",
    "album": "Ghilli (Original Motion Picture Soundtrack)",
    "videoId": "6JJmg7ph47g",
    "duration": "4:37"
@@ -1959,14 +1959,14 @@
   },
   {
    "title": "Poongatrile",
-   "artist": "Unnimenon & Swarnalatha",
+   "artist": "Unnimenon;Swarnalatha",
    "album": "Uyire",
    "videoId": "nyJMwfR9vIE",
    "duration": "5:41"
   },
   {
    "title": "Anbae Anbae",
-   "artist": "Hariharan & Anuradha",
+   "artist": "Hariharan;Anuradha",
    "album": "Jeans (Original Motion Picture Soundtrack)",
    "videoId": "CWj7jT3nR5E",
    "duration": "1:01"
@@ -2050,7 +2050,7 @@
   },
   {
    "title": "Naaku Neeku",
-   "artist": "Kunal Ganjawala & Vasundara Das",
+   "artist": "Kunal Ganjawala;Vasundara Das",
    "album": "Aparichithudu",
    "videoId": "Ncri-1QmSv8",
    "duration": "5:26"
@@ -2085,7 +2085,7 @@
   },
   {
    "title": "Kanaa Kaangiren",
-   "artist": "G.V. Prakash Kumar, Shubha Mudgal, Nityashree Mahadevan, Vinitra, and Vairamuthu",
+   "artist": "G.V. Prakash Kumar;Shubha Mudgal;Nityashree Mahadevan;Vinitra",
    "album": "Anandha Thaandavam (Original Motion Picture Soundtrack)",
    "videoId": "hBr0FPjiNA4",
    "duration": "5:46"
@@ -2106,7 +2106,7 @@
   },
   {
    "title": "Koodamela Koodavechi",
-   "artist": "D. Imman, V.V. Prassanna, Vandana Srinivasan, and Yugabharathi",
+   "artist": "D. Imman;V.V. Prassanna;Vandana Srinivasan;Yugabharathi",
    "album": "Rummy (Original Motion Picture Soundtrack)",
    "videoId": "jt3yQ4Sxjk0",
    "duration": "5:01"
@@ -2162,7 +2162,7 @@
   },
   {
    "title": "Nenjukulle Nee (From \"Vadacurry\")",
-   "artist": "Vivek - Mervin, Vijay Prakash, Diwakar, Ajesh, and Ponraj",
+   "artist": "Vivek - Mervin;Vijay Prakash;Diwakar;Ajesh",
    "album": "Vadacurry (Original Motion Picture Soundtrack)",
    "videoId": "Ljb_jXfPSM0",
    "duration": "4:59"
@@ -2204,7 +2204,7 @@
   },
   {
    "title": "Shoot the Kuruvi (From \"Jil Jung Juk\")",
-   "artist": "Vishal Chandrashekhar, Anirudh, Datho Radha Ravi, and Siddharth",
+   "artist": "Vishal Chandrashekhar;Anirudh;Datho Radha Ravi;Siddharth",
    "album": "Shoot the Kuruvi (From \"Jil Jung Juk\")",
    "videoId": "eZNdc0DkY4c",
    "duration": "4:23"
@@ -2246,7 +2246,7 @@
   },
   {
    "title": "Sil Sil",
-   "artist": "Sinmayee & Satyan",
+   "artist": "Sinmayee;Satyan",
    "album": "Arindhum Ariamalum",
    "videoId": "maXcm4GI6vI",
    "duration": "3:53"
@@ -2260,7 +2260,7 @@
   },
   {
    "title": "Kadhalikka",
-   "artist": "Vijay Antony, Emcee Jezz, Naresh Iyer, Andrea Jeremiah, and Sharmila",
+   "artist": "Vijay Antony;Emcee Jezz;Naresh Iyer;Andrea Jeremiah",
    "album": "Vedi (Original Motion Picture Soundtrack)",
    "videoId": "ikfnjJ2SYrc",
    "duration": "4:37"
@@ -2337,7 +2337,7 @@
   },
   {
    "title": "Yembuttu Irukkuthu Aasai",
-   "artist": "D. Imman, Sean Roldan, Kalyani Nair, and Yugabharathi",
+   "artist": "D. Imman;Sean Roldan;Kalyani Nair;Yugabharathi",
    "album": "Saravanan Irukka Bayamaen (Original Motion Picture Soundtrack)",
    "videoId": "41LOLZrjmqM",
    "duration": "4:30"
@@ -2491,7 +2491,7 @@
   },
   {
    "title": "Odum Varayil",
-   "artist": "Yuvan Shankar Raja, KK, Bele sSede, and Pa. Vijay",
+   "artist": "Yuvan Shankar Raja;KK;Bele sSede;Pa. Vijay",
    "album": "Aegan (Original Motion Picture Soundtrack)",
    "videoId": "w9tzqcOianA",
    "duration": "4:26"
@@ -2547,7 +2547,7 @@
   },
   {
    "title": "Irumugan Settai",
-   "artist": "Harris Jayaraj, Kavithai Gundar Emcee Jesz, Steeve Vatz, and MALIII",
+   "artist": "Harris Jayaraj;Kavithai Gundar Emcee Jesz;Steeve Vatz;MALIII",
    "album": "Iru Mugan (Original Motion Picture Soundtrack)",
    "videoId": "_mCJI14R-VY",
    "duration": "4:08"
@@ -2659,7 +2659,7 @@
   },
   {
    "title": "Ettu Muzha",
-   "artist": "Vidyasagar, Arivumathi, Unni Menon, and Anthara Chowdry",
+   "artist": "Vidyasagar;Arivumathi;Unni Menon;Anthara Chowdry",
    "album": "Kaarmegam (Original Motion Picture Soundtrack)",
    "videoId": "yUKh-pCF0qQ",
    "duration": "4:44"
@@ -2736,7 +2736,7 @@
   },
   {
    "title": "Sandhippoma",
-   "artist": "A.R. Rahman, Unni Menon, Chinmayi, and Annupamaa",
+   "artist": "A.R. Rahman;Unni Menon;Chinmayi;Annupamaa",
    "album": "Enakku 20 Unakku 18 (Original Motion Picture Soundtrack)",
    "videoId": "kr9iXY3-bIg",
    "duration": "5:36"
@@ -2750,7 +2750,7 @@
   },
   {
    "title": "Minnalgal Koothadum",
-   "artist": "Karthik & Bombay Jeyashree",
+   "artist": "Karthik;Bombay Jeyashree",
    "album": "Polladhavan (Orginal Motion Picture Soundtrack)",
    "videoId": "xs-PmrCe8Xk",
    "duration": "6:50"
@@ -2799,7 +2799,7 @@
   },
   {
    "title": "Hey Sala",
-   "artist": "Yuvan Shankar Raja, Blaaze, Naresh Iyer, Md Aslam, and Snehan",
+   "artist": "Yuvan Shankar Raja;Blaaze;Naresh Iyer;Md Aslam",
    "album": "Aegan (Original Motion Picture Soundtrack)",
    "videoId": "alDTr4xsl6o",
    "duration": "5:04"
@@ -2946,7 +2946,7 @@
   },
   {
    "title": "Pulveli Pulveli (From \"Aasai\")",
-   "artist": "Deva, Vairamuthu, K. S. Chithra, and P. Unnikrishnan",
+   "artist": "Deva;Vairamuthu;K. S. Chithra;P. Unnikrishnan",
    "album": "Aasai (Original Motion Picture Soundtrack)",
    "videoId": "t4KZWfqYmok",
    "duration": "6:27"
@@ -2981,7 +2981,7 @@
   },
   {
    "title": "Ada Gada Gada",
-   "artist": "Harris Jayaraj, Premgi Amaren, & Pa. Vijay",
+   "artist": "Harris Jayaraj;Premgi Amaren;Pa. Vijay",
    "album": "Irunga Bhai VIbe Panalam",
    "videoId": "7mII9TVWKuU",
    "duration": "5:02"
@@ -3023,7 +3023,7 @@
   },
   {
    "title": "Yathe Yathe",
-   "artist": "G.V. Prakash Kumar & Snehan",
+   "artist": "G.V. Prakash Kumar;Snehan",
    "album": "Aadukalam (Original Motion Picture Soundtrack)",
    "videoId": "R9aHcmKEY8s",
    "duration": "5:45"
@@ -3044,7 +3044,7 @@
   },
   {
    "title": "Vaadi Vaadi Naattu Katta",
-   "artist": "Shankar Mahadevan & Sujatha.",
+   "artist": "Shankar Mahadevan;Sujatha.",
    "album": "Alli Thantha Vaanam (Original Motion Picture Soundtrack)",
    "videoId": "RAyIVDmVez4",
    "duration": "4:28"
@@ -3065,7 +3065,7 @@
   },
   {
    "title": "Neduvaali",
-   "artist": "Thaman S, Rahul Nambiar, Mahathi, and Yugabharathi",
+   "artist": "Thaman S;Rahul Nambiar;Mahathi;Yugabharathi",
    "album": "Osthe (Original Motion Picture Soundtrack)",
    "videoId": "wBmI4Nly4N8",
    "duration": "4:22"
@@ -3121,7 +3121,7 @@
   },
   {
    "title": "Poovukkul",
-   "artist": "Unnikrishnan & Sujatha",
+   "artist": "Unnikrishnan;Sujatha",
    "album": "Jeans (Original Motion Picture Soundtrack)",
    "videoId": "QmeNUVWir-k",
    "duration": "6:54"
@@ -3205,7 +3205,7 @@
   },
   {
    "title": "Bhoochadae",
-   "artist": "Naveen Madhav, Rahul Nambiar, Shreya Ghoshal, and Ramya Iyer",
+   "artist": "Naveen Madhav;Rahul Nambiar;Shreya Ghoshal;Ramya Iyer",
    "album": "Race Gurram",
    "videoId": "icezXhjlSKQ",
    "duration": "4:21"
@@ -3324,7 +3324,7 @@
   },
   {
    "title": "Achcho",
-   "artist": "Udit Naryanan & Kavitha Subramaniam",
+   "artist": "Udit Naryanan;Kavitha Subramaniam",
    "album": "Shajahaan",
    "videoId": "F9zD8q6ecUo",
    "duration": "4:29"
@@ -3338,7 +3338,7 @@
   },
   {
    "title": "Rasaali",
-   "artist": "Sathya Prakash & Sashaa Thirupati",
+   "artist": "Sathya Prakash;Sashaa Thirupati",
    "album": "Achcham Yenbadhu Madamaiyada (Original Motion Picture Soundtrack)",
    "videoId": "Yc3c3sU-vDk",
    "duration": "5:39"
@@ -3352,7 +3352,7 @@
   },
   {
    "title": "Poo Pookkum Osai Adhai",
-   "artist": "A.R. Rahman, Vairamuthu, M. Vasudevan, and Sujatha",
+   "artist": "A.R. Rahman;Vairamuthu;M. Vasudevan;Sujatha",
    "album": "Minsara Kanavu (Original Motion Picture Soundtrack)",
    "videoId": "bZRVr3v7nSU",
    "duration": "6:45"
@@ -3373,7 +3373,7 @@
   },
   {
    "title": "Cute Ponnu",
-   "artist": "Anirudh Ravichander & Vivek Siva",
+   "artist": "Anirudh Ravichander;Vivek Siva",
    "album": "Enna Solla Pogirai",
    "videoId": "5jfmwMoTobk",
    "duration": "4:36"
@@ -3394,7 +3394,7 @@
   },
   {
    "title": "Aval",
-   "artist": "Santhosh Narayanan, Pradeep Kumar, Priya Hemesh, and Vivek",
+   "artist": "Santhosh Narayanan;Pradeep Kumar;Priya Hemesh;Vivek",
    "album": "Manithan (Original Motion Picture Soundtrack)",
    "videoId": "qT4aMYKjYto",
    "duration": "4:27"
@@ -3443,7 +3443,7 @@
   },
   {
    "title": "Sha la la",
-   "artist": "Maran & Jayamoorthy",
+   "artist": "Maran;Jayamoorthy",
    "album": "Gilli",
    "videoId": "bx4BBCYZbFY",
    "duration": "4:29"
@@ -3471,7 +3471,7 @@
   },
   {
    "title": "Shake That",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "artist": "Anirudh Ravichander;Arunraja Kamaraj",
    "album": "Kaaki Sattai (Original Motion Picture Soundtrack)",
    "videoId": "vjPU2HGbRcU",
    "duration": "3:04"
@@ -3548,7 +3548,7 @@
   },
   {
    "title": "Poga Poga",
-   "artist": "Hari Charan & Vijai",
+   "artist": "Hari Charan;Vijai",
    "album": "Pattiyyal",
    "videoId": "IQfL6Su9RSg",
    "duration": "4:43"
@@ -3646,7 +3646,7 @@
   },
   {
    "title": "Yaaro En Nenjai",
-   "artist": "Devi Sri Prasad, Sagar, Sumangali, and Thamarai",
+   "artist": "Devi Sri Prasad;Sagar;Sumangali;Thamarai",
    "album": "Kutty (Original Motion Picture Soundtrack)",
    "videoId": "wHn2njfQCuA",
    "duration": "5:09"
@@ -3723,7 +3723,7 @@
   },
   {
    "title": "Nee Kaatru Naan Maram",
-   "artist": "Vidyasagar, Vairamuthu, K. S. Chithra, and Hariharan",
+   "artist": "Vidyasagar;Vairamuthu;K. S. Chithra;Hariharan",
    "album": "Nilaave Vaa (Original Motion Picture Soundtrack)",
    "videoId": "IYTmFk6V2H4",
    "duration": "5:11"
@@ -3751,7 +3751,7 @@
   },
   {
    "title": "Chiku Buku Raile",
-   "artist": "Suresh Peters & Mst.G.V.Prakash Kumar",
+   "artist": "Suresh Peters;Mst.G.V.Prakash Kumar",
    "album": "Gentleman",
    "videoId": "UO0w6S8sgo0",
    "duration": "5:21"
@@ -3926,7 +3926,7 @@
   },
   {
    "title": "Thottu Thottu Pesum (From \"Edhirum Pudhirum\")",
-   "artist": "Vidyasagar, Vairamuthu, Pushpavanam Kuppusamy, and Swarnalatha",
+   "artist": "Vidyasagar;Vairamuthu;Pushpavanam Kuppusamy;Swarnalatha",
    "album": "Edhirum Pudhirum (Original Motion Picture Soundtrack)",
    "videoId": "ZI05Uh7Z68A",
    "duration": "4:45"
@@ -4024,7 +4024,7 @@
   },
   {
    "title": "Theme Music",
-   "artist": "Pravin Mani, Ilaya Kamban, & Haricharan",
+   "artist": "Pravin Mani;Ilaya Kamban;Haricharan",
    "album": "Aadupuliaattam",
    "videoId": "9WumRrmHXI8",
    "duration": "1:06"
@@ -4234,7 +4234,7 @@
   },
   {
    "title": "Vennilave Vennilave Vinnai",
-   "artist": "A.R. Rahman, Vairamuthu, Hariharan, and Sadana Sargam",
+   "artist": "A.R. Rahman;Vairamuthu;Hariharan;Sadana Sargam",
    "album": "Minsara Kanavu (Original Motion Picture Soundtrack)",
    "videoId": "cjeetK3Q84Q",
    "duration": "5:52"
@@ -4353,7 +4353,7 @@
   },
   {
    "title": "Kalayil Dinavum",
-   "artist": "Unnikrishnan & Sadana Sargam",
+   "artist": "Unnikrishnan;Sadana Sargam",
    "album": "New",
    "videoId": "w2xR8U3OPqQ",
    "duration": "4:24"
@@ -4367,7 +4367,7 @@
   },
   {
    "title": "En Anbe",
-   "artist": "Harris Jayaraj, Sadhana Sargam, Benny Dayal, and Yugabharathi",
+   "artist": "Harris Jayaraj;Sadhana Sargam;Benny Dayal;Yugabharathi",
    "album": "Sathyam (Original Motion Picture Soundtrack)",
    "videoId": "WWEjBd6DK4Y",
    "duration": "6:08"
@@ -4381,14 +4381,14 @@
   },
   {
    "title": "Oru Poiyavathu",
-   "artist": "Sreenivas & Sujatha",
+   "artist": "Sreenivas;Sujatha",
    "album": "Jodi",
    "videoId": "gLjfqiGc3-M",
    "duration": "6:01"
   },
   {
    "title": "En Anbe",
-   "artist": "Harris Jayaraj, Sadhana Sargam, Benny Dayal, and Yugabharathi",
+   "artist": "Harris Jayaraj;Sadhana Sargam;Benny Dayal;Yugabharathi",
    "album": "Sathyam (Original Motion Picture Soundtrack)",
    "videoId": "WWEjBd6DK4Y",
    "duration": "6:08"
@@ -4549,7 +4549,7 @@
   },
   {
    "title": "Suthi Suthi Vandhiga Hip Hop Style",
-   "artist": "S. P. Balasubrahmanyam, Harini, & Rithick J",
+   "artist": "S. P. Balasubrahmanyam;Harini;Rithick J",
    "album": "Suthi Suthi Vandhiga Hip Hop Style",
    "videoId": "jNmeo5XKjSc",
    "duration": "4:00"
@@ -4626,7 +4626,7 @@
   },
   {
    "title": "Medhuva Medhuva",
-   "artist": "S.P. Balasubrahmanyam & K S Chithra",
+   "artist": "S.P. Balasubrahmanyam;K S Chithra",
    "album": "Anna Nagar Modul Theru",
    "videoId": "53yiTtMFbeg",
    "duration": "4:19"
@@ -4738,7 +4738,7 @@
   },
   {
    "title": "Dole Dole",
-   "artist": "Ranjith & Suchitra",
+   "artist": "Ranjith;Suchitra",
    "album": "Pokiri",
    "videoId": "WGrjGrUQ2WM",
    "duration": "4:42"
@@ -4780,7 +4780,7 @@
   },
   {
    "title": "Chesavu Yedo Maaya (feat. Surya Teja Aelay & Minakshi Goswami)",
-   "artist": "Adithya RK & Yashika Sikka",
+   "artist": "Adithya RK;Yashika Sikka",
    "album": "Bharathanatyam",
    "videoId": "TTnESFsZOso",
    "duration": "4:12"
@@ -4871,7 +4871,7 @@
   },
   {
    "title": "Thamarai Poovukum",
-   "artist": "Vidyasagar, Krishna Chandar, Sujatha, and Vairamuthu",
+   "artist": "Vidyasagar;Krishna Chandar;Sujatha;Vairamuthu",
    "album": "Pasumpon (Original Motion Picture Soundtrack)",
    "videoId": "QX7mD7GqtBc",
    "duration": "5:28"
@@ -4885,7 +4885,7 @@
   },
   {
    "title": "Un Vizhigalil",
-   "artist": "Anirudh Ravichander, Shruti Haasan, & R.D. Raja",
+   "artist": "Anirudh Ravichander;Shruti Haasan;R.D. Raja",
    "album": "Maan Karate Special (Original Motion Picture Soundtrack)",
    "videoId": "fbyZ8iXy47E",
    "duration": "4:04"
@@ -4983,7 +4983,7 @@
   },
   {
    "title": "Yedhe Dho",
-   "artist": "Yuvan Shankar Raja & Swetha",
+   "artist": "Yuvan Shankar Raja;Swetha",
    "album": "Pattiyyal",
    "videoId": "3rft6jFnyMw",
    "duration": "4:17"
@@ -5025,7 +5025,7 @@
   },
   {
    "title": "Oru Naalum (From \"Ejjaman\" )",
-   "artist": "R. V. Udayakumar, Vaali, S. P. Balasubrahmanyam, S. Janaki, and Ilaiyaraaja",
+   "artist": "R. V. Udayakumar;Vaali;S. P. Balasubrahmanyam;S. Janaki",
    "album": "Ejjaman (Original Motion Picture Soundtrack)",
    "videoId": "awS4Xtg5sk4",
    "duration": "6:00"
@@ -5144,7 +5144,7 @@
   },
   {
    "title": "Thimsukatta",
-   "artist": "Tippu & Sreelekha Parthasarathy",
+   "artist": "Tippu;Sreelekha Parthasarathy",
    "album": "Thirumalai",
    "videoId": "dqlkh2gMDwQ",
    "duration": "4:12"
@@ -5158,7 +5158,7 @@
   },
   {
    "title": "Ayyayo",
-   "artist": "G.V. Prakash Kumar, S.P. Balasubrahmanyam, S.P. Charan, Prashanthini, and Snehan",
+   "artist": "G.V. Prakash Kumar;S.P. Balasubrahmanyam;S.P. Charan;Prashanthini",
    "album": "Aadukalam (Original Motion Picture Soundtrack)",
    "videoId": "38LGyJ1DvzA",
    "duration": "5:25"
@@ -5207,7 +5207,7 @@
   },
   {
    "title": "Neethanae (From \"Mersal\")",
-   "artist": "A.R. Rahman, Shreya Ghoshal, & Vivek",
+   "artist": "A.R. Rahman;Shreya Ghoshal;Vivek",
    "album": "Rahman Rewind: Romance",
    "videoId": "73vCDaJ3upY",
    "duration": "4:29"
@@ -5249,7 +5249,7 @@
   },
   {
    "title": "Sandakari Neethan (From \"Sangathamizhan\")",
-   "artist": "Vivek - Mervin, Anirudh Ravichander, Jonita Gandhi, Mervin Solomon, and Prakash Francis",
+   "artist": "Vivek - Mervin;Anirudh Ravichander;Jonita Gandhi;Mervin Solomon",
    "album": "Sandakari Neethan (From \"Sangathamizhan\")",
    "videoId": "iST1Jsmecps",
    "duration": "4:10"
@@ -5312,7 +5312,7 @@
   },
   {
    "title": "Are You Crazy",
-   "artist": "Devi Sri Prasad & Prabhu Deva",
+   "artist": "Devi Sri Prasad;Prabhu Deva",
    "album": "Villu (Original Motion Picture Soundtrack)",
    "videoId": "mGtCyWf_qqg",
    "duration": "0:47"

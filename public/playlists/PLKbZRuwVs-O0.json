@@ -2,7 +2,7 @@
  "playlistId": "PLKbZRuwVs-O0",
  "title": "9laad:DnB",
  "trackCount": 422,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Onyx",
@@ -797,7 +797,7 @@
   },
   {
    "title": "Lonely",
-   "artist": "TiM. & Joshua Tropez",
+   "artist": "TiM.;Joshua Tropez",
    "album": "Lonely",
    "videoId": "a6HcQDaLC6Q",
    "duration": "3:12"
@@ -811,7 +811,7 @@
   },
   {
    "title": "Give It 2 Me",
-   "artist": "Tim Reaper & Devnull",
+   "artist": "Tim Reaper;Devnull",
    "album": "Teletext",
    "videoId": "Wffkq_Voqbo",
    "duration": "6:09"
@@ -944,7 +944,7 @@
   },
   {
    "title": "Shut the Lights Off (Adam F & Sigma Remix)",
-   "artist": "Adam F, Horx, Redman, and R. Noble",
+   "artist": "Adam F;Horx;Redman;R. Noble",
    "album": "Believe Compilation 4",
    "videoId": "oEGqzMH1UpQ",
    "duration": "4:10"
@@ -2239,7 +2239,7 @@
   },
   {
    "title": "Trauma (Psidream Remix)",
-   "artist": "Dom & Roland",
+   "artist": "Dom;Roland",
    "album": "Hardware Limited, Vol. 2",
    "videoId": "0a9g6JMSTp4",
    "duration": "7:18"

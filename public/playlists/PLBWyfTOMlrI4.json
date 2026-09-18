@@ -2,7 +2,7 @@
  "playlistId": "PLBWyfTOMlrI4",
  "title": "9laad:House / Techno",
  "trackCount": 650,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Where You Are",
@@ -1595,7 +1595,7 @@
   },
   {
    "title": "Feel Good",
-   "artist": "Anders Baldwin, Brady Hoffman, Alice Shelton, Luke Barker, and Ruby Terry",
+   "artist": "Anders Baldwin;Brady Hoffman;Alice Shelton;Luke Barker",
    "album": "Rock n Roll - Commercial Background Music",
    "videoId": "dzHihhaEeNs",
    "duration": "2:12"
@@ -3002,7 +3002,7 @@
   },
   {
    "title": "Delilah (pull me out of this)",
-   "artist": "Fred again & Delilah Montagu",
+   "artist": "Fred again;Delilah Montagu",
    "album": "Actual Life 3 (January 1 - September 9 2022)",
    "videoId": "Q6MhT4n9nKI",
    "duration": "4:11"

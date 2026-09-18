@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs3d0t33vbW7nZt5A8NIOeAJ",
  "title": "PETI PACK (RELEASED)",
  "trackCount": 65,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Ucha Pahado Maa",
-   "artist": "UNIYAL, Soumya Rawat, Rakesh Manral, and Shadow Evergreen",
+   "artist": "UNIYAL;Soumya Rawat;Rakesh Manral;Shadow Evergreen",
    "album": "Nanda Devi Express",
    "videoId": "T2nFj_pf5WI",
    "duration": "3:16"
@@ -167,7 +167,7 @@
   },
   {
    "title": "BANNED (feat. Abhijay Sharma)",
-   "artist": "Dakait & GHILDIYAL",
+   "artist": "Dakait;GHILDIYAL",
    "album": "A-TEEN",
    "videoId": "lvlQiVC9igI",
    "duration": "3:35"
@@ -307,7 +307,7 @@
   },
   {
    "title": "SUROOR",
-   "artist": "Frappe Ash, toorjo dey, & Akash Raturi",
+   "artist": "Frappe Ash;toorjo dey;Akash Raturi",
    "album": "Ice Cream Frappe",
    "videoId": "AOKRQyou-kE",
    "duration": "2:32"
@@ -328,14 +328,14 @@
   },
   {
    "title": "Rishikesh (Freeverse)",
-   "artist": "Akash Raturi & OVER",
+   "artist": "Akash Raturi;OVER",
    "album": "Rishikesh (Freeverse)",
    "videoId": "ag5zcUSKAB0",
    "duration": "2:32"
   },
   {
    "title": "7 MOD PAAR (feat. semmionthebeat)",
-   "artist": "Akash Raturi, Aneesh Salani, & GHILDIYAL",
+   "artist": "Akash Raturi;Aneesh Salani;GHILDIYAL",
    "album": "7 MOD PAAR",
    "videoId": "yNzbz68A0VQ",
    "duration": "3:02"
@@ -356,7 +356,7 @@
   },
   {
    "title": "Lamha",
-   "artist": "Akash Raturi & Kriday",
+   "artist": "Akash Raturi;Kriday",
    "album": "Lamha",
    "videoId": "qQW86HwdWxw",
    "duration": "3:57"

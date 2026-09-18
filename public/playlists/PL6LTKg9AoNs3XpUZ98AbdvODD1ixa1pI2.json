@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3XpUZ98AbdvODD1ixa1pI2",
  "title": "donde esta la rumba",
  "trackCount": 220,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "X",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Move Me",
-   "artist": "98.Morelo, Mura masa, & Sweet sweet",
+   "artist": "98.Morelo;Mura masa;Sweet sweet",
    "album": "Move Me",
    "videoId": "MBNcsctD4yk",
    "duration": "3:32"
@@ -342,7 +342,7 @@
   },
   {
    "title": "Nebuleo (feat. DJ Blass)",
-   "artist": "Club16, Jota Rosa, & Alvaro Diaz",
+   "artist": "Club16;Jota Rosa;Alvaro Diaz",
    "album": "Club16, Jota Rosa Presents Vol. 2",
    "videoId": "gn9EWewKlkU",
    "duration": "2:19"
@@ -1077,7 +1077,7 @@
   },
   {
    "title": "cuenta (remix)",
-   "artist": "paopao, Ingratax, & FMK",
+   "artist": "paopao;Ingratax;FMK",
    "album": "diamante$ + espina$",
    "videoId": "oHxWpHSnsZo",
    "duration": "3:40"
@@ -1154,7 +1154,7 @@
   },
   {
    "title": "No Dormimos",
-   "artist": "Jaudy & Rewire",
+   "artist": "Jaudy;Rewire",
    "album": "No Dormimos",
    "videoId": "U4Of19UKNMI",
    "duration": "2:55"
@@ -1301,7 +1301,7 @@
   },
   {
    "title": "Menthol",
-   "artist": "Los Audio Kimikos, GioBulla, & Myztiko",
+   "artist": "Los Audio Kimikos;GioBulla;Myztiko",
    "album": "Menthol",
    "videoId": "XaMzrxdYb-Q",
    "duration": "2:58"
@@ -1329,7 +1329,7 @@
   },
   {
    "title": "cuenta (remix)",
-   "artist": "paopao, Ingratax, & FMK",
+   "artist": "paopao;Ingratax;FMK",
    "album": "cuenta (remix)",
    "videoId": "lCKP3CIHqQE",
    "duration": "3:40"
@@ -1490,7 +1490,7 @@
   },
   {
    "title": "Dime",
-   "artist": "Blessd & Amaro",
+   "artist": "Blessd;Amaro",
    "album": "Siempre Blessd",
    "videoId": "2eyBOza_Jcw",
    "duration": "3:16"

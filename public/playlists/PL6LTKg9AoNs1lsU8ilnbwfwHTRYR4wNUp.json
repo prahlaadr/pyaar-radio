@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1lsU8ilnbwfwHTRYR4wNUp",
  "title": "✨ HK Discord music recs ✨",
  "trackCount": 1448,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Only One (feat. Angelica Bess)",
@@ -2792,7 +2792,7 @@
   },
   {
    "title": "McNasty Filth",
-   "artist": "Jaylib, Madlib, J Dilla, and Frank-N-Dank",
+   "artist": "Jaylib;Madlib;J Dilla;Frank-N-Dank",
    "album": "Champion Sound",
    "videoId": "oZV_Kl_Gg68",
    "duration": "2:56"
@@ -2827,7 +2827,7 @@
   },
   {
    "title": "Raw Shit",
-   "artist": "Jaylib, Madlib, J Dilla, and Talib Kweli",
+   "artist": "Jaylib;Madlib;J Dilla;Talib Kweli",
    "album": "Champion Sound",
    "videoId": "mtcJvZCSrJ0",
    "duration": "3:09"
@@ -2934,7 +2934,7 @@
    "title": "Put You On",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "utxMzdabKds",
+   "videoId": "cxeswRDjKjg",
    "duration": "2:44"
   },
   {
@@ -3018,7 +3018,7 @@
    "title": "Waves",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "LK9_rNjyppo",
+   "videoId": "6PhfN9zGHhY",
    "duration": "0:27"
   },
   {
@@ -3039,7 +3039,7 @@
    "title": "Might Be",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "AoQHhsKnQkg",
+   "videoId": "fLcoSPgkBZo",
    "duration": "3:58"
   },
   {
@@ -3053,21 +3053,21 @@
    "title": "Put You On",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "utxMzdabKds",
+   "videoId": "cxeswRDjKjg",
    "duration": "2:44"
   },
   {
-   "title": "Already",
-   "artist": "Anderson .Paak & SiR",
+   "title": "Already (feat. SiR)",
+   "artist": "Anderson .Paak;SiR",
    "album": "Venice",
-   "videoId": "OOb0hEdcs5Q",
+   "videoId": "_rrV39eoA5s",
    "duration": "3:15"
   },
   {
    "title": "Dogtown",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "UQbfe7EPTbU",
+   "videoId": "ub-hY3X5uoE",
    "duration": "0:27"
   },
   {
@@ -3102,14 +3102,14 @@
    "title": "Miki Doralude",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "Pu3mo-dYSi4",
+   "videoId": "6rYSBYTYmO8",
    "duration": "0:51"
   },
   {
    "title": "Luh You",
    "artist": "Anderson .Paak",
    "album": "Venice",
-   "videoId": "y-4Lh5Slk-A",
+   "videoId": "c4BOYUHUsxQ",
    "duration": "3:31"
   },
   {
@@ -4430,7 +4430,7 @@
   },
   {
    "title": "Unchained Melody",
-   "artist": "The Unrighteous Brothers, Paul Cauthen, & Orville Peck",
+   "artist": "The Unrighteous Brothers;Paul Cauthen;Orville Peck",
    "album": "Unchained Melody / You've Lost That Lovin' Feelin'",
    "videoId": "KbludOt4qJE",
    "duration": "3:56"
@@ -4590,10 +4590,10 @@
    "duration": "3:34"
   },
   {
-   "title": "The Marriage of Coyote Woman",
+   "title": "The Marriage Of Coyote Woman",
    "artist": "All Them Witches",
-   "album": "Lightning At the Door",
-   "videoId": "z-nok0y3Lbg",
+   "album": "Lightning At The Door",
+   "videoId": "ApNOKlPwliM",
    "duration": "5:50"
   },
   {
@@ -4681,10 +4681,10 @@
    "duration": "4:22"
   },
   {
-   "title": "Funeral for a Great Drunken Bird",
+   "title": "Funeral For A Great Drunken Bird",
    "artist": "All Them Witches",
-   "album": "Lightning At the Door",
-   "videoId": "6qM3eaGCuc0",
+   "album": "Lightning At The Door",
+   "videoId": "o25sGBrnIws",
    "duration": "4:24"
   },
   {
@@ -4695,10 +4695,10 @@
    "duration": "3:34"
   },
   {
-   "title": "The Marriage of Coyote Woman",
+   "title": "The Marriage Of Coyote Woman",
    "artist": "All Them Witches",
-   "album": "Lightning At the Door",
-   "videoId": "z-nok0y3Lbg",
+   "album": "Lightning At The Door",
+   "videoId": "ApNOKlPwliM",
    "duration": "5:50"
   },
   {
@@ -4739,15 +4739,15 @@
   {
    "title": "Romany Dagger (Remended)",
    "artist": "All Them Witches",
-   "album": "Lightning At the Door",
-   "videoId": "8nZRuVBxQE4",
+   "album": "Lightning At The Door",
+   "videoId": "i4IqW_tLbX0",
    "duration": "4:17"
   },
   {
    "title": "Surface-To-Air Whistle",
    "artist": "All Them Witches",
-   "album": "Lightning At the Door",
-   "videoId": "zbd6PfopqXM",
+   "album": "Lightning At The Door",
+   "videoId": "igN6YA0zctA",
    "duration": "6:19"
   },
   {
@@ -5125,7 +5125,7 @@
    "title": "Barefoot Desert",
    "artist": "King Gizzard & The Lizard Wizard",
    "album": "Gumboot Soup",
-   "videoId": "UtO4Yrlz96c",
+   "videoId": "fcwyaj_phzM",
    "duration": "3:44"
   },
   {
@@ -5150,10 +5150,10 @@
    "duration": "4:00"
   },
   {
-   "title": "The Great Chain Of Being",
+   "title": "The Great Chain of Being",
    "artist": "King Gizzard & The Lizard Wizard",
    "album": "Gumboot Soup",
-   "videoId": "znL2mGI3IcM",
+   "videoId": "m5caJVl6lrI",
    "duration": "4:51"
   },
   {
@@ -5299,22 +5299,22 @@
   {
    "title": "Guess Who",
    "artist": "Alabama Shakes",
-   "album": "Sound & Color",
-   "videoId": "9maCDxUpztQ",
+   "album": "Sound & Color (Deluxe Edition)",
+   "videoId": "wCgux61MtPg",
    "duration": "3:16"
   },
   {
    "title": "The Greatest",
    "artist": "Alabama Shakes",
-   "album": "Sound & Color",
-   "videoId": "mw-MtJxs2Fc",
+   "album": "Sound & Color (Deluxe Edition)",
+   "videoId": "ieL048Eq4TM",
    "duration": "3:50"
   },
   {
    "title": "Shoegaze",
    "artist": "Alabama Shakes",
-   "album": "Sound & Color",
-   "videoId": "SOericzuuyE",
+   "album": "Sound & Color (Deluxe Edition)",
+   "videoId": "C4-taVrEhec",
    "duration": "3:00"
   },
   {
@@ -5949,7 +5949,7 @@
   },
   {
    "title": "Reassemble",
-   "artist": "Sampology & James Chatburn",
+   "artist": "Sampology;James Chatburn",
    "album": "Regrowth",
    "videoId": "ZoJccbSRbIk",
    "duration": "3:19"
@@ -8518,7 +8518,7 @@
   },
   {
    "title": "Temple Music",
-   "artist": "Silke Schwinger & Fatty George",
+   "artist": "Silke Schwinger;Fatty George",
    "album": "Trip",
    "videoId": "7xlDGpoG_vE",
    "duration": "2:42"
@@ -9386,21 +9386,21 @@
   },
   {
    "title": "BOWLiNG",
-   "artist": "DOMi & JD BECK & Thundercat",
+   "artist": "DOMi & JD BECK;Thundercat",
    "album": "NOT TiGHT",
    "videoId": "wg2B1J-4GmA",
    "duration": "2:00"
   },
   {
    "title": "NOT TiGHT",
-   "artist": "DOMi & JD BECK & Thundercat",
+   "artist": "DOMi & JD BECK;Thundercat",
    "album": "NOT TiGHT",
    "videoId": "2gw2am6bRrs",
    "duration": "4:09"
   },
   {
    "title": "TWO SHRiMPS",
-   "artist": "DOMi & JD BECK & Mac DeMarco",
+   "artist": "DOMi & JD BECK;Mac DeMarco",
    "album": "NOT TiGHT",
    "videoId": "sHwwDw_27D0",
    "duration": "3:06"
@@ -10100,35 +10100,35 @@
   },
   {
    "title": "DISCO SMUGGLER",
-   "artist": "sshhibuea & sshhocial klabb",
+   "artist": "sshhibuea;sshhocial klabb",
    "album": "FANTASY ENTANGLEMENT",
    "videoId": "nr4PMVDbzHk",
    "duration": "3:24"
   },
   {
    "title": "NIGHTCRAWLER",
-   "artist": "sshhibuea & sshhocial klabb",
+   "artist": "sshhibuea;sshhocial klabb",
    "album": "FANTASY ENTANGLEMENT",
    "videoId": "O-lrxxLKozk",
    "duration": "3:12"
   },
   {
    "title": "PSIONIC WOMAN",
-   "artist": "sshhibuea & sshhocial klabb",
+   "artist": "sshhibuea;sshhocial klabb",
    "album": "FANTASY ENTANGLEMENT",
    "videoId": "37v-ONOfvgg",
    "duration": "2:50"
   },
   {
    "title": "GRAND MAGUS",
-   "artist": "sshhibuea & sshhocial klabb",
+   "artist": "sshhibuea;sshhocial klabb",
    "album": "FANTASY ENTANGLEMENT",
    "videoId": "E2YhiycvVl8",
    "duration": "2:24"
   },
   {
    "title": "ASIAN JADE",
-   "artist": "sshhibuea & sshhocial klabb",
+   "artist": "sshhibuea;sshhocial klabb",
    "album": "FANTASY ENTANGLEMENT",
    "videoId": "zD-BYFhh4QI",
    "duration": "2:57"

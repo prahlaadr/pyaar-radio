@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0yFhpOhVaXQcVTsFlqCKVF",
  "title": "Timeboy LOFI BEETZ",
  "trackCount": 148,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Noodling",
@@ -111,7 +111,7 @@
   },
   {
    "title": "BOA",
-   "artist": "Sam Gendel & Sam Wilkes",
+   "artist": "Sam Gendel;Sam Wilkes",
    "album": "Music for Saxofone & Bass Guitar",
    "videoId": "hYWFdTWX2Io",
    "duration": "5:48"
@@ -741,7 +741,7 @@
   },
   {
    "title": "1stnite",
-   "artist": "Sir Froderick & Knxwledge",
+   "artist": "Sir Froderick;Knxwledge",
    "album": "AfrikanDivas.",
    "videoId": "h5_whfVQVBU",
    "duration": "1:09"

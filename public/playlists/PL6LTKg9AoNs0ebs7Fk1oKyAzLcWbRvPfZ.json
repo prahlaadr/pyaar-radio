@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ebs7Fk1oKyAzLcWbRvPfZ",
  "title": "Sounds of Raani",
  "trackCount": 142,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Neethanae (From \"Mersal\")",
@@ -48,7 +48,7 @@
   },
   {
    "title": "Pularikalo (From \"Charlie\")",
-   "artist": "Gopi Sundar, Shakthishree Gopalan, Mohammed Maqbool Mansoor, and Rafeeq Ahammed",
+   "artist": "Gopi Sundar;Shakthishree Gopalan;Mohammed Maqbool Mansoor;Rafeeq Ahammed",
    "album": "Charlie",
    "videoId": "RPC1H_JjAOw",
    "duration": "5:50"
@@ -174,7 +174,7 @@
   },
   {
    "title": "Gangubai Hangal Shashtriya Sangeeta",
-   "artist": "Sakré & Babloo Babylon",
+   "artist": "Sakré;Babloo Babylon",
    "album": "Bangalore Sonic Archives (Beat Tape)",
    "videoId": "-_0FZQM8Zes",
    "duration": "3:03"
@@ -195,7 +195,7 @@
   },
   {
    "title": "Yathe Yathe",
-   "artist": "G.V. Prakash Kumar & Snehan",
+   "artist": "G.V. Prakash Kumar;Snehan",
    "album": "Aadukalam (Original Motion Picture Soundtrack)",
    "videoId": "R9aHcmKEY8s",
    "duration": "5:45"
@@ -223,7 +223,7 @@
   },
   {
    "title": "Uruttu Kannala",
-   "artist": "G.V. Prakash Kumar, Santhosh Hariharan, & M.M. Monisha",
+   "artist": "G.V. Prakash Kumar;Santhosh Hariharan;M.M. Monisha",
    "album": "Sema (Original Motion Picture Soundtrack)",
    "videoId": "y6y8zIos1QM",
    "duration": "4:06"
@@ -258,14 +258,14 @@
   },
   {
    "title": "Anbae Anbae",
-   "artist": "Hariharan & Anuradha",
+   "artist": "Hariharan;Anuradha",
    "album": "Jeans (Original Motion Picture Soundtrack)",
    "videoId": "CWj7jT3nR5E",
    "duration": "1:01"
   },
   {
    "title": "Velli Malare",
-   "artist": "S.P.Balasubramaniyam & Mahalakshmi",
+   "artist": "S.P.Balasubramaniyam;Mahalakshmi",
    "album": "Jodi",
    "videoId": "HUXkCSe-F3E",
    "duration": "6:30"
@@ -286,7 +286,7 @@
   },
   {
    "title": "Koodamela Koodavechi",
-   "artist": "D. Imman, V.V. Prassanna, Vandana Srinivasan, and Yugabharathi",
+   "artist": "D. Imman;V.V. Prassanna;Vandana Srinivasan;Yugabharathi",
    "album": "Rummy (Original Motion Picture Soundtrack)",
    "videoId": "jt3yQ4Sxjk0",
    "duration": "5:01"
@@ -307,7 +307,7 @@
   },
   {
    "title": "Kandaangi Kandaangi",
-   "artist": "Vijay & Sherya Ghosal",
+   "artist": "Vijay;Sherya Ghosal",
    "album": "Jilla",
    "videoId": "CDqvDPmfUo0",
    "duration": "4:57"
@@ -405,7 +405,7 @@
   },
   {
    "title": "Aval",
-   "artist": "Santhosh Narayanan, Pradeep Kumar, Priya Hemesh, and Vivek",
+   "artist": "Santhosh Narayanan;Pradeep Kumar;Priya Hemesh;Vivek",
    "album": "Manithan (Original Motion Picture Soundtrack)",
    "videoId": "qT4aMYKjYto",
    "duration": "4:27"
@@ -419,7 +419,7 @@
   },
   {
    "title": "Innum Konjam Neram",
-   "artist": "A.R. Rahman, Vijay Prakash, Shweta Mohan, and Kabilan",
+   "artist": "A.R. Rahman;Vijay Prakash;Shweta Mohan;Kabilan",
    "album": "Maryan (Original Motion Picture Soundtrack)",
    "videoId": "-zY2eMZwkdo",
    "duration": "5:14"
@@ -468,7 +468,7 @@
   },
   {
    "title": "Poovukkul",
-   "artist": "Unnikrishnan & Sujatha",
+   "artist": "Unnikrishnan;Sujatha",
    "album": "Jeans (Original Motion Picture Soundtrack)",
    "videoId": "QmeNUVWir-k",
    "duration": "6:54"
@@ -517,7 +517,7 @@
   },
   {
    "title": "Konji Pesida Venaam",
-   "artist": "Nivas K. Prasanna, K.S. Chitra, & Sriram Parthasaarathy",
+   "artist": "Nivas K. Prasanna;K.S. Chitra;Sriram Parthasaarathy",
    "album": "Sethupathi (Original Motion Picture Soundtrack)",
    "videoId": "CwMNK8zGdxw",
    "duration": "3:47"
@@ -545,7 +545,7 @@
   },
   {
    "title": "Marudaani",
-   "artist": "A.R. Rahman, Madhushree, Hentry Kuruvila, and Vaali",
+   "artist": "A.R. Rahman;Madhushree;Hentry Kuruvila;Vaali",
    "album": "Sakkarakatti (Original Motion Picture Soundtrack)",
    "videoId": "RKZNPx-K1AA",
    "duration": "6:28"
@@ -615,7 +615,7 @@
   },
   {
    "title": "Unakaga",
-   "artist": "A.R. Rahman, Sreekanth Hariharan, Madhura Dhara Talluri, and Vivek",
+   "artist": "A.R. Rahman;Sreekanth Hariharan;Madhura Dhara Talluri;Vivek",
    "album": "Bigil (Original Motion Picture Soundtrack)",
    "videoId": "YDiMmKXBeMA",
    "duration": "4:27"
@@ -671,21 +671,21 @@
   },
   {
    "title": "Onnum Puriyala",
-   "artist": "D. Imman & Yugabharathi",
+   "artist": "D. Imman;Yugabharathi",
    "album": "Kumki (Original Motion Picture Soundtrack)",
    "videoId": "2EEXtmVF92g",
    "duration": "4:20"
   },
   {
    "title": "Ayyayo",
-   "artist": "G.V. Prakash Kumar, S.P. Balasubrahmanyam, S.P. Charan, Prashanthini, and Snehan",
+   "artist": "G.V. Prakash Kumar;S.P. Balasubrahmanyam;S.P. Charan;Prashanthini",
    "album": "Aadukalam (Original Motion Picture Soundtrack)",
    "videoId": "38LGyJ1DvzA",
    "duration": "5:25"
   },
   {
    "title": "Velli Malare",
-   "artist": "S.P.Balasubramaniyam & Mahalakshmi",
+   "artist": "S.P.Balasubramaniyam;Mahalakshmi",
    "album": "Jodi",
    "videoId": "HUXkCSe-F3E",
    "duration": "6:30"
@@ -755,7 +755,7 @@
   },
   {
    "title": "Yaaro En Nenjai",
-   "artist": "Devi Sri Prasad, Sagar, Sumangali, and Thamarai",
+   "artist": "Devi Sri Prasad;Sagar;Sumangali;Thamarai",
    "album": "Kutty (Original Motion Picture Soundtrack)",
    "videoId": "wHn2njfQCuA",
    "duration": "5:09"
@@ -818,7 +818,7 @@
   },
   {
    "title": "Velli Malare",
-   "artist": "S.P.Balasubramaniyam & Mahalakshmi",
+   "artist": "S.P.Balasubramaniyam;Mahalakshmi",
    "album": "Jodi",
    "videoId": "HUXkCSe-F3E",
    "duration": "6:30"
@@ -853,7 +853,7 @@
   },
   {
    "title": "Vaadi Vaadi Naattu Katta",
-   "artist": "Shankar Mahadevan & Sujatha.",
+   "artist": "Shankar Mahadevan;Sujatha.",
    "album": "Alli Thantha Vaanam (Original Motion Picture Soundtrack)",
    "videoId": "RAyIVDmVez4",
    "duration": "4:28"

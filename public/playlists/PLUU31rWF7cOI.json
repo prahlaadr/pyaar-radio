@@ -1,8 +1,8 @@
 {
  "playlistId": "PLUU31rWF7cOI",
  "title": "avalanches fanbase suggestions",
- "trackCount": 2000,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "trackCount": 2673,
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "CHOPIN OPUS 28 NO.4 with TONE CLUSTER",
@@ -398,7 +398,7 @@
   },
   {
    "title": "Unfold",
-   "artist": "Porter Robinson & TEED",
+   "artist": "Porter Robinson;TEED",
    "album": "Nurture",
    "videoId": "Qef_dxrtawU",
    "duration": "4:46"
@@ -2981,7 +2981,7 @@
   },
   {
    "title": "Annabi (mixed)",
-   "artist": "Majid Bekkas, Goran Kajfes, Jesper Nordenström, and Stefan Pasborg",
+   "artist": "Majid Bekkas;Goran Kajfes;Jesper Nordenström;Stefan Pasborg",
    "album": "Late Night Tales: Barry Can't Swim (LNT Mix)",
    "videoId": "YcZ3QAAj7RA",
    "duration": "4:32"
@@ -3526,9 +3526,9 @@
    "duration": "4:45"
   },
   {
-   "title": "Colours (feat. Olan)",
-   "artist": "Mat Zo",
-   "album": "Illusion of Depth",
+   "title": "Colours",
+   "artist": "Mat Zo - Topic",
+   "album": "",
    "videoId": "EdGj5cnoFZs",
    "duration": "5:47"
   },
@@ -3548,8 +3548,8 @@
   },
   {
    "title": "Bug (Electric Last Minute)",
-   "artist": "Cornelius",
-   "album": "Point",
+   "artist": "Cornelius - Topic",
+   "album": "",
    "videoId": "B-gAhm7pscU",
    "duration": "0:44"
   },
@@ -3590,8 +3590,8 @@
   },
   {
    "title": "Bird Watching At Inner Forest",
-   "artist": "Cornelius",
-   "album": "Point",
+   "artist": "Cornelius - Topic",
+   "album": "",
    "videoId": "XzsYDpuY_Eo",
    "duration": "4:50"
   },
@@ -3625,8 +3625,8 @@
   },
   {
    "title": "What D'You Say?",
-   "artist": "The Go! Team",
-   "album": "The Scene Between",
+   "artist": "The Go! Team - Topic",
+   "album": "",
    "videoId": "JyVmmE6fdH4",
    "duration": "4:13"
   },
@@ -3646,8 +3646,8 @@
   },
   {
    "title": "Rolodex The Seasons",
-   "artist": "The Go! Team",
-   "album": "The Scene Between",
+   "artist": "The Go! Team - Topic",
+   "album": "",
    "videoId": "SvBSehqMHhE",
    "duration": "0:59"
   },
@@ -3660,8 +3660,8 @@
   },
   {
    "title": "Did You Know?",
-   "artist": "The Go! Team",
-   "album": "The Scene Between",
+   "artist": "The Go! Team - Topic",
+   "album": "",
    "videoId": "lkyRQs8iRAE",
    "duration": "4:51"
   },
@@ -3870,8 +3870,8 @@
   },
   {
    "title": "Stripped Sunset",
-   "artist": "Harlem",
-   "album": "Hippies",
+   "artist": "Harlem - Topic",
+   "album": "",
    "videoId": "lHw2KbG63NE",
    "duration": "1:50"
   },
@@ -4017,8 +4017,8 @@
   },
   {
    "title": "Burnoshk",
-   "artist": "Bent",
-   "album": "From The Vaults: 1998-2006",
+   "artist": "Bent - Topic",
+   "album": "",
    "videoId": "mPYEzLRPNkg",
    "duration": "4:53"
   },
@@ -4038,8 +4038,8 @@
   },
   {
    "title": "Broken",
-   "artist": "Bent",
-   "album": "From The Vaults: 1998-2006",
+   "artist": "Bent - Topic",
+   "album": "",
    "videoId": "xCbOf4nObk4",
    "duration": "3:33"
   },
@@ -4171,8 +4171,8 @@
   },
   {
    "title": "Foresta Nera",
-   "artist": "Jolly Mare;Piero Umiliani",
-   "album": "La Luce dell'Alba",
+   "artist": "Jolly Mare - Topic",
+   "album": "",
    "videoId": "6SRmASxcE5U",
    "duration": "5:50"
   },
@@ -8546,7 +8546,7 @@
   },
   {
    "title": "Clube Da Esquina Nº 2",
-   "artist": "Lô Borges & Solange Borges",
+   "artist": "Lô Borges;Solange Borges",
    "album": "A Via-Láctea",
    "videoId": "ZLQ1m9mky8w",
    "duration": "3:58"
@@ -8567,7 +8567,7 @@
   },
   {
    "title": "Vento De Maio",
-   "artist": "Lô Borges & Solange Borges",
+   "artist": "Lô Borges;Solange Borges",
    "album": "A Via-Láctea",
    "videoId": "erCu0HKrIIE",
    "duration": "4:25"
@@ -9925,7 +9925,7 @@
   },
   {
    "title": "Monk: Dolmen Music",
-   "artist": "Meredith Monk, Andrea Goodman, Monica Solem, Paul Langland, Julius Eastman, and Robert Een",
+   "artist": "Meredith Monk;Andrea Goodman;Monica Solem;Paul Langland",
    "album": "Dolmen Music",
    "videoId": "DVrsuMWX7-Y",
    "duration": "23:48"
@@ -10093,7 +10093,7 @@
   },
   {
    "title": "sun",
-   "artist": "Jim Legxacy & Fimiguerrero",
+   "artist": "Jim Legxacy;Fimiguerrero",
    "album": "black british music (2025)",
    "videoId": "SW5Eh2Gw1_U",
    "duration": "3:05"
@@ -10149,14 +10149,14 @@
   },
   {
    "title": "dexters phone call",
-   "artist": "Jim Legxacy & dexter in the newsagent",
+   "artist": "Jim Legxacy;dexter in the newsagent",
    "album": "black british music (2025)",
    "videoId": "ZB_kGiujAY0",
    "duration": "2:33"
   },
   {
    "title": "3x",
-   "artist": "Jim Legxacy & Dave",
+   "artist": "Jim Legxacy;Dave",
    "album": "black british music (2025)",
    "videoId": "-P4rWrvhLLs",
    "duration": "2:40"
@@ -13376,7 +13376,7 @@
   },
   {
    "title": "Psychoboost",
-   "artist": "Jane Remover & Danny Brown",
+   "artist": "Jane Remover;Danny Brown",
    "album": "Revengeseekerz",
    "videoId": "gBmP3LDDnQQ",
    "duration": "4:05"
@@ -14003,6 +14003,4717 @@
    "album": "All Possible Futures",
    "videoId": "s76yH53HLNc",
    "duration": "5:12"
+  },
+  {
+   "title": "Forever Ever?",
+   "artist": "Miami Horror",
+   "album": "All Possible Futures",
+   "videoId": "989rQnROBCw",
+   "duration": "6:05"
+  },
+  {
+   "title": "Latitude",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "LAouHfdB5Jo",
+   "duration": "4:17"
+  },
+  {
+   "title": "Jumble Sale",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "ntT8sK8AgS8",
+   "duration": "3:18"
+  },
+  {
+   "title": "A New Constellation",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "6rEcxkGNMj0",
+   "duration": "4:22"
+  },
+  {
+   "title": "Requiescence",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "HGmQw3lBrRM",
+   "duration": "4:11"
+  },
+  {
+   "title": "Nordeste",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "S9XrtI1SsNY",
+   "duration": "3:35"
+  },
+  {
+   "title": "Bicycle Ride",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "LFVp54MpBow",
+   "duration": "4:24"
+  },
+  {
+   "title": "Creation (East L.A.)",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "YrcsQ297FpI",
+   "duration": "5:26"
+  },
+  {
+   "title": "Mirzan",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "3yd5ZRLXlvA",
+   "duration": "5:19"
+  },
+  {
+   "title": "The Orchard",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "7iyg2IhzYMw",
+   "duration": "5:47"
+  },
+  {
+   "title": "Latitude (To the Point Version - Bonus Track)",
+   "artist": "Quantic;The Western Transient",
+   "album": "A New Constellation",
+   "videoId": "neBXcqcaahs",
+   "duration": "4:05"
+  },
+  {
+   "title": "Peaches (feat. Odysseus)",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "vgg8eFGXU1g",
+   "duration": "3:52"
+  },
+  {
+   "title": "Sonder",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "RXWhzfrxOBE",
+   "duration": "1:34"
+  },
+  {
+   "title": "I Love Water",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "wVnYIzx1sZ4",
+   "duration": "3:21"
+  },
+  {
+   "title": "Lucky Penny",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "CzkZSQKlkNQ",
+   "duration": "3:24"
+  },
+  {
+   "title": "Voice Box 1.5",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "vPJfVD8baIs",
+   "duration": "3:39"
+  },
+  {
+   "title": "Analogue Sickness",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "nX5Q4iwROTs",
+   "duration": "2:54"
+  },
+  {
+   "title": "Safe On Earth",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "M45Pae-uWec",
+   "duration": "1:26"
+  },
+  {
+   "title": "Oxblood",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "FGZLFp559oc",
+   "duration": "3:41"
+  },
+  {
+   "title": "Sky Song",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "upc2Xp5kjUI",
+   "duration": "1:48"
+  },
+  {
+   "title": "The Answer (feat. Vincent Gol)",
+   "artist": "Data Kiss",
+   "album": "The Cyclops",
+   "videoId": "9QB9QA7A2Vw",
+   "duration": "3:49"
+  },
+  {
+   "title": "California",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "K-aB_ptGy7Q",
+   "duration": "4:37"
+  },
+  {
+   "title": "Apple TV Remote",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "SrCV-OeROHU",
+   "duration": "2:57"
+  },
+  {
+   "title": "Pitch A Fit!",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "vAeQwlzgx4M",
+   "duration": "4:23"
+  },
+  {
+   "title": "DON'T TELL THE BOYS",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "XMTuv4Bjr8E",
+   "duration": "3:57"
+  },
+  {
+   "title": "Microwave Dinner",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "1ayM11VJU3I",
+   "duration": "4:43"
+  },
+  {
+   "title": "Oh Nice",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "FD91CvhbGmI",
+   "duration": "1:58"
+  },
+  {
+   "title": "We Go On Walks",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "SLcFlncOBic",
+   "duration": "2:46"
+  },
+  {
+   "title": "We Don't Need To Talk About It",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "xW5UMCF9Tgc",
+   "duration": "5:02"
+  },
+  {
+   "title": "Hey Man",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "R_tYQmiRZv8",
+   "duration": "2:39"
+  },
+  {
+   "title": "Comfort In The Clutter",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "6TflhsgadiA",
+   "duration": "3:32"
+  },
+  {
+   "title": "Lean Into Life",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "RiT6JoLiR5w",
+   "duration": "5:28"
+  },
+  {
+   "title": "Tell The Boys",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "Xa9AJpcVzwU",
+   "duration": "2:07"
+  },
+  {
+   "title": "Perfect Teeth",
+   "artist": "Petey USA",
+   "album": "Lean Into Life",
+   "videoId": "n68Z0TXDzmI",
+   "duration": "3:23"
+  },
+  {
+   "title": "Ponta De Lança Africano",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "Kk3Bci3jVBs",
+   "duration": "3:53"
+  },
+  {
+   "title": "Hermes Trismegisto Escreveu",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "m0Xf5iBLokw",
+   "duration": "3:03"
+  },
+  {
+   "title": "O Filósofo",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "NHAeAhgp--c",
+   "duration": "3:28"
+  },
+  {
+   "title": "Meus Filhos, Meu Tesouro",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "toz2S0W201M",
+   "duration": "3:52"
+  },
+  {
+   "title": "O Plebeu",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "2gUF1trx6nY",
+   "duration": "3:08"
+  },
+  {
+   "title": "Taj Mahal",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "c8AuG1W59ig",
+   "duration": "3:07"
+  },
+  {
+   "title": "Xica Da Silva",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "OIWZ_2VS1v8",
+   "duration": "4:03"
+  },
+  {
+   "title": "A História De Jorge",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "LYh0enUh47g",
+   "duration": "3:47"
+  },
+  {
+   "title": "Camisa 10 Da Gávea",
+   "artist": "Jorge Ben Jor",
+   "album": "Africa Brasil",
+   "videoId": "Lf9lyL36YwE",
+   "duration": "4:05"
+  },
+  {
+   "title": "Cavaleiro Do Cavalo Imaculado",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "tEuLcEbpy3k",
+   "duration": "4:47"
+  },
+  {
+   "title": "África Brasil (Zumbi)",
+   "artist": "Jorge Ben",
+   "album": "Africa Brasil",
+   "videoId": "gV8V6IR-UI0",
+   "duration": "3:48"
+  },
+  {
+   "title": "Theia",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "jWJuIsWnrZ0",
+   "duration": "3:25"
+  },
+  {
+   "title": "The Silver Cord",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "75FVLb3c9w0",
+   "duration": "4:21"
+  },
+  {
+   "title": "Set",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "XCCzPDne-dQ",
+   "duration": "3:57"
+  },
+  {
+   "title": "Chang’e",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "cxe3V-06UAU",
+   "duration": "3:47"
+  },
+  {
+   "title": "Gilgamesh",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "0E-dnvgbZL4",
+   "duration": "3:44"
+  },
+  {
+   "title": "Swan Song",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "1ptD_ooY174",
+   "duration": "4:26"
+  },
+  {
+   "title": "Extinction",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "QefffIbeAcc",
+   "duration": "4:41"
+  },
+  {
+   "title": "Theia (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "lBBWmzk6-jQ",
+   "duration": "20:42"
+  },
+  {
+   "title": "The Silver Cord (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "TxVCod_AW2M",
+   "duration": "12:46"
+  },
+  {
+   "title": "Set (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "smdNQpUekRU",
+   "duration": "10:19"
+  },
+  {
+   "title": "Chang’e (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "uuiWjakRvHw",
+   "duration": "10:47"
+  },
+  {
+   "title": "Gilgamesh (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "e9aGxKonQgs",
+   "duration": "11:17"
+  },
+  {
+   "title": "Swan Song (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "a_v_rpeSbAY",
+   "duration": "10:30"
+  },
+  {
+   "title": "Extinction (Extended Mix)",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "album": "The Silver Cord",
+   "videoId": "D8DN4Z8v0fk",
+   "duration": "12:29"
+  },
+  {
+   "title": "Better All The Time",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "dOFVWyfdLyI",
+   "duration": "4:11"
+  },
+  {
+   "title": "Session Man",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "ETtbiNSXES4",
+   "duration": "2:48"
+  },
+  {
+   "title": "Wet Paint",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "b17nJv8oZkE",
+   "duration": "4:33"
+  },
+  {
+   "title": "Candidate",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "JJDaYPBhKf4",
+   "duration": "3:47"
+  },
+  {
+   "title": "Luxembourg",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "7bEmfaJh07s",
+   "duration": "2:14"
+  },
+  {
+   "title": "Bag Inc.",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "M3sQhBRlNXw",
+   "duration": "3:57"
+  },
+  {
+   "title": "Elfin Orphan",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "nu6_Q8JbzLU",
+   "duration": "2:38"
+  },
+  {
+   "title": "What About Me?",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "lobujqIluOE",
+   "duration": "4:41"
+  },
+  {
+   "title": "Hey Lonnie",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "1w0tBEsyvO4",
+   "duration": "2:59"
+  },
+  {
+   "title": "Housework For 3",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "m3O68Al2n0Y",
+   "duration": "2:48"
+  },
+  {
+   "title": "Here Comes The Judge, Pt II",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "KvpL6SwGqTA",
+   "duration": "3:04"
+  },
+  {
+   "title": "One Stone",
+   "artist": "Scene Creamers",
+   "album": "I Suck On That Emotion",
+   "videoId": "Or3yLBkcbnI",
+   "duration": "4:46"
+  },
+  {
+   "title": "The Weight",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "PfqD_7BJeJ0",
+   "duration": "4:47"
+  },
+  {
+   "title": "Roll Together",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "Eqq92N7WVX0",
+   "duration": "3:59"
+  },
+  {
+   "title": "Are You Even Real",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "fAKKV0uwnFw",
+   "duration": "5:12"
+  },
+  {
+   "title": "False State of Mind",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "2AEBYudGwUY",
+   "duration": "4:09"
+  },
+  {
+   "title": "Someday",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "aAPef4SMMio",
+   "duration": "5:45"
+  },
+  {
+   "title": "Heaven, Listen",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "AJZA3CX5QY4",
+   "duration": "3:22"
+  },
+  {
+   "title": "Couldn't Do It Better",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "X7Ecn3oEUIs",
+   "duration": "2:54"
+  },
+  {
+   "title": "Same Little Thing",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "zHBbNLvS7C8",
+   "duration": "4:23"
+  },
+  {
+   "title": "Silence on the Wall",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "SrqQU0W0FKY",
+   "duration": "4:54"
+  },
+  {
+   "title": "Look Around",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "EtLPZZt8BH0",
+   "duration": "5:37"
+  },
+  {
+   "title": "Doesn't Do Anything",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "yt_hwLFY_kM",
+   "duration": "4:18"
+  },
+  {
+   "title": "Heartbreak Television",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "JYcQ-40Pl-M",
+   "duration": "5:30"
+  },
+  {
+   "title": "Who's Running Who",
+   "artist": "Weval",
+   "album": "The Weight",
+   "videoId": "DyRq1SJISlQ",
+   "duration": "3:54"
+  },
+  {
+   "title": "Long Season",
+   "artist": "Fishmans",
+   "album": "Long Season",
+   "videoId": "GwWv-T4rM0k",
+   "duration": "35:17"
+  },
+  {
+   "title": "Modern Steps",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "1URCWlFG5k0",
+   "duration": "1:58"
+  },
+  {
+   "title": "魚の骨 鳥の羽根 - Floating on Water",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "ncsh5QjNdj8",
+   "duration": "5:23"
+  },
+  {
+   "title": "ベッテン・フォールズ - Betten Falls",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "9tKvsEpUbhA",
+   "duration": "4:19"
+  },
+  {
+   "title": "薄闇の花 - Flower of Dusk",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "OFEiW-hnHi4",
+   "duration": "4:03"
+  },
+  {
+   "title": "溯行 - Upstream",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "yjUoKeMddOg",
+   "duration": "3:54"
+  },
+  {
+   "title": "夜になると鮭は - At Night the Salmon Move",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "SL8TPleCzm0",
+   "duration": "2:09"
+  },
+  {
+   "title": "Buzzle Bee Ride",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "rpuFN9MhRsQ",
+   "duration": "5:30"
+  },
+  {
+   "title": "Double Exposure",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "T0mzmidnoBE",
+   "duration": "4:46"
+  },
+  {
+   "title": "レテの子 - The Kid from Lethe",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "DVnair391eE",
+   "duration": "4:46"
+  },
+  {
+   "title": "Waters",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "zJjNdleA3HQ",
+   "duration": "5:19"
+  },
+  {
+   "title": "TWNKL",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "uNatCv_G6Ck",
+   "duration": "4:17"
+  },
+  {
+   "title": "Poly Life Multi Soul",
+   "artist": "cero",
+   "album": "Poly Life Multi Soul",
+   "videoId": "U6EL-HTGdx0",
+   "duration": "8:37"
+  },
+  {
+   "title": "Awakening On The Planet",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "WW1tBIKYhvc",
+   "duration": "1:37"
+  },
+  {
+   "title": "Mother of Mars",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "ukyLFgFVzzc",
+   "duration": "2:32"
+  },
+  {
+   "title": "Far Beyond The Sun",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "0gYWCXRim98",
+   "duration": "3:04"
+  },
+  {
+   "title": "Moebius Triptych",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "sD09WrRiw58",
+   "duration": "5:37"
+  },
+  {
+   "title": "You Are On The Right Track",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "mwAKq-ayWus",
+   "duration": "3:07"
+  },
+  {
+   "title": "Theta Wave Convergence",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "HJ8FY1iaGnw",
+   "duration": "6:36"
+  },
+  {
+   "title": "Arrival at Rho Ophiochi",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "Mryl-z9U4dQ",
+   "duration": "2:31"
+  },
+  {
+   "title": "Out Of Phase",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "0a6eNaCr38M",
+   "duration": "3:49"
+  },
+  {
+   "title": "Onto The Next Dimension",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "SGad8hRPLY8",
+   "duration": "3:01"
+  },
+  {
+   "title": "Earth Remembrance Day",
+   "artist": "Danalogue",
+   "album": "Teleportations",
+   "videoId": "U1_AsRBHmTY",
+   "duration": "4:20"
+  },
+  {
+   "title": "A1 - It's just a burning memory",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "wPOF5FgG3DU",
+   "duration": "3:33"
+  },
+  {
+   "title": "A2 - We don't have many days",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "MCHTw1h2kBA",
+   "duration": "3:31"
+  },
+  {
+   "title": "A3 - Late afternoon drifting",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "pJc5SZTcFrw",
+   "duration": "3:36"
+  },
+  {
+   "title": "A4 - Childishly fresh eyes",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "eferNVXDAbE",
+   "duration": "2:59"
+  },
+  {
+   "title": "A5 - Slightly bewildered",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "WwVIayi74Ic",
+   "duration": "2:02"
+  },
+  {
+   "title": "A6 - Things that are beautiful and transient",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "-7FTpJe6lNw",
+   "duration": "4:35"
+  },
+  {
+   "title": "B1 - All that follows is true",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "xhwzipsoCC8",
+   "duration": "3:32"
+  },
+  {
+   "title": "B2 - An autumnal equinox",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "zisVsU16wuc",
+   "duration": "2:47"
+  },
+  {
+   "title": "B3 - Quiet internal rebellions",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "XRu-C_rX9xg",
+   "duration": "3:31"
+  },
+  {
+   "title": "B4 - The loves of my entire life",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "EY6xOjnzmy4",
+   "duration": "4:05"
+  },
+  {
+   "title": "B5 - Into each others eyes",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "89Id2T3tzKM",
+   "duration": "4:37"
+  },
+  {
+   "title": "B6 - My heart will stop in joy",
+   "artist": "The Caretaker",
+   "album": "Everywhere at the End of Time (Stage 1)",
+   "videoId": "1V69TwJhuOU",
+   "duration": "2:42"
+  },
+  {
+   "title": "行っちゃった - Departed",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "Y9WTVGkIDKk",
+   "duration": "2:15"
+  },
+  {
+   "title": "行つてしまつた - Gone",
+   "artist": "Hakushi Hasegawa;KID FRESINO",
+   "album": "Mahōgakkō",
+   "videoId": "HNqijGDrqT8",
+   "duration": "2:15"
+  },
+  {
+   "title": "口の花火 - Mouth Flash (Kuchinohanabi)",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "Cxpo_qj0Cc8",
+   "duration": "3:51"
+  },
+  {
+   "title": "撤回 - Repeal (Tekkai)",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "_prDkEpmr6k",
+   "duration": "2:34"
+  },
+  {
+   "title": "蕾に雷 - The Blossom and the Thunder",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "2ms7rJ449NE",
+   "duration": "4:09"
+  },
+  {
+   "title": "恐怖の星 - KYŌFUNOHOSHI",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "r95c1QJKJ0A",
+   "duration": "3:45"
+  },
+  {
+   "title": "ねんねこころみ - NENNEKOKOROMI",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "vTvq4CAL1mE",
+   "duration": "0:57"
+  },
+  {
+   "title": "禁物 - Forbidden Thing (Kimmotsu)",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "POEH1F8XHUk",
+   "duration": "4:45"
+  },
+  {
+   "title": "Mahōinter (v2)",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "VRc38AKm6hM",
+   "duration": "0:31"
+  },
+  {
+   "title": "ボーイズ・テクスチャー - Boy’s Texture",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "Xc4r7Dkqg-Q",
+   "duration": "4:05"
+  },
+  {
+   "title": "焱ばみ - Enbami",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "JmfgnLsNDSY",
+   "duration": "1:59"
+  },
+  {
+   "title": "外 - Outside (Soto)",
+   "artist": "Hakushi Hasegawa",
+   "album": "Mahōgakkō",
+   "videoId": "o1e9rBYrRSc",
+   "duration": "3:27"
+  },
+  {
+   "title": "...And the Forest Began to Sing",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "S71axpgmvyo",
+   "duration": "1:51"
+  },
+  {
+   "title": "Tricky Two",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "a-RcufP0IYU",
+   "duration": "7:52"
+  },
+  {
+   "title": "The Alcoholic",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "wiBaUcV-bXo",
+   "duration": "5:11"
+  },
+  {
+   "title": "Senior Living",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "W9kUqEkQnGY",
+   "duration": "5:10"
+  },
+  {
+   "title": "The Drug",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "I2j2vuopqD4",
+   "duration": "5:59"
+  },
+  {
+   "title": "Forsaken Cowboy",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "dqP1SQC5TPQ",
+   "duration": "5:29"
+  },
+  {
+   "title": "The Fear",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "KjNZOkHFjBo",
+   "duration": "7:02"
+  },
+  {
+   "title": "Coming Home",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "136_du6hIEY",
+   "duration": "5:06"
+  },
+  {
+   "title": "A Long, Long Way",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "5VqEHiBwW_M",
+   "duration": "4:04"
+  },
+  {
+   "title": "The Final Day (Bonus Track)",
+   "artist": "Röyksopp",
+   "album": "Senior",
+   "videoId": "Ff8btUQsZcg",
+   "duration": "6:41"
+  },
+  {
+   "title": "Tercer Mundo",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "FdKw6F9GHl4",
+   "duration": "2:38"
+  },
+  {
+   "title": "Flores Astrais",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "P2vQDK5SJgo",
+   "duration": "3:54"
+  },
+  {
+   "title": "O patrão nosso de cada dia",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "vABxeV33Kc4",
+   "duration": "3:22"
+  },
+  {
+   "title": "Medo mulato",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "g2E_woj1hBs",
+   "duration": "2:21"
+  },
+  {
+   "title": "Oh! Mulher infiel",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "5034ioSj2Zs",
+   "duration": "1:33"
+  },
+  {
+   "title": "Vôo",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "adREmMo5DrI",
+   "duration": "2:36"
+  },
+  {
+   "title": "Angústia",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "F93y8XFSk6c",
+   "duration": "2:48"
+  },
+  {
+   "title": "O hierofante",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "Dby2TnSXgs4",
+   "duration": "2:18"
+  },
+  {
+   "title": "Caixinha de música do João",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "2kiu6JJRxCI",
+   "duration": "1:07"
+  },
+  {
+   "title": "Doce e o Amargo",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "_aE4FU75kYA",
+   "duration": "1:55"
+  },
+  {
+   "title": "Preto velho",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "qMnN5nDGzvQ",
+   "duration": "1:04"
+  },
+  {
+   "title": "Delírio...",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "5mZXzns-nhg",
+   "duration": "2:42"
+  },
+  {
+   "title": "Toada & Rock & Mambo & Tango & Etc",
+   "artist": "Secos & Molhados",
+   "album": "Secos & Molhados",
+   "videoId": "bfIzZ8WhYEQ",
+   "duration": "2:19"
+  },
+  {
+   "title": "Boots",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "r3ikimwZmlU",
+   "duration": "1:39"
+  },
+  {
+   "title": "Numb Erone",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "2Kmo3aAXiMg",
+   "duration": "1:07"
+  },
+  {
+   "title": "Guylum Bardot",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "6sMd4Yw1-60",
+   "duration": "1:22"
+  },
+  {
+   "title": "Breath and Length",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "cX2NxLrmLSo",
+   "duration": "1:43"
+  },
+  {
+   "title": "Consuelo's Departure",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "GnZLsE6r9Yg",
+   "duration": "1:45"
+  },
+  {
+   "title": "Smelly Tongues",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "Nr0JztPkQQI",
+   "duration": "1:47"
+  },
+  {
+   "title": "Rest Aria",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "9IKOLRPpLKw",
+   "duration": "5:07"
+  },
+  {
+   "title": "Skratz",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "4-zJqNW8YVo",
+   "duration": "1:45"
+  },
+  {
+   "title": "Spotted Pinto Bean",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "lAsDNNn971w",
+   "duration": "6:39"
+  },
+  {
+   "title": "Infant Tango",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "cJK0HEh4_GY",
+   "duration": "5:57"
+  },
+  {
+   "title": "Seasoned Greetings",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "k-tiEU87VTo",
+   "duration": "5:09"
+  },
+  {
+   "title": "N-ER-GEE (Crisis Blues)",
+   "artist": "The Residents",
+   "album": "Meet The Residents",
+   "videoId": "DB-1EZNCAy4",
+   "duration": "9:48"
+  },
+  {
+   "title": "Power Stone ☀︎",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "ZoLEDNV9hO4",
+   "duration": "7:17"
+  },
+  {
+   "title": "Bloody Roar ☢︎",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "n8m-mjqbV28",
+   "duration": "4:56"
+  },
+  {
+   "title": "Guilty Gear ☪︎",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "cqVcPZG0B2g",
+   "duration": "5:43"
+  },
+  {
+   "title": "Phantasy Star ☫",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "kwBY3xZYz28",
+   "duration": "2:59"
+  },
+  {
+   "title": "Chuchu Rocket ☃︎",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "kmNwdeZkmFQ",
+   "duration": "13:22"
+  },
+  {
+   "title": "Code: Veronica ✖",
+   "artist": "Devon Hendryx",
+   "album": "Dreamcast Summer Songs",
+   "videoId": "ygVn2dHiANA",
+   "duration": "9:10"
+  },
+  {
+   "title": "Act 1 (The Pilgrim) (feat. Little Wings)",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "2ArETq5xvsk",
+   "duration": "1:40"
+  },
+  {
+   "title": "On A Grassy Knoll (We'll Bow Together)",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "AraxVm2gsOM",
+   "duration": "4:20"
+  },
+  {
+   "title": "Swallow",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "TkmP9ZBG0cc",
+   "duration": "4:13"
+  },
+  {
+   "title": "The Nether (Face To Face)",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "DY0TzimRObs",
+   "duration": "3:57"
+  },
+  {
+   "title": "Act 2 (Their God) (feat. Little Wings)",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "cOtTzr7g69o",
+   "duration": "2:08"
+  },
+  {
+   "title": "Broken Ark",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "1WaG_dZB_bI",
+   "duration": "4:35"
+  },
+  {
+   "title": "Gymnopédie",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "cj1sh-_sRpA",
+   "duration": "3:51"
+  },
+  {
+   "title": "Eidolon",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "ht-CpMSWKhA",
+   "duration": "3:31"
+  },
+  {
+   "title": "Act 3 (The King of My Decrepit Mountain) (feat. Little Wings)",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "Q2R8ixC5yl8",
+   "duration": "2:05"
+  },
+  {
+   "title": "Untitled",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "y8mKVqFhCtY",
+   "duration": "3:34"
+  },
+  {
+   "title": "My God",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "SVxN3_ICTTM",
+   "duration": "3:22"
+  },
+  {
+   "title": "Mountain Song",
+   "artist": "Tapir!",
+   "album": "The Pilgrim, Their God and The King of My Decrepit Mountain",
+   "videoId": "2nRFb5IqGJk",
+   "duration": "7:20"
+  },
+  {
+   "title": "Break Out the Wine",
+   "artist": "The Spike Drivers",
+   "album": "Strange Mysterious Sounds",
+   "videoId": "Ogjwc_aN9R0",
+   "duration": "2:52"
+  },
+  {
+   "title": "Baby Won't You Let Me Tell You How I Lost My Mind",
+   "artist": "The Spike Drivers",
+   "album": "Strange Mysterious Sounds",
+   "videoId": "vpzV7pS51pw",
+   "duration": "2:29"
+  },
+  {
+   "title": "High Time",
+   "artist": "The Spike Drivers",
+   "album": "Strange Mysterious Sounds",
+   "videoId": "WKIlUrfleuM",
+   "duration": "2:09"
+  },
+  {
+   "title": "Strange Mysterious Sounds",
+   "artist": "The Spike Drivers",
+   "album": "Strange Mysterious Sounds",
+   "videoId": "FDjMjTUHK-c",
+   "duration": "2:31"
+  },
+  {
+   "title": "Your Cocoon",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "C3A1dt6TE08",
+   "duration": "2:52"
+  },
+  {
+   "title": "Grey Area",
+   "artist": "Jerry Paper;Weyes Blood",
+   "album": "Like a Baby",
+   "videoId": "cLoMc4TFqJA",
+   "duration": "2:06"
+  },
+  {
+   "title": "A Moment",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "vQ-ZrP_D_RA",
+   "duration": "3:10"
+  },
+  {
+   "title": "Something’s Not Right",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "Ie9vsUFoblw",
+   "duration": "1:57"
+  },
+  {
+   "title": "Did I Buy It?",
+   "artist": "Jerry Paper;Mild High Club",
+   "album": "Like a Baby",
+   "videoId": "xdMKnJ2n3Js",
+   "duration": "3:37"
+  },
+  {
+   "title": "Commercial Break",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "Bqwo7BOQKvA",
+   "duration": "2:36"
+  },
+  {
+   "title": "My God",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "4tcbQOfqkkQ",
+   "duration": "2:12"
+  },
+  {
+   "title": "Baby",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "TtLNXW1M_eE",
+   "duration": "2:32"
+  },
+  {
+   "title": "Everything Borrowed",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "bMp2v2dAllE",
+   "duration": "2:24"
+  },
+  {
+   "title": "Huge Laughs",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "UvU4GMhaNKk",
+   "duration": "2:15"
+  },
+  {
+   "title": "You",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "OUyex9cjRaE",
+   "duration": "3:04"
+  },
+  {
+   "title": "Losing the Game",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "USQXF4vIhu8",
+   "duration": "2:08"
+  },
+  {
+   "title": "More Bad News",
+   "artist": "Jerry Paper",
+   "album": "Like a Baby",
+   "videoId": "AtF4yk0box4",
+   "duration": "1:48"
+  },
+  {
+   "title": "Radio GilMo",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "-YqJDtzpOpY",
+   "duration": "3:12"
+  },
+  {
+   "title": "Still Wonder (feat. Charlie Houston)",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "KJxjcSR_0tk",
+   "duration": "4:04"
+  },
+  {
+   "title": "You've Made It",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "Jf4kuH6T6mQ",
+   "duration": "2:39"
+  },
+  {
+   "title": "Speaking Across Time",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "jubVZzTDhUw",
+   "duration": "1:00"
+  },
+  {
+   "title": "Upstate Miracle",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "N0U2Z8At9wY",
+   "duration": "3:58"
+  },
+  {
+   "title": "Mystic Pebble",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "UmMxHr-8kSU",
+   "duration": "4:39"
+  },
+  {
+   "title": "Love Song",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "NfSsIgnF3z8",
+   "duration": "4:23"
+  },
+  {
+   "title": "The Destroyer",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "6o6hvC2YywI",
+   "duration": "3:13"
+  },
+  {
+   "title": "Only One",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "Y723Vhnj9NA",
+   "duration": "4:20"
+  },
+  {
+   "title": "Waste of Time",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "PGdyTG_e3uI",
+   "duration": "1:55"
+  },
+  {
+   "title": "Turn Back Time",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "zCI2pyA03ts",
+   "duration": "3:52"
+  },
+  {
+   "title": "You Are the Greatest",
+   "artist": "Gilligan Moss",
+   "album": "Speaking Across Time",
+   "videoId": "5QoX6BTVnOY",
+   "duration": "4:03"
+  },
+  {
+   "title": "Ventura Highway",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "tnV7dTXlXxs",
+   "duration": "3:32"
+  },
+  {
+   "title": "To Each His Own",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "uvSLONArzEk",
+   "duration": "3:15"
+  },
+  {
+   "title": "Don't Cross the River",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "hV478KCqAcg",
+   "duration": "2:30"
+  },
+  {
+   "title": "Moon Song",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "30u5FR5zWGQ",
+   "duration": "3:42"
+  },
+  {
+   "title": "Only in Your Heart",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "1ktO5O0h12c",
+   "duration": "3:17"
+  },
+  {
+   "title": "Till the Sun Comes up Again",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "-3gYYLICkKI",
+   "duration": "2:13"
+  },
+  {
+   "title": "Cornwall Blank",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "8AkiIsEPGps",
+   "duration": "4:20"
+  },
+  {
+   "title": "Head and Heart",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "KWsPXxIGTkg",
+   "duration": "3:50"
+  },
+  {
+   "title": "California Revisited",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "igISQZG9Rfw",
+   "duration": "3:06"
+  },
+  {
+   "title": "Saturn Nights",
+   "artist": "America",
+   "album": "Homecoming",
+   "videoId": "SnrrDyjr_T8",
+   "duration": "3:33"
+  },
+  {
+   "title": "Wouldn't It Be Nice",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "hVLNcjJIeCI",
+   "duration": "2:34"
+  },
+  {
+   "title": "You Still Believe In Me",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "E1xRAUwSOMc",
+   "duration": "2:37"
+  },
+  {
+   "title": "That's Not Me",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "OVn9iguNmiE",
+   "duration": "2:32"
+  },
+  {
+   "title": "Don't Talk (Put Your Head On My Shoulder)",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "BIMlEjCMHL4",
+   "duration": "2:59"
+  },
+  {
+   "title": "I'm Waiting For The Day",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "0LLAy88zHmo",
+   "duration": "3:07"
+  },
+  {
+   "title": "Let's Go Away For Awhile",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "NctVXeOODEI",
+   "duration": "2:25"
+  },
+  {
+   "title": "Sloop John B",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "XWuUSguYO2c",
+   "duration": "3:00"
+  },
+  {
+   "title": "God Only Knows",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "DGOhIhgZxFo",
+   "duration": "2:55"
+  },
+  {
+   "title": "I Know There's An Answer",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "VrRmlfdHT9Q",
+   "duration": "3:19"
+  },
+  {
+   "title": "Here Today",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "xwT2JQoffIg",
+   "duration": "3:08"
+  },
+  {
+   "title": "I Just Wasn't Made For These Times",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "8cQ7RBluK1c",
+   "duration": "3:22"
+  },
+  {
+   "title": "Pet Sounds",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "oyMPoBRNtTw",
+   "duration": "2:38"
+  },
+  {
+   "title": "Caroline, No",
+   "artist": "The Beach Boys",
+   "album": "Pet Sounds (40th Anniversary Edition)",
+   "videoId": "wUUAjZD03wM",
+   "duration": "3:35"
+  },
+  {
+   "title": "Pokka Pokka",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "q4V72ZJEWII",
+   "duration": "4:05"
+  },
+  {
+   "title": "Weather Report",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "5smoygt-b2c",
+   "duration": "8:43"
+  },
+  {
+   "title": "うしろ姿 - Ushirosugata",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "JJKh2naFeYY",
+   "duration": "5:14"
+  },
+  {
+   "title": "In The Flight",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "48wMLo5c5SE",
+   "duration": "5:37"
+  },
+  {
+   "title": "Magic Love",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "pF75T_M0bDo",
+   "duration": "4:59"
+  },
+  {
+   "title": "バックビートにのっかって - Back Beat Ni Nokkatte",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "itZ1JpQK7GQ",
+   "duration": "8:27"
+  },
+  {
+   "title": "Walking In The Rhythm",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "lgesf2_STgQ",
+   "duration": "12:57"
+  },
+  {
+   "title": "Daydream",
+   "artist": "Fishmans",
+   "album": "Uchu Nippon Setagaya",
+   "videoId": "bYaCpTecfTg",
+   "duration": "8:40"
+  },
+  {
+   "title": "Divine Intermission",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "LcWCGyr4wJ4",
+   "duration": "1:02"
+  },
+  {
+   "title": "Plastic Drip",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "2S_Gkos_j1Q",
+   "duration": "2:17"
+  },
+  {
+   "title": "Arctic Garden",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "-WQHYDxaVso",
+   "duration": "2:08"
+  },
+  {
+   "title": "Morphine-Cigarettes",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "ZriTUlZLxB8",
+   "duration": "1:41"
+  },
+  {
+   "title": "Bad Nerves",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "5WKNsgZrEak",
+   "duration": "1:09"
+  },
+  {
+   "title": "Andromeda",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "ROnqcnbxjdg",
+   "duration": "2:26"
+  },
+  {
+   "title": "High Life",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "Qh58jjWfVGc",
+   "duration": "1:53"
+  },
+  {
+   "title": "New Wave",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "sgj1CRUR_hw",
+   "duration": "2:26"
+  },
+  {
+   "title": "Blossoms",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "os8MPBzKF7k",
+   "duration": "0:47"
+  },
+  {
+   "title": "Left Brain",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "P2hpx_9QZ2g",
+   "duration": "1:56"
+  },
+  {
+   "title": "Candy Sweats",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "M1jxy1-zWZE",
+   "duration": "1:36"
+  },
+  {
+   "title": "Angeldust",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "IF21Gsy747E",
+   "duration": "1:56"
+  },
+  {
+   "title": "LSDemons",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "GxdeLaLyt4k",
+   "duration": "0:45"
+  },
+  {
+   "title": "Technicolor",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "qSC9LfRnxV0",
+   "duration": "2:41"
+  },
+  {
+   "title": "Violet",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "7rbT8TOVRx0",
+   "duration": "0:50"
+  },
+  {
+   "title": "Cherry Lemons",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "65Sun7RRh9c",
+   "duration": "2:03"
+  },
+  {
+   "title": "28205",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "FBmHT4Ywy0g",
+   "duration": "1:57"
+  },
+  {
+   "title": "Nongshim",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "jKfAMk_OWpg",
+   "duration": "1:22"
+  },
+  {
+   "title": "Pharmacy Lights",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "-xw5QjjDiWc",
+   "duration": "1:35"
+  },
+  {
+   "title": "Night Swim",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "Y-9Qcr7Oe5A",
+   "duration": "1:33"
+  },
+  {
+   "title": "Otra Vez",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "3TlsuqHvMeY",
+   "duration": "1:37"
+  },
+  {
+   "title": "Maybe Later",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "DIcKArhabkE",
+   "duration": "1:29"
+  },
+  {
+   "title": "Three AM",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "imS_wMggcUU",
+   "duration": "2:22"
+  },
+  {
+   "title": "Memory Card",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "ziyF_1IiOZ8",
+   "duration": "2:34"
+  },
+  {
+   "title": "Sidewalk Temples",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "sDi1O51Ix9I",
+   "duration": "2:17"
+  },
+  {
+   "title": "Undertow",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "8TKldgF_rdU",
+   "duration": "1:42"
+  },
+  {
+   "title": "Infinite Drift",
+   "artist": "Dirty Art Club",
+   "album": "Gardens",
+   "videoId": "NN04s6PgXOI",
+   "duration": "2:07"
+  },
+  {
+   "title": "Vine solita",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "o-kuC6pnGus",
+   "duration": "6:27"
+  },
+  {
+   "title": "De todas las flores",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "Nx5CZ83o1Z8",
+   "duration": "5:23"
+  },
+  {
+   "title": "Pasan los días",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "wKE7_RpKaug",
+   "duration": "6:44"
+  },
+  {
+   "title": "Llévame viento",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "_f7wV_vrbBo",
+   "duration": "6:26"
+  },
+  {
+   "title": "El lugar correcto",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "VGrcfaRD7-Q",
+   "duration": "3:52"
+  },
+  {
+   "title": "Pajarito colibrí",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "psiDYpKNPag",
+   "duration": "5:09"
+  },
+  {
+   "title": "María la Curandera",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "hZbOBaZ8KaY",
+   "duration": "6:14"
+  },
+  {
+   "title": "Caminar bonito",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "4qOTyF3zVAg",
+   "duration": "3:58"
+  },
+  {
+   "title": "Mi manera de querer",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "tGpmZmIR4CA",
+   "duration": "3:54"
+  },
+  {
+   "title": "Muerte",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "wzKn7KHTlAo",
+   "duration": "5:50"
+  },
+  {
+   "title": "Canta la arena",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "sevCIh8UTk8",
+   "duration": "6:03"
+  },
+  {
+   "title": "Que te vaya bonito Nicolás",
+   "artist": "Natalia Lafourcade",
+   "album": "De Todas las Flores",
+   "videoId": "rHdht3eG5WE",
+   "duration": "6:48"
+  },
+  {
+   "title": "Majek Beware",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "G0uSMxPM6uY",
+   "duration": "6:48"
+  },
+  {
+   "title": "So Long",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "GXkJVu73R8I",
+   "duration": "5:25"
+  },
+  {
+   "title": "Majek Fashek In A New York",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "ifWP7WRk2I0",
+   "duration": "6:25"
+  },
+  {
+   "title": "Spirit Of Love",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "bXug9YFREa0",
+   "duration": "4:26"
+  },
+  {
+   "title": "Jah People",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "fJh-jnLuF98",
+   "duration": "6:32"
+  },
+  {
+   "title": "Religion Is Politics",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "49DAa8Xys_g",
+   "duration": "5:46"
+  },
+  {
+   "title": "Holy Spirit",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "5EhGbmMRcM0",
+   "duration": "5:44"
+  },
+  {
+   "title": "Send Down The Rain",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "iXuzRxKaFPI",
+   "duration": "5:17"
+  },
+  {
+   "title": "I'm Not Tired",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "sOe10e6sQSY",
+   "duration": "6:30"
+  },
+  {
+   "title": "I Come From De Ghetto",
+   "artist": "Majek Fashek",
+   "album": "Spirit Of Love",
+   "videoId": "P84tCcKnsyY",
+   "duration": "6:28"
+  },
+  {
+   "title": "Giddy",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "isD_YtuY028",
+   "duration": "3:23"
+  },
+  {
+   "title": "5785021",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "IzMq2JxTfuo",
+   "duration": "4:40"
+  },
+  {
+   "title": "Kathy Lee",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "NOXxCpp1uDA",
+   "duration": "4:10"
+  },
+  {
+   "title": "Fuck Diamond",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "IC591LRNeio",
+   "duration": "4:18"
+  },
+  {
+   "title": "Keep Moving",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "F8pcYeWlVqQ",
+   "duration": "3:45"
+  },
+  {
+   "title": "Against the Wall",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "6VElSd6USrE",
+   "duration": "3:12"
+  },
+  {
+   "title": "Pull My Hair Back",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "toz0k36bp2A",
+   "duration": "3:52"
+  },
+  {
+   "title": "As If",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "c_1KxXWxFTM",
+   "duration": "4:16"
+  },
+  {
+   "title": "Strange Emotion",
+   "artist": "Jessy Lanza",
+   "album": "Pull My Hair Back",
+   "videoId": "RZ0ZxA8UCH4",
+   "duration": "4:43"
+  },
+  {
+   "title": "Isumagijunnaitaungituq (The Unforgiven)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "z2hLDwrkcnw",
+   "duration": "4:34"
+  },
+  {
+   "title": "Sinnatuumait (Dreams)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "J5pA-qMzydU",
+   "duration": "4:28"
+  },
+  {
+   "title": "Taimangalimaaq (Time After Time)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "DlH-jY_SkRI",
+   "duration": "4:14"
+  },
+  {
+   "title": "Qimatsilunga (I Want to Break Free)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "-czaJOn3Sow",
+   "duration": "4:04"
+  },
+  {
+   "title": "Qaisimalaurittuq (Wish You Were Here) (feat. The Westerlies)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "Q7uxonJXEag",
+   "duration": "4:43"
+  },
+  {
+   "title": "Californiamut (Going to California)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "VpvNqOu84iQ",
+   "duration": "3:34"
+  },
+  {
+   "title": "Uummati Attanarsimat (Heart of Glass)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "eOXbuB5HYe4",
+   "duration": "3:59"
+  },
+  {
+   "title": "Inuuniaravit (Born to Be Alive)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "NSKwIG5qCNQ",
+   "duration": "3:34"
+  },
+  {
+   "title": "Taimaa Qimatsiniungimat (Hey, That’s No Way to Say Goodbye)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "8-b5LuEol34",
+   "duration": "4:35"
+  },
+  {
+   "title": "Qimmijuat (Wild Horses)",
+   "artist": "Elisapie",
+   "album": "Inuktitut",
+   "videoId": "L_7wQUg8ILk",
+   "duration": "5:30"
+  },
+  {
+   "title": "Hot Tent Blues",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "Z-_T2xwl6-A",
+   "duration": "1:18"
+  },
+  {
+   "title": "Broken",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "DoHtXr5bTtU",
+   "duration": "4:13"
+  },
+  {
+   "title": "Space and the Woods (Cenzo Townshend Mix)",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "wI_ap83Q7-M",
+   "duration": "3:46"
+  },
+  {
+   "title": "The Bears Are Coming",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "Pb_z9-qWP5k",
+   "duration": "3:26"
+  },
+  {
+   "title": "Random Firl",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "kxt-5qhTZww",
+   "duration": "2:17"
+  },
+  {
+   "title": "Heartbeat (Cenzo Townshend Version)",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "7xZNJvRl-88",
+   "duration": "3:05"
+  },
+  {
+   "title": "Whitesnake",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "8Lqxqn5WLCM",
+   "duration": "3:03"
+  },
+  {
+   "title": "VW",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "XXcVG-hnEtg",
+   "duration": "2:29"
+  },
+  {
+   "title": "Focker",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "g5yJzKk6NUM",
+   "duration": "3:16"
+  },
+  {
+   "title": "The Enemy Are the Future",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "yMLCoERcSXI",
+   "duration": "6:03"
+  },
+  {
+   "title": "Mad Dogs and Englishmen",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "kIBdWQ9Uu7g",
+   "duration": "3:02"
+  },
+  {
+   "title": "Bathroom Gurgle",
+   "artist": "Late of the Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "Ru_8r-rg33s",
+   "duration": "7:14"
+  },
+  {
+   "title": "Animal in an Air Raid Shelter",
+   "artist": "Late Of The Pier",
+   "album": "Fantasy Black Channel",
+   "videoId": "JFPeb1Toc2I",
+   "duration": "1:37"
+  },
+  {
+   "title": "Utopia",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "UheI8FNLLlQ",
+   "duration": "5:53"
+  },
+  {
+   "title": "Rock On",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "CZHmvLhZxpM",
+   "duration": "3:59"
+  },
+  {
+   "title": "Arpeggio",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "hGtK_u6WOs8",
+   "duration": "4:05"
+  },
+  {
+   "title": "Minidoux",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "78ZJubaLDDY",
+   "duration": "0:57"
+  },
+  {
+   "title": "Oh Boy",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "Dvy0RFiq-10",
+   "duration": "3:46"
+  },
+  {
+   "title": "TV Dogs (Cathodica's Letter) (feat. Mike Ladd)",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "FlakBGEcg4E",
+   "duration": "4:15"
+  },
+  {
+   "title": "Hard Tits",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "Rlp7lHiSsAI",
+   "duration": "3:14"
+  },
+  {
+   "title": "Teen Beat Ocean",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "JjxPmvprfAg",
+   "duration": "4:53"
+  },
+  {
+   "title": "Promo",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "Vjvb-uEhGMw",
+   "duration": "0:22"
+  },
+  {
+   "title": "Tropical Metal",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "ga9BT_O2tZM",
+   "duration": "3:37"
+  },
+  {
+   "title": "Headache",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "eXv5EObxVbk",
+   "duration": "4:56"
+  },
+  {
+   "title": "Moto",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "vMqprmAzltQ",
+   "duration": "1:12"
+  },
+  {
+   "title": "Fast Life",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "y1DE1DqywB8",
+   "duration": "5:09"
+  },
+  {
+   "title": "Radio Caca",
+   "artist": "Jackson and His Computer Band",
+   "album": "Smash",
+   "videoId": "Pb7CVsJunWY",
+   "duration": "20:19"
+  },
+  {
+   "title": "Eternal",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "BGOLNIoWxHs",
+   "duration": "5:01"
+  },
+  {
+   "title": "Spill",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "yAUDOfhreWU",
+   "duration": "3:37"
+  },
+  {
+   "title": "This Infinite",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "xPZaSSHjE_U",
+   "duration": "2:32"
+  },
+  {
+   "title": "Bliss Beat",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "RkboDGyeGN0",
+   "duration": "3:34"
+  },
+  {
+   "title": "Realize",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "KYZXoqzSESA",
+   "duration": "3:18"
+  },
+  {
+   "title": "way i luv",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "lcqLfvtdMZ4",
+   "duration": "3:43"
+  },
+  {
+   "title": "Careless",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "rwEsJzJAmLk",
+   "duration": "4:05"
+  },
+  {
+   "title": "Palisade",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "zsdmMdjMt4k",
+   "duration": "3:44"
+  },
+  {
+   "title": "Get In Girls",
+   "artist": "Vitesse X;Pearly Drops",
+   "album": "This Infinite",
+   "videoId": "nSlWGCeVjVg",
+   "duration": "3:52"
+  },
+  {
+   "title": "In Finding",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "9pMJmqvVDe8",
+   "duration": "3:02"
+  },
+  {
+   "title": "End of Forever",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "-4adf1fT8p4",
+   "duration": "3:22"
+  },
+  {
+   "title": "Something In The Air",
+   "artist": "Vitesse X",
+   "album": "This Infinite",
+   "videoId": "JBJkxTBRgXo",
+   "duration": "4:22"
+  },
+  {
+   "title": "Futuristic Dragon (Introduction)",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "8pJ_G2nAeR4",
+   "duration": "1:53"
+  },
+  {
+   "title": "Jupiter Liar",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "05rh16pvs9o",
+   "duration": "3:43"
+  },
+  {
+   "title": "Chrome Sitar",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "-9YyRzXIDqU",
+   "duration": "3:15"
+  },
+  {
+   "title": "All Alone",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "WTcLe8XfCJA",
+   "duration": "2:51"
+  },
+  {
+   "title": "New York City",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "0aBegcF9iaY",
+   "duration": "3:58"
+  },
+  {
+   "title": "My Little Baby",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "n4LomKC3rgs",
+   "duration": "3:10"
+  },
+  {
+   "title": "Calling All Destroyers",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "T2pedvBZT2k",
+   "duration": "3:58"
+  },
+  {
+   "title": "Theme For A Dragon",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "2b9Ho_ct6ME",
+   "duration": "2:01"
+  },
+  {
+   "title": "Sensation Boulevard",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "VjeS0cBsXjA",
+   "duration": "3:49"
+  },
+  {
+   "title": "Ride My Wheels",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "aYrEhiRQacA",
+   "duration": "2:29"
+  },
+  {
+   "title": "Dreamy Lady",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "UrVKLOFtIEA",
+   "duration": "2:56"
+  },
+  {
+   "title": "Dawn Storm",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "cW5xBkq2-qs",
+   "duration": "3:44"
+  },
+  {
+   "title": "Casual Agent",
+   "artist": "T. Rex",
+   "album": "Futuristic Dragon",
+   "videoId": "SVIbO_JtKE0",
+   "duration": "3:01"
+  },
+  {
+   "title": "Fuck to the Music",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "XttQSQ8aeMo",
+   "duration": "2:34"
+  },
+  {
+   "title": "Pink Noise",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "REOXWcdVx5Q",
+   "duration": "2:09"
+  },
+  {
+   "title": "Sex Automata",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "OMpSNcHAC4A",
+   "duration": "1:32"
+  },
+  {
+   "title": "Hott 4 Discourse",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "eOQUL3DxrXE",
+   "duration": "1:01"
+  },
+  {
+   "title": "Zoo Love",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "gd9IPr6k-l4",
+   "duration": "1:45"
+  },
+  {
+   "title": "Oye Como Shah",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "iQKbqb3dL0k",
+   "duration": "1:23"
+  },
+  {
+   "title": "What Is a Price",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "Vf81Ty31opE",
+   "duration": "1:40"
+  },
+  {
+   "title": "Brand New Panties",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "E4_KupZU9pk",
+   "duration": "0:55"
+  },
+  {
+   "title": "Mystery of Brine",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "jrrNUJOZvYE",
+   "duration": "1:34"
+  },
+  {
+   "title": "Hey Boner",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "M6diFCvnbUY",
+   "duration": "1:10"
+  },
+  {
+   "title": "Kool Killer",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "LKwZcwic4iY",
+   "duration": "1:07"
+  },
+  {
+   "title": "Rip This Joint",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "GP9XkiWsCGc",
+   "duration": "0:27"
+  },
+  {
+   "title": "Password Pelican",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "qjUGYq2vP8k",
+   "duration": "0:31"
+  },
+  {
+   "title": "Three Weeks",
+   "artist": "Ex Models",
+   "album": "Zoo Psychology",
+   "videoId": "an3jrD7RfbQ",
+   "duration": "2:11"
+  },
+  {
+   "title": "Bombay 405 Miles",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "bu5rapjJcAk",
+   "duration": "2:14"
+  },
+  {
+   "title": "The Good, the Bad, and the Chutney",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "IABt65h2GfI",
+   "duration": "4:07"
+  },
+  {
+   "title": "My Guru",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "glOOvZeXA2A",
+   "duration": "4:12"
+  },
+  {
+   "title": "Ganges a Go-Go",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "0q2Q0MK6eDI",
+   "duration": "2:00"
+  },
+  {
+   "title": "The Great Gambler",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "6NkZayzLMOM",
+   "duration": "3:18"
+  },
+  {
+   "title": "Professor Pyaralal",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "jnwvlvPxGp4",
+   "duration": "3:55"
+  },
+  {
+   "title": "Fists of Curry",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "G-mvAs2qZ18",
+   "duration": "3:56"
+  },
+  {
+   "title": "Punjabis, Pimps & Players",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "TalUqyHBAEo",
+   "duration": "3:05"
+  },
+  {
+   "title": "Inspector Jay from Dehli",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "V0FlYYkBShc",
+   "duration": "5:57"
+  },
+  {
+   "title": "Satchidananda",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "22Y6kRkwC0w",
+   "duration": "3:08"
+  },
+  {
+   "title": "Theme from Don",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "CbMI-wd2p_4",
+   "duration": "2:46"
+  },
+  {
+   "title": "Fear of a Brown Planet",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "A-ERDPKN-R0",
+   "duration": "1:40"
+  },
+  {
+   "title": "Uptown Bollywood Nights",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "24z0dWxeSXs",
+   "duration": "2:32"
+  },
+  {
+   "title": "Kundans Hideout",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "Y14CYUIHGo4",
+   "duration": "3:25"
+  },
+  {
+   "title": "Swami Safari",
+   "artist": "Dan the Automator",
+   "album": "Bombay The Hard Way- Guns, Cars, & Sitars",
+   "videoId": "1yJEsHE0v78",
+   "duration": "2:16"
+  },
+  {
+   "title": "Gettin’ to the Point",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "f33sC1x18Vk",
+   "duration": "2:30"
+  },
+  {
+   "title": "Go On",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "RsVOOjzb8Zk",
+   "duration": "4:47"
+  },
+  {
+   "title": "Everyday",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "_V8OWV5EGO8",
+   "duration": "3:53"
+  },
+  {
+   "title": "Edge of the Edge",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "CS25VfFnyXo",
+   "duration": "4:49"
+  },
+  {
+   "title": "In My Body",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "RX8OeghbcR8",
+   "duration": "3:52"
+  },
+  {
+   "title": "Whirlpool",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "9eEc_XRBGOU",
+   "duration": "5:02"
+  },
+  {
+   "title": "Danger",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "_UYKJfh3W44",
+   "duration": "5:39"
+  },
+  {
+   "title": "Livin’ in the After",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "rMxClCzAgI4",
+   "duration": "2:55"
+  },
+  {
+   "title": "Everything’s Been Leading To This",
+   "artist": "Panda Bear;Sonic Boom",
+   "album": "Reset",
+   "videoId": "Q7reTTdQrCw",
+   "duration": "5:09"
+  },
+  {
+   "title": "Cream Dream",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "8DgfwyRHyig",
+   "duration": "4:01"
+  },
+  {
+   "title": "Audacity of Huge",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "a-nfQ22HiOU",
+   "duration": "3:48"
+  },
+  {
+   "title": "10000 Horses Can't Be Wrong",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "05xbStPkqlo",
+   "duration": "4:13"
+  },
+  {
+   "title": "Cruel Intentions",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "hA1122IBJQ0",
+   "duration": "3:05"
+  },
+  {
+   "title": "Off the Map",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "qqel9g9btmw",
+   "duration": "4:05"
+  },
+  {
+   "title": "Synthesise",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "lKEeWKa1Lvo",
+   "duration": "4:56"
+  },
+  {
+   "title": "Bad Blood",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "QvnL_Iy7d78",
+   "duration": "4:01"
+  },
+  {
+   "title": "Turn Up the Dial",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "TC7mUxBJrko",
+   "duration": "4:03"
+  },
+  {
+   "title": "Ambulance",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "0NB2sIDivdE",
+   "duration": "5:43"
+  },
+  {
+   "title": "Pinball",
+   "artist": "Simian Mobile Disco",
+   "album": "Temporary Pleasure",
+   "videoId": "8uBb_84CVRk",
+   "duration": "3:57"
+  },
+  {
+   "title": "Malaxe",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "2ZDeAYROPiU",
+   "duration": "4:33"
+  },
+  {
+   "title": "La nuit je mens",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "HTAXAjkVhxs",
+   "duration": "4:25"
+  },
+  {
+   "title": "Fantaisie militaire",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "sOwBEhckmsc",
+   "duration": "4:48"
+  },
+  {
+   "title": "2043",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "94iDgWGhWkA",
+   "duration": "3:45"
+  },
+  {
+   "title": "Mes prisons",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "iiBeKHpLISY",
+   "duration": "4:08"
+  },
+  {
+   "title": "Ode à la vie",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "jp8GziCxls8",
+   "duration": "4:17"
+  },
+  {
+   "title": "Dehors",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "zlsQqaAuxJk",
+   "duration": "3:30"
+  },
+  {
+   "title": "Samuel Hall",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "THrsHPSRcS0",
+   "duration": "5:06"
+  },
+  {
+   "title": "Aucun express",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "U4gdcizO24o",
+   "duration": "4:06"
+  },
+  {
+   "title": "Au pavillon des lauriers",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "aR4LDGRiS-A",
+   "duration": "4:44"
+  },
+  {
+   "title": "Sommes-nous",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "uUC83-4fVx8",
+   "duration": "3:56"
+  },
+  {
+   "title": "Angora",
+   "artist": "Alain Bashung",
+   "album": "Fantaisie Militaire",
+   "videoId": "mCuEyvodW5I",
+   "duration": "2:07"
+  },
+  {
+   "title": "Sexx Laws",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "hrzB3mStz9Q",
+   "duration": "3:40"
+  },
+  {
+   "title": "Nicotine & Gravy",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "PwNihqDEshU",
+   "duration": "5:13"
+  },
+  {
+   "title": "Mixed Bizness",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "jGJSn5glLVI",
+   "duration": "3:47"
+  },
+  {
+   "title": "Intro To Get Real Paid",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "FZrMassAyso",
+   "duration": "0:25"
+  },
+  {
+   "title": "Get Real Paid",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "Q8Rpdly7yv4",
+   "duration": "4:21"
+  },
+  {
+   "title": "Hollywood Freaks",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "tEIMasyqoeo",
+   "duration": "4:00"
+  },
+  {
+   "title": "Peaches & Cream",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "8sjUC9bjBnU",
+   "duration": "4:55"
+  },
+  {
+   "title": "Broken Train",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "B1ABQWMQ5cM",
+   "duration": "4:12"
+  },
+  {
+   "title": "Milk & Honey",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "zWetzx01Z48",
+   "duration": "5:19"
+  },
+  {
+   "title": "Beautiful Way",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "20kfQr_mXsU",
+   "duration": "5:38"
+  },
+  {
+   "title": "Intro To Pressure Zone",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "CYyyV_3IEek",
+   "duration": "0:08"
+  },
+  {
+   "title": "Pressure Zone",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "fkl2l60RHJE",
+   "duration": "3:07"
+  },
+  {
+   "title": "Debra",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "rpv-CcRX4X4",
+   "duration": "5:44"
+  },
+  {
+   "title": "Untitled Track",
+   "artist": "Beck",
+   "album": "Midnite Vultures",
+   "videoId": "IWR2STGA0EY",
+   "duration": "1:05"
+  },
+  {
+   "title": "ナナナン塊 - The Na-Na Song",
+   "artist": "Yuu-sama;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "zTXCqet_qe0",
+   "duration": "1:22"
+  },
+  {
+   "title": "塊オンザロック～メインテーマ - Katamari On the Rocks",
+   "artist": "Masayuki Tanaka;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "6FLgM-TOlfI",
+   "duration": "5:58"
+  },
+  {
+   "title": "Overture",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "T-GD95O75jc",
+   "duration": "0:50"
+  },
+  {
+   "title": "月と王子 - Moon & Prince",
+   "artist": "Kenji Ninuma;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "QE-x9TB903A",
+   "duration": "5:31"
+  },
+  {
+   "title": "Fugue#7777",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "49OKaspwKaQ",
+   "duration": "1:23"
+  },
+  {
+   "title": "Lonely Rolling Star",
+   "artist": "Saki Kabata;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "pI5-LvbE4AE",
+   "duration": "5:45"
+  },
+  {
+   "title": "Walking on a Star!",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "Prt32vYdHCI",
+   "duration": "3:13"
+  },
+  {
+   "title": "Katamari Mambo (Katamari Syndrome Re-mix)",
+   "artist": "Nobue Matsubara;Sakamoto-Chan;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "q_gMELde_i0",
+   "duration": "5:35"
+  },
+  {
+   "title": "You Are Smart",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "Me-opLaRJ5w",
+   "duration": "3:33"
+  },
+  {
+   "title": "真っ赤なバラとジントニック - Red Rose with Gin & Tonic",
+   "artist": "Ado Mizumori;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "4QuI_wh49J8",
+   "duration": "4:30"
+  },
+  {
+   "title": "WANDA WANDA",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "sNrKAH-0TgA",
+   "duration": "3:24"
+  },
+  {
+   "title": "Que Sera Sera",
+   "artist": "Charlie Kosei;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "UUJzLbz2mow",
+   "duration": "5:32"
+  },
+  {
+   "title": "天使風味の贈り物 - Taste of an Angel",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "RbeyIZC4oEQ",
+   "duration": "5:09"
+  },
+  {
+   "title": "カタマりたいの - Roll Me In",
+   "artist": "Yui Asaka;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "WuT3fgk3vzQ",
+   "duration": "5:54"
+  },
+  {
+   "title": "Katamari Stars",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "1zBbed6bZVA",
+   "duration": "2:29"
+  },
+  {
+   "title": "さくらいろの季節 - Cherry Blossoms",
+   "artist": "Katamari-Tai Jr.;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "iGJr8VuYPtc",
+   "duration": "6:15"
+  },
+  {
+   "title": "ラブリーエンジェル - Lovely Angel",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "9-pkWd05puM",
+   "duration": "1:28"
+  },
+  {
+   "title": "Stardust Fanfare",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "AKd0JshZ5Ag",
+   "duration": "0:09"
+  },
+  {
+   "title": "さいごにサンバ - Last Samba",
+   "artist": "Katamari Samba-Tai;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "fxzRYqTQ57A",
+   "duration": "1:01"
+  },
+  {
+   "title": "愛のカタマリー～エンディングテーマ - Ball of Love",
+   "artist": "Shigeru Matsuzaki;Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "7qNAgObQSeM",
+   "duration": "4:10"
+  },
+  {
+   "title": "塊マーチ魂 ボーナストラック (未発表曲） - Katamari March Damacy bonus track (unreleased track)",
+   "artist": "Katamari Damacy Series SOUND TEAM;Bandai Namco Game Music",
+   "album": "Katamari Damacy (Original Soundtrack) -Katamari Fortissimo Damacy",
+   "videoId": "Z7hYZGui2rc",
+   "duration": "2:22"
+  },
+  {
+   "title": "Tudo O Que Você Podia Ser",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "0rJz-tazK4I",
+   "duration": "2:57"
+  },
+  {
+   "title": "Cais",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "dtZVQGa9eDw",
+   "duration": "2:46"
+  },
+  {
+   "title": "O Trem Azul",
+   "artist": "Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "eNxw9VBAcRo",
+   "duration": "4:06"
+  },
+  {
+   "title": "Saídas E Bandeiras Nº 1",
+   "artist": "Milton Nascimento;Beto Guedes",
+   "album": "Clube Da Esquina",
+   "videoId": "OYcy4ko8IRU",
+   "duration": "0:46"
+  },
+  {
+   "title": "Nuvem Cigana",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "EczbdTtAMlQ",
+   "duration": "3:00"
+  },
+  {
+   "title": "Cravo E Canela",
+   "artist": "Milton Nascimento;Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "6sXbypEJTl0",
+   "duration": "2:32"
+  },
+  {
+   "title": "Dos Cruces",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "5miUSTDAUJ0",
+   "duration": "5:23"
+  },
+  {
+   "title": "Um Girassol Da Cor Do Seu Cabelo",
+   "artist": "Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "l8ETbYy83Vc",
+   "duration": "4:13"
+  },
+  {
+   "title": "San Vicente",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "hfb2LDhDP-c",
+   "duration": "2:47"
+  },
+  {
+   "title": "Estrelas",
+   "artist": "Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "3ykCFfyUqiA",
+   "duration": "0:29"
+  },
+  {
+   "title": "Clube Da Esquina Nº 2",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "Lexd2xvMpxY",
+   "duration": "3:39"
+  },
+  {
+   "title": "Paisagem Da Janela",
+   "artist": "Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "d50EXVUzm_E",
+   "duration": "2:59"
+  },
+  {
+   "title": "Me Deixa Em Paz",
+   "artist": "Milton Nascimento;Alaíde Costa",
+   "album": "Clube Da Esquina",
+   "videoId": "yumesA3Nw1w",
+   "duration": "3:06"
+  },
+  {
+   "title": "Os Povos",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "Mzeq9dlMO-M",
+   "duration": "4:31"
+  },
+  {
+   "title": "Saídas E Bandeiras Nº 2",
+   "artist": "Milton Nascimento;Beto Guedes",
+   "album": "Clube Da Esquina",
+   "videoId": "MYrAcK4P0Vo",
+   "duration": "1:31"
+  },
+  {
+   "title": "Um Gosto De Sol",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "p9ZqeWDTNo8",
+   "duration": "4:21"
+  },
+  {
+   "title": "Pelo Amor De Deus",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "v3Lsk8xFCsw",
+   "duration": "2:07"
+  },
+  {
+   "title": "Lilia",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "sp1zb1ebWgI",
+   "duration": "2:34"
+  },
+  {
+   "title": "Trem De Doido",
+   "artist": "Lô Borges",
+   "album": "Clube Da Esquina",
+   "videoId": "PxtcGK6Nneg",
+   "duration": "3:59"
+  },
+  {
+   "title": "Nada Será Como Antes",
+   "artist": "Milton Nascimento;Beto Guedes",
+   "album": "Clube Da Esquina",
+   "videoId": "v6ZUwtAty8k",
+   "duration": "3:24"
+  },
+  {
+   "title": "Ao Que Vai Nascer",
+   "artist": "Milton Nascimento",
+   "album": "Clube Da Esquina",
+   "videoId": "NktvHJF8QVM",
+   "duration": "3:23"
+  },
+  {
+   "title": "Boot Sequence",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "UQ-OZo5hDnU",
+   "duration": "0:46"
+  },
+  {
+   "title": "New Era",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "NUYjCAWJ0uw",
+   "duration": "0:47"
+  },
+  {
+   "title": "Sleeptime Computing",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "lQPc_t8bAIk",
+   "duration": "1:31"
+  },
+  {
+   "title": "Soundscape I: Temple",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "y_HMVsrGukg",
+   "duration": "1:26"
+  },
+  {
+   "title": "Chill It Right (Fre3zer)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "kGK4oAn2rHk",
+   "duration": "2:55"
+  },
+  {
+   "title": "Icy Girl (Fre3zer)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "YeXIXS_KQKE",
+   "duration": "2:56"
+  },
+  {
+   "title": "Colder Than the Rest (Fre3zer)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "I5Pht28LqQ8",
+   "duration": "7:26"
+  },
+  {
+   "title": "Formations (Basidia)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "m6USBi6JMFQ",
+   "duration": "3:15"
+  },
+  {
+   "title": "Ghost of the Grotto (Basidia)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "p6nrPgMf5sc",
+   "duration": "5:43"
+  },
+  {
+   "title": "Soundscape II: Secret Forest",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "Htv2wM1oy1Y",
+   "duration": "2:32"
+  },
+  {
+   "title": "Hypnospace 2.0",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "tOU6QM9DQ3Q",
+   "duration": "2:01"
+  },
+  {
+   "title": "Millennium Anthem (2000 New Years Eve)",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "INj74XRTXbM",
+   "duration": "4:46"
+  },
+  {
+   "title": "Soundscape III: Mystery, Soundscape IV: Virtual Shaman",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "Mibg9NHImwY",
+   "duration": "2:52"
+  },
+  {
+   "title": "Eulogy",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "uFU1NB3jA6U",
+   "duration": "3:08"
+  },
+  {
+   "title": "Frontier",
+   "artist": "Jay Tholen",
+   "album": "Hypnospace Outlaw Original Soundtrack, Vol. 1",
+   "videoId": "H_7Ten6mi1g",
+   "duration": "1:00"
+  },
+  {
+   "title": "Inspiration Information",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "274VNg2BxqE",
+   "duration": "4:13"
+  },
+  {
+   "title": "Island Letter",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "JskUwBorS38",
+   "duration": "4:44"
+  },
+  {
+   "title": "Sparkle City",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "YmVXQWSPQ_w",
+   "duration": "5:59"
+  },
+  {
+   "title": "Aht Uh Mi Hed",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "BJs01oeQWME",
+   "duration": "4:16"
+  },
+  {
+   "title": "Happy House",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "qhEzxqNbxLw",
+   "duration": "1:22"
+  },
+  {
+   "title": "Rainy Day",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "BEDFa-PiEz0",
+   "duration": "2:43"
+  },
+  {
+   "title": "XL-30",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "hmDeLcEj16s",
+   "duration": "2:10"
+  },
+  {
+   "title": "Pling!",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "xBbd6dmxwWg",
+   "duration": "4:31"
+  },
+  {
+   "title": "Not Available",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "t9j9cxNMHe0",
+   "duration": "2:33"
+  },
+  {
+   "title": "Miss Pretty",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "1w9Fpz2KSrM",
+   "duration": "2:14"
+  },
+  {
+   "title": "Magic",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "YPyGCHJBbZk",
+   "duration": "4:27"
+  },
+  {
+   "title": "Things We Like To Do",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "yUbzvIUv-cc",
+   "duration": "3:09"
+  },
+  {
+   "title": "Castle Top Jam",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "mZOZ02BBySI",
+   "duration": "3:38"
+  },
+  {
+   "title": "Intro",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "Y1fjs5UmN7w",
+   "duration": "0:05"
+  },
+  {
+   "title": "Special",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "LcBmqkH2eOc",
+   "duration": "4:35"
+  },
+  {
+   "title": "Give Me Something Good",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "3Qba3T-IwpE",
+   "duration": "3:47"
+  },
+  {
+   "title": "Tryin' To Get Close To You",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "WrY1PaRjxVk",
+   "duration": "3:19"
+  },
+  {
+   "title": "Walkin' Down The Country",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "ypt_S8BkLIA",
+   "duration": "4:22"
+  },
+  {
+   "title": "Doin' What's Right",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "AoWJ47F8Sy4",
+   "duration": "2:47"
+  },
+  {
+   "title": "Wings Of Love",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "bnIsLE5C2xA",
+   "duration": "11:36"
+  },
+  {
+   "title": "Give Me A Chance",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "5eSLrXV7ZgY",
+   "duration": "5:21"
+  },
+  {
+   "title": "Don't You Run Away",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "ANlFRj08zAw",
+   "duration": "5:14"
+  },
+  {
+   "title": "Fireball of Love",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "kKQ4yXyXLC4",
+   "duration": "5:26"
+  },
+  {
+   "title": "Fawn",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "3C3JmriYDls",
+   "duration": "6:03"
+  },
+  {
+   "title": "If You'd Be Mine",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "sWRRdu4aq9k",
+   "duration": "5:40"
+  },
+  {
+   "title": "Black Belt Sheriff",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "OnwsbGmFrrs",
+   "duration": "6:35"
+  },
+  {
+   "title": "Destination You!",
+   "artist": "Shuggie Otis",
+   "album": "Inspiration Information/ Wings Of Love",
+   "videoId": "-Ji5EEYGMn4",
+   "duration": "4:40"
+  },
+  {
+   "title": "Search",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "2cqAf2Y99DI",
+   "duration": "1:00"
+  },
+  {
+   "title": "Electronic Behavior Control System",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "mruRQqszDt0",
+   "duration": "4:34"
+  },
+  {
+   "title": "Go To",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "LDE1fizR0EE",
+   "duration": "0:13"
+  },
+  {
+   "title": "Sexual Orientation",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "CbFFXJUkXTI",
+   "duration": "3:10"
+  },
+  {
+   "title": "Station Identification",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "YwpS9AJU7Vo",
+   "duration": "4:41"
+  },
+  {
+   "title": "Get Down Ver. 2.2",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "jvTG56zxkFA",
+   "duration": "3:46"
+  },
+  {
+   "title": "Shoot the Mac-10",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "1EH_jcvZ8vo",
+   "duration": "4:03"
+  },
+  {
+   "title": "You Have 5 Seconds to Complete This Section",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "xwxHILzAEEk",
+   "duration": "3:07"
+  },
+  {
+   "title": "Super Zen State (Power Chant No. 3)",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "_dlwy9Qi4E0",
+   "duration": "6:48"
+  },
+  {
+   "title": "State Extension",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "VRDV18u4n5k",
+   "duration": "1:17"
+  },
+  {
+   "title": "Interruption",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "ABaLIelm66A",
+   "duration": "0:23"
+  },
+  {
+   "title": "Dream Induction",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "CFprbs6KXU0",
+   "duration": "3:21"
+  },
+  {
+   "title": "Transition",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "FrxUVmVsm3E",
+   "duration": "0:07"
+  },
+  {
+   "title": "Electronic Behavior Control System Ver. 2.0",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "VXG4v4YCMGI",
+   "duration": "2:25"
+  },
+  {
+   "title": "We Must Have the Facts",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "VQR7BmmUYvU",
+   "duration": "3:05"
+  },
+  {
+   "title": "Interference",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "V_MjqIttfQc",
+   "duration": "0:14"
+  },
+  {
+   "title": "3:7:8",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "LSh74LD_Qnw",
+   "duration": "3:42"
+  },
+  {
+   "title": "Beginning of the End",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "QVmU0fsdZX4",
+   "duration": "2:46"
+  },
+  {
+   "title": "Homicidal Schizophrenic (A Lad Insane)",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "MTayGkMpcJc",
+   "duration": "4:10"
+  },
+  {
+   "title": "End of Audio Program",
+   "artist": "Emergency Broadcast Network",
+   "album": "Telecommunication Breakdown",
+   "videoId": "AJxtjVQVVmg",
+   "duration": "0:46"
+  },
+  {
+   "title": "OFF COURSE",
+   "artist": "Thee Oh Sees",
+   "album": "OFF COURSE",
+   "videoId": "ZdVZVvVw7L8",
+   "duration": "9:18"
+  },
+  {
+   "title": "HECATE'S REFLECTION IS A TRICK",
+   "artist": "Thee Oh Sees",
+   "album": "OFF COURSE",
+   "videoId": "Aui2DaD3yZ4",
+   "duration": "8:43"
+  },
+  {
+   "title": "THE TRICK",
+   "artist": "Thee Oh Sees",
+   "album": "OFF COURSE",
+   "videoId": "_KFCG6RzN_U",
+   "duration": "6:17"
+  },
+  {
+   "title": "SYRINGE",
+   "artist": "Thee Oh Sees",
+   "album": "OFF COURSE",
+   "videoId": "X4w365b2oJM",
+   "duration": "3:18"
+  },
+  {
+   "title": "THE BRUTE ON HIS KNEES",
+   "artist": "Thee Oh Sees",
+   "album": "OFF COURSE",
+   "videoId": "7_zvqNDp3ng",
+   "duration": "5:26"
+  },
+  {
+   "title": "Ladies Love Chest Rockwell",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "kkPLv8GBfDI",
+   "duration": "1:20"
+  },
+  {
+   "title": "Pit Stop (Take Me Home)",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "KUAS7OfT3ig",
+   "duration": "3:57"
+  },
+  {
+   "title": "Anger Management",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "4RIkuiNvGQU",
+   "duration": "4:18"
+  },
+  {
+   "title": "Everyone Has a Summer",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "sKc3-Vv4IhI",
+   "duration": "4:17"
+  },
+  {
+   "title": "To Catch a Thief",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "i2VEgtY8_Hc",
+   "duration": "3:18"
+  },
+  {
+   "title": "Lies and Alibis",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "HCGxT36dkAI",
+   "duration": "3:17"
+  },
+  {
+   "title": "Herbs, Good Hygiene and Socks",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "x92xuTjTjo4",
+   "duration": "1:56"
+  },
+  {
+   "title": "Book of the Month",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "zfrddrVgEPA",
+   "duration": "4:29"
+  },
+  {
+   "title": "Lifeboat",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "i867GMzwK6s",
+   "duration": "4:46"
+  },
+  {
+   "title": "Strangers on a Train",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "JZMqe4SRIy8",
+   "duration": "4:37"
+  },
+  {
+   "title": "Lovage (Love That Lovage, Baby)",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "tDenRqNkztw",
+   "duration": "1:05"
+  },
+  {
+   "title": "Sex (I'm a)",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "-XyHkDuHyUY",
+   "duration": "6:20"
+  },
+  {
+   "title": "Koala's Lament",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "wAGIuV0Y0r0",
+   "duration": "3:54"
+  },
+  {
+   "title": "Tea Time With Maseo",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "j_I4u6qAK3k",
+   "duration": "1:39"
+  },
+  {
+   "title": "Stroker Ace",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "NyKx-T0PeBM",
+   "duration": "4:30"
+  },
+  {
+   "title": "Archie & Veronica",
+   "artist": "Dan the Automator;Lovage;Mike Patton;Jennifer Charles",
+   "album": "Lovage: Music to Make Love to Your Old Lady By",
+   "videoId": "BNrRuZ1oZo8",
+   "duration": "6:06"
+  },
+  {
+   "title": "Jerome",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "612qzp2XJL0",
+   "duration": "2:48"
+  },
+  {
+   "title": "Plain As Your Eyes Can See",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "75xLTF0yHX0",
+   "duration": "2:28"
+  },
+  {
+   "title": "Roll Back the Time",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "cE4bpAoGqt8",
+   "duration": "2:14"
+  },
+  {
+   "title": "Whistle Stop",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "fJM64lT9wCY",
+   "duration": "2:38"
+  },
+  {
+   "title": "Rosey",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "WmE5SHMkzOQ",
+   "duration": "3:22"
+  },
+  {
+   "title": "Highways",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "TW0YmmOZJ1o",
+   "duration": "2:52"
+  },
+  {
+   "title": "U.F.O.",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "IpvwbDaR3eU",
+   "duration": "2:50"
+  },
+  {
+   "title": "So Natural",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "TDMV8VgwTC0",
+   "duration": "3:02"
+  },
+  {
+   "title": "Johnny",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "6W3LWCRcVKs",
+   "duration": "4:05"
+  },
+  {
+   "title": "Sandman",
+   "artist": "Jim Sullivan",
+   "album": "U.F.O.",
+   "videoId": "Z8eX88-heSQ",
+   "duration": "2:32"
+  },
+  {
+   "title": "London Song",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "PXYZt_8ChLc",
+   "duration": "3:16"
+  },
+  {
+   "title": "iPod Touch",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "xtRVa4kOBt4",
+   "duration": "3:17"
+  },
+  {
+   "title": "Fuck My Computer",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "lENt7-t8I-I",
+   "duration": "3:11"
+  },
+  {
+   "title": "CSIRAC",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "L_rc7qJyFOQ",
+   "duration": "3:22"
+  },
+  {
+   "title": "Delete",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "stxNWAF1SI4",
+   "duration": "3:52"
+  },
+  {
+   "title": "ฅ^•ﻌ•^ฅ",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "Zg_zgXlmceg",
+   "duration": "1:07"
+  },
+  {
+   "title": "All I Am",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "jNmzJOAQyAI",
+   "duration": "3:03"
+  },
+  {
+   "title": "Infohazard",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "uZU2jr_zGnk",
+   "duration": "4:30"
+  },
+  {
+   "title": "Battery Death",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "K7Ib45pZELI",
+   "duration": "3:19"
+  },
+  {
+   "title": "Sing Good",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "tCj86Ij-tA0",
+   "duration": "2:41"
+  },
+  {
+   "title": "It's You",
+   "artist": "Ninajirachi;daine",
+   "album": "I Love My Computer",
+   "videoId": "YMY7MPDGPGE",
+   "duration": "2:50"
+  },
+  {
+   "title": "All At Once",
+   "artist": "Ninajirachi",
+   "album": "I Love My Computer",
+   "videoId": "aBlhSGTD3mQ",
+   "duration": "5:27"
+  },
+  {
+   "title": "She Looked Like Me!",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "NeSfl0JFb5Y",
+   "duration": "3:14"
+  },
+  {
+   "title": "Killing Time",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "q0ODZS_CetI",
+   "duration": "3:54"
+  },
+  {
+   "title": "True Blue Interlude",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "S7BkY26lLAI",
+   "duration": "1:50"
+  },
+  {
+   "title": "Image",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "vzBE4Rgw1MM",
+   "duration": "3:33"
+  },
+  {
+   "title": "Death & Romance",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "BSxYrl3t83E",
+   "duration": "5:15"
+  },
+  {
+   "title": "Fear, Sex",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "hJenVF1V_HA",
+   "duration": "2:33"
+  },
+  {
+   "title": "Vampire in the Corner",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "iolXY4T9-dg",
+   "duration": "3:23"
+  },
+  {
+   "title": "Watching T.V.",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "5uWDV86eHPU",
+   "duration": "4:06"
+  },
+  {
+   "title": "Tunnel Vision",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "StjcAwGEQoE",
+   "duration": "5:06"
+  },
+  {
+   "title": "Love Is Everywhere",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "CeORn2uLEmo",
+   "duration": "3:15"
+  },
+  {
+   "title": "Feeling DiskInserted?",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "Vi6RorMfwMU",
+   "duration": "0:59"
+  },
+  {
+   "title": "That's My Floor",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "8dCHa0tid_k",
+   "duration": "3:30"
+  },
+  {
+   "title": "Cry for Me",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "J2CIsqsb-BA",
+   "duration": "5:08"
+  },
+  {
+   "title": "Angel on a Satellite",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "8yoAqXdqgpA",
+   "duration": "4:04"
+  },
+  {
+   "title": "The Ballad of Matt & Mica",
+   "artist": "Magdalena Bay",
+   "album": "Imaginal Disk",
+   "videoId": "ZZRH7e279Yc",
+   "duration": "4:00"
+  },
+  {
+   "title": "Feather (feat. Cise Starr & Akin from CYNE)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "0_M2JX-Olv8",
+   "duration": "2:56"
+  },
+  {
+   "title": "Ordinary Joe (feat. Terry Callier)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "pKHbgyNb9PM",
+   "duration": "5:09"
+  },
+  {
+   "title": "Reflection Eternal",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "GLGM8fxL020",
+   "duration": "4:18"
+  },
+  {
+   "title": "Luv(sic.),  Pt. 3 (feat. Shing02)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "dcYJg5gGHC0",
+   "duration": "5:37"
+  },
+  {
+   "title": "Music is Mine",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "d1TuAtxF0Lo",
+   "duration": "4:21"
+  },
+  {
+   "title": "Eclipse (feat. Substantial)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "atvxijvFwZI",
+   "duration": "3:35"
+  },
+  {
+   "title": "The Sign (feat. Pase Rock)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "Ra1z1FwUr4U",
+   "duration": "4:50"
+  },
+  {
+   "title": "Thank you (feat. Apani B)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "0rHIZKVk7TM",
+   "duration": "4:10"
+  },
+  {
+   "title": "World's End Rhapsody",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "FNDgdrMXWA0",
+   "duration": "5:42"
+  },
+  {
+   "title": "Modal Soul (feat. Uyama Hiroto)",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "h5IJl1TkdNo",
+   "duration": "4:42"
+  },
+  {
+   "title": "Flowers",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "8vrTQF2i9Wk",
+   "duration": "4:00"
+  },
+  {
+   "title": "Sea of Cloud",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "na81A_tR1Rs",
+   "duration": "3:02"
+  },
+  {
+   "title": "Light on the Land",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "UB4lJBYFBVw",
+   "duration": "3:55"
+  },
+  {
+   "title": "Horizon",
+   "artist": "Nujabes",
+   "album": "Modal Soul",
+   "videoId": "h-Udboe6n5I",
+   "duration": "7:21"
+  },
+  {
+   "title": "Ghost Story (feat. Orono)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "c9tgCR_VjSM",
+   "duration": "1:24"
+  },
+  {
+   "title": "Song For Barbara Payton",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "1tdthrZYT98",
+   "duration": "1:41"
+  },
+  {
+   "title": "We Will Always Love You (feat. Blood Orange)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "-VHm2dXB_G4",
+   "duration": "2:53"
+  },
+  {
+   "title": "The Divine Chord (feat. MGMT & Johnny Marr)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "bv4hpn-HKrI",
+   "duration": "3:08"
+  },
+  {
+   "title": "Solitary Ceremonies",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "XqXL0eslMiA",
+   "duration": "1:15"
+  },
+  {
+   "title": "Interstellar Love (feat. Leon Bridges)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "9ZJjzG4KO5U",
+   "duration": "3:39"
+  },
+  {
+   "title": "Ghost Story Pt. 2 (feat. Orono & Leon Bridges)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "PXe3I8HrmIE",
+   "duration": "1:16"
+  },
+  {
+   "title": "Reflecting Light (feat. Sananda Maitreya & Vashti Bunyan)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "PoMy2oMg7VI",
+   "duration": "4:22"
+  },
+  {
+   "title": "Carrier Waves",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "Bv1UnWLxPPo",
+   "duration": "0:58"
+  },
+  {
+   "title": "Oh The Sunn! (feat. Perry Farrell)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "tihqDy-avVA",
+   "duration": "2:19"
+  },
+  {
+   "title": "We Go On (feat. Cola Boyy & Mick Jones)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "En3SmG86Q7k",
+   "duration": "4:02"
+  },
+  {
+   "title": "Star Song.IMG",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "0MpkzIDFr9Q",
+   "duration": "0:11"
+  },
+  {
+   "title": "Until Daylight Comes (feat. Tricky)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "Ep1x_F3yfVU",
+   "duration": "2:28"
+  },
+  {
+   "title": "Wherever You Go (feat. Jamie xx, Neneh Cherry & CLYPSO)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "cpbkUYAGpcI",
+   "duration": "5:51"
+  },
+  {
+   "title": "Music Makes Me High",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "e9p6g34ZIZU",
+   "duration": "3:22"
+  },
+  {
+   "title": "Pink Champagne",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "53fxwonkqo4",
+   "duration": "0:13"
+  },
+  {
+   "title": "Take Care In Your Dreaming (feat. Denzel Curry, Tricky & Sampa The Great)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "p7Dmyg-94iE",
+   "duration": "5:01"
+  },
+  {
+   "title": "Overcome",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "XHiwTF9WEBE",
+   "duration": "3:32"
+  },
+  {
+   "title": "Gold Sky (feat. Kurt Vile)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "qt2kmq0nJPY",
+   "duration": "4:29"
+  },
+  {
+   "title": "Always Black (feat. Pink Siifu)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "SkSUdvlF7yo",
+   "duration": "3:37"
+  },
+  {
+   "title": "Dial D For Devotion (feat. Karen O)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "2Z2-5mv-QXc",
+   "duration": "0:32"
+  },
+  {
+   "title": "Running Red Lights (feat. Rivers Cuomo & Pink Siifu)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "p5_C4J-MlO8",
+   "duration": "4:40"
+  },
+  {
+   "title": "Born To Lose",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "JFJC_sj7s_I",
+   "duration": "4:54"
+  },
+  {
+   "title": "Music Is The Light (feat. Cornelius & Kelly Moran)",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "_abUMm91_LI",
+   "duration": "3:09"
+  },
+  {
+   "title": "Weightless",
+   "artist": "The Avalanches",
+   "album": "We Will Always Love You",
+   "videoId": "ndhQGoAfGbk",
+   "duration": "2:58"
+  },
+  {
+   "title": "Tabú",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "m7uiaakuLpQ",
+   "duration": "4:49"
+  },
+  {
+   "title": "Engaña",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "Ki7GrRTNYfU",
+   "duration": "4:12"
+  },
+  {
+   "title": "Bocanada",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "p_9MzxTBpb4",
+   "duration": "4:07"
+  },
+  {
+   "title": "Puente",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "4F-5KEN3Ljg",
+   "duration": "4:34"
+  },
+  {
+   "title": "Rio Babel",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "ZJhd9SeBD2I",
+   "duration": "4:45"
+  },
+  {
+   "title": "Beautiful",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "mp5aXgVNUnc",
+   "duration": "6:13"
+  },
+  {
+   "title": "Perdonar Es Divino",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "pknZlCdgZf4",
+   "duration": "5:18"
+  },
+  {
+   "title": "Verbo Carne",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "pb-qtHu8sXg",
+   "duration": "4:42"
+  },
+  {
+   "title": "Raíz",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "scwIxPHCgoM",
+   "duration": "4:05"
+  },
+  {
+   "title": "Y Si el Humo Está en Foco...",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "l5CygU4goVI",
+   "duration": "4:56"
+  },
+  {
+   "title": "Paseo Inmoral",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "YhCkBZf5GsI",
+   "duration": "5:32"
+  },
+  {
+   "title": "Aquí & Ahora (Los Primeros 3 Minutos)",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "rfQ5pjLvdyM",
+   "duration": "3:55"
+  },
+  {
+   "title": "Aquí & Ahora (Y Después)",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "4ebd848GMik",
+   "duration": "2:38"
+  },
+  {
+   "title": "Alma",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "_kAdHQTT_OI",
+   "duration": "4:38"
+  },
+  {
+   "title": "Balsa",
+   "artist": "Gustavo Cerati",
+   "album": "Bocanada",
+   "videoId": "2k_BAIj_UKc",
+   "duration": "5:09"
+  },
+  {
+   "title": "Into The Rainbow Vein",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "HpUZ0qhqlYo",
+   "duration": "0:45"
+  },
+  {
+   "title": "Chromakey Dreamcoat",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "bkdNogg3jw0",
+   "duration": "5:48"
+  },
+  {
+   "title": "Satellite Anthem Icarus",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "muQp6XK_uZM",
+   "duration": "6:05"
+  },
+  {
+   "title": "Peacock Tail",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "m4M5OV9N3kM",
+   "duration": "5:25"
+  },
+  {
+   "title": "Dayvan Cowboy",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "A_XIF-ISBaM",
+   "duration": "5:01"
+  },
+  {
+   "title": "A Moment Of Clarity",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "d4UwSmPYzTA",
+   "duration": "0:52"
+  },
+  {
+   "title": "84 Pontiac Dream",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "92gg3Q6ptos",
+   "duration": "3:50"
+  },
+  {
+   "title": "Sherbet Head",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "XpBOiVerVTk",
+   "duration": "2:42"
+  },
+  {
+   "title": "Oscar See Through Red Eye",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "UqZRMSjYFws",
+   "duration": "5:09"
+  },
+  {
+   "title": "Ataronchronon",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "ShzgHdzBXgM",
+   "duration": "1:15"
+  },
+  {
+   "title": "Hey Saturday Sun",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "ArCrT2mOOuE",
+   "duration": "4:57"
+  },
+  {
+   "title": "Constants Are Changing",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "IyJ-adYyMZ8",
+   "duration": "1:43"
+  },
+  {
+   "title": "Slow This Bird Down",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "-CDXKaMjVMg",
+   "duration": "6:10"
+  },
+  {
+   "title": "Tears From The Compound Eye",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "nrSSa6kFus4",
+   "duration": "4:04"
+  },
+  {
+   "title": "Farewell Fire",
+   "artist": "Boards of Canada",
+   "album": "The Campfire Headphase",
+   "videoId": "OlSX-tlAmKI",
+   "duration": "8:27"
+  },
+  {
+   "title": "WHAT'S THE TIME? (SOME DAY, IN TIME) - WHAT'S THE TIME? SOME DAY, IN TIME",
+   "artist": "DOOPEES",
+   "album": "DOOPEE TIME",
+   "videoId": "DU4OYMYdOvg",
+   "duration": "0:29"
+  },
+  {
+   "title": "DOOPEE TIME",
+   "artist": "DOOPEES",
+   "album": "DOOPEE TIME",
+   "videoId": "ClL4b7k-utc",
+   "duration": "2:32"
+  },
+  {
+   "title": "HOW DOES IT FEEL",
+   "artist": "DOOPEES",
+   "album": "DOOPEE TIME",
+   "videoId": "PuA4Pp3luJE",
+   "duration": "3:40"
+  },
+  {
+   "title": "Reprise How Does It Feel",
+   "artist": "DOOPEES",
+   "album": "DOOPEE TIME",
+   "videoId": "WLIoQcBLwnI",
+   "duration": "1:53"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2OZTV2v3uTDRdjR35U4yho",
  "title": "July 25",
  "trackCount": 41,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Life in Technicolor",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Pandemic is a Portal (PiaP)",
-   "artist": "Krithi & Smaran",
+   "artist": "Krithi;Smaran",
    "album": "Pandemic is a Portal (PiaP)",
    "videoId": "pKK0Rla7HgY",
    "duration": "3:27"
@@ -83,7 +83,7 @@
   },
   {
    "title": "777",
-   "artist": "Real Trap Empire & Benzoo",
+   "artist": "Real Trap Empire;Benzoo",
    "album": "RTE4L",
    "videoId": "Cl9X7OHgHcM",
    "duration": "1:34"

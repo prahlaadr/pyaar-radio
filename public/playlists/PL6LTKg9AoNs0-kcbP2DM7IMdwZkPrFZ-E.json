@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Lately",
@@ -503,7 +503,7 @@
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "album": "KAYTRAMINÉ",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
@@ -685,7 +685,7 @@
   },
   {
    "title": "letstalkaboutit",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Freddie Gibbs",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Freddie Gibbs",
    "album": "KAYTRAMINÉ",
    "videoId": "ABrrO78khdE",
    "duration": "2:47"
@@ -783,7 +783,7 @@
   },
   {
    "title": "Dear Summer",
-   "artist": "Memphis Bleek & JAŸ-Z",
+   "artist": "Memphis Bleek;JAŸ-Z",
    "album": "534",
    "videoId": "LBOmocitDfA",
    "duration": "2:54"
@@ -1105,7 +1105,7 @@
   },
   {
    "title": "cOoL WATeR foR thE nIGHT",
-   "artist": "1999 WRITE THE FUTURE, Amaarae, & Warren Hue",
+   "artist": "1999 WRITE THE FUTURE;Amaarae;Warren Hue",
    "album": "hella (˃̣̣̥╭╮˂̣̣̥) ✧ ♡ ‧º·˚",
    "videoId": "1WSmGzt3E2Y",
    "duration": "2:55"
@@ -1203,7 +1203,7 @@
   },
   {
    "title": "Kerosene!",
-   "artist": "Yves Tumor & Diana Gordon",
+   "artist": "Yves Tumor;Diana Gordon",
    "album": "Heaven To A Tortured Mind",
    "videoId": "_W2fKjIfGWc",
    "duration": "5:06"
@@ -1462,7 +1462,7 @@
   },
   {
    "title": "Sun, Moon & Herbs",
-   "artist": "Venna & Jvck James",
+   "artist": "Venna;Jvck James",
    "album": "VENOLOGY",
    "videoId": "SVDrMk09Nbk",
    "duration": "4:13"
@@ -1658,7 +1658,7 @@
   },
   {
    "title": "You Got Me (feat. Erykah Badu & Eve)",
-   "artist": "The Roots & Tariq Trotter",
+   "artist": "The Roots;Tariq Trotter",
    "album": "Things Fall Apart",
    "videoId": "y5DFHx_EUTg",
    "duration": "4:20"
@@ -2316,7 +2316,7 @@
   },
   {
    "title": "19",
-   "artist": "Dean Blunt & A$AP Rocky & Sauce Walka, Dean Blunt, A$AP Rocky, and Sauce Walka",
+   "artist": "Dean Blunt & A$AP Rocky & Sauce Walka;Dean Blunt;A$AP Rocky;Sauce Walka",
    "album": "ZUSHI",
    "videoId": "DV6vKZCzLI4",
    "duration": "2:41"
@@ -2533,7 +2533,7 @@
   },
   {
    "title": "Sossaup",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Amaarae",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Amaarae",
    "album": "KAYTRAMINÉ",
    "videoId": "srjUWEVHZ8o",
    "duration": "2:36"
@@ -3044,7 +3044,7 @@
   },
   {
    "title": "Groceries",
-   "artist": "CARRTOONS & Nigel Hall",
+   "artist": "CARRTOONS;Nigel Hall",
    "album": "Homegrown",
    "videoId": "7pTWkwnWEbw",
    "duration": "2:24"
@@ -3121,7 +3121,7 @@
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "album": "KAYTRAMINÉ",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
@@ -3288,10 +3288,10 @@
    "duration": "1:37"
   },
   {
-   "title": "Lou's Tune (feat. Moses Boyd)",
+   "title": "Lou's Tune",
    "artist": "DARGZ",
-   "album": "Lou's Tune",
-   "videoId": "GRjDOqlzu4o",
+   "album": "Happiness",
+   "videoId": "8kWNYT-yHQM",
    "duration": "1:43"
   },
   {
@@ -3751,7 +3751,7 @@
   },
   {
    "title": "Automatic (Orion Sun Remix)",
-   "artist": "Spencer. & Orion Sun",
+   "artist": "Spencer.;Orion Sun",
    "album": "Automatic (Orion Sun Remix)",
    "videoId": "9xluXJDbaHc",
    "duration": "2:05"
@@ -3975,7 +3975,7 @@
   },
   {
    "title": "WITCHES BREW (feat. Lowkey T & skate33)",
-   "artist": "DEADPAN, Willyynova, & Opollo Heights",
+   "artist": "DEADPAN;Willyynova;Opollo Heights",
    "album": "WITCHES BREW",
    "videoId": "o88nBd8oCw8",
    "duration": "4:02"
@@ -4024,7 +4024,7 @@
   },
   {
    "title": "ONE THING",
-   "artist": "DESTIN CONRAD & Jordan Ward",
+   "artist": "DESTIN CONRAD;Jordan Ward",
    "album": "SUBMISSIVE",
    "videoId": "JINJXis3uWE",
    "duration": "2:53"
@@ -4353,7 +4353,7 @@
   },
   {
    "title": "Hold You Up",
-   "artist": "KayCyy, Annahstasia, & Steven Bamidele",
+   "artist": "KayCyy;Annahstasia;Steven Bamidele",
    "album": "Get Used To It",
    "videoId": "hIMzOsnxrMw",
    "duration": "3:57"
@@ -4479,7 +4479,7 @@
   },
   {
    "title": "Feelin' Lovely",
-   "artist": "Connan Mockasin & Dev Hynes",
+   "artist": "Connan Mockasin;Dev Hynes",
    "album": "Myths 001",
    "videoId": "NHXyFJzPd6U",
    "duration": "3:52"
@@ -4752,7 +4752,7 @@
   },
   {
    "title": "Happy Survival",
-   "artist": "Childish Gambino & Khruangbin",
+   "artist": "Childish Gambino;Khruangbin",
    "album": "Bando Stone and The New World",
    "videoId": "jNAHOjbpa8c",
    "duration": "3:24"
@@ -5291,7 +5291,7 @@
   },
   {
    "title": "Let Her Know",
-   "artist": "CMYK & James Blake",
+   "artist": "CMYK;James Blake",
    "album": "CMYK 002",
    "videoId": "KABCYLDVYsg",
    "duration": "4:08"
@@ -5753,7 +5753,7 @@
   },
   {
    "title": "On the Line",
-   "artist": "Blood Orange & Kindness",
+   "artist": "Blood Orange;Kindness",
    "album": "Cupid Deluxe",
    "videoId": "EpnYJ7ldjAM",
    "duration": "5:08"
@@ -5774,7 +5774,7 @@
   },
   {
    "title": "Can We Do This?",
-   "artist": "Speakers Corner Quartet, Kwake Bass, Raven Bush, Peter Bennie, Biscuit, and Sampha",
+   "artist": "Speakers Corner Quartet;Kwake Bass;Raven Bush;Peter Bennie",
    "album": "Further Out Than The Edge",
    "videoId": "SNf43Ohh5Yc",
    "duration": "2:58"
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Best to You",
-   "artist": "Blood Orange & Empress Of",
+   "artist": "Blood Orange;Empress Of",
    "album": "Freetown Sound",
    "videoId": "ACinCwmWalY",
    "duration": "3:46"
@@ -7839,7 +7839,7 @@
   },
   {
    "title": "Warning (Melchyor A's Hmida Version)",
-   "artist": "MELCHYOR A & Bakoly Raleva",
+   "artist": "MELCHYOR A;Bakoly Raleva",
    "album": "Warning",
    "videoId": "xNka76Ke-HA",
    "duration": "6:52"
@@ -8280,7 +8280,7 @@
   },
   {
    "title": "Wouldn't You Like to Ride",
-   "artist": "Kanye West & Common",
+   "artist": "Kanye West;Common",
    "album": "Coach Carter Soundtrack",
    "videoId": "TZcmn0JRX6c",
    "duration": "3:51"
@@ -8686,7 +8686,7 @@
   },
   {
    "title": "Come We Go",
-   "artist": "Jamie XX & DJ Koze",
+   "artist": "Jamie XX;DJ Koze",
    "album": "DJ Koze Presents Pampa, Vol. 1",
    "videoId": "GYrH3C3u3b8",
    "duration": "5:45"
@@ -8931,7 +8931,7 @@
   },
   {
    "title": "Better Than Me",
-   "artist": "Blood Orange & Carly Rae Jepsen",
+   "artist": "Blood Orange;Carly Rae Jepsen",
    "album": "Freetown Sound",
    "videoId": "2ZMOQwrwwcw",
    "duration": "3:17"
@@ -9197,7 +9197,7 @@
   },
   {
    "title": "5",
-   "artist": "Dean Blunt & Elias Rønnenfelt",
+   "artist": "Dean Blunt;Elias Rønnenfelt",
    "album": "lucre",
    "videoId": "9wIg39LeWfw",
    "duration": "2:01"

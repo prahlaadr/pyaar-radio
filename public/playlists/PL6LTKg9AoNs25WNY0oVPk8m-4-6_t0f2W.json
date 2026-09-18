@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W",
  "title": "KALKI (future carnatic) [pyaar radio]",
  "trackCount": 102,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Gliding Through Everything",
@@ -62,7 +62,7 @@
   },
   {
    "title": "TELL ME ((MORE))",
-   "artist": "MEMBA & Chitralekha Sen",
+   "artist": "MEMBA;Chitralekha Sen",
    "album": "TELL ME ((MORE))",
    "videoId": "kyExamXjf6g",
    "duration": "3:17"
@@ -398,7 +398,7 @@
   },
   {
    "title": "Chameleon",
-   "artist": "Malfnktion & MadStarbase",
+   "artist": "Malfnktion;MadStarbase",
    "album": "India Gets Physical, Vol. 1 - Mixed & Compiled by Todh Teri",
    "videoId": "W-ar6Cjnw6g",
    "duration": "3:28"
@@ -517,7 +517,7 @@
   },
   {
    "title": "Gaia",
-   "artist": "Lucid Monday & Louis Futon",
+   "artist": "Lucid Monday;Louis Futon",
    "album": "LM025",
    "videoId": "KQBU75C9p88",
    "duration": "2:31"
@@ -685,7 +685,7 @@
   },
   {
    "title": "RUNNIN",
-   "artist": "Miracle Mangal & SIDD",
+   "artist": "Miracle Mangal;SIDD",
    "album": "MM007",
    "videoId": "PPxZ3QJzKZU",
    "duration": "2:48"

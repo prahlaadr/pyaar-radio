@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
  "title": "Four tet’s crate (goated)",
  "trackCount": 3339,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "A Thousand Miles",
@@ -405,7 +405,7 @@
   },
   {
    "title": "Tears",
-   "artist": "Skrillex, Joker, & Sleepnet",
+   "artist": "Skrillex;Joker;Sleepnet",
    "album": "Quest For Fire",
    "videoId": "lFP1svJ4fSo",
    "duration": "3:06"
@@ -1602,7 +1602,7 @@
   },
   {
    "title": "savestate (wev's metro acid mix)",
-   "artist": "boy 2000 & wev",
+   "artist": "boy 2000;wev",
    "album": "club 2000",
    "videoId": "Nr0n-_EFzxE",
    "duration": "3:14"
@@ -1749,7 +1749,7 @@
   },
   {
    "title": "You Don't Have To Worry",
-   "artist": "Doris & Kelley",
+   "artist": "Doris;Kelley",
    "album": "You Don't Have To Worry",
    "videoId": "ZrF-Ntkx5ao",
    "duration": "2:43"
@@ -2400,7 +2400,7 @@
   },
   {
    "title": "Utopia and Visions",
-   "artist": "Don Cherry, Tommy Koverhult, Tommy Goldman, Maffy Falay, Tage Siven, and Okay Temiz",
+   "artist": "Don Cherry;Tommy Koverhult;Tommy Goldman;Maffy Falay",
    "album": "Organic Music Society",
    "videoId": "hyOsSUmnITs",
    "duration": "6:34"
@@ -2589,7 +2589,7 @@
   },
   {
    "title": "Bend",
-   "artist": "binki & Otto Benson",
+   "artist": "binki;Otto Benson",
    "album": "Bend",
    "videoId": "wD3TB4tuubw",
    "duration": "3:31"
@@ -3205,7 +3205,7 @@
   },
   {
    "title": "Cake",
-   "artist": "Xilla & Tia Corine",
+   "artist": "Xilla;Tia Corine",
    "album": "Cake",
    "videoId": "Tzau9-1qFV0",
    "duration": "3:10"
@@ -4738,7 +4738,7 @@
   },
   {
    "title": "My Thing",
-   "artist": "Deborah Glasgow & Mad Professor",
+   "artist": "Deborah Glasgow;Mad Professor",
    "album": "Ariwa Sounds: The Early Sessions",
    "videoId": "ozk7WEEGLlw",
    "duration": "4:04"
@@ -5690,7 +5690,7 @@
   },
   {
    "title": "AZD SURF",
-   "artist": "Actress, Mount Kimbie, & Kai Campos",
+   "artist": "Actress;Mount Kimbie;Kai Campos",
    "album": "AZD SURF",
    "videoId": "U8RRd-s3wqQ",
    "duration": "4:12"
@@ -6131,7 +6131,7 @@
   },
   {
    "title": "Adouna",
-   "artist": "Alkibar Gignor & Alkibar Jr",
+   "artist": "Alkibar Gignor;Alkibar Jr",
    "album": "Music from Saharan WhatsApp",
    "videoId": "6nZDUYaTPD4",
    "duration": "3:51"
@@ -6803,7 +6803,7 @@
   },
   {
    "title": "Time For You (DJ Sports Dub Mix)",
-   "artist": "ZDBT & dreamcastmoe",
+   "artist": "ZDBT;dreamcastmoe",
    "album": "On Love",
    "videoId": "uyEgZQNoaBw",
    "duration": "5:50"
@@ -7503,7 +7503,7 @@
   },
   {
    "title": "Water-Wonder",
-   "artist": "Tibor SZEMZŐ & Group 180",
+   "artist": "Tibor SZEMZŐ;Group 180",
    "album": "Group 180",
    "videoId": "1yu04czRd4E",
    "duration": "5:56"
@@ -8119,7 +8119,7 @@
   },
   {
    "title": "Disrupt #4",
-   "artist": "Emanative & Bex Burch",
+   "artist": "Emanative;Bex Burch",
    "album": "Disrupt #4",
    "videoId": "nFQ3yA7aa68",
    "duration": "4:48"
@@ -9386,7 +9386,7 @@
   },
   {
    "title": "Furaha, Happiness",
-   "artist": "Hussein Sheikh & Radio Mogadisco Swahili Singers",
+   "artist": "Hussein Sheikh;Radio Mogadisco Swahili Singers",
    "album": "Baijun Ballads: Somali Songs in Swahili",
    "videoId": "mu39Cp1YZ0w",
    "duration": "6:18"
@@ -10135,7 +10135,7 @@
   },
   {
    "title": "Halil: Halil (Yemen)",
-   "artist": "W. Haraj & Gamliel Shalom",
+   "artist": "W. Haraj;Gamliel Shalom",
    "album": "Music of the Oriental Jews from North Africa, Yemen Bukhara",
    "videoId": "lwsK4v4rpBY",
    "duration": "2:00"
@@ -10415,7 +10415,7 @@
   },
   {
    "title": "Movement 9",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "dc_WwtK6xTI",
    "duration": "2:31"
@@ -10534,7 +10534,7 @@
   },
   {
    "title": "Tomorrow",
-   "artist": "Nino Nardini, Eddie Warner, & Roger Roger",
+   "artist": "Nino Nardini;Eddie Warner;Roger Roger",
    "album": "Space Oddities: Studio Ganaro (1972-1982)",
    "videoId": "v0BNjVDQRW4",
    "duration": "2:47"
@@ -10723,7 +10723,7 @@
   },
   {
    "title": "Sound Industrial No. 2",
-   "artist": "Nino Nardini, Eddie Warner, & Roger Roger",
+   "artist": "Nino Nardini;Eddie Warner;Roger Roger",
    "album": "Space Oddities: Studio Ganaro (1972-1982)",
    "videoId": "5SjGqhwQlVs",
    "duration": "2:03"
@@ -11388,7 +11388,7 @@
   },
   {
    "title": "Changes (James Blake Harmonimix)",
-   "artist": "Mala & James Blake",
+   "artist": "Mala;James Blake",
    "album": "Changes (James Blake Harmonimix)",
    "videoId": "oUlZFQXyXB0",
    "duration": "5:25"
@@ -11465,7 +11465,7 @@
   },
   {
    "title": "Space Jungle",
-   "artist": "KonstruKt, Barlas Tan Özemek, Hüseyin Ertunç, and Marshall Allen",
+   "artist": "KonstruKt;Barlas Tan Özemek;Hüseyin Ertunç;Marshall Allen",
    "album": "Vibrations of the Day",
    "videoId": "VYUTglviE0A",
    "duration": "8:48"
@@ -11808,7 +11808,7 @@
   },
   {
    "title": "Movement 3",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "b52g-Lr5pco",
    "duration": "2:33"
@@ -11850,7 +11850,7 @@
   },
   {
    "title": "Belter - Joy O Belly Mix",
-   "artist": "Off The Meds & Joy Orbison",
+   "artist": "Off The Meds;Joy Orbison",
    "album": "Belter (Incl. Joy O Remix)",
    "videoId": "-fI_4wPUSVE",
    "duration": "8:04"
@@ -12172,14 +12172,14 @@
   },
   {
    "title": "Movement 8",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "VL5HdIhgsiQ",
    "duration": "7:23"
   },
   {
    "title": "Never Come Back (Koreless Remix)",
-   "artist": "Caribou & Koreless",
+   "artist": "Caribou;Koreless",
    "album": "Suddenly Remixes",
    "videoId": "D0LguytwX_g",
    "duration": "4:05"
@@ -12368,7 +12368,7 @@
   },
   {
    "title": "Raga Bhopali: Gat in Ektaal (Santoor)",
-   "artist": "Pandit Shiv Kumar Sharma & Ustad Zakir Hussain",
+   "artist": "Pandit Shiv Kumar Sharma;Ustad Zakir Hussain",
    "album": "Raga Bhopali (Live at The Bailey's Banquet Hall, London, 1983)",
    "videoId": "DL7KSKo67QE",
    "duration": "4:00"
@@ -12445,7 +12445,7 @@
   },
   {
    "title": "Movement 2",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "dWoFo5GpkZc",
    "duration": "2:32"
@@ -12753,7 +12753,7 @@
   },
   {
    "title": "Touch",
-   "artist": "TQD, DJ Q, Flava D, and Royal T",
+   "artist": "TQD;DJ Q;Flava D;Royal T",
    "album": "UKG",
    "videoId": "4CQgu0iI22w",
    "duration": "3:12"
@@ -13005,7 +13005,7 @@
   },
   {
    "title": "De I Comahlee Ah (extended)",
-   "artist": "Jackie McLean & Michael Carvin",
+   "artist": "Jackie McLean;Michael Carvin",
    "album": "Melodies Record Club #001: Four Tet selects",
    "videoId": "daGU8g2V48c",
    "duration": "12:25"
@@ -13313,7 +13313,7 @@
   },
   {
    "title": "Heyr Himnasmiður",
-   "artist": "Hildur Guðnadóttir & David Wiebe",
+   "artist": "Hildur Guðnadóttir;David Wiebe",
    "album": "Saman",
    "videoId": "Vh56jt87hps",
    "duration": "3:10"
@@ -13831,7 +13831,7 @@
   },
   {
    "title": "Poor People Must Work (Carl Craig Remix)",
-   "artist": "Rhythm & Sound",
+   "artist": "Rhythm;Sound",
    "album": "Sessions",
    "videoId": "li8VWUUVaMU",
    "duration": "6:28"
@@ -13929,7 +13929,7 @@
   },
   {
    "title": "Movement 4",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "i6g5wrv4wrw",
    "duration": "2:32"
@@ -14552,7 +14552,7 @@
   },
   {
    "title": "Conducted Rhythms",
-   "artist": "Beat Conductor & Madlib",
+   "artist": "Beat Conductor;Madlib",
    "album": "Peanut Butter Wolf's Jukebox 45's",
    "videoId": "Un-RpLZ7R78",
    "duration": "1:51"
@@ -14629,7 +14629,7 @@
   },
   {
    "title": "Cuídese de los ángeles que caen",
-   "artist": "Victor Hugo, Rosaloren, Benigno, and Luis Trigo Ferré",
+   "artist": "Victor Hugo;Rosaloren;Benigno;Luis Trigo Ferré",
    "album": "Música de Rafael Aponte Ledée",
    "videoId": "ArdGWdaOKEg",
    "duration": "7:13"
@@ -14671,7 +14671,7 @@
   },
   {
    "title": "Ta Tudo Ai",
-   "artist": "Rubinho & Mauro Assumpçao",
+   "artist": "Rubinho;Mauro Assumpçao",
    "album": "Black Rio Vol. 2 - Original Samba Soul 1968-1981",
    "videoId": "Fx_hZ3uj4Xw",
    "duration": "2:32"
@@ -14825,7 +14825,7 @@
   },
   {
    "title": "Movement 5",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "HSk7hD3t0SM",
    "duration": "4:26"
@@ -15000,7 +15000,7 @@
   },
   {
    "title": "Peace (Gat (Santoor & Flute))",
-   "artist": "Pandit Shivkumar Sharma, Pandit Hariprasad Chaurasia, Rahul Sharma, and Naina Shah",
+   "artist": "Pandit Shivkumar Sharma;Pandit Hariprasad Chaurasia;Rahul Sharma;Naina Shah",
    "album": "The Valley Recalls - In Search of Peace, Love & Harmony (Live at The Nehru Centre, Bombay, 1995)",
    "videoId": "2HXi6kXhexk",
    "duration": "16:39"
@@ -15091,7 +15091,7 @@
   },
   {
    "title": "Glass Story",
-   "artist": "Luděk Boura & Clarinet Factory",
+   "artist": "Luděk Boura;Clarinet Factory",
    "album": "Out of Home",
    "videoId": "3xXJxw25K2A",
    "duration": "6:40"
@@ -15133,7 +15133,7 @@
   },
   {
    "title": "My Favourite Things",
-   "artist": "Balsara & Singing Sitars",
+   "artist": "Balsara;Singing Sitars",
    "album": "Holy Long Hairs: Lost Psychedelic Rock Nuggets from India (1967-1972)",
    "videoId": "ZaiJPbUGhqM",
    "duration": "2:39"
@@ -15308,7 +15308,7 @@
   },
   {
    "title": "Movement 6",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "Sp251kcTARY",
    "duration": "8:51"
@@ -15462,7 +15462,7 @@
   },
   {
    "title": "LAX To JFK",
-   "artist": "Quasimoto & Madlib",
+   "artist": "Quasimoto;Madlib",
    "album": "Yessir Whatever",
    "videoId": "qJhaaTMvgAM",
    "duration": "3:24"
@@ -15833,7 +15833,7 @@
   },
   {
    "title": "Raga Madhuvanti (Gat in Fast Teentaal (Sarod))",
-   "artist": "Ustad Ali Akbar Khan, Pandit Swapan Chaudhuri, & Ken Zuckerman",
+   "artist": "Ustad Ali Akbar Khan;Pandit Swapan Chaudhuri;Ken Zuckerman",
    "album": "Peerless",
    "videoId": "Q0qx8hAvRZg",
    "duration": "5:41"
@@ -16176,7 +16176,7 @@
   },
   {
    "title": "Movement 1",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "tEjnkwnluWc",
    "duration": "6:25"
@@ -16330,7 +16330,7 @@
   },
   {
    "title": "Wakes on Cerulean A",
-   "artist": "Kassel Jaeger & Jim O'Rourke",
+   "artist": "Kassel Jaeger;Jim O'Rourke",
    "album": "Wakes on Cerulean",
    "videoId": "Ur9YkOwpBR4",
    "duration": "17:19"
@@ -16358,7 +16358,7 @@
   },
   {
    "title": "Wind On Wind",
-   "artist": "Robert Fripp & Brian Eno",
+   "artist": "Robert Fripp;Brian Eno",
    "album": "Evening Star",
    "videoId": "BIFFwoAHBGw",
    "duration": "3:14"
@@ -16512,7 +16512,7 @@
   },
   {
    "title": "Movement 7",
-   "artist": "Floating Points, Pharoah Sanders, & The London Symphony Orchestra",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
    "album": "Promises",
    "videoId": "gT7Ppc7VtxI",
    "duration": "9:29"
@@ -16638,7 +16638,7 @@
   },
   {
    "title": "Like A Tattoo",
-   "artist": "Don Arcadio & Sade",
+   "artist": "Don Arcadio;Sade",
    "album": "Like A Tattoo",
    "videoId": "F-4p6_S5u48",
    "duration": "4:21"
@@ -16778,7 +16778,7 @@
   },
   {
    "title": "Idols Fall",
-   "artist": "Ivy Lab & Seyaa",
+   "artist": "Ivy Lab;Seyaa",
    "album": "Idols Fall / Snap 101",
    "videoId": "w-PoYOdvCsM",
    "duration": "4:00"
@@ -16981,7 +16981,7 @@
   },
   {
    "title": "Low Life",
-   "artist": "Tsimba & DeeZ",
+   "artist": "Tsimba;DeeZ",
    "album": "Tsimba x Deez - Formless EP",
    "videoId": "0voEcI3-YUA",
    "duration": "5:56"
@@ -17219,35 +17219,35 @@
   },
   {
    "title": "Step Up",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "zCmOytV5mjA",
    "duration": "3:33"
   },
   {
    "title": "Mania",
-   "artist": "gum.mp3 & dazegxd",
+   "artist": "gum.mp3;dazegxd",
    "album": "Mania",
    "videoId": "wq4ja3Et_g0",
    "duration": "3:36"
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Bad 4 Us",
    "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
   },
   {
    "title": "Imitator",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "2Mv1lY8xUAI",
    "duration": "4:32"
   },
   {
    "title": "Thinking About U",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Thinking About U",
    "videoId": "0YaPGNfmzbI",
    "duration": "4:32"
@@ -17520,7 +17520,7 @@
   },
   {
    "title": "startup tune",
-   "artist": "nuphory & Pizza Hotline",
+   "artist": "nuphory;Pizza Hotline",
    "album": "ditherdream1",
    "videoId": "ImKE9RDMC7A",
    "duration": "5:26"
@@ -18241,7 +18241,7 @@
   },
   {
    "title": "Anytime",
-   "artist": "Tim Reaper & Devnull",
+   "artist": "Tim Reaper;Devnull",
    "album": "Teletext",
    "videoId": "rMEn6FckWlg",
    "duration": "6:26"
@@ -18549,14 +18549,14 @@
   },
   {
    "title": "i just 1 2",
-   "artist": "Buunshin & Posij",
+   "artist": "Buunshin;Posij",
    "album": "i just 1 2",
    "videoId": "Q9bIGQfUq_Y",
    "duration": "2:16"
   },
   {
    "title": "She Loves Me",
-   "artist": "DJ Seinfeld & Stella Explorer",
+   "artist": "DJ Seinfeld;Stella Explorer",
    "album": "She Loves Me",
    "videoId": "rMAwQnuaTy8",
    "duration": "4:09"
@@ -18654,7 +18654,7 @@
   },
   {
    "title": "Eve (Max Cooper Remix)",
-   "artist": "Awe Kid & Max Cooper",
+   "artist": "Awe Kid;Max Cooper",
    "album": "Eve (Max Cooper Remix)",
    "videoId": "0E7TXLRyrAc",
    "duration": "6:11"
@@ -18696,7 +18696,7 @@
   },
   {
    "title": "Can't Deal With This (Kid Loops Vocal)",
-   "artist": "Cool Breeze & Imaani",
+   "artist": "Cool Breeze;Imaani",
    "album": "Can't Deal With This",
    "videoId": "uzmQ6h6hkMA",
    "duration": "5:55"
@@ -18892,7 +18892,7 @@
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Bad 4 Us",
    "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
@@ -19452,7 +19452,7 @@
   },
   {
    "title": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor & Brazy)",
-   "artist": "Kelela, Flexulant, BAMBII, Rahrah Gabor, and Brazy",
+   "artist": "Kelela;Flexulant;BAMBII;Rahrah Gabor",
    "album": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor + brazy)",
    "videoId": "Ff0XkPzXkM4",
    "duration": "4:47"
@@ -19746,7 +19746,7 @@
   },
   {
    "title": "Fooley (LEECH Ambient Queen Remix)",
-   "artist": "Kelela, LEECH, & Nightfeelings",
+   "artist": "Kelela;LEECH;Nightfeelings",
    "album": "RAVE:N, The Remixes",
    "videoId": "ilcRfHOP10I",
    "duration": "4:19"
@@ -19823,7 +19823,7 @@
   },
   {
    "title": "Venom of Ages / (愛は死よりも冷たい)",
-   "artist": "Varg²™ & Golin",
+   "artist": "Varg²™;Golin",
    "album": "Nordic Flora Series, Pt. 6: Outlaw Music",
    "videoId": "FcifYJaBRfQ",
    "duration": "3:01"
@@ -20047,7 +20047,7 @@
   },
   {
    "title": "In The Cut",
-   "artist": "Monty & Trail",
+   "artist": "Monty;Trail",
    "album": "In The Cut, And We Go",
    "videoId": "QufCNlbH5xk",
    "duration": "5:14"
@@ -20173,7 +20173,7 @@
   },
   {
    "title": "Dread & Buried (Congi Remix)",
-   "artist": "Origin One & Congi",
+   "artist": "Origin One;Congi",
    "album": "Deeply Remixed, Vol. 2",
    "videoId": "2CWxWDACVko",
    "duration": "3:55"
@@ -20376,7 +20376,7 @@
   },
   {
    "title": "daydreamer",
-   "artist": "Enkei & SPURME",
+   "artist": "Enkei;SPURME",
    "album": "Step Into Y2K, Vol. 1",
    "videoId": "vW5uoA0NERo",
    "duration": "2:19"
@@ -20607,7 +20607,7 @@
   },
   {
    "title": "Care (Zero 7 Remix)",
-   "artist": "Byulah & Memblem",
+   "artist": "Byulah;Memblem",
    "album": "NTPM300",
    "videoId": "LyjjsAcguZU",
    "duration": "9:04"
@@ -20621,7 +20621,7 @@
   },
   {
    "title": "NO! (Submarine Remix)",
-   "artist": "Phace & Rockwell",
+   "artist": "Phace;Rockwell",
    "album": "Neosignal X, Pt. 4",
    "videoId": "tvLd_zx38Tc",
    "duration": "4:55"
@@ -20761,7 +20761,7 @@
   },
   {
    "title": "Sleepr",
-   "artist": "Drone & Deft",
+   "artist": "Drone;Deft",
    "album": "Dance With The Devil",
    "videoId": "f3F5q3H7btQ",
    "duration": "3:24"
@@ -20929,7 +20929,7 @@
   },
   {
    "title": "FRANKFURT",
-   "artist": "Thys, Machinedrum, Holly, Salvador Breed, and VIER",
+   "artist": "Thys;Machinedrum;Holly;Salvador Breed",
    "album": "FRANKFURT",
    "videoId": "b0-HIcMYOXw",
    "duration": "4:31"
@@ -20971,7 +20971,7 @@
   },
   {
    "title": "Blunted",
-   "artist": "Two Swords & hyroglifics",
+   "artist": "Two Swords;hyroglifics",
    "album": "Blunted / Glacial Gaze",
    "videoId": "nATBKkweSSs",
    "duration": "2:54"
@@ -21020,7 +21020,7 @@
   },
   {
    "title": "Axel, Sebastian and Philipp",
-   "artist": "Dumbo Tracks & The Field",
+   "artist": "Dumbo Tracks;The Field",
    "album": "Axel, Sebastian and Philipp",
    "videoId": "mWxOISkK7kU",
    "duration": "5:47"
@@ -21230,7 +21230,7 @@
   },
   {
    "title": "ZOOM (SKEPTICAL REMIX) (feat. Tinashe)",
-   "artist": "Machinedrum & Skeptical",
+   "artist": "Machinedrum;Skeptical",
    "album": "ZOOM (SKEPTICAL REMIX)",
    "videoId": "NxAeTa3gzzo",
    "duration": "4:20"
@@ -21937,7 +21937,7 @@
   },
   {
    "title": "Militant Don (Vocal)",
-   "artist": "Mala & Magugu",
+   "artist": "Mala;Magugu",
    "album": "Militant Don",
    "videoId": "U75_6vx7nfk",
    "duration": "2:31"
@@ -22882,7 +22882,7 @@
   },
   {
    "title": "HAWT",
-   "artist": "Hydraulix & Oski",
+   "artist": "Hydraulix;Oski",
    "album": "HAWT",
    "videoId": "MBId-7j0sio",
    "duration": "3:50"
@@ -23323,7 +23323,7 @@
   },
   {
    "title": "Sketch 3",
-   "artist": "Truncate & Ruskin, Truncate, & James Ruskin",
+   "artist": "Truncate & Ruskin;Truncate;James Ruskin",
    "album": "Sketch",
    "videoId": "TLUlYTqe8ZA",
    "duration": "4:25"

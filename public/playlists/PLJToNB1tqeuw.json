@@ -2,7 +2,7 @@
  "playlistId": "PLJToNB1tqeuw",
  "title": "9laad:Electronica",
  "trackCount": 496,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Angel Echoes",
@@ -314,7 +314,7 @@
   },
   {
    "title": "Woman",
-   "artist": "Barry Can’t Swim & Låpsley",
+   "artist": "Barry Can’t Swim;Låpsley",
    "album": "When Will We Land?",
    "videoId": "PMFAHjfkLEM",
    "duration": "3:53"
@@ -2841,7 +2841,7 @@
   },
   {
    "title": "Until The Morning",
-   "artist": "Thievery Corporation & Emiliana Torrini",
+   "artist": "Thievery Corporation;Emiliana Torrini",
    "album": "The Richest Man In Babylon",
    "videoId": "lqZcfhE6qsM",
    "duration": "3:57"

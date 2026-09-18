@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1I3_SJXcCTAveCrjy6APpi",
  "title": "Latin Tech Groove 2025 🍑",
  "trackCount": 126,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Verano En NY",
@@ -55,7 +55,7 @@
   },
   {
    "title": "Quiere Qué",
-   "artist": "Les Castizos & The Wayne",
+   "artist": "Les Castizos;The Wayne",
    "album": "Quiere Qué",
    "videoId": "StL0CV0S51w",
    "duration": "3:27"
@@ -118,7 +118,7 @@
   },
   {
    "title": "ESKIO",
-   "artist": "MelyJones & Juan Dileju",
+   "artist": "MelyJones;Juan Dileju",
    "album": "ESKIO",
    "videoId": "nKK6KoXIWQc",
    "duration": "3:04"
@@ -167,7 +167,7 @@
   },
   {
    "title": "Fancy (VIP) (feat. Dabo)",
-   "artist": "Dazed, Daveartt, & Tamma",
+   "artist": "Dazed;Daveartt;Tamma",
    "album": "Fancy (VIP)",
    "videoId": "6aTWu0sTFAE",
    "duration": "2:46"
@@ -237,7 +237,7 @@
   },
   {
    "title": "Baile!",
-   "artist": "Franky D.P. & Joe C",
+   "artist": "Franky D.P.;Joe C",
    "album": "Baile!",
    "videoId": "8EO7QIF9Rk4",
    "duration": "2:33"
@@ -328,7 +328,7 @@
   },
   {
    "title": "Do You Like That",
-   "artist": "Taranco & Trembow",
+   "artist": "Taranco;Trembow",
    "album": "Do You Like That",
    "videoId": "uDMoKW5u3WI",
    "duration": "2:45"
@@ -384,7 +384,7 @@
   },
   {
    "title": "Amsterdam (Rework)",
-   "artist": "Raluka & ARKADYAN",
+   "artist": "Raluka;ARKADYAN",
    "album": "Amsterdam (Rework)",
    "videoId": "TXIyy9AB9l4",
    "duration": "2:27"
@@ -489,7 +489,7 @@
   },
   {
    "title": "Besame",
-   "artist": "Greg (BR) & Dabi",
+   "artist": "Greg (BR);Dabi",
    "album": "Hotter Than Hell II",
    "videoId": "36g2NsoAxWE",
    "duration": "2:45"
@@ -531,7 +531,7 @@
   },
   {
    "title": "PIKKO",
-   "artist": "Juan Dileju, Juan Kordoba, & Nick Duque",
+   "artist": "Juan Dileju;Juan Kordoba;Nick Duque",
    "album": "PIKKO",
    "videoId": "Z7_HFkKPt9M",
    "duration": "2:46"
@@ -608,7 +608,7 @@
   },
   {
    "title": "Tututu (feat. KD One, Cvmpanile & Draxx (ITA))",
-   "artist": "HUGEL, Malóne, & PV Aparataje",
+   "artist": "HUGEL;Malóne;PV Aparataje",
    "album": "Tututu",
    "videoId": "N3b4RY0WOJI",
    "duration": "2:03"
@@ -629,7 +629,7 @@
   },
   {
    "title": "Cuando Fue (feat. Jay Wheeler)",
-   "artist": "Malóne Morez & Sounds of Rituals",
+   "artist": "Malóne Morez;Sounds of Rituals",
    "album": "Cuando Fue",
    "videoId": "bnT_xxDnoB4",
    "duration": "3:04"
@@ -797,7 +797,7 @@
   },
   {
    "title": "Cumbia Cinaguera",
-   "artist": "Sonny Noto & Mac Russo",
+   "artist": "Sonny Noto;Mac Russo",
    "album": "Cumbia Cinaguera",
    "videoId": "bAHMGv8IvEA",
    "duration": "2:40"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2CrlAtmeGPYaUlQ22StK50",
  "title": "Shreya Ghoshal old songs",
  "trackCount": 86,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Yeh Kya Hua",
@@ -62,7 +62,7 @@
   },
   {
    "title": "AAI JO TERI YAAD",
-   "artist": "SHREYA GHOSHAL, ANU MALIK, & PRAVEEN BHARDWAJ",
+   "artist": "SHREYA GHOSHAL;ANU MALIK;PRAVEEN BHARDWAJ",
    "album": "SAAYA",
    "videoId": "nFZgo_zkNIY",
    "duration": "5:33"
@@ -146,7 +146,7 @@
   },
   {
    "title": "MOHABBAT ZINDAGI HAI",
-   "artist": "SHREYA GHOSHAL, ANU MALIK, & SAEED QADRI",
+   "artist": "SHREYA GHOSHAL;ANU MALIK;SAEED QADRI",
    "album": "NAZAR",
    "videoId": "Dic2N6Frj90",
    "duration": "5:41"
@@ -167,7 +167,7 @@
   },
   {
    "title": "Aahi Re Mahi",
-   "artist": "Shreya Ghoshal & Chorus",
+   "artist": "Shreya Ghoshal;Chorus",
    "album": "Police Force An Inside Story",
    "videoId": "sA38Dw202cU",
    "duration": "6:12"
@@ -209,14 +209,14 @@
   },
   {
    "title": "Badaloon Ki Ad Le Le",
-   "artist": "Udit Narayan & Shreya Ghoshal",
+   "artist": "Udit Narayan;Shreya Ghoshal",
    "album": "Rain (Original Motion Picture Soundtrack)",
    "videoId": "TCC5hlqE4pg",
    "duration": "5:59"
   },
   {
    "title": "BETAB DIL HAI",
-   "artist": "SONU NIGAM, SHREYA GHOSHAL, SHANKAR-EHSAAN-LOY, and PRASOON JOSHI",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;SHANKAR-EHSAAN-LOY;PRASOON JOSHI",
    "album": "PHIR MILENGE",
    "videoId": "SizVxrMUTjA",
    "duration": "7:28"
@@ -237,7 +237,7 @@
   },
   {
    "title": "DIL KISIKA DIL",
-   "artist": "SONU NIGAM, SHREYA GHOSHAL, ANAND RAJ ANAND, and PRAVEEN BHARDWAJ",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;ANAND RAJ ANAND;PRAVEEN BHARDWAJ",
    "album": "SHIKAAR",
    "videoId": "w4oOsgVIDTQ",
    "duration": "4:25"
@@ -258,7 +258,7 @@
   },
   {
    "title": "TERE CHEHRE SE",
-   "artist": "SHREYA GHOSHAL, DABOO MALIK, & PRAVEEN BHARDWAJ",
+   "artist": "SHREYA GHOSHAL;DABOO MALIK;PRAVEEN BHARDWAJ",
    "album": "GIRLFRIEND",
    "videoId": "mL5hZOGAOwA",
    "duration": "5:51"
@@ -307,7 +307,7 @@
   },
   {
    "title": "MUJHE JEENA SIKHA DO NA",
-   "artist": "KUNAL GANJAWALA, SHREYA GHOSHAL, SEN BROTHERS, and NIDA FAZLI",
+   "artist": "KUNAL GANJAWALA;SHREYA GHOSHAL;SEN BROTHERS;NIDA FAZLI",
    "album": "SHEESHA",
    "videoId": "2V7-lMdrbCk",
    "duration": "5:26"
@@ -384,7 +384,7 @@
   },
   {
    "title": "THODI TUMSE SHRARAT",
-   "artist": "SONU NIGAM, SHREYA GHOSHAL, DABOO MALIK, and PRAVEEN BHARDWAJ",
+   "artist": "SONU NIGAM;SHREYA GHOSHAL;DABOO MALIK;PRAVEEN BHARDWAJ",
    "album": "GIRLFRIEND",
    "videoId": "eG32kj_nCxk",
    "duration": "6:27"
@@ -447,21 +447,21 @@
   },
   {
    "title": "DIL KI SEEDHI LAMBI SADAK",
-   "artist": "SHREYA GHOSHAL, SONU KAKKAR, SANJEEV SRIVASTAVA, and SHAHIN IQBAL",
+   "artist": "SHREYA GHOSHAL;SONU KAKKAR;SANJEEV SRIVASTAVA;SHAHIN IQBAL",
    "album": "MEN NOT ALLOWED",
    "videoId": "kyw_PkVRZug",
    "duration": "5:26"
   },
   {
    "title": "JITNA BHI KARLO PYAR",
-   "artist": "UDIT NARAYAN, ALKA YAGNIK, ANAND RAJ ANAND, and PRAVEEN BHARDWAJ",
+   "artist": "UDIT NARAYAN;ALKA YAGNIK;ANAND RAJ ANAND;PRAVEEN BHARDWAJ",
    "album": "SHIKAAR",
    "videoId": "bi2GW3LNRMM",
    "duration": "5:03"
   },
   {
    "title": "HAI SAMA PYAR KA",
-   "artist": "SHREYA GHOSHAL, UDIT NARAYAN, ANAND-MILIND, and PRAVEEN BHARDWAJ",
+   "artist": "SHREYA GHOSHAL;UDIT NARAYAN;ANAND-MILIND;PRAVEEN BHARDWAJ",
    "album": "NAAM GUM JAAYEGA",
    "videoId": "dC7Gy93YO7Q",
    "duration": "7:05"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Zahreeli Raatein",
-   "artist": "Pritam, Shreya Ghoshal, K.K., and Praveen Bharadwaj",
+   "artist": "Pritam;Shreya Ghoshal;K.K.;Praveen Bharadwaj",
    "album": "Chocolate",
    "videoId": "52m_EFqQVaM",
    "duration": "4:51"
@@ -601,7 +601,7 @@
   },
   {
    "title": "AJNABI HAWAAYEIN",
-   "artist": "SHREYA GHOSHAL, CHIRRANTAN BHATT, & SAMEER",
+   "artist": "SHREYA GHOSHAL;CHIRRANTAN BHATT;SAMEER",
    "album": "SHAAPIT THE CURSED",
    "videoId": "-2bxA8VyzY0",
    "duration": "4:42"

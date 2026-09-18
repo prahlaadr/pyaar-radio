@@ -2,7 +2,7 @@
  "playlistId": "PLKqV_PlbYRzY",
  "title": "Ambient / Electronica",
  "trackCount": 395,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Took a Turn",
@@ -55,7 +55,7 @@
   },
   {
    "title": "Britnaeys new baby [125 BPM]",
-   "artist": "Vegyn & Danny L. Harle",
+   "artist": "Vegyn;Danny L. Harle",
    "album": "Don't Follow Me Because I'm Lost Too!!",
    "videoId": "PTJ9VtSkcCU",
    "duration": "2:53"
@@ -83,7 +83,7 @@
   },
   {
    "title": "EAr blow out [108.120 BPM]",
-   "artist": "Vegyn & Mk.Gee",
+   "artist": "Vegyn;Mk.Gee",
    "album": "Don't Follow Me Because I'm Lost Too!!",
    "videoId": "Bnq1gefEws4",
    "duration": "1:40"
@@ -300,14 +300,14 @@
   },
   {
    "title": "Song for The Unification of Europe - Three Colours Blue (Live)",
-   "artist": "Elżbieta Towarnicka, The Arthur Rubinstein Philharmonic Orchestra of Lodz, Adam Klocek, Choir of Czestochowa Philharmonic \"Collegium Cantorum\", and Jacek Ostaszewski",
+   "artist": "Elżbieta Towarnicka;The Arthur Rubinstein Philharmonic Orchestra of Lodz;Adam Klocek;Choir of Czestochowa Philharmonic \"Collegium Cantorum\"",
    "album": "The Best of Zbigniew Preisner (Live in Wytwórnia Łódź 2013)",
    "videoId": "c1P3qjAHprk",
    "duration": "6:53"
   },
   {
    "title": "The End- Three Colours White (Live)",
-   "artist": "The Arthur Rubinstein Philharmonic Orchestra of Lodz & Adam Klocek",
+   "artist": "The Arthur Rubinstein Philharmonic Orchestra of Lodz;Adam Klocek",
    "album": "The Best of Zbigniew Preisner (Live in Wytwórnia Łódź 2013)",
    "videoId": "a7FNYsAN9ak",
    "duration": "2:25"
@@ -496,14 +496,14 @@
   },
   {
    "title": "New Descent",
-   "artist": "Richard Reed Parry & Ayumi Paul",
+   "artist": "Richard Reed Parry;Ayumi Paul",
    "album": "The Nest (Original Motion Picture Soundtrack)",
    "videoId": "8_UqyZ0Cqgg",
    "duration": "6:01"
   },
   {
    "title": "Drone Beast",
-   "artist": "Richard Reed Parry, Parker Shper, Stuart Bogie, and Ayumi Paul",
+   "artist": "Richard Reed Parry;Parker Shper;Stuart Bogie;Ayumi Paul",
    "album": "The Nest (Original Motion Picture Soundtrack)",
    "videoId": "qaDh9v-QzOw",
    "duration": "1:42"
@@ -699,7 +699,7 @@
   },
   {
    "title": "Stargazer: VI. The Milky Way",
-   "artist": "BBC Scottish Symphony Orchestra, Timothy Redmond, & Peter Moore",
+   "artist": "BBC Scottish Symphony Orchestra;Timothy Redmond;Peter Moore",
    "album": "Beyond",
    "videoId": "hYf19FnZuMY",
    "duration": "2:42"
@@ -1798,7 +1798,7 @@
   },
   {
    "title": "Pari intervallo (version for organ)",
-   "artist": "Hans Davidsson & Arvo Part",
+   "artist": "Hans Davidsson;Arvo Part",
    "album": "Gelobet seist Du",
    "videoId": "0PV1w6ZD7yc",
    "duration": "5:49"
@@ -2113,7 +2113,7 @@
   },
   {
    "title": "UFO (Lvcchesi Dub) (feat. Lvcchesi)",
-   "artist": "I Jahbar & Brollachan",
+   "artist": "I Jahbar;Brollachan",
    "album": "Smokin' / UFO",
    "videoId": "KvUqfjLPDQU",
    "duration": "6:24"
@@ -2260,7 +2260,7 @@
   },
   {
    "title": "Forgive",
-   "artist": "Martha Skye Murphy & claire rousay",
+   "artist": "Martha Skye Murphy;claire rousay",
    "album": "Um",
    "videoId": "XvnT6JWTiH4",
    "duration": "4:17"
@@ -2351,7 +2351,7 @@
   },
   {
    "title": "The Blue Clad One",
-   "artist": "Wacław Zimpel & Michiyo Yagi",
+   "artist": "Wacław Zimpel;Michiyo Yagi",
    "album": "The Blue Clad One",
    "videoId": "Vvp_9YIxQt4",
    "duration": "8:17"
@@ -2533,7 +2533,7 @@
   },
   {
    "title": "Kalino",
-   "artist": "Michaela Antalová & Adrian Myhr",
+   "artist": "Michaela Antalová;Adrian Myhr",
    "album": "Sing Nightingale",
    "videoId": "5mZbsOsW02U",
    "duration": "2:36"

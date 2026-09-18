@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1526,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "trackCount": 1527,
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -3485,7 +3485,7 @@
   },
   {
    "title": "Designer",
-   "artist": "Valentina Soto & NYNE",
+   "artist": "Valentina Soto;NYNE",
    "album": "Designer",
    "videoId": "NR9OyPful0k",
    "duration": "3:26"
@@ -3800,7 +3800,7 @@
   },
   {
    "title": "BAP",
-   "artist": "A!MS, Dvrkskyy, & ZieZie",
+   "artist": "A!MS;Dvrkskyy;ZieZie",
    "album": "Peak Season",
    "videoId": "CbmdZmHXYd8",
    "duration": "3:09"
@@ -3961,7 +3961,7 @@
   },
   {
    "title": "Don't Go",
-   "artist": "A!MS & Liilz",
+   "artist": "A!MS;Liilz",
    "album": "Peak Season",
    "videoId": "SaaUaRRz3I4",
    "duration": "2:18"
@@ -6152,7 +6152,7 @@
   },
   {
    "title": "You're Not Good Enough",
-   "artist": "Blood Orange & Samantha Urbani",
+   "artist": "Blood Orange;Samantha Urbani",
    "album": "Cupid Deluxe",
    "videoId": "WKO2miOFFuc",
    "duration": "4:22"
@@ -10156,7 +10156,7 @@
   },
   {
    "title": "The Spins",
-   "artist": "Mac Miller & Empire Of The Sun",
+   "artist": "Mac Miller;Empire Of The Sun",
    "album": "K.I.D.S.",
    "videoId": "dZ5v9ujG35A",
    "duration": "3:16"
@@ -10568,11 +10568,11 @@
    "duration": "3:34"
   },
   {
-   "title": "Kiss Me - Radio Edit",
+   "title": "Kiss Me",
    "artist": "Sixpence None The Richer",
-   "album": "",
-   "videoId": "v45F0YesdZM",
-   "duration": "3:17"
+   "album": "Sixpence None The Richer",
+   "videoId": "K2tbQ_g2VbQ",
+   "duration": "3:29"
   },
   {
    "title": "Living Zoo",
@@ -10685,6 +10685,13 @@
    "album": "MY SKYSCRAPER",
    "videoId": "fuUpGUwGEsA",
    "duration": "9:22"
+  },
+  {
+   "title": "Big Brother",
+   "artist": "GLAIR",
+   "album": "",
+   "videoId": "BAx0HrFXBu8",
+   "duration": "1:55"
   }
  ]
 }

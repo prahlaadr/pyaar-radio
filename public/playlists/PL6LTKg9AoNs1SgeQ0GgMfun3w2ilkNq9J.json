@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
  "title": "UK GARAGE: Burial-style & Future Garage ['05-'19]",
  "trackCount": 445,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -1189,7 +1189,7 @@
   },
   {
    "title": "Hiders (From \"Creators: The Past\" Soundtrack)",
-   "artist": "Piergiuseppe Zaia, Master Track Orchestra, & Blautoene Vienna Orchestra",
+   "artist": "Piergiuseppe Zaia;Master Track Orchestra;Blautoene Vienna Orchestra",
    "album": "Creators: The Past (Original Motion Picture Soundtrack)",
    "videoId": "_dSb1IOfrWY",
    "duration": "1:58"
@@ -1224,7 +1224,7 @@
   },
   {
    "title": "Immersion",
-   "artist": "Ecepta & Azaleh",
+   "artist": "Ecepta;Azaleh",
    "album": "Sleepless",
    "videoId": "K3iQEE9upTc",
    "duration": "3:37"
@@ -2827,7 +2827,7 @@
   },
   {
    "title": "Inhale",
-   "artist": "Synkro & Faib",
+   "artist": "Synkro;Faib",
    "album": "Inhale",
    "videoId": "4XSFb5ZK_eI",
    "duration": "5:45"

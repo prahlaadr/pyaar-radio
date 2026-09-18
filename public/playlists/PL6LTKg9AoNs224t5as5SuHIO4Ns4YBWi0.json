@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs224t5as5SuHIO4Ns4YBWi0",
  "title": "in the uber home",
  "trackCount": 97,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Where Is The Sun???",
@@ -124,10 +124,10 @@
    "duration": "4:54"
   },
   {
-   "title": "Lou's Tune (feat. Moses Boyd)",
+   "title": "Lou's Tune",
    "artist": "DARGZ",
-   "album": "Lou's Tune",
-   "videoId": "GRjDOqlzu4o",
+   "album": "Happiness",
+   "videoId": "8kWNYT-yHQM",
    "duration": "1:43"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
    "title": "String Game",
-   "artist": "Aleksandir & Leyla",
+   "artist": "Aleksandir;Leyla",
    "album": "String Game",
    "videoId": "tM6rfwn2xSA",
    "duration": "5:10"
@@ -405,7 +405,7 @@
   },
   {
    "title": "Since I Lost You (feat. Giuliano Sorgini)",
-   "artist": "Alex Goose & Matt Zara",
+   "artist": "Alex Goose;Matt Zara",
    "album": "Immagini sospese",
    "videoId": "mfkLP4eDUOY",
    "duration": "3:17"
@@ -503,7 +503,7 @@
   },
   {
    "title": "Velasquez / The Edge You Always Loved in Me (Live)",
-   "artist": "Kip Hanrahan, Charles Neville, Jack Bruce, Andy Gonzalez, Giovanni Hidalgo, Milton Cardona, Chico Freeman, Ignacio Berroa, Steve Berrios, Anton Fier, and Alberto Bengolea",
+   "artist": "Kip Hanrahan;Charles Neville;Jack Bruce;Andy Gonzalez",
    "album": "Drawn from Memory",
    "videoId": "Ug6LltRgZnI",
    "duration": "10:22"

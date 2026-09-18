@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1dJQQQ5zNi2517gKoqh09D",
  "title": "DAYTIMERS presents",
  "trackCount": 100,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Tere Bina (DAYTIMERS Presents: Alterations)",
@@ -83,7 +83,7 @@
   },
   {
    "title": "End the Occupation Now (Allstar Remix) (feat. yeguachita, SCAPA & Rizmi)",
-   "artist": "Samrai & Rootz & Renee Stormz, Samrai, Rootz, and Renee Stormz",
+   "artist": "Samrai & Rootz & Renee Stormz;Samrai;Rootz;Renee Stormz",
    "album": "End the Occupation Now (Allstar Remix)",
    "videoId": "WRqj24MQeCU",
    "duration": "3:33"
@@ -111,7 +111,7 @@
   },
   {
    "title": "she's got heart",
-   "artist": "Kizzi & shaani",
+   "artist": "Kizzi;shaani",
    "album": "she's got heart",
    "videoId": "CKJS-Ib8920",
    "duration": "3:03"
@@ -146,14 +146,14 @@
   },
   {
    "title": "Ode To India Freestyle",
-   "artist": "Scotty IV & Noyz",
+   "artist": "Scotty IV;Noyz",
    "album": "Ode To India Freestyle",
    "videoId": "jUSpfpMd8iI",
    "duration": "1:11"
   },
   {
    "title": "The Morning",
-   "artist": "Laurence Guy & Surya Sen",
+   "artist": "Laurence Guy;Surya Sen",
    "album": "The Morning",
    "videoId": "8X-H0ROGzpc",
    "duration": "3:12"
@@ -167,7 +167,7 @@
   },
   {
    "title": "A Little Hope",
-   "artist": "Zar, Mandeep., & ZarDeep",
+   "artist": "Zar;Mandeep.;ZarDeep",
    "album": "A Little Hope",
    "videoId": "AX6tD57g_Io",
    "duration": "1:34"
@@ -447,7 +447,7 @@
   },
   {
    "title": "But Cherries Stained Her Lips",
-   "artist": "Works Of Intent & Channan Hanif",
+   "artist": "Works Of Intent;Channan Hanif",
    "album": "Path Integral IX",
    "videoId": "qCMDE9BP71M",
    "duration": "7:30"
@@ -531,7 +531,7 @@
   },
   {
    "title": "Break Off Your Back",
-   "artist": "yourboykiran & Darama",
+   "artist": "yourboykiran;Darama",
    "album": "Disconnect",
    "videoId": "tqnWLY7Nzrk",
    "duration": "3:48"
@@ -552,7 +552,7 @@
   },
   {
    "title": "Rattle",
-   "artist": "Darama & Kush Arora",
+   "artist": "Darama;Kush Arora",
    "album": "Rattle",
    "videoId": "SEipStl4Wgo",
    "duration": "4:50"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Chameleon",
-   "artist": "Malfnktion & MadStarbase",
+   "artist": "Malfnktion;MadStarbase",
    "album": "India Gets Physical, Vol. 1 - Mixed & Compiled by Todh Teri",
    "videoId": "W-ar6Cjnw6g",
    "duration": "3:28"
@@ -699,7 +699,7 @@
   },
   {
    "title": "Tere Bina ",
-   "artist": "A.R. Rahman, Chinmayi, Murtuza Khan, and Qadir Khan",
+   "artist": "A.R. Rahman;Chinmayi;Murtuza Khan;Qadir Khan",
    "album": "Guru (Original Motion Picture Soundtrack)",
    "videoId": "Fi3GovijpWA",
    "duration": "5:10"

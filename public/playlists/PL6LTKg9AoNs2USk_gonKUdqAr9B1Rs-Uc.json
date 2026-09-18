@@ -2,11 +2,11 @@
  "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
  "title": "NTS LIVE",
  "trackCount": 1037,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Once Again (Kuniyuki Version) (Mix Cut)",
-   "artist": "Henrik Schwarz & Kuniyuki",
+   "artist": "Henrik Schwarz;Kuniyuki",
    "album": "Balance 017 (Mixed by Timo Maas) (Mixed Version)",
    "videoId": "H17zttumd2M",
    "duration": "6:16"
@@ -1840,7 +1840,7 @@
   },
   {
    "title": "You're So Good to Me",
-   "artist": "The Love Affair & Troy Raglin",
+   "artist": "The Love Affair;Troy Raglin",
    "album": "Inner City Review",
    "videoId": "-2X_jjw8g7c",
    "duration": "2:36"
@@ -2003,7 +2003,7 @@
    "title": "Iron Galaxy",
    "artist": "Cannibal Ox",
    "album": "The Cold Vein (Deluxe Edition)",
-   "videoId": "R3L1zyEz5CQ",
+   "videoId": "dcWgUXEsdnE",
    "duration": "5:57"
   },
   {
@@ -2470,7 +2470,7 @@
   },
   {
    "title": "Ghost Valley",
-   "artist": "Bostro Pesopeo, Benjamin Fröhlich, & Invisible Temple",
+   "artist": "Bostro Pesopeo;Benjamin Fröhlich;Invisible Temple",
    "album": "Self Hypnosis",
    "videoId": "jIkI_W-wp0Y",
    "duration": "4:14"
@@ -2764,7 +2764,7 @@
   },
   {
    "title": "Falling In Love",
-   "artist": "System Olympia & P Nut",
+   "artist": "System Olympia;P Nut",
    "album": "Falling In Love",
    "videoId": "n1-DClR_jRU",
    "duration": "4:39"
@@ -3436,7 +3436,7 @@
   },
   {
    "title": "Invisible Spectrum",
-   "artist": "Chaos In the CBD & Isaac Aesili",
+   "artist": "Chaos In the CBD;Isaac Aesili",
    "album": "Invisible Spectrum",
    "videoId": "IS7Kw-Vh26c",
    "duration": "10:37"
@@ -3611,7 +3611,7 @@
   },
   {
    "title": "Dreaming Our Live Away",
-   "artist": "Peoples Pleasure & Alive and Well",
+   "artist": "Peoples Pleasure;Alive and Well",
    "album": "Do You Hear Me Talking to You?",
    "videoId": "b0a71cXttCg",
    "duration": "3:38"
@@ -3786,7 +3786,7 @@
   },
   {
    "title": "Crying Tafel",
-   "artist": "Manos Tsangaris & Lion's Drums",
+   "artist": "Manos Tsangaris;Lion's Drums",
    "album": "La Batterie",
    "videoId": "BE-VV6mAtvk",
    "duration": "7:48"
@@ -4003,7 +4003,7 @@
   },
   {
    "title": "Maypole Theme (Looming Giant Mix)",
-   "artist": "Roza Terenzi, D. Tiffany, & Tapestry Of Sound",
+   "artist": "Roza Terenzi;D. Tiffany;Tapestry Of Sound",
    "album": "Step Ball Chain",
    "videoId": "t5_fPbJ4sec",
    "duration": "5:00"
@@ -4388,7 +4388,7 @@
   },
   {
    "title": "Jeku II",
-   "artist": "Chris Wild & J. Austin Wulliman",
+   "artist": "Chris Wild;J. Austin Wulliman",
    "album": "Abhanden",
    "videoId": "bUMmza5PufA",
    "duration": "8:59"
@@ -4465,7 +4465,7 @@
   },
   {
    "title": "Elezon",
-   "artist": "suki & Sniper1",
+   "artist": "suki;Sniper1",
    "album": "Rhythm Export EP",
    "videoId": "PTl-wIgY7gA",
    "duration": "5:47"
@@ -5004,7 +5004,7 @@
   },
   {
    "title": "Signs of Sorrow",
-   "artist": "Kimshies, You Man, & S//ROSE",
+   "artist": "Kimshies;You Man;S//ROSE",
    "album": "Signs of Sorrow",
    "videoId": "OMEitF7_dZA",
    "duration": "5:34"
@@ -6152,7 +6152,7 @@
   },
   {
    "title": "Temple of Love",
-   "artist": "Len Faki & Honey Dijon",
+   "artist": "Len Faki;Honey Dijon",
    "album": "Ostgut Ton Fünfzehn + 1",
    "videoId": "w7FB8wKprHM",
    "duration": "9:53"
@@ -6866,7 +6866,7 @@
   },
   {
    "title": "The Story Behind",
-   "artist": "Echonomist & OVEOUS",
+   "artist": "Echonomist;OVEOUS",
    "album": "The Story Behind",
    "videoId": "Y4uiffKwLxE",
    "duration": "3:30"
@@ -6936,7 +6936,7 @@
   },
   {
    "title": "Memory High",
-   "artist": "Data Plan & 11:68PM",
+   "artist": "Data Plan;11:68PM",
    "album": "FAW002 HOVER CAPSULE",
    "videoId": "U7Rv_dXL6FY",
    "duration": "6:06"
@@ -7006,7 +7006,7 @@
   },
   {
    "title": "Might be the One",
-   "artist": "James Massiah meets Lord Tusk, James Massiah, & Lord Tusk",
+   "artist": "James Massiah meets Lord Tusk;James Massiah;Lord Tusk",
    "album": "Might Be The One",
    "videoId": "jCdWtgwMeBU",
    "duration": "4:13"
@@ -7230,7 +7230,7 @@
   },
   {
    "title": "Subterranean",
-   "artist": "Tim Reaper & Comfort Zone",
+   "artist": "Tim Reaper;Comfort Zone",
    "album": "20 Years Of Phonica",
    "videoId": "q6lzJDvUNcw",
    "duration": "5:27"

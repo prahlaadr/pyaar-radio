@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3dXrbb3s6xVNVe-6FnA0mb",
  "title": "Jooli 22",
  "trackCount": 60,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Prince Charming",
@@ -69,9 +69,9 @@
   },
   {
    "title": "Arya",
-   "artist": "A$AP Rocky & Nigo",
+   "artist": "A$AP Rocky;Nigo",
    "album": "I Know NIGO!",
-   "videoId": "Rpy-9Pn1W7A",
+   "videoId": "KqMX43VFy_g",
    "duration": "2:43"
   },
   {
@@ -174,7 +174,7 @@
   },
   {
    "title": "GRAVITY",
-   "artist": "Brent Faiyaz, DJ Dahi, & Tyler The Creator",
+   "artist": "Brent Faiyaz;DJ Dahi;Tyler The Creator",
    "album": "WASTELAND",
    "videoId": "Pp-pElPOeyA",
    "duration": "3:41"
@@ -209,7 +209,7 @@
   },
   {
    "title": "GHETTO GATSBY",
-   "artist": "Brent Faiyaz & Alicia Keys",
+   "artist": "Brent Faiyaz;Alicia Keys",
    "album": "WASTELAND",
    "videoId": "jfD-4XbPty8",
    "duration": "3:19"
@@ -251,7 +251,7 @@
   },
   {
    "title": "ADDICTIONS",
-   "artist": "Brent Faiyaz & Tre Amani",
+   "artist": "Brent Faiyaz;Tre Amani",
    "album": "WASTELAND",
    "videoId": "lpXcrot2vZY",
    "duration": "3:13"
@@ -411,10 +411,10 @@
    "duration": "2:27"
   },
   {
-   "title": "Lost and Found Freestyle 2019",
-   "artist": "A$AP Rocky, Tyler, The Creator, & Nigo",
+   "title": "Lost and Found (Freestyle 2019)",
+   "artist": "A$AP Rocky;Tyler, The Creator;Nigo",
    "album": "I Know NIGO!",
-   "videoId": "ttKJ4n8XoCE",
+   "videoId": "r4rgmKnwq44",
    "duration": "2:55"
   },
   {

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
  "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
  "trackCount": 1315,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Bikini",
@@ -41,7 +41,7 @@
   },
   {
    "title": "DIAGONAL (Dub Mix)",
-   "artist": "RHR & LOGAN_OLM",
+   "artist": "RHR;LOGAN_OLM",
    "album": "EN-GIRO",
    "videoId": "BHykRRMUVRY",
    "duration": "4:52"
@@ -643,7 +643,7 @@
   },
   {
    "title": "Emonate Oe Bethela D Vosho",
-   "artist": "DJ Black Low, Kapzela, Licy Jay, and MLG",
+   "artist": "DJ Black Low;Kapzela;Licy Jay;MLG",
    "album": "Uwami",
    "videoId": "5LM3XE8A3H8",
    "duration": "5:09"
@@ -734,7 +734,7 @@
   },
   {
    "title": "Badder",
-   "artist": "Calibre, DRS, & Mark Ernestus",
+   "artist": "Calibre;DRS;Mark Ernestus",
    "album": "Bad / Badder",
    "videoId": "wM50aj180iY",
    "duration": "6:35"
@@ -1336,7 +1336,7 @@
   },
   {
    "title": "Belter - Joy O Belly Mix",
-   "artist": "Off The Meds & Joy Orbison",
+   "artist": "Off The Meds;Joy Orbison",
    "album": "Belter (Incl. Joy O Remix)",
    "videoId": "-fI_4wPUSVE",
    "duration": "8:04"
@@ -2477,7 +2477,7 @@
   },
   {
    "title": "Just Off Wave (feat. Separated At Birth)",
-   "artist": "CZ Wang & Neo Image",
+   "artist": "CZ Wang;Neo Image",
    "album": "Just Off Wave / Open Mic Beat",
    "videoId": "d1e4P-rFYBU",
    "duration": "5:24"
@@ -5116,7 +5116,7 @@
   },
   {
    "title": "Sideral feat. John Talabot, Axel Boman - Matt Karmil",
-   "artist": "Talaboman, John Talabot, Axel Boman, and Matt Karmil",
+   "artist": "Talaboman;John Talabot;Axel Boman;Matt Karmil",
    "album": "Sideral feat. John Talabot, Axel Boman",
    "videoId": "N27UKbLBbxo",
    "duration": "8:30"
@@ -5424,7 +5424,7 @@
   },
   {
    "title": "The Infamous",
-   "artist": "Butch & C.Vogt",
+   "artist": "Butch;C.Vogt",
    "album": "The Infamous",
    "videoId": "WPnP93NFBBE",
    "duration": "8:20"
@@ -5613,7 +5613,7 @@
   },
   {
    "title": "The Infamous (Robytek Vs Shield Re-Edit)",
-   "artist": "Butch & C.Vogt",
+   "artist": "Butch;C.Vogt",
    "album": "The Infamous",
    "videoId": "gzpnEOkTuCM",
    "duration": "7:15"
@@ -7881,7 +7881,7 @@
   },
   {
    "title": "Go Deep",
-   "artist": "Willie Graff & Tuccillo",
+   "artist": "Willie Graff;Tuccillo",
    "album": "Poseidonia",
    "videoId": "2Fm6VSR4ODA",
    "duration": "8:21"

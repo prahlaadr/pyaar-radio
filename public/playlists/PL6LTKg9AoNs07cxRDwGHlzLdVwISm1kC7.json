@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs07cxRDwGHlzLdVwISm1kC7",
  "title": "Aprul 23",
  "trackCount": 44,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "WHARF TALK (feat. A$AP Rocky)",
@@ -83,7 +83,7 @@
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "album": "KAYTRAMINÉ",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
@@ -223,7 +223,7 @@
   },
   {
    "title": "esperança",
-   "artist": "Munir Hossn & Ganavya",
+   "artist": "Munir Hossn;Ganavya",
    "album": "sister, idea",
    "videoId": "xDQd5NYyJR0",
    "duration": "3:26"
@@ -251,7 +251,7 @@
   },
   {
    "title": "Round Of Applause",
-   "artist": "2oo7 & Tony Shhnow",
+   "artist": "2oo7;Tony Shhnow",
    "album": "Round Of Applause",
    "videoId": "-t8DiOI7wA4",
    "duration": "2:38"

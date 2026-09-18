@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
  "title": "DAR DISKU FM",
  "trackCount": 933,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Helel Yos",
@@ -167,7 +167,7 @@
   },
   {
    "title": "Crystalline",
-   "artist": "Björk & Omar Souleyman Group",
+   "artist": "Björk;Omar Souleyman Group",
    "album": "The Crystalline Series - Omar Souleyman",
    "videoId": "CUo4BLYQEow",
    "duration": "6:41"
@@ -1833,7 +1833,7 @@
   },
   {
    "title": "Sé dam' bonjou",
-   "artist": "Kassav' & Jean-Pierre Ramirez",
+   "artist": "Kassav';Jean-Pierre Ramirez",
    "album": "Le Meilleur de Kassav'",
    "videoId": "1JCM-UDzesg",
    "duration": "4:12"
@@ -2106,7 +2106,7 @@
   },
   {
    "title": "Ek Ladka",
-   "artist": "Suchitra Krishnamurthy & Rahman Rajan",
+   "artist": "Suchitra Krishnamurthy;Rahman Rajan",
    "album": "Dole Dole",
    "videoId": "vFhb4qWWIC0",
    "duration": "4:25"
@@ -2624,7 +2624,7 @@
   },
   {
    "title": "Petu (Radio Edit)",
-   "artist": "Nonku Phiri & Palms Trax",
+   "artist": "Nonku Phiri;Palms Trax",
    "album": "Petu (Radio Edit)",
    "videoId": "zkEpPPgL9Mc",
    "duration": "4:07"
@@ -3093,7 +3093,7 @@
   },
   {
    "title": "Body Fidelity (Radio Mix)",
-   "artist": "Rog'e & Tanya Stevens",
+   "artist": "Rog'e;Tanya Stevens",
    "album": "Body Fidelity",
    "videoId": "1N6AzROlrt8",
    "duration": "4:14"
@@ -3443,7 +3443,7 @@
   },
   {
    "title": "في السماء (Fe Samaa)",
-   "artist": "Bawrut & GLITTER55",
+   "artist": "Bawrut;GLITTER55",
    "album": "في السماء (Fe Samaa)",
    "videoId": "SLQW811MInU",
    "duration": "3:54"
@@ -4087,7 +4087,7 @@
   },
   {
    "title": "De Diya Dil Piya",
-   "artist": "Sonu Nigam & Alisha Chinoy",
+   "artist": "Sonu Nigam;Alisha Chinoy",
    "album": "Fix to Mix, Vol. 4 (DJ Mix Version)",
    "videoId": "h4s4_mb37M4",
    "duration": "5:53"
@@ -4598,7 +4598,7 @@
   },
   {
    "title": "Reach Out",
-   "artist": "Luca Dell'Orso & Jolisa",
+   "artist": "Luca Dell'Orso;Jolisa",
    "album": "The Jolisa EP",
    "videoId": "kNxXdgrTBAQ",
    "duration": "5:31"
@@ -4619,7 +4619,7 @@
   },
   {
    "title": "The First",
-   "artist": "SONLIFE & Sadeedo",
+   "artist": "SONLIFE;Sadeedo",
    "album": "The First Remixes",
    "videoId": "MGCk28wnMU0",
    "duration": "5:15"
@@ -5361,7 +5361,7 @@
   },
   {
    "title": "Yaar Noo Manaa",
-   "artist": "Tigerstyle & Hema Sharma",
+   "artist": "Tigerstyle;Hema Sharma",
    "album": "Extended Play",
    "videoId": "DFBhvAA0X_c",
    "duration": "5:15"
@@ -5550,7 +5550,7 @@
   },
   {
    "title": "Takve Badami Naina Waliya",
-   "artist": "3 Little Boys, Noor Jehan, & Pakistani Remix",
+   "artist": "3 Little Boys;Noor Jehan;Pakistani Remix",
    "album": "Noor Jehan Remix 3 (Queen of Melody)",
    "videoId": "WBsuLoGMSB4",
    "duration": "4:03"
@@ -6040,7 +6040,7 @@
   },
   {
    "title": "Closer to Heaven",
-   "artist": "Voyage & Sylvia Mason",
+   "artist": "Voyage;Sylvia Mason",
    "album": "Voyage presents Sylvia Mason",
    "videoId": "62cOtnakzjs",
    "duration": "4:40"
@@ -6348,7 +6348,7 @@
   },
   {
    "title": "Take Me With U",
-   "artist": "Balout Krew & laxfilet",
+   "artist": "Balout Krew;laxfilet",
    "album": "Darbuka King",
    "videoId": "71DOFkLJOCY",
    "duration": "4:21"

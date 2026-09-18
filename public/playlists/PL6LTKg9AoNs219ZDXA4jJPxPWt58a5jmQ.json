@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs219ZDXA4jJPxPWt58a5jmQ",
  "title": "Dark Drumfunk (Pinecone Moonshine and other dark / experimental / drum music)",
  "trackCount": 554,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Tiger In Tow (TouchTalk Remix) (feat. Angela Sheik)",
@@ -1812,7 +1812,7 @@
   },
   {
    "title": "Mount Erebus (Indidjinous Remix)",
-   "artist": "Flatliners & Mental Forces",
+   "artist": "Flatliners;Mental Forces",
    "album": "Pinecone Moonshine: Anomalous Fragments",
    "videoId": "eISRofOn9xw",
    "duration": "6:16"
@@ -2001,7 +2001,7 @@
   },
   {
    "title": "Network",
-   "artist": "Scale & Acid Lab",
+   "artist": "Scale;Acid Lab",
    "album": "Pinecone Moonshine: Up the Stream",
    "videoId": "-ca2N0bwGAI",
    "duration": "5:48"
@@ -2071,7 +2071,7 @@
   },
   {
    "title": "Because Tomorrow I Won't",
-   "artist": "Nic TVG & Dot Notation",
+   "artist": "Nic TVG;Dot Notation",
    "album": "Pinecone Moonshine Vector Space",
    "videoId": "PPTdm948_uU",
    "duration": "5:43"
@@ -3065,7 +3065,7 @@
   },
   {
    "title": "Girl With Guns On Her Neck",
-   "artist": "Nic Tvg & Eschaton",
+   "artist": "Nic Tvg;Eschaton",
    "album": "Subtle Audio, Vol. III (Double Album + DJ Mix)",
    "videoId": "sGaMDyBheaI",
    "duration": "5:50"
@@ -3681,7 +3681,7 @@
   },
   {
    "title": "VIP",
-   "artist": "Ederra & Xam2",
+   "artist": "Ederra;Xam2",
    "album": "Lunatic",
    "videoId": "TUT1aEMlCL8",
    "duration": "3:33"

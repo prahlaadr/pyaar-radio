@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2rX0De_HNLXFBzzCo_heLP",
  "title": "JYOTY RADIO",
  "trackCount": 104,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Dopamine",
@@ -34,7 +34,7 @@
   },
   {
    "title": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor & Brazy)",
-   "artist": "Kelela, Flexulant, BAMBII, Rahrah Gabor, and Brazy",
+   "artist": "Kelela;Flexulant;BAMBII;Rahrah Gabor",
    "album": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor + brazy)",
    "videoId": "Ff0XkPzXkM4",
    "duration": "4:47"
@@ -69,7 +69,7 @@
   },
   {
    "title": "Nightryde",
-   "artist": "Karen Nyame KG & Leonce",
+   "artist": "Karen Nyame KG;Leonce",
    "album": "RED EP",
    "videoId": "IyO2uvn8QKM",
    "duration": "2:44"
@@ -83,14 +83,14 @@
   },
   {
    "title": "Jugni",
-   "artist": "Juss Nandhra & Jungli",
+   "artist": "Juss Nandhra;Jungli",
    "album": "Jugni",
    "videoId": "SeRzMrY5e_E",
    "duration": "3:41"
   },
   {
    "title": "The Good Fight",
-   "artist": "Lord Apex & Madlib",
+   "artist": "Lord Apex;Madlib",
    "album": "The Good Fight",
    "videoId": "q1nxzRKu3Yo",
    "duration": "3:57"
@@ -216,7 +216,7 @@
   },
   {
    "title": "Ode To India Freestyle",
-   "artist": "Scotty IV & Noyz",
+   "artist": "Scotty IV;Noyz",
    "album": "Ode To India Freestyle",
    "videoId": "jUSpfpMd8iI",
    "duration": "1:11"
@@ -405,7 +405,7 @@
   },
   {
    "title": "Phoenix",
-   "artist": "Lord Apex & Freddie Gibbs",
+   "artist": "Lord Apex;Freddie Gibbs",
    "album": "Phoenix",
    "videoId": "21MklYIEaB4",
    "duration": "3:34"
@@ -657,7 +657,7 @@
   },
   {
    "title": "Create Your Own Bless",
-   "artist": "Samrai & Fox",
+   "artist": "Samrai;Fox",
    "album": "Create Your Own Bless/Dirty Dirty",
    "videoId": "_eSWu1Se8ZU",
    "duration": "3:44"
@@ -685,7 +685,7 @@
   },
   {
    "title": "Can We Do This?",
-   "artist": "Speakers Corner Quartet, Kwake Bass, Raven Bush, Peter Bennie, Biscuit, and Sampha",
+   "artist": "Speakers Corner Quartet;Kwake Bass;Raven Bush;Peter Bennie",
    "album": "Further Out Than The Edge",
    "videoId": "SNf43Ohh5Yc",
    "duration": "2:58"

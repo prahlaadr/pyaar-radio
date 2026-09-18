@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -6670,7 +6670,7 @@
   },
   {
    "title": "Act I: Waltz of the Snowflakes",
-   "artist": "George Balanchine's The Nutcracker & Pyotr Ilyich Tchaikovsky",
+   "artist": "George Balanchine's The Nutcracker;Pyotr Ilyich Tchaikovsky",
    "album": "George Balanchine's The Nutcracker - Music From The Original Soundtrack",
    "videoId": "nNxYssPf7sI",
    "duration": "6:01"
@@ -6929,7 +6929,7 @@
   },
   {
    "title": "You Don't Have To Worry",
-   "artist": "Doris & Kelley",
+   "artist": "Doris;Kelley",
    "album": "You Don't Have To Worry",
    "videoId": "ZrF-Ntkx5ao",
    "duration": "2:43"
@@ -9078,14 +9078,14 @@
   },
   {
    "title": "I Knew It",
-   "artist": "СОЮЗ & Kate NV",
+   "artist": "СОЮЗ;Kate NV",
    "album": "I Knew It",
    "videoId": "6yMRCbFYsZE",
    "duration": "4:06"
   },
   {
    "title": "A Night Thought",
-   "artist": "Pigeondust & Sugarloaf",
+   "artist": "Pigeondust;Sugarloaf",
    "album": "Moon, Wisdom & Slackness",
    "videoId": "RoVtQuCMPRs",
    "duration": "3:18"
@@ -9365,7 +9365,7 @@
   },
   {
    "title": "After Laughter (Comes Tears) (Sweet Tea Cover)",
-   "artist": "Sweet Tea, Alex Maas, & Erika Wennerstrom",
+   "artist": "Sweet Tea;Alex Maas;Erika Wennerstrom",
    "album": "Light In The Attic 10 Year Anniversary: Wendy Rene \"After Laughter (Comes Tears)\"",
    "videoId": "YHWRp0cQ8sA",
    "duration": "3:29"
@@ -9498,7 +9498,7 @@
   },
   {
    "title": "back to me",
-   "artist": "B-Side, Tesk, & Flitz&Suppe",
+   "artist": "B-Side;Tesk;Flitz&Suppe",
    "album": "back to me",
    "videoId": "K1W-kfHQb_8",
    "duration": "2:25"
@@ -10394,7 +10394,7 @@
   },
   {
    "title": "You and Me",
-   "artist": "Dr. Dundiff, Otis Junior, & Asulin",
+   "artist": "Dr. Dundiff;Otis Junior;Asulin",
    "album": "Rising with It",
    "videoId": "EIgTySNhWU4",
    "duration": "3:56"
@@ -10695,7 +10695,7 @@
   },
   {
    "title": "No One Else's",
-   "artist": "Repeat Pattern & Ta-ku",
+   "artist": "Repeat Pattern;Ta-ku",
    "album": "BRRWD Love, Vol. 1",
    "videoId": "r9zfpl1s8iA",
    "duration": "2:04"
@@ -10718,7 +10718,7 @@
    "title": "Cut the Jazz",
    "artist": "De-Phazz",
    "album": "Detunized Gravity",
-   "videoId": "qF11OFLHKkU",
+   "videoId": "ZrkzZ3OEkyc",
    "duration": "5:13"
   },
   {
@@ -10829,9 +10829,9 @@
   {
    "title": "Heart of Gold",
    "artist": "Neil Young",
-   "album": "Eat Pray Love (Original Motion Picture Soundtrack)",
-   "videoId": "DlAqfWqC3ig",
-   "duration": "3:09"
+   "album": "Greatest Hits",
+   "videoId": "z4gry5LWjoY",
+   "duration": "3:08"
   },
   {
    "title": "Her Smile",
@@ -10863,7 +10863,7 @@
   },
   {
    "title": "Claer",
-   "artist": "Millennium Jazz Music & Rami.B(izzle)",
+   "artist": "Millennium Jazz Music;Rami.B(izzle)",
    "album": "Project Canada: On the Radar, Vol.1",
    "videoId": "HIVsvd4j9iU",
    "duration": "4:03"
@@ -12774,7 +12774,7 @@
   },
   {
    "title": "Papa Was a Rolling Stone",
-   "artist": "Sidney Crooks, George Agard, & Jackie Robinson",
+   "artist": "Sidney Crooks;George Agard;Jackie Robinson",
    "album": "Give and Take - The Best of The Pioneers",
    "videoId": "8JztSFEYoTk",
    "duration": "4:50"
@@ -13453,7 +13453,7 @@
   },
   {
    "title": "Time",
-   "artist": "Donny Vox, Basti Rössler, Patrick Metzger, and Sebastien Wittmann",
+   "artist": "Donny Vox;Basti Rössler;Patrick Metzger;Sebastien Wittmann",
    "album": "Best of Greatest Hits - Donny Vox",
    "videoId": "SNJ06KZ4rDc",
    "duration": "4:04"
@@ -14370,7 +14370,7 @@
   },
   {
    "title": "Song for my Father (Arr. by Isabelle Postill)",
-   "artist": "Rob Townsend, Orlando Le Fleming, Tristan Mailliot, and Gareth Williams",
+   "artist": "Rob Townsend;Orlando Le Fleming;Tristan Mailliot;Gareth Williams",
    "album": "Jazz Tenor Sax Tunes, ABRSM Grade 2",
    "videoId": "GdXDfHY6Y2I",
    "duration": "1:48"
@@ -14657,7 +14657,7 @@
   },
   {
    "title": "Headgames",
-   "artist": "Swarvy & Matthew Houston",
+   "artist": "Swarvy;Matthew Houston",
    "album": "Elderberry",
    "videoId": "7nsb6XcyC2w",
    "duration": "2:22"
@@ -14804,7 +14804,7 @@
   },
   {
    "title": "Elderberry",
-   "artist": "Swarvy, Josh Hey, & Matthew Houston",
+   "artist": "Swarvy;Josh Hey;Matthew Houston",
    "album": "Elderberry",
    "videoId": "Ei0RhtvZa6c",
    "duration": "3:08"
@@ -15441,7 +15441,7 @@
   },
   {
    "title": "Wind Waker",
-   "artist": "Samwise & johto",
+   "artist": "Samwise;johto",
    "album": "1995",
    "videoId": "I2W3WcJCf0Q",
    "duration": "2:22"

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3j5q6X-TrgflTnxiePneM3",
  "title": "Cole Bennett - Lyrical Lemonade",
  "trackCount": 435,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Gucci Chanel",
@@ -216,7 +216,7 @@
   },
   {
    "title": "Poles 1469",
-   "artist": "Trippie Redd & 6ix9ine",
+   "artist": "Trippie Redd;6ix9ine",
    "album": "A Love Letter To You",
    "videoId": "2uvcGV_2TRw",
    "duration": "2:30"
@@ -2302,7 +2302,7 @@
   },
   {
    "title": "Glitter",
-   "artist": "Bhavi, Paco Amoroso, & Halpe",
+   "artist": "Bhavi;Paco Amoroso;Halpe",
    "album": "Glitter",
    "videoId": "eAU0PDDLOpg",
    "duration": "2:14"
@@ -2554,7 +2554,7 @@
   },
   {
    "title": "Right Now (feat. Cochise)",
-   "artist": "Internet Money & TyFontaine",
+   "artist": "Internet Money;TyFontaine",
    "album": "B4 The Storm",
    "videoId": "6WHhnUAiPr8",
    "duration": "2:59"
@@ -2827,7 +2827,7 @@
   },
   {
    "title": "14",
-   "artist": "BabySantana & KA$HDAMI",
+   "artist": "BabySantana;KA$HDAMI",
    "album": "14",
    "videoId": "koDMbAYqpQc",
    "duration": "2:31"

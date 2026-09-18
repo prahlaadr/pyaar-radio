@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
  "title": "June 24",
  "trackCount": 115,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Authority Figure (feat. Valee)",
@@ -265,7 +265,7 @@
   },
   {
    "title": "Gimme A Second 2",
-   "artist": "Rich The Kid & Kanye West",
+   "artist": "Rich The Kid;Kanye West",
    "album": "Gimme A Second 2",
    "videoId": "IxBQEQQhWbA",
    "duration": "2:52"
@@ -321,7 +321,7 @@
   },
   {
    "title": "Best to You",
-   "artist": "Blood Orange & Empress Of",
+   "artist": "Blood Orange;Empress Of",
    "album": "Freetown Sound",
    "videoId": "ACinCwmWalY",
    "duration": "3:46"

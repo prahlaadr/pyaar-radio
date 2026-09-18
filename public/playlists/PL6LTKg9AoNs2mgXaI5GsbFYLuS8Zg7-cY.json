@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
  "title": "Leftfield Bass",
  "trackCount": 2104,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Backyard",
@@ -118,7 +118,7 @@
   },
   {
    "title": "Big 45 (Cimm Remix)",
-   "artist": "Silkie & Cimm",
+   "artist": "Silkie;Cimm",
    "album": "Panorama",
    "videoId": "7r_-_OcB82E",
    "duration": "4:48"
@@ -419,7 +419,7 @@
   },
   {
    "title": "Juus",
-   "artist": "Ome & Yoofee",
+   "artist": "Ome;Yoofee",
    "album": "WAEV019",
    "videoId": "0brjutprHe8",
    "duration": "4:03"
@@ -447,7 +447,7 @@
   },
   {
    "title": "Despair (Wraz Remix.)",
-   "artist": "Substance & Wraz.",
+   "artist": "Substance;Wraz.",
    "album": "Darkside",
    "videoId": "4c6rEwC09No",
    "duration": "3:12"
@@ -524,7 +524,7 @@
   },
   {
    "title": "You're My (feat. Phephe)",
-   "artist": "Von D & Mr Lager",
+   "artist": "Von D;Mr Lager",
    "album": "Daydreaming",
    "videoId": "4wbKh-gngOA",
    "duration": "5:46"
@@ -727,7 +727,7 @@
   },
   {
    "title": "Far Out",
-   "artist": "Somah & Surreal",
+   "artist": "Somah;Surreal",
    "album": "Polar Bear",
    "videoId": "WbmJO51Ua9k",
    "duration": "4:37"
@@ -902,7 +902,7 @@
   },
   {
    "title": "Leroy's Sax Version",
-   "artist": "ickle & Hotsteppas",
+   "artist": "ickle;Hotsteppas",
    "album": "No Love No Peace EP",
    "videoId": "9zsxlqcKjRQ",
    "duration": "3:38"
@@ -958,7 +958,7 @@
   },
   {
    "title": "Rost",
-   "artist": "Soukah, Primer, & T.A.R",
+   "artist": "Soukah;Primer;T.A.R",
    "album": "RARE7",
    "videoId": "N406t2qA6RM",
    "duration": "4:28"
@@ -993,7 +993,7 @@
   },
   {
    "title": "Where Do We Go Wrong",
-   "artist": "Tour de Force & Luciano",
+   "artist": "Tour de Force;Luciano",
    "album": "Battle Cry",
    "videoId": "Jd7ukG43QMY",
    "duration": "4:10"
@@ -1161,7 +1161,7 @@
   },
   {
    "title": "Chop City",
-   "artist": "Raikov & Vaxiom",
+   "artist": "Raikov;Vaxiom",
    "album": "For The Heads Compilation Vol. 4",
    "videoId": "kHGD30RjElA",
    "duration": "5:04"
@@ -1273,7 +1273,7 @@
   },
   {
    "title": "Falling Down",
-   "artist": "Mystic State & Jack Flynn-Oakley",
+   "artist": "Mystic State;Jack Flynn-Oakley",
    "album": "Stutter - EP",
    "videoId": "g9Lk3tYNSkY",
    "duration": "5:33"
@@ -1343,7 +1343,7 @@
   },
   {
    "title": "Amazon Dub",
-   "artist": "Sub Basics & Lo Chi",
+   "artist": "Sub Basics;Lo Chi",
    "album": "Nomad",
    "videoId": "wxPwXme3XH8",
    "duration": "5:57"
@@ -1462,7 +1462,7 @@
   },
   {
    "title": "Banshee",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "Banshee EP",
    "videoId": "xuM6U0WfMFo",
    "duration": "3:43"
@@ -1609,7 +1609,7 @@
   },
   {
    "title": "Wartime Dub",
-   "artist": "Mikrodot & Six Chakra",
+   "artist": "Mikrodot;Six Chakra",
    "album": "Telepathic EP",
    "videoId": "9_GhqhtRwCM",
    "duration": "4:27"
@@ -1623,7 +1623,7 @@
   },
   {
    "title": "Rancor",
-   "artist": "No Remorse & Inyoka",
+   "artist": "No Remorse;Inyoka",
    "album": "Rancor / Flight Risk",
    "videoId": "euZv_AZwEzc",
    "duration": "4:50"
@@ -1721,14 +1721,14 @@
   },
   {
    "title": "Journey (Mystic State Remix)",
-   "artist": "Zar, Aya Dia, & Mystic State",
+   "artist": "Zar;Aya Dia;Mystic State",
    "album": "Journey",
    "videoId": "G8uRSz-Kwa4",
    "duration": "5:11"
   },
   {
    "title": "Dem Break",
-   "artist": "LAS & Mikael",
+   "artist": "LAS;Mikael",
    "album": "Las x Mikael",
    "videoId": "ju0RMoFE7P0",
    "duration": "5:05"
@@ -1833,7 +1833,7 @@
   },
   {
    "title": "Motion Light",
-   "artist": "Kahn & Neek",
+   "artist": "Kahn;Neek",
    "album": "Tectonic Sound",
    "videoId": "jqdZxj50qlw",
    "duration": "4:38"
@@ -1854,7 +1854,7 @@
   },
   {
    "title": "Ribbenkast",
-   "artist": "Anecho & Cryosauna",
+   "artist": "Anecho;Cryosauna",
    "album": "Reduce, Re-Use EP",
    "videoId": "xleoSuNLNZI",
    "duration": "5:14"
@@ -1938,7 +1938,7 @@
   },
   {
    "title": "Higher Ground",
-   "artist": "Inner Echo & Wends",
+   "artist": "Inner Echo;Wends",
    "album": "Higher Ground",
    "videoId": "0Sqnv-7QKKI",
    "duration": "3:49"
@@ -2064,7 +2064,7 @@
   },
   {
    "title": "Schisms (Bonus Track)",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "Banshee EP",
    "videoId": "oVZJoCDJikA",
    "duration": "4:12"
@@ -2379,7 +2379,7 @@
   },
   {
    "title": "Mr. Government",
-   "artist": "ickle, Hotsteppas, & Lionpulse",
+   "artist": "ickle;Hotsteppas;Lionpulse",
    "album": "No Love No Peace EP",
    "videoId": "euzeuLL47v0",
    "duration": "3:53"
@@ -2519,7 +2519,7 @@
   },
   {
    "title": "Jitter",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "Banshee EP",
    "videoId": "ioR3V-tLR4g",
    "duration": "3:20"
@@ -2645,7 +2645,7 @@
   },
   {
    "title": "Fullness",
-   "artist": "Dononvan Kingjay & Coki",
+   "artist": "Dononvan Kingjay;Coki",
    "album": "FULLNESS",
    "videoId": "BymFPBI62ao",
    "duration": "3:14"
@@ -3023,14 +3023,14 @@
   },
   {
    "title": "Skin of the Sea",
-   "artist": "Simon Shreeve, Karl O Connor, & Regis",
+   "artist": "Simon Shreeve;Karl O Connor;Regis",
    "album": "Senses in the Sand",
    "videoId": "KHuhGJOk3es",
    "duration": "4:58"
   },
   {
    "title": "Darkside",
-   "artist": "Substance & Fugzi",
+   "artist": "Substance;Fugzi",
    "album": "Darkside",
    "videoId": "G66o6n7eg-4",
    "duration": "3:13"
@@ -3086,7 +3086,7 @@
   },
   {
    "title": "Drumspeak",
-   "artist": "LAS & Mikael",
+   "artist": "LAS;Mikael",
    "album": "Outlaw EP",
    "videoId": "c1ThB3zp7dU",
    "duration": "4:37"
@@ -3296,7 +3296,7 @@
   },
   {
    "title": "Relic",
-   "artist": "Lordel & Halogenix",
+   "artist": "Lordel;Halogenix",
    "album": "Edition 3",
    "videoId": "OqcaajL8MNk",
    "duration": "5:04"
@@ -3401,7 +3401,7 @@
   },
   {
    "title": "Silverware",
-   "artist": "Ago & Boofy",
+   "artist": "Ago;Boofy",
    "album": "Goldfinger / Silverware",
    "videoId": "vELp669_io4",
    "duration": "5:26"
@@ -3478,7 +3478,7 @@
   },
   {
    "title": "In Pieces (Jack Sparrow Remix)",
-   "artist": "Vaun & Jafu",
+   "artist": "Vaun;Jafu",
    "album": "In Pieces",
    "videoId": "oIUfqipjxjs",
    "duration": "5:08"
@@ -3625,7 +3625,7 @@
   },
   {
    "title": "Whip Dem (Frenk's EchoSpace Remix) (feat. Donovan Kingjay)",
-   "artist": "Bukkha & Dubbing Sun",
+   "artist": "Bukkha;Dubbing Sun",
    "album": "Whip Dem",
    "videoId": "qPpOPbUX37o",
    "duration": "4:50"
@@ -3702,7 +3702,7 @@
   },
   {
    "title": "Rum On Ice",
-   "artist": "I-lodica & King Yoof",
+   "artist": "I-lodica;King Yoof",
    "album": "Homage To The King",
    "videoId": "8fEGk6uix7g",
    "duration": "4:20"
@@ -4192,7 +4192,7 @@
   },
   {
    "title": "Journey",
-   "artist": "Zar & Aya Dia",
+   "artist": "Zar;Aya Dia",
    "album": "Journey",
    "videoId": "8qeFUyMDLXA",
    "duration": "5:30"
@@ -4668,7 +4668,7 @@
   },
   {
    "title": "What You Do",
-   "artist": "Tallulah Blue & Coki",
+   "artist": "Tallulah Blue;Coki",
    "album": "What You Do",
    "videoId": "n28pz_s2WnY",
    "duration": "3:00"
@@ -5074,7 +5074,7 @@
   },
   {
    "title": "Feel This (VIP Mix)",
-   "artist": "Mystic State & Elysia Grace",
+   "artist": "Mystic State;Elysia Grace",
    "album": "Between These Moments - The Remixes",
    "videoId": "OikH7xlil5g",
    "duration": "5:23"
@@ -5200,7 +5200,7 @@
   },
   {
    "title": "KAORI DUB",
-   "artist": "JANKA & CRZKNY",
+   "artist": "JANKA;CRZKNY",
    "album": "YUKU046",
    "videoId": "Zjf9b-Msin8",
    "duration": "10:06"
@@ -5221,14 +5221,14 @@
   },
   {
    "title": "Outlaw",
-   "artist": "LAS & Mikael",
+   "artist": "LAS;Mikael",
    "album": "Outlaw EP",
    "videoId": "_BWr6tXSJKs",
    "duration": "4:51"
   },
   {
    "title": "Vessel",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "Banshee EP",
    "videoId": "ImatQ0saj_g",
    "duration": "4:37"
@@ -5389,7 +5389,7 @@
   },
   {
    "title": "Yurei",
-   "artist": "Kodama & Dabbs",
+   "artist": "Kodama;Dabbs",
    "album": "Ish EP",
    "videoId": "rE9P0WY0V4c",
    "duration": "3:19"
@@ -5599,7 +5599,7 @@
   },
   {
    "title": "Out of Darkness",
-   "artist": "Slimy Ape & Wintour",
+   "artist": "Slimy Ape;Wintour",
    "album": "Come On",
    "videoId": "Qo96ZA2oXNU",
    "duration": "4:15"
@@ -5781,7 +5781,7 @@
   },
   {
    "title": "Ski Mask",
-   "artist": "Drone & Nah Eeto",
+   "artist": "Drone;Nah Eeto",
    "album": "Dance With The Devil",
    "videoId": "IUtotUdB4P4",
    "duration": "2:31"
@@ -5851,7 +5851,7 @@
   },
   {
    "title": "Gone For Never",
-   "artist": "LSN & AxH",
+   "artist": "LSN;AxH",
    "album": "Oscillator - EP",
    "videoId": "2cpzI58efH0",
    "duration": "5:36"
@@ -6264,7 +6264,7 @@
   },
   {
    "title": "Night Light Dub (feat. Cynic Al)",
-   "artist": "3Voice & Wosui",
+   "artist": "3Voice;Wosui",
    "album": "Upcoming Talent EP",
    "videoId": "l4ssDW7ndrQ",
    "duration": "9:35"
@@ -7055,7 +7055,7 @@
   },
   {
    "title": "Walking Home",
-   "artist": "ILL_K & Koobas",
+   "artist": "ILL_K;Koobas",
    "album": "Warp 6 EP",
    "videoId": "3Bxm29vgmfQ",
    "duration": "4:37"
@@ -7230,7 +7230,7 @@
   },
   {
    "title": "Nameless Woman",
-   "artist": "Another Channel & Prince Morella",
+   "artist": "Another Channel;Prince Morella",
    "album": "Unspoken Love Ep",
    "videoId": "xm_POXTAem4",
    "duration": "6:14"
@@ -7384,7 +7384,7 @@
   },
   {
    "title": "Whip Dem (feat. Donovan Kingjay)",
-   "artist": "Bukkha & Dubbing Sun",
+   "artist": "Bukkha;Dubbing Sun",
    "album": "Whip Dem",
    "videoId": "n6b_kLHyHG8",
    "duration": "4:11"
@@ -7594,7 +7594,7 @@
   },
   {
    "title": "Barter Town",
-   "artist": "King Yoof & Raggs",
+   "artist": "King Yoof;Raggs",
    "album": "Homage To The King",
    "videoId": "r_fLxW8p11E",
    "duration": "3:56"
@@ -7678,7 +7678,7 @@
   },
   {
    "title": "Strictly Business",
-   "artist": "Criso, PAV4N, & Rakjay",
+   "artist": "Criso;PAV4N;Rakjay",
    "album": "Make Some Noise",
    "videoId": "9-_X7el_xqw",
    "duration": "4:12"
@@ -7832,7 +7832,7 @@
   },
   {
    "title": "Blaze (Ashanti Selah's Dub Mix)",
-   "artist": "ickle, Lionpulse, & Ashanti Selah",
+   "artist": "ickle;Lionpulse;Ashanti Selah",
    "album": "Blaze",
    "videoId": "AmdFbHPcxWM",
    "duration": "3:13"
@@ -7972,7 +7972,7 @@
   },
   {
    "title": "Shadow",
-   "artist": "Max Mudie & Mule",
+   "artist": "Max Mudie;Mule",
    "album": "Max Mudie & Mule",
    "videoId": "ebg4BzPTDaA",
    "duration": "4:38"
@@ -8420,7 +8420,7 @@
   },
   {
    "title": "Black Boxes",
-   "artist": "Strategy, Footsie, & Cimm",
+   "artist": "Strategy;Footsie;Cimm",
    "album": "Black Boxes",
    "videoId": "zGssfej8BD8",
    "duration": "3:54"
@@ -8644,7 +8644,7 @@
   },
   {
    "title": "The System",
-   "artist": "Bukkha & Hazeldub",
+   "artist": "Bukkha;Hazeldub",
    "album": "... In Roots Vol. 1",
    "videoId": "xAlDW_yap8Q",
    "duration": "4:12"
@@ -8819,7 +8819,7 @@
   },
   {
    "title": "Kālìka",
-   "artist": "Robwun & Worried Boy",
+   "artist": "Robwun;Worried Boy",
    "album": "Homegrown Vol.01",
    "videoId": "bwap8rjHNgw",
    "duration": "3:08"
@@ -8882,7 +8882,7 @@
   },
   {
    "title": "Late Night Blues (Gorgon Sound Version) (feat. Rider Shafique)",
-   "artist": "Kahn & Gorgon Sound",
+   "artist": "Kahn;Gorgon Sound",
    "album": "Dread / Late Night Blues (Gorgon Sound Versions)",
    "videoId": "uIAXNnTl5Ac",
    "duration": "5:44"
@@ -8896,7 +8896,7 @@
   },
   {
    "title": "Dread Come Again",
-   "artist": "Digid & Dubbing Sun",
+   "artist": "Digid;Dubbing Sun",
    "album": "Rainbow Dub",
    "videoId": "VD7b3-NMd8U",
    "duration": "4:17"
@@ -8952,7 +8952,7 @@
   },
   {
    "title": "Saturn",
-   "artist": "LJ & Paul Domino",
+   "artist": "LJ;Paul Domino",
    "album": "Colour Blind",
    "videoId": "LVHUlyVDEcI",
    "duration": "3:44"
@@ -9204,7 +9204,7 @@
   },
   {
    "title": "Lucid Dreams",
-   "artist": "e s p & Elleven",
+   "artist": "e s p;Elleven",
    "album": "Lucid Dreams",
    "videoId": "rC7_ugZ3cBU",
    "duration": "4:45"
@@ -9722,7 +9722,7 @@
   },
   {
    "title": "Special Patrol (Dj Madd Remix)",
-   "artist": "Digid & Dubbing Sun",
+   "artist": "Digid;Dubbing Sun",
    "album": "Big Tune Ep",
    "videoId": "xFmiYNQamdY",
    "duration": "5:25"
@@ -9953,7 +9953,7 @@
   },
   {
    "title": "Banana Clip",
-   "artist": "Sukh Knight & Badness",
+   "artist": "Sukh Knight;Badness",
    "album": "Banana Clip",
    "videoId": "Fe4iW69H_-M",
    "duration": "2:47"
@@ -10177,7 +10177,7 @@
   },
   {
    "title": "Neighbourhood",
-   "artist": "Nina & Hijinx",
+   "artist": "Nina;Hijinx",
    "album": "Uno Riddim",
    "videoId": "as5YfoX8G4o",
    "duration": "4:52"
@@ -10422,7 +10422,7 @@
   },
   {
    "title": "Blaze",
-   "artist": "ickle, Lionpulse, & Ashanti Selah",
+   "artist": "ickle;Lionpulse;Ashanti Selah",
    "album": "Blaze",
    "videoId": "Cv0HgN5eKAg",
    "duration": "3:12"
@@ -10464,7 +10464,7 @@
   },
   {
    "title": "Jugtown",
-   "artist": "Drone & Hyroglifics",
+   "artist": "Drone;Hyroglifics",
    "album": "Dance With The Devil",
    "videoId": "jEe_JoH2vDY",
    "duration": "3:54"
@@ -10492,7 +10492,7 @@
   },
   {
    "title": "One Big Dub A Day",
-   "artist": "Digid, Dubbing Sun, & Troy Berkley",
+   "artist": "Digid;Dubbing Sun;Troy Berkley",
    "album": "Big Tune Ep",
    "videoId": "CzYHzW3Ulao",
    "duration": "4:24"
@@ -10562,7 +10562,7 @@
   },
   {
    "title": "Guns N Fiyah",
-   "artist": "Bukkha & Junior Dread",
+   "artist": "Bukkha;Junior Dread",
    "album": "Guns N Fiyah",
    "videoId": "YD_CpcIZFzY",
    "duration": "4:32"
@@ -10996,7 +10996,7 @@
   },
   {
    "title": "More Water",
-   "artist": "SBWT, Sub Basics, & Witch Trials",
+   "artist": "SBWT;Sub Basics;Witch Trials",
    "album": "More Water",
    "videoId": "0VH9CCksegw",
    "duration": "5:30"
@@ -11024,7 +11024,7 @@
   },
   {
    "title": "In Pieces",
-   "artist": "Vaun & Jafu",
+   "artist": "Vaun;Jafu",
    "album": "In Pieces",
    "videoId": "EIAicsjnYpo",
    "duration": "4:14"
@@ -11171,7 +11171,7 @@
   },
   {
    "title": "Secretly",
-   "artist": "Ago, Big Chain, & Long Range",
+   "artist": "Ago;Big Chain;Long Range",
    "album": "Naked City EP",
    "videoId": "er2harDETtA",
    "duration": "3:28"
@@ -11276,7 +11276,7 @@
   },
   {
    "title": "Heavy",
-   "artist": "Baodub & Jahvorem",
+   "artist": "Baodub;Jahvorem",
    "album": "Steppin' Forward 2",
    "videoId": "pSUGWNsQGsA",
    "duration": "4:00"
@@ -11409,7 +11409,7 @@
   },
   {
    "title": "Kibosh",
-   "artist": "Commodo, Gantz, & Kahn",
+   "artist": "Commodo;Gantz;Kahn",
    "album": "MEDi SELECTiON: VOL 1",
    "videoId": "skVA1_Sf6X4",
    "duration": "3:37"
@@ -11577,7 +11577,7 @@
   },
   {
    "title": "Sunken",
-   "artist": "Glume & Phossa",
+   "artist": "Glume;Phossa",
    "album": "Banshee EP",
    "videoId": "j5delHUq1hY",
    "duration": "4:30"
@@ -11731,7 +11731,7 @@
   },
   {
    "title": "Tangerine",
-   "artist": "Max Mudie & Mule",
+   "artist": "Max Mudie;Mule",
    "album": "Max Mudie & Mule",
    "videoId": "tG7UJ8dyPg8",
    "duration": "4:55"
@@ -11836,7 +11836,7 @@
   },
   {
    "title": "Quasi Meditation",
-   "artist": "Two Swords & Hijinx",
+   "artist": "Two Swords;Hijinx",
    "album": "A Slow Descent",
    "videoId": "dzVVQdprgMA",
    "duration": "3:43"
@@ -12102,7 +12102,7 @@
   },
   {
    "title": "Doom",
-   "artist": "PAV4N & Sukh Knight",
+   "artist": "PAV4N;Sukh Knight",
    "album": "Doom",
    "videoId": "r7H5zpGKHAI",
    "duration": "3:20"
@@ -12137,7 +12137,7 @@
   },
   {
    "title": "Word & Sound",
-   "artist": "Natty, Benjamin Zephaniah, & Mala",
+   "artist": "Natty;Benjamin Zephaniah;Mala",
    "album": "Word & Sound",
    "videoId": "PiE57fG6s0g",
    "duration": "4:40"
@@ -12200,7 +12200,7 @@
   },
   {
    "title": "Central",
-   "artist": "Feonix & Na Kika",
+   "artist": "Feonix;Na Kika",
    "album": "Feonix",
    "videoId": "j4rOzgN0vsE",
    "duration": "5:09"
@@ -12438,7 +12438,7 @@
   },
   {
    "title": "Distraction",
-   "artist": "Sub Basics & Henry Greenleaf",
+   "artist": "Sub Basics;Henry Greenleaf",
    "album": "Retrace",
    "videoId": "77VBIzOzW4c",
    "duration": "7:14"
@@ -12781,7 +12781,7 @@
   },
   {
    "title": "Come On",
-   "artist": "Slimy Ape & Wintour",
+   "artist": "Slimy Ape;Wintour",
    "album": "Come On",
    "videoId": "EtADoh7-eoY",
    "duration": "4:15"
@@ -12830,7 +12830,7 @@
   },
   {
    "title": "Relent",
-   "artist": "Inner Echo & Don Fe",
+   "artist": "Inner Echo;Don Fe",
    "album": "Lost In Music",
    "videoId": "TW-vA5JyarY",
    "duration": "4:10"
@@ -12886,7 +12886,7 @@
   },
   {
    "title": "Cool Lab",
-   "artist": "Delta & MyCa$h",
+   "artist": "Delta;MyCa$h",
    "album": "Delta Curates E.P",
    "videoId": "xsTuUSHD93g",
    "duration": "5:02"
@@ -13131,7 +13131,7 @@
   },
   {
    "title": "Jade Bandits",
-   "artist": "CØNTRA & Pushloop",
+   "artist": "CØNTRA;Pushloop",
    "album": "Elysian EP",
    "videoId": "j_GB_w_n9P4",
    "duration": "3:01"
@@ -13516,14 +13516,14 @@
   },
   {
    "title": "Higher Ground (Version)",
-   "artist": "Inner Echo & Wends",
+   "artist": "Inner Echo;Wends",
    "album": "Higher Ground",
    "videoId": "zvvmq5TCfMo",
    "duration": "4:30"
   },
   {
    "title": "Blaze (ickle's Dub Mix)",
-   "artist": "ickle, Lionpulse, & Ashanti Selah",
+   "artist": "ickle;Lionpulse;Ashanti Selah",
    "album": "Blaze",
    "videoId": "UT6TjQ639dQ",
    "duration": "3:13"
@@ -13537,7 +13537,7 @@
   },
   {
    "title": "18 Dromilly Ave (Radikal Guru Roots Remix)",
-   "artist": "Baptiste, Sekkleman, & Serocee",
+   "artist": "Baptiste;Sekkleman;Serocee",
    "album": "Moonshine Recordings 10 Years - Versions & Excursions",
    "videoId": "BMV1OUPzsJk",
    "duration": "6:31"
@@ -13607,7 +13607,7 @@
   },
   {
    "title": "Daydream In Dub",
-   "artist": "Leo James & Ed Gooden",
+   "artist": "Leo James;Ed Gooden",
    "album": "Speak Back",
    "videoId": "SAKMWKWBH2A",
    "duration": "7:18"
@@ -13754,7 +13754,7 @@
   },
   {
    "title": "Blinded",
-   "artist": "Kwizma & Nomine",
+   "artist": "Kwizma;Nomine",
    "album": "Blinded",
    "videoId": "tVNB1UFGSa4",
    "duration": "5:55"
@@ -14076,7 +14076,7 @@
   },
   {
    "title": "Ricky Rosé",
-   "artist": "Cartridge & Biome",
+   "artist": "Cartridge;Biome",
    "album": "Banada",
    "videoId": "kCxFV65JlSQ",
    "duration": "3:49"
@@ -14307,7 +14307,7 @@
   },
   {
    "title": "Fandango",
-   "artist": "Isolate & Slynch",
+   "artist": "Isolate;Slynch",
    "album": "FKOFd024",
    "videoId": "gqBWVsTrkD0",
    "duration": "4:24"
@@ -14335,7 +14335,7 @@
   },
   {
    "title": "Telling Me Nothing",
-   "artist": "Mystic State, Method Sound, & Elysia Grace",
+   "artist": "Mystic State;Method Sound;Elysia Grace",
    "album": "Stutter - EP",
    "videoId": "yZDpU0wrnzY",
    "duration": "5:09"
@@ -14643,7 +14643,7 @@
   },
   {
    "title": "Lewis Capaldi",
-   "artist": "Visages & Strategy",
+   "artist": "Visages;Strategy",
    "album": "Lewis Capaldi",
    "videoId": "Vg20A1is3UQ",
    "duration": "3:08"

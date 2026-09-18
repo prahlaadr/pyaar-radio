@@ -2,7 +2,7 @@
  "playlistId": "PLEpziEnSggvA",
  "title": "India",
  "trackCount": 97,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Evening Raga",
@@ -139,7 +139,7 @@
   },
   {
    "title": "Maalaiveiyazhaki",
-   "artist": "Ilaiyaraaja & Chorus",
+   "artist": "Ilaiyaraaja;Chorus",
    "album": "Kannathal (Original Motion Picture Soundtrack)",
    "videoId": "AWDW2eCJZ00",
    "duration": "2:43"
@@ -167,7 +167,7 @@
   },
   {
    "title": "Kalyaana Chelai",
-   "artist": "Ilaiyaraaja, S.P. Balasubrahmanyam, & Shoba Chandrasekhar",
+   "artist": "Ilaiyaraaja;S.P. Balasubrahmanyam;Shoba Chandrasekhar",
    "album": "Ambikai Neril Vandhal (Original Motion Picture Soundtrack)",
    "videoId": "itSoAH6edxs",
    "duration": "4:17"
@@ -370,14 +370,14 @@
   },
   {
    "title": "Make Me Know",
-   "artist": "M.S. Viswanathan & Sunitha Narayanan",
+   "artist": "M.S. Viswanathan;Sunitha Narayanan",
    "album": "Super Boy (Original Motion Picture Soundtrack)",
    "videoId": "BimSj_DBu6k",
    "duration": "3:56"
   },
   {
    "title": "Mudhal Murai Thoduvadhu",
-   "artist": "Shankar-Ganesh, S.P. Balasubrahmanyam, & Vani Jairam",
+   "artist": "Shankar-Ganesh;S.P. Balasubrahmanyam;Vani Jairam",
    "album": "Dhooram Adhigamillai (Original Motion Picture Soundtrack)",
    "videoId": "3asB5Ktsth8",
    "duration": "4:14"
@@ -398,7 +398,7 @@
   },
   {
    "title": "Let Us Go Into the House of the Lord",
-   "artist": "Carlos Santana & Mahavishnu John McLaughlin",
+   "artist": "Carlos Santana;Mahavishnu John McLaughlin",
    "album": "Love Devotion Surrender",
    "videoId": "rdm00nlJAEw",
    "duration": "15:46"
@@ -503,7 +503,7 @@
   },
   {
    "title": "Raag Bhairav Fusion",
-   "artist": "Shivani Soni & Rishabh Srivastav",
+   "artist": "Shivani Soni;Rishabh Srivastav",
    "album": "Raag Bhairav Fusion",
    "videoId": "D1CLDtBVPfI",
    "duration": "1:38"

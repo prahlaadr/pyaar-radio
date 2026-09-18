@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2ZsKBdo0CUvDAQGWIgkP-V",
  "title": "melt🩸🔊 🕶️8)))",
  "trackCount": 756,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Move Higher (feat. Culture Shock)",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Like A Tattoo",
-   "artist": "Don Arcadio & Sade",
+   "artist": "Don Arcadio;Sade",
    "album": "Like A Tattoo",
    "videoId": "F-4p6_S5u48",
    "duration": "4:21"
@@ -146,7 +146,7 @@
   },
   {
    "title": "Idols Fall",
-   "artist": "Ivy Lab & Seyaa",
+   "artist": "Ivy Lab;Seyaa",
    "album": "Idols Fall / Snap 101",
    "videoId": "w-PoYOdvCsM",
    "duration": "4:00"
@@ -335,7 +335,7 @@
   },
   {
    "title": "Low Life",
-   "artist": "Tsimba & DeeZ",
+   "artist": "Tsimba;DeeZ",
    "album": "Tsimba x Deez - Formless EP",
    "videoId": "0voEcI3-YUA",
    "duration": "5:56"
@@ -538,35 +538,35 @@
   },
   {
    "title": "Step Up",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "zCmOytV5mjA",
    "duration": "3:33"
   },
   {
    "title": "Mania",
-   "artist": "gum.mp3 & dazegxd",
+   "artist": "gum.mp3;dazegxd",
    "album": "Mania",
    "videoId": "wq4ja3Et_g0",
    "duration": "3:36"
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Bad 4 Us",
    "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
   },
   {
    "title": "Imitator",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Girls Love Jungle",
    "videoId": "2Mv1lY8xUAI",
    "duration": "4:32"
   },
   {
    "title": "Thinking About U",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Thinking About U",
    "videoId": "0YaPGNfmzbI",
    "duration": "4:32"
@@ -811,7 +811,7 @@
   },
   {
    "title": "startup tune",
-   "artist": "nuphory & Pizza Hotline",
+   "artist": "nuphory;Pizza Hotline",
    "album": "ditherdream1",
    "videoId": "ImKE9RDMC7A",
    "duration": "5:26"
@@ -1490,7 +1490,7 @@
   },
   {
    "title": "Anytime",
-   "artist": "Tim Reaper & Devnull",
+   "artist": "Tim Reaper;Devnull",
    "album": "Teletext",
    "videoId": "rMEn6FckWlg",
    "duration": "6:26"
@@ -1749,7 +1749,7 @@
   },
   {
    "title": "i just 1 2",
-   "artist": "Buunshin & Posij",
+   "artist": "Buunshin;Posij",
    "album": "i just 1 2",
    "videoId": "Q9bIGQfUq_Y",
    "duration": "2:16"
@@ -1763,7 +1763,7 @@
   },
   {
    "title": "She Loves Me",
-   "artist": "DJ Seinfeld & Stella Explorer",
+   "artist": "DJ Seinfeld;Stella Explorer",
    "album": "She Loves Me",
    "videoId": "rMAwQnuaTy8",
    "duration": "4:09"
@@ -1861,7 +1861,7 @@
   },
   {
    "title": "Eve (Max Cooper Remix)",
-   "artist": "Awe Kid & Max Cooper",
+   "artist": "Awe Kid;Max Cooper",
    "album": "Eve (Max Cooper Remix)",
    "videoId": "0E7TXLRyrAc",
    "duration": "6:11"
@@ -1882,7 +1882,7 @@
   },
   {
    "title": "Can't Deal With This (Kid Loops Vocal)",
-   "artist": "Cool Breeze & Imaani",
+   "artist": "Cool Breeze;Imaani",
    "album": "Can't Deal With This",
    "videoId": "uzmQ6h6hkMA",
    "duration": "5:55"
@@ -2050,7 +2050,7 @@
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 & Dazegxd",
+   "artist": "gum.mp3;Dazegxd",
    "album": "Bad 4 Us",
    "videoId": "0SJXgy0A3Kg",
    "duration": "4:01"
@@ -2540,7 +2540,7 @@
   },
   {
    "title": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor & Brazy)",
-   "artist": "Kelela, Flexulant, BAMBII, Rahrah Gabor, and Brazy",
+   "artist": "Kelela;Flexulant;BAMBII;Rahrah Gabor",
    "album": "Closure (Flexulant x BAMBII Remix feat. Rahrah Gabor + brazy)",
    "videoId": "Ff0XkPzXkM4",
    "duration": "4:47"
@@ -2792,7 +2792,7 @@
   },
   {
    "title": "Fooley (LEECH Ambient Queen Remix)",
-   "artist": "Kelela, LEECH, & Nightfeelings",
+   "artist": "Kelela;LEECH;Nightfeelings",
    "album": "RAVE:N, The Remixes",
    "videoId": "ilcRfHOP10I",
    "duration": "4:19"
@@ -2869,7 +2869,7 @@
   },
   {
    "title": "Venom of Ages / (愛は死よりも冷たい)",
-   "artist": "Varg²™ & Golin",
+   "artist": "Varg²™;Golin",
    "album": "Nordic Flora Series, Pt. 6: Outlaw Music",
    "videoId": "FcifYJaBRfQ",
    "duration": "3:01"
@@ -3072,7 +3072,7 @@
   },
   {
    "title": "In The Cut",
-   "artist": "Monty & Trail",
+   "artist": "Monty;Trail",
    "album": "In The Cut, And We Go",
    "videoId": "QufCNlbH5xk",
    "duration": "5:14"
@@ -3184,7 +3184,7 @@
   },
   {
    "title": "Dread & Buried (Congi Remix)",
-   "artist": "Origin One & Congi",
+   "artist": "Origin One;Congi",
    "album": "Deeply Remixed, Vol. 2",
    "videoId": "2CWxWDACVko",
    "duration": "3:55"
@@ -3366,7 +3366,7 @@
   },
   {
    "title": "daydreamer",
-   "artist": "Enkei & SPURME",
+   "artist": "Enkei;SPURME",
    "album": "Step Into Y2K, Vol. 1",
    "videoId": "vW5uoA0NERo",
    "duration": "2:19"
@@ -3576,7 +3576,7 @@
   },
   {
    "title": "NO! (Submarine Remix)",
-   "artist": "Phace & Rockwell",
+   "artist": "Phace;Rockwell",
    "album": "Neosignal X, Pt. 4",
    "videoId": "tvLd_zx38Tc",
    "duration": "4:55"
@@ -3702,7 +3702,7 @@
   },
   {
    "title": "Sleepr",
-   "artist": "Drone & Deft",
+   "artist": "Drone;Deft",
    "album": "Dance With The Devil",
    "videoId": "f3F5q3H7btQ",
    "duration": "3:24"
@@ -3849,7 +3849,7 @@
   },
   {
    "title": "FRANKFURT",
-   "artist": "Thys, Machinedrum, Holly, Salvador Breed, and VIER",
+   "artist": "Thys;Machinedrum;Holly;Salvador Breed",
    "album": "FRANKFURT",
    "videoId": "b0-HIcMYOXw",
    "duration": "4:31"
@@ -3891,7 +3891,7 @@
   },
   {
    "title": "Blunted",
-   "artist": "Two Swords & hyroglifics",
+   "artist": "Two Swords;hyroglifics",
    "album": "Blunted / Glacial Gaze",
    "videoId": "nATBKkweSSs",
    "duration": "2:54"
@@ -3940,7 +3940,7 @@
   },
   {
    "title": "Axel, Sebastian and Philipp",
-   "artist": "Dumbo Tracks & The Field",
+   "artist": "Dumbo Tracks;The Field",
    "album": "Axel, Sebastian and Philipp",
    "videoId": "mWxOISkK7kU",
    "duration": "5:47"
@@ -4122,7 +4122,7 @@
   },
   {
    "title": "ZOOM (SKEPTICAL REMIX) (feat. Tinashe)",
-   "artist": "Machinedrum & Skeptical",
+   "artist": "Machinedrum;Skeptical",
    "album": "ZOOM (SKEPTICAL REMIX)",
    "videoId": "NxAeTa3gzzo",
    "duration": "4:20"
@@ -4178,7 +4178,7 @@
   },
   {
    "title": "Strip Game",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "State of Emergency",
    "videoId": "NjR-z4w94ok",
    "duration": "6:00"
@@ -4290,7 +4290,7 @@
   },
   {
    "title": "WHERE WERE YOU",
-   "artist": "VIER, Machinedrum, Thys, Holly, and Salvador Breed",
+   "artist": "VIER;Machinedrum;Thys;Holly",
    "album": "WHERE WERE YOU",
    "videoId": "GZJBKHTFBZ8",
    "duration": "3:27"
@@ -4304,7 +4304,7 @@
   },
   {
    "title": "I Don't Want To Go To Heaven",
-   "artist": "Visages & Monty",
+   "artist": "Visages;Monty",
    "album": "I Don't Want To Go To Heaven",
    "videoId": "zNDj3X1aZxg",
    "duration": "4:41"
@@ -4325,7 +4325,7 @@
   },
   {
    "title": "Ghost Orchid",
-   "artist": "Nick León & Ela Minus",
+   "artist": "Nick León;Ela Minus",
    "album": "Millennium Freak / Crush",
    "videoId": "PhbGHGV_OZc",
    "duration": "4:09"
@@ -4409,7 +4409,7 @@
   },
   {
    "title": "Strip Game",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "Strip Game",
    "videoId": "91oLtZOn9GE",
    "duration": "6:00"
@@ -4486,7 +4486,7 @@
   },
   {
    "title": "Ease",
-   "artist": "Om Unit & Delay Grounds",
+   "artist": "Om Unit;Delay Grounds",
    "album": "PRIMARY FOREST 03",
    "videoId": "C28TlqZKQDo",
    "duration": "4:46"
@@ -4521,7 +4521,7 @@
   },
   {
    "title": "SOLITU",
-   "artist": "VIER, Machinedrum, Thys, Holly, and Salvador Breed",
+   "artist": "VIER;Machinedrum;Thys;Holly",
    "album": "SOLITU",
    "videoId": "afGbxJC22TQ",
    "duration": "3:31"
@@ -4815,7 +4815,7 @@
   },
   {
    "title": "Don't Call",
-   "artist": "Crosstalk & georgeluqas",
+   "artist": "Crosstalk;georgeluqas",
    "album": "URL;;irl",
    "videoId": "uVMMx1pxZFk",
    "duration": "2:35"
@@ -4990,7 +4990,7 @@
   },
   {
    "title": "Greasy off the Racing Line (Midnight Version)",
-   "artist": "Daniel Avery & Alison Mosshart",
+   "artist": "Daniel Avery;Alison Mosshart",
    "album": "Haze (Midnight Version)",
    "videoId": "cc0X-SSpjfY",
    "duration": "4:06"
@@ -5158,7 +5158,7 @@
   },
   {
    "title": "Second Time Around",
-   "artist": "Swami Sound & gum.mp3",
+   "artist": "Swami Sound;gum.mp3",
    "album": "State of Emergency",
    "videoId": "swHjRzK9bbk",
    "duration": "5:06"
@@ -5207,7 +5207,7 @@
   },
   {
    "title": "RESPEK (CESCO REMIX) (feat. Topaz Jones & Ezri)",
-   "artist": "Machinedrum & Cesco",
+   "artist": "Machinedrum;Cesco",
    "album": "3RMX82",
    "videoId": "avG53uh4JmE",
    "duration": "3:09"
@@ -5221,7 +5221,7 @@
   },
   {
    "title": "Maypole Theme (Piano Roll Mix)",
-   "artist": "Roza Terenzi, D. Tiffany, & Tapestry Of Sound",
+   "artist": "Roza Terenzi;D. Tiffany;Tapestry Of Sound",
    "album": "Step Ball Chain",
    "videoId": "YMDzeIP8sKs",
    "duration": "6:58"
@@ -5256,7 +5256,7 @@
   },
   {
    "title": "Rapture in Blue (Midnight Version)",
-   "artist": "Daniel Avery & Cecile Believe",
+   "artist": "Daniel Avery;Cecile Believe",
    "album": "Haze (Midnight Version)",
    "videoId": "REoGWpzebx8",
    "duration": "4:28"

@@ -2,7 +2,7 @@
  "playlistId": "PLZxWRGdRKvFM",
  "title": "Folk / Indie / Pop",
  "trackCount": 210,
- "syncedAt": "2026-09-17T13:06:16.000583Z",
+ "syncedAt": "2026-09-18T12:46:58.679540Z",
  "tracks": [
   {
    "title": "Wild",
@@ -244,7 +244,7 @@
   },
   {
    "title": "See How They Run",
-   "artist": "Tom Skinner & Yaffra",
+   "artist": "Tom Skinner;Yaffra",
    "album": "Kaleidoscopic Visions",
    "videoId": "EPReCqVPNls",
    "duration": "4:18"
@@ -307,7 +307,7 @@
   },
   {
    "title": "Birdy Island (Kupla Remix)",
-   "artist": "Howie Lee & Kupla",
+   "artist": "Howie Lee;Kupla",
    "album": "Birdy Island (Kupla Remix)",
    "videoId": "e-JBFjKrTj4",
    "duration": "2:04"
@@ -587,7 +587,7 @@
   },
   {
    "title": "Might be the One",
-   "artist": "James Massiah meets Lord Tusk, James Massiah, & Lord Tusk",
+   "artist": "James Massiah meets Lord Tusk;James Massiah;Lord Tusk",
    "album": "Might Be The One",
    "videoId": "jCdWtgwMeBU",
    "duration": "4:13"
@@ -853,7 +853,7 @@
   },
   {
    "title": "Drum Trak 101",
-   "artist": "DJ Pitch & MLE",
+   "artist": "DJ Pitch;MLE",
    "album": "Cheap Gifts For Your Boyfriend",
    "videoId": "MZNIWFrNx6o",
    "duration": "5:42"
@@ -951,7 +951,7 @@
   },
   {
    "title": "Naissance et vie des personnages",
-   "artist": "Jean Giono & Jean Carrière",
+   "artist": "Jean Giono;Jean Carrière",
    "album": "Jean Giono, du côté de Manosque - Les Grandes Heures Ina / Radio France",
    "videoId": "9-iVR3hpxIg",
    "duration": "7:59"
@@ -1392,7 +1392,7 @@
   },
   {
    "title": "Zero G",
-   "artist": "E Wata, Enayet, & K Wata",
+   "artist": "E Wata;Enayet;K Wata",
    "album": "EP 1",
    "videoId": "MULuKAXfPDw",
    "duration": "5:33"
