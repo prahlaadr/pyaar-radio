@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
  "trackCount": 1527,
- "syncedAt": "2026-09-18T12:46:58.679540Z",
+ "syncedAt": "2026-09-19T12:19:36.154858Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -6088,9 +6088,9 @@
    "duration": "3:21"
   },
   {
-   "title": "I'm A Believer (From \"Shrek\" Motion Picture Soundtrack)",
+   "title": "I'm A Believer",
    "artist": "Smash Mouth",
-   "album": "Shrek",
+   "album": "Shrek (Music From The Original Motion Picture)",
    "videoId": "xCP7bCJxxm8",
    "duration": "3:06"
   },
@@ -7119,7 +7119,7 @@
   {
    "title": "Bad Reputation",
    "artist": "Halfcocked",
-   "album": "Shrek",
+   "album": "Shrek (Music From The Original Motion Picture)",
    "videoId": "RoKTPvd85hA",
    "duration": "2:22"
   },

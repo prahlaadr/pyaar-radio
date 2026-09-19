@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 286,
- "totalTracks": 81083,
- "syncedAt": "2026-09-18T12:46:58.679540Z",
+ "totalTracks": 81085,
+ "syncedAt": "2026-09-19T12:19:36.154858Z",
  "playlists": [
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 32
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
@@ -18,11 +23,6 @@
    "playlistId": "PLWPAdWhoNE8E",
    "title": "Shark Species - P286",
    "trackCount": 57
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 31
   },
   {
    "playlistId": "PLD4JnSC5NylI",
@@ -972,7 +972,7 @@
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",
    "title": "shake ya ass (goated)",
-   "trackCount": 471
+   "trackCount": 472
   },
   {
    "playlistId": "PL6LTKg9AoNs05fv2a7e2af9kB5UQqvVxv",
