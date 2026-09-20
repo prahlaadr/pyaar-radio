@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3606,
- "totalTracks": 45859,
- "syncedAt": "2026-09-19T12:19:33.302016Z",
+ "albumCount": 3608,
+ "totalTracks": 45885,
+ "syncedAt": "2026-09-20T12:54:40.475132Z",
  "albums": [
+  {
+   "browseId": "MPREb_KPcMyK2ZpYk",
+   "title": "Prey to Truth",
+   "artist": "Shrimpnose",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_JcZZVkeZnp9",
+   "title": "Ballaké Sissoko & Derek Gripper",
+   "artist": "Ballaké Sissoko",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_kCpSDoZ6fma",
    "title": "Slime Patrol 2",

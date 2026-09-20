@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1527,
- "syncedAt": "2026-09-19T12:19:36.154858Z",
+ "trackCount": 1528,
+ "syncedAt": "2026-09-20T12:54:43.356642Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -2485,8 +2485,8 @@
   {
    "title": "Bad Girls",
    "artist": "Donna Summer",
-   "album": "Bad Girls (Deluxe Edition)",
-   "videoId": "0F_CkskgUIA",
+   "album": "Bad Girls",
+   "videoId": "MBq-poosnHQ",
    "duration": "4:56"
   },
   {
@@ -4039,9 +4039,9 @@
   {
    "title": "Don't You Worry Child (Radio Edit) (feat. John Martin)",
    "artist": "Swedish House Mafia",
-   "album": "Kids Party Playlist",
-   "videoId": "-DypFBRHuOQ",
-   "duration": "3:32"
+   "album": "Don't You Worry Child",
+   "videoId": "vRqbSgp8w38",
+   "duration": "3:33"
   },
   {
    "title": "Born This Way",
@@ -5934,10 +5934,10 @@
    "duration": "3:26"
   },
   {
-   "title": "Under Pressure",
+   "title": "Under Pressure (feat. David Bowie)",
    "artist": "Queen",
    "album": "Hot Space",
-   "videoId": "Scv15eZlsL4",
+   "videoId": "BaxnrepwXck",
    "duration": "4:09"
   },
   {
@@ -6567,7 +6567,7 @@
    "title": "Bohemian Rhapsody",
    "artist": "Queen",
    "album": "A Night At The Opera",
-   "videoId": "iXWKaFAv1_I",
+   "videoId": "BSTsnWoslP4",
    "duration": "5:55"
   },
   {
@@ -6847,7 +6847,7 @@
    "title": "Leave the Bottle",
    "artist": "Burning Circus",
    "album": "No Moment of the Passing Life",
-   "videoId": "P-3mUNn_ip0",
+   "videoId": "tsD8ZFOLNLA",
    "duration": "3:49"
   },
   {
@@ -7250,10 +7250,10 @@
    "duration": "2:47"
   },
   {
-   "title": "Rockafeller Skank",
+   "title": "The Rockafeller Skank",
    "artist": "Fatboy Slim",
    "album": "You've Come A Long Way Baby",
-   "videoId": "MkOu30V23zQ",
+   "videoId": "wD6jCMn5nq0",
    "duration": "6:54"
   },
   {
@@ -10692,6 +10692,13 @@
    "album": "",
    "videoId": "BAx0HrFXBu8",
    "duration": "1:55"
+  },
+  {
+   "title": "Wells Fargo / Backroom remix",
+   "artist": "BoofPaxkMooky",
+   "album": "Wells Fargo / Backroom remix",
+   "videoId": "GjBPcAow1CI",
+   "duration": "1:52"
   }
  ]
 }

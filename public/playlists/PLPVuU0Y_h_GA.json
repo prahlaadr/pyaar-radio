@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
- "trackCount": 32,
- "syncedAt": "2026-09-19T12:19:36.154858Z",
+ "trackCount": 36,
+ "syncedAt": "2026-09-20T12:54:43.356642Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -227,6 +227,34 @@
    "album": "Looking At Your Pager",
    "videoId": "71bjGbroIUk",
    "duration": "5:51"
+  },
+  {
+   "title": "Wells Fargo / Backroom remix",
+   "artist": "BoofPaxkMooky",
+   "album": "Wells Fargo / Backroom remix",
+   "videoId": "GjBPcAow1CI",
+   "duration": "1:52"
+  },
+  {
+   "title": "Soothsayer",
+   "artist": "Shrimpnose;Harris Cole",
+   "album": "Prey to Truth",
+   "videoId": "-SLEQB1Cvr0",
+   "duration": "3:35"
+  },
+  {
+   "title": "Echos",
+   "artist": "Erykah Badu;The Alchemist",
+   "album": "Before The World Blows",
+   "videoId": "HD3qZUiedPI",
+   "duration": "7:23"
+  },
+  {
+   "title": "Thootie",
+   "artist": "Ice Spice;Tokischa",
+   "album": "Thootie",
+   "videoId": "bhfxxy5XW_g",
+   "duration": "2:32"
   }
  ]
 }
