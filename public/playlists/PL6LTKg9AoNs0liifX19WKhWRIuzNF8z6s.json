@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
  "title": "DAR DISKU FM",
  "trackCount": 933,
- "syncedAt": "2026-09-20T12:54:43.356642Z",
+ "syncedAt": "2026-09-21T14:54:32.520568Z",
  "tracks": [
   {
    "title": "Helel Yos",
@@ -323,7 +323,7 @@
    "title": "Makan lah tenedemi",
    "artist": "Cheb Hasni",
    "album": "Hasni Best of Collector",
-   "videoId": "HsERYiis-rc",
+   "videoId": "UFEs0qrnTao",
    "duration": "5:31"
   },
   {
@@ -4402,15 +4402,15 @@
   },
   {
    "title": "Hlabalaza",
-   "artist": "The Bees",
-   "album": "She's a Witch (Tikoloshi)",
+   "artist": "The Bees - Topic",
+   "album": "",
    "videoId": "rqmNFTXF2d8",
    "duration": "5:24"
   },
   {
    "title": "Cairo Connection",
-   "artist": "Philippe Chany",
-   "album": "Rive gauche",
+   "artist": "Philippe Chany - Topic",
+   "album": "",
    "videoId": "RNw8HkRz-s4",
    "duration": "4:37"
   },
@@ -4437,8 +4437,8 @@
   },
   {
    "title": "Doroup El Hawa",
-   "artist": "Mohamed Jamal",
-   "album": "Best of Mohamed Jamal, Vol. 2",
+   "artist": "Mohamed Jamal - Topic",
+   "album": "",
    "videoId": "PjiixyBN6xg",
    "duration": "3:28"
   },
@@ -4535,15 +4535,15 @@
   },
   {
    "title": "How Long",
-   "artist": "Ace",
-   "album": "Five-A-Side",
+   "artist": "Ace - Topic",
+   "album": "",
    "videoId": "TGkUdLJCLyE",
    "duration": "3:25"
   },
   {
-   "title": "Izzat Love?",
-   "artist": "Todd Rundgren",
-   "album": "Todd",
+   "title": "Izzat Love? (2015 Remaster)",
+   "artist": "Todd Rundgren - Topic",
+   "album": "",
    "videoId": "dnMtsTRzb9o",
    "duration": "1:56"
   },
@@ -4667,9 +4667,9 @@
    "duration": "4:38"
   },
   {
-   "title": "Halim Guelil (feat. Cheb Halim)",
-   "artist": "Acid Arab",
-   "album": "Halim Guelil",
+   "title": "Halim Guelil",
+   "artist": "Acid Arab - Topic",
+   "album": "",
    "videoId": "dXuiY65gt5g",
    "duration": "3:58"
   },
@@ -4682,15 +4682,15 @@
   },
   {
    "title": "Skittles",
-   "artist": "DJ Plead",
-   "album": "Quick EP",
+   "artist": "Dj Plead - Topic",
+   "album": "",
    "videoId": "_ggNaUm3KZ8",
    "duration": "6:07"
   },
   {
    "title": "Al Muharraq",
-   "artist": "Yazz Ahmed",
-   "album": "Finding My Way Home",
+   "artist": "Yazz Ahmed - Topic",
+   "album": "",
    "videoId": "-Pb_SphFgSs",
    "duration": "2:21"
   },
@@ -4773,8 +4773,8 @@
   },
   {
    "title": "Dance With Us",
-   "artist": "Warchieff",
-   "album": "Dance With Us",
+   "artist": "Warchieff - Topic",
+   "album": "",
    "videoId": "fvD5GKHDf5E",
    "duration": "4:47"
   },
@@ -4801,8 +4801,8 @@
   },
   {
    "title": "Madimak",
-   "artist": "Gökçen Kaynatan",
-   "album": "Gökçen Kaynatan",
+   "artist": "Gökçen Kaynatan - Topic",
+   "album": "",
    "videoId": "HCRSPDSHjNw",
    "duration": "2:49"
   },

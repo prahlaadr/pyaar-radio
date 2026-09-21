@@ -1,23 +1,28 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 286,
- "totalTracks": 81090,
- "syncedAt": "2026-09-20T12:54:43.356642Z",
+ "playlistCount": 287,
+ "totalTracks": 81191,
+ "syncedAt": "2026-09-21T14:54:32.520568Z",
  "playlists": [
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 36
-  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1528
+   "trackCount": 1532
+  },
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 40
   },
   {
    "playlistId": "PLCiZ2xFxWWEw",
    "title": "Z255 - The Lone Star State",
-   "trackCount": 19
+   "trackCount": 53
+  },
+  {
+   "playlistId": "PLDHWTMEd-2XM",
+   "title": "🦋 flutter pop 🦋",
+   "trackCount": 59
   },
   {
    "playlistId": "PLWPAdWhoNE8E",

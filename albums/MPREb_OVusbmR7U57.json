@@ -1,0 +1,34 @@
+{
+ "title": "LR002",
+ "artist": "Larry Latenight",
+ "year": "2026",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "The Bug",
+   "artist": "Larry Latenight",
+   "videoId": "uA60r0_iuRE",
+   "duration": "4:49"
+  },
+  {
+   "title": "Tellafren",
+   "artist": "Larry Latenight",
+   "videoId": "jwqvOdfqFLs",
+   "duration": "4:37"
+  },
+  {
+   "title": "Animal Attraction",
+   "artist": "Larry Latenight",
+   "videoId": "tFB50TrZ8fU",
+   "duration": "5:04"
+  },
+  {
+   "title": "Felicity's Groove",
+   "artist": "Larry Latenight",
+   "videoId": "MohyUKSXqqI",
+   "duration": "4:24"
+  }
+ ],
+ "browseId": "MPREb_OVusbmR7U57",
+ "syncedAt": "2026-09-21T14:54:29.149779Z"
+}

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLCiZ2xFxWWEw",
  "title": "Z255 - The Lone Star State",
- "trackCount": 19,
- "syncedAt": "2026-09-20T12:54:43.356642Z",
+ "trackCount": 53,
+ "syncedAt": "2026-09-21T14:54:32.520568Z",
  "tracks": [
   {
    "title": "Choosin' Texas",
@@ -136,6 +136,244 @@
    "album": "Houston",
    "videoId": "nBZxMAjxLVQ",
    "duration": "2:42"
+  },
+  {
+   "title": "Rhythm Is a Dancer",
+   "artist": "SNAP!",
+   "album": "The Madman's Return",
+   "videoId": "yYfzC8cY4j8",
+   "duration": "5:33"
+  },
+  {
+   "title": "Tom Sawyer",
+   "artist": "Rush",
+   "album": "Moving Pictures",
+   "videoId": "QJ4-9tAf9UQ",
+   "duration": "4:37"
+  },
+  {
+   "title": "Dizzy on the Comedown",
+   "artist": "Turnover",
+   "album": "Peripheral Vision",
+   "videoId": "ErVmP0vy_5A",
+   "duration": "4:16"
+  },
+  {
+   "title": "Red Red Wine",
+   "artist": "UB40",
+   "album": "Labour Of Love",
+   "videoId": "2DTrMa-r56Y",
+   "duration": "5:21"
+  },
+  {
+   "title": "Star Trekkin'",
+   "artist": "The Firm",
+   "album": "Star Trekkin'",
+   "videoId": "FG1Nr8lOHU4",
+   "duration": "3:33"
+  },
+  {
+   "title": "The Rover (1993 Remaster)",
+   "artist": "Led Zeppelin",
+   "album": "Physical Graffiti (1994 Remaster)",
+   "videoId": "qK_ZtN9K2EM",
+   "duration": "5:37"
+  },
+  {
+   "title": "Video Killed The Radio Star",
+   "artist": "The Buggles",
+   "album": "The Age Of Plastic",
+   "videoId": "qGBohd0V2Mo",
+   "duration": "4:14"
+  },
+  {
+   "title": "Sabotage",
+   "artist": "Beastie Boys",
+   "album": "Ill Communication",
+   "videoId": "B8CD2Rco8cQ",
+   "duration": "2:59"
+  },
+  {
+   "title": "Jaws - Main Title (2025 Mix)",
+   "artist": "John Williams",
+   "album": "Jaws (Original Motion Picture Score - Remastered)",
+   "videoId": "ek0Hd4W-WZ8",
+   "duration": "0:58"
+  },
+  {
+   "title": "Rockin' Around The Christmas Tree",
+   "artist": "Brenda Lee",
+   "album": "Merry Christmas From Brenda Lee",
+   "videoId": "O1x-hOOrl5E",
+   "duration": "2:07"
+  },
+  {
+   "title": "Big Bottom",
+   "artist": "Spinal Tap",
+   "album": "This Is Spinal Tap",
+   "videoId": "TDJCFdAebIM",
+   "duration": "3:33"
+  },
+  {
+   "title": "Subterranean Homesick Alien",
+   "artist": "Radiohead",
+   "album": "OK Computer",
+   "videoId": "_fTWmUlTEqE",
+   "duration": "4:28"
+  },
+  {
+   "title": "The Best Is Yet To Come (2008 Remastered) (feat. Count Basie And His Orchestra)",
+   "artist": "Frank Sinatra",
+   "album": "Nothing But The Best (2008 Remastered)",
+   "videoId": "mQIZ-Esbg_c",
+   "duration": "2:56"
+  },
+  {
+   "title": "If I Didn't Care",
+   "artist": "The Ink Spots",
+   "album": "Java Jive",
+   "videoId": "oQ7RZb9DKfM",
+   "duration": "3:07"
+  },
+  {
+   "title": "My Cherie Amour",
+   "artist": "Stevie Wonder",
+   "album": "My Cherie Amour",
+   "videoId": "Fjufjv4rH0s",
+   "duration": "2:54"
+  },
+  {
+   "title": "See You Again (feat. Charlie Puth)",
+   "artist": "Wiz Khalifa",
+   "album": "Nine Track Mind (Japan Special Edition)",
+   "videoId": "Ss3IhUmpCt0",
+   "duration": "3:50"
+  },
+  {
+   "title": "Linger",
+   "artist": "The Cranberries",
+   "album": "Everybody Else Is Doing It, So Why Can't We?",
+   "videoId": "PXDlU0YDQ6U",
+   "duration": "4:35"
+  },
+  {
+   "title": "Bela Lugosi's Dead (Official Version)",
+   "artist": "Bauhaus",
+   "album": "The Bela Session",
+   "videoId": "Yy9h2q_dr9k",
+   "duration": "9:37"
+  },
+  {
+   "title": "Nothing Compares 2 U",
+   "artist": "Sinéad O'Connor",
+   "album": "I Do Not Want What I Haven't Got",
+   "videoId": "BqXCpmHPss8",
+   "duration": "4:41"
+  },
+  {
+   "title": "Orinoco Flow",
+   "artist": "Enya",
+   "album": "Themes From \"Calmi Cuori Appassionati\"",
+   "videoId": "YPS-WpeVLyk",
+   "duration": "4:27"
+  },
+  {
+   "title": "The Boys Are Back In Town",
+   "artist": "Thin Lizzy",
+   "album": "Jailbreak",
+   "videoId": "56b4TTT609c",
+   "duration": "4:27"
+  },
+  {
+   "title": "Red Right Hand",
+   "artist": "Nick Cave & The Bad Seeds",
+   "album": "Let Love In",
+   "videoId": "lBVFdSFV2lQ",
+   "duration": "6:11"
+  },
+  {
+   "title": "Beautiful Day",
+   "artist": "U2",
+   "album": "All That You Can't Leave Behind",
+   "videoId": "V1j_MA3daLI",
+   "duration": "4:07"
+  },
+  {
+   "title": "The Rains of Castamere",
+   "artist": "Ramin Djawadi;Serj Tankian",
+   "album": "Game Of Thrones: Season 8 (Music from the HBO Series)",
+   "videoId": "USNr_n-NYmc",
+   "duration": "3:45"
+  },
+  {
+   "title": "Breathless",
+   "artist": "The Corrs",
+   "album": "In Blue",
+   "videoId": "z2Y_2mhFp5g",
+   "duration": "3:28"
+  },
+  {
+   "title": "Hurricane",
+   "artist": "Bob Dylan",
+   "album": "Desire",
+   "videoId": "WvBnI34wZ7c",
+   "duration": "8:33"
+  },
+  {
+   "title": "Thriller",
+   "artist": "Michael Jackson",
+   "album": "Thriller",
+   "videoId": "Z85lxckrtzg",
+   "duration": "5:58"
+  },
+  {
+   "title": "Believe In Yourself (The Arthur Theme Song)",
+   "artist": "The Magic Gang",
+   "album": "Believe In Yourself (The Arthur Theme Song)",
+   "videoId": "RLbaSkith60",
+   "duration": "2:24"
+  },
+  {
+   "title": "Ruff Ryders' Anthem",
+   "artist": "DMX",
+   "album": "It's Dark And Hell Is Hot",
+   "videoId": "FePSbDfx_co",
+   "duration": "3:35"
+  },
+  {
+   "title": "Tubthumping",
+   "artist": "Chumbawamba",
+   "album": "Tubthumper",
+   "videoId": "yW5oTzftgjY",
+   "duration": "4:39"
+  },
+  {
+   "title": "Rossini: Il barbiere di Siviglia / Act 1: \"Largo al factotum\"",
+   "artist": "Sherrill Milnes;London Philharmonic Orchestra;Silvio Varviso;Gioachino Rossini",
+   "album": "The World of Opera Favourites",
+   "videoId": "xb98wKXvr3c",
+   "duration": "4:55"
+  },
+  {
+   "title": "Dirty Laundry (2024 Remaster)",
+   "artist": "Don Henley",
+   "album": "I Can’t Stand Still (2024 Remaster)",
+   "videoId": "bsRTsiKPI2M",
+   "duration": "5:37"
+  },
+  {
+   "title": "Castle on the Hill",
+   "artist": "Ed Sheeran",
+   "album": "÷ (Deluxe)",
+   "videoId": "wqlTrBCNRiY",
+   "duration": "4:22"
+  },
+  {
+   "title": "When The Saints Go Marching In",
+   "artist": "Louis Armstrong",
+   "album": "The Decca Singles 1935-1946",
+   "videoId": "USpYJB6rdRs",
+   "duration": "2:41"
   }
  ]
 }
