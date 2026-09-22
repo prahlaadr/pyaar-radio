@@ -1,13 +1,13 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 287,
- "totalTracks": 81191,
- "syncedAt": "2026-09-21T14:54:32.520568Z",
+ "totalTracks": 78080,
+ "syncedAt": "2026-09-22T13:10:03.032375Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1532
+   "trackCount": 799
   },
   {
    "playlistId": "PLPVuU0Y_h_GA",
@@ -32,7 +32,7 @@
   {
    "playlistId": "PLD4JnSC5NylI",
    "title": "9laad:Desi",
-   "trackCount": 17
+   "trackCount": 0
   },
   {
    "playlistId": "PLBWyfTOMlrI4",
@@ -152,7 +152,7 @@
   {
    "playlistId": "PLZxWRGdRKvFM",
    "title": "Folk / Indie / Pop",
-   "trackCount": 210
+   "trackCount": 200
   },
   {
    "playlistId": "PLKqV_PlbYRzY",
@@ -162,7 +162,7 @@
   {
    "playlistId": "PLKvjOOfELYNc",
    "title": "Jazz Soul Samples",
-   "trackCount": 856
+   "trackCount": 806
   },
   {
    "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
@@ -177,12 +177,12 @@
   {
    "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
    "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 2580
+   "trackCount": 700
   },
   {
    "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
    "title": "DAR DISKU FM",
-   "trackCount": 933
+   "trackCount": 599
   },
   {
    "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
@@ -192,7 +192,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
    "title": " southside rami ",
-   "trackCount": 87
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
