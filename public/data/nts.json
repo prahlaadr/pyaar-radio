@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-21T14:56:37Z",
+  "syncedAt": "2026-09-22T13:12:55Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -29,15 +38,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/yu-su"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "music-4-lovers",
