@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3608,
- "totalTracks": 45849,
- "syncedAt": "2026-09-22T13:09:59.557018Z",
+ "albumCount": 3609,
+ "totalTracks": 45858,
+ "syncedAt": "2026-09-23T13:25:06.575798Z",
  "albums": [
+  {
+   "browseId": "MPREb_Xtp7nDBeESw",
+   "title": "V.S.O.P. (Live)",
+   "artist": "Herbie Hancock",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_OVusbmR7U57",
    "title": "LR002",

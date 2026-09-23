@@ -1,13 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 287,
- "totalTracks": 78080,
- "syncedAt": "2026-09-22T13:10:03.032375Z",
+ "playlistCount": 289,
+ "totalTracks": 81352,
+ "syncedAt": "2026-09-23T13:25:09.767115Z",
  "playlists": [
+  {
+   "playlistId": "PLNlOAgiDvzqk",
+   "title": "talea",
+   "trackCount": 121
+  },
+  {
+   "playlistId": "PLHF27uYNcNMQ",
+   "title": "P287 - Anniversary Gifts",
+   "trackCount": 43
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 799
+   "trackCount": 1529
   },
   {
    "playlistId": "PLPVuU0Y_h_GA",
@@ -32,7 +42,7 @@
   {
    "playlistId": "PLD4JnSC5NylI",
    "title": "9laad:Desi",
-   "trackCount": 0
+   "trackCount": 17
   },
   {
    "playlistId": "PLBWyfTOMlrI4",
@@ -152,7 +162,7 @@
   {
    "playlistId": "PLZxWRGdRKvFM",
    "title": "Folk / Indie / Pop",
-   "trackCount": 200
+   "trackCount": 210
   },
   {
    "playlistId": "PLKqV_PlbYRzY",
@@ -162,7 +172,7 @@
   {
    "playlistId": "PLKvjOOfELYNc",
    "title": "Jazz Soul Samples",
-   "trackCount": 806
+   "trackCount": 856
   },
   {
    "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
@@ -177,12 +187,12 @@
   {
    "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
    "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 700
+   "trackCount": 2580
   },
   {
    "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
    "title": "DAR DISKU FM",
-   "trackCount": 599
+   "trackCount": 933
   },
   {
    "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
@@ -192,7 +202,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
    "title": " southside rami ",
-   "trackCount": 0
+   "trackCount": 87
   },
   {
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",

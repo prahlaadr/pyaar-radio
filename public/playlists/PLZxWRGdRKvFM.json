@@ -1,8 +1,8 @@
 {
  "playlistId": "PLZxWRGdRKvFM",
  "title": "Folk / Indie / Pop",
- "trackCount": 200,
- "syncedAt": "2026-09-22T13:10:03.032375Z",
+ "trackCount": 210,
+ "syncedAt": "2026-09-23T13:25:09.767115Z",
  "tracks": [
   {
    "title": "Wild",
@@ -1403,6 +1403,76 @@
    "album": "Sex Dreams And Denim Jeans",
    "videoId": "8YMItariCAs",
    "duration": "3:20"
+  },
+  {
+   "title": "Charmer",
+   "artist": "Muddyoush",
+   "album": "23",
+   "videoId": "U0sAvH9UhEw",
+   "duration": "2:17"
+  },
+  {
+   "title": "Drop",
+   "artist": "Cornelius",
+   "album": "Point",
+   "videoId": "mXcys8o9G-M",
+   "duration": "5:09"
+  },
+  {
+   "title": "Fried",
+   "artist": "Patrick Holland",
+   "album": "Infra",
+   "videoId": "MqKnG7zr7tY",
+   "duration": "3:06"
+  },
+  {
+   "title": "Cruel",
+   "artist": "Hildegard;Helena Deland;Ouri",
+   "album": "Cruel",
+   "videoId": "oI_at0QeUJY",
+   "duration": "3:19"
+  },
+  {
+   "title": "Beverly",
+   "artist": "Hildegard;Helena Deland;Ouri",
+   "album": "Jour 1596",
+   "videoId": "L2SrYCOSt2w",
+   "duration": "3:59"
+  },
+  {
+   "title": "Piano & Accordion, Pt. 1",
+   "artist": "Vanessa Amara",
+   "album": "Music For Acoustic Instruments & Feedback",
+   "videoId": "PlyImTkgBWI",
+   "duration": "7:36"
+  },
+  {
+   "title": "193193 (For Piano)",
+   "artist": "Chino Yoshio",
+   "album": "193193",
+   "videoId": "7TLVnQobEFA",
+   "duration": "1:36"
+  },
+  {
+   "title": "Going To Live",
+   "artist": "Matthew Herbert",
+   "album": "The Wonder (Soundtrack from the Netflix Film)",
+   "videoId": "i73klXrRyQI",
+   "duration": "1:30"
+  },
+  {
+   "title": "Ethereal",
+   "artist": "Ian Mills",
+   "album": "Not Like This",
+   "videoId": "Neefwz3MPKE",
+   "duration": "2:53"
+  },
+  {
+   "title": "The Word Love",
+   "artist": "Gigi Masin",
+   "album": "Talk To The Sea",
+   "videoId": "3rUMEjUm9js",
+   "duration": "8:58"
   }
  ]
 }
