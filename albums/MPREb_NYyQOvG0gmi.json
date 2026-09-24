@@ -1,0 +1,70 @@
+{
+ "title": "Wild Life",
+ "artist": "Paul McCartney",
+ "year": "1971",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Mumbo",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "YSWlzYv-s2k",
+   "duration": "3:56"
+  },
+  {
+   "title": "Bip Bop",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "hGos8oMul88",
+   "duration": "4:11"
+  },
+  {
+   "title": "Love Is Strange",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "F3XsHS5BuEU",
+   "duration": "4:51"
+  },
+  {
+   "title": "Wild Life",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "nHUSr9cjxP8",
+   "duration": "6:41"
+  },
+  {
+   "title": "Some People Never Know",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "bP61Xo71iqI",
+   "duration": "6:38"
+  },
+  {
+   "title": "I Am Your Singer",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "QT6MkJ7RIm4",
+   "duration": "2:16"
+  },
+  {
+   "title": "Bip Bop Link",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "mBauONdGDM4",
+   "duration": "0:53"
+  },
+  {
+   "title": "Tomorrow",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "96mXhOsHGbE",
+   "duration": "3:25"
+  },
+  {
+   "title": "Dear Friend",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "aQNMkB_T9k0",
+   "duration": "5:50"
+  },
+  {
+   "title": "Mumbo Link",
+   "artist": "Paul McCartney;Wings",
+   "videoId": "2C3y2MThz0Y",
+   "duration": "0:47"
+  }
+ ],
+ "browseId": "MPREb_NYyQOvG0gmi",
+ "syncedAt": "2026-09-24T13:18:01.343632Z"
+}

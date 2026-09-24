@@ -1,0 +1,70 @@
+{
+ "title": "Peanut",
+ "artist": "Otto Benson",
+ "year": "2025",
+ "trackCount": 10,
+ "tracks": [
+  {
+   "title": "Mr. Peanut",
+   "artist": "Otto Benson",
+   "videoId": "cWwV2J2gCnc",
+   "duration": "3:54"
+  },
+  {
+   "title": "Red and Neon",
+   "artist": "Otto Benson",
+   "videoId": "QQoZkgrdqkI",
+   "duration": "3:11"
+  },
+  {
+   "title": "Raisin",
+   "artist": "Otto Benson",
+   "videoId": "zJQOI2nkhXE",
+   "duration": "3:31"
+  },
+  {
+   "title": "Soy Beans",
+   "artist": "Otto Benson",
+   "videoId": "40SBuyu7k1o",
+   "duration": "2:38"
+  },
+  {
+   "title": "Drive Away",
+   "artist": "Otto Benson;Henry's Turn;Wallball",
+   "videoId": "lw0N_sZ-QYU",
+   "duration": "4:26"
+  },
+  {
+   "title": "Tumor",
+   "artist": "Otto Benson",
+   "videoId": "vBGPW4-_V9I",
+   "duration": "4:38"
+  },
+  {
+   "title": "Witnessing",
+   "artist": "Otto Benson",
+   "videoId": "c_S9IArc9Ro",
+   "duration": "4:20"
+  },
+  {
+   "title": "Car Wash",
+   "artist": "Otto Benson;Henry Solomon",
+   "videoId": "uCXI1rvpovU",
+   "duration": "3:09"
+  },
+  {
+   "title": "Silo",
+   "artist": "Otto Benson",
+   "videoId": "syw01vO6O9o",
+   "duration": "5:03"
+  },
+  {
+   "title": "Catch You Later",
+   "artist": "Otto Benson",
+   "videoId": "v1MkGkuP2ag",
+   "duration": "4:04"
+  }
+ ],
+ "browseId": "MPREb_AqjGV2pAteO",
+ "syncedAt": "2026-09-24T13:18:01.343632Z"
+}

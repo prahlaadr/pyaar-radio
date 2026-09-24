@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
  "title": "The Best Electronic Records of 2000-25",
  "trackCount": 419,
- "syncedAt": "2026-09-23T13:25:09.767115Z",
+ "syncedAt": "2026-09-24T13:18:05.911310Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -146,8 +146,8 @@
   },
   {
    "title": "Blood on My Hands",
-   "artist": "Shackleton - Topic",
-   "album": "",
+   "artist": "Shackleton",
+   "album": "Soundboy Punishments",
    "videoId": "4nzSl-DcLW4",
    "duration": "7:31"
   },
@@ -348,9 +348,9 @@
    "duration": "12:12"
   },
   {
-   "title": "The Right Wing (Remastered)",
-   "artist": "Luomo - Topic",
-   "album": "",
+   "title": "The Right Wing",
+   "artist": "Luomo",
+   "album": "Vocalcity (20th Anniversary Re-Master)",
    "videoId": "Dc_Wr7vM6RM",
    "duration": "16:09"
   },
@@ -419,15 +419,15 @@
   },
   {
    "title": "When The Past Was Present",
-   "artist": "John Talabot - Topic",
-   "album": "",
+   "artist": "John Talabot",
+   "album": "Fin",
    "videoId": "5NGRRKnlhF8",
    "duration": "5:07"
   },
   {
    "title": "Digital Tsunami",
-   "artist": "Drexciya - Topic",
-   "album": "",
+   "artist": "Drexciya",
+   "album": "Harnessed the Storm",
    "videoId": "BeMs83vo8CE",
    "duration": "6:23"
   },
@@ -475,8 +475,8 @@
   },
   {
    "title": "Cubist Camouflage",
-   "artist": "Huerco S. - Topic",
-   "album": "",
+   "artist": "Huerco S.",
+   "album": "For Those Of You Who Have Never (And Also Those Who Have)",
    "videoId": "bC9CV_dbmic",
    "duration": "2:41"
   },
@@ -517,8 +517,8 @@
   },
   {
    "title": "Caught Up",
-   "artist": "Metro Area - Topic",
-   "album": "",
+   "artist": "Metro Area",
+   "album": "Metro Area (15th Anniversary Edition)",
    "videoId": "4rlnfa9Iu_0",
    "duration": "7:37"
   },
@@ -587,8 +587,8 @@
   },
   {
    "title": "Video Girl",
-   "artist": "FKA twigs - Topic",
-   "album": "",
+   "artist": "FKA twigs",
+   "album": "LP1",
    "videoId": "3XRM6THQzYk",
    "duration": "3:48"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "Miyako",
-   "artist": "Paula Temple - Topic",
-   "album": "",
+   "artist": "Paula Temple",
+   "album": "The Speck of the Future EP",
    "videoId": "LwU--49_J-M",
    "duration": "7:12"
   },
@@ -636,8 +636,8 @@
   },
   {
    "title": "Eple",
-   "artist": "Röyksopp - Topic",
-   "album": "",
+   "artist": "Röyksopp",
+   "album": "Melody A.M.",
    "videoId": "KkD7a82mTvY",
    "duration": "3:39"
   },
@@ -692,8 +692,8 @@
   },
   {
    "title": "How We Relate To The Body",
-   "artist": "Jam City - Topic",
-   "album": "",
+   "artist": "Jam City",
+   "album": "Classical Curves",
    "videoId": "dEzwAp-TNc0",
    "duration": "5:21"
   },
