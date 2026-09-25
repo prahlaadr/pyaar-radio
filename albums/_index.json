@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3613,
- "totalTracks": 45892,
- "syncedAt": "2026-09-24T13:18:01.343632Z",
+ "albumCount": 3611,
+ "totalTracks": 45878,
+ "syncedAt": "2026-09-25T13:17:08.370269Z",
  "albums": [
+  {
+   "browseId": "MPREb_tnlk2Ap0Z9y",
+   "title": "Lockjaw",
+   "artist": "Frances Forever",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_9VIzcT6GaXF",
    "title": "Hungry Animal",
@@ -55,7 +61,7 @@
   {
    "browseId": "MPREb_gMvhRYawx4n",
    "title": "Reich: Music for 18 Musicians",
-   "artist": "Steve Reich Ensemble",
+   "artist": "Steve Reich",
    "trackCount": 0
   },
   {
@@ -1775,12 +1781,6 @@
    "trackCount": 4
   },
   {
-   "browseId": "MPREb_jsoGyGxyvvo",
-   "title": "Stunt Doubles (Pt. 2)",
-   "artist": "Anish Kumar",
-   "trackCount": 4
-  },
-  {
    "browseId": "MPREb_QejHbAiRCBv",
    "title": "AK Cuts: Vol. 3",
    "artist": "Anish Kumar",
@@ -2361,12 +2361,6 @@
    "title": "Live in San Francisco '16",
    "artist": "King Gizzard & The Lizard Wizard",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_p8ykXCEItJr",
-   "title": "L.W.",
-   "artist": "King Gizzard & The Lizard Wizard",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_FvavZAxeSag",
@@ -18255,12 +18249,6 @@
    "title": "How to Name It?",
    "artist": "Ilaiyaraaja",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_s2HXecfPud4",
-   "title": "Red Ranger",
-   "artist": "RRoxket",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_oYKkDY01hgX",

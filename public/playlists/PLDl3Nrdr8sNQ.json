@@ -2,7 +2,7 @@
  "playlistId": "PLDl3Nrdr8sNQ",
  "title": "Favorite Songs (unliked keepers)",
  "trackCount": 964,
- "syncedAt": "2026-09-24T13:18:05.911310Z",
+ "syncedAt": "2026-09-25T13:17:12.147765Z",
  "tracks": [
   {
    "title": "Grup Seyran Cano / Uy Biviza / Kako Husen",
@@ -2169,22 +2169,22 @@
   },
   {
    "title": "Charlie Brown",
-   "artist": "Coldplay - Topic",
-   "album": "",
+   "artist": "Coldplay",
+   "album": "Mylo Xyloto",
    "videoId": "JZwU974Qdf4",
    "duration": "4:46"
   },
   {
    "title": "harvest sky",
-   "artist": "Oklou - Topic",
-   "album": "",
+   "artist": "Oklou;underscores",
+   "album": "choke enough (Deluxe)",
    "videoId": "JmzyzpdZUQw",
    "duration": "3:54"
   },
   {
    "title": "Ennuyire",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Sreenivas;Sujatha",
+   "album": "Uyire",
    "videoId": "JpeG_addtv4",
    "duration": "7:23"
   },
@@ -2267,8 +2267,8 @@
   },
   {
    "title": "How Can You Mend a Broken Heart",
-   "artist": "Al Green - Topic",
-   "album": "",
+   "artist": "Al Green",
+   "album": "The Love Songs Collection",
    "videoId": "KylBLsuBSdo",
    "duration": "6:23"
   },
@@ -2358,8 +2358,8 @@
   },
   {
    "title": "Messages from the Stars",
-   "artist": "RAH Band - Topic",
-   "album": "",
+   "artist": "The Rah Band",
+   "album": "Past, Present & Future",
    "videoId": "LfX6JxfND44",
    "duration": "7:41"
   },
@@ -2470,8 +2470,8 @@
   },
   {
    "title": "Lights On",
-   "artist": "MPH - Topic",
-   "album": "",
+   "artist": "MPH;AC Slater;Eloise Keeble",
+   "album": "Refraction",
    "videoId": "MomddE5v_jk",
    "duration": "3:14"
   },
@@ -2491,15 +2491,15 @@
   },
   {
    "title": "ART",
-   "artist": "Tyla - Topic",
-   "album": "",
+   "artist": "Tyla",
+   "album": "TYLA +",
    "videoId": "MyJNadLkS0k",
    "duration": "2:29"
   },
   {
    "title": "Izzo (H.O.V.A.)",
-   "artist": "JAŸ-Z - Topic",
-   "album": "",
+   "artist": "JAŸ-Z",
+   "album": "The Blueprint",
    "videoId": "N-raz0TUEvo",
    "duration": "4:01"
   },
@@ -2603,8 +2603,8 @@
   },
   {
    "title": "Sober Thoughts (Chris McClenney Remix)",
-   "artist": "GoldLink - Topic",
-   "album": "",
+   "artist": "GoldLink",
+   "album": "Sober Thoughts (Chris McClenney Remix)",
    "videoId": "Nn9PqV-LCk0",
    "duration": "3:00"
   },
@@ -2708,8 +2708,8 @@
   },
   {
    "title": "Knockin' Doorz Down",
-   "artist": "Pimp C - Topic",
-   "album": "",
+   "artist": "Pimp C",
+   "album": "Pimpalation",
    "videoId": "PUxAhBRfc8c",
    "duration": "4:25"
   },
@@ -6644,7 +6644,7 @@
    "title": "Seeing 20",
    "artist": "Mel V",
    "album": "Seeing 20",
-   "videoId": "z5az-AECv9A",
+   "videoId": "IC1hFtDcmis",
    "duration": "1:09"
   },
   {
