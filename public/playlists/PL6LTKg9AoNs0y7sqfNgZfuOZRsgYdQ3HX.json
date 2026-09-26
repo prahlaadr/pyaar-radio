@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-09-25T13:17:12.147765Z",
+ "syncedAt": "2026-09-26T12:43:09.557171Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -11507,7 +11507,7 @@
   },
   {
    "title": "Blue",
-   "artist": "Blu & Exile",
+   "artist": "Blu;Exile",
    "album": "Miles",
    "videoId": "WbrjB6X57UY",
    "duration": "2:19"
@@ -11745,7 +11745,7 @@
   },
   {
    "title": "When The Gods Meet (feat. Ishe)",
-   "artist": "Blu & Exile",
+   "artist": "Blu;Exile",
    "album": "Miles",
    "videoId": "FMKIlUDeBeM",
    "duration": "3:04"
@@ -11766,7 +11766,7 @@
   },
   {
    "title": "Miles Away (feat. C.S. Armstrong)",
-   "artist": "Blu & Exile",
+   "artist": "Blu;Exile",
    "album": "Miles",
    "videoId": "z-qDzd1hrkY",
    "duration": "5:08"

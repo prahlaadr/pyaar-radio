@@ -1,9 +1,14 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 290,
- "totalTracks": 80412,
- "syncedAt": "2026-09-25T13:17:12.147765Z",
+ "totalTracks": 81349,
+ "syncedAt": "2026-09-26T12:43:09.557171Z",
  "playlists": [
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 41
+  },
   {
    "playlistId": "PLI19tRI6_kho",
    "title": "9 lad",
@@ -23,11 +28,6 @@
    "playlistId": "PLHF27uYNcNMQ",
    "title": "P287 - Anniversary Gifts",
    "trackCount": 43
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 40
   },
   {
    "playlistId": "PLCiZ2xFxWWEw",
@@ -137,7 +137,7 @@
   {
    "playlistId": "PLJIHWFRb5JG0",
    "title": "Disco Funk House + Deep House",
-   "trackCount": 635
+   "trackCount": 630
   },
   {
    "playlistId": "PLMoUVJEmUblE",
@@ -902,7 +902,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3oL6eR9GsYYqh4UHIoz0I_",
    "title": "🍝 Alchemist' abstract samples cookbook // Music for empty rooms' selection",
-   "trackCount": 210
+   "trackCount": 209
   },
   {
    "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
@@ -1002,7 +1002,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
    "title": "le gazzz",
-   "trackCount": 399
+   "trackCount": 1341
   },
   {
    "playlistId": "PL6LTKg9AoNs2nWNte2SOC5ey6HB6386qI",

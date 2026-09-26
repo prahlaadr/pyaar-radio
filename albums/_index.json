@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3611,
- "totalTracks": 45878,
- "syncedAt": "2026-09-25T13:17:08.370269Z",
+ "albumCount": 3612,
+ "totalTracks": 45887,
+ "syncedAt": "2026-09-26T12:43:05.602176Z",
  "albums": [
+  {
+   "browseId": "MPREb_J2bFHWyfbO0",
+   "title": "Madres",
+   "artist": "Sofia Kourtesis",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_8Fe9BDs4DMt",
+   "title": "New Long Leg",
+   "artist": "Dry Cleaning",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_tnlk2Ap0Z9y",
    "title": "Lockjaw",
@@ -2313,12 +2325,6 @@
    "title": "St. Elsewhere",
    "artist": "Gnarls Barkley",
    "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_Du1jC0DlUGu",
-   "title": "D>E>A>T>H>M>E>T>A>L",
-   "artist": "Panchiko",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_lbyxcUBPO0c",
@@ -9139,7 +9145,7 @@
   {
    "browseId": "MPREb_sdQpFWK35uz",
    "title": "Miles",
-   "artist": "Blu & Exile",
+   "artist": "Blu",
    "trackCount": 20
   },
   {
