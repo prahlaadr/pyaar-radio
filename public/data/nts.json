@@ -1,6 +1,19 @@
 {
-  "syncedAt": "2026-09-25T13:23:54Z",
+  "syncedAt": "2026-09-26T12:46:58Z",
   "shows": [
+    {
+      "alias": "raji-rags",
+      "name": "Raji Rags",
+      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
+      "ntsGenres": [
+        "hip-hop / r'n'b",
+        "electronica / downtempo",
+        "house / techno"
+      ],
+      "url": "https://www.nts.live/shows/raji-rags"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -124,25 +137,12 @@
     },
     {
       "alias": "nabihah-iqbal",
-      "name": "Nabihah Iqbal ",
+      "name": "Nabihah Iqbal - John Coltrane Special",
       "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
       "location": "London",
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/nabihah-iqbal"
-    },
-    {
-      "alias": "raji-rags",
-      "name": "Raji Rags",
-      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
-      "ntsGenres": [
-        "hip-hop / r'n'b",
-        "electronica / downtempo",
-        "house / techno"
-      ],
-      "url": "https://www.nts.live/shows/raji-rags"
     },
     {
       "alias": "homeshake",
