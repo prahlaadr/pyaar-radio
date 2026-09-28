@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-27T13:39:07Z",
+  "syncedAt": "2026-09-28T16:34:54Z",
   "shows": [
+    {
+      "alias": "nabihah-iqbal",
+      "name": "Nabihah Iqbal",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/nabihah-iqbal"
+    },
     {
       "alias": "raji-rags",
       "name": "Raji Rags",
@@ -134,15 +143,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/loraine-james"
-    },
-    {
-      "alias": "nabihah-iqbal",
-      "name": "Nabihah Iqbal - John Coltrane Special",
-      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/nabihah-iqbal"
     },
     {
       "alias": "homeshake",
