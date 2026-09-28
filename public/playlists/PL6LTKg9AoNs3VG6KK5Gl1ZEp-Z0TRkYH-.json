@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3VG6KK5Gl1ZEp-Z0TRkYH-",
  "title": "Electronic",
  "trackCount": 1087,
- "syncedAt": "2026-09-27T13:34:57.389423Z",
+ "syncedAt": "2026-09-28T16:31:12.769755Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -188,7 +188,7 @@
   },
   {
    "title": "Speak Softly",
-   "artist": "Anish Kumar;Baalti;Stunt Doubles",
+   "artist": "Stunt Doubles;Anish Kumar;Baalti",
    "album": "Stunt Doubles",
    "videoId": "Mw24s1kHPWI",
    "duration": "3:43"
@@ -482,7 +482,7 @@
   },
   {
    "title": "The Fastest Boxer in the East",
-   "artist": "Anish Kumar;Baalti;Stunt Doubles",
+   "artist": "Stunt Doubles;Anish Kumar;Baalti",
    "album": "Stunt Doubles",
    "videoId": "HTwxUt9nsyo",
    "duration": "5:23"
@@ -685,9 +685,9 @@
   },
   {
    "title": "Title Theme",
-   "artist": "Anish Kumar;Baalti;Stunt Doubles",
-   "album": "Stunt Doubles (Pt. 2)",
-   "videoId": "7NgF8eXhIR4",
+   "artist": "Stunt Doubles;Anish Kumar;Baalti",
+   "album": "Stunt Doubles",
+   "videoId": "wz2CLwZQmGM",
    "duration": "4:48"
   },
   {
