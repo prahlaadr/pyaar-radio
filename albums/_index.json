@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3611,
- "totalTracks": 45876,
- "syncedAt": "2026-09-28T16:31:09.928836Z",
+ "albumCount": 3609,
+ "totalTracks": 45851,
+ "syncedAt": "2026-09-29T14:40:57.188847Z",
  "albums": [
   {
    "browseId": "MPREb_J2bFHWyfbO0",
@@ -16853,12 +16853,6 @@
    "trackCount": 19
   },
   {
-   "browseId": "MPREb_8CnnFKsN9oq",
-   "title": "Moon Trip Radio",
-   "artist": "Clams Casino",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_vo8rOs0R9Aj",
    "title": "Creepin on Ah Come Up",
    "artist": "Bone Thugs-n-Harmony",
@@ -17973,12 +17967,6 @@
    "title": "Fabiana Palladino",
    "artist": "Fabiana Palladino",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_5lgjqCdMKnH",
-   "title": "Coyote, You're My Star",
-   "artist": "Dana and Alden",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_byCLppgPeCf",
