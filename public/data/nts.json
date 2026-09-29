@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-09-28T16:34:54Z",
+  "syncedAt": "2026-09-29T14:42:38Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
     {
       "alias": "nabihah-iqbal",
       "name": "Nabihah Iqbal",
@@ -31,15 +40,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/in-focus"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "abby-imperial",
@@ -107,73 +107,6 @@
         "house / techno"
       ],
       "url": "https://www.nts.live/shows/sendspaace"
-    },
-    {
-      "alias": "tana-yonas",
-      "name": "Wabi Sabi w/ Tana Yonas",
-      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/tana-yonas"
-    },
-    {
-      "alias": "sic-records",
-      "name": "SIC Records",
-      "description": "Vaporwave meets hip hop for an hour a month. Enjoy The SIC Records experience today.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/sic-records"
-    },
-    {
-      "alias": "tommasi",
-      "name": "Tommasi",
-      "description": "In Iceland, Thomas Stankiewicz contemplates the constant flux of the elements. A composer & musician in his own right, he selectively weaves in between soundtracks, classical music, and evocative ambient sounds, symphonically unveiling untold stories from past and future…\n@tommmasi",
-      "location": "Iceland",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/tommasi"
-    },
-    {
-      "alias": "loraine-james",
-      "name": "Loraine James",
-      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/loraine-james"
-    },
-    {
-      "alias": "homeshake",
-      "name": "Homeshake",
-      "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
-      "location": "Toronto",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/b48164c8-6a29-4404-ad0c-431eee21b146_1471910400.png",
-      "ntsGenres": [
-        "ambient / new age",
-        "other",
-        "hip-hop / r'n'b"
-      ],
-      "url": "https://www.nts.live/shows/homeshake"
-    },
-    {
-      "alias": "sacred-space",
-      "name": "Sacred Space w/ Radha",
-      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/sacred-space"
-    },
-    {
-      "alias": "coltrane-day",
-      "name": "Coltrane Day",
-      "description": "NTS presents a special all-day broadcast dedicated to one of the most influential and acclaimed figures in the history of jazz and 20th century music: John Coltrane.\nAcross 12 hours of radio, we're enlisting the help of admirers and collaborators of Coltrane - We explore his musical beginnings, influences, and notable eras of his prolific composing and performing life. Featuring interviews and explorations by noted Coltrane experts, admirers, and NTS residents, including music journalist Ben Ratliff and Coltrane's jazz contemporary Ron Carter.",
-      "location": "North Carolina",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/47d58ce3-7b9c-4be1-ba5d-9f57467f738b_1695168000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/coltrane-day"
     }
   ],
   "episodes": [
