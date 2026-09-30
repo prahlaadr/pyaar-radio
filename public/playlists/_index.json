@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 290,
- "totalTracks": 81354,
- "syncedAt": "2026-09-29T14:41:00.036158Z",
+ "playlistCount": 291,
+ "totalTracks": 79296,
+ "syncedAt": "2026-09-30T14:40:55.252038Z",
  "playlists": [
+  {
+   "playlistId": "PLNlOAgiDvzqk",
+   "title": "talea",
+   "trackCount": 122
+  },
+  {
+   "playlistId": "PLb9bCjVVLPl4",
+   "title": "P288 - Give Me Five (Trivia 9/29)",
+   "trackCount": 47
+  },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
@@ -18,11 +28,6 @@
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
    "trackCount": 1530
-  },
-  {
-   "playlistId": "PLNlOAgiDvzqk",
-   "title": "talea",
-   "trackCount": 121
   },
   {
    "playlistId": "PLHF27uYNcNMQ",
@@ -382,7 +387,7 @@
   {
    "playlistId": "PL6LTKg9AoNs256vR_7fqR-uxJ1zk_UMCy",
    "title": "Rally",
-   "trackCount": 180
+   "trackCount": 177
   },
   {
    "playlistId": "PL6LTKg9AoNs0xpXJkEduGGGj4SHB3Bvnq",
@@ -537,7 +542,7 @@
   {
    "playlistId": "PL6LTKg9AoNs28-MEgNi_4ycfDKM90zpOf",
    "title": "Riding (Night)",
-   "trackCount": 262
+   "trackCount": 263
   },
   {
    "playlistId": "PL6LTKg9AoNs2hq3qO-5XmOoohx_Xh-dkU",
@@ -1032,7 +1037,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
    "title": "Leftfield Bass",
-   "trackCount": 2104
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs1EH4vRaGHdUEVueAfKDeYD",

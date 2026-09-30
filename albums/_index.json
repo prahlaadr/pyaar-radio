@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3609,
- "totalTracks": 45851,
- "syncedAt": "2026-09-29T14:40:57.188847Z",
+ "albumCount": 3610,
+ "totalTracks": 45862,
+ "syncedAt": "2026-09-30T14:40:51.965772Z",
  "albums": [
   {
    "browseId": "MPREb_J2bFHWyfbO0",
@@ -16851,6 +16851,12 @@
    "title": "volcanic bird enemy and the voiced concern",
    "artist": "Lil Ugly Mane",
    "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_8CnnFKsN9oq",
+   "title": "Moon Trip Radio",
+   "artist": "Clams Casino",
+   "trackCount": 11
   },
   {
    "browseId": "MPREb_vo8rOs0R9Aj",

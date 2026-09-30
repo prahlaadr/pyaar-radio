@@ -1,8 +1,8 @@
 {
  "playlistId": "PLNlOAgiDvzqk",
  "title": "talea",
- "trackCount": 121,
- "syncedAt": "2026-09-29T14:41:00.036158Z",
+ "trackCount": 122,
+ "syncedAt": "2026-09-30T14:40:55.252038Z",
  "tracks": [
   {
    "title": "Short Skirt / Long Jacket",
@@ -850,6 +850,13 @@
    "album": "Tonight",
    "videoId": "TMYrvEMZr_U",
    "duration": "2:57"
+  },
+  {
+   "title": "Eyes Without A Face",
+   "artist": "Billy Idol",
+   "album": "Rebel Yell",
+   "videoId": "e7U1YZNgwnY",
+   "duration": "5:00"
   }
  ]
 }

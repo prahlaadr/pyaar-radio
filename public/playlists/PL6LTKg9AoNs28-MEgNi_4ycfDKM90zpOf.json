@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs28-MEgNi_4ycfDKM90zpOf",
  "title": "Riding (Night)",
- "trackCount": 262,
- "syncedAt": "2026-09-29T14:41:00.036158Z",
+ "trackCount": 263,
+ "syncedAt": "2026-09-30T14:40:55.252038Z",
  "tracks": [
   {
    "title": "Nights",
@@ -1018,6 +1018,13 @@
    "album": "Lemonade",
    "videoId": "rN-ElZwUADQ",
    "duration": "3:16"
+  },
+  {
+   "title": "Hope (feat. Puff Daddy & Tei Shi)",
+   "artist": "Blood Orange",
+   "album": "Negro Swan",
+   "videoId": "qBrI4yHOQao",
+   "duration": "4:00"
   },
   {
    "title": "'Til It's Over",
