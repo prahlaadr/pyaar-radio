@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 291,
- "totalTracks": 79296,
- "syncedAt": "2026-09-30T14:40:55.252038Z",
+ "playlistCount": 292,
+ "totalTracks": 81405,
+ "syncedAt": "2026-10-01T15:09:45.249185Z",
  "playlists": [
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 43
+  },
+  {
+   "playlistId": "PLXMEXXYz8pvs",
+   "title": "jungle book",
+   "trackCount": 3
+  },
   {
    "playlistId": "PLNlOAgiDvzqk",
    "title": "talea",
@@ -13,11 +23,6 @@
    "playlistId": "PLb9bCjVVLPl4",
    "title": "P288 - Give Me Five (Trivia 9/29)",
    "trackCount": 47
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 41
   },
   {
    "playlistId": "PLI19tRI6_kho",
@@ -1037,7 +1042,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2mgXaI5GsbFYLuS8Zg7-cY",
    "title": "Leftfield Bass",
-   "trackCount": 0
+   "trackCount": 2104
   },
   {
    "playlistId": "PL6LTKg9AoNs1EH4vRaGHdUEVueAfKDeYD",
