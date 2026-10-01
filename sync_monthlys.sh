@@ -65,5 +65,13 @@ ts() { date "+%Y-%m-%d %H:%M:%S"; }
     echo "[$(ts)] sync_usb.py → $ROOT/PYAAR.Radio/Monthlys (flat layout)"
     "$PY" sync_usb.py --flat
 
+    # 4. Restore repo-tracked snapshot churn. sync_monthly_playlists.py rewrites
+    #    public/playlists/*.json as a byproduct (the real deliverable is the drive
+    #    download above); origin's daily Action is the canonical writer of those
+    #    snapshots. Discarding the local diff keeps the git tree clean so it does
+    #    not block the next pull — here (step 1's rebase) or the pull-radio agent.
+    echo "[$(ts)] restore public/playlists (keep git tree clean)"
+    git checkout -- public/playlists 2>/dev/null || true
+
     echo "[$(ts)] done"
 } >> "$LOG" 2>&1
