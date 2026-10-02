@@ -1,8 +1,8 @@
 {
  "playlistId": "PLPVuU0Y_h_GA",
  "title": "Sept 26",
- "trackCount": 43,
- "syncedAt": "2026-10-01T15:09:45.249185Z",
+ "trackCount": 46,
+ "syncedAt": "2026-10-02T14:30:47.772455Z",
  "tracks": [
   {
    "title": "Wanna Be With You",
@@ -304,6 +304,27 @@
    "album": "running (remix/live)",
    "videoId": "RBSSeV96ZUY",
    "duration": "3:28"
+  },
+  {
+   "title": "FLOWERS",
+   "artist": "Heems;Sid Vashi;Navz-47",
+   "album": "VEENA",
+   "videoId": "jrP-852v5jU",
+   "duration": "4:49"
+  },
+  {
+   "title": "She Took You For A Ride",
+   "artist": "Aaron Neville",
+   "album": "Tell It Like It Is - The Par Lo Years",
+   "videoId": "xoC-2qhzdjY",
+   "duration": "3:20"
+  },
+  {
+   "title": "It's Easier",
+   "artist": "Stevie Wonder",
+   "album": "Songs In The Key Of Life - The EP",
+   "videoId": "8Mxfk7YAPvk",
+   "duration": "5:10"
   }
  ]
 }

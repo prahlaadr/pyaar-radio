@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3608,
- "totalTracks": 45834,
- "syncedAt": "2026-10-01T15:09:42.277022Z",
+ "albumCount": 3605,
+ "totalTracks": 45792,
+ "syncedAt": "2026-10-02T14:30:44.740129Z",
  "albums": [
+  {
+   "browseId": "MPREb_W7cbEK0HGU6",
+   "title": "Songs In The Key Of Life - The EP",
+   "artist": "Stevie Wonder",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_J2bFHWyfbO0",
    "title": "Madres",
@@ -2699,12 +2705,6 @@
    "trackCount": 4
   },
   {
-   "browseId": "MPREb_hz7lXSoqJnV",
-   "title": "A Tree to Climb",
-   "artist": "JJ Fiction",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_ohxOOUYoAzK",
    "title": "Pray For Haiti",
    "artist": "Mach-Hommy",
@@ -5307,12 +5307,6 @@
    "title": "Chaap Tilak",
    "artist": "Kalzi",
    "trackCount": 1
-  },
-  {
-   "browseId": "MPREb_XiuuhCLo6Sc",
-   "title": "Tunnels",
-   "artist": "Kalbaisakhi",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_mMFkBRorir7",
@@ -13769,12 +13763,6 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_7JDYY65VIYJ",
-   "title": "Microphone Fiend",
-   "artist": "Zelooperz",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_DRXuSFEpNCK",
    "title": "Eat Pray Thug",
    "artist": "Heems",
@@ -15783,12 +15771,6 @@
    "title": "BOY ANONYMOUS",
    "artist": "Paris Texas",
    "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_qrgJrZ8cfsQ",
-   "title": "MUSEUM",
-   "artist": "Lord Sko",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_aazEezKzRdd",

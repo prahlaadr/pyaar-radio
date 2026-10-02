@@ -1,8 +1,8 @@
 {
  "playlistId": "PLTqe9a0cMAvA",
  "title": "4laad",
- "trackCount": 13,
- "syncedAt": "2026-10-01T15:09:45.249185Z",
+ "trackCount": 18,
+ "syncedAt": "2026-10-02T14:30:47.772455Z",
  "tracks": [
   {
    "title": "Introduction",
@@ -12,18 +12,18 @@
    "duration": "2:36"
   },
   {
+   "title": "penso en voce",
+   "artist": "Sparklmami",
+   "album": "in this body",
+   "videoId": "lGYOmVp_kls",
+   "duration": "2:37"
+  },
+  {
    "title": "Cocky",
    "artist": "Niles;Mirror Maze",
    "album": "Cocky",
    "videoId": "nhdL51QQbxg",
    "duration": "3:16"
-  },
-  {
-   "title": "Sósia",
-   "artist": "Villager",
-   "album": "Sósia",
-   "videoId": "E_UxgqBl4kA",
-   "duration": "3:38"
   },
   {
    "title": "Pandemic is a Portal (PiaP)",
@@ -33,6 +33,13 @@
    "duration": "3:27"
   },
   {
+   "title": "So U Kno",
+   "artist": "Overmono",
+   "album": "Good Lies",
+   "videoId": "9NiJF638E2k",
+   "duration": "5:44"
+  },
+  {
    "title": "Siena (feat. Clara La San)",
    "artist": "Bicep",
    "album": "Isles (Deluxe)",
@@ -40,11 +47,18 @@
    "duration": "4:03"
   },
   {
-   "title": "So U Kno",
-   "artist": "Overmono",
-   "album": "Good Lies",
-   "videoId": "9NiJF638E2k",
-   "duration": "5:44"
+   "title": "Looking at Your Pager",
+   "artist": "KH",
+   "album": "The Annual 2023 - Ministry of Sound",
+   "videoId": "D40uTBvEYZk",
+   "duration": "2:55"
+  },
+  {
+   "title": "Sósia",
+   "artist": "Villager",
+   "album": "Sósia",
+   "videoId": "E_UxgqBl4kA",
+   "duration": "3:38"
   },
   {
    "title": "Curry",
@@ -75,13 +89,6 @@
    "duration": "3:05"
   },
   {
-   "title": "To The Sky",
-   "artist": "Loukeman",
-   "album": "To The Sky",
-   "videoId": "76gkj1VJ9u0",
-   "duration": "3:52"
-  },
-  {
    "title": "Reject",
    "artist": "VELLE",
    "album": "Adore / Reject",
@@ -94,6 +101,34 @@
    "album": "Blue Angel Sparkling Silver 2",
    "videoId": "D15F-_EhKWk",
    "duration": "3:07"
+  },
+  {
+   "title": "Aame",
+   "artist": "Baalti",
+   "album": "Baalti",
+   "videoId": "JmlDEjK6O5M",
+   "duration": "2:29"
+  },
+  {
+   "title": "To The Sky",
+   "artist": "Loukeman",
+   "album": "To The Sky",
+   "videoId": "76gkj1VJ9u0",
+   "duration": "3:52"
+  },
+  {
+   "title": "Diwali",
+   "artist": "Skrillex;Naisha;BEAM",
+   "album": "SOMA",
+   "videoId": "8UOaWPR-vWU",
+   "duration": "3:07"
+  },
+  {
+   "title": "Still Dreaming",
+   "artist": "Arushi Jain",
+   "album": "Delight",
+   "videoId": "6dP2xFyaq2Q",
+   "duration": "4:28"
   }
  ]
 }

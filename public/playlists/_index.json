@@ -1,18 +1,28 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 292,
- "totalTracks": 81405,
- "syncedAt": "2026-10-01T15:09:45.249185Z",
+ "totalTracks": 81427,
+ "syncedAt": "2026-10-02T14:30:47.772455Z",
  "playlists": [
+  {
+   "playlistId": "PLTqe9a0cMAvA",
+   "title": "4laad",
+   "trackCount": 18
+  },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
-   "trackCount": 43
+   "trackCount": 46
   },
   {
    "playlistId": "PLXMEXXYz8pvs",
    "title": "jungle book",
-   "trackCount": 3
+   "trackCount": 4
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs0_af5VpbALHabkrrl44I5_",
+   "title": "Dub Crate (Dub, calm UKG, deep bass) (goated) [pyaar radio]",
+   "trackCount": 942
   },
   {
    "playlistId": "PLNlOAgiDvzqk",
@@ -128,11 +138,6 @@
    "playlistId": "PLW7L1V0gLi3k",
    "title": "9laad:Gallery",
    "trackCount": 85
-  },
-  {
-   "playlistId": "PLTqe9a0cMAvA",
-   "title": "4laad",
-   "trackCount": 13
   },
   {
    "playlistId": "PLAzh1aG0BkDM",
@@ -268,11 +273,6 @@
    "playlistId": "PL6LTKg9AoNs2amIfp25lZAzFfX41jR_QI",
    "title": "Nyege nyege set",
    "trackCount": 9
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0_af5VpbALHabkrrl44I5_",
-   "title": "Dub Crate (Dub, calm UKG, deep bass) (goated) [pyaar radio]",
-   "trackCount": 928
   },
   {
    "playlistId": "PLXhf9u4ZLH38",
@@ -492,7 +492,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2Ql3c3gc0hq15zhU8-euq-",
    "title": "carnatic drummer boy ",
-   "trackCount": 114
+   "trackCount": 113
   },
   {
    "playlistId": "PL6LTKg9AoNs0_R6ZZir-xfL7x41VX5agg",

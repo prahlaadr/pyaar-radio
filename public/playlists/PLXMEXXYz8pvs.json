@@ -1,8 +1,8 @@
 {
  "playlistId": "PLXMEXXYz8pvs",
  "title": "jungle book",
- "trackCount": 3,
- "syncedAt": "2026-10-01T15:09:45.249185Z",
+ "trackCount": 4,
+ "syncedAt": "2026-10-02T14:30:47.772455Z",
  "tracks": [
   {
    "title": "Jiya Lage Na",
@@ -24,6 +24,13 @@
    "album": "Prophesy",
    "videoId": "C6c59WmprbI",
    "duration": "4:50"
+  },
+  {
+   "title": "Kerala",
+   "artist": "Bonobo",
+   "album": "Migration",
+   "videoId": "sbygyYTKzVE",
+   "duration": "3:58"
   }
  ]
 }
