@@ -1,7 +1,67 @@
 {
-  "syncedAt": "2026-10-01T15:32:20Z",
-  "clientId": "tNiXK56A9yLDayzQ5DsBvqwiyhRLZZNv",
+  "syncedAt": "2026-10-02T14:49:45Z",
+  "clientId": "dkevB9EsY4jIoSm8RfddPNUKyn6hurXF",
   "likes": [
+    {
+      "id": 222694762,
+      "title": "Dimelo",
+      "user": "esta.",
+      "artwork": "https://i1.sndcdn.com/artworks-000128736042-18r6uk-large.jpg",
+      "permalink": "https://soundcloud.com/beatsbyesta/dimelo",
+      "duration": 202495,
+      "genre": "soulection",
+      "streamable": true
+    },
+    {
+      "id": 234007505,
+      "title": "The Encore",
+      "user": "Chris Travis",
+      "artwork": "https://i1.sndcdn.com/artworks-8jG4NpYyo9ku-0-large.jpg",
+      "permalink": "https://soundcloud.com/christravis/chris-travis-the-encore",
+      "duration": 190210,
+      "genre": "Rap/Hip-Hop",
+      "streamable": true
+    },
+    {
+      "id": 330232431,
+      "title": "9mm",
+      "user": "Papora",
+      "artwork": "https://i1.sndcdn.com/artworks-000230699289-77oavb-large.jpg",
+      "permalink": "https://soundcloud.com/isaacpurple/9mm",
+      "duration": 176061,
+      "genre": "coveredinmoney",
+      "streamable": true
+    },
+    {
+      "id": 1796625007,
+      "title": "All kinda drugs",
+      "user": "Papora",
+      "artwork": "https://i1.sndcdn.com/artworks-zFiumSUns5DDNIwV-wiolaQ-large.jpg",
+      "permalink": "https://soundcloud.com/isaacpurple/all-kinda-drugs",
+      "duration": 116638,
+      "genre": "",
+      "streamable": true
+    },
+    {
+      "id": 1796626594,
+      "title": "hurtfeelings (idea)",
+      "user": "Papora",
+      "artwork": "https://i1.sndcdn.com/artworks-pEVXOTFuLRQV4GIX-herHpA-large.jpg",
+      "permalink": "https://soundcloud.com/isaacpurple/hurtfeelings-idea",
+      "duration": 91376,
+      "genre": "",
+      "streamable": true
+    },
+    {
+      "id": 1751827680,
+      "title": "u think u the shit (i see dead people mix)",
+      "user": "Papora",
+      "artwork": "https://i1.sndcdn.com/artworks-GXXPYduUlEOfCQlQ-3zCAlw-large.jpg",
+      "permalink": "https://soundcloud.com/isaacpurple/u-think-u-the-shit-i-see-dead-people-mix",
+      "duration": 123899,
+      "genre": "Ambient",
+      "streamable": true
+    },
     {
       "id": 2406169146,
       "title": "FLAWLESS VICTORY w/ DJ SWISHA - NTS RADIO 23/09/26",
@@ -6468,7 +6528,7 @@
       "title": "Queue Three: Electric Boogie Baby",
       "user": "Joe's Eye",
       "artwork": null,
-      "trackCount": 137,
+      "trackCount": 145,
       "permalink": "https://soundcloud.com/jo-zyy/sets/queue-three-electric-boogie",
       "isAlbum": false
     },
@@ -6693,7 +6753,7 @@
       "title": "Desi Electronica",
       "user": "Marasii",
       "artwork": null,
-      "trackCount": 99,
+      "trackCount": 101,
       "permalink": "https://soundcloud.com/kanav-sharma-658705398/sets/bollywood",
       "isAlbum": false
     },
