@@ -467,7 +467,7 @@ export const NTS_TOKEN_TO_TOP: Record<string, string> = {
   "emo rap": "hip-hop / r'n'b",
   "eritrean folk": "african / middle eastern",
   "eritrean pop": "african / middle eastern",
-  "ethio-jazz": "african / middle eastern",
+  "ethio jazz": "african / middle eastern",
   "ethiopian pop": "african / middle eastern",
   "ethiopian traditional": "african / middle eastern",
   "ethiopiques": "african / middle eastern",
