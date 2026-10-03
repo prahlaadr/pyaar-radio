@@ -192,6 +192,11 @@ function SortableTrack({
         <div className="text-[10px] text-[#888] truncate">
           {track.artistNames.split(";")[0]}
         </div>
+        {track.sources && track.sources.length > 0 && (
+          <div className="text-[9px] text-red-400/70 truncate">
+            {track.sources.map((s) => s.title).join(" · ")}
+          </div>
+        )}
       </div>
       <span className="text-[10px] text-[#aaa] tabular-nums font-mono w-8 text-right">
         {track.tempo > 0 ? Math.round(track.tempo) : "\u2014"}

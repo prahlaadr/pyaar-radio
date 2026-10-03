@@ -68,6 +68,8 @@ export interface SetlistChapter {
 export interface SetlistTrack extends Track {
   id: string;
   position: number;
+  // For multi-playlist shuffle pools: which selected playlist(s) this track came from.
+  sources?: { playlistId: string; title: string }[];
 }
 
 export interface Setlist {

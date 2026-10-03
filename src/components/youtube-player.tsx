@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback, useImperativeHandle, forwardRef } from "react";
-import type { Track } from "@/lib/types";
+import type { Track, SetlistTrack } from "@/lib/types";
 import { ensureYTAPI } from "@/lib/youtube-api";
 import type { YTEvent, YTPlayer } from "@/lib/youtube-api";
 
@@ -559,6 +559,9 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
 
   if (!track) return null;
 
+  const sources = (track as SetlistTrack).sources;
+  const sourceLabel = sources && sources.length > 0 ? sources.map((s) => s.title).join(" · ") : null;
+
   const handlePlayPause = () => {
     if (activeSource.current === "bandcamp" || activeSource.current === "mixcloud") return; // external widget iframes: no programmatic play/pause
     if (activeSource.current === "soundcloud") {
@@ -756,6 +759,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
           )}
           {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider shrink-0">SC</span>}
           {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider shrink-0">BC</span>}
+          {sourceLabel && <span className="text-[9px] text-red-400/70 truncate shrink min-w-0" title={sourceLabel}>{sourceLabel}</span>}
         </div>
         {onAddToSetlist && track && (
           <button
@@ -809,6 +813,7 @@ export const YouTubePlayer = forwardRef<YouTubePlayerHandle, Props>(function You
             {isSC && <span className="text-[8px] text-orange-500 uppercase tracking-wider">SC</span>}
             {isBC && <span className="text-[8px] text-teal-500 uppercase tracking-wider">BC</span>}
           </div>
+          {sourceLabel && <div className="text-[10px] text-red-400/70 truncate mt-0.5" title={sourceLabel}>{sourceLabel}</div>}
         </div>
 
         {/* Row 2: controls */}

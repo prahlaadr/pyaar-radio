@@ -1706,35 +1706,23 @@ export default function Home() {
       const newTracks: SetlistTrack[] = lines.map((line, i) => {
         const match = lookup.get(line.track.toLowerCase());
         const id = `${line.track}-${line.artist}-${Date.now()}-${i}`;
-        if (match) {
-          return {
-            trackName: match.trackName,
-            artistNames: match.artistNames,
-            albumName: match.albumName || "",
-            genres: match.genres ? match.genres.split(",").map((g) => g.trim()) : [],
-            tempo: Number(match.tempo) || 0,
-            duration: match.duration || "",
-            key: Number(match.key) || 0,
-            popularity: Number(match.popularity) || 0,
-            videoId: match.videoId || "",
-            soundcloudId: match.soundcloudId || "",
-            bandcampId: match.bandcampId || "",
-            id,
-            position: i,
-          };
-        }
+        // Only trust a title match (incl. its videoId) when the artist agrees too;
+        // otherwise keep the imported identity as a stub and resolve by search at play,
+        // so a same-titled different song is never substituted.
+        const plArtist = line.artist.split(/[;,]/)[0].trim().toLowerCase();
+        const enrich = match && plArtist && match.artistNames.toLowerCase().includes(plArtist) ? match : null;
         return {
           trackName: line.track,
           artistNames: line.artist,
-          albumName: "",
-          genres: [],
-          tempo: 0,
-          duration: "",
-          key: 0,
-          popularity: 0,
-          videoId: "",
-          soundcloudId: "",
-          bandcampId: "",
+          albumName: enrich?.albumName || "",
+          genres: enrich?.genres ? enrich.genres.split(",").map((g) => g.trim()) : [],
+          tempo: enrich ? Number(enrich.tempo) || 0 : 0,
+          duration: enrich?.duration || "",
+          key: enrich ? Number(enrich.key) || 0 : 0,
+          popularity: enrich ? Number(enrich.popularity) || 0 : 0,
+          videoId: enrich?.videoId || "",
+          soundcloudId: enrich?.soundcloudId || "",
+          bandcampId: enrich?.bandcampId || "",
           id,
           position: i,
         };
@@ -1850,38 +1838,24 @@ export default function Home() {
 
           hydratedTracks = csvRows.map((csvRow, i) => {
             const match = lookup.get(csvRow.track.toLowerCase());
-            const id = `vault-${entry.id}-${i}`;
-            if (match) {
-              return {
-                trackName: match.trackName,
-                artistNames: match.artistNames,
-                albumName: match.albumName || "",
-                genres: match.genres ? match.genres.split(",").map((g) => g.trim()) : [],
-                tempo: Number(match.tempo) || 0,
-                duration: match.duration || "",
-                key: Number(match.key) || 0,
-                popularity: Number(match.popularity) || 0,
-                videoId: match.videoId || "",
-                soundcloudId: match.soundcloudId || "",
-                bandcampId: match.bandcampId || "",
-                id,
-                position: i,
-              };
-            }
-            // Use CSV data as fallback
+            // Only trust a title match (incl. its videoId) when the artist agrees too;
+            // otherwise keep CSV identity as a stub and let the player resolve by search,
+            // so a same-titled different song is never substituted.
+            const plArtist = csvRow.artist.split(/[;,]/)[0].trim().toLowerCase();
+            const enrich = match && plArtist && match.artistNames.toLowerCase().includes(plArtist) ? match : null;
             return {
               trackName: csvRow.track,
               artistNames: csvRow.artist,
-              albumName: "",
-              genres: [],
-              tempo: csvRow.bpm ? Number(csvRow.bpm) : 0,
-              duration: csvRow.duration || "",
-              key: csvRow.key ? Number(csvRow.key) : 0,
-              popularity: 0,
-              videoId: "",
-          soundcloudId: "",
-          bandcampId: "",
-              id,
+              albumName: enrich?.albumName || "",
+              genres: enrich?.genres ? enrich.genres.split(",").map((g) => g.trim()) : [],
+              tempo: enrich ? Number(enrich.tempo) || 0 : (csvRow.bpm ? Number(csvRow.bpm) : 0),
+              duration: csvRow.duration || enrich?.duration || "",
+              key: enrich ? Number(enrich.key) || 0 : (csvRow.key ? Number(csvRow.key) : 0),
+              popularity: enrich ? Number(enrich.popularity) || 0 : 0,
+              videoId: enrich?.videoId || "",
+              soundcloudId: enrich?.soundcloudId || "",
+              bandcampId: enrich?.bandcampId || "",
+              id: `vault-${entry.id}-${i}`,
               position: i,
             };
           });
@@ -1956,37 +1930,24 @@ export default function Home() {
 
           hydratedTracks = playlist.tracks.map((pt, i) => {
             const match = lookup.get(pt.title.toLowerCase());
-            const id = `pl-${playlistId}-${i}`;
-            if (match) {
-              return {
-                trackName: match.trackName,
-                artistNames: match.artistNames,
-                albumName: match.albumName || "",
-                genres: match.genres ? match.genres.split(",").map((g) => g.trim()) : [],
-                tempo: Number(match.tempo) || 0,
-                duration: match.duration || "",
-                key: Number(match.key) || 0,
-                popularity: Number(match.popularity) || 0,
-                videoId: match.videoId || pt.videoId || "",
-                soundcloudId: match.soundcloudId || "",
-                bandcampId: match.bandcampId || "",
-                id,
-                position: i,
-              };
-            }
+            // Playlist identity (videoId/title/artist) is authoritative; only borrow
+            // cosmetic metadata from a match when the artist agrees, since title-only
+            // matches collide across the 65K-row masterlist and would swap the song.
+            const plArtist = pt.artist.split(/[;,]/)[0].trim().toLowerCase();
+            const enrich = match && plArtist && match.artistNames.toLowerCase().includes(plArtist) ? match : null;
             return {
               trackName: pt.title,
               artistNames: pt.artist,
-              albumName: pt.album || "",
-              genres: [],
-              tempo: 0,
-              duration: pt.duration || "",
-              key: 0,
-              popularity: 0,
-              videoId: pt.videoId || "",
-              soundcloudId: "",
-              bandcampId: "",
-              id,
+              albumName: pt.album || enrich?.albumName || "",
+              genres: enrich?.genres ? enrich.genres.split(",").map((g) => g.trim()) : [],
+              tempo: enrich ? Number(enrich.tempo) || 0 : 0,
+              duration: pt.duration || enrich?.duration || "",
+              key: enrich ? Number(enrich.key) || 0 : 0,
+              popularity: enrich ? Number(enrich.popularity) || 0 : 0,
+              videoId: pt.videoId || enrich?.videoId || "",
+              soundcloudId: enrich?.soundcloudId || "",
+              bandcampId: enrich?.bandcampId || "",
+              id: `pl-${playlistId}-${i}`,
               position: i,
             };
           });
@@ -2035,6 +1996,93 @@ export default function Home() {
       setPlaylistLoading(null);
     }
   }, [savedSetlists]);
+
+  // Multi-playlist shuffle: merge N playlists into one deduped pool, shuffle, play through.
+  // Transient — not written to savedSetlists, so it never touches localStorage.
+  const handleShufflePlaylists = useCallback(async (selected: { id: string; title: string }[]) => {
+    if (selected.length === 0) return;
+    try {
+      setPlaylistLoading(selected[0].id);
+
+      type Raw = { title: string; artist: string; album: string; videoId: string; duration: string };
+      const byKey = new Map<string, { raw: Raw; sources: { playlistId: string; title: string }[] }>();
+      for (const sel of selected) {
+        const playlist = await fetchPlaylist(sel.id);
+        for (const t of playlist.tracks) {
+          const key = t.videoId || `${t.title.toLowerCase()}:::${t.artist.toLowerCase()}`;
+          const existing = byKey.get(key);
+          if (existing) {
+            if (!existing.sources.some((s) => s.playlistId === sel.id)) existing.sources.push({ playlistId: sel.id, title: sel.title });
+          } else {
+            byKey.set(key, { raw: t, sources: [{ playlistId: sel.id, title: sel.title }] });
+          }
+        }
+      }
+
+      const unique = [...byKey.values()];
+
+      // Batch-enrich against masterlist for BPM/key/genre (chunked), same as single-playlist load
+      const CHUNK = 200;
+      type MasterlistRow = { trackName: string; artistNames: string; albumName: string; genres: string | null; tempo: number | null; duration: string; key: number | null; popularity: number | null; videoId: string; soundcloudId: string | null; bandcampId: string | null };
+      const lookup = new Map<string, MasterlistRow>();
+      const lines = unique.map((u) => ({ track: u.raw.title, artist: u.raw.artist }));
+      try {
+        for (let i = 0; i < lines.length; i += CHUNK) {
+          const chunk = lines.slice(i, i + CHUNK);
+          const sql = buildBatchTrackLookupQuery(chunk);
+          const rows = await query<MasterlistRow>(sql);
+          for (const r of rows) lookup.set(r.trackName.toLowerCase(), r);
+        }
+      } catch {}
+
+      const tracks: SetlistTrack[] = unique.map((u, i) => {
+        const match = lookup.get(u.raw.title.toLowerCase());
+        // Title-only matches collide constantly across the 65K-row masterlist, so only
+        // trust a match for cosmetic metadata (BPM/key/genre) when the artist also agrees.
+        // Identity (videoId/title/artist) always stays the playlist's own, so shuffle never
+        // plays a different same-titled song.
+        const plArtist = u.raw.artist.split(/[;,]/)[0].trim().toLowerCase();
+        const enrich = match && plArtist && match.artistNames.toLowerCase().includes(plArtist) ? match : null;
+        return {
+          trackName: u.raw.title,
+          artistNames: u.raw.artist,
+          albumName: u.raw.album || enrich?.albumName || "",
+          genres: enrich?.genres ? enrich.genres.split(",").map((g) => g.trim()) : [],
+          tempo: enrich ? Number(enrich.tempo) || 0 : 0,
+          duration: u.raw.duration || enrich?.duration || "",
+          key: enrich ? Number(enrich.key) || 0 : 0,
+          popularity: enrich ? Number(enrich.popularity) || 0 : 0,
+          videoId: u.raw.videoId || enrich?.videoId || "",
+          soundcloudId: enrich?.soundcloudId || "",
+          bandcampId: enrich?.bandcampId || "",
+          id: `pool-${i}`,
+          position: i,
+          sources: u.sources,
+        };
+      });
+
+      // Fisher-Yates shuffle, then renumber positions
+      for (let i = tracks.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [tracks[i], tracks[j]] = [tracks[j], tracks[i]];
+      }
+      tracks.forEach((t, i) => { t.position = i; });
+
+      setSetlist(tracks);
+      setSetlistName(`${selected.length} playlists`);
+      setSetlistId(`pool-${Date.now()}`);
+      setChapters([]);
+      setChapterSuggestions([]);
+      setSuggestingForChapter(null);
+      setTab("browse");
+
+      if (tracks.length > 0) playFromSetlist(tracks[0], 0);
+    } catch (e) {
+      console.error("Failed to shuffle playlists:", e);
+    } finally {
+      setPlaylistLoading(null);
+    }
+  }, [playFromSetlist]);
 
   const handleDeleteBrowser = useCallback((id: string) => {
     const { [id]: _, ...rest } = savedSetlists.setlists;
@@ -2503,6 +2551,7 @@ export default function Home() {
                 playlists={playlistIndex}
                 loading={playlistLoading}
                 onSelect={handleLoadPlaylist}
+                onLoadMultiple={handleShufflePlaylists}
               />
             )}
           </div>

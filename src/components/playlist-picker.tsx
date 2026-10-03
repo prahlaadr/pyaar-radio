@@ -7,6 +7,7 @@ interface Props {
   playlists: PlaylistIndexEntry[];
   loading: string | null;
   onSelect: (playlistId: string, title: string) => void;
+  onLoadMultiple: (selected: { id: string; title: string }[]) => void;
 }
 
 // Match month/year archive playlists and extract a sortable date
@@ -105,13 +106,17 @@ function categorize(playlists: PlaylistIndexEntry[]): Section[] {
   return sections;
 }
 
-function PlaylistRow({ p, loading, dotColor, onSelect }: { p: PlaylistIndexEntry; loading: string | null; dotColor: string; onSelect: (id: string, title: string) => void }) {
+function PlaylistRow({ p, loading, dotColor, multi, checked, onSelect, onToggle }: { p: PlaylistIndexEntry; loading: string | null; dotColor: string; multi: boolean; checked: boolean; onSelect: (id: string, title: string) => void; onToggle: (id: string, title: string) => void }) {
   return (
     <div
       className="px-5 py-2.5 border-b border-[#111] hover:bg-[#0a0a0a] flex items-center gap-3 cursor-pointer group"
-      onClick={() => onSelect(p.playlistId, p.title)}
+      onClick={() => (multi ? onToggle(p.playlistId, p.title) : onSelect(p.playlistId, p.title))}
     >
-      <span className={`w-1.5 h-1.5 rounded-full ${dotColor} shrink-0`} />
+      {multi ? (
+        <span className={`w-3.5 h-3.5 rounded-sm border shrink-0 flex items-center justify-center text-[9px] ${checked ? "bg-red-600 border-red-600 text-white" : "border-[#444] text-transparent"}`}>✓</span>
+      ) : (
+        <span className={`w-1.5 h-1.5 rounded-full ${dotColor} shrink-0`} />
+      )}
       <div className="flex-1 min-w-0">
         <div className="text-xs text-[#ccc] group-hover:text-white transition-colors truncate">
           {p.title}
@@ -128,9 +133,32 @@ function PlaylistRow({ p, loading, dotColor, onSelect }: { p: PlaylistIndexEntry
   );
 }
 
-export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
+export function PlaylistPicker({ playlists, loading, onSelect, onLoadMultiple }: Props) {
   const [search, setSearch] = useState("");
   const [collapsed, setCollapsed] = useState<Record<string, boolean>>({});
+  const [multi, setMulti] = useState(false);
+  const [selected, setSelected] = useState<Record<string, string>>({});
+
+  const selectedCount = Object.keys(selected).length;
+
+  const toggleSelect = (id: string, title: string) =>
+    setSelected((prev) => {
+      if (prev[id]) {
+        const next = { ...prev };
+        delete next[id];
+        return next;
+      }
+      return { ...prev, [id]: title };
+    });
+
+  const exitMulti = () => { setMulti(false); setSelected({}); };
+
+  const shuffleSelected = () => {
+    const picks = Object.entries(selected).map(([id, title]) => ({ id, title }));
+    if (picks.length === 0) return;
+    onLoadMultiple(picks);
+    exitMulti();
+  };
 
   const sections = useMemo(() => categorize(playlists), [playlists]);
 
@@ -152,7 +180,25 @@ export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
         <span className="text-[10px] text-[#999] uppercase tracking-wider">
           Playlists ({totalCount})
         </span>
+        <button
+          onClick={() => (multi ? exitMulti() : setMulti(true))}
+          className={`text-[10px] uppercase tracking-wider transition-colors ${multi ? "text-red-400 hover:text-red-300" : "text-[#888] hover:text-white"}`}
+        >
+          {multi ? "Cancel" : "Select multiple"}
+        </button>
       </div>
+      {multi && (
+        <div className="px-5 py-2 border-b border-[#222] bg-[#0a0a0a] flex items-center justify-between gap-3 sticky top-0 z-10">
+          <span className="text-[10px] text-[#999] tabular-nums">{selectedCount} selected</span>
+          <button
+            onClick={shuffleSelected}
+            disabled={selectedCount === 0}
+            className="px-3 py-1 text-[10px] uppercase tracking-wider bg-red-600 text-white hover:bg-red-500 disabled:bg-[#222] disabled:text-[#666] transition-colors"
+          >
+            ▶ Shuffle {selectedCount || ""}
+          </button>
+        </div>
+      )}
       <div className="px-5 py-2 border-b border-[#222]">
         <input
           type="text"
@@ -178,7 +224,7 @@ export function PlaylistPicker({ playlists, loading, onSelect }: Props) {
           </div>
           {!collapsed[section.label] &&
             section.playlists.map((p) => (
-              <PlaylistRow key={p.playlistId} p={p} loading={loading} dotColor={section.color} onSelect={onSelect} />
+              <PlaylistRow key={p.playlistId} p={p} loading={loading} dotColor={section.color} multi={multi} checked={!!selected[p.playlistId]} onSelect={onSelect} onToggle={toggleSelect} />
             ))}
         </div>
       ))}
