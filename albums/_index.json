@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3605,
- "totalTracks": 45792,
- "syncedAt": "2026-10-03T13:06:30.149963Z",
+ "albumCount": 3609,
+ "totalTracks": 45835,
+ "syncedAt": "2026-10-04T13:45:06.878286Z",
  "albums": [
+  {
+   "browseId": "MPREb_YoXO44oYiMt",
+   "title": "2",
+   "artist": "Foxwarren",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_f355N1EIr8O",
+   "title": "the afterparty",
+   "artist": "Andy Shauf",
+   "trackCount": 1
+  },
+  {
+   "browseId": "MPREb_GKa6GOJmtTB",
+   "title": "The Party",
+   "artist": "Andy Shauf",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_nV5BZtZwN74",
+   "title": "Another Helping of The Sweet Enoughs",
+   "artist": "The Sweet Enoughs",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_DenKm0PxRf3",
+   "title": "Babylon Rewound",
+   "artist": "Thievery Corporation",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_W7cbEK0HGU6",
    "title": "Songs In The Key Of Life - The EP",
@@ -5421,12 +5451,6 @@
    "title": "Random Access Memories (Drumless Edition)",
    "artist": "Daft Punk",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_T4Aq8IHgO83",
-   "title": "Aerobics",
-   "artist": "DJ Sliink",
-   "trackCount": 1
   },
   {
    "browseId": "MPREb_CeCw4YdbA9b",

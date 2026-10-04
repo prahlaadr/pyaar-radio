@@ -1,18 +1,33 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 292,
- "totalTracks": 81427,
- "syncedAt": "2026-10-03T13:06:33.095566Z",
+ "playlistCount": 295,
+ "totalTracks": 82435,
+ "syncedAt": "2026-10-04T13:45:11.306186Z",
  "playlists": [
+  {
+   "playlistId": "PLPVuU0Y_h_GA",
+   "title": "Sept 26",
+   "trackCount": 47
+  },
+  {
+   "playlistId": "PLIpg0r7aJSXc",
+   "title": "perfectly imperfect sync",
+   "trackCount": 506
+  },
+  {
+   "playlistId": "PLXIiwFmWNqI8",
+   "title": "Despacio",
+   "trackCount": 433
+  },
+  {
+   "playlistId": "PLehKQN7HlLY0",
+   "title": "Erowid-Core: Neo-Psychedelic Indie",
+   "trackCount": 68
+  },
   {
    "playlistId": "PLTqe9a0cMAvA",
    "title": "4laad",
    "trackCount": 18
-  },
-  {
-   "playlistId": "PLPVuU0Y_h_GA",
-   "title": "Sept 26",
-   "trackCount": 46
   },
   {
    "playlistId": "PLXMEXXYz8pvs",
