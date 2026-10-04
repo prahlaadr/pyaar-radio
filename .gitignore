@@ -61,6 +61,8 @@ public/*.worker.js
 
 # masterlist Parquet (regenerated from the CSV at build time by build-parquet.mjs)
 public/data/masterlist.parquet
+# stray copy DuckDB-WASM drops at repo root during the build
+/masterlist.parquet
 
 # typescript
 *.tsbuildinfo
