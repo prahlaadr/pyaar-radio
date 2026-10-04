@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pyaar Triage</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --fg: #2a2a26;
+    --muted: #8a8780;
+    --border: #e6e1d4;
+    --focus: #fff;
+    --focus-border: #c5a572;
+    --save: #2d7a3e;
+    --save-bg: #e6f4e9;
+    --skip: #a0a0a0;
+    --skip-bg: #ededed;
+    --accent: #c5530b;
+    --shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1817;
+      --fg: #e8e4d8;
+      --muted: #7a7770;
+      --border: #2e2a26;
+      --focus: #2a2622;
+      --focus-border: #c5a572;
+      --save: #5fbe78;
+      --save-bg: #1c3622;
+      --skip: #6a6a6a;
+      --skip-bg: #252320;
+      --accent: #e89554;
+      --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    background: var(--bg); color: var(--fg);
+    margin: 0; padding: 0; line-height: 1.45;
+  }
+  .container { max-width: 980px; margin: 0 auto; padding: 16px 24px 80px; }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    margin: 0 -24px 16px; padding: 14px 24px;
+  }
+  h1 { margin: 0 0 6px; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .meta { font-size: 13px; color: var(--muted); }
+  .stats { display: flex; gap: 18px; margin-top: 8px; font-size: 13px; }
+  .stats span b { color: var(--fg); font-weight: 600; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; align-items: center; }
+  button, select, input[type=text] {
+    font: inherit; color: var(--fg); background: var(--bg);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 10px; cursor: pointer;
+  }
+  button:hover { border-color: var(--focus-border); }
+  button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+  .keys { font-size: 12px; color: var(--muted); margin-left: auto; }
+  kbd {
+    font-family: ui-monospace, "SF Mono", monospace; font-size: 11px;
+    background: var(--border); color: var(--fg);
+    padding: 1px 5px; border-radius: 3px; margin: 0 2px;
+  }
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  li.item {
+    display: grid; grid-template-columns: 28px 1fr auto 86px 100px;
+    gap: 12px; align-items: center;
+    padding: 8px 12px; margin: 2px 0;
+    border: 1px solid transparent; border-radius: 6px;
+    cursor: pointer; user-select: none;
+  }
+  li.item:hover { background: var(--focus); border-color: var(--border); }
+  li.item.focused { background: var(--focus); border-color: var(--focus-border); box-shadow: var(--shadow); }
+  li.item.saved { background: var(--save-bg); }
+  li.item.saved .check::after { content: "✓"; color: var(--save); font-weight: 700; font-size: 16px; }
+  li.item.skipped { background: var(--skip-bg); opacity: 0.55; }
+  li.item.skipped .check::after { content: "×"; color: var(--skip); font-size: 18px; }
+  .check {
+    width: 20px; height: 20px;
+    border: 1.5px solid var(--border); border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  li.item.saved .check { border-color: var(--save); }
+  li.item.skipped .check { border-color: var(--skip); }
+  .title-block .title { font-weight: 500; }
+  .title-block .artist { font-size: 13px; color: var(--muted); }
+  .year { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .badge {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 7px; border-radius: 10px; background: var(--border); color: var(--muted);
+    font-weight: 600; white-space: nowrap; text-align: center;
+  }
+  .badge.radar_new { background: var(--accent); color: white; }
+  .badge.manual_add { background: var(--focus-border); color: #2a2a26; }
+  .empty { text-align: center; padding: 60px 0; color: var(--muted); }
+  footer {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 10px 24px; font-size: 12px; color: var(--muted);
+    display: flex; gap: 16px; justify-content: center;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container" style="padding-top:0; padding-bottom:0;">
+    <h1>Pyaar Radio — Album Triage</h1>
+    <div class="meta">195 candidates (radar fresh + May 8 audit + manual). Mark with spacebar, export when done.</div>
+    <div class="stats">
+      <span>Total: <b id="total">0</b></span>
+      <span style="color:var(--save)">Save: <b id="count-save">0</b></span>
+      <span style="color:var(--skip)">Skip: <b id="count-skip">0</b></span>
+      <span>Remaining: <b id="count-remain">0</b></span>
+    </div>
+    <div class="controls">
+      <input id="filter" type="text" placeholder="filter artist or title…" style="width:180px">
+      <select id="source-filter">
+        <option value="">All sources</option>
+        <option value="radar_new">Radar (fresh)</option>
+        <option value="audit_album">Audit albums</option>
+        <option value="audit_ep">Audit EPs</option>
+        <option value="audit_single">Audit singles</option>
+        <option value="manual_add">Manual add</option>
+      </select>
+      <select id="status-filter">
+        <option value="">All status</option>
+        <option value="pending">Pending</option>
+        <option value="save">Saved</option>
+        <option value="skip">Skipped</option>
+      </select>
+      <button id="save-all">Save all visible</button>
+      <button id="skip-all">Skip all visible</button>
+      <button id="reset">Reset</button>
+      <button id="export" class="primary">Export picks ↓</button>
+      <span class="keys">
+        <kbd>↑</kbd><kbd>↓</kbd> nav · <kbd>space</kbd> save · <kbd>x</kbd> skip · <kbd>u</kbd> undo
+      </span>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <ul class="list" id="list"></ul>
+  <div class="empty" id="empty" style="display:none">No items match the current filter.</div>
+</div>
+<footer><span>State persists in localStorage · Refresh-safe · <code>Export</code> downloads selections as JSON</span></footer>
+
+<script>
+const ITEMS = [{"artist": "Action Bronson", "title": "PLANET FROG", "year": "2026", "source": "radar_new", "browseId": "MPREb_c67bbc4gzPD"}, {"artist": "Curren$y", "title": "Roofless Records For Drop Tops: Disc 2", "year": "2026", "source": "radar_new", "browseId": "MPREb_0WWVpiYzd2b"}, {"artist": "Tony Shhnow", "title": "Flood", "year": "2026", "source": "radar_new", "browseId": "MPREb_lMImEriTUKh"}, {"artist": "HOLLY", "title": "ENIGMATH", "year": "2025", "source": "radar_new", "browseId": "MPREb_K17dmchxhZS"}, {"artist": "Lone", "title": "Hyperphantasia", "year": "2026", "source": "radar_new", "browseId": "MPREb_vIhxuYn2Ouc"}, {"artist": "Nia Archives", "title": "Emotional Junglist", "year": "Upcoming Album", "source": "radar_new", "browseId": "MPREb_7ow4uzHBbHp"}, {"artist": "Vegyn", "title": "Thank You for Almost Everything", "year": "2025", "source": "radar_new", "browseId": "MPREb_sT9zYbv0Aw0"}, {"artist": "Volor Flex", "title": "Rec in a Pale Tiled Room", "year": "2026", "source": "radar_new", "browseId": "MPREb_7TnWFHbVRXw"}, {"artist": "truant.", "title": "FU", "year": "2025", "source": "radar_new", "browseId": "MPREb_P1UboLqanzS"}, {"artist": "DJ Harrison", "title": "'94 Flow", "year": "2026", "source": "radar_new", "browseId": "MPREb_6JG7Ki2bU6T"}, {"artist": "Flying Lotus", "title": "1983", "year": "2026", "source": "radar_new", "browseId": "MPREb_PsZEGnjTLvO"}, {"artist": "Nitin Sawhney", "title": "Disneynature: Orangutan (Original Soundtrack)", "year": "2026", "source": "radar_new", "browseId": "MPREb_cnHD32Npyox"}, {"artist": "Pharrell", "title": "OPHANIM", "year": "2026", "source": "radar_new", "browseId": "MPREb_hXE69cZhYMV"}, {"artist": "Say She She", "title": "PAWA!", "year": "2026", "source": "radar_new", "browseId": "MPREb_ZEBVuSCHyM4"}, {"artist": "esta.", "title": "IDEAS 001", "year": "2026", "source": "radar_new", "browseId": "MPREb_suHJXlapHXE"}, {"artist": "saie.", "title": "Early Twenties Torture", "year": "2025", "source": "radar_new", "browseId": "MPREb_yV9gKXzsDOI"}, {"artist": "Sam Gendel", "title": "UNRELATED", "year": "2026", "source": "radar_new", "browseId": "MPREb_UT5Zkssg3YN"}, {"artist": "A$AP Rocky", "title": "Don't Be Dumb", "year": "", "source": "audit_album"}, {"artist": "Chance the Rapper", "title": "STAR LINE", "year": "", "source": "audit_album"}, {"artist": "Father", "title": "Patricide", "year": "", "source": "audit_album"}, {"artist": "Forgotten", "title": "Kaliyuga", "year": "", "source": "audit_album"}, {"artist": "Kanye West", "title": "DONDA 2", "year": "", "source": "audit_album"}, {"artist": "Kodak Black", "title": "Just Getting Started", "year": "", "source": "audit_album"}, {"artist": "Laila!", "title": "Gap Year!", "year": "", "source": "audit_album"}, {"artist": "MF DOOM", "title": "Madvillainy Demos", "year": "", "source": "audit_album"}, {"artist": "Madlib", "title": "Champagne for Breakfast (Dusted Edition)", "year": "", "source": "audit_album"}, {"artist": "Madvillain", "title": "Madvillainy Demos", "year": "", "source": "audit_album"}, {"artist": "Michael Christmas", "title": "Baggy Eyes 2", "year": "", "source": "audit_album"}, {"artist": "Mick Jenkins", "title": "A MURDER OF CROWS", "year": "", "source": "audit_album"}, {"artist": "Nujabes", "title": "Kei Nishikori meets Nujabes", "year": "", "source": "audit_album"}, {"artist": "Playboi Carti", "title": "MUSIC - SORRY 4 DA WAIT", "year": "", "source": "audit_album"}, {"artist": "Prabh Deep", "title": "DSP", "year": "", "source": "audit_album"}, {"artist": "Quadeca", "title": "Vanisher, Horizon Scraper (The Extended Cut)", "year": "", "source": "audit_album"}, {"artist": "RRoxket", "title": "Geek Monster", "year": "", "source": "audit_album"}, {"artist": "Ski Mask The Slump God", "title": "The Lost Files", "year": "", "source": "audit_album"}, {"artist": "Smino", "title": "Maybe in Nirvana", "year": "", "source": "audit_album"}, {"artist": "The PropheC", "title": "Midnight Paradise", "year": "", "source": "audit_album"}, {"artist": "Tkay Maidza", "title": "Sweet Justice", "year": "", "source": "audit_album"}, {"artist": "Vayda", "title": "Dont Lose The Groove", "year": "", "source": "audit_album"}, {"artist": "Westside Gunn", "title": "HEELS HAVE EYES 3", "year": "", "source": "audit_album"}, {"artist": "Alix Perez", "title": "Sabotage", "year": "", "source": "audit_album"}, {"artist": "Aphex Twin", "title": "Music From The Merch Desk (2016 - 2023)", "year": "", "source": "audit_album"}, {"artist": "Baauer", "title": "PLANET'S MAD (GLOBE'S CRAZY)", "year": "", "source": "audit_album"}, {"artist": "Barry Can't Swim", "title": "Late Night Tales: Barry Can't Swim (LNT Mix)", "year": "", "source": "audit_album"}, {"artist": "Bonobo", "title": "Lazarus (Adult Swim Original Series Soundtrack)", "year": "", "source": "audit_album"}, {"artist": "Boombox Cartel", "title": "Proof of Life", "year": "", "source": "audit_album"}, {"artist": "CHOR BAZAAR", "title": "New Year Dance Dhamaka 2025", "year": "", "source": "audit_album"}, {"artist": "Caribou", "title": "Honey", "year": "", "source": "audit_album"}, {"artist": "Champion", "title": "Promises Kept", "year": "", "source": "audit_album"}, {"artist": "Charli XCX", "title": "Wuthering Heights", "year": "", "source": "audit_album"}, {"artist": "Commodo", "title": "How What Time", "year": "", "source": "audit_album"}, {"artist": "Conducta", "title": "The Kiwi Sound (DJ Mix)", "year": "", "source": "audit_album"}, {"artist": "DEVAULT", "title": "Sensation", "year": "", "source": "audit_album"}, {"artist": "DJ LYAN", "title": "Thank You Come Again", "year": "", "source": "audit_album"}, {"artist": "DJ Lycox", "title": "Na Casa (Edits)", "year": "", "source": "audit_album"}, {"artist": "Eprom", "title": "Syntheism", "year": "", "source": "audit_album"}, {"artist": "G Jones", "title": "The Ineffable Truth", "year": "", "source": "audit_album"}, {"artist": "Gaszia", "title": "Walk the Line", "year": "", "source": "audit_album"}, {"artist": "Great Dane", "title": "Halloween Heaters 4", "year": "", "source": "audit_album"}, {"artist": "HOLLY", "title": "Minha Vida", "year": "", "source": "audit_album"}, {"artist": "Halogenix", "title": "Deep News.", "year": "", "source": "audit_album"}, {"artist": "Hudson Mohawke", "title": "L'Ecstasy", "year": "", "source": "audit_album"}, {"artist": "Hydraulix", "title": "That's When The Bass Drops Ep", "year": "", "source": "audit_album"}, {"artist": "Interplanetary Criminal", "title": "All Thru The Night (Locked On Vol 4)", "year": "", "source": "audit_album"}, {"artist": "J.Robb", "title": "MONETARY PURPOSES III", "year": "", "source": "audit_album"}, {"artist": "JD. Reid", "title": "sometimes i wonder", "year": "", "source": "audit_album"}, {"artist": "Joy Orbison", "title": "still slipping vol. 1", "year": "", "source": "audit_album"}, {"artist": "Juelz", "title": "ADRENOCHROME : ZERO", "year": "", "source": "audit_album"}, {"artist": "K, Le Maestro", "title": "Lab Sounds", "year": "", "source": "audit_album"}, {"artist": "Kalbaisakhi", "title": "Tunnels", "year": "", "source": "audit_album"}, {"artist": "Karma Kid", "title": "BOSSA", "year": "", "source": "audit_album"}, {"artist": "Knock2", "title": "nolimit", "year": "", "source": "audit_album"}, {"artist": "Kuedo", "title": "Severant (2022 Edition)", "year": "", "source": "audit_album"}, {"artist": "Logic1000", "title": "DJ-Kicks: Logic1000", "year": "", "source": "audit_album"}, {"artist": "Lone", "title": "Always Inside Your Head (Expanded)", "year": "", "source": "audit_album"}, {"artist": "Louis The Child", "title": "The Sun Comes Up", "year": "", "source": "audit_album"}, {"artist": "Lucid Monday", "title": "LM027", "year": "", "source": "audit_album"}, {"artist": "Machinedrum", "title": "IIII", "year": "", "source": "audit_album"}, {"artist": "Malfnktion", "title": "Infinity Trail", "year": "", "source": "audit_album"}, {"artist": "Mirror Maze", "title": "The Brothers Grimdark: season one original soundtrack", "year": "", "source": "audit_album"}, {"artist": "Mount Kimbie", "title": "The Sunset Violent", "year": "", "source": "audit_album"}, {"artist": "Nia Archives", "title": "Silence Is Loud", "year": "", "source": "audit_album"}, {"artist": "Nomine", "title": "Ascension", "year": "", "source": "audit_album"}, {"artist": "O'Flynn", "title": "Aletheia", "year": "", "source": "audit_album"}, {"artist": "ODESZA", "title": "The Last Goodbye Tour Live", "year": "", "source": "audit_album"}, {"artist": "Otxhello", "title": "2015", "year": "", "source": "audit_album"}, {"artist": "Pangaea", "title": "Changing Channels", "year": "", "source": "audit_album"}, {"artist": "Pearson Sound", "title": "Pearson Sound", "year": "", "source": "audit_album"}, {"artist": "PinkPantheress", "title": "Fancy Some More?", "year": "", "source": "audit_album"}, {"artist": "Player Dave", "title": "Where the Wind Blew Me", "year": "", "source": "audit_album"}, {"artist": "Powder", "title": "Powder", "year": "", "source": "audit_album"}, {"artist": "QUIET BISON", "title": "Dawn", "year": "", "source": "audit_album"}, {"artist": "RAAJA BEATS", "title": "Aaranya Kaandam (Original Background Score)", "year": "", "source": "audit_album"}, {"artist": "RamonPang", "title": "Life Cycle Waves", "year": "", "source": "audit_album"}, {"artist": "Rohaan", "title": "Bleach", "year": "", "source": "audit_album"}, {"artist": "Ross From Friends", "title": "Bubble Love", "year": "", "source": "audit_album"}, {"artist": "SG Lewis", "title": "Anemoia", "year": "", "source": "audit_album"}, {"artist": "Skee Mask", "title": "Resort", "year": "", "source": "audit_album"}, {"artist": "Skream", "title": "Skreamizm 8", "year": "", "source": "audit_album"}, {"artist": "Smerz", "title": "Big city life EDITS", "year": "", "source": "audit_album"}, {"artist": "Sukh Knight", "title": "The Lost Dubs Vol. 1", "year": "", "source": "audit_album"}, {"artist": "Synkro", "title": "Synkro X Deep Heads", "year": "", "source": "audit_album"}, {"artist": "Ternion Sound", "title": "Digital Artifice // Recompiled", "year": "", "source": "audit_album"}, {"artist": "TroyBoi", "title": "INFLUENDO", "year": "", "source": "audit_album"}, {"artist": "Tsuruda", "title": "Siege", "year": "", "source": "audit_album"}, {"artist": "VHOOR", "title": "Resenha", "year": "", "source": "audit_album"}, {"artist": "Whethan", "title": "Life of a Wallflower , Vol. 2", "year": "", "source": "audit_album"}, {"artist": "Yaeji", "title": "With A Hammer", "year": "", "source": "audit_album"}, {"artist": "barnacle boi", "title": "Into the Void, Vol 1", "year": "", "source": "audit_album"}, {"artist": "pandi", "title": "New Era, Vol. 1", "year": "", "source": "audit_album"}, {"artist": "piri & tommy", "title": "Drumpire", "year": "", "source": "audit_album"}, {"artist": "salute", "title": "fabric presents salute", "year": "", "source": "audit_album"}, {"artist": "BADBADNOTGOOD", "title": "Mid Spiral", "year": "", "source": "audit_album"}, {"artist": "DJ Harrison", "title": "A DJ Harrison Xmas", "year": "", "source": "audit_album"}, {"artist": "Harini", "title": "Kandhan Vanthan", "year": "", "source": "audit_album"}, {"artist": "J Dilla", "title": "Phroduced By J Dilla", "year": "", "source": "audit_album"}, {"artist": "James Blake", "title": "Trying Times", "year": "", "source": "audit_album"}, {"artist": "Jon Bap", "title": "Alright By Myself", "year": "", "source": "audit_album"}, {"artist": "Kelela", "title": "In The Blue Light", "year": "", "source": "audit_album"}, {"artist": "Khruangbin", "title": "The Universe Smiles Upon You ii", "year": "", "source": "audit_album"}, {"artist": "Laraaji", "title": "Glimpses of Infinity", "year": "", "source": "audit_album"}, {"artist": "Makaya McCraven", "title": "Universal Beings (IA11 Edition)", "year": "", "source": "audit_album"}, {"artist": "Mndsgn", "title": "Snaxxx", "year": "", "source": "audit_album"}, {"artist": "Nitin Sawhney", "title": "Disneynature: Tiger (Original Soundtrack)", "year": "", "source": "audit_album"}, {"artist": "Raveena", "title": "From Deep Within", "year": "", "source": "audit_album"}, {"artist": "Rhea Raj", "title": "COMMOTION (Extra Af)", "year": "", "source": "audit_album"}, {"artist": "Robert Glasper", "title": "Keys To The City Volume One", "year": "", "source": "audit_album"}, {"artist": "Solange", "title": "Solo Star", "year": "", "source": "audit_album"}, {"artist": "Tara Lily", "title": "Speak In The Dark", "year": "", "source": "audit_album"}, {"artist": "esta.", "title": "FRANCIS", "year": "", "source": "audit_album"}, {"artist": "saie.", "title": "Sailors Daughter", "year": "", "source": "audit_album"}, {"artist": "Sam Gendel", "title": "digi-squires", "year": "", "source": "audit_album"}, {"artist": "Sam Wilkes", "title": "Public Records Performance", "year": "", "source": "audit_album"}, {"artist": "DJ Plead", "title": "Relentless Trills", "year": "", "source": "audit_album"}, {"artist": "Sharda", "title": "Chillarakottu Chittamma", "year": "", "source": "audit_album"}, {"artist": "Nala Sinephro", "title": "The Smashing Machine (Original Motion Picture Soundtrack)", "year": "", "source": "audit_album"}, {"artist": "Coki", "title": "Sunset Man", "year": "", "source": "audit_album"}, {"artist": "Shabaka", "title": "Black Loyalist", "year": "", "source": "audit_album"}, {"artist": "Sarathy Korwar", "title": "There Is Beauty, There Already", "year": "", "source": "audit_album"}, {"artist": "JPEGMAFIA", "title": "Generation Y", "year": "", "source": "audit_album"}, {"artist": "Nidia", "title": "Estradas (Versions)", "year": "", "source": "audit_album"}, {"artist": "DJ Marfox", "title": "Revolucao 2005 - 2008", "year": "", "source": "audit_album"}, {"artist": "Qasim Naqvi", "title": "Endling", "year": "", "source": "audit_album"}, {"artist": "Rachika Nayar", "title": "Azimuth Divergence", "year": "", "source": "audit_album"}, {"artist": "Multani", "title": "Tere Liye", "year": "", "source": "audit_single"}, {"artist": "blaccmass", "title": "Up Now", "year": "", "source": "audit_single"}, {"artist": "$EJ", "title": "kabhi kabhi nahi", "year": "", "source": "audit_single"}, {"artist": "Ahadadream", "title": "QOBA", "year": "", "source": "audit_single"}, {"artist": "Baalti", "title": "Disco Wich Aa", "year": "", "source": "audit_single"}, {"artist": "Cesco", "title": "Rigid Lord", "year": "", "source": "audit_single"}, {"artist": "DJ Sliink", "title": "Aerobics", "year": "", "source": "audit_single"}, {"artist": "Decemberkid", "title": "december", "year": "", "source": "audit_single"}, {"artist": "Deft", "title": "Berbeda", "year": "", "source": "audit_single"}, {"artist": "Hamdi", "title": "Nightmares (feat. Issey Cross)", "year": "", "source": "audit_single"}, {"artist": "Kalzi", "title": "Chaap Tilak", "year": "", "source": "audit_single"}, {"artist": "Krithi", "title": "Standards I", "year": "", "source": "audit_ep"}, {"artist": "LYNY", "title": "Orchid", "year": "", "source": "audit_single"}, {"artist": "LYRIC WALLS", "title": "waiting", "year": "", "source": "audit_single"}, {"artist": "Makaan", "title": "Vagabond", "year": "", "source": "audit_single"}, {"artist": "Mera Bhai", "title": "Budhwa Saman Tach Kare Chhai m", "year": "", "source": "audit_single"}, {"artist": "MssingNo", "title": "Think Of Me", "year": "", "source": "audit_single"}, {"artist": "Nikki Nair", "title": "Sheeps", "year": "", "source": "audit_single"}, {"artist": "Phrva", "title": "Genesis EP", "year": "", "source": "audit_single"}, {"artist": "Raji Rags", "title": "Congratulations", "year": "", "source": "audit_single"}, {"artist": "Rhythom", "title": "Chasing Suns", "year": "", "source": "audit_single"}, {"artist": "SICARIA", "title": "ANTI NIHILO", "year": "", "source": "audit_ep"}, {"artist": "Sana", "title": "Sotsugyou", "year": "", "source": "audit_single"}, {"artist": "Sodhivine", "title": "For You", "year": "", "source": "audit_single"}, {"artist": "Viepsa", "title": "DEAR MEN", "year": "", "source": "audit_single"}, {"artist": "Villager", "title": "Big Fish", "year": "", "source": "audit_ep"}, {"artist": "Wantigga", "title": "BBY / Worm", "year": "", "source": "audit_single"}, {"artist": "Zenjah", "title": "Blockbuster Edit", "year": "", "source": "audit_single"}, {"artist": "aywy", "title": "LIFE OF THE PARTY (feat. BLESSED, I.E. & BRXNNY)", "year": "", "source": "audit_single"}, {"artist": "borne", "title": "For A Minute", "year": "", "source": "audit_single"}, {"artist": "cavya sound", "title": "yeno", "year": "", "source": "audit_single"}, {"artist": "cozy kev", "title": "REQUIEM", "year": "", "source": "audit_single"}, {"artist": "manj", "title": "Crazy Little Thing Called Love", "year": "", "source": "audit_single"}, {"artist": "moktar", "title": "All Like That", "year": "", "source": "audit_single"}, {"artist": "rareman", "title": "Power Ballad / d20", "year": "", "source": "audit_single"}, {"artist": "truant.", "title": "XPRSLP001", "year": "", "source": "audit_ep"}, {"artist": "ANUSHKA", "title": "Billa", "year": "", "source": "audit_ep"}, {"artist": "Dhee", "title": "Kadhalikka Neramillai", "year": "", "source": "audit_ep"}, {"artist": "Ganavya", "title": "Would Be Better", "year": "", "source": "audit_single"}, {"artist": "Gayathri Krishnan", "title": "Your Love", "year": "", "source": "audit_single"}, {"artist": "Jatayu", "title": "Jewel Tones", "year": "", "source": "audit_ep"}, {"artist": "Monte Booker", "title": "b 2 b", "year": "", "source": "audit_single"}, {"artist": "Moth Equals", "title": "Blackbird (Inspired by 'The Outlaw Ocean' a book by Ian Urbina)", "year": "", "source": "audit_ep"}, {"artist": "Pharrell", "title": "Acesso do Mano", "year": "", "source": "audit_single"}, {"artist": "Piya Malik", "title": "Kabhi", "year": "", "source": "audit_single"}, {"artist": "TekLun", "title": "Oh Yes", "year": "", "source": "audit_single"}, {"artist": "Mia Koden", "title": "Keep It Steppin'", "year": "", "source": "audit_single"}, {"artist": "Anz", "title": "Clearly Rushing", "year": "", "source": "audit_single"}, {"artist": "Benga", "title": "Forefather", "year": "", "source": "audit_single"}, {"artist": "DJ Firmeza", "title": "Pula", "year": "", "source": "audit_single"}, {"artist": "Loaded Honey", "title": "Love Made Trees", "year": "2025", "source": "manual_add"}];
+const KEY = "pyaar-triage-v1";
+
+let state = JSON.parse(localStorage.getItem(KEY) || "{}");
+let focusIdx = 0;
+let lastToggle = null;
+let visible = [];
+
+function k(it) { return it.artist + "::" + it.title; }
+function statusOf(it) { return state[k(it)] || "pending"; }
+
+const $list = document.getElementById("list");
+const $empty = document.getElementById("empty");
+const $filter = document.getElementById("filter");
+const $source = document.getElementById("source-filter");
+const $status = document.getElementById("status-filter");
+
+function applyFilters() {
+  const q = $filter.value.trim().toLowerCase();
+  const src = $source.value;
+  const st = $status.value;
+  visible = ITEMS.filter(it => {
+    if (q && !((it.artist + " " + it.title).toLowerCase().includes(q))) return false;
+    if (src && it.source !== src) return false;
+    if (st && statusOf(it) !== st) return false;
+    return true;
+  });
+  focusIdx = Math.min(focusIdx, Math.max(visible.length - 1, 0));
+  render();
+}
+
+function render() {
+  $list.innerHTML = "";
+  $empty.style.display = visible.length ? "none" : "block";
+  visible.forEach((it, i) => {
+    const li = document.createElement("li");
+    li.className = "item " + statusOf(it) + (i === focusIdx ? " focused" : "");
+    if (statusOf(it) === "save") li.classList.add("saved");
+    if (statusOf(it) === "skip") li.classList.add("skipped");
+    li.dataset.idx = i;
+    li.innerHTML = `
+      <div class="check"></div>
+      <div class="title-block">
+        <div class="title">${escape(it.title)}</div>
+        <div class="artist">${escape(it.artist)}</div>
+      </div>
+      <div></div>
+      <div class="year">${escape(it.year || "")}</div>
+      <div class="badge ${it.source}">${labelFor(it.source)}</div>
+    `;
+    li.addEventListener("click", () => { focusIdx = i; toggle(it, "save"); });
+    $list.appendChild(li);
+  });
+  updateCounts();
+  scrollIntoView();
+}
+
+function labelFor(s) {
+  return ({ radar_new: "radar", audit_album: "album", audit_ep: "ep", audit_single: "single", manual_add: "manual" }[s] || s);
+}
+
+function escape(s) {
+  return String(s || "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+}
+
+function scrollIntoView() {
+  const el = $list.children[focusIdx];
+  if (el) el.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+
+function updateCounts() {
+  const all = ITEMS.length;
+  const s = ITEMS.filter(it => statusOf(it) === "save").length;
+  const k_ = ITEMS.filter(it => statusOf(it) === "skip").length;
+  document.getElementById("total").textContent = all;
+  document.getElementById("count-save").textContent = s;
+  document.getElementById("count-skip").textContent = k_;
+  document.getElementById("count-remain").textContent = all - s - k_;
+}
+
+function persist() { localStorage.setItem(KEY, JSON.stringify(state)); }
+
+function toggle(it, action) {
+  const cur = statusOf(it);
+  const prev = cur;
+  if (cur === action) state[k(it)] = "pending";
+  else state[k(it)] = action;
+  lastToggle = { key: k(it), prev };
+  persist(); applyFilters();
+}
+
+function undoLast() {
+  if (!lastToggle) return;
+  state[lastToggle.key] = lastToggle.prev === "pending" ? undefined : lastToggle.prev;
+  if (!state[lastToggle.key]) delete state[lastToggle.key];
+  lastToggle = null;
+  persist(); applyFilters();
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") {
+    if (e.key === "Escape") e.target.blur();
+    return;
+  }
+  if (e.key === "ArrowDown" || e.key === "j") {
+    e.preventDefault();
+    focusIdx = Math.min(focusIdx + 1, visible.length - 1);
+    render();
+  } else if (e.key === "ArrowUp" || e.key === "k") {
+    e.preventDefault();
+    focusIdx = Math.max(focusIdx - 1, 0);
+    render();
+  } else if (e.key === " ") {
+    e.preventDefault();
+    const it = visible[focusIdx];
+    if (it) {
+      toggle(it, "save");
+      focusIdx = Math.min(focusIdx + 1, visible.length - 1);
+      render();
+    }
+  } else if (e.key === "x" || e.key === "X") {
+    e.preventDefault();
+    const it = visible[focusIdx];
+    if (it) {
+      toggle(it, "skip");
+      focusIdx = Math.min(focusIdx + 1, visible.length - 1);
+      render();
+    }
+  } else if (e.key === "u" || e.key === "U") {
+    e.preventDefault(); undoLast();
+  } else if (e.key === "/") {
+    e.preventDefault();
+    $filter.focus();
+  } else if (e.key === "g") {
+    focusIdx = 0; render();
+  } else if (e.key === "G") {
+    focusIdx = visible.length - 1; render();
+  }
+});
+
+$filter.addEventListener("input", () => { focusIdx = 0; applyFilters(); });
+$source.addEventListener("change", () => { focusIdx = 0; applyFilters(); });
+$status.addEventListener("change", () => { focusIdx = 0; applyFilters(); });
+
+document.getElementById("save-all").addEventListener("click", () => {
+  if (!confirm(`Save all ${visible.length} visible items?`)) return;
+  visible.forEach(it => state[k(it)] = "save");
+  persist(); applyFilters();
+});
+document.getElementById("skip-all").addEventListener("click", () => {
+  if (!confirm(`Skip all ${visible.length} visible items?`)) return;
+  visible.forEach(it => state[k(it)] = "skip");
+  persist(); applyFilters();
+});
+document.getElementById("reset").addEventListener("click", () => {
+  if (!confirm("Clear all saves/skips?")) return;
+  state = {}; persist(); applyFilters();
+});
+document.getElementById("export").addEventListener("click", () => {
+  const saves = ITEMS.filter(it => statusOf(it) === "save");
+  const skips = ITEMS.filter(it => statusOf(it) === "skip");
+  const out = {
+    exportedAt: new Date().toISOString(),
+    counts: { total: ITEMS.length, save: saves.length, skip: skips.length, pending: ITEMS.length - saves.length - skips.length },
+    save: saves, skip: skips,
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `pyaar-triage-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+});
+
+applyFilters();
+</script>
+</body>
+</html>
