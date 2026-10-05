@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
  "title": "NTS LIVE",
  "trackCount": 1037,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "tracks": [
   {
    "title": "Once Again (Kuniyuki Version) (Mix Cut)",
@@ -5136,16 +5136,16 @@
    "duration": "5:57"
   },
   {
-   "title": "El Hihat",
-   "artist": "Thomass Jackson",
-   "album": "Calypso Cult",
+   "title": "El Hihat (Original Mix)",
+   "artist": "Thomass Jackson - Topic",
+   "album": "",
    "videoId": "0wmEoN46JUE",
    "duration": "6:16"
   },
   {
    "title": "No Love No Matter",
-   "artist": "Younger Than Me",
-   "album": "XXX006",
+   "artist": "Younger Than Me - Topic",
+   "album": "",
    "videoId": "No-UwRSB-HQ",
    "duration": "6:16"
   },
@@ -5200,15 +5200,15 @@
   },
   {
    "title": "Addiction (Kike Am Radar Remix)",
-   "artist": "Pardon Moi",
-   "album": "Addiction",
+   "artist": "Pardon Moi - Topic",
+   "album": "",
    "videoId": "N7asnxppeQk",
    "duration": "5:55"
   },
   {
    "title": "Florida",
-   "artist": "Roe Deers",
-   "album": "Muy Duro, Vol. 1",
+   "artist": "Roe Deers - Topic",
+   "album": "",
    "videoId": "UVwK_lUSnWc",
    "duration": "5:05"
   },
@@ -5270,8 +5270,8 @@
   },
   {
    "title": "Stages",
-   "artist": "Don Laka",
-   "album": "Stages of Love",
+   "artist": "Don Laka - Topic",
+   "album": "",
    "videoId": "V3X9Wm25Br8",
    "duration": "5:52"
   },
@@ -5311,9 +5311,9 @@
    "duration": "1:12"
   },
   {
-   "title": "Tech-No-Logical World (feat. Paul Parker)",
-   "artist": "Patrick Cowley",
-   "album": "Mind Warp",
+   "title": "Tech-No-Logical World",
+   "artist": "Patrick Cowley - Topic",
+   "album": "",
    "videoId": "Qo53Oq6jmyc",
    "duration": "7:44"
   },
@@ -5410,8 +5410,8 @@
   },
   {
    "title": "Zoom Pool",
-   "artist": "THIRD WIFE",
-   "album": "Zoom Pool",
+   "artist": "THIRD WIFE - Topic",
+   "album": "",
    "videoId": "H7kcPCdJvK8",
    "duration": "5:21"
   },
@@ -5438,8 +5438,8 @@
   },
   {
    "title": "B4 (Summer Tape III)",
-   "artist": "Binary Digit",
-   "album": "Summer Tape III",
+   "artist": "Binary Digit - Topic",
+   "album": "",
    "videoId": "nsQsbin5xS8",
    "duration": "4:10"
   },
@@ -5501,8 +5501,8 @@
   },
   {
    "title": "Patrique's World",
-   "artist": "Eliott Litrowski",
-   "album": "Schmock Machine EP",
+   "artist": "Eliott Litrowski - Topic",
+   "album": "",
    "videoId": "lhrZqExeNsU",
    "duration": "5:15"
   },
@@ -5578,8 +5578,8 @@
   },
   {
    "title": "Let’s Get This",
-   "artist": "Sally C",
-   "album": "Big Saldo’s Chunker 001",
+   "artist": "Sally C - Topic",
+   "album": "",
    "videoId": "N6MurQOyloM",
    "duration": "6:35"
   },
@@ -5726,8 +5726,8 @@
   {
    "title": "Francesca (Wild at Heart)",
    "artist": "Theus Mago;moderna",
-   "album": "Tecno Misogino",
-   "videoId": "3BQyn5RIL3I",
+   "album": "Tecno Misógino",
+   "videoId": "GegmWU5e24w",
    "duration": "6:11"
   },
   {
@@ -5957,8 +5957,8 @@
   {
    "title": "Night War (Terr Remix)",
    "artist": "Man Power",
-   "album": "The Extended Play",
-   "videoId": "r6BPFW3M5QQ",
+   "album": "\"The Extended Play Ep\"",
+   "videoId": "u0wfq5-dDmQ",
    "duration": "5:40"
   },
   {
@@ -6348,8 +6348,8 @@
   },
   {
    "title": "Nochera",
-   "artist": "DJs Pareja",
-   "album": "Nochera - EP",
+   "artist": "DJs Pareja - Topic",
+   "album": "",
    "videoId": "VfyaKj0WOPk",
    "duration": "3:46"
   },
@@ -6390,8 +6390,8 @@
   },
   {
    "title": "West",
-   "artist": "Guille Placencia;George Privatti",
-   "album": "West / Fuji",
+   "artist": "Guille Placencia - Topic",
+   "album": "",
    "videoId": "5_C33Rhr6pU",
    "duration": "6:36"
   },
@@ -6481,22 +6481,22 @@
   },
   {
    "title": "Bounce Homie",
-   "artist": "DJ HAYDN;Kornél Kovács",
-   "album": "Bounce Homie",
+   "artist": "DJ HAYDN - Topic",
+   "album": "",
    "videoId": "VXLHOGUmmcM",
    "duration": "4:02"
   },
   {
    "title": "I Feel (Extended Mix)",
-   "artist": "Mac Zimms",
-   "album": "I Feel",
+   "artist": "Mac Zimms - Topic",
+   "album": "",
    "videoId": "xwENib-e6rY",
    "duration": "9:59"
   },
   {
    "title": "Crusading Chops",
-   "artist": "Escaflowne",
-   "album": "Tha lifestyle",
+   "artist": "Escaflowne - Topic",
+   "album": "",
    "videoId": "ywIURqPhpig",
    "duration": "6:22"
   },
@@ -6600,8 +6600,8 @@
   },
   {
    "title": "Dont't Judge Me Bad (2023 Remastered)",
-   "artist": "Senyaka",
-   "album": "Fuquza (Dance) (2023 Remastered)",
+   "artist": "Senyaka - Topic",
+   "album": "",
    "videoId": "XOoP0z9ZBFo",
    "duration": "3:05"
   },
@@ -6621,8 +6621,8 @@
   },
   {
    "title": "You Rock Me (Long Version)",
-   "artist": "Larry Heard Presents Mr. White;Mr. White",
-   "album": "E.P.",
+   "artist": "Larry Heard - Topic",
+   "album": "",
    "videoId": "ElyCxjDii_E",
    "duration": "6:13"
   },
@@ -6662,9 +6662,9 @@
    "duration": "5:29"
   },
   {
-   "title": "No Title (Molly)",
-   "artist": "John Maus",
-   "album": "A Collection Of Rarities And Previously Unreleased Material",
+   "title": "No Title (Molly) (2008)",
+   "artist": "John Maus - Topic",
+   "album": "",
    "videoId": "Jwa62N5Ocrc",
    "duration": "3:10"
   },
@@ -6747,8 +6747,8 @@
   },
   {
    "title": "The Raptor",
-   "artist": "Doctor Jeep",
-   "album": "FLOODLIGHT VOLUME 5",
+   "artist": "Doctor Jeep - Topic",
+   "album": "",
    "videoId": "h0keUUrFmcM",
    "duration": "4:41"
   },
@@ -6852,8 +6852,8 @@
   },
   {
    "title": "Turn It Up",
-   "artist": "Aera",
-   "album": "Turn It Up EP",
+   "artist": "Aera - Topic",
+   "album": "",
    "videoId": "4jrEk7CHIto",
    "duration": "6:21"
   },

@@ -1,9 +1,19 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 295,
- "totalTracks": 82435,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "totalTracks": 81682,
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1535
+  },
+  {
+   "playlistId": "PLG8qpG-vDHJU",
+   "title": "001 in the living room",
+   "trackCount": 16
+  },
   {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
@@ -53,11 +63,6 @@
    "playlistId": "PLI19tRI6_kho",
    "title": "9 lad",
    "trackCount": 1
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1530
   },
   {
    "playlistId": "PLHF27uYNcNMQ",
@@ -243,11 +248,6 @@
    "playlistId": "PL6LTKg9AoNs1joy2bG3RwEIYbdMWNx8VU",
    "title": "under the bridge (sway, wrist flick, nodders) (goated)",
    "trackCount": 31
-  },
-  {
-   "playlistId": "PLG8qpG-vDHJU",
-   "title": "001 in the living room",
-   "trackCount": 13
   },
   {
    "playlistId": "PLdf2E3J981oA",
@@ -992,7 +992,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0tUbPzSCk90XvSBNlnYoKW",
    "title": "Azhagiya Tamil Magan (goated) (bpm)",
-   "trackCount": 761
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",

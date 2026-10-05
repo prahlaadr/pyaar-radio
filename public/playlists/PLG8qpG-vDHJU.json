@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 13,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "trackCount": 16,
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -94,6 +94,27 @@
    "album": "Fading Frontier",
    "videoId": "33BJD7fiGIs",
    "duration": "3:32"
+  },
+  {
+   "title": "True",
+   "artist": "Foxwarren;Andy Shauf;Darryl Kissick",
+   "album": "2",
+   "videoId": "yHtkSDbaUmA",
+   "duration": "0:36"
+  },
+  {
+   "title": "Dress",
+   "artist": "Foxwarren;Andy Shauf;Darryl Kissick",
+   "album": "2",
+   "videoId": "YWuVdrR7AlA",
+   "duration": "3:14"
+  },
+  {
+   "title": "Strange",
+   "artist": "Foxwarren;Andy Shauf;Darryl Kissick",
+   "album": "2",
+   "videoId": "H9rPVLG71Ac",
+   "duration": "3:16"
   }
  ]
 }

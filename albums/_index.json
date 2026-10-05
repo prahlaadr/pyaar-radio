@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3609,
- "totalTracks": 45835,
- "syncedAt": "2026-10-04T13:45:06.878286Z",
+ "albumCount": 3611,
+ "totalTracks": 45859,
+ "syncedAt": "2026-10-05T16:52:33.487772Z",
  "albums": [
+  {
+   "browseId": "MPREb_cJo2lq7rhwk",
+   "title": "And Your Song is Like a Circle",
+   "artist": "Skullcrusher",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_tRyChT99E2B",
+   "title": "Quiet the Room",
+   "artist": "Skullcrusher",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_YoXO44oYiMt",
    "title": "2",

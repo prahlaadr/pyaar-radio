@@ -1,9 +1,44 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1530,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "trackCount": 1535,
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "tracks": [
+  {
+   "title": "She Lives in My Lap (feat. Rosario Dawson)",
+   "artist": "Outkast",
+   "album": "Speakerboxxx/The Love Below",
+   "videoId": "hwo85o3Giek",
+   "duration": "4:28"
+  },
+  {
+   "title": "Witches' Rave",
+   "artist": "Jeff Buckley",
+   "album": "Sketches for My Sweetheart The Drunk (Expanded Edition)",
+   "videoId": "oHVAnAzKmf0",
+   "duration": "4:41"
+  },
+  {
+   "title": "Chris Houlihan",
+   "artist": "Jerry Big's World Famous Band",
+   "album": "Chris Houlihan",
+   "videoId": "ZG3_NU4KKRg",
+   "duration": "3:06"
+  },
+  {
+   "title": "Bite My Hip",
+   "artist": "Bauhaus",
+   "album": "The Bela Session",
+   "videoId": "dRG40b2UI38",
+   "duration": "2:52"
+  },
+  {
+   "title": "Our Day Will Come",
+   "artist": "Amy Winehouse",
+   "album": "Lioness: Hidden Treasures",
+   "videoId": "qmdDIxQC0Ao",
+   "duration": "2:50"
+  },
   {
    "title": "Some People Never Know",
    "artist": "Wings",
@@ -1881,11 +1916,11 @@
    "duration": "4:47"
   },
   {
-   "title": "What We Do (feat. JAŸ-Z & Beanie Sigel)",
+   "title": "What We Do (feat. Beanie Sigel)",
    "artist": "Freeway",
-   "album": "Philadelphia Freeway",
-   "videoId": "ITSVEXkuadk",
-   "duration": "3:50"
+   "album": "",
+   "videoId": "1swlUtEkXZ0",
+   "duration": "3:46"
   },
   {
    "title": "I Just Can't See Myself Without You",
@@ -1975,7 +2010,7 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "MJoSyNdffGo",
+   "videoId": "R0u_Sel61wI",
    "duration": "3:52"
   },
   {
@@ -5025,8 +5060,8 @@
   },
   {
    "title": "Hell N Back",
-   "artist": "Bakar",
-   "album": "Hell N Back",
+   "artist": "Bakar - Topic",
+   "album": "",
    "videoId": "fwYE1IU-Hs0",
    "duration": "3:34"
   },
@@ -5116,8 +5151,8 @@
   },
   {
    "title": "What You Did",
-   "artist": "Chaka Khan",
-   "album": "Naughty",
+   "artist": "Chaka Khan - Topic",
+   "album": "",
    "videoId": "-EZ5HOsfEG4",
    "duration": "4:00"
   },
@@ -5179,8 +5214,8 @@
   },
   {
    "title": "Lose My Mind (feat. Mr Gabriel)",
-   "artist": "Jai Wolf",
-   "album": "Lose My Mind / Telepathy",
+   "artist": "Jai Wolf - Topic",
+   "album": "",
    "videoId": "D-4WG0FmwzA",
    "duration": "4:19"
   },
@@ -5207,8 +5242,8 @@
   },
   {
    "title": "Steve's Lava Chicken",
-   "artist": "Jack Black",
-   "album": "A Minecraft Movie (Original Motion Picture Soundtrack)",
+   "artist": "Jack Black - Topic",
+   "album": "",
    "videoId": "Xzx0V1JUI88",
    "duration": "0:35"
   },
@@ -5277,15 +5312,15 @@
   },
   {
    "title": "Uptown Girl",
-   "artist": "Billy Joel",
-   "album": "The Essential Billy Joel",
+   "artist": "Billy Joel - Topic",
+   "album": "",
    "videoId": "QToahYQWjx4",
    "duration": "3:15"
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer",
-   "album": "Weezer (Green Album)",
+   "artist": "Weezer - Topic",
+   "album": "",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
   },
@@ -5312,8 +5347,8 @@
   },
   {
    "title": "ציפור קטנה בלב",
-   "artist": "Yigal Bashan",
-   "album": "יגאל בשן וחברים טובים (יש לי ציפור קטנה בלב)",
+   "artist": "Yigal Bashan - Topic",
+   "album": "",
    "videoId": "nNaK-KTY0qI",
    "duration": "3:35"
   },
@@ -5326,8 +5361,8 @@
   },
   {
    "title": "River",
-   "artist": "Leon Bridges",
-   "album": "Coming Home (Deluxe)",
+   "artist": "Leon Bridges - Topic",
+   "album": "",
    "videoId": "iBHKN0dMayU",
    "duration": "4:01"
   },
@@ -5389,8 +5424,8 @@
   },
   {
    "title": "Cruel Summer",
-   "artist": "Taylor Swift",
-   "album": "Lover",
+   "artist": "Taylor Swift - Topic",
+   "album": "",
    "videoId": "aC9HkZW2hZk",
    "duration": "2:59"
   },
@@ -5508,8 +5543,8 @@
   },
   {
    "title": "Eenie Meenie (Radio Version)",
-   "artist": "Sean Kingston",
-   "album": "Eenie Meenie",
+   "artist": "Sean Kingston - Topic",
+   "album": "",
    "videoId": "BcrYfme_wUc",
    "duration": "3:22"
   },

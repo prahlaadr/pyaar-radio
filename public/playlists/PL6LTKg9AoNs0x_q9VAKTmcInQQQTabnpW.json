@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -1259,7 +1259,7 @@
   },
   {
    "title": "Crazy Baldhead",
-   "artist": "Bob Marley & The Wailers",
+   "artist": "Bob Marley;The Wailers",
    "album": "Rastaman Vibration",
    "videoId": "NURbkMNM4Fc",
    "duration": "3:12"
@@ -2532,10 +2532,10 @@
    "duration": "4:32"
   },
   {
-   "title": "Tell Me (2023 Remastered)",
+   "title": "Tell Me",
    "artist": "Slum Village",
-   "album": "Fan-Tas-Tic, Vol. 2 (2023 Remastered)",
-   "videoId": "RQgO3Nz0VBk",
+   "album": "Fan-Tas-Tic, Vol. 2",
+   "videoId": "A3OStc5i_hw",
    "duration": "4:38"
   },
   {
@@ -3653,8 +3653,8 @@
   },
   {
    "title": "Canto de Yemanjá",
-   "artist": "Baden Powell;Quarteto em Cy",
-   "album": "Os Afro-Sambas",
+   "artist": "Baden Powell - Topic",
+   "album": "",
    "videoId": "RxIkg-GFpKE",
    "duration": "6:04"
   },
@@ -3751,8 +3751,8 @@
   },
   {
    "title": "Euphoria",
-   "artist": "Michael Jackson",
-   "album": "Music & Me",
+   "artist": "Michael Jackson - Topic",
+   "album": "",
    "videoId": "WNNbk5q1R0o",
    "duration": "2:50"
   },
@@ -3877,8 +3877,8 @@
   },
   {
    "title": "Ya Henayena",
-   "artist": "Fairouz",
-   "album": "Damascus Festival (Live at Damascus Festival 1966)",
+   "artist": "Fairuz - Topic",
+   "album": "",
    "videoId": "O5ezmhFW300",
    "duration": "1:52"
   },
@@ -3953,9 +3953,9 @@
    "duration": "3:57"
   },
   {
-   "title": "America Latina (feat. Marcos Valle & Patricia Alvi)",
-   "artist": "Sonzeira",
-   "album": "Brasil Bam Bam Bam (Gilles Peterson Presents Sonzeira)",
+   "title": "America Latina",
+   "artist": "Sonzeira - Topic",
+   "album": "",
    "videoId": "_U4jarTRsaY",
    "duration": "4:53"
   },
@@ -3989,8 +3989,8 @@
   },
   {
    "title": "Win Win",
-   "artist": "Art Feynman",
-   "album": "Blast Off Through the Wicker",
+   "artist": "Art Feynman - Topic",
+   "album": "",
    "videoId": "MncnzXvWX7w",
    "duration": "2:17"
   },
@@ -4115,15 +4115,15 @@
   },
   {
    "title": "Heaven Have Mercy (Miséricorde)",
-   "artist": "Edith Piaf",
-   "album": "Edith Piaf - The Best Of",
+   "artist": "Edith Piaf - Topic",
+   "album": "",
    "videoId": "coS0pKXtWRQ",
    "duration": "3:41"
   },
   {
    "title": "Evocação Das Montanhas (Poema Sonoro)",
-   "artist": "Milton Nascimento",
-   "album": "Anima",
+   "artist": "Milton Nascimento - Topic",
+   "album": "",
    "videoId": "hKVXjuJf1zc",
    "duration": "6:03"
   },
@@ -4135,9 +4135,9 @@
    "duration": "5:57"
   },
   {
-   "title": "Oasis Of Dakhla",
-   "artist": "Les Baxter",
-   "album": "Tamboo!",
+   "title": "Oasis Of Dakhla (Remastered)",
+   "artist": "Les Baxter - Topic",
+   "album": "",
    "videoId": "N5O0aFXRjD4",
    "duration": "3:39"
   },
@@ -4150,15 +4150,15 @@
   },
   {
    "title": "Man'yō",
-   "artist": "Meitei",
-   "album": "Kofū",
+   "artist": "Meitei - Topic",
+   "album": "",
    "videoId": "waGabIKq_FY",
    "duration": "4:13"
   },
   {
    "title": "Jynweythek Ylow",
-   "artist": "Simon Farintosh",
-   "album": "Aphex Twin for Guitar",
+   "artist": "Simon Farintosh - Topic",
+   "album": "",
    "videoId": "Tu3sH6Sas9w",
    "duration": "2:21"
   },

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0-kcbP2DM7IMdwZkPrFZ-E",
  "title": "le gazzz",
  "trackCount": 1341,
- "syncedAt": "2026-10-04T13:45:11.306186Z",
+ "syncedAt": "2026-10-05T16:52:37.072751Z",
  "tracks": [
   {
    "title": "Lately",
@@ -616,8 +616,8 @@
   {
    "title": "Players",
    "artist": "Slum Village",
-   "album": "Fan-Tas-Tic, Vol. 2",
-   "videoId": "EZXXqfUBbLM",
+   "album": "Sex",
+   "videoId": "dkIaf0xAeUU",
    "duration": "2:27"
   },
   {
@@ -1366,7 +1366,7 @@
    "title": "Andromeda",
    "artist": "Ethel",
    "album": "Andromeda",
-   "videoId": "NQZOV2Rm0Jc",
+   "videoId": "h-zW474Sg2M",
    "duration": "2:03"
   },
   {
@@ -2120,8 +2120,8 @@
   },
   {
    "title": "I Can Only Whisper (feat. BADBADNOTGOOD)",
-   "artist": "Charlotte Day Wilson",
-   "album": "ALPHA",
+   "artist": "Charlotte Day Wilson - Topic",
+   "album": "",
    "videoId": "d4AAXcxEX9g",
    "duration": "2:45"
   },
@@ -2134,8 +2134,8 @@
   },
   {
    "title": "Changes",
-   "artist": "Charlotte Day Wilson",
-   "album": "ALPHA",
+   "artist": "Charlotte Day Wilson - Topic",
+   "album": "",
    "videoId": "pLhWRXlCx-0",
    "duration": "2:59"
   },
@@ -2330,8 +2330,8 @@
   },
   {
    "title": "Heavy",
-   "artist": "The Marías",
-   "album": "CINEMA",
+   "artist": "The Marías - Topic",
+   "album": "",
    "videoId": "IOEqWjLn4DY",
    "duration": "4:14"
   },
@@ -2364,9 +2364,9 @@
    "duration": "3:53"
   },
   {
-   "title": "...We Fall",
-   "artist": "Paris Texas",
-   "album": "MID AIR",
+   "title": "... We Fall",
+   "artist": "Paris Texas - Topic",
+   "album": "",
    "videoId": "fs7Sr29mWsI",
    "duration": "5:44"
   },
@@ -2526,8 +2526,8 @@
   },
   {
    "title": "meet me in brooklyn",
-   "artist": "Yaya Bey",
-   "album": "Remember Your North Star",
+   "artist": "Yaya Bey - Topic",
+   "album": "",
    "videoId": "eGtNVBl1kt8",
    "duration": "1:30"
   },
@@ -2540,8 +2540,8 @@
   },
   {
    "title": "Love, of Money",
-   "artist": "Mavi",
-   "album": "Let the Sun Talk",
+   "artist": "MAVI - Topic",
+   "album": "",
    "videoId": "4LiN2g6NUlM",
    "duration": "1:05"
   },
@@ -2554,8 +2554,8 @@
   },
   {
    "title": "Get Involved",
-   "artist": "Raphael Saadiq;Q-Tip",
-   "album": "The PJs",
+   "artist": "Raphael Saadiq - Topic",
+   "album": "",
    "videoId": "qQhe8Vehi40",
    "duration": "3:15"
   },
@@ -2568,8 +2568,8 @@
   },
   {
    "title": "Goodie Bag",
-   "artist": "Still Woozy",
-   "album": "Goodie Bag",
+   "artist": "Still Woozy - Topic",
+   "album": "",
    "videoId": "-uhYlzuY6W4",
    "duration": "2:27"
   },
@@ -2645,8 +2645,8 @@
   },
   {
    "title": "I See Now",
-   "artist": "Little Brother",
-   "album": "The Chittlin' Circuit Circuit 1.5 (Deluxe Edition)",
+   "artist": "Little Brother - Topic",
+   "album": "",
    "videoId": "bJnLc9j8QWg",
    "duration": "4:20"
   },
@@ -2672,9 +2672,9 @@
    "duration": "4:45"
   },
   {
-   "title": "What Do You Mean? (feat. J Hus)",
-   "artist": "Skepta",
-   "album": "Ignorance is Bliss",
+   "title": "What Do You Mean?",
+   "artist": "Skepta - Topic",
+   "album": "",
    "videoId": "BSEvQM7NEYc",
    "duration": "3:32"
   },
@@ -6306,8 +6306,8 @@
   },
   {
    "title": "Fonk Street",
-   "artist": "Lynda Dawn",
-   "album": "At First Light",
+   "artist": "Lynda Dawn - Topic",
+   "album": "",
    "videoId": "T2OIZduPcik",
    "duration": "3:58"
   },
@@ -6348,8 +6348,8 @@
   },
   {
    "title": "Thinking About You",
-   "artist": "Faye Webster",
-   "album": "Underdressed at the Symphony",
+   "artist": "Faye Webster - Topic",
+   "album": "",
    "videoId": "nt59aWZadBY",
    "duration": "6:37"
   },
@@ -6453,8 +6453,8 @@
   },
   {
    "title": "Morning Shift",
-   "artist": "Patrick Holland",
-   "album": "Scented Trip",
+   "artist": "Project Pablo - Topic",
+   "album": "",
    "videoId": "_vqQsl1Jd_Q",
    "duration": "6:21"
   },
@@ -6516,8 +6516,8 @@
   },
   {
    "title": "To Each His Own",
-   "artist": "Patrice Rushen",
-   "album": "Now",
+   "artist": "Patrice Rushen - Topic",
+   "album": "",
    "videoId": "ZTAKU7SwWD4",
    "duration": "4:15"
   },
@@ -6558,8 +6558,8 @@
   },
   {
    "title": "1st of Tha Month",
-   "artist": "Bone Thugs-n-Harmony",
-   "album": "E. 1999 Eternal",
+   "artist": "Bone Thugs-N-Harmony - Topic",
+   "album": "",
    "videoId": "37YDcIQABEs",
    "duration": "5:15"
   },
@@ -6571,9 +6571,9 @@
    "duration": "3:08"
   },
   {
-   "title": "Straight to Hell",
-   "artist": "The Clash",
-   "album": "Sound System",
+   "title": "Straight to Hell (Remastered)",
+   "artist": "The Clash - Topic",
+   "album": "",
    "videoId": "0QalnA5Lltg",
    "duration": "5:31"
   },
@@ -6669,9 +6669,9 @@
    "duration": "4:36"
   },
   {
-   "title": "Barefoot In The Park (feat. ROSALÍA)",
-   "artist": "James Blake",
-   "album": "Assume Form",
+   "title": "Barefoot In The Park",
+   "artist": "James Blake - Topic",
+   "album": "",
    "videoId": "vLPQujE_qc8",
    "duration": "3:32"
   },
@@ -6761,8 +6761,8 @@
   },
   {
    "title": "les petites choses",
-   "artist": "SOPHIETHEHOMIE",
-   "album": "les petites choses",
+   "artist": "SOPHIETHEHOMIE - Topic",
+   "album": "",
    "videoId": "qgEo9Ivx0s0",
    "duration": "3:06"
   },
@@ -6943,8 +6943,8 @@
   },
   {
    "title": "I Get Up",
-   "artist": "J. Cole",
-   "album": "The Warm Up",
+   "artist": "J. Cole - Topic",
+   "album": "",
    "videoId": "PiICtmP8YpA",
    "duration": "4:55"
   },
@@ -6964,8 +6964,8 @@
   },
   {
    "title": "Y o Y",
-   "artist": "Born At Midnite",
-   "album": "Y o Y",
+   "artist": "Born At Midnite - Topic",
+   "album": "",
    "videoId": "JTfyFGWkZSE",
    "duration": "2:24"
   },
@@ -9199,7 +9199,7 @@
    "title": "5",
    "artist": "Dean Blunt;Elias Rønnenfelt",
    "album": "lucre",
-   "videoId": "Z390HyR_JVk",
+   "videoId": "9wIg39LeWfw",
    "duration": "2:01"
   },
   {
