@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs1CV28gTSGvyDWvDfp-P1aL",
  "title": "I'm in Love with Burial",
  "trackCount": 53,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Dark Gethsemane",
@@ -34,8 +34,8 @@
   },
   {
    "title": "Unknown Summer",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Infirmary / Unknown Summer",
    "videoId": "c5t507BN_ac",
    "duration": "9:41"
   },
@@ -97,8 +97,8 @@
   },
   {
    "title": "Streetlands",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Streetlands EP",
    "videoId": "RjtHNWD3-QI",
    "duration": "14:16"
   },
@@ -118,8 +118,8 @@
   },
   {
    "title": "Pre Dawn",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Pre Dawn / Indoors",
    "videoId": "hT1Q2zyZM4U",
    "duration": "8:12"
   },
@@ -132,29 +132,29 @@
   },
   {
    "title": "Near Dark",
-   "artist": "Harlekin - Topic",
-   "album": "",
+   "artist": "Harlekin",
+   "album": "Near Dark",
    "videoId": "DYA7T50lSlk",
    "duration": "4:33"
   },
   {
    "title": "Endorphin",
-   "artist": "podval capella - Topic",
-   "album": "",
+   "artist": "podval capella",
+   "album": "Wayfarer",
    "videoId": "rlcNKhp5-EE",
    "duration": "3:43"
   },
   {
    "title": "Funeral Headplate",
-   "artist": "Michael It'z - Topic",
-   "album": "",
+   "artist": "Michael It'z",
+   "album": "Persone",
    "videoId": "-_WYubtirK4",
    "duration": "4:40"
   },
   {
    "title": "In McDonalds",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Hyperdub 10.3",
    "videoId": "-SZ0AkFemZQ",
    "duration": "2:07"
   },
@@ -167,15 +167,15 @@
   },
   {
    "title": "Night Bus",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Hyperdub 10.3",
    "videoId": "udCfPCuaeN4",
    "duration": "2:14"
   },
   {
    "title": "Lambeth",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Hyperdub 10.4",
    "videoId": "x6w62ArRrH4",
    "duration": "3:29"
   },
@@ -188,15 +188,15 @@
   },
   {
    "title": "Boy Sent From Above",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Dreamfear / Boy Sent From Above",
    "videoId": "0kmqqz_47Co",
    "duration": "13:24"
   },
   {
    "title": "Only The Good Times (Burial Remix)",
-   "artist": "L.B. Dub Corp - Topic",
-   "album": "",
+   "artist": "L.B. Dub Corp",
+   "album": "Only The Good Times",
    "videoId": "mokkTtKdGwc",
    "duration": "10:35"
   },
@@ -222,16 +222,16 @@
    "duration": "9:11"
   },
   {
-   "title": "The Spell (Burial Mix) (feat. Ingrid Chavez & Burial)",
-   "artist": "Charles Webster - Topic",
-   "album": "",
+   "title": "The Spell (Burial Mix) (feat. Burial & Ingrid Chavez)",
+   "artist": "Charles Webster",
+   "album": "The Spell (Burial Mix) [feat. Ingrid Chavez]",
    "videoId": "xxfKLv_HWiI",
    "duration": "8:00"
   },
   {
    "title": "Be True (Burial Remix)",
-   "artist": "Commix - Topic",
-   "album": "",
+   "artist": "Commix",
+   "album": "Be True",
    "videoId": "h23uUBpNnSs",
    "duration": "6:04"
   },
@@ -251,15 +251,15 @@
   },
   {
    "title": "Crackle Blues (Burial Remix)",
-   "artist": "Blackdown - Topic",
-   "album": "",
+   "artist": "Blackdown",
+   "album": "Lata / Crackle Blues (Original + Burial remix)",
    "videoId": "7b9Qv1MKVzE",
    "duration": "5:43"
   },
   {
-   "title": "Inner City Life (Burial Remix)",
-   "artist": "Goldie - Topic",
-   "album": "",
+   "title": "Inner City Life (Burial Remix) (feat. Espa)",
+   "artist": "Goldie",
+   "album": "Inner City Life 2017",
    "videoId": "9JK7njkVXq8",
    "duration": "7:00"
   },
@@ -272,15 +272,15 @@
   },
   {
    "title": "This Journey VIP",
-   "artist": "Blackdown - Topic",
-   "album": "",
+   "artist": "Blackdown",
+   "album": "Shock Power of Love EP",
    "videoId": "VsRRnKsQFKY",
    "duration": "4:04"
   },
   {
    "title": "Arklight (Blackdown Remix)",
-   "artist": "Heatmap - Topic",
-   "album": "",
+   "artist": "Heatmap",
+   "album": "Shock Power of Love EP",
    "videoId": "Z-9XDBbhUIY",
    "duration": "4:03"
   },
@@ -314,8 +314,8 @@
   },
   {
    "title": "Shrine",
-   "artist": "Flame 1 - Topic",
-   "album": "",
+   "artist": "Flame 1",
+   "album": "Fog / Shrine",
    "videoId": "7p39GCDWUYI",
    "duration": "5:54"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "Rain",
-   "artist": "Flame 2 - Topic",
-   "album": "",
+   "artist": "Flame 2",
+   "album": "Dive / Rain",
    "videoId": "6usaURD2PsE",
    "duration": "3:43"
   },
@@ -356,8 +356,8 @@
   },
   {
    "title": "Comafields",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Comafields / Imaginary Festival",
    "videoId": "9zDCyhuU7x4",
    "duration": "12:04"
   },

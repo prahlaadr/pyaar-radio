@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3611,
- "totalTracks": 45859,
- "syncedAt": "2026-10-05T16:52:33.487772Z",
+ "albumCount": 3616,
+ "totalTracks": 45914,
+ "syncedAt": "2026-10-06T14:48:35.287892Z",
  "albums": [
+  {
+   "browseId": "MPREb_b0mRjZJ7L19",
+   "title": "Some Other Ones",
+   "artist": "Mac DeMarco",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_oKjy2F1q3ze",
+   "title": "Salad Days",
+   "artist": "Mac DeMarco",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_3IOLNgS4Ywl",
+   "title": "2",
+   "artist": "Mac DeMarco",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_d4XgYJgVjl6",
+   "title": "Landó por Bulerías",
+   "artist": "Miki Gonzalez",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_UkJNOQbd1RK",
+   "title": "Popstar",
+   "artist": "Tinashe",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_Y2ttGYVWIXR",
+   "title": "Citrine EP",
+   "artist": "Carré",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_cJo2lq7rhwk",
    "title": "And Your Song is Like a Circle",
@@ -7049,12 +7085,6 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_mkl9EjeM4E3",
-   "title": "Thornhill",
-   "artist": "King Chip",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_Fj21OPDVedN",
    "title": "So Far Gone",
    "artist": "Drake",
@@ -10830,8 +10860,8 @@
   },
   {
    "browseId": "MPREb_0JvYvj6CBtt",
-   "title": "Crack Therapy 3",
-   "artist": "RXK Nephew",
+   "title": "Crack Therapy",
+   "artist": "RXKNephew",
    "trackCount": 7
   },
   {
@@ -11820,7 +11850,7 @@
   },
   {
    "browseId": "MPREb_eHEOTy3DS94",
-   "title": "Revolver",
+   "title": "Revolver (Remastered 2009)",
    "artist": "The Beatles",
    "trackCount": 14
   },

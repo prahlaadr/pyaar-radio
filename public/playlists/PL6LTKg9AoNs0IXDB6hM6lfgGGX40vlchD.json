@@ -2,19 +2,19 @@
  "playlistId": "PL6LTKg9AoNs0IXDB6hM6lfgGGX40vlchD",
  "title": "Gold",
  "trackCount": 2,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "New Healer",
-   "artist": "Croatian Amor - Topic",
-   "album": "",
+   "artist": "Croatian Amor;Scandinavian Star;School of X",
+   "album": "New Healer",
    "videoId": "bO3_Kf9mAqg",
    "duration": "5:00"
   },
   {
    "title": "Destined",
-   "artist": "Lazarus Moment - Topic",
-   "album": "",
+   "artist": "Lazarus Moment",
+   "album": "Bird Flies Home",
    "videoId": "5snocU6s_-Y",
    "duration": "4:24"
   }

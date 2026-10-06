@@ -1,0 +1,64 @@
+{
+ "title": "Some Other Ones",
+ "artist": "Mac DeMarco",
+ "year": "2015",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "Little Pepper",
+   "artist": "Mac DeMarco",
+   "videoId": "l8HnjaQxwis",
+   "duration": "2:40"
+  },
+  {
+   "title": "Onion Man",
+   "artist": "Mac DeMarco",
+   "videoId": "RdL4iw78_V0",
+   "duration": "2:45"
+  },
+  {
+   "title": "Peter Pickles",
+   "artist": "Mac DeMarco",
+   "videoId": "rqyAlzEY_Hs",
+   "duration": "2:00"
+  },
+  {
+   "title": "Don Juan",
+   "artist": "Mac DeMarco",
+   "videoId": "6G3E1B-mpm4",
+   "duration": "1:57"
+  },
+  {
+   "title": "Young Coconut",
+   "artist": "Mac DeMarco",
+   "videoId": "sy0fOUbHKl4",
+   "duration": "2:43"
+  },
+  {
+   "title": "Hachiko",
+   "artist": "Mac DeMarco",
+   "videoId": "9vJd8nFhfXY",
+   "duration": "2:43"
+  },
+  {
+   "title": "Fish Terry",
+   "artist": "Mac DeMarco",
+   "videoId": "M9NHivuv_YA",
+   "duration": "2:04"
+  },
+  {
+   "title": "Hoso Boyo",
+   "artist": "Mac DeMarco",
+   "videoId": "WsctFJ7eJU4",
+   "duration": "3:03"
+  },
+  {
+   "title": "Special K",
+   "artist": "Mac DeMarco",
+   "videoId": "BUia4ATrszg",
+   "duration": "2:21"
+  }
+ ],
+ "browseId": "MPREb_b0mRjZJ7L19",
+ "syncedAt": "2026-10-06T14:48:35.287892Z"
+}

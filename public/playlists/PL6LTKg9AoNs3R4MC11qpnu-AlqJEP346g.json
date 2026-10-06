@@ -1,9 +1,16 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1535,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "trackCount": 1536,
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
+  {
+   "title": "Ego Death At A Bachelorette Party",
+   "artist": "Hayley Williams",
+   "album": "Ego Death At A Bachelorette Party",
+   "videoId": "TRCRapkCF8E",
+   "duration": "3:20"
+  },
   {
    "title": "She Lives in My Lap (feat. Rosario Dawson)",
    "artist": "Outkast",
@@ -1916,11 +1923,11 @@
    "duration": "4:47"
   },
   {
-   "title": "What We Do (feat. Beanie Sigel)",
+   "title": "What We Do (feat. JAŸ-Z & Beanie Sigel)",
    "artist": "Freeway",
-   "album": "",
-   "videoId": "1swlUtEkXZ0",
-   "duration": "3:46"
+   "album": "Philadelphia Freeway",
+   "videoId": "ITSVEXkuadk",
+   "duration": "3:50"
   },
   {
    "title": "I Just Can't See Myself Without You",
@@ -2010,7 +2017,7 @@
    "title": "Chamber Of Reflection",
    "artist": "Mac DeMarco",
    "album": "Salad Days",
-   "videoId": "R0u_Sel61wI",
+   "videoId": "MJoSyNdffGo",
    "duration": "3:52"
   },
   {
@@ -5060,8 +5067,8 @@
   },
   {
    "title": "Hell N Back",
-   "artist": "Bakar - Topic",
-   "album": "",
+   "artist": "Bakar",
+   "album": "Hell N Back",
    "videoId": "fwYE1IU-Hs0",
    "duration": "3:34"
   },
@@ -5151,8 +5158,8 @@
   },
   {
    "title": "What You Did",
-   "artist": "Chaka Khan - Topic",
-   "album": "",
+   "artist": "Chaka Khan",
+   "album": "Naughty",
    "videoId": "-EZ5HOsfEG4",
    "duration": "4:00"
   },
@@ -5214,8 +5221,8 @@
   },
   {
    "title": "Lose My Mind (feat. Mr Gabriel)",
-   "artist": "Jai Wolf - Topic",
-   "album": "",
+   "artist": "Jai Wolf",
+   "album": "Lose My Mind / Telepathy",
    "videoId": "D-4WG0FmwzA",
    "duration": "4:19"
   },
@@ -5242,8 +5249,8 @@
   },
   {
    "title": "Steve's Lava Chicken",
-   "artist": "Jack Black - Topic",
-   "album": "",
+   "artist": "Jack Black",
+   "album": "A Minecraft Movie (Original Motion Picture Soundtrack)",
    "videoId": "Xzx0V1JUI88",
    "duration": "0:35"
   },
@@ -5312,15 +5319,15 @@
   },
   {
    "title": "Uptown Girl",
-   "artist": "Billy Joel - Topic",
-   "album": "",
+   "artist": "Billy Joel",
+   "album": "The Essential Billy Joel",
    "videoId": "QToahYQWjx4",
    "duration": "3:15"
   },
   {
    "title": "Island In The Sun",
-   "artist": "Weezer - Topic",
-   "album": "",
+   "artist": "Weezer",
+   "album": "Weezer (Green Album)",
    "videoId": "beX-9wW5rL0",
    "duration": "3:21"
   },
@@ -5347,8 +5354,8 @@
   },
   {
    "title": "ציפור קטנה בלב",
-   "artist": "Yigal Bashan - Topic",
-   "album": "",
+   "artist": "Yigal Bashan",
+   "album": "יגאל בשן וחברים טובים (יש לי ציפור קטנה בלב)",
    "videoId": "nNaK-KTY0qI",
    "duration": "3:35"
   },
@@ -5361,8 +5368,8 @@
   },
   {
    "title": "River",
-   "artist": "Leon Bridges - Topic",
-   "album": "",
+   "artist": "Leon Bridges",
+   "album": "Coming Home (Deluxe)",
    "videoId": "iBHKN0dMayU",
    "duration": "4:01"
   },
@@ -5404,7 +5411,7 @@
   {
    "title": "Blackbird (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "Man4Xw8Xypo",
    "duration": "2:19"
   },
@@ -5424,8 +5431,8 @@
   },
   {
    "title": "Cruel Summer",
-   "artist": "Taylor Swift - Topic",
-   "album": "",
+   "artist": "Taylor Swift",
+   "album": "Lover",
    "videoId": "aC9HkZW2hZk",
    "duration": "2:59"
   },
@@ -5543,8 +5550,8 @@
   },
   {
    "title": "Eenie Meenie (Radio Version)",
-   "artist": "Sean Kingston - Topic",
-   "album": "",
+   "artist": "Sean Kingston",
+   "album": "Eenie Meenie",
    "videoId": "BcrYfme_wUc",
    "duration": "3:22"
   },
@@ -6909,7 +6916,7 @@
   {
    "title": "All You Need Is Love (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Magical Mystery Tour",
+   "album": "Magical Mystery Tour (Remastered 2009)",
    "videoId": "1A8sOOKianA",
    "duration": "3:51"
   },
@@ -6986,7 +6993,7 @@
   {
    "title": "Here Comes The Sun (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Abbey Road",
+   "album": "Abbey Road (Remastered 2009)",
    "videoId": "xUNqsfFUwhY",
    "duration": "3:06"
   },
@@ -9128,42 +9135,42 @@
   {
    "title": "Anna (Go To Him) (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Please Please Me",
+   "album": "Please Please Me (Remastered 2009)",
    "videoId": "b3zNKWyLfus",
    "duration": "2:58"
   },
   {
    "title": "Julia (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "TZip_br_v3w",
    "duration": "2:57"
   },
   {
    "title": "Dear Prudence (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "wQA59IkCF5I",
    "duration": "3:56"
   },
   {
    "title": "Sexy Sadie (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "tSk5U4oHhu0",
    "duration": "3:16"
   },
   {
    "title": "Lucy In The Sky With Diamonds (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Sgt. Pepper's Lonely Hearts Club Band",
+   "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered 2009)",
    "videoId": "naoknj1ebqI",
    "duration": "3:29"
   },
   {
    "title": "Lovely Rita (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Sgt. Pepper's Lonely Hearts Club Band",
+   "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered 2009)",
    "videoId": "ysDwR5SIR1Q",
    "duration": "2:43"
   },
@@ -9177,7 +9184,7 @@
   {
    "title": "Martha My Dear (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "RXawa90YU2s",
    "duration": "2:29"
   },
@@ -10367,7 +10374,7 @@
   {
    "title": "Ticket To Ride (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Help!",
+   "album": "Help! (Remastered 2009)",
    "videoId": "acxfOgPWUls",
    "duration": "3:10"
   },
@@ -10528,7 +10535,7 @@
   {
    "title": "Ob-La-Di, Ob-La-Da (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "_J9NpHKrKMw",
    "duration": "3:09"
   },
@@ -10542,21 +10549,21 @@
   {
    "title": "Penny Lane (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Magical Mystery Tour",
+   "album": "Magical Mystery Tour (Remastered 2009)",
    "videoId": "vfxQ1oDiEJM",
    "duration": "3:01"
   },
   {
    "title": "Come Together (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Abbey Road",
+   "album": "Abbey Road (Remastered 2009)",
    "videoId": "oolpPmuK2I8",
    "duration": "4:20"
   },
   {
    "title": "Here Comes The Sun (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Abbey Road",
+   "album": "Abbey Road (Remastered 2009)",
    "videoId": "xUNqsfFUwhY",
    "duration": "3:06"
   },

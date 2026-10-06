@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 295,
- "totalTracks": 81682,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "playlistCount": 296,
+ "totalTracks": 82443,
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1535
+   "trackCount": 1536
+  },
+  {
+   "playlistId": "PLc2jOfdcUsCA",
+   "title": "Oct 26",
+   "trackCount": 4
   },
   {
    "playlistId": "PLG8qpG-vDHJU",
@@ -482,7 +487,7 @@
   {
    "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
    "title": "The Sound of Indian Indie",
-   "trackCount": 437
+   "trackCount": 432
   },
   {
    "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",
@@ -992,7 +997,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0tUbPzSCk90XvSBNlnYoKW",
    "title": "Azhagiya Tamil Magan (goated) (bpm)",
-   "trackCount": 0
+   "trackCount": 761
   },
   {
    "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",

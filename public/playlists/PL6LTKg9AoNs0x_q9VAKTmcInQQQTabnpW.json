@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
  "title": "shit nai palm listens to (goated)",
  "trackCount": 1169,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Dreams (2004 Remaster)",
@@ -798,7 +798,7 @@
   {
    "title": "Got To Get You Into My Life (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Revolver",
+   "album": "Revolver (Remastered 2009)",
    "videoId": "r95-7zfgtLw",
    "duration": "2:30"
   },
@@ -3653,8 +3653,8 @@
   },
   {
    "title": "Canto de Yemanjá",
-   "artist": "Baden Powell - Topic",
-   "album": "",
+   "artist": "Baden Powell;Quarteto em Cy",
+   "album": "Os Afro-Sambas",
    "videoId": "RxIkg-GFpKE",
    "duration": "6:04"
   },
@@ -3751,8 +3751,8 @@
   },
   {
    "title": "Euphoria",
-   "artist": "Michael Jackson - Topic",
-   "album": "",
+   "artist": "Michael Jackson",
+   "album": "Music & Me",
    "videoId": "WNNbk5q1R0o",
    "duration": "2:50"
   },
@@ -3877,8 +3877,8 @@
   },
   {
    "title": "Ya Henayena",
-   "artist": "Fairuz - Topic",
-   "album": "",
+   "artist": "Fairouz",
+   "album": "Damascus Festival (Live at Damascus Festival 1966)",
    "videoId": "O5ezmhFW300",
    "duration": "1:52"
   },
@@ -3953,9 +3953,9 @@
    "duration": "3:57"
   },
   {
-   "title": "America Latina",
-   "artist": "Sonzeira - Topic",
-   "album": "",
+   "title": "America Latina (feat. Marcos Valle & Patricia Alvi)",
+   "artist": "Sonzeira",
+   "album": "Brasil Bam Bam Bam (Gilles Peterson Presents Sonzeira)",
    "videoId": "_U4jarTRsaY",
    "duration": "4:53"
   },
@@ -3989,8 +3989,8 @@
   },
   {
    "title": "Win Win",
-   "artist": "Art Feynman - Topic",
-   "album": "",
+   "artist": "Art Feynman",
+   "album": "Blast Off Through the Wicker",
    "videoId": "MncnzXvWX7w",
    "duration": "2:17"
   },
@@ -4115,15 +4115,15 @@
   },
   {
    "title": "Heaven Have Mercy (Miséricorde)",
-   "artist": "Edith Piaf - Topic",
-   "album": "",
+   "artist": "Edith Piaf",
+   "album": "Edith Piaf - The Best Of",
    "videoId": "coS0pKXtWRQ",
    "duration": "3:41"
   },
   {
    "title": "Evocação Das Montanhas (Poema Sonoro)",
-   "artist": "Milton Nascimento - Topic",
-   "album": "",
+   "artist": "Milton Nascimento",
+   "album": "Anima",
    "videoId": "hKVXjuJf1zc",
    "duration": "6:03"
   },
@@ -4135,9 +4135,9 @@
    "duration": "5:57"
   },
   {
-   "title": "Oasis Of Dakhla (Remastered)",
-   "artist": "Les Baxter - Topic",
-   "album": "",
+   "title": "Oasis Of Dakhla",
+   "artist": "Les Baxter",
+   "album": "Tamboo!",
    "videoId": "N5O0aFXRjD4",
    "duration": "3:39"
   },
@@ -4150,15 +4150,15 @@
   },
   {
    "title": "Man'yō",
-   "artist": "Meitei - Topic",
-   "album": "",
+   "artist": "Meitei",
+   "album": "Kofū",
    "videoId": "waGabIKq_FY",
    "duration": "4:13"
   },
   {
    "title": "Jynweythek Ylow",
-   "artist": "Simon Farintosh - Topic",
-   "album": "",
+   "artist": "Simon Farintosh",
+   "album": "Aphex Twin for Guitar",
    "videoId": "Tu3sH6Sas9w",
    "duration": "2:21"
   },

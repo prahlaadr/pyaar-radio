@@ -2,7 +2,7 @@
  "playlistId": "PLHoSQ5-c6fjc",
  "title": "9laad:Park",
  "trackCount": 98,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Woman",
@@ -69,8 +69,8 @@
   },
   {
    "title": "Cars Pass By Like Childhood Sweethearts",
-   "artist": "Barry Can’t Swim - Topic",
-   "album": "",
+   "artist": "Barry Can’t Swim",
+   "album": "Loner",
    "videoId": "WGmdlsrjgig",
    "duration": "3:06"
   },
@@ -97,8 +97,8 @@
   },
   {
    "title": "Canta el Agua",
-   "artist": "Captain Planet - Topic",
-   "album": "",
+   "artist": "Captain Planet;De Mar y Rio",
+   "album": "Canta el Agua",
    "videoId": "FyFjJ1qeb3A",
    "duration": "3:39"
   },
@@ -195,8 +195,8 @@
   },
   {
    "title": "Cumbion de las Aves",
-   "artist": "Chancha Vía Circuito - Topic",
-   "album": "",
+   "artist": "Chancha Via Circuito",
+   "album": "Río Arriba",
    "videoId": "IpkKb3uF47Y",
    "duration": "4:46"
   },
@@ -216,15 +216,15 @@
   },
   {
    "title": "Ze Bula (Chancha Vía Circuito Remix)",
-   "artist": "Figura - Topic",
-   "album": "",
+   "artist": "Figura",
+   "album": "Ze Bula Remixes",
    "videoId": "0V4PJdk9-Lk",
    "duration": "4:43"
   },
   {
    "title": "Caracol (Remix)",
-   "artist": "Tremor - Topic",
-   "album": "",
+   "artist": "Tremor;Wenceslada;Chancha Via Circuito",
+   "album": "Río Arriba",
    "videoId": "VdL7w_dJUL0",
    "duration": "4:51"
   },
@@ -243,9 +243,9 @@
    "duration": "7:01"
   },
   {
-   "title": "Emotional Intelligence (feat. Nathan Haines, Dave Koor)",
-   "artist": "Chaos in the CBD - Topic",
-   "album": "",
+   "title": "Emotional Intelligence (feat. Nathan Haines & Dave Koor)",
+   "artist": "Chaos In the CBD",
+   "album": "Chaos In The CBD & Friends",
    "videoId": "BCVW26wGARY",
    "duration": "6:20"
   },
@@ -279,8 +279,8 @@
   },
   {
    "title": "Love Language",
-   "artist": "Chaos in the CBD - Topic",
-   "album": "",
+   "artist": "Chaos In the CBD;Nathan Haines",
+   "album": "Love Language",
    "videoId": "mKX9dQ-DnpE",
    "duration": "4:39"
   },
@@ -488,9 +488,9 @@
    "duration": "6:31"
   },
   {
-   "title": "Myth Versus Reality (The Myth-Science Approach) / Angelic Proclamation / Out in Space (Live)",
-   "artist": "Sun Ra - Topic",
-   "album": "",
+   "title": "Myth Versus Reality (The Myth-Science Approach) / Angelic Proclamation / Out in Space [Live]",
+   "artist": "Sun Ra Arkestra",
+   "album": "It's After the End of the World (Live at the Donauschingen and Berlin Festivals)",
    "videoId": "ue_1bWMszGU",
    "duration": "18:19"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Kiara",
-   "artist": "Bonobo - Topic",
-   "album": "",
+   "artist": "Bonobo",
+   "album": "Black Sands",
    "videoId": "mBgz9gNUotQ",
    "duration": "3:51"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "Cirrus",
-   "artist": "Bonobo - Topic",
-   "album": "",
+   "artist": "Bonobo",
+   "album": "The North Borders",
    "videoId": "KivTOMUltBs",
    "duration": "5:53"
   },

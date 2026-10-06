@@ -2,7 +2,7 @@
  "playlistId": "PLNlOAgiDvzqk",
  "title": "talea",
  "trackCount": 122,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Short Skirt / Long Jacket",
@@ -34,8 +34,8 @@
   },
   {
    "title": "Gave Your Love Away",
-   "artist": "Majid Jordan - Topic",
-   "album": "",
+   "artist": "Majid Jordan",
+   "album": "The Space Between",
    "videoId": "EKPAkf5wWRA",
    "duration": "4:46"
   },
@@ -55,8 +55,8 @@
   },
   {
    "title": "Wait a Minute!",
-   "artist": "WILLOW - Topic",
-   "album": "",
+   "artist": "WILLOW",
+   "album": "ARDIPITHECUS",
    "videoId": "1Xfdjqa5dfY",
    "duration": "3:17"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "it's a match",
-   "artist": "piri & tommy - Topic",
-   "album": "",
+   "artist": "piri;Tommy Villiers",
+   "album": "it's a match",
    "videoId": "FFFA2RmAxPA",
    "duration": "3:16"
   },
@@ -188,8 +188,8 @@
   },
   {
    "title": "P.Y.T. (Pretty Young Thing)",
-   "artist": "Michael Jackson - Topic",
-   "album": "",
+   "artist": "Michael Jackson",
+   "album": "Thriller",
    "videoId": "y32ejtuxSjM",
    "duration": "4:00"
   },
@@ -202,8 +202,8 @@
   },
   {
    "title": "You Know What",
-   "artist": "N.E.R.D. - Topic",
-   "album": "",
+   "artist": "N.E.R.D.",
+   "album": "Seeing Sounds",
    "videoId": "tQDEf0pTjhk",
    "duration": "4:31"
   },
@@ -237,8 +237,8 @@
   },
   {
    "title": "Silvertongue",
-   "artist": "Young The Giant - Topic",
-   "album": "",
+   "artist": "Young the Giant",
+   "album": "Home of the Strange",
    "videoId": "-OLUuVXzW_I",
    "duration": "3:18"
   },
@@ -251,8 +251,8 @@
   },
   {
    "title": "Freaking Out the Neighborhood",
-   "artist": "Mac DeMarco - Topic",
-   "album": "",
+   "artist": "Mac DeMarco",
+   "album": "2",
    "videoId": "0_pxsUdAeXg",
    "duration": "2:54"
   },
@@ -307,8 +307,8 @@
   },
   {
    "title": "So Gone",
-   "artist": "Monica - Topic",
-   "album": "",
+   "artist": "Monica",
+   "album": "After the Storm",
    "videoId": "X-KIZNjZ7ho",
    "duration": "4:03"
   },
@@ -404,9 +404,9 @@
    "duration": "3:25"
   },
   {
-   "title": "Confident",
-   "artist": "Justin Bieber - Topic",
-   "album": "",
+   "title": "Confident (feat. Chance The Rapper)",
+   "artist": "Justin Bieber",
+   "album": "Journals",
    "videoId": "t4DyuBtNFrc",
    "duration": "4:09"
   },
@@ -460,9 +460,9 @@
    "duration": "3:14"
   },
   {
-   "title": "drive ME crazy!",
-   "artist": "Lil Yachty - Topic",
-   "album": "",
+   "title": "drive ME crazy! (feat. Diana Gordon)",
+   "artist": "Lil Yachty",
+   "album": "Let’s Start Here.",
    "videoId": "2IRr_3lwC9Y",
    "duration": "3:50"
   },

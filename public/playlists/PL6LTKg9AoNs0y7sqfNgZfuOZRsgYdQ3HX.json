@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -2408,7 +2408,7 @@
   {
    "title": "Here, There And Everywhere (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Revolver",
+   "album": "Revolver (Remastered 2009)",
    "videoId": "xdcSFVXd3MU",
    "duration": "2:25"
   },
@@ -2996,7 +2996,7 @@
   {
    "title": "She Said She Said (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Revolver",
+   "album": "Revolver (Remastered 2009)",
    "videoId": "rLzfo59AdEc",
    "duration": "2:37"
   },
@@ -5355,7 +5355,7 @@
   {
    "title": "The Fool On The Hill (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Magical Mystery Tour",
+   "album": "Magical Mystery Tour (Remastered 2009)",
    "videoId": "wsRatIMUSu8",
    "duration": "3:00"
   },
@@ -18100,10 +18100,10 @@
    "duration": "4:01"
   },
   {
-   "title": "Headcase",
+   "title": "Headcase (feat. Foster Cazz)",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "CWo9fCDgk1w",
+   "videoId": "ckbOyFDOrRQ",
    "duration": "4:25"
   },
   {

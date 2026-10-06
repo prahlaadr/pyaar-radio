@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
  "title": "The Sound of Indian Indie",
- "trackCount": 437,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "trackCount": 432,
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Ovotaar (feat. Shankuraj Konwar)",
@@ -1469,8 +1469,8 @@
   },
   {
    "title": "I Love You Baby, I Love You Doll",
-   "artist": "Parekh & Singh - Topic",
-   "album": "",
+   "artist": "Parekh & Singh",
+   "album": "I Love You Baby, I Love You Doll",
    "videoId": "TuOK8fmEEsM",
    "duration": "2:50"
   },
@@ -1510,13 +1510,6 @@
    "duration": "7:11"
   },
   {
-   "title": "The Flow",
-   "artist": "Zokova",
-   "album": "Arteree: Delhi Edition (The Delhi Edition)",
-   "videoId": "QRm6m0KlYEI",
-   "duration": "7:27"
-  },
-  {
    "title": "Rooh",
    "artist": "Aswekeepsearching",
    "album": "Rooh",
@@ -1539,8 +1532,8 @@
   },
   {
    "title": "Bahaane",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Rahul Pais;Dhruv Visvanath;Siddhant Kaushal",
+   "album": "Friday Night Plan (Original Motion Picture Soundtrack)",
    "videoId": "8TDHPA6gj2Y",
    "duration": "3:33"
   },
@@ -1749,8 +1742,8 @@
   },
   {
    "title": "Chanda",
-   "artist": "Komorebi - Topic",
-   "album": "",
+   "artist": "Komorebi",
+   "album": "Chanda",
    "videoId": "DSds7w42P3Y",
    "duration": "4:27"
   },
@@ -1763,8 +1756,8 @@
   },
   {
    "title": "Attached",
-   "artist": "RANJ - Topic",
-   "album": "",
+   "artist": "RANJ;Clifr;Issamood",
+   "album": "593, Vol. I",
    "videoId": "yZ6RJRhq5_Y",
    "duration": "2:10"
   },
@@ -1798,8 +1791,8 @@
   },
   {
    "title": "Parda",
-   "artist": "Deepak Rathore - Topic",
-   "album": "",
+   "artist": "Deepak Rathore",
+   "album": "Parda",
    "videoId": "PbynNe1-w7A",
    "duration": "3:13"
   },
@@ -1840,8 +1833,8 @@
   },
   {
    "title": "villain",
-   "artist": "Ramya Pothuri - Topic",
-   "album": "",
+   "artist": "Ramya Pothuri",
+   "album": "villain",
    "videoId": "IBPR0yEO0l8",
    "duration": "3:33"
   },
@@ -1853,9 +1846,9 @@
    "duration": "3:13"
   },
   {
-   "title": "Losing Day",
-   "artist": "Short Round - Topic",
-   "album": "",
+   "title": "Losing Day (feat. Siddharth Basrur)",
+   "artist": "Short Round",
+   "album": "With Friends Like These",
    "videoId": "nyfnYvFRPmw",
    "duration": "3:31"
   },
@@ -1910,17 +1903,10 @@
   },
   {
    "title": "MAIN CHALA JAUNGA",
-   "artist": "Ritu Zeid - Topic",
-   "album": "",
+   "artist": "Ritu Zeid",
+   "album": "MAIN CHALA JAUNGA",
    "videoId": "15ihVrKCigQ",
    "duration": "3:41"
-  },
-  {
-   "title": "Co2",
-   "artist": "Prateek Kuhad",
-   "album": "The Way That Lovers Do",
-   "videoId": "6FewJvQDTmA",
-   "duration": "2:44"
   },
   {
    "title": "Salt in the Sea",
@@ -1928,13 +1914,6 @@
    "album": "Skunk in the Cellar",
    "videoId": "8hunMaz5J-s",
    "duration": "4:01"
-  },
-  {
-   "title": "Aaoge Tum Kabhi",
-   "artist": "The Local Train - Topic",
-   "album": "",
-   "videoId": "79Yc9gN3TPM",
-   "duration": "5:14"
   },
   {
    "title": "HAR KISI KO",
@@ -2014,13 +1993,6 @@
    "duration": "6:23"
   },
   {
-   "title": "Sunday Bubble",
-   "artist": "Till Apes - Topic",
-   "album": "",
-   "videoId": "q_nSp1eMGA4",
-   "duration": "3:25"
-  },
-  {
    "title": "Institute Of Madness",
    "artist": "Spud In The Box",
    "album": "Lead Feet Paper Shoes",
@@ -2096,13 +2068,6 @@
    "album": "Ek Din",
    "videoId": "AvSIITJKRu0",
    "duration": "5:01"
-  },
-  {
-   "title": "Need Some Lovin'",
-   "artist": "Droolfox",
-   "album": "Ftw",
-   "videoId": "YFIg6-RDapM",
-   "duration": "4:02"
   },
   {
    "title": "Raat",

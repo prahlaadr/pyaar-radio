@@ -1,0 +1,36 @@
+{
+ "playlistId": "PLc2jOfdcUsCA",
+ "title": "Oct 26",
+ "trackCount": 4,
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
+ "tracks": [
+  {
+   "title": "Spend It",
+   "artist": "Carré;Mercury",
+   "album": "Citrine EP",
+   "videoId": "FqGVJsa7H_0",
+   "duration": "2:30"
+  },
+  {
+   "title": "Flashbacks",
+   "artist": "Tinashe",
+   "album": "Popstar",
+   "videoId": "pWyU6k_Gqx4",
+   "duration": "2:44"
+  },
+  {
+   "title": "En la Cocina",
+   "artist": "Miki Gonzalez",
+   "album": "Landó por Bulerías",
+   "videoId": "d9qs-h3Rt8E",
+   "duration": "4:22"
+  },
+  {
+   "title": "Young Coconut",
+   "artist": "Mac DeMarco",
+   "album": "Some Other Ones",
+   "videoId": "sy0fOUbHKl4",
+   "duration": "2:43"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-10-05T16:52:37.072751Z",
+ "syncedAt": "2026-10-06T14:48:41.934248Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -3003,7 +3003,7 @@
   {
    "title": "I Will (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "p-abNGP1BK4",
    "duration": "1:46"
   },
@@ -3913,7 +3913,7 @@
   {
    "title": "Here, There And Everywhere (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Revolver",
+   "album": "Revolver (Remastered 2009)",
    "videoId": "xdcSFVXd3MU",
    "duration": "2:25"
   },
@@ -5152,7 +5152,7 @@
   {
    "title": "The Fool On The Hill (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Magical Mystery Tour",
+   "album": "Magical Mystery Tour (Remastered 2009)",
    "videoId": "wsRatIMUSu8",
    "duration": "3:00"
   },
@@ -5258,7 +5258,7 @@
    "title": "Middy Titty",
    "artist": "Paulie Leparik",
    "album": "Neon Daydream",
-   "videoId": "xxtQ8jwsE04",
+   "videoId": "LOJ1bIq_vrY",
    "duration": "1:35"
   },
   {
@@ -7741,8 +7741,8 @@
   },
   {
    "title": "Purple Hearts",
-   "artist": "Kendrick Lamar - Topic",
-   "album": "",
+   "artist": "Kendrick Lamar;Summer Walker;Ghostface Killah",
+   "album": "Mr. Morale & The Big Steppers",
    "videoId": "DQkBaVY-bJU",
    "duration": "5:30"
   },
@@ -7755,8 +7755,8 @@
   },
   {
    "title": "Little Things",
-   "artist": "Vasser - Topic",
-   "album": "",
+   "artist": "Vasser",
+   "album": "A Telling End",
    "videoId": "s3a7J3rKSiw",
    "duration": "4:05"
   },
@@ -7804,8 +7804,8 @@
   },
   {
    "title": "Freeze",
-   "artist": "Kygo - Topic",
-   "album": "",
+   "artist": "Kygo",
+   "album": "Freeze",
    "videoId": "Y0u7X7v2jik",
    "duration": "8:08"
   },
@@ -7909,8 +7909,8 @@
   },
   {
    "title": "GLIMPSE OF THE SUN",
-   "artist": "Liq Khalil - Topic",
-   "album": "",
+   "artist": "TAHLIQ",
+   "album": "GLIMPSE OF THE SUN",
    "videoId": "S2JZlyLSLno",
    "duration": "3:16"
   },
@@ -7958,8 +7958,8 @@
   },
   {
    "title": "Ooh Nah Nah (feat. Masego)",
-   "artist": "SiR - Topic",
-   "album": "",
+   "artist": "SiR",
+   "album": "Ooh Nah Nah (feat. Masego)",
    "videoId": "0Xc4qReO5Ho",
    "duration": "4:00"
   },
@@ -8000,8 +8000,8 @@
   },
   {
    "title": "Love Scars 3",
-   "artist": "Trippie Redd - Topic",
-   "album": "",
+   "artist": "Trippie Redd",
+   "album": "A Love Letter To You 3",
    "videoId": "Ob1UJtFI06E",
    "duration": "2:10"
   },
@@ -8035,8 +8035,8 @@
   },
   {
    "title": "#3",
-   "artist": "Aphex Twin - Topic",
-   "album": "",
+   "artist": "Aphex Twin",
+   "album": "Selected Ambient Works Volume II",
    "videoId": "75O11W5EZAU",
    "duration": "7:45"
   },
@@ -8161,8 +8161,8 @@
   },
   {
    "title": "God Is Fair, Sexy Nasty (feat. Kendrick Lamar)",
-   "artist": "Mac Miller - Topic",
-   "album": "",
+   "artist": "Mac Miller",
+   "album": "The Divine Feminine",
    "videoId": "1F6zIO_QMTc",
    "duration": "8:21"
   },
@@ -8203,8 +8203,8 @@
   },
   {
    "title": "Jass Two",
-   "artist": "Connan Mockasin - Topic",
-   "album": "",
+   "artist": "Connan Mockasin",
+   "album": "Jassbusters Two",
    "videoId": "pU0jerWPGXc",
    "duration": "3:30"
   },
@@ -8308,8 +8308,8 @@
   },
   {
    "title": "North Face",
-   "artist": "ODIE - Topic",
-   "album": "",
+   "artist": "ODIE",
+   "album": "Analogue",
    "videoId": "48xymO-nj1s",
    "duration": "3:17"
   },
@@ -9162,8 +9162,8 @@
   },
   {
    "title": "Heaven",
-   "artist": "Tierra Whack - Topic",
-   "album": "",
+   "artist": "Tierra Whack",
+   "album": "R&B?",
    "videoId": "d9k_HBdvfWk",
    "duration": "3:00"
   },
@@ -9190,8 +9190,8 @@
   },
   {
    "title": "Rain",
-   "artist": "Benji. - Topic",
-   "album": "",
+   "artist": "Benji.;Spillage Village",
+   "album": "Smile, You're Alive!",
    "videoId": "5n1bzE3dVms",
    "duration": "4:05"
   },
@@ -9225,8 +9225,8 @@
   },
   {
    "title": "Goodie Bag",
-   "artist": "Still Woozy - Topic",
-   "album": "",
+   "artist": "Still Woozy",
+   "album": "Goodie Bag",
    "videoId": "-uhYlzuY6W4",
    "duration": "2:27"
   },
@@ -9309,15 +9309,15 @@
   },
   {
    "title": "The Hours",
-   "artist": "Beach House - Topic",
-   "album": "",
+   "artist": "Beach House",
+   "album": "Bloom",
    "videoId": "BnbXOaTC9Pk",
    "duration": "4:12"
   },
   {
    "title": "Where You Belong",
-   "artist": "Little Dragon - Topic",
-   "album": "",
+   "artist": "Little Dragon",
+   "album": "New Me, Same Us",
    "videoId": "5G-EkBYXfWU",
    "duration": "3:28"
   },
@@ -9351,8 +9351,8 @@
   },
   {
    "title": "SUPERPOSITION (feat. John Mayer)",
-   "artist": "Daniel Caesar - Topic",
-   "album": "",
+   "artist": "Daniel Caesar",
+   "album": "CASE STUDY 01",
    "videoId": "LV_V4Rsd9eU",
    "duration": "4:24"
   },
@@ -9603,8 +9603,8 @@
   },
   {
    "title": "Can't Fight",
-   "artist": "Lianne La Havas - Topic",
-   "album": "",
+   "artist": "Lianne La Havas",
+   "album": "Lianne La Havas",
    "videoId": "jxPSRHJ57SU",
    "duration": "3:11"
   },
@@ -9701,8 +9701,8 @@
   },
   {
    "title": "U&ME",
-   "artist": "alt-J - Topic",
-   "album": "",
+   "artist": "alt-J",
+   "album": "The Dream",
    "videoId": "VsphQ7RBzB8",
    "duration": "3:19"
   },
@@ -9750,8 +9750,8 @@
   },
   {
    "title": "There For You",
-   "artist": "Damian Marley - Topic",
-   "album": "",
+   "artist": "Damian Marley",
+   "album": "Welcome to Jamrock",
    "videoId": "E8qgqTf9bZQ",
    "duration": "4:42"
   },
@@ -9771,8 +9771,8 @@
   },
   {
    "title": "To Sleep",
-   "artist": "Jacob Collier - Topic",
-   "album": "",
+   "artist": "Jacob Collier",
+   "album": "Djesse Vol. 3",
    "videoId": "SxiuyrIfXTA",
    "duration": "3:13"
   },
@@ -9786,7 +9786,7 @@
   {
    "title": "Julia (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "TZip_br_v3w",
    "duration": "2:57"
   },
@@ -10506,8 +10506,8 @@
   },
   {
    "title": "Motel Reflections",
-   "artist": "Pro Teens - Topic",
-   "album": "",
+   "artist": "Pro Teens",
+   "album": "Accidentally",
    "videoId": "a-yJ87n58t8",
    "duration": "2:52"
   },
@@ -10534,8 +10534,8 @@
   },
   {
    "title": "Figures",
-   "artist": "Bonobo - Topic",
-   "album": "",
+   "artist": "Bonobo",
+   "album": "Migration",
    "videoId": "eNA_KXtWy14",
    "duration": "6:09"
   },
@@ -10632,8 +10632,8 @@
   },
   {
    "title": "Silkk da Shocka (feat. Syd)",
-   "artist": "Isaiah Rashad - Topic",
-   "album": "",
+   "artist": "Isaiah Rashad",
+   "album": "The Sun's Tirade",
    "videoId": "L2xLbDlNhFo",
    "duration": "2:47"
   },
@@ -10718,7 +10718,7 @@
    "title": "Blossom",
    "artist": "Porter Robinson",
    "album": "Nurture",
-   "videoId": "_Jf-HobEIL0",
+   "videoId": "cztAPN8U5uY",
    "duration": "3:47"
   },
   {
@@ -10842,8 +10842,8 @@
   },
   {
    "title": "I See A Darkness",
-   "artist": "ROSALÍA - Topic",
-   "album": "",
+   "artist": "ROSALÍA",
+   "album": "Los Ángeles",
    "videoId": "fg7GJghu4Zo",
    "duration": "4:09"
   },
@@ -10933,8 +10933,8 @@
   },
   {
    "title": "Sad Saturdays",
-   "artist": "JOBA - Topic",
-   "album": "",
+   "artist": "JOBA",
+   "album": "Sad Saturdays",
    "videoId": "55VaMUrNMGw",
    "duration": "4:28"
   },
@@ -11010,8 +11010,8 @@
   },
   {
    "title": "Privilege",
-   "artist": "The Weeknd - Topic",
-   "album": "",
+   "artist": "The Weeknd",
+   "album": "My Dear Melancholy,",
    "videoId": "EAwBl9aIVaw",
    "duration": "2:51"
   },
@@ -11045,8 +11045,8 @@
   },
   {
    "title": "Feel No Ways",
-   "artist": "Drake - Topic",
-   "album": "",
+   "artist": "Drake",
+   "album": "Views",
    "videoId": "pMaogWC5TEQ",
    "duration": "4:01"
   },
@@ -11066,8 +11066,8 @@
   },
   {
    "title": "Hours Upon Seconds",
-   "artist": "Marley Pitch - Topic",
-   "album": "",
+   "artist": "Marley Pitch;Rachel Bobbitt;Justice Der",
+   "album": "Hours Upon Seconds",
    "videoId": "qSlOX0rpnFY",
    "duration": "4:19"
   },
@@ -11192,15 +11192,15 @@
   },
   {
    "title": "Please Don't Make Me Cry",
-   "artist": "Lianne La Havas - Topic",
-   "album": "",
+   "artist": "Lianne La Havas",
+   "album": "Lianne La Havas",
    "videoId": "8n01dSyjwUM",
    "duration": "5:15"
   },
   {
    "title": "Weird Fishes",
-   "artist": "Lianne La Havas - Topic",
-   "album": "",
+   "artist": "Lianne La Havas",
+   "album": "Lianne La Havas",
    "videoId": "uegfE22dmSY",
    "duration": "5:55"
   },
