@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
  "title": "The Sound of Indian Indie",
- "trackCount": 432,
- "syncedAt": "2026-10-06T14:48:41.934248Z",
+ "trackCount": 437,
+ "syncedAt": "2026-10-07T15:08:32.282637Z",
  "tracks": [
   {
    "title": "Ovotaar (feat. Shankuraj Konwar)",
@@ -1510,6 +1510,13 @@
    "duration": "7:11"
   },
   {
+   "title": "The Flow",
+   "artist": "Zokova",
+   "album": "Arteree: Delhi Edition (The Delhi Edition)",
+   "videoId": "QRm6m0KlYEI",
+   "duration": "7:27"
+  },
+  {
    "title": "Rooh",
    "artist": "Aswekeepsearching",
    "album": "Rooh",
@@ -1909,11 +1916,25 @@
    "duration": "3:41"
   },
   {
+   "title": "Co2",
+   "artist": "Prateek Kuhad",
+   "album": "The Way That Lovers Do",
+   "videoId": "6FewJvQDTmA",
+   "duration": "2:44"
+  },
+  {
    "title": "Salt in the Sea",
    "artist": "Shantanu Pandit",
    "album": "Skunk in the Cellar",
    "videoId": "8hunMaz5J-s",
    "duration": "4:01"
+  },
+  {
+   "title": "Aaoge Tum Kabhi",
+   "artist": "The Local Train",
+   "album": "Aalas Ka Pedh",
+   "videoId": "79Yc9gN3TPM",
+   "duration": "5:14"
   },
   {
    "title": "HAR KISI KO",
@@ -1993,6 +2014,13 @@
    "duration": "6:23"
   },
   {
+   "title": "Sunday Bubble (feat. Shivani X Soorya)",
+   "artist": "Till Apes",
+   "album": "Sunday Bubble",
+   "videoId": "q_nSp1eMGA4",
+   "duration": "3:25"
+  },
+  {
    "title": "Institute Of Madness",
    "artist": "Spud In The Box",
    "album": "Lead Feet Paper Shoes",
@@ -2068,6 +2096,13 @@
    "album": "Ek Din",
    "videoId": "AvSIITJKRu0",
    "duration": "5:01"
+  },
+  {
+   "title": "Need Some Lovin'",
+   "artist": "Droolfox",
+   "album": "Ftw",
+   "videoId": "YFIg6-RDapM",
+   "duration": "4:02"
   },
   {
    "title": "Raat",

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 4,
- "syncedAt": "2026-10-06T14:48:41.934248Z",
+ "trackCount": 7,
+ "syncedAt": "2026-10-07T15:08:32.282637Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -31,6 +31,27 @@
    "album": "Some Other Ones",
    "videoId": "sy0fOUbHKl4",
    "duration": "2:43"
+  },
+  {
+   "title": "Angel",
+   "artist": "Lizzy McAlpine",
+   "album": "Angel",
+   "videoId": "V5lPywOWI48",
+   "duration": "3:19"
+  },
+  {
+   "title": "Tripper",
+   "artist": "Alex G",
+   "album": "DSU",
+   "videoId": "NoVrH6KGStU",
+   "duration": "0:43"
+  },
+  {
+   "title": "Love Hangover",
+   "artist": "Diana Ross",
+   "album": "Diana Ross (Expanded Edition)",
+   "videoId": "Y9-7rcKxIc8",
+   "duration": "7:49"
   }
  ]
 }

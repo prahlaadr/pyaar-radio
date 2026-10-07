@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 296,
- "totalTracks": 82443,
- "syncedAt": "2026-10-06T14:48:41.934248Z",
+ "playlistCount": 297,
+ "totalTracks": 82542,
+ "syncedAt": "2026-10-07T15:08:32.282637Z",
  "playlists": [
   {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1536
+   "playlistId": "PLEKxNZMYPR5g",
+   "title": "P289 - Give Me Five (Trivia M/D)",
+   "trackCount": 61
   },
   {
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
-   "trackCount": 4
+   "trackCount": 7
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1566
   },
   {
    "playlistId": "PLG8qpG-vDHJU",
@@ -487,7 +492,7 @@
   {
    "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
    "title": "The Sound of Indian Indie",
-   "trackCount": 432
+   "trackCount": 437
   },
   {
    "playlistId": "PL6LTKg9AoNs1rRqIYpFsomZJpyhEHgtmc",

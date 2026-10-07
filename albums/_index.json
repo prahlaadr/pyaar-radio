@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3616,
- "totalTracks": 45914,
- "syncedAt": "2026-10-06T14:48:35.287892Z",
+ "albumCount": 3582,
+ "totalTracks": 45440,
+ "syncedAt": "2026-10-07T15:08:28.113748Z",
  "albums": [
+  {
+   "browseId": "MPREb_zw4tYgsHCPY",
+   "title": "Failed Attempts at Silence",
+   "artist": "Tom Hall",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_1sjD103jHHu",
+   "title": "Standing Still In A Moving Scene",
+   "artist": "Hyakkei",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_q6Ru1Wh4cgV",
+   "title": "Angel",
+   "artist": "Lizzy McAlpine",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_1jyEOHndzMU",
+   "title": "Viator",
+   "artist": "Jack Stauber",
+   "trackCount": 35
+  },
+  {
+   "browseId": "MPREb_vwW32OufeFt",
+   "title": "s*x m*ney dr*gs",
+   "artist": "LUCKI",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_gF7gFeBBbco",
+   "title": "JAL JUNGLE ZAMEEN",
+   "artist": "Kaali Duniya",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_b0mRjZJ7L19",
    "title": "Some Other Ones",
@@ -10685,12 +10721,6 @@
    "trackCount": 25
   },
   {
-   "browseId": "MPREb_60U5mvrqjhm",
-   "title": "Onism",
-   "artist": "Photay",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_zkvlkWx0ytJ",
    "title": "Dawn FM",
    "artist": "The Weeknd",
@@ -10725,12 +10755,6 @@
    "title": "Hiding",
    "artist": "Michael Christmas",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_C1lsBjnmJgp",
-   "title": "RIPPLS",
-   "artist": "Medasin",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_Hnz1cU2WY5u",
@@ -10785,12 +10809,6 @@
    "title": "Regrowth",
    "artist": "Sampology",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_kjYORlG8Nrf",
-   "title": "A Residency in the Los Angeles Area",
-   "artist": "Naia Izumi",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_HLwnZ3WBqFS",
@@ -12101,12 +12119,6 @@
    "trackCount": 6
   },
   {
-   "browseId": "MPREb_ZZsSUVTqG5U",
-   "title": "Promises",
-   "artist": "Floating Points",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_WMKv2B2idXP",
    "title": "demon time",
    "artist": "Mura Masa",
@@ -12225,12 +12237,6 @@
    "title": "Going Normal",
    "artist": "Matt Martians",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_R5bpcUFAszr",
-   "title": "If I Fail Are We Still Cool?",
-   "artist": "Patrick Paige II",
-   "trackCount": 17
   },
   {
    "browseId": "MPREb_9RDuaVlbKvt",
@@ -12425,12 +12431,6 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_h60xvrQFiho",
-   "title": "Brand New Eyes",
-   "artist": "Paramore",
-   "trackCount": 11
-  },
-  {
    "browseId": "MPREb_6BK0ZL8Ubl9",
    "title": "ELEVATION",
    "artist": "Black Eyed Peas",
@@ -12581,12 +12581,6 @@
    "trackCount": 6
   },
   {
-   "browseId": "MPREb_fhitBxpJlRF",
-   "title": "Giallo",
-   "artist": "Robohands",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_PY2yk7A40CB",
    "title": "Violet",
    "artist": "Robohands",
@@ -12621,12 +12615,6 @@
    "title": "Freelance: Charlie",
    "artist": "Ben Reilly",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_q6J0JGh53xz",
-   "title": "Crazy Life",
-   "artist": "Anna of the North",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_Oxxt5DWx0xE",
@@ -12675,12 +12663,6 @@
    "title": "Pieces of a Man",
    "artist": "Mick Jenkins",
    "trackCount": 17
-  },
-  {
-   "browseId": "MPREb_2jIYrmmVtjX",
-   "title": "Team Sleep (U.S. Release)",
-   "artist": "Team Sleep",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_x22DCp43MUz",
@@ -12831,12 +12813,6 @@
    "title": "Let’s Start Here.",
    "artist": "Lil Yachty",
    "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_7Dj3rGfQcdC",
-   "title": "Imagination & the Misfit Kid",
-   "artist": "Labrinth",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_tfwaolzhOAG",
@@ -13343,12 +13319,6 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_iOOOVUS5ZK4",
-   "title": "Wanderland",
-   "artist": "Kelis",
-   "trackCount": 17
-  },
-  {
    "browseId": "MPREb_1637unulOJg",
    "title": "Sira",
    "artist": "Ablaye Cissoko",
@@ -13383,12 +13353,6 @@
    "title": "Earth",
    "artist": "SAULT",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_ldUlMmTtLG5",
-   "title": "KAYTRAMINÉ",
-   "artist": "KAYTRAMINÉ",
-   "trackCount": 11
   },
   {
    "browseId": "MPREb_ayocsFmC8sa",
@@ -13511,12 +13475,6 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_YGmRZju66fI",
-   "title": "Trap Or Die 3",
-   "artist": "Jeezy",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_J0m9djgbiM2",
    "title": "DREAMER",
    "artist": "Nabihah Iqbal",
@@ -13625,12 +13583,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_h2UIYF3d7x7",
-   "title": "Underbelly",
-   "artist": "Kiltro",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_QsNeEe2Da5q",
    "title": "I Love You Say It Back",
    "artist": "KEY!",
@@ -13641,12 +13593,6 @@
    "title": "Fin",
    "artist": "Syd",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_NCVaRx9HaWF",
-   "title": "Black Sunday",
-   "artist": "Cypress Hill",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_J055fcBDxkj",
@@ -13775,12 +13721,6 @@
    "trackCount": 16
   },
   {
-   "browseId": "MPREb_N18IGsWCF5k",
-   "title": "Rap Album Two",
-   "artist": "Jonwayne",
-   "trackCount": 12
-  },
-  {
    "browseId": "MPREb_6ZQFrtkaRUk",
    "title": "How To Forget",
    "artist": "Paul Bender",
@@ -13865,12 +13805,6 @@
    "trackCount": 7
   },
   {
-   "browseId": "MPREb_aSAXpwNjLay",
-   "title": "The Melody Of Rhythm (feat. Detroit Symphony Orchestra)",
-   "artist": "Bela Fleck, Zakir Hussain & Edgar Meyer",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_iE8mlPro593",
    "title": "Sidharth",
    "artist": "Sid Sriram",
@@ -13881,12 +13815,6 @@
    "title": "The Patience",
    "artist": "Mick Jenkins",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_hKmg93n3mUS",
-   "title": "Sunburn",
-   "artist": "Dominic Fike",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_eMwWFQIy57q",
@@ -13967,12 +13895,6 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_J7V444xjAQj",
-   "title": "Live From Space",
-   "artist": "Mac Miller",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_U9fHRpNeIGG",
    "title": "Habits & Contradictions",
    "artist": "ScHoolboy Q",
@@ -13991,28 +13913,10 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_jD85CAMTqmr",
-   "title": "PLAY",
-   "artist": "RL Grime",
-   "trackCount": 24
-  },
-  {
-   "browseId": "MPREb_9RcziEWthjd",
-   "title": "Nü Moon",
-   "artist": "THEY.",
-   "trackCount": 14
-  },
-  {
    "browseId": "MPREb_Mxf13WlRe5s",
    "title": "Amanda Tape",
    "artist": "THEY.",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_FnWDu555rOW",
-   "title": "WINK",
-   "artist": "CHAI",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_NFCboIXShFD",
@@ -14075,12 +13979,6 @@
    "trackCount": 17
   },
   {
-   "browseId": "MPREb_GRrD3cvX6rL",
-   "title": "Air Con Eden",
-   "artist": "Jerkcurb",
-   "trackCount": 12
-  },
-  {
    "browseId": "MPREb_78xAq2qEsua",
    "title": "AMERICAN GURL",
    "artist": "Kilo Kish",
@@ -14097,12 +13995,6 @@
    "title": "No Label II",
    "artist": "Migos",
    "trackCount": 20
-  },
-  {
-   "browseId": "MPREb_A8KSaP6FFnt",
-   "title": "UNDER THE ILLUSION",
-   "artist": "Sam Gellaitry",
-   "trackCount": 4
   },
   {
    "browseId": "MPREb_ZotHrKYjWwz",
@@ -14139,12 +14031,6 @@
    "title": "UP",
    "artist": "Karsh Kale",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_aKWiKRx7Sm1",
-   "title": "Cinema",
-   "artist": "Karsh Kale",
-   "trackCount": 13
   },
   {
    "browseId": "MPREb_W0RkoRKk9B8",
@@ -14217,12 +14103,6 @@
    "title": "The NID Tapes: Electronic Music from India 1969-1972",
    "artist": "National Institute of Design",
    "trackCount": 19
-  },
-  {
-   "browseId": "MPREb_t0iu5pM7DrX",
-   "title": "Authentic Polynesia, Vol. 1: Hawaii & Tonga",
-   "artist": "The Hiram Olsen Group",
-   "trackCount": 30
   },
   {
    "browseId": "MPREb_74SazHB6EIr",
@@ -14315,12 +14195,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_kfpeqSSwQEa",
-   "title": "And Then You Pray For Me",
-   "artist": "Westside Gunn",
-   "trackCount": 21
-  },
-  {
    "browseId": "MPREb_N8gVs5KaUo1",
    "title": "Nehruvia: Elevators: Act I & II",
    "artist": "Bishop Nehru",
@@ -14355,12 +14229,6 @@
    "title": "Super Tecmo Bo",
    "artist": "Boldy James",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_6ljQUlh6aYn",
-   "title": "Sinatra/Jobim: The Complete Reprise Recordings",
-   "artist": "Frank Sinatra",
-   "trackCount": 20
   },
   {
    "browseId": "MPREb_FY5if462eF4",
@@ -14643,18 +14511,6 @@
    "title": "At Home",
    "artist": "Avishai Cohen",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_KsNSZB5QIZh",
-   "title": "The Downward Spiral",
-   "artist": "Nine Inch Nails",
-   "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_75bAbICUaS4",
-   "title": "Studio Ghibli: Anime Music",
-   "artist": "Joe Hisaishi",
-   "trackCount": 38
   },
   {
    "browseId": "MPREb_ikgKoQx3Maa",
@@ -15065,12 +14921,6 @@
    "trackCount": 11
   },
   {
-   "browseId": "MPREb_8pmjePvhtxW",
-   "title": "i was mature for my age, but i was still a child",
-   "artist": "PARTYOF2",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_pYWGxHrkljH",
    "title": "Street Love",
    "artist": "Lloyd",
@@ -15119,12 +14969,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_yZ7zNp48mSd",
-   "title": "Layin' Da Smack Down",
-   "artist": "Project Pat",
-   "trackCount": 28
-  },
-  {
    "browseId": "MPREb_dk8TBQnAG26",
    "title": "Orange Print",
    "artist": "Larry June",
@@ -15159,12 +15003,6 @@
    "title": "Hola (feat. dylan montayne & shane doe)",
    "artist": "Ice Cream Social",
    "trackCount": 1
-  },
-  {
-   "browseId": "MPREb_b4UEpYXVga2",
-   "title": "Michigan Boy Boat",
-   "artist": "Lil Yachty",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_bXcxkVE8B5C",
@@ -17273,12 +17111,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_gp4dcm15NGu",
-   "title": "DEADSTOCK",
-   "artist": "Devin Malik",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_CAAceXSXSsM",
    "title": "Power Of Soul",
    "artist": "Idris Muhammad",
@@ -17451,12 +17283,6 @@
    "title": "Mellow Gold",
    "artist": "Beck",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_9P4MEHbhp0C",
-   "title": "Uni Sun",
-   "artist": "Ami Dang",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_NcO1iDAE6w0",
@@ -19499,12 +19325,6 @@
    "trackCount": 24
   },
   {
-   "browseId": "MPREb_vjVAvJlLJZa",
-   "title": "What Do the Stars Say to You",
-   "artist": "Ron Trent",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_9TeysFanrvk",
    "title": "Disco!",
    "artist": "MIKE",
@@ -19515,12 +19335,6 @@
    "title": "Showbiz! (Deluxe)",
    "artist": "MIKE",
    "trackCount": 35
-  },
-  {
-   "browseId": "MPREb_cdLTMzoqXYK",
-   "title": "In Gleam",
-   "artist": "Nadia Khan",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_j22E0ZvZx8c",
@@ -19575,12 +19389,6 @@
    "title": "JMSN",
    "artist": "JMSN",
    "trackCount": 14
-  },
-  {
-   "browseId": "MPREb_4kqbnPP581a",
-   "title": "Dreamchasers 3",
-   "artist": "Meek Mill",
-   "trackCount": 17
   },
   {
    "browseId": "MPREb_tM9PL7COP0l",
@@ -19667,12 +19475,6 @@
    "trackCount": 11
   },
   {
-   "browseId": "MPREb_eRdtzOolM4T",
-   "title": "Sage Warrior",
-   "artist": "Sonny Singh",
-   "trackCount": 12
-  },
-  {
    "browseId": "MPREb_56q1JxbaCvO",
    "title": "Inde du sud : Anthologie de la musique classique (South India)",
    "artist": "Various Artists",
@@ -19737,12 +19539,6 @@
    "title": "ADRENOCHROME",
    "artist": "Juelz",
    "trackCount": 7
-  },
-  {
-   "browseId": "MPREb_0L6WPurF8st",
-   "title": "Hei på deg",
-   "artist": "Anna of the North",
-   "trackCount": 6
   },
   {
    "browseId": "MPREb_znNfamgNZTv",

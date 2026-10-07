@@ -1,0 +1,435 @@
+{
+ "playlistId": "PLEKxNZMYPR5g",
+ "title": "P289 - Give Me Five (Trivia M/D)",
+ "trackCount": 61,
+ "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "tracks": [
+  {
+   "title": "This Is How We Do It",
+   "artist": "Montell Jordan",
+   "album": "Class of '95",
+   "videoId": "fvtivVFcMuo",
+   "duration": "4:38"
+  },
+  {
+   "title": "Choosin' Texas",
+   "artist": "Ella Langley",
+   "album": "Dandelion",
+   "videoId": "xukbqwRuN5w",
+   "duration": "3:52"
+  },
+  {
+   "title": "Whole Lotta Love (Remaster)",
+   "artist": "Led Zeppelin",
+   "album": "Mothership",
+   "videoId": "oaSk5vnAVJ8",
+   "duration": "5:30"
+  },
+  {
+   "title": "Mo Bamba",
+   "artist": "Sheck Wes",
+   "album": "MUDBOY",
+   "videoId": "Osvg7Ofd5d0",
+   "duration": "3:04"
+  },
+  {
+   "title": "Bailando en la Lluvia",
+   "artist": "Daddy Yankee",
+   "album": "Bailando en la Lluvia",
+   "videoId": "_l_i7m5RfHU",
+   "duration": "2:54"
+  },
+  {
+   "title": "Renegade",
+   "artist": "Styx",
+   "album": "Pieces Of Eight",
+   "videoId": "E9eLz4DrwF8",
+   "duration": "4:18"
+  },
+  {
+   "title": "Lean Back (Edit)",
+   "artist": "Terror Squad;Fat Joe;Remy",
+   "album": "True Story",
+   "videoId": "zbzjMRAaY18",
+   "duration": "4:08"
+  },
+  {
+   "title": "Enter Sandman",
+   "artist": "Metallica",
+   "album": "Metallica (Remastered Deluxe Box Set)",
+   "videoId": "XZuM4zFg-60",
+   "duration": "5:32"
+  },
+  {
+   "title": "The Chain (2004 Remaster)",
+   "artist": "Fleetwood Mac",
+   "album": "Rumours (Super Deluxe)",
+   "videoId": "d1QgQI83PQo",
+   "duration": "4:31"
+  },
+  {
+   "title": "MIDDLE CHILD",
+   "artist": "J. Cole",
+   "album": "MIDDLE CHILD",
+   "videoId": "OblmFMRyQ9E",
+   "duration": "3:34"
+  },
+  {
+   "title": "Circle of Life",
+   "artist": "Carmen Twillie;Lebo M.",
+   "album": "The Lion King",
+   "videoId": "XuQoLC3iDj4",
+   "duration": "4:00"
+  },
+  {
+   "title": "Night Shift",
+   "artist": "Jon Pardi",
+   "album": "California Sunrise",
+   "videoId": "6ghNhNBmnbQ",
+   "duration": "2:53"
+  },
+  {
+   "title": "Rooster (2022 Remaster)",
+   "artist": "Alice In Chains",
+   "album": "Dirt (2022 Remaster)",
+   "videoId": "ZUqBglpHTO0",
+   "duration": "6:15"
+  },
+  {
+   "title": "Hustler Musik",
+   "artist": "Lil Wayne",
+   "album": "Tha Carter II",
+   "videoId": "Y1oxYCgp4q0",
+   "duration": "5:04"
+  },
+  {
+   "title": "Day Tripper",
+   "artist": "The Beatles",
+   "album": "1",
+   "videoId": "2IbPn5j2YKk",
+   "duration": "2:49"
+  },
+  {
+   "title": "The Zoo",
+   "artist": "Scorpions",
+   "album": "Animal Magnetism",
+   "videoId": "4NOXxkGpDME",
+   "duration": "5:31"
+  },
+  {
+   "title": "WHO? WHAT!",
+   "artist": "Travis Scott",
+   "album": "ASTROWORLD",
+   "videoId": "Ykzk5erqQnM",
+   "duration": "2:57"
+  },
+  {
+   "title": "Rosa Parks",
+   "artist": "Outkast",
+   "album": "Aquemini",
+   "videoId": "oGT9W_Hqzrk",
+   "duration": "5:25"
+  },
+  {
+   "title": "Halloween Theme",
+   "artist": "John Carpenter;Cody Carpenter;Daniel Davies",
+   "album": "Halloween (Original 2018 Motion Picture Soundtrack)",
+   "videoId": "nZ2RQuUFznA",
+   "duration": "3:03"
+  },
+  {
+   "title": "New York State of Mind",
+   "artist": "Billy Joel",
+   "album": "Turnstiles",
+   "videoId": "LnGMcxWmtRA",
+   "duration": "6:03"
+  },
+  {
+   "title": "All My Rowdy Friends Are Coming Over Tonight",
+   "artist": "Hank Williams, Jr.",
+   "album": "Major Moves",
+   "videoId": "kjgc90Yf0as",
+   "duration": "2:59"
+  },
+  {
+   "title": "La Vie en Rose",
+   "artist": "Edith Piaf",
+   "album": "Sirens of Song: Torch Songs of the '30s & '40s",
+   "videoId": "0ywpUSz6C6U",
+   "duration": "3:04"
+  },
+  {
+   "title": "Word Up",
+   "artist": "Cameo",
+   "album": "Word Up",
+   "videoId": "iJQ79yh_Agk",
+   "duration": "4:20"
+  },
+  {
+   "title": "Like a Prayer",
+   "artist": "Madonna",
+   "album": "Like a Prayer",
+   "videoId": "ilottRbDnGY",
+   "duration": "5:41"
+  },
+  {
+   "title": "Mad World",
+   "artist": "Gary Jules;Michael Andrews",
+   "album": "Trading Snakeoil for Wolftickets",
+   "videoId": "ZUtAe5PUKtE",
+   "duration": "3:10"
+  },
+  {
+   "title": "Celebrity Skin",
+   "artist": "Hole",
+   "album": "Celebrity Skin",
+   "videoId": "Bv9d27d1Byg",
+   "duration": "2:43"
+  },
+  {
+   "title": "Chandelier",
+   "artist": "Sia",
+   "album": "1000 Forms Of Fear (Deluxe Version)",
+   "videoId": "uzaYLK3k0DQ",
+   "duration": "3:37"
+  },
+  {
+   "title": "Gangsta's Paradise",
+   "artist": "Coolio;L.V.",
+   "album": "Gangsta's Paradise",
+   "videoId": "-5qqrMu_AZc",
+   "duration": "4:01"
+  },
+  {
+   "title": "Like a Virgin",
+   "artist": "Madonna",
+   "album": "Like a Virgin",
+   "videoId": "j5Y3u2D8kxg",
+   "duration": "3:39"
+  },
+  {
+   "title": "Another One Bites The Dust",
+   "artist": "Queen",
+   "album": "The Game (Deluxe Edition)",
+   "videoId": "b72gdhV_rXM",
+   "duration": "3:35"
+  },
+  {
+   "title": "Party In The U.S.A.",
+   "artist": "Miley Cyrus",
+   "album": "The Time Of Our Lives",
+   "videoId": "R1kOdTm9FBk",
+   "duration": "3:23"
+  },
+  {
+   "title": "Happy (From \"Despicable Me 2\")",
+   "artist": "Pharrell Williams",
+   "album": "G I R L",
+   "videoId": "dJqxQzxLbHM",
+   "duration": "3:54"
+  },
+  {
+   "title": "Pretty Fly (For A White Guy)",
+   "artist": "The Offspring",
+   "album": "Americana",
+   "videoId": "BepGmpLT9HA",
+   "duration": "3:09"
+  },
+  {
+   "title": "American Idiot",
+   "artist": "Green Day",
+   "album": "American Idiot",
+   "videoId": "VyV54YwPAkk",
+   "duration": "2:55"
+  },
+  {
+   "title": "I Want A New Drug",
+   "artist": "Huey Lewis & The News",
+   "album": "Sports",
+   "videoId": "_nlMn9A-6LA",
+   "duration": "4:46"
+  },
+  {
+   "title": "Sandstorm (Radio Edit)",
+   "artist": "Darude",
+   "album": "Sandstorm",
+   "videoId": "XjvkxXblpz8",
+   "duration": "3:47"
+  },
+  {
+   "title": "Turning Japanese",
+   "artist": "The Vapors",
+   "album": "Turning Japanese",
+   "videoId": "nhD9gyRSz0g",
+   "duration": "3:46"
+  },
+  {
+   "title": "Michelle (Remastered 2009)",
+   "artist": "The Beatles",
+   "album": "Rubber Soul (Remastered 2009)",
+   "videoId": "WoBLi5eE-wY",
+   "duration": "2:43"
+  },
+  {
+   "title": "Hot N Cold",
+   "artist": "Katy Perry",
+   "album": "Hot N Cold",
+   "videoId": "C-jAPrdc3PI",
+   "duration": "3:44"
+  },
+  {
+   "title": "Fast Car",
+   "artist": "Tracy Chapman",
+   "album": "Tracy Chapman",
+   "videoId": "IJ8i49EqgYI",
+   "duration": "4:57"
+  },
+  {
+   "title": "Do You Feel It?",
+   "artist": "Chaos Chaos",
+   "album": "Committed to the Crime",
+   "videoId": "V8zxBjSBQUE",
+   "duration": "4:11"
+  },
+  {
+   "title": "I Love It (feat. Charli xcx)",
+   "artist": "Icona Pop",
+   "album": "THIS IS... ICONA POP",
+   "videoId": "QMzkaOY0bKA",
+   "duration": "2:38"
+  },
+  {
+   "title": "Breakfast At Tiffany's",
+   "artist": "Deep Blue Something",
+   "album": "Home",
+   "videoId": "ewo6AGUJaUA",
+   "duration": "4:18"
+  },
+  {
+   "title": "Now We Are Free",
+   "artist": "Lisa Gerrard;Gavin Greenaway;The Lyndhurst Orchestra",
+   "album": "Gladiator - Music From The Motion Picture",
+   "videoId": "ghxzLw2wRis",
+   "duration": "4:15"
+  },
+  {
+   "title": "Glory (From \"Selma\") (Live)",
+   "artist": "John Stevens;Lonnie Lynn;Che Smith;Eugene Rogers",
+   "album": "Glory from the film Selma",
+   "videoId": "Hr7dhwR5RVA",
+   "duration": "6:38"
+  },
+  {
+   "title": "Season of the Witch",
+   "artist": "Donovan",
+   "album": "Sunshine Superman",
+   "videoId": "x-YI50fGMMg",
+   "duration": "4:54"
+  },
+  {
+   "title": "Sigh No More",
+   "artist": "Mumford & Sons",
+   "album": "Sigh No More",
+   "videoId": "Ajbmol_c6sU",
+   "duration": "3:28"
+  },
+  {
+   "title": "Fences",
+   "artist": "Phoenix",
+   "album": "Wolfgang Amadeus Phoenix",
+   "videoId": "6P41MHEz6CM",
+   "duration": "3:45"
+  },
+  {
+   "title": "Fight The Power",
+   "artist": "Public Enemy",
+   "album": "Fear Of A Black Planet",
+   "videoId": "jRJKjiCtVco",
+   "duration": "4:43"
+  },
+  {
+   "title": "Eli’s Coming (Live) (feat. London Symphony Orchestra)",
+   "artist": "Three Dog Night",
+   "album": "35th Anniversary Hits Collection",
+   "videoId": "mr-oYzLua-I",
+   "duration": "6:34"
+  },
+  {
+   "title": "Ain't No Mountain High Enough",
+   "artist": "Marvin Gaye;Tammi Terrell",
+   "album": "The Complete Duets",
+   "videoId": "ABfQuZqq8wg",
+   "duration": "2:32"
+  },
+  {
+   "title": "Chaiyya Chaiyya",
+   "artist": "Sukhwinder Singh;Sapna Awasthi",
+   "album": "Dil Se (Original Motion Picture Soundtrack)",
+   "videoId": "9MX-QejdVaQ",
+   "duration": "6:47"
+  },
+  {
+   "title": "I Fought the Law",
+   "artist": "The Clash",
+   "album": "Hits Back",
+   "videoId": "yhcreVY_qLI",
+   "duration": "2:44"
+  },
+  {
+   "title": "For the Love of Money",
+   "artist": "The O'Jays",
+   "album": "Ship Ahoy (Expanded Edition)",
+   "videoId": "qxW789jHXII",
+   "duration": "7:20"
+  },
+  {
+   "title": "Leaving on a Jet Plane",
+   "artist": "John Denver",
+   "album": "Rhymes & Reasons",
+   "videoId": "V6MvuFGEapo",
+   "duration": "3:38"
+  },
+  {
+   "title": "All I Want for Christmas Is You",
+   "artist": "Mariah Carey",
+   "album": "Merry Christmas",
+   "videoId": "fRyhqobl0sk",
+   "duration": "4:02"
+  },
+  {
+   "title": "Run the World (Girls)",
+   "artist": "Beyoncé",
+   "album": "4",
+   "videoId": "XC7eRmnfZ_A",
+   "duration": "3:57"
+  },
+  {
+   "title": "Listen to the Music",
+   "artist": "The Doobie Brothers",
+   "album": "Toulouse Street",
+   "videoId": "S3ta4T9tIUM",
+   "duration": "3:48"
+  },
+  {
+   "title": "A Change Is Gonna Come",
+   "artist": "Sam Cooke",
+   "album": "30 Greatest Hits: Portrait of a Legend 1951-1964",
+   "videoId": "Z5zDRtEC0x0",
+   "duration": "3:14"
+  },
+  {
+   "title": "Burning Down the House (2005 Remaster)",
+   "artist": "Talking Heads",
+   "album": "Speaking in Tongues (Deluxe Version)",
+   "videoId": "bgJ-hyzl6jg",
+   "duration": "4:02"
+  },
+  {
+   "title": "Space Oddity",
+   "artist": "David Bowie",
+   "album": "David Bowie (aka Space Oddity)",
+   "videoId": "5PgdZDXg0z0",
+   "duration": "5:19"
+  }
+ ]
+}
