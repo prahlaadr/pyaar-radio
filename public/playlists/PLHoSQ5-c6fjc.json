@@ -2,12 +2,12 @@
  "playlistId": "PLHoSQ5-c6fjc",
  "title": "9laad:Park",
  "trackCount": 98,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Woman",
-   "artist": "Barry Can’t Swim;Låpsley",
-   "album": "When Will We Land?",
+   "artist": "Barry Can’t Swim - Topic",
+   "album": "",
    "videoId": "PMFAHjfkLEM",
    "duration": "3:53"
   },
@@ -55,8 +55,8 @@
   },
   {
    "title": "Chala (My Soul Is On A Loop)",
-   "artist": "Barry Can’t Swim",
-   "album": "Chala (My Soul Is On A Loop)",
+   "artist": "Barry Can’t Swim - Topic",
+   "album": "",
    "videoId": "NJ1p4tudvno",
    "duration": "2:43"
   },
@@ -90,8 +90,8 @@
   },
   {
    "title": "Moqueca",
-   "artist": "Captain Planet;Zuzuka Poderosa;Raphael Futura",
-   "album": "Moqueca",
+   "artist": "Captain Planet - Topic",
+   "album": "",
    "videoId": "vVcAC_s4mN4",
    "duration": "4:05"
   },
@@ -314,8 +314,8 @@
   },
   {
    "title": "The Heart Wants a Heart",
-   "artist": "Anish Kumar",
-   "album": "AK Cuts: Vol. 2",
+   "artist": "Anish Kumar - Topic",
+   "album": "",
    "videoId": "RV2FamAnt84",
    "duration": "3:48"
   },
@@ -328,8 +328,8 @@
   },
   {
    "title": "Come On, Let’s Get It",
-   "artist": "Anish Kumar",
-   "album": "AK Cuts: Vol. 3",
+   "artist": "Anish Kumar - Topic",
+   "album": "",
    "videoId": "PCbmX-Vqfro",
    "duration": "4:20"
   },
@@ -363,8 +363,8 @@
   },
   {
    "title": "Jack Shit",
-   "artist": "Arsene",
-   "album": "Jack Shit / Hot Sweaty Nights",
+   "artist": "Arsene - Topic",
+   "album": "",
    "videoId": "YdCjTVz-wF0",
    "duration": "5:53"
   },
@@ -453,9 +453,9 @@
    "duration": "6:00"
   },
   {
-   "title": "Optimistic [Michael Gray Remix] (feat. Lucita Jules)",
-   "artist": "Brian Power",
-   "album": "Nervous Rewind 2021",
+   "title": "Optimistic (feat. Lucita Jules) (Michael Gray Remix)",
+   "artist": "Brian Power - Topic",
+   "album": "",
    "videoId": "ScBrppCJ5VA",
    "duration": "6:53"
   },
@@ -503,8 +503,8 @@
   },
   {
    "title": "DOLO 8",
-   "artist": "Dolo Percussion",
-   "album": "Dolo 4",
+   "artist": "Dolo Percussion - Topic",
+   "album": "",
    "videoId": "7v9rxeYUul4",
    "duration": "4:10"
   },
@@ -558,9 +558,9 @@
    "duration": "4:05"
   },
   {
-   "title": "Re-Set [Hannes Fischer Remix] (feat. Pete Josef)",
-   "artist": "Alex Barck",
-   "album": "Marbella Deluxe, Vol. 3",
+   "title": "Re-Set (feat. Pete Josef) (Hannes Fischer Remix)",
+   "artist": "Alex Barck - Topic",
+   "album": "",
    "videoId": "_ReruXNWEDA",
    "duration": "6:12"
   },
@@ -594,8 +594,8 @@
   },
   {
    "title": "Bad Kingdom (Marcel Dettmann Remix)",
-   "artist": "Moderat",
-   "album": "Bad Kingdom (Head High & Marcel Dettmann Remixes)",
+   "artist": "Moderat - Topic",
+   "album": "",
    "videoId": "VeLP4L8jOWo",
    "duration": "5:47"
   },

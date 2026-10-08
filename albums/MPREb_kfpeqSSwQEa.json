@@ -6,13 +6,13 @@
  "tracks": [
   {
    "title": "FLYGOD DiD",
-   "artist": "Westside Gunn & AA Rashid",
+   "artist": "Westside Gunn;AA Rashid",
    "videoId": "jFWmjxlacY8",
    "duration": "1:57"
   },
   {
    "title": "Mamas PrimeTime",
-   "artist": "Westside Gunn, JID, Conway the Machine, and Cartier A Williams",
+   "artist": "Westside Gunn;JID;Conway the Machine;Cartier A Williams",
    "videoId": "B1dFwXD5sKM",
    "duration": "5:00"
   },
@@ -60,13 +60,13 @@
   },
   {
    "title": "JD Wrist (feat. Stove God Cooks)",
-   "artist": "Westside Gunn, Estee Nack, & Trap-A-Holics",
+   "artist": "Westside Gunn;Estee Nack;Trap-A-Holics",
    "videoId": "Vz-buZ8EhTY",
    "duration": "6:20"
   },
   {
    "title": "Disgusting",
-   "artist": "Westside Gunn & Giggs",
+   "artist": "Westside Gunn;Giggs",
    "videoId": "QZ6dGSI_gdQ",
    "duration": "4:02"
   },
@@ -120,7 +120,7 @@
   },
   {
    "title": "The Revenge of Flips Leg",
-   "artist": "Westside Gunn & Rome Streetz",
+   "artist": "Westside Gunn;Rome Streetz",
    "videoId": "tBuo5mfDYYw",
    "duration": "2:41"
   },
@@ -132,5 +132,5 @@
   }
  ],
  "browseId": "MPREb_kfpeqSSwQEa",
- "syncedAt": "2026-03-08T08:53:48.318363Z"
+ "syncedAt": "2026-10-08T15:16:40.891328Z"
 }

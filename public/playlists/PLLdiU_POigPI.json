@@ -2,7 +2,7 @@
  "playlistId": "PLLdiU_POigPI",
  "title": "9laad:Jazz",
  "trackCount": 317,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Almost Went Too Far",
@@ -713,22 +713,22 @@
   },
   {
    "title": "One More Time",
-   "artist": "Kamaal Williams",
-   "album": "Wu Hen",
+   "artist": "Kamaal Williams - Topic",
+   "album": "",
    "videoId": "7zN8QnBMbxc",
    "duration": "3:10"
   },
   {
    "title": "High Roller",
-   "artist": "Kamaal Williams",
-   "album": "The Return",
+   "artist": "Kamaal Williams - Topic",
+   "album": "",
    "videoId": "r8bym2EbYro",
    "duration": "3:01"
   },
   {
    "title": "Catch The Loop",
-   "artist": "Kamaal Williams",
-   "album": "Catch The Loop",
+   "artist": "Kamaal Williams - Topic",
+   "album": "",
    "videoId": "hj-kQz4fK7U",
    "duration": "8:45"
   },
@@ -776,15 +776,15 @@
   },
   {
    "title": "Heiwa",
-   "artist": "Mansur Brown",
-   "album": "Heiwa",
+   "artist": "Mansur Brown - Topic",
+   "album": "",
    "videoId": "4kB8g1M7QAQ",
    "duration": "5:43"
   },
   {
    "title": "Forever Love",
-   "artist": "The Brandon Brown Collective",
-   "album": "Forever Love",
+   "artist": "The Brandon Brown Collective - Topic",
+   "album": "",
    "videoId": "bGEgkVd8HfA",
    "duration": "4:09"
   },
@@ -874,8 +874,8 @@
   },
   {
    "title": "Two Fish and an Elephant",
-   "artist": "Khruangbin",
-   "album": "The Universe Smiles Upon You",
+   "artist": "Khruangbin - Topic",
+   "album": "",
    "videoId": "6efh-dhz05w",
    "duration": "3:34"
   },
@@ -1006,9 +1006,9 @@
    "duration": "3:19"
   },
   {
-   "title": "World Domination (feat. Spontaneous)",
-   "artist": "Declaime",
-   "album": "Illmindmuzik",
+   "title": "World Domination",
+   "artist": "Dudley Perkins - Topic",
+   "album": "",
    "videoId": "MlGtO-e38r4",
    "duration": "3:15"
   },
@@ -1196,8 +1196,8 @@
   },
   {
    "title": "Spoken",
-   "artist": "Hidden Orchestra",
-   "album": "Archipelago",
+   "artist": "Hidden Orchestra - Topic",
+   "album": "",
    "videoId": "HzreW-e-KTg",
    "duration": "5:45"
   },
@@ -1287,8 +1287,8 @@
   },
   {
    "title": "Dream A Little Dream Of Me (Single Version)",
-   "artist": "Ella Fitzgerald;Louis Armstrong",
-   "album": "Love, Ella",
+   "artist": "Ella Fitzgerald - Topic",
+   "album": "",
    "videoId": "wSKWoQAbPj8",
    "duration": "3:06"
   },
@@ -1322,8 +1322,8 @@
   },
   {
    "title": "Blue Skies",
-   "artist": "Ella Fitzgerald",
-   "album": "Get Happy! (Expanded Edition)",
+   "artist": "Ella Fitzgerald - Topic",
+   "album": "",
    "videoId": "SAa4teWb0rU",
    "duration": "3:47"
   },

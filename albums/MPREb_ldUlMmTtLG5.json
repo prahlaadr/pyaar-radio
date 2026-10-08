@@ -12,13 +12,13 @@
   },
   {
    "title": "letstalkaboutit",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Freddie Gibbs",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Freddie Gibbs",
    "videoId": "ABrrO78khdE",
    "duration": "2:47"
   },
   {
    "title": "4EVA",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Pharrell Williams",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Pharrell Williams",
    "videoId": "XfIQXyeLTTE",
    "duration": "3:11"
   },
@@ -30,7 +30,7 @@
   },
   {
    "title": "Master P",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Big Sean",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Big Sean",
    "videoId": "_dm_PnrBsoU",
    "duration": "3:32"
   },
@@ -42,7 +42,7 @@
   },
   {
    "title": "Sossaup",
-   "artist": "KAYTRAMINÉ, Aminé, KAYTRANADA, and Amaarae",
+   "artist": "KAYTRAMINÉ;Aminé;KAYTRANADA;Amaarae",
    "videoId": "srjUWEVHZ8o",
    "duration": "2:36"
   },
@@ -72,5 +72,5 @@
   }
  ],
  "browseId": "MPREb_ldUlMmTtLG5",
- "syncedAt": "2026-03-08T08:53:48.318363Z"
+ "syncedAt": "2026-10-08T15:16:40.891328Z"
 }

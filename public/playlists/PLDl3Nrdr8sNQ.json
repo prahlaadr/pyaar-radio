@@ -2,7 +2,7 @@
  "playlistId": "PLDl3Nrdr8sNQ",
  "title": "Favorite Songs (unliked keepers)",
  "trackCount": 964,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Grup Seyran Cano / Uy Biviza / Kako Husen",
@@ -148,7 +148,7 @@
    "title": "One Night Stand",
    "artist": "Roy Woods;Chow Lee",
    "album": "One Night Stand",
-   "videoId": "-zhzATlfNOk",
+   "videoId": "Ry16Nf04R1U",
    "duration": "3:03"
   },
   {
@@ -1135,7 +1135,7 @@
    "title": "Waves of Blue",
    "artist": "Majid Jordan",
    "album": "Waves of Blue",
-   "videoId": "AS5V3vWlNFU",
+   "videoId": "C55TRuakM7Q",
    "duration": "3:29"
   },
   {
@@ -2113,8 +2113,8 @@
   },
   {
    "title": "Bang The Bus",
-   "artist": "Maxo Kream",
-   "album": "Bang The Bus",
+   "artist": "Maxo Kream - Topic",
+   "album": "",
    "videoId": "IyjEpaJXvFQ",
    "duration": "2:57"
   },
@@ -2155,8 +2155,8 @@
   },
   {
    "title": "A Place I Don't Know",
-   "artist": "Adam Sherman",
-   "album": "River of Dreams",
+   "artist": "Adam Sherman - Topic",
+   "album": "",
    "videoId": "JME3N9mHkco",
    "duration": "3:46"
   },
@@ -2253,15 +2253,15 @@
   },
   {
    "title": "I'm Not Giving Up",
-   "artist": "Louis The Child;MEMBA",
-   "album": "The Sun Comes Up",
+   "artist": "Louis The Child - Topic",
+   "album": "",
    "videoId": "KsC-8mkZhvo",
    "duration": "2:41"
   },
   {
-   "title": "We Don't Know (feat. Sea Change)",
-   "artist": "Arutani",
-   "album": "Who We Used to Be",
+   "title": "We Don't Know",
+   "artist": "Arutani - Topic",
+   "album": "",
    "videoId": "KuYJGlORZkk",
    "duration": "4:59"
   },
@@ -2302,8 +2302,8 @@
   },
   {
    "title": "Funny Papers",
-   "artist": "Kool A.D.",
-   "album": "Sky Ladder",
+   "artist": "Kool A.D. - Topic",
+   "album": "",
    "videoId": "LHCCnPlxLPo",
    "duration": "2:04"
   },
@@ -2484,8 +2484,8 @@
   },
   {
    "title": "Sees Fire",
-   "artist": "Ganavya",
-   "album": "Sees Fire",
+   "artist": "Ganavya - Topic",
+   "album": "",
    "videoId": "MttrzpWtOwQ",
    "duration": "3:29"
   },
@@ -2505,8 +2505,8 @@
   },
   {
    "title": "Gato de Noche",
-   "artist": "Ñengo Flow;Bad Bunny",
-   "album": "Gato de Noche",
+   "artist": "Ñengo Flow - Topic",
+   "album": "",
    "videoId": "N-ytI5TNz-c",
    "duration": "3:48"
   },
@@ -2525,9 +2525,9 @@
    "duration": "1:41"
   },
   {
-   "title": "Collard Greens (feat. Kendrick Lamar)",
-   "artist": "ScHoolboy Q",
-   "album": "Oxymoron (Deluxe)",
+   "title": "Collard Greens",
+   "artist": "ScHoolboy Q - Topic",
+   "album": "",
    "videoId": "NLL7rHzb5ww",
    "duration": "5:00"
   },
@@ -2589,8 +2589,8 @@
   },
   {
    "title": "Loucura",
-   "artist": "Tara Tiba",
-   "album": "Omid",
+   "artist": "Tara Tiba - Topic",
+   "album": "",
    "videoId": "Nicf0VifxVQ",
    "duration": "3:57"
   },
@@ -2757,8 +2757,8 @@
   },
   {
    "title": "What It Do",
-   "artist": "Lupe Fiasco",
-   "album": "Lupe Fiasco's Food & Liquor (5th Anniversary Edition; Deluxe Edition)",
+   "artist": "Lupe Fiasco - Topic",
+   "album": "",
    "videoId": "QBYRSE59ls4",
    "duration": "4:08"
   },

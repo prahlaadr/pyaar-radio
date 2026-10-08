@@ -2,7 +2,7 @@
  "playlistId": "PLXIiwFmWNqI8",
  "title": "Despacio",
  "trackCount": 433,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Like An Eagle",
@@ -720,8 +720,8 @@
   },
   {
    "title": "Non non non",
-   "artist": "Cha Cha Guitri",
-   "album": "French Synth Wave (St Etienne 1981)",
+   "artist": "Cha Cha Guitri - Topic",
+   "album": "",
    "videoId": "P9B7tm5HMxA",
    "duration": "3:07"
   },
@@ -748,8 +748,8 @@
   },
   {
    "title": "State of Independence",
-   "artist": "Donna Summer",
-   "album": "Donna Summer",
+   "artist": "Donna Summer - Topic",
+   "album": "",
    "videoId": "pe6Ugo3l3Zk",
    "duration": "5:52"
   },
@@ -797,8 +797,8 @@
   },
   {
    "title": "Need You Tonight (Single Edit)",
-   "artist": "INXS",
-   "album": "The Best of INXS",
+   "artist": "INXS - Topic",
+   "album": "",
    "videoId": "jPpTIkeDckw",
    "duration": "3:04"
   },
@@ -818,8 +818,8 @@
   },
   {
    "title": "Just Don't Stop the Dance (Slok RMX)",
-   "artist": "Elbee Bad",
-   "album": "Full Body Workout (3)",
+   "artist": "Elbee Bad - Topic",
+   "album": "",
    "videoId": "k4bLC7cC9RQ",
    "duration": "6:53"
   },
@@ -839,8 +839,8 @@
   },
   {
    "title": "Shinzo No Tobira",
-   "artist": "Mariah",
-   "album": "Mr Bongo Record Club, Vol. 5",
+   "artist": "Mariah - Topic",
+   "album": "",
    "videoId": "LwFctN9My50",
    "duration": "4:41"
   },
@@ -867,8 +867,8 @@
   },
   {
    "title": "Mingi",
-   "artist": "Mim Suleiman",
-   "album": "Tungi",
+   "artist": "Mim Suleiman - Topic",
+   "album": "",
    "videoId": "BUFyL8uBp88",
    "duration": "5:23"
   },
@@ -972,8 +972,8 @@
   },
   {
    "title": "Voodoo Ray (UK Rham On Acid '89 Remix)",
-   "artist": "A Guy Called Gerald",
-   "album": "Voodoo Ray (U.S. Remixes)",
+   "artist": "A Guy Called Gerald - Topic",
+   "album": "",
    "videoId": "uhnZwOSUE_k",
    "duration": "6:19"
   },
@@ -1049,15 +1049,15 @@
   },
   {
    "title": "O metrô",
-   "artist": "Carlos Dafé",
-   "album": "Pra que vou recordar",
+   "artist": "Carlos Dafé - Topic",
+   "album": "",
    "videoId": "4-gcgPXePIw",
    "duration": "2:59"
   },
   {
    "title": "Whatever Tomorrow (Soulwax Remix)",
-   "artist": "Chet Faker",
-   "album": "Whatever Tomorrow (Soulwax Remix)",
+   "artist": "Chet Faker - Topic",
+   "album": "",
    "videoId": "lPJ16QZoUbM",
    "duration": "5:28"
   },
@@ -1140,8 +1140,8 @@
   },
   {
    "title": "Mr Crosby (2004 Remaster)",
-   "artist": "The Edgar Broughton Band",
-   "album": "Inside Out",
+   "artist": "Edgar Broughton Band - Topic",
+   "album": "",
    "videoId": "OqAH4edHv3w",
    "duration": "2:14"
   },
@@ -2190,8 +2190,8 @@
   },
   {
    "title": "Sexy Boy (Dub)",
-   "artist": "Kinga",
-   "album": "Sexy Boy",
+   "artist": "Kinga - Topic",
+   "album": "",
    "videoId": "PVEnSgdKKgE",
    "duration": "5:15"
   },
@@ -2281,8 +2281,8 @@
   },
   {
    "title": "Push Me Fuckhead",
-   "artist": "Marie Davidson",
-   "album": "City Of Clowns",
+   "artist": "Marie Davidson - Topic",
+   "album": "",
    "videoId": "Lo-DGyjMj6c",
    "duration": "5:39"
   },
@@ -2463,8 +2463,8 @@
   },
   {
    "title": "Fly with the Wind [Full Length Album Mix]",
-   "artist": "Peter Jacques Band",
-   "album": "Fire Night Dance (Original Album)",
+   "artist": "Peter Jacques Band - Topic",
+   "album": "",
    "videoId": "HPU6revYYBc",
    "duration": "8:43"
   },
@@ -2484,8 +2484,8 @@
   },
   {
    "title": "Purple Rain",
-   "artist": "Prince & The Revolution",
-   "album": "Purple Rain",
+   "artist": "Prince - Topic",
+   "album": "",
    "videoId": "347vCib_lMs",
    "duration": "8:42"
   },
@@ -2561,8 +2561,8 @@
   },
   {
    "title": "Anger",
-   "artist": "Laurin Rinder;W. Michael Lewis",
-   "album": "Seven Deadly Sins",
+   "artist": "Laurin Rinder - Topic",
+   "album": "",
    "videoId": "k4bUYSGZHnU",
    "duration": "5:49"
   },
@@ -2575,8 +2575,8 @@
   },
   {
    "title": "Passion",
-   "artist": "Rod Stewart",
-   "album": "Foolish Behaviour",
+   "artist": "Rod Stewart - Topic",
+   "album": "",
    "videoId": "TBxH7y1ZFgo",
    "duration": "5:34"
   },
@@ -2665,9 +2665,9 @@
    "duration": "7:34"
   },
   {
-   "title": "Heaven Scent (DEEWEEDUB) (feat. Chloë Sevigny)",
-   "artist": "Soulwax",
-   "album": "Heaven Scent",
+   "title": "Heaven Scent (DEEWEEDUB)",
+   "artist": "Soulwax - Topic",
+   "album": "",
    "videoId": "-H8-13xECg0",
    "duration": "6:59"
   },
@@ -2687,8 +2687,8 @@
   },
   {
    "title": "Reich: Music for 18 Musicians",
-   "artist": "Steve Reich Ensemble",
-   "album": "Reich: Music for 18 Musicians",
+   "artist": "Steve Reich - Topic",
+   "album": "",
    "videoId": "1oOmUi4HGt0",
    "duration": "56:32"
   },
@@ -2708,8 +2708,8 @@
   },
   {
    "title": "Reich: Music for 18 Musicians",
-   "artist": "Steve Reich Ensemble",
-   "album": "Reich: Music for 18 Musicians",
+   "artist": "Steve Reich - Topic",
+   "album": "",
    "videoId": "1oOmUi4HGt0",
    "duration": "56:32"
   },
@@ -2729,8 +2729,8 @@
   },
   {
    "title": "Take Your Lady",
-   "artist": "Sworn Virgins",
-   "album": "Lazer Beam",
+   "artist": "Sworn Virgins - Topic",
+   "album": "",
    "videoId": "lcxidNzv8pE",
    "duration": "6:57"
   },
@@ -2799,8 +2799,8 @@
   },
   {
    "title": "Magonde",
-   "artist": "Bjarne Rostvold;Perry Knudsen",
-   "album": "Copenhagen Dancefloor Classics II",
+   "artist": "Bjarne Rostvold - Topic",
+   "album": "",
    "videoId": "ey2SpNRh5gc",
    "duration": "3:18"
   },

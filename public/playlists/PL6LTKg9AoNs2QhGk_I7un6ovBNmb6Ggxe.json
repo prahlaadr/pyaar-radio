@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -1413,8 +1413,8 @@
   },
   {
    "title": "La bambola",
-   "artist": "Ennio Morricone",
-   "album": "Veruschka - Poesia di una donna (Original Motion Picture Soundtrack)",
+   "artist": "Ennio Morricone - Topic",
+   "album": "",
    "videoId": "GmwkxCF2kuE",
    "duration": "2:17"
   },
@@ -1427,8 +1427,8 @@
   },
   {
    "title": "La spiaggia",
-   "artist": "Ennio Morricone",
-   "album": "Veruschka - Poesia di una donna (Original Motion Picture Soundtrack)",
+   "artist": "Ennio Morricone - Topic",
+   "album": "",
    "videoId": "ekoSi2_-I-U",
    "duration": "8:19"
   },
@@ -1441,8 +1441,8 @@
   },
   {
    "title": "Poesia di una Donna",
-   "artist": "Ennio Morricone",
-   "album": "Veruschka - Poesia di una donna (Original Motion Picture Soundtrack)",
+   "artist": "Ennio Morricone - Topic",
+   "album": "",
    "videoId": "oq7KOAPlT_k",
    "duration": "5:03"
   },
@@ -1476,8 +1476,8 @@
   },
   {
    "title": "Astratto III",
-   "artist": "Ennio Morricone",
-   "album": "Veruschka - Poesia di una donna (Original Motion Picture Soundtrack)",
+   "artist": "Ennio Morricone - Topic",
+   "album": "",
    "videoId": "Nuar5CeVxzs",
    "duration": "1:49"
   },
@@ -1658,8 +1658,8 @@
   },
   {
    "title": "Gymnopédie No. 1",
-   "artist": "Philippe Entremont;Erik Satie",
-   "album": "Erik Satie & Friends",
+   "artist": "Philippe Entremont - Topic",
+   "album": "",
    "videoId": "IR_uKPlTPuU",
    "duration": "3:26"
   },
@@ -1706,9 +1706,9 @@
    "duration": "5:01"
   },
   {
-   "title": "T-Kt",
-   "artist": "Hiroyuki Sawano",
-   "album": "\"Attack on Titan\" Season 3 Original Soundtrack",
+   "title": "T-KT",
+   "artist": "Hiroyuki SAWANO - Topic",
+   "album": "",
    "videoId": "vp8tjpLAEfA",
    "duration": "2:55"
   },
@@ -1742,8 +1742,8 @@
   },
   {
    "title": "Raindrop Waltz No. 1 in B Minor",
-   "artist": "Joshua Kyan Aalampour",
-   "album": "Raindrop Waltz No. 1 in B Minor",
+   "artist": "Joshua Kyan Aalampour - Topic",
+   "album": "",
    "videoId": "bZnxvMRlXec",
    "duration": "0:57"
   },
@@ -1819,8 +1819,8 @@
   },
   {
    "title": "Idea 10",
-   "artist": "Gibran Alcocer",
-   "album": "Idea 10",
+   "artist": "Gibran Alcocer - Topic",
+   "album": "",
    "videoId": "NfOg7uNLolA",
    "duration": "2:08"
   },
@@ -1833,15 +1833,15 @@
   },
   {
    "title": "A Gentle Sunlight",
-   "artist": "James Quinn",
-   "album": "A Gentle Sunlight",
+   "artist": "James Quinn - Topic",
+   "album": "",
    "videoId": "aD7Mq4slwTk",
    "duration": "1:58"
   },
   {
    "title": "New Home",
-   "artist": "Frozen Silence",
-   "album": "Piano for Reels",
+   "artist": "Frozen Silence - Topic",
+   "album": "",
    "videoId": "TZHnsxy-65k",
    "duration": "1:13"
   },
@@ -1868,15 +1868,15 @@
   },
   {
    "title": "Waltz Ballad",
-   "artist": "Masssugumusic",
-   "album": "Masssugumusic Bgm, Vol. 1",
+   "artist": "MaSssuguMusic - Topic",
+   "album": "",
    "videoId": "feUV2TbumZM",
    "duration": "2:08"
   },
   {
    "title": "Winter (from The Four Seasons)",
-   "artist": "Antonio Vivaldi",
-   "album": "A Calendar Of Classics - February",
+   "artist": "Antonio Vivaldi - Topic",
+   "album": "",
    "videoId": "hOpHSDlQ-1Y",
    "duration": "2:15"
   },
@@ -1910,8 +1910,8 @@
   },
   {
    "title": "The Blue Danube",
-   "artist": "Eugene Ormandy",
-   "album": "Strauss Waltzes: Basic 100 Volume 6",
+   "artist": "Eugene Ormandy - Topic",
+   "album": "",
    "videoId": "jte4ZVyNIXw",
    "duration": "8:47"
   },
@@ -1973,8 +1973,8 @@
   },
   {
    "title": "Wanderers",
-   "artist": "Kazuma Okabayashi",
-   "album": "Shut-In",
+   "artist": "Kazuma Okabayashi - Topic",
+   "album": "",
    "videoId": "53CK-EHW_-o",
    "duration": "2:33"
   },
@@ -1987,8 +1987,8 @@
   },
   {
    "title": "Farewell",
-   "artist": "Kazuma Okabayashi",
-   "album": "Shut-In",
+   "artist": "Kazuma Okabayashi - Topic",
+   "album": "",
    "videoId": "V-txzBhukzM",
    "duration": "3:37"
   },
@@ -2050,22 +2050,22 @@
   },
   {
    "title": "Whatever, Nano",
-   "artist": "Helvetia",
-   "album": "A Dot Running for the Dust",
+   "artist": "Helvetia - Topic",
+   "album": "",
    "videoId": "Xg8GniCFDGo",
    "duration": "3:04"
   },
   {
    "title": "Not a Captain",
-   "artist": "Helvetia",
-   "album": "A Dot Running for the Dust",
+   "artist": "Helvetia - Topic",
+   "album": "",
    "videoId": "X4BeZMsSRaU",
    "duration": "2:21"
   },
   {
    "title": "Kris",
-   "artist": "Helvetia",
-   "album": "A Dot Running for the Dust",
+   "artist": "Helvetia - Topic",
+   "album": "",
    "videoId": "Bll_zZK23xY",
    "duration": "4:10"
   },
@@ -2085,8 +2085,8 @@
   },
   {
    "title": "Sticky Sweet",
-   "artist": "Helvetia",
-   "album": "A Dot Running for the Dust",
+   "artist": "Helvetia - Topic",
+   "album": "",
    "videoId": "40FqYwsjXQo",
    "duration": "2:30"
   },
@@ -2099,8 +2099,8 @@
   },
   {
    "title": "We Are the Vegetables",
-   "artist": "Helvetia",
-   "album": "A Dot Running for the Dust",
+   "artist": "Helvetia - Topic",
+   "album": "",
    "videoId": "btn1yDJtDNw",
    "duration": "4:48"
   },
@@ -8406,8 +8406,8 @@
   },
   {
    "title": "Animals",
-   "artist": "Bonobo",
-   "album": "Black Sands",
+   "artist": "Bonobo - Topic",
+   "album": "",
    "videoId": "CH5v-Ot4moI",
    "duration": "6:46"
   },
@@ -8461,9 +8461,9 @@
    "duration": "3:36"
   },
   {
-   "title": "Sweet Lorraine",
-   "artist": "Joe Pass",
-   "album": "Virtuoso",
+   "title": "Sweet Lorraine (Album Version)",
+   "artist": "Joe Pass - Topic",
+   "album": "",
    "videoId": "qOaBsNJzvw0",
    "duration": "4:08"
   },
@@ -8475,9 +8475,9 @@
    "duration": "4:42"
   },
   {
-   "title": "'Round Midnight",
-   "artist": "Joe Pass",
-   "album": "Virtuoso",
+   "title": "'Round Midnight (Album Version)",
+   "artist": "Joe Pass - Topic",
+   "album": "",
    "videoId": "lrO8gd--WPc",
    "duration": "3:37"
   },
@@ -8504,8 +8504,8 @@
   },
   {
    "title": "1st Soundscape",
-   "artist": "James Blake;Endel",
-   "album": "Wind Down",
+   "artist": "James Blake - Topic",
+   "album": "",
    "videoId": "TDoy6CQjkx0",
    "duration": "3:44"
   },
@@ -8637,8 +8637,8 @@
   },
   {
    "title": "No Fim Não Se Perde Nada",
-   "artist": "Toquinho",
-   "album": "Os Primeiros Anos",
+   "artist": "Toquinho - Topic",
+   "album": "",
    "videoId": "pbYqsud-mBg",
    "duration": "2:11"
   },
@@ -8658,8 +8658,8 @@
   },
   {
    "title": "Réquiem Para Um Amor",
-   "artist": "Toquinho",
-   "album": "Os Primeiros Anos",
+   "artist": "Toquinho - Topic",
+   "album": "",
    "videoId": "OKQkHYzQKKU",
    "duration": "2:49"
   },
@@ -8735,8 +8735,8 @@
   },
   {
    "title": "1969, Aeroporto Do Galeão",
-   "artist": "Toquinho",
-   "album": "Os Primeiros Anos",
+   "artist": "Toquinho - Topic",
+   "album": "",
    "videoId": "hXZ5PLxTTN4",
    "duration": "1:52"
   },
@@ -8798,8 +8798,8 @@
   },
   {
    "title": "Matriarch",
-   "artist": "Imogen Heap;Dan O'Neill",
-   "album": "Chordata Bytes II",
+   "artist": "Imogen Heap - Topic",
+   "album": "",
    "videoId": "0MBCPCXN8Yw",
    "duration": "3:57"
   },
@@ -8910,8 +8910,8 @@
   },
   {
    "title": "Spring in Hours",
-   "artist": "Florist",
-   "album": "Florist",
+   "artist": "Florist - Topic",
+   "album": "",
    "videoId": "uMvzyTh50pU",
    "duration": "6:06"
   },
@@ -9043,8 +9043,8 @@
   },
   {
    "title": "明滅する夜明け",
-   "artist": "haruka nakamura",
-   "album": "息をひそめて (Original Soundtrack)",
+   "artist": "haruka nakamura - Topic",
+   "album": "",
    "videoId": "PtefvLHur24",
    "duration": "6:52"
   },
@@ -9162,8 +9162,8 @@
   },
   {
    "title": "noel",
-   "artist": "haruka nakamura;Janis Crunch",
-   "album": "12 & 1 SONG (Remastered 2022)",
+   "artist": "haruka nakamura - Topic",
+   "album": "",
    "videoId": "Hl8srxXl1WE",
    "duration": "4:29"
   },
@@ -9204,8 +9204,8 @@
   },
   {
    "title": "easel",
-   "artist": "haruka nakamura",
-   "album": "Still Life",
+   "artist": "haruka nakamura - Topic",
+   "album": "",
    "videoId": "HrjVa_SF49M",
    "duration": "4:21"
   },
@@ -9344,8 +9344,8 @@
   },
   {
    "title": "ten thirty-eight",
-   "artist": "AOKI,hayato;haruka nakamura",
-   "album": "March 16, 2012",
+   "artist": "AOKI,hayato - Topic",
+   "album": "",
    "videoId": "MU8T_Rgo8yU",
    "duration": "16:44"
   },
@@ -9386,8 +9386,8 @@
   },
   {
    "title": "fragile",
-   "artist": "haruka nakamura",
-   "album": "Still Life",
+   "artist": "haruka nakamura - Topic",
+   "album": "",
    "videoId": "iyzMQiFuiwA",
    "duration": "2:43"
   },
@@ -9421,8 +9421,8 @@
   },
   {
    "title": "ひとつ",
-   "artist": "haruka nakamura",
-   "album": "新しき光",
+   "artist": "haruka nakamura - Topic",
+   "album": "",
    "videoId": "JH8GeHvoW8E",
    "duration": "4:13"
   },
@@ -9477,8 +9477,8 @@
   },
   {
    "title": "Virtues",
-   "artist": "Dedekind Cut",
-   "album": "Tahoe",
+   "artist": "Dedekind Cut - Topic",
+   "album": "",
    "videoId": "OtF0-EYOOJo",
    "duration": "4:29"
   },
@@ -9540,8 +9540,8 @@
   },
   {
    "title": "Always Returning (Remastered 2005)",
-   "artist": "Brian Eno",
-   "album": "Apollo",
+   "artist": "Brian Eno - Topic",
+   "album": "",
    "videoId": "c3qN_66H99U",
    "duration": "4:05"
   },
@@ -9596,15 +9596,15 @@
   },
   {
    "title": "Fragile",
-   "artist": "Hauschka",
-   "album": "Substantial",
+   "artist": "Hauschka - Topic",
+   "album": "",
    "videoId": "btcBmJOvgY4",
    "duration": "3:29"
   },
   {
    "title": "Night Songs/Channels Passing",
-   "artist": "Paul Dresher",
-   "album": "Portraits",
+   "artist": "Paul Dresher - Topic",
+   "album": "",
    "videoId": "_8WMgwge7lQ",
    "duration": "9:53"
   },
@@ -9624,8 +9624,8 @@
   },
   {
    "title": "eyes glaring,",
-   "artist": "Telefon Tel Aviv",
-   "album": "Dreams Are Not Enough",
+   "artist": "Telefon Tel Aviv - Topic",
+   "album": "",
    "videoId": "n4FCqCfLThk",
    "duration": "6:58"
   },
@@ -11248,8 +11248,8 @@
   },
   {
    "title": "20220302",
-   "artist": "Ryuichi Sakamoto",
-   "album": "12",
+   "artist": "Ryuichi Sakamoto - Topic",
+   "album": "",
    "videoId": "gHyvqLhbjf8",
    "duration": "2:53"
   },
@@ -11367,8 +11367,8 @@
   },
   {
    "title": "B3",
-   "artist": "Clever Austin",
-   "album": "NUNU",
+   "artist": "Clever Austin - Topic",
+   "album": "",
    "videoId": "X7FpLzEvzN8",
    "duration": "1:25"
   },
@@ -11416,8 +11416,8 @@
   },
   {
    "title": "angels point",
-   "artist": "tstewart",
-   "album": "elysian",
+   "artist": "Machinedrum - Topic",
+   "album": "",
    "videoId": "vZpZf1lEglA",
    "duration": "2:46"
   },
@@ -11430,8 +11430,8 @@
   },
   {
    "title": "airstream",
-   "artist": "tstewart",
-   "album": "elysian",
+   "artist": "Machinedrum - Topic",
+   "album": "",
    "videoId": "iHrShF0PxdM",
    "duration": "2:09"
   },
@@ -11479,8 +11479,8 @@
   },
   {
    "title": "josephine",
-   "artist": "tstewart",
-   "album": "elysian",
+   "artist": "Machinedrum - Topic",
+   "album": "",
    "videoId": "y91YHgz5dx8",
    "duration": "3:42"
   },
@@ -11500,8 +11500,8 @@
   },
   {
    "title": "aeon",
-   "artist": "tstewart",
-   "album": "elysian",
+   "artist": "Machinedrum - Topic",
+   "album": "",
    "videoId": "Y7E4wA4IrMM",
    "duration": "4:43"
   },
@@ -11633,8 +11633,8 @@
   },
   {
    "title": "Adagio for Winter Flower",
-   "artist": "Clams Casino;Jazztronik",
-   "album": "Winter Flower Reimagined",
+   "artist": "Clams Casino - Topic",
+   "album": "",
    "videoId": "zzNEDq7wQSY",
    "duration": "8:42"
   },
@@ -11689,8 +11689,8 @@
   },
   {
    "title": "Seventh String",
-   "artist": "Makaya McCraven",
-   "album": "In These Times",
+   "artist": "Makaya McCraven - Topic",
+   "album": "",
    "videoId": "lprJPPmYQSM",
    "duration": "3:06"
   },
@@ -11703,8 +11703,8 @@
   },
   {
    "title": "The Knew Untitled",
-   "artist": "Makaya McCraven",
-   "album": "In These Times",
+   "artist": "Makaya McCraven - Topic",
+   "album": "",
    "videoId": "d3kkzLI_8FE",
    "duration": "4:28"
   },
@@ -11766,8 +11766,8 @@
   },
   {
    "title": "Relax",
-   "artist": "Robohands",
-   "album": "Giallo",
+   "artist": "Robohands - Topic",
+   "album": "",
    "videoId": "4XIN_9hD9Kw",
    "duration": "1:05"
   },

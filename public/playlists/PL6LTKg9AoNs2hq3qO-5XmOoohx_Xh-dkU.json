@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2hq3qO-5XmOoohx_Xh-dkU",
  "title": "Riding (Day)",
  "trackCount": 137,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "The Gospel of John Hurt",
@@ -48,8 +48,8 @@
   },
   {
    "title": "Best Friend",
-   "artist": "Rex Orange County",
-   "album": "Best Friend",
+   "artist": "Rex Orange County - Topic",
+   "album": "",
    "videoId": "MMvlxSupSVE",
    "duration": "4:23"
   },
@@ -181,8 +181,8 @@
   },
   {
    "title": "The Way You'd Love Her",
-   "artist": "Mac DeMarco",
-   "album": "The Way You'd Love Her",
+   "artist": "Mac DeMarco - Topic",
+   "album": "",
    "videoId": "KjrXZ3-0hto",
    "duration": "2:37"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "The Greatest",
-   "artist": "Alabama Shakes",
-   "album": "Sound & Color (Deluxe Edition)",
+   "artist": "Alabama Shakes - Topic",
+   "album": "",
    "videoId": "ieL048Eq4TM",
    "duration": "3:50"
   },
@@ -313,9 +313,9 @@
    "duration": "3:04"
   },
   {
-   "title": "Don't Fuck This Up (with Ed Prosek) (feat. Ed Prosek)",
-   "artist": "Andrew Applepie",
-   "album": "Hanging Out, Playing Video Games, Writing Songs",
+   "title": "Don't Fuck This Up (with Ed Prosek)",
+   "artist": "Andrew Applepie - Topic",
+   "album": "",
    "videoId": "YYGrFMNdIDc",
    "duration": "3:49"
   },
@@ -356,15 +356,15 @@
   },
   {
    "title": "Ocean Avenue",
-   "artist": "Yellowcard",
-   "album": "Ocean Avenue",
+   "artist": "Yellowcard - Topic",
+   "album": "",
    "videoId": "LvyHVgocP_0",
    "duration": "3:19"
   },
   {
    "title": "Dog Days Are Over",
-   "artist": "Florence + The Machine",
-   "album": "Lungs (Deluxe Edition)",
+   "artist": "Florence + The Machine - Topic",
+   "album": "",
    "videoId": "mHJUSQVGXAE",
    "duration": "4:12"
   },
@@ -461,8 +461,8 @@
   },
   {
    "title": "Coming Home (Interlude)",
-   "artist": "Kali Uchis",
-   "album": "Isolation",
+   "artist": "Kali Uchis - Topic",
+   "album": "",
    "videoId": "aDVRZUVsy_4",
    "duration": "2:40"
   },
@@ -530,9 +530,9 @@
    "duration": "3:43"
   },
   {
-   "title": "Homecoming (feat. Chris Martin)",
-   "artist": "Kanye West",
-   "album": "Graduation",
+   "title": "Homecoming",
+   "artist": "Kanye West - Topic",
+   "album": "",
    "videoId": "YOzAdMs5dEc",
    "duration": "3:24"
   },
@@ -636,8 +636,8 @@
   },
   {
    "title": "Childs Play",
-   "artist": "Drake",
-   "album": "Views",
+   "artist": "Drake - Topic",
+   "album": "",
    "videoId": "HS19n5g3gZI",
    "duration": "4:02"
   },
@@ -685,8 +685,8 @@
   },
   {
    "title": "Me & You",
-   "artist": "Parekh & Singh",
-   "album": "Ocean",
+   "artist": "Parekh & Singh - Topic",
+   "album": "",
    "videoId": "PwxAMPrBOYg",
    "duration": "3:51"
   },

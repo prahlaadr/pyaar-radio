@@ -1,9 +1,29 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 297,
- "totalTracks": 82542,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "playlistCount": 300,
+ "totalTracks": 82583,
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1567
+  },
+  {
+   "playlistId": "PLDJStef2RVs4",
+   "title": "northern bell",
+   "trackCount": 1
+  },
+  {
+   "playlistId": "PLSG88yEhzLUw",
+   "title": "Z258 - Zero to Hero (Trivia)",
+   "trackCount": 42
+  },
+  {
+   "playlistId": "PLV7_iyXBaSw8",
+   "title": "southern hospitality (atlanta trap/Memphis underground)",
+   "trackCount": 2
+  },
   {
    "playlistId": "PLEKxNZMYPR5g",
    "title": "P289 - Give Me Five (Trivia M/D)",
@@ -13,11 +33,6 @@
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
    "trackCount": 7
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1566
   },
   {
    "playlistId": "PLG8qpG-vDHJU",
@@ -997,7 +1012,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
    "title": "prahboy (goated)",
-   "trackCount": 3067
+   "trackCount": 3062
   },
   {
    "playlistId": "PL6LTKg9AoNs0tUbPzSCk90XvSBNlnYoKW",

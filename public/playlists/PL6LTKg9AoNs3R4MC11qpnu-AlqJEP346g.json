@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1566,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "trackCount": 1567,
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -50,7 +50,7 @@
    "title": "Gave Your Love Away",
    "artist": "Majid Jordan",
    "album": "The Space Between",
-   "videoId": "EKPAkf5wWRA",
+   "videoId": "ZfbIHCL3Ia4",
    "duration": "4:46"
   },
   {
@@ -10965,6 +10965,13 @@
    "album": "Diana Ross (Expanded Edition)",
    "videoId": "Y9-7rcKxIc8",
    "duration": "7:49"
+  },
+  {
+   "title": "Box Turtle, Magnificent Isn't She",
+   "artist": "Lady Radiator",
+   "album": "Bounce Energy Hear Me Out",
+   "videoId": "v19r-Kn5L-o",
+   "duration": "5:15"
   }
  ]
 }

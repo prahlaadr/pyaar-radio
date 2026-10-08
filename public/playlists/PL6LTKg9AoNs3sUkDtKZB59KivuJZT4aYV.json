@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3sUkDtKZB59KivuJZT4aYV",
  "title": "Beats",
  "trackCount": 1166,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "BALANCED ENERGIES",
@@ -1415,7 +1415,7 @@
    "title": "NOKIA",
    "artist": "Drake",
    "album": "$ome $exy $ongs 4 U",
-   "videoId": "ZAYwyDr-keM",
+   "videoId": "yi4WypSJr2U",
    "duration": "4:02"
   },
   {
@@ -2939,8 +2939,8 @@
   },
   {
    "title": "Pennyroyal",
-   "artist": "MF DOOM",
-   "album": "Special Herbs Vol. 5 & 6",
+   "artist": "MF Doom - Topic",
+   "album": "",
    "videoId": "d5BpY5cx62c",
    "duration": "3:13"
   },
@@ -3163,8 +3163,8 @@
   },
   {
    "title": "RISE",
-   "artist": "Machinedrum;ROZET",
-   "album": "RISE",
+   "artist": "Machinedrum - Topic",
+   "album": "",
    "videoId": "nWKiN_oYLd8",
    "duration": "2:41"
   },
@@ -3197,16 +3197,16 @@
    "duration": "2:40"
   },
   {
-   "title": "NAFÉ (feat. Ellah)",
-   "artist": "Branko",
-   "album": "OBG",
+   "title": "NAFÉ",
+   "artist": "Branko - Topic",
+   "album": "",
    "videoId": "X20TqG-LyxU",
    "duration": "3:14"
   },
   {
    "title": "CTG",
-   "artist": "Branko;Iúri Oliveira",
-   "album": "OBG",
+   "artist": "Branko - Topic",
+   "album": "",
    "videoId": "CIN17RIGqKI",
    "duration": "3:18"
   },
@@ -3261,8 +3261,8 @@
   },
   {
    "title": "reflect",
-   "artist": "Dilip",
-   "album": "Pressure III",
+   "artist": "Dilip - Topic",
+   "album": "",
    "videoId": "xCW0CDpI8Mw",
    "duration": "1:11"
   },
@@ -3274,9 +3274,9 @@
    "duration": "2:42"
   },
   {
-   "title": "Dimmer Switch (feat. monte booker)",
-   "artist": "Endel",
-   "album": "Reflection",
+   "title": "Dimmer Switch",
+   "artist": "Endel - Topic",
+   "album": "",
    "videoId": "6vJT0I0uyOY",
    "duration": "3:18"
   },
@@ -3317,8 +3317,8 @@
   },
   {
    "title": "JIYO",
-   "artist": "MEMBA;Chitralekha Sen",
-   "album": "JIYO",
+   "artist": "MEMBA - Topic",
+   "album": "",
    "videoId": "EmjWjS5jPTA",
    "duration": "4:08"
   },
@@ -3345,8 +3345,8 @@
   },
   {
    "title": "Don't Stop",
-   "artist": "ODESZA",
-   "album": "Summer's Gone",
+   "artist": "Odesza - Topic",
+   "album": "",
    "videoId": "LEHN8teeByM",
    "duration": "2:48"
   },
@@ -3366,8 +3366,8 @@
   },
   {
    "title": "LMK",
-   "artist": "Durante;CRi",
-   "album": "LMK",
+   "artist": "Durante - Topic",
+   "album": "",
    "videoId": "2Wt7Vh7E2U8",
    "duration": "3:54"
   },
@@ -3408,8 +3408,8 @@
   },
   {
    "title": "Voltaic Acid",
-   "artist": "Lapalux",
-   "album": "Amnioverse",
+   "artist": "Lapalux - Topic",
+   "album": "",
    "videoId": "mMTUR8WX1nU",
    "duration": "5:45"
   },
@@ -5787,10 +5787,10 @@
    "duration": "4:43"
   },
   {
-   "title": "Change (Alternate)",
+   "title": "Change (Alternate) (feat. How To Dress Well)",
    "artist": "Flume",
    "album": "Flume: Deluxe Edition",
-   "videoId": "8YWFc00F6tQ",
+   "videoId": "7sG-rm4JX1U",
    "duration": "2:38"
   },
   {

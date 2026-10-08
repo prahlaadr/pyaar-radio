@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
  "title": "brando's (speakeasy tunes) (goated)",
  "trackCount": 2446,
- "syncedAt": "2026-10-07T15:08:32.282637Z",
+ "syncedAt": "2026-10-08T15:16:54.978659Z",
  "tracks": [
   {
    "title": "Give Me Everything (feat. Nayer)",
@@ -2729,7 +2729,7 @@
   },
   {
    "title": "Way Back Into Love",
-   "artist": "Hugh Grant and Haley Bennett",
+   "artist": "Hugh Grant;Haley Bennett",
    "album": "Music And Lyrics - Music From The Motion Picture",
    "videoId": "Czv03J32ho4",
    "duration": "4:38"
@@ -13438,9 +13438,9 @@
    "duration": "2:54"
   },
   {
-   "title": "Clear As Water (Hidden Jazz Quartett remix)",
-   "artist": "Una Mas Trio",
-   "album": "Clear As Water",
+   "title": "Clear As Water (Hidden Jazz Quartett Remix)",
+   "artist": "Una Mas Trio - Topic",
+   "album": "",
    "videoId": "7h0WGmoLWwY",
    "duration": "4:08"
   },
@@ -13516,15 +13516,15 @@
   },
   {
    "title": "Never Too Much",
-   "artist": "Luther Vandross",
-   "album": "Never Too Much",
+   "artist": "Luther Vandross - Topic",
+   "album": "",
    "videoId": "o6vCn2sBbBE",
    "duration": "3:51"
   },
   {
    "title": "This Is My Story",
-   "artist": "Holy Hive",
-   "album": "Big Crown Vaults Vol. 3 - Holy Hive",
+   "artist": "Holy Hive - Topic",
+   "album": "",
    "videoId": "0wTGV3-6vu8",
    "duration": "2:13"
   },
@@ -13550,9 +13550,9 @@
    "duration": "0:27"
   },
   {
-   "title": "Keep You Kimi (feat. Yukimi Nagano)",
-   "artist": "Hird",
-   "album": "Moving On",
+   "title": "Keep You Kimi",
+   "artist": "Hird - Topic",
+   "album": "",
    "videoId": "XiJ7vTcMtIk",
    "duration": "6:29"
   },
@@ -13572,8 +13572,8 @@
   },
   {
    "title": "Heikki",
-   "artist": "Tor",
-   "album": "Drum Therapy",
+   "artist": "Tor - Topic",
+   "album": "",
    "videoId": "8_onwm2X5q8",
    "duration": "5:20"
   },
@@ -13593,8 +13593,8 @@
   },
   {
    "title": "How You Like Me Now",
-   "artist": "The Heavy",
-   "album": "The House That Dirt Built",
+   "artist": "The Heavy - Topic",
+   "album": "",
    "videoId": "PgeluJltn8w",
    "duration": "3:38"
   },
@@ -13621,8 +13621,8 @@
   },
   {
    "title": "Roda",
-   "artist": "Sergio Mendes & Brasil '66",
-   "album": "Look Around",
+   "artist": "Sergio Mendes - Topic",
+   "album": "",
    "videoId": "4_XXCT_fiww",
    "duration": "2:27"
   },
@@ -13634,9 +13634,9 @@
    "duration": "3:33"
   },
   {
-   "title": "Real Thing (feat. Andreya Triana)",
-   "artist": "Bondax",
-   "album": "Revolve",
+   "title": "Real Thing",
+   "artist": "Bondax - Topic",
+   "album": "",
    "videoId": "iNqv6APTb5c",
    "duration": "3:36"
   },
@@ -13768,8 +13768,8 @@
   },
   {
    "title": "Tripping Out (Radio Edit)",
-   "artist": "Dante Hall",
-   "album": "Tripping Out",
+   "artist": "Dante Hall - Topic",
+   "album": "",
    "videoId": "GYsxyM2sACA",
    "duration": "4:29"
   },
@@ -13901,8 +13901,8 @@
   },
   {
    "title": "Lil Boy",
-   "artist": "Riccio",
-   "album": "Mushroom Jazz 8",
+   "artist": "Riccio - Topic",
+   "album": "",
    "videoId": "w6fqHvhWugU",
    "duration": "6:12"
   },
@@ -16463,7 +16463,7 @@
   },
   {
    "title": "The Shadow of Your Smile",
-   "artist": "Tommy McCook & The Supersonics",
+   "artist": "Tommy McCook;The Supersonics",
    "album": "Soul Rock Steady",
    "videoId": "jlACqTmugmI",
    "duration": "3:25"
