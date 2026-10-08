@@ -1,15 +1,6 @@
 {
-  "syncedAt": "2026-10-07T15:18:35Z",
+  "syncedAt": "2026-10-08T15:21:37Z",
   "shows": [
-    {
-      "alias": "soup-to-nuts-anu",
-      "name": "Soup To Nuts w/ Anu",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
-    },
     {
       "alias": "the-nts-guide-to",
       "name": "NTS Guide to…",
@@ -18,6 +9,15 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "tommasi",
