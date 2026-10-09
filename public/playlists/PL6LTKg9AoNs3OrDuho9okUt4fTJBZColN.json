@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3OrDuho9okUt4fTJBZColN",
  "title": "bolly ween",
  "trackCount": 238,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "DESTINY",
@@ -97,8 +97,8 @@
   },
   {
    "title": "Certified",
-   "artist": "Dr. Fresch - Topic",
-   "album": "",
+   "artist": "Dr. Fresch",
+   "album": "Certified",
    "videoId": "1oSlbbGCpWQ",
    "duration": "2:56"
   },
@@ -118,8 +118,8 @@
   },
   {
    "title": "Dead Signal",
-   "artist": "Ivy Lab - Topic",
-   "album": "",
+   "artist": "Ivy Lab;Manni Dee",
+   "album": "Ghost x Dead Signal",
    "videoId": "IEGlnOxd8eo",
    "duration": "3:16"
   },
@@ -187,9 +187,9 @@
    "duration": "3:31"
   },
   {
-   "title": "Spider (feat. Tida)",
-   "artist": "Nitepunk - Topic",
-   "album": "",
+   "title": "Spider (Control Freak Remix) (feat. Tida)",
+   "artist": "Nitepunk;Tida",
+   "album": "Spider (feat. Tida) (Control Freak Remix)",
    "videoId": "CaV-ZFZTDQ0",
    "duration": "3:14"
   },
@@ -251,8 +251,8 @@
   },
   {
    "title": "Roundhe, Pt. 2",
-   "artist": "Sowmya - Topic",
-   "album": "",
+   "artist": "Sowmya",
+   "album": "Pyaar Tune Kya Kiya (Original Motion Picture Soundtrack)",
    "videoId": "Ji53GQS9Tis",
    "duration": "3:41"
   },
@@ -286,8 +286,8 @@
   },
   {
    "title": "BOO",
-   "artist": "Sunidhi Chauhan - Topic",
-   "album": "",
+   "artist": "SUNIDHI CHAUHAN;TAABISH ROMANI",
+   "album": "DARNA ZAROORI HAI",
    "videoId": "06_mLbW_Qks",
    "duration": "4:28"
   },
@@ -342,8 +342,8 @@
   },
   {
    "title": "redrum",
-   "artist": "21 Savage - Topic",
-   "album": "",
+   "artist": "21 Savage",
+   "album": "american dream",
    "videoId": "OCY9vN4QzqY",
    "duration": "4:31"
   },
@@ -523,16 +523,16 @@
    "duration": "3:29"
   },
   {
-   "title": "Mar Jawaan",
-   "artist": "Shruti Pathak - Topic",
-   "album": "",
+   "title": "MAR JAWAAN",
+   "artist": "SHRUTI PATHAK;SALIM MERCHANT;IRFAN SIDDIQUI",
+   "album": "FASHION",
    "videoId": "SJPo9PRSI2E",
    "duration": "3:57"
   },
   {
    "title": "DANCEWITHME",
-   "artist": "Control Freak - Topic",
-   "album": "",
+   "artist": "Control Freak",
+   "album": "NOFORTUNE",
    "videoId": "Nx5z2x9WCaY",
    "duration": "3:14"
   },
@@ -594,8 +594,8 @@
   },
   {
    "title": "El Conde",
-   "artist": "Rohaan - Topic",
-   "album": "",
+   "artist": "Rohaan",
+   "album": "El Conde",
    "videoId": "moQr07IV4E0",
    "duration": "2:48"
   },
@@ -643,8 +643,8 @@
   },
   {
    "title": "Rapha",
-   "artist": "Prabh Deep - Topic",
-   "album": "",
+   "artist": "Prabh Deep;Scuti",
+   "album": "DSP",
    "videoId": "zv-sUXLiaUE",
    "duration": "3:58"
   },

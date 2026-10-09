@@ -2,19 +2,19 @@
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
  "trackCount": 16,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Tonight",
-   "artist": "Waleed - Topic",
-   "album": "",
+   "artist": "Waleed",
+   "album": "MAGDALENA",
    "videoId": "yHO-zjUPaps",
    "duration": "2:23"
   },
   {
    "title": "The Path Less Travelled",
-   "artist": "Vegyn - Topic",
-   "album": "",
+   "artist": "Vegyn",
+   "album": "The Road To Hell Is Paved With Good Intentions",
    "videoId": "J2CtYBVyC2I",
    "duration": "3:45"
   },
@@ -41,50 +41,50 @@
   },
   {
    "title": "hypnic jerks",
-   "artist": "SPIRIT OF THE BEEHIVE - Topic",
-   "album": "",
+   "artist": "SPIRIT OF THE BEEHIVE",
+   "album": "Hypnic Jerks",
    "videoId": "0JeLDSva58Q",
    "duration": "3:43"
   },
   {
    "title": "Dancer",
-   "artist": "IDLES - Topic",
-   "album": "",
+   "artist": "IDLES;LCD Soundsystem",
+   "album": "TANGK",
    "videoId": "2q5DjsmeWOQ",
    "duration": "3:10"
   },
   {
    "title": "Alien Metal",
-   "artist": "King Gizzard & The Lizard Wizard - Topic",
-   "album": "",
+   "artist": "King Gizzard & the Lizard Wizard",
+   "album": "Alien Metal",
    "videoId": "YpgaYp0lOV8",
    "duration": "5:09"
   },
   {
    "title": "Cleo",
-   "artist": "Fragile State - Topic",
-   "album": "",
+   "artist": "Fragile State",
+   "album": "Voices from the Dustbowl",
    "videoId": "6UoeT7umkHU",
    "duration": "6:21"
   },
   {
    "title": "Visions",
-   "artist": "Stevie Wonder - Topic",
-   "album": "",
+   "artist": "Stevie Wonder",
+   "album": "Innervisions",
    "videoId": "fy4fMlLj_B8",
    "duration": "5:24"
   },
   {
    "title": "Without",
-   "artist": "A. G. Cook - Topic",
-   "album": "",
+   "artist": "A. G. Cook",
+   "album": "Britpop",
    "videoId": "t5FN_7Qb1XE",
    "duration": "2:41"
   },
   {
    "title": "Dirty Hokas",
-   "artist": "Brat Star - Topic",
-   "album": "",
+   "artist": "Brat Star",
+   "album": "White Claw Addict",
    "videoId": "K_P2KwRlXhM",
    "duration": "4:17"
   },
@@ -111,8 +111,8 @@
   },
   {
    "title": "Strange",
-   "artist": "Foxwarren - Topic",
-   "album": "",
+   "artist": "Foxwarren;Andy Shauf;Darryl Kissick",
+   "album": "2",
    "videoId": "H9rPVLG71Ac",
    "duration": "3:16"
   }

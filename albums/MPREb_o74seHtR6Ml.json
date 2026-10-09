@@ -42,13 +42,13 @@
   },
   {
    "title": "get off my dick",
-   "artist": "Zack Fox & Kenny Beats",
+   "artist": "Zack Fox;Kenny Beats",
    "videoId": "yWRkmzsJwk0",
    "duration": "2:44"
   },
   {
    "title": "mexico",
-   "artist": "Zack Fox & Sushiboy Mexico",
+   "artist": "Zack Fox;Sushiboy Mexico",
    "videoId": "uJsEwcqt3s0",
    "duration": "1:12"
   },
@@ -60,5 +60,5 @@
   }
  ],
  "browseId": "MPREb_o74seHtR6Ml",
- "syncedAt": "2026-03-08T08:53:48.318363Z"
+ "syncedAt": "2026-10-09T15:02:02.481750Z"
 }

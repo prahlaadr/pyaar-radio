@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs33AY07UQ92EaqGeFJHWCeJ",
  "title": "little drummer boys",
  "trackCount": 119,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Istanbul [Live From Malibu] (feat. Elijah Fox)",
@@ -55,8 +55,8 @@
   },
   {
    "title": "The Colour Purple (Live From Malibu)",
-   "artist": "Yussef Dayes - Topic",
-   "album": "",
+   "artist": "Yussef Dayes",
+   "album": "The Yussef Dayes Experience (Live From Malibu)",
    "videoId": "8-LxXtP7dAE",
    "duration": "2:44"
   },
@@ -90,15 +90,15 @@
   },
   {
    "title": "Turquoise Galaxy",
-   "artist": "Yussef Dayes - Topic",
-   "album": "",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
    "videoId": "a9ImOdvh7LE",
    "duration": "3:12"
   },
   {
    "title": "The Light (feat. Bahia Dayes)",
-   "artist": "Yussef Dayes - Topic",
-   "album": "",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
    "videoId": "vNftKQik94Q",
    "duration": "5:41"
   },
@@ -132,8 +132,8 @@
   },
   {
    "title": "Birds of Paradise",
-   "artist": "Yussef Dayes - Topic",
-   "album": "",
+   "artist": "Yussef Dayes",
+   "album": "Black Classical Music",
    "videoId": "CvfgdL_uDQs",
    "duration": "4:10"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "Ecaroh",
-   "artist": "Makaya McCraven - Topic",
-   "album": "",
+   "artist": "Makaya McCraven",
+   "album": "Deciphering The Message",
    "videoId": "B1BdejKKJwk",
    "duration": "2:58"
   },
@@ -251,8 +251,8 @@
   },
   {
    "title": "Autumn In New York",
-   "artist": "Makaya McCraven - Topic",
-   "album": "",
+   "artist": "Makaya McCraven",
+   "album": "Deciphering The Message",
    "videoId": "5Gkv6hPcWJY",
    "duration": "5:56"
   },
@@ -412,8 +412,8 @@
   },
   {
    "title": "Orbitz",
-   "artist": "Karriem Riggins - Topic",
-   "album": "",
+   "artist": "Karriem Riggins",
+   "album": "Alone Together",
    "videoId": "nelU7OMF7VY",
    "duration": "0:40"
   },
@@ -559,8 +559,8 @@
   },
   {
    "title": "I Need Love",
-   "artist": "Karriem Riggins - Topic",
-   "album": "",
+   "artist": "Karriem Riggins",
+   "album": "Alone Together",
    "videoId": "tWN0Znhn1bk",
    "duration": "1:20"
   },
@@ -601,8 +601,8 @@
   },
   {
    "title": "Suite Intro",
-   "artist": "Karriem Riggins - Topic",
-   "album": "",
+   "artist": "Karriem Riggins",
+   "album": "Headnod Suite",
    "videoId": "nomg-zIl1Fg",
    "duration": "0:50"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "Yes Yes Y'all",
-   "artist": "Karriem Riggins - Topic",
-   "album": "",
+   "artist": "Karriem Riggins",
+   "album": "Headnod Suite",
    "videoId": "rziZzLbohfw",
    "duration": "2:07"
   },

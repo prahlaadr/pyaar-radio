@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3wiaGkGea79esMmaooc2E8",
  "title": "2025",
  "trackCount": 155,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "One Fm",
@@ -755,8 +755,8 @@
   },
   {
    "title": "Dil Diyan Gallan (From \"Tiger Zinda Hai\")",
-   "artist": "Vishal-Shekhar - Topic",
-   "album": "",
+   "artist": "Vishal and Sheykhar;Atif Aslam",
+   "album": "Tiger Zinda Hai",
    "videoId": "u5DCgnh8S9M",
    "duration": "4:21"
   },
@@ -797,8 +797,8 @@
   },
   {
    "title": "Lose My Mind",
-   "artist": "Champion - Topic",
-   "album": "",
+   "artist": "Champion;Interplanetary Criminal;Crookers",
+   "album": "Lose My Mind",
    "videoId": "RU5TZ_w-of4",
    "duration": "3:20"
   },
@@ -874,8 +874,8 @@
   },
   {
    "title": "Brokenheart",
-   "artist": "Louke Man - Topic",
-   "album": "",
+   "artist": "Loukeman",
+   "album": "Sd-2",
    "videoId": "sy50C9K81Xg",
    "duration": "3:08"
   },
@@ -888,8 +888,8 @@
   },
   {
    "title": "Lone Swordsman",
-   "artist": "Daniel Avery - Topic",
-   "album": "",
+   "artist": "Daniel Avery",
+   "album": "Dusting For Smoke",
    "videoId": "rR-m9niSosw",
    "duration": "3:54"
   },
@@ -902,8 +902,8 @@
   },
   {
    "title": "Mouse on Keys",
-   "artist": "Human Safari - Topic",
-   "album": "",
+   "artist": "Human Safari",
+   "album": "Culture Shock",
    "videoId": "wiB6wAmyaPw",
    "duration": "5:25"
   },
@@ -923,22 +923,22 @@
   },
   {
    "title": "Car Crash Baby",
-   "artist": "Madeon - Topic",
-   "album": "",
+   "artist": "Madeon",
+   "album": "Car Crash Baby",
    "videoId": "4qwq-BgvS1o",
    "duration": "3:18"
   },
   {
    "title": "Final Song (bod [包家巷] Remix)",
-   "artist": "Bassvictim - Topic",
-   "album": "",
+   "artist": "Bassvictim",
+   "album": "Final Song (bod [包家巷] Remix)",
    "videoId": "VprquG_Swqw",
    "duration": "2:07"
   },
   {
    "title": "gossip (Chris Lake Remix)",
-   "artist": "Confidence Man - Topic",
-   "album": "",
+   "artist": "Confidence Man;JADE",
+   "album": "gossip (Chris Lake Remix)",
    "videoId": "Sk3sx84VZbY",
    "duration": "2:28"
   },
@@ -978,9 +978,9 @@
    "duration": "0:30"
   },
   {
-   "title": "Sugar Water (feat. Hollie Cook) (Mungo's Hi Fi Mix)",
-   "artist": "Prince Fatty - Topic",
-   "album": "",
+   "title": "Sugar Water [Mungo's Hi Fi Mix] (feat. Hollie Cook)",
+   "artist": "Prince Fatty;Mungo's Hi Fi",
+   "album": "Prince Fatty Versus Mungo's Hi Fi",
    "videoId": "UGKBNBdzneg",
    "duration": "4:05"
   },
@@ -1056,8 +1056,8 @@
   },
   {
    "title": "Hard Refresh [DJ_Dave Remix]",
-   "artist": "DJ_Dave - Topic",
-   "album": "",
+   "artist": "DJ_Dave",
+   "album": "Hard Refresh [DJ_Dave Remix]",
    "videoId": "x4ErS1hKABk",
    "duration": "3:40"
   },

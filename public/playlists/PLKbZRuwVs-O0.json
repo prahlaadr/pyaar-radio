@@ -2,7 +2,7 @@
  "playlistId": "PLKbZRuwVs-O0",
  "title": "9laad:DnB",
  "trackCount": 422,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Onyx",
@@ -873,9 +873,9 @@
    "duration": "12:05"
   },
   {
-   "title": "Mother (2019 Remaster)",
-   "artist": "Goldie - Topic",
-   "album": "",
+   "title": "Mother",
+   "artist": "Goldie",
+   "album": "Saturnz Return",
    "videoId": "0w31KF8wcj8",
    "duration": "1:00:20"
   },
@@ -895,8 +895,8 @@
   },
   {
    "title": "Miles From Home",
-   "artist": "Peshay - Topic",
-   "album": "",
+   "artist": "Peshay",
+   "album": "Miles From Home",
    "videoId": "iME8gMXh2XI",
    "duration": "5:33"
   },
@@ -986,8 +986,8 @@
   },
   {
    "title": "Days of Rage",
-   "artist": "Artificial Intelligence - Topic",
-   "album": "",
+   "artist": "Artificial Intelligence",
+   "album": "Stand Alone",
    "videoId": "wNvhJRihaGA",
    "duration": "6:22"
   },
@@ -1118,9 +1118,9 @@
    "duration": "4:21"
   },
   {
-   "title": "Let You Go",
-   "artist": "Chase & Status - Topic",
-   "album": "",
+   "title": "Let You Go (feat. Mali)",
+   "artist": "Chase & Status",
+   "album": "No More Idols",
    "videoId": "GxWmAs7QoIg",
    "duration": "3:55"
   },
@@ -1154,8 +1154,8 @@
   },
   {
    "title": "No Problem",
-   "artist": "Chase & Status - Topic",
-   "album": "",
+   "artist": "Chase & Status",
+   "album": "No More Idols",
    "videoId": "R5gMRYO2X5w",
    "duration": "4:11"
   },
@@ -1168,8 +1168,8 @@
   },
   {
    "title": "Just One Second",
-   "artist": "London Elektricity - Topic",
-   "album": "",
+   "artist": "London Elektricity",
+   "album": "Syncopated City",
    "videoId": "PLarr8-o0RI",
    "duration": "5:39"
   },
@@ -1231,8 +1231,8 @@
   },
   {
    "title": "Out Of This World",
-   "artist": "London Elektricity - Topic",
-   "album": "",
+   "artist": "London Elektricity",
+   "album": "Power Ballads",
    "videoId": "8ko0BbAhIvE",
    "duration": "6:20"
   },
@@ -1252,8 +1252,8 @@
   },
   {
    "title": "Warehouse",
-   "artist": "Logistics - Topic",
-   "album": "",
+   "artist": "Logistics",
+   "album": "Crash, Bang, Wallop",
    "videoId": "OCUFQ3Z3t88",
    "duration": "5:45"
   },
@@ -1287,8 +1287,8 @@
   },
   {
    "title": "Transcending",
-   "artist": "Logistics - Topic",
-   "album": "",
+   "artist": "Logistics",
+   "album": "Polyphony",
    "videoId": "RkKMJxRriJY",
    "duration": "5:43"
   },
@@ -1364,8 +1364,8 @@
   },
   {
    "title": "If We Ever",
-   "artist": "High Contrast - Topic",
-   "album": "",
+   "artist": "High Contrast",
+   "album": "If We Ever",
    "videoId": "53KAC5NM24s",
    "duration": "5:21"
   },
@@ -1420,15 +1420,15 @@
   },
   {
    "title": "Sweet Harmony (feat. Liquid)",
-   "artist": "Danny Byrd - Topic",
-   "album": "",
+   "artist": "Danny Byrd",
+   "album": "Sweet Harmony",
    "videoId": "WZp2PIRbdVo",
    "duration": "6:09"
   },
   {
    "title": "Shock Out",
-   "artist": "Danny Byrd - Topic",
-   "album": "",
+   "artist": "Danny Byrd",
+   "album": "Supersized",
    "videoId": "KUgihld2YP8",
    "duration": "5:49"
   },
@@ -1441,8 +1441,8 @@
   },
   {
    "title": "Red Mist (VIP)",
-   "artist": "Danny Byrd - Topic",
-   "album": "",
+   "artist": "Danny Byrd",
+   "album": "Sick Music",
    "videoId": "A8S1v-SnOLo",
    "duration": "6:04"
   },
@@ -1469,8 +1469,8 @@
   },
   {
    "title": "Spoken (feat. Rocky Nti)",
-   "artist": "Etherwood - Topic",
-   "album": "",
+   "artist": "Etherwood",
+   "album": "Hospitality Drum & Bass 2013",
    "videoId": "Ku_DWZMhu3c",
    "duration": "5:53"
   },
@@ -1490,8 +1490,8 @@
   },
   {
    "title": "Amen Roadtrip",
-   "artist": "Etherwood - Topic",
-   "album": "",
+   "artist": "Etherwood",
+   "album": "Amen Roadtrip",
    "videoId": "BTnPXZ4LSV4",
    "duration": "5:43"
   },
@@ -1637,8 +1637,8 @@
   },
   {
    "title": "Iron Heart",
-   "artist": "Netsky - Topic",
-   "album": "",
+   "artist": "Netsky",
+   "album": "Netsky",
    "videoId": "emGDtwLLBus",
    "duration": "5:57"
   },
@@ -1685,9 +1685,9 @@
    "duration": "4:13"
   },
   {
-   "title": "Running Low",
-   "artist": "Netsky - Topic",
-   "album": "",
+   "title": "Running Low (feat. Beth Ditto)",
+   "artist": "Netsky",
+   "album": "Running Low",
    "videoId": "-rPfwZl-hfs",
    "duration": "3:25"
   },
@@ -1762,30 +1762,30 @@
    "duration": "3:11"
   },
   {
-   "title": "Just a Thought",
-   "artist": "Fred V & Grafix - Topic",
-   "album": "",
+   "title": "Just a Thought (feat. Reija Lee)",
+   "artist": "Fred V & Grafix",
+   "album": "Just a Thought",
    "videoId": "IflzGu8jcTA",
    "duration": "5:47"
   },
   {
    "title": "Major Happy",
-   "artist": "Fred V & Grafix - Topic",
-   "album": "",
+   "artist": "Fred V & Grafix",
+   "album": "Recognise",
    "videoId": "D5DQ9ayMewY",
    "duration": "4:26"
   },
   {
    "title": "Recognise",
-   "artist": "Fred V & Grafix - Topic",
-   "album": "",
+   "artist": "Fred V & Grafix",
+   "album": "Recognise",
    "videoId": "Sm4EkcE5m_w",
    "duration": "5:20"
   },
   {
    "title": "Better Times Are Coming (feat. Josie)",
-   "artist": "Fred V & Grafix - Topic",
-   "album": "",
+   "artist": "Fred V & Grafix",
+   "album": "Recognise",
    "videoId": "1lHehNZNhBY",
    "duration": "3:49"
   },
@@ -1819,8 +1819,8 @@
   },
   {
    "title": "Headlines",
-   "artist": "Whiney - Topic",
-   "album": "",
+   "artist": "Whiney;Subten",
+   "album": "Headlines",
    "videoId": "-TTZbQ5cKis",
    "duration": "3:23"
   },
@@ -1840,8 +1840,8 @@
   },
   {
    "title": "Shaolin Technique (feat. MC Bassman)",
-   "artist": "Kings Of The Rollers - Topic",
-   "album": "",
+   "artist": "Kings Of The Rollers",
+   "album": "Kings Of The Rollers",
    "videoId": "kxGwZGZCRPY",
    "duration": "4:05"
   },
@@ -1868,8 +1868,8 @@
   },
   {
    "title": "The Beginning",
-   "artist": "Moving Fusion - Topic",
-   "album": "",
+   "artist": "Moving Fusion",
+   "album": "RAM 15X15, Vol. 1",
    "videoId": "n09V4V9EzGM",
    "duration": "5:16"
   },
@@ -1889,8 +1889,8 @@
   },
   {
    "title": "Atlantis",
-   "artist": "Moving Fusion - Topic",
-   "album": "",
+   "artist": "Moving Fusion",
+   "album": "Atlantis EP",
    "videoId": "LZvX5abKz6A",
    "duration": "6:47"
   },
@@ -2001,8 +2001,8 @@
   },
   {
    "title": "Babylon",
-   "artist": "Splash - Topic",
-   "album": "",
+   "artist": "Splash",
+   "album": "Juice Records & Splash Records - Foundation Collection",
    "videoId": "7vghx8SEeH8",
    "duration": "6:00"
   },
@@ -2036,8 +2036,8 @@
   },
   {
    "title": "Only You",
-   "artist": "Nookie - Topic",
-   "album": "",
+   "artist": "Nookie",
+   "album": "Reinforced Presents Nookie - The Sound Of Music",
    "videoId": "q59WI7Um7FY",
    "duration": "5:22"
   },
@@ -2064,8 +2064,8 @@
   },
   {
    "title": "Watching Windows",
-   "artist": "Reprazent - Topic",
-   "album": "",
+   "artist": "Roni Size / Reprazent",
+   "album": "New Forms (20th Anniversary Edition)",
    "videoId": "EhpMcCwX-NE",
    "duration": "5:33"
   },
@@ -2077,16 +2077,16 @@
    "duration": "6:14"
   },
   {
-   "title": "New Forms",
-   "artist": "Reprazent - Topic",
-   "album": "",
+   "title": "New Forms (feat. Bahamadia)",
+   "artist": "Roni Size / Reprazent",
+   "album": "New Forms (20th Anniversary Edition)",
    "videoId": "gFULYWF6ezc",
    "duration": "7:45"
   },
   {
    "title": "Dirty Beats",
-   "artist": "Reprazent - Topic",
-   "album": "",
+   "artist": "Roni Size / Reprazent",
+   "album": "In The Mode",
    "videoId": "LFumL8TKba8",
    "duration": "4:02"
   },
@@ -2176,8 +2176,8 @@
   },
   {
    "title": "Wormhole",
-   "artist": "Ed Rush - Topic",
-   "album": "",
+   "artist": "Ed Rush;Optical",
+   "album": "Wormhole",
    "videoId": "Rt0I6LrbhLM",
    "duration": "6:52"
   },
@@ -2281,8 +2281,8 @@
   },
   {
    "title": "The Helicopter Tune",
-   "artist": "Deep Blue - Topic",
-   "album": "",
+   "artist": "Deep Blue",
+   "album": "The Helicopter Tune / Fantasy #2 / Fantasy #3",
    "videoId": "Y4U6su_pgCE",
    "duration": "5:24"
   },
@@ -2302,15 +2302,15 @@
   },
   {
    "title": "Squash",
-   "artist": "Total Science - Topic",
+   "artist": "Total Science",
    "album": "",
    "videoId": "PzVLWqx8dl0",
    "duration": "5:34"
   },
   {
    "title": "Nosher (Baron Remix)",
-   "artist": "Total Science - Topic",
-   "album": "",
+   "artist": "Total Science",
+   "album": "Nosher (Baron Remix) / Safety Clause (Tango & Ratty Remix)",
    "videoId": "R5Wp5vOXkiY",
    "duration": "5:46"
   },
@@ -2463,8 +2463,8 @@
   },
   {
    "title": "Chainsaw",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "DJ Freedom",
+   "album": "Android EP",
    "videoId": "Aq4Qc7yG4rg",
    "duration": "6:31"
   },
@@ -2638,8 +2638,8 @@
   },
   {
    "title": "Thursday",
-   "artist": "Deep Blue - Topic",
-   "album": "",
+   "artist": "Deep Blue",
+   "album": "Thursday / The Helicopter '97 (12\" Version)",
    "videoId": "VmKiTC6A_IE",
    "duration": "7:37"
   },
@@ -2651,16 +2651,16 @@
    "duration": "5:39"
   },
   {
-   "title": "Soul Patrol (Feat. MC Conrad)",
-   "artist": "Total Science - Topic",
-   "album": "",
+   "title": "Soul Patrol (feat. MC Conrad)",
+   "artist": "Total Science",
+   "album": "Soul Patrol",
    "videoId": "NyqiVBKqZ2I",
    "duration": "5:32"
   },
   {
    "title": "Journey Inwards",
-   "artist": "LTJ Bukem - Topic",
-   "album": "",
+   "artist": "LTJ Bukem",
+   "album": "Journey Inwards",
    "videoId": "_sgKK2tf8Uk",
    "duration": "5:14"
   },
@@ -2729,8 +2729,8 @@
   },
   {
    "title": "Brain-Scan",
-   "artist": "Bad Company - Topic",
-   "album": "",
+   "artist": "Bad Company UK",
+   "album": "Inside the Machine",
    "videoId": "EhBlSjFvljI",
    "duration": "7:09"
   },
@@ -2743,8 +2743,8 @@
   },
   {
    "title": "Quest",
-   "artist": "Shimon - Topic",
-   "album": "",
+   "artist": "Shimon;Andy C",
+   "album": "Quest / Night Flight",
    "videoId": "8VGJ1qvmUvA",
    "duration": "6:07"
   },

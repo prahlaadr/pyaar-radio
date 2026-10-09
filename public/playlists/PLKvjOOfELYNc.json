@@ -2,7 +2,7 @@
  "playlistId": "PLKvjOOfELYNc",
  "title": "Jazz Soul Samples",
  "trackCount": 856,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Sunrise",
@@ -2834,8 +2834,8 @@
   },
   {
    "title": "Hrs:Mins:Secs",
-   "artist": "Daedelus - Topic",
-   "album": "",
+   "artist": "Daedelus",
+   "album": "Hours Minutes Seconds",
    "videoId": "AzW6VDNNfsw",
    "duration": "3:37"
   },
@@ -2911,8 +2911,8 @@
   },
   {
    "title": "Lonely As I Ever Was",
-   "artist": "Spencer. - Topic",
-   "album": "",
+   "artist": "Spencer.",
+   "album": "Lonely As I Ever Was",
    "videoId": "2yES5an1Mtk",
    "duration": "3:54"
   },
@@ -3072,8 +3072,8 @@
   },
   {
    "title": "Young G.O.A.T",
-   "artist": "Cheema Y - Topic",
-   "album": "",
+   "artist": "Cheema Y;Gur Sidhu",
+   "album": "Young G.O.A.T",
    "videoId": "LxlXrcAWj5Q",
    "duration": "3:46"
   },
@@ -3142,8 +3142,8 @@
   },
   {
    "title": "Any of These",
-   "artist": "Tara Clerkin Trio - Topic",
-   "album": "",
+   "artist": "Tara Clerkin Trio",
+   "album": "Tara Clerkin Trio",
    "videoId": "h1D8oz1AK-8",
    "duration": "8:01"
   },
@@ -3183,9 +3183,9 @@
    "duration": "4:30"
   },
   {
-   "title": "Calling From Tokyo (Remastered 2021)",
-   "artist": "Ryuichi Sakamoto - Topic",
-   "album": "",
+   "title": "コーリング・フロム・トーキョー - Calling From Tokyo",
+   "artist": "Ryuichi Sakamoto",
+   "album": "Beauty",
    "videoId": "r7l7RfMCYx0",
    "duration": "4:27"
   },
@@ -3254,8 +3254,8 @@
   },
   {
    "title": "Ain't No Love Lost",
-   "artist": "Curtis Mayfield - Topic",
-   "album": "",
+   "artist": "Curtis Mayfield",
+   "album": "Got to Find a Way",
    "videoId": "q4GTZjUSQQo",
    "duration": "3:29"
   },
@@ -3324,15 +3324,15 @@
   },
   {
    "title": "Amore",
-   "artist": "Ryuichi Sakamoto - Topic",
-   "album": "",
+   "artist": "Ryuichi Sakamoto",
+   "album": "Playing The Piano",
    "videoId": "GdVD_YGMiQk",
    "duration": "5:10"
   },
   {
    "title": "Laboriosamente",
-   "artist": "Ennio Morricone - Topic",
-   "album": "",
+   "artist": "Ennio Morricone",
+   "album": "L'assoluto naturale (Original Motion Picture Soundtrack)",
    "videoId": "2R71LrDgG78",
    "duration": "6:54"
   },
@@ -3436,8 +3436,8 @@
   },
   {
    "title": "Felt",
-   "artist": "R Beny - Topic",
-   "album": "",
+   "artist": "R Beny",
+   "album": "Echo's Verse",
    "videoId": "eQ7VvqI1JWQ",
    "duration": "8:11"
   },
@@ -3457,8 +3457,8 @@
   },
   {
    "title": "Smile More (feat. Connis)",
-   "artist": "FELIX! - Topic",
-   "album": "",
+   "artist": "FELIX!",
+   "album": "Infrared",
    "videoId": "-nwXLWLmPdY",
    "duration": "2:52"
   },

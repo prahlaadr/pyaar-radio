@@ -2,7 +2,7 @@
  "playlistId": "PLJIHWFRb5JG0",
  "title": "Disco Funk House + Deep House",
  "trackCount": 635,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "9 to 5",
@@ -1420,8 +1420,8 @@
   },
   {
    "title": "Hey, Who Really Cares",
-   "artist": "Linda Perhacs - Topic",
-   "album": "",
+   "artist": "Linda Perhacs",
+   "album": "Parallelograms",
    "videoId": "RGd_Kt1Nh7Q",
    "duration": "2:38"
   },
@@ -1532,22 +1532,22 @@
   },
   {
    "title": "The View from Skates in Berkeley",
-   "artist": "George Lewis - Topic",
-   "album": "",
+   "artist": "George Lewis;Douglas Ewart;Mary Oliver;Peter Gonzales III",
+   "album": "George Lewis: Changing With the Times",
    "videoId": "jPEKl8fsxjc",
    "duration": "7:39"
   },
   {
-   "title": "ASR",
-   "artist": "Meshell Ndegeocello - Topic",
-   "album": "",
+   "title": "ASR (feat. Jeff Parker)",
+   "artist": "Meshell Ndegeocello",
+   "album": "The Omnichord Real Book",
    "videoId": "S_sOR3Gai0Y",
    "duration": "7:39"
   },
   {
    "title": "The Maxim",
-   "artist": "Tom Skinner - Topic",
-   "album": "",
+   "artist": "Tom Skinner;Meshell Ndegeocello",
+   "album": "The Maxim",
    "videoId": "4qrF51ngacY",
    "duration": "9:57"
   },
@@ -1602,8 +1602,8 @@
   },
   {
    "title": "Thank You Deeply (Dub Mix)",
-   "artist": "Mystery Tiime - Topic",
-   "album": "",
+   "artist": "Mystery Tiime;The Maghreban",
+   "album": "Not Your Fault",
    "videoId": "WiBGTxTjBu4",
    "duration": "3:55"
   },
@@ -1748,9 +1748,9 @@
    "duration": "6:15"
   },
   {
-   "title": "Drop Down",
-   "artist": "Redlight - Topic",
-   "album": "",
+   "title": "Drop Down (feat. Shanique Marie)",
+   "artist": "Redlight",
+   "album": "Drop Down",
    "videoId": "02_PoPoPNgU",
    "duration": "3:56"
   },
@@ -1819,8 +1819,8 @@
   },
   {
    "title": "TAKA (Caribou Remix)",
-   "artist": "Ahadadream - Topic",
-   "album": "",
+   "artist": "Ahadadream;Priya Ragu;Skrillex",
+   "album": "TAKA (Caribou Remix)",
    "videoId": "FqVXX-ibIzc",
    "duration": "3:58"
   },
@@ -1937,9 +1937,9 @@
    "duration": "5:28"
   },
   {
-   "title": "Humming (Original Mix)",
-   "artist": "LeftLeft - Topic",
-   "album": "",
+   "title": "Humming",
+   "artist": "LeftLeft",
+   "album": "DBGI003",
    "videoId": "7UoNOObnQYc",
    "duration": "5:13"
   },
@@ -1973,8 +1973,8 @@
   },
   {
    "title": "USER3328",
-   "artist": "TV.OUT - Topic",
-   "album": "",
+   "artist": "TV.OUT",
+   "album": "Previously Undisclosed Rituals II",
    "videoId": "Fyp2hVlcFLc",
    "duration": "4:26"
   },
@@ -2043,8 +2043,8 @@
   },
   {
    "title": "Colour of Anyhow",
-   "artist": "Beverly Glenn-Copeland - Topic",
-   "album": "",
+   "artist": "Beverly Glenn-Copeland",
+   "album": "Beverly Glenn-Copeland",
    "videoId": "YONg45IoRkw",
    "duration": "3:55"
   },
@@ -2806,8 +2806,8 @@
   },
   {
    "title": "Labyrinth (Atjazz Remix)",
-   "artist": "DJEFF - Topic",
-   "album": "",
+   "artist": "Djeff",
+   "album": "Labyrinth Remixes",
    "videoId": "NaOKt0t9QKQ",
    "duration": "6:53"
   },
@@ -2875,16 +2875,16 @@
    "duration": "3:28"
   },
   {
-   "title": "A Dream Goes on Forever (2015 Remaster)",
-   "artist": "Todd Rundgren - Topic",
-   "album": "",
+   "title": "A Dream Goes on Forever",
+   "artist": "Todd Rundgren",
+   "album": "Todd",
    "videoId": "xt90oOl0IE8",
    "duration": "2:22"
   },
   {
    "title": "Bruises",
-   "artist": "Chairlift - Topic",
-   "album": "",
+   "artist": "Chairlift",
+   "album": "Does You Inspire You",
    "videoId": "PuYGfAjJjLk",
    "duration": "4:02"
   },
@@ -2911,8 +2911,8 @@
   },
   {
    "title": "You're Supposed to Be Feeling Good (2003 Remaster)",
-   "artist": "Emmylou Harris - Topic",
-   "album": "",
+   "artist": "Emmylou Harris",
+   "album": "Luxury Liner (Expanded & Remastered)",
    "videoId": "YH9ZMjsSvAQ",
    "duration": "4:00"
   },
@@ -2932,8 +2932,8 @@
   },
   {
    "title": "The Girl with the Northern Soul Collection",
-   "artist": "Club 8 - Topic",
-   "album": "",
+   "artist": "Club 8",
+   "album": "Spring Came, Rain Fell",
    "videoId": "XiJKPusl52o",
    "duration": "3:22"
   },
@@ -2967,8 +2967,8 @@
   },
   {
    "title": "Dreamfilter.777",
-   "artist": "The Void Sun - Topic",
-   "album": "",
+   "artist": "The Void Sun",
+   "album": ".Dreamfilter",
    "videoId": "5H4d7NAx-i4",
    "duration": "9:08"
   },
@@ -2981,8 +2981,8 @@
   },
   {
    "title": "Back To Your Place (DJ Spen & Ezel Music Mix)",
-   "artist": "Marc Evans - Topic",
-   "album": "",
+   "artist": "Marc Evans;DJ Spen",
+   "album": "Back To Your Place",
    "videoId": "_cztW3Hg9G4",
    "duration": "7:25"
   },
@@ -3015,9 +3015,9 @@
    "duration": "7:31"
   },
   {
-   "title": "When You Find Your Love…Hold On (DJ Spinna Galactic Soul Remix)",
-   "artist": "Tortured Soul - Topic",
-   "album": "",
+   "title": "When You Find Your Love…Hold On (DJ Spinna Galactic Soul Remix) (feat. Sabina Sciubba)",
+   "artist": "Tortured Soul;Alistair Colling;DJ Spinna",
+   "album": "When You Find Your Love…Hold On (DJ Spinna Galactic Soul Remix)",
    "videoId": "Eoy2PAi-9Nk",
    "duration": "8:01"
   },
@@ -3058,15 +3058,15 @@
   },
   {
    "title": "The Hook-Up",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Augustus Williams",
+   "album": "Increaser EP",
    "videoId": "OTsXCkWTEnY",
    "duration": "6:29"
   },
   {
-   "title": "Dreams (feat. DJ Lycox)",
-   "artist": "Dj Danifox - Topic",
-   "album": "",
+   "title": "Dreams",
+   "artist": "DJ Danifox",
+   "album": "RELEASES",
    "videoId": "xPmQR1o8-e0",
    "duration": "3:31"
   },
@@ -3079,8 +3079,8 @@
   },
   {
    "title": "Up Here (feat. Mike S.)",
-   "artist": "Percy Blaine - Topic",
-   "album": "",
+   "artist": "Percy Blaine",
+   "album": "Fall",
    "videoId": "8jk9LrGZU2A",
    "duration": "3:10"
   },
@@ -3128,8 +3128,8 @@
   },
   {
    "title": "Can you kiss me first",
-   "artist": "College - Topic",
-   "album": "",
+   "artist": "College",
+   "album": "Teenage color Ep",
    "videoId": "iO7j1JnLCBw",
    "duration": "3:43"
   },
@@ -3149,8 +3149,8 @@
   },
   {
    "title": "Apartment, Pt. II",
-   "artist": "Lee & Jon - Topic",
-   "album": "",
+   "artist": "Lee & Jon",
+   "album": "Fun (2024 Remaster)",
    "videoId": "67Dnm_n0FV0",
    "duration": "1:31"
   },
@@ -3177,8 +3177,8 @@
   },
   {
    "title": "Mystery or Misery?",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Vegyn",
+   "album": "Mystery or Misery?",
    "videoId": "7ePbRbD_dYQ",
    "duration": "3:50"
   },
@@ -3191,8 +3191,8 @@
   },
   {
    "title": "The Day Of Night",
-   "artist": "Akira Yamaoka - Topic",
-   "album": "",
+   "artist": "AKIRA YAMAOKA",
+   "album": "SILENT HILL2 （Original Soundtrack）",
    "videoId": "ZBL5y8AciNw",
    "duration": "1:38"
   },
@@ -3205,8 +3205,8 @@
   },
   {
    "title": "The Beginning of the End",
-   "artist": "Headache - Topic",
-   "album": "",
+   "artist": "Headache",
+   "album": "The Head Hurts but the Heart Knows the Truth",
    "videoId": "IYRmjFUm0f0",
    "duration": "4:26"
   },
@@ -3226,15 +3226,15 @@
   },
   {
    "title": "Chica Chica Bongo",
-   "artist": "Elli & Jacno - Topic",
-   "album": "",
+   "artist": "Elli & Jacno",
+   "album": "Les Nuits De La Pleine Lune",
    "videoId": "eMQV_Bnm5ME",
    "duration": "5:36"
   },
   {
    "title": "Autumn (Classmatic & Brisotti Remix)",
-   "artist": "Richenel - Topic",
-   "album": "",
+   "artist": "Richenel",
+   "album": "Autumn (Classmatic & Brisotti Remix)",
    "videoId": "cTxyMcFvPGI",
    "duration": "6:31"
   },
@@ -3282,8 +3282,8 @@
   },
   {
    "title": "The Time - Band Introduction / 777-9311 (Live at Minneapolis, MN Minneapolis, MN 1983)",
-   "artist": "The Mosh Pit - Topic",
-   "album": "",
+   "artist": "The Mosh Pit",
+   "album": "The Mosh Pit Presents Vol. 304",
    "videoId": "qxKy3neiA8M",
    "duration": "12:13"
   },
@@ -3303,8 +3303,8 @@
   },
   {
    "title": "Sucker Punch (Four Tet Remix)",
-   "artist": "Sigrid - Topic",
-   "album": "",
+   "artist": "Sigrid",
+   "album": "Sucker Punch (Four Tet Remix)",
    "videoId": "xnCfaJFF_VM",
    "duration": "4:09"
   },
@@ -3345,8 +3345,8 @@
   },
   {
    "title": "Bad Endgar",
-   "artist": "Brainwaltzera - Topic",
-   "album": "",
+   "artist": "Brainwaltzera",
+   "album": "Epi-Log EP",
    "videoId": "BoWux_jSsCQ",
    "duration": "3:30"
   },
@@ -3359,8 +3359,8 @@
   },
   {
    "title": "No Juntos",
-   "artist": "Reto A Ichi - Topic",
-   "album": "",
+   "artist": "Reto A Ichi",
+   "album": "No Juntos",
    "videoId": "jIo-9301SzA",
    "duration": "3:34"
   },
@@ -3373,15 +3373,15 @@
   },
   {
    "title": "For What It's Worth",
-   "artist": "Jay Rock - Topic",
-   "album": "",
+   "artist": "Jay Rock",
+   "album": "Redemption",
    "videoId": "Ku3dJGM-CwY",
    "duration": "3:07"
   },
   {
    "title": "435",
-   "artist": "Tyler, The Creator - Topic",
-   "album": "",
+   "artist": "Tyler, The Creator",
+   "album": "435",
    "videoId": "INm1HjC_tew",
    "duration": "1:34"
   },
@@ -3400,9 +3400,9 @@
    "duration": "3:10"
   },
   {
-   "title": "Love's Time",
-   "artist": "King Britt - Topic",
-   "album": "",
+   "title": "Love's Time (feat. Lady Alma)",
+   "artist": "King Britt",
+   "album": "Adventures in Lo-Fi",
    "videoId": "ARqYHohUPf0",
    "duration": "4:24"
   },
@@ -3429,8 +3429,8 @@
   },
   {
    "title": "Heavenly (Karizma Remix - Jerome Sydenham Special Edit)",
-   "artist": "DJ Spen - Topic",
-   "album": "",
+   "artist": "DJ Spen;Dana Weaver",
+   "album": "Editopia: Jerome Sydenham - Special Edits",
    "videoId": "bw7yiN_qZ8w",
    "duration": "7:21"
   },
@@ -3464,22 +3464,22 @@
   },
   {
    "title": "John Blaze",
-   "artist": "Aaliyah - Topic",
-   "album": "",
+   "artist": "Aaliyah;Missy Elliott",
+   "album": "Ultimate Aaliyah",
    "videoId": "nS7TLo5qiVM",
    "duration": "4:03"
   },
   {
    "title": "Break of Dawn",
-   "artist": "Tevin Campbell - Topic",
-   "album": "",
+   "artist": "Tevin Campbell",
+   "album": "Back to the World",
    "videoId": "R-m2oUv5IxA",
    "duration": "5:49"
   },
   {
    "title": "Foolin' Around",
-   "artist": "Changing Faces - Topic",
-   "album": "",
+   "artist": "Changing Faces",
+   "album": "Changing Faces",
    "videoId": "S3R5D8EW90U",
    "duration": "4:29"
   },
@@ -3492,8 +3492,8 @@
   },
   {
    "title": "Never Felt This Way (Interlude)",
-   "artist": "Alicia Keys - Topic",
-   "album": "",
+   "artist": "Alicia Keys",
+   "album": "Songs In A Minor",
    "videoId": "4h2S1jsxcRg",
    "duration": "2:01"
   },

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2qJgX-r0t9fNhWUb5JljNR",
  "title": "For Dad",
  "trackCount": 76,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "QUE NO SALGA LA LUNA (Cap.2: Boda)",
@@ -55,8 +55,8 @@
   },
   {
    "title": "August Twelve",
-   "artist": "Khruangbin - Topic",
-   "album": "",
+   "artist": "Khruangbin",
+   "album": "The Universe Smiles Upon You",
    "videoId": "7-hLkwlsD-M",
    "duration": "6:14"
   },
@@ -69,15 +69,15 @@
   },
   {
    "title": "P.Y.T. (Pretty Young Thing)",
-   "artist": "Michael Jackson - Topic",
-   "album": "",
+   "artist": "Michael Jackson",
+   "album": "Thriller 25 Super Deluxe Edition",
    "videoId": "UU9cjOf4MFo",
    "duration": "3:59"
   },
   {
    "title": "Woman",
-   "artist": "Doja Cat - Topic",
-   "album": "",
+   "artist": "Doja Cat",
+   "album": "Planet Her",
    "videoId": "GnmoJaTWiQE",
    "duration": "2:53"
   },
@@ -132,8 +132,8 @@
   },
   {
    "title": "The Alchemist",
-   "artist": "Little Tybee - Topic",
-   "album": "",
+   "artist": "Little Tybee",
+   "album": "Little Tybee",
    "videoId": "QZ8fmmN3fic",
    "duration": "3:20"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "Dracula Teeth",
-   "artist": "The Last Shadow Puppets - Topic",
-   "album": "",
+   "artist": "The Last Shadow Puppets",
+   "album": "Everything You've Come To Expect (Deluxe Edition)",
    "videoId": "JGdvpBhF5c8",
    "duration": "2:52"
   },
@@ -209,8 +209,8 @@
   },
   {
    "title": "Extraordinary",
-   "artist": "Mandy Moore - Topic",
-   "album": "",
+   "artist": "Mandy Moore",
+   "album": "Wild Hope",
    "videoId": "I-OGa2FNvxw",
    "duration": "2:54"
   },
@@ -272,8 +272,8 @@
   },
   {
    "title": "Strawberry Swing",
-   "artist": "Coldplay - Topic",
-   "album": "",
+   "artist": "Coldplay",
+   "album": "Viva La Vida or Death and All His Friends",
    "videoId": "H84ia4pR2PI",
    "duration": "4:10"
   },
@@ -349,8 +349,8 @@
   },
   {
    "title": "Perpetual Nights",
-   "artist": "Maxine Ashley - Topic",
-   "album": "",
+   "artist": "Maxine Ashley",
+   "album": "Moodswings",
    "videoId": "lczB-5Bz-c4",
    "duration": "3:33"
   },
@@ -468,15 +468,15 @@
   },
   {
    "title": "Juna",
-   "artist": "Clairo - Topic",
-   "album": "",
+   "artist": "Clairo",
+   "album": "Charm",
    "videoId": "SR70AZXmyr8",
    "duration": "3:16"
   },
   {
    "title": "Me & Mr Jones",
-   "artist": "Amy Winehouse - Topic",
-   "album": "",
+   "artist": "Amy Winehouse",
+   "album": "Back To Black",
    "videoId": "8kvb-pJEeEI",
    "duration": "2:32"
   },

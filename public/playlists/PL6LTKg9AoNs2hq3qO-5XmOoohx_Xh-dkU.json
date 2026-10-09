@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2hq3qO-5XmOoohx_Xh-dkU",
  "title": "Riding (Day)",
  "trackCount": 137,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "The Gospel of John Hurt",
@@ -48,8 +48,8 @@
   },
   {
    "title": "Best Friend",
-   "artist": "Rex Orange County - Topic",
-   "album": "",
+   "artist": "Rex Orange County",
+   "album": "Best Friend",
    "videoId": "MMvlxSupSVE",
    "duration": "4:23"
   },
@@ -181,8 +181,8 @@
   },
   {
    "title": "The Way You'd Love Her",
-   "artist": "Mac DeMarco - Topic",
-   "album": "",
+   "artist": "Mac DeMarco",
+   "album": "The Way You'd Love Her",
    "videoId": "KjrXZ3-0hto",
    "duration": "2:37"
   },
@@ -293,8 +293,8 @@
   },
   {
    "title": "The Greatest",
-   "artist": "Alabama Shakes - Topic",
-   "album": "",
+   "artist": "Alabama Shakes",
+   "album": "Sound & Color (Deluxe Edition)",
    "videoId": "ieL048Eq4TM",
    "duration": "3:50"
   },
@@ -313,9 +313,9 @@
    "duration": "3:04"
   },
   {
-   "title": "Don't Fuck This Up (with Ed Prosek)",
-   "artist": "Andrew Applepie - Topic",
-   "album": "",
+   "title": "Don't Fuck This Up (with Ed Prosek) (feat. Ed Prosek)",
+   "artist": "Andrew Applepie",
+   "album": "Hanging Out, Playing Video Games, Writing Songs",
    "videoId": "YYGrFMNdIDc",
    "duration": "3:49"
   },
@@ -356,15 +356,15 @@
   },
   {
    "title": "Ocean Avenue",
-   "artist": "Yellowcard - Topic",
-   "album": "",
+   "artist": "Yellowcard",
+   "album": "Ocean Avenue",
    "videoId": "LvyHVgocP_0",
    "duration": "3:19"
   },
   {
    "title": "Dog Days Are Over",
-   "artist": "Florence + The Machine - Topic",
-   "album": "",
+   "artist": "Florence + The Machine",
+   "album": "Lungs (Deluxe Edition)",
    "videoId": "mHJUSQVGXAE",
    "duration": "4:12"
   },
@@ -461,8 +461,8 @@
   },
   {
    "title": "Coming Home (Interlude)",
-   "artist": "Kali Uchis - Topic",
-   "album": "",
+   "artist": "Kali Uchis",
+   "album": "Isolation",
    "videoId": "aDVRZUVsy_4",
    "duration": "2:40"
   },
@@ -530,9 +530,9 @@
    "duration": "3:43"
   },
   {
-   "title": "Homecoming",
-   "artist": "Kanye West - Topic",
-   "album": "",
+   "title": "Homecoming (feat. Chris Martin)",
+   "artist": "Kanye West",
+   "album": "Graduation",
    "videoId": "YOzAdMs5dEc",
    "duration": "3:24"
   },
@@ -636,8 +636,8 @@
   },
   {
    "title": "Childs Play",
-   "artist": "Drake - Topic",
-   "album": "",
+   "artist": "Drake",
+   "album": "Views",
    "videoId": "HS19n5g3gZI",
    "duration": "4:02"
   },
@@ -685,8 +685,8 @@
   },
   {
    "title": "Me & You",
-   "artist": "Parekh & Singh - Topic",
-   "album": "",
+   "artist": "Parekh & Singh",
+   "album": "Ocean",
    "videoId": "PwxAMPrBOYg",
    "duration": "3:51"
   },
@@ -706,8 +706,8 @@
   },
   {
    "title": "DI MI NOMBRE (Cap.8: Éxtasis)",
-   "artist": "ROSALÍA",
-   "album": "El Mal Querer",
+   "artist": "ROSALÍA - Topic",
+   "album": "",
    "videoId": "eGuVONdX-uo",
    "duration": "2:43"
   },
@@ -720,8 +720,8 @@
   },
   {
    "title": "I Like That",
-   "artist": "Janelle Monáe",
-   "album": "Dirty Computer",
+   "artist": "Janelle Monáe - Topic",
+   "album": "",
    "videoId": "hj0-tIwou6g",
    "duration": "3:21"
   },
@@ -755,8 +755,8 @@
   },
   {
    "title": "Adore You",
-   "artist": "Harry Styles",
-   "album": "Fine Line",
+   "artist": "Harry Styles - Topic",
+   "album": "",
    "videoId": "vum2bUJwfkI",
    "duration": "3:28"
   },
@@ -832,8 +832,8 @@
   },
   {
    "title": "Eternal Summer",
-   "artist": "The Strokes",
-   "album": "The New Abnormal",
+   "artist": "The Strokes - Topic",
+   "album": "",
    "videoId": "tFAx-B71jLQ",
    "duration": "6:16"
   },
@@ -853,8 +853,8 @@
   },
   {
    "title": "Hide",
-   "artist": "Rainbow Kitten Surprise",
-   "album": "How to: Friend, Love, Freefall",
+   "artist": "Rainbow Kitten Surprise - Topic",
+   "album": "",
    "videoId": "M-vTTmLwT5w",
    "duration": "3:13"
   },
@@ -944,15 +944,15 @@
   },
   {
    "title": "Caroline",
-   "artist": "Arlo Parks",
-   "album": "Caroline",
+   "artist": "Arlo Parks - Topic",
+   "album": "",
    "videoId": "nQ2ykD-Nucw",
    "duration": "3:37"
   },
   {
    "title": "Quiet as a Sail",
-   "artist": "Little Tybee",
-   "album": "Little Tybee",
+   "artist": "Little Tybee - Topic",
+   "album": "",
    "videoId": "RR_r9U99rtM",
    "duration": "5:19"
   },

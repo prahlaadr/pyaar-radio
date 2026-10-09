@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs03sfaMRMheWRwosA39w5hD",
  "title": "PRODUCED BY KENNY BEATS",
  "trackCount": 305,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Taxes",
@@ -55,8 +55,8 @@
   },
   {
    "title": "Problems",
-   "artist": "Skiifall - Topic",
-   "album": "",
+   "artist": "Skiifall",
+   "album": "Problems",
    "videoId": "RAg7VZgqglw",
    "duration": "3:04"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "I Suppose",
-   "artist": "Knucks - Topic",
-   "album": "",
+   "artist": "Knucks;Larry June;Kenny Beats",
+   "album": "I Suppose",
    "videoId": "nDVlGM9ASRM",
    "duration": "3:43"
   },
@@ -251,15 +251,15 @@
   },
   {
    "title": "Family Tree",
-   "artist": "Kenny Beats - Topic",
-   "album": "",
+   "artist": "Kenny Beats",
+   "album": "LOUIE",
    "videoId": "Jeo5A5d3YmU",
    "duration": "2:14"
   },
   {
    "title": "Hooper",
-   "artist": "Kenny Beats - Topic",
-   "album": "",
+   "artist": "Kenny Beats",
+   "album": "LOUIE",
    "videoId": "8fMQ0phEcLw",
    "duration": "1:28"
   },
@@ -503,8 +503,8 @@
   },
   {
    "title": "Love Gone Cold",
-   "artist": "Harry Stone - Topic",
-   "album": "",
+   "artist": "Harry Stone;Kenny Beats",
+   "album": "Love Gone Cold",
    "videoId": "RaS0zSAqaO4",
    "duration": "2:54"
   },
@@ -552,8 +552,8 @@
   },
   {
    "title": "Magic",
-   "artist": "Jany Green - Topic",
-   "album": "",
+   "artist": "Jany Green",
+   "album": "Magic",
    "videoId": "sBBx0OAM1Fk",
    "duration": "2:19"
   },
@@ -608,8 +608,8 @@
   },
   {
    "title": "TAKING TRIPS",
-   "artist": "Vince Staples - Topic",
-   "album": "",
+   "artist": "Vince Staples",
+   "album": "Vince Staples",
    "videoId": "SFqe3yTlNhQ",
    "duration": "2:38"
   },
@@ -650,8 +650,8 @@
   },
   {
    "title": "Merlin’s Staff",
-   "artist": "Ski Mask The Slump God - Topic",
-   "album": "",
+   "artist": "Ski Mask The Slump God",
+   "album": "Sin City The Mixtape",
    "videoId": "so4bmdb536g",
    "duration": "2:05"
   },
@@ -685,15 +685,15 @@
   },
   {
    "title": "AIN'T GON STOP ME",
-   "artist": "reggie - Topic",
-   "album": "",
+   "artist": "reggie",
+   "album": "Ain't Gon Stop Me",
    "videoId": "KwrxUkR92Q4",
    "duration": "1:36"
   },
   {
-   "title": "DIET_1.5",
-   "artist": "Denzel Curry - Topic",
-   "album": "",
+   "title": "DIET_1.5 (feat. Benny The Butcher)",
+   "artist": "Denzel Curry;Kenny Beats",
+   "album": "UNLOCKED 1.5",
    "videoId": "hJC5ZR91bTI",
    "duration": "2:24"
   },

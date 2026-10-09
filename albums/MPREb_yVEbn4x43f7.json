@@ -18,13 +18,13 @@
   },
   {
    "title": "SPECTRUM",
-   "artist": "wev & scruz",
+   "artist": "wev;scruz",
    "videoId": "ROUXVwpvtwk",
    "duration": "3:50"
   },
   {
    "title": "WITMYBABY",
-   "artist": "wev & issacgsw",
+   "artist": "wev;issacgsw",
    "videoId": "_4LU17AKIUM",
    "duration": "2:45"
   },
@@ -60,7 +60,7 @@
   },
   {
    "title": "COME UNDONE",
-   "artist": "wev & frau",
+   "artist": "wev;frau",
    "videoId": "X_N_yc8pIBQ",
    "duration": "3:11"
   },
@@ -72,7 +72,7 @@
   },
   {
    "title": "BAD BOY MUSIC",
-   "artist": "wev & Dazegxd",
+   "artist": "wev;Dazegxd",
    "videoId": "5tU4zK_m5V8",
    "duration": "0:58"
   },
@@ -96,5 +96,5 @@
   }
  ],
  "browseId": "MPREb_yVEbn4x43f7",
- "syncedAt": "2026-09-05T11:41:42.141060Z"
+ "syncedAt": "2026-10-09T15:02:02.481750Z"
 }

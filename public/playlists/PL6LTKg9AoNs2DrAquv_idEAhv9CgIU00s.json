@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
  "title": "Four tet’s crate (goated)",
  "trackCount": 3339,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "A Thousand Miles",
@@ -1770,9 +1770,9 @@
   },
   {
    "title": "Go On",
-   "artist": "a.s.o.",
+   "artist": "a.s.o.;Alias Error;Tornado Wallace",
    "album": "a.s.o.",
-   "videoId": "Jm8mtpwXvUg",
+   "videoId": "tWZ8oNMaqFk",
    "duration": "2:55"
   },
   {
@@ -2820,8 +2820,8 @@
   },
   {
    "title": "La Jeteé",
-   "artist": "Isotope 217 - Topic",
-   "album": "",
+   "artist": "Isotope 217",
+   "album": "The Unstable Molecule",
    "videoId": "Zjh_6y0fBqc",
    "duration": "6:16"
   },
@@ -2890,8 +2890,8 @@
   },
   {
    "title": "My Friend of Misery (From Jason's Riff Tapes)",
-   "artist": "Metallica - Topic",
-   "album": "",
+   "artist": "Metallica",
+   "album": "Metallica (Remastered Deluxe Box Set)",
    "videoId": "yNd81L5wvM0",
    "duration": "4:38"
   },
@@ -2918,8 +2918,8 @@
   },
   {
    "title": "Made of Air",
-   "artist": "Grouper - Topic",
-   "album": "",
+   "artist": "Grouper",
+   "album": "Ruins",
    "videoId": "kTML7kTidJY",
    "duration": "11:25"
   },
@@ -3072,8 +3072,8 @@
   },
   {
    "title": "Eggshell",
-   "artist": "Autechre - Topic",
-   "album": "",
+   "artist": "Autechre",
+   "album": "Incunabula",
    "videoId": "wSGGTvjKoaE",
    "duration": "9:03"
   },
@@ -3086,8 +3086,8 @@
   },
   {
    "title": "Don't You Care",
-   "artist": "Alice Clark - Topic",
-   "album": "",
+   "artist": "Alice Clark",
+   "album": "Alice Clark",
    "videoId": "ja21nLEQUCk",
    "duration": "2:50"
   },
@@ -3100,8 +3100,8 @@
   },
   {
    "title": "Dannys Song",
-   "artist": "Premiata Forneria Marconi - Topic",
-   "album": "",
+   "artist": "PFM",
+   "album": "Producer 02",
    "videoId": "KRHCsnpRDGo",
    "duration": "5:43"
   },
@@ -3114,8 +3114,8 @@
   },
   {
    "title": "Apocalipse",
-   "artist": "José Mauro - Topic",
-   "album": "",
+   "artist": "José Mauro",
+   "album": "Obnoxius",
    "videoId": "et4a26Jkkko",
    "duration": "3:09"
   },
@@ -3142,8 +3142,8 @@
   },
   {
    "title": "Ballerina 12/24",
-   "artist": "Steve Vai - Topic",
-   "album": "",
+   "artist": "Steve Vai",
+   "album": "Passion And Warfare",
    "videoId": "ytjJnoDCF_c",
    "duration": "1:43"
   },
@@ -3170,22 +3170,22 @@
   },
   {
    "title": "Ellipsis",
-   "artist": "Joy Orbison - Topic",
-   "album": "",
+   "artist": "Joy Orbison",
+   "album": "Ellipsis",
    "videoId": "esn4AqroKHE",
    "duration": "5:08"
   },
   {
    "title": "In The Yuma (Four Tet Remix)",
-   "artist": "Chris Lake - Topic",
-   "album": "",
+   "artist": "Chris Lake;Aatig",
+   "album": "In The Yuma (Four Tet Remix)",
    "videoId": "EL0OtKWzsAc",
    "duration": "4:50"
   },
   {
    "title": "Rain On Tin",
-   "artist": "Sonic Youth - Topic",
-   "album": "",
+   "artist": "Sonic Youth",
+   "album": "Murray St.",
    "videoId": "EHBVfH_YQOM",
    "duration": "7:53"
   },
@@ -3219,8 +3219,8 @@
   },
   {
    "title": "Hula Om",
-   "artist": "Raul Lovisoni - Topic",
-   "album": "",
+   "artist": "Raul Lovisoni;Francesco Messina",
+   "album": "Prati Bagnati Del Monte Analogo",
    "videoId": "OSYrTC9o40c",
    "duration": "9:27"
   },
@@ -3247,8 +3247,8 @@
   },
   {
    "title": "Phosycon",
-   "artist": "Overmono - Topic",
-   "album": "",
+   "artist": "Overmono",
+   "album": "Cash Romantic",
    "videoId": "7_3pp8yso8k",
    "duration": "5:12"
   },
@@ -3261,8 +3261,8 @@
   },
   {
    "title": "I'll Miss the System Here",
-   "artist": "Four Tet - Topic",
-   "album": "",
+   "artist": "Four Tet",
+   "album": "Three +",
    "videoId": "CYNLAC_s_28",
    "duration": "7:11"
   },
@@ -3352,8 +3352,8 @@
   },
   {
    "title": "Like My Way",
-   "artist": "Logic1000 - Topic",
-   "album": "",
+   "artist": "Logic1000",
+   "album": "You've Got the Whole Night to Go",
    "videoId": "XXsgEfxZeF0",
    "duration": "4:14"
   },
@@ -3408,8 +3408,8 @@
   },
   {
    "title": "Danse Fambeaux",
-   "artist": "Dr. John - Topic",
-   "album": "",
+   "artist": "Dr. John",
+   "album": "Gris Gris",
    "videoId": "apMbFM3UH0E",
    "duration": "4:57"
   },
@@ -3443,8 +3443,8 @@
   },
   {
    "title": "Graveyard (2007 Remaster)",
-   "artist": "Forest - Topic",
-   "album": "",
+   "artist": "Forest",
+   "album": "The Full Circle",
    "videoId": "R_XBkkSpYEI",
    "duration": "5:46"
   },
@@ -3464,8 +3464,8 @@
   },
   {
    "title": "Tequesta",
-   "artist": "The Mercury Program - Topic",
-   "album": "",
+   "artist": "The Mercury Program",
+   "album": "A Data Learn the Language",
    "videoId": "T3s1fmntyOQ",
    "duration": "7:39"
   },
@@ -3484,9 +3484,9 @@
    "duration": "4:46"
   },
   {
-   "title": "The Relic",
-   "artist": "Machinedrum - Topic",
-   "album": "",
+   "title": "The Relic (feat. Rochelle Jordan)",
+   "artist": "Machinedrum",
+   "album": "A View of U",
    "videoId": "89u_5AziUy8",
    "duration": "4:23"
   },
@@ -4360,15 +4360,15 @@
   },
   {
    "title": "Sanctuary 9",
-   "artist": "Dusqk - Topic",
-   "album": "",
+   "artist": "Dusqk",
+   "album": "Sanctuary OS",
    "videoId": "b-ZyFKrmVM8",
    "duration": "4:01"
   },
   {
-   "title": "Fade To Black (Remastered)",
-   "artist": "Metallica - Topic",
-   "album": "",
+   "title": "Fade To Black",
+   "artist": "Metallica",
+   "album": "Ride The Lightning (Deluxe Remaster)",
    "videoId": "f0obu8TQrws",
    "duration": "6:58"
   },
@@ -4388,8 +4388,8 @@
   },
   {
    "title": "Mmmmm",
-   "artist": "Hatcha - Topic",
-   "album": "",
+   "artist": "Hatcha;Kromestar",
+   "album": "Brothers Grim",
    "videoId": "ppkVtWHc05s",
    "duration": "4:07"
   },
@@ -4416,8 +4416,8 @@
   },
   {
    "title": "Darkness Calling",
-   "artist": "TAFKAMP - Topic",
-   "album": "",
+   "artist": "TAFKAMP",
+   "album": "Paling Trax 4",
    "videoId": "f2HjKxowDpI",
    "duration": "5:28"
   },
@@ -4451,8 +4451,8 @@
   },
   {
    "title": "Affection (Solomun Remix)",
-   "artist": "Boys Noize - Topic",
-   "album": "",
+   "artist": "Boys Noize;ABRA;Solomun",
+   "album": "Affection Remixes",
    "videoId": "uiK5nVAtR6Y",
    "duration": "5:13"
   },
@@ -4465,8 +4465,8 @@
   },
   {
    "title": "Send In The Clowns",
-   "artist": "Lorez Alexandria - Topic",
-   "album": "",
+   "artist": "Lorez Alexandria",
+   "album": "What's Wrong With Groovin",
    "videoId": "B_Jh4hJNJxU",
    "duration": "3:54"
   },
@@ -4633,8 +4633,8 @@
   },
   {
    "title": "Style (1996 Original Dub Mix)",
-   "artist": "Ramsey & Fen - Topic",
-   "album": "",
+   "artist": "Ramsey & Fen",
+   "album": "Style",
    "videoId": "gUeeIVYv0hQ",
    "duration": "7:20"
   },
@@ -4661,8 +4661,8 @@
   },
   {
    "title": "Sentinela",
-   "artist": "Milton Nascimento - Topic",
-   "album": "",
+   "artist": "Milton Nascimento",
+   "album": "Milton Nascimento",
    "videoId": "0iCC3XPrwFA",
    "duration": "4:26"
   },
@@ -4703,8 +4703,8 @@
   },
   {
    "title": "Drums Unlimited (Mono)",
-   "artist": "Max Roach - Topic",
-   "album": "",
+   "artist": "Max Roach",
+   "album": "Drums Unlimited (Mono)",
    "videoId": "SEuByuaVT7k",
    "duration": "4:25"
   },
@@ -4716,9 +4716,9 @@
    "duration": "6:34"
   },
   {
-   "title": "Taqsīm Maqām Ājam",
-   "artist": "Rahim Alhaj with Souhail Kaspar - Topic",
-   "album": "",
+   "title": "Taqsīm Maqām Ājam (feat. Souhail Kaspar)",
+   "artist": "Rahim AlHaj",
+   "album": "When the Soul is Settled: Music of Iraq",
    "videoId": "XAftMNkqyuM",
    "duration": "8:52"
   },
@@ -5060,8 +5060,8 @@
   },
   {
    "title": "Boy You Should Listen",
-   "artist": "Nicole Wray - Topic",
-   "album": "",
+   "artist": "Nicole",
+   "album": "Make It Hot",
    "videoId": "k0zE3Eu0I-0",
    "duration": "4:24"
   },
@@ -5186,15 +5186,15 @@
   },
   {
    "title": "Fade Out",
-   "artist": "Dusqk - Topic",
-   "album": "",
+   "artist": "Dusqk",
+   "album": "Manual Drive 1991",
    "videoId": "iAxCIf_DfWw",
    "duration": "5:36"
   },
   {
    "title": "Tiger Bones",
-   "artist": "Joni Mitchell - Topic",
-   "album": "",
+   "artist": "Joni Mitchell",
+   "album": "Taming the Tiger",
    "videoId": "rHJ3GJ33cQM",
    "duration": "4:24"
   },
@@ -5228,8 +5228,8 @@
   },
   {
    "title": "Track 4",
-   "artist": "Directions - Topic",
-   "album": "",
+   "artist": "Directions",
+   "album": "Directions in Music",
    "videoId": "ViAT9xg0t7E",
    "duration": "4:54"
   },
@@ -5256,15 +5256,15 @@
   },
   {
    "title": "No Services",
-   "artist": "Four Tet - Topic",
-   "album": "",
+   "artist": "Kieran Hebden;William Tyler",
+   "album": "Darkness, Darkness / No Services",
    "videoId": "HzeQkduJo0o",
    "duration": "7:16"
   },
   {
    "title": "Sucker Punch (Four Tet Remix)",
-   "artist": "Sigrid - Topic",
-   "album": "",
+   "artist": "Sigrid",
+   "album": "Sucker Punch (Four Tet Remix)",
    "videoId": "xnCfaJFF_VM",
    "duration": "4:09"
   },
@@ -5417,8 +5417,8 @@
   },
   {
    "title": "Strings",
-   "artist": "iyla - Topic",
-   "album": "",
+   "artist": "iyla",
+   "album": "OTHER WAYS TO VENT",
    "videoId": "A4w8J1aOUOI",
    "duration": "2:56"
   },
@@ -5445,8 +5445,8 @@
   },
   {
    "title": "Where Did He Come From (Alteen Single Version)",
-   "artist": "Sunday - Topic",
-   "album": "",
+   "artist": "Sunday",
+   "album": "TEEN ANGELS: Chicano Lowrider Oldies from The Southland and Beyond, Vol. 3",
    "videoId": "yen1Hoi65Wc",
    "duration": "3:02"
   },
@@ -5500,9 +5500,9 @@
    "duration": "2:36"
   },
   {
-   "title": "Venus (Original Mix)",
-   "artist": "Malin Genie - Topic",
-   "album": "",
+   "title": "Venus",
+   "artist": "Malin Genie",
+   "album": "Eschaton EP",
    "videoId": "3ZitHscPAeM",
    "duration": "7:49"
   },
@@ -5522,15 +5522,15 @@
   },
   {
    "title": "Sucker Punch (Four Tet Remix)",
-   "artist": "Sigrid - Topic",
-   "album": "",
+   "artist": "Sigrid",
+   "album": "Sucker Punch (Four Tet Remix)",
    "videoId": "xnCfaJFF_VM",
    "duration": "4:09"
   },
   {
    "title": "Jupiters (Happa Remix)",
-   "artist": "Four Tet - Topic",
-   "album": "",
+   "artist": "Four Tet",
+   "album": "Pink Remixes",
    "videoId": "P_jVr31J7Uw",
    "duration": "6:36"
   },
@@ -9876,8 +9876,8 @@
   },
   {
    "title": "Caecilia",
-   "artist": "Fennesz - Topic",
-   "album": "",
+   "artist": "Fennesz",
+   "album": "Endless Summer",
    "videoId": "EJISu2nynkY",
    "duration": "3:52"
   },
@@ -10100,8 +10100,8 @@
   },
   {
    "title": "Running 2",
-   "artist": "Nora On Tape - Topic",
-   "album": "",
+   "artist": "Nora On Tape",
+   "album": "Dream About The Poison",
    "videoId": "m9rJ92N020s",
    "duration": "1:27"
   },
@@ -10163,8 +10163,8 @@
   },
   {
    "title": "La maison",
-   "artist": "Dominique A - Topic",
-   "album": "",
+   "artist": "Dominique A",
+   "album": "Le monde réel",
    "videoId": "-wtbOQaJB-0",
    "duration": "4:49"
   },
@@ -10198,8 +10198,8 @@
   },
   {
    "title": "Pastoral Symphony",
-   "artist": "Richard Maxfield - Topic",
-   "album": "",
+   "artist": "Richard Maxfield",
+   "album": "Oak of the Golden Dreams: Works by Richard Maxfield and Harold Budd",
    "videoId": "ukvkdTi6bL0",
    "duration": "4:04"
   },
@@ -10274,9 +10274,9 @@
    "duration": "4:56"
   },
   {
-   "title": "The First Time Ever I Saw Your Face (2015 Remaster)",
-   "artist": "Bert Jansch - Topic",
-   "album": "",
+   "title": "The First Time Ever I Saw Your Face",
+   "artist": "Bert Jansch",
+   "album": "Jack Orion",
    "videoId": "auG8lldv_qE",
    "duration": "1:46"
   },
@@ -10373,8 +10373,8 @@
   },
   {
    "title": "Skyla",
-   "artist": "Beta Librae - Topic",
-   "album": "",
+   "artist": "Beta Librae",
+   "album": "Sanguine Bond",
    "videoId": "2q11BT_sLF0",
    "duration": "2:32"
   },
@@ -10415,8 +10415,8 @@
   },
   {
    "title": "Movement 9",
-   "artist": "Floating Points - Topic",
-   "album": "",
+   "artist": "Floating Points;Pharoah Sanders;The London Symphony Orchestra",
+   "album": "Promises",
    "videoId": "dc_WwtK6xTI",
    "duration": "2:31"
   },
@@ -10450,15 +10450,15 @@
   },
   {
    "title": "Murking (Instrumental)",
-   "artist": "Jme - Topic",
-   "album": "",
+   "artist": "Jme",
+   "album": "Murking",
    "videoId": "wZD1CGRUTF8",
    "duration": "2:59"
   },
   {
    "title": "A Gargantuan Melting Face Floating Effortlessly Through The Stratosphere",
-   "artist": "Special Request - Topic",
-   "album": "",
+   "artist": "Special Request",
+   "album": "VORTEX",
    "videoId": "mVkzJOgzk5U",
    "duration": "5:00"
   },
@@ -10478,8 +10478,8 @@
   },
   {
    "title": "Friends and Neighbors",
-   "artist": "Ornette Coleman - Topic",
-   "album": "",
+   "artist": "Ornette Coleman",
+   "album": "Liberation Music: Spiritual Jazz and the Art of Protest",
    "videoId": "OemDKJahz4E",
    "duration": "4:18"
   },
@@ -10604,8 +10604,8 @@
   },
   {
    "title": "Fang Jai Viangjan",
-   "artist": "Thepporn Petchubon - Topic",
-   "album": "",
+   "artist": "Thepporn Petchubon",
+   "album": "The Sound of Siam, Vol. 2 (Molam & Luk Thung Isan from North-East Thailand 1970 - 1982)",
    "videoId": "aBn3OOxs2Pk",
    "duration": "4:09"
   },
@@ -10632,8 +10632,8 @@
   },
   {
    "title": "R.I.P. (DJ Hype Remix)",
-   "artist": "Remarc - Topic",
-   "album": "",
+   "artist": "Remarc",
+   "album": "R.I.P. (Remixes)",
    "videoId": "UzBRrB9erTg",
    "duration": "6:31"
   },
@@ -10702,8 +10702,8 @@
   },
   {
    "title": "Volume 2A",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Photek",
+   "album": "The Truper & Sentinel Projects",
    "videoId": "Hj3Deon0nQg",
    "duration": "6:07"
   },
@@ -10779,8 +10779,8 @@
   },
   {
    "title": "Bongo Lumbo",
-   "artist": "Thesda - Topic",
-   "album": "",
+   "artist": "Thesda",
+   "album": "Spaced Out",
    "videoId": "2oUe8cGJlUs",
    "duration": "3:51"
   },
@@ -10806,9 +10806,9 @@
    "duration": "1:50"
   },
   {
-   "title": "Unknown, Forever Unknown (Alt.v5)",
-   "artist": "Vegyn - Topic",
-   "album": "",
+   "title": "Unknown, Forever Unknown (Alt.v5) (feat. tn_490)",
+   "artist": "Vegyn",
+   "album": "ODCD (ALT VERSIONS)",
    "videoId": "gwer0-RibDM",
    "duration": "1:24"
   },
@@ -10891,8 +10891,8 @@
   },
   {
    "title": "Chameleon",
-   "artist": "Anthony Naples - Topic",
-   "album": "",
+   "artist": "Anthony Naples",
+   "album": "Chameleon",
    "videoId": "oA9i2WNoIoo",
    "duration": "5:00"
   },
@@ -10961,15 +10961,15 @@
   },
   {
    "title": "In the Square",
-   "artist": "The Pretty Things - Topic",
-   "album": "",
+   "artist": "The Pretty Things",
+   "album": "Parachute",
    "videoId": "HoNgD7AA1GE",
    "duration": "1:56"
   },
   {
    "title": "Yermande (Kick and Bass Mix)",
-   "artist": "Mark Ernestus’ Ndagga Rhythm Force - Topic",
-   "album": "",
+   "artist": "Mark Ernestus’ Ndagga Rhythm Force",
+   "album": "Yermande",
    "videoId": "04_OxW-Vau0",
    "duration": "6:10"
   },
@@ -11080,8 +11080,8 @@
   },
   {
    "title": "The Plum Blossom (Rudy Van Gelder Remaster)",
-   "artist": "Yusef Lateef - Topic",
-   "album": "",
+   "artist": "Yusef Lateef",
+   "album": "The Very Best Of Prestige Records (60th Anniversary)",
    "videoId": "kbsmQNnIiVw",
    "duration": "4:56"
   },
@@ -11143,8 +11143,8 @@
   },
   {
    "title": "Hana",
-   "artist": "ASA-CHANG & JUNRAY - Topic",
-   "album": "",
+   "artist": "Asa-Chang & Junray",
+   "album": "Lost for Words",
    "videoId": "hFE8YLQYtRw",
    "duration": "6:42"
   },
@@ -13439,8 +13439,8 @@
   },
   {
    "title": "Untitled",
-   "artist": "Chez Damier - Topic",
-   "album": "",
+   "artist": "Chez Damier",
+   "album": "The Lab 04 - Paul Woolford",
    "videoId": "2E0oCwNjDYM",
    "duration": "6:14"
   },
@@ -13642,8 +13642,8 @@
   },
   {
    "title": "I Will Make Room for You (Four Tet Remix)",
-   "artist": "Kaitlyn Aurelia Smith - Topic",
-   "album": "",
+   "artist": "Kaitlyn Aurelia Smith;Four Tet",
+   "album": "I Will Make Room for You (Four Tet Remix)",
    "videoId": "Ho12j9v9iMo",
    "duration": "8:18"
   },
@@ -13656,8 +13656,8 @@
   },
   {
    "title": "҉.·.·*´¨.·*:･✧๑ඕั ҉",
-   "artist": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ - Topic",
-   "album": "",
+   "artist": "⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ",
+   "album": "҉.·.·*´¨.·*:･✧๑ඕั ҉",
    "videoId": "OrS_Ygv64do",
    "duration": "5:20"
   },
@@ -13726,8 +13726,8 @@
   },
   {
    "title": "Pyramid (Atoms for Peace Remix)",
-   "artist": "Four Tet - Topic",
-   "album": "",
+   "artist": "Four Tet",
+   "album": "Pink Remixes",
    "videoId": "Sf28c5FbghU",
    "duration": "7:38"
   },
@@ -13754,8 +13754,8 @@
   },
   {
    "title": "RAIN WILL FALL",
-   "artist": "BANK HEIST - Topic",
-   "album": "",
+   "artist": "BANK HEIST",
+   "album": "LOCKDOWN",
    "videoId": "P4D8ri3rS20",
    "duration": "3:30"
   },
@@ -13796,8 +13796,8 @@
   },
   {
    "title": "Moma",
-   "artist": "Four Tet - Topic",
-   "album": "",
+   "artist": "Four Tet",
+   "album": "We Are The Works In Progress",
    "videoId": "K8ejiG81PS0",
    "duration": "4:45"
   },
@@ -13817,8 +13817,8 @@
   },
   {
    "title": "From Dream to Daylight",
-   "artist": "To Rococo Rot - Topic",
-   "album": "",
+   "artist": "To Rococo Rot;I-Sound",
+   "album": "Music Is a Hungry Ghost",
    "videoId": "Jk-SBtQHtzg",
    "duration": "4:15"
   },
@@ -13845,8 +13845,8 @@
   },
   {
    "title": "The Jumps",
-   "artist": "Thom Yorke - Topic",
-   "album": "",
+   "artist": "Thom Yorke",
+   "album": "Suspiria (Music for the Luca Guadagnino Film)",
    "videoId": "lzJ-KnD5bXI",
    "duration": "2:39"
   },
@@ -13894,8 +13894,8 @@
   },
   {
    "title": "My Brother",
-   "artist": "The Survivals - Topic",
-   "album": "",
+   "artist": "The Survivals",
+   "album": "Gumba Fire: Bubblegum Soul & Synth Boogie in 1980s South Africa",
    "videoId": "CcLy-_SAFF4",
    "duration": "4:46"
   },
@@ -13943,8 +13943,8 @@
   },
   {
    "title": "Earth",
-   "artist": "Joe Henderson Quintet - Topic",
-   "album": "",
+   "artist": "Joe Henderson;Alice Coltrane",
+   "album": "The Elements",
    "videoId": "dfY0VbIt3Cs",
    "duration": "13:14"
   },
@@ -18283,8 +18283,8 @@
   },
   {
    "title": "Vapour",
-   "artist": "Sub Basics - Topic",
-   "album": "",
+   "artist": "Sub Basics",
+   "album": "Vapour / Orbit / Elixir",
    "videoId": "XH0X3pbFBcQ",
    "duration": "4:14"
   },
@@ -18325,8 +18325,8 @@
   },
   {
    "title": "Unity",
-   "artist": "Mindex - Topic",
-   "album": "",
+   "artist": "Mindex;Kercha",
+   "album": "Unity",
    "videoId": "0D-T5cEdPXk",
    "duration": "4:04"
   },
@@ -18353,8 +18353,8 @@
   },
   {
    "title": "No More",
-   "artist": "Jafu - Topic",
-   "album": "",
+   "artist": "Jafu",
+   "album": "No More",
    "videoId": "cJQV-PmcPOw",
    "duration": "3:20"
   },
@@ -18367,15 +18367,15 @@
   },
   {
    "title": "Earth",
-   "artist": "Lapalux - Topic",
-   "album": "",
+   "artist": "Lapalux",
+   "album": "Amnioverse",
    "videoId": "Q4bYvdbDnQg",
    "duration": "4:59"
   },
   {
    "title": "Hellix",
-   "artist": "Lapalux - Topic",
-   "album": "",
+   "artist": "Lapalux",
+   "album": "Amnioverse",
    "videoId": "L0e_38BBQC0",
    "duration": "4:49"
   },
@@ -18500,8 +18500,8 @@
   },
   {
    "title": "WHO R U",
-   "artist": "OAKK - Topic",
-   "album": "",
+   "artist": "OAKK",
+   "album": "Sunshower E.P",
    "videoId": "XHyALI7ERuY",
    "duration": "3:37"
   },
@@ -18612,8 +18612,8 @@
   },
   {
    "title": "twilight princess",
-   "artist": "Yesterdayneverhappened - Topic",
-   "album": "",
+   "artist": "Yesterdayneverhappened",
+   "album": "twilight princess",
    "videoId": "4jBW1XmjVQE",
    "duration": "1:55"
   },
@@ -18668,8 +18668,8 @@
   },
   {
    "title": "A Midsummernight's Dream",
-   "artist": "Minus 8 - Topic",
-   "album": "",
+   "artist": "Minus 8",
+   "album": "Beyond",
    "videoId": "xbtLAtNt56E",
    "duration": "5:00"
   },
@@ -18703,8 +18703,8 @@
   },
   {
    "title": "Demons Theme Part II",
-   "artist": "LTJ Bukem - Topic",
-   "album": "",
+   "artist": "LTJ Bukem",
+   "album": "Producer 05",
    "videoId": "vs0o1veaxsw",
    "duration": "3:47"
   },
@@ -18892,8 +18892,8 @@
   },
   {
    "title": "Bad 4 Us",
-   "artist": "gum.mp3 - Topic",
-   "album": "",
+   "artist": "gum.mp3;dazegxd",
+   "album": "Mania",
    "videoId": "5vIzlgDi21o",
    "duration": "4:01"
   },

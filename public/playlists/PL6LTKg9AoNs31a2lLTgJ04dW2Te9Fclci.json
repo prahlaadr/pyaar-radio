@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs31a2lLTgJ04dW2Te9Fclci",
  "title": "The Sound of Indian Indie",
  "trackCount": 437,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Ovotaar (feat. Shankuraj Konwar)",
@@ -783,8 +783,8 @@
   },
   {
    "title": "Dhumrapaan",
-   "artist": "Itra - Topic",
-   "album": "",
+   "artist": "Itra",
+   "album": "Dhumrapaan",
    "videoId": "vRFCW8V6BBg",
    "duration": "3:23"
   },
@@ -860,8 +860,8 @@
   },
   {
    "title": "Fireflies",
-   "artist": "Indus Creed - Topic",
-   "album": "",
+   "artist": "Indus Creed",
+   "album": "Evolve",
    "videoId": "qRBDU8Txbnw",
    "duration": "4:54"
   },
@@ -1042,8 +1042,8 @@
   },
   {
    "title": "Ye Jo Pal Hai",
-   "artist": "Harpreet - Topic",
-   "album": "",
+   "artist": "Harpreet",
+   "album": "Ye Jo Pal Hai",
    "videoId": "T1q6RbEA4mY",
    "duration": "3:32"
   },
@@ -1084,8 +1084,8 @@
   },
   {
    "title": "Mango Milkshake",
-   "artist": "Meera - Topic",
-   "album": "",
+   "artist": "Meera;Raag Sethi",
+   "album": "Mango Milkshake",
    "videoId": "6DFHrbZA9Y8",
    "duration": "2:21"
   },
@@ -1168,22 +1168,22 @@
   },
   {
    "title": "Dark Spark",
-   "artist": "DEXDLYPLAYA - Topic",
-   "album": "",
+   "artist": "DEXDLYPLAYA;VXRTEXPLAYA",
+   "album": "Dark Spark",
    "videoId": "_hqgtOxnsFU",
    "duration": "2:02"
   },
   {
    "title": "ROD Blues / Adam",
-   "artist": "Naragonia - Topic",
-   "album": "",
+   "artist": "Naragonia",
+   "album": "Myriad",
    "videoId": "G2OaQB1DoCI",
    "duration": "3:06"
   },
   {
    "title": "Where",
-   "artist": "Sky Rabbit - Topic",
-   "album": "",
+   "artist": "Sky Rabbit",
+   "album": "Where - EP",
    "videoId": "-4iFXvVq4Qc",
    "duration": "4:00"
   },
@@ -1231,8 +1231,8 @@
   },
   {
    "title": "We never fight",
-   "artist": "Jimi Roots & AI - Topic",
-   "album": "",
+   "artist": "Jimi Roots & AI",
+   "album": "Fifth Dimension Transformation",
    "videoId": "AM1sUDAE23A",
    "duration": "2:48"
   },
@@ -1252,8 +1252,8 @@
   },
   {
    "title": "Yeh Ek Zindagi (From \"Monica, O My Darling\")",
-   "artist": "Achint - Topic",
-   "album": "",
+   "artist": "Achint;Mikey McCleary;Varun Grover;Anupama Chakraborty Shrivastava",
+   "album": "Yeh Ek Zindagi (From \"Monica, O My Darling\")",
    "videoId": "1C-uRhdmWhA",
    "duration": "3:39"
   },
@@ -1370,9 +1370,9 @@
    "duration": "3:59"
   },
   {
-   "title": "Heartstrings",
-   "artist": "Hoang - Topic",
-   "album": "",
+   "title": "Heartstrings (feat. Britt Lari)",
+   "artist": "Hoang",
+   "album": "Heartstrings",
    "videoId": "o2dQfklNeao",
    "duration": "3:30"
   },

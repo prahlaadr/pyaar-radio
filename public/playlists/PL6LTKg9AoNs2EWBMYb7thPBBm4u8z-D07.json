@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
  "title": "Relaxing",
  "trackCount": 3089,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Oh God (feat. Mereba)",
@@ -4241,29 +4241,29 @@
   },
   {
    "title": "Bhare Naina",
-   "artist": "Vishal-Shekhar - Topic",
-   "album": "",
+   "artist": "Vishal-Shekhar;Nandini Srikar",
+   "album": "Ra-One",
    "videoId": "QSovkFvJW6k",
    "duration": "6:01"
   },
   {
    "title": "Visions",
-   "artist": "Stevie Wonder - Topic",
-   "album": "",
+   "artist": "Stevie Wonder",
+   "album": "Innervisions",
    "videoId": "fy4fMlLj_B8",
    "duration": "5:24"
   },
   {
    "title": "Pain Is Inevitable",
-   "artist": "Daniel Caesar - Topic",
-   "album": "",
+   "artist": "Daniel Caesar",
+   "album": "NEVER ENOUGH",
    "videoId": "xakWLxM1U58",
    "duration": "4:56"
   },
   {
    "title": "Right Side of My Neck",
-   "artist": "Faye Webster - Topic",
-   "album": "",
+   "artist": "Faye Webster",
+   "album": "Atlanta Millionaires Club",
    "videoId": "TbJ1U5qo_pY",
    "duration": "2:34"
   },
@@ -4325,8 +4325,8 @@
   },
   {
    "title": "beauty supply",
-   "artist": "Noname - Topic",
-   "album": "",
+   "artist": "Noname",
+   "album": "Sundial",
    "videoId": "ZRLIpGZdEbE",
    "duration": "3:14"
   },
@@ -4401,9 +4401,9 @@
    "duration": "3:33"
   },
   {
-   "title": "Pressure",
-   "artist": "CARRTOONS - Topic",
-   "album": "",
+   "title": "Pressure (feat. Lo Artiz & Julia Zivic)",
+   "artist": "CARRTOONS",
+   "album": "Homegrown",
    "videoId": "Tc2L4kdfwao",
    "duration": "1:45"
   },
@@ -4430,8 +4430,8 @@
   },
   {
    "title": "coffee",
-   "artist": "Miguel - Topic",
-   "album": "",
+   "artist": "Miguel",
+   "album": "Wildheart",
    "videoId": "t-009D5ElRg",
    "duration": "4:47"
   },
@@ -4654,8 +4654,8 @@
   },
   {
    "title": "Nenjukkule",
-   "artist": "A. R. Rahman - Topic",
-   "album": "",
+   "artist": "A.R. Rahman;Shakthisree Gopalan;Vairamuthu",
+   "album": "Kadal (Original Motion Picture Soundtrack)",
    "videoId": "eplFOQZeQIM",
    "duration": "4:50"
   },
@@ -4703,8 +4703,8 @@
   },
   {
    "title": "Cook, Clean, Pay The Rent (New House Version)",
-   "artist": "Teebs - Topic",
-   "album": "",
+   "artist": "Teebs",
+   "album": "Collections 01",
    "videoId": "vsILDMyy0rY",
    "duration": "2:32"
   },
@@ -4738,8 +4738,8 @@
   },
   {
    "title": "The Tunnel",
-   "artist": "Azimuth - Topic",
-   "album": "",
+   "artist": "Azimuth",
+   "album": "Azimuth/ The Touchstone/ Départ",
    "videoId": "dM7kUExqBUo",
    "duration": "9:15"
   },
@@ -14811,8 +14811,8 @@
   },
   {
    "title": "Lilly",
-   "artist": "Toro Y Moi - Topic",
-   "album": "",
+   "artist": "Toro y Moi",
+   "album": "What For?",
    "videoId": "Bsv8TJsraDM",
    "duration": "4:28"
   },
@@ -14874,8 +14874,8 @@
   },
   {
    "title": "Until",
-   "artist": "April + VISTA - Topic",
-   "album": "",
+   "artist": "April + VISTA",
+   "album": "You Are Here",
    "videoId": "OHZV0iNWuCg",
    "duration": "1:38"
   },
@@ -14965,15 +14965,15 @@
   },
   {
    "title": "A Burning Hill",
-   "artist": "Mitski - Topic",
-   "album": "",
+   "artist": "Mitski",
+   "album": "Puberty 2",
    "videoId": "x7b4aVCX9wA",
    "duration": "1:50"
   },
   {
    "title": "First Love/Late Spring",
-   "artist": "Mitski - Topic",
-   "album": "",
+   "artist": "Mitski",
+   "album": "Bury Me At Makeout Creek",
    "videoId": "WCphVz0ZGns",
    "duration": "4:39"
   },
@@ -15105,8 +15105,8 @@
   },
   {
    "title": "The Wilhelm Scream",
-   "artist": "James Blake - Topic",
-   "album": "",
+   "artist": "James Blake",
+   "album": "James Blake",
    "videoId": "F98lMA1p_IE",
    "duration": "4:34"
   },
@@ -15195,9 +15195,9 @@
    "duration": "3:38"
   },
   {
-   "title": "Take A Fall For Me",
-   "artist": "James Blake - Topic",
-   "album": "",
+   "title": "Take A Fall For Me (feat. RZA)",
+   "artist": "James Blake",
+   "album": "Overgrown",
    "videoId": "FLb6CVyqtK4",
    "duration": "3:34"
   },
@@ -15224,8 +15224,8 @@
   },
   {
    "title": "Voyeur",
-   "artist": "James Blake - Topic",
-   "album": "",
+   "artist": "James Blake",
+   "album": "Overgrown",
    "videoId": "3sXlYO3UwuI",
    "duration": "4:18"
   },
@@ -15280,8 +15280,8 @@
   },
   {
    "title": "If I Had a License",
-   "artist": "Yung Heazy - Topic",
-   "album": "",
+   "artist": "Yung Heazy",
+   "album": "Whenever You're Around I Hate Everything Less",
    "videoId": "OBXVekNq-FQ",
    "duration": "2:03"
   },
@@ -15322,8 +15322,8 @@
   },
   {
    "title": "did you/fall apart",
-   "artist": "Prateek Kuhad - Topic",
-   "album": "",
+   "artist": "Prateek Kuhad",
+   "album": "cold / mess",
    "videoId": "zYl1VAwaBzo",
    "duration": "2:53"
   },
@@ -15385,8 +15385,8 @@
   },
   {
    "title": "Disconnect",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "6LACK",
+   "album": "East Atlanta Love Letter",
    "videoId": "dsLiYugPqsY",
    "duration": "4:26"
   },
@@ -16661,7 +16661,7 @@
    "title": "Say Less",
    "artist": "Roy Woods",
    "album": "Say Less",
-   "videoId": "FW1H5EFwHLY",
+   "videoId": "Kz3yMcvUDsQ",
    "duration": "3:08"
   },
   {

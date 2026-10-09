@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
  "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
  "trackCount": 1315,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Bikini",
@@ -1420,8 +1420,8 @@
   },
   {
    "title": "Emerald City (Almaty Remix)",
-   "artist": "Photonz - Topic",
-   "album": "",
+   "artist": "Photonz",
+   "album": "Angel Heart",
    "videoId": "WWvK1os32iE",
    "duration": "4:57"
   },
@@ -1448,8 +1448,8 @@
   },
   {
    "title": "B1 (Anfang Und Ende)",
-   "artist": "Shed - Topic",
-   "album": "",
+   "artist": "Shed",
+   "album": "Oderbruch",
    "videoId": "E231wckWJUo",
    "duration": "6:04"
   },
@@ -1483,8 +1483,8 @@
   },
   {
    "title": "Great Spirit (D. Tiffany Human Spirit Mix)",
-   "artist": "DJ Trance - Topic",
-   "album": "",
+   "artist": "DJ Trance;Darwin Chamber",
+   "album": "Indians And Aliens",
    "videoId": "KBxx8eMcVhE",
    "duration": "5:12"
   },
@@ -1658,8 +1658,8 @@
   },
   {
    "title": "Zawaj زواج",
-   "artist": "Carl Gari - Topic",
-   "album": "",
+   "artist": "Carl Gari;Abdullah Miniawy",
+   "album": "Whities 023 (The Act of Falling from the 8th Floor)",
    "videoId": "YGabrncLyWw",
    "duration": "4:08"
   },
@@ -1700,8 +1700,8 @@
   },
   {
    "title": "Bow of Perception",
-   "artist": "Caterina Barbieri - Topic",
-   "album": "",
+   "artist": "Caterina Barbieri",
+   "album": "Ecstatic Computation",
    "videoId": "wtYKB4ZnvmQ",
    "duration": "7:04"
   },
@@ -1763,8 +1763,8 @@
   },
   {
    "title": "Loss",
-   "artist": "FFT - Topic",
-   "album": "",
+   "artist": "FFT",
+   "album": "Regional / Loss",
    "videoId": "3d4PX1zbYFE",
    "duration": "9:07"
   },
@@ -1805,8 +1805,8 @@
   },
   {
    "title": "Angel Of Dub",
-   "artist": "Boreal Massif - Topic",
-   "album": "",
+   "artist": "Boreal Massif",
+   "album": "We All Have An Impact",
    "videoId": "BW8Jjhuv74w",
    "duration": "3:30"
   },
@@ -1861,8 +1861,8 @@
   },
   {
    "title": "Gravity",
-   "artist": "Wata Igarashi - Topic",
-   "album": "",
+   "artist": "Wata Igarashi",
+   "album": "Kioku",
    "videoId": "yn3UI7UKjGY",
    "duration": "6:11"
   },
@@ -1959,8 +1959,8 @@
   },
   {
    "title": "Spasm",
-   "artist": "Maelstrom - Topic",
-   "album": "",
+   "artist": "Maelstrom",
+   "album": "Spasm / Turbulence",
    "videoId": "AyFs0RsijAc",
    "duration": "5:18"
   },
@@ -2015,8 +2015,8 @@
   },
   {
    "title": "Pattern Obligation",
-   "artist": "E-saggila - Topic",
-   "album": "",
+   "artist": "E-saggila",
+   "album": "My World My Way",
    "videoId": "yz5IslkZMAQ",
    "duration": "4:41"
   },
@@ -5613,8 +5613,8 @@
   },
   {
    "title": "The Infamous (Robytek Vs Shield Re-Edit)",
-   "artist": "Butch - Topic",
-   "album": "",
+   "artist": "Butch;C.Vogt",
+   "album": "The Infamous",
    "videoId": "gzpnEOkTuCM",
    "duration": "7:15"
   },
@@ -5634,15 +5634,15 @@
   },
   {
    "title": "Open Your Eyes (Andrés Remix)",
-   "artist": "Corrado Bucci - Topic",
-   "album": "",
+   "artist": "Corrado Bucci",
+   "album": "Open Your Eyes",
    "videoId": "XVxzKIkPxEg",
    "duration": "6:30"
   },
   {
    "title": "There's No Time (wAFF Warehouse Remix)",
-   "artist": "Fur Coat - Topic",
-   "album": "",
+   "artist": "Fur Coat",
+   "album": "There's No Time",
    "videoId": "xq9sCzJ94NU",
    "duration": "7:07"
   },
@@ -5697,8 +5697,8 @@
   },
   {
    "title": "Feelin'",
-   "artist": "Florian Kupfer - Topic",
-   "album": "",
+   "artist": "Florian Kupfer",
+   "album": "Music for Shut-Ins",
    "videoId": "ay1-JP-5G2I",
    "duration": "7:26"
   },
@@ -5718,8 +5718,8 @@
   },
   {
    "title": "Untitled (Call Out Your Name)",
-   "artist": "Paul Woolford - Topic",
-   "album": "",
+   "artist": "Paul Woolford",
+   "album": "Untitled (Call Out Your Name)",
    "videoId": "BAH-a6qhYdc",
    "duration": "6:14"
   },
@@ -5781,8 +5781,8 @@
   },
   {
    "title": "End Point",
-   "artist": "Peverelist - Topic",
-   "album": "",
+   "artist": "Peverelist;Kowton",
+   "album": "End Point / Vapours",
    "videoId": "oYWuOQFm8lo",
    "duration": "6:40"
   },
@@ -5879,29 +5879,29 @@
   },
   {
    "title": "Sun (BBC Maida Vale Sessions)",
-   "artist": "Koreless - Topic",
-   "album": "",
+   "artist": "Koreless",
+   "album": "Sun / Never (BBC Maida Vale Sessions)",
    "videoId": "hHP2nKXZSDs",
    "duration": "6:51"
   },
   {
    "title": "Busy Signal",
-   "artist": "Anthony Naples - Topic",
-   "album": "",
+   "artist": "Anthony Naples",
+   "album": "El Portal",
    "videoId": "V8KxXBKJKjs",
    "duration": "6:41"
   },
   {
    "title": "Says",
-   "artist": "Nils Frahm - Topic",
-   "album": "",
+   "artist": "Nils Frahm",
+   "album": "Spaces",
    "videoId": "luXZuPTJ3f8",
    "duration": "8:18"
   },
   {
    "title": "Mars",
-   "artist": "Funkineven - Topic",
-   "album": "",
+   "artist": "Funkineven",
+   "album": "Species",
    "videoId": "oLUmXyRVCKI",
    "duration": "6:07"
   },
@@ -6103,15 +6103,15 @@
   },
   {
    "title": "City Lights",
-   "artist": "Tuccillo - Topic",
-   "album": "",
+   "artist": "Tuccillo",
+   "album": "Hotel Es Vive Ibiza Sessions, Volume One",
    "videoId": "mIoVvv_M0eQ",
    "duration": "7:12"
   },
   {
    "title": "Light Sleeper",
-   "artist": "Will Saul - Topic",
-   "album": "",
+   "artist": "Will Saul & October",
+   "album": "Light Sleeper",
    "videoId": "f6iIfuizh88",
    "duration": "6:03"
   },
@@ -6187,8 +6187,8 @@
   },
   {
    "title": "I Am Somebody",
-   "artist": "Technasia - Topic",
-   "album": "",
+   "artist": "Technasia",
+   "album": "I Am Somebody",
    "videoId": "5W9Krhylx24",
    "duration": "6:58"
   },
@@ -6243,8 +6243,8 @@
   },
   {
    "title": "That Freak Stuff",
-   "artist": "Dam Swindle - Topic",
-   "album": "",
+   "artist": "Dam Swindle",
+   "album": "The Passion",
    "videoId": "SgHJJJ7LCDI",
    "duration": "6:07"
   },

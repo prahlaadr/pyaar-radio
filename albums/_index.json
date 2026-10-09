@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3540,
- "totalTracks": 45051,
- "syncedAt": "2026-10-08T15:16:40.891328Z",
+ "albumCount": 3617,
+ "totalTracks": 45953,
+ "syncedAt": "2026-10-09T15:02:02.481750Z",
  "albums": [
+  {
+   "browseId": "MPREb_lhT6zoo6CGC",
+   "title": "Five Leaves Left",
+   "artist": "Nick Drake",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_MPwPsljX6n0",
+   "title": "Jaco Pastorius",
+   "artist": "Jaco Pastorius",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_zw4tYgsHCPY",
    "title": "Failed Attempts at Silence",
@@ -155,6 +167,12 @@
    "trackCount": 10
   },
   {
+   "browseId": "MPREb_uUMuYOW3xZp",
+   "title": "Secret Love",
+   "artist": "Dry Cleaning",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_AqjGV2pAteO",
    "title": "Peanut",
    "artist": "Otto Benson",
@@ -215,6 +233,18 @@
    "trackCount": 20
   },
   {
+   "browseId": "MPREb_vzhlCZMoc6p",
+   "title": "Clam Day",
+   "artist": "OTTO",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_pzaOlGTduxN",
+   "title": "I Can See",
+   "artist": "Nick Hakim",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_30z46kUYLns",
    "title": "Your Day Will Come",
    "artist": "Chanel Beads",
@@ -245,6 +275,12 @@
    "trackCount": 6
   },
   {
+   "browseId": "MPREb_ygYJd96DZZV",
+   "title": "MY SKYSCRAPER",
+   "artist": "Nirosta Steel",
+   "trackCount": 17
+  },
+  {
    "browseId": "MPREb_PtxzIwEuqS1",
    "title": "P ★ K I",
    "artist": "Ahadadream",
@@ -255,6 +291,12 @@
    "title": "there's an atm inside",
    "artist": "ps goner",
    "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_pWwMpjgx4if",
+   "title": "super low",
+   "artist": "Warehouse",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_gQmVsEEf8aL",
@@ -281,6 +323,12 @@
    "trackCount": 7
   },
   {
+   "browseId": "MPREb_turjfio1BAJ",
+   "title": "Vaults",
+   "artist": "Ooklah the Moc",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_3vpOVvMLh3h",
    "title": "Total Blue",
    "artist": "Total Blue",
@@ -297,6 +345,12 @@
    "title": "The Reverberating Sound of an Absent Metropolis",
    "artist": "Minaxi",
    "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_zfOSyMqIhFO",
+   "title": "Z of A",
+   "artist": "Minaxi",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_TXPtOi3WOtt",
@@ -317,10 +371,22 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_toIt4X0dvBY",
+   "title": "What It's Like to Be a Bat",
+   "artist": "Finn Streuper",
+   "trackCount": 18
+  },
+  {
    "browseId": "MPREb_NMJcOiAV5Sh",
    "title": "Immunity",
    "artist": "Clairo",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_yVEbn4x43f7",
+   "title": "OST",
+   "artist": "wev",
+   "trackCount": 15
   },
   {
    "browseId": "MPREb_Z827l0Ce93d",
@@ -363,6 +429,12 @@
    "title": "Hell, Murder and Texas",
    "artist": "Shelf Life",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_wvpkzjChB8D",
+   "title": "MTV",
+   "artist": "Shelf Life",
+   "trackCount": 13
   },
   {
    "browseId": "MPREb_MTjiqdJPBcC",
@@ -995,6 +1067,12 @@
    "trackCount": 8
   },
   {
+   "browseId": "MPREb_zCSKZ97rxuJ",
+   "title": "Rp's & Plan B's",
+   "artist": "Tony Shhnow",
+   "trackCount": 15
+  },
+  {
    "browseId": "MPREb_cn2xD9dyVb5",
    "title": "Kill Streak",
    "artist": "Tony Shhnow",
@@ -1025,6 +1103,12 @@
    "trackCount": 19
   },
   {
+   "browseId": "MPREb_yB3JSCyukfS",
+   "title": "Kill Streak 2",
+   "artist": "Tony Shhnow",
+   "trackCount": 8
+  },
+  {
    "browseId": "MPREb_N4LGQaWkSZz",
    "title": "Plug Motivation",
    "artist": "Tony Shhnow",
@@ -1047,6 +1131,12 @@
    "title": "MeekVol1",
    "artist": "Knxwledge",
    "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_rXXtoe6vyAa",
+   "title": "GT.V2",
+   "artist": "Knxwledge",
+   "trackCount": 12
   },
   {
    "browseId": "MPREb_mVFSdMhQuDp",
@@ -1127,6 +1217,12 @@
    "trackCount": 11
   },
   {
+   "browseId": "MPREb_sG5DSKTtVhR",
+   "title": "Nothing's About to Happen to Me",
+   "artist": "Mitski",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_KvORqHdMOF3",
    "title": "Rocket",
    "artist": "Dominic Fike",
@@ -1137,6 +1233,12 @@
    "title": "A Matter of Time: The Final Hour",
    "artist": "Laufey",
    "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_xXXBJbJVaFF",
+   "title": "FEAR",
+   "artist": "Jared Mattson",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_6NxlXoKIp8T",
@@ -1169,9 +1271,21 @@
    "trackCount": 20
   },
   {
+   "browseId": "MPREb_vSLFj1tf5ik",
+   "title": "GIRLS",
+   "artist": "Princess Nokia",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_VVXHCvetDgw",
    "title": "Människobarn",
    "artist": "Dina Ögon",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_rwxXbGEygVu",
+   "title": "While The Iron Is Hot",
+   "artist": "Ovrkast.",
    "trackCount": 13
   },
   {
@@ -1203,6 +1317,12 @@
    "title": "Chemistry",
    "artist": "Chris Lake",
    "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_xd3OKWcgPZj",
+   "title": "Dust",
+   "artist": "Karsh Kale",
+   "trackCount": 11
   },
   {
    "browseId": "MPREb_PZueTdMYS2O",
@@ -1559,6 +1679,24 @@
    "trackCount": 5
   },
   {
+   "browseId": "MPREb_RrQSxvWDVpR",
+   "title": "Expirado",
+   "artist": "VHOOR",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_O9TWZDKeh6m",
+   "title": "Viaduto",
+   "artist": "VHOOR",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_UuF5VIt7uow",
+   "title": "Só Pura",
+   "artist": "VHOOR",
+   "trackCount": 3
+  },
+  {
    "browseId": "MPREb_F8gUzOD5BF7",
    "title": "Stay In Your Lane",
    "artist": "Taiki Nulight",
@@ -1619,6 +1757,12 @@
    "trackCount": 5
   },
   {
+   "browseId": "MPREb_RVfCaN2pFQE",
+   "title": "Re-Imagineering Meditation Mix",
+   "artist": "Nightmares On Wax",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_0nq9ggQ5KX5",
    "title": "Carboot Jazz",
    "artist": "Nightmares On Wax",
@@ -1667,6 +1811,12 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_VPdKbelrY5O",
+   "title": "PALMWINE DIARIES VOL.1",
+   "artist": "Juls",
+   "trackCount": 6
+  },
+  {
    "browseId": "MPREb_NIBCGVLIyRM",
    "title": "Demon Dust",
    "artist": "Ivy Lab",
@@ -1709,6 +1859,12 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_VCuQYLJrevk",
+   "title": "CRAZY IF TRUE",
+   "artist": "DJ Swisha",
+   "trackCount": 6
+  },
+  {
    "browseId": "MPREb_uSw1NLRWCfs",
    "title": "THERE WILL BE SIGNS",
    "artist": "DJ SWISHA",
@@ -1719,6 +1875,12 @@
    "title": "In Transit",
    "artist": "Conducta",
    "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_QRDEnZZl5XM",
+   "title": "Up The Place EP",
+   "artist": "Cesco",
+   "trackCount": 4
   },
   {
    "browseId": "MPREb_mHYgzPZgbU0",
@@ -1751,10 +1913,28 @@
    "trackCount": 4
   },
   {
+   "browseId": "MPREb_QejHbAiRCBv",
+   "title": "AK Cuts: Vol. 3",
+   "artist": "Anish Kumar",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_Nhpu5Io9BoW",
+   "title": "Expert Level",
+   "artist": "AceMo",
+   "trackCount": 6
+  },
+  {
    "browseId": "MPREb_JhWbFMoKidi",
    "title": "Save The World",
    "artist": "AceMo",
    "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_SmfsGmknYUV",
+   "title": "Forest City",
+   "artist": "AceMo",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_mXXXlqJUQlC",
@@ -6137,6 +6317,12 @@
    "trackCount": 8
   },
   {
+   "browseId": "MPREb_VsvPkrdaKvh",
+   "title": "An Awesome Wave",
+   "artist": "Alt-J",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_HyuwH5pj6cZ",
    "title": "Trip",
    "artist": "Jhené Aiko",
@@ -6147,6 +6333,12 @@
    "title": "Mind Of Mine (Deluxe Edition)",
    "artist": "ZAYN",
    "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_R721p4cQGPY",
+   "title": "What A Time To Be Alive",
+   "artist": "Drake",
+   "trackCount": 11
   },
   {
    "browseId": "MPREb_foY8A5kvnph",
@@ -6189,6 +6381,12 @@
    "title": "OK Computer",
    "artist": "Radiohead",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_ZB6767Lns0g",
+   "title": "Angles",
+   "artist": "The Strokes",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_9HLfAiW2TOd",
@@ -6239,6 +6437,12 @@
    "trackCount": 9
   },
   {
+   "browseId": "MPREb_RZmtTx3q6gQ",
+   "title": "DAYTONA",
+   "artist": "Pusha T",
+   "trackCount": 7
+  },
+  {
    "browseId": "MPREb_pg25oO7OdC4",
    "title": "TESTING",
    "artist": "A$AP Rocky",
@@ -6266,6 +6470,18 @@
    "browseId": "MPREb_G6JQUdInW98",
    "title": "Dummy",
    "artist": "Portishead",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_ZBw3snXoAxN",
+   "title": "Scorpion",
+   "artist": "Drake",
+   "trackCount": 25
+  },
+  {
+   "browseId": "MPREb_Or0NmhlTmpA",
+   "title": "The Now Now",
+   "artist": "Gorillaz",
    "trackCount": 11
   },
   {
@@ -6305,6 +6521,12 @@
    "trackCount": 9
   },
   {
+   "browseId": "MPREb_RfILlGbjskG",
+   "title": "SYRE: THE ELECTRIC ALBUM",
+   "artist": "Jaden",
+   "trackCount": 5
+  },
+  {
    "browseId": "MPREb_4IbYdhULFEs",
    "title": "Coloring Book",
    "artist": "Chance the Rapper",
@@ -6317,10 +6539,22 @@
    "trackCount": 21
   },
   {
+   "browseId": "MPREb_Tr9YVfRfip1",
+   "title": "17",
+   "artist": "XXXTENTACION",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_l4NclfvZWHA",
    "title": "Cat Heaven",
    "artist": "Roy Blair",
    "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_WV2C0s2F11n",
+   "title": "The Autobiography",
+   "artist": "VIC MENSA",
+   "trackCount": 15
   },
   {
    "browseId": "MPREb_w7oqKXSwULM",
@@ -8147,6 +8381,12 @@
    "trackCount": 17
   },
   {
+   "browseId": "MPREb_qXECWyxsCS6",
+   "title": "Cilvia Demo",
+   "artist": "Isaiah Rashad",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_CrPmepvxfiV",
    "title": "ATLiens (25th Anniversary Deluxe Edition)",
    "artist": "Outkast",
@@ -8159,6 +8399,12 @@
    "trackCount": 24
   },
   {
+   "browseId": "MPREb_ydgn99Hhkax",
+   "title": "Free Nationals",
+   "artist": "Free Nationals",
+   "trackCount": 13
+  },
+  {
    "browseId": "MPREb_n6fBOwby9Vt",
    "title": "uknowhatimsayin¿",
    "artist": "Danny Brown",
@@ -8169,6 +8415,12 @@
    "title": "UR FUN",
    "artist": "of Montreal",
    "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_p7gVVjL2Uyl",
+   "title": "Showbiz",
+   "artist": "Muse",
+   "trackCount": 13
   },
   {
    "browseId": "MPREb_UGb1LNyBP1R",
@@ -8189,6 +8441,12 @@
    "trackCount": 12
   },
   {
+   "browseId": "MPREb_vqAlbSRewsn",
+   "title": "The Redesigned Originals, Recorded by The Free Design (1967-70)",
+   "artist": "The Free Design",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_c141Df9BsM2",
    "title": "Wolfgang Amadeus Phoenix",
    "artist": "Phoenix",
@@ -8207,6 +8465,12 @@
    "trackCount": 12
   },
   {
+   "browseId": "MPREb_voV9Brwg5fY",
+   "title": "Room 25",
+   "artist": "Noname",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_jsHyTISZ9XL",
    "title": "Modal Soul",
    "artist": "Nujabes",
@@ -8217,6 +8481,12 @@
    "title": "MISUNDERSTOOD",
    "artist": "YUNG BANS",
    "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_uC4pFB9sSZ4",
+   "title": "Mirrorland",
+   "artist": "EARTHGANG",
+   "trackCount": 14
   },
   {
    "browseId": "MPREb_CvLlmJAJhjo",
@@ -8261,6 +8531,12 @@
    "trackCount": 12
   },
   {
+   "browseId": "MPREb_sbqIVgn7w0R",
+   "title": "Everything Sucks",
+   "artist": "Princess Nokia",
+   "trackCount": 10
+  },
+  {
    "browseId": "MPREb_Z39C4nywwp3",
    "title": "1992 Deluxe",
    "artist": "Princess Nokia",
@@ -8283,6 +8559,12 @@
    "title": "Aquemini",
    "artist": "Outkast",
    "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_u0gBehbTD1s",
+   "title": "Arthur Verocai",
+   "artist": "Arthur Verocai",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_H4RuPMx9VCh",
@@ -8309,9 +8591,21 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_u2gkoZ09fk0",
+   "title": "Closer To Grey",
+   "artist": "Chromatics",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_fb9YEZz7z6q",
    "title": "Jungle Run",
    "artist": "Nubiyan Twist",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_uR76QxVTBOB",
+   "title": "Yeezus",
+   "artist": "Kanye West",
    "trackCount": 10
   },
   {
@@ -8933,6 +9227,12 @@
    "trackCount": 16
   },
   {
+   "browseId": "MPREb_XJL9CZ6XIlI",
+   "title": "Emily’s D+Evolution",
+   "artist": "Esperanza Spalding",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_MkZa8hI49M8",
    "title": "Crumb",
    "artist": "Crumb",
@@ -8981,6 +9281,12 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_X6H0g8Csxbx",
+   "title": "Nabuma Rubberband",
+   "artist": "Little Dragon",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_hYjEOm3G0ZJ",
    "title": "Sable Valley Summer Vol. 1",
    "artist": "Sable Valley",
@@ -8997,6 +9303,12 @@
    "title": "American Idiot",
    "artist": "Green Day",
    "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_Y0za66O81lm",
+   "title": "21st Century Breakdown",
+   "artist": "Green Day",
+   "trackCount": 18
   },
   {
    "browseId": "MPREb_f3VEs2RsN1J",
@@ -9035,6 +9347,12 @@
    "trackCount": 9
   },
   {
+   "browseId": "MPREb_d38eU2z8EbY",
+   "title": "CTV3: Cool Tape Vol. 3",
+   "artist": "Jaden",
+   "trackCount": 17
+  },
+  {
    "browseId": "MPREb_Nir0nBww8bZ",
    "title": "CTV2",
    "artist": "Jaden Smith",
@@ -9063,6 +9381,12 @@
    "title": "High Anxiety",
    "artist": "Thom Sonny Green",
    "trackCount": 21
+  },
+  {
+   "browseId": "MPREb_ZC1roC1Zqji",
+   "title": "Torba",
+   "artist": "EARTHGANG",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_3RlHmjmJGEh",
@@ -9101,10 +9425,22 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_UOUyLQ6X3dZ",
+   "title": "Summertime '06",
+   "artist": "Vince Staples",
+   "trackCount": 20
+  },
+  {
    "browseId": "MPREb_HjpydxeaZhn",
    "title": "T R A P S O U L (Deluxe)",
    "artist": "Bryson Tiller",
    "trackCount": 18
+  },
+  {
+   "browseId": "MPREb_UG04DSVQL12",
+   "title": "True to Self",
+   "artist": "Bryson Tiller",
+   "trackCount": 19
   },
   {
    "browseId": "MPREb_y17shKO1nZm",
@@ -9123,6 +9459,18 @@
    "title": "ZZZ",
    "artist": "Zion.T",
    "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_VuldNfN3v9a",
+   "title": "Digging a Tunnel",
+   "artist": "sir Was",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_bDrxAdkRDAE",
+   "title": "Diaspora",
+   "artist": "GoldLink",
+   "trackCount": 14
   },
   {
    "browseId": "MPREb_85PnLjtEMwy",
@@ -10607,6 +10955,12 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_Vk0E5cVxdpP",
+   "title": "Black Radio III",
+   "artist": "Robert Glasper",
+   "trackCount": 13
+  },
+  {
    "browseId": "MPREb_xyCL4mLbtb1",
    "title": "Don't Follow Me Because I'm Lost Too!!",
    "artist": "Vegyn",
@@ -10631,6 +10985,12 @@
    "trackCount": 17
   },
   {
+   "browseId": "MPREb_UJu0MEhmlPt",
+   "title": "GEMS IN THE CORNERSTORE",
+   "artist": "Elujay",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_kwSxT15oNHX",
    "title": "EL ÚLTIMO TOUR DEL MUNDO",
    "artist": "Bad Bunny",
@@ -10647,6 +11007,18 @@
    "title": "Few Good Things",
    "artist": "Saba",
    "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_TcD7MAHWsfg",
+   "title": "Wiz Got Wings",
+   "artist": "Wiz Khalifa",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_UD01O9SKJun",
+   "title": "Slow Morning & Sore Throat",
+   "artist": "parth tunes",
+   "trackCount": 2
   },
   {
    "browseId": "MPREb_abPsKl8nAFP",
@@ -10677,6 +11049,12 @@
    "title": "In My Sins",
    "artist": "Jx.Zero",
    "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_XpMenHTSTWh",
+   "title": "Long Term Effects of SUFFERING",
+   "artist": "$uicideboy$",
+   "trackCount": 13
   },
   {
    "browseId": "MPREb_ZZPbhy4JYba",
@@ -10721,6 +11099,12 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_WDslwD7Sksy",
+   "title": "Tana Talk 4",
+   "artist": "Benny The Butcher",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_2NAKIrJ40g7",
    "title": "Faces",
    "artist": "Mac Miller",
@@ -10737,6 +11121,12 @@
    "title": "The Divine Feminine",
    "artist": "Mac Miller",
    "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_VdtEnJZ2vqp",
+   "title": "MOTOMAMI +",
+   "artist": "ROSALÍA",
+   "trackCount": 24
   },
   {
    "browseId": "MPREb_evMqb2aDLIb",
@@ -10760,6 +11150,12 @@
    "browseId": "MPREb_uCgvJfkMpA0",
    "title": "Harry Styles",
    "artist": "Harry Styles",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_X7QI7AnnRrm",
+   "title": "Kiss Land",
+   "artist": "The Weeknd",
    "trackCount": 10
   },
   {
@@ -10797,6 +11193,12 @@
    "title": "About Time (Extended Vinyl Reissue)",
    "artist": "Sabrina Claudio",
    "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_TiMAL7sFDOs",
+   "title": "Just Another Diamond Day",
+   "artist": "Vashti Bunyan",
+   "trackCount": 18
   },
   {
    "browseId": "MPREb_S7muzXt4RFU",
@@ -14297,10 +14699,28 @@
    "trackCount": 20
   },
   {
+   "browseId": "MPREb_vLg4oZw0n8I",
+   "title": "Me Chama De Gato Que Eu Sou Sua",
+   "artist": "Ana Frango Elétrico",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_vQ5gEA6ICsM",
+   "title": "Fountain Baby",
+   "artist": "Amaarae",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_nJ0SDTxTPYt",
    "title": "Holy Waters",
    "artist": "Puma Blue",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_rIMZSoUuXva",
+   "title": "Season Opener",
+   "artist": "Curren$y",
+   "trackCount": 21
   },
   {
    "browseId": "MPREb_accrjsSn2vB",
@@ -14405,6 +14825,24 @@
    "trackCount": 7
   },
   {
+   "browseId": "MPREb_y20tQqxJTZV",
+   "title": "13.0.0.0.0",
+   "artist": "TTNG",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_qLuT4axoHfK",
+   "title": "Voulez-Vous",
+   "artist": "ABBA",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_qrH5Sqk5gzH",
+   "title": "MID AIR",
+   "artist": "Paris Texas",
+   "trackCount": 16
+  },
+  {
    "browseId": "MPREb_n875tkBIIxM",
    "title": "Hitler Wears Hermes 8: Side B",
    "artist": "Westside Gunn",
@@ -14423,10 +14861,22 @@
    "trackCount": 22
   },
   {
+   "browseId": "MPREb_rVsQvylHSD5",
+   "title": "The Sound of Bad Habit",
+   "artist": "Baby Keem",
+   "trackCount": 12
+  },
+  {
    "browseId": "MPREb_1zB7epiKmMF",
    "title": "FORREST GUMP",
    "artist": "Vayda",
    "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_uBMjBA1zgOe",
+   "title": "Atlanta Millionaires Club",
+   "artist": "Faye Webster",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_fJJZrZ3EaRi",
@@ -14483,6 +14933,12 @@
    "trackCount": 12
   },
   {
+   "browseId": "MPREb_o74seHtR6Ml",
+   "title": "shut the fuck up talking to me",
+   "artist": "Zack Fox",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_48k8KVOB3Ub",
    "title": "Jazz Samba Encore!",
    "artist": "Stan Getz",
@@ -14499,6 +14955,12 @@
    "title": "Today & Tomorrow",
    "artist": "SAULT",
    "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_yrPRe2NATaQ",
+   "title": "Pressure II",
+   "artist": "Dilip",
+   "trackCount": 9
   },
   {
    "browseId": "MPREb_05SKJ1Sk5aE",

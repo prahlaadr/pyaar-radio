@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs1g-9GOg5p-1r_hl4l9WuPs",
  "title": "may 24",
  "trackCount": 46,
- "syncedAt": "2026-10-08T15:16:54.978659Z",
+ "syncedAt": "2026-10-09T15:02:31.302497Z",
  "tracks": [
   {
    "title": "Everything Blooms Around Her",
-   "artist": "Anish Kumar - Topic",
-   "album": "",
+   "artist": "Anish Kumar",
+   "album": "Everything Blooms Around Her",
    "videoId": "Qt3a1sPpuTM",
    "duration": "3:51"
   },
@@ -20,8 +20,8 @@
   },
   {
    "title": "Bissonnet",
-   "artist": "Maxo Kream - Topic",
-   "album": "",
+   "artist": "Maxo Kream",
+   "album": "Brandon Banks",
    "videoId": "Yt7Yjtln6Lo",
    "duration": "2:24"
   },
@@ -34,8 +34,8 @@
   },
   {
    "title": "Space Garden",
-   "artist": "Auntie Leo & The Backstabbers - Topic",
-   "album": "",
+   "artist": "Auntie Leo & The Backstabbers",
+   "album": "Space Garden",
    "videoId": "jyN93tq2A9w",
    "duration": "4:56"
   },
@@ -48,8 +48,8 @@
   },
   {
    "title": "White Sky",
-   "artist": "Vampire Weekend - Topic",
-   "album": "",
+   "artist": "Vampire Weekend",
+   "album": "Contra",
    "videoId": "oNy6F-VIsos",
    "duration": "2:59"
   },
@@ -61,9 +61,9 @@
    "duration": "4:35"
   },
   {
-   "title": "Deep Blue (feat. Young Nudy & Kal Banx)",
-   "artist": "Isaiah Rashad - Topic",
-   "album": "",
+   "title": "Deep Blue (feat. Kal Banx & Young Nudy)",
+   "artist": "Isaiah Rashad",
+   "album": "The House Is Burning [homies begged]",
    "videoId": "FmB8Np6Q1CM",
    "duration": "3:12"
   },
@@ -125,8 +125,8 @@
   },
   {
    "title": "running out of time",
-   "artist": "Lil Yachty - Topic",
-   "album": "",
+   "artist": "Lil Yachty",
+   "album": "Let’s Start Here.",
    "videoId": "iHPCp2lC5HI",
    "duration": "4:30"
   },
@@ -139,8 +139,8 @@
   },
   {
    "title": "Unlimited",
-   "artist": "LUCKI - Topic",
-   "album": "",
+   "artist": "Lucki",
+   "album": "Almost There",
    "videoId": "awOPfQtcuKI",
    "duration": "2:41"
   },
@@ -188,8 +188,8 @@
   },
   {
    "title": "Mia",
-   "artist": "Cousin Stizz - Topic",
-   "album": "",
+   "artist": "Cousin Stizz",
+   "album": "Just for You",
    "videoId": "mfLD7JZRLqI",
    "duration": "2:42"
   },
@@ -216,8 +216,8 @@
   },
   {
    "title": "Mr. Me Too",
-   "artist": "Clipse - Topic",
-   "album": "",
+   "artist": "Clipse",
+   "album": "Hell Hath No Fury",
    "videoId": "tRtEZuFhFwc",
    "duration": "3:42"
   },
@@ -272,8 +272,8 @@
   },
   {
    "title": "Fire Fly",
-   "artist": "Childish Gambino - Topic",
-   "album": "",
+   "artist": "Childish Gambino",
+   "album": "Camp",
    "videoId": "e4Ev4t4m8Ek",
    "duration": "3:24"
   },
