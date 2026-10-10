@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-10-09T15:04:43Z",
+  "syncedAt": "2026-10-10T14:20:09Z",
   "shows": [
+    {
+      "alias": "sacred-space",
+      "name": "Sacred Space w/ Radha",
+      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/sacred-space"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -156,15 +165,6 @@
         "hip-hop / r'n'b"
       ],
       "url": "https://www.nts.live/shows/homeshake"
-    },
-    {
-      "alias": "sacred-space",
-      "name": "Sacred Space w/ Radha",
-      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/sacred-space"
     },
     {
       "alias": "coltrane-day",
