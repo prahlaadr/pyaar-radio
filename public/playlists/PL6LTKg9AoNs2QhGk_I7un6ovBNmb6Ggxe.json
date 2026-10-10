@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-10-09T15:02:31.302497Z",
+ "syncedAt": "2026-10-10T14:17:41.401515Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -2940,8 +2940,8 @@
   {
    "title": "Rosalie est partie",
    "artist": "Philippe Sarde",
-   "album": "Cesar et Rosalie (Original Motion Picture Soundtrack)",
-   "videoId": "X1ADh4IivaY",
+   "album": "César et Rosalie (Original Motion Picture Soundtrack)",
+   "videoId": "C_JDq9UNF3o",
    "duration": "0:57"
   },
   {
@@ -8427,8 +8427,8 @@
   },
   {
    "title": "Stella By Starlight",
-   "artist": "Joe Pass - Topic",
-   "album": "",
+   "artist": "Joe Pass",
+   "album": "Everything Jazz - Best Selection",
    "videoId": "lmd4aOZ_zpk",
    "duration": "5:11"
   },
@@ -8440,9 +8440,9 @@
    "duration": "3:35"
   },
   {
-   "title": "My Old Flame (Album Version)",
-   "artist": "Joe Pass - Topic",
-   "album": "",
+   "title": "My Old Flame",
+   "artist": "Joe Pass",
+   "album": "Virtuoso",
    "videoId": "4Z0gG8Qr0jA",
    "duration": "5:16"
   },
@@ -8489,16 +8489,16 @@
    "duration": "3:59"
   },
   {
-   "title": "Blues For Alican (Album Version)",
-   "artist": "Joe Pass - Topic",
-   "album": "",
+   "title": "Blues For Alican",
+   "artist": "Joe Pass",
+   "album": "Virtuoso",
    "videoId": "ph9FyauTXmY",
    "duration": "5:27"
   },
   {
-   "title": "The Song Is You (Album Version)",
-   "artist": "Joe Pass - Topic",
-   "album": "",
+   "title": "The Song Is You",
+   "artist": "Joe Pass",
+   "album": "Virtuoso",
    "videoId": "07ZdsCUfPqI",
    "duration": "4:35"
   },
@@ -8574,15 +8574,15 @@
   },
   {
    "title": "11th Soundscape",
-   "artist": "James Blake - Topic",
-   "album": "",
+   "artist": "James Blake;Endel",
+   "album": "Wind Down",
    "videoId": "BIg5Rmtg2v4",
    "duration": "4:00"
   },
   {
    "title": "12th Soundscape",
-   "artist": "James Blake - Topic",
-   "album": "",
+   "artist": "James Blake;Endel",
+   "album": "Wind Down",
    "videoId": "upY8PV7nXZM",
    "duration": "3:44"
   },
@@ -8644,8 +8644,8 @@
   },
   {
    "title": "Olê, Olá",
-   "artist": "Toquinho - Topic",
-   "album": "",
+   "artist": "Toquinho",
+   "album": "Os Primeiros Anos",
    "videoId": "oF07BIvqsms",
    "duration": "2:40"
   },
@@ -8721,8 +8721,8 @@
   },
   {
    "title": "De Ontem Pra Hoje",
-   "artist": "Toquinho - Topic",
-   "album": "",
+   "artist": "Toquinho",
+   "album": "Os Primeiros Anos",
    "videoId": "YczQ5ZbIP2c",
    "duration": "1:50"
   },
@@ -8763,8 +8763,8 @@
   },
   {
    "title": "Pequeno Concerto Que Virou Canção",
-   "artist": "Toquinho - Topic",
-   "album": "",
+   "artist": "Toquinho",
+   "album": "Os Primeiros Anos",
    "videoId": "OXEkcGkD3CQ",
    "duration": "2:59"
   },
@@ -8994,8 +8994,8 @@
   },
   {
    "title": "Dandelion",
-   "artist": "Florist - Topic",
-   "album": "",
+   "artist": "Florist",
+   "album": "Florist",
    "videoId": "sRMCa9oR-JY",
    "duration": "5:06"
   },

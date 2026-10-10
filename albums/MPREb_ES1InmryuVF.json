@@ -1,0 +1,64 @@
+{
+ "title": "flutter",
+ "artist": "frau",
+ "year": "2026",
+ "trackCount": 9,
+ "tracks": [
+  {
+   "title": "frau, where have you been?",
+   "artist": "frau",
+   "videoId": "0ebYj2tBwFc",
+   "duration": "2:38"
+  },
+  {
+   "title": "pupilla",
+   "artist": "frau",
+   "videoId": "3zyXmvZYisM",
+   "duration": "3:25"
+  },
+  {
+   "title": "what do you want?",
+   "artist": "frau",
+   "videoId": "H0h7jJcT5wU",
+   "duration": "4:24"
+  },
+  {
+   "title": "truth",
+   "artist": "frau",
+   "videoId": "4JNypX3fYIk",
+   "duration": "3:03"
+  },
+  {
+   "title": "graduate",
+   "artist": "frau",
+   "videoId": "fVALcLvDnXQ",
+   "duration": "3:43"
+  },
+  {
+   "title": "further from you",
+   "artist": "frau",
+   "videoId": "jzFcOTdt6SA",
+   "duration": "4:04"
+  },
+  {
+   "title": "ricochet",
+   "artist": "frau",
+   "videoId": "8sWkV18n9dI",
+   "duration": "3:43"
+  },
+  {
+   "title": "perfume",
+   "artist": "frau",
+   "videoId": "Cb4bEPlUmoE",
+   "duration": "5:00"
+  },
+  {
+   "title": "heidi’s lullaby",
+   "artist": "frau",
+   "videoId": "RxokunK-3VQ",
+   "duration": "2:16"
+  }
+ ],
+ "browseId": "MPREb_ES1InmryuVF",
+ "syncedAt": "2026-10-10T14:17:36.701749Z"
+}

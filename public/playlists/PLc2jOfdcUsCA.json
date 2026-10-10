@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 7,
- "syncedAt": "2026-10-09T15:02:31.302497Z",
+ "trackCount": 8,
+ "syncedAt": "2026-10-10T14:17:41.401515Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -52,6 +52,13 @@
    "album": "Diana Ross (Expanded Edition)",
    "videoId": "Y9-7rcKxIc8",
    "duration": "7:49"
+  },
+  {
+   "title": "si",
+   "artist": "Sparklmami",
+   "album": "si",
+   "videoId": "jyOZclG6C6s",
+   "duration": "2:32"
   }
  ]
 }

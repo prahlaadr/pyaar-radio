@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3617,
- "totalTracks": 45953,
- "syncedAt": "2026-10-09T15:02:02.481750Z",
+ "albumCount": 3623,
+ "totalTracks": 46012,
+ "syncedAt": "2026-10-10T14:17:36.701749Z",
  "albums": [
+  {
+   "browseId": "MPREb_epjyFd22JOF",
+   "title": "SHOPNOBHUMI",
+   "artist": "EXCISE DEPT",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_qh9KopVw2HY",
+   "title": "Send One Your Love",
+   "artist": "Boney James",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_ES1InmryuVF",
+   "title": "flutter",
+   "artist": "frau",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_yffku5Lo1BQ",
+   "title": "Some Things Take Time",
+   "artist": "Cisco Swank",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_iNeQ5qP2zQF",
+   "title": "Something For Real",
+   "artist": "Kiefer",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_fX5bJMlKH8Q",
+   "title": "From What Was Will Grow A Flower",
+   "artist": "Luke Titus",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_lhT6zoo6CGC",
    "title": "Five Leaves Left",
