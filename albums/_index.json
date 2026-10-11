@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3623,
- "totalTracks": 46012,
- "syncedAt": "2026-10-10T14:17:36.701749Z",
+ "albumCount": 3625,
+ "totalTracks": 46021,
+ "syncedAt": "2026-10-11T14:43:00.596741Z",
  "albums": [
+  {
+   "browseId": "MPREb_WeB24Cl8qXY",
+   "title": "Howl",
+   "artist": "Mei Semones",
+   "trackCount": 0
+  },
+  {
+   "browseId": "MPREb_W9GseKQIZV0",
+   "title": "India",
+   "artist": "Gal Costa",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_epjyFd22JOF",
    "title": "SHOPNOBHUMI",

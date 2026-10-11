@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1571,
- "syncedAt": "2026-10-10T14:17:41.401515Z",
+ "trackCount": 1572,
+ "syncedAt": "2026-10-11T14:43:03.898363Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -5801,10 +5801,10 @@
    "duration": "6:14"
   },
   {
-   "title": "Lose My Mind (feat. Mr Gabriel)",
+   "title": "Lose My Mind",
    "artist": "Jai Wolf",
    "album": "Lose My Mind / Telepathy",
-   "videoId": "D-4WG0FmwzA",
+   "videoId": "Ap47XigFyZs",
    "duration": "4:19"
   },
   {
@@ -6105,7 +6105,7 @@
    "title": "Cowgirl Trailride (feat. Tonio Armani)",
    "artist": "S Dott",
    "album": "Cowgirl Trailride",
-   "videoId": "fzp5UVg_O9A",
+   "videoId": "aIReO7Q_k9o",
    "duration": "3:37"
   },
   {
@@ -11000,6 +11000,13 @@
    "album": "Curtis (Expanded Edition)",
    "videoId": "iN3KsbnQZxU",
    "duration": "8:56"
+  },
+  {
+   "title": "Question",
+   "artist": "KH",
+   "album": "Question",
+   "videoId": "urttvNt9cRk",
+   "duration": "7:41"
   }
  ]
 }
