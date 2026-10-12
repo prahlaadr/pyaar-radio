@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 8,
- "syncedAt": "2026-10-11T14:43:03.898363Z",
+ "trackCount": 10,
+ "syncedAt": "2026-10-12T17:27:39.331534Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -59,6 +59,20 @@
    "album": "si",
    "videoId": "jyOZclG6C6s",
    "duration": "2:32"
+  },
+  {
+   "title": "WHITE SOX CAPZ",
+   "artist": "Thirteendegrees °",
+   "album": "GHETTO HIPSTER",
+   "videoId": "-qMIb9wkUmQ",
+   "duration": "2:49"
+  },
+  {
+   "title": "We'll Never Be This Young Again",
+   "artist": "Laila!",
+   "album": "We'll Never Be This Young Again",
+   "videoId": "29ChKi5AxG0",
+   "duration": "2:22"
   }
  ]
 }

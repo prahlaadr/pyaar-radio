@@ -1,9 +1,69 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3625,
- "totalTracks": 46021,
- "syncedAt": "2026-10-11T14:43:00.596741Z",
+ "albumCount": 3635,
+ "totalTracks": 46155,
+ "syncedAt": "2026-10-12T17:27:33.595897Z",
  "albums": [
+  {
+   "browseId": "MPREb_B4x3b9y3IkR",
+   "title": "Regardless",
+   "artist": "Portraits Of Tracy",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_MGJRgnpffXh",
+   "title": "The Misadvice Of Junie",
+   "artist": "Portraits Of Tracy",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_cXPiJrLoyb6",
+   "title": "Drive Home",
+   "artist": "Portraits Of Tracy",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_07SW2RouliB",
+   "title": "CCFX EP",
+   "artist": "CCFX",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_C9CIQNf8QiN",
+   "title": "GHETTO HIPSTER",
+   "artist": "Thirteendegrees °",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_FG0v0jN2oei",
+   "title": "Cape Cira",
+   "artist": "K-LONE",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_MBS7CQE4ICt",
+   "title": "Swells",
+   "artist": "K-LONE",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_0WQMl0LVCf8",
+   "title": "sorry I thought you were someone else",
+   "artist": "K-Lone",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_M0h1ZiIozzN",
+   "title": "Have a few days off",
+   "artist": "K-LONE",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_hghw9iMzQvr",
+   "title": "Eton Messy In:Season (Autumn / Winter 2016)",
+   "artist": "Various Artists",
+   "trackCount": 34
+  },
   {
    "browseId": "MPREb_WeB24Cl8qXY",
    "title": "Howl",
@@ -16987,7 +17047,7 @@
   {
    "browseId": "MPREb_Xx674aFbqAQ",
    "title": "Ferrari Boyz",
-   "artist": "Gucci Mane & Waka Flocka Flame",
+   "artist": "Gucci Mane",
    "trackCount": 12
   },
   {

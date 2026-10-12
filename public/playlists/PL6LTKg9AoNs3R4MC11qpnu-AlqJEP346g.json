@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1572,
- "syncedAt": "2026-10-11T14:43:03.898363Z",
+ "trackCount": 1583,
+ "syncedAt": "2026-10-12T17:27:39.331534Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -5801,10 +5801,10 @@
    "duration": "6:14"
   },
   {
-   "title": "Lose My Mind",
+   "title": "Lose My Mind (feat. Mr Gabriel)",
    "artist": "Jai Wolf",
    "album": "Lose My Mind / Telepathy",
-   "videoId": "Ap47XigFyZs",
+   "videoId": "D-4WG0FmwzA",
    "duration": "4:19"
   },
   {
@@ -11007,6 +11007,83 @@
    "album": "Question",
    "videoId": "urttvNt9cRk",
    "duration": "7:41"
+  },
+  {
+   "title": "Da Ya Think I'm Sexy?",
+   "artist": "Rod Stewart",
+   "album": "Blondes Have More Fun",
+   "videoId": "6F9N-6ITFnA",
+   "duration": "5:32"
+  },
+  {
+   "title": "The Magnificent Seven",
+   "artist": "The Clash",
+   "album": "Sandinista!",
+   "videoId": "-Aj92HNB8Tc",
+   "duration": "5:34"
+  },
+  {
+   "title": "You Can't Dance Alone",
+   "artist": "Stephen Stills",
+   "album": "Thoroughfare Gap",
+   "videoId": "4hWeQHvfJIY",
+   "duration": "4:21"
+  },
+  {
+   "title": "I Want More",
+   "artist": "Can",
+   "album": "Flow Motion",
+   "videoId": "Vs4GZ5d036U",
+   "duration": "3:31"
+  },
+  {
+   "title": "Woman Don't You Cry for Me (2004 Remaster)",
+   "artist": "George Harrison",
+   "album": "Thirty Three & 1/3",
+   "videoId": "CzGKqogSn2w",
+   "duration": "3:21"
+  },
+  {
+   "title": "(Wish I Could Fly Like) Superman",
+   "artist": "The Kinks",
+   "album": "Low Budget",
+   "videoId": "DV-4Ge78OaI",
+   "duration": "3:37"
+  },
+  {
+   "title": "Goodnight Tonight",
+   "artist": "Wings",
+   "album": "All The Best",
+   "videoId": "20--CXaceIM",
+   "duration": "4:20"
+  },
+  {
+   "title": "Baby I'm Burnin'",
+   "artist": "Dolly Parton",
+   "album": "Heartbreaker",
+   "videoId": "pl0q1x7nRf8",
+   "duration": "2:37"
+  },
+  {
+   "title": "上を向いて歩こう - Sukiyaki",
+   "artist": "Kyu Sakamoto",
+   "album": "Sukiyaki　",
+   "videoId": "q091Oefm2U8",
+   "duration": "3:08"
+  },
+  {
+   "title": "Rain",
+   "artist": "SWV",
+   "album": "Release Some Tension",
+   "videoId": "zH74g3l7eH4",
+   "duration": "4:25"
+  },
+  {
+   "title": "We'll Never Be This Young Again",
+   "artist": "Laila!",
+   "album": "We'll Never Be This Young Again",
+   "videoId": "29ChKi5AxG0",
+   "duration": "2:22"
   }
  ]
 }

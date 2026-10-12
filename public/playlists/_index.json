@@ -1,18 +1,23 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 300,
- "totalTracks": 82594,
- "syncedAt": "2026-10-11T14:43:03.898363Z",
+ "playlistCount": 301,
+ "totalTracks": 82601,
+ "syncedAt": "2026-10-12T17:27:39.331534Z",
  "playlists": [
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1572
-  },
   {
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
-   "trackCount": 8
+   "trackCount": 10
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1583
+  },
+  {
+   "playlistId": "PLS3nLk6Dv00s",
+   "title": "001 double",
+   "trackCount": 2
   },
   {
    "playlistId": "PLDJStef2RVs4",
@@ -197,7 +202,7 @@
   {
    "playlistId": "PLJIHWFRb5JG0",
    "title": "Disco Funk House + Deep House",
-   "trackCount": 635
+   "trackCount": 632
   },
   {
    "playlistId": "PLMoUVJEmUblE",
@@ -1462,7 +1467,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3sUkDtKZB59KivuJZT4aYV",
    "title": "Beats",
-   "trackCount": 1166
+   "trackCount": 1161
   },
   {
    "playlistId": "PL6LTKg9AoNs2wER59GmuFYBTL_jL1odYe",
