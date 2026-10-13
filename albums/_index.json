@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3635,
- "totalTracks": 46155,
- "syncedAt": "2026-10-12T17:27:33.595897Z",
+ "albumCount": 3640,
+ "totalTracks": 46197,
+ "syncedAt": "2026-10-13T15:38:52.643623Z",
  "albums": [
+  {
+   "browseId": "MPREb_Gx4MIJzyVAi",
+   "title": "Depth Training",
+   "artist": "Jamblu",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_VSKOAv4M8ok",
+   "title": "Sundae",
+   "artist": "Angad Berar",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_QAQmzvbdqkD",
+   "title": "Service Animal",
+   "artist": "Jamblu",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_8soBvm4E65W",
+   "title": "Object Permanence (Deluxe Edition)",
+   "artist": "Sophia Stel",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_7epBl5t6aCR",
+   "title": "How to Win At Solitaire (Deluxe Edition)",
+   "artist": "Sophia Stel",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_B4x3b9y3IkR",
    "title": "Regardless",

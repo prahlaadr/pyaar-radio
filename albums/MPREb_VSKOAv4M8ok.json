@@ -1,0 +1,58 @@
+{
+ "title": "Sundae",
+ "artist": "Angad Berar",
+ "year": "2025",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Jam 1",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "qDQb5NcbyNg",
+   "duration": "3:25"
+  },
+  {
+   "title": "Jam 2",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "Gd_oDGrYhWk",
+   "duration": "6:25"
+  },
+  {
+   "title": "Driving With You (feat. Chrisrah)",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "GC8VdquiVuU",
+   "duration": "4:41"
+  },
+  {
+   "title": "Jam 3",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "WUVzllgocqg",
+   "duration": "8:36"
+  },
+  {
+   "title": "Jam 4",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "mqi5VvQl2dQ",
+   "duration": "4:25"
+  },
+  {
+   "title": "Jam 5",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "6Bzuy5DC7oM",
+   "duration": "5:18"
+  },
+  {
+   "title": "Jam 6 (feat. Siddharth Kaushik)",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "jJBuktTdeHs",
+   "duration": "10:32"
+  },
+  {
+   "title": "Jam 7",
+   "artist": "Angad Berar;Jamblu",
+   "videoId": "kOJPwjld9Dg",
+   "duration": "7:26"
+  }
+ ],
+ "browseId": "MPREb_VSKOAv4M8ok",
+ "syncedAt": "2026-10-13T15:38:52.643623Z"
+}
