@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-10-12T17:31:47Z",
+  "syncedAt": "2026-10-13T15:41:12Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
     {
       "alias": "sendspaace",
       "name": "Sendspaace ",
@@ -51,15 +60,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/sic-records"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "soup-to-nuts-anu",
