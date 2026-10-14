@@ -1,0 +1,34 @@
+{
+ "title": "Postcards",
+ "artist": "Anish Kumar",
+ "year": "2022",
+ "trackCount": 4,
+ "tracks": [
+  {
+   "title": "Hummingbird",
+   "artist": "Anish Kumar",
+   "videoId": "-S-_9HMJTCk",
+   "duration": "2:58"
+  },
+  {
+   "title": "Steamroller",
+   "artist": "Anish Kumar",
+   "videoId": "t_IPjNiH3gU",
+   "duration": "2:56"
+  },
+  {
+   "title": "Bhāvachakra",
+   "artist": "Anish Kumar",
+   "videoId": "0Xq_3QVbhwY",
+   "duration": "3:32"
+  },
+  {
+   "title": "Return to Sender",
+   "artist": "Anish Kumar",
+   "videoId": "yTkzFF4hnTc",
+   "duration": "3:27"
+  }
+ ],
+ "browseId": "MPREb_Omzf5r51ZRN",
+ "syncedAt": "2026-10-14T13:22:25.637811Z"
+}

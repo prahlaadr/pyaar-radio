@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1584,
- "syncedAt": "2026-10-13T15:38:56.873375Z",
+ "trackCount": 1587,
+ "syncedAt": "2026-10-14T13:22:28.867343Z",
  "tracks": [
   {
    "title": "Big Man, Little Dignity",
@@ -10918,7 +10918,7 @@
    "duration": "3:41"
   },
   {
-   "title": "Mambo No. 6",
+   "title": "MAMBO NO．6 - Mambo No. 6",
    "artist": "Masayoshi Takanaka",
    "album": "T-Wave",
    "videoId": "iGi4vKrVKUU",
@@ -11091,6 +11091,27 @@
    "album": "wood tip",
    "videoId": "e14raPFb-hk",
    "duration": "2:43"
+  },
+  {
+   "title": "Belief",
+   "artist": "John Mayer",
+   "album": "Continuum",
+   "videoId": "CkwEnP56fO8",
+   "duration": "4:03"
+  },
+  {
+   "title": "Vultures",
+   "artist": "John Mayer",
+   "album": "Continuum",
+   "videoId": "9WDkazi__Bw",
+   "duration": "4:11"
+  },
+  {
+   "title": "Dumb Feeling",
+   "artist": "Mei Semones",
+   "album": "Animaru",
+   "videoId": "anfVwqnLZfU",
+   "duration": "3:11"
   }
  ]
 }

@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3640,
- "totalTracks": 46197,
- "syncedAt": "2026-10-13T15:38:52.643623Z",
+ "albumCount": 3642,
+ "totalTracks": 46210,
+ "syncedAt": "2026-10-14T13:22:25.637811Z",
  "albums": [
+  {
+   "browseId": "MPREb_Omzf5r51ZRN",
+   "title": "Postcards",
+   "artist": "Anish Kumar",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_Gx4MIJzyVAi",
    "title": "Depth Training",
@@ -2625,6 +2631,12 @@
    "title": "Live in San Francisco '16",
    "artist": "King Gizzard & The Lizard Wizard",
    "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_p8ykXCEItJr",
+   "title": "L.W.",
+   "artist": "King Gizzard & The Lizard Wizard",
+   "trackCount": 9
   },
   {
    "browseId": "MPREb_FvavZAxeSag",
