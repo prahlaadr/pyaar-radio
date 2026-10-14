@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T15:41:12Z",
+  "syncedAt": "2026-10-14T13:26:19Z",
   "shows": [
     {
       "alias": "the-nts-guide-to",
@@ -9,6 +9,24 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "yu-su",
+      "name": "Yu Su",
+      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
+      "location": "Kaifeng",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/yu-su"
+    },
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "sendspaace",
@@ -60,15 +78,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/sic-records"
-    },
-    {
-      "alias": "soup-to-nuts-anu",
-      "name": "Soup To Nuts w/ Anu",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "tommasi",
@@ -134,15 +143,6 @@
         "other"
       ],
       "url": "https://www.nts.live/shows/otaku"
-    },
-    {
-      "alias": "yu-su",
-      "name": "Yu Su",
-      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
-      "location": "Kaifeng",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/yu-su"
     },
     {
       "alias": "tana-yonas",
