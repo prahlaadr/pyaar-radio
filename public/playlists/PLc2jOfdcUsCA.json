@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 11,
- "syncedAt": "2026-10-14T13:22:28.867343Z",
+ "trackCount": 12,
+ "syncedAt": "2026-10-15T13:07:49.401200Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -80,6 +80,13 @@
    "album": "Postcards",
    "videoId": "0Xq_3QVbhwY",
    "duration": "3:32"
+  },
+  {
+   "title": "By Your Side (Neptunes Remix)",
+   "artist": "Sade",
+   "album": "The Ultimate Collection",
+   "videoId": "QaG1_8Fh9RY",
+   "duration": "4:00"
   }
  ]
 }
