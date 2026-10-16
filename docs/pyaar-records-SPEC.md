@@ -49,7 +49,7 @@ in:
   - My Artists roster = curated artists.csv UNIONED with a derived set of artists with >= 2 saved albums in the library (albums/_index.json)
   - membership is cheap (>= 2 saved albums, minus curated, minus a small aggregator denylist of RAAJA BEATS / CHOR BAZAAR); "release-active" is NOT a membership pre-gate, it is enforced at scan time by the recency window, so a legacy/inactive artist in the roster surfaces nothing rather than junk
   - derived artists live in a radar-only derived set, NOT auto-written into artists.csv; a one-click "promote" adds a curated artists.csv row with metadata when wanted
-  - Pyaar Records roster = Rolodex contacts (Source = pyaar.radio, Circle = Artist/Creator), music-resolved, as a committed snapshot refreshed from the Rolodex
+  - Pyaar Records roster = Rolodex contacts (Source = pyaar.records, Circle = Artist/Creator), music-resolved, as a committed snapshot refreshed from the Rolodex
   - ambiguous name-to-artist resolutions go to a review bucket (yes/no), never force-matched or silently dropped
   - per artist: latest 3 projects newest first (albums + EPs/mixtapes, singles excluded), a saved / not-saved checkmark (library reconcile), one-click Save via the existing Save then Apply flow
   - an artist in both rosters appears in both tabs
@@ -83,7 +83,7 @@ My Artists tab:
 
 Pyaar Records tab:
 
-- Given the roster pulled from the Rolodex (Source = pyaar.radio, Circle =
+- Given the roster pulled from the Rolodex (Source = pyaar.records, Circle =
   Artist/Creator) and music-resolved, it contains only contacts resolving to a
   YT Music artist with at least one non-single release; ambiguous resolutions
   are held in a review bucket, not force-matched or silently dropped.
@@ -163,23 +163,30 @@ Shared:
 
 Intent-level approach (details belong in DESIGN / code, not here):
 
-- **My Artists auto-grows from the library.** Group saved albums
-  (`albums/_index.json`) by artist; any with 2+ becomes a candidate. Gate the
-  candidates to release-active ones (a release in the last ~3 years) and exclude
-  catalog / compilation / film-composer channels. The survivors form a
-  radar-only **derived set** unioned with `artists.csv` for the My Artists scan.
-  They are not written into `artists.csv` (which drives the app's filters + TV
-  and needs curated metadata); a **promote** action adds a curated row on
-  demand.
-- **Pyaar Records roster from the Rolodex, already present.** The label account
-  is the one the Rolodex tags by its former handle `pyaar.radio` (rebranded
-  radio to records). Verified 2026-10-16: the Rolodex holds that following as
-  contacts tagged `Source = pyaar.radio` + `Circle = Artist/Creator` (100+ on
-  the first page, several hundred total), so the roster is a Rolodex query
-  snapshotted to a committed file, not a fresh scrape. Music-only resolve turns
-  contacts into artists with releases, preferring the Rolodex-resolved full name
-  (many entries are still handle-form, e.g. `thatkidzayy`); ambiguous matches
-  go to a review bucket.
+- **My Artists auto-grows from the library. [BUILT: Phase 1.]** Group saved
+  albums (`albums/_index.json`) by artist; any with 2+ (minus curated, minus a
+  tiny aggregator denylist) joins a radar-only **derived set** unioned with
+  `artists.csv` for the My Artists scan (627 -> 967 today). "Release-active" is
+  NOT a membership pre-gate: it is enforced at scan time by the recency window
+  (`RECENCY_YEARS_BACK`), so a legacy artist in the roster just surfaces nothing.
+  Derived artists are not written into `artists.csv` (which drives the app's
+  filters + TV and needs curated metadata); a **promote** action adds a curated
+  row on demand (Phase 3).
+- **Pyaar Records roster from the Rolodex.** The label account was rebranded
+  `pyaar.radio` -> `pyaar.records`; the user renamed the Rolodex `Source` option
+  to `pyaar.records` on 2026-10-16 (same rows, retagged). The roster is a Rolodex
+  query (`Source = pyaar.records` + `Circle = Artist/Creator`, several hundred
+  rows) snapshotted to a committed file.
+- **Resolution needs IG full names, not handles (de-risk spike, 2026-10-16, 40
+  contacts).** Resolving on the raw IG handle alone = only 25% confident
+  auto-accept, 25% review, 50% drop. Half the drops are correct
+  (labels/festivals/venues: `ninjatune`, `newportjazzfest`), but the rest are
+  real artists missed because the Rolodex `Name` is still the handle
+  (`thatkidzayy`), not the artist's real name. So the resolver must use the IG
+  `full_name` (the following-sweep API returns it; current handle-only rows lack
+  it): the prerequisite is a fresh `pyaar.records` following sweep capturing
+  `username` + `full_name`, then resolve on the full name. The review bucket is
+  essential, not optional.
 - **Reuse the Radar's machinery** for the latest-3 fetch, the noise filter, the
   library-reconcile that drives the checkmark, and the Save then Apply flow. The
   two tabs are presentation layers over data the Radar already knows how to
@@ -194,9 +201,12 @@ Intent-level approach (details belong in DESIGN / code, not here):
 - **Roster growth.** My Artists roughly grows 627 toward ~950 once auto-grow is
   on, which lengthens the scan and the triage list. Acceptable; the scan already
   handles ~627 and the gate trims legacy/noise.
-- **Rolodex roster staleness.** The `pyaar.radio` rip predates the rebrand, so
-  follows added since are missing until the next re-rip (which should sweep the
-  current `pyaar.records` handle). Mitigation: ride the existing periodic re-rip.
+- **Rolodex roster staleness + missing full names.** The `pyaar.records` rows
+  carry only the IG handle for many entries, and the July rip predates follows
+  added since. The next re-rip must sweep the current `pyaar.records` handle AND
+  capture `username` + `full_name` (the resolver depends on the full name, per
+  the spike). Mitigation: ride the existing periodic re-rip, extended to store
+  full_name.
 
 ## open_questions
 

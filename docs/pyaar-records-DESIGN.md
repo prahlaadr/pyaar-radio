@@ -26,7 +26,7 @@ shapes beat one overloaded one.
   aggregator denylist. Computed live from `_index.json` (committed + daily
   synced), so the cloud scan auto-includes them. ~340 today.
 - **My Artists scan roster** = curated UNION derived.
-- **Records roster** = Rolodex snapshot (`Source = pyaar.radio`, `Circle =
+- **Records roster** = Rolodex snapshot (`Source = pyaar.records`, `Circle =
   Artist/Creator`), music-resolved, ambiguous matches to a review bucket.
   (Phase 2+.)
 
@@ -62,9 +62,13 @@ adds a curated row on demand (Phase 3).
 - **P1 (this change):** `radar/roster.py` (curated/derived/union loaders +
   denylist), a `radar roster` inspector, and wiring the full release scan to the
   union. Backend only, over existing data, verifiable against the ~340.
-- **P2:** Records resolution spike (~30 follows) to measure precision; then the
-  Rolodex query -> music resolve -> review-bucket pipeline and the
-  `records-grid.json` artifact.
+- **P2:** Records resolution. Spike DONE (2026-10-16, 40 follows): resolving on
+  the raw IG handle = 25% auto-accept / 25% review / 50% drop, because the
+  Rolodex `Name` is often the handle, not the artist's real name. So P2 proper
+  has a **prerequisite**: a fresh `pyaar.records` following sweep capturing
+  `username` + `full_name`, then resolve on the full name (expected to lift
+  auto-accept well above 25%). Then the Rolodex query -> music resolve -> review
+  bucket pipeline and the `records-grid.json` artifact.
 - **P3:** UI. My Artists tab (the existing `/radar`, now over the expanded
   roster) + a new `/radar/records` grid tab + the promote action + the
   review-bucket UI.
