@@ -1,13 +1,18 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 303,
- "totalTracks": 82693,
- "syncedAt": "2026-10-15T13:07:49.401200Z",
+ "totalTracks": 82707,
+ "syncedAt": "2026-10-16T13:04:29.312810Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1591
+   "trackCount": 1602
+  },
+  {
+   "playlistId": "PLIpg0r7aJSXc",
+   "title": "perfectly imperfect sync",
+   "trackCount": 514
   },
   {
    "playlistId": "PLc2jOfdcUsCA",
@@ -58,11 +63,6 @@
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
    "trackCount": 47
-  },
-  {
-   "playlistId": "PLIpg0r7aJSXc",
-   "title": "perfectly imperfect sync",
-   "trackCount": 506
   },
   {
    "playlistId": "PLXIiwFmWNqI8",
@@ -1372,7 +1372,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2ZsKBdo0CUvDAQGWIgkP-V",
    "title": "melt🩸🔊 🕶️8)))",
-   "trackCount": 756
+   "trackCount": 751
   },
   {
    "playlistId": "PL6LTKg9AoNs1fXDKaFJhCJwupySCSiSSB",

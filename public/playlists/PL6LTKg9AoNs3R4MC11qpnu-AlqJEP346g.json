@@ -1,9 +1,93 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1591,
- "syncedAt": "2026-10-15T13:07:49.401200Z",
+ "trackCount": 1602,
+ "syncedAt": "2026-10-16T13:04:29.312810Z",
  "tracks": [
+  {
+   "title": "Freak Me Now",
+   "artist": "Jessie Ware",
+   "album": "That! Feels Good!",
+   "videoId": "aCFJ10xkVCw",
+   "duration": "3:29"
+  },
+  {
+   "title": "Read My Lips",
+   "artist": "Jessie Ware",
+   "album": "What's Your Pleasure?",
+   "videoId": "lpCJKgEnE84",
+   "duration": "4:04"
+  },
+  {
+   "title": "Love You For",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "AGp2e5TZp-s",
+   "duration": "3:25"
+  },
+  {
+   "title": "Ooh La La",
+   "artist": "Jessie Ware",
+   "album": "What's Your Pleasure?",
+   "videoId": "xcriWhBuml4",
+   "duration": "3:49"
+  },
+  {
+   "title": "Mr Valentine",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "250Hm8FTGAI",
+   "duration": "3:26"
+  },
+  {
+   "title": "Mon Amour",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "dI_4ZW6-sVc",
+   "duration": "3:46"
+  },
+  {
+   "title": "Step Into My Life",
+   "artist": "Jessie Ware",
+   "album": "What's Your Pleasure?",
+   "videoId": "n7vuYuMhAsg",
+   "duration": "3:38"
+  },
+  {
+   "title": "Kiss of Life",
+   "artist": "Kylie Minogue;Jessie Ware",
+   "album": "DISCO: Guest List Edition",
+   "videoId": "Ev8UqqQZ47k",
+   "duration": "3:14"
+  },
+  {
+   "title": "Soul Control",
+   "artist": "Jessie Ware",
+   "album": "What's Your Pleasure?",
+   "videoId": "6M19kwlaSiI",
+   "duration": "4:00"
+  },
+  {
+   "title": "Ride",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "sVYOZickDIg",
+   "duration": "4:40"
+  },
+  {
+   "title": "Sauna",
+   "artist": "Jessie Ware",
+   "album": "Superbloom",
+   "videoId": "3h38RrJ4OYU",
+   "duration": "3:09"
+  },
+  {
+   "title": "What’s Your Pleasure?",
+   "artist": "Jessie Ware",
+   "album": "What's Your Pleasure?",
+   "videoId": "_R5NMcdpuO4",
+   "duration": "4:39"
+  },
   {
    "title": "Tuesday Feeling (Choose To Stay) (feat. Tinashe)",
    "artist": "Blood Orange",
@@ -304,13 +388,6 @@
    "album": "Blackout",
    "videoId": "R60NQkzCHEg",
    "duration": "3:22"
-  },
-  {
-   "title": "Boys in the Better Land",
-   "artist": "FONTAINES D.C.",
-   "album": "Dogrel",
-   "videoId": "3A8mPMZOc5Q",
-   "duration": "5:01"
   },
   {
    "title": "Headlock",

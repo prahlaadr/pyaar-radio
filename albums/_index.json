@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3641,
- "totalTracks": 46198,
- "syncedAt": "2026-10-15T13:07:46.842477Z",
+ "albumCount": 3646,
+ "totalTracks": 46258,
+ "syncedAt": "2026-10-16T13:04:24.946032Z",
  "albums": [
+  {
+   "browseId": "MPREb_GHUNKW7sS65",
+   "title": "India Gets Physical, Vol. 1 - Mixed & Compiled by Todh Teri",
+   "artist": "Todh Teri",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_QSbP8OfY9yt",
+   "title": "Skeletor",
+   "artist": "Chief Keef",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_I6YtRZnoFFm",
+   "title": "Dedication",
+   "artist": "Chief Keef",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_eXcpfMKK5rJ",
+   "title": "Pourquoi",
+   "artist": "Cortex",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_CSYp9JJpSXY",
+   "title": "I Heard a Sigh",
+   "artist": "Cortex",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_Omzf5r51ZRN",
    "title": "Postcards",

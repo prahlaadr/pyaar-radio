@@ -1,8 +1,8 @@
 {
  "playlistId": "PLIpg0r7aJSXc",
  "title": "perfectly imperfect sync",
- "trackCount": 506,
- "syncedAt": "2026-10-15T13:07:49.401200Z",
+ "trackCount": 514,
+ "syncedAt": "2026-10-16T13:04:29.312810Z",
  "tracks": [
   {
    "title": "Anthems For A Seventeen Year-Old Girl",
@@ -3545,6 +3545,62 @@
    "album": "ALL IN",
    "videoId": "mKbUHSQNuQU",
    "duration": "2:48"
+  },
+  {
+   "title": "Nights In White Satin (Single Version)",
+   "artist": "The Moody Blues",
+   "album": "20th Century Masters: The Millennium Collection: Best Of The Moody Blues",
+   "videoId": "066HZlam91Y",
+   "duration": "4:26"
+  },
+  {
+   "title": "Barracuda",
+   "artist": "SUNSHINE BENZI",
+   "album": "Barracuda",
+   "videoId": "Pjbx-g-NtwE",
+   "duration": "2:42"
+  },
+  {
+   "title": "Bug",
+   "artist": "Presley Regier",
+   "album": "Bug",
+   "videoId": "MexuXj-GLcI",
+   "duration": "3:05"
+  },
+  {
+   "title": "Din Shagna Da",
+   "artist": "Jasleen Royal;Neeraj Rajawat",
+   "album": "Phillauri",
+   "videoId": "pgNxFPD1nrk",
+   "duration": "3:36"
+  },
+  {
+   "title": "Amoeba",
+   "artist": "Clairo",
+   "album": "Sling",
+   "videoId": "7WXXaIz3uds",
+   "duration": "3:49"
+  },
+  {
+   "title": "You Don't Mess Around with Jim",
+   "artist": "Jim Croce",
+   "album": "Photographs & Memories: His Greatest Hits",
+   "videoId": "hickVDiW8k0",
+   "duration": "3:05"
+  },
+  {
+   "title": "After You",
+   "artist": "Stray Kids",
+   "album": "THIS & THAT",
+   "videoId": "p6_yFS1I43Q",
+   "duration": "2:52"
+  },
+  {
+   "title": "Ji Ji Ji",
+   "artist": "Patricio Rey y Sus Redonditos de Ricota",
+   "album": "Oktubre",
+   "videoId": "Jv9BqBjlUzs",
+   "duration": "5:35"
   }
  ]
 }
