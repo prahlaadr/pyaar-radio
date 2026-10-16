@@ -19,6 +19,8 @@ Usage:
     python -m radar query "SELECT ..."            # Ad-hoc DuckDB query
     python -m radar doctor                        # Health check (deployed + parity + last scan)
     python -m radar doctor --json                 # Machine-readable health for Pando
+    python -m radar roster                        # My Artists roster count (curated + auto-grown)
+    python -m radar roster --list                 # List the auto-grown (>=2 saved albums) artists
     python -m radar crate                         # List crate entries
     python -m radar crate add "Artist" --album "Album" --source "NTS"
     python -m radar crate promote "Artist"        # Mark as promoted (ready for artists.csv)
@@ -62,9 +64,15 @@ def cmd_release(args):
         count = seed_from_albums(db)
         print(f"Seeded {count} albums.\n")
 
-    artists = load_artists(args.artist)
+    if args.artist:
+        artists = load_artists(args.artist)
+    else:
+        # Full scan = curated artists.csv UNION the auto-grown derived set
+        # (artists with >=2 saved albums). See radar/roster.py.
+        from .roster import load_my_artists
+        artists = load_my_artists()
     if not artists:
-        print(f"No artist found matching: {args.artist}" if args.artist else "No artists in artists.csv")
+        print(f"No artist found matching: {args.artist}" if args.artist else "No artists in roster")
         sys.exit(1)
 
     print(f"Checking {len(artists)} artist{'s' if len(artists) != 1 else ''}...\n")
@@ -240,6 +248,22 @@ def cmd_doctor(args):
     sys.exit(0 if report["status"] == "ok" else 1)
 
 
+def cmd_roster(args):
+    from .roster import curated_names, derived_my_artists, load_my_artists
+
+    curated = curated_names()
+    derived = derived_my_artists()
+    full = load_my_artists()
+    print(
+        f"My Artists roster: {len(full)} total "
+        f"({len(curated)} curated in artists.csv + {len(derived)} auto-grown from >=2 saved albums)"
+    )
+    if args.list:
+        print("\nAuto-grown (>=2 saved albums, not yet in artists.csv):")
+        for name in derived:
+            print(f"  {name}")
+
+
 def cmd_crate(args):
     from .crate import add_to_crate, update_status, list_crate
 
@@ -289,6 +313,9 @@ def main():
     doctor_p = sub.add_parser("doctor", help="Health check (deployed + parity + last scan) for Pando")
     doctor_p.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
 
+    roster_p = sub.add_parser("roster", help="Show the My Artists roster (curated + auto-grown from >=2 saved albums)")
+    roster_p.add_argument("--list", action="store_true", help="List the auto-grown artists")
+
     crate_p = sub.add_parser("crate", help="Manage discovery crate")
     crate_sub = crate_p.add_subparsers(dest="crate_action")
 
@@ -327,6 +354,8 @@ def main():
         cmd_query(args)
     elif args.command == "doctor":
         cmd_doctor(args)
+    elif args.command == "roster":
+        cmd_roster(args)
     elif args.command == "crate":
         cmd_crate(args)
     else:

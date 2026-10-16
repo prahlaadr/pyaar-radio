@@ -30,6 +30,13 @@ NOISE_PATTERN = re.compile(
 )
 
 
+# The release-active gate: the full scan only surfaces releases from the last
+# (RECENCY_YEARS_BACK + 1) calendar years. This is the single knob that keeps
+# legacy/inactive artists in the roster (e.g. auto-grown >=2-album artists) from
+# producing junk alerts: a dead catalog simply surfaces nothing. 2 = 2024+ today.
+RECENCY_YEARS_BACK = 2
+
+
 def is_noise(title: str) -> bool:
     return bool(NOISE_PATTERN.search(title or ""))
 
@@ -74,7 +81,7 @@ def find_latest_releases(yt: YTMusic, artist_name: str) -> list[dict]:
         # Only consider releases from the last 2 years to skip old rereleases
         # Note: ytmusicapi puts the year in the "type" field for album results
         current_year = datetime.now().year
-        min_year = current_year - 1
+        min_year = current_year - RECENCY_YEARS_BACK
         # Walk down to the first non-noise release within the year window.
         # Without this we'd surface "Greatest Hits 2026" or "Christmas Special" as a "new release".
         album_list = artist_data.get("albums", {}).get("results", []) or []
