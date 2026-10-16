@@ -64,22 +64,33 @@ def _volumes() -> list[Path]:
         return []
 
 
+def _marker(v: Path) -> str | None:
+    try:
+        m = v / MARKER
+        if m.is_file():
+            return m.read_text(errors="replace").strip().lower()
+    except Exception:
+        pass
+    return None
+
+
 def _discover_volume(role: str) -> Path | None:
     vols = _volumes()
+    other = "v1" if role == "v3" else "v3"
     # a. marker file wins (survives any rename)
     for v in vols:
-        try:
-            m = v / MARKER
-            if m.is_file() and m.read_text(errors="replace").strip().lower() == role:
-                return v
-        except Exception:
-            continue
+        if _marker(v) == role:
+            return v
     # b. volume-name regex
     named = [v for v in vols if NAME_RE[role].match(v.name)]
     if len(named) == 1:
         return named[0]
-    # c. capacity tiebreak among candidates (or all vols if name was ambiguous)
-    cands = named or [v for v in vols if v.name not in ("Macintosh HD",)]
+    # c. capacity tiebreak among candidates (or all vols if name was ambiguous) —
+    #    but never a volume whose marker claims the OTHER role (keeps V1 from being
+    #    promoted to V3 when V3 is unplugged, which misrouted the master archive).
+    cands = named or [
+        v for v in vols if v.name not in ("Macintosh HD",) and _marker(v) != other
+    ]
     sized = []
     for v in cands:
         try:
@@ -108,13 +119,17 @@ def _resolve(role: str) -> Path:
     vol = _discover_volume(role)
     if vol is not None:
         sub = _subpath(role, cfg)
-        root = vol / sub if (vol / sub).exists() else vol
-        # self-heal the cache
-        if cfg.get(f"{role}_root") != str(root):
-            cfg[f"{role}_root"] = str(root)
-            cfg.setdefault(f"{role}_subpath", DEFAULT_SUBPATH[role])
-            _save_cfg(cfg)
-        return root
+        root = vol / sub
+        if root.exists():
+            # self-heal the cache
+            if cfg.get(f"{role}_root") != str(root):
+                cfg[f"{role}_root"] = str(root)
+                cfg.setdefault(f"{role}_subpath", DEFAULT_SUBPATH[role])
+                _save_cfg(cfg)
+            return root
+        # volume found but its library subpath is missing → not a usable root.
+        # Do NOT fall back to the bare volume (that misroutes writes to the drive
+        # root); fall through to the cached value / raise below.
 
     cached = cfg.get(f"{role}_root")
     if cached:
