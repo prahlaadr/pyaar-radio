@@ -17,6 +17,8 @@ Usage:
     python -m radar verify --artist "Kokoroko"    # Verify one artist's alerts
     python -m radar report                        # Show release_alerts log
     python -m radar query "SELECT ..."            # Ad-hoc DuckDB query
+    python -m radar doctor                        # Health check (deployed + parity + last scan)
+    python -m radar doctor --json                 # Machine-readable health for Pando
     python -m radar crate                         # List crate entries
     python -m radar crate add "Artist" --album "Album" --source "NTS"
     python -m radar crate promote "Artist"        # Mark as promoted (ready for artists.csv)
@@ -231,6 +233,13 @@ def cmd_query(args):
     db.close()
 
 
+def cmd_doctor(args):
+    from .doctor import run_doctor
+
+    report = run_doctor(as_json=args.json)
+    sys.exit(0 if report["status"] == "ok" else 1)
+
+
 def cmd_crate(args):
     from .crate import add_to_crate, update_status, list_crate
 
@@ -277,6 +286,9 @@ def main():
     query_p = sub.add_parser("query", help="Run ad-hoc DuckDB query")
     query_p.add_argument("sql", type=str, help="SQL query to execute")
 
+    doctor_p = sub.add_parser("doctor", help="Health check (deployed + parity + last scan) for Pando")
+    doctor_p.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
+
     crate_p = sub.add_parser("crate", help="Manage discovery crate")
     crate_sub = crate_p.add_subparsers(dest="crate_action")
 
@@ -313,6 +325,8 @@ def main():
         cmd_report(args)
     elif args.command == "query":
         cmd_query(args)
+    elif args.command == "doctor":
+        cmd_doctor(args)
     elif args.command == "crate":
         cmd_crate(args)
     else:

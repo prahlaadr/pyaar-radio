@@ -64,6 +64,10 @@ Requires `browser.json` in the repo root (YT Music auth cookies). See main CLAUD
 
 # Ad-hoc DuckDB query against state
 .venv/bin/python -m radar query "SELECT artist, COUNT(*) FROM known_albums GROUP BY artist ORDER BY 2 DESC LIMIT 10"
+
+# Health check (deployed reachable + local/deployed parity + last scan): the Pando entrypoint
+.venv/bin/python -m radar doctor
+.venv/bin/python -m radar doctor --json   # machine-readable for Pando
 ```
 
 ## Verification (Deezer)
@@ -91,6 +95,42 @@ and accuracy — 88% recall on known-real + 70% on the hard niche/new set, vs
 MusicBrainz 60%/0% and Discogs 36%/0%, at ~1s/lookup (Discogs was ~3s). The
 Discogs/MusicBrainz helpers remain in `verify.py` for the bench + as fallbacks but
 are out of the verify path.
+
+## Health check (`radar doctor`): the Pando stem entrypoint
+
+The radar is a **Pando stem** (`pando-radar`): Pando (the main agent) taps in by
+calling `radar doctor`, which reports whether the radar is healthy without running
+a full scan. Pure stdlib, no creds, safe to poll on a schedule.
+
+```bash
+.venv/bin/python -m radar doctor          # human-readable
+.venv/bin/python -m radar doctor --json   # for Pando (exit 0 only when status == ok)
+```
+
+It checks two separate axes so it never false-alarms on expected local staleness:
+
+- **Cloud / parity (what Pando monitors):** is `radio.pyaarproject.org/radar`
+  reachable; is the deployed site **serving the latest committed scan** (deployed
+  `radar-alerts.json` hash == the file at `origin/main` HEAD, so a failed/lagging
+  Vercel deploy shows up); did the last `radar-scan.yml` run succeed and is it
+  within the weekly cadence (stale after 9 days); the alert breakdown by status +
+  Deezer verdict. Parity is measured against the **commit**, not your local
+  checkout.
+- **Local capability (informational):** `browser.json` / `.venv` / `state.db`
+  presence, and whether the local checkout is current. These only matter for
+  running scans *locally*; production is the cloud Action, so `state.db` being
+  gitignored + rebuilt each run is expected, and a local checkout lagging the scan
+  between `git pull`s is a note, never a failure (otherwise the monitor would cry
+  wolf after every weekly scan).
+
+Top-level `status` is `ok` / `degraded` / `down` (`down` = deployed unreachable;
+`degraded` = out of sync, or the weekly scan failed or went stale). The stem is
+declared in `_pando/stems/pando-radar.md` and registered in the Pando registry via
+`annotations.stem: "pando-radar"` on the pyaar-radio project.
+
+> `radar doctor` (functional health of the radar) is distinct from the umbrella
+> `pando doctor` (which audits every project's git backup + docs). Different tools,
+> different jobs.
 
 ## Triage Frontend
 
