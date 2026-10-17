@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3646,
- "totalTracks": 46258,
- "syncedAt": "2026-10-16T13:04:24.946032Z",
+ "albumCount": 3644,
+ "totalTracks": 46245,
+ "syncedAt": "2026-10-17T12:01:34.207819Z",
  "albums": [
+  {
+   "browseId": "MPREb_P9tE4EJJ6lF",
+   "title": "jg",
+   "artist": "Jacques Greene",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_v7KHrr64zBL",
+   "title": "No Bad Memories",
+   "artist": "The Avalanches",
+   "trackCount": 31
+  },
   {
    "browseId": "MPREb_GHUNKW7sS65",
    "title": "India Gets Physical, Vol. 1 - Mixed & Compiled by Todh Teri",
@@ -6011,18 +6023,6 @@
    "trackCount": 8
   },
   {
-   "browseId": "MPREb_OFiADkeaXWn",
-   "title": "Tha Dark Shogunn Saga, Vol. 3",
-   "artist": "Tha God Fahim",
-   "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_Nu0CjKxMzLP",
-   "title": "Tha Dark Shogunn Saga, Vol. 2",
-   "artist": "Tha God Fahim",
-   "trackCount": 13
-  },
-  {
    "browseId": "MPREb_7uw13w8WH0r",
    "title": "POMPEII // UTILITY",
    "artist": "Earl Sweatshirt",
@@ -10577,12 +10577,6 @@
    "trackCount": 15
   },
   {
-   "browseId": "MPREb_KPAkXNcTv1X",
-   "title": "Pray For Haiti",
-   "artist": "Mach-Hommy",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_MscEhvM9E7B",
    "title": "Revenge Of The Dreamers III: Director's Cut",
    "artist": "Dreamville",
@@ -11004,8 +10998,8 @@
   },
   {
    "browseId": "MPREb_tyGhMTa51rl",
-   "title": "Domimican Plug",
-   "artist": "RXK Nephew",
+   "title": "Dominican Plug",
+   "artist": "RXKNephew",
    "trackCount": 8
   },
   {
@@ -16587,12 +16581,6 @@
    "title": "WE STILL DON'T TRUST YOU",
    "artist": "Future",
    "trackCount": 25
-  },
-  {
-   "browseId": "MPREb_LjpxdZUhfMC",
-   "title": "Liberation 2",
-   "artist": "Talib Kweli",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_1w4nTZJlG0q",

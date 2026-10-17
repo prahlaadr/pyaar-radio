@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
  "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
  "trackCount": 471,
- "syncedAt": "2026-10-16T13:04:29.312810Z",
+ "syncedAt": "2026-10-17T12:01:37.902014Z",
  "tracks": [
   {
    "title": "All The Stars (From \"Black Panther: The Album\")",
@@ -2106,8 +2106,8 @@
   },
   {
    "title": "Instant Karma",
-   "artist": "U2 - Topic",
-   "album": "",
+   "artist": "U2",
+   "album": "Instant Karma: The Amnesty International Campaign To Save Darfur",
    "videoId": "1MUqpUzbLcw",
    "duration": "3:14"
   },
@@ -2169,8 +2169,8 @@
   },
   {
    "title": "Babylon",
-   "artist": "David Gray - Topic",
-   "album": "",
+   "artist": "David Gray",
+   "album": "White Ladder",
    "videoId": "lm073rHC3Zo",
    "duration": "4:26"
   },
@@ -2274,8 +2274,8 @@
   },
   {
    "title": "The Real Slim Shady",
-   "artist": "Eminem - Topic",
-   "album": "",
+   "artist": "Eminem",
+   "album": "Curtain Call: The Hits (Deluxe Edition)",
    "videoId": "6rKmZqFSUSw",
    "duration": "4:45"
   },
@@ -2322,9 +2322,9 @@
    "duration": "4:18"
   },
   {
-   "title": "SexyBack",
-   "artist": "Justin Timberlake - Topic",
-   "album": "",
+   "title": "SexyBack (feat. Timbaland)",
+   "artist": "Justin Timberlake",
+   "album": "FutureSex / LoveSounds",
    "videoId": "g_V6wqBlADw",
    "duration": "4:03"
   },
@@ -2400,15 +2400,15 @@
   },
   {
    "title": "Dangerous Woman",
-   "artist": "Ariana Grande - Topic",
-   "album": "",
+   "artist": "Ariana Grande",
+   "album": "Dangerous Woman",
    "videoId": "PHnN6m5nIKk",
    "duration": "3:56"
   },
   {
    "title": "Green Light",
-   "artist": "Lorde - Topic",
-   "album": "",
+   "artist": "Lorde",
+   "album": "Melodrama",
    "videoId": "gp3T60xhvBw",
    "duration": "3:55"
   },
@@ -2435,8 +2435,8 @@
   },
   {
    "title": "All I Wanna Do",
-   "artist": "Sheryl Crow - Topic",
-   "album": "",
+   "artist": "Sheryl Crow",
+   "album": "Tuesday Night Music Club",
    "videoId": "RiOtjXUpflY",
    "duration": "4:33"
   },
@@ -2533,8 +2533,8 @@
   },
   {
    "title": "On & On",
-   "artist": "Erykah Badu - Topic",
-   "album": "",
+   "artist": "Erykah Badu",
+   "album": "Baduizm",
    "videoId": "TW28iWV7nxE",
    "duration": "3:47"
   },
@@ -2575,8 +2575,8 @@
   },
   {
    "title": "Sogno",
-   "artist": "Andrea Bocelli - Topic",
-   "album": "",
+   "artist": "Andrea Bocelli",
+   "album": "Andrea Bocelli: The Complete Pop Albums",
    "videoId": "jTy0VltBkIo",
    "duration": "2:58"
   },
@@ -2680,8 +2680,8 @@
   },
   {
    "title": "Fragile",
-   "artist": "Sting - Topic",
-   "album": "",
+   "artist": "Sting",
+   "album": "...Nothing Like The Sun",
    "videoId": "Fx6aAnd0ywI",
    "duration": "3:57"
   },

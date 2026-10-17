@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2ZsKBdo0CUvDAQGWIgkP-V",
  "title": "melt🩸🔊 🕶️8)))",
- "trackCount": 751,
- "syncedAt": "2026-10-16T13:04:29.312810Z",
+ "trackCount": 756,
+ "syncedAt": "2026-10-17T12:01:37.902014Z",
  "tracks": [
   {
    "title": "Move Higher (feat. Culture Shock)",
@@ -3568,6 +3568,13 @@
    "duration": "4:17"
   },
   {
+   "title": "True 2 Me",
+   "artist": "Holly",
+   "album": "True 2 Me",
+   "videoId": "gp6N6WHI5t0",
+   "duration": "3:56"
+  },
+  {
    "title": "NO! (Submarine Remix)",
    "artist": "Phace;Rockwell",
    "album": "Neosignal X, Pt. 4",
@@ -3706,6 +3713,13 @@
    "album": "Drifting",
    "videoId": "JgwNfXkl9Tw",
    "duration": "3:56"
+  },
+  {
+   "title": "Wouldn't Believe",
+   "artist": "Trail",
+   "album": "Wouldn't Believe",
+   "videoId": "Q1toec7vLUI",
+   "duration": "5:44"
   },
   {
    "title": "come fly away",
@@ -3869,6 +3883,13 @@
    "duration": "4:27"
   },
   {
+   "title": "High Note",
+   "artist": "K Motionz;Emily Makis",
+   "album": "High Note",
+   "videoId": "rOPNNcGwTPk",
+   "duration": "3:46"
+  },
+  {
    "title": "Blunted",
    "artist": "Two Swords;hyroglifics",
    "album": "Blunted / Glacial Gaze",
@@ -3895,6 +3916,13 @@
    "album": "Kronos",
    "videoId": "zOM5xXY-2Ps",
    "duration": "4:48"
+  },
+  {
+   "title": "Wait a Minute",
+   "artist": "Mia Koden",
+   "album": "34U",
+   "videoId": "8m-5cYkJiCw",
+   "duration": "4:35"
   },
   {
    "title": "Eternity (Mixed)",
@@ -3993,6 +4021,13 @@
    "album": "Heavyweight / Fantasia",
    "videoId": "PneBd_LeTxs",
    "duration": "4:56"
+  },
+  {
+   "title": "Hold Me",
+   "artist": "Was A Be",
+   "album": "Hold Me",
+   "videoId": "nq9SzZo-Bog",
+   "duration": "4:00"
   },
   {
    "title": "Max Bleep (Maruwa Remix)",
@@ -4787,7 +4822,7 @@
   },
   {
    "title": "Move for Me (GTA Remix)",
-   "artist": "deadmau5;Kaskade",
+   "artist": "Kaskade;deadmau5",
    "album": "Move for Me (GTA Remix)",
    "videoId": "o5kL-eC5YUo",
    "duration": "4:39"
