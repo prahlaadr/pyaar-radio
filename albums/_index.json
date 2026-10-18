@@ -1,9 +1,27 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3644,
- "totalTracks": 46245,
- "syncedAt": "2026-10-17T12:01:34.207819Z",
+ "albumCount": 3647,
+ "totalTracks": 46273,
+ "syncedAt": "2026-10-18T12:28:20.726364Z",
  "albums": [
+  {
+   "browseId": "MPREb_avVHlrWalsS",
+   "title": "Power To The People (Remastered 2024)",
+   "artist": "Joe Henderson",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_iPdXM95DCld",
+   "title": "How I Do",
+   "artist": "Res",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_2irZMeX2HHm",
+   "title": "Mr Jones",
+   "artist": "Nina Kraviz",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_P9tE4EJJ6lF",
    "title": "jg",

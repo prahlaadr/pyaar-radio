@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 12,
- "syncedAt": "2026-10-17T12:01:37.902014Z",
+ "trackCount": 13,
+ "syncedAt": "2026-10-18T12:28:24.379794Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -87,6 +87,13 @@
    "album": "The Ultimate Collection",
    "videoId": "QaG1_8Fh9RY",
    "duration": "4:00"
+  },
+  {
+   "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+   "artist": "The Avalanches",
+   "album": "No Bad Memories",
+   "videoId": "gMx3zHfZ0og",
+   "duration": "2:50"
   }
  ]
 }

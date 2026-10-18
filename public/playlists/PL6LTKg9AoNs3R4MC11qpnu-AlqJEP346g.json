@@ -1,9 +1,72 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1602,
- "syncedAt": "2026-10-17T12:01:37.902014Z",
+ "trackCount": 1610,
+ "syncedAt": "2026-10-18T12:28:24.379794Z",
  "tracks": [
+  {
+   "title": "The Party",
+   "artist": "Portraits Of Tracy",
+   "album": "Drive Home",
+   "videoId": "JJpuFKJeF04",
+   "duration": "5:32"
+  },
+  {
+   "title": "Lucky Star",
+   "artist": "Madonna",
+   "album": "Madonna",
+   "videoId": "em-WvFGVChA",
+   "duration": "5:38"
+  },
+  {
+   "title": "Can't Get Over Losing You (feat. Portraits Of Tracy)",
+   "artist": "The Avalanches",
+   "album": "No Bad Memories",
+   "videoId": "gMx3zHfZ0og",
+   "duration": "2:50"
+  },
+  {
+   "title": "Young Hearts Run Free (45 Version)",
+   "artist": "Candi Staton",
+   "album": "Young Hearts Run Free / I Know (45 Version)",
+   "videoId": "0mCb41XUcTg",
+   "duration": "3:53"
+  },
+  {
+   "title": "Ice King",
+   "artist": "Res",
+   "album": "How I Do",
+   "videoId": "VUXROmHfPjw",
+   "duration": "4:47"
+  },
+  {
+   "title": "They-Say Vision",
+   "artist": "Res",
+   "album": "How I Do",
+   "videoId": "UoFdCA6C8Z4",
+   "duration": "3:36"
+  },
+  {
+   "title": "Enjoy the Silence",
+   "artist": "Depeche Mode",
+   "album": "Violator (Deluxe)",
+   "videoId": "Vd_nkokQwnQ",
+   "duration": "6:13"
+  },
+  {
+   "title": "Just like Heaven",
+   "artist": "The Cure",
+   "album": "Kiss Me, Kiss Me, Kiss Me",
+   "videoId": "Xmf5ct3rOSc",
+   "duration": "3:32"
+  },
+  {
+   "title": "Heart-Shaped Box",
+   "artist": "Nirvana",
+   "album": "In Utero (20th Anniversary Remaster)",
+   "videoId": "8eGY-4OALgM",
+   "duration": "4:42"
+  },
   {
    "title": "Freak Me Now",
    "artist": "Jessie Ware",
@@ -549,13 +612,6 @@
    "album": "MY SKYSCRAPER",
    "videoId": "fuUpGUwGEsA",
    "duration": "9:22"
-  },
-  {
-   "title": "Sail To The Sun (feat. Machinedrum)",
-   "artist": "Angelica Bess",
-   "album": "Sail To The Sun",
-   "videoId": "B24-aOK5MAk",
-   "duration": "3:29"
   },
   {
    "title": "Like This (feat. Eve)",

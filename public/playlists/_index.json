@@ -1,23 +1,28 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 303,
- "totalTracks": 82712,
- "syncedAt": "2026-10-17T12:01:37.902014Z",
+ "playlistCount": 304,
+ "totalTracks": 82723,
+ "syncedAt": "2026-10-18T12:28:24.379794Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1602
+   "trackCount": 1610
+  },
+  {
+   "playlistId": "PLfSIyRgjUm-I",
+   "title": "Slow Sunday",
+   "trackCount": 2
+  },
+  {
+   "playlistId": "PLc2jOfdcUsCA",
+   "title": "Oct 26",
+   "trackCount": 13
   },
   {
    "playlistId": "PLIpg0r7aJSXc",
    "title": "perfectly imperfect sync",
    "trackCount": 514
-  },
-  {
-   "playlistId": "PLc2jOfdcUsCA",
-   "title": "Oct 26",
-   "trackCount": 12
   },
   {
    "playlistId": "PLbtDDhaJKG0E",
