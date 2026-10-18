@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-17T12:02:20Z",
+  "syncedAt": "2026-10-18T12:30:48Z",
   "shows": [
     {
       "alias": "in-focus",
@@ -165,6 +165,15 @@
         "hip-hop / r'n'b"
       ],
       "url": "https://www.nts.live/shows/homeshake"
+    },
+    {
+      "alias": "coltrane-day",
+      "name": "Coltrane Day",
+      "description": "NTS presents a special all-day broadcast dedicated to one of the most influential and acclaimed figures in the history of jazz and 20th century music: John Coltrane.\nAcross 12 hours of radio, we're enlisting the help of admirers and collaborators of Coltrane - We explore his musical beginnings, influences, and notable eras of his prolific composing and performing life. Featuring interviews and explorations by noted Coltrane experts, admirers, and NTS residents, including music journalist Ben Ratliff and Coltrane's jazz contemporary Ron Carter.",
+      "location": "North Carolina",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/47d58ce3-7b9c-4be1-ba5d-9f57467f738b_1695168000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/coltrane-day"
     }
   ],
   "episodes": [
