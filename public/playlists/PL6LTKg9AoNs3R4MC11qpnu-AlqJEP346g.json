@@ -2,8 +2,15 @@
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
  "trackCount": 1610,
- "syncedAt": "2026-10-18T12:28:24.379794Z",
+ "syncedAt": "2026-10-19T15:20:18.334157Z",
  "tracks": [
+  {
+   "title": "6PM In New York",
+   "artist": "Drake",
+   "album": "If You're Reading This It's Too Late",
+   "videoId": "_06iJrd0IbY",
+   "duration": "4:44"
+  },
   {
    "title": "The Party",
    "artist": "Portraits Of Tracy",
@@ -4324,13 +4331,6 @@
    "duration": "3:10"
   },
   {
-   "title": "Therapy",
-   "artist": "As December Falls",
-   "album": "Therapy",
-   "videoId": "q_1aUJQY4C4",
-   "duration": "2:42"
-  },
-  {
    "title": "La2",
    "artist": "Mishaal Tamer",
    "album": "La2",
@@ -4583,10 +4583,10 @@
    "duration": "3:34"
   },
   {
-   "title": "Walk on Water",
+   "title": "Walk On Water",
    "artist": "Carl Moon",
-   "album": "Walk on Water",
-   "videoId": "E9Oc64Sa0NQ",
+   "album": "Walk On Water",
+   "videoId": "Lkt8KGQxtBM",
    "duration": "3:59"
   },
   {

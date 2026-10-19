@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 13,
- "syncedAt": "2026-10-18T12:28:24.379794Z",
+ "trackCount": 14,
+ "syncedAt": "2026-10-19T15:20:18.334157Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -94,6 +94,13 @@
    "album": "No Bad Memories",
    "videoId": "gMx3zHfZ0og",
    "duration": "2:50"
+  },
+  {
+   "title": "6PM In New York",
+   "artist": "Drake",
+   "album": "If You're Reading This It's Too Late",
+   "videoId": "_06iJrd0IbY",
+   "duration": "4:44"
   }
  ]
 }
