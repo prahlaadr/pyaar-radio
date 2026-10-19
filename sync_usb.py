@@ -316,7 +316,7 @@ def download_ytdlp(video_id, name, dest_folder):
     return False
 
 
-def sync_playlist(playlist, usb_base, dry_run=False, flat=False, no_soulseek=False):
+def sync_playlist(playlist, usb_base, dry_run=False, flat=False, no_soulseek=False, missing_only=False):
     """Sync a single playlist to USB. Returns (downloaded, upgraded, failed, skipped) counts."""
     playlist_path = PLAYLISTS_DIR / f"{playlist['playlistId']}.json"
     if not playlist_path.exists():
@@ -344,6 +344,10 @@ def sync_playlist(playlist, usb_base, dry_run=False, flat=False, no_soulseek=Fal
                 good += 1
             else:
                 upgradeable.append((t, match, quality, desc))
+
+    if missing_only and upgradeable:
+        print(f"  (missing-only: leaving {len(upgradeable)} existing lower-quality track(s) untouched)")
+        upgradeable = []
 
     need_download = missing + [(t, old_path) for t, old_path, q, d in upgradeable]
 
@@ -446,6 +450,9 @@ def main():
     parser.add_argument("--no-soulseek", action="store_true",
                         help="Skip Soulseek entirely; use yt-dlp only. Useful when Soulseek/nicotine is "
                              "unavailable or known-broken. Also enabled via PYAAR_NO_SOULSEEK=1 env var.")
+    parser.add_argument("--missing-only", action="store_true",
+                        help="Only download genuinely-missing tracks; never re-download or replace existing "
+                             "files (skips the 'upgradeable' pass). Restore gaps without touching the library.")
     args = parser.parse_args()
 
     # Env-var override (handy for LaunchAgent contexts where flags aren't easy)
@@ -490,7 +497,7 @@ def main():
         print(f"{'─' * 50}")
         print(f"{p['title']} ({p['trackCount']} tracks)")
         dl, up, fail, skip = sync_playlist(p, usb_base, args.dry, flat=args.flat,
-                                            no_soulseek=args.no_soulseek)
+                                            no_soulseek=args.no_soulseek, missing_only=args.missing_only)
         total_dl += dl
         total_up += up
         total_fail += fail

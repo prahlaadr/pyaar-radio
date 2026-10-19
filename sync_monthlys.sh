@@ -62,8 +62,11 @@ ts() { date "+%Y-%m-%d %H:%M:%S"; }
     fi
 
     # 3. Download tracks. sync_usb.py picks up V3 (or V1 fallback) as default target.
-    echo "[$(ts)] sync_usb.py → $ROOT/PYAAR.Radio/Monthlys (flat layout)"
-    "$PY" sync_usb.py --flat
+    #    --missing-only: restore genuinely-missing tracks only; never re-download or
+    #    replace existing files (the 'upgradeable' pass just churned/duplicated via
+    #    yt-dlp). Drop --missing-only to re-enable quality upgrades.
+    echo "[$(ts)] sync_usb.py → $ROOT/PYAAR.Radio/Monthlys (flat layout, missing-only)"
+    "$PY" sync_usb.py --flat --missing-only
 
     # 4. Restore repo-tracked snapshot churn. sync_monthly_playlists.py rewrites
     #    public/playlists/*.json as a byproduct (the real deliverable is the drive
