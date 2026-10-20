@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3LVOdgRppWAthQFj1XGNG7",
  "title": "new hi's",
  "trackCount": 201,
- "syncedAt": "2026-10-19T15:20:18.334157Z",
+ "syncedAt": "2026-10-20T13:24:02.874376Z",
  "tracks": [
   {
    "title": "Neighbors",
@@ -96,9 +96,9 @@
    "duration": "5:52"
   },
   {
-   "title": "90210 (feat. Kacy Hill)",
-   "artist": "Travis Scott",
-   "album": "Rodeo",
+   "title": "90210",
+   "artist": "Travis Scott - Topic",
+   "album": "",
    "videoId": "tBfWb5IrbOI",
    "duration": "5:40"
   },
@@ -117,9 +117,9 @@
    "duration": "3:40"
   },
   {
-   "title": "Pharsyde (feat. Joe Fox)",
-   "artist": "A$AP Rocky",
-   "album": "AT.LONG.LAST.A$AP",
+   "title": "Pharsyde",
+   "artist": "A$AP Rocky - Topic",
+   "album": "",
    "videoId": "ychSYvEo1zA",
    "duration": "3:43"
   },
@@ -160,15 +160,15 @@
   },
   {
    "title": "Instinct (feat. MadeinTYO)",
-   "artist": "Roy Woods",
-   "album": "Nocturnal",
+   "artist": "Roy Woods - Topic",
+   "album": "",
    "videoId": "oX-xhplFCNk",
    "duration": "2:55"
   },
   {
    "title": "Menace",
-   "artist": "Roy Woods",
-   "album": "Waking at Dawn",
+   "artist": "Roy Woods - Topic",
+   "album": "",
    "videoId": "5xqMkuhVuLU",
    "duration": "4:54"
   },
@@ -181,8 +181,8 @@
   },
   {
    "title": "745",
-   "artist": "Vince Staples",
-   "album": "Big Fish Theory",
+   "artist": "Vince Staples - Topic",
+   "album": "",
    "videoId": "nise0jZLlQM",
    "duration": "3:48"
   },
@@ -195,8 +195,8 @@
   },
   {
    "title": "Tomorrow 'Til Infinity (feat. Gunna)",
-   "artist": "Young Thug",
-   "album": "Beautiful Thugger Girls",
+   "artist": "Young Thug - Topic",
+   "album": "",
    "videoId": "GW6YTTE2U2w",
    "duration": "3:49"
   },
@@ -251,8 +251,8 @@
   },
   {
    "title": "No Chance",
-   "artist": "Eskeerdo",
-   "album": "No Chance",
+   "artist": "Eskeerdo - Topic",
+   "album": "",
    "videoId": "dCzLfF29QvY",
    "duration": "3:41"
   },
@@ -265,8 +265,8 @@
   },
   {
    "title": "Impossible",
-   "artist": "Travis Scott",
-   "album": "Rodeo",
+   "artist": "Travis Scott - Topic",
+   "album": "",
    "videoId": "fLMB6-AHTXI",
    "duration": "4:03"
   },
@@ -370,8 +370,8 @@
   },
   {
    "title": "Privilege",
-   "artist": "The Weeknd",
-   "album": "My Dear Melancholy,",
+   "artist": "The Weeknd - Topic",
+   "album": "",
    "videoId": "EAwBl9aIVaw",
    "duration": "2:51"
   },
@@ -398,15 +398,15 @@
   },
   {
    "title": "Benjamins Burn",
-   "artist": "Future",
-   "album": "Project E.T.",
+   "artist": "Future - Topic",
+   "album": "",
    "videoId": "oJXElUAIjt0",
    "duration": "5:10"
   },
   {
-   "title": "By Design (feat. André Benjamin)",
-   "artist": "Kid Cudi",
-   "album": "Passion, Pain & Demon Slayin'",
+   "title": "By Design",
+   "artist": "Kid Cudi - Topic",
+   "album": "",
    "videoId": "vrSmvjGV-ls",
    "duration": "4:18"
   },
@@ -419,8 +419,8 @@
   },
   {
    "title": "LIFE",
-   "artist": "Saba",
-   "album": "CARE FOR ME",
+   "artist": "Saba - Topic",
+   "album": "",
    "videoId": "tjlq4RZa2n0",
    "duration": "2:43"
   },
@@ -475,8 +475,8 @@
   },
   {
    "title": "We Ain't Them",
-   "artist": "KR;Fateh;PARM",
-   "album": "We Ain't Them",
+   "artist": "kr - Topic",
+   "album": "",
    "videoId": "WfA2aOmxIYA",
    "duration": "2:36"
   },
@@ -510,8 +510,8 @@
   },
   {
    "title": "Cudi Montage",
-   "artist": "KIDS SEE GHOSTS",
-   "album": "KIDS SEE GHOSTS",
+   "artist": "KIDS SEE GHOSTS - Topic",
+   "album": "",
    "videoId": "RaTAlvbC_T4",
    "duration": "3:18"
   },
@@ -531,8 +531,8 @@
   },
   {
    "title": "20 Min",
-   "artist": "Lil Uzi Vert",
-   "album": "Luv Is Rage 2 (Deluxe)",
+   "artist": "Lil Uzi Vert - Topic",
+   "album": "",
    "videoId": "rj9sZsKE7-g",
    "duration": "3:41"
   },
@@ -559,22 +559,22 @@
   },
   {
    "title": "Something Foreign",
-   "artist": "SiR",
-   "album": "November",
+   "artist": "SiR - Topic",
+   "album": "",
    "videoId": "fE3f4c7IsVE",
    "duration": "2:33"
   },
   {
    "title": "Fallen",
-   "artist": "Jaden",
-   "album": "SYRE",
+   "artist": "Jaden - Topic",
+   "album": "",
    "videoId": "W6PUTaC9IdI",
    "duration": "4:23"
   },
   {
    "title": "Her",
-   "artist": "Majid Jordan",
-   "album": "A Place Like This",
+   "artist": "Majid Jordan - Topic",
+   "album": "",
    "videoId": "IIyHVCH60uk",
    "duration": "5:01"
   },
@@ -642,16 +642,16 @@
    "duration": "2:30"
   },
   {
-   "title": "Company (feat. Travi$ Scott)",
-   "artist": "Drake",
-   "album": "If You're Reading This It's Too Late",
+   "title": "Company",
+   "artist": "Drake - Topic",
+   "album": "",
    "videoId": "uhhyQKNasXo",
    "duration": "4:13"
   },
   {
    "title": "Know Yourself",
-   "artist": "Drake",
-   "album": "If You're Reading This It's Too Late",
+   "artist": "Drake - Topic",
+   "album": "",
    "videoId": "IV-XT27UOHo",
    "duration": "4:36"
   },

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3wvXsLzgUPOryJbCREVDnb",
  "title": "Reverie",
  "trackCount": 111,
- "syncedAt": "2026-10-19T15:20:18.334157Z",
+ "syncedAt": "2026-10-20T13:24:02.874376Z",
  "tracks": [
   {
    "title": "Piñata (feat. BIA, Justin Quiles & Kap G)",
@@ -90,8 +90,8 @@
   },
   {
    "title": "Good Times",
-   "artist": "Elderbrook",
-   "album": "Talking",
+   "artist": "Elderbrook - Topic",
+   "album": "",
    "videoId": "qwFj9cmTlSo",
    "duration": "3:15"
   },
@@ -244,8 +244,8 @@
   },
   {
    "title": "Pizza Guy",
-   "artist": "Touch Sensitive",
-   "album": "Pizza Guy / Show Me",
+   "artist": "Touch Sensitive - Topic",
+   "album": "",
    "videoId": "2mjJtGyNwcM",
    "duration": "5:50"
   },
@@ -398,8 +398,8 @@
   },
   {
    "title": "Batu",
-   "artist": "Jason Nolan",
-   "album": "Batu",
+   "artist": "Jason Nolan - Topic",
+   "album": "",
    "videoId": "lWaYEtaCjtE",
    "duration": "4:15"
   },
@@ -447,8 +447,8 @@
   },
   {
    "title": "Get Get Down",
-   "artist": "Paul Johnson",
-   "album": "Get Get Down",
+   "artist": "Paul Johnson - Topic",
+   "album": "",
    "videoId": "HR-_BMO7P-k",
    "duration": "6:08"
   },
@@ -531,8 +531,8 @@
   },
   {
    "title": "Goodbye",
-   "artist": "Melvv;MOONZz",
-   "album": "Goodbye",
+   "artist": "MELVV - Topic",
+   "album": "",
    "videoId": "P21FLWd23l8",
    "duration": "2:45"
   },
@@ -552,15 +552,15 @@
   },
   {
    "title": "Is That for Me (KO:YU Remix)",
-   "artist": "Alesso;Anitta",
-   "album": "Is That For Me (Remixes)",
+   "artist": "Alesso - Topic",
+   "album": "",
    "videoId": "2Qc-p0KqeNM",
    "duration": "2:45"
   },
   {
-   "title": "You & I [Radio Edit] (feat. Donna Lewis)",
-   "artist": "Project 46;DubVision",
-   "album": "You & I",
+   "title": "You & I (feat. Donna Lewis) (Radio Edit)",
+   "artist": "Project 46 - Topic",
+   "album": "",
    "videoId": "SMboilFBbBU",
    "duration": "3:04"
   },
@@ -594,8 +594,8 @@
   },
   {
    "title": "Touch",
-   "artist": "Bearcubs",
-   "album": "Touch",
+   "artist": "Bearcubs - Topic",
+   "album": "",
    "videoId": "hSO_NFVAPGM",
    "duration": "3:36"
   },
@@ -636,8 +636,8 @@
   },
   {
    "title": "Awake, Animal 4 U",
-   "artist": "New Body Electric",
-   "album": "Color Balm",
+   "artist": "new body electric - Topic",
+   "album": "",
    "videoId": "u1g-MnGxhnI",
    "duration": "3:10"
   },
@@ -699,8 +699,8 @@
   },
   {
    "title": "Grapefruit",
-   "artist": "Yuno",
-   "album": "Grapefruit",
+   "artist": "yuno - Topic",
+   "album": "",
    "videoId": "gdZFozUbs5Y",
    "duration": "4:44"
   },
@@ -712,72 +712,72 @@
    "duration": "4:00"
   },
   {
-   "title": "Heavy (Folamour Remix) (feat. Your Smith)",
-   "artist": "Flight Facilities",
-   "album": "Heavy (Folamour Remix)",
+   "title": "Heavy (Folamour Remix)",
+   "artist": "Flight Facilities - Topic",
+   "album": "",
    "videoId": "j1RFXTm8RgI",
    "duration": "4:37"
   },
   {
    "title": "Waste of Time (Jungle Remix)",
-   "artist": "MØ",
-   "album": "Waste of Time",
+   "artist": "MØ - Topic",
+   "album": "",
    "videoId": "coirgg5D1LE",
    "duration": "4:07"
   },
   {
    "title": "Clarity",
-   "artist": "Model Man",
-   "album": "Model Man",
+   "artist": "Model Man - Topic",
+   "album": "",
    "videoId": "HjICkXEapno",
    "duration": "4:06"
   },
   {
    "title": "Deeeep End",
-   "artist": "OMNOM;Small Lake City",
-   "album": "The Friendless Summer",
+   "artist": "OMNOM - Topic",
+   "album": "",
    "videoId": "nBRpAtaPuzQ",
    "duration": "3:08"
   },
   {
    "title": "Close Your Eyes",
-   "artist": "Wilkinson;Iiola",
-   "album": "Close Your Eyes",
+   "artist": "Wilkinson - Topic",
+   "album": "",
    "videoId": "lMPBH1gdNVQ",
    "duration": "4:45"
   },
   {
    "title": "Hyuwee",
-   "artist": "Session Victim",
-   "album": "See You When You Get There",
+   "artist": "Session Victim - Topic",
+   "album": "",
    "videoId": "gZ-AsPzaKH4",
    "duration": "3:48"
   },
   {
    "title": "In Flight (feat. Sharky)",
-   "artist": "Speakman",
-   "album": "In Flight",
+   "artist": "Speakman - Topic",
+   "album": "",
    "videoId": "iULlyX_AnhA",
    "duration": "3:06"
   },
   {
    "title": "Nova",
-   "artist": "Burial;Four Tet",
-   "album": "Nova / Moth",
+   "artist": "Burial - Topic",
+   "album": "",
    "videoId": "sTSwSGPG3ug",
    "duration": "5:43"
   },
   {
    "title": "Make Me Believe",
-   "artist": "Diplo;Melé",
-   "album": "Diplo (Deluxe)",
+   "artist": "Diplo - Topic",
+   "album": "",
    "videoId": "L2cwVtGbIh0",
    "duration": "3:12"
   },
   {
    "title": "Can't Fight (TSHA Remix)",
-   "artist": "Lianne La Havas",
-   "album": "Can't Fight (TSHA Remix)",
+   "artist": "Lianne La Havas - Topic",
+   "album": "",
    "videoId": "QXj-yMO2C3Y",
    "duration": "3:49"
   }

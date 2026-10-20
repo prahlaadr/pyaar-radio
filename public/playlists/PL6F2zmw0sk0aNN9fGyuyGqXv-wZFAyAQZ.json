@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
  "title": "WROCK",
- "trackCount": 990,
- "syncedAt": "2026-08-27T18:54:20.957835Z",
+ "trackCount": 992,
+ "syncedAt": "2026-10-20T13:24:02.874376Z",
  "tracks": [
   {
    "title": "Take Me Out",
@@ -20,8 +20,8 @@
   },
   {
    "title": "Something to Believe In",
-   "artist": "Young the Giant",
-   "album": "Something to Believe In",
+   "artist": "Young The Giant - Topic",
+   "album": "",
    "videoId": "99TKLtv0f9U",
    "duration": "3:49"
   },
@@ -69,15 +69,15 @@
   },
   {
    "title": "Cough Syrup",
-   "artist": "Young the Giant",
-   "album": "Young The Giant",
+   "artist": "Young The Giant - Topic",
+   "album": "",
    "videoId": "8LFWYsUtfV0",
    "duration": "4:10"
   },
   {
    "title": "My Type",
-   "artist": "Saint Motel",
-   "album": "My Type",
+   "artist": "Saint Motel - Topic",
+   "album": "",
    "videoId": "32faUlvDxCw",
    "duration": "3:27"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "From the Wreckage Build a Home",
-   "artist": "The Wind and The Wave",
-   "album": "From The Wreckage",
+   "artist": "The Wind and The Wave - Topic",
+   "album": "",
    "videoId": "JWB1JTOdyyA",
    "duration": "3:34"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "Breezeblocks",
-   "artist": "alt-J",
-   "album": "An Awesome Wave",
+   "artist": "alt-J - Topic",
+   "album": "",
    "videoId": "WMOd6jz548Y",
    "duration": "3:48"
   },
@@ -321,8 +321,8 @@
   },
   {
    "title": "Hey Nana",
-   "artist": "Banda do Mar",
-   "album": "Banda do Mar",
+   "artist": "Banda do Mar - Topic",
+   "album": "",
    "videoId": "aqDy-v00lLg",
    "duration": "3:06"
   },
@@ -336,8 +336,8 @@
   {
    "title": "Are You Gonna Be My Girl",
    "artist": "Jet",
-   "album": "Are You Gonna Be My Girl",
-   "videoId": "oz_YNxaaVsM",
+   "album": "Get Born (Deluxe Edition)",
+   "videoId": "BCIa9LEszhk",
    "duration": "3:34"
   },
   {
@@ -419,8 +419,8 @@
   },
   {
    "title": "Home Again",
-   "artist": "Michael Kiwanuka",
-   "album": "Home Again",
+   "artist": "Michael Kiwanuka - Topic",
+   "album": "",
    "videoId": "GPAtNeQAd7s",
    "duration": "3:33"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Regrets",
-   "artist": "Zipper Club",
-   "album": "Regrets",
+   "artist": "Zipper Club - Topic",
+   "album": "",
    "videoId": "3VgSGap1_2c",
    "duration": "4:16"
   },
@@ -650,8 +650,8 @@
   },
   {
    "title": "Slip Slide",
-   "artist": "Donnie Trumpet & The Social Experiment",
-   "album": "Surf",
+   "artist": "Nico Segal - Topic",
+   "album": "",
    "videoId": "NRhQjeLEoB8",
    "duration": "4:00"
   },
@@ -840,8 +840,8 @@
   {
    "title": "Fever",
    "artist": "Roosevelt",
-   "album": "Roosevelt",
-   "videoId": "YkggbTUoVK8",
+   "album": "Roosevelt (10th Anniversary Edition)",
+   "videoId": "HDk-UgaooOU",
    "duration": "4:25"
   },
   {
@@ -1391,7 +1391,7 @@
    "duration": "7:06"
   },
   {
-   "title": "After The Storm (feat. Bootsy Collins & Tyler, The Creator)",
+   "title": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
    "artist": "Kali Uchis",
    "album": "After The Storm",
    "videoId": "xzPKNX9L4ZM",
@@ -2451,7 +2451,7 @@
    "title": "Erase",
    "artist": "Omar Apollo",
    "album": "Erase",
-   "videoId": "_x9JinbdSqY",
+   "videoId": "W7jL6znyN74",
    "duration": "3:57"
   },
   {
@@ -3003,9 +3003,9 @@
   {
    "title": "Warm Foothills",
    "artist": "alt-J",
-   "album": "",
-   "videoId": "9WZh49lA9ns",
-   "duration": "3:45"
+   "album": "This Is All Yours",
+   "videoId": "rqonFckPGRg",
+   "duration": "3:46"
   },
   {
    "title": "Bridge of Habit",
@@ -3528,7 +3528,7 @@
   {
    "title": "Here Comes The Sun (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Abbey Road",
+   "album": "Abbey Road (Remastered 2009)",
    "videoId": "xUNqsfFUwhY",
    "duration": "3:06"
   },
@@ -3646,7 +3646,7 @@
   },
   {
    "title": "I'll Wind",
-   "artist": "Warska;Wojciech Karolak Trio",
+   "artist": "Wanda Warska;Wojciech Karolak Trio",
    "album": "Polish Radio Jazz Archives 06 Jazz Jamboree '62 02",
    "videoId": "YKZ9ZSFsZAM",
    "duration": "4:03"
@@ -3921,13 +3921,13 @@
    "title": "Ugotme",
    "artist": "Omar Apollo",
    "album": "Ugotme",
-   "videoId": "ZxJD0JNVfwk",
+   "videoId": "MvM-i56iu3k",
    "duration": "2:08"
   },
   {
    "title": "Julia (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "The Beatles",
+   "album": "The Beatles (Remastered 2009)",
    "videoId": "TZip_br_v3w",
    "duration": "2:57"
   },
@@ -4088,7 +4088,7 @@
   {
    "title": "Sgt. Pepper's Lonely Hearts Club Band (Remastered 2009)",
    "artist": "The Beatles",
-   "album": "Sgt. Pepper's Lonely Hearts Club Band",
+   "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered 2009)",
    "videoId": "VtXl8xAPAtA",
    "duration": "2:03"
   },
@@ -4298,15 +4298,15 @@
   {
    "title": "Little Dogs March",
    "artist": "Mac DeMarco",
-   "album": "Here Comes The Cowboy",
-   "videoId": "H8qmPyQjVSk",
+   "album": "Romantic Picnic Date",
+   "videoId": "_Vny1mJGS-s",
    "duration": "2:30"
   },
   {
    "title": "Finally Alone",
    "artist": "Mac DeMarco",
-   "album": "Here Comes The Cowboy",
-   "videoId": "2lxQsEOSuAU",
+   "album": "Coffee Music 2025 by The Circle Sessions",
+   "videoId": "TVFhNrznApc",
    "duration": "2:25"
   },
   {
@@ -4586,7 +4586,7 @@
    "title": "The Way You Look (feat. RIVKA)",
    "artist": "The Undercover Dream Lovers",
    "album": "The Way You Look",
-   "videoId": "wb0qRikWlk0",
+   "videoId": "tZZkyoErLWM",
    "duration": "3:18"
   },
   {
@@ -5871,6 +5871,13 @@
    "duration": "2:24"
   },
   {
+   "title": "The Way I Feel Inside",
+   "artist": "The Zombies",
+   "album": "The Original Studio Recordings, Vol. 1",
+   "videoId": "lxObJT78MxA",
+   "duration": "1:52"
+  },
+  {
    "title": "I'd Have You Anytime",
    "artist": "George Harrison",
    "album": "All Things Must Pass",
@@ -6502,7 +6509,7 @@
   },
   {
    "title": "Behold Jeff Tweedy in the Darkness",
-   "artist": "Deerhoof & Jeff Tweedy",
+   "artist": "Deerhoof;Jeff Tweedy",
    "album": "Behold a Raccoon in the Darkness",
    "videoId": "M0dLPw8M1rA",
    "duration": "3:31"
@@ -6873,10 +6880,17 @@
   },
   {
    "title": "€ € € €^^%%!!!!!heaven!!!!!!",
-   "artist": "Lala Lala & Baths",
+   "artist": "Lala Lala;Baths",
    "album": "€ € € €^^%%!!!!!heaven!!!!!!",
    "videoId": "Pw6H9YsvTyk",
    "duration": "4:24"
+  },
+  {
+   "title": "Fire",
+   "artist": "Waxahatchee",
+   "album": "Saint Cloud",
+   "videoId": "ueIS_cO3T7o",
+   "duration": "3:38"
   },
   {
    "title": "Die Waiting (2020)",

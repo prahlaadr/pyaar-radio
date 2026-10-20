@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 14,
- "syncedAt": "2026-10-19T15:20:18.334157Z",
+ "trackCount": 16,
+ "syncedAt": "2026-10-20T13:24:02.874376Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -101,6 +101,20 @@
    "album": "If You're Reading This It's Too Late",
    "videoId": "_06iJrd0IbY",
    "duration": "4:44"
+  },
+  {
+   "title": "Hands Rejoice! (feat. Tristan Cappel)",
+   "artist": "Telemakus;Sparklmami;bigboihums",
+   "album": "Eight Ring Revival",
+   "videoId": "o1B6x1vdfYE",
+   "duration": "2:03"
+  },
+  {
+   "title": "June’s Peace",
+   "artist": "Telemakus;Sparklmami",
+   "album": "Eight Ring Revival",
+   "videoId": "5bmDpLxY1sM",
+   "duration": "2:57"
   }
  ]
 }
