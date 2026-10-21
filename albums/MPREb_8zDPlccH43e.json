@@ -24,7 +24,7 @@
   },
   {
    "title": "SCHIZO",
-   "artist": "Jon Casey & Lucchii",
+   "artist": "Jon Casey;Lucchii",
    "videoId": "zMgkFeHQaY0",
    "duration": "3:28"
   },
@@ -72,7 +72,7 @@
   },
   {
    "title": "POUNDS",
-   "artist": "Jon Casey & Avance",
+   "artist": "Jon Casey;Avance",
    "videoId": "4XrHGpzDM5E",
    "duration": "3:20"
   },
@@ -84,5 +84,5 @@
   }
  ],
  "browseId": "MPREb_8zDPlccH43e",
- "syncedAt": "2026-03-08T08:53:48.318363Z"
+ "syncedAt": "2026-10-21T13:30:38.088127Z"
 }

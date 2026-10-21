@@ -2,7 +2,7 @@
  "playlistId": "PLCiZ2xFxWWEw",
  "title": "Z255 - The Lone Star State",
  "trackCount": 53,
- "syncedAt": "2026-10-20T13:24:02.874376Z",
+ "syncedAt": "2026-10-21T13:31:13.504305Z",
  "tracks": [
   {
    "title": "Choosin' Texas",
@@ -27,8 +27,8 @@
   },
   {
    "title": "Theme (From \"Dallas\")",
-   "artist": "The City of Prague Philharmonic Orchestra - Topic",
-   "album": "",
+   "artist": "The City of Prague Philharmonic Orchestra",
+   "album": "100 Greatest TV Themes (Orchard Version)",
    "videoId": "3GLyZ8VIogM",
    "duration": "3:15"
   },
@@ -90,8 +90,8 @@
   },
   {
    "title": "Texas",
-   "artist": "BigXthaPlug - Topic",
-   "album": "",
+   "artist": "BigXthaPlug",
+   "album": "Texas",
    "videoId": "2JDShjIwMSE",
    "duration": "2:27"
   },
@@ -104,8 +104,8 @@
   },
   {
    "title": "Higher Love",
-   "artist": "Kygo - Topic",
-   "album": "",
+   "artist": "Kygo",
+   "album": "Golden Hour",
    "videoId": "WH-7Gemejd0",
    "duration": "3:49"
   },
@@ -118,8 +118,8 @@
   },
   {
    "title": "Texas",
-   "artist": "BigXthaPlug - Topic",
-   "album": "",
+   "artist": "BigXthaPlug",
+   "album": "Texas",
    "videoId": "2JDShjIwMSE",
    "duration": "2:27"
   },
@@ -139,8 +139,8 @@
   },
   {
    "title": "Rhythm Is a Dancer",
-   "artist": "Snap! - Topic",
-   "album": "",
+   "artist": "SNAP!",
+   "album": "The Madman's Return",
    "videoId": "yYfzC8cY4j8",
    "duration": "5:33"
   },
@@ -167,8 +167,8 @@
   },
   {
    "title": "Star Trekkin'",
-   "artist": "The Firm - Topic",
-   "album": "",
+   "artist": "The Firm",
+   "album": "Star Trekkin'",
    "videoId": "FG1Nr8lOHU4",
    "duration": "3:33"
   },
@@ -195,8 +195,8 @@
   },
   {
    "title": "Jaws - Main Title (2025 Mix)",
-   "artist": "John Williams - Topic",
-   "album": "",
+   "artist": "John Williams",
+   "album": "Jaws (Original Motion Picture Score - Remastered)",
    "videoId": "ek0Hd4W-WZ8",
    "duration": "0:58"
   },
@@ -209,8 +209,8 @@
   },
   {
    "title": "Big Bottom",
-   "artist": "Spinal Tap - Topic",
-   "album": "",
+   "artist": "Spinal Tap",
+   "album": "This Is Spinal Tap",
    "videoId": "TDJCFdAebIM",
    "duration": "3:33"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "If I Didn't Care",
-   "artist": "The Ink Spots - Topic",
-   "album": "",
+   "artist": "The Ink Spots",
+   "album": "Java Jive",
    "videoId": "oQ7RZb9DKfM",
    "duration": "3:07"
   },
@@ -258,15 +258,15 @@
   },
   {
    "title": "Bela Lugosi's Dead (Official Version)",
-   "artist": "Bauhaus - Topic",
-   "album": "",
+   "artist": "Bauhaus",
+   "album": "The Bela Session",
    "videoId": "Yy9h2q_dr9k",
    "duration": "9:37"
   },
   {
    "title": "Nothing Compares 2 U",
-   "artist": "Sinéad O'Connor - Topic",
-   "album": "",
+   "artist": "Sinéad O'Connor",
+   "album": "I Do Not Want What I Haven't Got",
    "videoId": "BqXCpmHPss8",
    "duration": "4:41"
   },

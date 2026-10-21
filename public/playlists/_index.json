@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 323,
- "totalTracks": 94680,
- "syncedAt": "2026-10-20T13:24:02.874376Z",
+ "playlistCount": 326,
+ "totalTracks": 93837,
+ "syncedAt": "2026-10-21T13:31:13.504305Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -30,9 +30,14 @@
    "trackCount": 344
   },
   {
-   "playlistId": "PLNhCc8iYP8LI",
-   "title": "[sync][Ben UFO]",
-   "trackCount": 5000
+   "playlistId": "PLRESA7Ln0Duo",
+   "title": "[sync][Ben UFO] Part 1",
+   "trackCount": 0
+  },
+  {
+   "playlistId": "PLR2MikZuzvkY",
+   "title": "[sync][Ben UFO] Part 2",
+   "trackCount": 739
   },
   {
    "playlistId": "PLfgMilvrtLAY",
@@ -45,19 +50,24 @@
    "trackCount": 1300
   },
   {
+   "playlistId": "PLT-9vf1HmJig",
+   "title": "[sync][DJ Swisha]",
+   "trackCount": 1897
+  },
+  {
    "playlistId": "PLebkTVjZdYBE",
    "title": "[sync][Ilaiyaraaja]",
    "trackCount": 292
   },
   {
-   "playlistId": "PLc6XY324jApU",
+   "playlistId": "PLGoXn0zUmUNE",
    "title": "[sync][Ivy Lab]",
-   "trackCount": 300
+   "trackCount": 1666
   },
   {
-   "playlistId": "PLFkftDr5DDZ8",
+   "playlistId": "PLQIQjAmU8X2Q",
    "title": "[sync][Mala]",
-   "trackCount": 440
+   "trackCount": 429
   },
   {
    "playlistId": "PLJIxftVsC1CA",
@@ -65,9 +75,9 @@
    "trackCount": 338
   },
   {
-   "playlistId": "PLfciIaQUm3hU",
+   "playlistId": "PLWJ067qX0GJI",
    "title": "[sync][SBTRKT]",
-   "trackCount": 400
+   "trackCount": 530
   },
   {
    "playlistId": "PLK5-V5c9CZl4",
@@ -1200,6 +1210,11 @@
    "trackCount": 37
   },
   {
+   "playlistId": "PLKq8c0UvWnvk",
+   "title": "P291 - Sweeteners (Trivia 10/20)",
+   "trackCount": 37
+  },
+  {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
    "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
    "trackCount": 3
@@ -1587,7 +1602,7 @@
   {
    "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
    "title": "WROCK",
-   "trackCount": 992
+   "trackCount": 991
   },
   {
    "playlistId": "PL6LTKg9AoNs1W3eh7YsogXuD8DKveQaLk",

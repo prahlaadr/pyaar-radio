@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs232n3oEmlpWcb1EuSvGQ5v",
  "title": "new electronica [pyaar radio]",
  "trackCount": 124,
- "syncedAt": "2026-10-20T13:24:02.874376Z",
+ "syncedAt": "2026-10-21T13:31:13.504305Z",
  "tracks": [
   {
    "title": "Shelter Our Time",
@@ -62,8 +62,8 @@
   },
   {
    "title": "Talk To Me",
-   "artist": "Robyn - Topic",
-   "album": "",
+   "artist": "Robyn",
+   "album": "Sexistential",
    "videoId": "Zizg-gcWT9U",
    "duration": "3:20"
   },
@@ -131,9 +131,9 @@
    "duration": "6:19"
   },
   {
-   "title": "Rabbit Hole",
-   "artist": "Blawan - Topic",
-   "album": "",
+   "title": "Rabbit Hole (feat. Monstera Black)",
+   "artist": "Blawan",
+   "album": "Rabbit Hole",
    "videoId": "FIu10j5XvTI",
    "duration": "3:14"
   },
@@ -209,8 +209,8 @@
   },
   {
    "title": "Clap Your Hands",
-   "artist": "Daphni - Topic",
-   "album": "",
+   "artist": "Daphni",
+   "album": "Butterfly",
    "videoId": "Z3AYau7aXRU",
    "duration": "4:38"
   },
@@ -342,8 +342,8 @@
   },
   {
    "title": "Sun (Club Mix)",
-   "artist": "Kassian - Topic",
-   "album": "",
+   "artist": "Kassian",
+   "album": "Sun (Club Mix)",
    "videoId": "ytn68F67ya0",
    "duration": "3:44"
   },
@@ -356,15 +356,15 @@
   },
   {
    "title": "Mothertime",
-   "artist": "Kalbells - Topic",
-   "album": "",
+   "artist": "Kalbells",
+   "album": "Mothertime",
    "videoId": "ipHJiCTqldQ",
    "duration": "3:49"
   },
   {
    "title": "Tom's Tweaks",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Hodge",
+   "album": "Tom's Tweaks / Let You Know",
    "videoId": "NPP_-XSCZBI",
    "duration": "5:07"
   },
@@ -440,8 +440,8 @@
   },
   {
    "title": "It's Happening (To Me)",
-   "artist": "Delroy Edwards - Topic",
-   "album": "",
+   "artist": "Delroy Edwards",
+   "album": "It's Happening (To Me)",
    "videoId": "BLHyigCSDkE",
    "duration": "2:35"
   },
@@ -538,8 +538,8 @@
   },
   {
    "title": "1983",
-   "artist": "Flying Lotus - Topic",
-   "album": "",
+   "artist": "Flying Lotus",
+   "album": "1983",
    "videoId": "Hz92QPtiEq0",
    "duration": "5:11"
   },
@@ -608,8 +608,8 @@
   },
   {
    "title": "Sentimientos Encontraos",
-   "artist": "Matias Aguayo - Topic",
-   "album": "",
+   "artist": "Matias Aguayo",
+   "album": "Sentimientos Encontraos",
    "videoId": "BUspATStD28",
    "duration": "4:04"
   },
@@ -699,8 +699,8 @@
   },
   {
    "title": "BAWDY is A LOT [Nick León + Six Sex]",
-   "artist": "Shygirl - Topic",
-   "album": "",
+   "artist": "Shygirl;Nick León;Six Sex",
+   "album": "BAWDY is A LOT [Nick León + Six Sex]",
    "videoId": "bMZJgaEqsNw",
    "duration": "4:03"
   },

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
  "title": "WROCK",
- "trackCount": 992,
- "syncedAt": "2026-10-20T13:24:02.874376Z",
+ "trackCount": 991,
+ "syncedAt": "2026-10-21T13:31:13.504305Z",
  "tracks": [
   {
    "title": "Take Me Out",
@@ -20,8 +20,8 @@
   },
   {
    "title": "Something to Believe In",
-   "artist": "Young The Giant - Topic",
-   "album": "",
+   "artist": "Young the Giant",
+   "album": "Something to Believe In",
    "videoId": "99TKLtv0f9U",
    "duration": "3:49"
   },
@@ -69,15 +69,15 @@
   },
   {
    "title": "Cough Syrup",
-   "artist": "Young The Giant - Topic",
-   "album": "",
+   "artist": "Young the Giant",
+   "album": "Young The Giant",
    "videoId": "8LFWYsUtfV0",
    "duration": "4:10"
   },
   {
    "title": "My Type",
-   "artist": "Saint Motel - Topic",
-   "album": "",
+   "artist": "Saint Motel",
+   "album": "My Type",
    "videoId": "32faUlvDxCw",
    "duration": "3:27"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "From the Wreckage Build a Home",
-   "artist": "The Wind and The Wave - Topic",
-   "album": "",
+   "artist": "The Wind and The Wave",
+   "album": "From The Wreckage",
    "videoId": "JWB1JTOdyyA",
    "duration": "3:34"
   },
@@ -230,8 +230,8 @@
   },
   {
    "title": "Breezeblocks",
-   "artist": "alt-J - Topic",
-   "album": "",
+   "artist": "alt-J",
+   "album": "An Awesome Wave",
    "videoId": "WMOd6jz548Y",
    "duration": "3:48"
   },
@@ -321,8 +321,8 @@
   },
   {
    "title": "Hey Nana",
-   "artist": "Banda do Mar - Topic",
-   "album": "",
+   "artist": "Banda do Mar",
+   "album": "Banda do Mar",
    "videoId": "aqDy-v00lLg",
    "duration": "3:06"
   },
@@ -419,8 +419,8 @@
   },
   {
    "title": "Home Again",
-   "artist": "Michael Kiwanuka - Topic",
-   "album": "",
+   "artist": "Michael Kiwanuka",
+   "album": "Home Again",
    "videoId": "GPAtNeQAd7s",
    "duration": "3:33"
   },
@@ -545,8 +545,8 @@
   },
   {
    "title": "Regrets",
-   "artist": "Zipper Club - Topic",
-   "album": "",
+   "artist": "Zipper Club",
+   "album": "Regrets",
    "videoId": "3VgSGap1_2c",
    "duration": "4:16"
   },
@@ -650,8 +650,8 @@
   },
   {
    "title": "Slip Slide",
-   "artist": "Nico Segal - Topic",
-   "album": "",
+   "artist": "Donnie Trumpet & The Social Experiment",
+   "album": "Surf",
    "videoId": "NRhQjeLEoB8",
    "duration": "4:00"
   },
@@ -6373,13 +6373,6 @@
    "album": "Not The Time / Callous",
    "videoId": "K_FhDOvVkCE",
    "duration": "2:51"
-  },
-  {
-   "title": "Unlucky",
-   "artist": "Lunar Vacation",
-   "album": "Unlucky",
-   "videoId": "DLyGa3FXb3A",
-   "duration": "3:39"
   },
   {
    "title": "Black Qualls (feat. Steve Lacy, Steve Arrington & Childish Gambino)",
