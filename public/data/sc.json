@@ -1,7 +1,17 @@
 {
-  "syncedAt": "2026-10-20T13:42:49Z",
-  "clientId": "bQmaW4vAHmJIUxisgjRG4MAWAiDgsk9D",
+  "syncedAt": "2026-10-21T13:59:11Z",
+  "clientId": "d6kpQQegNegASme5aDU800Fwq9DbVasv",
   "likes": [
+    {
+      "id": 1603595616,
+      "title": "Floating Points w/ Four Tet & Caribou 280823",
+      "user": "NTS 2023",
+      "artwork": "https://i1.sndcdn.com/artworks-TOfzVLBBZPsFJ5EA-Dh4siQ-large.jpg",
+      "permalink": "https://soundcloud.com/user-612196404/floating-points-w-four-tet",
+      "duration": 6938403,
+      "genre": "",
+      "streamable": true
+    },
     {
       "id": 2266568081,
       "title": "One Raga To A Dubstep Beat [Kalbaisakhi Edit]",
@@ -6579,7 +6589,7 @@
       "title": "mixes",
       "user": "Burak Obama",
       "artwork": null,
-      "trackCount": 17,
+      "trackCount": 18,
       "permalink": "https://soundcloud.com/raptresviolent/sets/mixes",
       "isAlbum": false
     },
@@ -6588,7 +6598,7 @@
       "title": "Queue Three: Electric Boogie Baby",
       "user": "Joe's Eye",
       "artwork": null,
-      "trackCount": 164,
+      "trackCount": 163,
       "permalink": "https://soundcloud.com/jo-zyy/sets/queue-three-electric-boogie",
       "isAlbum": false
     },
