@@ -1,0 +1,365 @@
+{
+ "playlistId": "PLCUIlrIVgXyI",
+ "title": "Z260 - Bears Repeating (Trivia R5)",
+ "trackCount": 51,
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
+ "tracks": [
+  {
+   "title": "Rebel Rebel",
+   "artist": "David Bowie",
+   "album": "Diamond Dogs",
+   "videoId": "8jxhpOYNcDY",
+   "duration": "4:35"
+  },
+  {
+   "title": "Jumpin', Jumpin'",
+   "artist": "Destiny's Child",
+   "album": "The Writing's On The Wall",
+   "videoId": "hDqhXMQuSHg",
+   "duration": "3:51"
+  },
+  {
+   "title": "Swing, Swing",
+   "artist": "The All-American Rejects",
+   "album": "The All-American Rejects",
+   "videoId": "0dSC4WNIz3M",
+   "duration": "3:54"
+  },
+  {
+   "title": "Talk talk",
+   "artist": "Charli xcx",
+   "album": "BRAT",
+   "videoId": "KFTxeyGjNBE",
+   "duration": "2:42"
+  },
+  {
+   "title": "Maria Maria (feat. The Product G&B)",
+   "artist": "Santana",
+   "album": "Supernatural (Remastered)",
+   "videoId": "Y9XXeznskQ4",
+   "duration": "4:22"
+  },
+  {
+   "title": "Dance, Dance",
+   "artist": "Fall Out Boy",
+   "album": "From Under The Cork Tree",
+   "videoId": "P43XYXqJJlU",
+   "duration": "3:01"
+  },
+  {
+   "title": "Louie Louie",
+   "artist": "The Kingsmen",
+   "album": "The Best of The Kingsmen",
+   "videoId": "xKt75jUuKJY",
+   "duration": "2:46"
+  },
+  {
+   "title": "Bang Bang",
+   "artist": "Jessie J;Ariana Grande;Nicki Minaj",
+   "album": "Bang Bang",
+   "videoId": "n6j9kGf7c3g",
+   "duration": "3:20"
+  },
+  {
+   "title": "Starman",
+   "artist": "David Bowie",
+   "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+   "videoId": "aBKEt3MhNMM",
+   "duration": "4:15"
+  },
+  {
+   "title": "Space Cowboy",
+   "artist": "Jamiroquai",
+   "album": "The Return of the Space Cowboy",
+   "videoId": "haRHXaphJpU",
+   "duration": "6:27"
+  },
+  {
+   "title": "Starships",
+   "artist": "Nicki Minaj",
+   "album": "Pink Friday ... Roman Reloaded",
+   "videoId": "v0kjCEZ0-3g",
+   "duration": "3:31"
+  },
+  {
+   "title": "Mr. Blue Sky",
+   "artist": "Electric Light Orchestra",
+   "album": "All Over The World: The Very Best Of ELO",
+   "videoId": "wuJIqmha2Hk",
+   "duration": "5:03"
+  },
+  {
+   "title": "Lucy In The Sky With Diamonds (Remastered 2009)",
+   "artist": "The Beatles",
+   "album": "The Beatles 1967 - 1970 (Remastered 2009)",
+   "videoId": "aGPTfxdw_lw",
+   "duration": "3:30"
+  },
+  {
+   "title": "Smooth Criminal",
+   "artist": "Alien Ant Farm",
+   "album": "Anthology",
+   "videoId": "mjXRapctp6k",
+   "duration": "3:30"
+  },
+  {
+   "title": "E.T.",
+   "artist": "Katy Perry",
+   "album": "Teenage Dream",
+   "videoId": "We1Oe59I9Os",
+   "duration": "3:27"
+  },
+  {
+   "title": "Messages from the Stars",
+   "artist": "The Rah Band",
+   "album": "Going Up",
+   "videoId": "rm08JwGDnuw",
+   "duration": "4:15"
+  },
+  {
+   "title": "Spirit In The Sky (Deluxe Edition)",
+   "artist": "Norman Greenbaum",
+   "album": "Spirit In The Sky (Deluxe Edition)",
+   "videoId": "xi_3GtQN2IA",
+   "duration": "4:03"
+  },
+  {
+   "title": "In the Meantime",
+   "artist": "Spacehog",
+   "album": "Resident Alien",
+   "videoId": "Wsfk0fZACU0",
+   "duration": "5:00"
+  },
+  {
+   "title": "Fire In The Sky",
+   "artist": "Anderson .Paak",
+   "album": "Shang-Chi and The Legend of The Ten Rings: The Album",
+   "videoId": "3pZfOHl5F-Y",
+   "duration": "3:22"
+  },
+  {
+   "title": "Guardians Inferno (From \"Guardians of the Galaxy Vol. 2\") (feat. David Hasselhoff)",
+   "artist": "The Sneepers",
+   "album": "Guardians Inferno (From \"Guardians of the Galaxy Vol. 2\")",
+   "videoId": "Ql2_12Rgpy0",
+   "duration": "3:17"
+  },
+  {
+   "title": "Rocketeer (feat. Ryan Tedder)",
+   "artist": "Far East Movement",
+   "album": "Free Wired",
+   "videoId": "Skbzy3BBTcM",
+   "duration": "3:32"
+  },
+  {
+   "title": "Glow",
+   "artist": "Alien Ant Farm",
+   "album": "truANT",
+   "videoId": "ShsBG9wDgW8",
+   "duration": "3:18"
+  },
+  {
+   "title": "Shooting Stars",
+   "artist": "Bag Raiders",
+   "album": "Bag Raiders (Deluxe)",
+   "videoId": "mllzzUjMezU",
+   "duration": "3:56"
+  },
+  {
+   "title": "Superstar",
+   "artist": "Jamelia",
+   "album": "Thank You",
+   "videoId": "m7DjsP8Xr2k",
+   "duration": "3:36"
+  },
+  {
+   "title": "You Make Me Feel... (feat. Sabi)",
+   "artist": "Cobra Starship",
+   "album": "Night Shades",
+   "videoId": "h72IaAXtnE8",
+   "duration": "3:36"
+  },
+  {
+   "title": "Baby Blue",
+   "artist": "Badfinger",
+   "album": "Straight Up (Remastered 2010 / Deluxe Edition)",
+   "videoId": "33oAuvbRg-c",
+   "duration": "3:38"
+  },
+  {
+   "title": "I'll Be There for You (Theme From \"Friends\")",
+   "artist": "The Rembrandts",
+   "album": "L.P.",
+   "videoId": "RIjTq_OdFvo",
+   "duration": "3:09"
+  },
+  {
+   "title": "Running Up That Hill (A Deal With God)",
+   "artist": "Kate Bush",
+   "album": "Hounds Of Love",
+   "videoId": "D1Fw6CbGAX4",
+   "duration": "4:59"
+  },
+  {
+   "title": "Roxanne",
+   "artist": "The Police",
+   "album": "Outlandos D'Amour (Remastered 2003)",
+   "videoId": "fZheUzgIFEk",
+   "duration": "3:12"
+  },
+  {
+   "title": "Heaven Is A Place On Earth",
+   "artist": "Belinda Carlisle",
+   "album": "Heaven On Earth (Deluxe Edition)",
+   "videoId": "tqhLUUXyJzI",
+   "duration": "4:08"
+  },
+  {
+   "title": "I Will Wait For You",
+   "artist": "Connie Francis",
+   "album": "Her Greatest Hits & Finest Performances",
+   "videoId": "OC0YCfgPAKk",
+   "duration": "3:11"
+  },
+  {
+   "title": "Long Long Time",
+   "artist": "Linda Ronstadt",
+   "album": "Silk Purse",
+   "videoId": "PrH3OQRgfVc",
+   "duration": "4:24"
+  },
+  {
+   "title": "Evil",
+   "artist": "Stevie Wonder",
+   "album": "Music Of My Mind",
+   "videoId": "MNt3-rX6pbo",
+   "duration": "3:34"
+  },
+  {
+   "title": "Hallelujah, I Love Her So",
+   "artist": "Ray Charles",
+   "album": "Ray Charles (aka: Hallelujah, I Love Her So)",
+   "videoId": "aFi4LHSHJY4",
+   "duration": "2:36"
+  },
+  {
+   "title": "Sunglasses At Night",
+   "artist": "Corey Hart",
+   "album": "First Offense",
+   "videoId": "JjKTafF8HSM",
+   "duration": "5:20"
+  },
+  {
+   "title": "Down Under",
+   "artist": "Men At Work",
+   "album": "Business As Usual",
+   "videoId": "hfmxO-HQ5rU",
+   "duration": "3:43"
+  },
+  {
+   "title": "I Walk the Line",
+   "artist": "Johnny Cash",
+   "album": "Walk The Line, Vol. One",
+   "videoId": "J-6fW66IUY4",
+   "duration": "2:43"
+  },
+  {
+   "title": "I Am Not a Robot",
+   "artist": "Marina and The Diamonds",
+   "album": "I Am Not a Robot",
+   "videoId": "vIOayMTuFag",
+   "duration": "3:35"
+  },
+  {
+   "title": "6PM In New York",
+   "artist": "Drake",
+   "album": "If You're Reading This It's Too Late",
+   "videoId": "_06iJrd0IbY",
+   "duration": "4:44"
+  },
+  {
+   "title": "Theme from \"Mission Impossible\" (Arr. A. Silvestri)",
+   "artist": "Cincinnati Pops Orchestra;Erich Kunzel;Lalo Schifrin",
+   "album": "The Big Picture",
+   "videoId": "HCRSfAKAa2U",
+   "duration": "1:36"
+  },
+  {
+   "title": "Drive My Car (Remastered 2009)",
+   "artist": "The Beatles",
+   "album": "Rubber Soul (Remastered 2009)",
+   "videoId": "kfSQkZuIx84",
+   "duration": "2:29"
+  },
+  {
+   "title": "Life is a Highway",
+   "artist": "Rascal Flatts",
+   "album": "Me And My Gang",
+   "videoId": "8v9V6oNGAvw",
+   "duration": "4:37"
+  },
+  {
+   "title": "Drinkin' Problem",
+   "artist": "Midland",
+   "album": "On The Rocks (Big Machine Radio Release Special)",
+   "videoId": "J1Ys-D-TV6k",
+   "duration": "3:42"
+  },
+  {
+   "title": "Red Red Wine",
+   "artist": "UB40",
+   "album": "Labour Of Love",
+   "videoId": "2DTrMa-r56Y",
+   "duration": "5:21"
+  },
+  {
+   "title": "Love Hangover",
+   "artist": "Diana Ross",
+   "album": "Diana Ross (Expanded Edition)",
+   "videoId": "Y9-7rcKxIc8",
+   "duration": "7:49"
+  },
+  {
+   "title": "Sober",
+   "artist": "Childish Gambino",
+   "album": "Kauai",
+   "videoId": "7CQ-4dZmVoQ",
+   "duration": "4:13"
+  },
+  {
+   "title": "Leave the Bottle",
+   "artist": "Burning Circus",
+   "album": "No Moment of the Passing Life",
+   "videoId": "tsD8ZFOLNLA",
+   "duration": "3:49"
+  },
+  {
+   "title": "Wine Glass Woman",
+   "artist": "Mayer Hawthorne",
+   "album": "Where Does This Door Go",
+   "videoId": "5DeoxZ54Ecg",
+   "duration": "3:48"
+  },
+  {
+   "title": "Lock Me up and Throw Away the Whiskey",
+   "artist": "Michael Raven",
+   "album": "Lock Me up and Throw Away the Whiskey",
+   "videoId": "LEnVH-hiD2g",
+   "duration": "3:29"
+  },
+  {
+   "title": "Red Wine Supernova",
+   "artist": "Chappell Roan",
+   "album": "The Rise and Fall of a Midwest Princess",
+   "videoId": "KSbwHJMPq8w",
+   "duration": "3:13"
+  },
+  {
+   "title": "Gay Bar",
+   "artist": "Electric Six",
+   "album": "Fire",
+   "videoId": "J04sfXbS2PA",
+   "duration": "2:21"
+  }
+ ]
+}

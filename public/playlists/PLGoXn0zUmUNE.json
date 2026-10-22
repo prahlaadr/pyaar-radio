@@ -2,7 +2,7 @@
  "playlistId": "PLGoXn0zUmUNE",
  "title": "[sync][Ivy Lab]",
  "trackCount": 1666,
- "syncedAt": "2026-10-21T13:31:13.504305Z",
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
  "tracks": [
   {
    "title": "0118_drumz2",
@@ -720,8 +720,8 @@
   },
   {
    "title": "atmpt",
-   "artist": "Herzeloyde - Topic",
-   "album": "",
+   "artist": "Herzeloyde",
+   "album": "logical atmpt",
    "videoId": "iNro6tMTJQM",
    "duration": "3:43"
   },
@@ -776,15 +776,15 @@
   },
   {
    "title": "Axiom",
-   "artist": "Simula - Topic",
-   "album": "",
+   "artist": "Simula;Kasra",
+   "album": "Axiom / Intuition",
    "videoId": "apljuH-jmMU",
    "duration": "4:28"
   },
   {
-   "title": "AYO (Original Mix)",
-   "artist": "Sam Binga - Topic",
-   "album": "",
+   "title": "AYO (feat. Redders)",
+   "artist": "Sam Binga",
+   "album": "Ayo",
    "videoId": "Pn8HaRJ5S0Q",
    "duration": "3:37"
   },
@@ -951,8 +951,8 @@
   },
   {
    "title": "Basement",
-   "artist": "BLOCKLAB - Topic",
-   "album": "",
+   "artist": "BLOCKLAB",
+   "album": "Alarm Room",
    "videoId": "u8arHs3WhMQ",
    "duration": "3:40"
   },
@@ -964,9 +964,9 @@
    "duration": "3:14"
   },
   {
-   "title": "BASSMENT",
-   "artist": "Mr. Carmack - Topic",
-   "album": "",
+   "title": "BASSMENT (feat. Project Paradis)",
+   "artist": "Mr. Carmack",
+   "album": "CHAOS",
    "videoId": "5GEv_0-sIOg",
    "duration": "4:02"
   },
@@ -979,8 +979,8 @@
   },
   {
    "title": "Be There (feat. Iyamah)",
-   "artist": "DJ Marky - Topic",
-   "album": "",
+   "artist": "DJ Marky;Pola & Bryson",
+   "album": "Be There",
    "videoId": "qoCxg50kKTQ",
    "duration": "3:47"
   },
@@ -993,8 +993,8 @@
   },
   {
    "title": "Be True",
-   "artist": "Commix - Topic",
-   "album": "",
+   "artist": "Commix",
+   "album": "Be True",
    "videoId": "aEJOMoi6pfM",
    "duration": "6:47"
   },
@@ -1343,15 +1343,15 @@
   },
   {
    "title": "Blue Milk",
-   "artist": "Big Chocolate - Topic",
-   "album": "",
+   "artist": "Big Chocolate",
+   "album": "Red Headed Locc",
    "videoId": "LSEI5_GiDJk",
    "duration": "2:26"
   },
   {
    "title": "Blueprint (feat. Metropolis)",
-   "artist": "Alix Perez - Topic",
-   "album": "",
+   "artist": "Alix Perez",
+   "album": "Chroma Chords",
    "videoId": "2hBVYvNh6ag",
    "duration": "5:44"
   },
@@ -1364,8 +1364,8 @@
   },
   {
    "title": "Body Rock",
-   "artist": "Shimon - Topic",
-   "album": "",
+   "artist": "Shimon;Andy C",
+   "album": "Body Rock",
    "videoId": "saAG_1sUJpU",
    "duration": "6:37"
   },

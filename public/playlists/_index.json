@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 326,
- "totalTracks": 93837,
- "syncedAt": "2026-10-21T13:31:13.504305Z",
+ "playlistCount": 330,
+ "totalTracks": 106079,
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -32,7 +32,7 @@
   {
    "playlistId": "PLRESA7Ln0Duo",
    "title": "[sync][Ben UFO] Part 1",
-   "trackCount": 0
+   "trackCount": 4900
   },
   {
    "playlistId": "PLR2MikZuzvkY",
@@ -55,6 +55,11 @@
    "trackCount": 1897
   },
   {
+   "playlistId": "PLStpMNn1SJFM",
+   "title": "[sync][Four Tet]",
+   "trackCount": 4898
+  },
+  {
    "playlistId": "PLebkTVjZdYBE",
    "title": "[sync][Ilaiyaraaja]",
    "trackCount": 292
@@ -75,9 +80,19 @@
    "trackCount": 338
   },
   {
+   "playlistId": "PLEuROrIe4ElA",
+   "title": "[sync][Nina Kraviz]",
+   "trackCount": 1989
+  },
+  {
    "playlistId": "PLWJ067qX0GJI",
    "title": "[sync][SBTRKT]",
    "trackCount": 530
+  },
+  {
+   "playlistId": "PLWLzu_ZQXYws",
+   "title": "[sync][Soulection]",
+   "trackCount": 545
   },
   {
    "playlistId": "PLK5-V5c9CZl4",
@@ -707,7 +722,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3339
+   "trackCount": 3199
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
@@ -1172,7 +1187,7 @@
   {
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
-   "trackCount": 16
+   "trackCount": 17
   },
   {
    "playlistId": "PL6LTKg9AoNs3Y89JVow5RqV-oYnHRzx_x",
@@ -1532,7 +1547,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
    "title": "The Best Electronic Records of 2000-25",
-   "trackCount": 419
+   "trackCount": 414
   },
   {
    "playlistId": "PL6LTKg9AoNs3tk90TCrW3CywxhtvS6a1o",
@@ -1567,7 +1582,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1610
+   "trackCount": 1613
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
@@ -1633,6 +1648,11 @@
    "playlistId": "PLbtDDhaJKG0E",
    "title": "Z259 - Everyday, Every Time, Every Thing (Trivia M/D)",
    "trackCount": 41
+  },
+  {
+   "playlistId": "PLCUIlrIVgXyI",
+   "title": "Z260 - Bears Repeating (Trivia R5)",
+   "trackCount": 51
   }
  ]
 }

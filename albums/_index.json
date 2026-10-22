@@ -1,9 +1,57 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3653,
- "totalTracks": 46336,
- "syncedAt": "2026-10-21T13:30:38.088127Z",
+ "albumCount": 3661,
+ "totalTracks": 46424,
+ "syncedAt": "2026-10-22T13:31:36.016357Z",
  "albums": [
+  {
+   "browseId": "MPREb_VHRq0hwI0zM",
+   "title": "Superbloom",
+   "artist": "Kiefer",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_HWbeaAkk955",
+   "title": "Encore",
+   "artist": "Arthur Verocai",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_Q9OShjFqzDI",
+   "title": "CYAN",
+   "artist": "The Seshen",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_f5ktr247ogk",
+   "title": "Wabi Sabi",
+   "artist": "Sven Wunder",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_mRF3PmxohPm",
+   "title": "Eastern Flowers",
+   "artist": "Sven Wunder",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_B18gAntMLoF",
+   "title": "Natura Morta",
+   "artist": "Sven Wunder",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_J9B62iG1RnE",
+   "title": "Late Again",
+   "artist": "Sven Wunder",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_AJQbyyxP5SQ",
+   "title": "Daybreak",
+   "artist": "Sven Wunder",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_uAF7Ye78unH",
    "title": "Eight Ring Revival",

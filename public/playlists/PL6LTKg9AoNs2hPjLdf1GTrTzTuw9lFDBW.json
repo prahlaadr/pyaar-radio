@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
  "title": "Soup To Nuts w/ Anu - NTS",
  "trackCount": 2580,
- "syncedAt": "2026-10-21T13:31:13.504305Z",
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
  "tracks": [
   {
    "title": "In The Rain",
@@ -1721,7 +1721,7 @@
   },
   {
    "title": "Calm Water",
-   "artist": "Herbert;Momoko Gill;Matthew Herbert",
+   "artist": "Herbert;Momoko Gill",
    "album": "Clay",
    "videoId": "aZCNXGLwQog",
    "duration": "2:50"
@@ -6007,8 +6007,8 @@
    "title": "Misty Dawn",
    "artist": "Weldon Irvine",
    "album": "The Sisters",
-   "videoId": "_wxZFTAXvdM",
-   "duration": "0:59"
+   "videoId": "3MiRBnV09zM",
+   "duration": "1:01"
   },
   {
    "title": "to the ppl (intro)",
@@ -10578,8 +10578,8 @@
    "title": "Misty Dawn",
    "artist": "Weldon Irvine",
    "album": "The Sisters",
-   "videoId": "_wxZFTAXvdM",
-   "duration": "0:59"
+   "videoId": "3MiRBnV09zM",
+   "duration": "1:01"
   },
   {
    "title": "Older Now",

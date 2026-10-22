@@ -1,8 +1,8 @@
 {
  "playlistId": "PLc2jOfdcUsCA",
  "title": "Oct 26",
- "trackCount": 16,
- "syncedAt": "2026-10-21T13:31:13.504305Z",
+ "trackCount": 17,
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
  "tracks": [
   {
    "title": "Spend It",
@@ -115,6 +115,13 @@
    "album": "Eight Ring Revival",
    "videoId": "5bmDpLxY1sM",
    "duration": "2:57"
+  },
+  {
+   "title": "Misty Shore",
+   "artist": "Sven Wunder",
+   "album": "Daybreak",
+   "videoId": "jiey0KFoHPk",
+   "duration": "2:54"
   }
  ]
 }

@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1610,
- "syncedAt": "2026-10-21T13:31:13.504305Z",
+ "trackCount": 1613,
+ "syncedAt": "2026-10-22T13:31:42.112502Z",
  "tracks": [
+  {
+   "title": "Ain't I Good For You",
+   "artist": "Yazmin Lacey",
+   "album": "Ain't I Good For You",
+   "videoId": "hAohzQK8gmk",
+   "duration": "2:42"
+  },
+  {
+   "title": "Angel Of My Dreams",
+   "artist": "JADE",
+   "album": "THAT'S SHOWBIZ BABY!",
+   "videoId": "poblks2Qk04",
+   "duration": "3:18"
+  },
+  {
+   "title": "Swing, Swing",
+   "artist": "The All-American Rejects",
+   "album": "The All-American Rejects",
+   "videoId": "0dSC4WNIz3M",
+   "duration": "3:54"
+  },
   {
    "title": "6PM In New York",
    "artist": "Drake",
