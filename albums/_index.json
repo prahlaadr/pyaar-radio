@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3661,
- "totalTracks": 46424,
- "syncedAt": "2026-10-22T13:31:36.016357Z",
+ "albumCount": 3665,
+ "totalTracks": 46482,
+ "syncedAt": "2026-10-23T13:08:16.021620Z",
  "albums": [
+  {
+   "browseId": "MPREb_3RfyEEpJfPL",
+   "title": "People On Sunday",
+   "artist": "Domenique Dumont",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_NdS1hG3g5gz",
+   "title": "The Yard Work Simulator",
+   "artist": "Max Graef",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_UDwT4lrBjBt",
+   "title": "Natural Element",
+   "artist": "Max Graef",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_2UFZMKUUeZM",
+   "title": "Ratgrave",
+   "artist": "Ratgrave",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_0ylJudbinf6",
+   "title": "Lo Siento Mucho Pero No Hablo Tu Idioma",
+   "artist": "Max Graef",
+   "trackCount": 20
+  },
   {
    "browseId": "MPREb_VHRq0hwI0zM",
    "title": "Superbloom",
@@ -765,12 +795,6 @@
    "title": "Soft Echoes",
    "artist": "Sharada Shashidhar",
    "trackCount": 6
-  },
-  {
-   "browseId": "MPREb_D2tn0jpI6lg",
-   "title": "A Foot On The Ground",
-   "artist": "Sharada Shashidhar",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_oQXYNbFAKcK",

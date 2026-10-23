@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 330,
- "totalTracks": 106079,
- "syncedAt": "2026-10-22T13:31:42.112502Z",
+ "playlistCount": 331,
+ "totalTracks": 110516,
+ "syncedAt": "2026-10-23T13:08:21.546216Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -18,6 +18,11 @@
    "playlistId": "PLXiSFnCNRKa8",
    "title": "(Soulwax Remix) Faves",
    "trackCount": 19
+  },
+  {
+   "playlistId": "PLV6Fe9JJB0qk",
+   "title": "[sync][Afro]",
+   "trackCount": 4354
   },
   {
    "playlistId": "PLT1jrR-zwW4A",
@@ -722,7 +727,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3199
+   "trackCount": 3339
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
@@ -1187,7 +1192,7 @@
   {
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
-   "trackCount": 17
+   "trackCount": 19
   },
   {
    "playlistId": "PL6LTKg9AoNs3Y89JVow5RqV-oYnHRzx_x",
@@ -1267,7 +1272,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2F74m7N0Mc-TLGH0Y4rBmI",
    "title": "prahbabii",
-   "trackCount": 65
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
@@ -1547,7 +1552,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0ggCOqKSFsoic10ih_KALq",
    "title": "The Best Electronic Records of 2000-25",
-   "trackCount": 414
+   "trackCount": 419
   },
   {
    "playlistId": "PL6LTKg9AoNs3tk90TCrW3CywxhtvS6a1o",
@@ -1617,7 +1622,7 @@
   {
    "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
    "title": "WROCK",
-   "trackCount": 991
+   "trackCount": 992
   },
   {
    "playlistId": "PL6LTKg9AoNs1W3eh7YsogXuD8DKveQaLk",
