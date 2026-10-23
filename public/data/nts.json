@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-10-22T13:36:41Z",
+  "syncedAt": "2026-10-23T13:12:36Z",
   "shows": [
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/in-focus"
+    },
     {
       "alias": "homeshake",
       "name": "Homeshake",
@@ -36,15 +45,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/soup-to-nuts-anu"
-    },
-    {
-      "alias": "in-focus",
-      "name": "In Focus",
-      "description": "A deeper look into the back catalogs of various artists.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "the-nts-guide-to",
