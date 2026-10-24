@@ -1,6 +1,28 @@
 {
-  "syncedAt": "2026-10-23T13:12:36Z",
+  "syncedAt": "2026-10-24T12:30:53Z",
   "shows": [
+    {
+      "alias": "the-nts-guide-to",
+      "name": "NTS Guide to…",
+      "description": "A deep dive into scenes, record labels and genres from around the world.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/the-nts-guide-to"
+    },
+    {
+      "alias": "raji-rags",
+      "name": "Raji Rags",
+      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
+      "ntsGenres": [
+        "hip-hop / r'n'b",
+        "electronica / downtempo",
+        "house / techno"
+      ],
+      "url": "https://www.nts.live/shows/raji-rags"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -45,15 +67,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/soup-to-nuts-anu"
-    },
-    {
-      "alias": "the-nts-guide-to",
-      "name": "NTS Guide to…",
-      "description": "A deep dive into scenes, record labels and genres from around the world.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/97f06886-ae53-44bb-bd22-430fa7bec1ab_1778716800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/the-nts-guide-to"
     },
     {
       "alias": "yu-su",
@@ -132,19 +145,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/nabihah-iqbal"
-    },
-    {
-      "alias": "raji-rags",
-      "name": "Raji Rags",
-      "description": "Raj Chaudhuri - aka Raji Rags. NTS since day one. Always eclectic, never boring. Raj rustles up a seamless monthly mix that journeys through the BPMs.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/6e87a1a6-79e0-48e8-b041-862a27de065f_1548633600.jpeg",
-      "ntsGenres": [
-        "hip-hop / r'n'b",
-        "electronica / downtempo",
-        "house / techno"
-      ],
-      "url": "https://www.nts.live/shows/raji-rags"
     },
     {
       "alias": "otaku",
