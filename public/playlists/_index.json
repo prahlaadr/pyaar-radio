@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 331,
- "totalTracks": 110581,
- "syncedAt": "2026-10-24T12:29:58.960017Z",
+ "totalTracks": 106229,
+ "syncedAt": "2026-10-25T13:00:52.181148Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -22,7 +22,7 @@
   {
    "playlistId": "PLV6Fe9JJB0qk",
    "title": "[sync][Afro]",
-   "trackCount": 4354
+   "trackCount": 0
   },
   {
    "playlistId": "PLT1jrR-zwW4A",
@@ -1587,7 +1587,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1613
+   "trackCount": 1615
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",

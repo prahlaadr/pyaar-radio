@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1613,
- "syncedAt": "2026-10-24T12:29:58.960017Z",
+ "trackCount": 1615,
+ "syncedAt": "2026-10-25T13:00:52.181148Z",
  "tracks": [
+  {
+   "title": "Spanish Harlem",
+   "artist": "Ben E. King",
+   "album": "Spanish Harlem",
+   "videoId": "hwfwqA55w_0",
+   "duration": "2:55"
+  },
+  {
+   "title": "Stand By Me",
+   "artist": "Ben E. King",
+   "album": "Don't Play That Song",
+   "videoId": "b-D5yAAXYng",
+   "duration": "2:56"
+  },
   {
    "title": "Ain't I Good For You",
    "artist": "Yazmin Lacey",
@@ -924,9 +938,9 @@
   {
    "title": "Drops of Jupiter (Tell Me)",
    "artist": "Train",
-   "album": "Drops of Jupiter (20th Anniversary Edition)",
-   "videoId": "10rw7IKHv2g",
-   "duration": "4:21"
+   "album": "Drops Of Jupiter",
+   "videoId": "qthko5ppHcM",
+   "duration": "4:20"
   },
   {
    "title": "The Steps",
