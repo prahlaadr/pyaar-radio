@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from pyaar_drives import get_root  # noqa: E402
 
 SKIP = {".Trashes", ".Spotlight-V100", ".fseventsd", ".DocumentRevisions-V100"}
+AUDIO_EXTS = {".mp3", ".m4a", ".flac", ".wav", ".opus", ".aac", ".aiff"}
 
 
 def stamp():
@@ -84,6 +85,44 @@ def list_v3_paths(v3: Path) -> None:
         print()
 
 
+def stem_variant_excludes(src: Path, dst: Path) -> list[str]:
+    """Anchored rsync excludes implementing the mp3-preferred format-dupe guard:
+    for each src audio file whose name-minus-extension already exists in the
+    MATCHING dst subdir under a *different* extension, exclude it so we don't
+    pull a second format of a track V1 already has (e.g. skip Track.flac when
+    V1 has Track.mp3). exFAT forbids `*?<>:"/\\|` in names, so `[` `]` are the
+    only rsync metachars to escape. Paths anchored with leading `/` (relative
+    to the transfer root) so an identically-named track in another subdir is
+    unaffected."""
+    out: list[str] = []
+    if not dst.exists():
+        return out
+
+    cache: dict[Path, tuple[set, set]] = {}  # dst subdir -> (names, lower stems)
+
+    def index(ddir: Path) -> tuple[set, set]:
+        if ddir not in cache:
+            names, stems = set(), set()
+            if ddir.is_dir():
+                for df in ddir.iterdir():
+                    if df.is_file() and not df.name.startswith("._") and df.suffix.lower() in AUDIO_EXTS:
+                        names.add(df.name)
+                        stems.add(df.stem.lower())
+            cache[ddir] = (names, stems)
+        return cache[ddir]
+
+    for sf in src.rglob("*"):
+        if not sf.is_file() or sf.name.startswith("._") or sf.suffix.lower() not in AUDIO_EXTS:
+            continue
+        rel = sf.relative_to(src)
+        names, stems = index(dst / rel.parent)
+        # same song present in a different format, and not this exact file → skip
+        if sf.stem.lower() in stems and sf.name not in names:
+            patt = "/" + str(rel).replace("[", "\\[").replace("]", "\\]")
+            out.append(f"--exclude={patt}")
+    return out
+
+
 def pull_one(v3: Path, v1: Path, subpath: str, dry: bool) -> tuple[bool, str]:
     """Pull a single V3 subpath to V1. Returns (success, summary_line)."""
     src = v3 / subpath
@@ -112,6 +151,7 @@ def pull_one(v3: Path, v1: Path, subpath: str, dry: bool) -> tuple[bool, str]:
 
     cmd = ["rsync", "-au", "--inplace", "--itemize-changes", "--stats",
            "--exclude=.DS_Store", "--exclude=._*"]
+    cmd += stem_variant_excludes(src, dst)  # mp3-preferred format-dupe guard
     if dry:
         cmd.insert(1, "--dry-run")
     cmd += [f"{src}/", f"{dst}/"]
