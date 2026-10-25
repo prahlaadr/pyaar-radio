@@ -31,7 +31,7 @@ recovery/
 └── launchagents/        # the 4 LaunchAgent plists (paths templated)
     ├── com.pyaar.sync-monthlys.plist
     ├── com.pyaar.uplift-on-v3-mount.plist
-    ├── com.pyaar.sync-usb.plist
+    ├── com.pyaar.v1-sync.plist
     └── com.pyaar-crate.daily.plist   # depends on the separate pyaar-core repo
 ```
 
@@ -83,7 +83,7 @@ When you change the automation, refresh the captured copies:
 
 ```bash
 # Re-vendor the live plists (strip machine paths back to placeholders)
-for p in com.pyaar.sync-monthlys com.pyaar.uplift-on-v3-mount com.pyaar.sync-usb com.pyaar-crate.daily; do
+for p in com.pyaar.sync-monthlys com.pyaar.uplift-on-v3-mount com.pyaar.v1-sync com.pyaar-crate.daily; do
   sed -e "s|$HOME/Documents/Projects/01-web-apps/pyaar-radio|__REPO__|g" \
       -e "s|$HOME/Projects/03-music-audio/pyaar-core|__PYAAR_CORE__|g" \
       ~/Library/LaunchAgents/$p.plist > recovery/launchagents/$p.plist

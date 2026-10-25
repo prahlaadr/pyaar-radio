@@ -13,7 +13,7 @@ Persistent V1 set:
 Uses `pull` (sync_v1_v3.py: V3→V1 rsync -au, additive) and `uplift`
 (uplift_to_v3.py: V1→V3 additive, stem-dedup). Both carry the mp3-preferred
 format-dupe guard, so a track that's .mp3 on V1 + .flac/.m4a on V3 is never
-duplicated. Never deletes — one-time de-dupe of pre-existing pairs is a
+duplicated. Never deletes. One-time de-dupe of pre-existing pairs is a
 separate op (dedupe_v1.py).
 
 NOT persistent (deliberate): Crates/Soundcloud Rips/liked songs is a one-time
@@ -47,7 +47,7 @@ def main():
 
     log("v1-sync start (both drives mounted)")
 
-    # 1) Monthlys — current year only. Matches flat "YYYY-NN (Month)" folders;
+    # 1) Monthlys, current year only. Matches flat "YYYY-NN (Month)" folders;
     #    skips the legacy bare-year container and all prior years. Additive.
     year = datetime.now().year
     months_root = v3 / MONTHLYS
@@ -61,7 +61,7 @@ def main():
     else:
         log(f"Monthlys: no {year} folders on V3 yet")
 
-    # 2) Intros crate — two-way additive (pull then uplift).
+    # 2) Intros crate: two-way additive (pull then uplift).
     log("Intros crate: pull V3→V1")
     subprocess.run([sys.executable, str(PULL), INTROS])
     log("Intros crate: uplift V1→V3")

@@ -282,15 +282,15 @@ Walks only the 4 V3-canonical V1 folders (Crates, In Focus, PYAAR.Radio, Setlist
 |---|---|---|
 | `com.pyaar.sync-v1-v3.plist` | **DELETED 2026-06-01** | Full mirror is impossible by design. Use `./pull` manually. |
 | `com.pyaar.sync-monthlys.plist` | **LOADED** (fires on mount; verified 2026-06-06) | Auto-fires `sync_monthlys.sh` on disk mount. Toggle with `launchctl load/unload`. |
-| `com.pyaar.uplift-on-v3-mount.plist` | UNLOADED | Auto-fires `uplift_to_v3.py` on V3 mount (safe — additive). Re-enable with `launchctl load`. |
+| `com.pyaar.uplift-on-v3-mount.plist` | **LOADED** (fires on mount; verified 2026-10-25) | Auto-fires `uplift_to_v3.py` (V1→V3, additive, stem-dedup). Toggle with `launchctl load/unload`. |
 | `com.pyaar.sync-usb.plist` | **DISABLED 2026-10-25** (renamed `.disabled`) | Ran bare `sync_usb.py` on every mount, re-downloading a full year into empty nested husks and failing ~796 tracks/run; redundant with `sync-monthlys`. Re-enable: rename back + `launchctl load`. |
 | `com.pyaar.v1-sync.plist` | **LOADED 2026-10-25** (fires on mount) | Auto-fires `v1_sync.py`. Keeps current-year Monthlys + the Intros/Interludes/Loops/Waves crate persistent on V1 (additive, both-drives-mounted guard, silent no-op otherwise). |
 
 ### Key files (this repo)
 
 - `sync_v1_v3.py` + `pull` — V3 → V1 selective pull (carries the mp3-preferred `stem_variant_excludes` format-dupe guard)
-- `v1_sync.py` — on-mount persistent V1 set (current-year Monthlys + Intros crate); run by `com.pyaar.v1-sync`
-- `dedupe_v1.py` — one-time V1-only format de-dupe (keeps mp3, drops same-stem flac/m4a), walks the 4 canonical roots
+- `v1_sync.py`: on-mount persistent V1 set (current-year Monthlys + Intros crate); run by `com.pyaar.v1-sync`
+- `dedupe_v1.py`: one-time V1-only format de-dupe (keeps mp3, drops same-stem flac/m4a), walks the 4 canonical roots
 - `uplift_to_v3.py` + `uplift` — V1 → V3 staged-uplift with canonical-stem dedup
 - `sync_usb.py` — YT Music → V3 (or V1 fallback) Monthlys downloader
 - `sync_monthly_playlists.py` — targeted monthly-playlist sync (cheap)

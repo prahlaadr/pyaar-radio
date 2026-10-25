@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-time V1 format de-dupe: when the same song exists on V1 in multiple
 formats in the same folder (e.g. Track.mp3 + Track.flac), keep the .mp3 and
-remove the others. V1 ONLY — never touches V3 masters. Walks the 4 canonical
+remove the others. V1 ONLY, never touches V3 masters. Walks the 4 canonical
 roots (Crates, In Focus, PYAAR.Radio, Setlists) recursively.
 
     dedupe_v1.py            # dry preview

@@ -3,17 +3,22 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.pyaar.sync-usb</string>
+    <string>com.pyaar.v1-sync</string>
     <key>ProgramArguments</key>
     <array>
         <string>/opt/homebrew/bin/python3</string>
-        <string>__REPO__/sync_usb.py</string>
+        <string>__REPO__/v1_sync.py</string>
     </array>
     <key>StartOnMount</key>
     <true/>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
     <key>StandardOutPath</key>
-    <string>/tmp/pyaar-sync-usb.log</string>
+    <string>/tmp/pyaar-v1-sync.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/pyaar-sync-usb.log</string>
+    <string>/tmp/pyaar-v1-sync.log</string>
 </dict>
 </plist>
