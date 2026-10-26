@@ -1,0 +1,52 @@
+{
+ "title": "Modern Country",
+ "artist": "William Tyler",
+ "year": "2016",
+ "trackCount": 7,
+ "tracks": [
+  {
+   "title": "Highway Anxiety",
+   "artist": "William Tyler",
+   "videoId": "tyfSNPp9Nl8",
+   "duration": "9:07"
+  },
+  {
+   "title": "I’m Gonna Live Forever (If It Kills Me)",
+   "artist": "William Tyler",
+   "videoId": "ug6l2meu_AM",
+   "duration": "5:26"
+  },
+  {
+   "title": "Kingdom of Jones",
+   "artist": "William Tyler",
+   "videoId": "9DdvoqKnPmY",
+   "duration": "3:33"
+  },
+  {
+   "title": "Albion Moonlight",
+   "artist": "William Tyler",
+   "videoId": "0u7krPRkj0c",
+   "duration": "3:18"
+  },
+  {
+   "title": "Gone Clear",
+   "artist": "William Tyler",
+   "videoId": "J30bzqM4kCg",
+   "duration": "6:08"
+  },
+  {
+   "title": "Sunken Garden",
+   "artist": "William Tyler",
+   "videoId": "UPI_nt23ugg",
+   "duration": "4:18"
+  },
+  {
+   "title": "The Great Unwind",
+   "artist": "William Tyler",
+   "videoId": "nrZLZXgEA5k",
+   "duration": "8:26"
+  }
+ ],
+ "browseId": "MPREb_Ma5YSIyK12m",
+ "syncedAt": "2026-10-26T14:54:50.102768Z"
+}

@@ -1,9 +1,111 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3665,
- "totalTracks": 46482,
- "syncedAt": "2026-10-25T13:00:48.356413Z",
+ "albumCount": 3681,
+ "totalTracks": 46653,
+ "syncedAt": "2026-10-26T14:54:50.102768Z",
  "albums": [
+  {
+   "browseId": "MPREb_Ma5YSIyK12m",
+   "title": "Modern Country",
+   "artist": "William Tyler",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_1l1GuvCfXXm",
+   "title": "Goes West",
+   "artist": "William Tyler",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_WhCrsQPawGa",
+   "title": "Music from First Cow",
+   "artist": "William Tyler",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_FazsWv33WJp",
+   "title": "New Vanitas",
+   "artist": "William Tyler",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_CQjJhQs7umt",
+   "title": "Secret Stratosphere",
+   "artist": "William Tyler & The Impossible Truth",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_nvhdYs4ZhgW",
+   "title": "Time Indefinite",
+   "artist": "William Tyler",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_Catz6hnqDT2",
+   "title": "orbs",
+   "artist": "Anthony Naples",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_YDv2jvEidWe",
+   "title": "Scanners",
+   "artist": "Anthony Naples",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_y0XrWGRrmGs",
+   "title": "In Studio Magic",
+   "artist": "Anthony Naples",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_9Zop7PLE9BG",
+   "title": "Colonial Patterns",
+   "artist": "Huerco S.",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_wQiBFn5WPFm",
+   "title": "Forsyth Gardens",
+   "artist": "Prefuse 73",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_CQdCUJbPbqu",
+   "title": "Rivington Não Rio",
+   "artist": "Prefuse 73",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_JDucnAiiScD",
+   "title": "Sacrifices",
+   "artist": "Prefuse 73",
+   "trackCount": 17
+  },
+  {
+   "browseId": "MPREb_0Aquc5kOVbe",
+   "title": "Fudge Beats",
+   "artist": "Prefuse 73",
+   "trackCount": 15
+  },
+  {
+   "browseId": "MPREb_z5Tgma2Rbfn",
+   "title": "Speak Soon",
+   "artist": "Sons of The Morning",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_pRWSxBNZlwp",
+   "title": "One Offs (Remixes & B Sides)",
+   "artist": "Bonobo",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_3Xob336tzzx",
+   "title": "Critical Music Presents: Underground Sonics (Copy)",
+   "artist": "Various Artists",
+   "trackCount": 18
+  },
   {
    "browseId": "MPREb_3RfyEEpJfPL",
    "title": "People On Sunday",
@@ -2839,12 +2941,6 @@
   {
    "browseId": "MPREb_ERXcfII15p6",
    "title": "Sleeping Through the War",
-   "artist": "All Them Witches",
-   "trackCount": 8
-  },
-  {
-   "browseId": "MPREb_DmSCyhWSsUd",
-   "title": "Nothing as the Ideal",
    "artist": "All Them Witches",
    "trackCount": 8
   },

@@ -1,0 +1,43 @@
+{
+ "playlistId": "PLLZvUMJLBY9U",
+ "title": "nods",
+ "trackCount": 5,
+ "syncedAt": "2026-10-26T14:54:58.910158Z",
+ "tracks": [
+  {
+   "title": "Voyager",
+   "artist": "Daft Punk",
+   "album": "Discovery",
+   "videoId": "OWiVJMgms9E",
+   "duration": "3:48"
+  },
+  {
+   "title": "Misty Shore",
+   "artist": "Sven Wunder",
+   "album": "Daybreak",
+   "videoId": "jiey0KFoHPk",
+   "duration": "2:54"
+  },
+  {
+   "title": "System Change",
+   "artist": "Mandelbro",
+   "album": "Conditions",
+   "videoId": "hvep8vl0Wwo",
+   "duration": "4:26"
+  },
+  {
+   "title": "what do you want?",
+   "artist": "frau",
+   "album": "flutter",
+   "videoId": "H0h7jJcT5wU",
+   "duration": "4:24"
+  },
+  {
+   "title": "Montara",
+   "artist": "Kiefer;Luke Titus;Pera Krstajic",
+   "album": "Something For Real",
+   "videoId": "zdgHFxowFnc",
+   "duration": "8:10"
+  }
+ ]
+}

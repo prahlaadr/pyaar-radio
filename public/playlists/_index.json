@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 331,
- "totalTracks": 106229,
- "syncedAt": "2026-10-25T13:00:52.181148Z",
+ "playlistCount": 334,
+ "totalTracks": 110632,
+ "syncedAt": "2026-10-26T14:54:58.910158Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -22,7 +22,7 @@
   {
    "playlistId": "PLV6Fe9JJB0qk",
    "title": "[sync][Afro]",
-   "trackCount": 0
+   "trackCount": 4354
   },
   {
    "playlistId": "PLT1jrR-zwW4A",
@@ -770,6 +770,11 @@
    "trackCount": 471
   },
   {
+   "playlistId": "PLPgOPACjbBN4",
+   "title": "grooves",
+   "trackCount": 12
+  },
+  {
    "playlistId": "PL6LTKg9AoNs3tQs93CaiYiZ-afcVuY765",
    "title": "habibi",
    "trackCount": 14
@@ -842,7 +847,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
    "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 30
+   "trackCount": 31
   },
   {
    "playlistId": "PL6LTKg9AoNs0Zh-PueucCl2oJwqkD1I2v",
@@ -995,6 +1000,11 @@
    "trackCount": 1
   },
   {
+   "playlistId": "PLZTQxJJJkwuE",
+   "title": "lounge",
+   "trackCount": 3
+  },
+  {
    "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
    "title": "Lounge (for a chill ambience)",
    "trackCount": 2010
@@ -1113,6 +1123,11 @@
    "playlistId": "PL6LTKg9AoNs3j7oYGGdtDM2cJlnylGXOP",
    "title": "no windows tinted",
    "trackCount": 33
+  },
+  {
+   "playlistId": "PLLZvUMJLBY9U",
+   "title": "nods",
+   "trackCount": 5
   },
   {
    "playlistId": "PL6LTKg9AoNs30H0jZYjbgDfHgGWGYk39y",
@@ -1327,7 +1342,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2JUKalJxhCTGM5NaFf0eBo",
    "title": "PYAAR.Radio 001: Harini Iyer",
-   "trackCount": 51
+   "trackCount": 79
   },
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
