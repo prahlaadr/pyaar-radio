@@ -1,3 +1,4 @@
 ytmusicapi>=1.9.0
 duckdb>=1.2.0
 requests>=2.31.0
+cramjam>=2.0  # snappy decode for Zen localStorage in crate_to_ytm.py

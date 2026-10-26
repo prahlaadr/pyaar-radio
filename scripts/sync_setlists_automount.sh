@@ -9,4 +9,7 @@ cd "$HOME/Projects/01-web-apps/pyaar-radio" || exit 0
 PY="$HOME/Projects/01-web-apps/pyaar-radio/.venv/bin/python"
 [ -x "$PY" ] || PY=/opt/homebrew/bin/python3
 echo "===== $(date) automount fire =====" >> /tmp/pyaar-setlist-automount.log
+# First push any new lounge/nods/grooves crate songs up to YTM, so the pull below
+# materializes them this same plug (best-effort; never blocks the V1 sync).
+"$PY" scripts/crate_to_ytm.py >> /tmp/pyaar-setlist-automount.log 2>&1 || true
 "$PY" scripts/sync_setlists.py --auto-only >> /tmp/pyaar-setlist-automount.log 2>&1

@@ -17,6 +17,7 @@
     { "playlistId": "PL6LTKg9AoNs2uIN97D1HylTBSCwJpva95", "title": "Houselaad Savage Video Game Nights", "folder": "Setlists/savage-videogame-nights/Houselaad Savage Video Game Nights", "additive": true, "autoMount": true },
     { "playlistId": "PLPcnSN8hhXko", "title": "bolly disco", "folder": "Crates/Dar Disku FM/bolly disco", "additive": true, "private": true, "movable": true, "autoMount": true },
     { "playlistId": "PLZTQxJJJkwuE", "title": "lounge", "folder": "Crates/lounge", "additive": true, "private": true, "autoMount": true },
-    { "playlistId": "PLPgOPACjbBN4", "title": "grooves", "folder": "Crates/grooves", "additive": true, "private": true, "force": true, "autoMount": true }
+    { "playlistId": "PLPgOPACjbBN4", "title": "grooves", "folder": "Crates/grooves", "additive": true, "private": true, "force": true, "autoMount": true },
+    { "playlistId": "PLLZvUMJLBY9U", "title": "nods", "folder": "Crates/nods", "additive": true, "private": true, "force": true, "autoMount": true }
   ]
 }

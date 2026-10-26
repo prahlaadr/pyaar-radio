@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Repo copy for reproducibility. Install:
+       cp scripts/launchd/com.pyaar.crate-ytm-sync.plist ~/Library/LaunchAgents/
+       launchctl load -w ~/Library/LaunchAgents/com.pyaar.crate-ytm-sync.plist
+     Runs crate_to_ytm.py every 15 min: pushes new lounge/nods/grooves crate songs
+     (read from Zen's pyaar-crates localStorage) up to their YTM playlists, additively.
+     Needs the repo .venv with cramjam (requirements.txt) + browser.json. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.pyaar.crate-ytm-sync</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/prahlaad/Projects/01-web-apps/pyaar-radio/.venv/bin/python</string>
+    <string>/Users/prahlaad/Projects/01-web-apps/pyaar-radio/scripts/crate_to_ytm.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/prahlaad/Projects/01-web-apps/pyaar-radio</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StartInterval</key>
+  <integer>900</integer>
+  <key>StandardOutPath</key>
+  <string>/Users/prahlaad/Library/Logs/pyaar-crate-ytm-sync.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/prahlaad/Library/Logs/pyaar-crate-ytm-sync.log</string>
+</dict>
+</plist>
