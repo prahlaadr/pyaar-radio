@@ -59,6 +59,10 @@ def main():
             print(f"  SKIP: folder not found (moved?) — update its path in setlist_sync_map.json")
             continue
         cmd = [sys.executable, str(HERE / "sync_folder.py"), m["playlistId"], str(target)]
+        if m.get("mirror"):                 # YTM is source of truth: prune on removal
+            cmd.append("--mirror")
+        if m.get("force"):                  # folder mixes subfolder-crates + loose adds;
+            cmd.append("--force")           # bypass the "looks pre-filled" guard (dedup still applies)
         if args.dry:
             cmd.append("--dry")
         rc |= subprocess.run(cmd).returncode
