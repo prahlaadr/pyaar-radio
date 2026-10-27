@@ -48,7 +48,7 @@ export const NTS_GENRE_TOKENS: Record<string, string[]> = {
   "african / middle eastern": ["afro r&b", "afro soul", "afrobeat", "afropop", "afroswing", "alt\u00e9", "anatolian rock", "arabic pop", "azonto", "bikutsi", "egyptian pop", "gnawa", "highlife", "hiplife", "khaleeji", "kizomba", "mahraganat", "maloya", "persian traditional", "ra\u00ef", "rumba", "soukous"],
   "asia": ["asia", "bangla pop", "bhangra", "bollywood", "budots", "c-pop", "city pop", "dangdut", "desi", "desi hip hop", "desi pop", "devotional", "gamelan", "ghazal", "hindi hip hop", "hindi indie", "hindi pop", "indian classical", "indian indie", "j-pop", "japanese classical", "k-pop", "kannada pop", "kollywood", "kundiman", "lollywood", "luk thung", "malayalam pop", "marathi pop", "mollywood", "punjabi hip hop", "punjabi pop", "sandalwood", "sufi", "tamil dance", "tamil hip hop", "tamil pop", "telugu pop", "tollywood", "v-pop"],
   "classical / opera": ["baroque", "chamber music", "classical", "minimalism", "modern classical", "neoclassical", "opera"],
-  "other": ["art pop", "baroque pop", "bedroom pop", "bhajan", "bluegrass", "chanson", "christmas", "pop", "qawwali", "soundtrack", "spoken word", "video game music"],
+  "other": ["art pop", "baroque pop", "bedroom pop", "bhajan", "bluegrass", "chanson", "christmas", "pop", "qawwali", "soundtrack", "spoken word", "turkish pop", "video game music"],
 };
 
 // NTS episode/show genres arrive as subgenre objects whose id is
@@ -101,7 +101,7 @@ export const NTS_SUBGENRES: Record<string, string[]> = {
   "african / middle eastern": ["Afrobeat", "Gnawa", "Highlife", "Ra\u00ef", "KHALEEJI", "Anatolian Rock", "Bikutsi", "Kizomba", "Mahraganat", "Arabic Pop"],
   "asia": ["Bollywood", "K-Pop", "Bhangra ", "Ghazal", "City Pop", "J-Pop", "Indian Classical", "Luk Thung"],
   "classical / opera": ["Minimalism", "Classical", "Opera"],
-  "other": ["Pop", "Bhajan", "Qawwali", "Christmas", "Soundtrack", "Spoken Word", "Bluegrass", "Chanson"],
+  "other": ["Pop", "Bhajan", "Qawwali", "Christmas", "Soundtrack", "Spoken Word", "Bluegrass", "Turkish Pop", "Chanson"],
 };
 
 export const NTS_SUBGENRE_TOKENS: Record<string, string[]> = {
@@ -278,6 +278,7 @@ export const NTS_SUBGENRE_TOKENS: Record<string, string[]> = {
   "Soundtrack": ["soundtrack"],
   "Spoken Word": ["spoken word"],
   "Bluegrass": ["bluegrass"],
+  "Turkish Pop": ["turkish pop"],
   "Chanson": ["chanson"],
   "Video Game Music": ["video game music"],
   "Electroclash": ["electroclash"],
@@ -759,6 +760,7 @@ export const NTS_TOKEN_TO_TOP: Record<string, string> = {
   "trap": "hip-hop / r'n'b",
   "trip hop": "electronica / downtempo",
   "turkish disco": "african / middle eastern",
+  "turkish pop": "other",
   "twoubadou": "caribbean",
   "uk dance / grime": "uk dance / grime",
   "uk funky": "uk dance / grime",
