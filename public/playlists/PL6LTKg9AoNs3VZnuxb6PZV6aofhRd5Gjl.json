@@ -2,12 +2,12 @@
  "playlistId": "PL6LTKg9AoNs3VZnuxb6PZV6aofhRd5Gjl",
  "title": "Diaspora Sunset [pyaar radio]",
  "trackCount": 51,
- "syncedAt": "2026-10-26T14:54:58.910158Z",
+ "syncedAt": "2026-10-27T14:02:53.966848Z",
  "tracks": [
   {
    "title": "Look How Far We Have Come",
-   "artist": "Arushi Jain - Topic",
-   "album": "",
+   "artist": "Arushi Jain",
+   "album": "Under the Lilac Sky",
    "videoId": "8DZFwNrTEBo",
    "duration": "9:09"
   },
@@ -20,8 +20,8 @@
   },
   {
    "title": "Richer Than Blood",
-   "artist": "Arushi Jain - Topic",
-   "album": "",
+   "artist": "Arushi Jain",
+   "album": "Richer Than Blood",
    "videoId": "DHLtPA1wTIM",
    "duration": "3:36"
   },
@@ -48,15 +48,15 @@
   },
   {
    "title": "Pancham Se Gara",
-   "artist": "Anoushka Shankar - Topic",
-   "album": "",
+   "artist": "Anoushka Shankar;Ravi Shankar",
+   "album": "Anourag",
    "videoId": "Xwu1QxP84b4",
    "duration": "11:53"
   },
   {
    "title": "Burn",
-   "artist": "Anoushka Shankar - Topic",
-   "album": "",
+   "artist": "Anoushka Shankar;Karsh Kale",
+   "album": "Breathing Under Water",
    "videoId": "WZfsp1donBc",
    "duration": "5:44"
   },
@@ -69,8 +69,8 @@
   },
   {
    "title": "One Step Beyond",
-   "artist": "Karsh Kale - Topic",
-   "album": "",
+   "artist": "Karsh Kale",
+   "album": "Realize",
    "videoId": "D6by_f6bkRM",
    "duration": "6:07"
   },
@@ -90,8 +90,8 @@
   },
   {
    "title": "Beautiful",
-   "artist": "Karsh Kale - Topic",
-   "album": "",
+   "artist": "Karsh Kale",
+   "album": "Broken English",
    "videoId": "2Phkmeh-JIQ",
    "duration": "5:25"
   },
@@ -160,8 +160,8 @@
   },
   {
    "title": "Cells 17-21",
-   "artist": "Brooklyn Raga Massive - Topic",
-   "album": "",
+   "artist": "Brooklyn Raga Massive",
+   "album": "Terry Riley In C",
    "videoId": "qC4-B_QSaSk",
    "duration": "7:56"
   },
@@ -202,8 +202,8 @@
   },
   {
    "title": "forgive me my",
-   "artist": "Ganavya - Topic",
-   "album": "",
+   "artist": "Ganavya",
+   "album": "forgive me my",
    "videoId": "TsPVibo3-Ng",
    "duration": "5:24"
   },
@@ -286,8 +286,8 @@
   },
   {
    "title": "Boat to Nowhere",
-   "artist": "Anoushka Shankar - Topic",
-   "album": "",
+   "artist": "Anoushka Shankar",
+   "album": "Land Of Gold",
    "videoId": "0P8Xia1_JGY",
    "duration": "5:47"
   },
@@ -300,8 +300,8 @@
   },
   {
    "title": "Super Passiflora",
-   "artist": "Green-House - Topic",
-   "album": "",
+   "artist": "Green-House;Nailah Hunter;Yialmelic Frequencies;Ami Dang",
+   "album": "Galdre Visions",
    "videoId": "6xeOiZpbwnY",
    "duration": "5:04"
   },
