@@ -1,0 +1,58 @@
+{
+ "title": "Open Late",
+ "artist": "Sammy Virji",
+ "year": "2026",
+ "trackCount": 8,
+ "tracks": [
+  {
+   "title": "Repeaty",
+   "artist": "Sammy Virji",
+   "videoId": "dMWD7ErAuCg",
+   "duration": "3:57"
+  },
+  {
+   "title": "Crazy Funky",
+   "artist": "Sammy Virji",
+   "videoId": "9WUF6knsbOo",
+   "duration": "4:19"
+  },
+  {
+   "title": "Light Work",
+   "artist": "Sammy Virji",
+   "videoId": "gW2JlU4YkBM",
+   "duration": "3:34"
+  },
+  {
+   "title": "Diggy",
+   "artist": "Sammy Virji",
+   "videoId": "KFuKWMZrW1Q",
+   "duration": "3:12"
+  },
+  {
+   "title": "Letter Blue (feat. Joy Anonymous & Wet)",
+   "artist": "Sammy Virji",
+   "videoId": "Y9R_63f9ii0",
+   "duration": "3:11"
+  },
+  {
+   "title": "La Belle",
+   "artist": "Sammy Virji;Hans Glader",
+   "videoId": "gMiEwkOilTQ",
+   "duration": "4:04"
+  },
+  {
+   "title": "Rising Raider",
+   "artist": "Sammy Virji",
+   "videoId": "jBp7ac2JGr4",
+   "duration": "4:00"
+  },
+  {
+   "title": "Ode to Todd",
+   "artist": "Sammy Virji",
+   "videoId": "DDLYg6cQYzY",
+   "duration": "3:01"
+  }
+ ],
+ "browseId": "MPREb_OxwZF2tfjNU",
+ "syncedAt": "2026-10-28T14:55:12.745495Z"
+}

@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3682,
- "totalTracks": 46662,
- "syncedAt": "2026-10-27T14:02:49.491175Z",
+ "albumCount": 3683,
+ "totalTracks": 46670,
+ "syncedAt": "2026-10-28T14:55:12.745495Z",
  "albums": [
+  {
+   "browseId": "MPREb_8AHdY5JYvWo",
+   "title": "From The Toolkit Of Lovers",
+   "artist": "Loidis",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_OxwZF2tfjNU",
+   "title": "Open Late",
+   "artist": "Sammy Virji",
+   "trackCount": 8
+  },
   {
    "browseId": "MPREb_RWkHBzIiaJq",
    "title": "American Stories",
@@ -4029,12 +4041,6 @@
    "title": "NOVA",
    "artist": "RL Grime",
    "trackCount": 15
-  },
-  {
-   "browseId": "MPREb_h5OQzPOQQe3",
-   "title": "VOID",
-   "artist": "RL Grime",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_HaYGW3u7FaA",
