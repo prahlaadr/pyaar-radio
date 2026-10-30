@@ -609,6 +609,7 @@ export const NTS_TOKEN_TO_TOP: Record<string, string> = {
   "math rock": "alternative rock / punk",
   "mauritanian traditional": "african / middle eastern",
   "mbalax": "african / middle eastern",
+  "mbaqanga": "african / middle eastern",
   "memphis": "hip-hop / r'n'b",
   "mento": "caribbean",
   "merengue": "latin / brazilian",
