@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 334,
- "totalTracks": 110578,
- "syncedAt": "2026-10-29T15:00:41.728357Z",
+ "totalTracks": 110629,
+ "syncedAt": "2026-10-30T14:53:30.674660Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -72,7 +72,7 @@
   {
    "playlistId": "PLGoXn0zUmUNE",
    "title": "[sync][Ivy Lab]",
-   "trackCount": 1616
+   "trackCount": 1666
   },
   {
    "playlistId": "PLQIQjAmU8X2Q",
@@ -177,7 +177,7 @@
   {
    "playlistId": "PLZEqW4FkfFJQ",
    "title": "001 Pyaar Crate (kartik sample)",
-   "trackCount": 0
+   "trackCount": 2
   },
   {
    "playlistId": "PLVMJJo57_qlc",
@@ -1637,7 +1637,7 @@
   {
    "playlistId": "PL6F2zmw0sk0aNN9fGyuyGqXv-wZFAyAQZ",
    "title": "WROCK",
-   "trackCount": 992
+   "trackCount": 991
   },
   {
    "playlistId": "PL6LTKg9AoNs1W3eh7YsogXuD8DKveQaLk",

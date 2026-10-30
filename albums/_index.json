@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3683,
- "totalTracks": 46670,
- "syncedAt": "2026-10-29T15:00:36.865705Z",
+ "albumCount": 3682,
+ "totalTracks": 46662,
+ "syncedAt": "2026-10-30T14:53:26.441448Z",
  "albums": [
   {
    "browseId": "MPREb_8AHdY5JYvWo",
@@ -9555,12 +9555,6 @@
    "title": "Hive Mind",
    "artist": "The Internet",
    "trackCount": 13
-  },
-  {
-   "browseId": "MPREb_4yWi9eIMKzn",
-   "title": "Cherry On Top",
-   "artist": "Brother Husbands",
-   "trackCount": 8
   },
   {
    "browseId": "MPREb_u8H5nGAllTI",
