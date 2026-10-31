@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
  "trackCount": 1615,
- "syncedAt": "2026-10-30T14:53:30.674660Z",
+ "syncedAt": "2026-10-31T14:21:36.101574Z",
  "tracks": [
   {
    "title": "Spanish Harlem",
@@ -1455,8 +1455,8 @@
   },
   {
    "title": "Everlong",
-   "artist": "Foo Fighters - Topic",
-   "album": "",
+   "artist": "Foo Fighters",
+   "album": "The Essential Foo Fighters",
    "videoId": "8tq2NGmK9HY",
    "duration": "4:11"
   },
@@ -1685,9 +1685,9 @@
    "duration": "4:38"
   },
   {
-   "title": "Sultans of Swing",
-   "artist": "Dire Straits - Topic",
-   "album": "",
+   "title": "Sultans Of Swing",
+   "artist": "Dire Straits",
+   "album": "Dire Straits",
    "videoId": "xZatdZ_bqOc",
    "duration": "5:49"
   },
@@ -1720,9 +1720,9 @@
    "duration": "4:01"
   },
   {
-   "title": "Dear Friend (DJ Spinna Remix)",
-   "artist": "Loftsoul - Topic",
-   "album": "",
+   "title": "Dear Friend (DJ Spinna Remix) (feat. Lisa Millett)",
+   "artist": "Loftsoul",
+   "album": "Dear Friend",
    "videoId": "IOmsg5FwnX0",
    "duration": "9:25"
   },
@@ -1770,8 +1770,8 @@
   },
   {
    "title": "Animaru",
-   "artist": "Mei Semones - Topic",
-   "album": "",
+   "artist": "Mei Semones",
+   "album": "Animaru",
    "videoId": "wHJ-_dSjTTQ",
    "duration": "2:42"
   },
@@ -1791,8 +1791,8 @@
   },
   {
    "title": "She Won't Go Away",
-   "artist": "Faye Webster - Topic",
-   "album": "",
+   "artist": "Faye Webster",
+   "album": "Faye Webster",
    "videoId": "tpdrvoHoKsU",
    "duration": "3:06"
   },
@@ -1924,8 +1924,8 @@
   },
   {
    "title": "505",
-   "artist": "Arctic Monkeys - Topic",
-   "album": "",
+   "artist": "Arctic Monkeys",
+   "album": "Favourite Worst Nightmare",
    "videoId": "KfEEm4Zx-EU",
    "duration": "4:14"
   },
@@ -2029,8 +2029,8 @@
   },
   {
    "title": "Just for Me",
-   "artist": "PinkPantheress - Topic",
-   "album": "",
+   "artist": "PinkPantheress",
+   "album": "Just for me",
    "videoId": "NIzmrafKAdQ",
    "duration": "1:56"
   },
@@ -2049,9 +2049,9 @@
    "duration": "4:00"
   },
   {
-   "title": "Essence",
-   "artist": "Wizkid - Topic",
-   "album": "",
+   "title": "Essence (feat. Justin Bieber & Tems)",
+   "artist": "Wizkid",
+   "album": "Made In Lagos: Deluxe Edition",
    "videoId": "OohPKqzNZP0",
    "duration": "4:24"
   },
@@ -2071,8 +2071,8 @@
   },
   {
    "title": "Favorite Girl",
-   "artist": "Justin Bieber - Topic",
-   "album": "",
+   "artist": "Justin Bieber",
+   "album": "My World",
    "videoId": "2u2Z07ujyD8",
    "duration": "4:17"
   },
@@ -2085,8 +2085,8 @@
   },
   {
    "title": "Bonnie",
-   "artist": "Absolute Treat - Topic",
-   "album": "",
+   "artist": "Absolute Treat",
+   "album": "Dilettante",
    "videoId": "3bw5lGpbC9Q",
    "duration": "4:27"
   },

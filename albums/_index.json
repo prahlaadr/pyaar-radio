@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3682,
- "totalTracks": 46662,
- "syncedAt": "2026-10-30T14:53:26.441448Z",
+ "albumCount": 3681,
+ "totalTracks": 46647,
+ "syncedAt": "2026-10-31T14:21:31.419478Z",
  "albums": [
   {
    "browseId": "MPREb_8AHdY5JYvWo",
@@ -3747,12 +3747,6 @@
    "title": "alfredo linguine",
    "artist": "st. maurice",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_Si1q7nEI9Hh",
-   "title": "For What It's Worth",
-   "artist": "cortex",
-   "trackCount": 15
   },
   {
    "browseId": "MPREb_WL0h71iGkVU",
