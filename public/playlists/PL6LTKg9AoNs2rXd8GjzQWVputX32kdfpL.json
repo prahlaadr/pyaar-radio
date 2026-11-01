@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
  "title": "prahboy (goated)",
- "trackCount": 3062,
- "syncedAt": "2026-10-31T14:21:36.101574Z",
+ "trackCount": 3067,
+ "syncedAt": "2026-11-01T14:48:12.056481Z",
  "tracks": [
   {
    "title": "HUMBLE.",
@@ -6284,7 +6284,7 @@
    "duration": "2:19"
   },
   {
-   "title": "Sankai",
+   "title": "山怪 - Sankai",
    "artist": "Meitei",
    "album": "Kwaidan",
    "videoId": "e7xE1uMQwDw",
@@ -7951,7 +7951,7 @@
   },
   {
    "title": "Recuerdos de la Alhambra",
-   "artist": "John Williams;Francisco Tárrega",
+   "artist": "John C. Williams;Francisco Tárrega",
    "album": "John Williams - The Guitarist",
    "videoId": "Yt8ERWw0T30",
    "duration": "3:30"
@@ -8447,7 +8447,7 @@
    "duration": "7:54"
   },
   {
-   "title": "Shoji",
+   "title": "障子 - Shoji",
    "artist": "Meitei",
    "album": "Kwaidan",
    "videoId": "FLjG3BinRsA",
@@ -8608,7 +8608,7 @@
    "duration": "5:39"
   },
   {
-   "title": "Curio",
+   "title": "骨董 - Curio",
    "artist": "Meitei",
    "album": "Kwaidan",
    "videoId": "ZPjHNbkwi1o",
@@ -8994,7 +8994,7 @@
   },
   {
    "title": "Pavane, Op. 50 (Arr. J. Williams for Guitar & Orchestra)",
-   "artist": "John Williams;William Goodchild;BBC Concert Orchestra;Gabriel Fauré",
+   "artist": "John C. Williams;William Goodchild;BBC Concert Orchestra;Gabriel Fauré",
    "album": "John Williams - The Guitarist",
    "videoId": "4bSf2igm8PE",
    "duration": "5:04"
@@ -9371,7 +9371,7 @@
    "duration": "2:21"
   },
   {
-   "title": "Moryo",
+   "title": "魍魎 - Moryo",
    "artist": "Meitei",
    "album": "Kwaidan",
    "videoId": "EhDzzv5qhs0",
@@ -16917,6 +16917,13 @@
    "duration": "5:24"
   },
   {
+   "title": "Strange Times",
+   "artist": "Robohands",
+   "album": "Green",
+   "videoId": "tffwKbttgmU",
+   "duration": "3:33"
+  },
+  {
    "title": "Mountain",
    "artist": "Robohands",
    "album": "Green",
@@ -16950,6 +16957,13 @@
    "album": "Dreams",
    "videoId": "a1_pjaN3GTM",
    "duration": "5:46"
+  },
+  {
+   "title": "The Lady In The Moon",
+   "artist": "Gabor Szabo",
+   "album": "Dreams",
+   "videoId": "uFDOBu0HSxo",
+   "duration": "5:22"
   },
   {
    "title": "Ferris Wheel",
@@ -17183,6 +17197,13 @@
    "duration": "3:34"
   },
   {
+   "title": "Klavierwerke",
+   "artist": "James Blake",
+   "album": "Klavierwerke EP",
+   "videoId": "hnU-6KYf874",
+   "duration": "5:07"
+  },
+  {
    "title": "Tell Her Safe",
    "artist": "James Blake",
    "album": "Klavierwerke EP",
@@ -17216,6 +17237,13 @@
    "album": "Mulatu Steps Ahead",
    "videoId": "bF2XlLuZ8xc",
    "duration": "7:55"
+  },
+  {
+   "title": "In Liebe dein",
+   "artist": "Roedelius",
+   "album": "Selbstportrait I",
+   "videoId": "lk4gQMrBMek",
+   "duration": "3:47"
   },
   {
    "title": "Until Then",
@@ -17419,6 +17447,13 @@
    "album": "Winona",
    "videoId": "kuggtL-bQzc",
    "duration": "8:32"
+  },
+  {
+   "title": "Sunson",
+   "artist": "Nils Frahm",
+   "album": "All Melody",
+   "videoId": "KsRTv3wrpQ0",
+   "duration": "9:11"
   },
   {
    "title": "Watermelon Sun",

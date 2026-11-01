@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3681,
- "totalTracks": 46647,
- "syncedAt": "2026-10-31T14:21:31.419478Z",
+ "totalTracks": 46641,
+ "syncedAt": "2026-11-01T14:48:07.013496Z",
  "albums": [
+  {
+   "browseId": "MPREb_Kn94MjYcXti",
+   "title": "We'll Never Be This Young Again",
+   "artist": "Laila!",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_9PU6bHxXvYM",
+   "title": "Reward",
+   "artist": "Cate Le Bon",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_8AHdY5JYvWo",
    "title": "From The Toolkit Of Lovers",
@@ -11291,12 +11303,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_Bt9lV6ydPVO",
-   "title": "Barnacles",
-   "artist": "SahBabii",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_qyRmpcFnb8W",
    "title": "Asha’s Awakening",
    "artist": "Raveena",
@@ -12945,12 +12951,6 @@
    "title": "The Alchemist Sandwich",
    "artist": "The Alchemist",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_SNo0HNeVuPS",
-   "title": "LeakOut",
-   "artist": "SahBabii",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_IscF9sn6VeT",

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 334,
- "totalTracks": 109137,
- "syncedAt": "2026-10-31T14:21:36.101574Z",
+ "playlistCount": 335,
+ "totalTracks": 110713,
+ "syncedAt": "2026-11-01T14:48:12.056481Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -1007,7 +1007,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
    "title": "Lounge (for a chill ambience)",
-   "trackCount": 1299
+   "trackCount": 2010
   },
   {
    "playlistId": "PL6LTKg9AoNs2z0-goij40ueMHoY90RIKB",
@@ -1033,6 +1033,11 @@
    "playlistId": "PL6LTKg9AoNs3OTsKHkw2p595-oz8msClq",
    "title": "master of booty innovation and development",
    "trackCount": 1021
+  },
+  {
+   "playlistId": "PLjQhLROnKpwwVk5i4wuQWfF_4Ncld-9um",
+   "title": "Maurice Fulton remixes (1995-2026)",
+   "trackCount": 83
   },
   {
    "playlistId": "PL6LTKg9AoNs0aNMG6Qbu7ZczVNqjARk0L",
@@ -1152,7 +1157,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2WjKXxAiMEzx7rJ6Xm95eH",
    "title": "nov 24",
-   "trackCount": 66
+   "trackCount": 71
   },
   {
    "playlistId": "PL6LTKg9AoNs1hAKTNLLDZ4J8_fK53HGNe",
@@ -1292,7 +1297,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",
    "title": "prahboy (goated)",
-   "trackCount": 3062
+   "trackCount": 3067
   },
   {
    "playlistId": "PL6LTKg9AoNs28L1jKac-2vIW6NqeENpI_",
@@ -1447,7 +1452,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
    "title": "shit nai palm listens to (goated)",
-   "trackCount": 400
+   "trackCount": 1169
   },
   {
    "playlistId": "PL6LTKg9AoNs2CrlAtmeGPYaUlQ22StK50",
@@ -1597,12 +1602,12 @@
   {
    "playlistId": "PL6LTKg9AoNs2FsN0xu-QvEAYKD3GyFq-m",
    "title": "To: The Hive. Love, Timeboy.",
-   "trackCount": 85
+   "trackCount": 87
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1615
+   "trackCount": 1616
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
