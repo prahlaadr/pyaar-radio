@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3681,
- "totalTracks": 46641,
- "syncedAt": "2026-11-01T14:48:07.013496Z",
+ "albumCount": 3682,
+ "totalTracks": 46654,
+ "syncedAt": "2026-11-02T17:53:50.648028Z",
  "albums": [
+  {
+   "browseId": "MPREb_F5wMUOxLz33",
+   "title": "Spring Flowers - Autumn Song",
+   "artist": "Vasant Rai",
+   "trackCount": 13
+  },
   {
    "browseId": "MPREb_Kn94MjYcXti",
    "title": "We'll Never Be This Young Again",
@@ -21619,7 +21625,7 @@
   {
    "browseId": "MPREb_Jac39Ctu8m4",
    "title": "SAVE!",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "trackCount": 15
   },
   {

@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 335,
- "totalTracks": 110713,
- "syncedAt": "2026-11-01T14:48:12.056481Z",
+ "totalTracks": 110761,
+ "syncedAt": "2026-11-02T17:53:55.065743Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -1267,7 +1267,7 @@
   {
    "playlistId": "PLIpg0r7aJSXc",
    "title": "perfectly imperfect sync",
-   "trackCount": 514
+   "trackCount": 562
   },
   {
    "playlistId": "PL6LTKg9AoNs3d0t33vbW7nZt5A8NIOeAJ",
