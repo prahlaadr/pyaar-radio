@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 335,
- "totalTracks": 110761,
- "syncedAt": "2026-11-03T15:53:32.337752Z",
+ "totalTracks": 110760,
+ "syncedAt": "2026-11-04T16:01:03.037886Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -57,7 +57,7 @@
   {
    "playlistId": "PLT-9vf1HmJig",
    "title": "[sync][DJ Swisha]",
-   "trackCount": 1897
+   "trackCount": 1896
   },
   {
    "playlistId": "PLStpMNn1SJFM",
