@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 335,
- "totalTracks": 110760,
- "syncedAt": "2026-11-04T16:01:03.037886Z",
+ "playlistCount": 337,
+ "totalTracks": 109527,
+ "syncedAt": "2026-11-05T16:13:24.763812Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -62,17 +62,17 @@
   {
    "playlistId": "PLStpMNn1SJFM",
    "title": "[sync][Four Tet]",
-   "trackCount": 4898
+   "trackCount": 2900
   },
   {
    "playlistId": "PLebkTVjZdYBE",
    "title": "[sync][Ilaiyaraaja]",
-   "trackCount": 292
+   "trackCount": 0
   },
   {
    "playlistId": "PLGoXn0zUmUNE",
    "title": "[sync][Ivy Lab]",
-   "trackCount": 1666
+   "trackCount": 1756
   },
   {
    "playlistId": "PLQIQjAmU8X2Q",
@@ -82,12 +82,17 @@
   {
    "playlistId": "PLJIxftVsC1CA",
    "title": "[sync][Mia Koden]",
-   "trackCount": 338
+   "trackCount": 387
   },
   {
    "playlistId": "PLEuROrIe4ElA",
    "title": "[sync][Nina Kraviz]",
    "trackCount": 1989
+  },
+  {
+   "playlistId": "PLFYscHY_t0dY",
+   "title": "[sync][Public Service]",
+   "trackCount": 897
   },
   {
    "playlistId": "PLWJ067qX0GJI",
@@ -98,6 +103,11 @@
    "playlistId": "PLWLzu_ZQXYws",
    "title": "[sync][Soulection]",
    "trackCount": 545
+  },
+  {
+   "playlistId": "PLYMVMCtUmJXo",
+   "title": "[sync][Villager]",
+   "trackCount": 21
   },
   {
    "playlistId": "PLK5-V5c9CZl4",
