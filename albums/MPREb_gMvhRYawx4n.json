@@ -1,9 +1,94 @@
 {
  "title": "Reich: Music for 18 Musicians",
- "artist": "Steve Reich Ensemble",
+ "artist": "Steve Reich",
  "year": "1978",
- "trackCount": 0,
- "tracks": [],
+ "trackCount": 14,
+ "tracks": [
+  {
+   "title": "Reich: Music for 18 Musicians: Pulse",
+   "artist": "Steve Reich",
+   "videoId": "7uYK8lMScXk",
+   "duration": "4:03"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section I",
+   "artist": "Steve Reich",
+   "videoId": "D22vr1ZQ4Y8",
+   "duration": "4:05"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section II",
+   "artist": "Steve Reich",
+   "videoId": "0JoLMKB6VUE",
+   "duration": "4:02"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section IIIA",
+   "artist": "Steve Reich",
+   "videoId": "Ae_4cpCi8bs",
+   "duration": "3:58"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section IIIB",
+   "artist": "Steve Reich",
+   "videoId": "aDbKtdcwAPM",
+   "duration": "4:03"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section IV",
+   "artist": "Steve Reich",
+   "videoId": "dvPpwmz5Z1M",
+   "duration": "5:50"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section V",
+   "artist": "Steve Reich",
+   "videoId": "m26EsOixehk",
+   "duration": "5:30"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section VI",
+   "artist": "Steve Reich",
+   "videoId": "pQS_HULSloM",
+   "duration": "4:30"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section VII",
+   "artist": "Steve Reich",
+   "videoId": "lTmbyIwOEhs",
+   "duration": "3:36"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section VIII",
+   "artist": "Steve Reich",
+   "videoId": "4866jvPcyQU",
+   "duration": "3:18"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section IX",
+   "artist": "Steve Reich",
+   "videoId": "Z3CYkyerKMw",
+   "duration": "4:14"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section X",
+   "artist": "Steve Reich",
+   "videoId": "wv0tjrtt23U",
+   "duration": "1:33"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Section XI",
+   "artist": "Steve Reich",
+   "videoId": "cbAEhTT8FUE",
+   "duration": "4:17"
+  },
+  {
+   "title": "Reich: Music for 18 Musicians: Pulse (Reprise)",
+   "artist": "Steve Reich",
+   "videoId": "0SA_nzdlMcw",
+   "duration": "3:41"
+  }
+ ],
  "browseId": "MPREb_gMvhRYawx4n",
- "syncedAt": "2026-09-21T14:54:29.149779Z"
+ "syncedAt": "2026-11-06T15:43:33.441343Z"
 }

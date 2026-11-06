@@ -2,15 +2,63 @@
  "title": "the afterparty",
  "artist": "Andy Shauf",
  "year": "2026",
- "trackCount": 1,
+ "trackCount": 9,
  "tracks": [
+  {
+   "title": "the magician (demo)",
+   "artist": "Andy Shauf",
+   "videoId": "1V0h57sm9n4",
+   "duration": "2:58"
+  },
+  {
+   "title": "angela the traveller",
+   "artist": "Andy Shauf",
+   "videoId": "NFc6ItJh3Ao",
+   "duration": "2:48"
+  },
+  {
+   "title": "begin again (v2)",
+   "artist": "Andy Shauf",
+   "videoId": "bpE4_FhBPUY",
+   "duration": "3:21"
+  },
+  {
+   "title": "eyes of them all (demo)",
+   "artist": "Andy Shauf",
+   "videoId": "YyeaGbyikVU",
+   "duration": "4:50"
+  },
+  {
+   "title": "the interrupter",
+   "artist": "Andy Shauf",
+   "videoId": "rddwC3zSycs",
+   "duration": "3:45"
+  },
   {
    "title": "losing",
    "artist": "Andy Shauf",
    "videoId": "cexf2sML48k",
    "duration": "2:52"
+  },
+  {
+   "title": "twist your ankle (demo)",
+   "artist": "Andy Shauf",
+   "videoId": "SPClT8QLOWs",
+   "duration": "3:44"
+  },
+  {
+   "title": "my brother jeremy (demo)",
+   "artist": "Andy Shauf",
+   "videoId": "zstQY_iacQQ",
+   "duration": "2:58"
+  },
+  {
+   "title": "martha sways (v2)",
+   "artist": "Andy Shauf",
+   "videoId": "6205aLkhfUg",
+   "duration": "4:41"
   }
  ],
  "browseId": "MPREb_f355N1EIr8O",
- "syncedAt": "2026-10-04T13:45:06.878286Z"
+ "syncedAt": "2026-11-06T15:43:33.441343Z"
 }

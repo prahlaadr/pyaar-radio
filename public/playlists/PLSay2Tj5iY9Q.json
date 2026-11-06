@@ -1,8 +1,8 @@
 {
  "playlistId": "PLSay2Tj5iY9Q",
  "title": "9laad:Lisbon club",
- "trackCount": 15,
- "syncedAt": "2026-11-05T16:13:24.763812Z",
+ "trackCount": 17,
+ "syncedAt": "2026-11-06T15:43:42.231877Z",
  "tracks": [
   {
    "title": "Run It Back",
@@ -108,6 +108,20 @@
    "album": "ATLAS",
    "videoId": "5PjGcA-yy-U",
    "duration": "4:10"
+  },
+  {
+   "title": "Açúcar",
+   "artist": "LAKIM",
+   "album": "Classics",
+   "videoId": "lSEnAm9DPYw",
+   "duration": "3:13"
+  },
+  {
+   "title": "The Path",
+   "artist": "Concept Neuf",
+   "album": "Concept Neuf",
+   "videoId": "E5sH5rpIc14",
+   "duration": "11:23"
   }
  ]
 }

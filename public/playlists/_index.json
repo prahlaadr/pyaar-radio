@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 337,
- "totalTracks": 109527,
- "syncedAt": "2026-11-05T16:13:24.763812Z",
+ "playlistCount": 346,
+ "totalTracks": 113419,
+ "syncedAt": "2026-11-06T15:43:42.231877Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -25,9 +25,9 @@
    "trackCount": 4354
   },
   {
-   "playlistId": "PLT1jrR-zwW4A",
+   "playlistId": "PLVf4gVxZgags",
    "title": "[sync][Anish Kumar]",
-   "trackCount": 138
+   "trackCount": 207
   },
   {
    "playlistId": "PLKYTfye1rV1Q",
@@ -35,24 +35,19 @@
    "trackCount": 344
   },
   {
-   "playlistId": "PLRESA7Ln0Duo",
-   "title": "[sync][Ben UFO] Part 1",
-   "trackCount": 4900
+   "playlistId": "PLGUb4iTfu9tg",
+   "title": "[sync][Ben UFO]",
+   "trackCount": 5000
   },
   {
-   "playlistId": "PLR2MikZuzvkY",
-   "title": "[sync][Ben UFO] Part 2",
-   "trackCount": 739
-  },
-  {
-   "playlistId": "PLfgMilvrtLAY",
+   "playlistId": "PLY_EJ6pLl6m4",
    "title": "[sync][Bonobo]",
-   "trackCount": 1029
+   "trackCount": 1053
   },
   {
-   "playlistId": "PLHEBCxfvY7lc",
+   "playlistId": "PLKowBI04lz7E",
    "title": "[sync][Caribou]",
-   "trackCount": 1300
+   "trackCount": 1440
   },
   {
    "playlistId": "PLT-9vf1HmJig",
@@ -62,17 +57,22 @@
   {
    "playlistId": "PLStpMNn1SJFM",
    "title": "[sync][Four Tet]",
-   "trackCount": 2900
+   "trackCount": 4898
   },
   {
    "playlistId": "PLebkTVjZdYBE",
    "title": "[sync][Ilaiyaraaja]",
-   "trackCount": 0
+   "trackCount": 292
   },
   {
    "playlistId": "PLGoXn0zUmUNE",
    "title": "[sync][Ivy Lab]",
    "trackCount": 1756
+  },
+  {
+   "playlistId": "PLMcoOjwKT36o",
+   "title": "[sync][Machinedrum]",
+   "trackCount": 404
   },
   {
    "playlistId": "PLQIQjAmU8X2Q",
@@ -85,9 +85,29 @@
    "trackCount": 387
   },
   {
+   "playlistId": "PLTli-JmA2NhE",
+   "title": "[sync][Nightmares on Wax]",
+   "trackCount": 365
+  },
+  {
    "playlistId": "PLEuROrIe4ElA",
    "title": "[sync][Nina Kraviz]",
    "trackCount": 1989
+  },
+  {
+   "playlistId": "PLBL9DW7ynGBE",
+   "title": "[sync][O'Flynn]",
+   "trackCount": 227
+  },
+  {
+   "playlistId": "PLKojUy4pMf5I",
+   "title": "[sync][Oppidan]",
+   "trackCount": 163
+  },
+  {
+   "playlistId": "PLN6bykaHqxqw",
+   "title": "[sync][Overmono]",
+   "trackCount": 125
   },
   {
    "playlistId": "PLFYscHY_t0dY",
@@ -95,9 +115,29 @@
    "trackCount": 897
   },
   {
-   "playlistId": "PLWJ067qX0GJI",
+   "playlistId": "PLaDBDB87Khrc",
+   "title": "[sync][Ramon Pang]",
+   "trackCount": 170
+  },
+  {
+   "playlistId": "PLAXuCgNR53OY",
+   "title": "[sync][Rohaan]",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PLFvWVIEITCKY",
+   "title": "[sync][salute]",
+   "trackCount": 395
+  },
+  {
+   "playlistId": "PLXOmvhiqvlgk",
+   "title": "[sync][Sam Gellaitry]",
+   "trackCount": 43
+  },
+  {
+   "playlistId": "PLRvUzsBBo0Lw",
    "title": "[sync][SBTRKT]",
-   "trackCount": 530
+   "trackCount": 576
   },
   {
    "playlistId": "PLWLzu_ZQXYws",
@@ -110,9 +150,9 @@
    "trackCount": 21
   },
   {
-   "playlistId": "PLK5-V5c9CZl4",
+   "playlistId": "PLWwHiR_FgVQI",
    "title": "[sync][Zach Fox]",
-   "trackCount": 677
+   "trackCount": 686
   },
   {
    "playlistId": "PLFKQSJIJKeqNBV0DWG6jbVNBcNp9t3pCP",
@@ -162,7 +202,7 @@
   {
    "playlistId": "PLS3nLk6Dv00s",
    "title": "001 double",
-   "trackCount": 2
+   "trackCount": 26
   },
   {
    "playlistId": "PLNjjSm_OXLjQ",
@@ -178,6 +218,11 @@
    "playlistId": "PLY-6YN2bm6GU",
    "title": "001 library jazz rock",
    "trackCount": 50
+  },
+  {
+   "playlistId": "PLf4PrqTcY41g",
+   "title": "001 Maria mix",
+   "trackCount": 1
   },
   {
    "playlistId": "PLWGaVhzIrX9o",
@@ -312,7 +357,7 @@
   {
    "playlistId": "PLSay2Tj5iY9Q",
    "title": "9laad:Lisbon club",
-   "trackCount": 15
+   "trackCount": 17
   },
   {
    "playlistId": "PLHoSQ5-c6fjc",
@@ -857,7 +902,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
    "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 31
+   "trackCount": 32
   },
   {
    "playlistId": "PL6LTKg9AoNs0Zh-PueucCl2oJwqkD1I2v",
@@ -1617,7 +1662,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1616
+   "trackCount": 1618
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",

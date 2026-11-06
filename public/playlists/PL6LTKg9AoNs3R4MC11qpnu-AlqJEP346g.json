@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1616,
- "syncedAt": "2026-11-05T16:13:24.763812Z",
+ "trackCount": 1618,
+ "syncedAt": "2026-11-06T15:43:42.231877Z",
  "tracks": [
+  {
+   "title": "Why Don't We Fall in Love",
+   "artist": "Amerie",
+   "album": "All I Have",
+   "videoId": "vvTbnDdgVP8",
+   "duration": "2:40"
+  },
+  {
+   "title": "7",
+   "artist": "Catfish and the Bottlemen",
+   "album": "The Ride",
+   "videoId": "IkDLsioZRTk",
+   "duration": "4:17"
+  },
   {
    "title": "Miss Mango",
    "artist": "Laila!",
@@ -3190,11 +3204,11 @@
    "duration": "3:38"
   },
   {
-   "title": "Kiss Me",
-   "artist": "Sixpence None The Richer",
-   "album": "How To Lose A Guy In 10 Days: Music From The Motion Picture",
-   "videoId": "9UxKZNmoJL4",
-   "duration": "3:20"
+   "title": "Sixpence None the Richer - Kiss Me (Official Video)",
+   "artist": "Gabriel Ezequiel",
+   "album": "",
+   "videoId": "hII0JXUJNDo",
+   "duration": "3:22"
   },
   {
    "title": "Stars",

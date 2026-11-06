@@ -1,9 +1,45 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3670,
- "totalTracks": 46478,
- "syncedAt": "2026-11-05T16:13:19.915360Z",
+ "albumCount": 3687,
+ "totalTracks": 46644,
+ "syncedAt": "2026-11-06T15:43:33.441343Z",
  "albums": [
+  {
+   "browseId": "MPREb_6UXAYX4gW5q",
+   "title": "Concept Neuf",
+   "artist": "Concept Neuf",
+   "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_socJJdOTCRW",
+   "title": "All I Have",
+   "artist": "Amerie",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_BZeYCSY12Wr",
+   "title": "Angústia Nos Corações Da Tia",
+   "artist": "Tia Maria Produções",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_6F5mhLFl1xs",
+   "title": "Tá Tipo Já Não Vamos Morrer",
+   "artist": "Tia Maria Produções",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_m1qQnqOC2B9",
+   "title": "Lei Da Tia Maria",
+   "artist": "Tia Maria Produções",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_JoE2Q6iJzTA",
+   "title": "Conclave",
+   "artist": "Conclave",
+   "trackCount": 11
+  },
   {
    "browseId": "MPREb_kz4EnfmKcZb",
    "title": "Baker's Dozen: Daringer",
@@ -455,6 +491,24 @@
    "trackCount": 11
   },
   {
+   "browseId": "MPREb_iNeQ5qP2zQF",
+   "title": "Something For Real",
+   "artist": "Kiefer",
+   "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_fX5bJMlKH8Q",
+   "title": "From What Was Will Grow A Flower",
+   "artist": "Luke Titus",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_lhT6zoo6CGC",
+   "title": "Five Leaves Left",
+   "artist": "Nick Drake",
+   "trackCount": 10
+  },
+  {
    "browseId": "MPREb_MPwPsljX6n0",
    "title": "Jaco Pastorius",
    "artist": "Jaco Pastorius",
@@ -491,6 +545,12 @@
    "trackCount": 15
   },
   {
+   "browseId": "MPREb_gF7gFeBBbco",
+   "title": "JAL JUNGLE ZAMEEN",
+   "artist": "Kaali Duniya",
+   "trackCount": 13
+  },
+  {
    "browseId": "MPREb_b0mRjZJ7L19",
    "title": "Some Other Ones",
    "artist": "Mac DeMarco",
@@ -507,6 +567,12 @@
    "title": "2",
    "artist": "Mac DeMarco",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_d4XgYJgVjl6",
+   "title": "Landó por Bulerías",
+   "artist": "Miki Gonzalez",
+   "trackCount": 14
   },
   {
    "browseId": "MPREb_UkJNOQbd1RK",
@@ -539,9 +605,21 @@
    "trackCount": 15
   },
   {
+   "browseId": "MPREb_f355N1EIr8O",
+   "title": "the afterparty",
+   "artist": "Andy Shauf",
+   "trackCount": 9
+  },
+  {
    "browseId": "MPREb_GKa6GOJmtTB",
    "title": "The Party",
    "artist": "Andy Shauf",
+   "trackCount": 10
+  },
+  {
+   "browseId": "MPREb_nV5BZtZwN74",
+   "title": "Another Helping of The Sweet Enoughs",
+   "artist": "The Sweet Enoughs",
    "trackCount": 10
   },
   {
@@ -599,6 +677,12 @@
    "trackCount": 10
   },
   {
+   "browseId": "MPREb_kLxGu6bdxfb",
+   "title": "Repetitions EP",
+   "artist": "Joe Milli",
+   "trackCount": 4
+  },
+  {
    "browseId": "MPREb_Xtp7nDBeESw",
    "title": "V.S.O.P. (Live)",
    "artist": "Herbie Hancock",
@@ -617,6 +701,12 @@
    "trackCount": 14
   },
   {
+   "browseId": "MPREb_gMvhRYawx4n",
+   "title": "Reich: Music for 18 Musicians",
+   "artist": "Steve Reich",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_KPcMyK2ZpYk",
    "title": "Prey to Truth",
    "artist": "Shrimpnose",
@@ -627,6 +717,12 @@
    "title": "Ballaké Sissoko & Derek Gripper",
    "artist": "Ballaké Sissoko",
    "trackCount": 7
+  },
+  {
+   "browseId": "MPREb_kCpSDoZ6fma",
+   "title": "Slime Patrol 2",
+   "artist": "Khadija Al Hanafi",
+   "trackCount": 10
   },
   {
    "browseId": "MPREb_GCNQLj0DVZm",
@@ -6645,6 +6741,12 @@
    "title": "Starfucker",
    "artist": "Starfucker",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_or9GipYFiAw",
+   "title": "Blonde",
+   "artist": "Frank Ocean",
+   "trackCount": 17
   },
   {
    "browseId": "MPREb_6OR990vuECL",
