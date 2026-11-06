@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-11-05T16:16:59Z",
+  "syncedAt": "2026-11-06T15:46:26Z",
   "shows": [
+    {
+      "alias": "in-focus",
+      "name": "In Focus",
+      "description": "A deeper look into the back catalogs of various artists.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/in-focus"
+    },
     {
       "alias": "sic-records",
       "name": "SIC Records",
@@ -36,15 +45,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/tommasi"
-    },
-    {
-      "alias": "in-focus",
-      "name": "In Focus",
-      "description": "A deeper look into the back catalogs of various artists.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/61ee02ff-bf8f-41c5-9057-e5673149c5f3_1657584000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/in-focus"
     },
     {
       "alias": "loraine-james",
@@ -308,8 +308,8 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/950a4dde-82d5-4919-8ff1-cfe7c186a0d6_1617753600.jpeg",
       "audioSources": [
         {
-          "url": "https://www.mixcloud.com/NTSRadio/nabihah-iqbal-flute-special-6th-april-2021/",
-          "source": "mixcloud"
+          "url": "https://soundcloud.com/user-202286394-991268468/nabihah-iqbal-flute-special?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
+          "source": "soundcloud"
         }
       ],
       "ntsGenres": [
