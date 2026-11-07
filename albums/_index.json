@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
  "albumCount": 3687,
- "totalTracks": 46644,
- "syncedAt": "2026-11-06T15:43:33.441343Z",
+ "totalTracks": 46631,
+ "syncedAt": "2026-11-07T14:45:52.503149Z",
  "albums": [
+  {
+   "browseId": "MPREb_QJfh8CjvpUq",
+   "title": "Oblivion Access",
+   "artist": "Lil Ugly Mane",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_6JfJGFZNKrj",
+   "title": "Pixie E.P",
+   "artist": "Stray",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_6UXAYX4gW5q",
    "title": "Concept Neuf",
@@ -14075,12 +14087,6 @@
    "trackCount": 10
   },
   {
-   "browseId": "MPREb_QsNeEe2Da5q",
-   "title": "I Love You Say It Back",
-   "artist": "KEY!",
-   "trackCount": 10
-  },
-  {
    "browseId": "MPREb_om5vnmzOjs8",
    "title": "Fin",
    "artist": "Syd",
@@ -22095,12 +22101,6 @@
    "title": "Complacency",
    "artist": "Cozy Kev",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_U4j8ACjl1nX",
-   "title": "Do It for Demon",
-   "artist": "SahBabii",
-   "trackCount": 20
   },
   {
    "browseId": "MPREb_Zs02jReA2Ym",

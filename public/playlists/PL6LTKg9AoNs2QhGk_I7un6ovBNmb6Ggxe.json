@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs2QhGk_I7un6ovBNmb6Ggxe",
  "title": "Lounge (for a chill ambience)",
  "trackCount": 2010,
- "syncedAt": "2026-11-06T15:43:42.231877Z",
+ "syncedAt": "2026-11-07T14:45:57.884311Z",
  "tracks": [
   {
    "title": "Reflections",
@@ -467,7 +467,7 @@
    "duration": "3:05"
   },
   {
-   "title": "fish in the pool / Hanayashiki",
+   "title": "fish in the pool・花屋敷 - fish in the pool / Hanayashiki",
    "artist": "Hekuto Pascal",
    "album": "fish in the pool",
    "videoId": "ge-OARWV9sE",
@@ -727,8 +727,8 @@
   },
   {
    "title": "Whatever, Nano",
-   "artist": "Helvetia - Topic",
-   "album": "",
+   "artist": "Helvetia",
+   "album": "A Dot Running for the Dust",
    "videoId": "Xg8GniCFDGo",
    "duration": "3:04"
   },
@@ -846,8 +846,8 @@
   },
   {
    "title": "Silent Spring",
-   "artist": "william basinski - Topic",
-   "album": "",
+   "artist": "William Basinski",
+   "album": "Lamentations",
    "videoId": "DRgshcEw_ak",
    "duration": "6:21"
   },
@@ -902,15 +902,15 @@
   },
   {
    "title": "Sphere",
-   "artist": "Akira Kosemura - Topic",
-   "album": "",
+   "artist": "Akira Kosemura",
+   "album": "Someday",
    "videoId": "KxyLUSVxdj0",
    "duration": "4:23"
   },
   {
    "title": "Kaleidoscope of Happiness",
-   "artist": "Akira Kosemura - Topic",
-   "album": "",
+   "artist": "Akira Kosemura",
+   "album": "In The Dark Woods",
    "videoId": "FLPd1LClVNA",
    "duration": "1:33"
   },
@@ -1056,8 +1056,8 @@
   },
   {
    "title": "Melancholia X",
-   "artist": "william basinski - Topic",
-   "album": "",
+   "artist": "William Basinski",
+   "album": "Melancholia",
    "videoId": "erv9GQbAJoY",
    "duration": "1:08"
   },
@@ -1077,8 +1077,8 @@
   },
   {
    "title": "Melancholia XIII",
-   "artist": "william basinski - Topic",
-   "album": "",
+   "artist": "William Basinski",
+   "album": "Melancholia",
    "videoId": "akkhz4NAnZs",
    "duration": "2:01"
   },
@@ -1091,8 +1091,8 @@
   },
   {
    "title": "Winter Sleep (겨울잠)",
-   "artist": "IU - Topic",
-   "album": "",
+   "artist": "IU",
+   "album": "Pieces (조각집)",
    "videoId": "FXfvbMEWkhk",
    "duration": "4:23"
   },
@@ -1231,8 +1231,8 @@
   },
   {
    "title": "Pfau",
-   "artist": "Daigo Hanada - Topic",
-   "album": "",
+   "artist": "Daigo Hanada",
+   "album": "Ichiru",
    "videoId": "CazkCgnUMY0",
    "duration": "2:08"
   },
@@ -1287,8 +1287,8 @@
   },
   {
    "title": "Run",
-   "artist": "Smyang Piano - Topic",
-   "album": "",
+   "artist": "Smyang Piano",
+   "album": "Just a Nap",
    "videoId": "vPtMNkVBFBo",
    "duration": "2:58"
   },
@@ -1336,8 +1336,8 @@
   },
   {
    "title": "As Much as Possible",
-   "artist": "Bing  & Ruth - Topic",
-   "album": "",
+   "artist": "Bing & Ruth",
+   "album": "No Home of the Mind",
    "videoId": "hq1LTgtxirc",
    "duration": "5:41"
   },
@@ -1790,7 +1790,7 @@
    "duration": "3:05"
   },
   {
-   "title": "fish in the pool / Hanayashiki",
+   "title": "fish in the pool・花屋敷 - fish in the pool / Hanayashiki",
    "artist": "Hekuto Pascal",
    "album": "fish in the pool",
    "videoId": "ge-OARWV9sE",
@@ -7089,7 +7089,7 @@
    "duration": "3:59"
   },
   {
-   "title": "Lake (湖沼)",
+   "title": "Lake",
    "artist": "Haruomi Hosono",
    "album": "Undercurrent",
    "videoId": "KRxV_B-QeUQ",
@@ -9253,8 +9253,8 @@
   },
   {
    "title": "afternoon of lights",
-   "artist": "haruka nakamura - Topic",
-   "album": "",
+   "artist": "haruka nakamura",
+   "album": "Still Life II",
    "videoId": "lCVBo53X8qk",
    "duration": "2:45"
   },
@@ -9274,8 +9274,8 @@
   },
   {
    "title": "8th portrait",
-   "artist": "haruka nakamura - Topic",
-   "album": "",
+   "artist": "haruka nakamura",
+   "album": "Still Life II",
    "videoId": "q98cc9Awfdc",
    "duration": "3:59"
   },
@@ -9295,8 +9295,8 @@
   },
   {
    "title": "foresight light",
-   "artist": "haruka nakamura - Topic",
-   "album": "",
+   "artist": "haruka nakamura",
+   "album": "Still Life",
    "videoId": "Ric636ONZbw",
    "duration": "3:36"
   },
@@ -9316,8 +9316,8 @@
   },
   {
    "title": "call",
-   "artist": "AOKI,hayato - Topic",
-   "album": "",
+   "artist": "AOKI,hayato;haruka nakamura",
+   "album": "Folklore",
    "videoId": "RRRZaYVwH5E",
    "duration": "5:04"
   },
@@ -9456,8 +9456,8 @@
   },
   {
    "title": "Ghost Writing Pt. 1",
-   "artist": "Tim Hecker - Topic",
-   "album": "",
+   "artist": "Tim Hecker",
+   "album": "Haunt Me",
    "videoId": "dhxddO2qly4",
    "duration": "4:30"
   },
@@ -9554,8 +9554,8 @@
   },
   {
    "title": "Verbena",
-   "artist": "MMOTHS - Topic",
-   "album": "",
+   "artist": "Mmoths",
+   "album": "Luneworks",
    "videoId": "kUy_QEruILM",
    "duration": "2:47"
   },
@@ -9610,8 +9610,8 @@
   },
   {
    "title": "Falaise",
-   "artist": "Floating Points - Topic",
-   "album": "",
+   "artist": "Floating Points",
+   "album": "Crush",
    "videoId": "xJfpOgQcq9I",
    "duration": "3:55"
   },
@@ -9637,9 +9637,9 @@
    "duration": "3:31"
   },
   {
-   "title": "Evening Star",
-   "artist": "Robert Fripp - Topic",
-   "album": "",
+   "title": "Evening Star (feat. Brian Eno)",
+   "artist": "Robert Fripp",
+   "album": "Evening Star: Robert Fripp @ 80, Vol.8",
    "videoId": "A9CE3mbO9hQ",
    "duration": "7:51"
   },
@@ -9701,8 +9701,8 @@
   },
   {
    "title": "The Sound Of A Finished Kiss",
-   "artist": "The Remote Viewer - Topic",
-   "album": "",
+   "artist": "The Remote Viewer",
+   "album": "Here I Go Again On My Own",
    "videoId": "ZUj9VFOV53g",
    "duration": "6:15"
   },
@@ -9771,8 +9771,8 @@
   },
   {
    "title": "Illusion Of Time",
-   "artist": "Daniel Avery - Topic",
-   "album": "",
+   "artist": "Daniel Avery;Alessandro Cortini",
+   "album": "Illusion Of Time",
    "videoId": "9pxlFPfAP1I",
    "duration": "4:23"
   },
@@ -9799,8 +9799,8 @@
   },
   {
    "title": "Missing Photos",
-   "artist": "Last Days - Topic",
-   "album": "",
+   "artist": "Last Days",
+   "album": "Late Night Tales: Jon Hopkins",
    "videoId": "zd2smnIOlYo",
    "duration": "2:03"
   },
@@ -9813,8 +9813,8 @@
   },
   {
    "title": "Swallow's Tempest",
-   "artist": "Gigi Masin - Topic",
-   "album": "",
+   "artist": "Gigi Masin",
+   "album": "Wind",
    "videoId": "-07CgkytXpY",
    "duration": "6:57"
   },
@@ -9827,15 +9827,15 @@
   },
   {
    "title": "Broad Channel",
-   "artist": "Bing  & Ruth - Topic",
-   "album": "",
+   "artist": "Bing & Ruth",
+   "album": "City Lake",
    "videoId": "nwhFdJ8qJJM",
    "duration": "5:56"
   },
   {
    "title": "Glass",
-   "artist": "Hania Rani - Topic",
-   "album": "",
+   "artist": "Hania Rani",
+   "album": "Esja",
    "videoId": "mneDuKb3BT8",
    "duration": "4:31"
   },
@@ -9855,8 +9855,8 @@
   },
   {
    "title": "Line of Life (Prologue)",
-   "artist": "Kasper Björke - Topic",
-   "album": "",
+   "artist": "Kasper Bjørke",
+   "album": "Kasper Bjørke Quartet: The Fifty Eleven Project",
    "videoId": "gZNjY8Harv8",
    "duration": "12:29"
   },
@@ -9932,8 +9932,8 @@
   },
   {
    "title": "Rolling",
-   "artist": "Roedelius - Topic",
-   "album": "",
+   "artist": "Roedelius;Arnold Kasar",
+   "album": "Einfluss",
    "videoId": "U6CO8i3aVrM",
    "duration": "3:45"
   },
@@ -10016,8 +10016,8 @@
   },
   {
    "title": "Lluvia de estrellas",
-   "artist": "Federico Durand - Topic",
-   "album": "",
+   "artist": "Federico Durand",
+   "album": "La Niña Junco",
    "videoId": "eBLfnsuCLyk",
    "duration": "7:33"
   },
@@ -10065,8 +10065,8 @@
   },
   {
    "title": "Closer",
-   "artist": "Gigi Masin - Topic",
-   "album": "",
+   "artist": "Gigi Masin",
+   "album": "Kite",
    "videoId": "cRGCo1b2ZMY",
    "duration": "4:31"
   },
@@ -10156,8 +10156,8 @@
   },
   {
    "title": "The Little Things That Light Us",
-   "artist": "Chris Hyson - Topic",
-   "album": "",
+   "artist": "Chris Hyson",
+   "album": "Human Error",
    "videoId": "M7kKydH_jeM",
    "duration": "4:45"
   },
@@ -10457,8 +10457,8 @@
   },
   {
    "title": "Trust I",
-   "artist": "Will Epstein - Topic",
-   "album": "",
+   "artist": "Will Epstein",
+   "album": "Trust",
    "videoId": "p9zlwOWW5Fo",
    "duration": "2:14"
   },
@@ -10638,7 +10638,7 @@
    "duration": "3:54"
   },
   {
-   "title": "ザ・ミラージュ - THE MIRAGE",
+   "title": "THE MIRAGE",
    "artist": "YOSHIO SUZUKI",
    "album": "MORNING PICTURE",
    "videoId": "zs265x_QevA",
@@ -11962,22 +11962,22 @@
   },
   {
    "title": "Tender Fuzzy",
-   "artist": "Kazuma Okabayashi - Topic",
-   "album": "",
+   "artist": "Kazuma Okabayashi",
+   "album": "Slumber Traveler",
    "videoId": "B9vWlqMt6jE",
    "duration": "2:44"
   },
   {
    "title": "Cuddle Clouds",
-   "artist": "Kazuma Okabayashi - Topic",
-   "album": "",
+   "artist": "Kazuma Okabayashi",
+   "album": "Slumber Traveler",
    "videoId": "QRu0ebhJiyg",
    "duration": "3:09"
   },
   {
    "title": "Prayerful Prelude",
-   "artist": "Kazuma Okabayashi - Topic",
-   "album": "",
+   "artist": "Kazuma Okabayashi",
+   "album": "Slumber Traveler",
    "videoId": "uTefjj7fRBw",
    "duration": "2:44"
   },
@@ -12025,8 +12025,8 @@
   },
   {
    "title": "The End (Of a Dream) (Shlohmo Cover)",
-   "artist": "Tomemitsu - Topic",
-   "album": "",
+   "artist": "Tomemitsu",
+   "album": "FOF10: The End (of a Dream)",
    "videoId": "AVx8M_CVBgY",
    "duration": "5:13"
   },
@@ -12256,8 +12256,8 @@
   },
   {
    "title": "Here I Am, Two Warships",
-   "artist": "Spirituals - Topic",
-   "album": "",
+   "artist": "Spirituals",
+   "album": "In These Times",
    "videoId": "ijZ1upNF1uU",
    "duration": "4:51"
   },
@@ -12354,15 +12354,15 @@
   },
   {
    "title": "La historia de la niña junco",
-   "artist": "Federico Durand - Topic",
-   "album": "",
+   "artist": "Federico Durand",
+   "album": "La Niña Junco",
    "videoId": "q18ZWiAMW9Q",
    "duration": "2:59"
   },
   {
    "title": "Navidad en el bosque",
-   "artist": "Federico Durand - Topic",
-   "album": "",
+   "artist": "Federico Durand",
+   "album": "La Niña Junco",
    "videoId": "Gu5UpcPWJYg",
    "duration": "5:42"
   },
@@ -12452,8 +12452,8 @@
   },
   {
    "title": "A Garden Of Peace",
-   "artist": "Lonnie Liston Smith - Topic",
-   "album": "",
+   "artist": "Lonnie Liston Smith",
+   "album": "Dreams Of Tomorrow",
    "videoId": "gVHCYIdbLg4",
    "duration": "3:09"
   },
@@ -12522,8 +12522,8 @@
   },
   {
    "title": "wet",
-   "artist": "Taylor Deupree - Topic",
-   "album": "",
+   "artist": "Taylor Deupree",
+   "album": "Small Winters",
    "videoId": "6Guak7CqC7I",
    "duration": "1:30"
   },
@@ -12571,8 +12571,8 @@
   },
   {
    "title": "One Without",
-   "artist": "Oliver Coates - Topic",
-   "album": "",
+   "artist": "Oliver Coates",
+   "album": "Aftersun (Original Motion Picture Soundtrack)",
    "videoId": "5CLxYqMZFy8",
    "duration": "4:03"
   },
@@ -13088,7 +13088,7 @@
    "duration": "3:30"
   },
   {
-   "title": "Thousand Knives (2016 Re-Mastered)",
+   "title": "THOUSAND KNIVES（2016 リマスター） - Thousand Knives (2016 Re-Mastered)",
    "artist": "Ryuichi Sakamoto",
    "album": "Thousand Knives (2016 Re-Mastered)",
    "videoId": "IKz0NNemy8M",
