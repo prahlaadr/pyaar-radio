@@ -1,6 +1,24 @@
 {
-  "syncedAt": "2026-11-06T15:46:26Z",
+  "syncedAt": "2026-11-07T14:46:01Z",
   "shows": [
+    {
+      "alias": "sacred-space",
+      "name": "Sacred Space w/ Radha",
+      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/sacred-space"
+    },
+    {
+      "alias": "tana-yonas",
+      "name": "Wabi Sabi w/ Tana Yonas",
+      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
+      "location": "Los Angeles",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/tana-yonas"
+    },
     {
       "alias": "in-focus",
       "name": "In Focus",
@@ -138,15 +156,6 @@
       "url": "https://www.nts.live/shows/music-4-lovers"
     },
     {
-      "alias": "sacred-space",
-      "name": "Sacred Space w/ Radha",
-      "description": "Enter Radha's spiritual soundscape - of special tunes near and dear to her.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/0d0cb52e-a5ca-4e4a-88b2-a09b52fe21f0_1725840000.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/sacred-space"
-    },
-    {
       "alias": "otaku",
       "name": "Otaku",
       "description": "Anime and video game soundtrack music from across the decades.",
@@ -156,15 +165,6 @@
         "other"
       ],
       "url": "https://www.nts.live/shows/otaku"
-    },
-    {
-      "alias": "tana-yonas",
-      "name": "Wabi Sabi w/ Tana Yonas",
-      "description": "Tana Yonas collects songs like souvenirs, each recalling precious moments found leafing through dusty foreign record shops or catching sonic fragments weathered by time from the radio of bumpy taxi rides. Listen as she delicately guilds together these memories and shares music from lesser known and under represented musical traditions from across the globe and decades.",
-      "location": "Los Angeles",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/757679e1-e2b2-4e7c-8c79-6cc8ee853224_1665100800.png",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/tana-yonas"
     },
     {
       "alias": "coltrane-day",
@@ -346,8 +346,8 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/1c689b47-2dd8-4a27-bb2a-14a343963fbf_1588291200.png",
       "audioSources": [
         {
-          "url": "https://www.mixcloud.com/NTSRadio/ostaku-legend-of-zelda-1st-may-2020/",
-          "source": "mixcloud"
+          "url": "https://soundcloud.com/user-202286394-991268468/otaku-legend-of-zelda-010520?utm_medium=api&utm_campaign=social_sharing&utm_source=id_314736",
+          "source": "soundcloud"
         }
       ],
       "ntsGenres": [
