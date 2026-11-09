@@ -1,6 +1,18 @@
 {
-  "syncedAt": "2026-11-08T14:52:40Z",
+  "syncedAt": "2026-11-09T18:29:56Z",
   "shows": [
+    {
+      "alias": "music-4-lovers",
+      "name": "Music 4 Lovers w/ Jabu & Andy Payback",
+      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
+      "location": "Bristol",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/96f7fce5-d784-4e2b-9f3a-93a105f0c8b8_1641600000.jpeg",
+      "ntsGenres": [
+        "soul / rhythm & blues",
+        "disco / boogie"
+      ],
+      "url": "https://www.nts.live/shows/music-4-lovers"
+    },
     {
       "alias": "sacred-space",
       "name": "Sacred Space w/ Radha",
@@ -144,18 +156,6 @@
       "url": "https://www.nts.live/shows/sendspaace"
     },
     {
-      "alias": "music-4-lovers",
-      "name": "Music 4 Lovers w/ Jabu & Andy Payback",
-      "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
-      "location": "Bristol",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/96f7fce5-d784-4e2b-9f3a-93a105f0c8b8_1641600000.jpeg",
-      "ntsGenres": [
-        "soul / rhythm & blues",
-        "disco / boogie"
-      ],
-      "url": "https://www.nts.live/shows/music-4-lovers"
-    },
-    {
       "alias": "otaku",
       "name": "Otaku",
       "description": "Anime and video game soundtrack music from across the decades.",
@@ -287,12 +287,7 @@
       "date": "2025-01-28T17:00:00+00:00",
       "location": "ATLANTA",
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/d26876fd-df3a-4dd3-b814-5f61419f1e69_1737417600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://www.mixcloud.com/NTSRadio/vayda-28th-january-2025/",
-          "source": "mixcloud"
-        }
-      ],
+      "audioSources": [],
       "ntsGenres": [
         "hip-hop / r'n'b"
       ],
@@ -363,12 +358,7 @@
       "date": "2019-02-21T04:00:00+00:00",
       "location": "Los Angeles",
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/fe22371b-ac39-4e80-8d74-d3dd65862381_1520985600.jpeg",
-      "audioSources": [
-        {
-          "url": "https://www.mixcloud.com/NTSRadio/lil-creep-shows-crazy-house-j-dilla-special-20th-february-2019/",
-          "source": "mixcloud"
-        }
-      ],
+      "audioSources": [],
       "ntsGenres": [
         "electronica / downtempo",
         "hip-hop / r'n'b"
