@@ -2306,7 +2306,7 @@ export default function Home() {
               )}
             </button>
             <button
-              onClick={() => { setSectionMode("mixart"); setTamilMode(false); setIlaiyaraajaMode(false); }}
+              onClick={() => { setSectionMode("mixart"); setTab("browse"); handleSelectArtist(null); setTamilMode(false); setIlaiyaraajaMode(false); }}
               className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
                 sectionMode === "mixart"
                   ? "bg-red-600 text-white"
@@ -2618,7 +2618,9 @@ export default function Home() {
               ilaiyaraajaTrackCount={ilaiyaraajaTracks.length}
             />
 
-            {loading ? (
+            {sectionMode === "mixart" ? (
+              <MixArtCreator onBack={() => setSectionMode("browse")} />
+            ) : loading ? (
               <div className="flex-1 flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse mx-auto mb-3" />
@@ -2686,8 +2688,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            ) : sectionMode === "mixart" ? (
-              <MixArtCreator onBack={() => setSectionMode("browse")} />
             ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
               <SectionTrackList
                 tracks={sectionTracks}

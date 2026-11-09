@@ -117,7 +117,7 @@ export function FilterPanel({
     (filters.bpmMax < 300 ? 1 : 0);
 
   // TV mode and artist detail hide the filter panel entirely
-  if (sectionMode === "tv" || hidden) return null;
+  if (sectionMode === "tv" || sectionMode === "mixart" || hidden) return null;
 
   return (
     <div className="px-5 py-3 border-b border-[#222] space-y-3">
