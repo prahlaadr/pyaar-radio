@@ -42,6 +42,7 @@ import type { TVChannel, TVChannelData } from "@/lib/tv-types";
 import { getNowPlaying } from "@/lib/tv-schedule";
 import { TvPlayer, type TvPlayerHandle } from "@/components/tv-player";
 import { TvGuide } from "@/components/tv-guide";
+import MixArtCreator from "@/components/mix-art-creator";
 
 const DEFAULT_FILTERS: ArtistFilters = {
   channels: [],
@@ -2304,6 +2305,17 @@ export default function Home() {
                 <span className="ml-1.5 text-[#999]">{browserSetlistsList.length}</span>
               )}
             </button>
+            <button
+              onClick={() => { setSectionMode("mixart"); setTamilMode(false); setIlaiyaraajaMode(false); }}
+              className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
+                sectionMode === "mixart"
+                  ? "bg-red-600 text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+              title="Spin a cover into a looping video"
+            >
+              Mix Art Creator
+            </button>
           </div>
         </div>
 
@@ -2674,6 +2686,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            ) : sectionMode === "mixart" ? (
+              <MixArtCreator onBack={() => setSectionMode("browse")} />
             ) : (sectionMode === "downtempo" || sectionMode === "ambient") ? (
               <SectionTrackList
                 tracks={sectionTracks}
@@ -2940,7 +2954,7 @@ export default function Home() {
       </div>
 
       {/* Right: Setlist — desktop (hidden in TV mode) */}
-      <div className={`${sectionMode === "tv" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-background`}>
+      <div className={`${sectionMode === "tv" || sectionMode === "mixart" ? "hidden" : "hidden md:flex"} w-[380px] shrink-0 flex-col bg-background`}>
         {/* Sidebar mode: single Set builder vs 3-crate sorting stack */}
         <div className="px-3 py-2 border-b border-[#222] flex items-center gap-2 shrink-0">
           <span className="text-[9px] uppercase tracking-wider text-[#666] mr-auto">Sidebar</span>
@@ -3063,7 +3077,7 @@ export default function Home() {
       {/* Mobile: setlist toggle button (hidden in TV mode) */}
       <button
         onClick={() => setMobileSetlistOpen(true)}
-        className={`${sectionMode === "tv" ? "hidden" : "md:hidden"} fixed bottom-12 right-4 z-30 bg-red-600 hover:bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors`}
+        className={`${sectionMode === "tv" || sectionMode === "mixart" ? "hidden" : "md:hidden"} fixed bottom-12 right-4 z-30 bg-red-600 hover:bg-red-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors`}
         style={{ bottom: nowPlaying ? "3.5rem" : "1rem" }}
       >
         <span className="text-lg font-bold">{setlist.length || "+"}</span>

@@ -11,7 +11,7 @@ const GENRES = [
   "Afro", "Bass", "Dub", "Dubstep", "DnB", "Rave", "Trap", "Pop",
 ] as const;
 
-export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv";
+export type SectionMode = "browse" | "tamil" | "downtempo" | "ambient" | "tv" | "mixart";
 
 interface Props {
   filters: ArtistFilters;
