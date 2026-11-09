@@ -1,9 +1,21 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3687,
- "totalTracks": 46631,
- "syncedAt": "2026-11-08T14:51:23.919725Z",
+ "albumCount": 3681,
+ "totalTracks": 46541,
+ "syncedAt": "2026-11-09T18:26:14.100322Z",
  "albums": [
+  {
+   "browseId": "MPREb_YwqVNYMXS4x",
+   "title": "Róisín",
+   "artist": "Ciarán",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_vc0O0qDwSJN",
+   "title": "Nothing Is Still",
+   "artist": "Leon Vynehall",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_QJfh8CjvpUq",
    "title": "Oblivion Access",
@@ -1329,12 +1341,6 @@
    "title": "Lightning McQueen",
    "artist": "Curtis Williams",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_soJU5CpVkei",
-   "title": "Lake Effect",
-   "artist": "Sango",
-   "trackCount": 16
   },
   {
    "browseId": "MPREb_wNWwZqM8Pi4",
@@ -5213,12 +5219,6 @@
    "trackCount": 5
   },
   {
-   "browseId": "MPREb_ANWwSYGHoSv",
-   "title": "ALL YOU NEED IS TIME",
-   "artist": "TRANSMISSION SOUND SYSTEM",
-   "trackCount": 7
-  },
-  {
    "browseId": "MPREb_EmzExvPFPgU",
    "title": "ADL",
    "artist": "Yeat",
@@ -5403,12 +5403,6 @@
    "title": "Solo Star",
    "artist": "Solange",
    "trackCount": 37
-  },
-  {
-   "browseId": "MPREb_e5yFE21yJ2i",
-   "title": "North Vol. 2 (Instrumentals)",
-   "artist": "Sango",
-   "trackCount": 36
   },
   {
    "browseId": "MPREb_bF36mJx2jjQ",
@@ -5649,12 +5643,6 @@
    "title": "Siege",
    "artist": "Tsuruda",
    "trackCount": 11
-  },
-  {
-   "browseId": "MPREb_U1bTiLCEb86",
-   "title": "INFLUENDO",
-   "artist": "TroyBoi",
-   "trackCount": 7
   },
   {
    "browseId": "MPREb_ILmIq921bCZ",
@@ -11711,12 +11699,6 @@
    "trackCount": 16
   },
   {
-   "browseId": "MPREb_9wR0fmJsy0o",
-   "title": "Molasses",
-   "artist": "Free n Losh",
-   "trackCount": 9
-  },
-  {
    "browseId": "MPREb_4YlmE5d95Ts",
    "title": "Fuck Yo Feelings",
    "artist": "Robert Glasper",
@@ -17051,12 +17033,6 @@
    "trackCount": 12
   },
   {
-   "browseId": "MPREb_j4ZYP6LzhIC",
-   "title": "North Vol. 2",
-   "artist": "Sango",
-   "trackCount": 18
-  },
-  {
    "browseId": "MPREb_lWcnGXWD5DM",
    "title": "Right Place, Wrong Person",
    "artist": "RM",
@@ -21107,12 +21083,6 @@
    "trackCount": 14
   },
   {
-   "browseId": "MPREb_ERvSA2SMrB3",
-   "title": "Flying Objects (Extended Version)",
-   "artist": "Smoke DZA",
-   "trackCount": 8
-  },
-  {
    "browseId": "MPREb_RmeZoVvpETJ",
    "title": "Sanctuary OS",
    "artist": "Dusqk",
@@ -21693,12 +21663,6 @@
    "title": "KROK",
    "artist": "СОЮЗ",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_PaAUoEhHtm8",
-   "title": "Golden Parachute",
-   "artist": "Sonnyjim",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_x7CvzNwDmLn",

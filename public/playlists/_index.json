@@ -1,8 +1,8 @@
 {
  "account": "Pyaar Radio",
  "playlistCount": 348,
- "totalTracks": 113424,
- "syncedAt": "2026-11-08T14:51:27.831354Z",
+ "totalTracks": 113430,
+ "syncedAt": "2026-11-09T18:26:18.893220Z",
  "playlists": [
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -907,7 +907,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
    "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 32
+   "trackCount": 33
   },
   {
    "playlistId": "PL6LTKg9AoNs0Zh-PueucCl2oJwqkD1I2v",
@@ -1227,7 +1227,7 @@
   {
    "playlistId": "PLBwo9IQKOV3U",
    "title": "Nov 26",
-   "trackCount": 3
+   "trackCount": 6
   },
   {
    "playlistId": "PL6LTKg9AoNs16-hKM8Hmdctn1wKQxGW-O",
@@ -1672,7 +1672,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1618
+   "trackCount": 1620
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",

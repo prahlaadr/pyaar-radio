@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1618,
- "syncedAt": "2026-11-08T14:51:27.831354Z",
+ "trackCount": 1620,
+ "syncedAt": "2026-11-09T18:26:18.893220Z",
  "tracks": [
+  {
+   "title": "So Gone",
+   "artist": "Monica",
+   "album": "So Gone",
+   "videoId": "U2MVAe3hf5Q",
+   "duration": "4:05"
+  },
+  {
+   "title": "Bennie And The Jets",
+   "artist": "Elton John",
+   "album": "To Be Continued...",
+   "videoId": "LO6vBPe8Zig",
+   "duration": "5:21"
+  },
   {
    "title": "Why Don't We Fall in Love",
    "artist": "Amerie",
