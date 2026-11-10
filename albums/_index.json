@@ -1,9 +1,39 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3681,
- "totalTracks": 46541,
- "syncedAt": "2026-11-09T18:26:14.100322Z",
+ "albumCount": 3686,
+ "totalTracks": 46589,
+ "syncedAt": "2026-11-10T16:11:27.756541Z",
  "albums": [
+  {
+   "browseId": "MPREb_iSzlU8gNceY",
+   "title": "Halfaxa",
+   "artist": "Grimes",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_pMOX8p6dBfl",
+   "title": "Geidi Primes",
+   "artist": "Grimes",
+   "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_yC4awaI50HN",
+   "title": "Visions",
+   "artist": "Grimes",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_WLBkrUsX2Bu",
+   "title": "Ghettoboom Vol. 1",
+   "artist": "1 9 0 5",
+   "trackCount": 6
+  },
+  {
+   "browseId": "MPREb_ymcqfCJGZGI",
+   "title": "Niche Flex EP",
+   "artist": "Sam Binga",
+   "trackCount": 4
+  },
   {
    "browseId": "MPREb_YwqVNYMXS4x",
    "title": "Róisín",
