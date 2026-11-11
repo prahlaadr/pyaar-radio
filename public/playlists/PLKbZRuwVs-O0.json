@@ -2,7 +2,7 @@
  "playlistId": "PLKbZRuwVs-O0",
  "title": "9laad:DnB",
  "trackCount": 422,
- "syncedAt": "2026-11-10T16:11:35.456485Z",
+ "syncedAt": "2026-11-11T15:58:00.668315Z",
  "tracks": [
   {
    "title": "Onyx",
@@ -1413,8 +1413,8 @@
   },
   {
    "title": "Ill Behaviour (feat. I-Kay)",
-   "artist": "Danny Byrd - Topic",
-   "album": "",
+   "artist": "Danny Byrd",
+   "album": "Rave Digger",
    "videoId": "-VUJ6VzjNqY",
    "duration": "4:54"
   },
@@ -1623,8 +1623,8 @@
   },
   {
    "title": "Universal Language",
-   "artist": "Metrik - Topic",
-   "album": "",
+   "artist": "Metrik",
+   "album": "Universal Language",
    "videoId": "bTxnPChewP8",
    "duration": "4:14"
   },
@@ -1637,8 +1637,8 @@
   },
   {
    "title": "Iron Heart",
-   "artist": "Netsky - Topic",
-   "album": "",
+   "artist": "Netsky",
+   "album": "Netsky",
    "videoId": "emGDtwLLBus",
    "duration": "5:57"
   },
@@ -1728,8 +1728,8 @@
   },
   {
    "title": "Climax",
-   "artist": "Camo & Krooked - Topic",
-   "album": "",
+   "artist": "Camo & Krooked",
+   "album": "Climax",
    "videoId": "AcqkapEg1wc",
    "duration": "4:30"
   },
@@ -1762,9 +1762,9 @@
    "duration": "3:11"
   },
   {
-   "title": "Just a Thought",
-   "artist": "Fred V & Grafix - Topic",
-   "album": "",
+   "title": "Just a Thought (feat. Reija Lee)",
+   "artist": "Fred V & Grafix",
+   "album": "Just a Thought",
    "videoId": "IflzGu8jcTA",
    "duration": "5:47"
   },
@@ -1868,15 +1868,15 @@
   },
   {
    "title": "The Beginning",
-   "artist": "Moving Fusion - Topic",
-   "album": "",
+   "artist": "Moving Fusion",
+   "album": "RAM 15X15, Vol. 1",
    "videoId": "n09V4V9EzGM",
    "duration": "5:16"
   },
   {
    "title": "Turbulence",
-   "artist": "Moving Fusion - Topic",
-   "album": "",
+   "artist": "Moving Fusion",
+   "album": "Origin Unknown Present Sound in Motion",
    "videoId": "39wGBWGuW4s",
    "duration": "5:51"
   },
@@ -1889,8 +1889,8 @@
   },
   {
    "title": "Atlantis",
-   "artist": "Moving Fusion - Topic",
-   "album": "",
+   "artist": "Moving Fusion",
+   "album": "Atlantis EP",
    "videoId": "LZvX5abKz6A",
    "duration": "6:47"
   },
@@ -2036,15 +2036,15 @@
   },
   {
    "title": "Only You",
-   "artist": "Nookie - Topic",
-   "album": "",
+   "artist": "Nookie",
+   "album": "Reinforced Presents Nookie - The Sound Of Music",
    "videoId": "q59WI7Um7FY",
    "duration": "5:22"
   },
   {
    "title": "Brown Paper Bag (feat. Dynamite MC) (Roni Size Full Vocal Remix)",
-   "artist": "Reprazent - Topic",
-   "album": "",
+   "artist": "Roni Size / Reprazent",
+   "album": "New Forms (20th Anniversary Edition)",
    "videoId": "EnAtyAJZRIE",
    "duration": "4:44"
   },

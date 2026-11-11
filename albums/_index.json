@@ -1,9 +1,15 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3686,
- "totalTracks": 46589,
- "syncedAt": "2026-11-10T16:11:27.756541Z",
+ "albumCount": 3687,
+ "totalTracks": 46603,
+ "syncedAt": "2026-11-11T15:57:57.390114Z",
  "albums": [
+  {
+   "browseId": "MPREb_fso2aAsGmXv",
+   "title": "GENESIS FM",
+   "artist": "BNYX®",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_iSzlU8gNceY",
    "title": "Halfaxa",

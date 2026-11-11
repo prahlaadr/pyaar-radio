@@ -1,9 +1,30 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1620,
- "syncedAt": "2026-11-10T16:11:35.456485Z",
+ "trackCount": 1623,
+ "syncedAt": "2026-11-11T15:58:00.668315Z",
  "tracks": [
+  {
+   "title": "Mary Jane (All Night Long)",
+   "artist": "Mary J. Blige",
+   "album": "My Life",
+   "videoId": "oCF9C10sVqQ",
+   "duration": "4:40"
+  },
+  {
+   "title": "Suit & Tie ([Radio Edit]) (feat. JAY-Z)",
+   "artist": "Justin Timberlake",
+   "album": "Suit & Tie (Radio Edit)",
+   "videoId": "0S0vamqBlek",
+   "duration": "4:30"
+  },
+  {
+   "title": "SO GOOD",
+   "artist": "Shay Lia;KAYTRANADA",
+   "album": "SO GOOD",
+   "videoId": "uLEgFLYVifI",
+   "duration": "3:43"
+  },
   {
    "title": "So Gone",
    "artist": "Monica",
