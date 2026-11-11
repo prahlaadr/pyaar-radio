@@ -16,7 +16,7 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
   const spinnerRef = useRef<Spinner | null>(null);
   const optionsRef = useRef<Options | null>(null);
   const imageRef = useRef<HTMLImageElement | null>(null);
-  const audioRef = useRef<ArrayBuffer | null>(null);
+  const audioFileRef = useRef<File | null>(null);
 
   const [speedRpm, setSpeedRpm] = useState(6);
   const [backgroundColor, setBackgroundColor] = useState("#000000");
@@ -25,6 +25,7 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
   const [imageName, setImageName] = useState<string>("sample.jpg");
   const [audioName, setAudioName] = useState<string | null>(null);
   const [generating, setGenerating] = useState<Quality | null>(null);
+  const [progress, setProgress] = useState(0);
 
   // Spin up the renderer once; the Spinner reads the options object by
   // reference, so control handlers mutate optionsRef.current live.
@@ -69,11 +70,13 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
     reader.readAsDataURL(file);
   }
 
-  async function onAudioFile(e: React.ChangeEvent<HTMLInputElement>) {
+  function onAudioFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
     setAudioName(file.name);
-    audioRef.current = await file.arrayBuffer();
+    // Keep the File (not its ArrayBuffer) — decodeAudioData detaches the buffer,
+    // so we re-read a fresh one on every download attempt.
+    audioFileRef.current = file;
   }
 
   async function onDownload(quality: Quality) {
@@ -85,6 +88,7 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
     const size = quality === "high" ? 1024 : 512;
 
     setGenerating(quality);
+    setProgress(0);
     canvas.width = size;
     canvas.height = size;
 
@@ -92,17 +96,24 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
     await new Promise((resolve) => setTimeout(resolve, 20));
 
     try {
+      const audio = audioFileRef.current
+        ? await audioFileRef.current.arrayBuffer()
+        : null;
       const url = await record({
         speedRpm: optionsRef.current.speedRpm,
         spinner,
         fps,
-        audio: audioRef.current,
+        audio,
+        onProgress: setProgress,
       });
       const a = document.createElement("a");
       a.href = url;
       a.download = "mix-art.mp4";
       a.click();
       URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error(err);
+      alert(`Couldn't generate the video: ${err instanceof Error ? err.message : err}`);
     } finally {
       canvas.width = DEFAULT_SIZE;
       canvas.height = DEFAULT_SIZE;
@@ -234,14 +245,14 @@ export default function MixArtCreator({ onBack }: { onBack: () => void }) {
                 disabled={!!generating}
                 className="w-full px-3 py-2.5 text-[11px] uppercase tracking-wider bg-red-600 text-white hover:bg-red-500 transition-colors disabled:opacity-50 disabled:cursor-wait"
               >
-                {generating === "high" ? "Generating video..." : "Download MP4 (HQ)"}
+                {generating === "high" ? `Generating video... ${Math.round(progress * 100)}%` : "Download MP4 (HQ)"}
               </button>
               <button
                 onClick={() => onDownload("low")}
                 disabled={!!generating}
                 className="w-full px-3 py-2 text-[10px] uppercase tracking-wider bg-[#111] border border-[#222] text-[#888] hover:text-white transition-colors disabled:opacity-50 disabled:cursor-wait"
               >
-                {generating === "low" ? "Generating video..." : "Download MP4 (low, iPhone-friendly)"}
+                {generating === "low" ? `Generating video... ${Math.round(progress * 100)}%` : "Download MP4 (low, iPhone-friendly)"}
               </button>
               <p className="text-[10px] text-[#555] leading-relaxed">
                 Encoding MP4 in the browser is memory-heavy. On phones, use the low-quality option.
