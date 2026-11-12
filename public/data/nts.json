@@ -1,6 +1,15 @@
 {
-  "syncedAt": "2026-11-10T16:14:29Z",
+  "syncedAt": "2026-11-12T16:39:44Z",
   "shows": [
+    {
+      "alias": "yu-su",
+      "name": "Yu Su",
+      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
+      "location": "Kaifeng",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/yu-su"
+    },
     {
       "alias": "music-4-lovers",
       "name": "Music 4 Lovers w/ Jabu & Andy Payback",
@@ -133,15 +142,6 @@
         "uk dance / grime"
       ],
       "url": "https://www.nts.live/shows/abby-imperial"
-    },
-    {
-      "alias": "yu-su",
-      "name": "Yu Su",
-      "description": "Kaifeng based DJ & producer Yu Su cooks up an hour of warm meanderings once a month.",
-      "location": "Kaifeng",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/906b9bbd-681e-46ea-b012-3b62077ad585_1574035200.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/yu-su"
     },
     {
       "alias": "sendspaace",
