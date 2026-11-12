@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1623,
- "syncedAt": "2026-11-11T15:58:00.668315Z",
+ "trackCount": 1625,
+ "syncedAt": "2026-11-12T16:40:38.692443Z",
  "tracks": [
+  {
+   "title": "I'm Not Your Regular Woman",
+   "artist": "Marta Ren",
+   "album": "I'm Not Your Regular Woman / Be Ma Fela",
+   "videoId": "77wzk2W9Maw",
+   "duration": "2:42"
+  },
+  {
+   "title": "Biased",
+   "artist": "DavidTheTragic",
+   "album": "bender 2",
+   "videoId": "jPHHXoM2gSU",
+   "duration": "1:51"
+  },
   {
    "title": "Mary Jane (All Night Long)",
    "artist": "Mary J. Blige",
@@ -7566,7 +7580,7 @@
   },
   {
    "title": "Sprinter",
-   "artist": "Dave;Central Cee",
+   "artist": "Santan Dave;Central Cee",
    "album": "Sprinter",
    "videoId": "TtSr-J-SYMw",
    "duration": "3:50"

@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
  "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
- "trackCount": 421,
- "syncedAt": "2026-11-11T15:58:00.668315Z",
+ "trackCount": 471,
+ "syncedAt": "2026-11-12T16:40:38.692443Z",
  "tracks": [
   {
    "title": "All The Stars (From \"Black Panther: The Album\")",
@@ -705,6 +705,20 @@
    "duration": "3:48"
   },
   {
+   "title": "Breathless",
+   "artist": "The Corrs",
+   "album": "In Blue",
+   "videoId": "z2Y_2mhFp5g",
+   "duration": "3:28"
+  },
+  {
+   "title": "You Rock My World",
+   "artist": "Michael Jackson",
+   "album": "Invincible",
+   "videoId": "MiE1inuK5tE",
+   "duration": "5:38"
+  },
+  {
    "title": "Superman (It's Not Easy)",
    "artist": "Five for Fighting",
    "album": "America Town",
@@ -719,6 +733,13 @@
    "duration": "4:24"
   },
   {
+   "title": "Holiday / Boulevard of Broken Dreams",
+   "artist": "Green Day",
+   "album": "American Idiot",
+   "videoId": "J0xe5DcnYSA",
+   "duration": "8:14"
+  },
+  {
    "title": "Irreplaceable",
    "artist": "Beyoncé",
    "album": "B'Day (Deluxe Edition)",
@@ -726,11 +747,46 @@
    "duration": "3:48"
   },
   {
+   "title": "In My Blood",
+   "artist": "Shawn Mendes",
+   "album": "Shawn Mendes",
+   "videoId": "oKIT0DkO-ac",
+   "duration": "3:32"
+  },
+  {
+   "title": "You Are Not Alone",
+   "artist": "Michael Jackson",
+   "album": "HIStory: PAST, PRESENT AND FUTURE, BOOK I",
+   "videoId": "02dMNQxwy48",
+   "duration": "5:46"
+  },
+  {
+   "title": "Mercy",
+   "artist": "Duffy",
+   "album": "Rockferry",
+   "videoId": "RSCnkhfSIjc",
+   "duration": "3:40"
+  },
+  {
    "title": "I Kissed A Girl",
    "artist": "Katy Perry",
    "album": "One Of The Boys",
    "videoId": "73KCIesGzXE",
    "duration": "3:00"
+  },
+  {
+   "title": "Haven't Met You Yet",
+   "artist": "Michael Bublé",
+   "album": "Crazy Love",
+   "videoId": "zS-_wGmn8jk",
+   "duration": "4:05"
+  },
+  {
+   "title": "Charlie Brown",
+   "artist": "Coldplay",
+   "album": "Mylo Xyloto",
+   "videoId": "JZwU974Qdf4",
+   "duration": "4:46"
   },
   {
    "title": "Say Something (feat. Chris Stapleton)",
@@ -745,6 +801,13 @@
    "album": "#1s ... and then some",
    "videoId": "QWt6KLjKlS4",
    "duration": "3:00"
+  },
+  {
+   "title": "One Sweet Day",
+   "artist": "Mariah Carey",
+   "album": "Daydream",
+   "videoId": "iU_pA3Ddjb0",
+   "duration": "4:42"
   },
   {
    "title": "Wide Open Spaces",
@@ -810,6 +873,20 @@
    "duration": "3:59"
   },
   {
+   "title": "Sitting, Waiting, Wishing",
+   "artist": "Jack Johnson",
+   "album": "In Between Dreams",
+   "videoId": "8chU09dsPWU",
+   "duration": "3:04"
+  },
+  {
+   "title": "Use Somebody",
+   "artist": "Kings Of Leon",
+   "album": "Only By The Night",
+   "videoId": "5xppdO2b2rc",
+   "duration": "3:51"
+  },
+  {
    "title": "Adorn",
    "artist": "Miguel",
    "album": "Kaleidoscope Dream",
@@ -824,11 +901,25 @@
    "duration": "4:07"
   },
   {
+   "title": "Speechless",
+   "artist": "Dan + Shay",
+   "album": "Dan + Shay",
+   "videoId": "UYFfWMVr03s",
+   "duration": "3:34"
+  },
+  {
    "title": "Walk",
    "artist": "Foo Fighters",
    "album": "Wasting Light",
    "videoId": "FQU0QOmwHFA",
    "duration": "4:16"
+  },
+  {
+   "title": "This Is America",
+   "artist": "Childish Gambino",
+   "album": "This Is America",
+   "videoId": "3P3w9Y50cxU",
+   "duration": "3:46"
   },
   {
    "title": "I Want It That Way",
@@ -838,11 +929,53 @@
    "duration": "3:34"
   },
   {
+   "title": "The House That Built Me",
+   "artist": "Miranda Lambert",
+   "album": "Revolution",
+   "videoId": "lkO31Zs4jBE",
+   "duration": "3:57"
+  },
+  {
    "title": "What's My Name? (feat. Drake)",
    "artist": "Rihanna",
    "album": "Loud",
    "videoId": "WvTOhYuWv0A",
    "duration": "4:24"
+  },
+  {
+   "title": "Brave",
+   "artist": "Sara Bareilles",
+   "album": "The Blessed Unrest",
+   "videoId": "tJYpZKU81lc",
+   "duration": "3:41"
+  },
+  {
+   "title": "Torn",
+   "artist": "Natalie Imbruglia",
+   "album": "Glorious: The Singles 97-07",
+   "videoId": "_vy_MhSFcbk",
+   "duration": "4:05"
+  },
+  {
+   "title": "Daughters",
+   "artist": "John Mayer",
+   "album": "Heavier Things",
+   "videoId": "4ZiEmUjeEoA",
+   "duration": "3:58"
+  },
+  {
+   "title": "Somethin' Bad (Duet with Carrie Underwood)",
+   "artist": "Miranda Lambert",
+   "album": "Platinum",
+   "videoId": "OCpNmMOwcFw",
+   "duration": "2:50"
+  },
+  {
+   "title": "Lips Are Movin",
+   "artist": "Meghan Trainor",
+   "album": "Title (Deluxe)",
+   "videoId": "wz_N6hXo5UY",
+   "duration": "3:03"
   },
   {
    "title": "Church Bells",
@@ -852,11 +985,32 @@
    "duration": "3:14"
   },
   {
+   "title": "All the Pretty Girls",
+   "artist": "Kenny Chesney",
+   "album": "Cosmic Hallelujah",
+   "videoId": "CnLkQ6i8Ws8",
+   "duration": "3:33"
+  },
+  {
    "title": "Criminal",
    "artist": "Fiona Apple",
    "album": "Tidal",
    "videoId": "yPEkzupLMMg",
    "duration": "5:42"
+  },
+  {
+   "title": "Girl All the Bad Guys Want",
+   "artist": "Bowling For Soup",
+   "album": "Drunk Enough To Dance",
+   "videoId": "LtdDuJJ6R-g",
+   "duration": "3:18"
+  },
+  {
+   "title": "Candyman",
+   "artist": "Christina Aguilera",
+   "album": "Back To Basics",
+   "videoId": "8vfY1Y369OE",
+   "duration": "3:15"
   },
   {
    "title": "Like A Star",
@@ -873,6 +1027,13 @@
    "duration": "4:11"
   },
   {
+   "title": "Peter Pan",
+   "artist": "Kelsea Ballerini",
+   "album": "The First Time: 10 Year Anniversary Edition",
+   "videoId": "mLg2W1BMeIg",
+   "duration": "3:21"
+  },
+  {
    "title": "Vice",
    "artist": "Miranda Lambert",
    "album": "The Weight of These Wings",
@@ -880,11 +1041,25 @@
    "duration": "4:01"
   },
   {
+   "title": "All You Wanted",
+   "artist": "Michelle Branch",
+   "album": "The Spirit Room",
+   "videoId": "DvUeCz12tNE",
+   "duration": "3:38"
+  },
+  {
    "title": "Heaven",
    "artist": "Los Lonely Boys",
    "album": "Los Lonely Boys",
    "videoId": "b3kSPhr7j4Y",
    "duration": "3:47"
+  },
+  {
+   "title": "Forget You",
+   "artist": "CeeLo Green",
+   "album": "The Lady Killer (Deluxe)",
+   "videoId": "l8gHZdtaUpw",
+   "duration": "3:43"
   },
   {
    "title": "Burning House",
@@ -901,6 +1076,20 @@
    "duration": "3:56"
   },
   {
+   "title": "Talk (feat. Disclosure)",
+   "artist": "Khalid",
+   "album": "Free Spirit",
+   "videoId": "tEpuiZm94OQ",
+   "duration": "3:18"
+  },
+  {
+   "title": "Ironic",
+   "artist": "Alanis Morissette",
+   "album": "The Collection",
+   "videoId": "H4bIXVTsJck",
+   "duration": "3:49"
+  },
+  {
    "title": "Everybody (Backstreet's Back) (Extended Version)",
    "artist": "Backstreet Boys",
    "album": "Backstreet Boys",
@@ -908,11 +1097,39 @@
    "duration": "4:48"
   },
   {
+   "title": "Jesus, Take the Wheel",
+   "artist": "Carrie Underwood",
+   "album": "Some Hearts",
+   "videoId": "nKBcp_GX2bI",
+   "duration": "3:47"
+  },
+  {
+   "title": "Save Room",
+   "artist": "John Legend",
+   "album": "Once Again",
+   "videoId": "4jOxhdELxHQ",
+   "duration": "3:56"
+  },
+  {
+   "title": "Ray of Light",
+   "artist": "Madonna",
+   "album": "Ray of Light",
+   "videoId": "OVPcEPTG5xE",
+   "duration": "5:22"
+  },
+  {
    "title": "Dance With My Father",
    "artist": "Luther Vandross",
    "album": "Dance With My Father",
    "videoId": "ZRKz3UX4E_4",
    "duration": "4:26"
+  },
+  {
+   "title": "Ain't No Other Man",
+   "artist": "Christina Aguilera",
+   "album": "Back To Basics",
+   "videoId": "dCdbRKznqrM",
+   "duration": "3:49"
   },
   {
    "title": "Whataya Want from Me",
@@ -929,6 +1146,41 @@
    "duration": "5:08"
   },
   {
+   "title": "Swimming Pools (Drank) (Extended Version)",
+   "artist": "Kendrick Lamar",
+   "album": "good kid, m.A.A.d. city",
+   "videoId": "cn1ShyT_tJY",
+   "duration": "5:14"
+  },
+  {
+   "title": "Ship To Wreck",
+   "artist": "Florence + The Machine",
+   "album": "How Big, How Blue, How Beautiful (Deluxe)",
+   "videoId": "tfExzSwb-Wc",
+   "duration": "3:55"
+  },
+  {
+   "title": "Harmony Hall",
+   "artist": "Vampire Weekend",
+   "album": "Father of the Bride",
+   "videoId": "0_BWvLB3UFk",
+   "duration": "5:09"
+  },
+  {
+   "title": "1979",
+   "artist": "Smashing Pumpkins",
+   "album": "Mellon Collie and the Infinite Sadness",
+   "videoId": "-ooKPtvKImw",
+   "duration": "4:27"
+  },
+  {
+   "title": "Pinch Me",
+   "artist": "Barenaked Ladies",
+   "album": "Maroon",
+   "videoId": "JcHvGwKNTX8",
+   "duration": "4:49"
+  },
+  {
    "title": "I Will Follow You into the Dark",
    "artist": "Death Cab for Cutie",
    "album": "Plans",
@@ -943,6 +1195,20 @@
    "duration": "4:17"
   },
   {
+   "title": "If I Die Young",
+   "artist": "The Band Perry",
+   "album": "The Band Perry",
+   "videoId": "Ti2KD2hWsSY",
+   "duration": "3:43"
+  },
+  {
+   "title": "Make Me Feel",
+   "artist": "Janelle Monáe",
+   "album": "Dirty Computer",
+   "videoId": "18k1LJX4DjA",
+   "duration": "3:15"
+  },
+  {
    "title": "Beautiful Trauma",
    "artist": "P!NK",
    "album": "Beautiful Trauma",
@@ -955,6 +1221,20 @@
    "album": "Music",
    "videoId": "A9EvnyhUZrA",
    "duration": "3:46"
+  },
+  {
+   "title": "You Raise Me Up",
+   "artist": "Josh Groban",
+   "album": "Closer",
+   "videoId": "6lHV_aSVGa0",
+   "duration": "4:53"
+  },
+  {
+   "title": "Fallin' For You",
+   "artist": "Colbie Caillat",
+   "album": "Will You Count Me In",
+   "videoId": "juQ4v5s35-Q",
+   "duration": "3:38"
   },
   {
    "title": "Body and Soul",
@@ -978,6 +1258,13 @@
    "duration": "4:00"
   },
   {
+   "title": "All About That Bass",
+   "artist": "Meghan Trainor",
+   "album": "Title (Deluxe)",
+   "videoId": "Fccz4gz5erM",
+   "duration": "3:08"
+  },
+  {
    "title": "Both Sides Now",
    "artist": "Joni Mitchell",
    "album": "Both Sides Now",
@@ -990,6 +1277,13 @@
    "album": "Something to Be",
    "videoId": "cg48698R0KA",
    "duration": "3:47"
+  },
+  {
+   "title": "The Joke",
+   "artist": "Brandi Carlile",
+   "album": "By the Way, I Forgive You",
+   "videoId": "m1TpOPbYDyE",
+   "duration": "4:40"
   },
   {
    "title": "Say My Name",
@@ -1006,6 +1300,13 @@
    "duration": "5:07"
   },
   {
+   "title": "Walk On",
+   "artist": "U2",
+   "album": "All That You Can't Leave Behind",
+   "videoId": "P3iMWI7wN1w",
+   "duration": "4:55"
+  },
+  {
    "title": "Where Are You Going",
    "artist": "Dave Matthews Band",
    "album": "Busted Stuff",
@@ -1018,6 +1319,13 @@
    "album": "Plans",
    "videoId": "TLccmc_69uI",
    "duration": "3:51"
+  },
+  {
+   "title": "Scary Monsters and Nice Sprites",
+   "artist": "Skrillex",
+   "album": "Scary Monsters and Nice Sprites EP",
+   "videoId": "DXGY5bXBzhg",
+   "duration": "4:04"
   },
   {
    "title": "Sugar",
@@ -1034,11 +1342,46 @@
    "duration": "4:14"
   },
   {
+   "title": "Truth Hurts",
+   "artist": "Lizzo",
+   "album": "Truth Hurts",
+   "videoId": "BzGrWlSKpCo",
+   "duration": "2:54"
+  },
+  {
    "title": "Sunny Came Home",
    "artist": "Shawn Colvin",
    "album": "A Few Small Repairs",
    "videoId": "x-zxsLYXeM0",
    "duration": "4:25"
+  },
+  {
+   "title": "Save Me",
+   "artist": "Aimee Mann",
+   "album": "Magnolia (Music from the Motion Picture)",
+   "videoId": "72fDsC2kX7g",
+   "duration": "4:35"
+  },
+  {
+   "title": "How You Remind Me",
+   "artist": "Nickelback",
+   "album": "The Best of Nickelback, Vol. 1",
+   "videoId": "hhSLkkLl750",
+   "duration": "3:45"
+  },
+  {
+   "title": "Girlfriend",
+   "artist": "*NSYNC",
+   "album": "Celebrity",
+   "videoId": "mQBrxzoSF8k",
+   "duration": "4:14"
+  },
+  {
+   "title": "Need U Bad",
+   "artist": "Jazmine Sullivan",
+   "album": "Fearless",
+   "videoId": "N8yvqlp3nH8",
+   "duration": "4:18"
   },
   {
    "title": "Hard Place",
@@ -1053,6 +1396,13 @@
    "album": "Brand New Day",
    "videoId": "vBmV3BCQv6E",
    "duration": "6:20"
+  },
+  {
+   "title": "If Everyone Cared",
+   "artist": "Nickelback",
+   "album": "All the Right Reasons",
+   "videoId": "6iYccyMuD-g",
+   "duration": "3:39"
   },
   {
    "title": "Highway Don't Care (feat. Taylor Swift & Keith Urban)",

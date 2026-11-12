@@ -1,9 +1,57 @@
 {
  "account": "Pyaar Radio",
- "albumCount": 3687,
- "totalTracks": 46603,
- "syncedAt": "2026-11-11T15:57:57.390114Z",
+ "albumCount": 3693,
+ "totalTracks": 46666,
+ "syncedAt": "2026-11-12T16:40:30.359945Z",
  "albums": [
+  {
+   "browseId": "MPREb_uWnz1INhzJl",
+   "title": "((( 2 )))",
+   "artist": "((( O )))",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_toBCfi2p52v",
+   "title": "((( 1 )))",
+   "artist": "((( O )))",
+   "trackCount": 12
+  },
+  {
+   "browseId": "MPREb_gMQaFgI1uZB",
+   "title": "angel in realtime.",
+   "artist": "Gang of Youths",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_lQ2l8ltRp7e",
+   "title": "Go Farther In Lightness",
+   "artist": "Gang of Youths",
+   "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_D4y55GgVqte",
+   "title": "Japanese Ambient, Environmental & New Age Music 1980-1990",
+   "artist": "Kankyō Ongaku",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_3hVnwiCQ8yU",
+   "title": "Music for Nine Post Cards",
+   "artist": "Hiroshi Yoshimura",
+   "trackCount": 9
+  },
+  {
+   "browseId": "MPREb_TjkbmXtSABB",
+   "title": "Organic Music Society",
+   "artist": "Don Cherry",
+   "trackCount": 13
+  },
+  {
+   "browseId": "MPREb_vfyCkHe4NJp",
+   "title": "Verses GT",
+   "artist": "Verses GT",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_fso2aAsGmXv",
    "title": "GENESIS FM",
@@ -5255,6 +5303,12 @@
    "trackCount": 5
   },
   {
+   "browseId": "MPREb_ANWwSYGHoSv",
+   "title": "ALL YOU NEED IS TIME",
+   "artist": "TRANSMISSION SOUND SYSTEM",
+   "trackCount": 7
+  },
+  {
    "browseId": "MPREb_EmzExvPFPgU",
    "title": "ADL",
    "artist": "Yeat",
@@ -5343,12 +5397,6 @@
    "title": "Black Loyalist",
    "artist": "Shabaka",
    "trackCount": 31
-  },
-  {
-   "browseId": "MPREb_rz65KCvIx6u",
-   "title": "Sunset Man",
-   "artist": "Coki",
-   "trackCount": 10
   },
   {
    "browseId": "MPREb_6wufVnfhGuG",
@@ -9665,12 +9713,6 @@
    "trackCount": 18
   },
   {
-   "browseId": "MPREb_aUWg0Wlr7cG",
-   "title": "To This Union a Sun Was Born (Deluxe Edition)",
-   "artist": "Substantial",
-   "trackCount": 16
-  },
-  {
    "browseId": "MPREb_kvF2OjEx8UG",
    "title": "Black Panther The Album Music From And Inspired By",
    "artist": "Kendrick Lamar",
@@ -11247,12 +11289,6 @@
    "title": "A Museum Of Contradiction",
    "artist": "Mk.gee",
    "trackCount": 9
-  },
-  {
-   "browseId": "MPREb_receVaztLgx",
-   "title": "Squidtastic",
-   "artist": "SahBabii",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_eUMdKavLaNl",

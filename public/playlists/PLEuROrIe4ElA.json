@@ -2,7 +2,7 @@
  "playlistId": "PLEuROrIe4ElA",
  "title": "[sync][Nina Kraviz]",
  "trackCount": 1989,
- "syncedAt": "2026-11-11T15:58:00.668315Z",
+ "syncedAt": "2026-11-12T16:40:38.692443Z",
  "tracks": [
   {
    "title": "000.1",
@@ -727,8 +727,8 @@
   },
   {
    "title": "animozja",
-   "artist": "Praecox - Topic",
-   "album": "",
+   "artist": "Praecox",
+   "album": "prima sort",
    "videoId": "RKoLmP2ZDRA",
    "duration": "6:19"
   },
@@ -860,8 +860,8 @@
   },
   {
    "title": "Arctic Cat",
-   "artist": "Push - Topic",
-   "album": "",
+   "artist": "Tribal Warriors",
+   "album": "Arctic Cat",
    "videoId": "J-cWct1VwMk",
    "duration": "9:51"
   },
@@ -1028,8 +1028,8 @@
   },
   {
    "title": "Autumn Leaves I",
-   "artist": "Wladimir M. - Topic",
-   "album": "",
+   "artist": "Wladimir M.",
+   "album": "Leaves Fallin' Recklessly",
    "videoId": "NsQNzx2vE7k",
    "duration": "0:16"
   },
@@ -1042,15 +1042,15 @@
   },
   {
    "title": "Avant-Après Mars",
-   "artist": "Liaisons Dangereuses - Topic",
-   "album": "",
+   "artist": "Liaisons Dangereuses",
+   "album": "Liaisons Dangereuses",
    "videoId": "-Xk_ixYlJIE",
    "duration": "3:49"
   },
   {
    "title": "Axexo Ultimo",
-   "artist": "Golden Virgo - Topic",
-   "album": "",
+   "artist": "Golden Virgo",
+   "album": "hot steel",
    "videoId": "5cY4mnVqoBI",
    "duration": "5:48"
   },
@@ -1091,8 +1091,8 @@
   },
   {
    "title": "B True 2 Your Skool (DJ ESP 1996 Edit)",
-   "artist": "DJ Apollo - Topic",
-   "album": "",
+   "artist": "DJ Apollo",
+   "album": "B True 2 Your Skool Remixes",
    "videoId": "KJqIfy7d_5k",
    "duration": "3:48"
   },
@@ -1112,8 +1112,8 @@
   },
   {
    "title": "Back To Birmingham",
-   "artist": "Tensal - Topic",
-   "album": "",
+   "artist": "Tensal",
+   "album": "The Dark Welcome",
    "videoId": "7gPfH2M4ULU",
    "duration": "5:58"
   },
@@ -1133,8 +1133,8 @@
   },
   {
    "title": "Back To House (Ian Pooley's Main Mix)",
-   "artist": "Jovonn - Topic",
-   "album": "",
+   "artist": "Jovonn",
+   "album": "Back To House",
    "videoId": "kVoEonZOEZk",
    "duration": "7:20"
   },
@@ -1251,9 +1251,9 @@
    "duration": "6:09"
   },
   {
-   "title": "Barracuda (Original)",
-   "artist": "David Löhlein - Topic",
-   "album": "",
+   "title": "Barracuda",
+   "artist": "David Löhlein",
+   "album": "Barracuda EP",
    "videoId": "lRAOpWNFPJQ",
    "duration": "6:27"
   },
@@ -1385,8 +1385,8 @@
   },
   {
    "title": "Halogen Continues (Behind)",
-   "artist": "Biogen - Topic",
-   "album": "",
+   "artist": "Biogen",
+   "album": "Selected Works",
    "videoId": "OTWqfk-0mRU",
    "duration": "6:16"
   },

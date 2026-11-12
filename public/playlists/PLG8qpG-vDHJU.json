@@ -1,8 +1,8 @@
 {
  "playlistId": "PLG8qpG-vDHJU",
  "title": "001 in the living room",
- "trackCount": 16,
- "syncedAt": "2026-11-11T15:58:00.668315Z",
+ "trackCount": 27,
+ "syncedAt": "2026-11-12T16:40:38.692443Z",
  "tracks": [
   {
    "title": "Tonight",
@@ -115,6 +115,83 @@
    "album": "2",
    "videoId": "H9rPVLG71Ac",
    "duration": "3:16"
+  },
+  {
+   "title": "The First Time Ever I Saw Your Face",
+   "artist": "Bert Jansch",
+   "album": "Jack Orion",
+   "videoId": "auG8lldv_qE",
+   "duration": "1:46"
+  },
+  {
+   "title": "Blue & Green",
+   "artist": "Purser",
+   "album": "Blue & Green",
+   "videoId": "UagmORH1VW4",
+   "duration": "9:06"
+  },
+  {
+   "title": "Partly Get By",
+   "artist": "Horse Vision",
+   "album": "Partly Get By",
+   "videoId": "CMcffdmrm5g",
+   "duration": "2:57"
+  },
+  {
+   "title": "Vaporware 01",
+   "artist": "Donato Dozzy",
+   "album": "Plays Bee Mask",
+   "videoId": "Bx492SGTEJg",
+   "duration": "5:50"
+  },
+  {
+   "title": "This Can't Be Real",
+   "artist": "Gil Scott-Heron;Makaya McCraven",
+   "album": "We're New Again - A Reimagining by Makaya McCraven",
+   "videoId": "zHUW2X-de24",
+   "duration": "1:30"
+  },
+  {
+   "title": "The Meaning of Love",
+   "artist": "Karin Krog",
+   "album": "We Could Be Flying",
+   "videoId": "PiHP4ujIt_s",
+   "duration": "5:08"
+  },
+  {
+   "title": "Seagulls",
+   "artist": "Tom Misch;Yussef Dayes",
+   "album": "What Kinda Music (Bonus Tracks)",
+   "videoId": "8FlG0OTGRT0",
+   "duration": "1:31"
+  },
+  {
+   "title": "Red Clay",
+   "artist": "Jack Wilkins",
+   "album": "Windows",
+   "videoId": "D9W7hB7lGN0",
+   "duration": "4:59"
+  },
+  {
+   "title": "Theme From King Heroin",
+   "artist": "The J.B.'s",
+   "album": "Food For Thought",
+   "videoId": "qEGlJYe5P08",
+   "duration": "3:08"
+  },
+  {
+   "title": "Standing In The Doorway",
+   "artist": "Sam Wilkes;Craig Weinrib;Dylan Day",
+   "album": "Sam Wilkes, Craig Weinrib, and Dylan Day",
+   "videoId": "McYgp-zig5Q",
+   "duration": "5:42"
+  },
+  {
+   "title": "Can't Find My Way Home",
+   "artist": "Ellen McIlwaine",
+   "album": "Up From The Skies: The Polydor Years",
+   "videoId": "yZoK-j-hKKQ",
+   "duration": "3:40"
   }
  ]
 }

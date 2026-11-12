@@ -1,13 +1,48 @@
 {
  "account": "Pyaar Radio",
- "playlistCount": 341,
- "totalTracks": 111673,
- "syncedAt": "2026-11-11T15:58:00.668315Z",
+ "playlistCount": 344,
+ "totalTracks": 111896,
+ "syncedAt": "2026-11-12T16:40:38.692443Z",
  "playlists": [
+  {
+   "playlistId": "PLHIUKme9umic",
+   "title": "001 ambient at maria hernandez",
+   "trackCount": 5
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
+   "title": "Intros/Interludes/Loops/Waves/Fillers",
+   "trackCount": 34
+  },
+  {
+   "playlistId": "PLC6KlEzkJR4Q",
+   "title": "sundrop whole",
+   "trackCount": 60
+  },
+  {
+   "playlistId": "PLS3nLk6Dv00s",
+   "title": "001 double",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PLG8qpG-vDHJU",
+   "title": "001 in the living room",
+   "trackCount": 27
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1623
+   "trackCount": 1625
+  },
+  {
+   "playlistId": "PLBwo9IQKOV3U",
+   "title": "Nov 26",
+   "trackCount": 13
+  },
+  {
+   "playlistId": "PLYZ72wkCTL2A",
+   "title": "Z263 - There's Something About Mary (Trivia Music Round)",
+   "trackCount": 32
   },
   {
    "playlistId": "PLT0eQ8EzxiUY",
@@ -15,24 +50,9 @@
    "trackCount": 35
   },
   {
-   "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
-   "title": "Intros/Interludes/Loops/Waves/Fillers",
-   "trackCount": 33
-  },
-  {
-   "playlistId": "PLBwo9IQKOV3U",
-   "title": "Nov 26",
-   "trackCount": 6
-  },
-  {
    "playlistId": "PLX1QUsvO4_Ks",
    "title": "001 pando",
    "trackCount": 2
-  },
-  {
-   "playlistId": "PLS3nLk6Dv00s",
-   "title": "001 double",
-   "trackCount": 26
   },
   {
    "playlistId": "PLSay2Tj5iY9Q",
@@ -260,11 +280,6 @@
    "trackCount": 61
   },
   {
-   "playlistId": "PLG8qpG-vDHJU",
-   "title": "001 in the living room",
-   "trackCount": 16
-  },
-  {
    "playlistId": "PLPVuU0Y_h_GA",
    "title": "Sept 26",
    "trackCount": 47
@@ -477,7 +492,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0m6Nv0mwNhCrHh8qqCA5w9",
    "title": "Grammy Nominees Records 1995-2020 ordered by decreasing popularity",
-   "trackCount": 421
+   "trackCount": 471
   },
   {
    "playlistId": "PL6LTKg9AoNs2D8KDNMOUDjRYMkFrBCCwC",
@@ -1052,7 +1067,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
    "title": "Cumulative",
-   "trackCount": 2919
+   "trackCount": 2969
   },
   {
    "playlistId": "PL6LTKg9AoNs1uIq48E1VixfrQxRAyB-q_",
