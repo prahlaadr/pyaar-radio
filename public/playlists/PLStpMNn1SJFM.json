@@ -2,7 +2,7 @@
  "playlistId": "PLStpMNn1SJFM",
  "title": "[sync][Four Tet]",
  "trackCount": 4898,
- "syncedAt": "2026-11-12T16:40:38.692443Z",
+ "syncedAt": "2026-11-13T16:00:55.769328Z",
  "tracks": [
   {
    "title": "003.1",
@@ -28790,8 +28790,8 @@
   },
   {
    "title": "Nothing Left To Lose (Four Tet Remix)",
-   "artist": "Everything But The Girl - Topic",
-   "album": "",
+   "artist": "Everything But The Girl",
+   "album": "Nothing Left To Lose (Remixes)",
    "videoId": "VIAf_7RPXm4",
    "duration": "4:34"
   },
@@ -28944,8 +28944,8 @@
   },
   {
    "title": "Three Times",
-   "artist": "Downstairs J - Topic",
-   "album": "",
+   "artist": "downstairs J",
+   "album": "basement, etc...",
    "videoId": "2crfeVEwJJQ",
    "duration": "3:54"
   },
@@ -28986,8 +28986,8 @@
   },
   {
    "title": "I'm Dancing",
-   "artist": "Shabason & Krgovich - Topic",
-   "album": "",
+   "artist": "Shabason & Krgovich;Joseph Shabason;Nicholas Krgovich",
+   "album": "At Scaramouche",
    "videoId": "O7e8N3l9t2U",
    "duration": "5:32"
   },
@@ -29028,8 +29028,8 @@
   },
   {
    "title": "Bias (Mayfield Depot Mix)",
-   "artist": "Floating Points - Topic",
-   "album": "",
+   "artist": "Floating Points",
+   "album": "Bias",
    "videoId": "721OccvKBHQ",
    "duration": "10:43"
   },
@@ -29105,8 +29105,8 @@
   },
   {
    "title": "Jandira",
-   "artist": "Luiz Henrique - Topic",
-   "album": "",
+   "artist": "Luiz Henrique",
+   "album": "Mestiço",
    "videoId": "mnCDfdlhoHM",
    "duration": "5:27"
   },
@@ -29126,15 +29126,15 @@
   },
   {
    "title": "Sanctuary 6",
-   "artist": "Dusqk - Topic",
-   "album": "",
+   "artist": "Dusqk",
+   "album": "Sanctuary OS",
    "videoId": "rCjOBuk5x5k",
    "duration": "2:53"
   },
   {
    "title": "Sanctuary 9",
-   "artist": "Dusqk - Topic",
-   "album": "",
+   "artist": "Dusqk",
+   "album": "Sanctuary OS",
    "videoId": "b-ZyFKrmVM8",
    "duration": "4:01"
   },
@@ -29161,8 +29161,8 @@
   },
   {
    "title": "Infinite Us",
-   "artist": "Machinedrum - Topic",
-   "album": "",
+   "artist": "Machinedrum",
+   "album": "Vapor City",
    "videoId": "gU5bb4aCoho",
    "duration": "7:12"
   },
@@ -29175,8 +29175,8 @@
   },
   {
    "title": "Rukhsana",
-   "artist": "Hiro Kone - Topic",
-   "album": "",
+   "artist": "Hiro Kone",
+   "album": "Love Is the Capital",
    "videoId": "PeVjxEDbo3U",
    "duration": "3:57"
   },
@@ -29343,8 +29343,8 @@
   },
   {
    "title": "Sanctuary 3",
-   "artist": "Dusqk - Topic",
-   "album": "",
+   "artist": "Dusqk",
+   "album": "Sanctuary OS",
    "videoId": "ZBamLiiJfZ8",
    "duration": "3:23"
   },
