@@ -1,8 +1,8 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3683,
- "totalTracks": 46552,
- "syncedAt": "2026-11-13T16:00:52.594413Z",
+ "albumCount": 3693,
+ "totalTracks": 46666,
+ "syncedAt": "2026-11-14T14:51:58.673255Z",
  "albums": [
   {
    "browseId": "MPREb_uWnz1INhzJl",
@@ -5301,6 +5301,12 @@
    "title": "Cuba - EP",
    "artist": "Rhythms Del Mundo",
    "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_ANWwSYGHoSv",
+   "title": "ALL YOU NEED IS TIME",
+   "artist": "TRANSMISSION SOUND SYSTEM",
+   "trackCount": 7
   },
   {
    "browseId": "MPREb_EmzExvPFPgU",
@@ -11753,10 +11759,22 @@
    "trackCount": 11
   },
   {
+   "browseId": "MPREb_0NhvI0ABJM9",
+   "title": "(Not) a Tragedy",
+   "artist": "lameli",
+   "trackCount": 1
+  },
+  {
    "browseId": "MPREb_5fTpp2gAcV9",
    "title": "I NEVER LIKED YOU",
    "artist": "Future",
    "trackCount": 16
+  },
+  {
+   "browseId": "MPREb_4YlmE5d95Ts",
+   "title": "Fuck Yo Feelings",
+   "artist": "Robert Glasper",
+   "trackCount": 19
   },
   {
    "browseId": "MPREb_LNgc6FsXwWk",
@@ -11793,6 +11811,12 @@
    "title": "Based On A Feeling",
    "artist": "Sabrina Claudio",
    "trackCount": 11
+  },
+  {
+   "browseId": "MPREb_1aZq5QuUBRW",
+   "title": "Original Jazz Sound: Workin' With the... - 1956",
+   "artist": "Miles Davis",
+   "trackCount": 8
   },
   {
    "browseId": "MPREb_A9zCMcKaLUO",
@@ -11837,10 +11861,22 @@
    "trackCount": 23
   },
   {
+   "browseId": "MPREb_0AotwDLB0CX",
+   "title": "Sen Am",
+   "artist": "Duval Timothy",
+   "trackCount": 11
+  },
+  {
    "browseId": "MPREb_aErOpfa176y",
    "title": "2 Sim",
    "artist": "Duval Timothy",
    "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_1Xjf214SdV1",
+   "title": "The Marshall Mathers LP",
+   "artist": "Eminem",
+   "trackCount": 18
   },
   {
    "browseId": "MPREb_gpAFifMPSDn",
@@ -11859,6 +11895,12 @@
    "title": "Spiritual State",
    "artist": "Nujabes",
    "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_1xkMmpFm18H",
+   "title": "Mr. Wonderful",
+   "artist": "Action Bronson",
+   "trackCount": 13
   },
   {
    "browseId": "MPREb_tOoDridyGGV",
@@ -11897,10 +11939,22 @@
    "trackCount": 16
   },
   {
+   "browseId": "MPREb_3oAPUD7PGIL",
+   "title": "Mama's Gun",
+   "artist": "Erykah Badu",
+   "trackCount": 14
+  },
+  {
    "browseId": "MPREb_tbzRu8FtmB3",
    "title": "Under These Streets",
    "artist": "Emma Donovan",
    "trackCount": 8
+  },
+  {
+   "browseId": "MPREb_18YMpxyIugf",
+   "title": "Crossover",
+   "artist": "Emma Donovan",
+   "trackCount": 9
   },
   {
    "browseId": "MPREb_InVoVT5iWBF",
@@ -11918,6 +11972,12 @@
    "browseId": "MPREb_KBYnfiYo6Ek",
    "title": "Unapologetic",
    "artist": "Rihanna",
+   "trackCount": 14
+  },
+  {
+   "browseId": "MPREb_5B7Ey9PNjYa",
+   "title": "Honestly, Nevermind",
+   "artist": "Drake",
    "trackCount": 14
   },
   {
