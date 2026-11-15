@@ -1,9 +1,51 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1625,
- "syncedAt": "2026-11-14T14:52:05.997142Z",
+ "trackCount": 1627,
+ "syncedAt": "2026-11-15T15:28:00.892499Z",
  "tracks": [
+  {
+   "title": "Serotonin Moonbeams",
+   "artist": "The Blessed Madonna;Uffie",
+   "album": "Godspeed",
+   "videoId": "FJ6ETjULqYs",
+   "duration": "4:48"
+  },
+  {
+   "title": "Bigger Boys and Stolen Sweethearts",
+   "artist": "Arctic Monkeys",
+   "album": "I Bet You Look Good On The Dancefloor",
+   "videoId": "vtmVhEd9teM",
+   "duration": "2:59"
+  },
+  {
+   "title": "Lose My Mind (feat. Mr Gabriel)",
+   "artist": "Jai Wolf",
+   "album": "Lose My Mind / Telepathy",
+   "videoId": "D-4WG0FmwzA",
+   "duration": "4:19"
+  },
+  {
+   "title": "Love It If We Made It",
+   "artist": "The 1975",
+   "album": "A Brief Inquiry Into Online Relationships",
+   "videoId": "-Wxt5MAQ5v4",
+   "duration": "4:13"
+  },
+  {
+   "title": "N Side",
+   "artist": "Steve Lacy",
+   "album": "Apollo XXI",
+   "videoId": "Rl_uEV_3dDs",
+   "duration": "3:45"
+  },
+  {
+   "title": "Spell It Out",
+   "artist": "Toro y Moi",
+   "album": "What For?",
+   "videoId": "B8i-HLT9Ygc",
+   "duration": "2:55"
+  },
   {
    "title": "I'm Not Your Regular Woman",
    "artist": "Marta Ren",
@@ -1636,18 +1678,11 @@
    "duration": "2:51"
   },
   {
-   "title": "Mr. Sun (Miss da Sun)",
+   "title": "Mr. Sun (miss da sun)",
    "artist": "Greentea Peng",
-   "album": "",
-   "videoId": "y_DDqg1A8lw",
-   "duration": "3:48"
-  },
-  {
-   "title": "Picture in My Mind",
-   "artist": "Sam Gellaitry;PinkPantheress",
-   "album": "",
-   "videoId": "SIHS1lLzqOo",
-   "duration": "3:01"
+   "album": "Mr. Sun (miss da sun)",
+   "videoId": "tdmptWMMnZc",
+   "duration": "3:44"
   },
   {
    "title": "Sweet Life",
@@ -1725,13 +1760,6 @@
    "album": "Rebel Yell",
    "videoId": "e7U1YZNgwnY",
    "duration": "5:00"
-  },
-  {
-   "title": "Ordinary Feelings",
-   "artist": "Mack Keane",
-   "album": "Ordinary Feelings",
-   "videoId": "3hO2Y4q0Q98",
-   "duration": "3:55"
   },
   {
    "title": "Nobody",
@@ -1832,13 +1860,6 @@
    "duration": "2:18"
   },
   {
-   "title": "Black or White",
-   "artist": "Michael Jackson",
-   "album": "Dangerous",
-   "videoId": "m-y_IxPcx8U",
-   "duration": "4:15"
-  },
-  {
    "title": "Animaru",
    "artist": "Mei Semones",
    "album": "Animaru",
@@ -1928,13 +1949,6 @@
    "album": "Whatever People Say I Am, That's What I'm Not",
    "videoId": "dO368WjwyFs",
    "duration": "2:56"
-  },
-  {
-   "title": "Feels Like Summer",
-   "artist": "Childish Gambino",
-   "album": "Summer Pack",
-   "videoId": "mZVO1CubDIo",
-   "duration": "4:58"
   },
   {
    "title": "My Kind of Woman",

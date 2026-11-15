@@ -2,7 +2,7 @@
  "playlistId": "PLXOmvhiqvlgk",
  "title": "[sync][Sam Gellaitry]",
  "trackCount": 43,
- "syncedAt": "2026-11-14T14:52:05.997142Z",
+ "syncedAt": "2026-11-15T15:28:00.892499Z",
  "tracks": [
   {
    "title": "I Feel",
@@ -27,15 +27,15 @@
   },
   {
    "title": "Be Your Girl Re-Swing",
-   "artist": "DJ Static",
-   "album": "The Re-Swing Factor Vol.2",
+   "artist": "DJ Static - Topic",
+   "album": "",
    "videoId": "dCkJ4lfg95Q",
    "duration": "3:41"
   },
   {
    "title": "Blanche",
-   "artist": "Neue Grafik",
-   "album": "Pris",
+   "artist": "Neue Grafik - Topic",
+   "album": "",
    "videoId": "Rsfgk7fPVko",
    "duration": "5:46"
   },
@@ -43,13 +43,13 @@
    "title": "Boogaloo Blues",
    "artist": "Temu",
    "album": "Time Log, Vol. 1 (1999-2014)",
-   "videoId": "pZTU_-_aoNs",
+   "videoId": "HgTD3OrekIM",
    "duration": "4:39"
   },
   {
    "title": "Come Thru",
-   "artist": "Drake",
-   "album": "Nothing Was The Same (Deluxe)",
+   "artist": "Drake - Topic",
+   "album": "",
    "videoId": "-HLGCKkDoPw",
    "duration": "3:57"
   },
@@ -132,8 +132,8 @@
   },
   {
    "title": "HARD",
-   "artist": "SOPHIE",
-   "album": "HARD",
+   "artist": "SOPHIE - Topic",
+   "album": "",
    "videoId": "DFGHtpKDbWg",
    "duration": "2:55"
   },
@@ -188,22 +188,22 @@
   },
   {
    "title": "Strange Mercy",
-   "artist": "St. Vincent",
-   "album": "Strange Mercy",
+   "artist": "St. Vincent - Topic",
+   "album": "",
    "videoId": "vDGmAJ4-J_I",
    "duration": "4:29"
   },
   {
    "title": "Perfect Love (New Love Remix)",
-   "artist": "Todd Edwards",
-   "album": "New Trends Sounds 2004 (Part 1)",
+   "artist": "Todd Edwards - Topic",
+   "album": "",
    "videoId": "cZ4_Hh8Y2A4",
    "duration": "6:07"
   },
   {
    "title": "Proper Education (Radio Edit)",
-   "artist": "Eric Prydz;Floyd",
-   "album": "Proper Education - EP",
+   "artist": "Eric Prydz - Topic",
+   "album": "",
    "videoId": "p1mQp5oxtJI",
    "duration": "3:19"
   },
@@ -272,15 +272,15 @@
   },
   {
    "title": "Whip You With A Strap",
-   "artist": "Ghostface Killah",
-   "album": "Fishscale (Expanded Edition)",
+   "artist": "Ghostface Killah - Topic",
+   "album": "",
    "videoId": "ahnUPBogOKM",
    "duration": "2:52"
   },
   {
    "title": "Who I Am",
-   "artist": "Toro y Moi",
-   "album": "Outer Peace",
+   "artist": "Toro Y Moi - Topic",
+   "album": "",
    "videoId": "XOe-Nw2xLKk",
    "duration": "3:29"
   },
@@ -300,8 +300,8 @@
   },
   {
    "title": "You That Guy Who Tells",
-   "artist": "Jaw Jam",
-   "album": "Uncharted Territories Vol. 1",
+   "artist": "Jaw Jam - Topic",
+   "album": "",
    "videoId": "VreZRVAgJsU",
    "duration": "4:15"
   }

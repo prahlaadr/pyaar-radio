@@ -1,18 +1,43 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 344,
- "totalTracks": 111897,
- "syncedAt": "2026-11-14T14:52:05.997142Z",
+ "playlistCount": 346,
+ "totalTracks": 111922,
+ "syncedAt": "2026-11-15T15:28:00.892499Z",
  "playlists": [
+  {
+   "playlistId": "PLHIUKme9umic",
+   "title": "001 ambient at maria hernandez",
+   "trackCount": 25
+  },
+  {
+   "playlistId": "PLS3nLk6Dv00s",
+   "title": "001 double",
+   "trackCount": 87
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1627
+  },
+  {
+   "playlistId": "PLBwo9IQKOV3U",
+   "title": "Nov 26",
+   "trackCount": 17
+  },
+  {
+   "playlistId": "PLZ85-3ZydCf4",
+   "title": "001 dance at Maria Hernandez",
+   "trackCount": 3
+  },
+  {
+   "playlistId": "PLOLse_U6HeiI",
+   "title": "001 mood ring",
+   "trackCount": 1
+  },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
    "title": "Intros/Interludes/Loops/Waves/Fillers",
    "trackCount": 35
-  },
-  {
-   "playlistId": "PLHIUKme9umic",
-   "title": "001 ambient at maria hernandez",
-   "trackCount": 5
   },
   {
    "playlistId": "PLC6KlEzkJR4Q",
@@ -20,24 +45,9 @@
    "trackCount": 60
   },
   {
-   "playlistId": "PLS3nLk6Dv00s",
-   "title": "001 double",
-   "trackCount": 31
-  },
-  {
    "playlistId": "PLG8qpG-vDHJU",
    "title": "001 in the living room",
    "trackCount": 27
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1625
-  },
-  {
-   "playlistId": "PLBwo9IQKOV3U",
-   "title": "Nov 26",
-   "trackCount": 13
   },
   {
    "playlistId": "PLYZ72wkCTL2A",
@@ -467,7 +477,7 @@
   {
    "playlistId": "PLKvjOOfELYNc",
    "title": "Jazz Soul Samples",
-   "trackCount": 856
+   "trackCount": 806
   },
   {
    "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
@@ -742,7 +752,7 @@
   {
    "playlistId": "PL6LTKg9AoNs3dRd-BORPaLOQCa4iKOOX0",
    "title": "finger guns (headbang, hype bass, hype ukg) (goated) [pyaar radio]",
-   "trackCount": 15
+   "trackCount": 14
   },
   {
    "playlistId": "PL6LTKg9AoNs0kjksyRNPxfxiHbRhBjKbv",
@@ -1057,7 +1067,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
    "title": "June 24",
-   "trackCount": 115
+   "trackCount": 110
   },
   {
    "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
@@ -1367,7 +1377,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
    "title": "Relaxing",
-   "trackCount": 3089
+   "trackCount": 3084
   },
   {
    "playlistId": "PL6LTKg9AoNs05NmeGU1DFT-A90YhqNiDD",

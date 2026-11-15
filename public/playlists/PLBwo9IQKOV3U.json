@@ -1,8 +1,8 @@
 {
  "playlistId": "PLBwo9IQKOV3U",
  "title": "Nov 26",
- "trackCount": 13,
- "syncedAt": "2026-11-14T14:52:05.997142Z",
+ "trackCount": 17,
+ "syncedAt": "2026-11-15T15:28:00.892499Z",
  "tracks": [
   {
    "title": "boy",
@@ -94,6 +94,34 @@
    "album": "Key to Love (Is Understanding)",
    "videoId": "5JQPmH3qcys",
    "duration": "5:55"
+  },
+  {
+   "title": "Dancing on Manhattan",
+   "artist": "Marcos Cabral",
+   "album": "Music for Shut-Ins",
+   "videoId": "PKb9pbDAh8Y",
+   "duration": "12:03"
+  },
+  {
+   "title": "The Escapist",
+   "artist": "Alfie",
+   "album": "Plastic Entertainment EP",
+   "videoId": "u2dl9K3llcg",
+   "duration": "6:05"
+  },
+  {
+   "title": "Joe-Pye Weed",
+   "artist": "Wildflower Restoration Project",
+   "album": "Brooklyn Botanic Garden",
+   "videoId": "L98Wkv3ePHI",
+   "duration": "1:34"
+  },
+  {
+   "title": "Embark",
+   "artist": "Sam Gellaitry",
+   "album": "Viewfinder Vol. 1: PHOSPHENE",
+   "videoId": "NsvIKlBfgCQ",
+   "duration": "5:26"
   }
  ]
 }

@@ -1,9 +1,27 @@
 {
  "account": "Pyaar.Records",
  "albumCount": 3693,
- "totalTracks": 46666,
- "syncedAt": "2026-11-14T14:51:58.673255Z",
+ "totalTracks": 46636,
+ "syncedAt": "2026-11-15T15:27:57.203517Z",
  "albums": [
+  {
+   "browseId": "MPREb_jbkAOqvPpIS",
+   "title": "Brooklyn Botanic Garden (feat. zonk)",
+   "artist": "Wildflower Restoration Project",
+   "trackCount": 4
+  },
+  {
+   "browseId": "MPREb_IEvRWr4KJhz",
+   "title": "Wilder Gulch Trail (feat. zonk)",
+   "artist": "Wildflower Restoration Project",
+   "trackCount": 5
+  },
+  {
+   "browseId": "MPREb_0Y4OW5IYRjh",
+   "title": "Picking Up Where I Left Off",
+   "artist": "Andrew Applepie",
+   "trackCount": 7
+  },
   {
    "browseId": "MPREb_uWnz1INhzJl",
    "title": "((( 2 )))",
@@ -6305,12 +6323,6 @@
    "trackCount": 32
   },
   {
-   "browseId": "MPREb_R3ry01PadLu",
-   "title": "Kei Nishikori meets Nujabes",
-   "artist": "Nujabes",
-   "trackCount": 17
-  },
-  {
    "browseId": "MPREb_omOY07YuxLy",
    "title": "Tere Liye",
    "artist": "Nanku",
@@ -11849,12 +11861,6 @@
    "trackCount": 16
   },
   {
-   "browseId": "MPREb_h5m1Uq77nmr",
-   "title": "Metaphorical Music",
-   "artist": "Nujabes",
-   "trackCount": 15
-  },
-  {
    "browseId": "MPREb_NMmY1n1NJFS",
    "title": "Un Verano Sin Ti",
    "artist": "Bad Bunny",
@@ -11889,12 +11895,6 @@
    "title": "Tempo dos Mestres",
    "artist": "Fabiano Do Nascimento",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_KYnRKNOMxrY",
-   "title": "Spiritual State",
-   "artist": "Nujabes",
-   "trackCount": 14
   },
   {
    "browseId": "MPREb_1xkMmpFm18H",
