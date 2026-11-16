@@ -1,9 +1,15 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3693,
- "totalTracks": 46636,
- "syncedAt": "2026-11-15T15:27:57.203517Z",
+ "albumCount": 3694,
+ "totalTracks": 46650,
+ "syncedAt": "2026-11-16T18:02:04.620066Z",
  "albums": [
+  {
+   "browseId": "MPREb_VIb8uf8EbRG",
+   "title": "Secret Love (Deluxe Edition)",
+   "artist": "Dry Cleaning",
+   "trackCount": 14
+  },
   {
    "browseId": "MPREb_jbkAOqvPpIS",
    "title": "Brooklyn Botanic Garden (feat. zonk)",

@@ -1,23 +1,28 @@
 {
  "account": "Pyaar.Records",
  "playlistCount": 346,
- "totalTracks": 111922,
- "syncedAt": "2026-11-15T15:28:00.892499Z",
+ "totalTracks": 112304,
+ "syncedAt": "2026-11-16T18:02:08.422175Z",
  "playlists": [
-  {
-   "playlistId": "PLHIUKme9umic",
-   "title": "001 ambient at maria hernandez",
-   "trackCount": 25
-  },
   {
    "playlistId": "PLS3nLk6Dv00s",
    "title": "001 double",
-   "trackCount": 87
+   "trackCount": 352
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1627
+   "trackCount": 1656
+  },
+  {
+   "playlistId": "PLHIUKme9umic",
+   "title": "001 ambient at maria hernandez",
+   "trackCount": 29
+  },
+  {
+   "playlistId": "PLIpg0r7aJSXc",
+   "title": "perfectly imperfect sync",
+   "trackCount": 591
   },
   {
    "playlistId": "PLBwo9IQKOV3U",
@@ -168,11 +173,6 @@
    "playlistId": "PLFYscHY_t0dY",
    "title": "[sync][Public Service]",
    "trackCount": 897
-  },
-  {
-   "playlistId": "PLIpg0r7aJSXc",
-   "title": "perfectly imperfect sync",
-   "trackCount": 562
   },
   {
    "playlistId": "PLjQhLROnKpwwVk5i4wuQWfF_4Ncld-9um",
@@ -437,12 +437,12 @@
   {
    "playlistId": "PLJIHWFRb5JG0",
    "title": "Disco Funk House + Deep House",
-   "trackCount": 632
+   "trackCount": 631
   },
   {
    "playlistId": "PLMoUVJEmUblE",
    "title": "140 Dubstep Garage Bass",
-   "trackCount": 618
+   "trackCount": 614
   },
   {
    "playlistId": "PLNjjSm_OXLjQ",
@@ -477,7 +477,7 @@
   {
    "playlistId": "PLKvjOOfELYNc",
    "title": "Jazz Soul Samples",
-   "trackCount": 806
+   "trackCount": 856
   },
   {
    "playlistId": "PL6LTKg9AoNs2USk_gonKUdqAr9B1Rs-Uc",
@@ -1067,7 +1067,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1LCDF018kt2LTdHyd3f4wR",
    "title": "June 24",
-   "trackCount": 110
+   "trackCount": 115
   },
   {
    "playlistId": "PL6LTKg9AoNs0dJWVyO-2_6dkcZMDCdX_x",
@@ -1377,7 +1377,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
    "title": "Relaxing",
-   "trackCount": 3084
+   "trackCount": 3089
   },
   {
    "playlistId": "PL6LTKg9AoNs05NmeGU1DFT-A90YhqNiDD",

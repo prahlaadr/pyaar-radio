@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-11-15T15:28:00.892499Z",
+ "syncedAt": "2026-11-16T18:02:08.422175Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -20,15 +20,15 @@
   },
   {
    "title": "People Never Change",
-   "artist": "Peter Cat Recording Co. - Topic",
-   "album": "",
+   "artist": "Peter Cat Recording Co.",
+   "album": "Suddenly",
    "videoId": "J0sZMek2v7M",
    "duration": "6:32"
   },
   {
    "title": "Daae / Baae",
-   "artist": "Yashraj - Topic",
-   "album": "",
+   "artist": "Yashraj;Dropped Out",
+   "album": "Daae / Baae",
    "videoId": "ymb6yfZqcZo",
    "duration": "3:57"
   },
@@ -41,8 +41,8 @@
   },
   {
    "title": "B'nD",
-   "artist": "Connan Mockasin - Topic",
-   "album": "",
+   "artist": "Connan Mockasin",
+   "album": "Jassbusters",
    "videoId": "9qqCrUxWlK8",
    "duration": "3:37"
   },
@@ -124,9 +124,9 @@
    "duration": "2:14"
   },
   {
-   "title": "Part of me",
-   "artist": "Noname - Topic",
-   "album": "",
+   "title": "Part of me (feat. Benjamin Earl Turner & Phoelix)",
+   "artist": "Noname",
+   "album": "Room 25",
    "videoId": "Ejf1vflgjAU",
    "duration": "3:16"
   },
@@ -307,8 +307,8 @@
   },
   {
    "title": "OG Kush Diet",
-   "artist": "2 Chainz - Topic",
-   "album": "",
+   "artist": "2 Chainz",
+   "album": "Pretty Girls Like Trap Music",
    "videoId": "NAFxm8SMFKs",
    "duration": "4:11"
   },
@@ -349,8 +349,8 @@
   },
   {
    "title": "Magic Johnson",
-   "artist": "ian - Topic",
-   "album": "",
+   "artist": "ian",
+   "album": "Valedictorian [Deluxe]",
    "videoId": "ddiqPMt1B7w",
    "duration": "2:18"
   },
@@ -524,8 +524,8 @@
   },
   {
    "title": "Real Life",
-   "artist": "The Marías - Topic",
-   "album": "",
+   "artist": "The Marías",
+   "album": "Submarine",
    "videoId": "5Y3rAfAafcQ",
    "duration": "3:27"
   },
@@ -538,8 +538,8 @@
   },
   {
    "title": "Treat Each Other Right",
-   "artist": "Jamie xx - Topic",
-   "album": "",
+   "artist": "Jamie xx",
+   "album": "Treat Each Other Right",
    "videoId": "onUx_GApX-o",
    "duration": "4:01"
   },
@@ -559,8 +559,8 @@
   },
   {
    "title": "Together Is A Beautiful Place To Be (Nala Sinephro Remix)",
-   "artist": "Nubya Garcia - Topic",
-   "album": "",
+   "artist": "Nubya Garcia",
+   "album": "SOURCE ⧺ WE MOVE",
    "videoId": "fegM5ixKmu0",
    "duration": "2:27"
   },
@@ -615,8 +615,8 @@
   },
   {
    "title": "On My Grind",
-   "artist": "Yves Jarvis - Topic",
-   "album": "",
+   "artist": "Yves Jarvis",
+   "album": "Good Will Come to You",
    "videoId": "Mzl0jgfuidw",
    "duration": "0:32"
   },
@@ -3268,7 +3268,7 @@
   },
   {
    "title": "Afternoon (Mike Slott Remix)",
-   "artist": "S.Maharba & Mike Slott;Mike Slott",
+   "artist": "S.Maharba;Mike Slott",
    "album": "Remixed",
    "videoId": "CUt4IaRUeJY",
    "duration": "4:27"
@@ -6420,7 +6420,7 @@
    "title": "Somebody To Love",
    "artist": "Abhi The Nomad",
    "album": "Marbled",
-   "videoId": "ZjvOAqY82yk",
+   "videoId": "WdYQRawAeCk",
    "duration": "4:10"
   },
   {
@@ -13320,8 +13320,8 @@
   },
   {
    "title": "Nights",
-   "artist": "Frank Ocean - Topic",
-   "album": "",
+   "artist": "Frank Ocean",
+   "album": "Blonde",
    "videoId": "Fx3b85eDQvw",
    "duration": "5:08"
   },
@@ -13362,15 +13362,15 @@
   },
   {
    "title": "Bank Account",
-   "artist": "21 Savage - Topic",
-   "album": "",
+   "artist": "21 Savage",
+   "album": "Issa Album",
    "videoId": "eCK772REqw0",
    "duration": "3:41"
   },
   {
-   "title": "Bitch, Don’t Kill My Vibe (Remix)",
-   "artist": "Kendrick Lamar - Topic",
-   "album": "",
+   "title": "Bitch, Don’t Kill My Vibe (Remix) (feat. JAŸ-Z)",
+   "artist": "Kendrick Lamar",
+   "album": "good kid, m.A.A.d. city",
    "videoId": "NFxpwF6z9Lo",
    "duration": "4:39"
   },
@@ -13390,8 +13390,8 @@
   },
   {
    "title": "Me and Your Mama",
-   "artist": "Childish Gambino - Topic",
-   "album": "",
+   "artist": "Childish Gambino",
+   "album": "\"Awaken, My Love!\"",
    "videoId": "ZiIjLL9wq4Q",
    "duration": "6:20"
   },
@@ -13424,9 +13424,9 @@
    "duration": "5:03"
   },
   {
-   "title": "Hyyerr",
-   "artist": "Kid Cudi - Topic",
-   "album": "",
+   "title": "Hyyerr (feat. Chip Tha Ripper)",
+   "artist": "Kid Cudi",
+   "album": "Man On The Moon: The End Of Day (Deluxe)",
    "videoId": "kwhTmdff1rs",
    "duration": "3:33"
   },
@@ -13642,8 +13642,8 @@
   },
   {
    "title": "Neighbors",
-   "artist": "J. Cole - Topic",
-   "album": "",
+   "artist": "J. Cole",
+   "album": "4 Your Eyez Only",
    "videoId": "n43lYEko41c",
    "duration": "3:37"
   },
@@ -13698,8 +13698,8 @@
   },
   {
    "title": "Drippin'",
-   "artist": "Young Thug - Topic",
-   "album": "",
+   "artist": "Young Thug",
+   "album": "Slime Season 3",
    "videoId": "dZSNZNz-D0c",
    "duration": "3:07"
   },
@@ -13754,8 +13754,8 @@
   },
   {
    "title": "Dirty Lil Nigga",
-   "artist": "Gucci Mane - Topic",
-   "album": "",
+   "artist": "Gucci Mane",
+   "album": "WOPTOBER",
    "videoId": "Nk6xd-RdzlU",
    "duration": "3:56"
   },
@@ -13859,8 +13859,8 @@
   },
   {
    "title": "O Rangrez",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Shankar - Ehsaan -  Loy;Farhan Akhtar;Sonam Kapoor",
+   "album": "Bhaag Milkha Bhaag (Original Motion Picture Soundtrack)",
    "videoId": "kMp-VM6BEoo",
    "duration": "6:25"
   },
@@ -13873,8 +13873,8 @@
   },
   {
    "title": "Stay",
-   "artist": "Post Malone - Topic",
-   "album": "",
+   "artist": "Post Malone",
+   "album": "Beerbongs & Bentleys",
    "videoId": "4Ukh9aQBzWc",
    "duration": "3:25"
   },
@@ -13966,7 +13966,7 @@
    "title": "Gave Your Love Away",
    "artist": "Majid Jordan",
    "album": "The Space Between",
-   "videoId": "EKPAkf5wWRA",
+   "videoId": "ZfbIHCL3Ia4",
    "duration": "4:46"
   },
   {

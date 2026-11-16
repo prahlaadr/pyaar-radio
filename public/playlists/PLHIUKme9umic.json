@@ -1,8 +1,8 @@
 {
  "playlistId": "PLHIUKme9umic",
  "title": "001 ambient at maria hernandez",
- "trackCount": 25,
- "syncedAt": "2026-11-15T15:28:00.892499Z",
+ "trackCount": 29,
+ "syncedAt": "2026-11-16T18:02:08.422175Z",
  "tracks": [
   {
    "title": "Bebe de Vyah",
@@ -178,6 +178,34 @@
    "album": "Crush",
    "videoId": "76v58drqRgY",
    "duration": "4:05"
+  },
+  {
+   "title": "Spiegel im Spiegel, for Viola & Piano",
+   "artist": "Benjamin Hudson;Jürgen Kruse;Arvo Pärt",
+   "album": "Arvo Pärt Collection",
+   "videoId": "FgAp-KrCxM0",
+   "duration": "10:05"
+  },
+  {
+   "title": "magic",
+   "artist": "Medasin;MAE.SUN;Sara Kawai",
+   "album": "sounds",
+   "videoId": "9ytiyD_QA2s",
+   "duration": "5:57"
+  },
+  {
+   "title": "The Day Of Night",
+   "artist": "AKIRA YAMAOKA",
+   "album": "SILENT HILL2 （Original Soundtrack）",
+   "videoId": "ZBL5y8AciNw",
+   "duration": "1:38"
+  },
+  {
+   "title": "Mystic Temple",
+   "artist": "Clams Casino;Jazztronik",
+   "album": "Winter Flower Reimagined",
+   "videoId": "peS_FLViL7c",
+   "duration": "4:46"
   }
  ]
 }
