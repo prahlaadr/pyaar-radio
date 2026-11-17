@@ -1,9 +1,15 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3694,
- "totalTracks": 46650,
- "syncedAt": "2026-11-16T18:02:04.620066Z",
+ "albumCount": 3695,
+ "totalTracks": 46659,
+ "syncedAt": "2026-11-17T17:28:35.660850Z",
  "albums": [
+  {
+   "browseId": "MPREb_BwqXohPqSMR",
+   "title": "Advanced White Trash",
+   "artist": "Sam Gendel",
+   "trackCount": 9
+  },
   {
    "browseId": "MPREb_VIb8uf8EbRG",
    "title": "Secret Love (Deluxe Edition)",

@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
  "title": "DAR DISKU FM",
  "trackCount": 933,
- "syncedAt": "2026-11-16T18:02:08.422175Z",
+ "syncedAt": "2026-11-17T17:28:39.633884Z",
  "tracks": [
   {
    "title": "Helel Yos",
@@ -1282,7 +1282,7 @@
    "title": "Camel by Camel (Vocal Version)",
    "artist": "Sandy Marton",
    "album": "People From Ibiza (The Very Best) (Deluxe Edition)",
-   "videoId": "6ZmrZfB7-3U",
+   "videoId": "YmEfKGkvr1U",
    "duration": "3:51"
   },
   {
@@ -1630,8 +1630,8 @@
   },
   {
    "title": "Raiba",
-   "artist": "Cheb Kader",
-   "album": "History",
+   "artist": "Cheb Kader - Topic",
+   "album": "",
    "videoId": "yzAezAFMy0s",
    "duration": "3:32"
   },
@@ -1658,8 +1658,8 @@
   },
   {
    "title": "Everywhere",
-   "artist": "Chaka Khan",
-   "album": "Epiphany: The Best of Chaka Khan, Vol. 1",
+   "artist": "Chaka Khan - Topic",
+   "album": "",
    "videoId": "MnpaCxYkkpA",
    "duration": "4:52"
   },
@@ -1728,8 +1728,8 @@
   },
   {
    "title": "No Secrets (Instrumental)",
-   "artist": "Gioia",
-   "album": "Night City Life (Compiled by Ilan Pdahtzur)",
+   "artist": "Gioia - Topic",
+   "album": "",
    "videoId": "S3GJAm3g6j4",
    "duration": "7:43"
   },
@@ -1777,15 +1777,15 @@
   },
   {
    "title": "Latahki Serrak",
-   "artist": "Kamel El Oujdi",
-   "album": "Le meilleur du Maroc, vol. 1 (30 Hits of Morrocco)",
+   "artist": "Kamel el Oujdi - Topic",
+   "album": "",
    "videoId": "WB9s4w3IfbU",
    "duration": "3:47"
   },
   {
    "title": "Babe, We're Gonna Love Tonight",
-   "artist": "Lime",
-   "album": "Lime II",
+   "artist": "Lime - Topic",
+   "album": "",
    "videoId": "hRWYN2zN4P4",
    "duration": "6:55"
   },
@@ -1847,8 +1847,8 @@
   },
   {
    "title": "Vikram Vikram",
-   "artist": "Ilaiyaraaja;Kamal Haasan",
-   "album": "Vikram (Original Motion Picture Soundtrack)",
+   "artist": "Ilaiyaraaja - Topic",
+   "album": "",
    "videoId": "OIksjquWzGw",
    "duration": "4:25"
   },
@@ -1861,8 +1861,8 @@
   },
   {
    "title": "Salamet",
-   "artist": "Takfarinas",
-   "album": "Tajmilt Newen (Remasterisé)",
+   "artist": "Takfarinas - Topic",
+   "album": "",
    "videoId": "5XBRIPvlNJ4",
    "duration": "5:34"
   },
@@ -2022,8 +2022,8 @@
   },
   {
    "title": "Eujoaideen",
-   "artist": "Scorpios",
-   "album": "The Scorpios",
+   "artist": "The Scorpios - Topic",
+   "album": "",
    "videoId": "psoNG0DZQ64",
    "duration": "4:40"
   },
@@ -2050,8 +2050,8 @@
   },
   {
    "title": "Shababeek",
-   "artist": "Mohamed Monir",
-   "album": "Shababeek",
+   "artist": "Mohamed Mounir - Topic",
+   "album": "",
    "videoId": "4hRm7gNzY38",
    "duration": "4:53"
   },
@@ -2077,9 +2077,9 @@
    "duration": "4:01"
   },
   {
-   "title": "El Walad Dah (feat. Alia & Americana Show Band)",
-   "artist": "Hisham Abbas",
-   "album": "Ferqet Americana Show Pt.2",
+   "title": "El Walad Dah",
+   "artist": "Hisham Abbas - Topic",
+   "album": "",
    "videoId": "MaSD4BUfU4Q",
    "duration": "3:53"
   },

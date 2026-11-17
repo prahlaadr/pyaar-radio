@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
  "title": "Soup To Nuts w/ Anu - NTS",
- "trackCount": 2580,
- "syncedAt": "2026-11-16T18:02:08.422175Z",
+ "trackCount": 2530,
+ "syncedAt": "2026-11-17T17:28:39.633884Z",
  "tracks": [
   {
    "title": "In The Rain",
@@ -365,7 +365,7 @@
    "title": "2 Much",
    "artist": "Qendresa",
    "album": "2 Much",
-   "videoId": "rbe-wa3KMUc",
+   "videoId": "A11bABJeKVE",
    "duration": "3:20"
   },
   {
@@ -2535,7 +2535,7 @@
    "title": "Miles Apart",
    "artist": "A.R. Kane",
    "album": "\"i\"",
-   "videoId": "85o_0E5w5UM",
+   "videoId": "ukF81zha_do",
    "duration": "3:02"
   },
   {
@@ -5619,34 +5619,6 @@
    "duration": "4:09"
   },
   {
-   "title": "Win or Lose",
-   "artist": "SAM DEES",
-   "album": "Second to None",
-   "videoId": "HJFDXyUgo5k",
-   "duration": "2:55"
-  },
-  {
-   "title": "It's Not What You Know (It's Who You Know) (feat. The Inversions)",
-   "artist": "Bob & Gene;Victor Axelrod",
-   "album": "If You Ask Me To: Victor Axelrod Productions for Daptone Records",
-   "videoId": "85Qr6CFLYBQ",
-   "duration": "4:06"
-  },
-  {
-   "title": "Projections",
-   "artist": "Maria Somerville",
-   "album": "Projections",
-   "videoId": "2gIbhYw_I_4",
-   "duration": "3:41"
-  },
-  {
-   "title": "the Dream Team",
-   "artist": "Fievel Is Glauque",
-   "album": "God’s Trashmen Sent to Right the Mess",
-   "videoId": "4O89AxJ_is0",
-   "duration": "1:31"
-  },
-  {
    "title": "Blue Marlin Club",
    "artist": "Mystic Jungle",
    "album": "Night Of Cheetah",
@@ -5661,25 +5633,11 @@
    "duration": "4:28"
   },
   {
-   "title": "Do you wanna",
-   "artist": "Astrid Sonne",
-   "album": "Great Doubt",
-   "videoId": "LRMEOtcpd_s",
-   "duration": "3:22"
-  },
-  {
    "title": "Cry My Tears Away",
    "artist": "Thee Heart Tones",
    "album": "Forever & Ever",
    "videoId": "KTSJNqCuiCc",
    "duration": "3:49"
-  },
-  {
-   "title": "Fallo Giusto",
-   "artist": "Greyboy",
-   "album": "Elettro Fusione",
-   "videoId": "KxFq633V85Y",
-   "duration": "1:07"
   },
   {
    "title": "Juna",
@@ -5689,13 +5647,6 @@
    "duration": "3:16"
   },
   {
-   "title": "Alpha Centauri",
-   "artist": "ÅSMA",
-   "album": "Alpha Centauri",
-   "videoId": "TlNA8BCXdaE",
-   "duration": "5:11"
-  },
-  {
    "title": "Set Adrift On Memory Bliss",
    "artist": "P.M. Dawn",
    "album": "Of the Heart, of the Soul and of the Cross: The Utopian Experience",
@@ -5703,25 +5654,11 @@
    "duration": "4:16"
   },
   {
-   "title": "Juggler",
-   "artist": "Kengo Kurozumi",
-   "album": "Shiroi Natsu / Juggler",
-   "videoId": "X78rzr9TfbE",
-   "duration": "4:12"
-  },
-  {
    "title": "Pitch Black City Reunion",
    "artist": "Moodymann",
    "album": "Pitch Black City Reunion",
    "videoId": "idl6Ec2rV0Q",
    "duration": "8:42"
-  },
-  {
-   "title": "Ozan Koukle",
-   "artist": "Lafayette Afro Rock Band;Ice",
-   "album": "Afro Funk Explosion",
-   "videoId": "PA6XLeuQElw",
-   "duration": "3:16"
   },
   {
    "title": "Break Away",
@@ -5738,27 +5675,6 @@
    "duration": "6:25"
   },
   {
-   "title": "Dream",
-   "artist": "Ryuichi Sakamoto",
-   "album": "L.O.L. (Lack Of Love)",
-   "videoId": "uWKh_7vYaqE",
-   "duration": "1:25"
-  },
-  {
-   "title": "Interlude 2 - Sliding Landscape",
-   "artist": "The Marshmallow Kisses",
-   "album": "Ciao! Baby",
-   "videoId": "1K4HZkVAkWw",
-   "duration": "1:27"
-  },
-  {
-   "title": "Aeroplane (Reprise)",
-   "artist": "Wee",
-   "album": "You Can Fly On My Aeroplane",
-   "videoId": "GQ1cyJf0Gto",
-   "duration": "2:48"
-  },
-  {
    "title": "Exit Scott (interlude)",
    "artist": "Solange",
    "album": "When I Get Home",
@@ -5771,20 +5687,6 @@
    "album": "t-mix",
    "videoId": "XjJP9O7l958",
    "duration": "0:43"
-  },
-  {
-   "title": "Interlude",
-   "artist": "Yves Tumor",
-   "album": "Praise A Lord Who Chews But Which Does Not Consume; (Or Simply, Hot Between Worlds)",
-   "videoId": "WQnD5eCxuig",
-   "duration": "0:53"
-  },
-  {
-   "title": "True Blue Interlude",
-   "artist": "Magdalena Bay",
-   "album": "Imaginal Disk",
-   "videoId": "S7BkY26lLAI",
-   "duration": "1:50"
   },
   {
    "title": "Interlude: Come Back",
@@ -5801,39 +5703,11 @@
    "duration": "1:17"
   },
   {
-   "title": "Intro",
-   "artist": "Triad God",
-   "album": "Triad",
-   "videoId": "lDcV-hdS0lE",
-   "duration": "1:46"
-  },
-  {
-   "title": "Interlude I",
-   "artist": "Laraaji",
-   "album": "Vision Songs, Vol.1",
-   "videoId": "Dbf74ujXbGY",
-   "duration": "1:49"
-  },
-  {
-   "title": "Intro with Klein",
-   "artist": "MIKE",
-   "album": "Burning Desire",
-   "videoId": "Ph3Ri6_xKBY",
-   "duration": "1:41"
-  },
-  {
    "title": "Play Mate",
    "artist": "SUN RUNNERS 女神の恋人達",
    "album": "D.O.M LOVERS",
    "videoId": "gADE_3i4MSQ",
    "duration": "0:36"
-  },
-  {
-   "title": "Tom Tom (Theme)",
-   "artist": "John Baker",
-   "album": "The John Baker Tapes Volume 1",
-   "videoId": "VAXqG3RNFcU",
-   "duration": "0:43"
   },
   {
    "title": "Big Phat Boom Intro",
@@ -5850,25 +5724,11 @@
    "duration": "1:09"
   },
   {
-   "title": "Mosel Interlude (feat. Mosel)",
-   "artist": "Cavalier;Quelle Chris",
-   "album": "Black Cottonwood",
-   "videoId": "zYweGH0RRjw",
-   "duration": "1:14"
-  },
-  {
    "title": "Can I Get a Witness-Interlude",
    "artist": "TLC",
    "album": "Crazysexycool",
    "videoId": "ZjO0dHfFk2g",
    "duration": "2:58"
-  },
-  {
-   "title": "Intro",
-   "artist": "Gorillaz",
-   "album": "Demon Days",
-   "videoId": "QylI7_zJb_E",
-   "duration": "1:08"
   },
   {
    "title": "Hvnli (reprise)",
@@ -5885,39 +5745,11 @@
    "duration": "1:05"
   },
   {
-   "title": "Taste Strange",
-   "artist": "DJ Food",
-   "album": "Refried Food",
-   "videoId": "1e6MbXDJGZs",
-   "duration": "1:16"
-  },
-  {
-   "title": "a space in air in space in air[interlude]",
-   "artist": "Nujabes",
-   "album": "samurai champloo music record impression",
-   "videoId": "13znuCBrG6w",
-   "duration": "1:14"
-  },
-  {
    "title": "Truth Interlude",
    "artist": "Mndsgn",
    "album": "Rare Pleasure",
    "videoId": "lIGjuOWl_nw",
    "duration": "1:09"
-  },
-  {
-   "title": "The Floating Hotel (Outro)",
-   "artist": "The Alchemist",
-   "album": "Yacht Rock 2",
-   "videoId": "TsS0B669ht4",
-   "duration": "1:35"
-  },
-  {
-   "title": "Introduction & Airmail Special",
-   "artist": "Lionel Hampton;The Oliver Jackson Orchestra",
-   "album": "Live at Midem 1978",
-   "videoId": "xqlTNVImTWA",
-   "duration": "3:29"
   },
   {
    "title": "Ride, Ride, Ride (Reprise)",
@@ -5934,53 +5766,11 @@
    "duration": "1:00"
   },
   {
-   "title": "Fawning (Interlude)",
-   "artist": "Iceboy Violet;Nueen",
-   "album": "You Said You'd Hold My Hand Through The Fire",
-   "videoId": "F9hG5j7ttbk",
-   "duration": "2:01"
-  },
-  {
    "title": "For All Those Who Never Hear It Proper (Outro Chop)",
    "artist": "Death Is Not The End",
    "album": "For All Those Who Never Hear It Proper (Outro Chop)",
    "videoId": "Nk54JA6OYgY",
    "duration": "2:25"
-  },
-  {
-   "title": "CrazySexyCool-Interlude",
-   "artist": "TLC",
-   "album": "Crazysexycool",
-   "videoId": "nYwteUghUis",
-   "duration": "1:43"
-  },
-  {
-   "title": "Taking It Lyte (feat. MC Lyte)",
-   "artist": "Lord Finesse",
-   "album": "The Awakening (25th Anniversary (Remaster))",
-   "videoId": "KU6qGjlQbT0",
-   "duration": "1:07"
-  },
-  {
-   "title": "Satellite Business",
-   "artist": "Sampha",
-   "album": "Lahai",
-   "videoId": "ikA-bNPKFwM",
-   "duration": "1:25"
-  },
-  {
-   "title": "Eyes On You",
-   "artist": "Private Joy",
-   "album": "Desire!",
-   "videoId": "7t7Ni-TO1T8",
-   "duration": "3:22"
-  },
-  {
-   "title": "reprise",
-   "artist": "Yaya Bey",
-   "album": "Remember Your North Star",
-   "videoId": "rVBlIEyhn64",
-   "duration": "4:26"
   },
   {
    "title": "92 Interlude",
@@ -6018,13 +5808,6 @@
    "duration": "0:49"
   },
   {
-   "title": "Interlude",
-   "artist": "Bahamadia",
-   "album": "Kollage",
-   "videoId": "A9hLNeFR0Q0",
-   "duration": "1:08"
-  },
-  {
    "title": "GOODIES〜opening〜 - GOODIES opening",
    "artist": "EPO",
    "album": "Goodies",
@@ -6037,20 +5820,6 @@
    "album": "ピンク・キャット＋5",
    "videoId": "qVILasdBXUM",
    "duration": "1:22"
-  },
-  {
-   "title": "Gems (Interlude)",
-   "artist": "Little Simz",
-   "album": "Sometimes I Might Be Introvert",
-   "videoId": "n0TSjxhtR6E",
-   "duration": "2:58"
-  },
-  {
-   "title": "Intro",
-   "artist": "Emile Mosseri",
-   "album": "Minari (Original Motion Picture Soundtrack)",
-   "videoId": "l1OGDvSU8lg",
-   "duration": "1:39"
   },
   {
    "title": "Intro",
@@ -6081,13 +5850,6 @@
    "duration": "1:36"
   },
   {
-   "title": "At Ease (Interlude)",
-   "artist": "H31R",
-   "album": "HeadSpace",
-   "videoId": "rORc1_liJXs",
-   "duration": "0:45"
-  },
-  {
    "title": "Brand New Story (interlude)",
    "artist": "Maassai",
    "album": "With the Shifts",
@@ -6095,67 +5857,11 @@
    "duration": "0:32"
   },
   {
-   "title": "The Claim",
-   "artist": "The Veldt",
-   "album": "Marigolds",
-   "videoId": "csQTQrBM73A",
-   "duration": "0:30"
-  },
-  {
-   "title": "Intro",
-   "artist": "Sonic Youth",
-   "album": "Bad Moon Rising",
-   "videoId": "YzQcpRf6wNM",
-   "duration": "1:12"
-  },
-  {
-   "title": "Dominion Jingle",
-   "artist": "The Future / The Human League",
-   "album": "The Golden Hour of the Future (Remastered Edition)",
-   "videoId": "CiPIWnssP5A",
-   "duration": "0:26"
-  },
-  {
-   "title": "C3L3STIAL_CITY",
-   "artist": "bliss3three",
-   "album": "C3L3STIAL天の",
-   "videoId": "3f_L5r4oLZc",
-   "duration": "1:09"
-  },
-  {
-   "title": "Playtime (Interlude)",
-   "artist": "MIKE",
-   "album": "Burning Desire",
-   "videoId": "WaxyXvS2GCs",
-   "duration": "0:42"
-  },
-  {
    "title": "Indian Summer (2023 Remaster)",
    "artist": "1986 OMEGA TRIBE",
    "album": "Crystal Night +5",
    "videoId": "CD-ry3FL-38",
    "duration": "4:15"
-  },
-  {
-   "title": "Hierogliph Box",
-   "artist": "Nuno Rebelo",
-   "album": "Improvisações Cristalizadas",
-   "videoId": "0AZdP6-wTXc",
-   "duration": "1:29"
-  },
-  {
-   "title": "Solo (Reprise)",
-   "artist": "Frank Ocean",
-   "album": "Blonde",
-   "videoId": "_QaQSaE8PQA",
-   "duration": "1:19"
-  },
-  {
-   "title": "Gratitude",
-   "artist": "Cakes Da Killa",
-   "album": "Svengali",
-   "videoId": "kdDCeIJPeb0",
-   "duration": "0:33"
   },
   {
    "title": "Done",
@@ -6172,20 +5878,6 @@
    "duration": "6:25"
   },
   {
-   "title": "Bistro",
-   "artist": "Madvillain;Madlib;MF Doom",
-   "album": "Madvillainy",
-   "videoId": "ziDFbUtMF0I",
-   "duration": "1:08"
-  },
-  {
-   "title": "イントロ - Intro",
-   "artist": "RHYMESTER",
-   "album": "Oreniiwaserya",
-   "videoId": "QhrVBtWeX-0",
-   "duration": "1:28"
-  },
-  {
    "title": "$mokebreak",
    "artist": "Pink Siifu;Fly Anakin",
    "album": "$mokebreak",
@@ -6200,13 +5892,6 @@
    "duration": "1:10"
   },
   {
-   "title": "Confession 2",
-   "artist": "Budgie",
-   "album": "Panty Soakers 5",
-   "videoId": "mxGGog6oNbE",
-   "duration": "1:09"
-  },
-  {
    "title": "snow #2",
    "artist": "SKETCH SHOW",
    "album": "tronika",
@@ -6214,32 +5899,11 @@
    "duration": "1:07"
   },
   {
-   "title": "G Major Kinda Love",
-   "artist": "Asma Maroof;Patrick Belaga;Tapiwa Svosve",
-   "album": "The Sport of Love",
-   "videoId": "DXNIJvnbsxQ",
-   "duration": "3:49"
-  },
-  {
-   "title": "Jour De Pluie",
-   "artist": "Salenta + Topu",
-   "album": "Moon Set, Moon Rise",
-   "videoId": "VOYSedfHgAM",
-   "duration": "1:09"
-  },
-  {
    "title": "Morning Sun",
    "artist": "Dave Bixby",
    "album": "Ode To Quetzalcoatl",
    "videoId": "8sdivj1FUpY",
    "duration": "3:39"
-  },
-  {
-   "title": "I'm Coming Home",
-   "artist": "Flight",
-   "album": "I'm Coming Home",
-   "videoId": "EMlCATeJV_U",
-   "duration": "4:29"
   },
   {
    "title": "Rectifiya",
@@ -6282,20 +5946,6 @@
    "album": "Haute couture",
    "videoId": "WNjLN2CkKzw",
    "duration": "1:41"
-  },
-  {
-   "title": "Himalayan Salt (Preview) (feat. droppedmilk)",
-   "artist": "Goya Gumbani",
-   "album": "Himalayan Salt",
-   "videoId": "0ainCnf-MUo",
-   "duration": "0:13"
-  },
-  {
-   "title": "Struggle Cuddle",
-   "artist": "Joviale",
-   "album": "Crisis",
-   "videoId": "J2ci0C5ptjs",
-   "duration": "3:49"
   },
   {
    "title": "Wraap't",
