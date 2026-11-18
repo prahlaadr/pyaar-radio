@@ -1,18 +1,23 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 346,
- "totalTracks": 112254,
- "syncedAt": "2026-11-17T17:28:39.633884Z",
+ "playlistCount": 347,
+ "totalTracks": 112333,
+ "syncedAt": "2026-11-18T17:02:06.653461Z",
  "playlists": [
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1658
+  },
+  {
+   "playlistId": "PLZSwHsS3XAk0",
+   "title": "P295 - Music Seasoning (Trivia 11/17)",
+   "trackCount": 32
+  },
   {
    "playlistId": "PLS3nLk6Dv00s",
    "title": "001 double",
    "trackCount": 352
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1656
   },
   {
    "playlistId": "PLHIUKme9umic",
@@ -492,7 +497,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2hPjLdf1GTrTzTuw9lFDBW",
    "title": "Soup To Nuts w/ Anu - NTS",
-   "trackCount": 2530
+   "trackCount": 2580
   },
   {
    "playlistId": "PL6LTKg9AoNs0liifX19WKhWRIuzNF8z6s",
@@ -1237,7 +1242,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
    "title": "UK GARAGE: Burial-style & Future Garage ['05-'19]",
-   "trackCount": 445
+   "trackCount": 440
   },
   {
    "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",

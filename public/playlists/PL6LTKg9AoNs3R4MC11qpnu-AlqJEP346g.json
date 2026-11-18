@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1656,
- "syncedAt": "2026-11-17T17:28:39.633884Z",
+ "trackCount": 1658,
+ "syncedAt": "2026-11-18T17:02:06.653461Z",
  "tracks": [
+  {
+   "title": "You Wanted a Hit",
+   "artist": "LCD Soundsystem",
+   "album": "This Is Happening",
+   "videoId": "kyxNluCh3TQ",
+   "duration": "9:07"
+  },
+  {
+   "title": "Take Me Home, Country Roads",
+   "artist": "John Denver",
+   "album": "Poems, Prayers and Promises",
+   "videoId": "c0dvabcWVo0",
+   "duration": "3:11"
+  },
   {
    "title": "Give",
    "artist": "Hannah Cole",
@@ -1058,7 +1072,7 @@
    "title": "Give Me A Reason (For Lovin' You)",
    "artist": "Majid Jordan",
    "album": "Good People / Afterhours",
-   "videoId": "PIEUJ4w9yf8",
+   "videoId": "xIahehomAP0",
    "duration": "5:49"
   },
   {
