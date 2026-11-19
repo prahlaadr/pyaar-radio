@@ -1,8 +1,8 @@
 {
  "playlistId": "PLHIUKme9umic",
  "title": "001 ambient at maria hernandez",
- "trackCount": 29,
- "syncedAt": "2026-11-18T17:02:06.653461Z",
+ "trackCount": 31,
+ "syncedAt": "2026-11-19T17:07:44.672375Z",
  "tracks": [
   {
    "title": "Bebe de Vyah",
@@ -206,6 +206,20 @@
    "album": "Winter Flower Reimagined",
    "videoId": "peS_FLViL7c",
    "duration": "4:46"
+  },
+  {
+   "title": "Intro//A Cosmic Drama",
+   "artist": "Flying Lotus",
+   "album": "Cosmogramma",
+   "videoId": "aZsJ3swy1NM",
+   "duration": "1:15"
+  },
+  {
+   "title": "Good Lies (Outro)",
+   "artist": "Overmono",
+   "album": "Good Lies",
+   "videoId": "a8rwXy3T2Yw",
+   "duration": "1:07"
   }
  ]
 }

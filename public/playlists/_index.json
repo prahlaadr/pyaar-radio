@@ -1,9 +1,19 @@
 {
  "account": "Pyaar.Records",
  "playlistCount": 347,
- "totalTracks": 112333,
- "syncedAt": "2026-11-18T17:02:06.653461Z",
+ "totalTracks": 112341,
+ "syncedAt": "2026-11-19T17:07:44.672375Z",
  "playlists": [
+  {
+   "playlistId": "PLHIUKme9umic",
+   "title": "001 ambient at maria hernandez",
+   "trackCount": 31
+  },
+  {
+   "playlistId": "PLBwo9IQKOV3U",
+   "title": "Nov 26",
+   "trackCount": 18
+  },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
@@ -20,19 +30,9 @@
    "trackCount": 352
   },
   {
-   "playlistId": "PLHIUKme9umic",
-   "title": "001 ambient at maria hernandez",
-   "trackCount": 29
-  },
-  {
    "playlistId": "PLIpg0r7aJSXc",
    "title": "perfectly imperfect sync",
    "trackCount": 591
-  },
-  {
-   "playlistId": "PLBwo9IQKOV3U",
-   "title": "Nov 26",
-   "trackCount": 17
   },
   {
    "playlistId": "PLZ85-3ZydCf4",
@@ -1242,7 +1242,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
    "title": "UK GARAGE: Burial-style & Future Garage ['05-'19]",
-   "trackCount": 440
+   "trackCount": 445
   },
   {
    "playlistId": "PL6LTKg9AoNs2rXd8GjzQWVputX32kdfpL",

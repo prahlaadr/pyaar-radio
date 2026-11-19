@@ -1,8 +1,8 @@
 {
  "playlistId": "PLBwo9IQKOV3U",
  "title": "Nov 26",
- "trackCount": 17,
- "syncedAt": "2026-11-18T17:02:06.653461Z",
+ "trackCount": 18,
+ "syncedAt": "2026-11-19T17:07:44.672375Z",
  "tracks": [
   {
    "title": "boy",
@@ -122,6 +122,13 @@
    "album": "Viewfinder Vol. 1: PHOSPHENE",
    "videoId": "NsvIKlBfgCQ",
    "duration": "5:26"
+  },
+  {
+   "title": "my way",
+   "artist": "Sparklmami",
+   "album": "my way",
+   "videoId": "bTJGehZDfa0",
+   "duration": "2:41"
   }
  ]
 }

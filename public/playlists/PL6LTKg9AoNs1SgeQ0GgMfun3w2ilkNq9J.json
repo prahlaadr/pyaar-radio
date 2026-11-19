@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
  "title": "UK GARAGE: Burial-style & Future Garage ['05-'19]",
- "trackCount": 440,
- "syncedAt": "2026-11-18T17:02:06.653461Z",
+ "trackCount": 445,
+ "syncedAt": "2026-11-19T17:07:44.672375Z",
  "tracks": [
   {
    "title": "Archangel Territory (Re-Work)",
@@ -2840,6 +2840,13 @@
    "duration": "4:11"
   },
   {
+   "title": "High Rise",
+   "artist": "Vacant",
+   "album": "High Rise",
+   "videoId": "4nYOXAdeh-8",
+   "duration": "4:13"
+  },
+  {
    "title": "Acceptance",
    "artist": "Synkro",
    "album": "Acceptance",
@@ -2924,11 +2931,25 @@
    "duration": "3:41"
   },
   {
+   "title": "Something About You",
+   "artist": "Subjoi",
+   "album": "Something About You",
+   "videoId": "Lgru2KbeFpE",
+   "duration": "3:27"
+  },
+  {
    "title": "Swerve",
    "artist": "Subjoi",
    "album": "Swerve",
    "videoId": "ebGnnPgT2W0",
    "duration": "5:10"
+  },
+  {
+   "title": "Carbonated",
+   "artist": "Mount Kimbie",
+   "album": "Crooks & Lovers",
+   "videoId": "PW-r1aognDM",
+   "duration": "4:19"
   },
   {
    "title": "Acquiescence",
@@ -3064,6 +3085,13 @@
    "duration": "6:03"
   },
   {
+   "title": "Move On",
+   "artist": "Submerse",
+   "album": "Bento Box",
+   "videoId": "Y2ecMHlcGAI",
+   "duration": "5:03"
+  },
+  {
    "title": "Outrun",
    "artist": "Ike Release",
    "album": "xxxy vs Ike Release",
@@ -3083,6 +3111,13 @@
    "album": "1944",
    "videoId": "GGLUZKeh-YU",
    "duration": "3:01"
+  },
+  {
+   "title": "Grimelight",
+   "artist": "Joe",
+   "album": "Grimelight",
+   "videoId": "X_qUDE_UWmU",
+   "duration": "5:11"
   }
  ]
 }
