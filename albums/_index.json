@@ -1,9 +1,15 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3694,
- "totalTracks": 46635,
- "syncedAt": "2026-11-19T17:07:40.764735Z",
+ "albumCount": 3695,
+ "totalTracks": 46651,
+ "syncedAt": "2026-11-20T16:47:08.143920Z",
  "albums": [
+  {
+   "browseId": "MPREb_TBaitZTQOEJ",
+   "title": "Listen To Your Body. Talk To Plants. Ignore People.",
+   "artist": "Conductor Williams",
+   "trackCount": 16
+  },
   {
    "browseId": "MPREb_Som0RNrZLxg",
    "title": "american dream",
@@ -13147,7 +13153,7 @@
   {
    "browseId": "MPREb_XTWBFDw89kb",
    "title": "Freelance: Charlie",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "trackCount": 10
   },
   {
@@ -13165,7 +13171,7 @@
   {
    "browseId": "MPREb_jH7uVcMqWCp",
    "title": "Freelance",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "trackCount": 13
   },
   {
@@ -14419,7 +14425,7 @@
   {
    "browseId": "MPREb_8obJyIEFk1f",
    "title": "Not Your Hero 4 Hire",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "trackCount": 6
   },
   {

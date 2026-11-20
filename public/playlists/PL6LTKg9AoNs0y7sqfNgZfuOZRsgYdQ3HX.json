@@ -2,7 +2,7 @@
  "playlistId": "PL6LTKg9AoNs0y7sqfNgZfuOZRsgYdQ3HX",
  "title": "Cumulative",
  "trackCount": 2969,
- "syncedAt": "2026-11-19T17:07:44.672375Z",
+ "syncedAt": "2026-11-20T16:47:12.359294Z",
  "tracks": [
   {
    "title": "A Long Slow Little Wave / Citizen, An Activity",
@@ -852,10 +852,10 @@
    "duration": "6:11"
   },
   {
-   "title": "This Must Be the Place (Naive Melody)",
+   "title": "This Must Be the Place (Naive Melody) (feat. Norah Jones)",
    "artist": "BADBADNOTGOOD",
    "album": "This Must Be the Place (Naive Melody)",
-   "videoId": "OOgbCzZTMV8",
+   "videoId": "lT6lZrobVNg",
    "duration": "4:32"
   },
   {
@@ -3200,7 +3200,7 @@
    "title": "Catch Me Outside",
    "artist": "Ski Mask The Slump God",
    "album": "You Will Regret (Reloaded)",
-   "videoId": "iO6eESibjcg",
+   "videoId": "PgjCy-ltkLE",
    "duration": "2:26"
   },
   {
@@ -4220,7 +4220,7 @@
   },
   {
    "title": "Jackpot",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "album": "Not Your Hero 4 Hire",
    "videoId": "rAvHpMk0u24",
    "duration": "2:35"
@@ -4717,9 +4717,9 @@
   },
   {
    "title": "Sessions",
-   "artist": "Sharkey;Lucki",
+   "artist": "Sharkey",
    "album": "Sessions",
-   "videoId": "AS0YvPTh3Yo",
+   "videoId": "VyB0xHOiXAg",
    "duration": "3:34"
   },
   {
@@ -7356,14 +7356,14 @@
   },
   {
    "title": "Finsta (feat. Miseye)",
-   "artist": "Ben Reilly;Abstract Media",
+   "artist": "Nahree",
    "album": "Freelance",
    "videoId": "b75Kfz6nUxA",
    "duration": "3:37"
   },
   {
    "title": "Agenda",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "album": "Freelance: Charlie",
    "videoId": "0h5NYTdB5As",
    "duration": "3:45"
@@ -10604,7 +10604,7 @@
   },
   {
    "title": "Maytag (Tax Free)",
-   "artist": "Ben Reilly",
+   "artist": "Nahree",
    "album": "Freelance",
    "videoId": "oRptHIP8a94",
    "duration": "2:46"
@@ -14853,8 +14853,8 @@
   },
   {
    "title": "Somehow",
-   "artist": "O3ohn - Topic",
-   "album": "",
+   "artist": "O3ohn",
+   "album": "jon1",
    "videoId": "e-XJ1yLdaE4",
    "duration": "3:13"
   },

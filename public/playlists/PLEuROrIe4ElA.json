@@ -2,7 +2,7 @@
  "playlistId": "PLEuROrIe4ElA",
  "title": "[sync][Nina Kraviz]",
  "trackCount": 1989,
- "syncedAt": "2026-11-19T17:07:44.672375Z",
+ "syncedAt": "2026-11-20T16:47:12.359294Z",
  "tracks": [
   {
    "title": "000.1",
@@ -3610,7 +3610,7 @@
    "duration": "3:48"
   },
   {
-   "title": "Escape (Alan Fitzpatrick 12&quot; remix)",
+   "title": "Escape",
    "artist": "Fabio Alampi",
    "album": "Escape",
    "videoId": "EYc1qxEG5o8",
@@ -3647,8 +3647,8 @@
   {
    "title": "Ever Body",
    "artist": "Sneaky Tim",
-   "album": "Whats Your Function",
-   "videoId": "ciGv0bfJlFA",
+   "album": "What's Your Function, Part 1",
+   "videoId": "BeBYlSKajd4",
    "duration": "6:51"
   },
   {
@@ -12570,10 +12570,10 @@
    "duration": "7:28"
   },
   {
-   "title": "Trackman (Chris Liebing Remix)",
+   "title": "Trackman",
    "artist": "Andrew Richley;Ryan Rivera",
-   "album": "Trackman (Remixes)",
-   "videoId": "SGLh5Af_AK0",
+   "album": "Trackman (re-mixes)",
+   "videoId": "k99bDfKYgeI",
    "duration": "6:45"
   },
   {
@@ -13866,8 +13866,8 @@
   },
   {
    "title": "Zappa Valley",
-   "artist": "AADJA",
-   "album": "Thought Dealer",
+   "artist": "AADJA - Topic",
+   "album": "",
    "videoId": "oupWDvE5Cu0",
    "duration": "3:49"
   },
