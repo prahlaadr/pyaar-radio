@@ -1,8 +1,8 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3695,
- "totalTracks": 46651,
- "syncedAt": "2026-11-20T16:47:08.143920Z",
+ "albumCount": 3694,
+ "totalTracks": 46642,
+ "syncedAt": "2026-11-21T15:59:09.170982Z",
  "albums": [
   {
    "browseId": "MPREb_TBaitZTQOEJ",
@@ -21,12 +21,6 @@
    "title": "Electric Lady Sessions",
    "artist": "LCD Soundsystem",
    "trackCount": 12
-  },
-  {
-   "browseId": "MPREb_BwqXohPqSMR",
-   "title": "Advanced White Trash",
-   "artist": "Sam Gendel",
-   "trackCount": 9
   },
   {
    "browseId": "MPREb_VIb8uf8EbRG",

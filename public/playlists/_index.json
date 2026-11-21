@@ -1,23 +1,23 @@
 {
  "account": "Pyaar.Records",
  "playlistCount": 347,
- "totalTracks": 106750,
- "syncedAt": "2026-11-20T16:47:12.359294Z",
+ "totalTracks": 101439,
+ "syncedAt": "2026-11-21T15:59:11.906779Z",
  "playlists": [
-  {
-   "playlistId": "PLHIUKme9umic",
-   "title": "001 ambient at maria hernandez",
-   "trackCount": 31
-  },
   {
    "playlistId": "PLBwo9IQKOV3U",
    "title": "Nov 26",
-   "trackCount": 18
+   "trackCount": 26
   },
   {
    "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
    "title": "trivia night ",
-   "trackCount": 1658
+   "trackCount": 1659
+  },
+  {
+   "playlistId": "PLHIUKme9umic",
+   "title": "001 ambient at maria hernandez",
+   "trackCount": 31
   },
   {
    "playlistId": "PLZSwHsS3XAk0",
@@ -147,7 +147,7 @@
   {
    "playlistId": "PLBL9DW7ynGBE",
    "title": "[sync][O'Flynn]",
-   "trackCount": 227
+   "trackCount": 0
   },
   {
    "playlistId": "PLAXuCgNR53OY",
@@ -1237,7 +1237,7 @@
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
    "title": "Four Tet's Crate (goated) ",
-   "trackCount": 4998
+   "trackCount": 500
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
@@ -1257,7 +1257,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",
    "title": "clubby (goated) ",
-   "trackCount": 203
+   "trackCount": 208
   },
   {
    "playlistId": "PL6LTKg9AoNs1a_TaLLwgvpoSQOJtPmFjs",
@@ -1382,7 +1382,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2EWBMYb7thPBBm4u8z-D07",
    "title": "Relaxing",
-   "trackCount": 1300
+   "trackCount": 700
   },
   {
    "playlistId": "PL6LTKg9AoNs05NmeGU1DFT-A90YhqNiDD",

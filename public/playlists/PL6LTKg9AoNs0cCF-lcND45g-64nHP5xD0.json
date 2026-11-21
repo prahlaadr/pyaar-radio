@@ -1,8 +1,8 @@
 {
  "playlistId": "PL6LTKg9AoNs0cCF-lcND45g-64nHP5xD0",
  "title": "clubby (goated) ",
- "trackCount": 203,
- "syncedAt": "2026-11-20T16:47:12.359294Z",
+ "trackCount": 208,
+ "syncedAt": "2026-11-21T15:59:11.906779Z",
  "tracks": [
   {
    "title": "Love Cry (Joy Orbison Remix)",
@@ -726,6 +726,13 @@
    "duration": "4:54"
   },
   {
+   "title": "Seen It All Before",
+   "artist": "Obskür",
+   "album": "Seen It All Before",
+   "videoId": "NJD1E6Mtw8k",
+   "duration": "3:29"
+  },
+  {
    "title": "I Know",
    "artist": "Cotto",
    "album": "I Know/On The Run",
@@ -1055,11 +1062,25 @@
    "duration": "3:27"
   },
   {
+   "title": "Searching",
+   "artist": "East End Dubs;Wheats",
+   "album": "Searching",
+   "videoId": "JQwpTLNNL7w",
+   "duration": "4:08"
+  },
+  {
    "title": "All That You Want",
    "artist": "Isgwan",
    "album": "All That You Want",
    "videoId": "yuCSMQ0pmlc",
    "duration": "3:42"
+  },
+  {
+   "title": "Hands Together",
+   "artist": "DJ SWISHERMAN;MAHLWERK",
+   "album": "FUNK MECHANICS MWK002",
+   "videoId": "L9Ij2_on9tg",
+   "duration": "3:57"
   },
   {
    "title": "Forget The Past (Radio Edit)",
@@ -1109,6 +1130,13 @@
    "album": "Low End Theory EP",
    "videoId": "1hK0glDvq8Q",
    "duration": "5:35"
+  },
+  {
+   "title": "A Fresh Energy",
+   "artist": "Gaskin",
+   "album": "A Fresh Energy",
+   "videoId": "5Cg910OKHr4",
+   "duration": "8:00"
   },
   {
    "title": "Hackney Parrot (Special Request VIP)",
@@ -1256,6 +1284,13 @@
    "album": "Aquamarine",
    "videoId": "vVF6Gj1Na3Y",
    "duration": "6:56"
+  },
+  {
+   "title": "I'll Give It Back To You (Musumeci & Dodi Palese Remix)",
+   "artist": "This & That",
+   "album": "I'll Give It Back To You",
+   "videoId": "SJ_bUGspVjI",
+   "duration": "5:22"
   },
   {
    "title": "(Baby I Don’t Know) What you Want",

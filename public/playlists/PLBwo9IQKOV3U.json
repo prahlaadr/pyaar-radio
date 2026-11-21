@@ -1,8 +1,8 @@
 {
  "playlistId": "PLBwo9IQKOV3U",
  "title": "Nov 26",
- "trackCount": 18,
- "syncedAt": "2026-11-20T16:47:12.359294Z",
+ "trackCount": 26,
+ "syncedAt": "2026-11-21T15:59:11.906779Z",
  "tracks": [
   {
    "title": "boy",
@@ -129,6 +129,62 @@
    "album": "my way",
    "videoId": "bTJGehZDfa0",
    "duration": "2:41"
+  },
+  {
+   "title": "Say Hello",
+   "artist": "JAŸ-Z",
+   "album": "American Gangster",
+   "videoId": "zb1PI3Gm1Wc",
+   "duration": "5:27"
+  },
+  {
+   "title": "take u back (edit)",
+   "artist": "wev;luckystrike;frau",
+   "album": "take u back",
+   "videoId": "6d990zLJQ_o",
+   "duration": "3:20"
+  },
+  {
+   "title": "Pow Pow",
+   "artist": "LCD Soundsystem",
+   "album": "This Is Happening",
+   "videoId": "hzzQ7hXQ7qk",
+   "duration": "8:24"
+  },
+  {
+   "title": "I Listen",
+   "artist": "Aroop Roy",
+   "album": "My Home",
+   "videoId": "2kgZpk4oVzo",
+   "duration": "6:32"
+  },
+  {
+   "title": "Call It Fate, Call It Karma",
+   "artist": "The Strokes",
+   "album": "Comedown Machine",
+   "videoId": "Txn5-dKLFHg",
+   "duration": "3:25"
+  },
+  {
+   "title": "Ravana",
+   "artist": "Alix Perez",
+   "album": "Ravana EP",
+   "videoId": "hhfUHC4Z0CM",
+   "duration": "4:02"
+  },
+  {
+   "title": "Sidhartha",
+   "artist": "Don Cherry;Tommy Koverhult;Tommy Goldman;Maffy Falay",
+   "album": "Organic Music Society",
+   "videoId": "lx4R8WadVBM",
+   "duration": "1:59"
+  },
+  {
+   "title": "Sawfly Orchid",
+   "artist": "Wildflower Restoration Project;GROWBUGS#NWO",
+   "album": "Jardim Botânico de Lisboa",
+   "videoId": "YIXRqtWQZpE",
+   "duration": "1:08"
   }
  ]
 }
