@@ -133,6 +133,14 @@ Pyaar Crate (discover)         Pyaar Core (enrich)
 2. Export triage list to `radar-alerts.json`
 3. Commit + push → triage at `/radar`
 
+### Monthly (GitHub Actions — 1st of month)
+
+`.github/workflows/sources.yml` — the **playlist-source framework**. Each source
+scrapes some corner of the net into one YT Music playlist (named with a trailing
+`[sync]`), idempotently. pi.fyi listening threads and the Tempa label discography
+are the first two; adding another is a ~40-line adapter plus a registry row. See
+[`docs/sources/`](docs/sources/README.md).
+
 ### On drive mount (LaunchAgent)
 
 `com.pyaar.sync-monthlys` fires `sync_monthlys.sh` on drive mount: live-fetches

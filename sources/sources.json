@@ -2,7 +2,7 @@
   "pifyi": {
     "adapter": "pifyi",
     "playlist_id": "PLIpg0r7aJSXc",
-    "playlist_name": "perfectly imperfect sync",
+    "playlist_name": "perfectly imperfect sync [sync]",
     "playlist_desc": "(pulls from what have you been listening to threads on perfectly imperfect)",
     "rescan_days": 21,
     "since": null,
@@ -13,7 +13,7 @@
     "adapter": "bandcamp_label",
     "subdomain": "tempa",
     "playlist_id": "PLLkUBUz5Ma94",
-    "playlist_name": "tempa ltd",
+    "playlist_name": "tempa ltd [sync]",
     "playlist_desc": "(the Tempa Records catalogue, pulled from their Bandcamp)",
     "rescan_days": 0,
     "since": null,

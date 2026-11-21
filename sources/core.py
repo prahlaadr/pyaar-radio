@@ -175,7 +175,9 @@ def run(sid, dry=False, limit_cap=5000):
                 if dry: log(f"  ?? {q[:48]} -> review ({m['artist']} - {m['title']})")
             elif m and m["videoId"] not in vids:
                 if not dry and not state["playlist_id"]:
-                    state["playlist_id"] = yt.create_playlist(cfg["playlist_name"], cfg.get("playlist_desc", ""))
+                    name = cfg["playlist_name"].rstrip()
+                    if not name.endswith("[sync]"): name += " [sync]"   # marks framework-maintained playlists
+                    state["playlist_id"] = yt.create_playlist(name, cfg.get("playlist_desc", ""))
                     save_state(sid, state, dry); log(f"created playlist {state['playlist_id']}")
                 m["group"] = g["date"]
                 pending.append((k, m)); new_here += 1; added_total += 1

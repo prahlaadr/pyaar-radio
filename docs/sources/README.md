@@ -85,7 +85,10 @@ The monthly workflow picks it up automatically.
 
 ## Current sources
 
+Every framework-maintained playlist is named with a trailing **`[sync]`** so you
+can tell at a glance it is auto-synced (core appends it on create).
+
 | id | what | playlist | docs |
 |---|---|---|---|
-| `pifyi` | pi.fyi weekly "what have you been listening to?" threads | [perfectly imperfect sync](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc) | [pifyi.md](./pifyi.md) |
-| `tempa` | Tempa Records full Bandcamp discography | [tempa ltd](https://music.youtube.com/playlist?list=PLLkUBUz5Ma94) | [tempa.md](./tempa.md) |
+| `pifyi` | pi.fyi weekly "what have you been listening to?" threads | [perfectly imperfect sync \[sync\]](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc) | [pifyi.md](./pifyi.md) |
+| `tempa` | Tempa Records full Bandcamp discography | [tempa ltd \[sync\]](https://music.youtube.com/playlist?list=PLLkUBUz5Ma94) | [tempa.md](./tempa.md) |

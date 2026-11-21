@@ -1,6 +1,6 @@
 # Source: pi.fyi listening threads
 
-**Playlist:** [perfectly imperfect sync](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc)
+**Playlist:** [perfectly imperfect sync \[sync\]](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc)
 · *"(pulls from what have you been listening to threads on perfectly imperfect)"*
 **Adapter:** `pifyi` (a *feed* source) · **Schedule:** monthly
 
