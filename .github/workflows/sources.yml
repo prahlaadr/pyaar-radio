@@ -29,7 +29,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install ytmusicapi
+        run: pip install ytmusicapi curl_cffi   # curl_cffi: browser TLS fingerprint for Bandcamp's bot challenge
 
       - name: Write browser auth
         run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json

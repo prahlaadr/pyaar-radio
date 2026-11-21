@@ -11,26 +11,42 @@ schema.org JSON-LD: album name, byArtist, and the full track list). Releases are
 immutable once published, so sources.json sets rescan_days=0 (seal after first
 pass). New releases simply appear in the list on later runs.
 """
-import json, os, re, time, urllib.request, urllib.error
+import html, json, re, subprocess, time
 from datetime import datetime
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
-def _fetch(url, tries=4):
+def _valid(text):
+    # bandcamp's Fastly bot-mitigation serves a ~3KB challenge page (marker
+    # "_fs-ch-") to flagged TLS fingerprints; a real release/hub page is much
+    # larger and carries no such marker.
+    return bool(text) and len(text) > 5000 and "_fs-ch-" not in text[:3000]
+
+def _fetch(url, tries=5):
+    """Fetch with a browser TLS fingerprint (curl_cffi preferred, curl fallback)
+    so Bandcamp's bot challenge is passed. Raises if it never gets a real page."""
+    last = ""
     for a in range(tries):
+        text = None
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=40) as r:
-                return r.read().decode("utf-8", "replace")
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(30); continue
-            if a == tries - 1: raise
-            time.sleep(4 * (a + 1))
-        except Exception:
-            if a == tries - 1: raise
-            time.sleep(4 * (a + 1))
+            from curl_cffi import requests as creq        # best: real Chrome JA3
+            r = creq.get(url, impersonate="chrome", timeout=40)
+            text = r.text if r.status_code == 200 else None
+            last = f"curl_cffi {r.status_code}/{len(r.text)}"
+        except ImportError:
+            try:                                          # fallback: curl binary
+                out = subprocess.run(["curl", "-sL", "--compressed", "-A", UA, url],
+                                     capture_output=True, text=True, timeout=60)
+                text = out.stdout if out.returncode == 0 else None
+                last = f"curl rc{out.returncode}/{len(out.stdout or '')}"
+            except Exception as e:
+                last = f"curl {str(e)[:40]}"
+        except Exception as e:
+            last = f"curl_cffi {str(e)[:40]}"
+        if _valid(text): return text
+        time.sleep(8 * (a + 1))
+    raise RuntimeError(f"bandcamp fetch failed after {tries} tries: {url} ({last})")
 
 def _norm_date(s):
     s = (s or "").strip()
@@ -46,15 +62,30 @@ def _norm_date(s):
     return ""
 
 def list_groups(cfg):
-    """Every release on the label's Bandcamp hub (album + standalone track pages)."""
+    """Every release in the label's catalog, from the /music page's embedded
+    `data-client-items` grid (the canonical release URLs, which live on each
+    artist's own subdomain and carry proper schema.org JSON-LD).
+
+    A label hub never legitimately has zero releases, so an empty result means a
+    transient block/challenge; retry, then raise (so the runner resumes) rather
+    than silently no-op the whole source."""
     sub = cfg["subdomain"]
-    h = _fetch(f"https://{sub}.bandcamp.com/music")
-    out, seen = [], set()
-    for path in re.findall(r'/(?:album|track)/[a-z0-9\-]+', h):
-        if path in seen: continue
-        seen.add(path)
-        out.append({"id": f"https://{sub}.bandcamp.com{path}", "date": "", "label": path.rsplit("/", 1)[-1]})
-    return out
+    for attempt in range(3):
+        h = _fetch(f"https://{sub}.bandcamp.com/music") or ""
+        m = re.search(r'data-client-items="([^"]+)"', h)
+        if m:
+            out, seen = [], set()
+            for it in json.loads(html.unescape(m.group(1))):
+                u = (it.get("page_url") or "").split("?")[0]
+                if u.startswith("//"): u = "https:" + u
+                elif u.startswith("/"): u = f"https://{sub}.bandcamp.com" + u
+                if not u.startswith("http") or u in seen: continue
+                seen.add(u)
+                label = " - ".join(x for x in (it.get("artist"), it.get("title")) if x)
+                out.append({"id": u, "date": "", "label": label or u.rsplit("/", 1)[-1]})
+            if out: return out
+        time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"bandcamp label '{sub}': /music returned no releases after retries")
 
 def fetch_queries(cfg, group):
     """'Title - Artist' per track on one release; sets group['date'] from the page."""
