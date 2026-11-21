@@ -23,30 +23,39 @@ def _valid(text):
     # larger and carries no such marker.
     return bool(text) and len(text) > 5000 and "_fs-ch-" not in text[:3000]
 
-def _fetch(url, tries=5):
-    """Fetch with a browser TLS fingerprint (curl_cffi preferred, curl fallback)
-    so Bandcamp's bot challenge is passed. Raises if it never gets a real page."""
-    last = ""
+# Bandcamp's Fastly bot-mitigation runs a JS challenge and challenges requests
+# probabilistically; the bare "chrome" alias always loses, but pinned browser
+# fingerprints pass *most* of the time, and WHICH one passes varies run to run.
+# So rotate several per attempt (plus the curl binary, whose SecureTransport/
+# OpenSSL fingerprint is a different shot) and retry with backoff.
+IMPERSONATE = ("chrome124", "chrome131", "safari17_0")
+
+def _candidates(url):
+    try:
+        from curl_cffi import requests as creq
+        for imp in IMPERSONATE:
+            try:
+                r = creq.get(url, impersonate=imp, timeout=40)
+                yield r.text if r.status_code == 200 else None
+            except Exception:
+                yield None
+    except ImportError:
+        pass
+    try:
+        out = subprocess.run(["curl", "-sL", "--compressed", "-A", UA, url],
+                             capture_output=True, text=True, timeout=60)
+        yield out.stdout if out.returncode == 0 else None
+    except Exception:
+        yield None
+
+def _fetch(url, tries=4):
+    """Fetch past Bandcamp's bot challenge by rotating browser fingerprints;
+    retry with backoff. Raises if it never gets a real page."""
     for a in range(tries):
-        text = None
-        try:
-            from curl_cffi import requests as creq        # best: real Chrome JA3
-            r = creq.get(url, impersonate="chrome", timeout=40)
-            text = r.text if r.status_code == 200 else None
-            last = f"curl_cffi {r.status_code}/{len(r.text)}"
-        except ImportError:
-            try:                                          # fallback: curl binary
-                out = subprocess.run(["curl", "-sL", "--compressed", "-A", UA, url],
-                                     capture_output=True, text=True, timeout=60)
-                text = out.stdout if out.returncode == 0 else None
-                last = f"curl rc{out.returncode}/{len(out.stdout or '')}"
-            except Exception as e:
-                last = f"curl {str(e)[:40]}"
-        except Exception as e:
-            last = f"curl_cffi {str(e)[:40]}"
-        if _valid(text): return text
+        for text in _candidates(url):
+            if _valid(text): return text
         time.sleep(8 * (a + 1))
-    raise RuntimeError(f"bandcamp fetch failed after {tries} tries: {url} ({last})")
+    raise RuntimeError(f"bandcamp fetch failed after {tries} rounds: {url}")
 
 def _norm_date(s):
     s = (s or "").strip()

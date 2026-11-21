@@ -234,9 +234,14 @@ def main():
     ids = [a for a in argv if not a.startswith("--")]
     if not ids: ids = list(json.load(open(REGISTRY)).keys())
     signal.signal(signal.SIGALRM, _watchdog); signal.alarm(2700)
+    failed = []
     for sid in ids:
         log(f"=== source: {sid}{' (dry)' if dry else ''} ===")
-        run(sid, dry=dry)
+        try:
+            run(sid, dry=dry)
+        except Exception as e:
+            failed.append(sid); log(f"!! source {sid} failed: {str(e)[:140]} (other sources + commit continue)")
+    if failed: log(f"sources with errors (resume next run): {', '.join(failed)}")
 
 if __name__ == "__main__":
     main()

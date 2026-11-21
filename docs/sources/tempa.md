@@ -46,6 +46,13 @@ playlist — **no new code**:
 
 - Underground dub/dubstep has patchy YTM coverage; tracks that don't resolve park
   in `state/tempa.json` → `missing` (viewable, not lost).
-- Releases are surfaced on the label hub but hosted on each artist's own Bandcamp
-  subdomain; the adapter uses the label-hub `tempa.bandcamp.com/album/<slug>` pages,
-  which serve the tracklist JSON-LD reliably.
+- Releases live on each artist's own Bandcamp subdomain; the adapter sources the
+  canonical URLs from the `/music` page's `data-client-items` grid.
+- Bandcamp sits behind Fastly bot-mitigation that serves a probabilistic JS
+  challenge. The adapter rotates several pinned browser fingerprints (`curl_cffi`
+  impersonate + the `curl` binary) and retries; the bare `chrome` alias always
+  loses, so pinned versions are used. The initial 275-track build ran clean.
+  **Caveat:** the monthly cloud run from a datacenter IP is not yet verified
+  against this challenge. If CI gets challenged, the fallback is to run this one
+  source from local launchd (residential IP). pi.fyi is unaffected (it has a
+  committed `threads.json` fallback and no such challenge).

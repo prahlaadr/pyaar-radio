@@ -53,6 +53,7 @@ jobs:
           fi
 
       - name: Commit updated state
+        if: always()   # state is saved incrementally; commit it even if a source failed or timed out
         run: |
           rm -f browser.json
           git add sources/state/ sources/threads.json
