@@ -1,0 +1,66 @@
+name: Sync Playlist Sources
+
+# Per-source "scrape -> match -> one YT Music playlist" jobs (pi.fyi, Tempa, ...).
+# One job runs every source sequentially (never two YTM jobs at once); idempotent
+# via committed sources/state/*.json, so each run only picks up the delta.
+
+on:
+  schedule:
+    - cron: '0 9 1 * *'     # monthly, 1st at ~4 AM EST — a beat after radar-scan
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Which source to run (id from sources.json, or "all")'
+        required: false
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install ytmusicapi
+
+      - name: Write browser auth
+        run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Verify auth
+        run: |
+          python -c "
+          from ytmusicapi import YTMusic
+          name = YTMusic('browser.json').get_account_info().get('accountName','')
+          print('Authenticated as:', name)
+          if not name: raise SystemExit('Auth failed: no account name')
+          "
+
+      - name: Run source sync
+        working-directory: sources
+        run: |
+          if [ "${{ github.event.inputs.source }}" = "" ] || [ "${{ github.event.inputs.source }}" = "all" ]; then
+            python core.py
+          else
+            python core.py "${{ github.event.inputs.source }}"
+          fi
+
+      - name: Commit updated state
+        run: |
+          rm -f browser.json
+          git add sources/state/ sources/threads.json
+          if git diff --cached --quiet; then
+            echo "no state changes"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "sync: update playlist sources"
+            git push
+          fi
