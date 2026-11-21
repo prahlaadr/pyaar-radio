@@ -1,6 +1,7 @@
 # Source: Tempa Records (Bandcamp label)
 
-**Playlist:** tempa ltd · *"(the Tempa Records catalogue, pulled from their Bandcamp)"*
+**Playlist:** [tempa ltd](https://music.youtube.com/playlist?list=PLLkUBUz5Ma94)
+· *"(the Tempa Records catalogue, pulled from their Bandcamp)"*
 **Adapter:** `bandcamp_label` (a *catalog* source) · **Schedule:** monthly
 **Config:** `subdomain: tempa` → [tempa.bandcamp.com](https://tempa.bandcamp.com/)
 

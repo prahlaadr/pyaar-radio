@@ -88,4 +88,4 @@ The monthly workflow picks it up automatically.
 | id | what | playlist | docs |
 |---|---|---|---|
 | `pifyi` | pi.fyi weekly "what have you been listening to?" threads | [perfectly imperfect sync](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc) | [pifyi.md](./pifyi.md) |
-| `tempa` | Tempa Records full Bandcamp discography | tempa ltd | [tempa.md](./tempa.md) |
+| `tempa` | Tempa Records full Bandcamp discography | [tempa ltd](https://music.youtube.com/playlist?list=PLLkUBUz5Ma94) | [tempa.md](./tempa.md) |

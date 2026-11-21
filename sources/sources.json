@@ -12,7 +12,7 @@
   "tempa": {
     "adapter": "bandcamp_label",
     "subdomain": "tempa",
-    "playlist_id": null,
+    "playlist_id": "PLLkUBUz5Ma94",
     "playlist_name": "tempa ltd",
     "playlist_desc": "(the Tempa Records catalogue, pulled from their Bandcamp)",
     "rescan_days": 0,
