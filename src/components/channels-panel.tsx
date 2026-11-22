@@ -102,7 +102,7 @@ export function ChannelsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
                     <div className="text-[10px] text-[#888] truncate">{t.artist}</div>
                   </div>
                   <span className="text-[10px] text-[#555] shrink-0 tabular-nums">{t.duration}</span>
-                  <button onClick={() => like(t.videoId)} title={st === "error" ? "Like failed (needs local browser.json)" : "Add to Liked"}
+                  <button onClick={() => like(t.videoId)} title={st === "error" ? "Like failed (retry)" : st === "done" ? "Liked" : "Add to Liked"}
                     className={`shrink-0 text-sm transition-colors ${
                       st === "done" ? "text-red-600" : st === "error" ? "text-yellow-500"
                       : st === "pending" ? "text-[#888] animate-pulse" : "text-[#3a3a3a] hover:text-red-600"
