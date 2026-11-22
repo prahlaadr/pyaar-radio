@@ -1,0 +1,266 @@
+{
+  "_comment": "Channels surfaced in the Pyaar Radio app's Channels tab. A channel is any [sync]-marked YT Music playlist you browse to explore (add songs to Liked). synced:true = auto-maintained: source 'pifyi'/'tempa' by this repo's sources framework (sources/sources.json); 'crate-maker' by the external Crate Maker agent (artist inspo sets). Add a row to register another.",
+  "channels": [
+    {
+      "id": "perfectly-imperfect",
+      "playlistId": "PLIpg0r7aJSXc",
+      "name": "Perfectly Imperfect",
+      "blurb": "What people are listening to on pi.fyi (2025 onward)",
+      "kind": "feed",
+      "synced": true,
+      "source": "pifyi"
+    },
+    {
+      "id": "tempa",
+      "playlistId": "PLLkUBUz5Ma94",
+      "name": "Tempa",
+      "blurb": "The Tempa Records catalogue (UK dubstep / dub)",
+      "kind": "label",
+      "synced": true,
+      "source": "tempa"
+    },
+    {
+      "id": "afro",
+      "playlistId": "PLV6Fe9JJB0qk",
+      "name": "Afro",
+      "blurb": "Tracks Afro plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "anish-kumar",
+      "playlistId": "PLVf4gVxZgags",
+      "name": "Anish Kumar",
+      "blurb": "Tracks Anish Kumar plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "baalti",
+      "playlistId": "PLKYTfye1rV1Q",
+      "name": "Baalti",
+      "blurb": "Tracks Baalti plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "ben-ufo",
+      "playlistId": "PLGUb4iTfu9tg",
+      "name": "Ben UFO",
+      "blurb": "Tracks Ben UFO plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "bonobo",
+      "playlistId": "PLY_EJ6pLl6m4",
+      "name": "Bonobo",
+      "blurb": "Tracks Bonobo plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "caribou",
+      "playlistId": "PLKowBI04lz7E",
+      "name": "Caribou",
+      "blurb": "Tracks Caribou plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "dj-swisha",
+      "playlistId": "PLT-9vf1HmJig",
+      "name": "DJ Swisha",
+      "blurb": "Tracks DJ Swisha plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "four-tet",
+      "playlistId": "PLStpMNn1SJFM",
+      "name": "Four Tet",
+      "blurb": "Tracks Four Tet plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "ilaiyaraaja",
+      "playlistId": "PLebkTVjZdYBE",
+      "name": "Ilaiyaraaja",
+      "blurb": "Tracks Ilaiyaraaja plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "ivy-lab",
+      "playlistId": "PLGoXn0zUmUNE",
+      "name": "Ivy Lab",
+      "blurb": "Tracks Ivy Lab plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "machinedrum",
+      "playlistId": "PLMcoOjwKT36o",
+      "name": "Machinedrum",
+      "blurb": "Tracks Machinedrum plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "mala",
+      "playlistId": "PLQIQjAmU8X2Q",
+      "name": "Mala",
+      "blurb": "Tracks Mala plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "mia-koden",
+      "playlistId": "PLJIxftVsC1CA",
+      "name": "Mia Koden",
+      "blurb": "Tracks Mia Koden plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "nightmares-on-wax",
+      "playlistId": "PLTli-JmA2NhE",
+      "name": "Nightmares on Wax",
+      "blurb": "Tracks Nightmares on Wax plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "nina-kraviz",
+      "playlistId": "PLEuROrIe4ElA",
+      "name": "Nina Kraviz",
+      "blurb": "Tracks Nina Kraviz plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "o-flynn",
+      "playlistId": "PLBL9DW7ynGBE",
+      "name": "O'Flynn",
+      "blurb": "Tracks O'Flynn plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "oppidan",
+      "playlistId": "PLKojUy4pMf5I",
+      "name": "Oppidan",
+      "blurb": "Tracks Oppidan plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "overmono",
+      "playlistId": "PLN6bykaHqxqw",
+      "name": "Overmono",
+      "blurb": "Tracks Overmono plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "public-service",
+      "playlistId": "PLFYscHY_t0dY",
+      "name": "Public Service",
+      "blurb": "Tracks Public Service plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "ramon-pang",
+      "playlistId": "PLaDBDB87Khrc",
+      "name": "Ramon Pang",
+      "blurb": "Tracks Ramon Pang plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "rohaan",
+      "playlistId": "PLAXuCgNR53OY",
+      "name": "Rohaan",
+      "blurb": "Tracks Rohaan plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "sbtrkt",
+      "playlistId": "PLRvUzsBBo0Lw",
+      "name": "SBTRKT",
+      "blurb": "Tracks SBTRKT plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "sam-gellaitry",
+      "playlistId": "PLXOmvhiqvlgk",
+      "name": "Sam Gellaitry",
+      "blurb": "Tracks Sam Gellaitry plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "soulection",
+      "playlistId": "PLWLzu_ZQXYws",
+      "name": "Soulection",
+      "blurb": "Tracks Soulection plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "villager",
+      "playlistId": "PLYMVMCtUmJXo",
+      "name": "Villager",
+      "blurb": "Tracks Villager plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "zach-fox",
+      "playlistId": "PLWwHiR_FgVQI",
+      "name": "Zach Fox",
+      "blurb": "Tracks Zach Fox plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    },
+    {
+      "id": "salute",
+      "playlistId": "PLFvWVIEITCKY",
+      "name": "salute",
+      "blurb": "Tracks salute plays out (inspo set, via Crate Maker)",
+      "kind": "artist",
+      "synced": true,
+      "source": "crate-maker"
+    }
+  ]
+}

@@ -31,6 +31,7 @@ import type { PlaylistIndexEntry } from "@/lib/types";
 import { YouTubePlayer, type YouTubePlayerHandle } from "@/components/youtube-player";
 import { NtsPanel } from "@/components/nts-panel";
 import { ScPanel } from "@/components/sc-panel";
+import { ChannelsPanel } from "@/components/channels-panel";
 import Fuse from "fuse.js";
 import hotkeys from "hotkeys-js";
 
@@ -59,7 +60,7 @@ const DEFAULT_FILTERS: ArtistFilters = {
   search: "",
 };
 
-function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks"; tvChannel: string | null; tvVideo: string | null; tvTime: number } {
+function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | null; tab: "browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | "channels" | null; track: string | null; autoplay: boolean; tamil: boolean; ilaiyaraaja: boolean; section: SectionMode; view: "artists" | "tracks"; tvChannel: string | null; tvVideo: string | null; tvTime: number } {
   if (typeof window === "undefined") return { filters: {}, artist: null, tab: null, track: null, autoplay: false, tamil: false, ilaiyaraaja: false, section: "browse", view: "artists", tvChannel: null, tvVideo: null, tvTime: 0 };
   const p = new URLSearchParams(window.location.search);
   const filters: Partial<ArtistFilters> = {};
@@ -103,7 +104,7 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
     const match = window.location.pathname.match(/^\/artist\/([^/]+)/);
     if (match) artist = decodeURIComponent(match[1]);
   }
-  const tab = p.get("tab") as "browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | null;
+  const tab = p.get("tab") as "browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | "channels" | null;
   const track = p.get("t");
   const autoplay = p.get("autoplay") === "1";
   const pathname = window.location.pathname;
@@ -118,7 +119,7 @@ function parseUrlParams(): { filters: Partial<ArtistFilters>; artist: string | n
   return { filters, artist, tab, track, autoplay, tamil, ilaiyaraaja, section, view, tvChannel, tvVideo, tvTime };
 }
 
-function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists" | "liked" | "albums" | "nts" | "sc", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean, tvChannelId?: string | null, tvVideoId?: string | null, tvTimeOffset?: number): string {
+function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: "browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | "channels", trackVideoId?: string | null, tamil?: boolean, browseView?: "artists" | "tracks", section?: SectionMode, ilaiyaraaja?: boolean, tvChannelId?: string | null, tvVideoId?: string | null, tvTimeOffset?: number): string {
   const p = new URLSearchParams();
   if (section === "tv") {
     if (tvChannelId) p.set("ch", tvChannelId);
@@ -144,6 +145,7 @@ function buildUrlParams(filters: ArtistFilters, artistName: string | null, tab: 
   if (tab === "albums") p.set("tab", "albums");
   if (tab === "nts") p.set("tab", "nts");
   if (tab === "sc") p.set("tab", "sc");
+  if (tab === "channels") p.set("tab", "channels");
   if (trackVideoId) p.set("t", trackVideoId);
   if (browseView === "tracks") p.set("view", "tracks");
 
@@ -237,7 +239,7 @@ export default function Home() {
   const [cratePickerSlot, setCratePickerSlot] = useState<number | null>(null);
   const [cratePickerQuery, setCratePickerQuery] = useState("");
   const [importOpen, setImportOpen] = useState(false);
-  const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums" | "nts" | "sc">(urlInit.current.tab || "browse");
+  const [tab, setTab] = useState<"browse" | "setlists" | "liked" | "albums" | "nts" | "sc" | "channels">(urlInit.current.tab || "browse");
   const [likedTracks, setLikedTracks] = useState<Track[]>([]);
   const [savedAlbums, setSavedAlbums] = useState<SavedAlbum[]>([]);
   const [albumsSearch, setAlbumsSearch] = useState("");
@@ -2306,6 +2308,17 @@ export default function Home() {
               )}
             </button>
             <button
+              onClick={() => { setTab("channels"); handleSelectArtist(null); }}
+              className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
+                tab === "channels"
+                  ? "bg-[#222] text-white"
+                  : "bg-[#111] text-[#888] hover:text-white"
+              }`}
+              title="Browse synced playlists to explore + add songs to Liked"
+            >
+              Channels
+            </button>
+            <button
               onClick={() => { setSectionMode("mixart"); setTab("browse"); handleSelectArtist(null); setTamilMode(false); setIlaiyaraajaMode(false); }}
               className={`px-3 py-1 text-[10px] uppercase tracking-wider transition-colors ${
                 sectionMode === "mixart"
@@ -2350,6 +2363,8 @@ export default function Home() {
           <NtsPanel onPlay={setNowPlaying} />
         ) : tab === "sc" ? (
           <ScPanel onPlay={setNowPlaying} />
+        ) : tab === "channels" ? (
+          <ChannelsPanel onPlay={setNowPlaying} />
         ) : tab === "albums" ? (
           selectedAlbum ? (
             <div className="flex-1 overflow-hidden flex flex-col">

@@ -1,0 +1,44 @@
+name: Channels - Like a song
+
+# Deployed curate path: the Channels tab's heart button dispatches this to like a
+# song on YT Music from the cloud (where the auth secret lives), mirroring how
+# radar applies picks. Locally the app writes directly via browser.json instead.
+
+on:
+  workflow_dispatch:
+    inputs:
+      videoId:
+        description: 'YT Music videoId to add to Liked'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  like:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install ytmusicapi
+        run: pip install ytmusicapi
+
+      - name: Write browser auth
+        run: echo '${{ secrets.YTMUSIC_BROWSER_AUTH }}' > browser.json
+
+      - name: Like the song
+        env:
+          VIDEO_ID: ${{ inputs.videoId }}
+        run: |
+          python -c "
+          import os
+          from ytmusicapi import YTMusic
+          vid = os.environ['VIDEO_ID']
+          if not vid or not all(c.isalnum() or c in '-_' for c in vid):
+              raise SystemExit(f'bad videoId: {vid!r}')
+          YTMusic('browser.json').rate_song(vid, 'LIKE')
+          print('liked', vid)
+          "
