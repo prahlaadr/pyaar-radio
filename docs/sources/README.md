@@ -8,6 +8,43 @@ Lives in [`sources/`](../../sources). Each source's playlist is a normal YTM
 playlist on the Pyaar Radio account, so it already flows into the app through the
 daily `sync_playlists.py` like every other playlist. The player never changes.
 
+## Sources, playlists, channels
+
+```
+SOURCE (scraped)                  PLAYLIST (YT Music, [sync])        CHANNEL (app)
+pi.fyi threads  ─ sync engine ─▶  perfectly imperfect sync   ─────▶  "Perfectly Imperfect"
+Tempa Bandcamp  ─ sync engine ─▶  tempa ltd                  ─────▶  "Tempa"
+(future labels/feeds)          ─▶  …                          ─────▶  …
+                                  a playlist you already made ─────▶  "<your channel>"
+```
+
+A **channel** is any YT Music playlist surfaced in the app's Channels tab (to
+browse and add songs to Liked / other playlists). A **synced source** is a channel
+whose playlist the framework *auto-maintains*. The two are decoupled:
+
+- **Scraped source → synced channel** — the framework scrapes and keeps the
+  playlist fresh (pi.fyi, Tempa). Registered in `sources/sources.json`.
+- **Existing playlist → manual channel** — a playlist you already made and curate
+  yourself; the app just surfaces it. No source, no sync.
+
+Both are listed in [`public/data/channels.json`](../../public/data/channels.json)
+(the display registry the Channels tab reads). `synced:true` channels point at a
+`source`; `synced:false` channels are yours to maintain.
+
+### Register an existing playlist as a channel (no code)
+
+Add a row to `public/data/channels.json`:
+
+```json
+{ "id": "my-label", "playlistId": "PLxxxx", "name": "My Label",
+  "blurb": "…", "kind": "label", "synced": false }
+```
+
+### Add a new scraped source (becomes a synced channel)
+
+1. Write the adapter + `sources.json` row (see below), first-run the backfill.
+2. Add a `channels.json` row with `"synced": true, "source": "<id>"`.
+
 ## The shape (why it's replicable)
 
 Every source is the same machine except one swappable part:

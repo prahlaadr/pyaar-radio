@@ -1,0 +1,23 @@
+{
+  "_comment": "Channels surfaced in the Pyaar Radio app's Channels tab. A channel is any YT Music playlist you want to browse/explore (to add songs to Liked or other playlists). synced:true channels have their playlist auto-maintained by the sources framework (sources/sources.json, keyed by `source`); synced:false channels are playlists you already made and curate yourself. Add a row to register a new channel.",
+  "channels": [
+    {
+      "id": "perfectly-imperfect",
+      "playlistId": "PLIpg0r7aJSXc",
+      "name": "Perfectly Imperfect",
+      "blurb": "What people are listening to on pi.fyi (2025 onward)",
+      "kind": "feed",
+      "synced": true,
+      "source": "pifyi"
+    },
+    {
+      "id": "tempa",
+      "playlistId": "PLLkUBUz5Ma94",
+      "name": "Tempa",
+      "blurb": "The Tempa Records catalogue (UK dubstep / dub)",
+      "kind": "label",
+      "synced": true,
+      "source": "tempa"
+    }
+  ]
+}
