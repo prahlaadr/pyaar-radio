@@ -141,6 +141,12 @@ scrapes some corner of the net into one YT Music playlist (named with a trailing
 are the first two; adding another is a ~40-line adapter plus a registry row. See
 [`docs/sources/`](docs/sources/README.md).
 
+Every `[sync]`-marked playlist (the 2 scraped here + the artist inspo sets synced
+by the Crate Maker agent) surfaces in the app's **Channels** tab for browse-to-
+curate (click a channel, play its songs, ♥ add to Liked), registered in
+[`public/data/channels.json`](public/data/channels.json). Framework tests:
+`python sources/test_sources.py` (CI: `test-sources.yml`).
+
 ### On drive mount (LaunchAgent)
 
 `com.pyaar.sync-monthlys` fires `sync_monthlys.sh` on drive mount: live-fetches

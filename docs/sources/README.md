@@ -129,3 +129,33 @@ can tell at a glance it is auto-synced (core appends it on create).
 |---|---|---|---|
 | `pifyi` | pi.fyi weekly "what have you been listening to?" threads | [perfectly imperfect sync \[sync\]](https://music.youtube.com/playlist?list=PLIpg0r7aJSXc) | [pifyi.md](./pifyi.md) |
 | `tempa` | Tempa Records full Bandcamp discography | [tempa ltd \[sync\]](https://music.youtube.com/playlist?list=PLLkUBUz5Ma94) | [tempa.md](./tempa.md) |
+
+## Channels (the app tab)
+
+The **Channels** tab in the app (a nav item) reads
+[`public/data/channels.json`](../../public/data/channels.json) and shows every
+`[sync]`-marked playlist as a browsable channel: click one, see its songs, play,
+and **♥ add to Liked**. Browse-to-curate, separate from Setlists.
+
+Three kinds of channel today (29):
+- **feed** — `pifyi` (this repo's pi.fyi source)
+- **label** — `tempa` (this repo's Bandcamp source)
+- **artist** — 27 inspo sets (what each artist plays out), synced by the external
+  **Crate Maker** agent (`source: "crate-maker"`). This repo only surfaces them; it
+  does not maintain them. That is the channel-vs-synced-source split in practice.
+
+### Curate (♥ like)
+
+`/api/channels/like` likes a song on YT Music two ways (same split as radar):
+- **Local** (`browser.json` present): writes directly via the venv Python.
+- **Deployed**: dispatches [`channels-like.yml`](../../.github/workflows/channels-like.yml),
+  which likes it from the cloud using the `YTMUSIC_BROWSER_AUTH` secret (needs
+  `GITHUB_DISPATCH_TOKEN`, same as radar).
+
+## Testing
+
+`python sources/test_sources.py` (offline, deterministic) proves the match gate,
+both adapters' parsing, the registry, and the channels wiring (including the
+no-em-dash rule and the pifyi 2025 floor). Runs in CI on every change via
+[`test-sources.yml`](../../.github/workflows/test-sources.yml). Live scraping is
+spot-checked with `python sources/core.py <id> --dry`.
