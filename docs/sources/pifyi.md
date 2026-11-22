@@ -6,8 +6,9 @@
 
 Builds the playlist from the weekly **"WHAT HAVE YOU BEEN LISTENING TO?"** threads
 posted by [@perfectlyimperfect](https://www.pi.fyi/u/perfectlyimperfect) on pi.fyi.
-The playlist holds the most-recent matched songs across **all** threads (Nov 2023
-onward), capped at 5000 (precision-gated, so it sits well under the cap).
+The playlist holds matched songs from threads dated **2026 onward**
+(`since = 2026-01-01` in the registry), capped at 5000 (precision-gated, so it sits
+well under the cap). ~609 tracks as of Nov 2026; grows weekly as new threads post.
 
 ## How it works
 
@@ -34,6 +35,7 @@ to catch late answers; dedup keeps that cheap.
 - Freeform / album / descriptive answers that don't resolve to a single song park
   in `state/pifyi.json` → `missing` (viewable, not lost).
 - Originally a standalone biweekly launchd job (`~/Projects/03-music-audio/pi-fyi-sync`,
-  `com.pyaar.pifyi-sync`); folded into this framework and moved to the monthly
-  cloud workflow. The old launchd job is retired so the two don't both mutate the
-  playlist.
+  `com.pyaar.pifyi-sync`); folded into this framework and moving to the monthly
+  cloud workflow. The old launchd job is **re-enabled as a bridge** (keeps pi.fyi
+  fresh on the proven local path) until the first cloud run is verified post-merge,
+  then retired so the two don't both mutate the playlist.

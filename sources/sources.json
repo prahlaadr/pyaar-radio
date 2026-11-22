@@ -5,7 +5,7 @@
     "playlist_name": "perfectly imperfect sync [sync]",
     "playlist_desc": "(pulls from what have you been listening to threads on perfectly imperfect)",
     "rescan_days": 21,
-    "since": null,
+    "since": "2026-01-01",
     "schedule": "monthly",
     "description": "pi.fyi (@perfectlyimperfect) 'WHAT HAVE YOU BEEN LISTENING TO?' weekly threads"
   },
