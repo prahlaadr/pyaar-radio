@@ -1,8 +1,8 @@
 {
  "playlistId": "PLS3nLk6Dv00s",
  "title": "001 double",
- "trackCount": 352,
- "syncedAt": "2026-11-21T15:59:11.906779Z",
+ "trackCount": 353,
+ "syncedAt": "2026-11-22T16:00:32.211551Z",
  "tracks": [
   {
    "title": "Sunday Service",
@@ -2467,6 +2467,13 @@
    "album": "138 Trek",
    "videoId": "TDg0gPcO5Eg",
    "duration": "5:10"
+  },
+  {
+   "title": "Black Sugar Honey",
+   "artist": "Nikki O",
+   "album": "Rough, Rugged, Raw",
+   "videoId": "k5KIB9fS42k",
+   "duration": "6:16"
   }
  ]
 }

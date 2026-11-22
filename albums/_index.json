@@ -1,9 +1,21 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3694,
- "totalTracks": 46642,
- "syncedAt": "2026-11-21T15:59:09.170982Z",
+ "albumCount": 3696,
+ "totalTracks": 46671,
+ "syncedAt": "2026-11-22T16:00:28.110336Z",
  "albums": [
+  {
+   "browseId": "MPREb_Q80mMGLATFQ",
+   "title": "Singles",
+   "artist": "DJ Psychiatre",
+   "trackCount": 19
+  },
+  {
+   "browseId": "MPREb_xf7sGzQa0Qi",
+   "title": "Impeckable (Expanded Edition)",
+   "artist": "Budgie",
+   "trackCount": 10
+  },
   {
    "browseId": "MPREb_TBaitZTQOEJ",
    "title": "Listen To Your Body. Talk To Plants. Ignore People.",
@@ -1357,7 +1369,7 @@
   {
    "browseId": "MPREb_fQN45SccDoI",
    "title": "Flying Away",
-   "artist": "Smoke City",
+   "artist": "Nina Miranda",
    "trackCount": 10
   },
   {
