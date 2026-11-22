@@ -6,9 +6,9 @@
 
 Builds the playlist from the weekly **"WHAT HAVE YOU BEEN LISTENING TO?"** threads
 posted by [@perfectlyimperfect](https://www.pi.fyi/u/perfectlyimperfect) on pi.fyi.
-The playlist holds matched songs from threads dated **2026 onward**
-(`since = 2026-01-01` in the registry), capped at 5000 (precision-gated, so it sits
-well under the cap). ~609 tracks as of Nov 2026; grows weekly as new threads post.
+The playlist holds matched songs from threads dated **2025 onward**
+(`since = 2025-01-01` in the registry), capped at 5000 (precision-gated, so it sits
+well under the cap). ~1213 tracks as of Nov 2026; grows weekly as new threads post.
 
 ## How it works
 
