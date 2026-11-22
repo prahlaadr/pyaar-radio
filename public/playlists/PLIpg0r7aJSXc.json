@@ -1,8 +1,8 @@
 {
  "playlistId": "PLIpg0r7aJSXc",
- "title": "perfectly imperfect sync",
- "trackCount": 591,
- "syncedAt": "2026-11-21T15:59:11.906779Z",
+ "title": "perfectly imperfect sync [sync]",
+ "trackCount": 609,
+ "syncedAt": "2026-11-22T16:00:32.211551Z",
  "tracks": [
   {
    "title": "Anthems For A Seventeen Year-Old Girl",
@@ -735,8 +735,8 @@
   {
    "title": "Peace of Mind",
    "artist": "The Radio Dept.",
-   "album": "Where Damage Isn't Already Done",
-   "videoId": "0QRD9MisM5I",
+   "album": "Passive Aggressive",
+   "videoId": "3hJ9YbFm_Us",
    "duration": "3:28"
   },
   {
@@ -1947,7 +1947,7 @@
    "title": "Pet Grief",
    "artist": "The Radio Dept.",
    "album": "Pet Grief",
-   "videoId": "YWVflrtliHI",
+   "videoId": "zNgeINGpOSk",
    "duration": "3:11"
   },
   {
@@ -4140,6 +4140,132 @@
    "album": "Bruises Off The Peach (Live)",
    "videoId": "JnJShE86aHo",
    "duration": "3:55"
+  },
+  {
+   "title": "Long Island City Here I Come",
+   "artist": "Geese",
+   "album": "Getting Killed",
+   "videoId": "oRogOHhyG1M",
+   "duration": "6:38"
+  },
+  {
+   "title": "Rest Here",
+   "artist": "Car Culture;Physical Therapy",
+   "album": "Rest Here",
+   "videoId": "k0R19oqARbM",
+   "duration": "3:58"
+  },
+  {
+   "title": "Makumba Rock",
+   "artist": "Lee \"Scratch\" Perry",
+   "album": "Rainford",
+   "videoId": "eZSiJfYr6oE",
+   "duration": "5:29"
+  },
+  {
+   "title": "Get You (feat. Kali Uchis)",
+   "artist": "Daniel Caesar",
+   "album": "Get You",
+   "videoId": "xyUQKDE57Ag",
+   "duration": "4:39"
+  },
+  {
+   "title": "Space Cowboy (Remastered 2006)",
+   "artist": "Jamiroquai",
+   "album": "Summer Songs",
+   "videoId": "RMksLNFU5DY",
+   "duration": "3:38"
+  },
+  {
+   "title": "Just for Now",
+   "artist": "Imogen Heap",
+   "album": "Speak for Yourself",
+   "videoId": "bU57Qy-8mi4",
+   "duration": "3:01"
+  },
+  {
+   "title": "The Precipice",
+   "artist": "Mogwai",
+   "album": "Special Moves Bonus Tracks",
+   "videoId": "xFzhVPfQZZQ",
+   "duration": "7:03"
+  },
+  {
+   "title": "The Ringing In My Ears",
+   "artist": "フィッシュアンドビップス",
+   "album": "Culmination",
+   "videoId": "NaJ5VoOavBw",
+   "duration": "3:30"
+  },
+  {
+   "title": "I’d Rather Be Alone",
+   "artist": "Tinashe",
+   "album": "Popstar",
+   "videoId": "_uKd2asAcLU",
+   "duration": "3:15"
+  },
+  {
+   "title": "sybau",
+   "artist": "Holidays in United States",
+   "album": "sybau",
+   "videoId": "5CpL2hZOggU",
+   "duration": "3:13"
+  },
+  {
+   "title": "The Wall",
+   "artist": "Yana",
+   "album": "The Wall",
+   "videoId": "wLl8d9VylKo",
+   "duration": "3:24"
+  },
+  {
+   "title": "Come On Baby, Scrape My Data",
+   "artist": "Machine Girl",
+   "album": "Come On Baby, Scrape My Data",
+   "videoId": "44JalAlPc2M",
+   "duration": "3:02"
+  },
+  {
+   "title": "It's A Fine Day",
+   "artist": "Patty Wilson",
+   "album": "It's A Fine Day",
+   "videoId": "8NOXbogwU-o",
+   "duration": "5:29"
+  },
+  {
+   "title": "Star 69",
+   "artist": "Ayesha Erotica",
+   "album": "Star 69",
+   "videoId": "0WM3KVu1XoQ",
+   "duration": "2:57"
+  },
+  {
+   "title": "Jackie and Wilson",
+   "artist": "Hozier",
+   "album": "Hozier (Expanded Edition)",
+   "videoId": "8CXsCJoSm_o",
+   "duration": "3:44"
+  },
+  {
+   "title": "New York (feat. Yoshiki)",
+   "artist": "St. Vincent",
+   "album": "New York",
+   "videoId": "Nw3jEHrk9f8",
+   "duration": "2:54"
+  },
+  {
+   "title": "On Melancholy Hill",
+   "artist": "Gorillaz",
+   "album": "Plastic Beach",
+   "videoId": "p00v9ZFhWJM",
+   "duration": "3:54"
+  },
+  {
+   "title": "Sexy to Someone",
+   "artist": "Clairo",
+   "album": "Charm",
+   "videoId": "wQ7OIpVgN8s",
+   "duration": "3:28"
   }
  ]
 }

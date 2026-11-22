@@ -1,9 +1,23 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1659,
- "syncedAt": "2026-11-21T15:59:11.906779Z",
+ "trackCount": 1661,
+ "syncedAt": "2026-11-22T16:00:32.211551Z",
  "tracks": [
+  {
+   "title": "Silk Chiffon (feat. Phoebe Bridgers)",
+   "artist": "MUNA",
+   "album": "MUNA",
+   "videoId": "uGc1l9WMPOw",
+   "duration": "3:27"
+  },
+  {
+   "title": "Forever (Single Version)",
+   "artist": "The Little Dippers",
+   "album": "Forever",
+   "videoId": "gVS_ZLBPEck",
+   "duration": "2:24"
+  },
   {
    "title": "Naughty Girl",
    "artist": "Beyoncé",
@@ -1352,7 +1366,7 @@
    "title": "Wonderwall",
    "artist": "Oasis",
    "album": "(What's The Story) Morning Glory?",
-   "videoId": "9xBXQH1K4UM",
+   "videoId": "hpSrLjc5SMs",
    "duration": "4:19"
   },
   {
