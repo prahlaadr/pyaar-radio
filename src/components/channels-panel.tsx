@@ -5,7 +5,10 @@ import type { Track } from "@/lib/types";
 import { fetchPlaylist } from "@/lib/playlists";
 
 interface Channel {
-  id: string; playlistId: string; name: string;
+  id: string; name: string;
+  playlistId?: string;        // a playlist channel (browse its songs)
+  route?: string;             // a view channel (link to an existing page, e.g. /ambient)
+  parent?: string;            // nest under another channel (e.g. ilaiyaraaja under tamil)
   blurb?: string; kind?: string; synced?: boolean; source?: string;
 }
 interface PlTrack { title: string; artist: string; album: string; videoId: string; duration: string }
@@ -41,6 +44,7 @@ export function ChannelsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   }, []);
 
   const open = useCallback(async (ch: Channel) => {
+    if (!ch.playlistId) return;
     setActive(ch); setTracks(null); setLoading(true); setQ("");
     try {
       const data = await fetchPlaylist(ch.playlistId);
@@ -119,13 +123,40 @@ export function ChannelsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
   }
 
   // ---- the channel grid ----
+  const views = channels.filter((c) => c.route);
+  const playlists = channels.filter((c) => c.playlistId);
   return (
     <div className="flex-1 overflow-y-auto p-5">
+      {views.some((v) => !v.parent) && (
+        <div className="mb-6">
+          <div className="text-[10px] uppercase tracking-wider text-[#555] mb-2">Views</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {views.filter((v) => !v.parent).map((v) => {
+              const kids = views.filter((c) => c.parent === v.id);
+              return (
+                <div key={v.id} className="p-4 bg-[#0d0d0d] border border-[#1c1c1c]">
+                  <a href={v.route} className="text-sm text-white hover:text-red-500 transition-colors">{v.name} →</a>
+                  {v.blurb && <div className="text-[11px] text-[#888] mt-1 leading-snug">{v.blurb}</div>}
+                  {kids.length > 0 && (
+                    <div className="mt-2 flex flex-wrap gap-1.5">
+                      {kids.map((k) => (
+                        <a key={k.id} href={k.route} title={k.blurb}
+                          className="text-[10px] uppercase tracking-wider text-[#888] hover:text-white bg-[#161616] px-2 py-0.5 transition-colors">{k.name} →</a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       <div className="text-[10px] uppercase tracking-wider text-[#555] mb-3">
         Explore songs in each channel · ♥ adds to Liked
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {channels.map((ch) => (
+        {playlists.map((ch) => (
           <button key={ch.id} onClick={() => open(ch)}
             className="text-left p-4 bg-[#0d0d0d] border border-[#1c1c1c] hover:border-[#444] transition-colors">
             <div className="text-sm text-white">

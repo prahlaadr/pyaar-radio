@@ -270,6 +270,28 @@
       "kind": "artist",
       "synced": false,
       "source": "manual"
+    },
+    {
+      "id": "view-ambient",
+      "name": "Ambient",
+      "blurb": "The ambient and downtempo corner of the library",
+      "kind": "view",
+      "route": "/ambient"
+    },
+    {
+      "id": "view-tamil",
+      "name": "Tamil",
+      "blurb": "Tamil film and independent music",
+      "kind": "view",
+      "route": "/tamil"
+    },
+    {
+      "id": "view-ilaiyaraaja",
+      "name": "Ilaiyaraaja",
+      "blurb": "The Maestro, within Tamil",
+      "kind": "view",
+      "route": "/tamil/ilaiyaraaja",
+      "parent": "view-tamil"
     }
   ]
 }

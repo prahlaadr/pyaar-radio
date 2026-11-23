@@ -62,7 +62,9 @@ seen = set()
 for ch in channels:
     cid = ch.get("id")
     check(f"channel[{cid}] unique id", cid not in seen); seen.add(cid)
-    check(f"channel[{cid}] playlistId looks valid", isinstance(ch.get("playlistId"), str) and ch["playlistId"].startswith("PL"))
+    pid, route = ch.get("playlistId"), ch.get("route")
+    check(f"channel[{cid}] has a playlist or a route",
+          (isinstance(pid, str) and pid.startswith("PL")) or (isinstance(route, str) and route.startswith("/")))
     check(f"channel[{cid}] has name", bool(ch.get("name")))
     # no em dashes anywhere (house rule)
     check(f"channel[{cid}] no em dash", "—" not in json.dumps(ch, ensure_ascii=False))
