@@ -1,8 +1,8 @@
 {
  "playlistId": "PLBwo9IQKOV3U",
  "title": "Nov 26",
- "trackCount": 26,
- "syncedAt": "2026-11-22T16:00:32.211551Z",
+ "trackCount": 27,
+ "syncedAt": "2026-11-23T19:56:43.519430Z",
  "tracks": [
   {
    "title": "boy",
@@ -185,6 +185,13 @@
    "album": "Jardim Botânico de Lisboa",
    "videoId": "YIXRqtWQZpE",
    "duration": "1:08"
+  },
+  {
+   "title": "The World It Softly Lulls",
+   "artist": "Hiatus Kaiyote",
+   "album": "Tawk Tomahawk",
+   "videoId": "4i59EKJjZJ8",
+   "duration": "2:56"
   }
  ]
 }

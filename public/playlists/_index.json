@@ -1,18 +1,48 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 348,
- "totalTracks": 102653,
- "syncedAt": "2026-11-22T16:00:32.211551Z",
+ "playlistCount": 346,
+ "totalTracks": 106594,
+ "syncedAt": "2026-11-23T19:56:43.519430Z",
  "playlists": [
   {
-   "playlistId": "PLLkUBUz5Ma94",
-   "title": "tempa ltd [sync]",
-   "trackCount": 275
+   "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
+   "title": "shit nai palm listens to (goated)",
+   "trackCount": 1173
+  },
+  {
+   "playlistId": "PLFW4KPMD27ek",
+   "title": "001 elsewhere",
+   "trackCount": 33
+  },
+  {
+   "playlistId": "PLZ3M7y8Ifh6o",
+   "title": "001 Pyaar Mood Ring",
+   "trackCount": 13
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1662
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs2JUKalJxhCTGM5NaFf0eBo",
+   "title": "PYAAR.Radio 001: Harini Iyer",
+   "trackCount": 84
   },
   {
    "playlistId": "PLIpg0r7aJSXc",
    "title": "perfectly imperfect sync [sync]",
-   "trackCount": 609
+   "trackCount": 1213
+  },
+  {
+   "playlistId": "PLBwo9IQKOV3U",
+   "title": "Nov 26",
+   "trackCount": 27
+  },
+  {
+   "playlistId": "PLLkUBUz5Ma94",
+   "title": "tempa ltd [sync]",
+   "trackCount": 275
   },
   {
    "playlistId": "PL6LTKg9AoNs3J1agKK84kYO_y77qFoF9k",
@@ -20,19 +50,9 @@
    "trackCount": 36
   },
   {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1661
-  },
-  {
    "playlistId": "PLS3nLk6Dv00s",
    "title": "001 double",
    "trackCount": 353
-  },
-  {
-   "playlistId": "PLBwo9IQKOV3U",
-   "title": "Nov 26",
-   "trackCount": 26
   },
   {
    "playlistId": "PLHIUKme9umic",
@@ -48,11 +68,6 @@
    "playlistId": "PLZ85-3ZydCf4",
    "title": "001 dance at Maria Hernandez",
    "trackCount": 3
-  },
-  {
-   "playlistId": "PLOLse_U6HeiI",
-   "title": "001 mood ring",
-   "trackCount": 1
   },
   {
    "playlistId": "PLC6KlEzkJR4Q",
@@ -205,11 +220,6 @@
    "trackCount": 12
   },
   {
-   "playlistId": "PL6LTKg9AoNs2JUKalJxhCTGM5NaFf0eBo",
-   "title": "PYAAR.Radio 001: Harini Iyer",
-   "trackCount": 79
-  },
-  {
    "playlistId": "PLc2jOfdcUsCA",
    "title": "Oct 26",
    "trackCount": 19
@@ -247,7 +257,7 @@
   {
    "playlistId": "PLQIQjAmU8X2Q",
    "title": "[sync][Mala]",
-   "trackCount": 429
+   "trackCount": 424
   },
   {
    "playlistId": "PLT-9vf1HmJig",
@@ -422,7 +432,7 @@
   {
    "playlistId": "PLJToNB1tqeuw",
    "title": "9laad:Electronica",
-   "trackCount": 496
+   "trackCount": 491
   },
   {
    "playlistId": "PLHoSQ5-c6fjc",
@@ -545,11 +555,6 @@
    "trackCount": 36
   },
   {
-   "playlistId": "PLPNa6b49-GLM",
-   "title": "001 zone one",
-   "trackCount": 2
-  },
-  {
    "playlistId": "PL6LTKg9AoNs2Rj5ZS2Y82sWf9eAzS1Wnh",
    "title": "PANDO [deep earthy percussive connected dub] [pyaar radio]",
    "trackCount": 3
@@ -568,11 +573,6 @@
    "playlistId": "PLY-6YN2bm6GU",
    "title": "001 library jazz rock",
    "trackCount": 50
-  },
-  {
-   "playlistId": "PLZ3M7y8Ifh6o",
-   "title": "001 Pyaar Mood Ring",
-   "trackCount": 8
   },
   {
    "playlistId": "PLWGaVhzIrX9o",
@@ -622,7 +622,7 @@
   {
    "playlistId": "PLZ_kZR08Pzmk",
    "title": "Pool Party: 90s/2000s Bangers",
-   "trackCount": 294
+   "trackCount": 0
   },
   {
    "playlistId": "PLEAgKYMfcO1k",
@@ -657,7 +657,7 @@
   {
    "playlistId": "PL6LTKg9AoNs25WNY0oVPk8m-4-6_t0f2W",
    "title": "KALKI (future carnatic) [pyaar radio]",
-   "trackCount": 102
+   "trackCount": 101
   },
   {
    "playlistId": "PL6LTKg9AoNs1tr_ZX2hISPC0OKuBXGRGF",
@@ -1217,12 +1217,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 3339
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
-   "title": "shit nai palm listens to (goated)",
-   "trackCount": 1169
+   "trackCount": 300
   },
   {
    "playlistId": "PL6LTKg9AoNs2gw5Jhv28WiCgvDKFN-wgm",
@@ -1232,7 +1227,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 1314
+   "trackCount": 700
   },
   {
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
@@ -1242,7 +1237,7 @@
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
    "title": "Four Tet's Crate (goated) ",
-   "trackCount": 0
+   "trackCount": 4998
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
@@ -1267,7 +1262,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1a_TaLLwgvpoSQOJtPmFjs",
    "title": "SOULECTION TRACKLIST (Updated Regularly)",
-   "trackCount": 0
+   "trackCount": 4397
   },
   {
    "playlistId": "PL6LTKg9AoNs2F74m7N0Mc-TLGH0Y4rBmI",
@@ -1277,7 +1272,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
    "title": "brando's (speakeasy tunes) (goated)",
-   "trackCount": 2446
+   "trackCount": 300
   },
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",
@@ -1738,11 +1733,6 @@
    "playlistId": "PL6LTKg9AoNs1fd9h9CXBvERvu2TfudM_I",
    "title": "Mridangam Lab",
    "trackCount": 1
-  },
-  {
-   "playlistId": "SE",
-   "title": "Episodes for Later",
-   "trackCount": 0
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "playlistId": "PLZ3M7y8Ifh6o",
  "title": "001 Pyaar Mood Ring",
- "trackCount": 8,
- "syncedAt": "2026-11-22T16:00:32.211551Z",
+ "trackCount": 13,
+ "syncedAt": "2026-11-23T19:56:43.519430Z",
  "tracks": [
   {
    "title": "Star (feat. Mono/Poly & Tanerélle)",
@@ -59,6 +59,41 @@
    "album": "Mala in Cuba",
    "videoId": "bK6Hq6Xyv-g",
    "duration": "4:24"
+  },
+  {
+   "title": "So U Kno",
+   "artist": "Overmono",
+   "album": "Good Lies",
+   "videoId": "9NiJF638E2k",
+   "duration": "5:44"
+  },
+  {
+   "title": "MR. SANDMAN",
+   "artist": "Oppidan",
+   "album": "MR. SANDMAN",
+   "videoId": "lfaE_O6KNNU",
+   "duration": "2:26"
+  },
+  {
+   "title": "SOS",
+   "artist": "Little Simz",
+   "album": "Drop 7",
+   "videoId": "rZePCLFJHg0",
+   "duration": "3:03"
+  },
+  {
+   "title": "DEIXA O MEU BEST VIVER",
+   "artist": "DJ Lycox",
+   "album": "DEIXA O MEU BEST VIVER",
+   "videoId": "sI3jPnSY6yM",
+   "duration": "2:32"
+  },
+  {
+   "title": "Deewana Deewana",
+   "artist": "Anish Kumar",
+   "album": "Deewana Deewana",
+   "videoId": "NTxojXpx-_k",
+   "duration": "5:43"
   }
  ]
 }

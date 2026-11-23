@@ -1,9 +1,15 @@
 {
  "account": "Pyaar.Records",
- "albumCount": 3696,
- "totalTracks": 46671,
- "syncedAt": "2026-11-22T16:00:28.110336Z",
+ "albumCount": 3697,
+ "totalTracks": 46686,
+ "syncedAt": "2026-11-23T19:56:39.894330Z",
  "albums": [
+  {
+   "browseId": "MPREb_yf5tquC38GF",
+   "title": "A Rush To Nowhere",
+   "artist": "Arima Ederra",
+   "trackCount": 15
+  },
   {
    "browseId": "MPREb_Q80mMGLATFQ",
    "title": "Singles",
