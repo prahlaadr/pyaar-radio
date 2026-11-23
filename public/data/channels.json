@@ -261,6 +261,15 @@
       "kind": "artist",
       "synced": true,
       "source": "crate-maker"
+    },
+    {
+      "id": "nai-palm-listens",
+      "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
+      "name": "Nai Palm listens to",
+      "blurb": "What Nai Palm (Hiatus Kaiyote) listens to: soul, jazz, global digging (topped up from Spotify)",
+      "kind": "artist",
+      "synced": false,
+      "source": "manual"
     }
   ]
 }
