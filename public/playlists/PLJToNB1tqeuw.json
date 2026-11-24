@@ -1,8 +1,8 @@
 {
  "playlistId": "PLJToNB1tqeuw",
  "title": "9laad:Electronica",
- "trackCount": 491,
- "syncedAt": "2026-11-23T19:56:43.519430Z",
+ "trackCount": 496,
+ "syncedAt": "2026-11-24T19:25:47.022852Z",
  "tracks": [
   {
    "title": "Angel Echoes",
@@ -1069,6 +1069,13 @@
    "duration": "2:23"
   },
   {
+   "title": "Fake Life",
+   "artist": "Vegyn",
+   "album": "Only Diamonds Cut Diamonds",
+   "videoId": "D-opPvh-dbA",
+   "duration": "3:15"
+  },
+  {
    "title": "Turn Me Inside (feat. Léa Sen)",
    "artist": "Vegyn",
    "album": "The Road To Hell Is Paved With Good Intentions",
@@ -1081,6 +1088,13 @@
    "album": "Only Diamonds Cut Diamonds",
    "videoId": "fckA-qS6qUc",
    "duration": "2:44"
+  },
+  {
+   "title": "Like A Good Old Friend",
+   "artist": "Vegyn",
+   "album": "Like A Good Old Friend",
+   "videoId": "Yfoq0iwu40U",
+   "duration": "3:39"
   },
   {
    "title": "Nauseous / Devilish (feat. JPEGMAFIA)",
@@ -1137,6 +1151,13 @@
    "album": "Affection",
    "videoId": "OggeyD5qb28",
    "duration": "3:41"
+  },
+  {
+   "title": "Never Is the Change",
+   "artist": "Bullion",
+   "album": "Loop the Loop",
+   "videoId": "ECv7_mZ55qA",
+   "duration": "3:50"
   },
   {
    "title": "Heaven Is Over",
@@ -1235,6 +1256,13 @@
    "album": "Honest Labour",
    "videoId": "PIdQRAxWjdk",
    "duration": "2:01"
+  },
+  {
+   "title": "Preparing the Perfect Response ~",
+   "artist": "Space Afrika",
+   "album": "Honest Labour",
+   "videoId": "0mjgNT5Sbmo",
+   "duration": "2:27"
   },
   {
    "title": "Rings (feat. guest)",
@@ -1368,6 +1396,13 @@
    "album": "The Campfire Headphase",
    "videoId": "muQp6XK_uZM",
    "duration": "6:05"
+  },
+  {
+   "title": "Everything You Do Is A Balloon",
+   "artist": "Boards of Canada",
+   "album": "Hi Scores",
+   "videoId": "5_KKJmEY2PU",
+   "duration": "7:00"
   },
   {
    "title": "Aquarius",

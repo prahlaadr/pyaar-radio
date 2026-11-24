@@ -1,9 +1,19 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 346,
- "totalTracks": 106594,
- "syncedAt": "2026-11-23T19:56:43.519430Z",
+ "playlistCount": 347,
+ "totalTracks": 113322,
+ "syncedAt": "2026-11-24T19:25:47.022852Z",
  "playlists": [
+  {
+   "playlistId": "PLHac1GMgVEJ0",
+   "title": "001 140",
+   "trackCount": 22
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1666
+  },
   {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
    "title": "shit nai palm listens to (goated)",
@@ -18,11 +28,6 @@
    "playlistId": "PLZ3M7y8Ifh6o",
    "title": "001 Pyaar Mood Ring",
    "trackCount": 13
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1662
   },
   {
    "playlistId": "PL6LTKg9AoNs2JUKalJxhCTGM5NaFf0eBo",
@@ -257,7 +262,7 @@
   {
    "playlistId": "PLQIQjAmU8X2Q",
    "title": "[sync][Mala]",
-   "trackCount": 424
+   "trackCount": 429
   },
   {
    "playlistId": "PLT-9vf1HmJig",
@@ -432,7 +437,7 @@
   {
    "playlistId": "PLJToNB1tqeuw",
    "title": "9laad:Electronica",
-   "trackCount": 491
+   "trackCount": 496
   },
   {
    "playlistId": "PLHoSQ5-c6fjc",
@@ -622,7 +627,7 @@
   {
    "playlistId": "PLZ_kZR08Pzmk",
    "title": "Pool Party: 90s/2000s Bangers",
-   "trackCount": 0
+   "trackCount": 294
   },
   {
    "playlistId": "PLEAgKYMfcO1k",
@@ -1217,7 +1222,7 @@
   {
    "playlistId": "PL6LTKg9AoNs2DrAquv_idEAhv9CgIU00s",
    "title": "Four tet’s crate (goated)",
-   "trackCount": 300
+   "trackCount": 3339
   },
   {
    "playlistId": "PL6LTKg9AoNs2gw5Jhv28WiCgvDKFN-wgm",
@@ -1227,7 +1232,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 700
+   "trackCount": 1314
   },
   {
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
@@ -1262,7 +1267,7 @@
   {
    "playlistId": "PL6LTKg9AoNs1a_TaLLwgvpoSQOJtPmFjs",
    "title": "SOULECTION TRACKLIST (Updated Regularly)",
-   "trackCount": 4397
+   "trackCount": 4996
   },
   {
    "playlistId": "PL6LTKg9AoNs2F74m7N0Mc-TLGH0Y4rBmI",
@@ -1272,7 +1277,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
    "title": "brando's (speakeasy tunes) (goated)",
-   "trackCount": 300
+   "trackCount": 2446
   },
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",

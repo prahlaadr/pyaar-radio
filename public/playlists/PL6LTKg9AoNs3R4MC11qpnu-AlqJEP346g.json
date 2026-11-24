@@ -1,9 +1,37 @@
 {
  "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
  "title": "trivia night ",
- "trackCount": 1662,
- "syncedAt": "2026-11-23T19:56:43.519430Z",
+ "trackCount": 1666,
+ "syncedAt": "2026-11-24T19:25:47.022852Z",
  "tracks": [
+  {
+   "title": "Mr Wrong",
+   "artist": "Sade",
+   "album": "Promise",
+   "videoId": "NFgFnQP9UiU",
+   "duration": "2:52"
+  },
+  {
+   "title": "Heavy Metal Drummer",
+   "artist": "Wilco",
+   "album": "Yankee Hotel Foxtrot",
+   "videoId": "yeuIQFF7z6E",
+   "duration": "3:09"
+  },
+  {
+   "title": "Hush Money",
+   "artist": "Blue Iverson",
+   "album": "Hotep",
+   "videoId": "3rzHVQ3ueyE",
+   "duration": "1:43"
+  },
+  {
+   "title": "Ode To The Mets",
+   "artist": "The Strokes",
+   "album": "The New Abnormal",
+   "videoId": "CU0i9W_XkDI",
+   "duration": "5:52"
+  },
   {
    "title": "Liberian Girl (2012 Remastered Version)",
    "artist": "Michael Jackson",

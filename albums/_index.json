@@ -1,9 +1,15 @@
 {
  "account": "Pyaar.Records",
  "albumCount": 3697,
- "totalTracks": 46686,
- "syncedAt": "2026-11-23T19:56:39.894330Z",
+ "totalTracks": 46679,
+ "syncedAt": "2026-11-24T19:25:44.116033Z",
  "albums": [
+  {
+   "browseId": "MPREb_4cZSOF5h4Zf",
+   "title": "SANGURAL",
+   "artist": "KARAN!",
+   "trackCount": 5
+  },
   {
    "browseId": "MPREb_yf5tquC38GF",
    "title": "A Rush To Nowhere",
@@ -3033,12 +3039,6 @@
    "title": "BLK VINTAGE",
    "artist": "BLK ODYSSY",
    "trackCount": 10
-  },
-  {
-   "browseId": "MPREb_kvyGrmU6IrU",
-   "title": "Regrowth",
-   "artist": "Sampology",
-   "trackCount": 12
   },
   {
    "browseId": "MPREb_QbJAs8S2M5Q",
