@@ -1,6 +1,24 @@
 {
-  "syncedAt": "2026-11-24T19:25:11Z",
+  "syncedAt": "2026-11-25T18:31:00Z",
   "shows": [
+    {
+      "alias": "loraine-james",
+      "name": "Loraine James",
+      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/loraine-james"
+    },
+    {
+      "alias": "soup-to-nuts-anu",
+      "name": "Soup To Nuts w/ Anu",
+      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
+    },
     {
       "alias": "the-nts-guide-to",
       "name": "NTS Guide to…",
@@ -45,15 +63,6 @@
         "uk dance / grime"
       ],
       "url": "https://www.nts.live/shows/abby-imperial"
-    },
-    {
-      "alias": "soup-to-nuts-anu",
-      "name": "Soup To Nuts w/ Anu",
-      "description": "Listen in for positivity and light as Anu broadcasts through the afternoon.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/84eb325d-e617-4f04-955b-32d310a3d3ca_1774310400.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/soup-to-nuts-anu"
     },
     {
       "alias": "yu-su",
@@ -111,15 +120,6 @@
       "image": "https://media2.ntslive.co.uk/resize/1600x1600/9b362e2e-a0e8-4006-addd-476fe296bf10_1781568000.jpeg",
       "ntsGenres": [],
       "url": "https://www.nts.live/shows/tommasi"
-    },
-    {
-      "alias": "loraine-james",
-      "name": "Loraine James",
-      "description": "North London native and Hyperdub signee Loraine James is an electronic producer who effortlessly blends Electronica and IDM with whispers of jazz and ambience all wrapped up in the artists key avant-garde aesthetic and sensibility.",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/94fd86e3-a6e4-45be-8b24-4e900b15f6dc_1593475200.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/loraine-james"
     },
     {
       "alias": "nabihah-iqbal",
