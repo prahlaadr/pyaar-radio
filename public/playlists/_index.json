@@ -1,9 +1,14 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 347,
- "totalTracks": 113322,
- "syncedAt": "2026-11-24T19:25:47.022852Z",
+ "playlistCount": 348,
+ "totalTracks": 108094,
+ "syncedAt": "2026-11-25T18:31:34.890736Z",
  "playlists": [
+  {
+   "playlistId": "PLGhKw-pmfzEU",
+   "title": "P296 - Greek/Roman Gods (Trivia M/D)",
+   "trackCount": 33
+  },
   {
    "playlistId": "PLHac1GMgVEJ0",
    "title": "001 140",
@@ -1232,17 +1237,17 @@
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 1314
+   "trackCount": 900
   },
   {
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
    "title": "SNAPS & DRUMS",
-   "trackCount": 244
+   "trackCount": 0
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
    "title": "Four Tet's Crate (goated) ",
-   "trackCount": 4998
+   "trackCount": 400
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
@@ -1277,7 +1282,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
    "title": "brando's (speakeasy tunes) (goated)",
-   "trackCount": 2446
+   "trackCount": 2441
   },
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",
