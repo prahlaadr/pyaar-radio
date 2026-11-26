@@ -1,9 +1,14 @@
 {
  "account": "Pyaar.Records",
- "playlistCount": 348,
- "totalTracks": 108094,
- "syncedAt": "2026-11-25T18:31:34.890736Z",
+ "playlistCount": 349,
+ "totalTracks": 113379,
+ "syncedAt": "2026-11-26T18:13:35.586834Z",
  "playlists": [
+  {
+   "playlistId": "PLHYA-TcMSaOM",
+   "title": "Z265 - Oh Joy (Trivia 11/25)",
+   "trackCount": 29
+  },
   {
    "playlistId": "PLGhKw-pmfzEU",
    "title": "P296 - Greek/Roman Gods (Trivia M/D)",
@@ -327,7 +332,7 @@
   {
    "playlistId": "PLXIiwFmWNqI8",
    "title": "Despacio",
-   "trackCount": 433
+   "trackCount": 428
   },
   {
    "playlistId": "PLehKQN7HlLY0",
@@ -1237,17 +1242,17 @@
   {
    "playlistId": "PL6LTKg9AoNs0pURIu0WuzJj-1XNaOb0eS",
    "title": "RA 2024-2000 Resident Advisor's Best/Top Tracks (ALL TIME) 🎛️",
-   "trackCount": 900
+   "trackCount": 1314
   },
   {
    "playlistId": "PL6LTKg9AoNs32Y3TQbJNTY7xLsEadqAZD",
    "title": "SNAPS & DRUMS",
-   "trackCount": 0
+   "trackCount": 244
   },
   {
    "playlistId": "PL6LTKg9AoNs12DNlVGvwJyUxFMrNM4gWA",
    "title": "Four Tet's Crate (goated) ",
-   "trackCount": 400
+   "trackCount": 4998
   },
   {
    "playlistId": "PL6LTKg9AoNs1SgeQ0GgMfun3w2ilkNq9J",
@@ -1282,7 +1287,7 @@
   {
    "playlistId": "PL6LTKg9AoNs0zbKZqQ-C1ygYlI0n1y9Io",
    "title": "brando's (speakeasy tunes) (goated)",
-   "trackCount": 2441
+   "trackCount": 2446
   },
   {
    "playlistId": "PL6LTKg9AoNs206B-MSAI9qqgZs9dajA4Y",
