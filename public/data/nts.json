@@ -1,6 +1,26 @@
 {
-  "syncedAt": "2026-11-25T18:31:00Z",
+  "syncedAt": "2026-11-26T18:13:49Z",
   "shows": [
+    {
+      "alias": "nabihah-iqbal",
+      "name": "Nabihah Iqbal",
+      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
+      "location": "London",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
+      "ntsGenres": [],
+      "url": "https://www.nts.live/shows/nabihah-iqbal"
+    },
+    {
+      "alias": "otaku",
+      "name": "Otaku",
+      "description": "Anime and video game soundtrack music from across the decades.",
+      "location": "",
+      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4f50e8bb-3fac-474e-bc59-7736dfa7ac3d_1657584000.jpeg",
+      "ntsGenres": [
+        "other"
+      ],
+      "url": "https://www.nts.live/shows/otaku"
+    },
     {
       "alias": "loraine-james",
       "name": "Loraine James",
@@ -122,15 +142,6 @@
       "url": "https://www.nts.live/shows/tommasi"
     },
     {
-      "alias": "nabihah-iqbal",
-      "name": "Nabihah Iqbal",
-      "description": "London-based DJ and producer Nabihah Iqbal (formerly known as Throwing Shade) brings you an ethnomusicological perspective on weird and wonderful music from around the world. Expect regular themed special episode; a good dose of history, and above all, good music to broaden your horizons. Monthly, 2-4pm. You can listen back to previous Throwing Shade episodes here",
-      "location": "London",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/a969ace0-5029-4b83-b565-3439c1b8f699_1778284800.jpeg",
-      "ntsGenres": [],
-      "url": "https://www.nts.live/shows/nabihah-iqbal"
-    },
-    {
       "alias": "homeshake",
       "name": "Homeshake",
       "description": "Cheeky slacker selections from everyone's favourite - Homeshake. Kick back.",
@@ -154,17 +165,6 @@
         "house / techno"
       ],
       "url": "https://www.nts.live/shows/sendspaace"
-    },
-    {
-      "alias": "otaku",
-      "name": "Otaku",
-      "description": "Anime and video game soundtrack music from across the decades.",
-      "location": "",
-      "image": "https://media2.ntslive.co.uk/resize/1600x1600/4f50e8bb-3fac-474e-bc59-7736dfa7ac3d_1657584000.jpeg",
-      "ntsGenres": [
-        "other"
-      ],
-      "url": "https://www.nts.live/shows/otaku"
     },
     {
       "alias": "coltrane-day",
