@@ -95,10 +95,11 @@
       "id": "ilaiyaraaja",
       "playlistId": "PLebkTVjZdYBE",
       "name": "Ilaiyaraaja",
-      "blurb": "Tracks Ilaiyaraaja plays out (inspo set, via Crate Maker)",
+      "blurb": "The Maestro: 292 tracks (Crate Maker)",
       "kind": "artist",
       "synced": true,
-      "source": "crate-maker"
+      "source": "crate-maker",
+      "parent": "view-tamil"
     },
     {
       "id": "ivy-lab",
@@ -284,14 +285,6 @@
       "blurb": "Tamil film and independent music",
       "kind": "view",
       "route": "/tamil"
-    },
-    {
-      "id": "view-ilaiyaraaja",
-      "name": "Ilaiyaraaja",
-      "blurb": "The Maestro, within Tamil",
-      "kind": "view",
-      "route": "/tamil/ilaiyaraaja",
-      "parent": "view-tamil"
     }
   ]
 }

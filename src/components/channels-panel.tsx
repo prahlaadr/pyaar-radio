@@ -132,14 +132,17 @@ export function ChannelsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
           <div className="text-[10px] uppercase tracking-wider text-[#555] mb-2">Views</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {views.filter((v) => !v.parent).map((v) => {
-              const kids = views.filter((c) => c.parent === v.id);
+              const kids = channels.filter((c) => c.parent === v.id);
               return (
                 <div key={v.id} className="p-4 bg-[#0d0d0d] border border-[#1c1c1c]">
                   <a href={v.route} className="text-sm text-white hover:text-red-500 transition-colors">{v.name} →</a>
                   {v.blurb && <div className="text-[11px] text-[#888] mt-1 leading-snug">{v.blurb}</div>}
                   {kids.length > 0 && (
                     <div className="mt-2 flex flex-wrap gap-1.5">
-                      {kids.map((k) => (
+                      {kids.map((k) => k.playlistId ? (
+                        <button key={k.id} onClick={() => open(k)} title={k.blurb}
+                          className="text-[10px] uppercase tracking-wider text-[#888] hover:text-white bg-[#161616] px-2 py-0.5 transition-colors">{k.name}</button>
+                      ) : (
                         <a key={k.id} href={k.route} title={k.blurb}
                           className="text-[10px] uppercase tracking-wider text-[#888] hover:text-white bg-[#161616] px-2 py-0.5 transition-colors">{k.name} →</a>
                       ))}
@@ -156,7 +159,7 @@ export function ChannelsPanel({ onPlay }: { onPlay: (t: Track) => void }) {
         Explore songs in each channel · ♥ adds to Liked
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {playlists.map((ch) => (
+        {playlists.filter((ch) => !ch.parent).map((ch) => (
           <button key={ch.id} onClick={() => open(ch)}
             className="text-left p-4 bg-[#0d0d0d] border border-[#1c1c1c] hover:border-[#444] transition-colors">
             <div className="text-sm text-white">
