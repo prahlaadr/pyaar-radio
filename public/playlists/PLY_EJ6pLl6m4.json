@@ -2,7 +2,7 @@
  "playlistId": "PLY_EJ6pLl6m4",
  "title": "[sync][Bonobo]",
  "trackCount": 1053,
- "syncedAt": "2026-11-26T18:13:35.586834Z",
+ "syncedAt": "2026-11-27T17:56:23.991757Z",
  "tracks": [
   {
    "title": "1000 Seconds",
@@ -7006,8 +7006,8 @@
   },
   {
    "title": "We Are Fine",
-   "artist": "Sharon Van Etten - Topic",
-   "album": "",
+   "artist": "Sharon Van Etten",
+   "album": "Tramp",
    "videoId": "KrT9bUOf7xI",
    "duration": "3:50"
   },
@@ -7062,8 +7062,8 @@
   },
   {
    "title": "Werk",
-   "artist": "Jackmate - Topic",
-   "album": "",
+   "artist": "Jackmate",
+   "album": "Werk",
    "videoId": "9Cveo5u37_I",
    "duration": "4:42"
   },
@@ -7139,15 +7139,15 @@
   },
   {
    "title": "White Christmas",
-   "artist": "Billie Marten - Topic",
-   "album": "",
+   "artist": "Billie Marten",
+   "album": "White Christmas",
    "videoId": "cuWzGuT8_aQ",
    "duration": "2:33"
   },
   {
-   "title": "Healthy Love",
-   "artist": "Robyn - Topic",
-   "album": "",
+   "title": "Healthy Love (feat. Cindy)",
+   "artist": "Robyn",
+   "album": "My Truth",
    "videoId": "nRkOF4covJM",
    "duration": "4:40"
   },
@@ -7160,8 +7160,8 @@
   },
   {
    "title": "Why? (DJ Seinfeld Remix)",
-   "artist": "Model Man - Topic",
-   "album": "",
+   "artist": "Model Man;DJ Seinfeld",
+   "album": "Why? (DJ Seinfeld Remix)",
    "videoId": "aSw-n3EAX5A",
    "duration": "4:21"
   },
@@ -7209,8 +7209,8 @@
   },
   {
    "title": "Winter turn spring",
-   "artist": "Release - Topic",
-   "album": "",
+   "artist": "Juk Juk",
+   "album": "Winter Turn Spring",
    "videoId": "HsuoKppcL4A",
    "duration": "6:13"
   },
@@ -7244,8 +7244,8 @@
   },
   {
    "title": "Wrong Diagonal",
-   "artist": "Chaim - Topic",
-   "album": "",
+   "artist": "Chaim;Jenia Tarsol",
+   "album": "This Connection",
    "videoId": "5N_5d_1xSg0",
    "duration": "7:14"
   },
@@ -7314,15 +7314,15 @@
   },
   {
    "title": "You & I (Forever)",
-   "artist": "Jessie Ware - Topic",
-   "album": "",
+   "artist": "Jessie Ware",
+   "album": "Tough Love (Deluxe)",
    "videoId": "5ot4a4aW_js",
    "duration": "3:59"
   },
   {
    "title": "I feel",
-   "artist": "Kyle John Suckling - Topic",
-   "album": "",
+   "artist": "Kyle John Suckling",
+   "album": "i am a tree",
    "videoId": "HfYgzk3686o",
    "duration": "4:20"
   },
@@ -7342,8 +7342,8 @@
   },
   {
    "title": "Young Death",
-   "artist": "Burial - Topic",
-   "album": "",
+   "artist": "Burial",
+   "album": "Young Death / Nightmarket",
    "videoId": "a3b8YFmZnzA",
    "duration": "5:50"
   },

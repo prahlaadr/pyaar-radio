@@ -1,8 +1,8 @@
 {
  "playlistId": "PLXIiwFmWNqI8",
  "title": "Despacio",
- "trackCount": 428,
- "syncedAt": "2026-11-26T18:13:35.586834Z",
+ "trackCount": 433,
+ "syncedAt": "2026-11-27T17:56:23.991757Z",
  "tracks": [
   {
    "title": "Like An Eagle",
@@ -2819,6 +2819,13 @@
    "duration": "3:35"
   },
   {
+   "title": "Make Me Over",
+   "artist": "The Escorts",
+   "album": "The Escorts",
+   "videoId": "g371h8oElBE",
+   "duration": "7:09"
+  },
+  {
    "title": "A-Train",
    "artist": "The Flying Lizards",
    "album": "Fourth Wall",
@@ -2882,6 +2889,13 @@
    "duration": "4:20"
   },
   {
+   "title": "No One's Little Girl",
+   "artist": "The Raincoats",
+   "album": "Moving",
+   "videoId": "I6Gcia4ouKs",
+   "duration": "4:31"
+  },
+  {
    "title": "LOOK MY WAY",
    "artist": "THE VELS",
    "album": "VELOCITY",
@@ -2917,11 +2931,25 @@
    "duration": "5:35"
   },
   {
+   "title": "Don't Let Go",
+   "artist": "Tony Orlando",
+   "album": "Don't Let Go",
+   "videoId": "hxggWgQQn-g",
+   "duration": "8:32"
+  },
+  {
    "title": "Trance Encounters",
    "artist": "Tornado Wallace",
    "album": "Lonely Planet",
    "videoId": "1XCGBD6Kn6o",
    "duration": "5:20"
+  },
+  {
+   "title": "Da Da Da ich lieb dich nicht du liebst mich nicht aha aha aha (Remastered 2003)",
+   "artist": "Trio",
+   "album": "Trio (Deluxe Edition)",
+   "videoId": "ByxRYQ-DsLM",
+   "duration": "3:26"
   },
   {
    "title": "Computer World (2009 Remaster)",
@@ -2978,6 +3006,13 @@
    "album": "Reconnected Live",
    "videoId": "eeZfth8SUUo",
    "duration": "5:57"
+  },
+  {
+   "title": "Bostich (Remastered 2005)",
+   "artist": "Yello",
+   "album": "Solid Pleasure (Remastered 2005)",
+   "videoId": "_x4cyNhweJw",
+   "duration": "2:12"
   },
   {
    "title": "Strong Me Strong",
