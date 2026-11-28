@@ -1,9 +1,19 @@
 {
  "account": "Pyaar.Records",
  "playlistCount": 349,
- "totalTracks": 113384,
- "syncedAt": "2026-11-27T17:56:23.991757Z",
+ "totalTracks": 113386,
+ "syncedAt": "2026-11-28T16:42:58.205228Z",
  "playlists": [
+  {
+   "playlistId": "PLBwo9IQKOV3U",
+   "title": "Nov 26",
+   "trackCount": 28
+  },
+  {
+   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
+   "title": "trivia night ",
+   "trackCount": 1667
+  },
   {
    "playlistId": "PLHYA-TcMSaOM",
    "title": "Z265 - Oh Joy (Trivia 11/25)",
@@ -18,11 +28,6 @@
    "playlistId": "PLHac1GMgVEJ0",
    "title": "001 140",
    "trackCount": 22
-  },
-  {
-   "playlistId": "PL6LTKg9AoNs3R4MC11qpnu-AlqJEP346g",
-   "title": "trivia night ",
-   "trackCount": 1666
   },
   {
    "playlistId": "PL6LTKg9AoNs0x_q9VAKTmcInQQQTabnpW",
@@ -48,11 +53,6 @@
    "playlistId": "PLIpg0r7aJSXc",
    "title": "perfectly imperfect sync [sync]",
    "trackCount": 1213
-  },
-  {
-   "playlistId": "PLBwo9IQKOV3U",
-   "title": "Nov 26",
-   "trackCount": 27
   },
   {
    "playlistId": "PLLkUBUz5Ma94",
